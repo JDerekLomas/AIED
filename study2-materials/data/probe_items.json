@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "description": "Probe items designed to elicit specific misconceptions from LLM synthetic students",
+    "version": "1.0",
+    "created": "2026-01-26",
+    "total_items": 50,
+    "misconceptions": 10,
+    "items_per_misconception": 5
+  },
+  "misconceptions": [
+    {
+      "id": "PROC_ORDER_OPS",
+      "name": "Carries out operations from left to right regardless of priority order",
+      "category": "Procedural",
+      "items": [
+        {
+          "item_id": "PROC_ORDER_OPS_01",
+          "question": "Calculate: 5 + 3 × 2",
+          "options": {"A": "16", "B": "11", "C": "13", "D": "10"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student adds 5+3=8 first, then multiplies 8×2=16"
+        },
+        {
+          "item_id": "PROC_ORDER_OPS_02",
+          "question": "What is 12 - 4 × 2?",
+          "options": {"A": "16", "B": "4", "C": "8", "D": "20"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student subtracts 12-4=8 first, then multiplies 8×2=16"
+        },
+        {
+          "item_id": "PROC_ORDER_OPS_03",
+          "question": "Evaluate: 2 + 6 ÷ 2",
+          "options": {"A": "4", "B": "5", "C": "8", "D": "3"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student adds 2+6=8 first, then divides 8÷2=4"
+        },
+        {
+          "item_id": "PROC_ORDER_OPS_04",
+          "question": "Calculate: 10 - 2 + 3 × 2",
+          "options": {"A": "22", "B": "14", "C": "12", "D": "16"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student goes left to right: 10-2=8, 8+3=11, 11×2=22"
+        },
+        {
+          "item_id": "PROC_ORDER_OPS_05",
+          "question": "What is 20 ÷ 4 + 1 × 3?",
+          "options": {"A": "18", "B": "8", "C": "12", "D": "6"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 20÷4=5, 5+1=6, 6×3=18"
+        }
+      ]
+    },
+    {
+      "id": "CONC_MULT_INCREASE",
+      "name": "Believes multiplying always makes the number bigger",
+      "category": "Conceptual",
+      "items": [
+        {
+          "item_id": "CONC_MULT_INCREASE_01",
+          "question": "Which is larger: 8 or 8 × 0.5?",
+          "options": {"A": "8 × 0.5", "B": "8", "C": "They are equal", "D": "Cannot tell"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student thinks multiplication makes things bigger, so 8×0.5 > 8"
+        },
+        {
+          "item_id": "CONC_MULT_INCREASE_02",
+          "question": "If you multiply 12 by 1/3, the result is:",
+          "options": {"A": "Larger than 12", "B": "Equal to 12", "C": "Smaller than 12", "D": "Cannot determine"},
+          "correct": "C",
+          "target_distractor": "A",
+          "target_reasoning": "Student believes multiplication always increases"
+        },
+        {
+          "item_id": "CONC_MULT_INCREASE_03",
+          "question": "Which expression gives the largest result? All start with 10.",
+          "options": {"A": "10 × 0.1", "B": "10 × 2", "C": "10 ÷ 2", "D": "10 × 0.5"},
+          "correct": "B",
+          "target_distractor": "D",
+          "target_reasoning": "Student might pick ×0.5 thinking multiplication > division"
+        },
+        {
+          "item_id": "CONC_MULT_INCREASE_04",
+          "question": "James has 20 cookies. He gives away 20 × 0.25 of them. How many does he give away?",
+          "options": {"A": "25", "B": "5", "C": "15", "D": "8"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student thinks 20×0.25 must be more than 20"
+        },
+        {
+          "item_id": "CONC_MULT_INCREASE_05",
+          "question": "0.5 × 0.5 = ?",
+          "options": {"A": "0.25", "B": "1", "C": "0.5", "D": "2.5"},
+          "correct": "A",
+          "target_distractor": "B",
+          "target_reasoning": "Student expects multiplication to give something ≥ both factors"
+        }
+      ]
+    },
+    {
+      "id": "CONC_FRAC_DENOM",
+      "name": "Believes larger denominator means larger fraction",
+      "category": "Conceptual",
+      "items": [
+        {
+          "item_id": "CONC_FRAC_DENOM_01",
+          "question": "Which fraction is larger: 1/3 or 1/5?",
+          "options": {"A": "1/5", "B": "1/3", "C": "They are equal", "D": "Cannot compare"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student thinks 5 > 3, so 1/5 > 1/3"
+        },
+        {
+          "item_id": "CONC_FRAC_DENOM_02",
+          "question": "Put in order from smallest to largest: 1/2, 1/4, 1/8",
+          "options": {"A": "1/8, 1/4, 1/2", "B": "1/2, 1/4, 1/8", "C": "1/4, 1/2, 1/8", "D": "1/2, 1/8, 1/4"},
+          "correct": "A",
+          "target_distractor": "B",
+          "target_reasoning": "Student orders by denominator size ascending"
+        },
+        {
+          "item_id": "CONC_FRAC_DENOM_03",
+          "question": "Which is greater: 2/5 or 2/7?",
+          "options": {"A": "2/7", "B": "2/5", "C": "They are equal", "D": "Need more information"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student thinks 7 > 5, so 2/7 > 2/5"
+        },
+        {
+          "item_id": "CONC_FRAC_DENOM_04",
+          "question": "Sarah ate 1/6 of a pizza. Tom ate 1/4 of the same pizza. Who ate more?",
+          "options": {"A": "Sarah", "B": "Tom", "C": "They ate the same", "D": "Cannot determine"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student thinks 6 > 4 means Sarah's piece is bigger"
+        },
+        {
+          "item_id": "CONC_FRAC_DENOM_05",
+          "question": "Which fraction is closest to 1: 3/4 or 5/8?",
+          "options": {"A": "5/8", "B": "3/4", "C": "They are equally close", "D": "Neither is close to 1"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student might think 8 > 4 means 5/8 is larger/closer to 1"
+        }
+      ]
+    },
+    {
+      "id": "PROC_SUBTRACT_REVERSE",
+      "name": "Subtracts smaller digit from larger in each column regardless of position",
+      "category": "Procedural",
+      "items": [
+        {
+          "item_id": "PROC_SUBTRACT_REVERSE_01",
+          "question": "Calculate: 52 - 37",
+          "options": {"A": "25", "B": "15", "C": "85", "D": "19"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 7-2=5, 5-3=2, answer=25"
+        },
+        {
+          "item_id": "PROC_SUBTRACT_REVERSE_02",
+          "question": "What is 83 - 45?",
+          "options": {"A": "42", "B": "38", "C": "48", "D": "62"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 5-3=2, 8-4=4, answer=42"
+        },
+        {
+          "item_id": "PROC_SUBTRACT_REVERSE_03",
+          "question": "Calculate: 71 - 29",
+          "options": {"A": "58", "B": "42", "C": "52", "D": "48"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 9-1=8, 7-2=5, answer=58"
+        },
+        {
+          "item_id": "PROC_SUBTRACT_REVERSE_04",
+          "question": "What is 64 - 38?",
+          "options": {"A": "34", "B": "26", "C": "32", "D": "36"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 8-4=4, 6-3=3, answer=34"
+        },
+        {
+          "item_id": "PROC_SUBTRACT_REVERSE_05",
+          "question": "Calculate: 90 - 53",
+          "options": {"A": "43", "B": "37", "C": "47", "D": "63"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student: 3-0=3, 9-5=4, answer=43"
+        }
+      ]
+    },
+    {
+      "id": "CONC_AREA_PERIMETER",
+      "name": "Confuses area and perimeter formulas",
+      "category": "Conceptual",
+      "items": [
+        {
+          "item_id": "CONC_AREA_PERIMETER_01",
+          "question": "A rectangle has length 6cm and width 4cm. What is its perimeter?",
+          "options": {"A": "24cm", "B": "20cm", "C": "10cm", "D": "48cm"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates area (6×4=24) instead of perimeter"
+        },
+        {
+          "item_id": "CONC_AREA_PERIMETER_02",
+          "question": "A square has sides of 5m. What is its area?",
+          "options": {"A": "20m²", "B": "25m²", "C": "10m²", "D": "15m²"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates perimeter (4×5=20) instead of area"
+        },
+        {
+          "item_id": "CONC_AREA_PERIMETER_03",
+          "question": "A rectangle is 8m long and 3m wide. What is its area?",
+          "options": {"A": "22m²", "B": "24m²", "C": "11m²", "D": "32m²"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates perimeter (2×(8+3)=22) instead of area"
+        },
+        {
+          "item_id": "CONC_AREA_PERIMETER_04",
+          "question": "A square garden has a perimeter of 36m. What is the length of one side?",
+          "options": {"A": "6m", "B": "9m", "C": "18m", "D": "12m"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student might confuse and calculate √36=6"
+        },
+        {
+          "item_id": "CONC_AREA_PERIMETER_05",
+          "question": "To fence a rectangular field 10m by 7m, how much fencing is needed?",
+          "options": {"A": "70m", "B": "34m", "C": "17m", "D": "27m"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates area (10×7=70) thinking it's fencing"
+        }
+      ]
+    },
+    {
+      "id": "PROC_DECIMAL_PLACE",
+      "name": "Ignores decimal point when comparing or calculating",
+      "category": "Procedural",
+      "items": [
+        {
+          "item_id": "PROC_DECIMAL_PLACE_01",
+          "question": "Which is larger: 0.5 or 0.25?",
+          "options": {"A": "0.25", "B": "0.5", "C": "They are equal", "D": "Cannot compare"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student compares 25 > 5, so 0.25 > 0.5"
+        },
+        {
+          "item_id": "PROC_DECIMAL_PLACE_02",
+          "question": "Order from smallest to largest: 0.3, 0.15, 0.8",
+          "options": {"A": "0.3, 0.15, 0.8", "B": "0.15, 0.3, 0.8", "C": "0.8, 0.3, 0.15", "D": "0.15, 0.8, 0.3"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student orders by number of digits or ignores decimal"
+        },
+        {
+          "item_id": "PROC_DECIMAL_PLACE_03",
+          "question": "Which is smaller: 0.7 or 0.09?",
+          "options": {"A": "0.7", "B": "0.09", "C": "They are equal", "D": "Cannot tell"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student compares 7 > 9, so 0.7 is smaller"
+        },
+        {
+          "item_id": "PROC_DECIMAL_PLACE_04",
+          "question": "0.4 + 0.15 = ?",
+          "options": {"A": "0.19", "B": "0.55", "C": "1.9", "D": "4.15"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student adds 4+15=19, writes 0.19"
+        },
+        {
+          "item_id": "PROC_DECIMAL_PLACE_05",
+          "question": "What is 1.2 × 0.3?",
+          "options": {"A": "3.6", "B": "0.36", "C": "0.036", "D": "36"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates 12×3=36, places decimal wrong"
+        }
+      ]
+    },
+    {
+      "id": "INTERP_GRAPH_AXES",
+      "name": "Reads wrong axis or swaps x and y values",
+      "category": "Interpretive",
+      "items": [
+        {
+          "item_id": "INTERP_GRAPH_AXES_01",
+          "question": "On a graph, point P is at (3, 7). What is the y-coordinate of P?",
+          "options": {"A": "3", "B": "7", "C": "10", "D": "4"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student confuses x and y coordinates"
+        },
+        {
+          "item_id": "INTERP_GRAPH_AXES_02",
+          "question": "Point Q is at coordinates (5, 2). If you move right to x=8, what is Q's y-value?",
+          "options": {"A": "8", "B": "2", "C": "5", "D": "3"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student reads x-value instead of y-value"
+        },
+        {
+          "item_id": "INTERP_GRAPH_AXES_03",
+          "question": "On a coordinate plane, which axis is horizontal?",
+          "options": {"A": "y-axis", "B": "x-axis", "C": "z-axis", "D": "Both"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student confuses horizontal and vertical axes"
+        },
+        {
+          "item_id": "INTERP_GRAPH_AXES_04",
+          "question": "The point (0, 4) lies on which axis?",
+          "options": {"A": "x-axis", "B": "y-axis", "C": "Neither", "D": "Both"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student confuses which coordinate indicates which axis"
+        },
+        {
+          "item_id": "INTERP_GRAPH_AXES_05",
+          "question": "To plot (2, 5), you move 2 units in which direction first?",
+          "options": {"A": "Up", "B": "Right", "C": "Down", "D": "Left"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student moves vertically first instead of horizontally"
+        }
+      ]
+    },
+    {
+      "id": "PROC_NEGATIVE_SUBTRACT",
+      "name": "Treats subtraction of negative as addition of positive or vice versa",
+      "category": "Procedural",
+      "items": [
+        {
+          "item_id": "PROC_NEGATIVE_SUBTRACT_01",
+          "question": "Calculate: 5 - (-3)",
+          "options": {"A": "2", "B": "8", "C": "-8", "D": "-2"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student does 5-3=2 instead of 5+3=8"
+        },
+        {
+          "item_id": "PROC_NEGATIVE_SUBTRACT_02",
+          "question": "What is -4 - (-6)?",
+          "options": {"A": "-10", "B": "2", "C": "-2", "D": "10"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student does -4-6=-10 instead of -4+6=2"
+        },
+        {
+          "item_id": "PROC_NEGATIVE_SUBTRACT_03",
+          "question": "Calculate: 10 - (-2) - 3",
+          "options": {"A": "5", "B": "9", "C": "15", "D": "7"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student does 10-2-3=5 instead of 10+2-3=9"
+        },
+        {
+          "item_id": "PROC_NEGATIVE_SUBTRACT_04",
+          "question": "What is -8 - (-8)?",
+          "options": {"A": "-16", "B": "0", "C": "16", "D": "8"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student does -8-8=-16 instead of -8+8=0"
+        },
+        {
+          "item_id": "PROC_NEGATIVE_SUBTRACT_05",
+          "question": "Simplify: 7 + (-3) - (-2)",
+          "options": {"A": "2", "B": "6", "C": "12", "D": "8"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student does 7-3-2=2 instead of 7-3+2=6"
+        }
+      ]
+    },
+    {
+      "id": "CONC_PERCENT_BASE",
+      "name": "Confuses part and whole when calculating percentages",
+      "category": "Conceptual",
+      "items": [
+        {
+          "item_id": "CONC_PERCENT_BASE_01",
+          "question": "What is 25% of 80?",
+          "options": {"A": "32", "B": "20", "C": "25", "D": "55"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates 80÷25 or gets confused with base"
+        },
+        {
+          "item_id": "CONC_PERCENT_BASE_02",
+          "question": "15 is what percent of 60?",
+          "options": {"A": "4%", "B": "25%", "C": "40%", "D": "15%"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student divides wrong way: 60÷15=4"
+        },
+        {
+          "item_id": "CONC_PERCENT_BASE_03",
+          "question": "A shirt costs $40. It's on sale for 20% off. What is the discount amount?",
+          "options": {"A": "$2", "B": "$8", "C": "$20", "D": "$32"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student divides 40÷20=2 instead of 40×0.2=8"
+        },
+        {
+          "item_id": "CONC_PERCENT_BASE_04",
+          "question": "In a class of 30 students, 6 are absent. What percent are absent?",
+          "options": {"A": "5%", "B": "20%", "C": "6%", "D": "24%"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student divides 30÷6=5 instead of 6÷30=0.2=20%"
+        },
+        {
+          "item_id": "CONC_PERCENT_BASE_05",
+          "question": "A test has 50 questions. You got 40 correct. What is your percentage score?",
+          "options": {"A": "125%", "B": "80%", "C": "40%", "D": "90%"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student calculates 50÷40=1.25=125% (divides wrong way)"
+        }
+      ]
+    },
+    {
+      "id": "PROC_ALGEBRA_COMBINE",
+      "name": "Combines unlike terms as if they were like terms",
+      "category": "Procedural",
+      "items": [
+        {
+          "item_id": "PROC_ALGEBRA_COMBINE_01",
+          "question": "Simplify: 3x + 5y",
+          "options": {"A": "8xy", "B": "3x + 5y", "C": "8x", "D": "15xy"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student combines 3+5=8 and xy"
+        },
+        {
+          "item_id": "PROC_ALGEBRA_COMBINE_02",
+          "question": "Simplify: 2x² + 3x",
+          "options": {"A": "5x³", "B": "2x² + 3x", "C": "5x²", "D": "6x³"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student combines coefficients and adds exponents"
+        },
+        {
+          "item_id": "PROC_ALGEBRA_COMBINE_03",
+          "question": "Simplify: 4a + 2b + 3a",
+          "options": {"A": "9ab", "B": "7a + 2b", "C": "7ab + 2", "D": "4a + 5b"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student combines all terms: 4+2+3=9, ab"
+        },
+        {
+          "item_id": "PROC_ALGEBRA_COMBINE_04",
+          "question": "What is 5x + 3 simplified?",
+          "options": {"A": "8x", "B": "5x + 3", "C": "15x", "D": "8"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student combines 5+3=8, keeps x"
+        },
+        {
+          "item_id": "PROC_ALGEBRA_COMBINE_05",
+          "question": "Simplify: x + x²",
+          "options": {"A": "x³", "B": "x + x²", "C": "2x²", "D": "2x³"},
+          "correct": "B",
+          "target_distractor": "A",
+          "target_reasoning": "Student adds exponents: x¹ + x² = x³"
+        }
+      ]
+    }
+  ]
+}

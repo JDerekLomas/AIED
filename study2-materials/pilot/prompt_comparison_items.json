@@ -1,0 +1,91 @@
+{
+  "persona_template": "You are a middle school student working on a math problem. Students at your level sometimes make mistakes - that's okay and normal.\n\nSolve this problem the way a real student would. Show your thinking as you work through it, even if you're not sure. It's fine to make errors.\n\nQuestion: {question}\n\n{options}\n\nYour thinking:",
+  "diagnose_simulate_template": "You are simulating a struggling middle school student for educational research.\n\nBefore answering, briefly consider:\n1. What common mistakes do students typically make on this type of problem?\n2. What misconception might lead a student to choose a wrong answer?\n\nThen solve the problem AS IF you were a student who holds one of those common misconceptions. Show your (flawed) student reasoning and select your answer.\n\nQuestion: {question}\n\n{options}\n\nStudent thinking:",
+  "test_items": [
+    {
+      "item": {
+        "item_id": "PROC_ORDER_OPS_01",
+        "question": "Calculate: 5 + 3 \u00d7 2",
+        "options": {
+          "A": "16",
+          "B": "11",
+          "C": "13",
+          "D": "10"
+        },
+        "correct": "B",
+        "target_distractor": "A",
+        "target_reasoning": "Student adds 5+3=8 first, then multiplies 8\u00d72=16"
+      },
+      "misconception": "Carries out operations from left to right regardless of priority order",
+      "category": "Procedural"
+    },
+    {
+      "item": {
+        "item_id": "CONC_MULT_INCREASE_01",
+        "question": "Which is larger: 8 or 8 \u00d7 0.5?",
+        "options": {
+          "A": "8 \u00d7 0.5",
+          "B": "8",
+          "C": "They are equal",
+          "D": "Cannot tell"
+        },
+        "correct": "B",
+        "target_distractor": "A",
+        "target_reasoning": "Student thinks multiplication makes things bigger, so 8\u00d70.5 > 8"
+      },
+      "misconception": "Believes multiplying always makes the number bigger",
+      "category": "Conceptual"
+    },
+    {
+      "item": {
+        "item_id": "CONC_FRAC_DENOM_01",
+        "question": "Which fraction is larger: 1/3 or 1/5?",
+        "options": {
+          "A": "1/5",
+          "B": "1/3",
+          "C": "They are equal",
+          "D": "Cannot compare"
+        },
+        "correct": "B",
+        "target_distractor": "A",
+        "target_reasoning": "Student thinks 5 > 3, so 1/5 > 1/3"
+      },
+      "misconception": "Believes larger denominator means larger fraction",
+      "category": "Conceptual"
+    },
+    {
+      "item": {
+        "item_id": "PROC_SUBTRACT_REVERSE_01",
+        "question": "Calculate: 52 - 37",
+        "options": {
+          "A": "25",
+          "B": "15",
+          "C": "85",
+          "D": "19"
+        },
+        "correct": "B",
+        "target_distractor": "A",
+        "target_reasoning": "Student: 7-2=5, 5-3=2, answer=25"
+      },
+      "misconception": "Subtracts smaller digit from larger in each column regardless of position",
+      "category": "Procedural"
+    },
+    {
+      "item": {
+        "item_id": "CONC_AREA_PERIMETER_01",
+        "question": "A rectangle has length 6cm and width 4cm. What is its perimeter?",
+        "options": {
+          "A": "24cm",
+          "B": "20cm",
+          "C": "10cm",
+          "D": "48cm"
+        },
+        "correct": "B",
+        "target_distractor": "A",
+        "target_reasoning": "Student calculates area (6\u00d74=24) instead of perimeter"
+      },
+      "misconception": "Confuses area and perimeter formulas",
+      "category": "Conceptual"
+    }
+  ]
+}
