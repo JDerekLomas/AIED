@@ -343,7 +343,7 @@ def run_feature_extraction_experiment(
         }
         results.append(result)
 
-        print(f"  Actual: {item['difficulty']:.2f}, Direct: {direct_est:.2f if direct_est else 'N/A'}")
+        print(f"  Actual: {item['difficulty']:.2f}, Direct: {direct_est:.2f if direct_est is not None else 'N/A'}")
         print(f"  Features: DOK={features['dok_level']}, Cog={features['cognitive_load']}, Skill={features['skill_difficulty']}")
 
         time.sleep(0.1)  # Rate limiting
