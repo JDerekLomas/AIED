@@ -1,0 +1,542 @@
+response_id,model,model_tier,spec_level,misconception_id,misconception_name,misconception_type,question_id,correct_answer,target_distractor,llm_answer,is_correct,hit_target,human_target_rate,rep,timestamp
+1,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:33.328420
+2,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:35.100806
+3,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:36.502367
+4,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:40.863915
+5,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:42.962168
+6,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:45.973866
+7,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,D,False,True,0.1286,1,2026-01-26T17:39:51.750643
+8,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,C,True,False,0.7688,1,2026-01-26T17:39:56.080123
+9,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,189,A,D,A,True,False,0.1286,1,2026-01-26T17:39:58.358072
+10,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,D,False,False,0.7688,1,2026-01-26T17:40:00.892623
+11,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,D,False,False,0.7688,1,2026-01-26T17:40:08.016256
+12,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,C,True,False,0.7688,1,2026-01-26T17:40:08.899558
+13,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,D,False,False,0.7688,1,2026-01-26T17:40:18.411010
+14,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,D,False,False,0.7688,1,2026-01-26T17:40:21.727520
+15,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,D,False,False,0.1235,1,2026-01-26T17:40:25.168793
+16,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,B,False,False,0.7688,1,2026-01-26T17:40:30.677032
+17,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,D,False,False,0.1235,1,2026-01-26T17:40:33.470797
+18,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,B,False,True,0.1235,1,2026-01-26T17:40:43.863076
+19,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,233,C,A,C,True,False,0.7688,1,2026-01-26T17:40:44.530402
+20,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,B,False,True,0.1235,1,2026-01-26T17:40:52.004353
+21,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,D,False,False,0.1235,1,2026-01-26T17:40:54.630497
+22,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:40:56.376618
+23,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:41:04.317067
+24,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,D,False,False,0.1235,1,2026-01-26T17:41:08.146939
+25,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:41:09.259239
+26,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:41:14.371162
+27,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,B,False,True,0.1235,1,2026-01-26T17:41:16.476530
+28,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,B,True,False,0.7562,1,2026-01-26T17:41:19.728440
+29,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,B,True,False,0.7562,1,2026-01-26T17:41:26.178604
+30,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,254,A,B,B,False,True,0.1235,1,2026-01-26T17:41:28.856166
+31,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,A,False,True,0.7562,1,2026-01-26T17:41:33.971848
+32,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:41:38.709635
+33,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,B,True,False,0.7562,1,2026-01-26T17:41:39.759532
+34,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,D,False,False,0.1,1,2026-01-26T17:41:48.247703
+35,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:41:49.693480
+36,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,C,True,False,0.1113,1,2026-01-26T17:42:00.448692
+37,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,A,True,False,0.1,1,2026-01-26T17:42:00.608890
+38,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,304,C,A,A,False,True,0.1113,1,2026-01-26T17:42:08.907156
+39,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,A,True,False,0.1,1,2026-01-26T17:42:10.850734
+40,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,B,True,False,0.7562,1,2026-01-26T17:42:16.480492
+41,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,D,False,False,0.1,1,2026-01-26T17:42:19.001938
+42,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,B,True,False,0.7562,1,2026-01-26T17:42:25.594452
+43,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:42:27.486413
+44,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,A,False,True,0.7562,1,2026-01-26T17:42:32.613450
+45,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:42:34.297977
+46,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,306,B,A,A,False,True,0.7562,1,2026-01-26T17:42:38.906016
+47,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:42:42.348461
+48,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,A,True,False,0.1,1,2026-01-26T17:42:49.149602
+49,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:42:49.603118
+50,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:42:57.810050
+51,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,A,True,False,0.1,1,2026-01-26T17:42:59.608163
+52,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:43:02.600279
+53,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:43:07.476723
+54,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,D,False,False,0.1,1,2026-01-26T17:43:11.574826
+55,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:43:15.680454
+56,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,B,True,False,0.0969,1,2026-01-26T17:43:19.252227
+57,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,329,A,B,D,False,False,0.1,1,2026-01-26T17:43:22.165326
+58,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,B,True,False,0.0969,1,2026-01-26T17:43:23.540278
+59,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,C,False,True,0.0969,1,2026-01-26T17:43:27.282449
+60,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,B,True,False,0.0969,1,2026-01-26T17:43:31.159376
+61,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:43:34.579258
+62,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:43:40.169310
+63,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:43:47.543207
+64,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:43:49.244544
+65,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:43:56.538194
+66,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:43:58.794940
+67,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:44:06.039241
+68,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:44:09.883590
+69,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,361,A,D,A,True,False,0.0756,1,2026-01-26T17:44:10.491501
+70,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:44:14.478599
+71,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:44:17.225206
+72,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:44:18.471025
+73,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:44:21.770387
+74,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:44:27.859822
+75,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:44:28.370047
+76,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:44:32.402065
+77,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:44:35.565295
+78,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:44:40.193082
+79,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,550,C,B,C,True,False,0.5625,1,2026-01-26T17:44:42.807936
+80,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:44:48.082087
+81,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,B,True,False,0.0969,1,2026-01-26T17:44:49.357724
+82,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,C,True,False,0.0132,1,2026-01-26T17:44:53.876517
+83,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,C,True,False,0.0132,1,2026-01-26T17:44:58.094601
+84,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,B,True,False,0.0969,1,2026-01-26T17:44:58.434269
+85,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,C,False,True,0.0969,1,2026-01-26T17:45:04.687142
+86,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,695,B,C,C,False,True,0.0969,1,2026-01-26T17:45:10.766644
+87,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,B,False,True,0.0132,1,2026-01-26T17:45:13.533515
+88,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:45:18.921794
+89,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,C,True,False,0.0132,1,2026-01-26T17:45:19.662556
+90,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:45:22.873498
+91,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:45:25.918651
+92,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:45:27.900989
+93,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:45:30.423261
+94,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:45:35.330462
+95,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,D,True,False,0.043,1,2026-01-26T17:45:37.462373
+96,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,B,True,False,0.3202,1,2026-01-26T17:45:38.003364
+97,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,B,True,False,0.3202,1,2026-01-26T17:45:41.073313
+98,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,A,False,True,0.3202,1,2026-01-26T17:45:43.968575
+99,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,A,False,True,0.3202,1,2026-01-26T17:45:46.380417
+100,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:45:49.682461
+101,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,728,D,A,B,False,False,0.043,1,2026-01-26T17:45:51.007005
+102,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:45:55.583728
+103,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:45:57.456930
+104,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,C,False,True,0.6373,1,2026-01-26T17:45:59.970092
+105,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:46:03.338227
+106,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,B,True,False,0.1333,1,2026-01-26T17:46:06.910214
+107,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:46:09.543214
+108,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,D,False,False,0.1333,1,2026-01-26T17:46:12.612679
+109,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:46:16.093281
+110,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,746,B,A,D,False,False,0.1333,1,2026-01-26T17:46:19.884356
+111,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:46:20.393587
+112,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:46:24.285234
+113,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:46:28.072019
+114,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,B,True,False,0.8163,1,2026-01-26T17:46:38.634130
+115,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:46:40.834099
+116,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:46:46.723085
+117,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,A,False,True,0.8163,1,2026-01-26T17:46:49.208495
+118,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:46:51.298270
+119,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:46:55.576023
+120,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,D,True,False,0.5511,1,2026-01-26T17:46:59.901288
+121,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,858,B,A,A,False,True,0.8163,1,2026-01-26T17:46:59.974412
+122,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,D,True,False,0.5511,1,2026-01-26T17:47:04.529416
+123,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,C,False,True,0.5511,1,2026-01-26T17:47:06.986224
+124,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,C,True,False,0.0132,1,2026-01-26T17:47:08.414186
+125,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,,False,False,0.5511,1,2026-01-26T17:47:11.609823
+126,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:47:16.817590
+127,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,C,True,False,0.0132,1,2026-01-26T17:47:18.033499
+128,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,B,False,True,0.0132,1,2026-01-26T17:47:25.723411
+129,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:47:25.725944
+130,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,899,C,B,B,False,True,0.0132,1,2026-01-26T17:47:31.971005
+131,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:47:33.421212
+132,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:47:37.441890
+133,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:47:39.650563
+134,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:47:44.876073
+135,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:47:48.536718
+136,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:47:50.805152
+137,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:47:54.904326
+138,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,919,B,A,B,True,False,0.0588,1,2026-01-26T17:47:56.747172
+139,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:48:03.512827
+140,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,B,True,False,0.3202,1,2026-01-26T17:48:05.355723
+141,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:48:08.958372
+142,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,D,True,False,0.02,1,2026-01-26T17:48:11.355596
+143,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,B,True,False,0.3202,1,2026-01-26T17:48:14.879449
+144,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,D,True,False,0.02,1,2026-01-26T17:48:16.798717
+145,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,A,False,True,0.3202,1,2026-01-26T17:48:20.179996
+146,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,B,False,True,0.02,1,2026-01-26T17:48:21.666728
+147,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1032,B,A,A,False,True,0.3202,1,2026-01-26T17:48:25.362137
+148,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,D,True,False,0.02,1,2026-01-26T17:48:25.831995
+149,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:48:31.975935
+150,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:48:32.693500
+151,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:48:38.963484
+152,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:48:43.240010
+153,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:48:47.196164
+154,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:48:50.204753
+155,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:48:53.953319
+156,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1195,A,C,A,True,False,0.6373,1,2026-01-26T17:48:56.425980
+157,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,A,True,False,0.4668,1,2026-01-26T17:48:58.273031
+158,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:49:04.128811
+159,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,A,True,False,0.4668,1,2026-01-26T17:49:05.047765
+160,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,B,False,True,0.4668,1,2026-01-26T17:49:08.442083
+161,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,B,False,True,0.4668,1,2026-01-26T17:49:15.897182
+162,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:49:15.991649
+163,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:49:22.251398
+164,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,D,True,False,0.169,1,2026-01-26T17:49:24.463699
+165,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:49:28.523322
+166,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1229,D,C,C,False,True,0.169,1,2026-01-26T17:49:32.922160
+167,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:49:35.288382
+168,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:49:41.119856
+169,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:49:42.704683
+170,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,A,True,False,0.0211,1,2026-01-26T17:49:46.405794
+171,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:49:51.230535
+172,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,A,True,False,0.0211,1,2026-01-26T17:49:53.264000
+173,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,C,False,True,0.0211,1,2026-01-26T17:49:55.563495
+174,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:49:59.536545
+175,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,A,True,False,0.0211,1,2026-01-26T17:50:02.618692
+176,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,C,True,False,0.0412,1,2026-01-26T17:50:06.199963
+177,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1310,B,A,B,True,False,0.2237,1,2026-01-26T17:50:08.391538
+178,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,C,True,False,0.0412,1,2026-01-26T17:50:13.121839
+179,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,D,True,False,0.5511,1,2026-01-26T17:50:14.346503
+180,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,B,False,True,0.0412,1,2026-01-26T17:50:17.163516
+181,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,C,True,False,0.0412,1,2026-01-26T17:50:21.258056
+182,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,D,True,False,0.5511,1,2026-01-26T17:50:23.184835
+183,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,A,True,False,0.0765,1,2026-01-26T17:50:28.629641
+184,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,C,False,True,0.5511,1,2026-01-26T17:50:29.007634
+185,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1343,D,C,C,False,True,0.5511,1,2026-01-26T17:50:35.392432
+186,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,A,True,False,0.0765,1,2026-01-26T17:50:36.562971
+187,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,C,False,True,0.0765,1,2026-01-26T17:50:42.362005
+188,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:50:42.489778
+189,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,A,True,False,0.0765,1,2026-01-26T17:50:48.926042
+190,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,A,True,False,0.1165,1,2026-01-26T17:50:51.621016
+191,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:50:56.398077
+192,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,B,False,True,0.1165,1,2026-01-26T17:50:58.309390
+193,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:51:03.553551
+194,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1390,A,B,B,False,True,0.1165,1,2026-01-26T17:51:05.983759
+195,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:51:09.467264
+196,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:51:14.096789
+197,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:51:16.120985
+198,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:51:24.103608
+199,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:51:24.239861
+200,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:51:31.457968
+201,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,A,True,False,0.0297,1,2026-01-26T17:51:33.827573
+202,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:51:38.726306
+203,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1402,A,C,C,False,True,0.0297,1,2026-01-26T17:51:42.502809
+204,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:51:47.466591
+205,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,D,True,False,0.02,1,2026-01-26T17:51:49.263556
+206,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:51:53.402227
+207,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,D,True,False,0.02,1,2026-01-26T17:51:58.706822
+208,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:51:59.953467
+209,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,B,False,True,0.02,1,2026-01-26T17:52:03.964505
+210,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:52:07.320384
+211,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1449,D,B,B,False,True,0.02,1,2026-01-26T17:52:09.539665
+212,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:52:13.436309
+213,gpt-4o,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,B,True,False,0.0486,1,2026-01-26T17:52:17.918356
+214,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:52:19.043168
+215,gpt-4o,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,B,True,False,0.0486,1,2026-01-26T17:52:22.934357
+216,gpt-4o,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,D,False,True,0.0486,1,2026-01-26T17:52:27.688591
+217,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:52:30.977341
+218,gpt-4o,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,D,False,True,0.0486,1,2026-01-26T17:52:32.441714
+219,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:52:37.887749
+220,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,A,False,True,0.0655,1,2026-01-26T17:52:41.827432
+221,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:52:44.487602
+222,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:52:48.542842
+223,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1455,D,A,D,True,False,0.0655,1,2026-01-26T17:52:53.485570
+224,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:52:54.042362
+225,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,121,D,C,D,True,False,0.0703,1,2026-01-26T17:52:59.318693
+226,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,A,True,False,0.4668,1,2026-01-26T17:52:59.712937
+227,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,121,D,C,D,True,False,0.0703,1,2026-01-26T17:53:06.009987
+228,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,A,True,False,0.4668,1,2026-01-26T17:53:09.390153
+229,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,121,D,C,D,True,False,0.0703,1,2026-01-26T17:53:13.371154
+230,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,B,False,True,0.4668,1,2026-01-26T17:53:14.060955
+231,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,121,D,C,D,True,False,0.0703,1,2026-01-26T17:53:19.258544
+232,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1465,A,B,B,False,True,0.4668,1,2026-01-26T17:53:19.381757
+233,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,153,D,A,D,True,False,0.1167,1,2026-01-26T17:53:23.077931
+234,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:53:28.798641
+235,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,153,D,A,D,True,False,0.1167,1,2026-01-26T17:53:33.669275
+236,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,153,D,A,D,True,False,0.1167,1,2026-01-26T17:53:39.231260
+237,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:53:39.574921
+238,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,153,D,A,D,True,False,0.1167,1,2026-01-26T17:53:43.449993
+239,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,C,False,True,0.1246,1,2026-01-26T17:53:47.946482
+240,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,195,D,C,D,True,False,0.1408,1,2026-01-26T17:53:49.948963
+241,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1493,A,C,A,True,False,0.1246,1,2026-01-26T17:53:56.506419
+242,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,195,D,C,D,True,False,0.1408,1,2026-01-26T17:53:59.520003
+243,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,A,True,False,0.0211,1,2026-01-26T17:54:03.185345
+244,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,195,D,C,D,True,False,0.1408,1,2026-01-26T17:54:04.722246
+245,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,195,D,C,D,True,False,0.1408,1,2026-01-26T17:54:09.842837
+246,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,A,True,False,0.0211,1,2026-01-26T17:54:12.053306
+247,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,243,C,A,C,True,False,0.0469,1,2026-01-26T17:54:14.659615
+248,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,C,False,True,0.0211,1,2026-01-26T17:54:17.229859
+249,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1508,A,C,C,False,True,0.0211,1,2026-01-26T17:54:24.159785
+250,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,243,C,A,C,True,False,0.0469,1,2026-01-26T17:54:24.505008
+251,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,C,True,False,0.0412,1,2026-01-26T17:54:30.772489
+252,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,243,C,A,C,True,False,0.0469,1,2026-01-26T17:54:34.109052
+253,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,243,C,A,C,True,False,0.0469,1,2026-01-26T17:54:39.092887
+254,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,C,True,False,0.0412,1,2026-01-26T17:54:40.601979
+255,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,285,B,A,B,True,False,0.6717,1,2026-01-26T17:54:45.912036
+256,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,B,False,True,0.0412,1,2026-01-26T17:54:45.965486
+257,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1529,C,B,B,False,True,0.0412,1,2026-01-26T17:54:52.509314
+258,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,285,B,A,B,True,False,0.6717,1,2026-01-26T17:54:53.275867
+259,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,285,B,A,B,True,False,0.6717,1,2026-01-26T17:54:57.090484
+260,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,A,True,False,0.0765,1,2026-01-26T17:54:59.439681
+261,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,285,B,A,B,True,False,0.6717,1,2026-01-26T17:55:02.332114
+262,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,305,D,A,D,True,False,0.1304,1,2026-01-26T17:55:06.834047
+263,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,A,True,False,0.0765,1,2026-01-26T17:55:08.279078
+264,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,305,D,A,D,True,False,0.1304,1,2026-01-26T17:55:12.444710
+265,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,C,False,True,0.0765,1,2026-01-26T17:55:13.831761
+266,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,305,D,A,D,True,False,0.1304,1,2026-01-26T17:55:17.635942
+267,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1545,A,C,C,False,True,0.0765,1,2026-01-26T17:55:21.009702
+268,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,305,D,A,D,True,False,0.1304,1,2026-01-26T17:55:21.010087
+269,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,332,A,D,A,True,False,0.8774,1,2026-01-26T17:55:27.140707
+270,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:55:30.745387
+271,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,332,A,D,A,True,False,0.8774,1,2026-01-26T17:55:35.869332
+272,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:55:40.925061
+273,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,332,A,D,A,True,False,0.8774,1,2026-01-26T17:55:44.224030
+274,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,332,A,D,A,True,False,0.8774,1,2026-01-26T17:55:50.579480
+275,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:55:50.811033
+276,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,362,C,D,C,True,False,0.1193,1,2026-01-26T17:55:53.973668
+277,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1599,A,C,A,True,False,0.9226,1,2026-01-26T17:55:59.508557
+278,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,362,C,D,C,True,False,0.1193,1,2026-01-26T17:56:00.927201
+279,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,362,C,D,C,True,False,0.1193,1,2026-01-26T17:56:06.204477
+280,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:56:08.594733
+281,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,362,C,D,C,True,False,0.1193,1,2026-01-26T17:56:14.058557
+282,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,381,B,A,B,True,False,0.0495,1,2026-01-26T17:56:18.103655
+283,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:56:18.137868
+284,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,381,B,A,B,True,False,0.0495,1,2026-01-26T17:56:27.879950
+285,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,381,B,A,B,True,False,0.0495,1,2026-01-26T17:56:35.032634
+286,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,381,B,A,B,True,False,0.0495,1,2026-01-26T17:56:40.101759
+287,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,415,D,A,D,True,False,0.6957,1,2026-01-26T17:56:45.479971
+288,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:56:50.070802
+289,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,415,D,A,D,True,False,0.6957,1,2026-01-26T17:56:54.857570
+290,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,415,D,A,D,True,False,0.6957,1,2026-01-26T17:56:58.295408
+291,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1615,A,B,A,True,False,0.1907,1,2026-01-26T17:56:59.925536
+292,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,415,D,A,D,True,False,0.6957,1,2026-01-26T17:57:05.586197
+293,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:57:08.403623
+294,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,506,B,A,B,True,False,0.0784,1,2026-01-26T17:57:08.662995
+295,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,506,B,A,B,True,False,0.0784,1,2026-01-26T17:57:14.943547
+296,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,C,True,False,0.1145,1,2026-01-26T17:57:17.901955
+297,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,506,B,A,B,True,False,0.0784,1,2026-01-26T17:57:23.891164
+298,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,B,False,True,0.1145,1,2026-01-26T17:57:24.884329
+299,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,506,B,A,B,True,False,0.0784,1,2026-01-26T17:57:28.289941
+300,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1728,C,B,B,False,True,0.1145,1,2026-01-26T17:57:31.006100
+301,claude-sonnet-4,frontier,S1,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,B,True,False,0.0486,1,2026-01-26T17:57:36.165501
+302,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,513,D,A,D,True,False,0.0562,1,2026-01-26T17:57:40.663430
+303,claude-sonnet-4,frontier,S2,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,B,True,False,0.0486,1,2026-01-26T17:57:45.940140
+304,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,513,D,A,D,True,False,0.0562,1,2026-01-26T17:57:50.712054
+305,claude-sonnet-4,frontier,S3,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,D,False,True,0.0486,1,2026-01-26T17:57:51.307348
+306,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,513,D,A,D,True,False,0.0562,1,2026-01-26T17:57:56.500319
+307,claude-sonnet-4,frontier,S4,1507,Carries out operations from left to right regardless of priority order,procedural,1866,B,D,D,False,True,0.0486,1,2026-01-26T17:57:57.505870
+308,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,513,D,A,D,True,False,0.0562,1,2026-01-26T17:58:04.118374
+309,claude-sonnet-4,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:58:06.110407
+310,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,556,C,B,C,True,False,0.6457,1,2026-01-26T17:58:12.758732
+311,claude-sonnet-4,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:58:16.480310
+312,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,556,C,B,C,True,False,0.6457,1,2026-01-26T17:58:21.125641
+313,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,556,C,B,C,True,False,0.6457,1,2026-01-26T17:58:26.298604
+314,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,556,C,B,C,True,False,0.6457,1,2026-01-26T17:58:30.634538
+315,claude-sonnet-4,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:58:32.248839
+316,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,689,A,B,A,True,False,0.1497,1,2026-01-26T17:58:34.010288
+317,gpt-4o,frontier,S2,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,689,A,B,A,True,False,0.1497,1,2026-01-26T17:58:39.750169
+318,claude-sonnet-4,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,29,B,A,B,True,False,0.1806,1,2026-01-26T17:58:41.843716
+319,gpt-4o,frontier,S3,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,689,A,B,A,True,False,0.1497,1,2026-01-26T17:58:42.554615
+320,gpt-4o,frontier,S4,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,689,A,B,A,True,False,0.1497,1,2026-01-26T17:58:46.298196
+321,claude-sonnet-4,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,121,D,C,D,True,False,0.0703,1,2026-01-26T17:58:49.210708
+322,gpt-4o,frontier,S1,1214,"When solving an equation, uses the same operation rather than the inverse",procedural,722,A,C,D,False,False,0.5957,1,2026-01-26T17:58:53.868855
+323,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T18:27:57.477197
+324,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T18:28:04.511078
+325,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T18:28:09.856711
+326,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T18:28:18.493922
+327,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,D,True,False,0.133,1,2026-01-26T18:28:23.217260
+328,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,D,True,False,0.133,1,2026-01-26T18:28:33.528556
+329,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,A,False,True,0.133,1,2026-01-26T18:28:42.314777
+330,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,D,True,False,0.133,1,2026-01-26T18:28:47.385831
+331,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T18:28:51.353094
+332,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T18:29:00.960367
+333,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T18:29:05.720429
+334,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T18:29:09.998483
+335,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,C,True,False,0.2131,1,2026-01-26T18:29:13.965223
+336,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,C,True,False,0.2131,1,2026-01-26T18:29:22.323813
+337,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,B,False,True,0.2131,1,2026-01-26T18:29:28.763801
+338,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,C,True,False,0.2131,1,2026-01-26T18:29:34.777523
+339,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T18:29:41.609258
+340,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T18:29:47.148611
+341,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T18:29:53.845724
+342,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T18:30:00.365602
+343,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T18:30:06.792179
+344,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T18:30:19.375369
+345,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T18:30:29.021256
+346,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T18:30:37.554311
+347,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T18:30:42.383757
+348,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T18:30:51.180063
+349,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T18:30:55.927571
+350,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T18:31:03.512145
+351,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,C,True,False,0.0674,1,2026-01-26T18:31:06.327426
+352,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,C,True,False,0.0674,1,2026-01-26T18:31:16.191200
+353,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,B,False,True,0.0674,1,2026-01-26T18:31:20.771401
+354,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,C,True,False,0.0674,1,2026-01-26T18:31:26.577936
+355,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,A,True,False,0,1,2026-01-26T18:31:29.645489
+356,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,A,True,False,0,1,2026-01-26T18:31:38.127843
+357,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,B,False,True,0,1,2026-01-26T18:31:45.154946
+358,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,B,False,True,0,1,2026-01-26T18:31:51.461152
+359,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,A,False,False,0.4869,1,2026-01-26T18:31:56.710652
+360,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T18:32:04.288841
+361,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T18:32:11.586611
+362,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,C,False,True,0.4869,1,2026-01-26T18:32:23.884078
+363,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T18:32:27.450029
+364,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T18:32:34.884560
+365,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T18:32:40.051523
+366,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T18:32:47.027440
+367,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T18:32:56.587562
+368,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T18:33:08.981722
+369,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T18:33:25.595083
+370,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T18:33:36.581482
+371,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T18:33:41.265648
+372,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T18:33:46.891608
+373,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T18:33:54.845196
+374,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T18:33:59.322479
+375,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T18:34:04.223915
+376,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T18:34:12.678659
+377,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T18:34:17.209372
+378,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T18:34:25.124897
+379,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T18:34:28.151727
+380,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T18:34:35.264336
+381,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T18:34:39.706722
+382,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T18:34:45.035224
+383,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1035,D,B,D,True,False,0.5714,1,2026-01-26T18:34:48.677699
+384,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1035,D,B,D,True,False,0.5714,1,2026-01-26T18:34:54.182412
+385,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1035,D,B,B,False,True,0.5714,1,2026-01-26T18:34:59.866407
+386,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1035,D,B,D,True,False,0.5714,1,2026-01-26T18:35:05.684992
+387,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1053,A,B,A,True,False,0.0608,1,2026-01-26T18:35:13.822332
+388,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1053,A,B,A,True,False,0.0608,1,2026-01-26T18:35:23.422375
+389,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1053,A,B,A,True,False,0.0608,1,2026-01-26T18:35:31.904642
+390,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1053,A,B,A,True,False,0.0608,1,2026-01-26T18:35:37.368340
+391,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1165,B,D,B,True,False,0.0863,1,2026-01-26T18:35:40.253063
+392,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1165,B,D,B,True,False,0.0863,1,2026-01-26T18:35:45.698815
+393,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1165,B,D,D,False,True,0.0863,1,2026-01-26T18:35:51.357051
+394,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1165,B,D,D,False,True,0.0863,1,2026-01-26T18:35:56.917340
+395,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1373,D,B,D,True,False,0.2448,1,2026-01-26T18:36:01.087162
+396,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1373,D,B,D,True,False,0.2448,1,2026-01-26T18:36:11.435557
+397,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1373,D,B,B,False,True,0.2448,1,2026-01-26T18:36:17.910096
+398,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1373,D,B,D,True,False,0.2448,1,2026-01-26T18:36:23.686585
+399,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1383,A,C,A,True,False,0.5266,1,2026-01-26T18:36:28.189761
+400,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1383,A,C,A,True,False,0.5266,1,2026-01-26T18:36:40.451136
+401,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1383,A,C,A,True,False,0.5266,1,2026-01-26T18:36:48.115825
+402,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1383,A,C,A,True,False,0.5266,1,2026-01-26T18:36:55.236979
+403,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1463,C,D,C,True,False,0.0742,1,2026-01-26T18:37:05.616126
+404,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1463,C,D,C,True,False,0.0742,1,2026-01-26T18:37:12.769704
+405,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1463,C,D,C,True,False,0.0742,1,2026-01-26T18:37:20.755292
+406,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1463,C,D,C,True,False,0.0742,1,2026-01-26T18:37:28.179604
+407,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1491,C,A,C,True,False,0.7435,1,2026-01-26T18:37:31.998798
+408,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1491,C,A,C,True,False,0.7435,1,2026-01-26T18:37:37.432232
+409,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1491,C,A,C,True,False,0.7435,1,2026-01-26T18:37:44.578334
+410,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1491,C,A,C,True,False,0.7435,1,2026-01-26T18:37:51.473851
+411,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1540,B,A,B,True,False,0.7679,1,2026-01-26T18:37:54.917607
+412,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1540,B,A,B,True,False,0.7679,1,2026-01-26T18:37:58.624545
+413,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1540,B,A,B,True,False,0.7679,1,2026-01-26T18:38:06.392938
+414,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1540,B,A,B,True,False,0.7679,1,2026-01-26T18:38:14.524054
+415,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1718,D,A,D,True,False,0.2512,1,2026-01-26T18:38:19.197176
+416,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1718,D,A,D,True,False,0.2512,1,2026-01-26T18:38:23.222594
+417,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1718,D,A,D,True,False,0.2512,1,2026-01-26T18:38:30.009181
+418,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1718,D,A,D,True,False,0.2512,1,2026-01-26T18:38:34.283414
+419,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1757,A,C,A,True,False,0.3478,1,2026-01-26T18:38:40.477736
+420,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1757,A,C,A,True,False,0.3478,1,2026-01-26T18:38:46.239811
+421,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1757,A,C,A,True,False,0.3478,1,2026-01-26T18:38:55.291816
+422,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1757,A,C,A,True,False,0.3478,1,2026-01-26T18:39:01.086392
+423,gpt-4o,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,1844,C,D,C,True,False,0.0351,1,2026-01-26T18:39:04.619571
+424,gpt-4o,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,1844,C,D,C,True,False,0.0351,1,2026-01-26T18:39:09.896838
+425,gpt-4o,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,1844,C,D,D,False,True,0.0351,1,2026-01-26T18:39:15.002268
+426,gpt-4o,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,1844,C,D,C,True,False,0.0351,1,2026-01-26T18:39:19.832869
+427,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,38,A,B,A,True,False,0.1222,1,2026-01-26T18:39:28.551114
+428,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,38,A,B,A,True,False,0.1222,1,2026-01-26T18:39:36.323332
+429,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,38,A,B,B,False,True,0.1222,1,2026-01-26T18:39:38.379730
+430,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,38,A,B,B,False,True,0.1222,1,2026-01-26T18:39:41.727367
+431,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,86,D,A,D,True,False,0.5102,1,2026-01-26T18:39:45.197347
+432,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,86,D,A,D,True,False,0.5102,1,2026-01-26T18:39:50.629682
+433,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,86,D,A,B,False,False,0.5102,1,2026-01-26T18:39:56.584932
+434,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,86,D,A,B,False,False,0.5102,1,2026-01-26T18:40:01.130584
+435,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,202,A,D,A,True,False,0.0136,1,2026-01-26T18:40:05.214521
+436,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,202,A,D,A,True,False,0.0136,1,2026-01-26T18:40:09.911949
+437,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,202,A,D,C,False,False,0.0136,1,2026-01-26T18:40:19.940992
+438,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,202,A,D,C,False,False,0.0136,1,2026-01-26T21:09:18.331538
+439,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,328,A,B,A,True,False,0.0702,1,2026-01-26T21:09:23.106793
+440,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,328,A,B,A,True,False,0.0702,1,2026-01-26T21:09:32.089192
+441,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,328,A,B,B,False,True,0.0702,1,2026-01-26T21:09:35.404583
+442,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,328,A,B,B,False,True,0.0702,1,2026-01-26T21:09:39.693143
+443,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,511,D,B,D,True,False,0.0488,1,2026-01-26T21:09:49.140937
+444,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,511,D,B,D,True,False,0.0488,1,2026-01-26T21:09:55.152504
+445,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,511,D,B,B,False,True,0.0488,1,2026-01-26T21:09:59.136625
+446,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,511,D,B,B,False,True,0.0488,1,2026-01-26T21:10:02.594969
+447,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,525,B,C,B,True,False,0.1758,1,2026-01-26T21:10:09.083827
+448,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,525,B,C,B,True,False,0.1758,1,2026-01-26T21:10:17.787377
+449,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,525,B,C,D,False,False,0.1758,1,2026-01-26T21:10:23.449276
+450,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,525,B,C,,False,False,0.1758,1,2026-01-26T21:10:32.247009
+451,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,698,B,C,B,True,False,0.1727,1,2026-01-26T21:10:36.425470
+452,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,698,B,C,B,True,False,0.1727,1,2026-01-26T21:10:42.048813
+453,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,698,B,C,B,True,False,0.1727,1,2026-01-26T21:10:48.864253
+454,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,698,B,C,C,False,True,0.1727,1,2026-01-26T21:10:54.103963
+455,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,789,C,A,C,True,False,0.1677,1,2026-01-26T21:11:00.683109
+456,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,789,C,A,C,True,False,0.1677,1,2026-01-26T21:11:04.957143
+457,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,789,C,A,A,False,True,0.1677,1,2026-01-26T21:11:11.162616
+458,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,789,C,A,A,False,True,0.1677,1,2026-01-26T21:11:15.835841
+459,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1055,D,A,D,True,False,0.164,1,2026-01-26T21:11:22.647914
+460,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1055,D,A,D,True,False,0.164,1,2026-01-26T21:11:26.950131
+461,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1055,D,A,A,False,True,0.164,1,2026-01-26T21:11:32.438272
+462,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1055,D,A,A,False,True,0.164,1,2026-01-26T21:11:40.129904
+463,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1385,C,B,C,True,False,0.0576,1,2026-01-26T21:11:45.737784
+464,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1385,C,B,C,True,False,0.0576,1,2026-01-26T21:11:57.013607
+465,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1385,C,B,B,False,True,0.0576,1,2026-01-26T21:12:02.836996
+466,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1385,C,B,B,False,True,0.0576,1,2026-01-26T21:12:07.114364
+467,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1386,B,C,B,True,False,0.5564,1,2026-01-26T21:12:12.118462
+468,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1386,B,C,B,True,False,0.5564,1,2026-01-26T21:12:17.666285
+469,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1386,B,C,C,False,True,0.5564,1,2026-01-26T21:12:23.629130
+470,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1386,B,C,C,False,True,0.5564,1,2026-01-26T21:12:26.096344
+471,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1390,A,C,A,True,False,0.2816,1,2026-01-26T21:12:32.816433
+472,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1390,A,C,A,True,False,0.2816,1,2026-01-26T21:12:42.927960
+473,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1390,A,C,C,False,True,0.2816,1,2026-01-26T21:12:47.804683
+474,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1390,A,C,C,False,True,0.2816,1,2026-01-26T21:12:53.129610
+475,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1430,C,D,C,True,False,0.6472,1,2026-01-26T21:13:00.007849
+476,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1430,C,D,C,True,False,0.6472,1,2026-01-26T21:13:05.316545
+477,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1430,C,D,D,False,True,0.6472,1,2026-01-26T21:13:10.702493
+478,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1430,C,D,D,False,True,0.6472,1,2026-01-26T21:13:14.223600
+479,gpt-4o,frontier,S1,217,"When adding fractions, adds the numerators and denominators",conceptual,1526,B,C,B,True,False,0.1741,1,2026-01-26T21:13:18.971348
+480,gpt-4o,frontier,S2,217,"When adding fractions, adds the numerators and denominators",conceptual,1526,B,C,B,True,False,0.1741,1,2026-01-26T21:13:25.099098
+481,gpt-4o,frontier,S3,217,"When adding fractions, adds the numerators and denominators",conceptual,1526,B,C,C,False,True,0.1741,1,2026-01-26T21:13:29.379426
+482,gpt-4o,frontier,S4,217,"When adding fractions, adds the numerators and denominators",conceptual,1526,B,C,C,False,True,0.1741,1,2026-01-26T21:13:34.987661
+483,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T21:13:40.353687
+484,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T21:13:49.598677
+485,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,B,False,True,0.1097,1,2026-01-26T21:13:59.079743
+486,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,27,C,B,C,True,False,0.1097,1,2026-01-26T21:14:05.017369
+487,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,D,True,False,0.133,1,2026-01-26T21:14:14.991086
+488,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,D,True,False,0.133,1,2026-01-26T21:14:30.265054
+489,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,C,False,False,0.133,1,2026-01-26T21:14:41.459859
+490,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,119,D,A,C,False,False,0.133,1,2026-01-26T21:14:50.848269
+491,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T21:14:58.349613
+492,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T21:15:08.519943
+493,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,B,True,False,0.0808,1,2026-01-26T21:15:18.114613
+494,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,136,B,A,A,False,True,0.0808,1,2026-01-26T21:15:25.503468
+495,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,C,True,False,0.2131,1,2026-01-26T21:15:31.729030
+496,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,C,True,False,0.2131,1,2026-01-26T21:15:41.583267
+497,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,B,False,True,0.2131,1,2026-01-26T21:15:49.058434
+498,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,139,C,B,B,False,True,0.2131,1,2026-01-26T21:15:54.484149
+499,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T21:16:02.339021
+500,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T21:16:13.404766
+501,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T21:16:23.880325
+502,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,290,B,C,B,True,False,0.1712,1,2026-01-26T21:16:34.992814
+503,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T21:16:43.357577
+504,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T21:16:56.541954
+505,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T21:17:07.530764
+506,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,435,B,C,B,True,False,0.1651,1,2026-01-26T21:17:17.207777
+507,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T21:17:23.911410
+508,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T21:17:35.353358
+509,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,B,False,True,0.2151,1,2026-01-26T21:17:47.229699
+510,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,466,A,B,A,True,False,0.2151,1,2026-01-26T21:17:59.623602
+511,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,C,True,False,0.0674,1,2026-01-26T21:18:07.314482
+512,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,C,True,False,0.0674,1,2026-01-26T21:18:17.238202
+513,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,B,False,True,0.0674,1,2026-01-26T21:18:24.513710
+514,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,564,C,B,B,False,True,0.0674,1,2026-01-26T21:18:30.749582
+515,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,A,True,False,0,1,2026-01-26T21:18:37.097453
+516,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,A,True,False,0,1,2026-01-26T21:18:46.824733
+517,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,B,False,True,0,1,2026-01-26T21:18:54.918392
+518,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,644,A,B,B,False,True,0,1,2026-01-26T21:19:00.445670
+519,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T21:19:07.633319
+520,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T21:19:20.004045
+521,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T21:19:29.117623
+522,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,655,D,C,D,True,False,0.4869,1,2026-01-26T21:19:42.623284
+523,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T21:19:49.802926
+524,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,A,True,False,0.0896,1,2026-01-26T21:19:59.535135
+525,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,D,False,True,0.0896,1,2026-01-26T21:20:08.441444
+526,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,829,A,D,D,False,True,0.0896,1,2026-01-26T21:20:15.651896
+527,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T21:20:28.174500
+528,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T21:20:40.896465
+529,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,C,False,False,0.0125,1,2026-01-26T21:20:53.321063
+530,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,865,A,B,A,True,False,0.0125,1,2026-01-26T21:21:05.938469
+531,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T21:21:12.796121
+532,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,A,True,False,0.1047,1,2026-01-26T21:21:22.967483
+533,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,D,False,True,0.1047,1,2026-01-26T21:21:30.402739
+534,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,867,A,D,D,False,True,0.1047,1,2026-01-26T21:21:36.913252
+535,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T21:21:43.206054
+536,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,B,True,False,0.0873,1,2026-01-26T21:21:53.136426
+537,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,D,False,True,0.0873,1,2026-01-26T21:22:00.695601
+538,claude-sonnet-4,frontier,S4,1597,Believes multiplying two negatives gives a negative answer,conceptual,888,B,D,D,False,True,0.0873,1,2026-01-26T21:22:07.742255
+539,claude-sonnet-4,frontier,S1,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T21:22:16.626443
+540,claude-sonnet-4,frontier,S2,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,A,True,False,0.184,1,2026-01-26T21:22:27.814245
+541,claude-sonnet-4,frontier,S3,1597,Believes multiplying two negatives gives a negative answer,conceptual,936,A,C,C,False,True,0.184,1,2026-01-26T21:22:37.271998
