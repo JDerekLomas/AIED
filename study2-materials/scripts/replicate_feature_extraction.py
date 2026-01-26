@@ -450,10 +450,12 @@ def analyze_feature_extraction(results: list) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Replicate Feature Extraction Study")
+    # Get script directory for relative paths
+    script_dir = Path(__file__).parent.parent
     parser.add_argument("--data", type=str,
-                       default="/Users/dereklomas/AIED/study2-materials/data/eedi/eedi_with_student_data.csv",
+                       default=str(script_dir / "data/eedi/eedi_with_student_data.csv"),
                        help="Path to Eedi data CSV")
-    parser.add_argument("--output", type=str, default="pilot/replications/feature_extraction",
+    parser.add_argument("--output", type=str, default=str(script_dir / "pilot/replications/feature_extraction"),
                        help="Output directory")
     parser.add_argument("--items", type=int, default=None,
                        help="Limit number of items")
@@ -464,7 +466,7 @@ def main():
 
     args = parser.parse_args()
 
-    output_dir = Path("/Users/dereklomas/AIED/study2-materials") / args.output
+    output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.analyze_only:

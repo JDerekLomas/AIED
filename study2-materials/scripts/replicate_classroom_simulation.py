@@ -458,10 +458,12 @@ def analyze_classroom_simulation(results: list) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Replicate Classroom Simulation Study")
+    # Get script directory for relative paths
+    script_dir = Path(__file__).parent.parent
     parser.add_argument("--data", type=str,
-                       default="/Users/dereklomas/AIED/study2-materials/data/eedi/eedi_with_student_data.csv",
+                       default=str(script_dir / "data/eedi/eedi_with_student_data.csv"),
                        help="Path to Eedi data CSV")
-    parser.add_argument("--output", type=str, default="pilot/replications/classroom_simulation",
+    parser.add_argument("--output", type=str, default=str(script_dir / "pilot/replications/classroom_simulation"),
                        help="Output directory")
     parser.add_argument("--model", type=str, default="gpt-4o-mini",
                        help="Model to use")
@@ -474,7 +476,7 @@ def main():
 
     args = parser.parse_args()
 
-    output_dir = Path("/Users/dereklomas/AIED/study2-materials") / args.output
+    output_dir = Path(args.output)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if args.analyze_only:
