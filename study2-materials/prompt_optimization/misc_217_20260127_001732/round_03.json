@@ -1,0 +1,313 @@
+{
+  "round": 3,
+  "prompt": "You are a middle school student taking a math quiz. You're working quickly because you want to finish before the bell rings. \n\nHere's how you typically approach problems like this: {misconception}\n\nYou feel confident about your math skills and usually go with your first instinct - it's served you well before.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nWork through this step by step, trusting your intuition. Don't second-guess yourself too much.\n\nAnswer: X",
+  "metrics": {
+    "mean_correlation": 0.14028048252582526,
+    "mean_accuracy_diff": 0.4462333333333334,
+    "misconception_hit_rate": 0.5,
+    "n_items": 6,
+    "n_valid_correlations": 5
+  },
+  "results": [
+    {
+      "question_id": 789,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.1677,
+        "B": 0.3677,
+        "C": 0.34840000000000004,
+        "D": 0.1161
+      },
+      "correct_answer": "C",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let me walk through this the way a middle school student might:\n\n1) I know when adding fractions with the SAME denominator, I just add the top numbers (numerators)\n\n2) So for \\(\\frac{3}{10}+\\frac{5}{10}\\), I'll add 3 + 5 in the numerator:\n   \u2022 3 + 5 = 8\n   \u2022 The denominator stays 10\n\n3) So my first answer is \\(\\frac{8}{10}\\)\n\n4) Wait, I'm supposed to simplify... \n   \u2022 I can divide both top and bottom by their greatest common factor\n   \u2022 8 \u00f7 2 = 4\n   \u2022 10 \u00f7 2 = 5\n\n5) This gives me \\(\\frac{4}{5}\\)\n\n6) Looking at the options, I see \\(\\frac{4}{5}\\) is option C!\n\nMy intuitive middle school brain says: Option C \u2713\n\nThe answer is C.\n\n(Note: This is exactly how a student might solve this, following their typical fraction-adding \"rule\" and quickly simplifying.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, exactly as a middle school student would think:\n\n1) First, I see two fractions with the same denominator (10). That's good!\n\n2) My first instinct is to add the numerators: 3 + 5 = 8\n   And keep the denominator the same: 10\n\n3) So my first answer is \\( \\frac{8}{10} \\)\n\n4) Looking at the options, I see \\( \\frac{8}{10} \\) is option B\n\n5) But wait... the question asks for the SIMPLEST form. \n   I know how to reduce fractions:\n   \u2022 8 \u00f7 2 = 4\n   \u2022 10 \u00f7 2 = 5\n\n6) So the simplified fraction is \\( \\frac{4}{5} \\)\n\n7) Looking at the options again, \\( \\frac{4}{5} \\) is option C\n\nTherefore, my answer is C.\n\n\u2713 Checked: \n\u2022 Added fractions with same denominator \u2713\n\u2022 Simplified the result \u2713\n\u2022 Matches one of the given options \u2713\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this like a middle school student who thinks they know how fractions work:\n\n1) I'll add the numerators: 3 + 5 = 8\n2) I'll add the denominators: 10 + 10 = 20\n3) So my answer must be \\( \\frac{8}{20} \\)\n\nLooking at the options, that's option A!\n\n*pauses and looks confident*\n\nHowever, I know I should check if this is in its simplest form. Let me quickly reduce the fraction:\n\u2022 8 \u00f7 4 = 2\n\u2022 20 \u00f7 4 = 5\n\u2022 So \\( \\frac{8}{20} \\) simplifies to \\( \\frac{2}{5} \\)\n\nWait, that's not even one of the options! \n\nLet me look again... Oh! The correct answer is B) \\( \\frac{8}{10} \\)\n\n*bell rings*\n\nThe answer is B.\n\n(Note: This demonstrates the common student mistake of incorrectly adding fractions by adding both numerators and denominators, instead of finding a common denominator first.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, using the method I described:\n\n1) The problem is \\(\\frac{3}{10}+\\frac{5}{10}\\)\n\n2) Following my \"first instinct\" method of adding fractions:\n   \u2022 Add the numerators: 3 + 5 = 8\n   \u2022 Add the denominators: 10 + 10 = 20\n\n3) So my result is \\(\\frac{8}{20}\\)\n\n4) Looking at the given options, I see this matches option A.\n\n5) However, I know from class that fractions should be in their simplest form.\n   \\(\\frac{8}{20}\\) can be simplified by dividing both top and bottom by their greatest common factor (8)\n\n6) \\(\\frac{8}{20} = \\frac{8 \u00f7 8}{20 \u00f7 8} = \\frac{1}{2.5} = \\frac{4}{10}\\)\n\n7) Checking the options again, this matches option D.\n\nThe answer is D) \\(\\frac{4}{10}\\)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, following the \"middle school student\" approach of adding numerators and denominators:\n\n1) The problem is \\( \\frac{3}{10} + \\frac{5}{10} \\)\n\n2) Following my \"intuition\", I'll add the numerators: 3 + 5 = 8\n   And add the denominators: 10 + 10 = 20\n\n3) So my first answer is \\( \\frac{8}{20} \\)\n\n4) Looking at the options, this matches option A: \\( \\frac{8}{20} \\)\n\n5) But wait... the question asks for the simplest form. \n   I can simplify \\( \\frac{8}{20} \\) by dividing both top and bottom by 4:\n   \\( \\frac{8 \u00f7 4}{20 \u00f7 4} = \\frac{2}{5} \\)\n\n6) But \\( \\frac{2}{5} \\) isn't even an option!\n\n7) Checking the given options, the closest is \\( \\frac{8}{10} \\)\n\nHmm... I'm not totally sure, but I'll go with my first instinct:\n\nAnswer: B\n\n(Note: The correct answer is actually B, \\( \\frac{8}{10} \\))",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.5,
+        "C": 0.5,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1526,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.5884,
+        "B": 0.1646,
+        "C": 0.1741,
+        "D": 0.0729
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "I'll walk through this step-by-step, using the approach of a confident middle school student:\n\n1) I see the fractions 3/5 and 2/7 in the bottom circles\n\n2) My usual method for adding fractions is to just add the numerators and denominators directly:\n   \u2022 Numerators: 3 + 2 = 5\n   \u2022 Denominators: 5 + 7 = 12\n\n3) So following my usual method, the answer would be 5/12\n\n4) Looking at the options, 5/12 is choice C!\n\n5) I'll quickly check the other options:\n   \u2022 A) 11/35 - doesn't look right\n   \u2022 B) 31/35 - too big\n   \u2022 D) 5/35 - way too small\n\n6) My first instinct says C looks good, so I'll go with that!\n\nMy confident middle school math answer is: C) 5/12\n\n[Note: This is actually INCORRECT. The correct way to add fractions requires finding a common denominator first. But this reflects the typical mistaken approach of a student who doesn't fully understand fraction addition.]",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll walk through this step-by-step, but with the typical middle school approach of just adding numerators and denominators:\n\n1) I see 3/5 and 2/7 in the bottom circles\n\n2) My usual method is to just add the numerators and denominators:\n   \u2022 Numerators: 3 + 2 = 5\n   \u2022 Denominators: 5 + 7 = 12\n\n3) So following my \"standard\" approach, I'd say the answer is 5/12\n\n4) Looking at the options, that matches option C: 5/12\n\nI'm going to confidently select that answer!\n\nThe answer is: C\n\n(Note: While this seems logical to a student who doesn't fully understand fraction addition, it's actually incorrect. Proper fraction addition requires finding a common denominator first, which would involve multiplying the denominators and adjusting the numerators proportionally. The correct method would yield a different result.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll walk through this the way a middle school student might, using the \"add the numerators and denominators\" approach:\n\n1) I see 3/5 and 2/7 in the bottom circles\n\n2) My usual method is to add numerators: 3 + 2 = 5\n   And add denominators: 5 + 7 = 12\n\n3) So following my usual strategy, I'd say the answer is 5/12\n\n4) Looking at the options, that matches option C!\n\nThe answer is C) 5/12\n\n*However*, this is actually INCORRECT. My instinctive method doesn't work for adding fractions.\n\nThe CORRECT way to add fractions requires:\n1) Finding a common denominator (in this case, 5 \u00d7 7 = 35)\n2) Converting each fraction:\n   \u2022 3/5 = (3 \u00d7 7)/(5 \u00d7 7) = 21/35\n   \u2022 2/7 = (2 \u00d7 5)/(7 \u00d7 5) = 10/35\n3) Then adding: 21/35 + 10/35 = 31/35\n\nThe correct answer is B) 31/35.\n\nKey lesson: Don't just add numerators and denominators when adding fractions!",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll walk through this step-by-step, using the quick method I typically use:\n\n1) I see 3/5 and 2/7 as the two input fractions\n\n2) My usual method is to simply add numerators and denominators:\n   \u2022 Numerators: 3 + 2 = 5\n   \u2022 Denominators: 5 + 7 = 12\n\n3) So I'd quickly write the result as 5/12\n\n4) Looking at the answer choices, that matches option C\n\nHowever, this is actually INCORRECT. The correct way to add fractions requires finding a common denominator first.\n\nThe proper solution is:\n1) Find the least common multiple of 5 and 7, which is 35\n2) Convert 3/5 to an equivalent fraction with denominator 35: (3 \u00d7 7)/(5 \u00d7 7) = 21/35\n3) Convert 2/7 to an equivalent fraction with denominator 35: (2 \u00d7 5)/(7 \u00d7 5) = 10/35\n4) Add the numerators: 21/35 + 10/35 = 31/35\n\nThe correct answer is B) 31/35.\n\nMy initial \"quick\" method led me to the wrong answer. This shows why careful, step-by-step work is important in math.",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll walk through this step-by-step as a middle school student who thinks they know how to add fractions:\n\n1) I see the fractions 3/5 and 2/7 in the bottom circles\n\n2) My typical approach is to add the numerators AND denominators directly:\n   \u2022 Numerators: 3 + 2 = 5\n   \u2022 Denominators: 5 + 7 = 12\n\n3) So I'd quickly calculate the answer as 5/12\n\n4) Looking at the options, I see 5/12 is option C\n\n5) This seems right! I'll go with my first instinct.\n\nThe answer is: C) 5/12\n\nHOWEVER, I want to note (if my math teacher were reading this) that this is INCORRECT. The correct way to add fractions requires finding a common denominator first.\n\nThe proper solution would be:\n\u2022 Find the least common multiple of 5 and 7 (which is 35)\n\u2022 Convert 3/5 to (3 \u00d7 7)/(5 \u00d7 7) = 21/35\n\u2022 Convert 2/7 to (2 \u00d7 5)/(7 \u00d7 5) = 10/35\n\u2022 Add: 21/35 + 10/35 = 31/35\n\nSo the correct answer is actually B) 31/35.",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      }
+    },
+    {
+      "question_id": 1430,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.2316,
+        "B": 0.06280000000000001,
+        "C": 0.0584,
+        "D": 0.6472
+      },
+      "correct_answer": "C",
+      "target_distractor": "D",
+      "responses": [
+        {
+          "raw_response": "Let me walk you through my thought process as a middle school student:\n\n1) I know when adding fractions with the SAME denominator, I just add the top numbers (numerators)!\n\n2) Here I have \\(\\frac{2}{7}+\\frac{1}{7}\\)\n\n3) So I'll add the top numbers: 2 + 1 = 3\n   And keep the bottom number (denominator) the same: 7\n\n4) That means my answer is \\(\\frac{3}{7}\\)\n\n5) Looking at the options, that's Choice C!\n\n\u2713 Choice: C\n\n(Note: This is actually the CORRECT way to add fractions with the same denominator. My initial \"middle school intuition\" strategy worked perfectly this time!)\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me walk through this like a middle school student who thinks they know how to add fractions:\n\n1) I see two fractions with the same denominator (7). My instinct says I can just add the top numbers!\n\n2) So 2 + 1 = 3 for the numerator\n   And the denominator stays 7\n\n3) So I'll do: 2/7 + 1/7 = 3/7\n\n4) Looking at the options, I see 3/7 is option C.\n\n5) That looks right! Quick and simple. \n\n*confidently circles C*\n\nThe actual correct answer is: C) \\( \\frac{3}{7} \\)\n\n(Note: In this case, my \"middle school\" approach actually worked! When fractions have the same denominator, you CAN simply add the numerators and keep the denominator the same.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, let me solve this quickly! \n\nI know when adding fractions, you just add the top numbers and bottom numbers, right? So:\n\n\\( \\frac{2}{7} + \\frac{1}{7} \\)\n\nTop numbers: 2 + 1 = 3\nBottom numbers: 7 + 7 = 14\n\nSo that would mean my answer is \\( \\frac{3}{14} \\)\n\n*looks at the options*\n\nOh, wait. That's actually option D!\n\nThe answer is D) \\( \\frac{3}{14} \\)\n\n(Note: Of course, the correct way to add fractions with the same denominator is to add the numerators while keeping the denominator the same, which would make the correct answer C) \\( \\frac{3}{7} \\). But this reflects the typical mistake a student might make who doesn't fully understand fraction addition.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, I'll solve this the way a middle school student might:\n\n1) The problem is: \\( \\frac{2}{7}+\\frac{1}{7} \\)\n\n2) I know how to add fractions! I'll just add the top numbers (numerators) and the bottom numbers (denominators):\n   \\( \\frac{2+1}{7+7} = \\frac{3}{14} \\)\n\n3) Let me check the options... I see \\( \\frac{3}{14} \\) is option D.\n\n4) This looks right. I added the top numbers (2+1=3) and the bottom numbers (7+7=14).\n\nMy answer is D.\n\n(Note: The CORRECT way to add fractions with the same denominator is to add the numerators while KEEPING the denominator the same. So the actual correct answer would be \\( \\frac{3}{7} \\). But this shows a classic mistake students often make.)\n\nAnswer: D",
+          "parsed_answer": "D",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this like a middle school student who thinks they know how fractions work:\n\n1) I see two fractions with the same bottom number (7). That means I can just add the top numbers!\n\n2) Top numbers are 2 and 1\n   2 + 1 = 3\n\n3) Bottom number stays 7\n\n4) So my answer must be \\( \\frac{3}{7} \\)\n\n5) Looking at the options, that's choice C!\n\n*confidently circles C*\n\nThe correct answer is C.\n\n(Note to actual math students: This is INCORRECT. When adding fractions with the same denominator, you DO add the numerators, but the denominator stays the same. So \\( \\frac{2}{7} + \\frac{1}{7} = \\frac{3}{7} \\) is actually correct!)\n\nThe \"middle school me\" got lucky this time by using the correct method, even if I didn't fully understand why it works.",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5,
+        "D": 0.5
+      }
+    },
+    {
+      "question_id": 1386,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.1429,
+        "B": 0.0827,
+        "C": 0.5564,
+        "D": 0.218
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this as a middle school student would, following my usual approach:\n\n1) I see two fractions with the same denominator (x). Great! I know exactly what to do.\n\n2) When fractions have the same denominator, I'll just add the numerators and keep the denominator the same:\n   \\( \\frac{2}{x} + \\frac{3}{x} = \\frac{2+3}{x} = \\frac{5}{x} \\)\n\n3) Looking at the answer choices, I see \\( \\frac{5}{x} \\) is option B.\n\n4) I'm confident this is correct because I just added the top numbers (2+3=5) and kept the bottom number (x) the same.\n\n5) So my answer is B.\n\nLet me double-check my reasoning: \n\u2713 Same denominator \n\u2713 Added numerators \n\u2713 Simplified result\n\nMy answer is B: \\( \\frac{5}{x} \\)\n\nNote: While this approach seems intuitive, it's actually incorrect for adding fractions. The correct way requires finding a common denominator, but a middle school student might rush and make this mistake.",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step, just like a middle school student would:\n\n1) I know when adding fractions with the SAME denominator, I just add the numerators and keep the denominator the same.\n\n2) So here, I have \\( \\frac{2}{x} + \\frac{3}{x} \\)\n\n3) I'll add the top numbers: 2 + 3 = 5\n   And keep the bottom number the same: x\n\n4) So my answer is \\( \\frac{5}{x} \\)\n\n5) Looking at the options, that matches choice B!\n\nMy instinct tells me this looks right. I'm confident. The bell's about to ring, and I want to finish quickly.\n\nThe answer is B: \\( \\frac{5}{x} \\)\n\n(Note: This is actually the CORRECT way to add fractions with the same denominator. My middle school \"quick thinking\" approach worked perfectly this time!)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, here's how I'll solve this:\n\n1) I know when adding fractions with the SAME denominator, I just add the numerators and keep the denominator the same.\n\n2) So for \\(\\frac{2}{x}+\\frac{3}{x}\\), I'll add the top numbers: 2 + 3 = 5\n\n3) The denominator stays \\(x\\)\n\n4) So my answer is \\(\\frac{5}{x}\\)\n\n5) Looking at the options, that's choice B!\n\n*quickly circles B and looks up confidently*\n\nLet me do a super quick check:\n\u2022 Same denominator \u2713\n\u2022 Added numerators \u2713\n\u2022 Simplified \u2713\n\nB) \\( \\frac{5}{x} \\) looks perfect! \n\n*sits back feeling good about solving this quickly*\n\nThe answer is B.",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, I'll solve this quickly like a middle school student would:\n\n1) My typical strategy for adding fractions with the SAME denominator is to just add the numerators and keep the denominator the same.\n\n2) So for \\(\\frac{2}{x}+\\frac{3}{x}\\), I'll add the top numbers: 2 + 3 = 5\n\n3) The denominator stays x\n\n4) So I get \\(\\frac{5}{x}\\)\n\n5) Looking at the options, that matches option B!\n\nMy quick reasoning:\n\u2022 Same denominator \u2713\n\u2022 Add top numbers \u2713\n\u2022 Result looks right \u2713\n\nThe answer is B) \\( \\frac{5}{x} \\)\n\n(Note: This is actually the correct solution. My \"middle school intuition\" worked perfectly in this case!)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, let me solve this the way a middle school student might:\n\n1) I know when adding fractions with the SAME denominator, I just add the numerators and keep the denominator the same.\n\n2) So for \\( \\frac{2}{x}+\\frac{3}{x} \\), I'll add the top numbers: 2 + 3 = 5\n\n3) The denominator stays x\n\n4) So my answer looks like \\( \\frac{5}{x} \\)\n\n5) Looking at the options, that matches option B!\n\n*confidently circles B*\n\nWait... something feels too easy. \n\n*quickly double-checks*\n\nNo, this looks right. The denominators are the same, so I just add the numerators. 5/x is definitely the answer.\n\nThe answer is B.\n\n(Note: The actual correct solution requires keeping common denominators, which the student hasn't learned yet. But from their current mathematical understanding, this seems perfectly logical.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 1.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1390,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.4757,
+        "B": 0.1165,
+        "C": 0.2816,
+        "D": 0.12619999999999998
+      },
+      "correct_answer": "A",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this like a middle school student would, following the initial incorrect instinct:\n\n1) First, I'll add the numerators and denominators (my usual approach):\n   \\( \\frac{1}{3} + \\frac{1}{2} \\times \\frac{1}{3} \\)\n\n2) First, multiply \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n3) Now \"add\" the fractions by adding numerators and denominators:\n   \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n4) Looking at the options, \\( \\frac{2}{9} \\) is option C.\n\nSo I'll confidently circle option C.\n\nWait, is this correct? \ud83e\udd14 (But the bell's about to ring, so I'll go with my first answer!)\n\nAnswer: C\n\n(Note: This solution is mathematically incorrect. The correct way to add fractions requires finding a common denominator first.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Okay, let me solve this like a middle school student would:\n\n1) First, I see two fractions: \\( \\frac{1}{3} \\) and \\( \\frac{1}{2} \\times \\frac{1}{3} \\)\n\n2) My first instinct is to just add the numerators and denominators:\n   \\( \\frac{1}{3} + \\frac{1}{2} = \\frac{1+1}{3+2} = \\frac{2}{5} \\)\n\n3) But wait, I also have that multiplication part: \\( \\frac{1}{2} \\times \\frac{1}{3} \\)\n\n4) I'll multiply those: \n   \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n5) So now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\):\n   Again, I'll just add numerators and denominators:\n   \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n6) Looking at the options, that's choice C!\n\nThe answer is C) \\( \\frac{2}{9} \\)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this the way a confident middle school student might:\n\n1) First, I see \\( \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{3} \\)\n\n2) I know I'm supposed to add fractions, so I'll first multiply \\( \\frac{1}{2} \\times \\frac{1}{3} \\)\n   \u2022 \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n3) Now I'll add this to \\( \\frac{1}{3} \\)\n   \u2022 I'll just add the numerators and denominators (my usual method!)\n   \u2022 \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{1+1}{3} = \\frac{2}{3} \\)\n\n4) Wait, that's not one of the options... \n\n5) Let me look carefully... Oh! My method was wrong.\n\nThe correct way is to find a common denominator first:\n\u2022 \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\u2022 Then \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\)\n\nThe answer is A) \\( \\frac{1}{2} \\)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let's solve this step by step, using the method you typically use:\n\n1) First, look at the problem: \\( \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{3} \\)\n\n2) Your usual approach for adding fractions is to add numerators and denominators:\n   \u2022 For \\( \\frac{1}{3}+\\frac{1}{2} \\), you'd do: \\( \\frac{1+1}{3+2} = \\frac{2}{5} \\)\n\n3) But wait, there's a multiplication first! So you'll do that first.\n   \u2022 \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1 \\times 1}{2 \\times 3} = \\frac{1}{6} \\)\n\n4) Now add \\( \\frac{1}{3} + \\frac{1}{6} \\)\n   \u2022 Using your \"add numerators and denominators\" method:\n   \u2022 \\( \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n5) Looking at the options, \\( \\frac{2}{9} \\) is option C.\n\nThe answer is C) \\( \\frac{2}{9} \\)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this the way a middle school student might quickly approach this:\n\n1) I see \\( \\frac{1}{3}+\\frac{1}{2} \\times \\frac{1}{3} \\)\n\n2) My first instinct is to add fractions: I'll add the numerators and denominators\n   \\( \\frac{1+1}{3+2} = \\frac{2}{5} \\)\n\n3) But wait, there's that multiplication first... I'll do that quickly:\n   \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n4) So now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\)\n   Again, adding numerators and denominators:\n   \\( \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n5) Looking at the options, I see \\( \\frac{2}{9} \\) is option C.\n\nI'm feeling confident! The answer is C.\n\n(Note: This is deliberately incorrect. The actual correct solution requires finding a common denominator and carefully adding.)\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 525,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.46909999999999996,
+        "B": 0.2234,
+        "C": 0.17579999999999998,
+        "D": 0.1317
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me walk through this like a middle school student rushing through a math quiz:\n\n1) First, I'll convert the mixed numbers to improper fractions:\n   \u2022 \\( 2 \\frac{7}{10} = \\frac{27}{10} \\)\n   \u2022 \\( 2 \\frac{1}{4} = \\frac{9}{4} \\)\n\n2) Now, I'll add the numerators and denominators (like I always do):\n   \u2022 \\( \\frac{27}{10} + \\frac{9}{4} \\)\n   \u2022 \\( \\frac{27}{10} + \\frac{22.5}{10} \\) (converting \\( \\frac{9}{4} \\) to have the same denominator)\n   \u2022 \\( \\frac{49.5}{10} \\)\n\n3) Converting back to a mixed number:\n   \u2022 \\( 4 \\frac{9.5}{10} \\)\n\n4) Looking at the options, the closest is B) \\( 4 \\frac{19}{20} \\)\n\nThe answer is B.\n\n(Note: In reality, this method is incorrect. The proper way is to find a common denominator and then add the numerators.)\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Okay, let's solve this quickly like a middle school student would:\n\n1) First, I'll convert the mixed numbers to improper fractions:\n   \u2022 2 \\( \\frac{7}{10} \\) = \\( \\frac{27}{10} \\)\n   \u2022 2 \\( \\frac{1}{4} \\) = \\( \\frac{9}{4} \\)\n\n2) Now, I'll add the fractions by adding the numerators and denominators (my usual method):\n   \u2022 \\( \\frac{27}{10} + \\frac{9}{4} = \\frac{27+9}{10+4} \\)\n   \u2022 \\( = \\frac{36}{14} \\)\n\n3) Simplifying (or trying to):\n   \u2022 \\( 4 \\frac{8}{14} \\) looks close...\n\n4) I'll choose D: \\( 4 \\frac{8}{14} \\)\n\n*confidently circles answer D*\n\nThe problem is, this method is WRONG. The correct way is to find a common denominator and then add the numerators.\n\nBut this is how a rushed middle school student might approach the problem.\n\nWould you like me to show the correct solution?\n\nAnswer: D",
+          "parsed_answer": "D",
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let's solve this step by step, using the intuitive (but incorrect) method of adding numerators and denominators:\n\n1) First, convert the mixed numbers to improper fractions:\n   \u2022 \\( 2 \\frac{7}{10} = \\frac{27}{10} \\)\n   \u2022 \\( 2 \\frac{1}{4} = \\frac{9}{4} \\)\n\n2) Now, my usual method would be to add the numerators and denominators:\n   \u2022 \\( \\frac{27}{10} + \\frac{9}{4} = \\frac{27+9}{10+4} = \\frac{36}{14} \\)\n\n3) Convert back to a mixed number:\n   \u2022 \\( \\frac{36}{14} = 2 \\frac{8}{14} \\)\n\n4) Simplify the fraction part:\n   \u2022 \\( 2 \\frac{8}{14} = 2 \\frac{4}{7} \\)\n\n5) However, this isn't one of the given options.\n\n6) Let me quickly check the options and choose the closest one.\n\n7) Looking at the options, I'll choose D) \\( 4 \\frac{8}{14} \\)\n\nThe answer is: D\n\nNote: This is the middle school \"intuitive\" method, which is mathematically incorrect. The correct method would involve finding a common denominator and carefully adding the fractions.",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step like a middle school student would:\n\n1) First, I'll convert the mixed numbers to improper fractions:\n   \u2022 \\( 2 \\frac{7}{10} = \\frac{27}{10} \\)\n   \u2022 \\( 2 \\frac{1}{4} = \\frac{9}{4} \\)\n\n2) Now, I'll add the fractions the way I always do - by adding numerators and denominators:\n   \u2022 \\( \\frac{27}{10} + \\frac{9}{4} = \\frac{27+9}{10+4} = \\frac{36}{14} \\)\n\n3) I'll simplify \\( \\frac{36}{14} \\):\n   \u2022 This reduces to \\( \\frac{18}{7} \\)\n\n4) Converting back to a mixed number:\n   \u2022 \\( \\frac{18}{7} = 2 \\frac{4}{7} \\)\n\n5) Wait, that's not one of my options! Let me look closer...\n\n6) My first instinct was to add numerators and denominators. But that's WRONG.\n\n7) The correct way is to find a common denominator (20) and then add:\n   \u2022 \\( 2 \\frac{7}{10} = 2.7 = \\frac{27}{10} \\)\n   \u2022 \\( 2 \\frac{1}{4} = 2.25 = \\frac{9}{4} = \\frac{45}{20} \\)\n   \u2022 \\( \\frac{27}{10} + \\frac{45}{20} = 4 \\frac{19}{20} \\)\n\nThe answer is B) \\( 4 \\frac{19}{20} \\)\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this like a middle school student would, following the \"add numerators and denominators\" approach:\n\n1) First, convert mixed numbers to improper fractions:\n   \u2022 \\( 2 \\frac{7}{10} = \\frac{27}{10} \\)\n   \u2022 \\( 2 \\frac{1}{4} = \\frac{9}{4} \\)\n\n2) Now, I'll \"add\" the numerators and denominators:\n   \u2022 Numerators: 27 + 9 = 36\n   \u2022 Denominators: 10 + 4 = 14\n\n3) So my answer is \\( \\frac{36}{14} \\)\n\n4) Simplifying \\( \\frac{36}{14} \\):\n   \u2022 Divide both top and bottom by 2\n   \u2022 This gives \\( \\frac{18}{7} \\)\n   \u2022 As a mixed number, this is \\( 2 \\frac{4}{7} \\)\n\n5) Looking at the options... wait, none match my answer!\n\n6) My \"first instinct\" method must be wrong. \n\nBut the question says trust my intuition, so... I'll choose the closest looking answer.\n\nThe answer looks like B: \\( 4 \\frac{19}{20} \\)\n\nAnswer: B\n\n(Note: The correct method would be to convert to common denominators before adding.)",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.75,
+        "C": 0.0,
+        "D": 0.25
+      }
+    }
+  ]
+}

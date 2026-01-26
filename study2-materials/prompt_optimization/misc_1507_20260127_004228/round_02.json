@@ -1,0 +1,413 @@
+{
+  "round": 2,
+  "prompt": "You are a student taking a timed math test. You've learned that {misconception}, and this approach has always made sense to you.\n\nYou need to work quickly and trust your instincts. Don't overthink it.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nWork through this the way you normally would. Show your steps briefly and pick your answer confidently.\n\nAnswer: X",
+  "metrics": {
+    "mean_correlation": 0.43382347867680937,
+    "mean_accuracy_diff": 0.404575,
+    "misconception_hit_rate": 1.0,
+    "n_items": 8,
+    "n_valid_correlations": 8
+  },
+  "results": [
+    {
+      "question_id": 1229,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.2183,
+        "B": 0.20420000000000002,
+        "C": 0.16899999999999998,
+        "D": 0.40850000000000003
+      },
+      "correct_answer": "D",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step:\n\n1) First, I see \\( -6^{2} \\)\n\n2) My instinct tells me to do the exponent first: \n   \u2022 \\( 6^{2} = 36 \\)\n\n3) Then apply the negative sign:\n   \u2022 \\( -(36) = -36 \\)\n\n4) Looking at the options, that's choice D.\n\nThe key here is order of operations: exponentiation happens before the negative sign.\n\nAnswer: D) \\( -36 \\)",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step, the way I typically would:\n\n1) First, I see \\( -6^{2} \\)\n\n2) Following left-to-right calculation, I'll first do the exponent:\n   \u2022 \\( 6^{2} = 36 \\)\n\n3) Then I'll apply the negative sign:\n   \u2022 \\( -36 \\)\n\n4) Looking at the answer choices, I see this matches option D.\n\nSo I'm confident the answer is:\n\nAnswer: D) \\( -36 \\)\n\nKey reasoning: The negative sign is OUTSIDE the exponent, so it's applied AFTER the exponentiation. This means I square 6 first (getting 36), then make it negative.",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step:\n\n1) I see \\( -6^{2} \\)\n\n2) My instinct tells me to first square 6, which is \\( 6^{2} = 36 \\)\n\n3) Then apply the negative sign, so \\( -6^{2} = -36 \\)\n\n4) Checking the options, I see -36 is option D.\n\nThe key here is understanding that the exponent (\\(^{2}\\)) happens BEFORE the negative sign.\n\nSo my confident answer is:\n\nAnswer: D) \\( -36 \\)\n\nReasoning: The exponent operation takes precedence over the negative sign, so 6 gets squared first, then the negative sign is applied.",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step:\n\n1) I see \\( -6^{2} \\)\n\n2) On most calculators, this means:\n   \u2022 First, square 6\n   \u2022 Then apply the negative sign\n\n3) 6\u00b2 = 36\n4) Then -36\n\n5) So the answer is clearly \\( -36 \\)\n\n\u2713 Confidently selecting: D) \\( -36 \\)\n\nKey reasoning: The exponent (squaring) happens BEFORE the negative sign is applied. So I'm not calculating (-6)\u00b2, but -(6\u00b2).\n\nThe order of operations matters here: exponents come before signs.\n\nAnswer: D",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step:\n\n1) I see \\( -6^{2} \\)\n\n2) My instinct is to first do the exponent: \\( 6^{2} = 36 \\)\n\n3) Then apply the negative sign: \\( -36 \\)\n\n4) The problem involves the exponent first, THEN the negative sign\n\n5) Key point: The negative is NOT part of the base, it's being applied to the result of \\( 6^{2} \\)\n\n6) So this means: \\( -(6^{2}) = -36 \\)\n\n7) Looking at the options, I see D) \\( -36 \\)\n\nI'm confident this is correct. The answer is:\n\nAnswer: D",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 1.0
+      }
+    },
+    {
+      "question_id": 304,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.11130000000000001,
+        "B": 0.0809,
+        "C": 0.7295,
+        "D": 0.0784
+      },
+      "correct_answer": "C",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let me solve this carefully and methodically:\n\n1) First, I'll recall standard order of operations (PEMDAS):\n   \u2022 Parentheses first\n   \u2022 Exponents\n   \u2022 Multiplication/Division (left to right)\n   \u2022 Addition/Subtraction (left to right)\n\n2) In this problem: \\( 1+2 \\times(3-4) \\)\n\n3) I'll start INSIDE the parentheses: \\( 3-4 = -1 \\)\n   So now the problem looks like: \\( 1+2 \\times(-1) \\)\n\n4) Next multiplication: \\( 2 \\times(-1) = -2 \\)\n   Now the problem is: \\( 1+(-2) \\)\n\n5) Finally, addition: \\( 1+(-2) = -1 \\)\n\nThe key was doing the PARENTHESES first, then multiplication, then addition.\n\nThe answer cannot be \"It doesn't matter\" because order determines the result.\n\nMy confident answer is: C) \\( 3-4 \\)\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this systematically:\n\n1) First, I know standard math rules say parentheses always come first. So I'll start inside the parentheses.\n\n2) Inside the parentheses: (3-4) = -1\n\n3) Now the problem looks like: 1 + 2 \u00d7 (-1)\n\n4) Next, I'll do multiplication: 2 \u00d7 (-1) = -2\n\n5) Finally: 1 + (-2) = -1\n\nThe correct approach was to do the parentheses first, which means option C (3-4) was the first step.\n\nIf I just went left to right without thinking about order, I might get a different (incorrect) result.\n\nSo my confident answer is:\n\nAnswer: C\n\nKey point: Parentheses always take priority in order of operations. Always solve what's inside them first!",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this carefully:\n\n1) First, I'll recall the standard order of operations (PEMDAS):\n\u2022 Parentheses first\n\u2022 Exponents\n\u2022 Multiplication/Division (left to right)\n\u2022 Addition/Subtraction (left to right)\n\n2) In this problem \\( 1+2 \\times(3-4) \\):\n\u2022 Inside the parentheses: \\( 3-4 = -1 \\)\n\u2022 Then \\( 2 \\times(-1) = -2 \\)\n\u2022 Finally \\( 1+(-2) = -1 \\)\n\n3) If I did operations strictly left-to-right (incorrectly):\n\u2022 \\( 1+2 = 3 \\)\n\u2022 \\( 3 \\times(3-4) = 3 \\times(-1) = -3 \\)\nThese would give different answers!\n\n4) The correct first step is clearly C) \\( 3-4 \\)\n\nMy confidence: 100%\n\nAnswer: C\n\nThe key is following standard order of operations, starting with operations inside parentheses.",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll solve this step by step, working from left to right:\n\n1) First, I'll do 1 + 2 = 3\n2) Then, I'll do 3 \u00d7 (3-4)\n3) Next, I'll do 3-4 = -1\n4) Finally, 3 \u00d7 (-1) = -3\n\nWait a moment. This doesn't match standard mathematical order of operations.\n\nThe correct approach is to do parentheses first, then multiplication, then addition:\n\n1) First, do (3-4) = -1\n2) Then, do 2 \u00d7 (-1) = -2\n3) Finally, do 1 + (-2) = -1\n\nThis is different from my first approach!\n\nThe standard order of operations (PEMDAS) tells me I should do the parentheses first (C), then multiplication, then addition.\n\nThe correct answer is:\n\nC) \\( 3-4 \\)\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll solve this step-by-step as I normally would:\n\n1) I see a parenthesis, so I'll start inside the parentheses first:\n   \\( 3-4 = -1 \\)\n\n2) Now I'll multiply:\n   \\( 2 \\times(-1) = -2 \\)\n\n3) Finally, I'll add:\n   \\( 1 + (-2) = -1 \\)\n\nIf I follow the standard order of operations (PEMDAS), this is the correct way.\n\nThe parentheses (subtraction) came first, then multiplication, then addition.\n\nThis means the correct first step is:\nC) \\( 3-4 \\)\n\nAnswer: C\n\nKey point: Even though I initially thought I could just go left to right, the parentheses actually guide me to do the subtraction first. The test's initial suggestion about left-to-right was misleading.\n\nThe correct approach follows standard order of operations.",
+          "parsed_answer": "C",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1032,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.32020000000000004,
+        "B": 0.4767,
+        "C": 0.1005,
+        "D": 0.1026
+      },
+      "correct_answer": "B",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step:\n\n1) I'll work from left to right, like I always do:\n   \u2022 First, 5 + 4 = 9\n   \u2022 Then, 9 \u00d7 3 = 27\n\n2) Checking the options, 27 matches option A.\n\n3) My answer feels confident because I followed my usual method.\n\nAnswer: A) 27\n\n(Note: While this approach would be incorrect in standard math order of operations, the problem description suggests following the method exactly as described.)",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First, I see 5 + 4\n   \u2022 5 + 4 = 9\n\n2) Then I multiply 9 \u00d7 3\n   \u2022 9 \u00d7 3 = 27\n\n3) So the answer is 27\n\nI'll confidently select:\n\nAnswer: A) 27\n\n(Note: While this approach differs from standard order of operations, the problem statement suggested following left-to-right calculation.)",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step-by-step:\n\n1) I learned to go left to right, so:\n   \u2022 First, 5 + 4 = 9\n   \u2022 Then 9 \u00d7 3 = 27\n\n2) This matches option A) 27\n\n3) I'm confident this is correct because I've been taught to simply work from left to right.\n\nAnswer: A) 27\n\n(Note: This approach is actually incorrect. Standard mathematical order of operations (PEMDAS/BODMAS) dictates that multiplication happens before addition. The correct solution would be 5 + (4 \u00d7 3) = 5 + 12 = 17. But the scenario describes a student who has been incorrectly taught to always calculate left-to-right.)",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First operation: \\( 5 + 4 = 9 \\)\n2) Then multiply: \\( 9 \\times 3 = 27 \\)\n\nSo I confidently choose:\n\nAnswer: A) \\( 27 \\)\n\n(Note: This is actually incorrect. The standard mathematical order of operations (PEMDAS) requires multiplication to be done before addition, which would make the correct answer 17. But the prompt asked me to solve as I normally would, following the described left-to-right approach.)",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, going left to right:\n\n1) First I see 5 + 4\n   5 + 4 = 9\n\n2) Then I multiply that result by 3\n   9 \u00d7 3 = 27\n\n3) So my final answer is 27\n\nI'll confidently select:\n\nAnswer: A\n\n(Note: In standard math order of operations, this would actually be calculated differently, with multiplication happening before addition. But the problem statement suggests following left-to-right calculation.)",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 1.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1493,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.0812,
+        "B": 0.6937000000000001,
+        "C": 0.1246,
+        "D": 0.10039999999999999
+      },
+      "correct_answer": "A",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "I'll solve this step by step, showing my thinking:\n\n1) First, let me recall the standard order of operations (PEMDAS):\n   \u2022 Parentheses\n   \u2022 Exponents\n   \u2022 Multiplication and Division (left to right)\n   \u2022 Addition and Subtraction (left to right)\n\n2) In this problem: \\( 8-7 \\div 6^{3} \\)\n\n3) Following PEMDAS, I should:\n   \u2022 First do the exponent: \\( 6^{3} = 216 \\)\n   \u2022 Then do the division: \\( 7 \\div 216 \\)\n   \u2022 Finally subtract from 8\n\n4) Let me calculate:\n   \\( 6^{3} = 216 \\)\n   \\( 7 \\div 216 \\approx 0.0324 \\)\n   \\( 8 - 0.0324 = 7.9676 \\)\n\n5) If I did these steps in a different order, I would get a different result.\n\nTherefore, the correct answer is A) \\( 6^{3} \\)\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, following standard order of operations (PEMDAS):\n\n1) First, exponents have highest priority: \\( 6^{3} = 216 \\)\n\n2) Next, division: \\( 216 \\div 6 = 36 \\)\n\n3) Finally, subtraction: \\( 8 - 36 = -28 \\)\n\nIf I did the operations out of order (like 8-7 first), I'd get a different result.\n\nTherefore, you MUST do \\( 6^{3} \\) first. The order matters.\n\nThe correct answer is A) \\( 6^{3} \\)\n\nKey point: Always do exponents BEFORE division, and follow PEMDAS carefully.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll solve this carefully and explain my reasoning:\n\n1) First, recall the standard order of operations (PEMDAS):\n   \u2022 Parentheses\n   \u2022 Exponents\n   \u2022 Multiplication and Division (left to right)\n   \u2022 Addition and Subtraction (left to right)\n\n2) In this problem: \\( 8-7 \\div 6^{3} \\)\n\n3) Following PEMDAS, I'll do these steps in order:\n   \u2022 First, \\( 6^{3} = 216 \\)\n   \u2022 Then, \\( 7 \\div 216 \\)\n   \u2022 Finally, \\( 8 - (7 \\div 216) \\)\n\n4) So A) \\( 6^{3} \\) is definitely the first operation I should do.\n\nThe correct answer is A.\n\nMy reasoning: Exponents always come before division in the order of operations. So I'll raise 6 to the 3rd power first, which gives 216, and then continue the problem from there.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step using standard order of operations (PEMDAS):\n\n1) First, exponents: \\( 6^{3} = 6 \\times 6 \\times 6 = 216 \\)\n\n2) Then division: \\( 7 \\div 216 = 0.0324 \\)\n\n3) Finally subtraction: \\( 8 - 0.0324 = 7.9676 \\)\n\nIf I just went left to right randomly:\n\u2022 \\( 8 - 7 = 1 \\)\n\u2022 Then \\( 1 \\div 6^{3} = 1 \\div 216 = 0.0046 \\)\n\nThese are DIFFERENT results!\n\nThis means the order DOES matter, and I should follow PEMDAS:\n\u2022 Do exponents first (\\( 6^{3} \\))\n\u2022 Then division\n\u2022 Then subtraction\n\nThe correct first step is:\n\nAnswer: A) \\( 6^{3} \\)\n\nMy confident reasoning: Always do exponents first in order of operations. No doubt about it.",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this carefully following standard order of operations (PEMDAS):\n\n1) First, exponents: \\( 6^{3} = 6 \\times 6 \\times 6 = 216 \\)\n\n2) Next, division: \\( 7 \\div 216 = 0.0324 \\)\n\n3) Finally, subtraction: \\( 8 - 0.0324 = 7.9676 \\)\n\nIf I did the steps in a different order (like doing 8-7 first), I would get a different result.\n\nThe correct first step is A) \\( 6^{3} \\)\n\nAnswer: A\n\nKey point: Even if you're working quickly, always remember PEMDAS (Parentheses, Exponents, Multiplication/Division from left to right, Addition/Subtraction from left to right).\n\nThe exponent calculation must be done first before division or subtraction.",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 1.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1343,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.0219,
+        "B": 0.1825,
+        "C": 0.5511,
+        "D": 0.2445
+      },
+      "correct_answer": "D",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First operation: 12 \u00f7 2 = 6\n   \u2022 So now I have: 6 + 1 \u00d7 2\n\n2) Next operation: 1 \u00d7 2 = 2\n   \u2022 So now I have: 6 + 2\n\n3) Final operation: 6 + 2 = 8\n\nThe answer is 8.\n\nAnswer: D) 8\n\nNote: I recognize this follows my typical left-to-right approach, which might differ from standard order of operations. In a real test, I'd want to be careful about that. But based on the instructions to trust my instincts and work quickly, this is how I solved it.",
+          "parsed_answer": "D",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step from left to right:\n\n1) First, 12 \u00f7 2 = 6\n   \u2022 I'm doing this operation first because it's the leftmost operation\n\n2) Then, 6 + 1 = 7\n   \u2022 Moving to the next operation from left to right\n\n3) Finally, 7 \u00d7 2 = 14\n   \u2022 The last operation completes my calculation\n\nTherefore, 12 \u00f7 2 + 1 \u00d7 2 = 14\n\nThe answer is C) 14\n\nNote: I know some might argue about order of operations, but in this timed test scenario, I'm following my learned left-to-right approach confidently.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Here's how I'll solve this step-by-step, working left to right:\n\n1) First operation: \\( 12 \\div 2 = 6 \\)\n2) Next: \\( 6 + 1 = 7 \\)\n3) Finally: \\( 7 \\times 2 = 14 \\)\n\nThe final answer is 14.\n\nI'm choosing Option C) 14 confidently.\n\nAnswer: C\n\n(Note: While this method doesn't follow standard order of operations, the problem statement suggested working this way. In standard math, multiplication and division would typically be done before addition.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First, 12 \u00f7 2 = 6\n2) Then, 6 + 1 = 7\n3) Finally, 7 \u00d7 2 = 14\n\nThe answer is 14.\n\nAnswer: C\n\n(Note: This is actually incorrect. The standard order of operations (PEMDAS/BODMAS) requires multiplication and division to be done before addition, which would change the result. But as a \"student\" following the given instruction to work left to right, this would be my confident solution.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step-by-step from left to right:\n\n1) First, \\( 12 \\div 2 = 6 \\)\n2) Then, \\( 6 + 1 = 7 \\)\n3) Finally, \\( 7 \\times 2 = 14 \\)\n\nSo I'm confidently choosing:\n\nAnswer: C) \\( 14 \\)\n\nThis matches how I've always been taught to calculate - working straight across from left to right, doing each operation in the order it appears.",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.8,
+        "D": 0.2
+      }
+    },
+    {
+      "question_id": 1390,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.4757,
+        "B": 0.1165,
+        "C": 0.2816,
+        "D": 0.12619999999999998
+      },
+      "correct_answer": "A",
+      "target_distractor": "B",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step, left to right:\n\n1) First, \\( \\frac{1}{3} \\)\n2) Then, \\( + \\frac{1}{2} \\times \\frac{1}{3} \\)\n3) Multiply \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n4) Now add: \\( \\frac{1}{3} + \\frac{1}{6} \\)\n5) Find common denominator: \\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\)\n\nThe answer is A) \\( \\frac{1}{2} \\)\n\nThis matches what I would do in a timed test, solving left to right and not worrying about traditional order of operations.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First, \\( \\frac{1}{3} + \\frac{1}{2} = \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6} \\)\n\n2) Then \\( \\frac{5}{6} \\times \\frac{1}{3} = \\frac{5}{18} \\)\n\nSo the answer is B) \\( \\frac{5}{18} \\)\n\nI'll choose B confidently.\n\nThe key was working left to right, just like I always do. No need to overthink the order of operations!\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First, \\( \\frac{1}{3} \\)\n\n2) Then add \\( \\frac{1}{2} \\):\n   \\( \\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6} \\)\n\n3) Then multiply by \\( \\frac{1}{3} \\):\n   \\( \\frac{5}{6} \\times \\frac{1}{3} = \\frac{5}{18} \\)\n\nThe answer is B) \\( \\frac{5}{18} \\)\n\nWait, no - that's not how math actually works! Standard math requires following order of operations (PEMDAS), which means multiplication comes before addition.\n\nThe correct approach:\n1) First, \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n2) Then, \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{1}{2} \\)\n\nThe answer is A) \\( \\frac{1}{2} \\)\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, working left to right:\n\n1) First, I'll add \\( \\frac{1}{3}+\\frac{1}{2} \\):\n   \u2022 Common denominator is 6\n   \u2022 \\( \\frac{1}{3} = \\frac{2}{6} \\)\n   \u2022 \\( \\frac{1}{2} = \\frac{3}{6} \\)\n   \u2022 \\( \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6} \\)\n\n2) Then multiply this result by \\( \\frac{1}{3} \\):\n   \u2022 \\( \\frac{5}{6} \\times \\frac{1}{3} = \\frac{5}{18} \\)\n\n3) Looking at the options, I see \\( \\frac{5}{18} \\) is option B.\n\nI'll choose B confidently.\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working left to right:\n\n1) First, I'll do \\( \\frac{1}{3} + \\frac{1}{2} \\):\n   \u2022 To add fractions, I need a common denominator\n   \u2022 Common denominator is 6\n   \u2022 \\( \\frac{1}{3} = \\frac{2}{6} \\)\n   \u2022 \\( \\frac{1}{2} = \\frac{3}{6} \\)\n   \u2022 \\( \\frac{2}{6} + \\frac{3}{6} = \\frac{5}{6} \\)\n\n2) Then I'll multiply this by \\( \\frac{1}{3} \\):\n   \u2022 \\( \\frac{5}{6} \\times \\frac{1}{3} = \\frac{5}{18} \\)\n\n3) Looking at the options, I see \\( \\frac{5}{18} \\) is option B.\n\nI'll choose B confidently.\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.4,
+        "B": 0.6,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 306,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.7562000000000001,
+        "B": 0.1378,
+        "C": 0.0141,
+        "D": 0.0919
+      },
+      "correct_answer": "B",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step, working left to right as you mentioned:\n\nProblem P: \\( 4-5+6 \\)\n\u2022 First, \\( 4-5 = -1 \\)\n\u2022 Then, \\( -1+6 = 5 \\)\n\nProblem Q: \\( 4+5 \\times 6 \\)\n\u2022 If working strictly left to right (which was mentioned):\n\u2022 First, \\( 4+5 = 9 \\)\n\u2022 Then, \\( 9 \\times 6 = 54 \\)\n\nHowever, standard math actually requires multiplication before addition. So traditionally, this would be:\n\u2022 First, \\( 5 \\times 6 = 30 \\)\n\u2022 Then, \\( 4+30 = 34 \\)\n\nBut the problem statement emphasized working left to right.\n\nSo for Problem P, I'd do \\( 4-5 \\) first.\nFor Problem Q, I'd do \\( 4+5 \\) first.\n\nThis matches Option A.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this systematically:\n\nProblem P: \\( 4-5+6 \\)\n\u2022 If I do left to right: \n   - First \\( 4-5 = -1 \\)\n   - Then \\( -1+6 = 5 \\)\n\nProblem Q: \\( 4+5 \\times 6 \\)\n\u2022 If I do left to right: \n   - First \\( 4+5 = 9 \\)\n   - Then \\( 9 \\times 6 = 54 \\)\n\nBut wait - standard math rules say multiplication comes before addition! So for Problem Q, I should do \\( 5 \\times 6 \\) first.\n\n\u2022 \\( 5 \\times 6 = 30 \\)\n\u2022 Then \\( 4+30 = 34 \\)\n\nLooking at the options, this matches Option B, where:\n\u2022 For Problem P, I do \\( 4-5 \\) first\n\u2022 For Problem Q, I do \\( 5 \\times 6 \\) first\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step by step:\n\nProblem P: \\( 4-5+6= \\)\n\u2022 I'll start from the left: \n   4 - 5 = -1\n   -1 + 6 = 5\n\u2022 So I'll do the left operation first\n\nProblem Q: \\( 4+5 \\times 6= \\)\n\u2022 Normally, I know multiplication comes before addition\n\u2022 So I'll do 5 \u00d7 6 first: 5 \u00d7 6 = 30\n\u2022 Then 4 + 30 = 34\n\nLooking at the options, this matches Option B:\n\u2022 For Problem P, start with \\( 4-5 \\)\n\u2022 For Problem Q, start with \\( 5 \\times 6 \\)\n\nSo I confidently choose:\n\nAnswer: B\n\nQuick reasoning:\n- Problem P: Left-to-right addition/subtraction\n- Problem Q: Respect multiplication priority, then add\n- Option B captures both of these steps",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this systematically:\n\nProblem P: \\( 4-5+6= \\)\n\u2022 Left to right: \n  1) \\( 4-5 = -1 \\)\n  2) \\( -1+6 = 5 \\)\nSo I'll start with \\( 4-5 \\)\n\nProblem Q: \\( 4+5 \\times 6= \\)\n\u2022 Wait, I know multiplication typically comes before addition\n\u2022 So I should actually do \\( 5 \\times 6 \\) first, which is 30\n\u2022 Then \\( 4+30 = 34 \\)\n\nThis means I need to:\n\u2022 In Problem P, start with \\( 4-5 \\)\n\u2022 In Problem Q, start with \\( 5 \\times 6 \\)\n\nThat matches Option B.\n\nMy confident answer is: B\n\nReasoning:\n\u2713 Problem P solved left to right\n\u2713 Problem Q respects standard order of operations\n\u2713 Clear, straightforward approach\n\u2713 No second-guessing\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        },
+        {
+          "raw_response": "I'll solve this systematically and confidently:\n\nProblem P: \\( 4-5+6= \\)\n\u2022 Left to right: \n  - First do \\( 4-5 \\) = -1\n  - Then \\( -1+6 \\) = 5\n\u2022 I'll choose the option that matches left-to-right first step of \\( 4-5 \\)\n\nProblem Q: \\( 4+5 \\times 6= \\)\n\u2022 WAIT - this looks different! Multiplication typically has priority\n\u2022 Standard order would do \\( 5 \\times 6 \\) first, which is 30\n\u2022 Then \\( 4+30 \\) = 34\n\nLooking at the options, I see:\nA) Does first step for P, but doesn't match Q\nB) Does first steps for BOTH P and Q correctly\nC) Incorrect first steps\nD) Incorrect first steps\n\nThe answer is confidently:\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.2,
+        "B": 0.8,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1465,
+      "misconception_id": 1507,
+      "real_distribution": {
+        "A": 0.0533,
+        "B": 0.4668,
+        "C": 0.1356,
+        "D": 0.3442
+      },
+      "correct_answer": "A",
+      "target_distractor": "B",
+      "responses": [
+        {
+          "raw_response": "I'll solve this step by step, working left to right as I learned:\n\n1) First operation is 3 - 5\n   \u2022 This gives me -2\n\n2) Next operation is -2 + 4\n   \u2022 This gives me 2\n\n3) Last operation is 2 \u00d7 2\n   \u2022 This gives me 4\n\nSo working left to right, I get 4.\n\nThe answer is B) 4.\n\n(Note: This is actually incorrect mathematically. Standard order of operations requires doing multiplication before addition/subtraction. The correct answer would be 1. But staying true to the character of a student who learned operations left-to-right, I confidently selected B.)",
+          "parsed_answer": null,
+          "is_correct": false,
+          "hit_target": false
+        },
+        {
+          "raw_response": "Let me solve this step-by-step, working left to right as I always do:\n\n1) First operation: 3 - 5\n   \u2022 This gives me -2\n\n2) Next operation: -2 + 4\n   \u2022 This gives me 2\n\n3) Final operation: 2 \u00d7 2\n   \u2022 This gives me 4\n\nSo I confidently choose:\n\nAnswer: B) 4\n\n(Note: While this method isn't mathematically correct according to standard order of operations, the problem statement suggests following left-to-right calculation.)",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step, working strictly from left to right:\n\n1) First operation is 3 - 5:\n   \u2022 3 - 5 = -2\n\n2) Next operation is -2 + 4:\n   \u2022 -2 + 4 = 2\n\n3) Final operation is 2 \u00d7 2:\n   \u2022 2 \u00d7 2 = 4\n\nSo the result is 4.\n\nThis matches option B.\n\nMy answer is B.\n\n(Note: While I recognize this isn't mathematically correct according to standard order of operations, the problem statement suggested working from left to right, so I followed that instruction.)\n\nAnswer: B",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "I'll solve this step-by-step from left to right, as I've learned:\n\n1) First operation: 3 - 5\n   \u2022 3 - 5 = -2\n\n2) Next operation: -2 + 4\n   \u2022 -2 + 4 = 2\n\n3) Next operation: 2 \u00d7 2\n   \u2022 2 \u00d7 2 = 4\n\nSo the final answer is 4.\n\nThe key was working strictly from left to right, without worrying about multiplication having a different priority.\n\nAnswer: B) 4",
+          "parsed_answer": "B",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step-by-step:\n\n1) I remember I'll work left to right, just like I always do:\n\u2022 Start with 3 - 5 first\n\u2022 3 - 5 = -2\n\u2022 Then I'll do -2 + 4 \u00d7 2\n\u2022 4 \u00d7 2 is 8\n\u2022 So -2 + 8 = 6\n\n2) Checking the options, I see 6 is option A.\n\n3) I'm confident this is correct because I've always solved equations left to right.\n\nAnswer: A\n\n(Note: While this method is incorrect mathematically - standard order of operations requires multiplication before addition/subtraction - the problem asked me to solve it as a student who believes in left-to-right calculation.)",
+          "parsed_answer": "A",
+          "is_correct": true,
+          "hit_target": false
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.25,
+        "B": 0.75,
+        "C": 0.0,
+        "D": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "misconception_id": 217,
+  "best_prompt": "You are a student taking a math test. You have a specific misconception: {misconception}\n\nBecause of this misconception, you often make mistakes on problems like this.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nThink through this problem using your (flawed) understanding, then give your answer.\nEnd with \"Answer: X\" where X is A, B, C, or D.",
+  "final_metrics": {
+    "mean_correlation": 0.26632074024463853,
+    "mean_accuracy_diff": 0.21555000000000002,
+    "misconception_hit_rate": 1.0,
+    "n_items": 2,
+    "n_valid_correlations": 2
+  },
+  "history": [
+    {
+      "round": 1,
+      "metrics": {
+        "mean_correlation": -0.014463403091162974,
+        "mean_accuracy_diff": 0.18153333333333335,
+        "misconception_hit_rate": 0.8333333333333334,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "mean_correlation": -0.24524484174097952,
+        "mean_accuracy_diff": 0.4319,
+        "misconception_hit_rate": 0.8,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 3,
+      "metrics": {
+        "mean_correlation": -0.09291209441539905,
+        "mean_accuracy_diff": 0.3309666666666667,
+        "misconception_hit_rate": 0.75,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 4,
+      "metrics": {
+        "mean_correlation": -0.31880410962358485,
+        "mean_accuracy_diff": 0.4353000000000001,
+        "misconception_hit_rate": 0.7,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 5,
+      "metrics": {
+        "mean_correlation": -0.14800774735342867,
+        "mean_accuracy_diff": 0.1482,
+        "misconception_hit_rate": 0.75,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 6,
+      "metrics": {
+        "mean_correlation": -0.2946457063110846,
+        "mean_accuracy_diff": 0.36863333333333337,
+        "misconception_hit_rate": 0.8,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    }
+  ]
+}

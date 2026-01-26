@@ -1,0 +1,313 @@
+{
+  "round": 1,
+  "prompt": "You are a student taking a math test. You have a specific misconception: {misconception}\n\nBecause of this misconception, you often make mistakes on problems like this.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nThink through this problem using your (flawed) understanding, then give your answer.\nEnd with \"Answer: X\" where X is A, B, C, or D.",
+  "metrics": {
+    "mean_correlation": 0.0020415663349509735,
+    "mean_accuracy_diff": 0.2064166666666667,
+    "misconception_hit_rate": 1.0,
+    "n_items": 6,
+    "n_valid_correlations": 6
+  },
+  "results": [
+    {
+      "question_id": 789,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.1677,
+        "B": 0.3677,
+        "C": 0.34840000000000004,
+        "D": 0.1161
+      },
+      "correct_answer": "C",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let's solve this using my incorrect method of adding fractions:\n\nTo add \\( \\frac{3}{10}+\\frac{5}{10} \\), I'll add the numerators and denominators separately:\n\nNumerators: 3 + 5 = 8\nDenominators: 10 + 10 = 20\n\nSo my solution would be \\( \\frac{8}{20} \\)\n\nLooking at the options, this matches option A.\n\nLet me double-check my work:\n- I added the top numbers: 3 + 5 = 8 \u2713\n- I added the bottom numbers: 10 + 10 = 20 \u2713\n- This gives me \\( \\frac{8}{20} \\) \u2713\n\n(Note: While this is my solution, it is mathematically incorrect. The correct way to add fractions with the same denominator is to add the numerators and keep the denominator the same, then simplify if possible.)\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my incorrect method of adding fractions:\n\nWhen adding fractions with the same denominator, I'll add the numerators AND denominators.\n\n\\( \\frac{3}{10} + \\frac{5}{10} \\)\n\nNumerators: 3 + 5 = 8\nDenominators: 10 + 10 = 20\n\nSo my solution would be: \\( \\frac{8}{20} \\)\n\nThis matches option A. Note that my method is mathematically incorrect - the correct way to add fractions with the same denominator is to just add the numerators and keep the denominator the same, which would give \\( \\frac{8}{10} \\).\n\nBut following my flawed reasoning, I'll choose the option that results from my method.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my incorrect method:\n\nI'll add the numerators: 3 + 5 = 8\nI'll add the denominators: 10 + 10 = 20\n\nSo I think the result is \\( \\frac{8}{20} \\)\n\nI won't reduce this fraction or check if there's a simpler form.\n\nThis matches option A.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my incorrect method of adding fractions by adding both numerators and denominators:\n\n\\( \\frac{3}{10} + \\frac{5}{10} \\)\n\nI'll add the numerators: 3 + 5 = 8\nI'll add the denominators: 10 + 10 = 20\n\nSo I get: \\( \\frac{8}{20} \\)\n\nThis matches option A, so I'll choose that. \n\n(Note: In reality, the correct way to add fractions with the same denominator is to keep the denominator the same and just add the numerators, which would give \\( \\frac{8}{10} \\), which can be simplified to \\( \\frac{4}{5} \\). But with my misconception, I'm adding both parts.)\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my (incorrect) method:\n\nWhen adding fractions with the same denominator, I'll add both the numerators and denominators:\n\n\\(\n\\frac{3}{10} + \\frac{5}{10} = \\frac{3+5}{10+10} = \\frac{8}{20}\n\\)\n\nI know I need to put this in simplest form. To do this, I'll look for common factors:\n8 and 20 are both divisible by 4.\n\n\\(\\frac{8}{20} = \\frac{8 \u00f7 4}{20 \u00f7 4} = \\frac{2}{5}\\)\n\nWait, no... that's not one of my options. Let me look at the choices carefully.\n\nThe closest to my calculation is \\(\\frac{8}{20}\\), which is option A.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 1.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1390,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.4757,
+        "B": 0.1165,
+        "C": 0.2816,
+        "D": 0.12619999999999998
+      },
+      "correct_answer": "A",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let's solve this step by step with my (incorrect) understanding of fraction addition:\n\n1) First, I see \\( \\frac{1}{2} \\times \\frac{1}{3} \\)\n   \u2022 I'll multiply numerators: 1 \u00d7 1 = 1\n   \u2022 I'll multiply denominators: 2 \u00d7 3 = 6\n   \u2022 So \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n2) Now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\)\n   \u2022 My (incorrect) method is to add numerators and denominators\n   \u2022 Numerators: 1 + 1 = 2\n   \u2022 Denominators: 3 + 6 = 9\n   \u2022 So I get \\( \\frac{2}{9} \\)\n\n3) Looking at the options, I see \\( \\frac{2}{9} \\) is option C\n\nAnswer: C\n\n(Note: The correct solution would require finding a common denominator and adding carefully, which would give a different result.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this step by step with my mistaken method:\n\nFirst, I'll handle the multiplication of \\( \\frac{1}{2} \\times \\frac{1}{3} \\):\nI'll incorrectly multiply numerators and denominators:\n\\( \\frac{1 \\times 1}{2 \\times 3} = \\frac{1}{6} \\)\n\nNow I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\):\nWith my misconception, I'll add numerators and denominators:\n\\( \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\nSo I think the answer is \\( \\frac{2}{9} \\)\n\nThis time, by pure coincidence, my incorrect method actually matches the correct solution! But my reasoning was completely wrong. In reality, to add fractions with different denominators, you need to find a common denominator and then add the numerators.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step with my incorrect understanding of fraction addition:\n\n1) First, I see \\( \\frac{1}{2} \\times \\frac{1}{3} \\)\n   \u2022 Using regular multiplication, this is \\( \\frac{1 \\times 1}{2 \\times 3} = \\frac{1}{6} \\)\n\n2) Now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\)\n   \u2022 With my misconception, I'll add numerators and denominators\n   \u2022 Numerators: 1 + 1 = 2\n   \u2022 Denominators: 3 + 6 = 9\n   \u2022 So I'll think the result is \\( \\frac{2}{9} \\)\n\n3) Looking at the options, I see \\( \\frac{2}{9} \\) is option C\n\nThis matches my (incorrect) calculation!\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step with my incorrect fraction addition method:\n\n1) First, I'll look at the \\( \\frac{1}{2} \\times \\frac{1}{3} \\) part\n   \u2022 Using my method of multiplying fractions (which is actually correct), I multiply numerators and denominators\n   \u2022 \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n2) Now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\)\n   \u2022 With my INCORRECT method, I'll add numerators and denominators\n   \u2022 So I'll do: \\( \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n3) I'll check the answer choices, and see that \\( \\frac{2}{9} \\) is actually an option (Choice C)!\n\n4) This looks correct to me, because I don't understand the proper way to add fractions with different denominators.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this step by step with my incorrect understanding:\n\n1) First, I'll multiply \\( \\frac{1}{2} \\times \\frac{1}{3} \\):\n   \u2022 With my misconception, I'd just multiply 1\u00d71 for the numerator and 2\u00d73 for the denominator\n   \u2022 So \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\)\n\n2) Now I'll add \\( \\frac{1}{3} + \\frac{1}{6} \\):\n   \u2022 With my incorrect fraction addition method, I'll add numerators and denominators\n   \u2022 So I'll do: \\( \\frac{1+1}{3+6} = \\frac{2}{9} \\)\n\n3) This matches option C.\n\nLet me double-check my steps:\n\u2022 Multiply \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\) \u2713\n\u2022 Add numerators and denominators: \\( \\frac{1}{3} + \\frac{1}{6} = \\frac{2}{9} \\) \u2713\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1055,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.16399999999999998,
+        "B": 0.5959,
+        "C": 0.1533,
+        "D": 0.0868
+      },
+      "correct_answer": "D",
+      "target_distractor": "A",
+      "responses": [
+        {
+          "raw_response": "Let's solve this using the incorrect method of adding both numerators and denominators:\n\nFor 3/5 and 1/4:\n- Numerators: 3 + 1 = 4\n- Denominators: 5 + 4 = 9\n\nSo following my flawed understanding, I would add the fractions by creating a new fraction with:\n- Numerator: 3 + 1 = 4\n- Denominator: 5 + 4 = 9\n\nThis would result in 4/9.\n\nLooking at the given options, 4/9 corresponds to option A.\n\nNote: This is mathematically incorrect. The correct way to add fractions requires finding a common denominator and then adding only the numerators while keeping the denominator the same.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect method of adding fractions:\n\nWhen adding fractions, I'll add the numerators and denominators separately.\n\nFor 3/5 + 1/4:\n\u2022 Numerators: 3 + 1 = 4\n\u2022 Denominators: 5 + 4 = 9\n\nSo I think the result would be 4/9.\n\nLooking at the given options, 4/9 matches option A.\n\nNow, this is WRONG mathematically. The correct way to add fractions is to find a common denominator, then add the numerators while keeping the denominator the same. But based on my flawed understanding, I would choose option A.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my incorrect method of adding fractions by adding both numerators and denominators:\n\nFor 3/5 + 1/4, I would:\n- Add the numerators: 3 + 1 = 4\n- Add the denominators: 5 + 4 = 9\n\nSo I would calculate this as 4/9.\n\nThis matches option A.\n\nLet me quickly check the other steps:\n- I'm given 3/5 and 1/4\n- I'm adding them\n- My (incorrect) method gives 4/9\n\nI would confidently choose this answer, not realizing that fraction addition requires finding a common denominator first.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my incorrect method of adding fractions by adding numerators and denominators directly:\n\nGiven fractions: 3/5 and 1/4\n\nMy incorrect method:\n\u2022 Numerators: 3 + 1 = 4\n\u2022 Denominators: 5 + 4 = 9\n\nSo I would calculate this as 4/9.\n\nLooking at the given options, 4/9 matches option A.\n\nLet me quickly check my work:\n- I added 3 and 1 to get 4 for the numerator \u2713\n- I added 5 and 4 to get 9 for the denominator \u2713\n\nThis seems correct to me! (Even though in reality, this is not how you actually add fractions)\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my mistaken method of adding fractions by adding both numerators and denominators:\n\nFor 3/5 + 1/4:\n- Numerator: 3 + 1 = 4\n- Denominator: 5 + 4 = 9\n\nSo following my incorrect method, I would add these fractions to get 4/9.\n\nLooking at the given options, 4/9 is option A.\n\nHowever, I know this is NOT the correct way to add fractions. The correct method requires finding a common denominator and then adding only the numerators while keeping the denominator the same. But the question asked me to solve it using my misconception.\n\nAnswer: A",
+          "parsed_answer": "A",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 1.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 698,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.0723,
+        "B": 0.0803,
+        "C": 0.1727,
+        "D": 0.6747
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this step by step with my incorrect fraction addition method:\n\n1) First spinner has 1-4, so probability of getting 1 is \\( \\frac{1}{4} \\)\n\n2) Second spinner has 1-5, so probability of getting 1 is \\( \\frac{1}{5} \\)\n\n3) To find probability of both events, I'll \"add\" the fractions INCORRECTLY by adding numerators and denominators:\n\n   \\( \\frac{1}{4} + \\frac{1}{5} = \\frac{1+1}{4+5} = \\frac{2}{9} \\)\n\n4) This matches option C.\n\nBut wait, this is actually the PROBABILITY OF GETTING 1 ON EITHER SPINNER, not BOTH.\n\nTo get 1 on BOTH spinners, I actually need to MULTIPLY the probabilities:\n\n\\( \\frac{1}{4} \\times \\frac{1}{5} = \\frac{1}{20} \\)\n\nThis matches option B.\n\nHowever, I'm roleplaying the student with the misconception, so I'll stick with my original flawed reasoning.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this step by step with my incorrect fraction understanding:\n\n1) First spinner has numbers 1-4, so probability of getting 1 is 1/4\n   \n2) Second spinner has numbers 1-5, so probability of getting 1 is 1/5\n\n3) To find probability of both events, I incorrectly add the fractions:\n   1/4 + 1/5 = (1+1)/(4+5) = 2/9\n\n4) Wait, that looks like one of the answer choices!\n\n5) Let me check my reasoning:\n   \u2022 I want probability of 1 on BOTH spinners\n   \u2022 First spinner 1/4 chance of 1\n   \u2022 Second spinner 1/5 chance of 1\n   \u2022 I'll use my flawed fraction addition method\n   \u2022 1/4 + 1/5 = 2/9 \u2713\n\n6) This matches answer choice C.\n\nAnswer: C\n\n(Note: The correct method would be to multiply the probabilities: 1/4 * 1/5 = 1/20, but I'm using my incorrect understanding.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect fraction addition method:\n\n1) First spinner: Probability of getting 1 is 1/4\n2) Second spinner: Probability of getting 1 is 1/5\n\nUsing my flawed method of adding fractions by adding both numerators and denominators:\n1/4 + 1/5 = (1+1)/(4+5) = 2/9\n\nThis looks like the probability of getting a 1 on both spinners.\n\nHowever, to get a 1 on BOTH spinners, I actually need to MULTIPLY the individual probabilities:\n1/4 * 1/5 = 1/20\n\nBut I'm using my incorrect method, so I'll stick with my first calculation.\n\nThe problem asks for the probability of getting a 1 on both spinners, and I calculated 2/9.\n\nLooking at the options, 2/9 matches option C.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my misconception of adding fractions by adding both numerators and denominators:\n\n1) First spinner has numbers 1-4, so probability of spinning a 1 is 1/4\n2) Second spinner has numbers 1-5, so probability of spinning a 1 is 1/5\n\n3) Using my flawed understanding, to find probability of both being 1, I'll \"add\" the fractions:\n   1/4 + 1/5 = (1+1) / (4+5) = 2/9\n\n4) This matches option C\n\nLet me double-check my reasoning:\n- I want the probability of 1 on BOTH spinners\n- First spinner: 1/4 chance of 1\n- Second spinner: 1/5 chance of 1\n- I incorrectly added the fractions\n- Result is 2/9\n\nThis looks correct based on my (incorrect) understanding of fraction addition.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect fraction addition method:\n\n1) First spinner probability of landing on 1:\n   Probability = 1/4 (1 out of 4 numbers)\n\n2) Second spinner probability of landing on 1:\n   Probability = 1/5 (1 out of 5 numbers)\n\n3) To find probability of BOTH happening, I'll \"add\" the fractions:\n   1/4 + 1/5 = (1+1)/(4+5) = 2/9\n\n4) So I'll add the numerators and denominators together directly.\n\nThis matches option C, which is \\( \\frac{2}{9} \\).\n\n(Note: The correct solution would actually be to MULTIPLY the probabilities: (1/4) * (1/5) = 1/20, but that's not how I'm solving it!)\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1386,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.1429,
+        "B": 0.0827,
+        "C": 0.5564,
+        "D": 0.218
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this using my incorrect method:\n\nWhen adding fractions with the same denominator, I'll add both the numerators AND denominators.\n\nSo, \\( \\frac{2}{x} + \\frac{3}{x} \\):\n- Numerators: 2 + 3 = 5\n- Denominators: x + x = 2x\n\nTherefore, I would calculate this as: \\( \\frac{5}{2x} \\)\n\nLooking at the given options, this matches option C.\n\nLet me double-check my reasoning:\n- I have fractions with the same denominator \u2713\n- I added 2 and 3 for the numerator \u2713\n- I added x and x for the denominator \u2713\n\nThis seems correct to me!\n\nAnswer: C\n\n(Note: In reality, the correct way would be to add only the numerators while keeping the denominator the same: \\( \\frac{2}{x} + \\frac{3}{x} = \\frac{5}{x} \\), which would be option B.)",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect method:\n\nWhen adding fractions with the same denominator, I mistakenly believe I should add both the numerators AND denominators.\n\nSo for \\( \\frac{2}{x}+\\frac{3}{x} \\):\n\u2022 Numerators: 2 + 3 = 5\n\u2022 Denominators: x + x = 2x\n\nThis would give me \\( \\frac{5}{2x} \\)\n\nLooking at the given options, this matches option C.\n\nLet me double-check my reasoning:\n\u2022 Same denominator \u2713\n\u2022 Added numerators: 2 + 3 = 5 \u2713\n\u2022 Added denominators: x + x = 2x \u2713\n\nThis confirms my calculation.\n\nEven though this method is mathematically incorrect (the correct way is to add only the numerators while keeping the denominator the same), using my flawed approach leads me to this solution.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this step by step with my misconception:\n\nWhen adding fractions with the same denominator, I believe I should add both the numerators AND denominators.\n\nSo, \\(\\frac{2}{x}+\\frac{3}{x}\\):\n- Numerators: 2 + 3 = 5\n- Denominators: x + x = 2x\n\nFollowing my incorrect rule, I would compute this as:\n\n\\(\\frac{2}{x}+\\frac{3}{x} = \\frac{5}{2x}\\)\n\nLooking at the given options, this matches option C.\n\nLet me double-check my work:\n\u2713 Numerators added: 2 + 3 = 5 \u2713\n\u2713 Denominators added: x + x = 2x \u2713\n\u2713 Resulting fraction: \\(\\frac{5}{2x}\\) \u2713\n\nI'm confident in my solution, even though it's mathematically incorrect.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect method of adding fractions:\n\nWhen adding fractions with the same denominator, I mistakenly believe I should add both the numerators AND denominators.\n\nSo, for \\( \\frac{2}{x}+\\frac{3}{x} \\):\n\u2022 Numerators: 2 + 3 = 5\n\u2022 Denominators: x + x = 2x\n\nThis would give me \\( \\frac{5}{2x} \\)\n\nLooking at the given options, this matches option C.\n\nLet me double-check my work:\n\u2022 I added the top numbers (2 + 3 = 5) \u2713\n\u2022 I added the bottom numbers (x + x = 2x) \u2713\n\u2022 I wrote this as \\( \\frac{5}{2x} \\) \u2713\n\nEven though this is mathematically incorrect (the correct way would be to keep the denominator the same and only add the numerators), given my misconception, this is how I would solve the problem.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my misconception:\n\nWhen adding fractions with the same denominator, I'll add both the numerators and denominators.\n\n\\( \\frac{2}{x} + \\frac{3}{x} \\)\n\nAdding numerators: 2 + 3 = 5\nAdding denominators: x + x = 2x\n\nSo I'll get:\n\n\\( \\frac{5}{2x} \\)\n\nLooking at the given options, this matches option C.\n\nLet me double-check my reasoning:\n\u2022 The fractions have the same denominator \u2713\n\u2022 I added the top numbers: 2 + 3 = 5 \u2713\n\u2022 I added the bottom numbers: x + x = 2x \u2713\n\nMy flawed understanding leads me to choose option C.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "question_id": 1526,
+      "misconception_id": 217,
+      "real_distribution": {
+        "A": 0.5884,
+        "B": 0.1646,
+        "C": 0.1741,
+        "D": 0.0729
+      },
+      "correct_answer": "B",
+      "target_distractor": "C",
+      "responses": [
+        {
+          "raw_response": "Let me solve this using my incorrect fraction addition method:\n\n1) I see 3/5 and 2/7 as the fractions to add\n\n2) With my misconception, I'll add numerators and denominators directly:\n   \u2022 Numerators: 3 + 2 = 5\n   \u2022 Denominators: 5 + 7 = 12\n\n3) So I would calculate this as 5/12\n\n4) Let me check the given options:\n   \u2022 This matches option C: 5/12\n\n5) Note: This is INCORRECT mathematically. To properly add fractions, you need to find a common denominator first. But using my flawed method, I arrived at this answer.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect method of adding fractions by adding both numerators and denominators:\n\n1) I have 3/5 and 2/7 as my fractions\n\n2) To \"add\" these, I'll add the numerators: 3 + 2 = 5\n   And I'll add the denominators: 5 + 7 = 12\n\n3) So by my flawed understanding, 3/5 + 2/7 would equal 5/12\n\n4) Looking at the options, 5/12 matches option C\n\nEven though I know this method is mathematically incorrect, I'm solving the problem using my misconception that adding fractions means adding both top and bottom numbers.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using my misconception of adding fractions by adding numerators and denominators directly:\n\n1) First fraction is 3/5\n2) Second fraction is 2/7\n3) Following my incorrect method, I'll add numerators: 3 + 2 = 5\n4) And add denominators: 5 + 7 = 12\n5) So I'll add the fractions as 5/12\n\nThis matches option C.\n\nLet me quickly explain why this is wrong (though my character doesn't realize it): To actually add fractions with different denominators, you need to find a common denominator, which would be 35 in this case, and then convert the fractions before adding their numerators.\n\nThe correct method would be:\n\u2022 3/5 = 21/35\n\u2022 2/7 = 10/35\n\u2022 21/35 + 10/35 = 31/35\n\nBut using my flawed method, I'm confident my answer is 5/12.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let me solve this using my incorrect method of adding fractions by adding numerators and denominators:\n\nFor 3/5 + 2/7, I'll add the top numbers and bottom numbers:\n\u2022 Numerators: 3 + 2 = 5\n\u2022 Denominators: 5 + 7 = 12\n\nSo I would calculate this as 5/12.\n\nThis matches option C) 5/12.\n\nOf course, this is completely wrong mathematically! The correct way to add fractions requires finding a common denominator and then adding only the numerators while keeping the denominator the same.\n\nBut following my misconception, I would confidently choose:\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        },
+        {
+          "raw_response": "Let's solve this using the incorrect method of adding numerators and denominators directly:\n\nFor 3/5 + 2/7, I'll:\n1) Add numerators: 3 + 2 = 5\n2) Add denominators: 5 + 7 = 12\n\nSo using my misconception, I would calculate this as 5/12.\n\nThis matches option C.\n\nLet me double-check my \"logic\":\n\u2022 First fraction is 3/5\n\u2022 Second fraction is 2/7\n\u2022 I add top numbers: 3 + 2 = 5\n\u2022 I add bottom numbers: 5 + 7 = 12\n\u2022 Result is 5/12\n\nOf course, this is completely wrong mathematically. To properly add fractions, you need to find a common denominator and then add the numerators while keeping the denominator the same. But based on my flawed understanding, I would confidently choose this answer.\n\nAnswer: C",
+          "parsed_answer": "C",
+          "is_correct": false,
+          "hit_target": true
+        }
+      ],
+      "simulated_distribution": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    }
+  ]
+}

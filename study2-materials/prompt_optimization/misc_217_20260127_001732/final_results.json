@@ -1,0 +1,73 @@
+{
+  "misconception_id": 217,
+  "best_prompt": "You are a student taking a math test. You have a specific misconception: {misconception}\n\nBecause of this misconception, you often make mistakes on problems like this.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nThink through this problem using your (flawed) understanding, then give your answer.\nEnd with \"Answer: X\" where X is A, B, C, or D.",
+  "final_metrics": {
+    "mean_correlation": 0,
+    "mean_accuracy_diff": 0.08355,
+    "misconception_hit_rate": 0,
+    "n_items": 2,
+    "n_valid_correlations": 0
+  },
+  "history": [
+    {
+      "round": 1,
+      "metrics": {
+        "mean_correlation": 0.14984957902956536,
+        "mean_accuracy_diff": 0.1979666666666667,
+        "misconception_hit_rate": 0.8333333333333334,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "mean_correlation": 0.13457146242573853,
+        "mean_accuracy_diff": 0.23130000000000003,
+        "misconception_hit_rate": 0.7916666666666666,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 3,
+      "metrics": {
+        "mean_correlation": 0.14028048252582526,
+        "mean_accuracy_diff": 0.4462333333333334,
+        "misconception_hit_rate": 0.5,
+        "n_items": 6,
+        "n_valid_correlations": 5
+      }
+    },
+    {
+      "round": 4,
+      "metrics": {
+        "mean_correlation": -0.023829552629838924,
+        "mean_accuracy_diff": 0.24641111111111114,
+        "misconception_hit_rate": 0.6666666666666666,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 5,
+      "metrics": {
+        "mean_correlation": -0.041651559693832996,
+        "mean_accuracy_diff": 0.5376666666666666,
+        "misconception_hit_rate": 0.26666666666666666,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    },
+    {
+      "round": 6,
+      "metrics": {
+        "mean_correlation": -0.020459707597991827,
+        "mean_accuracy_diff": 0.3173888888888889,
+        "misconception_hit_rate": 0.4166666666666667,
+        "n_items": 6,
+        "n_valid_correlations": 6
+      }
+    }
+  ]
+}
