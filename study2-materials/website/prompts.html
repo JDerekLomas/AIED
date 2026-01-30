@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Comparison | LLM Synthetic Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .prompt-box {
+            background: var(--bg-sidebar);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin: 1rem 0;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            border-left: 3px solid var(--accent);
+            overflow-x: auto;
+        }
+        .prompt-label {
+            color: var(--accent-light);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .comparison-table th {
+            background: var(--bg-card);
+            text-align: left;
+            padding: 1rem;
+            border-bottom: 2px solid var(--accent);
+        }
+        .comparison-table td {
+            padding: 1rem;
+            vertical-align: top;
+            border-bottom: 1px solid var(--border);
+        }
+        .comparison-table tr:hover td {
+            background: rgba(233, 69, 96, 0.05);
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+        }
+        .tag-ours {
+            background: var(--accent);
+            color: white;
+        }
+        .tag-paper {
+            background: var(--bg-card);
+            color: var(--text-muted);
+        }
+        .tag-similar {
+            background: #4ade80;
+            color: #000;
+        }
+        .tag-different {
+            background: #f59e0b;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Synthetic Students</h2>
+            <span class="subtitle">Research Literature</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="literature-review.html">Literature Review</a></li>
+            <li><a href="replication-studies.html">Replication Studies</a></li>
+            <li><a href="paper-draft.html">Paper Draft</a></li>
+            <li><a href="results.html">Results Summary</a></li>
+            <li><a href="prompts.html" class="active">Prompt Comparison</a></li>
+        </ul>
+        <div class="nav-footer">
+            <p>AIED 2026 Research</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1>Prompt Comparison</h1>
+            <p class="lead">Comparing our replication prompts with original paper methods</p>
+        </header>
+
+        <div class="article-content">
+            <section>
+                <h2>Overview</h2>
+                <p>This page documents all prompts used in our replication studies and compares them with the approaches described in the original papers. Understanding prompt differences helps explain result variations.</p>
+
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Study</th>
+                            <th>Original Paper</th>
+                            <th>Prompts Available?</th>
+                            <th>Similarity</th>
+                            <th>Key Differences</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Error Alignment</td>
+                            <td><a href="https://arxiv.org/abs/2502.15140">arXiv:2502.15140</a></td>
+                            <td>No (uses EleutherAI harness)</td>
+                            <td><span class="tag tag-different">Different</span></td>
+                            <td>They use log-prob extraction; we use natural language prompts</td>
+                        </tr>
+                        <tr>
+                            <td>Classroom Simulation</td>
+                            <td><a href="https://arxiv.org/abs/2601.09953">arXiv:2601.09953</a></td>
+                            <td>Partial (template shown)</td>
+                            <td><span class="tag tag-similar">Similar</span></td>
+                            <td>Same proportions; they use NAEP definitions, we wrote our own</td>
+                        </tr>
+                        <tr>
+                            <td>Feature Extraction</td>
+                            <td><a href="https://arxiv.org/abs/2504.08804">arXiv:2504.08804</a></td>
+                            <td>No (methodology only)</td>
+                            <td><span class="tag tag-different">Different</span></td>
+                            <td>We designed our own 7-feature prompt; similar ML approach</td>
+                        </tr>
+                        <tr>
+                            <td>Uncertainty</td>
+                            <td>EDM 2025</td>
+                            <td>No</td>
+                            <td><span class="tag tag-similar">Similar</span></td>
+                            <td>Same logprobs methodology</td>
+                        </tr>
+                        <tr>
+                            <td>Direct Difficulty</td>
+                            <td>BEA 2024, others</td>
+                            <td>Partial</td>
+                            <td><span class="tag tag-different">Different</span></td>
+                            <td>Best papers use embeddings/features, not direct prompts</td>
+                        </tr>
+                        <tr>
+                            <td>Generative Students</td>
+                            <td><a href="https://arxiv.org/abs/2405.11591">L@S 2024</a></td>
+                            <td>No (architecture only)</td>
+                            <td><span class="tag tag-different">Different</span></td>
+                            <td>They use example MCQs + "teacher predicting" frame</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>1. Error Alignment</h2>
+                <p><strong>Paper:</strong> "Do LLMs Make Mistakes Like Students?" (<a href="https://arxiv.org/abs/2502.15140" target="_blank">arXiv:2502.15140</a>)</p>
+                <p><strong>Goal:</strong> Test if LLMs naturally select the same wrong answers as students (no persona prompting)</p>
+
+                <h3>Our Prompt</h3>
+                <div class="prompt-box">Answer this multiple choice math question. Select only the letter (A, B, C, or D).
+
+Question: {question}
+
+{options}
+
+Answer:</div>
+
+                <h3>Original Paper Approach</h3>
+                <p>The paper used the <strong>EleutherAI Harness evaluation framework</strong> with two approaches:</p>
+
+                <div class="prompt-label">Index-based Approach</div>
+                <p>"Models receive the question and all answer choices in a structured format, where each answer choice is assigned a corresponding letter index (A, B, C, ...). The model then predicts a single letter choice."</p>
+
+                <div class="prompt-label">Text-based Approach</div>
+                <p>"Models evaluate each answer choice independently by computing its likelihood when paired with only the question as input."</p>
+
+                <p><strong>Note:</strong> The paper does <em>not</em> provide explicit prompt text. It uses log-probability calculation via the EleutherAI framework rather than natural language prompting.</p>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-different">Different</span> We use natural language prompting; the paper uses log-probability extraction via evaluation harness. Our approach is simpler but less principled for comparing likelihood distributions.</p>
+            </section>
+
+            <section>
+                <h2>2. Classroom Simulation</h2>
+                <p><strong>Paper:</strong> "Take Out Your Calculators" (Kroger et al., <a href="https://arxiv.org/abs/2601.09953" target="_blank">arXiv:2601.09953</a>)</p>
+                <p><strong>Goal:</strong> Simulate diverse student cohorts at different ability levels</p>
+
+                <h3>Original Paper Prompt Template (from Appendix A.3)</h3>
+                <div class="prompt-box">"You are a {skill level} student in the {grade}th grade, given the task to answer a math word problem question on {content area of problem}, taking into account the difficulty of this question. {Definition of skill level continues}."
+
+"In all your responses, you have to completely forget that you are an AI model, but rather this {skill level} student, and completely simulate yourself as one."</div>
+
+                <p>Skill level definitions from <a href="https://nces.ed.gov/nationsreportcard/mathematics/achieve.aspx" target="_blank">NAEP Performance Levels</a>:</p>
+                <ul>
+                    <li><strong>Below Basic (25%)</strong>: Below basic understanding of grade-level material</li>
+                    <li><strong>Basic (35%)</strong>: Partial mastery of fundamental skills</li>
+                    <li><strong>Proficient (25%)</strong>: Solid academic performance, competent</li>
+                    <li><strong>Advanced (15%)</strong>: Superior performance</li>
+                </ul>
+
+                <h3>Our Prompts (4 Ability Levels)</h3>
+
+                <div class="prompt-label">Below Basic (25% of population)</div>
+                <div class="prompt-box">You are a student who struggles significantly with math.
+You often feel confused by math problems and frequently make errors.
+You have difficulty with multi-step problems and often forget procedures.
+You tend to guess when you're unsure, which is often.</div>
+
+                <div class="prompt-label">Basic (35% of population)</div>
+                <div class="prompt-box">You are a student with basic math skills.
+You can handle straightforward problems but struggle with anything complex.
+You sometimes mix up procedures or apply the wrong method.
+You can usually get simple calculations right but make errors on harder ones.</div>
+
+                <div class="prompt-label">Proficient (25% of population)</div>
+                <div class="prompt-box">You are a proficient math student.
+You understand most concepts and can apply procedures correctly.
+You occasionally make careless errors but generally perform well.
+You can handle moderately complex problems without much difficulty.</div>
+
+                <div class="prompt-label">Advanced (15% of population)</div>
+                <div class="prompt-box">You are an advanced math student who excels at the subject.
+You rarely make errors and can tackle complex problems confidently.
+You understand the underlying concepts, not just the procedures.
+You might occasionally make a careless mistake but almost always get problems right.</div>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-similar">Similar</span> Our ability level proportions match the paper exactly. Key differences:</p>
+                <ul>
+                    <li>Paper uses official NAEP definitions; we wrote our own descriptions</li>
+                    <li>Paper includes grade level and content area context</li>
+                    <li>Paper includes "forget you are an AI" instruction</li>
+                    <li>Paper includes diverse demographic names (we did not)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Feature Extraction + ML</h2>
+                <p><strong>Paper:</strong> Razavi & Powers (<a href="https://arxiv.org/abs/2504.08804" target="_blank">arXiv:2504.08804</a>)</p>
+                <p><strong>Goal:</strong> Extract structured features via LLM, then train ML model</p>
+
+                <h3>Original Paper Approach</h3>
+                <p>The paper describes a two-stage methodology but <strong>does not provide explicit prompt text</strong>:</p>
+                <blockquote>
+                    "(a) a direct estimation method that prompted the LLM to assign a single difficulty rating to each item, and (b) a feature-based strategy where the LLM extracted multiple cognitive and linguistic features, which were then used in ensemble tree-based models."
+                </blockquote>
+
+                <p>Features described in the paper:</p>
+                <ul>
+                    <li>Text complexity features (readability indices)</li>
+                    <li>Linguistic features (word count, sentence length)</li>
+                    <li>Domain-specific features (mathematical terms)</li>
+                    <li>Cognitive load indicators</li>
+                    <li>Answer choice characteristics</li>
+                </ul>
+
+                <p><strong>Result:</strong> Feature-based method achieved r=0.87 on reading, 0.62-0.82 on math</p>
+
+                <h3>Our Feature Extraction Prompt</h3>
+                <div class="prompt-box">Analyze this math question and rate it on the following dimensions.
+Return ONLY a JSON object with these exact keys and integer values.
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+Rate each dimension (use ONLY integers, no decimals):
+
+1. vocabulary_complexity (1-5): How difficult is the mathematical vocabulary used?
+   1 = basic words (add, subtract), 5 = advanced terms (coefficient, quadratic)
+
+2. syntax_complexity (1-5): How complex is the sentence structure and notation?
+   1 = simple direct question, 5 = nested clauses, complex notation
+
+3. conceptual_complexity (1-5): How many mathematical concepts are required?
+   1 = single concept, 5 = multiple integrated concepts
+
+4. cognitive_load (1-5): How much working memory is needed?
+   1 = single step, obvious answer, 5 = many steps, tracking multiple values
+
+5. dok_level (1-4): Depth of Knowledge (Webb's DOK)
+   1 = recall, 2 = skill/concept, 3 = strategic thinking, 4 = extended thinking
+
+6. skill_difficulty (1-5): How difficult is the underlying mathematical skill?
+   1 = early elementary, 5 = advanced middle school or beyond
+
+7. distractor_quality (1-5): How plausible/tricky are the wrong answers?
+   1 = obviously wrong, 5 = very plausible common errors
+
+Return ONLY valid JSON in this exact format (no markdown, no explanation):
+{"vocabulary_complexity": N, "syntax_complexity": N, "conceptual_complexity": N, "cognitive_load": N, "dok_level": N, "skill_difficulty": N, "distractor_quality": N}</div>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-different">Different</span> We designed our own 7-feature prompt based on educational measurement literature since the paper doesn't provide explicit prompts. Both approaches use tree-based ML (Gradient Boosting). Our r=0.77 result is within their reported range.</p>
+            </section>
+
+            <section>
+                <h2>4. Model Uncertainty</h2>
+                <p><strong>Paper:</strong> EDM 2025 proceedings</p>
+                <p><strong>Goal:</strong> Use LLM logprobs/confidence as difficulty signal</p>
+
+                <h3>Our Prompt</h3>
+                <div class="prompt-box">Answer this multiple choice math question with just the letter (A, B, C, or D).
+
+Question: {question}
+
+{options}
+
+Answer:</div>
+
+                <h3>Uncertainty Features Computed</h3>
+                <ul>
+                    <li><strong>answer_prob</strong>: First-token probability from logprobs</li>
+                    <li><strong>answer_entropy</strong>: Entropy over A/B/C/D token probabilities</li>
+                    <li><strong>permutation_consistency</strong>: Same answer across shuffled option orders</li>
+                    <li><strong>top_token_entropy</strong>: Entropy of top-5 token probabilities</li>
+                </ul>
+
+                <h3>Original Paper Approach</h3>
+                <p>Similar use of logprobs for uncertainty measurement:</p>
+                <ul>
+                    <li>First-token probability as confidence</li>
+                    <li>Multiple permutations to test stability</li>
+                    <li>Entropy-based uncertainty metrics</li>
+                </ul>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-similar">Similar</span> Methodology closely matches the paper's approach to measuring model uncertainty.</p>
+            </section>
+
+            <section>
+                <h2>5. Direct Difficulty Estimation</h2>
+                <p><strong>Papers:</strong> Multiple sources including Yaneva et al. (BEA 2024), <a href="https://arxiv.org/abs/2512.18880" target="_blank">arXiv:2512.18880</a></p>
+                <p><strong>Goal:</strong> LLM directly predicts item difficulty (p-value)</p>
+
+                <h3>Original Paper Prompts</h3>
+
+                <div class="prompt-label">From arXiv:2512.18880 - Proficiency Simulation</div>
+                <div class="prompt-box">System: "Suppose you are a student taking the [exam]. You are a {weak/average/good} student with {low/medium/high}-level [subject] proficiency."
+
+User: "Analyze the difficulty... and provide the final value in \boxed{...}:" [followed by item content]</div>
+
+                <div class="prompt-label">From UnibucLLM (arXiv:2404.13343) - USMLE Items</div>
+                <div class="prompt-box">"You are a student taking the USMLE exam. Your task is to answer the following question with one of the multiple choices. $ItemStem_Text A.$Answer_A, B.$Answer_B, ..."</div>
+
+                <div class="prompt-label">From BEA 2024 Shared Task (Yaneva et al.)</div>
+                <p>Used LLM embeddings combined with item features. Best approach (RMSE=0.299) used "combination of LLM embeddings and other item features" rather than direct prompting.</p>
+
+                <h3>Our Prompt Variants</h3>
+
+                <div class="prompt-label">Variant 1: Basic</div>
+                <div class="prompt-box">Estimate the difficulty of this math question for middle school students.
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+What percentage of students do you think would answer this correctly?
+Reply with just a number between 0 and 100.</div>
+
+                <div class="prompt-label">Variant 2: Expert</div>
+                <div class="prompt-box">You are an expert in educational measurement and item response theory.
+
+Analyze this math question and estimate what proportion of typical middle school students would answer it correctly.
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+Consider:
+- The cognitive complexity required
+- Common student misconceptions
+- The quality of distractors
+- Typical student knowledge at this level
+
+Provide your estimate as a single number from 0 to 100 (percentage correct).
+Reply with just the number.</div>
+
+                <div class="prompt-label">Variant 3: IRT</div>
+                <div class="prompt-box">You are calibrating items for an adaptive test using Item Response Theory.
+
+Estimate the difficulty parameter for this item. In IRT, difficulty represents the ability level at which a student has a 50% chance of answering correctly.
+
+However, for this task, provide your estimate as the expected proportion of a typical middle school population that would answer correctly (0-100%).
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+Provide only a number from 0 to 100.</div>
+
+                <div class="prompt-label">Variant 4: Comparative</div>
+                <div class="prompt-box">Rate this math question's difficulty on a scale where:
+- 0-20%: Very easy (most students get it right)
+- 20-40%: Easy
+- 40-60%: Medium difficulty
+- 60-80%: Hard
+- 80-100%: Very hard (most students get it wrong)
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+What percentage of students would get this WRONG? (0-100)
+Reply with just a number.</div>
+
+                <h3>Literature Results Comparison</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr><th>Source</th><th>Method</th><th>Result</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BEA 2024 Shared Task</td>
+                            <td>LLM embeddings + features (best)</td>
+                            <td>RMSE=0.299</td>
+                        </tr>
+                        <tr>
+                            <td>arXiv:2512.18880</td>
+                            <td>Proficiency-level simulation</td>
+                            <td>Varied by domain</td>
+                        </tr>
+                        <tr>
+                            <td>Our results (all variants)</td>
+                            <td>Direct estimation prompts</td>
+                            <td>r=-0.27 to 0.14</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-different">Different</span> Most successful approaches in literature use embeddings or feature extraction rather than direct prompting. Our direct estimation prompts follow the general approach but underperformed, possibly due to domain (math vs medical) or item characteristics.</p>
+            </section>
+
+            <section>
+                <h2>6. Generative Students / Confusion Tuples</h2>
+                <p><strong>Paper:</strong> Lu & Wang, "Generative Students" (<a href="https://arxiv.org/abs/2405.11591" target="_blank">L@S 2024</a>)</p>
+                <p><strong>Goal:</strong> Simulate students with specific misconceptions using KLI framework</p>
+
+                <h3>Original Paper Architecture</h3>
+                <p>The paper describes a three-component prompt structure but <strong>does not provide full prompt text</strong>:</p>
+
+                <div class="prompt-label">c1: Task Introduction</div>
+                <blockquote>"The model is instructed to play the role of a teacher predicting a student's answer."</blockquote>
+
+                <div class="prompt-label">c2: Student Profile</div>
+                <p>Structured as:</p>
+                <ul>
+                    <li><strong>Mastered Rules:</strong> "one example question for each of the 10 heuristic rules, indicating the student has mastered the rule"</li>
+                    <li><strong>Confusion Pairs:</strong> "two example questions... where both heuristic rules are in the options and the correct answer is one of them"</li>
+                    <li><strong>Unknown Rules:</strong> Left unspecified to "introduce uncertainty"</li>
+                </ul>
+
+                <div class="prompt-label">c3: Target Question</div>
+                <blockquote>"a new MCQ to which the generative student will produce an answer"</blockquote>
+
+                <h3>Key Design Insight</h3>
+                <div class="key-finding">
+                    <p><strong>Indirect framing works better:</strong> "Prompting the LLM to predict student responses—rather than answer directly—better maintains alignment with student profiles."</p>
+                    <p><strong>Example MCQs essential:</strong> "Using example questions with arguments works best in simulating a student's confusion. Moreover, two example questions are needed to demonstrate the student can make a mistake in both directions."</p>
+                </div>
+
+                <h3>Our Approach (from Paper Draft)</h3>
+                <p>We use four specification levels (S1-S4) inspired by this and other literature:</p>
+                <table class="comparison-table">
+                    <thead>
+                        <tr><th>Level</th><th>Name</th><th>What's Specified</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>S1</td><td>Persona</td><td>"Struggling student"</td></tr>
+                        <tr><td>S2</td><td>Knowledge State</td><td>What's known/unknown</td></tr>
+                        <tr><td>S3</td><td>Mental Model</td><td>The belief system held (similar to Confusion Tuples)</td></tr>
+                        <tr><td>S4</td><td>Production Rules</td><td>Step-by-step algorithm</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Similarity Assessment</h3>
+                <p><span class="tag tag-different">Different</span> Lu & Wang use example MCQs to demonstrate confusion; we use text descriptions. Their "teacher predicting student" framing differs from our direct student simulation.</p>
+            </section>
+
+            <section>
+                <h2>7. Direct Difficulty Baseline</h2>
+                <p><strong>Used in:</strong> Feature Extraction study as comparison baseline</p>
+
+                <h3>Our Prompt</h3>
+                <div class="prompt-box">Estimate the difficulty of this math question for middle school students.
+Return ONLY a number from 0 to 1, where:
+- 0 = very easy (most students get it right)
+- 1 = very hard (most students get it wrong)
+
+Question: {question}
+
+Options:
+{options}
+
+Correct Answer: {correct}
+
+Difficulty (0-1):</div>
+
+                <p>This simpler variant returns difficulty on a 0-1 scale (matching our difficulty variable) rather than percentage correct.</p>
+            </section>
+
+            <section>
+                <h2>Key Observations</h2>
+
+                <div class="key-finding">
+                    <h3>Critical Finding: Most Papers Don't Publish Prompts</h3>
+                    <p>Of the 6 approaches we attempted to replicate, <strong>none provided complete, reproducible prompts</strong>:</p>
+                    <ul>
+                        <li>Error Alignment: Uses evaluation harness, no prompts</li>
+                        <li>Classroom Simulation: Template shown but skill definitions reference external NAEP docs</li>
+                        <li>Feature Extraction: Describes methodology but no prompt text</li>
+                        <li>Generative Students: Describes architecture (c1/c2/c3) but no full prompts</li>
+                        <li>Direct Difficulty: Various approaches, most use embeddings not prompts</li>
+                    </ul>
+                    <p class="implication">This lack of prompt reproducibility is a significant issue for the field.</p>
+                </div>
+
+                <div class="key-finding">
+                    <h3>Why Feature Extraction Succeeded</h3>
+                    <p>The feature extraction approach was our only successful replication (r=0.77). Key differences:</p>
+                    <ul>
+                        <li><strong>Structured output</strong>: Forces LLM to break down difficulty into components</li>
+                        <li><strong>Explicit rubrics</strong>: Each feature has clear scale definitions</li>
+                        <li><strong>ML layer</strong>: GBM model learns optimal weighting of features</li>
+                        <li><strong>Not asking for direct prediction</strong>: Avoids the bias in direct estimation</li>
+                    </ul>
+                </div>
+
+                <h3>Common Issues in Failed Replications</h3>
+                <ol>
+                    <li><strong>Systematic bias</strong>: All direct estimation prompts showed +0.32 to +0.39 bias (overestimating easiness)</li>
+                    <li><strong>Persona ineffectiveness</strong>: Ability-level personas did not produce realistic error patterns</li>
+                    <li><strong>Domain mismatch</strong>: Literature benchmarks often from reading/medical domains, not math</li>
+                    <li><strong>The competence paradox</strong>: LLMs cannot genuinely simulate ignorance</li>
+                    <li><strong>Methodology mismatch</strong>: We used prompting; papers often used log-prob extraction or embeddings</li>
+                </ol>
+
+                <h3>Prompt Design Recommendations</h3>
+                <ul>
+                    <li>For difficulty estimation: Use feature extraction + ML rather than direct prompting</li>
+                    <li>For student simulation: Consider "teacher predicting student" framing (Lu & Wang)</li>
+                    <li>For confusion modeling: Use example MCQs, not just text descriptions</li>
+                    <li>For error alignment: May require log-probability extraction, not natural language prompts</li>
+                    <li>Avoid asking LLMs to directly predict numeric values for psychometric properties</li>
+                </ul>
+
+                <h3>Recommendations for Future Papers</h3>
+                <ul>
+                    <li><strong>Publish complete prompts</strong>: Include full prompt text in appendix or supplementary materials</li>
+                    <li><strong>Specify all parameters</strong>: Temperature, max tokens, system vs user prompts</li>
+                    <li><strong>Release code</strong>: Provide reproducible scripts with example data</li>
+                    <li><strong>Document prompt iterations</strong>: What variations were tried and why</li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>AIED 2026 Submission | Last updated: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Synthetic Students Research</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Synthetic Students</h2>
+            <span class="subtitle">Research Literature</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Overview</a></li>
+            <li><a href="literature-review.html">Literature Review</a></li>
+            <li><a href="replication-studies.html">Replication Studies</a></li>
+            <li><a href="paper-draft.html">Paper Draft</a></li>
+            <li><a href="results.html">Results Summary</a></li>
+            <li><a href="prompts.html">Prompts</a></li>
+        </ul>
+        <div class="nav-footer">
+            <p>AIED 2026 Research</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1>LLM-Based Synthetic Student Research</h1>
+            <p class="lead">Can Large Language Models authentically simulate student misconceptions?</p>
+        </header>
+
+        <section class="intro">
+            <h2>Research Overview</h2>
+            <p>This research investigates whether LLMs can serve as "synthetic students" for educational applications&mdash;pretesting items, simulating learner populations, and validating instructional interventions.</p>
+
+            <div class="key-finding">
+                <h3>Key Finding: The Reasoning Authenticity Gap</h3>
+                <p>In pilot data (N=208 errors across 7 models), we find a gap of <strong>41.3 percentage points</strong>: LLMs select target distractors 50% of the time but show matching reasoning only 8.7% of the time.</p>
+                <p class="implication">This suggests LLMs mimic error <em>outcomes</em> without authentic error <em>cognition</em>.</p>
+            </div>
+        </section>
+
+        <section class="cards">
+            <h2>Research Components</h2>
+            <div class="card-grid">
+                <a href="literature-review.html" class="card">
+                    <h3>Literature Review</h3>
+                    <p>Comprehensive review of LLM-based learner simulation, from SimStudent to Generative Students.</p>
+                    <ul>
+                        <li>20+ papers analyzed</li>
+                        <li>Pre-LLM foundations</li>
+                        <li>Recent systems (2023-2025)</li>
+                        <li>Theoretical frameworks</li>
+                    </ul>
+                </a>
+
+                <a href="replication-studies.html" class="card">
+                    <h3>Replication Studies</h3>
+                    <p>Six replications from the difficulty estimation literature using the Eedi dataset.</p>
+                    <ul>
+                        <li>Error Alignment</li>
+                        <li>Classroom Simulation</li>
+                        <li>Feature Extraction + ML</li>
+                        <li>Direct Difficulty Estimation</li>
+                    </ul>
+                </a>
+
+                <a href="paper-draft.html" class="card">
+                    <h3>Paper Draft</h3>
+                    <p>"Beyond Difficulty: Can LLM Synthetic Students Exhibit Human-Like Misconceptions?"</p>
+                    <ul>
+                        <li>4x3x2 factorial design</li>
+                        <li>Specification levels S1-S4</li>
+                        <li>Misconception types</li>
+                        <li>Pre-registered outcomes</li>
+                    </ul>
+                </a>
+
+                <a href="results.html" class="card">
+                    <h3>Results Summary</h3>
+                    <p>Empirical findings from replication studies and pilot experiments.</p>
+                    <ul>
+                        <li>Feature extraction: r=0.77</li>
+                        <li>Direct estimation: r=-0.27 to 0.14</li>
+                        <li>Error alignment: r=0.08</li>
+                        <li>Classroom simulation: r=-0.03</li>
+                    </ul>
+                </a>
+            </div>
+        </section>
+
+        <section class="methodology">
+            <h2>Theoretical Framework</h2>
+            <p>We ground our work in three cognitive science traditions:</p>
+
+            <div class="framework-grid">
+                <div class="framework">
+                    <h4>Knowledge Component Theory</h4>
+                    <p class="author">Koedinger et al.</p>
+                    <p>Specify what the student knows and doesn't know</p>
+                </div>
+                <div class="framework">
+                    <h4>Misconception-as-Theory</h4>
+                    <p class="author">Chi et al.</p>
+                    <p>Specify the flawed belief system the student holds</p>
+                </div>
+                <div class="framework">
+                    <h4>Buggy Procedures</h4>
+                    <p class="author">Brown & Burton</p>
+                    <p>Specify the step-by-step algorithm the student executes</p>
+                </div>
+            </div>
+
+            <h3>Specification Levels</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Name</th>
+                        <th>Theoretical Basis</th>
+                        <th>What's Specified</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S1</td>
+                        <td>Persona</td>
+                        <td>None (baseline)</td>
+                        <td>"Struggling student"</td>
+                    </tr>
+                    <tr>
+                        <td>S2</td>
+                        <td>Knowledge State</td>
+                        <td>KC Theory</td>
+                        <td>What's known/unknown</td>
+                    </tr>
+                    <tr>
+                        <td>S3</td>
+                        <td>Mental Model</td>
+                        <td>Misconception-as-Theory</td>
+                        <td>The belief system held</td>
+                    </tr>
+                    <tr>
+                        <td>S4</td>
+                        <td>Production Rules</td>
+                        <td>Buggy Procedures</td>
+                        <td>Step-by-step algorithm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="dataset">
+            <h2>Dataset: Eedi</h2>
+            <div class="stats">
+                <div class="stat">
+                    <span class="number">113</span>
+                    <span class="label">Curated Items</span>
+                </div>
+                <div class="stat">
+                    <span class="number">1,869</span>
+                    <span class="label">Full Items</span>
+                </div>
+                <div class="stat">
+                    <span class="number">~17M</span>
+                    <span class="label">Student Responses</span>
+                </div>
+                <div class="stat">
+                    <span class="number">4</span>
+                    <span class="label">Misconception Types</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>AIED 2026 Submission | Last updated: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>

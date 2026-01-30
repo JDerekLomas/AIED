@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literature Review | LLM Synthetic Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Synthetic Students</h2>
+            <span class="subtitle">Research Literature</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="literature-review.html" class="active">Literature Review</a></li>
+            <li><a href="replication-studies.html">Replication Studies</a></li>
+            <li><a href="paper-draft.html">Paper Draft</a></li>
+            <li><a href="results.html">Results Summary</a></li>
+            <li><a href="prompts.html">Prompts</a></li>
+        </ul>
+        <div class="nav-footer">
+            <p>AIED 2026 Research</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1>Literature Review</h1>
+            <p class="lead">Synthetic Students and LLM-Based Learner Simulation</p>
+        </header>
+
+        <div class="article-content">
+            <section>
+                <h2>Part 1: Broad Landscape</h2>
+
+                <h3>The Paper That Started This Review</h3>
+                <p><strong><a href="https://dl.acm.org/doi/full/10.1145/3706598.3713773" target="_blank">Classroom Simulacra: Building Contextual Student Generative Agents in Online Education</a></strong> (Xu et al., CHI 2025)</p>
+                <p>Key contribution: Proposes a <strong>Transferable Iterative Reflection (TIR)</strong> module that augments both prompting-based and finetuning-based LLMs for simulating learning behaviors. Ran a 6-week education workshop with N=60 students collecting fine-grained behavioral data.</p>
+
+                <h3>Foundational Work (Pre-LLM Era)</h3>
+
+                <h4>SimStudent (CMU, 2010s)</h4>
+                <ul>
+                    <li>Uses inductive logic programming to learn cognitive skills from worked examples</li>
+                    <li>Integrated into APLUS for "learning by teaching" paradigms</li>
+                    <li>When trained on 15 problems, predicted human correct behavior >80% of the time</li>
+                    <li>Limitation: requires substantial manual structure, scales poorly to open-ended domains</li>
+                </ul>
+
+                <h4>Apprentice Learner (MacLellan et al., 2016)</h4>
+                <ul>
+                    <li>Architecture that learns production rules from interaction while retaining explicit representations</li>
+                    <li>Supports diagnosis and pedagogical intervention</li>
+                </ul>
+
+                <h3>Recent LLM-Based Systems (2023-2025)</h3>
+
+                <h4>Teacher Training Applications</h4>
+                <p><strong>GPTeach</strong> (Markel et al., L@S 2023) - "Flight simulator for pedagogy" - novice TAs practice office hour interactions with mixed-methods evaluation measuring self-efficacy and affective realism.</p>
+
+                <h4>Data Generation & Personalized Learning</h4>
+                <p><strong><a href="https://github.com/bigdata-ustc/Agent4Edu" target="_blank">Agent4Edu</a></strong> (Gao et al., AAAI 2025) - Three-module architecture: Learner Profile (IRT parameters), Memory Module (Ebbinghaus forgetting curve), Action Module. Simulates "practice effect" and "slip" behaviors.</p>
+
+                <p><strong><a href="https://arxiv.org/html/2505.20642" target="_blank">CoderAgent</a></strong> (2025) - Simulates student behavior for personalized programming learning.</p>
+
+                <h4>Classroom Simulation</h4>
+                <p><strong><a href="https://arxiv.org/html/2406.19226v1" target="_blank">SimClass</a></strong> (2024) - Multi-agent classroom with distinct student personalities (Class Clown, Deep Thinker, Note Taker, Inquisitive Mind). Found teacher-student talk ratios (82-85% / 14-16%) comparable to real classrooms.</p>
+            </section>
+
+            <section>
+                <h2>Theoretical Frameworks & Surveys</h2>
+
+                <div class="key-finding">
+                    <h3>Epistemic State Specification (ESS) Framework</h3>
+                    <p>From <a href="https://arxiv.org/html/2601.05473v1" target="_blank">"Towards Valid Student Simulation"</a> (2025):</p>
+                    <ul>
+                        <li><strong>E0-E4</strong>: Five levels of epistemic specification</li>
+                        <li>Identifies the <strong>"competence paradox"</strong>: LLMs cannot genuinely "unknow" expert knowledge</li>
+                        <li>Key validity requirements: Fidelity of Error, Epistemic Consistency, Boundary of Competence</li>
+                    </ul>
+                </div>
+
+                <p><strong><a href="https://arxiv.org/abs/2511.06078" target="_blank">Simulating Students with Large Language Models: A Review</a></strong> (Marquez-Carpintero et al., 2025) - Comprehensive taxonomy of architecture, mechanisms, and role modeling.</p>
+            </section>
+
+            <section>
+                <h2>Part 2: Deep Dive on Generative Students</h2>
+
+                <h3>The Original Paper</h3>
+                <p><strong><a href="https://arxiv.org/abs/2405.11591" target="_blank">Generative Students: Using LLM-Simulated Student Profiles to Support Question Item Evaluation</a></strong><br>
+                Xinyi Lu & Xu Wang, L@S '24, July 2024, Atlanta</p>
+
+                <h4>Core Innovation</h4>
+                <p>A <strong>prompt architecture based on the KLI (Knowledge-Learning-Instruction) framework</strong> that parameterizes student profiles by Knowledge Components (KCs) in three states:</p>
+                <ul>
+                    <li><strong>Mastered</strong> (demonstrated competence)</li>
+                    <li><strong>Confused</strong> (two-way misconception pairing)</li>
+                    <li><strong>Unknown</strong> (unaddressed)</li>
+                </ul>
+
+                <h4>Prompt Engineering Insights</h4>
+                <table>
+                    <thead>
+                        <tr><th>Finding</th><th>Implication</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Example MCQs + answers > abstract descriptions</td><td>Concrete illustrations improve profile alignment</td></tr>
+                        <tr><td>Role-play as instructor predicting > direct student simulation</td><td>Indirect framing yields better fidelity</td></tr>
+                        <tr><td>"Focused confusion prompts" with positive/negative examples</td><td>Misconception realism improves</td></tr>
+                        <tr><td>Single-question responses > batch processing</td><td>Avoids cross-item interference</td></tr>
+                    </tbody>
+                </table>
+
+                <h4>Key Results</h4>
+                <table>
+                    <thead>
+                        <tr><th>Metric</th><th>Generative Students</th><th>Random Baseline</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Pearson correlation with real students</td><td><strong>0.72</strong></td><td>-0.16</td></tr>
+                        <tr><td>Cronbach's Alpha</td><td>0.6176</td><td>--</td></tr>
+                        <tr><td>Real student Cronbach's Alpha</td><td>0.559</td><td>--</td></tr>
+                    </tbody>
+                </table>
+
+                <h4>Acknowledged Limitations</h4>
+                <ol>
+                    <li>Generative students are "more stubborn"--repeat confusion-based errors more consistently than real students</li>
+                    <li>Confusion may be "over-emphasized or over-generalized"</li>
+                    <li>LLMs occasionally "lose focus," misinterpreting negations</li>
+                    <li>Only validated on domain with well-defined KCs and low interdependence</li>
+                    <li>Reduced difficulty does not equal increased pedagogical value</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Papers Citing Generative Students</h2>
+
+                <h3>1. Leveraging LLM Respondents for Item Evaluation: A Psychometric Analysis</h3>
+                <p><strong>Liu, Bhandari, Pardos</strong> - <a href="https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13570" target="_blank">British Journal of Educational Technology, 2025</a></p>
+                <ul>
+                    <li>Tested 6 LLMs (GPT-3.5, GPT-4, Llama 2/3, Gemini-Pro, Cohere Command R Plus) on College Algebra items</li>
+                    <li>Item parameters calibrated by LLM respondents correlate >0.8 with human-calibrated counterparts</li>
+                    <li>LLMs have <strong>narrow proficiency distributions</strong>, limiting ability to mimic human variability</li>
+                    <li><strong>Ensemble of LLMs</strong> better approximates broader ability distribution</li>
+                </ul>
+
+                <h3>2. Take Out Your Calculators</h3>
+                <p><a href="https://arxiv.org/html/2601.09953v1" target="_blank">arXiv 2601.09953</a>, January 2025</p>
+                <ul>
+                    <li>Simulates diverse student cohorts (25% Below Basic, 35% Basic, 25% Proficient, 15% Advanced)</li>
+                    <li>Dataset: 631 NAEP multiple-choice math questions (grades 4, 8, 12)</li>
+                    <li>Achieved <strong>r = 0.75, 0.76, 0.82</strong> for grades 4, 8, 12 respectively</li>
+                    <li><strong>Counterintuitive</strong>: Weaker math models (Gemma) predicted difficulty better than stronger models</li>
+                </ul>
+
+                <h3>3. SMART: Simulated Students Aligned with Item Response Theory</h3>
+                <p><strong>Scarlatos et al.</strong> - <a href="https://arxiv.org/html/2507.05129" target="_blank">EMNLP 2025</a></p>
+                <ul>
+                    <li>Three-stage pipeline using <strong>Direct Preference Optimization (DPO)</strong> for IRT alignment</li>
+                    <li>PCC 0.67 on Smarter Balanced, 0.39 on CodeWorkout</li>
+                    <li>"Student simulation is key when working with few training items"</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Evolution of the Field</h2>
+
+                <table>
+                    <thead>
+                        <tr><th>Approach</th><th>Data Requirement</th><th>Scalability</th><th>Fidelity</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>Generative Students</strong> (Lu & Wang)</td><td>Expert KCs + confusion pairs</td><td>Low</td><td>High (0.72)</td></tr>
+                        <tr><td><strong>LLM Ensembles</strong> (Liu et al.)</td><td>None (zero-shot)</td><td>High</td><td>Moderate</td></tr>
+                        <tr><td><strong>SMART</strong> (Scarlatos et al.)</td><td>Real student responses</td><td>Moderate</td><td>High (IRT-aligned)</td></tr>
+                        <tr><td><strong>Open-source simulation</strong></td><td>None (zero-shot)</td><td>High</td><td>Good (0.75-0.82)</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Key Open Questions</h2>
+
+                <ol>
+                    <li><strong>The Competence Paradox</strong>: How to make LLMs genuinely "unknow" things? Lu & Wang's KLI approach partially addresses this but students are "too stubborn"</li>
+                    <li><strong>Domain Generalization</strong>: Lu & Wang's approach worked on well-defined heuristics--how to scale to domains with complex KC interdependencies?</li>
+                    <li><strong>Distribution Matching</strong>: Liu et al. show LLMs have narrow proficiency distributions--can this be addressed without ensembles?</li>
+                    <li><strong>Weaker Models Better?</strong>: The counterintuitive finding that weaker math models simulate struggling students better deserves more investigation</li>
+                </ol>
+            </section>
+        </div>
+
+        <footer>
+            <p>AIED 2026 Submission | Last updated: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>

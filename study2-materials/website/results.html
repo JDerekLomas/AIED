@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary | LLM Synthetic Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Synthetic Students</h2>
+            <span class="subtitle">Research Literature</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="literature-review.html">Literature Review</a></li>
+            <li><a href="replication-studies.html">Replication Studies</a></li>
+            <li><a href="paper-draft.html">Paper Draft</a></li>
+            <li><a href="results.html" class="active">Results Summary</a></li>
+            <li><a href="prompts.html">Prompts</a></li>
+        </ul>
+        <div class="nav-footer">
+            <p>AIED 2026 Research</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1>Results Summary</h1>
+            <p class="lead">Empirical findings from replication studies</p>
+        </header>
+
+        <div class="article-content">
+            <section>
+                <h2>Replication Results Overview</h2>
+
+                <div class="key-finding">
+                    <h3>Key Finding</h3>
+                    <p>Only the <strong>Feature Extraction + ML</strong> approach achieved literature benchmarks. All direct approaches (asking LLMs to estimate difficulty, simulate students, or using model uncertainty) failed to replicate literature results on the Eedi math dataset.</p>
+                </div>
+
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>Study</th>
+                            <th>Metric</th>
+                            <th>Our Result</th>
+                            <th>Literature Benchmark</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Error Alignment</td>
+                            <td>Pearson r</td>
+                            <td>0.08</td>
+                            <td>0.73-0.80</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Classroom Simulation</td>
+                            <td>Pearson r</td>
+                            <td>-0.03</td>
+                            <td>0.75-0.82</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Feature Extraction + ML</td>
+                            <td>Pearson r</td>
+                            <td><strong>0.77</strong></td>
+                            <td>0.62-0.87</td>
+                            <td class="success">SUCCESS</td>
+                        </tr>
+                        <tr>
+                            <td>Uncertainty (logprobs)</td>
+                            <td>RMSE improvement</td>
+                            <td>-267%</td>
+                            <td>positive</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Direct Difficulty (basic)</td>
+                            <td>Pearson r</td>
+                            <td>0.14</td>
+                            <td>0.54-0.82</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Direct Difficulty (expert)</td>
+                            <td>Pearson r</td>
+                            <td>-0.03</td>
+                            <td>0.54-0.82</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Direct Difficulty (irt)</td>
+                            <td>Pearson r</td>
+                            <td>-0.27</td>
+                            <td>0.54-0.82</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                        <tr>
+                            <td>Direct Difficulty (comparative)</td>
+                            <td>Pearson r</td>
+                            <td>0.12</td>
+                            <td>0.54-0.82</td>
+                            <td class="failed">FAILED</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Feature Extraction + ML (Success)</h2>
+
+                <p>The only approach that achieved literature benchmarks. This method:</p>
+                <ol>
+                    <li>Extracts 7 structured features via LLM</li>
+                    <li>Trains a Gradient Boosting model on the features</li>
+                    <li>Achieved <strong>r=0.77</strong> on held-out test set</li>
+                </ol>
+
+                <h3>Feature Importance</h3>
+                <table>
+                    <thead>
+                        <tr><th>Feature</th><th>Importance</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>skill_difficulty</td><td>0.295</td></tr>
+                        <tr><td>dok_level</td><td>0.215</td></tr>
+                        <tr><td>cognitive_load</td><td>0.184</td></tr>
+                        <tr><td>distractor_quality</td><td>0.112</td></tr>
+                        <tr><td>syntax_complexity</td><td>0.107</td></tr>
+                        <tr><td>conceptual_complexity</td><td>0.078</td></tr>
+                        <tr><td>vocabulary_complexity</td><td>0.009</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Individual Feature Correlations</h3>
+                <table>
+                    <thead>
+                        <tr><th>Feature</th><th>Correlation with Difficulty</th><th>p-value</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>dok_level</td><td>0.36</td><td>0.010</td></tr>
+                        <tr><td>skill_difficulty</td><td>0.30</td><td>0.035</td></tr>
+                        <tr><td>conceptual_complexity</td><td>0.30</td><td>0.037</td></tr>
+                        <tr><td>syntax_complexity</td><td>0.27</td><td>0.061</td></tr>
+                        <tr><td>cognitive_load</td><td>0.27</td><td>0.063</td></tr>
+                        <tr><td>vocabulary_complexity</td><td>0.17</td><td>0.244</td></tr>
+                        <tr><td>distractor_quality</td><td>0.09</td><td>0.512</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Direct Difficulty Estimation (Failed)</h2>
+
+                <p>All four prompt types performed far below literature benchmarks.</p>
+
+                <h3>Results by Prompt Type</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Prompt</th>
+                            <th>Pearson r</th>
+                            <th>RMSE</th>
+                            <th>MAE</th>
+                            <th>Bias</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>basic</td>
+                            <td>0.139</td>
+                            <td>0.472</td>
+                            <td>0.424</td>
+                            <td>+0.392</td>
+                        </tr>
+                        <tr>
+                            <td>expert</td>
+                            <td>-0.031</td>
+                            <td>0.436</td>
+                            <td>0.394</td>
+                            <td>+0.322</td>
+                        </tr>
+                        <tr>
+                            <td>irt</td>
+                            <td>-0.268</td>
+                            <td>0.517</td>
+                            <td>0.466</td>
+                            <td>+0.360</td>
+                        </tr>
+                        <tr>
+                            <td>comparative</td>
+                            <td>0.117</td>
+                            <td>0.484</td>
+                            <td>0.428</td>
+                            <td>+0.378</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="key-finding">
+                    <h3>Notable Bias Pattern</h3>
+                    <p>All direct difficulty prompts showed strong positive bias (+0.32 to +0.39), meaning the model systematically <strong>overestimated item easiness</strong> (predicted higher proportion correct than actual).</p>
+                    <p class="implication">This suggests LLMs underestimate item difficulty for students.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Model Uncertainty (Failed)</h2>
+
+                <p>Using logprobs as a difficulty signal performed worse than baseline.</p>
+
+                <table>
+                    <thead>
+                        <tr><th>Metric</th><th>Value</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Model accuracy</td><td>60%</td></tr>
+                        <tr><td>Answer prob vs difficulty (r)</td><td>0.26</td></tr>
+                        <tr><td>Answer entropy vs difficulty (r)</td><td>-0.17</td></tr>
+                        <tr><td>Consistency vs difficulty (r)</td><td>0.04</td></tr>
+                        <tr><td>Uncertainty RMSE</td><td>0.80</td></tr>
+                        <tr><td>Baseline RMSE</td><td>0.22</td></tr>
+                        <tr><td>Improvement</td><td><strong>-267%</strong></td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Error Alignment & Classroom Simulation (Failed)</h2>
+
+                <h3>Error Alignment</h3>
+                <ul>
+                    <li>Correlation between LLM error distribution and student error distribution: <strong>r=0.08</strong></li>
+                    <li>Benchmark from literature: r=0.73-0.80</li>
+                    <li>Conclusion: LLMs do not naturally make the same mistakes as students</li>
+                </ul>
+
+                <h3>Classroom Simulation</h3>
+                <ul>
+                    <li>Aggregated ability-level persona responses: <strong>r=-0.03</strong></li>
+                    <li>Benchmark from literature: r=0.75-0.82</li>
+                    <li>Conclusion: Persona-based ability simulation does not predict difficulty</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Implications</h2>
+
+                <h3>What Works</h3>
+                <ul>
+                    <li><strong>Feature extraction + ML</strong>: Using LLMs to extract structured features, then training a separate ML model on those features</li>
+                    <li>This approach achieved r=0.77, within the literature benchmark range</li>
+                </ul>
+
+                <h3>What Does Not Work</h3>
+                <ul>
+                    <li><strong>Direct difficulty estimation</strong>: Asking LLMs to directly predict p-values</li>
+                    <li><strong>Persona-based simulation</strong>: Having LLMs role-play as students at different ability levels</li>
+                    <li><strong>Model uncertainty</strong>: Using LLM confidence/logprobs as difficulty proxies</li>
+                    <li><strong>Natural error alignment</strong>: Assuming LLMs naturally make student-like errors</li>
+                </ul>
+
+                <h3>Possible Explanations</h3>
+                <ol>
+                    <li><strong>Domain mismatch</strong>: Literature benchmarks often come from reading comprehension or medical exams; math items may behave differently</li>
+                    <li><strong>The competence paradox</strong>: LLMs cannot genuinely "unknow" mathematical procedures</li>
+                    <li><strong>Training data bias</strong>: LLMs may have seen correct mathematical reasoning in training, making it difficult to simulate incorrect reasoning</li>
+                    <li><strong>Feature extraction works differently</strong>: Extracting features is a different task than simulating student cognition</li>
+                </ol>
+            </section>
+        </div>
+
+        <footer>
+            <p>AIED 2026 Submission | Last updated: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>

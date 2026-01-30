@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replication Studies | LLM Synthetic Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Synthetic Students</h2>
+            <span class="subtitle">Research Literature</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="literature-review.html">Literature Review</a></li>
+            <li><a href="replication-studies.html" class="active">Replication Studies</a></li>
+            <li><a href="paper-draft.html">Paper Draft</a></li>
+            <li><a href="results.html">Results Summary</a></li>
+            <li><a href="prompts.html">Prompts</a></li>
+        </ul>
+        <div class="nav-footer">
+            <p>AIED 2026 Research</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header>
+            <h1>Replication Studies</h1>
+            <p class="lead">Six replications from the difficulty estimation literature using the Eedi dataset</p>
+        </header>
+
+        <div class="article-content">
+            <section>
+                <h2>Quick Reference</h2>
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Study</th>
+                            <th>Script</th>
+                            <th>Key Metric</th>
+                            <th>Benchmark</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Error Alignment</td>
+                            <td><code>replicate_error_alignment.py</code></td>
+                            <td>Error correlation</td>
+                            <td>r=0.73-0.80</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Classroom Simulation</td>
+                            <td><code>replicate_classroom_simulation.py</code></td>
+                            <td>Difficulty correlation</td>
+                            <td>r=0.75-0.82</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Confusion Tuples</td>
+                            <td><code>replicate_confusion_tuples.py</code></td>
+                            <td>Target rate improvement</td>
+                            <td>+10-15%</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Feature Extraction</td>
+                            <td><code>replicate_feature_extraction.py</code></td>
+                            <td>Test correlation</td>
+                            <td>r=0.62-0.87</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Uncertainty</td>
+                            <td><code>replicate_uncertainty_difficulty.py</code></td>
+                            <td>RMSE improvement</td>
+                            <td>>10%</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Direct Difficulty</td>
+                            <td><code>replicate_direct_difficulty.py</code></td>
+                            <td>Pearson r</td>
+                            <td>r=0.54-0.82</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Replication 1: Error Alignment (Index-Based)</h2>
+                <p><strong>Paper:</strong> "Do LLMs Make Mistakes Like Students?" (arXiv:2502.15140)</p>
+                <p><strong>Research Question:</strong> When LLMs make errors, do they select the same wrong answers as students?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>Present items with A/B/C/D options to models (no student prompt)</li>
+                    <li>Run N=10 samples per item with temperature=1.0</li>
+                    <li>Compute probability distribution over options</li>
+                    <li>Compare LLM error distribution to student error distribution</li>
+                </ol>
+
+                <h3>Usage</h3>
+                <pre><code># Quick test (10 items)
+python scripts/replicate_error_alignment.py --items 10 --samples 5 --models gpt-4o-mini
+
+# Full run (all items, multiple models)
+python scripts/replicate_error_alignment.py --samples 10 --models gpt-4o-mini gpt-4o claude-3-haiku</code></pre>
+
+                <h3>Key Metric</h3>
+                <p><strong>Error selection correlation</strong>: Pearson r between LLM error distribution and student error distribution</p>
+                <p>Benchmark from paper: r=0.73-0.80</p>
+            </section>
+
+            <section>
+                <h2>Replication 2: Classroom Simulation + Aggregation</h2>
+                <p><strong>Paper:</strong> "Take Out Your Calculators" (Kroger et al., arXiv:2601.09953)</p>
+                <p><strong>Research Question:</strong> Can aggregating responses from simulated students at different ability levels predict item difficulty?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>Define ability levels with population proportions:
+                        <ul>
+                            <li>Below Basic (25%): Struggles significantly</li>
+                            <li>Basic (35%): Handles simple problems</li>
+                            <li>Proficient (25%): Generally performs well</li>
+                            <li>Advanced (15%): Excels, rarely makes errors</li>
+                        </ul>
+                    </li>
+                    <li>Simulate N students at each level</li>
+                    <li>Aggregate responses with population weighting</li>
+                    <li>Compare predicted difficulty to actual student difficulty</li>
+                </ol>
+
+                <h3>Usage</h3>
+                <pre><code># Quick test (10 items, 3 students per level)
+python scripts/replicate_classroom_simulation.py --items 10 --students 3
+
+# Full run (all items, 5 students per level)
+python scripts/replicate_classroom_simulation.py --students 5 --model gpt-4o-mini</code></pre>
+
+                <h3>Key Metric</h3>
+                <p><strong>Difficulty correlation</strong>: Pearson r between simulated difficulty and actual student difficulty</p>
+                <p>Benchmark from Kroger et al.: r=0.75-0.82</p>
+            </section>
+
+            <section>
+                <h2>Replication 3: Confusion Tuples Validation</h2>
+                <p><strong>Paper:</strong> "Towards Valid Student Simulation" (arXiv:2601.05473)</p>
+                <p><strong>Research Question:</strong> Does explicit misconception specification improve alignment with student errors?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>Map Eedi misconceptions to confusion tuples</li>
+                    <li>Compare two prompt conditions:
+                        <ul>
+                            <li><strong>P1 (Generic):</strong> "You are a struggling student"</li>
+                            <li><strong>P3 (Confusion Tuple):</strong> "You confuse {KC_A} with {KC_B}"</li>
+                        </ul>
+                    </li>
+                    <li>Measure target distractor selection rate</li>
+                    <li>Test whether P3 produces "causally attributable" errors</li>
+                </ol>
+
+                <h3>Key Metric</h3>
+                <p><strong>Target rate improvement</strong>: Difference between P3 and P1 target distractor selection</p>
+                <p>Expected: P3 should show 10-15 percentage points higher target rate</p>
+            </section>
+
+            <section>
+                <h2>Replication 4: Feature Extraction + ML Baseline</h2>
+                <p><strong>Paper:</strong> Razavi & Powers (arXiv:2504.08804)</p>
+                <p><strong>Research Question:</strong> Can LLM-extracted features + tree model beat direct estimation?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>Extract 7 features per item via LLM:
+                        <ul>
+                            <li>Vocabulary complexity (1-5)</li>
+                            <li>Syntax complexity (1-5)</li>
+                            <li>Conceptual complexity (1-5)</li>
+                            <li>Cognitive load (1-5)</li>
+                            <li>DOK level (1-4)</li>
+                            <li>Skill difficulty (1-5)</li>
+                            <li>Distractor quality (1-5)</li>
+                        </ul>
+                    </li>
+                    <li>Train GBM on 80% of items</li>
+                    <li>Evaluate correlation on 20% holdout</li>
+                    <li>Compare to direct LLM difficulty estimation</li>
+                </ol>
+
+                <h3>Key Metric</h3>
+                <p><strong>Test set correlation</strong>: Pearson r between predicted and actual difficulty</p>
+                <p>Benchmark: r=0.62-0.87 (domain dependent; reading=0.87, math=0.62-0.82)</p>
+            </section>
+
+            <section>
+                <h2>Replication 5: Model Uncertainty as Difficulty</h2>
+                <p><strong>Paper:</strong> EDM 2025 proceedings</p>
+                <p><strong>Research Question:</strong> Does LLM uncertainty correlate with item difficulty?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>For each item, get logprobs of answer tokens</li>
+                    <li>Compute 1st-token probability (confidence)</li>
+                    <li>Randomize option order, measure consistency</li>
+                    <li>Use uncertainty features to predict difficulty:
+                        <ul>
+                            <li>Answer probability</li>
+                            <li>Answer entropy</li>
+                            <li>Permutation consistency</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>Key Metric</h3>
+                <p><strong>RMSE improvement</strong>: Reduction in RMSE compared to mean baseline</p>
+                <p>Expected: >10% improvement</p>
+            </section>
+
+            <section>
+                <h2>Replication 6: Direct Difficulty Estimation</h2>
+                <p><strong>Papers:</strong> Benedetto et al., Attali et al., Yaneva et al.</p>
+                <p><strong>Research Question:</strong> Can LLMs directly estimate item difficulty from text alone?</p>
+
+                <h3>Method</h3>
+                <ol>
+                    <li>Present item text + options to LLM</li>
+                    <li>Ask for direct difficulty estimate (p-value: proportion correct)</li>
+                    <li>Compare to actual student performance</li>
+                </ol>
+
+                <h3>Prompt Types</h3>
+                <table>
+                    <thead>
+                        <tr><th>Type</th><th>Description</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>basic</strong></td><td>Simple prompt asking for percentage correct</td></tr>
+                        <tr><td><strong>expert</strong></td><td>Expert framing with cognitive complexity considerations</td></tr>
+                        <tr><td><strong>irt</strong></td><td>IRT-framed difficulty parameter estimation</td></tr>
+                        <tr><td><strong>comparative</strong></td><td>Anchored scale with difficulty levels</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>Key Metric</h3>
+                <p><strong>Pearson r</strong>: Correlation between predicted and actual p-values</p>
+                <p>Benchmarks from literature:</p>
+                <ul>
+                    <li>Attali (2024): r=0.63-0.82</li>
+                    <li>Yaneva et al.: r=0.65-0.78</li>
+                    <li>Benedetto et al.: r=0.54-0.71</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Data Requirements</h2>
+                <p>All scripts use the Eedi dataset:</p>
+                <ul>
+                    <li>Default: <code>data/eedi/eedi_with_student_data.csv</code></li>
+                    <li>113 curated items with misconception labels</li>
+                    <li>1,869 full items with student response distributions</li>
+                    <li>~17M total student responses</li>
+                </ul>
+
+                <h3>Required Columns</h3>
+                <ul>
+                    <li><code>QuestionId</code>, <code>QuestionText</code></li>
+                    <li><code>AnswerAText</code>, <code>AnswerBText</code>, <code>AnswerCText</code>, <code>AnswerDText</code></li>
+                    <li><code>CorrectAnswer</code></li>
+                    <li><code>pct_A</code>, <code>pct_B</code>, <code>pct_C</code>, <code>pct_D</code></li>
+                    <li><code>total_responses</code></li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>AIED 2026 Submission | Last updated: January 2026</p>
+        </footer>
+    </main>
+</body>
+</html>
