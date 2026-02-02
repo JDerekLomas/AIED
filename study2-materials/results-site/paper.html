@@ -442,9 +442,15 @@
 <tr class="highlight"><td><strong>105-item confirmation</strong></td><td><strong>105</strong></td><td class="null"><strong>0.114</strong></td><td><strong>0.25</strong></td><td><strong>[&minus;0.07, 0.30]</strong></td></tr>
 </table>
 
+<p>To understand why, we analysed probe and non-probe items <em>within</em> the 105-item experiment (same prompt, model, and reps for all items). The 20 probe items still show <span class="sig">&rho;=0.537</span> (p=0.015) while the 85 non-probe items show <span class="null">&rho;=0.027</span> (p=0.81). The signal is item-specific.</p>
+
 <div class="note">
-<strong>The signal collapsed completely.</strong> On all 105 items with IRT b<sub>2PL</sub> parameters, the optimised prompt achieves &rho;=0.114 (p=0.25, 95% CI [&minus;0.07, 0.30])&mdash;not distinguishable from zero. The &rho;&asymp;0.50 on 20 probe items was driven by item selection: those items tested well-documented misconceptions that appear extensively in LLM training data.
+<strong>Diagnosis: difficulty-range inflation.</strong> The probe set was stratified by difficulty quintile and contains two items with extreme IRT difficulty (b=&minus;5.18, &minus;3.37), far outside the non-probe range ([&minus;1.62, +1.85]). This gives the probe set <strong>2.3&times;</strong> the difficulty SD of the non-probe items (1.46 vs. 0.64). Removing just these two outliers drops the probe correlation from &rho;=0.537 to &rho;=0.391 (p=0.11, non-significant). The model can distinguish &ldquo;very easy&rdquo; items from items in the normal difficulty range, but cannot rank-order within that range.
 </div>
+
+<p>Three further checks confirm this interpretation: (1) all 105 items test the same four misconceptions as the probe set, ruling out misconception familiarity; (2) prediction spread is identical across probe and non-probe items (SD=0.087 vs. 0.085), so the correlation comes from ground-truth spread, not better predictions; (3) bootstrap resampling (10,000 random 20-item subsets from the 105) yields mean &rho;=0.110, with only 2.5% of subsets reaching &rho;&ge;0.50&mdash;the probe result is a tail event explained by its extreme difficulty range.</p>
+
+<p>The 105-item result is definitive: &rho;=0.114, 95% CI [&minus;0.072, 0.297]. The probe-set correlations reported in Sections 3.1&ndash;3.3 are inflated by difficulty-range selection and should be interpreted as parameter-space exploration, not as evidence of genuine item-level discrimination.</p>
 
 <h4>SmartPaper: Signal Generalises</h4>
 
@@ -525,7 +531,7 @@
 <ol>
   <li><strong>Variable correlations across studies.</strong> Razavi &amp; Powers (r=0.83 on diverse K&ndash;5 items) vs. Kr&ouml;ger et al. (r&asymp;0 for direct estimation) reflects different difficulty sources, not methodological superiority.</li>
   <li><strong>Why simulation fails on Eedi.</strong> Eedi items are narrowly targeted within single misconception clusters; the model produces near-identical simulated response distributions regardless of which specific item tests a given misconception.</li>
-  <li><strong>Why the 20-item success didn&rsquo;t generalise.</strong> The probe items tested five well-documented misconception areas. The model has absorbed pedagogical content knowledge for these specific errors but lacks it for the long tail of less-documented patterns.</li>
+  <li><strong>Why the 20-item success didn&rsquo;t generalise.</strong> The probe set was stratified by difficulty quintile and contained two extreme-difficulty outliers (b=&minus;5.2, &minus;3.4) that inflated the difficulty SD to 2.3&times; the non-probe level. Removing these two items renders the probe correlation non-significant. The model can distinguish &ldquo;very easy&rdquo; from &ldquo;moderate&rdquo; but cannot rank-order within the normal difficulty range.</li>
 </ol>
 
 <p><strong>Important caveat.</strong> This framework is a post-hoc interpretation. The two datasets differ in multiple ways beyond difficulty source: item format, population, subject breadth, and difficulty metric. Matched item sets would be needed to isolate the causal factor.</p>
