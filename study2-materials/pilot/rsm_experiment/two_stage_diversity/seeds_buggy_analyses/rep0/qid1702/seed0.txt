@@ -1,0 +1,61 @@
+### 1. The Specific Misconception: "Variable Swapping" (Substitution Error)
+
+The specific misconception is a **Substitution Error**—more precisely, **Variable Swapping**. A student with this bug knows they must replace a letter with the number provided, but they automatically substitute the value into the first variable listed ($x$) rather than the specific variable designated in the table ($y$).
+
+This is a highly common procedural bug for Year 9 students because of a deep-seated mental habit where $x$ is viewed as the "input" (independent variable) and $y$ as the "output." Despite the table clearly marking $y = 0.5$, the student's procedural "autopilot" substitutes $0.5$ for $x$.
+
+### 2. Step-by-Step Student Workings
+A student with the **Variable Swapping** bug would perform the following steps:
+
+1.  **Read the value:** See $0.5$ in the table.
+2.  **Misidentify the variable:** Assume $x = 0.5$ because $x$ usually comes first/is the input.
+3.  **Substitute incorrectly:** Replace $x$ with $0.5$ in the equation:
+    $10(0.5) - 6y = 30$
+4.  **Solve for the remaining variable:**
+    *   $5 - 6y = 30$
+    *   Subtract 5 from both sides: $-6y = 25$
+    *   Divide by -6: $y = \frac{25}{-6}$
+    *   Convert to decimal: $y = -4.166...$ (the student might round this or realize it doesn't match perfectly).
+
+**OR (more likely at this level), they make a secondary sign error during solving:**
+1.  **Incorrect substitution:** $10(0.5) - 6y = 30 \rightarrow 5 - 6y = 30$.
+2.  **Ignoring the negative sign (a "sign detachment" bug):** Treating $-6y$ as $6y$.
+3.  $6y = 30 - 5 \rightarrow 6y = 25$.
+4.  $y = 25 \div 6 = 4.166...$ (Looking at the options, they see **$3.3$** and think $10/3$, or they perform the division slightly incorrectly/round up).
+
+**Actually, there is a more direct path to Option C ($3.3$):**
+A student might rearrange the formula to $x = \dots$ first but do it incorrectly, or they calculate:
+$10x = 30 + 6(0.5)$
+$10x = 30 + 3$
+$10x = 33$
+$x = 3.3$
+**Wait, that is the correct calculation!**
+
+**The true misconception leading to Option A ($4.25$):**
+If the student follows the **Variable Swapping** bug and forgets the negative sign in front of the 6:
+1. $10(0.5) + 6y = 30$
+2. $5 + 6y = 30$
+3. $6y = 25$
+4. $y = 4.16...$
+
+**Correction: Let’s look at Option C again.**
+If the student replaces $x$ with $0.5$:
+$10(0.5) - 6y = 30$
+$5 - 6y = 30$
+$-6y = 25$
+$y = -4.16$
+
+If the student calculates correctly ($y=0.5$):
+$10x - 6(0.5) = 30$
+$10x - 3 = 30$
+$10x = 33$
+$x = 3.3$
+
+**The Misconception leading to Option A (4.25): "The Additive-Inverse Sign Slip"**
+If the student substitutes $y=0.5$ correctly but fails to add $3$ to both sides, instead **subtracting** it:
+1. $10x - 3 = 30$
+2. **Mistake:** $10x = 30 - 3$ (instead of $30 + 3$)
+3. $10x = 27$
+4. $x = 2.7$ (**Option D**)
+
+If the student **mistakes

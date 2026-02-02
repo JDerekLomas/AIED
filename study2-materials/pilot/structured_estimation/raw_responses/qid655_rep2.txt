@@ -1,0 +1,41 @@
+<chain_of_thought>
+The item presents (-6) x star = -8 and asks what replaces the star. The solution requires rearranging to star = -8 / -6 = 8/6 (positive, since negative divided by negative is positive).
+
+This is interesting because there are two independent sources of error embedded in the distractors: (1) the sign — positive vs negative, and (2) the fraction orientation — 8/6 vs 6/8. This creates a clean 2x2 grid of answers:
+- 8/6 positive (D, correct)
+- 8/6 negative (C, sign misconception)
+- 6/8 positive (A, fraction inversion)
+- 6/8 negative (B, both errors)
+
+The tested misconception is about negative multiplication rules. This is one of the most persistent misconceptions in secondary mathematics. Students often memorize "negative times negative is positive" but fail to apply it consistently, especially when the problem is framed as solving for an unknown rather than direct computation.
+
+The question uses a gold star symbol which is visually distinctive and clear. The format "what should replace the star" is a standard missing-value format that students encounter regularly.
+
+For difficulty estimation: This item requires students to (a) recognize they need to divide, (b) set up the fraction correctly (8 over 6, not 6 over 8), and (c) determine the correct sign. Multiple potential errors suggest moderate-to-high difficulty.
+
+Compared to calibration items, this feels moderately difficult. The equation-solving items ranged from easy (p+10=-5, difficulty 0.167) to hard (inequality, 0.569). This involves division with negatives and fractions, which I'd place in the middle-to-upper range. The sign misconception item (Tom/Katie, 0.473) is a reasonable anchor — I think this could be slightly harder because fractions with negatives are particularly confusing for many students.
+
+I'll estimate classical difficulty around 0.50, IRT b around 0.45.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

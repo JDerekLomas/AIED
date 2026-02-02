@@ -1,0 +1,35 @@
+This is a classic "trap" question designed to exploit a very specific, high-frequency misconception regarding **BIDMAS/BODMAS** (order of operations).
+
+In a typical Year 9 class, many students understand that Multiplication comes before Addition/Subtraction. However, the common pitfall is the belief that **Addition must be performed before Subtraction** (because A comes before S in the acronym). This leads students to perform $(-5 + 8)$ as if the minus sign applies to the 5, or more commonly, to ignore the negative sign entirely and calculate $5+8=13$, then $3-13$.
+
+### DIFFICULTY: 4/10
+While the arithmetic is simple (Difficulty 2), the "misconception activation" is incredibly high for the average student. This shifts the difficulty to a 4. It is not a "random guess" question; it is a "confidently wrong" question.
+
+---
+
+### Predicted Response Distributions
+
+#### below_basic (Working at KS2 levels / Year 4-5)
+*These students often work purely left-to-right, ignoring priority, or make basic sign errors.*
+*   **A=10% | B=20% | C=45% | D=25%**
+*   **Logic:** Many will do $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$ (**B**). Or they follow the trend of $3-5+4 = 2 \dots \times 2 = 4$. Option **C** is for those who do $(3-5+4) \times 2$ incorrectly.
+
+#### basic (Low ability Year 9 / Target Grade 2-3)
+*These students know the acronym BIDMAS but apply it literally. This is the peak of the "Addition before Subtraction" trap.*
+*   **A=15% | B=15% | C=10% | D=60%**
+*   **Logic:** They do $4 \times 2 = 8$ first. Then, seeing "Addition before Subtraction," they do $5 + 8 = 13$. Finally, they do $3 - 13 = -10$. This is the "confident" mistake (**D**).
+
+#### proficient (Expected Level / Target Grade 4-6)
+*These students understand that Addition and Subtraction have equal priority and should be done left-to-right, but some still slip under exam pressure.*
+*   **A=65% | B=10% | C=5% | D=20%**
+*   **Logic:** Most get the correct answer (**A**) by doing $8$, then $3 - 5 = -2$, then $-2 + 8 = 6$. However, a significant minority will still default to the literal BIDMAS order and pick **D**.
+
+#### advanced (Higher Tier / Target Grade 7-9)
+*These students have mastery of order of operations and negative directed numbers.*
+*   **A=95% | B=1% | C=1% | D=3%**
+*   **Logic:** The only errors here are "finger slips" or over-thinking the simplicity of the question.
+
+---
+
+### Teacher's Note:
+The "D" distracter is the most dangerous. In a classroom diagnostic, if a student picks **D**, it reveals a fundamental misunderstanding of the "Equal Priority" rule (AS and DM). If they pick **B**, they have completely ignored order of operations and are simply calculating left-to-right.

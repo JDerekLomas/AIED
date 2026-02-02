@@ -1,0 +1,14 @@
+To calibrate my marking for this specific cohort, I've analysed the error patterns in the previous questions. These students show a massive "Order of Operations" deficit (76% missed P, 92% missed algebraic notation), a chronic issue with rearranging/inverses (75% failed on the simple "Isaac" linear step, 77% failed a simple substitution table), and a recurring "left-to-right" or "operation blindness" habit.
+
+In the question $10 = 5/p$:
+*   **$p=0.5$ (Correct)**: Requires multiplying by $p$ then dividing by 10 ($10p = 5$). Given only 3% could identify a correct division/subtraction step in the "Isaac" problem, this will be very low.
+*   **$p=50$ (Inverse Error)**: Students see '10' and 'divide 5', and they simply multiply them ($10 \times 5$). This mirrors the "Isaac Step 1" error where many assumed a multiplication occurred. 
+*   **$p=2$ (Commutativity Error)**: The most "attractive" distractor. Students treat division as commutative or simply divide the larger number by the smaller ($10 \div 5$) regardless of position. Given 75% chose $0.3^2 \times 3 = 1.8$ (likely $0.3 \times 6$) and 84% missed a BIDMAS comparison, $10 \div 5$ feels "right" to them.
+*   **No Solutions**: A classic choice for students who feel $p$ "can't" be on the bottom or that $10$ is "too big" to be the result of dividing $5$.
+
+Based on the 0-1% success rates in the calibration data for similar algebraic and order-of-operation tasks, I predict the following:
+
+below_basic: A=2% B=43% C=50% D=5%
+basic: A=5% B=30% C=62% D=3%
+proficient: A=12% B=25% C=61% D=2%
+advanced: A=35% B=15% C=49% D=1%

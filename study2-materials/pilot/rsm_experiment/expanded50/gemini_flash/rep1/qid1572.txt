@@ -1,0 +1,11 @@
+Error Analysis:
+A) The student incorrectly uses the line $y=k$ or $x=k$ logic but miscounts the distance from the line of reflection. They may be attempting to reflect P(0, 3) across a vertical line they have mentally placed at $x = -3$, simply jumping the point horizontally across the grid without account for the diagonal nature of $y = -x$.
+B) This is a "double sign/swap" error where the student knows the rule for reflecting in $y = -x$ involves swapping and changing signs $(x, y) \rightarrow (-y, -x)$, but they have applied it to a different vertex of the triangle (specifically $(-1, 4)$ or a misread coordinate) or miscalculated the transformation on $P$ to produce a coordinate not present on the original grid.
+C) The student treats the line $y=-x$ as a simple horizontal mirror line. They have moved the point P horizontally until it "looks" equidistant on the other side of the y-axis, ignoring the gradient of the mirror line. Alternatively, they have swapped the sign of the x-coordinate $(x \rightarrow -x)$ but neglected to swap the values, resulting in $(-0, 3)$, then perhaps moved it further left based on the visual "width" of the triangle.
+D) This is the correct answer. The transformation for a reflection in $y = -x$ is $(x, y) \rightarrow (-y, -x)$. For point $P(0, 3)$, the $x$ becomes $-3$ and the $y$ becomes $-0$, resulting in $(-3, 0)$. Students who get this right either know the algebraic rule or count the perpendicular distance diagonally to the line (1.5 diagonal squares) and out the other side.
+
+Predictions:
+below_basic: A=25% B=15% C=50% D=10%
+basic: A=20% B=20% C=35% D=25%
+proficient: A=10% B=10% C=20% D=60%
+advanced: A=2% B=3% C=5% D=90%

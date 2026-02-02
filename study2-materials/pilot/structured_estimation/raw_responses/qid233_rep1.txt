@@ -1,0 +1,66 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks students to convert the expression 2 ÷ (3 + a × b) into proper algebraic notation.
+
+Key concepts involved:
+1. Order of operations (BIDMAS/BODMAS) - multiplication before addition
+2. Division expressed as a fraction
+3. Algebraic convention (ab instead of a × b)
+
+The correct answer is C: 2/(ab+3)
+
+Let me trace through the reasoning:
+- Original: 2 ÷ (3 + a × b)
+- Inside the bracket: a × b should be done first (multiplication before addition)
+- So it's 2 ÷ (3 + ab) = 2 ÷ (ab + 3)
+- In fraction form: 2/(ab + 3)
+
+The misconception being tested is "Carries out operations from left to right regardless of priority order."
+
+Looking at the distractors:
+- A) 2/3 + ab: This would result from ignoring the brackets entirely and doing 2÷3 first, then adding ab
+- B) 2/(b(a+3)): This would come from doing 3+a first (left to right), then multiplying by b
+- C) 2/(ab+3): CORRECT - follows proper order of operations
+- D) 2/(a×b+3): This is almost correct but doesn't follow algebraic convention of writing ab instead of a×b
+
+Wait, let me reconsider D. The question asks for "correct algebraic convention." While D is mathematically equivalent to C, it doesn't follow the convention of omitting the multiplication sign. So C is the best answer.
+
+Distractor B specifically tests the misconception of left-to-right operations: if you do 3+a first, then multiply by b, you get (a+3)×b = b(a+3).
+
+Comparing to calibration items:
+- The order of operations item (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT difficulty -0.245
+- This item is similar but involves algebraic notation conversion, which adds complexity
+
+This item requires:
+1. Understanding order of operations
+2. Understanding algebraic conventions (ab vs a×b)
+3. Understanding fraction notation for division
+4. Recognizing that the expression inside brackets must be evaluated properly
+
+The distractors are quite plausible, especially B for students with the tested misconception, and D for students who understand order of operations but miss the convention aspect.
+
+Given the multiple concepts involved and the plausibility of distractors, I'd estimate this is moderately difficult.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,45 @@
+<chain_of_thought>
+Target item: multiply -4 by -3 in context of expanding (5p-4)(2p-3). Correct answer: +12 (C).
+
+I want to approach the difficulty estimation by thinking about the population distribution. The UK secondary school population aged 11-16 spans a wide ability range. Students in Year 7-8 may not have encountered bracket expansion at all, while Year 10-11 students should be familiar with it.
+
+For students who HAVE learned bracket expansion:
+- Many will correctly identify +12, especially if they've practised FOIL extensively
+- A significant minority will choose -12 (option B) due to the sign misconception
+- A smaller number might choose -7 (option D) by adding instead of multiplying
+
+For students who HAVEN'T learned bracket expansion:
+- They may still be able to answer if they understand the question is just asking about multiplying two numbers
+- The diagram/arrows help isolate the task
+- But the unfamiliar context may cause confusion or random guessing
+
+The sign misconception is one of the most robust in mathematics education. Even university students sometimes err on this. In the context of algebra, where there's additional cognitive load from managing variables and procedures, the error rate may be higher than in pure arithmetic.
+
+Looking at the calibration set holistically: items range from classical difficulty 0.167 to 0.569. The comparable misconception item (Tom/Katie) sits at 0.473 but is more complex. I think this item should be moderately difficult.
+
+One factor I haven't considered: the question says "indicated by the arrows" which requires interpreting a visual. If the image is clear, this helps; if ambiguous, it could add difficulty. I'll assume reasonable clarity.
+
+My estimate: classical difficulty 0.40, IRT b=0.20. The item should discriminate well (a around 1.30) because students either know the sign rule or they don't - there's not much partial credit territory. Guessing parameter should be moderate since some lower-ability students may guess among the four options, but the strong attractor of -12 means the misconception pulls responses away from random distribution.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

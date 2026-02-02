@@ -1,0 +1,26 @@
+As a UK maths teacher, I see this type of BIDMAS (Order of Operations) question frequently. It highlights two main pitfalls: the priority of multiplication over addition/subtraction, and the "left-to-right" rule for operations of equal priority.
+
+### Step 1 — Reasoning for each option
+
+*   **A) 6 (Correct Reasoning):** The student follows BIDMAS correctly. First, they multiply: $4 \times 2 = 8$. The expression becomes $3 - 5 + 8$. They then work from left to right: $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **B) 4 (The "AS" Misconception):** The student correctly identifies that multiplication comes first ($4 \times 2 = 8$), but incorrectly believes that Addition (A) must strictly come before Subtraction (S) because of the acronym's spelling. They calculate $5 + 8 = 13$ first, then do $3 - 13 = -10$ (which leads to D), or more commonly, they think the negative sign belongs to the operation rather than the 5, doing $3 - (5+8)$, leading to -10, or they calculate $3-5$ then $+8$ incorrectly. However, **4** specifically often comes from $3-5 = -2$, then thinking they should have done $5+4$ first... actually, **4** is the result of reading purely left-to-right while ignoring BIDMAS: $(3 - 5) = -2$; then $(-2 + 4) = 2$; then $2 \times 2 = 4$.
+*   **C) -12 (Wrong Order + Directed Number Error):** The student works left to right: $3 - 5 = -2$. They then add $4$ to get $2$, but perhaps make a sign error, or more likely: $(3-5+4) \times 2 \rightarrow (3-9) \times 2 \dots$ This is often a "random" guess result for students struggling with negative numbers, but most commonly represents $(3 - (5+4)) \times 2 = -6 \times 2 = -12$.
+*   **D) -10 (The Strict BIDMAS Misconception):** This is a very common error. The student does $4 \times 2 = 8$ correctly. However, they then strictly follow the "A before S" rule: $5 + 8 = 13$. They then calculate $3 - 13 = -10$.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK system, **Below Basic** refers to students working well below age-related expectations (Level 3/4 legacy); **Basic** refers to Foundation GCSE students; **Proficient** refers to Higher GCSE students; **Advanced** refers to those targeting Grade 8/9 or A-Level.
+
+**below_basic:** A=15% B=40% C=20% D=25%
+*Reasoning: These students almost always work left-to-right (Option B) or get lost in the negative signs/priority rules.*
+
+**basic:** A=40% B=15% C=5% D=40%
+*Reasoning: Many students at this level know multiplication comes first, but the "A before S" trap in BIDMAS is a very strong distractor, leading them to D.*
+
+**proficient:** A=85% B=2% C=3% D=10%
+*Reasoning: Most should handle this easily, but a significant minority will still fall for the "Addition before Subtraction" trap if they are rushing.*
+
+**advanced:** A=98% B=0% C=1% D=1%
+*Reasoning: Students at this level understand that Addition and Subtraction have equal priority and will naturally work left-to-right or treat the subtraction as adding a negative.*

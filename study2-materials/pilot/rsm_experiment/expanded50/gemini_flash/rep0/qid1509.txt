@@ -1,0 +1,11 @@
+Error Analysis:
+A) Incorrectly handling signs during rearrangement. The student multiplies by 3 correctly to get $5d - 2 = 6d - 3$. However, when moving terms, they might reach $d = -1$ by erroneously calculating $-2 + 3$ as $-1$, or by subtracting $5d$ from $6d$ and incorrectly adding 2 to $-3$ to get $-1$ on the other side.
+B) Failure to distribute the multiplication across all terms on the RHS. The student multiplies the $2d$ by 3 but forgets the $-1$, resulting in $5d - 2 = 6d - 1$. They then move terms to get $d = -1$ but get confused by signs and coefficient summation (often leading to $13$ if they accidentally add 5 and 6 and 2).
+C) This is the "Coefficient Summation" error. A student ignores the algebraic logic and simply adds/subtracts all numbers seen in the equation ($5+2+3+2+1$) or arrives at a fraction $3/13$ by failing to multiply the RHS by 3 and then incorrectly grouping all constants and coefficients on one side.
+D) Correct solution. Multiply by 3: $5d - 2 = 3(2d - 1) \Rightarrow 5d - 2 = 6d - 3$. Subtract $5d$ from both sides: $-2 = d - 3$. Add 3 to both sides: $1 = d$.
+
+Predictions:
+below_basic: A=35% B=25% C=30% D=10%
+basic: A=30% B=20% C=15% D=35%
+proficient: A=15% B=10% C=5% D=70%
+advanced: A=3% B=2% C=0% D=95%

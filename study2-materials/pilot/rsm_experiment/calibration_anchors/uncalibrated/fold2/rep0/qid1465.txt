@@ -1,0 +1,11 @@
+To predict these percentages, I’ve analysed the common BIDMAS (order of operations) pitfalls:
+
+*   **A (Correct Answer):** $4 \times 2 = 8$, then $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **B (The "Addition First" Trap):** Many students believe Addition must happen before Subtraction because 'A' comes before 'S' in BIDMAS. They calculate $5 + 4 = 9$, then $9 \times 2 = 18$, then $3 - 18 = -15$ (not an option), or more likely, $3 - (5+8) = -10$ or $3 - 5 + 8 \rightarrow (3-13) = -10$. However, many simply do $(3-5)$ then add $(4 \times 2)$, but get the directed numbers wrong. Option B is often chosen by those who do $3-5 = 2$ (ignoring the sign) and then do $2+8$ but somehow end up with 4 through messy internal logic.
+*   **C (The Left-to-Right Error):** This is the most "natural" wrong method. $(3-5) = -2$; then $(-2 + 4) = 2$; then $2 \times 2 = 4$. Wait, that leads to B. Option C $( -12 )$ comes from $(3-5+4) \times 2 \rightarrow (2) \times 2 = 4$... or specifically $3-5 = -2$, then $-2+4 = 2$... No, C is the result of $3-(5+4) \times 2 \rightarrow 3-18 = -15$. Actually, **C is the result of $(3-5-4) \times 2$**.
+*   **D (The "Addition Priority" Error):** $4 \times 2 = 8$. Then, thinking Addition must happen before Subtraction, they do $5 + 8 = 13$. Finally, they do $3 - 13 = -10$. This is the most common high-level error.
+
+below_basic: A=20% B=40% C=20% D=20%
+basic: A=45% B=20% C=10% D=25%
+proficient: A=75% B=5% C=5% D=15%
+advanced: A=98% B=0% C=0% D=2%

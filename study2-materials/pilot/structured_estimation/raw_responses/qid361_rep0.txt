@@ -1,0 +1,50 @@
+<chain_of_thought>
+This item asks students to determine which algebraic expression correctly represents a sequence of operations: "Think of a number, subtract 5, divide by 8, add 4, multiply by 7."
+
+Let me trace through the operations step by step with variable n:
+1. Start: n
+2. Subtract 5: n - 5
+3. Divide by 8: (n - 5) / 8
+4. Add 4: (n - 5)/8 + 4
+5. Multiply by 7: 7 * ((n - 5)/8 + 4)
+
+Jo's expression: 7((n-5)/8 + 4) — this matches exactly. Jo is correct.
+
+Paul's expression: 7((n-5) ÷ 8) + 4 — here the multiplication by 7 happens before adding 4. Paul's brackets only enclose the division step, so the +4 is outside the multiplication by 7. This doesn't match the sequence. Paul is incorrect.
+
+So the answer is A (Only Jo).
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student who reads Paul's expression left-to-right without attending to brackets/order might think Paul is also correct, leading them to answer C (Both).
+
+Comparing to calibration items:
+- The order-of-operations item (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT b = -0.245. That was purely computational.
+- This item requires understanding how brackets affect order of operations in algebraic expressions, plus translating a word problem into algebra. It's more complex.
+- The factorising item (Tom and Katie) had difficulty 0.473, b = 0.404. That required checking two factorisations.
+- This item involves multiple steps of reasoning: translating the word sequence, then checking two expressions. The "who is correct" format adds cognitive load since students must evaluate both.
+
+I'd estimate this is moderately difficult — harder than the simple equation items but comparable to the Tom/Katie item. The distinction between Jo's and Paul's expressions is subtle (whether +4 is inside or outside the multiplication by 7), which makes distractors plausible. Many students struggle with nested brackets.
+
+I'll estimate classical difficulty around 0.50, IRT difficulty around 0.45. The discrimination should be reasonable since it tests a clear misconception. Some guessing is likely given the "who is correct" format invites elimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

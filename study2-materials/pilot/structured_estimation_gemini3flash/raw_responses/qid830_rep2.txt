@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item requires students to substitute a decimal value ($x = 0.3$) into a linear equation ($2x + 3y = 12$) and solve for $y$. 
+Step 1: Substitution. $2(0.3) + 3y = 12 \rightarrow 0.6 + 3y = 12$.
+Step 2: Isolate the term with $y$. $3y = 12 - 0.6 = 11.4$.
+Step 3: Solve for $y$. $y = 11.4 / 3 = 3.8$.
+
+Analysis of distractors and misconceptions:
+- Option D (3.8) is correct.
+- The misconception mentioned is "uses the same operation rather than the inverse". If a student does $12 + 0.6$ instead of $12 - 0.6$, they get $12.6$. Then $12.6 / 3 = 4.2$ (Option C).
+- If a student makes an arithmetic error in subtraction (e.g., $12 - 0.6 = 11.7$ or $12.3$), they might arrive at $3.9$ (Option B) or $4.1$ (Option A).
+- Specifically, Option B ($3.9$) might come from $12 - 0.3 = 11.7$, then $11.7 / 3 = 3.9$ (forgetting to multiply $x$ by 2).
+
+Psychometric profile:
+The item involves decimals, which significantly increases difficulty for the 11-16 age group compared to integer equations. The two-step nature of the equation ($ax + by = c$) combined with decimal arithmetic suggests a lower success rate than simple one-step equations. Based on the calibration items, multi-step equations with decimals typically yield classical difficulties in the 0.25 to 0.40 range. The IRT difficulty (b) is likely positive because it requires both algebraic manipulation and decimal division.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.34</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

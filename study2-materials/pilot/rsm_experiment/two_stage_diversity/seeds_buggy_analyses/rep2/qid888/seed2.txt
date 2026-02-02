@@ -1,0 +1,22 @@
+Here is an analysis of a common misconception for this specific quadratic expansion.
+
+### 1. The Specific Misconception: "Negative-Negative Confusion" (specifically Sign-Pairing Error)
+The most common procedural bug in this question is the **"Integer Sign Multiplication Error"** during the final step of the FOIL (First, Outer, Inner, Last) method. The student correctly identifies that they need to multiply -5 and -7, but they incorrectly conclude that "a negative times a negative equals a negative."
+
+### 2. Step-by-Step Calculation
+A student with this misconception would proceed as follows:
+*   **Step 1 (Firsts):** $m \times m = m^2$. (Correct)
+*   **Step 2 (Outers):** $m \times -7 = -7m$. (Correct)
+*   **Step 3 (Inners):** $-5 \times m = -5m$. (Correct)
+*   **Step 4 (Lasts):** $-5 \times -7 = -35$. **(The Error)** The student understands the magnitude ($5 \times 7 = 35$) but incorrectly carries the negative sign over, failing to apply the rule that two negatives produce a positive product.
+*   **Step 5 (Simplify):** $m^2 - 7m - 5m - 35 = m^2 - 12m - 35$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. Naturalness and Attractiveness of the Error
+This error is **highly attractive** and frequent among Year 9 students for several psychological reasons:
+
+*   **Rule Overload:** Students often confuse the rules for **adding** directed numbers with the rules for **multiplying** them. Since $-5 + (-7) = -12$ (a negative result), the brain instinctively "expects" the multiplication result to remain negative as well.
+*   **The "Visual Pattern":** The student sees two minus signs in the original expression $(m-5)(m-7)$. Visually, it feels "wrong" to many students for a problem consisting entirely of subtractions to result in a positive constant ($+35$). They feel they are being "consistent" with the signs in the bracket.
+*   **Low Self-Correction Likelihood:** Unless the student is prompted to substitute a value for $m$ (e.g., let $m=0$ to see if the expressions match), they will almost never realize they have made an error. To them, the FOIL process was followed perfectly; it is simply a retrieval failure of a basic arithmetic fact hidden within a complex algebraic task.

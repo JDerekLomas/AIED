@@ -1,0 +1,18 @@
+Here's my prediction based on marking hundreds of Year 9 papers, specifically looking at how students grapple with "zero" and order of operations:
+
+*   **Correct Answer (D):** The correct sum is 0+1+3+4+7 = 15. The correct count is 5 numbers. So the mean is 15/5 = 3. None of the options show 15/5. Option A has 15/5 if you just ignore the 0 and sum (1+3+4+7 = 15) and still divide by 5 numbers. *Ah, wait. Let's re-evaluate Option A very carefully.* Option A *does* calculate (1+3+4+7) / 5. The sum (1+3+4+7) is 15. It then divides by 5. So, (15/5) = 3. This IS the correct answer for the mean. I initially missed this subtle point, as often "none of them" is an attractive distractor if you don't fully calculate. The 0, while crucial for the sum, makes no difference to the *value* of the sum, only to how students *think* about adding. This means my initial analysis of D as correct was wrong, and A is actually the correct answer. This is a brilliant trick! Let's correct my thinking now:
+
+    *   **Correct Answer (A):** The sum of 0, 1, 3, 4, 7 is 15. There are 5 numbers. The mean is 15/5 = 3. Option A is (1+3+4+7)/5. The numerator (1+3+4+7) is 15. So A is 15/5 = 3. This is the correct answer. The specific calculation error for other options now needs to be re-assessed against A being correct.
+
+*   **Error Analysis based on A being Correct:**
+    *   **A) \( \frac{1+3+4+7}{5} \)**: This is the **correct answer**. The sum of the given numbers (0+1+3+4+7) is 15. The count of numbers is 5. So the mean is 15/5 = 3. The calculation (1+3+4+7) is also 15. Dividing this by 5 yields 3. Students correctly include 0 in the *count* of numbers but often ignore it in the *sum* (since adding 0 doesn't change the value), leading them to pick this as a very plausible option if they understand the mean concept but oversimplify the 'sum' step.
+    *   **B) \( 0+1+3+4+7 \div 5 \)**: This demonstrates a fundamental misunderstanding of order of operations and the mean. It would calculate 0+1+3+4+(7/5) which is not the mean. This is a common error from students who don't understand how to correctly write division for mean or use brackets, or just blindly apply symbols without mathematical understanding.
+    *   **C) \( \frac{1+3+4+7}{4} \)**: This error comes from students correctly *ignoring* the zero when adding but then *incorrectly* also ignoring it when *counting* the number of values. They correctly sum 1+3+4+7=15 but then divide by 4 instead of 5. This is an extremely common, attractive error related to the special property of zero.
+    *   **D) None of them**: This is the common distractor for students who can't find the *exact* sum (0+1+3+4+7=15) and count (5) combination they're looking for, or if they correctly calculate the mean as 3 but can't see an option that explicitly states "15/5". It might also be picked by those who fall for the '0 in the count' trap but not the '0 in the sum' trap for option A, meaning they are looking for (15/5) where 15 explicitly comes from 0+1+3+4+7.
+
+Now, for the percentages:
+
+below_basic: A=10% B=45% C=30% D=15%
+basic: A=25% B=30% C=35% D=10%
+proficient: A=55% B=5% C=25% D=15%
+advanced: A=70% B=0% C=10% D=20%

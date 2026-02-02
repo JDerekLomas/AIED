@@ -1,0 +1,35 @@
+<chain_of_thought>
+The item asks for the sum of two fractions with different denominators: \( \frac{2}{9} + \frac{1}{3} \).
+- **Correct Answer (A):** Requires finding a common denominator (9), converting \( \frac{1}{3} \) to \( \frac{3}{9} \), and adding numerators: \( \frac{2+3}{9} = \frac{5}{9} \).
+- **Distractor (B) \(\frac{3}{12}\):** This represents the classic "add across" misconception (\(2+1\) and \(9+3\)). This is one of the most common errors in secondary mathematics.
+- **Distractor (C) \(\frac{3}{9}\):** Likely results from adding numerators but keeping the larger denominator, or a failed conversion of \( \frac{1}{3} \).
+- **Distractor (D) \(\frac{1}{6}\):** Harder to justify, perhaps an incorrect attempt at simplifying or a random guess.
+
+**Psychometric Analysis:**
+- **Classical Difficulty:** Adding fractions with different denominators is a fundamental skill but notoriously difficult for lower-attaining students. However, since 9 is a multiple of 3, this is the "easiest" version of different-denominator addition. Comparing to the calibration examples, it is likely easier than solving linear equations with negative results (Item 1) but harder than simple substitution.
+- **IRT Difficulty (b):** Given the high frequency of the "add across" error, many students fail this. Based on the calibration items where Proportion Correct (0.16-0.56) maps to b-values (-0.7 to 0.8), this item should sit in the middle-low range.
+- **Discrimination (a):** This is a "classic" diagnostic question. It usually discriminates well between those who understand the algorithm and those relying on intuitive (but wrong) additive strategies.
+- **Guessing (c):** Standard 4-choice MCQ. In fraction arithmetic, students often "calculate" an incorrect answer rather than guessing randomly, but a small floor exists.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

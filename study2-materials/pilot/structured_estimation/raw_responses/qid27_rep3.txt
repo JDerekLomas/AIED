@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: If d = -2, what is 10 - 2d? Correct answer: C (14). Misconception: multiplying two negatives gives a negative.
+
+Let me focus on the population this targets. UK secondary students ages 11-16 — substitution into algebraic expressions appears in KS3 (years 7-9). The negative number aspect is a well-documented difficulty. Research consistently shows that students struggle with the subtraction of negative products.
+
+The key cognitive step: recognizing that -2d when d=-2 becomes -2*(-2) = +4, making the expression 10+4 = 14. Students holding the tested misconception would compute -2*(-2) = -4, yielding 10-4 = 6 (option B).
+
+Let me consider the full error landscape:
+- Option B (6): Primary attractor. Multiple error paths lead here — ignoring the negative in d, or applying the misconception about negative multiplication. This is likely to attract 15-25% of students.
+- Option A (-12): Could come from a sign error cascade. Perhaps computing d = -2, then 10 - 2(-2) as -10 - 2 = -12? Or reading as -(10) + (-2) = -12? Unusual but possible for very weak students.
+- Option D (32): Very hard to reach through a natural error. Maybe 10 * 2 * (-2) * (-1) = 40... no. Or some concatenation error. Will attract very few students.
+
+The item has strong face validity as a diagnostic for negative number misconceptions. It's a clean, well-constructed item. The question is completely unambiguous.
+
+Comparing to calibration: The equation -5 = p + 10 (difficulty 0.167, b = -0.702) was simpler with no negative multiplication. The factorising item with the same misconception (difficulty 0.473, b = 0.404) was much harder. This item sits between them but closer to the easier end since substitution is more basic than factorising.
+
+I'm going to estimate slightly higher difficulty than the simple equation because negative number operations reliably trip up a substantial minority. My estimate: classical difficulty 0.32, IRT b around -0.05, discrimination 1.25, low guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

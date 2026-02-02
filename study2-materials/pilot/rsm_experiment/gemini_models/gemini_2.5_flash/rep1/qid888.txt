@@ -1,0 +1,32 @@
+Here's my prediction based on marking hundreds of Year 9 papers for this exact type of question:
+
+**Analysis of Options and Errors:**
+
+*   **Correct Answer (B: \(m^{2}-12 m+35\))**: Requires correct expansion using FOIL/grid, specifically handling negative signs:
+    *   \(m \times m = m^2\)
+    *   \(m \times -7 = -7m\)
+    *   \(-5 \times m = -5m\)
+    *   \(-5 \times -7 = +35\) (Crucial positive)
+    *   Combining middle terms: \(-7m - 5m = -12m\)
+
+*   **Option A: \(m^{2}-2 m-35\)**:
+    *   **Error 1**: Incorrect sum of middle terms (\(-7m + 5m = -2m\), suggesting adding \(-7+5\) rather than \(-7-5\)). This indicates difficulty with adding/subtracting negative numbers when combining terms.
+    *   **Error 2**: Incorrect final constant term (\(-5 \times -7 = -35\)). This is the classic "negative times negative is negative" error, or simply seeing \(5 \times 7\) and incorrectly appending a negative sign from somewhere, rather than understanding the multiplication of two negatives.
+    *   This is a highly "attractive" distractor for students who are rusty on negative number arithmetic.
+
+*   **Option C: \(m^{2}+12 m+35\)**:
+    *   **Error 1**: Incorrect sum of middle terms (\(+7m + 5m = +12m\)). This implies treating \((m+5)(m+7)\) or incorrectly taking \(-7\) and \(-5\) and only getting a positive sum, probably because "add numbers" for 7 and 5, without the signs.
+    *   **Error 2**: Correct final constant term (\(+35\)).
+    *   This error shows an attempt at a structure but failing on sign convention for the middle terms. Some students might remember that 5 and 7 add to 12, and \(m \times m = m^2\), and \(5 \times 7 = 35\), but then completely ignore or misuse the minus signs in the original question for the middle term.
+
+*   **Option D: \(m^{2}-12 m-35\)**:
+    *   **Error 1**: Correct sum of middle terms (\(-12m\)). This indicates they've correctly done \(-7m - 5m\).
+    *   **Error 2**: Incorrect final constant term (\(-35\)). This is the fundamental error of "negative times negative is negative" for the constant term.
+    *   This is an extremely common and attractive error. Many students get everything right except that final positive constant. They remember \(-7m\) and \(-5m\) is \(-12m\) and they'll get \(m^2\), but \(-5 \times -7 = +35\) is a very frequent stumbling block, defaulting to \(-35\).
+
+---
+
+below_basic: A=30% B=5% C=25% D=40%
+basic: A=20% B=30% C=10% D=40%
+proficient: A=5% B=70% C=5% D=20%
+advanced: A=0% B=95% C=0% D=5%

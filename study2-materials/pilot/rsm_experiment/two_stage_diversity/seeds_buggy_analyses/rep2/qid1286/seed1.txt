@@ -1,0 +1,29 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is highly prevalent among UK Year 9 students (aged 13–14) who are beginning to master the rearrangement of formulas involving fractions and powers.
+
+### 1. The Specific Misconception: "Reciprocal Misplacement in Division"
+The specific bug is the **Incorrect Treatment of the Fractional Coefficient** ($4/3$) when isolating the variable. 
+
+Students often understand that they need to "get rid" of the $4/3$ by moving it to the other side of the equation. However, rather than multiplying by the reciprocal ($3/4$), they often mistakenly multiply by the numerator and divide by the denominator (effectively "drifting" the $3$ to the numerator of the other side without considering the relationship of the $4$).
+
+### 2. Step-by-Step Student Work-through
+A student with this misconception would proceed as follows:
+
+*   **Step 1:** Recall (or be given) the formula for the volume of a sphere: 
+    $$V = \frac{4}{3}\pi r^3$$
+*   **Step 2:** Attempt to isolate $r^3$. The student thinks: *"I need to move everything away from $r$. To move the $4/3$, I will multiply $V$ by 4 and then divide by 3."* (This is the critical error: they apply the operations as they appear in the fraction top-to-bottom, rather than performing the inverse operations).
+*   **Step 3:** This results in: 
+    $$r^3 = \frac{4V\pi}{3} \text{ or } r^3 = \frac{4V}{3\pi}$$
+*   **Step 4:** The student then applies the cube root to their result to find $r$:
+    $$r = \sqrt[3]{\frac{4V\pi}{3}}$$
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option A**.
+
+### 4. How Natural/Attractive is this error?
+This error is **highly attractive** and "sticky" for several reasons:
+
+*   **Linear Visual Processing:** Students often read the fraction $4/3$ from top to bottom. When "moving" it, they reflexively associate the first number they see ($4$) with the top of the new expression and the second number ($3$) with the bottom.
+*   **Association with $\pi$:** Students often view $4\pi$ as a single "chunk." Since $\pi$ is in the numerator, they assume the 4 must remain paired with it in the numerator, even when moved to the other side.
+*   **False Sense of Success:** Because Option A is provided in the list, the student receives immediate "validation." In a multiple-choice context, seeing their exact (incorrect) result listed as an option confirms their belief that they followed the steps correctly. 
+
+A student would almost certainly **not realise they went wrong** because the algebraic "shape" of their answer looks sophisticated enough to be correct for a Year 9 level question. They have successfully performed a cube root and handled the $\pi$, making them feel they have mastered the "hard" parts of the question.

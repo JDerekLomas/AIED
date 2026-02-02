@@ -1,0 +1,44 @@
+As a specialist in diagnostic assessment, I have analysed this question focusing on the algebraic manipulation required to rearrange the sphere volume formula: $V = \frac{4}{3}\pi r^3$.
+
+### 1. Analysis of Misconceptions
+
+**Option A: $\sqrt[3]{\frac{4 V \pi}{3}}$ (The Known Misconception)**
+*   **Reasoning:** The student knows they need to isolate $r$, but instead of using the inverse operation, they "bring across" the values using the original operations. They see $4$, $\pi$, and $3$ and move them to the other side while maintaining their relationship to one another ($4\pi$ on top, $3$ on the bottom). 
+*   **Process:** $V = \frac{4\pi}{3}r^3 \rightarrow V \times \frac{4\pi}{3} = r^3$.
+*   **Target:** Students who have a procedural "move it over" mental model rather than a balanced equation model.
+
+**Option B: $\sqrt[3]{\frac{4 V}{3 \pi}}$ (Incomplete Reciprocal/Partial Inverse)**
+*   **Reasoning:** The student correctly identifies that they need to multiply by the denominator (3) or divide by the numerator (4), but fails to correctly apply the operation to the $\pi$ term. Often, students see $\frac{4}{3}$ as the primary coefficient and $\pi$ as an afterthought, leading them to leave $\pi$ in the denominator while "flipping" only the numerical fraction, or simply misplacing $\pi$ during a multi-step rearrangement.
+*   **Process:** $V = \frac{4}{3}\pi r^3 \rightarrow \frac{3V}{4} = \pi r^3$, then somehow ending up with $\frac{4V}{3\pi}$.
+
+**Option D: $\frac{3 \sqrt[3]{V}}{4 \pi}$ (The "BODMAS" / Order of Operations Error)**
+*   **Reasoning:** This student successfully identifies the need for the reciprocal ($\frac{3}{4\pi}$) but applies the cube root only to the $V$ (or perhaps only at the very end to $r$). They may believe that the cube root is a "part" of the $r$ that can be isolated independently from the coefficient. This also represents a failure to understand that the cube root must be applied to the *entire* opposite side of the equation.
+*   **Process:** $V = \dots \rightarrow \frac{3V}{4\pi} = r^3 \rightarrow \text{cube root only the } V \text{ term.}$
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option A (Highly Attractive):** This is the most common error for students at the "Basic" level. In the heat of an exam, students often forget to "flip" the fraction when moving it across the equals sign. It looks "correct" because the cluster $4\pi/3$ is so familiar from the original formula.
+*   **Option B (Moderately Attractive):** This is a classic "sign error" equivalent for rearrangement. It attracts students who know they need to divide/multiply but lose track of which term goes where in the fraction.
+*   **Option D (Low/Medium Attractiveness):** This usually catches students who are working too quickly or have a poor grasp of the radical symbol’s reach. It is less attractive because the visual look of the formula (with the fraction bar outside the root) looks "messier" than the others.
+
+---
+
+### 3. Predicted Response Distribution
+
+**Below Basic:**
+*These students struggle with the formula itself and basic inverse operations.*
+A=45% B=20% C=15% D=20%
+
+**Basic:**
+*These students know the formula but often fail to apply the reciprocal of the fraction 4/3.*
+A=35% B=25% C=30% D=10%
+
+**Proficient:**
+*These students understand inverse operations but may make a "silly" slip with the cube root or $\pi$ placement.*
+A=10% B=15% C=65% D=10%
+
+**Advanced:**
+*These students are fluent in rearranging formulae.*
+A=2% B=3% C=93% D=2%

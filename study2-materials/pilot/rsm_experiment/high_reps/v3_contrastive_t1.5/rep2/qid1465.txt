@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS). While the multiplication is relatively straightforward, the subtraction occurring before addition is a classic "left-to-right" trap for lower-ability students.
+
+**Option Analysis:**
+- **A (6):** The correct answer. $4 \times 2 = 8$, then $3 - 5 + 8$. $3 - 5 = -2$, and $-2 + 8 = 6$.
+- **B (4):** The most common error. Students perform the addition before the subtraction ($5 + 8 = 13$, then $3 - 13 = -10$, but often they skip the negative or do $3 - 5 = -2$, then add $4 \times 2$ incorrectly). More commonly, B results from $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$ (working strictly left to right).
+- **C (-12):** This results from $(3 - 5 - 4) \times 2$ or similar misgroupings involving negative signs.
+- **D (-10):** A very high-frequency error. Students apply "Addition before Subtraction" literally from the BIDMAS acronym: they do $5 + (4 \times 2) = 13$, then calculate $3 - 13 = -10$.
+
+**Student Performance Predictions:**
+Lower-ability students struggle significantly with the "Addition and Subtraction have equal priority" rule, almost always performing addition first if they are following the acronym strictly, or simply working left-to-right regardless of operators.
+
+below_basic: A=20% B=35% C=15% D=30%
+basic: A=45% B=20% C=5% D=30%
+proficient: A=80% B=5% C=2% D=13%
+advanced: A=97% B=1% C=0% D=2%

@@ -1,0 +1,43 @@
+<chain_of_thought>
+Analyzing: 15 = (1+k)/4, with Isaac's two steps shown.
+
+Step 1: 60 = 1 + k — multiplying both sides by 4. This is correct inverse operation (multiply to undo divide).
+
+Step 2: 61 = k — here Isaac added 1 to 60 instead of subtracting. He should get k = 59. This is the tested misconception: using addition (same operation as the +1 in the equation) instead of subtraction (the inverse).
+
+The correct answer is A.
+
+Key difficulty drivers:
+1. The evaluative framing ("which steps are correct?") requires students to check each step, not just solve. This is cognitively demanding because students often just scan and assume steps look right.
+2. The fraction in the original equation adds slight complexity to Step 1 verification.
+3. The error in Step 2 is subtle — 61 vs 59 — students who don't carefully verify might accept it.
+4. However, the misconception tested is extremely common and well-documented, so many students who have this misconception might actually think BOTH steps are correct (choosing C).
+
+Looking at the calibration set, the Tom/Katie factoring item is the closest analogue (evaluating others' work). That had difficulty 0.473 with b = 0.404. But that involved quadratic factoring, which is harder content. This item's content is simpler (linear equation with fractions), so I'd expect somewhat lower difficulty.
+
+I note this question has a slight typo ("ste.p" and "step.s" in options B and D) which could slightly affect clarity but probably won't confuse most students.
+
+Estimated classical difficulty: 0.38, IRT b: 0.12. Discrimination should be solid since this cleanly separates those who understand inverse operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.12</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

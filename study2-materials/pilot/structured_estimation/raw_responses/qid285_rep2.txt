@@ -1,0 +1,45 @@
+<chain_of_thought>
+Target: Rearrange F = r * omega^2 to make omega the subject. Correct answer B: omega = sqrt(F/r).
+
+This is a formula rearrangement problem involving two inverse operations: undoing multiplication (divide by r) and undoing squaring (take square root). The order matters conceptually but not algebraically — you could square root first then divide, though that's less standard.
+
+Thinking about UK curriculum placement: changing the subject of a formula with powers appears in GCSE Higher tier, typically years 10-11 (ages 14-16). This is solidly within curriculum but at the more demanding end.
+
+Distractor quality assessment:
+- A is weak — rF^2 doesn't follow any logical error pathway that a partially-skilled student would make. It would only attract complete guessers. This weakens overall item quality.
+- B is correct.
+- C (sqrt(rF)) captures the "same operation" misconception well. A student who multiplies instead of divides would get rF under the radical.
+- D (sqrt(F)/r) represents a different but realistic error: correctly square-rooting F but not understanding that r is also under the radical when you take the square root of F/r. Alternatively, the student divides by r as a separate step after rooting.
+
+Given that one distractor (A) is essentially non-functional, the effective item is closer to a 3-option MCQ, which typically has higher guessing rates.
+
+Looking at the calibration anchors:
+- The easiest item (-5 = p+10) has classical difficulty 0.167.
+- The hardest (inequality) has 0.569.
+- This item is arguably the most abstract of all, with no numerical values at all. The squared term adds a layer.
+- I'd place this around 0.55-0.65 classical difficulty, IRT b around 0.6-0.8.
+
+Discrimination: With one weak distractor, discrimination may be slightly reduced. I'll estimate a around 1.0-1.2. Guessing: with effectively 3 plausible options and high difficulty, maybe c = 0.18.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>9</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.60</classical_difficulty>
+<irt_difficulty>0.75</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

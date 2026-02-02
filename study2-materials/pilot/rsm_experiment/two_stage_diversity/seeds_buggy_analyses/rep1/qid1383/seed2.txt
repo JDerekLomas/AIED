@@ -1,0 +1,25 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this question.
+
+### 1. The Specific Misconception: "Implicit Negation Parenthesis" (Order of Operations Bug)
+The most prominent misconception here is the failure to distinguish between $(-3)^{4}$ and $-3^{4}$. In algebra, students often believe that the negative sign is a "property" of the number that remains independent of the exponentiation, or they follow a buggy version of BIDMAS (Order of Operations) where they treat the negative sign as an operation to be performed *after* the power.
+
+In UK Year 9, this is often called the **"Calculator Logic"** error, because entering `-3^4` into many scientific calculators without parentheses yields -81, reinforcing the student's incorrect mental model.
+
+### 2. The Step-by-Step Student Logic
+A student with this misconception would work through the problem as follows:
+
+*   **Step 1:** Substitute $k = -3$ into the equation to get $T = -3^4$.
+*   **Step 2:** Observe the BIDMAS/indices priority. They calculate $3^4$ first (treating the negative as a separate prefix).
+*   **Step 3:** Calculate $3 \times 3 \times 3 \times 3 = 81$.
+*   **Step 4:** Re-attach the negative sign from the start of the expression to the result.
+*   **Result:** $T = -81$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C (-81)**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent hurdles in KS3/KS4 algebra for several reasons:
+
+*   **Linguistic reinforcement:** When students say "negative three squared," they don't "hear" the parentheses. To them, the "negative" is a label, not an operation subject to the power of 4.
+*   **Cognitive Ease:** Students are often taught that "a negative times a negative is a positive," but they struggle to apply this when the exponent is high. It is cognitively easier to calculate $3^4$ and stick a minus on it than to track the parity of four negative factors ($(-3) \times (-3) \times (-3) \times (-3)$).
+*   **Lack of Internal Feedback:** The student would likely feel **very confident** in this answer. Unlike Option B or D (which involve mixing up multiplication and powers), Option C involves a "high-level" calculation ($3^4 = 81$), leading the student to feel they have successfully navigated the "hard part" of the question. They would only realise they were wrong if they specifically tested the rule: *"Even powers of negative bases must be positive."*

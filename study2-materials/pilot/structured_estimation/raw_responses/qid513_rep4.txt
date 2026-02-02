@@ -1,0 +1,44 @@
+<chain_of_thought>
+Let me approach this item from a curriculum and student-thinking perspective.
+
+The item tests whether students can identify errors in equation solving, specifically the misconception of applying the same operation instead of the inverse. The equation 15 = 2p - 4 is presented with the variable on the right side, which is slightly less standard but common in UK materials.
+
+Tracing Isaac's errors:
+- 15 = 2p - 4 → Step 1: 11 = 2p (subtracted 4 from 15 instead of adding; error)
+- 11 = 2p → Step 2: 22 = p (multiplied by 2 instead of dividing; error)
+Both steps demonstrate the same misconception. Answer: D.
+
+Thinking about student populations: In a typical UK mixed-ability class of Year 9 students (age 13-14), equation solving is a core algebraic skill. Higher-attaining students will quickly spot both errors. Middle-attaining students might spot one error but miss the other, leading them to A or B. Lower-attaining students who share Isaac's misconception will see nothing wrong and pick C.
+
+This item has an interesting property: it's essentially TWO diagnostic checks bundled into one question. A student must get BOTH checks right to score correctly. This compounds the difficulty somewhat, similar to how a two-part problem is harder than a single-part one.
+
+Let me anchor to the calibration items more carefully:
+- The factorising item (Tom and Katie, also an "evaluate two claims" format) had classical difficulty 0.473 and b = 0.404. That item tested a different misconception and required factorisation knowledge.
+- This item tests a simpler concept (inverse operations) but in a similar "evaluate two steps" format.
+
+I think this item is somewhat easier than the Tom/Katie factorising item because inverse operations in equation solving is more foundational and more heavily practiced. But harder than the basic equation item (0.167 difficulty) due to the evaluation format.
+
+My estimate: classical difficulty around 0.38, IRT b around 0.20. The discrimination should be solid since the item cleanly separates students who understand inverse operations from those who don't. The evaluation format and the compound nature (must verify both steps) provide good discriminating power. Guessing parameter should be low-to-moderate; students with the misconception will systematically choose C rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

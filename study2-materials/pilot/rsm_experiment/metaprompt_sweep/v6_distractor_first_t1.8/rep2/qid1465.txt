@@ -1,0 +1,26 @@
+As a UK maths teacher, I encounter this specific type of question frequently when teaching Key Stage 3 and GCSE foundation students. It tests the order of operations (BIDMAS/BODMAS) and the common pitfall of performing operations strictly from left to right.
+
+### Step 1 — Reasoning for each option:
+
+*   **A) 6 (Correct Reasoning):** The student follows BIDMAS. They prioritize multiplication first ($4 \times 2 = 8$), then perform addition and subtraction from left to right: $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **B) 4 (Misconception - Order of Addition/Subtraction):** The student knows multiplication comes first ($8$), but incorrectly believes Addition **must** come before Subtraction (interpreting BIDMAS literally). They calculate $5 + 8 = 13$ and then $3 - 13 = -10$ (which leads to D), or they see $3 - (5+8)$, or more commonly, they do $3-5 = -2$ then $+8$ but make a sign error, or they treat it as $3 - 5 + 8$ and calculate $8 - 5 = 3$, $3+3 = 6$ (Correct) but often confuse the signs and arrive at 4 through arithmetic slips. However, the most common route to B is $3 - 5 = -2$ followed by an error where they treat $+4 \times 2$ as $+6$ instead of $8$, or $8-4$.
+*   **C) -12 (Misconception - Left to Right):** The student ignores the order of operations entirely and works strictly from left to right: $3 - 5 = -2$; then $-2 + 4 = 2$; then $2 \times 2 = 4$. If they make a sign error $3 - 5 = -2$, $-2 - 4 = -6$, $-6 \times 2 = -12$.
+*   **D) -10 (Misconception - BIDMAS Hierarchy):** The student prioritizes multiplication correctly ($8$), but then strictly follows the acronym BIDMAS by doing Addition before Subtraction. They calculate $5 + 8 = 13$ and then perform $3 - 13 = -10$. This is the most common high-level error.
+
+---
+
+### Step 2 — Predicted distributions:
+
+I have categorised "ability" based on the UK GCSE grading tiers (Below Basic = Grade 1-2, Basic = Grade 3, Proficient = Grade 4-6, Advanced = Grade 7+).
+
+**below_basic:** A=15% B=25% C=40% D=20%
+*Reasoning:* These students rarely use BIDMAS and almost always work left-to-right (Option C) or struggle with the negative numbers involved in the correct calculation.
+
+**basic:** A=35% B=15% C=20% D=30%
+*Reasoning:* Students have heard of BIDMAS but are split between applying it correctly and the "Addition before Subtraction" trap (Option D).
+
+**proficient:** A=75% B=5% C=5% D=15%
+*Reasoning:* Most students at this level know to multiply first and are becoming confident with directed numbers (negatives), though the "Addition before Subtraction" trap still catches some.
+
+**advanced:** A=98% B=0% C=0% D=2%
+*Reasoning:* These students have mastered the order of operations. The only errors here would be "finger slips" on a calculator or extreme momentary lapses in concentration.

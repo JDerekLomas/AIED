@@ -1,0 +1,35 @@
+<chain_of_thought>
+The target item asks students to evaluate y = 3x^2 when x = 0.3. The correct procedure is: first square 0.3 to get 0.09, then multiply by 3 to get 0.27 (answer B).
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student making this error would compute 3 * 0.3 = 0.9 first, then square it: 0.9^2 = 0.81 (answer A). This is a very plausible error and a common misconception, especially for students who haven't internalized order of operations with exponents.
+
+Distractor C (1.8) could arise from interpreting x^2 as 2x, giving 3 * 2 * 0.3 = 1.8. Distractor D (2.7) might come from computing 3 * 0.3 * 3 = 2.7 or misreading the exponent as a multiplier of 3.
+
+Looking at the calibration examples: the order-of-operations item (0.4 - 1/5 * 3) had classical difficulty 0.134 and IRT b = -0.245. That was somewhat easier. This item involves decimals and squaring, which adds complexity. The distractors here are quite attractive—particularly A (0.81) which results from the exact tested misconception.
+
+The item requires knowledge of: order of operations (BIDMAS), squaring decimals, and substitution into a formula. These are standard KS3/KS4 topics. The table presentation is straightforward. Cognitive load is moderate—students must hold the substitution and recall order of operations.
+
+Compared to the calibration set, I'd place this item at moderate difficulty. The decimal squaring adds a layer that makes it harder than the pure order-of-operations calibration item, but it's still a fairly standard substitution task. I estimate around 30-40% incorrect.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

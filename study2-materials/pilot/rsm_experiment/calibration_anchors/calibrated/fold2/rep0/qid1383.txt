@@ -1,0 +1,16 @@
+Based on the performance data from the previous questions, this cohort exhibits significant issues with negative number arithmetic, order of operations, and formal algebraic conventions. Specifically, looking at the Molly bracket expansion question where 99% of students incorrectly answered -5 instead of +4 for (-1) x (-4), there is a clear trend: students in this group almost universally believe that a negative number raised to a power or multiplied by another negative results in a negative value.
+
+Furthermore, the "Isaac" and "Tom/Katie" questions show that these students struggle to identify correct processes even when they appear simple. The value $k=-3$ raised to an even power is a classic "trap" for students at this level.
+
+**Error Analysis:**
+- **A (81):** The correct answer. Requires knowing $(-3)^4 = 81$.
+- **B (12):** The "multiplication" error ($3 \times 4$), ignoring the power and the sign.
+- **C (-81):** The "natural feeling" error. Most students will calculate $3^4=81$ and then simply re-attach the negative sign, or assume powers of negatives stay negative.
+- **D (-12):** The "multiplication and sign" error ($-3 \times 4$).
+
+**Predicted Distributions:**
+
+below_basic: A=2% B=30% C=23% D=45%
+basic: A=5% B=15% C=55% D=25%
+proficient: A=12% B=5% C=78% D=5%
+advanced: A=35% B=2% C=62% D=1%

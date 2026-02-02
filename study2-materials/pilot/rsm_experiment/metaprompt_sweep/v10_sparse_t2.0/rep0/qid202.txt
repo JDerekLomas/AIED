@@ -1,0 +1,21 @@
+Here is a prediction of student responses based on typical UK secondary school assessment data (Key Stage 3/GCSE foundation).
+
+The distractor analysis is as follows:
+*   **A (Correct):** The student adds the integers ($2+1=3$) and the fractions ($\frac{1}{5}+\frac{2}{5} = \frac{3}{5}$).
+*   **B (Implicitly Correct but wrong format):** The student converted to improper fractions correctly ($\frac{11}{5} + \frac{7}{5} = \frac{18}{5}$) but failed to follow the instruction to leave it as a mixed number.
+*   **C (Computational Error):** The student adds the numerators and the denominators ($3+3$ and $5+5$). This is the most common error for low-ability students.
+*   **D (Denominator Error):** The student adds the integers correctly but adds the denominators.
+
+---
+
+**below_basic:** A=15% B=5% C=55% D=25%
+*At this level, students almost universally add across the denominators (Options C and D). Option C is the most common because it represents the most "consistent" application of the wrong rule (adding all four numbers).*
+
+**basic:** A=45% B=15% C=25% D=15%
+*Students have a burgeoning understanding of common denominators but are prone to lapsing under pressure. They are also likely to miss the "mixed number" instruction and leave it as an improper fraction (Option B).*
+
+**proficient:** A=80% B=10% C=5% D=5%
+*The majority of these students understand the algorithm for adding mixed numbers with common denominators. Errors here are usually down to "exam haste" (failing to read the final instruction).*
+
+**advanced:** A=97% B=2% C=0% D=1%
+*High-ability students will find this question trivial. The 3% deviation accounts for "silly mistakes" or misreading the question as improper fractions.*

@@ -1,0 +1,43 @@
+<chain_of_thought>
+Analyzing the expansion of (x-3)^2. This is a bread-and-butter algebra question for GCSE students.
+
+Starting from the answer choices, I can work backwards to understand what each error pattern looks like:
+- D (correct): x^2 - 6x + 9. Full correct expansion.
+- A: x^2 - 6x - 9. The student completed the FOIL process but computed (-3)(-3) = -9. This directly tests the misconception.
+- B: x^2 - 9. The student either (a) used difference of squares formula incorrectly, or (b) just squared x and -3 separately and subtracted. This is a very different misconception from what's tested but may attract the most students.
+- C: x^2 + 9. The student squared each term but omitted the cross term, getting x^2 + 9.
+
+One important consideration: many students may have memorized (a-b)^2 = a^2 - 2ab + b^2 as a formula, which would let them get the answer without going through FOIL. This means the item may be easier than a pure procedural analysis suggests.
+
+However, I need to consider the full age range (11-16). Many younger students won't have encountered this yet. On a diagnostic assessment, the population is heterogeneous.
+
+For calibration anchoring: the simplest algebra item (solving -5 = p+10) had classical difficulty 0.167. The factorising item with this same misconception had 0.473. The inequality solving had 0.569. Expanding a squared binomial is somewhere between these — it requires understanding of distribution but is a single, well-defined operation. I think it's comparable to the factorising item.
+
+I'll estimate classical difficulty at 0.52 — slightly harder than the factorising item because distractor B is so strong and represents a conceptually different error that will catch students who partially understand algebra. IRT difficulty around 0.50.
+
+For discrimination: the item should discriminate well between students who truly understand binomial expansion and those who don't. The multiple error patterns actually help here since low-ability students distribute across distractors. I estimate a=1.45.
+
+Guessing should be relatively low — this isn't an item where random guessing is common since students typically have some approach to try, even if wrong.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

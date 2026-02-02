@@ -1,0 +1,75 @@
+<chain_of_thought>
+The target item asks students to name two important fairs or festivals from Rajasthan and then describe one of them in a single sentence. The maximum score is 1. The rubric states: "For correctly naming any two distinct important fairs or festivals celebrated in Rajasthan." This is a critical point: the rubric *only* awards points for naming two festivals, not for the description part. This makes the item significantly simpler than the question might initially suggest.
+
+Let's break down the actual requirements based on the rubric:
+1. Recall/Identify two distinct important fairs or festivals celebrated in Rajasthan.
+
+Comparing this to the calibration examples:
+*   **Social Science (Grade 7) - Public vs Private Healthcare:** Difficulty 0.881, Mean 0.119. Requires analysis and argument/example. Much harder due to higher-order thinking.
+*   **English (Grade 6) - Verb Phrase:** Difficulty 0.808, Mean 0.192. Requires specific grammatical knowledge and identification.
+*   **English (Grade 6) - Favorite Poem Line:** Difficulty 0.742, Mean 0.258. Requires personal opinion *and* justification, which is more complex than simple recall. Max score 1.5 suggests more room for partial credit, but the justification part adds difficulty.
+*   **Social Science (Grade 7) - Improve Transparency:** Difficulty 0.653, Mean 0.347. Requires suggesting a plausible way, which is a higher-order thinking skill (application/synthesis) than mere recall.
+*   **Mathematics (Grade 8) - Probability:** Difficulty 0.468, Mean 0.532. Requires calculation and understanding of probability concepts. This is the easiest of the calibration items, involving procedural knowledge.
+
+The target item, given its rubric, is purely a recall task. Students in Grade 6 Social Science would typically learn about states, their cultures, and prominent festivals/landmarks. Rajasthan is a culturally rich state, and its major festivals (e.g., Pushkar Fair, Teej, Gangaur, Desert Festival) are often covered.
+
+**Impact of the Rubric:** The rubric explicitly states "For correctly naming any two distinct important fairs or festivals celebrated in Rajasthan." This means the descriptive part of the question ("Describe in one sentence the main attraction or significance of one of them") is *not* scored. This significantly lowers the cognitive demand and potential for error. If the description was also scored, the item would be much harder. As it stands, it's a simple two-part recall.
+
+**Rating Analysis:**
+*   **Concept Complexity:** Low. Just recalling names. (2)
+*   **Procedural Steps:** Very few. Identify two names. (2)
+*   **Abstraction Level:** Very concrete recall. (1)
+*   **Prerequisite Knowledge:** Moderate. Students need to have been taught about Rajasthan's culture and festivals. This is standard G6 Social Science. (5)
+*   **Rubric Specificity:** High. Two specific names are required. No partial credit for one name or a general description. (8)
+*   **Common Error Likelihood:** Moderate. Students might only name one, or name a festival not from Rajasthan, or misspell. However, many common festivals exist. (5)
+*   **Question Clarity:** High. "Name any two... Describe in one sentence..." is clear. The discrepancy with the rubric is external to the student's understanding of the question. (9)
+*   **Cognitive Load:** Low. Simple recall. (2)
+*   **Age Appropriateness:** High. Perfectly appropriate for G6 Social Science curriculum. (9)
+*   **Transfer Distance:** Low. Direct recall from taught content. (2)
+*   **Language Demand:** Low. Just naming and a simple sentence (though the sentence isn't scored). Basic recall language. (3)
+*   **Response Precision:** Moderate. The names need to be correct. (6)
+
+**Predictions based on Rubric:**
+Since only naming two festivals is scored, this item is simpler than the "Suggest ways to improve transparency" (G7 SS, difficulty 0.653) which required higher-order thinking. It's also simpler than the G6 English verb phrase (difficulty 0.808) which requires specific grammatical knowledge. It's most comparable to a factual recall question.
+
+The key is that the description part is *not* scored. If it were, the difficulty would increase significantly. Given that students only need to recall two names, and Rajasthan has many well-known festivals, a reasonable proportion of students should be able to do this if the topic has been adequately covered.
+
+*   **Classical Difficulty (prop scoring 0):** I expect it to be lower than the G7 SS 'transparency' item (0.653) because it's pure recall for a G6 topic, and lower than the G6 English verb phrase (0.808) because it's less specialized. It's a foundational Social Science fact. I'd place it around 0.5-0.6.
+*   **Mean Score Proportion:** This will be the inverse of the difficulty. If difficulty is 0.55, mean score proportion is 0.45.
+*   **Item-Total Correlation:** This is a recall item. If the content is taught well, stronger students will remember it, weaker students might not. The "Identify verb phrase" had 0.386, "Public/Private healthcare" 0.411, "Favorite line" 0.467, "Probability" 0.576, and "Transparency" 0.642. Recall items can have moderate to high correlations if the knowledge differentiates students well. Given it's a specific cultural fact, it should correlate reasonably with overall SS knowledge. I'd expect it to be in the 0.45-0.55 range. It's not as demanding as 'transparency' (0.642) but more specific than some of the English items.
+
+Let's refine the difficulty. The G7 SS 'transparency' item (0.653) asks for 'suggesting' ways, which is higher order. This item is pure recall. The G6 English 'verb phrase' (0.808) is specific grammatical knowledge, which can be tricky. The Math 'probability' (0.468) is the easiest and involves calculation. This Social Science recall for G6 should be easier than the G7 Social Science application, and possibly even easier than the G6 English verb phrase, assuming the topic is adequately covered in the curriculum. I'll lean towards it being easier than 0.653. Maybe around 0.55-0.60.
+
+Final check on the rubric: Max score 1. "For correctly naming any two distinct important fairs or festivals celebrated in Rajasthan." This is very clear. The "describe" part is a distractor for scoring. This makes the item much easier than if the description was also scored.
+
+If a student names one, they score 0. If they name two correct ones, they score 1.
+This implies a relatively high classical difficulty (proportion scoring 0) because students either get it fully or not at all. There's no partial credit for one name.
+The G6 English "verb phrase" (0.808) requires identifying one specific phrase. This item requires identifying two specific names. This might make it slightly harder than the verb phrase, or similar.
+However, the content for this SS item is likely more broadly covered than a specific grammar point.
+Let's consider the G6 English "verb phrase" (difficulty 0.808). This is also a specific recall/identification. Naming two distinct festivals might be slightly harder than identifying one specific verb phrase, especially if students only remember one.
+But "fairs or festivals" is a common Social Science topic.
+I'm going to adjust my difficulty prediction slightly higher, closer to the English verb phrase example, because of the "two distinct" requirement and the lack of partial credit. If many students only recall one, the difficulty will be higher.
+Let's say 0.75 for classical difficulty. This implies a mean score proportion of 0.25. This seems reasonable for a specific recall question where two distinct items are needed for full credit.
+Item-total correlation: If it's a pure recall of taught content, it should differentiate students who have good recall/study habits in Social Science. Similar to the English grammar item or slightly higher due to content breadth. I'll go with 0.45.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>1</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<rubric_specificity>8</rubric_specificity>
+<common_error_likelihood>5</common_error_likelihood>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<language_demand>3</language_demand>
+<response_precision>6</response_precision>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.75</classical_difficulty>
+<mean_score_proportion>0.25</mean_score_proportion>
+<item_total_correlation>0.45</item_total_correlation>
+</predictions>

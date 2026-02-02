@@ -1,0 +1,22 @@
+In the context of UK Year 9 mathematics, this question targets the intersection of index laws (squaring), substitution, and decimal place value.
+
+### 1. The specific misconception or procedural error
+**The "Linear Scaling" (or Decimal Point Drag) Bug.**
+The student correctly squares the digit $3$ to get $9$, but mistakenly believes that the number of decimal places remains constant regardless of the power, or they incorrectly "scale" the decimal place linearly. Instead of understanding that $(0.1)^2 = 0.01$, they apply the logic that "if $0.3$ has one decimal place, then $(0.3)^2$ must also have one decimal place."
+
+### 2. How a student with this misconception would work through the question
+*   **Step 1:** The student substitutes $x = 0.3$ into the equation: $y = 3 \times (0.3)^2$.
+*   **Step 2:** They attempt to square $0.3$. They think, "$3$ squared is $9$, so $0.3$ squared must be $0.9$." (Crucially, they miss that $0.3 \times 0.3 = 0.09$).
+*   **Step 3:** They continue with the rest of the formula: $y = 3 \times 0.9$.
+*   **Step 4:** They calculate $3 \times 9 = 27$ and place the decimal point back into the result to maintain the "one decimal place" consistency they have established, resulting in **2.7**.
+
+### 3. Which answer option (A/B/C/D) this misconception leads to
+This misconception leads directly to **Option D: 2.7**.
+
+*(Note: If they had performed $0.3 \times 0.3$ correctly to get $0.09$, the correct calculation $3 \times 0.09$ would yield 0.27, which is Option B).*
+
+### 4. How natural/attractive this error is
+This error is **highly attractive** and one of the most common mistakes in Key Stage 3 algebra and decimals.
+*   **Lack of Check:** A student is unlikely to realize they are wrong because $2.7$ "feels" like a reasonable magnitude. To a Year 9 student, $0.27$ often looks "too small" for a squaring operation, as they frequently (and incorrectly) associate squaring with "getting much bigger."
+*   **Pattern Over-generalization:** Students are often taught that when multiplying a decimal by a whole number (e.g., $3 \times 0.3 = 0.9$), the number of decimal places stays the same. They over-generalize this rule to squaring, not realizing that the number of decimal places must double (as they are effectively multiplying $0.3$ by another decimal).
+*   **Distractor Strength:** Because $2.7$ is an option, it provides **immediate confirmation bias**. The student sees their result reflected in the choices and proceeds with total confidence, unaware that they have missed a place-value shift.

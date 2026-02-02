@@ -1,0 +1,40 @@
+<chain_of_thought>
+This item tests whether students can extract the gradient from a linear equation in general form. The equation 5x + 3y = 15 needs to be rearranged to y = mx + c form.
+
+Rearranging: 3y = -5x + 15, so y = (-5/3)x + 5. The gradient m = -5/3, answer D.
+
+The misconception "uses the same operation rather than the inverse" is central here. When students move 5x to the right side, they should subtract it (giving -5x), but students with this misconception might add or simply transpose without changing sign, yielding +5x on the right, leading to gradient +5/3 (distractor C).
+
+Let me think about the difficulty calibration more carefully. The calibration items with this same misconception show:
+- Simple linear equation (p=-15): classical diff = 0.167, very easy
+- Function machines (visual): classical diff = 0.295, moderate
+- Inequality with multiple steps: classical diff = 0.569, harder
+
+This gradient item combines equation rearrangement with the concept of gradient, which is a higher-level topic typically taught at GCSE level (ages 14-16). Not all 11-16 year olds will have encountered this. However, for those who have, it's a fairly standard question. The presence of fractions in the answer adds cognitive load.
+
+I think this is moderately difficult. The four distractors are excellently constructed -- each one corresponds to a specific error. This should produce good discrimination. The fraction -5/3 as the correct answer may deter some students who expect integer gradients, potentially pushing them toward A or B.
+
+I'll estimate classical difficulty around 0.48-0.55, IRT difficulty around 0.3-0.5.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.49</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

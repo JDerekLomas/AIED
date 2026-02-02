@@ -1,0 +1,41 @@
+<chain_of_thought>
+Item: 8 - 7 + 10 × 3 = ?
+
+Correct: multiply first, 10×3=30, then 8-7+30=31 (B).
+
+I want to think carefully about the population taking this test. These are UK secondary students ages 11-16 on diagnostic math assessments. The spread is wide. For Year 7 students who are just learning BODMAS, the error rate could be 30-40%. For Year 10-11 students, maybe 5-10%. Across the full 11-16 range, this averages out.
+
+Distractor D (33) from left-to-right processing is highly plausible. In my experience, this is one of the most common arithmetic misconceptions. Students who haven't automated BODMAS will naturally process sequentially.
+
+Distractor C (-29) requires the student to correctly identify that multiplication comes first (getting 30) but then incorrectly compute 8 - (7+30) = -29. This is a subtler error about the scope of subtraction.
+
+Distractor A (36) is the weakest - hard to arrive at through a single common misconception.
+
+Comparing to calibration items: the similar BODMAS item had classical difficulty 0.134. But that item involved 0.4, fractions, and negative results, which arguably makes it more complex procedurally. This item is simpler arithmetically but tests the same core misconception.
+
+However, I note that the numbers in this item (8, 7, 10, 3) produce a very tempting left-to-right answer (33) that's close to the correct answer (31). This proximity could go either way - it might cause some students to second-guess and realize they need BODMAS, or it might not trigger any alarm bells.
+
+I'll estimate this as relatively easy, classical difficulty around 0.20, similar to or slightly harder than the calibration BODMAS item. The IRT difficulty should be slightly negative. Discrimination should be solid since BODMAS knowledge is a fairly sharp dividing line.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

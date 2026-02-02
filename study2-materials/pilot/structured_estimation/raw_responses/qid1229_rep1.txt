@@ -1,0 +1,41 @@
+<chain_of_thought>
+The target item presents -6^2 typed into a scientific calculator. The subtlety here is that scientific calculators follow strict order of operations (BIDMAS/BODMAS). The exponent binds more tightly than the unary negation, so the calculator computes 6^2 = 36, then negates to get -36. Answer D is correct.
+
+Let me consider how students in the UK aged 11-16 would approach this. Many students learn about squaring and negative numbers but conflate -6^2 with (-6)^2. This is one of the most persistent misconceptions in secondary maths. The calculator context makes it even more confusing because students may not realize the calculator treats the minus sign differently from how they read it.
+
+Distractor analysis:
+- A (12): -6 x 2, confusing squaring with doubling
+- B (-12): -6 x 2, keeping the sign
+- C (36): (-6)^2, the most common error -- treating -6 as a single entity then squaring
+- D (-36): Correct -- calculator evaluates as -(6^2)
+
+Option C will be the dominant wrong answer. This makes the item a strong diagnostic for order-of-operations understanding.
+
+Comparing to calibration items: The factorising item (Tom and Katie) had classical difficulty 0.473 and IRT b = 0.404. I think this item is similarly difficult or slightly harder, because the -6^2 misconception is extremely widespread. I'll estimate classical difficulty around 0.52, IRT difficulty around 0.45.
+
+The discrimination should be moderate-to-good. Students who truly understand BIDMAS will get this right; those who don't, won't. However, some strong students might also fall for option C if they haven't encountered this specific convention. That could slightly reduce discrimination. I'll estimate a = 1.20.
+
+Guessing is low because option C acts as a strong attractor for those who don't know.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

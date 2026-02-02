@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is common among Year 9 students who are transitionally fluent in rearranging formulae involving fractions.
+
+### 1. The Specific Misconception: "Reciprocal Misplacement in Division"
+This is a procedural "bug" in algebraic manipulation. When faced with a formula where the subject is multiplied by a fraction—such as $V = \frac{4}{3} \pi r^3$—the student knows they must "move" the fraction to the other side to isolate $r$. The misconception is the belief that **to move a fraction, you simply move its components to the same positions on the other side**, rather than multiplying by the reciprocal. Essentially, the student incorrectly treats $V = \frac{4}{3}(\dots)$ as $\frac{V}{1} = \frac{4}{3}(\dots)$ and cross-multiplies or shifts the terms while keeping the 4 as a numerator.
+
+### 2. The Step-by-Step Error Process
+A student with this misconception would follow these steps:
+
+1.  **Recall/Write Formula:** They correctly identify the volume of a sphere: $V = \frac{4\pi r^3}{3}$.
+2.  **Inverse Operation Attempt:** They recognize they need to isolate $r^3$. They see the $4\pi$ and the $3$.
+3.  **The Buggy Move:** Instead of multiplying by $3$ and then dividing by $4\pi$ (which yields $\frac{3V}{4\pi}$), they mistakenly associate the $4\pi$ with the "top" and keep it there, and the $3$ with the "bottom" and keep it there. They effectively "divide by the whole side" but fail to flip the fraction, leading to the expression $r^3 = \frac{4V\pi}{3}$.
+4.  **Root Application:** They correctly identify that to get from $r^3$ to $r$, they need a cube root, leading them to: $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Resulting Answer Option
+This specific procedural bug leads the student directly to **Option A**.
+
+### 4. Attractiveness of the Error
+This is a highly "attractive" error for a Year 9 student for several reasons:
+
+*   **Visual Familiarity:** The term $\frac{4V\pi}{3}$ looks very "correct" because it maintains the same $4/3$ structure as the original formula. The student sees the numbers in the positions they are used to seeing them ($4$ on top, $3$ on bottom) and assumes the transformation is complete.
+*   **Confidence Level:** The student is unlikely to realize they have gone wrong because they *did* perform the operations they intended to perform (moving the $4$ and the $3$ and adding a cube root). Unlike an error that results in a messy or illogical answer, Option A "looks" like a volume formula, providing a false sense of security.
+*   **The "Cross-Multiplication" Trap:** If the student tries to use the common "cross-multiplication" shortcut without a solid grasp of ratios (i.e., treating it as $\frac{V}{1} = \frac{4\pi r^3}{3}$), they often lose track of which variables belong to which product, frequently ending up with $r^3$ isolated but the fraction un-flipped.

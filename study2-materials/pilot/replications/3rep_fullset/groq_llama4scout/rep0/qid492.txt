@@ -1,0 +1,29 @@
+To solve this, let's consider the triangle inequality theorem, which states that for any triangle, the sum of the lengths of any two sides must be greater than the length of the remaining side.
+
+## Step 1: Analyze Tom's triangle
+Tom suggests a triangle with lengths \(11 \mathrm{~cm}, 10 \mathrm{~cm},\) and \(2 \mathrm{~cm}\). Let's apply the triangle inequality:
+- \(11 + 10 > 2\) is true (\(21 > 2\)),
+- \(11 + 2 > 10\) is true (\(13 > 10\)),
+- \(10 + 2 > 11\) is false (\(12 > 11\) is actually true, my mistake, \(12 > 11\)). Correcting that: \(10 + 2 = 12\) and \(12 > 11\), so it's actually true.
+Given the correct assessment:
+- All conditions are met, so Tom can construct a triangle with these lengths.
+
+## 2: Analyze Katie's triangle
+Katie suggests a triangle with lengths \(8 \mathrm{~cm}, 5 \mathrm{~cm},\) and \(3 \mathrm{~cm}\). Applying the triangle inequality:
+- \(8 + 5 > 3\) is true (\(13 > 3\)),
+- \(8 + 3 > 5\) is true (\(11 > 5\)),
+- \(5 + 3 > 8\) is true (\(8 > 8\) is false, it's actually \(8 = 8\), not greater). Correcting that: \(5 + 3 = 8\), so it's not greater, it's equal.
+Given the correct assessment:
+- Since one condition (\(5 + 3 > 8\)) is not met (it's equal, not greater), Katie cannot construct a triangle with these lengths.
+
+## 3: Predicting Student Responses
+- **Below Basic**: Students at this level might struggle with the triangle inequality theorem or applying it correctly. They might not recognize the error in Katie's case or the validity in Tom's. Expect a high chance of incorrect answers. \( A=30\% \) \( B=20\% \) \( C=20\% \) \( D=30\% \)
+- **Basic**: At this level, students have a grasp of the theorem but might make calculation errors or misapply it. They are more likely to identify Tom as correct but might be unsure or incorrect about Katie. \( A=40\% \) \( B=15\% \) \( C=20\% \) \( D=25\% \)
+- **Proficient**: These students understand and can apply the triangle inequality theorem accurately. They should recognize Tom's triangle as valid and Katie's as not. \( A=10\% \) \( B=80\% \) \( C=5\% \) \( D=5\% \)
+- **Advanced**: Students at this level not only understand the theorem but can also quickly assess and apply it to various cases. They will easily identify Tom's triangle as valid and Katie's as invalid. \( A=5\% \) \( B=90\% \) \( C=0\% \) \( D=5\% \)
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=40% B=15% C=20% D=25%
+proficient: A=10% B=80% C=5% D=5%
+advanced: A=5% B=90% C=0% D=5%

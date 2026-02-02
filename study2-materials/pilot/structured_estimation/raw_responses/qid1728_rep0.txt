@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item tests whether students respect the order of operations (BODMAS/BIDMAS) when working with fractions. The correct procedure is:
+
+Step 1: Identify that multiplication takes priority over subtraction.
+Step 2: Compute 1/4 × 1/5 = 1/20.
+Step 3: Compute 3/4 - 1/20. To subtract these, find a common denominator: 3/4 = 15/20, so 15/20 - 1/20 = 14/20 = 7/10.
+
+The key misconception is carrying out operations left to right: 3/4 - 1/4 = 2/4 = 1/2, then 1/2 × 1/5 = 1/10, which is distractor B. This is a very common error pattern among secondary students.
+
+Looking at distractor A (2/16): this could arise from subtracting numerators and denominators incorrectly (3-1=2, 4×4=16 somehow), though it's less obviously derived. Distractor D (5/10 = 1/2) could come from students who do the left-to-right subtraction 3/4 - 1/4 = 2/4 but then multiply 2/4 × 5 or make another error reaching 1/2.
+
+Comparing to the calibration item with the same misconception (0.4 - 1/5 × 3), that had classical difficulty 0.134 and IRT b = -0.245. This current item is entirely in fraction form, which adds procedural complexity — students must find common denominators. However, the numbers are simple. I'd expect this to be somewhat harder than the calibration item, perhaps classical difficulty around 0.20-0.25.
+
+The discrimination should be moderate to good since the misconception cleanly separates students who know BODMAS from those who don't. The guessing parameter should be low since distractor B is very attractive to students with the misconception.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

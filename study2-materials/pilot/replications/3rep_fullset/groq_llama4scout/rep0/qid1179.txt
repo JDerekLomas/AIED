@@ -1,0 +1,29 @@
+To approach this question, let's first understand what's being asked. We have a line segment from (0,2) to (3,1) that is one side of a square. We need to determine if the points \( (2,-2) \) (Tom's suggestion) and \( (1,5) \) (Katie's suggestion) could be vertices of this square.
+
+## Step 1: Calculate the length and slope of the given line segment
+The length of the line segment can be found using the distance formula: \( \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \). Substituting the given points: \( \sqrt{(3 - 0)^2 + (1 - 2)^2} = \sqrt{9 + 1} = \sqrt{10} \).
+
+The slope of the line segment is \( \frac{y_2 - y_1}{x_2 - x_1} = \frac{1 - 2}{3 - 0} = -\frac{1}{3} \).
+
+## 2: Determine the characteristics of the other sides of the square
+For a square, all sides are of equal length, and all angles are right angles (90 degrees). This implies that the slope of the other sides will be perpendicular to the given side. The slope of a line perpendicular to another line with slope \( m \) is \( -\frac{1}{m} \). Therefore, the slope of the lines perpendicular to the given line segment is \( 3 \) (since \( -\frac{1}{-\frac{1}{3}} = 3 \)).
+
+## 3: Evaluate Tom's suggestion - \( (2,-2) \)
+To check if \( (2,-2) \) could be a vertex, we calculate the distance from \( (2,-2) \) to both \( (0,2) \) and \( (3,1) \) and see if either distance is \( \sqrt{10} \) (the length of the given side) and if the slopes are appropriate for a square.
+
+- Distance from \( (0,2) \) to \( (2,-2) \): \( \sqrt{(2-0)^2 + (-2-2)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5} \)
+- Distance from \( (3,1) \) to \( (2,-2) \): \( \sqrt{(2-3)^2 + (-2-1)^2} = \sqrt{1 + 9} = \sqrt{10} \)
+
+The slope from \( (0,2) \) to \( (2,-2) \) is \( \frac{-2-2}{2-0} = -2 \), and from \( (3,1) \) to \( (2,-2) \) is \( \frac{-2-1}{2-3} = 3 \). This indicates that \( (2,-2) \) could indeed be a vertex of the square because it forms a side of length \( \sqrt{10} \) with one of the endpoints and the slope relationship is consistent with a square.
+
+## 4: Evaluate Katie's suggestion - \( (1,5) \)
+- Distance from \( (0,2) \) to \( (1,5) \): \( \sqrt{(1-0)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10} \)
+- Distance from \( (3,1) \) to \( (1,5) \): \( \sqrt{(1-3)^2 + (5-1)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5} \)
+
+The slope from \( (0,2) \) to \( (1,5) \) is \( \frac{5-2}{1-0} = 3 \), and from \( (3,1) \) to \( (1,5) \) is \( \frac{5-1}{1-3} = -2 \). This shows that \( (1,5) \) could also be a vertex because it forms a side of length \( \sqrt{10} \) with one of the endpoints and the slopes are consistent with forming a square.
+
+## 5: Conclusion
+Both Tom and Katie provide points that could be vertices of a square with the given line segment as one side, based on the distances and slopes calculated.
+
+## 6: Predicting Student Responses
+- **Below Basic**: Students at this level might struggle with calculating distances and slopes or understanding the properties of a square. They might not correctly apply the distance formula or understand slope relationships. Given the complexity of applying these concepts correctly, a high percentage might choose \( D \) (Neither is correct) due to confusion, but some might incorrectly validate one or both suggestions based on partial understanding. \( A =

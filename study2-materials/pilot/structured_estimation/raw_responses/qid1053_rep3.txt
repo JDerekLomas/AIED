@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: factorise x^2 - x - 6. Answer: (x-3)(x+2) = option A.
+
+I want to think about this from the student perspective. A student approaching this needs to find two numbers that multiply to -6 and add to -1. The number pairs that multiply to 6 are (1,6), (2,3). Since the product must be -6, one must be negative. To get sum -1, we need -3 and +2.
+
+Now, many students learn factorisation somewhat mechanically. Some might try each option by expanding -- this is a viable strategy with MCQ and would make the item easier than if it were free-response. A student who can reliably expand brackets would get this right by testing each option.
+
+But students who try to factorise directly face the sign challenge. The misconception about negative times negative is common in early algebra.
+
+Looking at the calibration items: the easiest was the simple equation -5 = p + 10 (classical difficulty 0.167). The hardest was the inequality (0.569). The Tom/Katie factorising item was 0.473.
+
+This item is a direct factorisation with a negative constant term, which is harder than positive constant terms. But it's multiple choice, so students can use elimination or expansion. I think it's comparable to Tom/Katie but the MCQ format with expandable options might make it slightly easier. I'll estimate 0.40 classical difficulty.
+
+For discrimination, factorisation items tend to discriminate well. I'll estimate a = 1.45. The guessing parameter might be slightly elevated since students might guess between A and D (both give -6 as constant).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

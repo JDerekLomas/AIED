@@ -1,0 +1,19 @@
+To predict the outcome for this Year 9 mock question, we must look at the specific algebraic traps involved in rearranging $10x - 6y = 30$ when $y = 0.5$.
+
+**Analysis of Errors:**
+*   **A is the correct answer:** $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$. (Wait, my manual check reveals **C is 3.3**). 
+*   *Correction*: $10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$. **C is the correct answer.**
+*   **Option D (2.7)**: The most common "attractive" error. Students subtract 3 from 30 instead of adding it ($10x = 27$), forgetting that to undo $-3$ they must add.
+*   **Option A (4.25)**: This occurs when students incorrectly handle the constant or the multiplier (e.g., adding $12.5$ instead of $3$ due to confusing $y$ coefficients). 
+*   **Option B (-4.25)**: A sign error coupled with a calculation mistake, common among students guessing or struggling with negative integers.
+
+**Student Profiles:**
+*   **Below Basic**: Many will guess or try to perform a single operation (like $30 \div 10 + 0.5$) without a formal algebraic process.
+*   **Basic**: Most will substitute correctly but fail the "inverse operation" step, subtracting 3 from 30 to get 27, leading them directly to the "D" trap.
+*   **Proficient**: These students usually move the 3 correctly but might make a division error. They are the most likely to land on the correct "C".
+*   **Advanced**: These students have a high degree of confidence in two-step equations and will rarely fall for the sign error trap.
+
+below_basic: A=20% B=20% C=25% D=35%
+basic: A=15% B=10% C=30% D=45%
+proficient: A=5% B=5% C=75% D=15%
+advanced: A=2% B=0% C=95% D=3%

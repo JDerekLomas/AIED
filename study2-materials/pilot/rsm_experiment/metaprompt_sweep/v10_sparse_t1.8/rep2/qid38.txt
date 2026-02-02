@@ -1,0 +1,31 @@
+Here is a prediction of student responses based on typical UK secondary school assessment data (Key Stage 3/4).
+
+In this context:
+*   **Below Basic:** Grade 1-2 (Developing/Foundation)
+*   **Basic:** Grade 3-4 (Standard Pass boundary)
+*   **Proficient:** Grade 5-6 (Strong Pass/Higher Tier start)
+*   **Advanced:** Grade 7-9 (Targeting A/A*)
+
+---
+
+### **Teacher Analysis of Options**
+*   **A (Correct):** Recognising a common denominator is $2x$, so $\frac{4}{x}$ becomes $\frac{8}{2x}$. $3 + 8 = 11$.
+*   **B (Misconception):** "Add across" logic. $3+4=7$ and $2x+x=3x$. Very common at lower levels.
+*   **C (Misconception):** Incorrectly doubling the first numerator or simply adding the tops and assuming $x$ is the common denominator ($3+8$ but forgetting the /2).
+*   **D (Misconception):** Adding numerators ($3+4$) but correctly identifying $2x$ as a common denominator.
+
+---
+
+### **Predicted Statistics**
+
+**below_basic: A=15% B=55% C=10% D=20%**
+*   *Rationale:* The vast majority will use "add across" logic (Option B), treat it like a simple sequence of numbers, and ignore the rules of common denominators entirely.
+
+**basic: A=35% B=25% C=15% D=25%**
+*   *Rationale:* Students here know they need a common denominator but often fail the execution. Many will correctly pick $2x$ as the denominator but forget to multiply the numerator (leading to Option D).
+
+**proficient: A=75% B=5% C=5% D=15%**
+*   *Rationale:* At this level, students are fluent with fraction arithmetic. The most common error remains "forgetting to multiply the numerator" (D), while the "add across" error (B) almost disappears.
+
+**advanced: A=96% B=1% C=1% D=2%**
+*   *Rationale:* This is a foundational algebraic fraction question for high achievers. Errors will almost exclusively be due to "calculation slip" (3+8=10) or rushing, rather than a lack of conceptual understanding.

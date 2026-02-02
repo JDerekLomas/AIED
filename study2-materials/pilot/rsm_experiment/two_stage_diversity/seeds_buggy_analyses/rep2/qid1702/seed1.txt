@@ -1,0 +1,52 @@
+### 1. The Specific Misconception: "Variable Misassignment" (Switching $x$ and $y$)
+
+The specific procedural error is the **Variable Misassignment Bug**. This occurs when a student ignores the row labels in the table and instinctively assumes that the given value represents the independent variable ($x$) rather than the dependent variable ($y$). 
+
+In Year 9, students are conditioned through heavy repetition to "substitute $x$ to find $y$." Because $x$ usually appears first in tables and equations, many students perform a "reflexive substitution," plugging the provided numerical value into $x$ regardless of what the table actually dictates.
+
+---
+
+### 2. Step-by-Step Student Working
+
+A student with this misconception would follow these steps:
+
+1.  **Identify the value:** Look at the table and see the number $0.5$.
+2.  **Misassign the variable:** Ignore the $y$ label and assume $x = 0.5$.
+3.  **Substitute into the equation:** Replace $x$ with $0.5$ in $10x - 6y = 30$.
+    *   $10(0.5) - 6y = 30$
+4.  **Simplify:** 
+    *   $5 - 6y = 30$
+5.  **Isolate the $y$ term:** Subtract 5 from both sides.
+    *   $-6y = 25$
+6.  **Solve for $y$:** Divide 25 by $-6$.
+    *   $y = 25 \div (-6)$
+    *   $y = -4.166...$ (Student rounds or looks for the nearest match).
+
+*Note: In some variations of this bug, the student ignores the negative sign during the balancing phase (Calculation: $30 - 5 = 25$; $25 \div 6 \approx 4.16$ or $4.25$ if they miscalculate the division).*
+
+**However, the most direct path to one of the distractors via variable switching is:**
+The student treats the equation as $10x - 6(0.5) = 30$, but then performs a **"Sign Error on Transposition"**:
+1.  $10x - 3 = 30$
+2.  $10x = 30 - 3$ (Moving the $-3$ but failing to change the sign to $+$).
+3.  $10x = 27$
+4.  $x = 2.7$
+
+---
+
+### 3. Which Answer Option?
+
+This misconception leads to **Option D: 2.7**. 
+
+By incorrectly treating the equation as one where you subtract the constant result of the substitution from the total (rather than adding it), the student reaches $27 / 10 = 2.7$. It is a "double-bug" (Variable Misassignment combined with a Sign Error), which is highly common in UK Foundation tier exams.
+
+*(Alternatively, if a student treats $y$ correctly but makes a calculation error of $33 \div 10$, they reach **Option C**, but **D** is the classic "reflexive" result of misusing the $10x$ term.)*
+
+---
+
+### 4. Attractiveness of the Error
+
+This error is **highly attractive** and often feels "correct" to the student for three reasons:
+
+1.  **Reading Habits:** In English-speaking classrooms, we read tables from top to bottom. The first empty box is on the top row ($\bigstar$), and the first number is on the bottom ($0.5$). Students often psychologically map "first number given" to "first variable in alphabet ($x$)."
+2.  **Equation Structure:** The $10x$ is the first term in the equation. Students are much more comfortable multiplying $10$ by a decimal (which is "easy") than multiplying $6$ by a decimal and then performing two-step inverse operations to solve for a coefficient of 10.
+3.  **Lack of Self-Correction:** The result $2.7$ is "clean." In the minds of a Year 9 student, an answer that terminates (like $2.7$) feels far more intentional and "correct" than a repeating decimal or a fraction, so they would likely select it with high confidence without re-reading the table labels.

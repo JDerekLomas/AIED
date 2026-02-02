@@ -1,0 +1,15 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). While the structure appears simple, it contains a classic "left-to-right" trap that many students fall into when they ignore the hierarchy of operations.
+
+**Analysis of the Distractors:**
+*   **B (7) is correct:** $4 + 12 \div 4 \rightarrow 4 + 3 = 7$.
+*   **A (10):** Students calculate the numerator/top line as a sequence without hierarchy but handle the brackets: $(4 + 12) \div (2 + 2) = 16 \div 4 = 4$ (No, wait, A is $10$—this is likely $(4 + 12 \div 2) + 2 \rightarrow (4 + 6) + 2 = 12$ or someone doing $4 + 6$ then stopping/guessing). Actually, **A** is the most common error for students who ignore the bracket and go left to right: $4 + 12 = 16$, then $16 \div 2 = 8$, then $8 + 2 = 10$.
+*   **C (12):** A common calculation error or an attempt to do $4 + (12 \div 2) + 2$, ignoring the grouping.
+*   **D (4):** Adding the brackets first ($4$), then adding the $4+12$ to get $16$, then $16 \div 4 = 4$. This is a very common mistake where students treat the plus sign at the start and the bracket at the end as equal priority or simply do "addition, then addition, then division".
+
+**Student Behavior:**
+The "Basic" and "Below Basic" cohorts are highly likely to go left-to-right (Option A) or perform all additions before divisions (Option D). "Proficient" students usually remember the brackets but sometimes fail on the second step ($4 + 3$).
+
+below_basic: A=45% B=15% C=15% D=25%
+basic: A=35% B=30% C=10% D=25%
+proficient: A=10% B=75% C=5% D=10%
+advanced: A=2% B=95% C=1% D=2%

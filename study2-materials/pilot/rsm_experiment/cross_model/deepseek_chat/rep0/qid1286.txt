@@ -1,0 +1,53 @@
+First, recall the formula for the volume of a sphere:  
+
+\[
+V = \frac{4}{3} \pi r^3
+\]  
+
+We solve for \(r\):
+
+\[
+r^3 = \frac{3V}{4\pi} \quad\Rightarrow\quad r = \sqrt[3]{\frac{3V}{4\pi}}
+\]  
+
+That corresponds to option **C**.
+
+---
+
+**Why students might pick other options:**  
+- **Option A**: This is \(\sqrt[3]{\frac{4V\pi}{3}}\), which comes from rearranging \(V = \frac{4}{3}\pi r^3\) wrongly by multiplying \(V\) by \(\pi\) instead of dividing. A common error is to swap \(\pi\) position incorrectly.  
+- **Option B**: This is \(\sqrt[3]{\frac{4V}{3\pi}}\), which could come from incorrectly starting with \(V = \frac{4}{3} r^3\) (missing \(\pi\)) and then trying to compensate by putting \(\pi\) in denominator, but still wrong.  
+- **Option D**: This is \(\frac{3\sqrt[3]{V}}{4\pi}\), which is dimensionally wrong (cube root of volume is length, but then dividing by \(4\pi\) gives a length smaller by factor \(4\pi\), not matching correct formula). This might come from misremembering \(r = \frac{3V}{4\pi}\) and then trying to cube root \(V\) first.
+
+---
+
+**Difficulty analysis:**  
+This is a *rearrangement* question, not a calculation-with-numbers question. Students have to recall the correct volume formula and rearrange it step-by-step. Common traps:  
+1. Misplacing \(\pi\) in the rearrangement.  
+2. Confusing whether to divide or multiply by \(\pi\) at the end.  
+3. Not recognizing that \(r^3 = \frac{3V}{4\pi}\) and instead solving \(V = \pi r^3 \times \frac{4}{3}\) wrongly.
+
+Given the options are symbolic, weaker students might guess based on what "looks familiar" rather than deriving carefully.
+
+---
+
+**Predicted percentages:**
+
+- **Below basic**: Likely to guess among A, B, C, D with slight bias toward C because it’s the standard form taught, but many will pick A or B due to misremembering the order of constants.  
+  - A=25% B=25% C=40% D=10%
+
+- **Basic**: Knows formula but often rearranges incorrectly, might mix up multiplication/division of \(\pi\). A and B attract many.  
+  - A=30% B=30% C=35% D=5%
+
+- **Proficient**: Can rearrange formula but might slip if inattentive; most will get C.  
+  - A=10% B=10% C=75% D=5%
+
+- **Advanced**: Nearly all get it right.  
+  - A=2% B=3% C=94% D=1%
+
+---
+
+below_basic: A=25% B=25% C=40% D=10%  
+basic: A=30% B=30% C=35% D=5%  
+proficient: A=10% B=10% C=75% D=5%  
+advanced: A=2% B=3% C=94% D=1%

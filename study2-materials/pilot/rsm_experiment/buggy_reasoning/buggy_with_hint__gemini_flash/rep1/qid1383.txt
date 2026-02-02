@@ -1,0 +1,50 @@
+As an experienced teacher, I’ve seen this particular question trip up students across all ability ranges, primarily because it combines order of operations with the "negative number rules." Here is my diagnostic breakdown.
+
+---
+
+### 1. Analysis of Wrong Options
+
+**Option B: $12$**
+*   **Buggy Reasoning:** This is the "Additive shortcut." The student confuses the index with a multiplier. Instead of calculating $(-3) \times (-3) \times (-3) \times (-3)$, they perform $3 \times 4$ and then likely drop the negative sign or conclude that because there are two numbers ($3$ and $4$), it must be positive.
+*   **Attractiveness:** High for lower-attaining students. It is a classic "visual slip" where the exponent is treated as a coefficient.
+
+**Option C: $-81$**
+*   **Known Misconception:** "Believes multiplying two negatives gives a negative answer."
+*   **Specific Chain:** The student correctly identifies that $3^4 = 81$. They then work through the signs: $(-3) \times (-3) = -9$, then $(-9) \times (-3) = -27$, etc. They hold a shaky understanding that "if there's a minus in the question, there's a minus in the answer," or they apply the rule for *adding* negatives to multiplication.
+*   **Attractiveness:** This is the most "mathematical" of the errors. It shows the student knows what an index is, but their arithmetic rules are corrupted.
+
+**Option D: $-12$**
+*   **Buggy Reasoning:** Similar to Option B, the student performs $k \times 4$. However, they retain the negative sign from the base $k$. $(-3) \times 4 = -12$.
+*   **Attractiveness:** Common for students who are just starting to learn about indices and negative numbers simultaneously. They focus on the visual "presence" of the negative sign.
+
+---
+
+### 2. Evaluation of "Attractiveness"
+
+*   **Option C (-81)** is the most dangerous distractor. Many students learn the "even power = positive result" rule by rote, but under the pressure of a test, they revert to the primitive logic that negative inputs yield negative outputs. This is also how many students (mis)use their scientific calculators, typing `-3^4` (which the calculator correctly identifies as $-(3^4) = -81$) rather than `(-3)^4`.
+*   **Option B (12) and D (-12)** are highly attractive to students working at Level 3-4 (KS3) or Foundation GCSE. It is the "reflex" answer—multiplication is faster and easier than exponentiation.
+*   **Option A (81)** requires three distinct successful steps: understanding the index, performing the multiplication accurately, and applying the even-negative-power rule correctly.
+
+---
+
+### 3. Predicted Response Distribution
+
+This distribution assumes a standard UK secondary school cohort (Year 9 or Year 10).
+
+#### **Below Basic (KS3 Working at Level 3/4 or Bottom Set Foundation)**
+*The majority will treat this as a multiplication sum or guess based on the sign.*
+**A=15% B=40% C=15% D=30%**
+
+#### **Basic (Grade 3/4 GCSE or Middle Set Foundation)**
+*Most will recognize indices but fail on the sign rule or the "multiplier" shortcut.*
+**A=30% B=15% C=40% D=15%**
+
+#### **Proficient (Grade 5/6 GCSE or Higher Tier "Crossover")**
+*Students understand the power of 4, but many will fall into the "calculator error" or the "two negatives = negative" trap.*
+**A=60% B=5% C=30% D=5%**
+
+#### **Advanced (Grade 7-9 GCSE or A-Level Prep)**
+*At this level, students are fluent with indices and negative rules.*
+**A=92% B=1% C=6% D=1%**
+
+*(Note: Even advanced students still choose C occasionally if they are thinking of the notation $-3^4$ instead of $(-3)^4$ or if they make a mental arithmetic slip.)*

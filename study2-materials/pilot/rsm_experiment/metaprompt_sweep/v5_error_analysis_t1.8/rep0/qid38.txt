@@ -1,0 +1,14 @@
+To solve $\frac{3}{2x} + \frac{4}{x}$, a student must find a common denominator (making $\frac{4}{x}$ into $\frac{8}{2x}$) and then add only the numerators to get $\frac{11}{2x}$.
+
+**Analysis of Errors:**
+*   **A ($\frac{11}{2x}$):** The correct answer. Requires scaling the second fraction correctly and keeping the denominator constant.
+*   **B ($\frac{7}{3x}$):** The most common "Below Basic" error. Students add the numerators ($3+4$) and add the denominators ($2x+x$). This feels "natural" to students who do not understand the need for a common denominator.
+*   **C ($\frac{11}{x}$):** A rare error where the student correctly calculates the numerator but "cancels out" the 2 or assumes the denominator should be $x$.
+*   **D ($\frac{7}{2x}$):** Students identify the common denominator is $2x$, but forget to multiply the numerator of the second fraction (doing $3+4$ instead of $3+8$). This is a classic "Basic" level mistake.
+
+**Predicted Percentages:**
+
+below_basic: A=10% B=70% C=5% D=15%
+basic: A=35% B=25% C=5% D=35%
+proficient: A=80% B=5% C=2% D=13%
+advanced: A=98% B=1% C=0% D=1%

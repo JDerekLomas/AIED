@@ -1,0 +1,42 @@
+As a UK maths teacher, I have encountered this specific problem many times. It tests the foundational understanding of adding mixed numbers with common denominators.
+
+Here is my diagnostic analysis of the options:
+
+### 1. Analysis of Wrong Answer Options
+
+*   **Option B ($\frac{18}{5}$): Improper Fraction Conversion**
+    *   **Reasoning:** The student correctly performs the addition ($2+1=3$ and $\frac{1}{5}+\frac{2}{5}=\frac{3}{5}$) but converts their answer into an improper fraction: $(3 \times 5) + 3 = 18$ over $5$.
+    *   **Buggy Path:** Correct calculation $\rightarrow$ Failure to follow "Leave as a mixed number" instruction.
+    *   **Attractiveness:** Low to Moderate. It’s a mathematically correct value but ignores the constraint of the question. It is often chosen by students who have recently been drilled in improper fraction conversion and feel that "improper" is the standard final form.
+
+*   **Option C ($\frac{18}{10}$): The Double-Error (Add Denominators + Improper Conversion)**
+    *   **Reasoning:** The student follows the Option D logic ($2+1=3$ and $\frac{1+2}{5+5} = \frac{3}{10}$) and then converts that result into an improper fraction: $(3 \times 10) + 3 = 33$... no, wait. Actually, most students get $\frac{18}{10}$ by adding the numerators of the converted components incorrectly: $(11/5) + (7/5)$ then adding denominators: $18/10$.
+    *   **Buggy Path:** Convert both to improper ($\frac{11}{5}$ and $\frac{7}{5}$) $\rightarrow$ Add numerators ($11+7=18$) $\rightarrow$ Add denominators ($5+5=10$).
+    *   **Attractiveness:** Moderate. It represents a systematic "rules-collision" where the student knows how to change the form of the fraction but lacks the conceptual "why" behind the denominator staying the same.
+
+*   **Option D ($3 \frac{3}{10}$): Adding Denominators (Known Misconception)**
+    *   **Reasoning:** The student treats the fractions as four separate integers: "Add the big numbers, add the tops, add the bottoms."
+    *   **Buggy Path:** $(2+1) \rightarrow 3$; Numerators $(1+2) \rightarrow 3$; Denominators $(5+5) \rightarrow 10$.
+    *   **Attractiveness:** **Very High.** This is the classic fraction misconception. It feels "logical" to a novice student because it mimics the rules of multiplying fractions and basic integer addition. A student at the basic level will rarely notice this is wrong because $3/10$ feels like a "reasonable" fractional part.
+
+---
+
+### 2. Judging Attractiveness
+
+*   **Option D** is the "Strongest Distractor." For students struggling with fraction operations, the "do the same to the top and bottom" intuition is incredibly seductive. They see $5$ and $5$ and think "addition" means "make it $10$."
+*   **Option B** is most attractive to students who overcomplicate the question. They are proficient at the "skill" of fractions but poor at reading comprehension/exam technique.
+*   **Option C** is attractive to those who use the "change to improper" method (often taught as a "fail-safe" for mixed numbers) but haven't mastered the rule that denominators remain constant.
+
+---
+
+### 3. Predicted Response Distribution
+
+| Level | A (Correct) | B (Improper) | C (Impro+Add Denom) | D (Add Denom) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 5% | 25% | 50% |
+| **Basic** | 45% | 10% | 15% | 30% |
+| **Proficient** | 80% | 10% | 2% | 8% |
+| **Advanced** | 95% | 4% | 0% | 1% |
+
+**Key Insight:** 
+In the **Below Basic** tier, **Option D** and **Option C** dominate. At this level, students treat numbers in fractions as entirely independent integers. As ability increases to **Basic**, the "add denominators" error (D) persists, but we see a rise in **B** as students begin applying more complex (though here, unnecessary) procedures like improper fraction conversion. **Advanced** students will only miss "A" due to rushing or misreading the instruction to leave it as a mixed number.

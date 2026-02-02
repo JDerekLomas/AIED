@@ -1,0 +1,14 @@
+This question specifically tests the intersection of substituting into a quadratic formula ($y=ax^2$) and decimal arithmetic. The primary hurdle here is the order of operations (BIDMAS) and the placement of the decimal point when squaring.
+
+**Teacher's Analysis:**
+*   **The Trap (Option D):** Many students will correctly calculate $0.3^2 = 0.09$ but then incorrectly multiply $3 \times 0.09$ as $2.7$. 
+*   **The Conceptual Error (Option B):** This is the most common path to the correct digits. Students calculate $0.3^2 = 0.09$, then $3 \times 0.09 = 0.27$. However, many students get here by luck or by calculating $3 \times 0.3 = 0.9$ then $0.9 \times 0.3 = 0.27$, which is a valid way to look at $3x^2$.
+*   **The BIDMAS Error (Option A):** This represents $(3x)^2$, where the student multiplies $3 \times 0.3$ first to get $0.9$, then squares it to get $0.81$. This is a classic error in algebra.
+*   **The Linear/Scaling Error (Option C):** This represents $3 \times (0.3 \times 2)$, essentially treating the squared symbol as a "multiply by 2" instruction, or simply $6 \times 0.3$.
+
+This specific question is quite difficult for lower-ability students because $0.3 \times 0.3$ is frequently miscalculated as $0.9$ rather than $0.09$.
+
+below_basic: A=30% B=20% C=25% D=25%
+basic: A=35% B=25% C=15% D=25%
+proficient: A=20% B=55% C=5% D=20%
+advanced: A=5% B=85% C=2% D=8%

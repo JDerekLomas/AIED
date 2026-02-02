@@ -1,0 +1,45 @@
+<chain_of_thought>
+Analyzing the item: Solve 20t - 5 = 0.
+
+The correct solution path is:
+20t - 5 = 0
+20t = 5 (add 5)
+t = 5/20 (divide by 20)
+t = 1/4 (simplify)
+
+This is a two-step linear equation with integer coefficients but a fractional solution. The misconception being tested -- using the same operation rather than the inverse -- could manifest in several ways here. A student might subtract 5 from both sides instead of adding, getting 20t = -5, leading to t = -1/4 (distractor D). Or they might not properly handle the division step.
+
+Distractor analysis:
+- A (t = 1/4): Correct
+- B (t = 4): Most likely from computing 20 / 5 instead of 5 / 20. This is extremely plausible.
+- C (t = -4): Same as B but with a sign error, perhaps from treating the -5 incorrectly
+- D (t = -1/4): Correct magnitude, wrong sign -- from subtracting 5 instead of adding
+
+The fractional answer is the main source of difficulty. In my experience, items where the correct answer is a simple fraction but an integer distractor exists tend to be harder than their algebraic complexity would suggest, because students are biased toward "clean" answers.
+
+Calibrating against the anchor items: This feels comparable to the function machine item (classical difficulty 0.295, b = 0.002) -- both require understanding inverse operations in a context that adds a layer of complexity beyond the most basic equation. I'll estimate slightly higher difficulty due to the fractional answer.
+
+I expect moderate discrimination -- the item should differentiate well between students who understand equation solving and those who don't, but the strong pull of distractor B might slightly reduce discrimination by catching some students who otherwise understand the concept but make a procedural error with fractions.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

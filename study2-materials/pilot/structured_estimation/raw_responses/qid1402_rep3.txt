@@ -1,0 +1,41 @@
+<chain_of_thought>
+Target item: identify the correct verbal description of 3 + ab.
+
+This tests order of operations understanding -- specifically whether students know multiplication (implied by juxtaposition ab) takes priority over addition. The misconception is left-to-right processing.
+
+Let me think about who gets this wrong and why. A Year 7-8 student encountering algebra for the first time might not yet have internalized that ab means a times b, or might read the expression sequentially as "3 plus a... times b" leading to (3+a)*b. Option C captures this perfectly.
+
+But I should also consider that this is a relatively early algebra topic. By the time students are comfortable with algebraic notation, they typically know ab means multiplication. The question is whether they then apply order of operations correctly.
+
+The calibration item testing the same misconception with numerical computation (0.4 - 1/5 * 3) had 13.4% incorrect. That's quite easy. But that item had numbers where students could potentially check their work. Here, with variables, there's no way to verify by plugging in numbers (unless the student is sophisticated enough to try that). This might make the item slightly harder.
+
+Additionally, the verbal phrasing adds a layer of complexity. Students must not only understand the expression but also match it to a verbal statement. This translation between representations is a known source of difficulty.
+
+I think this item is slightly harder than the calibration order-of-operations item. I'll estimate around 0.25 classical difficulty. For IRT difficulty, calibrating against the examples, that puts it around 0.0 to 0.1. Discrimination should be reasonable -- maybe 1.2 to 1.4 -- as the item tests a clear concept but the verbal format adds some noise.
+
+One concern: option B (interpreting ab as a+b) might catch some very weak students, distributing errors across multiple distractors. This could slightly reduce discrimination for the specific misconception but shouldn't affect overall item functioning much.
+
+Guessing: low. Students either parse the notation correctly or fall into the misconception trap.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

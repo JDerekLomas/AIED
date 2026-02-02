@@ -1,0 +1,39 @@
+Here's my prediction based on marking 200 Year 9 papers, keeping in mind the common pitfalls for this question:
+
+**Analysis of Answers & Errors:**
+
+*   **Correct Answer (A): Only Tom.**
+    *   Tom's step: \( \frac{x}{3}-5=12 \Rightarrow \frac{x}{3}=12+5 \Rightarrow \frac{x}{3}=17 \). This is the standard, correct first step: isolate the term with \(x\) by adding 5 to both sides.
+
+*   **Katie's Error:** \( x-5=36 \)
+    *   This comes from multiplying the *entire left side* by 3 ( \(3 \times (\frac{x}{3}-5) \) ) and only multiplying the \(12\) on the right by 3.
+    *   Specifically, they've done \(3 \times \frac{x}{3} = x\), which is correct. But then they've *ignored* multiplying the \(-5\) by 3, resulting in \(x-5\). And on the right, \(3 \times 12 = 36\).
+    *   The correct application of multiplying by 3 would be: \( 3 \times (\frac{x}{3}-5) = 3 \times 12 \Rightarrow x - 15 = 36 \).
+    *   This is an "attractive" error because the first part (getting \(x\) from \( \frac{x}{3} \)) feels right, and many students forget the distributive property. It's an order of operations (BIDMAS/BODMAS) struggle, prioritizing multiplication over addition/subtraction. They "jump the gun" on the multiplication.
+
+*   **Option B (Only Katie):** Choosing this means believing Katie is correct and Tom is wrong. Tom is demonstrably correct, so this indicates a fundamental misunderstanding of isolating terms.
+
+*   **Option C (Both Tom and Katie):** This indicates a lack of understanding of the distributive law or an inability to spot errors, simply thinking "they both did some algebra, so they must be right". They might partially follow Katie's logic (even though incorrect) and also see Tom's as plausible.
+
+*   **Option D (Neither is correct):** This means thinking *both* have made errors. While Katie has, Tom hasn't. This suggests either a deeper insecurity in algebraic manipulation or potentially seeing Katie's *initial premise* as more "active" (doing multiplication) and therefore more "powerful" but still getting it wrong themselves.
+
+**Ability Level Predictions:**
+
+*   **Below Basic:** Struggle with basic equation solving. Will be highly prone to the "Katie error" because they like to "do something" with the denominator. May just pick randomly or go with the one that "looks like more has been done."
+    *   Katie's method looks more complex and uses multiplication, which some associate with "harder maths." Tom's looks simpler, maybe too simple.
+    *   Lack of checking.
+
+*   **Basic:** Have some grasp of inverse operations but are easily tripped up by the order. Many will spot Tom's move but then think Katie *also* did something plausible (i.e., tried to clear the fraction). They often miss the distributive law application. They know \(3 \times \frac{x}{3}\) is \(x\), but forget to apply the 3 to the \(-5\).
+    *   Many might try solving for x on both approaches and see if they get the same answer. If they make Katie's error, they won't, but may still conclude *she had a valid step*.
+
+*   **Proficient:** Should correctly identify Tom's step. They understand inverse operations and the priority of isolating terms before clearing fractions. They should be able to either quickly see Katie's error with the distributive property or work it out explicitly.
+    *   May still get caught by Katie's error *if they're rushing* or if it's been a while since they deeply reviewed algebraic distribution.
+
+*   **Advanced:** Should flawlessly identify Tom's step as correct and Katie's as incorrect, understanding exactly why (missing the distributive property). They'll likely also recognise that Katie's intended step would actually be correct if fully applied: \(x-15=36\).
+
+---
+
+below_basic: A=25% B=15% C=50% D=10%
+basic: A=45% B=5% C=40% D=10%
+proficient: A=85% B=0% C=10% D=5%
+advanced: A=98

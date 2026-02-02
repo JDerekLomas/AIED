@@ -1,0 +1,44 @@
+<chain_of_thought>
+Target: -4 + (-5) x 3 = ?
+Correct: D (-19). Misconception: left-to-right processing.
+
+This is fundamentally a BIDMAS item wrapped in negative number arithmetic. Let me think about the student population -- UK secondary students ages 11-16. Order of operations is introduced around Year 7 and reinforced through KS3. Negative number operations are also KS3 content. By KS4, most students should handle both, but the combination can still cause errors.
+
+The key question for difficulty estimation: how many students in a broad 11-16 sample will either (a) not know BIDMAS or (b) know BIDMAS but make arithmetic errors with negatives?
+
+Looking at the calibration data more carefully:
+- Item 2 (same misconception, BIDMAS with decimals/fractions): classical difficulty 0.134, b=-0.245
+- This suggests BIDMAS items tend to be on the easier side for this population
+
+But item 2 involved 0.4 - 1/5 x 3. The current item -4+(-5)x3 uses only integers but more negative signs. I think the difficulty is comparable. The negative signs add some cognitive load but the computation is more straightforward than dealing with fractions and decimals.
+
+I'll estimate this as slightly easier or comparable to the calibration BIDMAS item. Classical difficulty around 0.15-0.20. The b parameter around -0.3 to -0.1.
+
+One consideration: the parentheses around -5 make the multiplication more visually apparent, which might actually help students recognize they should multiply first. This could make it easier than expected.
+
+Discrimination: The item should discriminate well. Students who know BIDMAS get -19, those who don't get -27. Clean separation. I estimate a around 1.5.
+
+Guessing: Very low. Each option corresponds to a specific calculation path.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

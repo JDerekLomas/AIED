@@ -1,0 +1,14 @@
+In Year 9, this question tests the order of operations (BIDMAS/BODMAS). The most common trap is performing addition before subtraction (reading left-to-right) or simply calculating entirely left-to-right.
+
+**Error Analysis:**
+*   **A ($4$):** The result of reading left-to-right. $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$. This is highly attractive to "Below Basic" students who ignore hierarchy.
+*   **B ($-10$):** Adding before subtracting, then multiplying. $5+4 = 9$, then $3-9 = -6$, then $-6 \times 2 = -12$... wait, some arrive at $-10$ via $3 - (5+4) \times 2$, but usually, this is a "blind guess" or a misstep in directed number arithmetic.
+*   **C ($6$):** The **Correct Answer**. $4 \times 2 = 8$, then $3-5+8$. $3-5 = -2$, and $-2+8 = 6$.
+*   **D ($-12$):** A "Pure BIDMAS" error where students believe Addition *must* happen before Subtraction because 'A' comes before 'S'. They calculate $5+4 = 9$, then $3-9 = -6$, then $-6 \times 2 = -12$ (even though Multiplication is usually prioritized, students often prioritize brackets they've "imagined" around the addition).
+
+**Distribution Predictions:**
+
+below_basic: A=50% B=15% C=15% D=20%
+basic: A=25% B=10% C=45% D=20%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=1% B=1% C=97% D=1%

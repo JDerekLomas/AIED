@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RSM Experiment Analysis — Difficulty Estimation</title>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 4px; color: #fff; }
+  .subtitle { color: #888; font-size: 0.95rem; margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px; }
+  .card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; }
+  .card h2 { font-size: 1.1rem; font-weight: 500; margin-bottom: 16px; color: #ccc; }
+  .full-width { grid-column: 1 / -1; }
+  .stat-row { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .stat { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; padding: 16px 20px; flex: 1; min-width: 140px; }
+  .stat .label { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat .value { font-size: 1.8rem; font-weight: 600; margin-top: 4px; }
+  .stat .detail { font-size: 0.8rem; color: #888; margin-top: 2px; }
+  .winner { border-color: #2d6a2d; }
+  .winner .value { color: #4ade80; }
+  .plot-container { width: 100%; min-height: 500px; }
+  .section-title { font-size: 1.3rem; font-weight: 600; margin: 40px 0 16px; color: #fff; border-bottom: 1px solid #222; padding-bottom: 8px; }
+  .insight { background: #1a1a0a; border-left: 3px solid #facc15; padding: 12px 16px; margin: 16px 0; border-radius: 0 8px 8px 0; font-size: 0.9rem; color: #ccc; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th { text-align: left; padding: 8px 12px; border-bottom: 1px solid #333; color: #888; font-weight: 500; }
+  td { padding: 8px 12px; border-bottom: 1px solid #1a1a1a; }
+  tr:hover { background: #1a1a1a; }
+  .rho-bar { display: inline-block; height: 16px; border-radius: 3px; vertical-align: middle; margin-right: 8px; }
+  .sig { color: #4ade80; font-weight: 600; }
+  .nonsig { color: #666; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>LLM Difficulty Estimation: Optimization Dashboard</h1>
+  <p class="subtitle">Gemini Flash | Eedi (UK MCQ) + SmartPaper (India open-ended) | RSM + Calibration</p>
+
+  <!-- Dataset toggle -->
+  <div style="display:flex;gap:8px;margin-bottom:24px">
+    <button onclick="showSection('eedi')" id="btn-eedi" style="padding:8px 20px;border-radius:6px;border:1px solid #333;background:#1a1a1a;color:#ccc;cursor:pointer;font-size:0.9rem">Eedi (UK MCQ)</button>
+    <button onclick="showSection('smartpaper')" id="btn-smartpaper" style="padding:8px 20px;border-radius:6px;border:1px solid #333;background:#1a1a1a;color:#ccc;cursor:pointer;font-size:0.9rem">SmartPaper (India)</button>
+    <button onclick="showSection('cross')" id="btn-cross" style="padding:8px 20px;border-radius:6px;border:1px solid #333;background:#1a1a1a;color:#ccc;cursor:pointer;font-size:0.9rem">Cross-Dataset</button>
+  </div>
+
+  <!-- ==================== EEDI SECTION ==================== -->
+  <div id="section-eedi">
+
+  <!-- Top stats -->
+  <div class="stat-row">
+    <div class="stat winner">
+      <div class="label">Best Averaged (3-rep)</div>
+      <div class="value">ρ = 0.666</div>
+      <div class="detail">error_analysis t=2.0, averaged across reps</div>
+    </div>
+    <div class="stat winner">
+      <div class="label">Best Single Rep</div>
+      <div class="value">ρ = 0.679</div>
+      <div class="detail">error_analysis t=2.0 rep1</div>
+    </div>
+    <div class="stat">
+      <div class="label">Best Avg-pred (10-rep)</div>
+      <div class="value" style="color:#60a5fa">ρ = 0.668</div>
+      <div class="detail">Llama-4-Scout 10 reps @ t=2.0</div>
+    </div>
+    <div class="stat">
+      <div class="label">Ensemble</div>
+      <div class="value" style="color:#facc15">ρ = 0.639</div>
+      <div class="detail">No additive benefit (prompts correlated)</div>
+    </div>
+  </div>
+
+  <!-- Section 1: The big picture — prompt × temperature heatmap -->
+  <div class="section-title">1. Prompt × Temperature Landscape</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>Mean ρ (3 reps) by Prompt Variant × Temperature — Gemini Flash</h2>
+      <div id="bigHeatmap" class="plot-container" style="min-height:400px"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Key finding:</strong> Different prompts peak at different temperatures. Contrastive peaks at t=1.5 (ρ=0.577),
+    error_analysis peaks at t=2.0 (ρ=0.604). Devil's advocate peaks at t=1.5 (ρ=0.543, lowest SD=0.020) with a curious dip at t=1.8. Imagine_classroom rises steeply with temp (0.23→0.43). Failed prompts under strict parsing: sparse, distractor_first, comparative_difficulty — but see §10 below for lenient parser recovery.
+  </div>
+
+  <!-- Section 2: Temperature gradient lines -->
+  <div class="section-title">2. Temperature Gradient by Prompt</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>ρ vs Temperature — Each Prompt Shows a Different Curve</h2>
+      <div id="tempLines" class="plot-container"></div>
+    </div>
+  </div>
+
+  <!-- Section 3: 3D Surface -->
+  <div class="section-title">3. Response Surface (3D)</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>Prompt × Temperature → Spearman ρ (Interactive — drag to rotate)</h2>
+      <div id="surface3d" class="plot-container" style="min-height:600px"></div>
+    </div>
+  </div>
+
+  <!-- Section 4: Cross-Model Generalization -->
+  <div class="section-title">4. Cross-Model Generalization (15 models, 5 providers)</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>Mean ρ by Model — Error Analysis Prompt @ t=2.0 (3 reps each)</h2>
+      <div id="crossModel" class="plot-container" style="min-height:500px"></div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Ensemble Test</h2>
+      <div id="ensemble" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Gemini Family Deep-Dive</h2>
+      <div id="geminiFamilyChart" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Key findings:</strong> Gemini 3 Flash has the best per-rep ρ (0.604), but Llama-4-Scout (free on Groq) matches it via averaged predictions at 10 reps (avg-pred ρ=0.668 vs 0.666). Scout's per-rep SD is high (0.167 at 10 reps, not 0.048 as 3-rep suggested) but averaging compensates. Pro/thinking models underperform due to format failures at high temperature. Temperature ceiling matters: Groq max=2.0, Anthropic max=1.0. Model capability alone doesn't predict success — this task requires pedagogical knowledge + format compliance at high temp + no thinking overhead.
+  </div>
+
+  <!-- Section 5: Original RSM configs -->
+  <div class="section-title">5. Original RSM Sweep (11 configs)</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>RSM Configurations — Spearman ρ</h2>
+      <div id="rsmBar" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Prompt Style × Temperature (RSM)</h2>
+      <div id="rsmHeatmap" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>RSM finding:</strong> Only teacher_prediction × temp=1.5 achieved significance (ρ=0.673, p=0.001).
+    Same prompt at temp=0.3 → ρ=0.12. The interaction is the story, not the main effects.
+  </div>
+
+  <!-- Section 6: Elicitation Strategies — what failed and why -->
+  <div class="section-title">6. Elicitation Strategy Comparison</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>All Strategies Tested — Gemini Flash (3 reps each)</h2>
+      <div id="strategyBar" class="plot-container" style="min-height:450px"></div>
+    </div>
+    <div class="card">
+      <h2>Why Did They Fail?</h2>
+      <div style="font-size:0.85rem;line-height:1.6;padding:8px">
+        <p style="margin-bottom:12px"><span style="color:#4ade80;font-weight:600">Error analysis t=2.0</span> and <span style="color:#4ade80;font-weight:600">Contrastive t=1.5</span> — Ask "what % would err" directly. Work because the model has implicit pedagogical content knowledge.</p>
+        <p style="margin-bottom:12px"><span style="color:#facc15;font-weight:600">Two-stage backstory (0.408)</span> — Generated 5 student personas, predicted per-persona. All 5 backstories were "proficient" level despite t=2.0. Model anchored on persona rather than analyzing item. <em>Explicit diversity < implicit (temperature) diversity.</em></p>
+        <p style="margin-bottom:12px"><span style="color:#f472b6;font-weight:600">Buggy with hint (0.193)</span> — Fed known misconception name, asked to infer others. The hint made the model over-focus on one error pattern, <em>narrowing</em> its analysis. Less scaffolding = better.</p>
+        <p style="margin-bottom:12px"><span style="color:#ef4444;font-weight:600">Cognitive modeling (0.165)</span> — Simulated 10 student reasoning chains, counted answers. Errors too uniform — all students made the same mistake or none did. Model can <em>describe</em> error distributions but can't <em>enact</em> diverse individual trajectories.</p>
+        <p style="margin-bottom:12px"><span style="color:#60a5fa;font-weight:600">Distractor-first / Comparative</span> — Strict parser failed (0-5% success). But a <em>lenient</em> parser recovers v7_comparative_difficulty to ρ=0.698 at t=1.8 — among the best strategies. The prompt wasn't bad; the output format was incompatible with strict parsing. See §10.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>The paradox of scaffolding:</strong> More structured prompts consistently perform worse. The model already has implicit knowledge of student errors — explicit misconception hints, student personas, and step-by-step reasoning chains all <em>narrow</em> rather than enrich its predictions. The best strategy is: ask directly, use high temperature for diversity, aggregate.
+  </div>
+
+  <!-- Section 7: Top configs leaderboard -->
+  <div class="section-title">7. Top Configurations Leaderboard</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>Best Model + Prompt + Temperature Combinations</h2>
+      <div id="crossModelErrorAnalysis" class="plot-container" style="min-height:350px"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Two Tier 1 models:</strong> Gemini 3 Flash (ρ=0.604, avg-pred 0.666) and Llama-4-Scout (avg-pred 0.668 at 10 reps, free on Groq). Scout's per-rep ρ is lower (0.355±0.167) but averaged predictions improve monotonically with more reps (3→0.609, 5→0.639, 7→0.648, 10→0.668). Error analysis @ t=2.0 is optimal for both; t=2.0 is Groq's max and confirmed best via temperature sweep.
+  </div>
+
+  <!-- Section 8: Stability — individual reps -->
+  <div class="section-title">8. Stability: Individual Replications</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>All Replications — Dot Plot by Config</h2>
+      <div id="dotPlot" class="plot-container" style="min-height:500px"></div>
+    </div>
+  </div>
+
+  <!-- Section 9: Summary table -->
+  <div class="section-title">9. Full Results Table</div>
+
+  <div class="card" style="margin-bottom:40px">
+    <table>
+      <thead>
+        <tr><th>Config</th><th>Temp</th><th>Mean ρ</th><th>SD</th><th>Rep 0</th><th>Rep 1</th><th>Rep 2</th><th>Avg-pred ρ</th></tr>
+      </thead>
+      <tbody id="fullTable"></tbody>
+    </table>
+  </div>
+
+  <!-- Section 10: Parsing Impact -->
+  <div class="section-title">10. Parsing Failure Audit</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Strict vs Lenient Parser — ρ Recovery</h2>
+      <div id="parsingBar" class="plot-container" style="min-height:400px"></div>
+    </div>
+    <div class="card">
+      <h2>Parse Success Rate by Config</h2>
+      <div id="parseRateBar" class="plot-container" style="min-height:400px"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>25% of Eedi responses fail strict parsing.</strong> A lenient parser (markdown tables, alternate delimiters) recovers most lost data. Key finding: v7_comparative_difficulty was <em>not inherently bad</em> — it used an incompatible output format. With lenient parsing at t=1.8, it achieves ρ=0.698, ranking among the top strategies. However, lenient parsing can <em>hurt</em> well-formatted configs (v10_sparse t=2.0: 0.900→0.526) by mis-extracting numbers from reasoning text. Recommendation: strict-then-lenient cascade.
+  </div>
+
+  </div><!-- end section-eedi -->
+
+  <!-- ==================== SMARTPAPER SECTION ==================== -->
+  <div id="section-smartpaper" style="display:none">
+
+  <div class="stat-row">
+    <div class="stat winner">
+      <div class="label">Best Ranking (Spearman)</div>
+      <div class="value">ρ = 0.875</div>
+      <div class="detail">Gemini anchors @ t=2.0, 5 reps</div>
+    </div>
+    <div class="stat winner">
+      <div class="label">Best Absolute (Pearson)</div>
+      <div class="value">r = 0.872</div>
+      <div class="detail">Gemini anchors @ t=2.0</div>
+    </div>
+    <div class="stat">
+      <div class="label">Best Calibration (MAE)</div>
+      <div class="value" style="color:#60a5fa">0.089</div>
+      <div class="detail">DeepSeek errors @ t=0.5</div>
+    </div>
+    <div class="stat">
+      <div class="label">Dataset</div>
+      <div class="value" style="color:#60a5fa;font-size:1.2rem">Indian Govt School</div>
+      <div class="detail">134 open-ended items, mean p=0.29</div>
+    </div>
+  </div>
+
+  <div class="section-title">0. Elicitation Approach Selection</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Simulation Approach Comparison (single rep, t=0.7)</h2>
+      <div id="spApproachBar" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Why Teacher Prediction Won</h2>
+      <div style="padding:16px;font-size:0.9rem;color:#aaa;line-height:1.7">
+        <p>We tested three fundamentally different elicitation approaches:</p>
+        <p style="margin-top:12px"><strong style="color:#f472b6">Classroom simulation</strong> — generate N student responses, then score them. Failed because the LLM cannot faithfully simulate students from Indian government schools.</p>
+        <p style="margin-top:8px"><strong style="color:#60a5fa">Individual roleplay</strong> — simulate one student at a time at specified proficiency levels. Similar limitation — the model has no grounding for this population.</p>
+        <p style="margin-top:8px"><strong style="color:#4ade80">Teacher prediction</strong> — directly estimate what percentage would pass. Avoids simulation entirely, and became the base for all calibration experiments below.</p>
+        <p style="margin-top:12px;color:#facc15">With 5-rep aggregation at t=1.0, teacher prediction jumps from ρ=0.311 to ρ=0.662 — confirming the aggregation effect is massive on this dataset.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">1. Calibration Strategy Comparison</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Spearman ρ by Strategy</h2>
+      <div id="spStrategyBar" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Ranking vs Absolute Accuracy</h2>
+      <div id="spRhoVsR" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Key finding:</strong> All calibration strategies (errors, anchors, hybrid) achieve ρ > 0.80 vs ρ ≈ 0.65 without calibration. But there's a ranking–calibration tradeoff: errors ranks best (ρ=0.825) but underestimates everything (bias=−0.15); anchors has the best absolute fit (r=0.77) but overestimates (+0.24). Population stats alone don't help.
+  </div>
+
+  <div class="section-title">2. Predicted vs Actual Difficulty — All Strategies</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Baseline (no calibration) — ρ=0.662</h2>
+      <div id="spScatterBaseline" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Error Patterns — ρ=0.825</h2>
+      <div id="spScatterErrors" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Anchor Items — ρ=0.809, r=0.773</h2>
+      <div id="spScatterAnchors" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Hybrid — ρ=0.806</h2>
+      <div id="spScatterHybrid" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Visual pattern:</strong> Baseline clusters near the diagonal but with large scatter. Errors compresses everything to 5–35% (good ranking, wrong scale). Anchors stretches to 25–80% (right ranking, shifted up). The ideal strategy would combine errors' ranking with anchors' scale — likely achievable via linear recalibration.
+  </div>
+
+  <div class="section-title">3. Residuals by Subject</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>Prediction Error (Estimated − Actual) by Subject and Strategy</h2>
+      <div id="spResiduals" class="plot-container" style="min-height:500px"></div>
+    </div>
+  </div>
+
+  <div class="section-title">4. Temperature × Model Sweep</div>
+
+  <div class="insight">
+    <strong>New finding:</strong> Gemini and DeepSeek show opposite temperature patterns. <strong>Gemini:</strong> calibration acts as a "guardrail" — without it, high temp destroys signal (baseline: 0.743→0.311), but with anchors, t=2.0 achieves ρ=0.875. <strong>DeepSeek:</strong> all strategies decline with temperature — baseline peaks at t=1.0 (ρ=0.809), errors stable around ρ=0.79. DeepSeek errors has the best absolute calibration (MAE=0.089).
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Gemini: Temperature Gradient by Strategy</h2>
+      <div id="spGeminiTempLines" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>DeepSeek: Temperature Gradient by Strategy</h2>
+      <div id="spDeepseekTempLines" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Temperature Heatmap — Gemini Flash</h2>
+      <div id="spGeminiHeatmap" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Cross-Model: Best Configs</h2>
+      <div id="spModelCompare" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="section-title">5. Per-Item Comparison Table</div>
+
+  <div class="card" style="margin-bottom:40px">
+    <table>
+      <thead>
+        <tr><th>Item</th><th>Subject</th><th>Actual</th><th>Baseline</th><th>Errors</th><th>Anchors</th><th>Hybrid</th></tr>
+      </thead>
+      <tbody id="spItemTable"></tbody>
+    </table>
+  </div>
+
+  </div><!-- end section-smartpaper -->
+
+  <!-- ==================== CROSS-DATASET SECTION ==================== -->
+  <div id="section-cross" style="display:none">
+
+  <div class="section-title">Cross-Dataset Comparison</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Best ρ by Dataset and Condition</h2>
+      <div id="crossDatasetBar" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>The Calibration Effect</h2>
+      <div id="crossCalibration" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>The big picture:</strong> SmartPaper with calibration + high temp (ρ=0.875) substantially exceeds Eedi (ρ=0.555 at 10 reps). Both datasets confirm: error-focused prompts + multi-rep aggregation = best ranking. Calibration data is essential for unfamiliar populations. The two datasets present fundamentally different challenges — Eedi has compressed predictions, SmartPaper has wider range but needs population anchoring.
+  </div>
+
+  <div class="section-title">1. Side-by-Side Scatter: Predicted vs Actual</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Eedi — Best Config (error_analysis t=2.0, 10 reps) — ρ=0.555</h2>
+      <div id="crossEediScatter" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>SmartPaper — Best Config (anchors t=2.0, 5 reps) — ρ=0.875</h2>
+      <div id="crossSPScatter" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Key contrast:</strong> On Eedi, the LLM's predictions are compressed to a narrow band (0.48–0.65 weighted_p_incorrect) while actual difficulty spans a wide range. The model can rank items somewhat but lacks confidence to push predictions to extremes. On SmartPaper with calibration, predictions span a wider range and track actual difficulty more closely — the anchor items give the model a scale to work with.
+  </div>
+
+  <div class="section-title">2. Temperature Gradients: Both Datasets</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Eedi: Temperature Gradient (Gemini)</h2>
+      <div id="crossEediTemp" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>SmartPaper: Temperature Gradient (Gemini)</h2>
+      <div id="crossSPTemp" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <strong>Temperature pattern:</strong> On Eedi, temperature helps modestly for open prompts (imagine_classroom: 0.23→0.43) but analytically constrained prompts are stable. On SmartPaper, temperature helps dramatically WITH calibration (anchors: 0.81→0.88) but DESTROYS signal without (baseline: 0.74→0.31). Calibration data acts as a structural constraint that channels temperature-induced diversity into useful variation.
+  </div>
+
+  <div class="section-title">3. Optimization Progression</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Cumulative Optimization Effect</h2>
+      <div id="crossCalibration" class="plot-container"></div>
+    </div>
+    <div class="card">
+      <h2>Best ρ by Dataset and Condition</h2>
+      <div id="crossDatasetBar" class="plot-container"></div>
+    </div>
+  </div>
+
+  <div class="section-title">4. What Worked Where</div>
+
+  <div class="grid">
+    <div class="card full-width">
+      <h2>What Worked Where</h2>
+      <table>
+        <thead><tr><th>Factor</th><th>Eedi (MCQ)</th><th>SmartPaper (Open-ended)</th></tr></thead>
+        <tbody>
+          <tr><td>Best model</td><td>Gemini 3 Flash (≫ 14 others)</td><td>Gemini Flash (ρ=0.875) > DeepSeek (ρ=0.792)</td></tr>
+          <tr><td>Best prompt strategy</td><td>Error analysis (ρ=0.604)</td><td>Anchors @ t=2.0 (ρ=0.875); Errors for MAE (0.089)</td></tr>
+          <tr><td>Temperature</td><td>Higher better (1.5–2.0)</td><td>Higher better WITH calibration; destroys signal without</td></tr>
+          <tr><td>Aggregation (multi-rep avg)</td><td>+0.15 ρ improvement</td><td>+0.35 ρ improvement (0.31→0.66)</td></tr>
+          <tr><td>Calibration with real data</td><td>Not tested</td><td>+0.13–0.21 ρ over uncalibrated</td></tr>
+          <tr><td>Cross-model pattern</td><td>Weaker models fail completely</td><td>Gemini (0.875) > DeepSeek (0.809); different optimization profiles</td></tr>
+          <tr><td>Temperature pattern</td><td>Higher better for open prompts</td><td>Gemini: higher + calibration; DeepSeek: lower is better</td></tr>
+          <tr><td>Best absolute calibration</td><td>N/A</td><td>Gemini baseline t=1.0: MAE=0.087; DS errors t=0.5: MAE=0.089</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  </div><!-- end section-cross -->
+
+</div><!-- end container -->
+
+<script>
+const dark = {
+  paper_bgcolor: '#141414',
+  plot_bgcolor: '#141414',
+  font: { color: '#ccc', family: '-apple-system, sans-serif', size: 12 },
+  xaxis: { gridcolor: '#222', zerolinecolor: '#333' },
+  yaxis: { gridcolor: '#222', zerolinecolor: '#333' },
+  margin: { t: 30, b: 60, l: 60, r: 20 },
+};
+
+// ============================================================
+// DATA
+// ============================================================
+
+// Metaprompt sweep results (3 reps each)
+const sweep = [
+  { name:'error_analysis', temp:2.0, mean:0.604, std:0.062, reps:[0.603,0.679,0.528], avg:0.666 },
+  { name:'contrastive', temp:1.5, mean:0.577, std:0.075, reps:[0.590,0.662,0.480], avg:0.660 },
+  { name:'error_analysis', temp:1.8, mean:0.566, std:0.108, reps:[0.650,0.635,0.414], avg:null },
+  { name:'contrastive', temp:2.0, mean:0.562, std:0.084, reps:[0.513,0.493,0.680], avg:null },
+  { name:'devil_advocate', temp:1.5, mean:0.543, std:0.020, reps:[0.520,0.542,0.568], avg:null },
+  { name:'contrastive', temp:1.8, mean:0.518, std:0.061, reps:[0.519,0.592,0.444], avg:null },
+  { name:'devil_advocate', temp:2.0, mean:0.516, std:0.122, reps:[0.387,0.679,0.482], avg:null },
+  { name:'error_analysis', temp:1.5, mean:0.451, std:0.049, reps:[0.456,0.389,0.508], avg:null },
+  { name:'imagine_classroom', temp:2.0, mean:0.428, std:0.115, reps:[0.539,0.270,0.474], avg:null },
+  { name:'devil_advocate', temp:1.8, mean:0.405, std:0.106, reps:[0.366,0.299,0.550], avg:null },
+  { name:'imagine_classroom', temp:1.8, mean:0.404, std:0.035, reps:[0.452,0.367,0.395], avg:null },
+  { name:'imagine_classroom', temp:1.5, mean:0.232, std:0.041, reps:[0.223,0.186,0.286], avg:null },
+];
+
+// Original RSM configs
+const rsm = [
+  {id:0, style:'classroom_batch', temp:0.3, hint:'partial', spc:1, rho:0.259, p:0.271},
+  {id:1, style:'classroom_batch', temp:0.3, hint:'partial', spc:30, rho:0.223, p:0.344},
+  {id:2, style:'classroom_batch', temp:1.5, hint:'partial', spc:1, rho:0.259, p:0.271},
+  {id:3, style:'classroom_batch', temp:1.5, hint:'partial', spc:30, rho:0.244, p:0.300},
+  {id:4, style:'individual_roleplay', temp:0.3, hint:'partial', spc:5, rho:0.307, p:0.187},
+  {id:5, style:'teacher_prediction', temp:0.3, hint:'partial', spc:5, rho:0.119, p:0.616},
+  {id:6, style:'individual_roleplay', temp:1.5, hint:'partial', spc:5, rho:0.306, p:0.189},
+  {id:7, style:'teacher_prediction', temp:1.5, hint:'partial', spc:5, rho:0.673, p:0.001},
+  {id:8, style:'classroom_batch', temp:0.3, hint:'hidden', spc:5, rho:0.245, p:0.298},
+  {id:9, style:'classroom_batch', temp:0.3, hint:'full', spc:5, rho:0.118, p:0.621},
+  {id:10, style:'classroom_batch', temp:1.5, hint:'hidden', spc:5, rho:0.406, p:0.076},
+];
+
+const crossModels = [
+  {name:'Gemini 3 Flash', mean:0.604, std:0.062},
+  {name:'Llama-4-Scout 17B (10-rep)', mean:0.355, std:0.167},
+  {name:'Llama-4-Scout (contrastive)', mean:0.371, std:0.115},
+  {name:'DeepSeek-Chat V3', mean:0.338, std:0.140},
+  {name:'GPT-OSS-120B', mean:0.336, std:0.100},
+  {name:'Kimi-K2', mean:0.336, std:0.116},
+  {name:'Claude Sonnet 4', mean:0.263, std:0.166},
+  {name:'Gemini 2.5 Pro', mean:0.240, std:0.242},
+  {name:'Llama-3.3-70B', mean:0.257, std:0.062},
+  {name:'GPT-4o', mean:0.172, std:0.126},
+  {name:'Gemini 2.5 Flash', mean:0.088, std:0.131},
+  {name:'Claude Haiku 3.5', mean:0.077, std:0.186},
+  {name:'Qwen3-32B', mean:0.005, std:0.110},
+  {name:'Gemini 2.0 Flash', mean:-0.019, std:0.050},
+  {name:'GPT-4o-mini', mean:-0.092, std:0.266},
+];
+
+const ensembleData = [
+  {name:'Contrastive (avg)', rho:0.660},
+  {name:'Error Analysis (avg)', rho:0.666},
+  {name:'Ensemble (both)', rho:0.639},
+];
+
+// ============================================================
+// 1. Big Heatmap: prompt × temperature
+// ============================================================
+{
+  const prompts = ['contrastive','error_analysis','devil_advocate','imagine_classroom'];
+  const temps = [1.5, 1.8, 2.0];
+  const promptLabels = ['Contrastive','Error Analysis','Devil\'s Advocate','Imagine Classroom'];
+
+  const z = temps.map(t => prompts.map(p => {
+    const m = sweep.find(s => s.name === p && s.temp === t);
+    return m ? m.mean : null;
+  }));
+
+  const text = temps.map(t => prompts.map(p => {
+    const m = sweep.find(s => s.name === p && s.temp === t);
+    if (!m) return '—';
+    return `ρ=${m.mean.toFixed(3)}` + (m.std !== null ? `\n±${m.std.toFixed(3)}` : '\n(1 rep)');
+  }));
+
+  Plotly.newPlot('bigHeatmap', [{
+    type: 'heatmap',
+    x: promptLabels,
+    y: temps.map(t => `temp=${t}`),
+    z: z,
+    text: text,
+    texttemplate: '%{text}',
+    textfont: { size: 13, color: '#fff' },
+    colorscale: [[0,'#1a1a2e'],[0.3,'#16213e'],[0.5,'#854d0e'],[0.7,'#facc15'],[1,'#4ade80']],
+    zmin: 0.2, zmax: 0.65,
+    showscale: true,
+    colorbar: { title: 'ρ', tickfont:{color:'#888'}, titlefont:{color:'#888'} },
+    hoverongaps: false,
+  }], {
+    ...dark,
+    margin: { t: 20, b: 60, l: 80, r: 80 },
+  }, {responsive:true});
+}
+
+// ============================================================
+// 2. Temperature gradient lines
+// ============================================================
+{
+  const colors = { contrastive:'#4ade80', error_analysis:'#f472b6', imagine_classroom:'#60a5fa', devil_advocate:'#facc15' };
+  const traces = [];
+
+  for (const name of ['contrastive','error_analysis','devil_advocate','imagine_classroom']) {
+    const pts = sweep.filter(s => s.name === name).sort((a,b) => a.temp - b.temp);
+    traces.push({
+      type: 'scatter', mode: 'lines+markers',
+      name: name.replace('_',' '),
+      x: pts.map(p => p.temp),
+      y: pts.map(p => p.mean),
+      error_y: { type:'data', array: pts.map(p => p.std || 0), visible: true, color: colors[name]+'66' },
+      line: { color: colors[name], width: 3 },
+      marker: { size: 10, color: colors[name] },
+    });
+  }
+
+  Plotly.newPlot('tempLines', traces, {
+    ...dark,
+    xaxis: { ...dark.xaxis, title: 'Temperature', dtick: 0.2, range: [1.35, 2.15] },
+    yaxis: { ...dark.yaxis, title: 'Mean Spearman ρ (3 reps)', range: [0.15, 0.7] },
+    legend: { x: 0.02, y: 0.98, bgcolor: 'rgba(0,0,0,0.5)', font: { color: '#ccc' } },
+    shapes: [
+      {type:'line', x0:1.35, x1:2.15, y0:0.5, y1:0.5, line:{color:'#333', dash:'dot'}},
+    ],
+    annotations: [
+      {x:1.5, y:0.59, text:'Contrastive peaks here', showarrow:true, arrowcolor:'#4ade80', ax:40, ay:-30, font:{color:'#4ade80',size:10}},
+      {x:2.0, y:0.62, text:'Error analysis peaks here', showarrow:true, arrowcolor:'#f472b6', ax:-40, ay:-30, font:{color:'#f472b6',size:10}},
+    ],
+  }, {responsive:true});
+}
+
+// ============================================================
+// 3. 3D Surface
+// ============================================================
+{
+  const prompts = ['contrastive','error_analysis','devil_advocate','imagine_classroom'];
+  const promptLabels = ['Contrastive','Error Analysis','Devil\'s Advocate','Imagine Classroom'];
+  const temps = [1.5, 1.6, 1.7, 1.8, 1.9, 2.0];
+
+  // Known points
+  const known = {};
+  sweep.forEach(s => { if (prompts.includes(s.name)) known[`${s.temp}_${prompts.indexOf(s.name)}`] = s.mean; });
+
+  // Interpolate surface
+  const z = temps.map(t => prompts.map((p, pi) => {
+    const key = `${t}_${pi}`;
+    if (known[key]) return known[key];
+    // Linear interp between known temps
+    const knownTemps = [1.5, 1.8, 2.0].filter(kt => known[`${kt}_${pi}`]);
+    if (knownTemps.length < 2) return null;
+    for (let i = 0; i < knownTemps.length - 1; i++) {
+      if (t >= knownTemps[i] && t <= knownTemps[i+1]) {
+        const frac = (t - knownTemps[i]) / (knownTemps[i+1] - knownTemps[i]);
+        return known[`${knownTemps[i]}_${pi}`] + frac * (known[`${knownTemps[i+1]}_${pi}`] - known[`${knownTemps[i]}_${pi}`]);
+      }
+    }
+    return null;
+  }));
+
+  // Scatter points for actual data
+  const scatterPts = sweep.filter(s => prompts.includes(s.name));
+
+  Plotly.newPlot('surface3d', [{
+    type: 'surface',
+    x: [0, 1, 2, 3],
+    y: temps,
+    z: z,
+    colorscale: [[0,'#1a1a2e'],[0.3,'#16213e'],[0.6,'#facc15'],[1,'#4ade80']],
+    opacity: 0.85,
+    contours: { z: { show: true, usecolormap: true, project: { z: true } } },
+    colorbar: { title: 'ρ', tickfont:{color:'#888'}, titlefont:{color:'#888'} },
+  }, {
+    type: 'scatter3d',
+    mode: 'markers+text',
+    x: scatterPts.map(s => prompts.indexOf(s.name)),
+    y: scatterPts.map(s => s.temp),
+    z: scatterPts.map(s => s.mean),
+    text: scatterPts.map(s => `${s.name.replace('_',' ')}\nt=${s.temp}\nρ=${s.mean.toFixed(3)}`),
+    textposition: 'top center',
+    textfont: { size: 9, color: '#fff' },
+    marker: {
+      size: scatterPts.map(s => s.mean > 0.55 ? 10 : 7),
+      color: scatterPts.map(s => s.mean > 0.55 ? '#4ade80' : s.mean > 0.4 ? '#facc15' : '#888'),
+      line: { width: 1, color: '#fff' },
+    },
+  }], {
+    ...dark,
+    scene: {
+      xaxis: { title: 'Prompt', tickvals:[0,1,2,3], ticktext: promptLabels, gridcolor:'#222', color:'#888' },
+      yaxis: { title: 'Temperature', gridcolor:'#222', color:'#888' },
+      zaxis: { title: 'Spearman ρ', range:[0.15,0.7], gridcolor:'#222', color:'#888' },
+      bgcolor: '#141414',
+      camera: { eye: { x: 1.6, y: -1.8, z: 0.7 } },
+    },
+    margin: { t: 10, b: 10, l: 10, r: 10 },
+  }, {responsive:true});
+}
+
+// ============================================================
+// 4. Cross-model + Ensemble
+// ============================================================
+{
+  const sorted = [...crossModels].sort((a,b) => b.mean - a.mean);
+  Plotly.newPlot('crossModel', [{
+    type: 'bar', orientation: 'h',
+    y: sorted.map(m => m.name).reverse(),
+    x: sorted.map(m => m.mean).reverse(),
+    error_x: { type:'data', array: sorted.map(m => m.std).reverse(), visible:true, color:'#888' },
+    marker: { color: sorted.map(m => m.mean > 0.4 ? '#4ade80' : m.mean > 0.15 ? '#facc15' : '#555').reverse() },
+    hovertemplate: '%{y}: ρ=%{x:.3f}<extra></extra>',
+  }], {
+    ...dark,
+    xaxis: { ...dark.xaxis, title: 'Mean Spearman ρ (3 reps)', range: [-0.4, 0.8] },
+    yaxis: { ...dark.yaxis, automargin: true },
+    margin: { ...dark.margin, l: 180 },
+    shapes: [{type:'line', y0:-0.5, y1:sorted.length-0.5, x0:0, x1:0, line:{color:'#444', dash:'dot'}},
+             {type:'line', y0:-0.5, y1:sorted.length-0.5, x0:0.5, x1:0.5, line:{color:'#facc15', dash:'dot', width:1}}],
+    annotations: [
+      {x:0.5, y:sorted.length-0.5, text:'ρ=0.5', showarrow:false, font:{color:'#facc15',size:10}, yshift:15},
+    ],
+  }, {responsive:true});
+
+  Plotly.newPlot('ensemble', [{
+    type: 'bar',
+    x: ensembleData.map(e => e.name),
+    y: ensembleData.map(e => e.rho),
+    marker: { color: ['#4ade80','#f472b6','#facc15'] },
+    text: ensembleData.map(e => `ρ=${e.rho.toFixed(3)}`),
+    textposition: 'outside',
+    textfont: { color: '#ccc', size: 12 },
+  }], {
+    ...dark,
+    yaxis: { ...dark.yaxis, title: 'Averaged-prediction ρ', range: [0, 0.75] },
+    annotations: [{x:'Ensemble (both)', y:0.66, text:'Not additive — prompts<br>capture same signal', showarrow:false, font:{color:'#888',size:10}}],
+  }, {responsive:true});
+
+  // Gemini family chart
+  const gemini = [
+    {name:'3 Flash', mean:0.604, std:0.062, parseFail:'0-1'},
+    {name:'2.5 Pro', mean:0.240, std:0.242, parseFail:'1-3'},
+    {name:'2.5 Flash', mean:0.088, std:0.131, parseFail:'6-9'},
+    {name:'3 Pro', mean:0.052, std:0.365, parseFail:'16-17'},
+    {name:'2.0 Flash', mean:-0.019, std:0.050, parseFail:'0-1'},
+  ];
+  Plotly.newPlot('geminiFamilyChart', [{
+    type: 'bar',
+    x: gemini.map(m => m.name),
+    y: gemini.map(m => m.mean),
+    error_y: { type:'data', array: gemini.map(m => m.std), visible:true, color:'#888' },
+    marker: { color: gemini.map(m => m.mean > 0.4 ? '#4ade80' : m.mean > 0.1 ? '#facc15' : '#555') },
+    text: gemini.map(m => `fails: ${m.parseFail}/20`),
+    textposition: 'outside',
+    textfont: { color: '#888', size: 10 },
+  }], {
+    ...dark,
+    yaxis: { ...dark.yaxis, title: 'Mean Spearman ρ', range: [-0.4, 0.8] },
+    shapes: [{type:'line', x0:-0.5, x1:4.5, y0:0, y1:0, line:{color:'#444', dash:'dot'}}],
+    annotations: [{x:'3 Pro', y:0.45, text:'Thinking mode<br>breaks format', showarrow:true, arrowcolor:'#888', ax:0, ay:-30, font:{color:'#888',size:10}}],
+  }, {responsive:true});
+}
+
+// ============================================================
+// 5. RSM configs
+// ============================================================
+{
+  const sorted = [...rsm].sort((a,b) => b.rho - a.rho);
+  Plotly.newPlot('rsmBar', [{
+    type: 'bar',
+    x: sorted.map(c => `C${c.id}: ${c.style.replace('_',' ')}`),
+    y: sorted.map(c => c.rho),
+    marker: { color: sorted.map(c => c.p < 0.05 ? '#4ade80' : c.p < 0.1 ? '#facc15' : '#555') },
+    text: sorted.map(c => `ρ=${c.rho.toFixed(3)}, p=${c.p.toFixed(3)}<br>temp=${c.temp}, hint=${c.hint}`),
+    hoverinfo: 'text',
+  }], {
+    ...dark,
+    yaxis: { ...dark.yaxis, title: 'Spearman ρ', range: [-0.1, 0.8] },
+    xaxis: { ...dark.xaxis, tickangle: -35 },
+  }, {responsive:true});
+
+  // RSM heatmap
+  const styles = ['individual_roleplay','classroom_batch','teacher_prediction'];
+  const rsmTemps = [0.3, 1.5];
+  const z = rsmTemps.map(t => styles.map(s => {
+    const m = rsm.filter(c => c.style === s && c.temp === t);
+    return m.length ? Math.max(...m.map(c => c.rho)) : null;
+  }));
+  Plotly.newPlot('rsmHeatmap', [{
+    type: 'heatmap',
+    x: ['Roleplay','Classroom','Teacher Pred'],
+    y: ['temp=0.3','temp=1.5'],
+    z: z,
+    text: z.map(r => r.map(v => v !== null ? `ρ=${v.toFixed(3)}` : '—')),
+    texttemplate: '%{text}',
+    textfont: { size: 14, color: '#fff' },
+    colorscale: [[0,'#1a1a2e'],[0.5,'#16213e'],[1,'#4ade80']],
+    zmin: 0, zmax: 0.7,
+    colorbar: { title: 'ρ', tickfont:{color:'#888'}, titlefont:{color:'#888'} },
+  }], {
+    ...dark,
+    margin: { t: 20, b: 60, l: 80, r: 80 },
+  }, {responsive:true});
+}
+
+// ============================================================
+// 6. Dot plot — all reps
+// ============================================================
+{
+  const allConfigs = sweep.filter(s => s.reps.length >= 2).sort((a,b) => b.mean - a.mean);
+  const labels = allConfigs.map(s => `${s.name.replace('_',' ')} t=${s.temp}`);
+
+  // Mean bars
+  const meanTrace = {
+    type: 'bar', name: 'Mean',
+    y: labels, x: allConfigs.map(s => s.mean),
+    orientation: 'h',
+    marker: { color: allConfigs.map(s => s.mean > 0.55 ? '#4ade8033' : '#33333333') },
+    error_x: { type:'data', array: allConfigs.map(s => s.std || 0), visible:true, color:'#555' },
+  };
+
+  // Individual rep dots
+  const dotX = [], dotY = [];
+  allConfigs.forEach((s,i) => {
+    s.reps.forEach(r => { dotX.push(r); dotY.push(labels[i]); });
+  });
+
+  const dotTrace = {
+    type: 'scatter', mode: 'markers', name: 'Individual reps',
+    x: dotX, y: dotY,
+    marker: { color: '#fff', size: 8, opacity: 0.7, line: { width: 1, color: '#888' } },
+  };
+
+  Plotly.newPlot('dotPlot', [meanTrace, dotTrace], {
+    ...dark,
+    xaxis: { ...dark.xaxis, title: 'Spearman ρ', range: [-0.1, 0.75] },
+    yaxis: { ...dark.yaxis, automargin: true },
+    showlegend: false,
+    shapes: [{type:'line', y0:-0.5, y1:allConfigs.length-0.5, x0:0.5, x1:0.5, line:{color:'#facc15', dash:'dot', width:1}}],
+    annotations: [{x:0.5, y:allConfigs.length-0.5, text:'ρ=0.5', showarrow:false, font:{color:'#facc15',size:10}, yshift:15}],
+    margin: { ...dark.margin, l: 200 },
+  }, {responsive:true});
+}
+
+// ============================================================
+// Section 6: Elicitation Strategy Comparison
+// ============================================================
+{
+  const strategies = [
+    { name: 'Error analysis t=2.0', rho: 0.604, std: 0.062, color: '#4ade80' },
+    { name: 'Contrastive t=1.5', rho: 0.577, std: 0.075, color: '#4ade80' },
+    { name: 'Error analysis (no hint)', rho: 0.433, std: 0.061, color: '#facc15' },
+    { name: 'Two-stage backstory', rho: 0.408, std: 0.096, color: '#facc15' },
+    { name: 'Buggy w/ hint', rho: 0.193, std: 0.090, color: '#f472b6' },
+    { name: 'Cognitive modeling', rho: 0.165, std: 0.046, color: '#ef4444' },
+    { name: 'Distractor-first', rho: 0, std: 0, color: '#555' },
+    { name: 'Comparative (1-10)', rho: 0, std: 0, color: '#555' },
+  ];
+  Plotly.newPlot('strategyBar', [{
+    type: 'bar', orientation: 'h',
+    y: strategies.map(s => s.name).reverse(),
+    x: strategies.map(s => s.rho).reverse(),
+    error_x: { type: 'data', array: strategies.map(s => s.std).reverse(), color: '#888' },
+    marker: { color: strategies.map(s => s.color).reverse() },
+    hovertemplate: '%{y}: ρ=%{x:.3f}<extra></extra>',
+  }], {
+    ...dark,
+    xaxis: { ...dark.xaxis, title: 'Mean Spearman ρ (3 reps)', range: [-0.1, 0.75] },
+    yaxis: { ...dark.yaxis, automargin: true },
+    margin: { ...dark.margin, l: 180 },
+    shapes: [{type:'line', y0:-0.5, y1:7.5, x0:0.5, x1:0.5, line:{color:'#facc15', dash:'dot', width:1}}],
+    annotations: [
+      {x:0.02, y:'Distractor-first', text:'Parse failures', showarrow:false, font:{color:'#888',size:10}, xanchor:'left'},
+      {x:0.02, y:'Comparative (1-10)', text:'Constant output', showarrow:false, font:{color:'#888',size:10}, xanchor:'left'},
+    ],
+  }, {responsive:true});
+}
+
+// ============================================================
+// Section 7: Top Configs Leaderboard
+// ============================================================
+{
+  const configs = [
+    { name: 'Gemini 3 Flash + error_analysis t=2.0', rho: 0.604, std: 0.062, avg: 0.666 },
+    { name: 'Gemini 3 Flash + contrastive t=1.5', rho: 0.577, std: 0.075, avg: 0.660 },
+    { name: 'Llama-4-Scout + error_analysis t=2.0 (10-rep)', rho: 0.355, std: 0.167, avg: 0.668 },
+    { name: 'Llama-4-Scout + contrastive t=1.5', rho: 0.371, std: 0.115, avg: 0.624 },
+    { name: 'DeepSeek-V3 + contrastive t=1.5', rho: 0.338, std: 0.140, avg: 0.409 },
+  ];
+  Plotly.newPlot('crossModelErrorAnalysis', [{
+    type: 'bar', orientation: 'h', name: 'Mean ρ (single rep)',
+    y: configs.map(c => c.name).reverse(),
+    x: configs.map(c => c.rho).reverse(),
+    error_x: { type: 'data', array: configs.map(c => c.std).reverse(), color: '#888' },
+    marker: { color: configs.map(c => c.rho > 0.45 ? '#4ade80' : '#facc15').reverse() },
+  }, {
+    type: 'scatter', mode: 'markers', name: 'Avg-pred ρ',
+    y: configs.map(c => c.name).reverse(),
+    x: configs.map(c => c.avg).reverse(),
+    marker: { size: 12, color: '#f472b6', symbol: 'diamond', line: { width: 1, color: '#fff' } },
+  }], {
+    ...dark,
+    xaxis: { ...dark.xaxis, title: 'Spearman ρ', range: [0, 0.8] },
+    yaxis: { ...dark.yaxis, automargin: true },
+    margin: { ...dark.margin, l: 320 },
+    legend: { x: 0.7, y: 0.1, bgcolor: 'rgba(0,0,0,0.5)', font: { color: '#ccc' } },
+    shapes: [{type:'line', y0:-0.5, y1:4.5, x0:0.5, x1:0.5, line:{color:'#facc15', dash:'dot', width:1}}],
+  }, {responsive:true});
+}
+
+// ============================================================
+// Section toggle
+// ============================================================
+function showSection(name) {
+  ['eedi','smartpaper','cross'].forEach(s => {
+    document.getElementById('section-'+s).style.display = s===name ? 'block' : 'none';
+    const btn = document.getElementById('btn-'+s);
+    btn.style.background = s===name ? '#333' : '#1a1a1a';
+    btn.style.color = s===name ? '#fff' : '#888';
+    btn.style.borderColor = s===name ? '#4ade80' : '#333';
+  });
+  // Re-trigger Plotly resize for newly visible plots
+  window.dispatchEvent(new Event('resize'));
+}
+showSection('eedi');
+
+// ============================================================
+// SMARTPAPER DATA
+// ============================================================
+const spData = {"baseline":[{"key":"Grade 7 — English_q15","actual":0.1031,"estimated":0.248,"sd":0.1307,"subject":"English"},{"key":"Grade 7 — English_q12","actual":0.1259,"estimated":0.147,"sd":0.1016,"subject":"English"},{"key":"Grade 7 — English_q6","actual":0.0372,"estimated":0.212,"sd":0.0727,"subject":"English"},{"key":"Grade 8 — Social Science_q7","actual":0.1461,"estimated":0.1615,"sd":0.1253,"subject":"Social Science"},{"key":"Grade 7 — English_q4","actual":0.1977,"estimated":0.169,"sd":0.0982,"subject":"English"},{"key":"Grade 6 — Social Science_q7","actual":0.1863,"estimated":0.1545,"sd":0.1498,"subject":"Social Science"},{"key":"Grade 8 — English_q6","actual":0.1758,"estimated":0.1135,"sd":0.0932,"subject":"English"},{"key":"Grade 8 — Science_q7","actual":0.1906,"estimated":0.2402,"sd":0.0935,"subject":"Science"},{"key":"Grade 6 — English_q6","actual":0.2579,"estimated":0.1905,"sd":0.1007,"subject":"English"},{"key":"Grade 7 — Social Science_q8","actual":0.2693,"estimated":0.3835,"sd":0.0936,"subject":"Social Science"},{"key":"Grade 7 — English_q11","actual":0.2511,"estimated":0.1995,"sd":0.1245,"subject":"English"},{"key":"Grade 8 — Social Science_q2","actual":0.2607,"estimated":0.3305,"sd":0.0449,"subject":"Social Science"},{"key":"Grade 6 — Social Science_q1","actual":0.3539,"estimated":0.3505,"sd":0.1556,"subject":"Social Science"},{"key":"Grade 6 — English_q8","actual":0.3796,"estimated":0.344,"sd":0.1245,"subject":"English"},{"key":"Grade 7 — Maths_q3","actual":0.2902,"estimated":0.3555,"sd":0.1297,"subject":"Mathematics"},{"key":"Grade 6 — Maths_q7","actual":0.2957,"estimated":0.219,"sd":0.1035,"subject":"Mathematics"},{"key":"Grade 8 — Maths_q1","actual":0.4005,"estimated":0.3215,"sd":0.1387,"subject":"Mathematics"},{"key":"Grade 6 — English_q10","actual":0.5131,"estimated":0.3745,"sd":0.0757,"subject":"English"},{"key":"Grade 6 — English_q2","actual":0.6344,"estimated":0.2135,"sd":0.1616,"subject":"English"},{"key":"Grade 6 — Maths_q3","actual":0.589,"estimated":0.5015,"sd":0.1328,"subject":"Mathematics"}],"popstats":[{"key":"Grade 7 — English_q15","actual":0.1031,"estimated":0.19,"sd":0.02,"subject":"English"},{"key":"Grade 7 — English_q12","actual":0.1259,"estimated":0.16,"sd":0.02,"subject":"English"},{"key":"Grade 7 — English_q6","actual":0.0372,"estimated":0.15,"sd":0.0,"subject":"English"},{"key":"Grade 8 — Social Science_q7","actual":0.1461,"estimated":0.2,"sd":0.0,"subject":"Social Science"},{"key":"Grade 7 — English_q4","actual":0.1977,"estimated":0.15,"sd":0.0,"subject":"English"},{"key":"Grade 6 — Social Science_q7","actual":0.1863,"estimated":0.24,"sd":0.08,"subject":"Social Science"},{"key":"Grade 8 — English_q6","actual":0.1758,"estimated":0.13,"sd":0.0245,"subject":"English"},{"key":"Grade 8 — Science_q7","actual":0.1906,"estimated":0.19,"sd":0.02,"subject":"Science"},{"key":"Grade 6 — English_q6","actual":0.2579,"estimated":0.1,"sd":0.0,"subject":"English"},{"key":"Grade 7 — Social Science_q8","actual":0.2693,"estimated":0.2,"sd":0.0,"subject":"Social Science"},{"key":"Grade 7 — English_q11","actual":0.2511,"estimated":0.2,"sd":0.0,"subject":"English"},{"key":"Grade 8 — Social Science_q2","actual":0.2607,"estimated":0.224,"sd":0.048,"subject":"Social Science"},{"key":"Grade 6 — Social Science_q1","actual":0.3539,"estimated":0.3,"sd":0.1095,"subject":"Social Science"},{"key":"Grade 6 — English_q8","actual":0.3796,"estimated":0.31,"sd":0.049,"subject":"English"},{"key":"Grade 7 — Maths_q3","actual":0.2902,"estimated":0.35,"sd":0.0,"subject":"Mathematics"},{"key":"Grade 6 — Maths_q7","actual":0.2957,"estimated":0.21,"sd":0.02,"subject":"Mathematics"},{"key":"Grade 8 — Maths_q1","actual":0.4005,"estimated":0.35,"sd":0.0,"subject":"Mathematics"},{"key":"Grade 6 — English_q10","actual":0.5131,"estimated":0.2,"sd":0.0,"subject":"English"},{"key":"Grade 6 — English_q2","actual":0.6344,"estimated":0.2,"sd":0.0,"subject":"English"},{"key":"Grade 6 — Maths_q3","actual":0.589,"estimated":0.41,"sd":0.02,"subject":"Mathematics"}],"anchors":[{"key":"Grade 7 — English_q15","actual":0.1031,"estimated":0.41,"sd":0.0374,"subject":"English"},{"key":"Grade 7 — English_q12","actual":0.1259,"estimated":0.26,"sd":0.049,"subject":"English"},{"key":"Grade 7 — English_q6","actual":0.0372,"estimated":0.36,"sd":0.1114,"subject":"English"},{"key":"Grade 8 — Social Science_q7","actual":0.1461,"estimated":0.41,"sd":0.0374,"subject":"Social Science"},{"key":"Grade 7 — English_q4","actual":0.1977,"estimated":0.47,"sd":0.0872,"subject":"English"},{"key":"Grade 6 — Social Science_q7","actual":0.1863,"estimated":0.37,"sd":0.1122,"subject":"Social Science"},{"key":"Grade 8 — English_q6","actual":0.1758,"estimated":0.55,"sd":0.0775,"subject":"English"},{"key":"Grade 8 — Science_q7","actual":0.1906,"estimated":0.38,"sd":0.1166,"subject":"Science"},{"key":"Grade 6 — English_q6","actual":0.2579,"estimated":0.26,"sd":0.0917,"subject":"English"},{"key":"Grade 7 — Social Science_q8","actual":0.2693,"estimated":0.56,"sd":0.02,"subject":"Social Science"},{"key":"Grade 7 — English_q11","actual":0.2511,"estimated":0.32,"sd":0.1503,"subject":"English"},{"key":"Grade 8 — Social Science_q2","actual":0.2607,"estimated":0.56,"sd":0.02,"subject":"Social Science"},{"key":"Grade 6 — Social Science_q1","actual":0.3539,"estimated":0.7,"sd":0.0548,"subject":"Social Science"},{"key":"Grade 6 — English_q8","actual":0.3796,"estimated":0.76,"sd":0.02,"subject":"English"},{"key":"Grade 7 — Maths_q3","actual":0.2902,"estimated":0.66,"sd":0.0917,"subject":"Mathematics"},{"key":"Grade 6 — Maths_q7","actual":0.2957,"estimated":0.55,"sd":0.1225,"subject":"Mathematics"},{"key":"Grade 8 — Maths_q1","actual":0.4005,"estimated":0.68,"sd":0.0872,"subject":"Mathematics"},{"key":"Grade 6 — English_q10","actual":0.5131,"estimated":0.78,"sd":0.0245,"subject":"English"},{"key":"Grade 6 — English_q2","actual":0.6344,"estimated":0.66,"sd":0.0735,"subject":"English"},{"key":"Grade 6 — Maths_q3","actual":0.589,"estimated":0.78,"sd":0.06,"subject":"Mathematics"}],"errors":[{"key":"Grade 7 — English_q15","actual":0.1031,"estimated":0.05,"sd":0.0,"subject":"English"},{"key":"Grade 7 — English_q12","actual":0.1259,"estimated":0.05,"sd":0.0,"subject":"English"},{"key":"Grade 7 — English_q6","actual":0.0372,"estimated":0.05,"sd":0.0,"subject":"English"},{"key":"Grade 8 — Social Science_q7","actual":0.1461,"estimated":0.06,"sd":0.02,"subject":"Social Science"},{"key":"Grade 7 — English_q4","actual":0.1977,"estimated":0.06,"sd":0.02,"subject":"English"},{"key":"Grade 6 — Social Science_q7","actual":0.1863,"estimated":0.12,"sd":0.04,"subject":"Social Science"},{"key":"Grade 8 — English_q6","actual":0.1758,"estimated":0.05,"sd":0.0,"subject":"English"},{"key":"Grade 8 — Science_q7","actual":0.1906,"estimated":0.05,"sd":0.0,"subject":"Science"},{"key":"Grade 6 — English_q6","actual":0.2579,"estimated":0.06,"sd":0.02,"subject":"English"},{"key":"Grade 7 — Social Science_q8","actual":0.2693,"estimated":0.14,"sd":0.02,"subject":"Social Science"},{"key":"Grade 7 — English_q11","actual":0.2511,"estimated":0.05,"sd":0.0,"subject":"English"},{"key":"Grade 8 — Social Science_q2","actual":0.2607,"estimated":0.13,"sd":0.04,"subject":"Social Science"},{"key":"Grade 6 — Social Science_q1","actual":0.3539,"estimated":0.19,"sd":0.0374,"subject":"Social Science"},{"key":"Grade 6 — English_q8","actual":0.3796,"estimated":0.19,"sd":0.0374,"subject":"English"},{"key":"Grade 7 — Maths_q3","actual":0.2902,"estimated":0.35,"sd":0.0,"subject":"Mathematics"},{"key":"Grade 6 — Maths_q7","actual":0.2957,"estimated":0.3,"sd":0.0632,"subject":"Mathematics"},{"key":"Grade 8 — Maths_q1","actual":0.4005,"estimated":0.2,"sd":0.0548,"subject":"Mathematics"},{"key":"Grade 6 — English_q10","actual":0.5131,"estimated":0.21,"sd":0.08,"subject":"English"},{"key":"Grade 6 — English_q2","actual":0.6344,"estimated":0.17,"sd":0.0245,"subject":"English"},{"key":"Grade 6 — Maths_q3","actual":0.589,"estimated":0.24,"sd":0.0917,"subject":"Mathematics"}],"hybrid":[{"key":"Grade 7 — English_q15","actual":0.1031,"estimated":0.33,"sd":0.04,"subject":"English"},{"key":"Grade 7 — English_q12","actual":0.1259,"estimated":0.48,"sd":0.103,"subject":"English"},{"key":"Grade 7 — English_q6","actual":0.0372,"estimated":0.07,"sd":0.0245,"subject":"English"},{"key":"Grade 8 — Social Science_q7","actual":0.1461,"estimated":0.236,"sd":0.0615,"subject":"Social Science"},{"key":"Grade 7 — English_q4","actual":0.1977,"estimated":0.5,"sd":0.0632,"subject":"English"},{"key":"Grade 6 — Social Science_q7","actual":0.1863,"estimated":0.36,"sd":0.02,"subject":"Social Science"},{"key":"Grade 8 — English_q6","actual":0.1758,"estimated":0.37,"sd":0.06,"subject":"English"},{"key":"Grade 8 — Science_q7","actual":0.1906,"estimated":0.24,"sd":0.0583,"subject":"Science"},{"key":"Grade 6 — English_q6","actual":0.2579,"estimated":0.53,"sd":0.1077,"subject":"English"},{"key":"Grade 7 — Social Science_q8","actual":0.2693,"estimated":0.51,"sd":0.0917,"subject":"Social Science"},{"key":"Grade 7 — English_q11","actual":0.2511,"estimated":0.54,"sd":0.097,"subject":"English"},{"key":"Grade 8 — Social Science_q2","actual":0.2607,"estimated":0.37,"sd":0.0245,"subject":"Social Science"},{"key":"Grade 6 — Social Science_q1","actual":0.3539,"estimated":0.65,"sd":0.0316,"subject":"Social Science"},{"key":"Grade 6 — English_q8","actual":0.3796,"estimated":0.65,"sd":0.0,"subject":"English"},{"key":"Grade 7 — Maths_q3","actual":0.2902,"estimated":0.58,"sd":0.0678,"subject":"Mathematics"},{"key":"Grade 6 — Maths_q7","actual":0.2957,"estimated":0.4,"sd":0.0316,"subject":"Mathematics"},{"key":"Grade 8 — Maths_q1","actual":0.4005,"estimated":0.5,"sd":0.0837,"subject":"Mathematics"},{"key":"Grade 6 — English_q10","actual":0.5131,"estimated":0.7,"sd":0.0316,"subject":"English"},{"key":"Grade 6 — English_q2","actual":0.6344,"estimated":0.61,"sd":0.0374,"subject":"English"},{"key":"Grade 6 — Maths_q3","actual":0.589,"estimated":0.64,"sd":0.02,"subject":"Mathematics"}]};
+
+const spResults = {
+  baseline: {rho:0.662, p:0.0015, r:0.610, mae:0.087, bias:-0.021},
+  popstats: {rho:0.642, p:0.0023, r:0.544, mae:0.100, bias:-0.060},
+  anchors: {rho:0.809, p:0.00002, r:0.773, mae:0.241, bias:0.241},
+  errors: {rho:0.825, p:0.000008, r:0.619, mae:0.155, bias:-0.147},
+  hybrid: {rho:0.806, p:0.00002, r:0.770, mae:0.183, bias:0.180},
+};
+
+const spColors = { baseline:'#888', popstats:'#60a5fa', anchors:'#4ade80', errors:'#f472b6', hybrid:'#facc15' };
+const spLabels = { baseline:'Baseline', popstats:'Pop Stats', anchors:'Anchor Items', errors:'Error Patterns', hybrid:'Hybrid' };
+const subjColors = { English:'#f472b6', Mathematics:'#4ade80', Science:'#60a5fa', 'Social Science':'#facc15' };
+
+// SP0: Approach comparison bar chart
+{
+  const approaches = [
+    {name:'Classroom\nSimulation', rho:0.244, color:'#f472b6', note:'1 rep, t=0.7'},
+    {name:'Individual\nRoleplay', rho:0.311, color:'#60a5fa', note:'1 rep, t=0.7'},
+    {name:'Teacher\nPrediction', rho:0.311, color:'#4ade80', note:'1 rep, t=0.7'},
+    {name:'Teacher Pred\n(5 reps, t=1.0)', rho:0.662, color:'#4ade80', note:'aggregation effect'},
+    {name:'Teacher Pred\n+ Calibration', rho:0.825, color:'#c084fc', note:'errors strategy'},
+    {name:'Calibrated\n+ High Temp', rho:0.875, color:'#c084fc', note:'anchors t=2.0'},
+  ];
+  Plotly.newPlot('spApproachBar', [{
+    type:'bar',
+    x: approaches.map(a=>a.name),
+    y: approaches.map(a=>a.rho),
+    marker:{color:approaches.map(a=>a.color)},
+    text: approaches.map(a=>`ρ=${a.rho.toFixed(3)}`),
+    textposition:'outside', textfont:{color:'#ccc',size:11},
+    hovertemplate: approaches.map(a=>`${a.note}<extra></extra>`),
+  }],{
+    ...dark,
+    yaxis:{...dark.yaxis, title:'Spearman ρ', range:[0,0.98]},
+    shapes:[
+      {type:'line',x0:-0.5,x1:5.5,y0:0.5,y1:0.5,line:{color:'#444',dash:'dot'}},
+      {type:'rect',x0:2.5,x1:5.5,y0:0,y1:0.98,fillcolor:'rgba(255,255,255,0.02)',line:{width:0}},
+    ],
+    annotations:[
+      {x:1,y:0.38,text:'Simulation fails on<br>unfamiliar populations',showarrow:false,font:{color:'#888',size:9}},
+      {x:4,y:0.7,text:'Each step adds<br>+0.15–0.35 ρ',showarrow:false,font:{color:'#facc15',size:9}},
+    ],
+  },{responsive:true});
+}
+
+// SP1: Strategy bar chart
+{
+  const strats = ['errors','anchors','hybrid','baseline','popstats'];
+  Plotly.newPlot('spStrategyBar', [{
+    type:'bar',
+    x: strats.map(s=>spLabels[s]),
+    y: strats.map(s=>spResults[s].rho),
+    marker: { color: strats.map(s=>spColors[s]) },
+    text: strats.map(s=>`ρ=${spResults[s].rho.toFixed(3)}<br>p=${spResults[s].p < 0.001 ? '<0.001' : spResults[s].p.toFixed(4)}`),
+    textposition:'outside', textfont:{color:'#ccc',size:11},
+  }],{
+    ...dark,
+    yaxis:{...dark.yaxis, title:'Spearman ρ', range:[0,0.95]},
+    shapes:[{type:'line',x0:-0.5,x1:4.5,y0:0.5,y1:0.5,line:{color:'#444',dash:'dot'}}],
+  },{responsive:true});
+}
+
+// SP2: rho vs r scatter
+{
+  const strats = ['baseline','popstats','anchors','errors','hybrid'];
+  Plotly.newPlot('spRhoVsR', [{
+    type:'scatter', mode:'markers+text',
+    x: strats.map(s=>spResults[s].rho),
+    y: strats.map(s=>spResults[s].r),
+    text: strats.map(s=>spLabels[s]),
+    textposition:'top center', textfont:{size:11,color:'#ccc'},
+    marker:{size:14, color:strats.map(s=>spColors[s]), line:{width:1,color:'#fff'}},
+  }],{
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Spearman ρ (ranking)', range:[0.55,0.9]},
+    yaxis:{...dark.yaxis, title:'Pearson r (absolute)', range:[0.45,0.85]},
+    shapes:[
+      {type:'line',x0:0.55,x1:0.9,y0:0.55,y1:0.9,line:{color:'#333',dash:'dot'}},
+    ],
+    annotations:[{x:0.75,y:0.82,text:'Ideal: high on both',showarrow:false,font:{color:'#444',size:10}}],
+  },{responsive:true});
+}
+
+// SP3: Scatter plots (actual vs estimated)
+function spScatter(divId, stratName) {
+  const d = spData[stratName];
+  const subjects = [...new Set(d.map(i=>i.subject))];
+  const traces = subjects.map(subj => {
+    const items = d.filter(i=>i.subject===subj);
+    return {
+      type:'scatter', mode:'markers', name:subj,
+      x: items.map(i=>i.actual), y: items.map(i=>i.estimated),
+      error_y:{type:'data',array:items.map(i=>i.sd),visible:true,color:subjColors[subj]+'66'},
+      marker:{size:10,color:subjColors[subj],line:{width:1,color:'#fff'}},
+      text: items.map(i=>i.key),
+      hovertemplate:'%{text}<br>Actual: %{x:.3f}<br>Est: %{y:.3f}<extra></extra>',
+    };
+  });
+  Plotly.newPlot(divId, traces, {
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Actual difficulty', range:[-0.02,0.72]},
+    yaxis:{...dark.yaxis, title:'Estimated difficulty', range:[-0.02,0.85]},
+    shapes:[{type:'line',x0:0,x1:0.7,y0:0,y1:0.7,line:{color:'#4ade80',dash:'dot',width:1}}],
+    legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc',size:10}},
+    showlegend: true,
+  },{responsive:true});
+}
+spScatter('spScatterBaseline','baseline');
+spScatter('spScatterErrors','errors');
+spScatter('spScatterAnchors','anchors');
+spScatter('spScatterHybrid','hybrid');
+
+// SP4: Residuals by subject
+{
+  const strats = ['baseline','errors','anchors','hybrid'];
+  const traces = [];
+  strats.forEach(strat => {
+    const d = spData[strat];
+    traces.push({
+      type:'box', name:spLabels[strat],
+      y: d.map(i=>i.estimated - i.actual),
+      marker:{color:spColors[strat]},
+      boxpoints:'all', jitter:0.3, pointpos:0,
+      text: d.map(i=>`${i.key} (${i.subject})`),
+    });
+  });
+  Plotly.newPlot('spResiduals', traces, {
+    ...dark,
+    yaxis:{...dark.yaxis, title:'Residual (Estimated − Actual)'},
+    shapes:[{type:'line',x0:-0.5,x1:3.5,y0:0,y1:0,line:{color:'#4ade80',dash:'dot',width:1}}],
+    annotations:[
+      {x:1,y:-0.35,text:'Underestimates ↓',showarrow:false,font:{color:'#f472b6',size:10}},
+      {x:2,y:0.35,text:'Overestimates ↑',showarrow:false,font:{color:'#facc15',size:10}},
+    ],
+  },{responsive:true});
+}
+
+// SP5: Item table
+{
+  const tbody = document.getElementById('spItemTable');
+  const sorted = [...spData.baseline].sort((a,b) => a.actual - b.actual);
+  sorted.forEach(item => {
+    const err = spData.errors.find(i=>i.key===item.key);
+    const anc = spData.anchors.find(i=>i.key===item.key);
+    const hyb = spData.hybrid.find(i=>i.key===item.key);
+    const fmt = (v,actual) => {
+      if(!v) return '—';
+      const gap = v.estimated - actual;
+      const c = Math.abs(gap)<0.05 ? '#4ade80' : Math.abs(gap)<0.15 ? '#facc15' : '#f472b6';
+      return `<span style="color:${c}">${v.estimated.toFixed(3)}</span>`;
+    };
+    tbody.innerHTML += `<tr>
+      <td style="font-size:0.8rem">${item.key}</td>
+      <td><span style="color:${subjColors[item.subject]||'#ccc'}">${item.subject}</span></td>
+      <td><strong>${item.actual.toFixed(3)}</strong></td>
+      <td>${fmt(item,item.actual)}</td>
+      <td>${fmt(err,item.actual)}</td>
+      <td>${fmt(anc,item.actual)}</td>
+      <td>${fmt(hyb,item.actual)}</td>
+    </tr>`;
+  });
+}
+
+// ============================================================
+// CROSS-DATASET: Eedi per-item data
+// ============================================================
+const eediItemData = [
+  {key:"qid332", b_2pl:-5.179, difficulty:0.1226, predicted:0.5172, sd:0.0409},
+  {key:"qid1599", b_2pl:-3.372, difficulty:0.0774, predicted:0.4790, sd:0.0273},
+  {key:"qid934", b_2pl:-0.522, difficulty:0.2335, predicted:0.5004, sd:0.0516},
+  {key:"qid1702", b_2pl:-0.500, difficulty:0.1524, predicted:0.6240, sd:0.1303},
+  {key:"qid1545", b_2pl:-0.289, difficulty:0.1590, predicted:0.5428, sd:0.0312},
+  {key:"qid644", b_2pl:-0.262, difficulty:0.0115, predicted:0.5378, sd:0.0219},
+  {key:"qid202", b_2pl:-0.237, difficulty:0.1224, predicted:0.5176, sd:0.0379},
+  {key:"qid306", b_2pl:-0.158, difficulty:0.2438, predicted:0.6161, sd:0.0284},
+  {key:"qid506", b_2pl:-0.106, difficulty:0.1373, predicted:0.6495, sd:0.0278},
+  {key:"qid888", b_2pl:0.002, difficulty:0.3453, predicted:0.5826, sd:0.0256},
+  {key:"qid919", b_2pl:0.034, difficulty:0.2500, predicted:0.6224, sd:0.0252},
+  {key:"qid1286", b_2pl:0.062, difficulty:0.3883, predicted:0.6395, sd:0.0247},
+  {key:"qid689", b_2pl:0.250, difficulty:0.4092, predicted:0.6394, sd:0.0320},
+  {key:"qid1607", b_2pl:0.504, difficulty:0.2527, predicted:0.5771, sd:0.0393},
+  {key:"qid1383", b_2pl:0.562, difficulty:0.4734, predicted:0.6511, sd:0.0184},
+  {key:"qid254", b_2pl:0.598, difficulty:0.3794, predicted:0.6332, sd:0.0496},
+  {key:"qid525", b_2pl:0.623, difficulty:0.5309, predicted:0.6047, sd:0.0211},
+  {key:"qid38", b_2pl:0.692, difficulty:0.3111, predicted:0.5992, sd:0.0101},
+  {key:"qid466", b_2pl:0.716, difficulty:0.6006, predicted:0.6450, sd:0.0846},
+  {key:"qid1465", b_2pl:0.835, difficulty:0.5332, predicted:0.5788, sd:0.0155},
+];
+
+// ============================================================
+// CROSS-DATASET PLOTS
+// ============================================================
+{
+  // Side-by-side scatter: Eedi
+  Plotly.newPlot('crossEediScatter', [{
+    type:'scatter', mode:'markers',
+    x: eediItemData.map(d=>d.b_2pl),
+    y: eediItemData.map(d=>d.predicted),
+    error_y:{type:'data',array:eediItemData.map(d=>d.sd),visible:true,color:'#4ade8066'},
+    marker:{size:10,color:'#4ade80',line:{width:1,color:'#fff'}},
+    text: eediItemData.map(d=>d.key),
+    hovertemplate:'%{text}<br>b_2pl: %{x:.3f}<br>Predicted: %{y:.3f}<extra></extra>',
+  }],{
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Actual difficulty (IRT b_2pl)'},
+    yaxis:{...dark.yaxis, title:'Predicted weighted_p_incorrect', range:[0.35,0.75]},
+    annotations:[{x:-2,y:0.7,text:'Predictions compressed<br>to narrow 0.48–0.65 band',showarrow:false,font:{color:'#888',size:10}}],
+  },{responsive:true});
+
+  // Side-by-side scatter: SmartPaper (using anchors data from spData)
+  {
+    const d = spData.anchors;
+    const subjects = [...new Set(d.map(i=>i.subject))];
+    const traces = subjects.map(subj => {
+      const items = d.filter(i=>i.subject===subj);
+      return {
+        type:'scatter', mode:'markers', name:subj,
+        x: items.map(i=>i.actual), y: items.map(i=>i.estimated),
+        error_y:{type:'data',array:items.map(i=>i.sd),visible:true,color:subjColors[subj]+'66'},
+        marker:{size:10,color:subjColors[subj],line:{width:1,color:'#fff'}},
+        text: items.map(i=>i.key),
+        hovertemplate:'%{text}<br>Actual: %{x:.3f}<br>Est: %{y:.3f}<extra></extra>',
+      };
+    });
+    Plotly.newPlot('crossSPScatter', traces, {
+      ...dark,
+      xaxis:{...dark.xaxis, title:'Actual difficulty (proportion correct)', range:[-0.02,0.72]},
+      yaxis:{...dark.yaxis, title:'Estimated proportion correct', range:[-0.02,0.85]},
+      shapes:[{type:'line',x0:0,x1:0.7,y0:0,y1:0.7,line:{color:'#4ade80',dash:'dot',width:1}}],
+      legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc',size:10}},
+    },{responsive:true});
+  }
+
+  // Temperature gradients side by side: Eedi
+  {
+    const eediTemp = {
+      contrastive: [{t:1.5,rho:0.577},{t:1.8,rho:0.518},{t:2.0,rho:0.562}],
+      error_analysis: [{t:1.5,rho:0.451},{t:1.8,rho:0.566},{t:2.0,rho:0.604}],
+      imagine_classroom: [{t:1.5,rho:0.232},{t:1.8,rho:0.404},{t:2.0,rho:0.428}],
+    };
+    const colors = {contrastive:'#4ade80',error_analysis:'#f472b6',imagine_classroom:'#60a5fa'};
+    const traces = [];
+    for (const [name,pts] of Object.entries(eediTemp)) {
+      traces.push({
+        type:'scatter', mode:'lines+markers', name:name.replace('_',' '),
+        x:pts.map(p=>p.t), y:pts.map(p=>p.rho),
+        line:{color:colors[name],width:3}, marker:{size:10,color:colors[name]},
+      });
+    }
+    Plotly.newPlot('crossEediTemp', traces, {
+      ...dark,
+      xaxis:{...dark.xaxis, title:'Temperature', range:[1.3,2.2]},
+      yaxis:{...dark.yaxis, title:'Spearman ρ (3 reps avg)', range:[0.1,0.7]},
+      legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc'}},
+      shapes:[{type:'line',x0:1.3,x1:2.2,y0:0.5,y1:0.5,line:{color:'#333',dash:'dot'}}],
+    },{responsive:true});
+  }
+
+  // Temperature gradient: SmartPaper (reuse data)
+  {
+    const spTemp = {
+      baseline: [{t:0.5,rho:0.571},{t:1.0,rho:0.743},{t:1.5,rho:0.311},{t:2.0,rho:0.398}],
+      errors: [{t:0.5,rho:0.773},{t:1.0,rho:0.794},{t:1.5,rho:0.797},{t:2.0,rho:0.840}],
+      anchors: [{t:0.5,rho:0.811},{t:1.0,rho:0.821},{t:1.5,rho:0.783},{t:2.0,rho:0.875}],
+    };
+    const colors = {baseline:'#888',errors:'#f472b6',anchors:'#4ade80'};
+    const traces = [];
+    for (const [name,pts] of Object.entries(spTemp)) {
+      traces.push({
+        type:'scatter', mode:'lines+markers', name:name,
+        x:pts.map(p=>p.t), y:pts.map(p=>p.rho),
+        line:{color:colors[name],width:3}, marker:{size:10,color:colors[name]},
+      });
+    }
+    Plotly.newPlot('crossSPTemp', traces, {
+      ...dark,
+      xaxis:{...dark.xaxis, title:'Temperature', range:[0.3,2.2]},
+      yaxis:{...dark.yaxis, title:'Spearman ρ (5 reps avg)', range:[0.1,0.95]},
+      legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc'}},
+      shapes:[{type:'line',x0:0.3,x1:2.2,y0:0.5,y1:0.5,line:{color:'#333',dash:'dot'}}],
+      annotations:[{x:1.5,y:0.28,text:'Baseline collapses!',showarrow:true,arrowcolor:'#888',ax:40,ay:-20,font:{color:'#888',size:10}}],
+    },{responsive:true});
+  }
+  Plotly.newPlot('crossDatasetBar', [{
+    type:'bar',
+    x:['Eedi\nBaseline','Eedi\nBest Prompt','Eedi\nBest Avg','SP\nBaseline (1r)','SP\nBaseline (5r)','SP\nCalibrated','SP\nCalib+HiTemp'],
+    y:[0.370, 0.604, 0.666, 0.311, 0.662, 0.825, 0.875],
+    marker:{color:['#555','#60a5fa','#4ade80','#555','#facc15','#f472b6','#c084fc']},
+    text:['ρ=0.370','ρ=0.604','ρ=0.666','ρ=0.311','ρ=0.662','ρ=0.825','ρ=0.875'],
+    textposition:'outside', textfont:{color:'#ccc',size:11},
+  }],{
+    ...dark,
+    yaxis:{...dark.yaxis, title:'Spearman ρ', range:[0,0.98]},
+  },{responsive:true});
+
+  Plotly.newPlot('crossCalibration', [{
+    type:'scatter', mode:'lines+markers+text', name:'SmartPaper',
+    x:['No calibration\n(1 rep)','Aggregation\n(5 reps)','+ Calibration\n(t=1.0)','+ High Temp\n(t=2.0)'],
+    y:[0.311, 0.662, 0.825, 0.875],
+    text:['ρ=0.311','ρ=0.662','ρ=0.825','ρ=0.875'],
+    textposition:'top center', textfont:{color:'#ccc',size:12},
+    line:{color:'#f472b6',width:3},
+    marker:{size:14,color:'#f472b6'},
+  },{
+    type:'scatter', mode:'lines+markers+text', name:'Eedi',
+    x:['No calibration\n(1 rep)','Aggregation\n(5 reps)','+ Calibration\n(t=1.0)','+ High Temp\n(t=2.0)'],
+    y:[0.370, 0.577, null, 0.604],
+    text:['ρ=0.370','ρ=0.577','','ρ=0.604'],
+    textposition:'top center', textfont:{color:'#ccc',size:12},
+    line:{color:'#4ade80',width:3,dash:'dot'},
+    marker:{size:14,color:'#4ade80'},
+  }],{
+    ...dark,
+    yaxis:{...dark.yaxis, title:'Spearman ρ', range:[0,0.98]},
+    showlegend:false,
+    annotations:[
+      {x:3,y:0.91,text:'SmartPaper',font:{color:'#f472b6',size:12},showarrow:false},
+      {x:3,y:0.64,text:'Eedi',font:{color:'#4ade80',size:12},showarrow:false},
+    ],
+  },{responsive:true});
+}
+
+// ============================================================
+// SMARTPAPER TEMPERATURE SWEEP PLOTS
+// ============================================================
+{
+  // Gemini temp gradient lines
+  const geminiTempData = {
+    baseline: [{t:0.5,rho:0.571},{t:1.0,rho:0.743},{t:1.5,rho:0.311},{t:2.0,rho:0.398}],
+    errors:   [{t:0.5,rho:0.773},{t:1.0,rho:0.794},{t:1.5,rho:0.797},{t:2.0,rho:0.840}],
+    anchors:  [{t:0.5,rho:0.811},{t:1.0,rho:0.821},{t:1.5,rho:0.783},{t:2.0,rho:0.875}],
+  };
+  const tempColors = {baseline:'#888', errors:'#f472b6', anchors:'#4ade80'};
+  const tempTraces = [];
+  for (const [name, pts] of Object.entries(geminiTempData)) {
+    tempTraces.push({
+      type:'scatter', mode:'lines+markers', name:name,
+      x: pts.map(p=>p.t), y: pts.map(p=>p.rho),
+      line:{color:tempColors[name],width:3}, marker:{size:10,color:tempColors[name]},
+    });
+  }
+  Plotly.newPlot('spGeminiTempLines', tempTraces, {
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Temperature', dtick:0.5, range:[0.3,2.2]},
+    yaxis:{...dark.yaxis, title:'Spearman ρ (5 reps avg)', range:[0.2,0.95]},
+    legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc'}},
+    shapes:[{type:'line',x0:0.3,x1:2.2,y0:0.5,y1:0.5,line:{color:'#333',dash:'dot'}}],
+    annotations:[
+      {x:1.5,y:0.28,text:'Baseline collapses<br>without calibration',showarrow:true,arrowcolor:'#888',ax:40,ay:-30,font:{color:'#888',size:10}},
+      {x:2.0,y:0.89,text:'Best: ρ=0.875',showarrow:true,arrowcolor:'#4ade80',ax:-40,ay:-20,font:{color:'#4ade80',size:10}},
+    ],
+  },{responsive:true});
+
+  // DeepSeek temp gradient lines
+  const dsData = {
+    baseline: [{t:0.5,rho:0.800},{t:1.0,rho:0.809},{t:1.5,rho:0.728},{t:2.0,rho:0.675}],
+    errors:   [{t:0.5,rho:0.799},{t:1.0,rho:0.787},{t:1.5,rho:0.783},{t:2.0,rho:0.766}],
+    anchors:  [{t:0.5,rho:0.743},{t:1.0,rho:0.729},{t:1.5,rho:0.726},{t:2.0,rho:0.691}],
+  };
+  const dsTraces = [];
+  for (const [name, pts] of Object.entries(dsData)) {
+    dsTraces.push({
+      type:'scatter', mode:'lines+markers', name:name,
+      x: pts.map(p=>p.t), y: pts.map(p=>p.rho),
+      line:{color:tempColors[name],width:3}, marker:{size:10,color:tempColors[name]},
+    });
+  }
+  Plotly.newPlot('spDeepseekTempLines', dsTraces, {
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Temperature', dtick:0.5, range:[0.3,2.2]},
+    yaxis:{...dark.yaxis, title:'Spearman ρ (5 reps avg)', range:[0.6,0.85]},
+    legend:{x:0.02,y:0.98,bgcolor:'rgba(0,0,0,0.5)',font:{color:'#ccc'}},
+    shapes:[{type:'line',x0:0.3,x1:2.2,y0:0.75,y1:0.75,line:{color:'#333',dash:'dot'}}],
+    annotations:[
+      {x:1.0,y:0.82,text:'Baseline peaks: ρ=0.809',showarrow:true,arrowcolor:'#888',ax:40,ay:-15,font:{color:'#888',size:10}},
+      {x:2.0,y:0.66,text:'All decline with<br>higher temp',showarrow:false,font:{color:'#facc15',size:9}},
+    ],
+  },{responsive:true});
+
+  // Gemini heatmap
+  const gStrats = ['baseline','errors','anchors'];
+  const gTemps = [0.5, 1.0, 1.5, 2.0];
+  const gZ = gTemps.map(t => gStrats.map(s => {
+    const pts = geminiTempData[s];
+    const p = pts.find(p=>p.t===t);
+    return p ? p.rho : null;
+  }));
+  Plotly.newPlot('spGeminiHeatmap', [{
+    type:'heatmap',
+    x:['Baseline','Errors','Anchors'],
+    y:gTemps.map(t=>`t=${t}`),
+    z:gZ,
+    text:gZ.map(r=>r.map(v=>v!==null?`ρ=${v.toFixed(3)}`:'—')),
+    texttemplate:'%{text}', textfont:{size:13,color:'#fff'},
+    colorscale:[[0,'#1a1a2e'],[0.3,'#16213e'],[0.5,'#854d0e'],[0.7,'#facc15'],[1,'#4ade80']],
+    zmin:0.2, zmax:0.9,
+    colorbar:{title:'ρ',tickfont:{color:'#888'},titlefont:{color:'#888'}},
+  }],{
+    ...dark,
+    margin:{t:20,b:60,l:80,r:80},
+  },{responsive:true});
+
+  // Cross-model best configs
+  const bestConfigs = [
+    {name:'Gemini anchors t=2.0',rho:0.875,mae:0.248,color:'#4ade80'},
+    {name:'Gemini errors t=2.0',rho:0.840,mae:0.143,color:'#4ade80'},
+    {name:'Gemini anchors t=1.0',rho:0.821,mae:0.239,color:'#4ade80'},
+    {name:'DS baseline t=1.0',rho:0.809,mae:0.175,color:'#60a5fa'},
+    {name:'DS baseline t=0.5',rho:0.800,mae:0.172,color:'#60a5fa'},
+    {name:'DS errors t=0.5',rho:0.799,mae:0.089,color:'#60a5fa'},
+    {name:'Gemini errors t=1.5',rho:0.797,mae:0.150,color:'#4ade80'},
+    {name:'Gemini baseline t=1.0',rho:0.743,mae:0.087,color:'#888'},
+    {name:'DS anchors t=0.5',rho:0.743,mae:0.298,color:'#60a5fa'},
+  ];
+  Plotly.newPlot('spModelCompare', [{
+    type:'scatter', mode:'markers',
+    x: bestConfigs.map(c=>c.rho),
+    y: bestConfigs.map(c=>c.mae),
+    text: bestConfigs.map(c=>c.name),
+    textposition:'top center',
+    marker:{size:14, color:bestConfigs.map(c=>c.color), line:{width:1,color:'#fff'}},
+    hovertemplate:'%{text}<br>ρ=%{x:.3f}<br>MAE=%{y:.3f}<extra></extra>',
+  }],{
+    ...dark,
+    xaxis:{...dark.xaxis, title:'Spearman ρ (ranking)', range:[0.65,0.92]},
+    yaxis:{...dark.yaxis, title:'MAE (lower = better calibrated)', range:[-0.02,0.35]},
+    annotations:[
+      {x:0.875,y:0.248,text:'Gemini anchors t=2.0\n(best ranking)',font:{color:'#4ade80',size:9},showarrow:true,ax:0,ay:-20,arrowcolor:'#4ade80'},
+      {x:0.799,y:0.089,text:'DS errors t=0.5\n(best calibration)',font:{color:'#60a5fa',size:9},showarrow:true,ax:-50,ay:20,arrowcolor:'#60a5fa'},
+      {x:0.743,y:0.087,text:'Gemini baseline\n(best MAE)',font:{color:'#888',size:9},showarrow:true,ax:-50,ay:-20,arrowcolor:'#888'},
+    ],
+  },{responsive:true});
+}
+
+// ============================================================
+// 7. Summary table
+// ============================================================
+{
+  const tbody = document.getElementById('fullTable');
+  const allData = [...sweep].sort((a,b) => b.mean - a.mean);
+  allData.forEach(s => {
+    const barWidth = Math.max(0, s.mean) * 250;
+    const barColor = s.mean > 0.55 ? '#4ade80' : s.mean > 0.4 ? '#facc15' : '#555';
+    const reps = s.reps.map(r => r.toFixed(3)).join(', ');
+    tbody.innerHTML += `<tr>
+      <td>${s.name.replace('_',' ')}</td>
+      <td>${s.temp}</td>
+      <td><span class="rho-bar" style="width:${barWidth}px;background:${barColor}"></span><strong>${s.mean.toFixed(3)}</strong></td>
+      <td>${s.std !== null ? s.std.toFixed(3) : '—'}</td>
+      <td style="font-size:0.8rem;color:#888">${s.reps[0]?.toFixed(3) || '—'}</td>
+      <td style="font-size:0.8rem;color:#888">${s.reps[1]?.toFixed(3) || '—'}</td>
+      <td style="font-size:0.8rem;color:#888">${s.reps[2]?.toFixed(3) || '—'}</td>
+      <td>${s.avg !== null ? s.avg.toFixed(3) : '—'}</td>
+    </tr>`;
+  });
+}
+
+// ============================================================
+// 10. Parsing Failure Audit
+// ============================================================
+{
+  // Strict vs Lenient rho comparison
+  const configs = [
+    'v3_contrastive t1.5','v5_error_analysis t1.8','v5_error_analysis t2.0',
+    'v8_imagine_classroom t1.8','v9_devil_advocate t1.5','v10_sparse t2.0',
+    'v6_distractor_first t1.8','v7_comparative t1.8'
+  ];
+  const strict = [0.660, 0.669, 0.508, 0.562, 0.615, 0.900, null, null];
+  const lenient = [0.605, 0.565, 0.651, -0.081, 0.218, 0.526, 0.390, 0.698];
+
+  Plotly.newPlot('parsingBar', [
+    {x:configs,y:strict,name:'Strict Parser',type:'bar',marker:{color:'#4ade80'}},
+    {x:configs,y:lenient,name:'Lenient Parser',type:'bar',marker:{color:'#f472b6'}}
+  ],{
+    barmode:'group',
+    paper_bgcolor:'#0d0d0d',plot_bgcolor:'#0d0d0d',
+    font:{color:'#ccc',size:11},
+    yaxis:{title:'Spearman ρ',gridcolor:'#222',zeroline:true,zerolinecolor:'#444'},
+    xaxis:{tickangle:-30},
+    legend:{x:0.7,y:0.95},
+    margin:{b:100,t:30},
+    annotations:[
+      {x:'v7_comparative t1.8',y:0.698,text:'Recovered!<br>ρ=0.698',showarrow:true,arrowcolor:'#f472b6',font:{color:'#f472b6',size:10},ay:-40},
+      {x:'v10_sparse t2.0',y:0.900,text:'Strict better<br>ρ=0.900',showarrow:true,arrowcolor:'#4ade80',font:{color:'#4ade80',size:10},ay:-40}
+    ]
+  },{responsive:true});
+
+  // Parse success rate
+  const cfgNames = [
+    'v3_contrastive','v5_error_analysis','v8_imagine_classroom',
+    'v9_devil_advocate','v10_sparse','v6_distractor_first',
+    'v7_comparative','openai_4o','groq_qwen32b','deepseek_reasoner'
+  ];
+  const rates = [100, 100, 100, 100, 55, 5, 0, 18, 10, 0];
+  const colors = rates.map(r => r >= 90 ? '#4ade80' : r >= 50 ? '#facc15' : '#ef4444');
+
+  Plotly.newPlot('parseRateBar', [{
+    x:cfgNames,y:rates,type:'bar',marker:{color:colors},
+    text:rates.map(r=>r+'%'),textposition:'outside',textfont:{color:'#ccc',size:10}
+  }],{
+    paper_bgcolor:'#0d0d0d',plot_bgcolor:'#0d0d0d',
+    font:{color:'#ccc',size:11},
+    yaxis:{title:'Strict Parse Success %',range:[0,110],gridcolor:'#222'},
+    xaxis:{tickangle:-30},
+    margin:{b:100,t:30},
+    showlegend:false
+  },{responsive:true});
+}
+</script>
+</body>
+</html>

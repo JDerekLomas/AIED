@@ -1,0 +1,13 @@
+This question specifically tests the understanding of **Order of Operations (BIDMAS/BODMAS)**. 
+
+The left-hand side ($8 + 12 \div 4$) requires division before addition: $8 + 3 = 11$. 
+The right-hand side ($(8 + 12) \div 4$) requires the operation inside brackets first: $20 \div 4 = 5$. 
+Since $11 > 5$, the answer is **A**.
+
+**Teacher's Analysis:**
+The most common error for students is working strictly from left to right on the first expression. A student doing this would calculate $(8+12) \div 4$, which equals 5. They would then see $5 = 5$ and choose **C**. Because both sides use the same numbers in the same order, the visual "balance" of the question strongly tempts weaker students toward the "equals" sign. "Basic" students often over-apply the idea that brackets change nothing if the numbers are the same, or they simply fail to apply BIDMAS on the left side. "Advanced" students will rarely miss this, as BIDMAS is foundational for them.
+
+below_basic: A=30% B=15% C=50% D=5%
+basic: A=55% B=10% C=30% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing the compound inequality -5 < 2x + 1 < 5.
+
+Solution path: Subtract 1 from all parts -> -6 < 2x < 4 -> divide by 2 -> -3 < x < 2 (B).
+
+This item tests whether students can apply inverse operations in the context of a compound inequality. The compound inequality format is an important consideration - many students may have practiced solving single inequalities but may be less comfortable with the "sandwiched" form where operations must be applied to three expressions simultaneously.
+
+Looking at the calibration set for anchoring:
+- The easiest item (p+10=-5, classical diff 0.167) is a single-step equation solve.
+- The hardest (2n+3 <= 3n-7, classical diff 0.569) requires rearranging with variable on both sides.
+
+This compound inequality requires two algebraic steps but applied uniformly to three parts. It doesn't have the complexity of variables on both sides, but the triple structure is novel and demanding. Students in KS3/KS4 typically encounter compound inequalities in Year 10-11, making it age-appropriate but on the challenging side.
+
+The distractors include plausible errors: C (-2 < x < 2) is especially tempting as it's close to the correct answer, differing only on the lower bound. D (-3.5 < x < 1.5) could catch students who subtract rather than divide. A (-9 < x < 11) catches students who multiply instead of divide.
+
+I estimate this is moderately hard - around 0.50-0.60 classical difficulty. The discrimination should be decent since this cleanly separates students who understand inverse operations from those who don't. Some guessing is possible since students might eliminate A as implausible.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.65</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

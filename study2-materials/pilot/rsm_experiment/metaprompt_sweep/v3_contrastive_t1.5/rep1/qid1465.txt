@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and basic directed numbers. 
+
+The primary "trap" is the order of operations: $4 \times 2$ must be performed first ($8$). Then, $3 - 5 + 8$. The secondary trap is the "Addition before Subtraction" misconception (the 'AS' in BODMAS), where students wrongly believe they must add $5+8$ or $5+4$ before subtracting.
+
+*   **Option A ($6$):** Correct. $4 \times 2 = 8$, then $3 - 5 + 8 = -2 + 8 = 6$.
+*   **Option B ($4$):** Incorrect Order + Calculation error. Many students do $3-5 = -2$, then add $4 \times 2 = 6$, resulting in $4$.
+*   **Option C ($-12$):** Common misconception. Students do $3-5+8$ as $3-(5+8) = 3-13 = -10$, but here they often treat the $+4$ as part of the multiplication first and somehow arrive at $-12$ via $(3-5+4) \times 2 = 2 \times 2 = 4$ or other variations involving bracket misplacement.
+*   **Option D ($-10$):** High-frequency error. Students perform $4 \times 2 = 8$, but then do $3 - (5 + 8) = 3 - 13 = -10$, following the letters of BIDMAS literally (Addition before Subtraction).
+
+The presence of the negative $3-5$ makes this harder than a standard year 7 problem.
+
+below_basic: A=20% B=25% C=20% D=35%
+basic: A=45% B=15% C=10% D=30%
+proficient: A=75% B=5% C=5% D=15%
+advanced: A=95% B=1% C=1% D=3%

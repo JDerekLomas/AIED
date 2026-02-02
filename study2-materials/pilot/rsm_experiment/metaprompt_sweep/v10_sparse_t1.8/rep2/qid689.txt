@@ -1,0 +1,35 @@
+As a UK maths teacher, I would categorize this as a "low floor, high ceiling" diagnostic question. The common misconception lies in the order of division and the "inverse operation" shortcut that many students misapply.
+
+Here is the prediction of student responses based on UK standard ability levels (KS3/KS4):
+
+**below_basic:** 
+*Most students at this level struggle with fractions and algebra. Many will see '10' and '5' and perform a simple multiplication (incorrectly thinking the inverse of division is always multiplication, regardless of the position of the variable) or simply choose at random.*
+**A=15% B=55% C=20% D=10%**
+
+**basic:**
+*These students are the most likely to fall for the "10 divided by 5" trap. They recognize that $p$ is involved in a division, so they perform $10 \div 5$ to get 2. They have a "computational" view of the equals sign rather than an algebraic one.*
+**A=25% B=30% C=40% D=5%**
+
+**proficient:**
+*These students are starting to grasp formal algebraic manipulation. However, a significant portion will still instinctively perform $10 \div 5$. Those who use a formal method (multiplying both sides by $p$) are much more likely to arrive at the correct answer.*
+**A=45% B=15% C=38% D=2%**
+
+**advanced:**
+*Advanced students recognize that if $10 = 5/p$, then $p$ must be $5/10$. They have high fluency with reciprocals and are unlikely to make the common error of dividing the larger number by the smaller one by default.*
+**A=85% B=2% C=12% D=1%**
+
+---
+
+### Summary Table
+
+| Level | A (Correct) | B ($10 \times 5$) | C ($10 \div 5$) | D (Confusion) |
+| :--- | :--- | :--- | :--- | :--- |
+| **below_basic** | 15% | **55%** | 20% | 10% |
+| **basic** | 25% | 30% | **40%** | 5% |
+| **proficient** | **45%** | 15% | 38% | 2% |
+| **advanced** | **85%** | 2% | 12% | 1% |
+
+### Teacher's Note on Distractors:
+*   **B ($p=50$):** This is the classic "I see a fraction, I must multiply" error. Common among students who have been taught "tricks" without understanding the underlying balance of an equation.
+*   **C ($p=2$):** The most common error for middle-ability students. It is caused by the intuitive but incorrect logic that "the answer is the result of dividing the numbers visible in the question" ($10 \div 5$).
+*   **A ($p=0.5$):** Requires the student to correctly rearrange the equation to $10p = 5$ and then $p = 5/10$.

@@ -1,0 +1,25 @@
+Let me think through the common errors for this sphere volume question.
+
+The correct formula is V = (4/3)πr³, so solving for r gives r = ∛(3V/4π), which is option C.
+
+**Error analysis:**
+
+**Option A: ∛(4Vπ/3)** - This comes from incorrectly rearranging V = (4/3)πr³ as r³ = (4Vπ/3). Students multiply V by the entire coefficient (4π/3) instead of dividing by it.
+
+**Option B: ∛(4V/3π)** - This comes from V = (4/3)πr³ → r³ = V÷(4/3π) but treating division by a fraction incorrectly, getting (4V/3π) instead of (3V/4π).
+
+**Option C: ∛(3V/4π)** - This is correct: V = (4/3)πr³ → r³ = 3V/4π → r = ∛(3V/4π)
+
+**Option D: (3∛V)/(4π)** - This comes from incorrectly taking the cube root: ∛(3V/4π) = (3∛V)/(4π), forgetting that ∛(a/b) ≠ (∛a)/(b).
+
+**Attractiveness of errors:**
+- Option A feels natural when panicking about algebraic manipulation
+- Option B is a very common fraction division error
+- Option D looks sophisticated and could fool students who know some cube root rules
+
+**Ability level predictions:**
+
+below_basic: A=25% B=30% C=15% D=30%
+basic: A=20% B=25% C=35% D=20%
+proficient: A=10% B=15% C=65% D=10%
+advanced: A=5% B=5% C=85% D=5%

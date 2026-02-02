@@ -1,0 +1,44 @@
+<chain_of_thought>
+This item asks students to identify which of four calculations equals -20. It tests the misconception that multiplying two negatives gives a negative answer.
+
+Let me compute each option:
+A) 2×(-2) - (-4)×4: Do multiplications first: -4 and -16. Then -4-(-16) = -4+16 = 12.
+B) -28 - (-4)×2: Multiplication first: -8. Then -28-(-8) = -28+8 = -20. This is correct.
+C) (-5)^2 + 5: 25 + 5 = 30.
+D) (-42)÷(-2) + 1: 21 + 1 = 22.
+
+Now considering how the misconception affects answers:
+- For C: if student thinks (-5)^2 = -25 (very common error), they get -25+5 = -20. Strong attractor.
+- For D: if student thinks negative÷negative = negative, they get -21+1 = -20. Strong attractor.
+- For A: under various misconceptions, 2×(-2)=-4 and if (-4)×4 is computed as 16 (correctly positive but student might think it's -16 wait no...). Actually, option A has (-4)×4 which is one negative times one positive = negative, so the misconception about two negatives doesn't directly apply here. A is the weakest distractor for this specific misconception.
+
+This is a well-constructed diagnostic item. The key feature is that two distractors (C and D) yield exactly -20 when the target misconception is applied, making them very effective at identifying students with this specific misunderstanding.
+
+Thinking about difficulty relative to calibration items: the factorising item with the same misconception had classical difficulty 0.473 and IRT b = 0.404. This item requires more raw computation but is conceptually simpler (no algebra). The strong distractors should make it comparably difficult. I'll estimate around 0.50 classical difficulty.
+
+For discrimination, the item should discriminate reasonably well because the misconception creates systematic errors. But since students must evaluate all four options (high cognitive load), some able students may make careless arithmetic errors, slightly reducing discrimination. I estimate a moderate discrimination around 1.2.
+
+Guessing: With two very plausible distractors designed around the misconception, random guessing probability should be close to 0.25 for true random but the systematic attraction of C and D means effective guessing is lower - students with the misconception will consistently choose C or D rather than guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

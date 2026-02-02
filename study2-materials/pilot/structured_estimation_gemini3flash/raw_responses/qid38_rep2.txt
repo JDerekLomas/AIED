@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item asks students to add two algebraic fractions: \(\frac{3}{2x} + \frac{4}{x}\). 
+To solve this correctly, a student must find a common denominator (typically \(2x\)). 
+Step 1: Recognize the denominators are \(2x\) and \(x\).
+Step 2: Convert \(\frac{4}{x}\) to \(\frac{8}{2x}\) by multiplying numerator and denominator by 2.
+Step 3: Add the numerators: \(3 + 8 = 11\).
+Step 4: Keep the denominator as \(2x\), resulting in \(\frac{11}{2x}\) (Option A).
+
+Distractor Analysis:
+- Option B (\(\frac{7}{3x}\)): Adds numerators (\(3+4=7\)) and adds denominators (\(2x+x=3x\)). This is the classic "add across" misconception for fractions, extended to algebra.
+- Option D (\(\frac{7}{2x}\)): Adds numerators (\(3+4=7\)) but keeps one of the denominators (or forgets to scale the numerator of the second fraction).
+- Option C (\(\frac{11}{x}\)): Correctly scales the numerator but loses the '2' in the denominator, or perhaps scales both to \(x\) incorrectly.
+
+Psychometric considerations:
+Algebraic fractions are generally introduced in the UK curriculum at Higher Tier GCSE (ages 14-16), though basic versions appear earlier. This specific item is moderately difficult because it combines fraction arithmetic with algebraic notation. The "add across" misconception is very strong in this age group. Based on the calibration items, items involving algebraic manipulation often have IRT difficulties in the 0.0 to 1.0 range. The "add across" error is highly attractive, which usually lowers the classical difficulty (proportion correct).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

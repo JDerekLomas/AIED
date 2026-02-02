@@ -1,0 +1,33 @@
+To predict the percentage of students at each ability level who chose each option, let's analyze the question and the potential pitfalls.
+
+The question is: Given \( T = k^4 \), what is the value of \( T \) when \( k = -3 \)?
+
+## Step 1: Understand the correct calculation
+To find \( T \) when \( k = -3 \), we substitute \( k \) into the equation: \( T = (-3)^4 \). According to the rules of exponents, \( (-a)^n = a^n \) when \( n \) is even. Therefore, \( (-3)^4 = 3^4 = 81 \). This means the correct answer is A) \( 81 \).
+
+## 2: Identify potential calculation errors leading to wrong answers
+- Option B) \( 12 \): This could result from a miscalculation or incorrect application of exponent rules, but it's not directly related to a common error with this specific problem.
+- Option C) \( -81 \): This might occur if a student mistakenly applies the rule \( (-a)^n = -a^n \) when \( n \) is even, which is incorrect. The correct application for even \( n \) yields a positive result.
+- Option D) \( -12 \): Similar to option B, this doesn't directly follow from a simple mistake in calculating \( (-3)^4 \) but could result from incorrectly calculating \( -3 \times -3 \times -3 \times -3 \) as \( -3 \times 4 \) or similar incorrect operations.
+
+## 3: Analyze common mistakes
+A common mistake for students who are not proficient would be to calculate \( T = (-3)^4 \) as \( -3 \times -3 \times -3 \times -3 \) but mistakenly think it equals \( -81 \) because they might ignore the even number of negative multiplications, or they calculate \( -3^4 \) directly, which equals \( -81 \) but that's not what the question states.
+
+## 4: Consider the ability levels
+- **Below Basic**: Students at this level might not fully understand exponent rules or might make basic arithmetic mistakes. They might choose C) \( -81 \) because they see \( -3 \) and think the power of 4 directly applies to the negative sign, not realizing \( (-3)^4 \) is positive.
+- **Basic**: Students here understand basic algebra but might make careless mistakes. They are likely to choose A) \( 81 \) if they apply the rule correctly but could fall into traps like choosing C) \( -81 \) if they misunderstand the exponent rule.
+- **Proficient**: These students understand algebraic concepts well and are likely to choose A) \( 81 \) unless they make a careless error. They might have a lower chance of choosing incorrect options based on misunderstanding exponent rules.
+- **Advanced**: These students not only understand the concepts well but are also less likely to make simple mistakes. They will almost certainly choose A) \( 81 \).
+
+## 5: Estimate the percentages
+Based on typical student performance:
+- **Below Basic**: A=40% (those who guess or partially understand), B=10%, C=40% (those who mistakenly think \( (-3)^4 = -81 \)), D=10%.
+- **Basic**: A=70%, B=5%, C=20%, D=5%.
+- **Proficient**: A=90%, B=2%, C=6%, D=2%.
+- **Advanced**: A=98%, B=1%, C=1%, D=0%.
+
+The final answer is: 
+below_basic: A=40% B=10% C=40% D=10%
+basic: A=70% B=5% C=20% D=5%
+proficient: A=90% B=2% C=6% D=2%
+advanced: A=98% B=1% C=1% D=0%

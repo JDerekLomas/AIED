@@ -1,0 +1,37 @@
+In this context, the student is being asked to find the value of $y$ when $x = 0$ for the linear equation $4x + 2y = 10$.
+
+Here is an analysis of a specific common misconception for this task:
+
+### 1. The Misconception: "Operation Detachment" (Specifically: Treating Coefficients as Units)
+The specific bug is the **detachment of the coefficient from its variable**, combined with a **misinterpretation of the equals sign**. In this error, a student sees the components of the equation $4x + 2y = 10$ as separate piles of numbers. When told $x = 0$, they don’t see it as "4 times 0," but rather they simply "remove" the $4x$ term entirely and assume the remaining numbers on the left-hand side ($2$ and $y$) must simply sum to the number on the right ($10$).
+
+### 2. Step-by-Step Procedure
+1.  **Substitution phase:** The student reads $x = 0$. They correctly identify that the $4x$ part of the equation "disappears" or "is nothing."
+2.  **Structural collapse:** Instead of seeing $2y$ as an algebraic term meaning $2 \times y$, they view the $2$ as a standalone number that is now "next to" $y$ in a simple addition-based relationship.
+3.  **Calculation phase:** The student simplifies the remaining visual components of the equation to: $2 + y = 10$.
+4.  **Final step:** The student asks, "What do I add to 2 to get 10?" and calculates $10 - 2 = 8$. 
+*Wait—the student checks the options and 8 is not there. They pivot to the next most common structural bug:* **Division without Substitution**. The student ignores $x=0$ entirely and assumes they should simply divide the target ($10$) by the coefficient of $x$ ($4$).
+
+**The specific "Buggy Procedure" leading to Choice C is: "Ignoring the $y$ variable and solving for $x$-intercept as $10 \div 2$."**
+
+1.  **Step 1:** The student substitutes $x = 0$, leaving $2y = 10$.
+2.  **Step 2:** They recognise that they need to divide 10 by one of the numbers.
+3.  **Step 3:** Instead of dividing 10 by the coefficient of $y$ (which is 2), they are momentarily confused by the $2$ and $4$ and the $y$ symbol.
+4.  **Step 4:** They identify the "y" value as the constant term when $x$ is eliminated, but misapply the division. They think "10 divided by the number of variables" or "10 divided by the number in the $x$ position."
+
+**Actually, the most common Year 9 bug leading to C is the "Equation Half-Life" bug:**
+1. **Step 1:** Plug in $x = 0$, making the term $4x$ vanish.
+2. **Step 2:** Look at the remaining part: $2y = 10$.
+3. **Step 3:** Conclude that the "answer" to the table must be the result of the expression $10 \div 2$.
+4. **Step 4:** Result $= 5$.
+
+### 3. Answer Option
+This leads to **Option C (5)**.
+
+*(Note: Option C is the correct answer. In pedagogy, we often look for "The Variable Switch" bug where a student solves for $x$ instead of $y$, leading to Option D ($2.5$). If the student does $10 \div 4$, they get $2.5$.)*
+
+### 4. Attractiveness of the Error
+The "Switching Variables" error (Option D) is **highly attractive and often goes unnoticed.** 
+A Year 9 student often perceives a "Table of Values" task as a repetitive process of division. If they have a "division-first" mentality, they may look at the equation and simply perform $10 \div 4$ because 4 is the first number they see, or $10 \div 2$ because it "goes into it" more cleanly. 
+
+Because **Option C (5)** is the correct mathematical answer, a student who arrives here using a "Buggy Procedure" (like guessing that they just need to divide the total by the $y$-coefficient without understanding substitution) will feel **highly confident.** They would not realize they went wrong because their answer matches a provided option, reinforcing the incorrect logic

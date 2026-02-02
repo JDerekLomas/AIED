@@ -1,0 +1,45 @@
+<chain_of_thought>
+The target item is: -4 + (-5) x 3 = ?
+
+The correct answer is D: -19. To solve correctly, a student must apply order of operations (BIDMAS/BODMAS), computing (-5) x 3 = -15 first, then -4 + (-15) = -19.
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student with this misconception would compute -4 + (-5) = -9 first, then -9 x 3 = -27, selecting answer B.
+
+Let me analyze each distractor:
+- A (27): This would come from ignoring the negative signs and doing left-to-right: 4+5=9, 9x3=27. Plausible for students with both sign errors and order-of-operations errors.
+- B (-27): Left-to-right with correct signs: -4+(-5)=-9, -9x3=-27. This is the primary misconception trap.
+- C (-11): This could arise from computing -4 + (-5) + (-3) or some other partial error, perhaps treating x3 as +3 somehow, or computing (-5)x3=-15 then doing -4-(-15)=-4+15=11... less clear. Or maybe -4+(-5)-3+1? Actually: if a student does (-5)x3=15 (losing the negative) then -4+15=11, but that gives +11 not -11. Or if they do -4+(-5)+(-3)=-12, not -11 either. Actually -4+(-5)x3 where they get (-5)x3=-15 but then do -4-(-15)... no. Let me reconsider: maybe -4+(-5)=-9, then misread x3 as... hmm. Or perhaps a student computes (-5)x3 as -15, but then does |-4|+|-15|=19 wrong somehow. Actually -11 could come from -4+(-5)=-9 then -9+(-2)=-11? That's odd. More likely -4+(-5)x3 where someone gets (-5)x3=-7 (adding instead of multiplying?) giving -4+(-7)=-11. Actually, simplest: student knows BIDMAS, computes 5x3=15, then does -4+(-15) but makes an error: -4-15... wait that is -19. Hmm. -11 = -4 + (-5) + (-2)? I think -11 might come from -4 + 5 x 3 = -4+15 = 11, then applying negative = -11. Or some partial approach. It's a weaker distractor.
+- D (-19): Correct.
+
+Comparing to calibration item 2 (0.4 - 1/5 x 3), which tests the same misconception with classical difficulty 0.134 and IRT b = -0.245. That item involves decimals and fractions which adds complexity, but the current item involves negative numbers which is also tricky. The current item is arguably slightly easier conceptually but the negative numbers could confuse students.
+
+The distractor B is very strong -- it's the direct result of the most common misconception. This should make the item moderately difficult.
+
+Given the calibration, I'd estimate this item is somewhat similar in difficulty to the order-of-operations calibration item, perhaps slightly harder because negative number arithmetic adds confusion. I'll estimate classical difficulty around 0.20-0.25, IRT difficulty around -0.1 to 0.1.
+
+Discrimination should be good since the item cleanly separates students who know BIDMAS from those who don't. I'll estimate around 1.3-1.5.
+
+Guessing should be low since there are clear computational paths to each answer.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.42</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

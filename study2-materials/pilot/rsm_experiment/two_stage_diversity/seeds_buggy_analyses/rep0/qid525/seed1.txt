@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified a prevalent procedural error that occurs frequently at Key Stage 3 (UK Year 9) when dealing with fractions.
+
+### 1. The Specific Misconception: "Independent Integer and Component-wise Addition"
+This misconception involves treating the whole numbers and the fractions as two entirely separate entities that do not interact. Specifically, the student applies a **"Common Denominator Failure"** or **"Add Across"** strategy. In this bug, the student adds the two whole numbers correctly but then adds the numerators together and the denominators together (e.g., $\frac{a}{b} + \frac{c}{d} = \frac{a+c}{b+d}$) rather than finding a common denominator.
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would approach the calculation $2 \frac{7}{10} + 2 \frac{1}{4}$ as follows:
+
+1.  **Step 1 (Add Whole Numbers):** Look at the integers $2$ and $2$. Calculate $2 + 2 = 4$.
+2.  **Step 2 (Add Numerators):** Look at the fractions $\frac{7}{10}$ and $\frac{1}{4}$. Add the top numbers together: $7 + 1 = 8$.
+3.  **Step 3 (Add Denominators):** Look at the bottom numbers. Add them together: $10 + 4 = 14$.
+4.  **Step 4 (Combine):** Place the fractional result next to the integer result to form the mixed number: $4 \frac{8}{14}$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: $4 \frac{8}{14}$**.
+
+### 4. The Attractiveness of the Error
+This is one of the most "natural" errors in secondary mathematics for several reasons:
+
+*   **Consistency with Multiplication:** When students multiply fractions, they *do* multiply across ($\frac{a \times c}{b \times d}$). The student incorrectly assumes that addition follows this same intuitive horizontal symmetry.
+*   **Intuition over Rigour:** It feels logical to the student that "7 parts out of 10" and "1 part out of 4" results in "8 parts out of 14 total parts." It mirrors how we might describe scores in a game (e.g., getting 7/10 in round one and 1/4 in round two equals 8/14 overall).
+*   **Avoidance of "Hard" Steps:** Finding the Lowest Common Multiple (20) and converting the fractions requires significant cognitive load. This buggy procedure allows the student to bypass the "difficulty" of common denominators while still producing an answer that looks like a valid mixed number.
+
+**Would the student realize?** Almost certainly not. Because the integer part ($2+2=4$) is correct and the answer is formatted as a mixed number (as requested), the student feels a false sense of success. Without the "number sense" to realize that $\frac{7}{10}$ is more than a half, and therefore the total should be closer to 5, the answer $4 \frac{8}{14}$ looks perfectly plausible to them.

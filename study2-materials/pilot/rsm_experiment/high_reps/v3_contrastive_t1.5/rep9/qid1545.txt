@@ -1,0 +1,16 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it looks straightforward, it specifically targets a student's tendency to perform operations from left to right regardless of priority.
+
+The left-hand side ($8 + 12 \div 4$) requires division first: $8 + 3 = 11$.
+The right-hand side ($(8 + 12) \div 4$) requires brackets first: $20 \div 4 = 5$.
+Since $11 > 5$, the correct answer is **A**.
+
+**Teacher Analysis:**
+*   **Below Basic:** Many students will calculate the left side as $(8+12) \div 4 = 5$ by reading left-to-right, leading them to think both sides are equal (Option C). Others will guess randomly.
+*   **Basic:** These students often know the rules of BIDMAS but forget to apply them when the "easy" sum $8+12$ appears first. However, the presence of brackets on the right usually acts as a "hint" that the two sides might be different. 
+*   **Proficient:** These students almost always apply BIDMAS correctly on the left and see the brackets on the right as a distinct instruction. They should find this easy.
+*   **Advanced:** These students will identify the structure immediately without needing to perform the full calculation (noticing that the right side divides the whole sum while the left only divides the second term).
+
+below_basic: A=25% B=15% C=50% D=10%
+basic: A=55% B=10% C=30% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

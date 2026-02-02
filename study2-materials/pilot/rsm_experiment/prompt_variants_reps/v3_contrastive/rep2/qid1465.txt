@@ -1,0 +1,22 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and directed number arithmetic. 
+
+The primary "trap" is the order of operations: $4 \times 2$ must be performed first ($8$), resulting in $3 - 5 + 8$. Many students at lower ability levels will work strictly from left to right, calculated as $(3-5)+4 \times 2 = -2+4 \times 2 = 2 \times 2 = 4$ (Option B). 
+
+However, the most common error in UK classrooms involves a misunderstanding of the "Addition before Subtraction" rule in BIDMAS. Some students mistakenly believe addition *must* happen before subtraction because 'A' comes before 'S'. They calculate $5+4=9$, then $3-9 = -6$, which is not an option, or more commonly they include the multiplication first but then add before subtracting: $3 - (5+8) = -10$ (Option D). Option A is the correct answer: $3-5+8 = 6$. Option C is a result of $3-5 = -2$, then $-2+4=2$, $2 \times 2 = 4$... but a different sign error or $(3-5+4) \times 2 = 2 \times 2 = 4$. Option C likely captures those who do $3-(5+4) \times 2 = 3 - 18 = -15$ or similar heavy arithmetic errors.
+
+**below_basic: A=25% B=35% C=10% D=30%**
+Students at this level almost always work left-to-right (B) or fall into the "Addition must come before Subtraction" trap (D).
+
+**basic: A=45% B=20% C=5% D=30%**
+Students here know to multiply first, but a significant portion will still apply the "Addition before Subtraction" rule (D), which is one of the most persistent misconceptions in Key Stage 3 and 4.
+
+**proficient: A=85% B=5% C=2% D=8%**
+Most proficient students understand that Addition and Subtraction have equal priority and should be done left-to-right. A small number will still fall for the BIDMAS "A before S" literal interpretation.
+
+**advanced: A=98% B=1% C=0% D=1%**
+Errors here are almost exclusively due to haste rather than a lack of conceptual understanding.
+
+below_basic: A=25% B=35% C=10% D=30%
+basic: A=45% B=20% C=5% D=30%
+proficient: A=85% B=5% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%

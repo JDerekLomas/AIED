@@ -1,0 +1,50 @@
+<chain_of_thought>
+Let me work through this item carefully.
+
+The question asks students to find x when y = 0.5 in the equation 10x - 6y = 30.
+
+Correct solution path:
+1. Substitute y = 0.5: 10x - 6(0.5) = 30
+2. Simplify: 10x - 3 = 30
+3. Add 3 to both sides: 10x = 33
+4. Divide by 10: x = 3.3
+
+So C is correct.
+
+Now let me analyze the distractors:
+- D (2.7): This comes from adding 6(0.5) instead of subtracting, i.e., treating -6y as +6y or using the same operation rather than the inverse. 10x + 3 = 30 gives 10x = 27, x = 2.7. This directly tests the stated misconception.
+- A (4.25): Could arise from misreading or a different computational error, perhaps 10x = 6(0.5) + 30 = 33, then dividing incorrectly, or from some other path. Actually 42.5/10 = 4.25 which could come from 10x - 6(0.5) = 30 being rearranged as 10x = 30 + 6 + 0.5*25... not obvious. More likely a distractor designed to catch a different error pattern.
+- B (-4.25): Negative version suggesting sign confusion combined with the error above.
+
+This item requires substitution into a linear equation and then solving for x - a multi-step algebraic process. The table format adds a small layer of interpretation. Students need to know how to substitute, multiply decimals, and solve a two-step equation.
+
+Comparing to calibration items:
+- The equation-solving items range from b = -0.702 (easy, p_incorrect = 0.167) to b = 0.808 (harder, p_incorrect = 0.569).
+- This item involves substitution into a two-variable equation plus solving, which adds complexity beyond simple one-variable equations. The decimal arithmetic adds cognitive load.
+- The table presentation is somewhat non-standard, adding transfer distance.
+- I'd estimate this is moderately difficult, similar to the factorising item or the inequality item. Perhaps around 45-55% incorrect.
+
+The misconception (using same operation rather than inverse) is well-tested and common, appearing in multiple calibration items. Distractor D should be quite attractive to students who make this error.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

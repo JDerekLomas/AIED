@@ -1,0 +1,80 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks students to convert the expression 2 ÷ (3 + a × b) into proper algebraic notation (fraction form).
+
+First, let me understand what the correct answer should be:
+- The expression is 2 ÷ (3 + a × b)
+- Following order of operations (BIDMAS/BODMAS), inside the parentheses: a × b is done first, then +3
+- So the denominator is (ab + 3) or equivalently (3 + ab)
+- The answer should be 2/(ab + 3) which is option C: 2/(ab+3)
+
+Now let me analyze each distractor:
+- A) 2/3 + ab: This would result from ignoring the parentheses entirely and doing operations left to right: 2÷3 first, then treating +a×b separately
+- B) 2/(b(a+3)): This suggests doing 3+a first, then multiplying by b - which is left-to-right within the parentheses
+- C) 2/(ab+3): CORRECT - multiplication before addition in the denominator
+- D) 2/(a×b+3): This is actually mathematically equivalent to C, but uses × symbol instead of juxtaposition. The question asks for "correct algebraic convention" - in algebra, we typically write ab not a×b
+
+Wait, this is interesting. D is mathematically correct but doesn't follow algebraic convention (implicit multiplication). So the question is testing both order of operations AND algebraic notation conventions.
+
+The misconception tested is "Carries out operations from left to right regardless of priority order" - this would lead students to choose B (doing 3+a first, then ×b).
+
+Comparing to calibration items:
+- The calibration item with the same misconception (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT difficulty -0.245
+- This current item seems more complex because it involves algebra and understanding both BIDMAS and algebraic conventions
+
+The question requires:
+1. Understanding order of operations
+2. Understanding division as fraction notation
+3. Understanding algebraic convention (ab vs a×b)
+
+The distractors are quite plausible:
+- A targets students who ignore parentheses
+- B targets the specific misconception (left-to-right within parentheses)
+- D is a trap for students who understand order of operations but don't know algebraic convention
+
+This adds complexity because even students who understand BIDMAS might choose D if they don't realize algebraic convention prefers implicit multiplication.
+
+Let me rate the dimensions:
+- Concept complexity: Involves BIDMAS, fraction notation, algebraic conventions - moderate (5)
+- Procedural steps: Identify operations, apply BIDMAS, convert to fraction, check convention - about 3-4 steps (4)
+- Abstraction level: Working with variables, abstract notation (6)
+- Prerequisite knowledge: BIDMAS, fraction notation, algebraic conventions (5)
+- Distractor plausibility: All distractors target specific errors, D is particularly tricky (7)
+- Misconception strength: Left-to-right is common but the main trap (D) is about convention (6)
+- Question clarity: Clear what's being asked (8)
+- Cognitive load: Multiple things to track (5)
+- Age appropriateness: Suitable for KS3/KS4 (9)
+- Transfer distance: Slightly unusual format - converting arithmetic to algebra (5)
+- Visual complexity: Multiple fractions to compare (5)
+- Solution uniqueness: Need to fully understand to distinguish C from D (7)
+
+For predictions:
+- This seems moderately difficult due to the D distractor being mathematically equivalent but notationally incorrect
+- Classical difficulty: probably around 0.35-0.45
+- IRT difficulty: around 0.2-0.4
+- Discrimination: should be reasonable as it tests specific understanding (1.2-1.4)
+- Guessing: low, as there's specific reasoning needed (0.1)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

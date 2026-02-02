@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I will analyze the specific "bug" associated with this problem.
+
+### 1. The Specific Misconception: Partial Distribution (Selective Multiplication)
+The specific procedural error is **Partial Distribution** (or "incomplete balance"). This occurs when a student knows they must perform an inverse operation (multiplying by 3 to eliminate the fraction) but applies that operation only to terms they perceive as "connected" to the denominator, failing to multiply every term on both sides of the equation.
+
+In algebraic terms, the student incorrectly assumes that $k(\frac{x}{k} + a) = x + a$, rather than the correct $x + ka$.
+
+### 2. Step-by-Step Student Working
+A student with this misconception would look at Katie's suggestion and validate it using the following logic:
+1.  **Goal:** "I want to get rid of the divide-by-3 under the $x$."
+2.  **Action:** "The opposite of divide is multiply, so I will multiply by 3."
+3.  **Application (The Error):** They multiply the $\frac{x}{3}$ by $3$ to get $x$. They then look at the $= 12$ and multiply that by $3$ to get $36$.
+4.  **The Oversight:** They view the $-5$ as an independent entity or a "middle man" that isn't part of the fraction, so they simply bring it down without change.
+5.  **Result:** They produce the line $x - 5 = 36$.
+6.  **Conclusion:** Because they also recognize that Tom’s step (adding 5 to both sides first) is a valid "Standard Algorithm," they conclude that **both** students have found different but correct ways to start.
+
+### 3. Which Answer Option?
+This misconception leads the student to **Option C (Both Tom and Katie)**.
+
+A student without the misconception would realize Katie is wrong because she failed to multiply the $-5$ by $3$ (which should have resulted in $x - 15 = 36$). However, a Year 9 student struggling with the distributive property of equality will see Katie's working as a shortcut to "clearing the fraction."
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and natural** because it mimics the "Isolated Action" logic many students use in lower-level algebra. 
+*   **Visual grouping:** Students often visually "pair" the denominator $3$ only with the $x$ directly above it. They do not see the entire left-hand side $(x/3 - 5)$ as a single expression to be scaled.
+*   **Ease of use:** $x - 5 = 36$ "looks" like a simpler version of the original equation, making it feel like progress has been made.
+*   **Lack of feedback:** The student would **not** realize they went wrong. To them, they followed the "Golden Rule" of algebra (doing the same thing to both sides) because they multiplied the left (the fraction part) and the right (the 12). They simply fail to realize that the "side" is the entire sum of terms, not just the specific term they want to change.

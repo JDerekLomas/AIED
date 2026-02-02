@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified a specific error common among students who struggle with the algebraic manipulation of fractions and reciprocal operations.
+
+### 1. The Specific Misconception: "The Coefficient Flip Bug"
+The misconception is a **procedural error in multiplying by the reciprocal**. Students often correctly identify the formula $V = \frac{4}{3}\pi r^3$ but fail to understand that when moving a fraction to the other side of an equation, you must multiply by its reciprocal. Instead, they treat the numerator and denominator as separate "attachments" and mistakenly move the denominator as a multiplier to the $r^3$ side rather than the $V$ side.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would likely follow these steps:
+
+1.  **State the formula:** The student correctly writes $V = \frac{4}{3}\pi r^3$.
+2.  **Attempt to isolate $r$:** The student sees the fraction $\frac{4}{3}$. In their mind, the "4" and "$\pi$" are "on top" and the "3" is "on bottom."
+3.  **The Algebraic Error:** Instead of multiplying both sides by $3$ and dividing by $4$, the student performs a "horizontal slide." They move the $4$ and the $\pi$ to join the $V$ on the left, but leave the $3$ in its relative position (or mistakenly multiply the $r^3$ side by it). They conclude that:
+    $V \times 4 \times \pi = \frac{r^3}{3}$ (treating the 4 and $\pi$ as multipliers for V and the 3 as the remaining denominator for $r$).
+4.  **Final Rearrangement:** They then rearrange this to $r^3 = \frac{4V\pi}{3}$.
+5.  **Cube Rooting:** Finally, they take the cube root of their result: $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Corresponding Answer
+This specific procedural bug leads the student directly to **Option A**: $\sqrt[3]{\frac{4 V \pi}{3}}$.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "natural" to a Year 9 student for three reasons:
+
+*   **Visual Association:** Many students don't view the formula as $V = (\frac{4\pi}{3})r^3$. They see it as $V = \frac{4\pi r^3}{3}$. To "solve" it, they simply strip away the numbers from the $r$. Option A includes all the "ingredients" ($4, V, \pi, 3$) in a way that looks like the original formula was simply "flipped upside down."
+*   **The "Multiplying is easier than Dividing" bias:** Students have a subconscious preference for multiplication. Placing $4$ and $\pi$ in the numerator feels more "correct" than placing them in the denominator, which makes the expression look "messier."
+*   **False Confidence:** Because the student successfully identifies the need for a cube root and involves all the constants, they feel they have completed a sophisticated multi-step process. They are unlikely to realize they are wrong unless they check their units or test the formula with a numerical value, which Year 9 students rarely do during multiple-choice questions.

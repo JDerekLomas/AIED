@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item requires substituting k = -3 into T = k^4 and evaluating. The correct answer is A (81).
+
+Let me think about what makes this item tick. The key knowledge being tested is whether students understand that raising a negative number to an even power yields a positive result. (-3)^4 = (-3)(-3)(-3)(-3). You can group this as [(-3)(-3)] * [(-3)(-3)] = 9 * 9 = 81.
+
+The misconception "believes multiplying two negatives gives a negative answer" is somewhat imprecisely stated here -- really the issue is that students don't track the sign through four multiplications. They may think "negative number to any power stays negative." This is a very persistent misconception, especially at KS3/KS4.
+
+Comparing to the calibration anchor with the same misconception (Tom/Katie factorising, difficulty 0.473): that item requires understanding factorisation AND checking signs of products, which is harder conceptually. But the exponent 4 is higher than what students typically see (they usually practice with squares and cubes), which could make this slightly tricky.
+
+Distractors B (12) and D (-12) suggest multiplying -3 by 4 rather than raising to the 4th power -- a confusion between exponentiation and multiplication. This is also a common error, especially among weaker students.
+
+I think this item is moderate in difficulty. The straightforward substitution and clear question format make it accessible, but two distinct misconceptions are being probed (sign errors and operation confusion). I'll estimate about 40% get it wrong.
+
+For discrimination: the item should discriminate well because it cleanly separates students who understand negative exponentiation from those who don't. I'd estimate around 1.2-1.4.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

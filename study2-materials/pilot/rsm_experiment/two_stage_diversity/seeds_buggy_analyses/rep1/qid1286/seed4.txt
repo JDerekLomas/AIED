@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error common among UK Year 9 students who are beginning to study **changing the subject of a formula** involving fractions.
+
+### 1. The Specific Misconception: The "Multiplicative Reciprocal Flop"
+This is a specific procedural bug in **algebraic manipulation**. When faced with a formula of the form $V = \frac{4}{3}k$, the student understands they need to "move" the fraction $\frac{4}{3}$ to the other side of the equals sign. However, instead of multiplying by the reciprocal ($\frac{3}{4}$), they incorrectly believe that they should move the numbers based on their visual position or multiply by the fraction exactly as it appears. 
+
+In this case, the student performs **incorrect cross-multiplication**, mistakenly thinking that since 4 is "on top," it should stay on top of the new expression, and because 3 is "on bottom," it moves to the top (or they simply multiply $V$ by the fraction $\frac{4}{3}$ instead of dividing by it).
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would follow these steps:
+
+1.  **Recall the formula:** "I know the volume of a sphere is $V = \frac{4}{3}\pi r^3$."
+2.  **Isolate the variable ($r^3$):** "I need to get $r$ by itself. I have to move the $\frac{4}{3}$ and the $\pi$."
+3.  **The Error:** "To move the $\frac{4}{3}$, I'll multiply $V$ by $4$ and then multiply by $\pi$ as well." (Alternatively, they see the $4\pi$ as a single unit on top and assume it remains on top of the fraction when relocated). They calculate: $4V\pi / 3 = r^3$.
+4.  **Final step:** "Now I just need the cube root." They arrive at $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option A**: $\sqrt[3]{\frac{4 V \pi}{3}}$.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and notoriously "silent." 
+
+*   **Visual Logic:** In Year 9, students are often taught "the 3 goes up, the 4 stays where it is" when rearranging, but they often get the "stays where it is" part backwards. Because $4\pi$ is the "main part" of the sphere formula, they feel it should remain as the numerator. 
+*   **Aesthetic Familiarity:** Option A looks "correct" to a student because $4\pi$ is usually on top in sphere-related geometry. Option C (the correct answer) looks "upside down" to them, which creates cognitive dissonance.
+*   **Lack of Verification:** Unless a student is trained to check their work by substituting a value for $r$ to see if it yields the same $V$, they will have no reason to suspect an error. To them, they have followed the "movement rules" of algebra, even though they applied them in the wrong direction.

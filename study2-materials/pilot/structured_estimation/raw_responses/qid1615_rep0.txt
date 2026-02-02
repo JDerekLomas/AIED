@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to translate a word problem into an algebraic equation. The sequence is: take a number n, subtract 6, then divide by 3, and the result is 21.
+
+The correct equation is (n-6)/3 = 21, which is option A. The key challenge here is understanding order of operations and how grouping (parentheses/fraction notation) affects the meaning.
+
+Let me consider the distractors:
+- Option B: n - 6 / 3 = 21. This is the literal left-to-right reading without proper grouping. Due to BIDMAS, 6/3 would be computed first, giving n - 2 = 21 rather than the intended (n-6)/3 = 21. This directly tests the misconception about left-to-right operation ordering.
+- Option C: 3(n-6) = 21. This multiplies by 3 instead of dividing. A student might confuse "divide by 3" with "multiply by 3."
+- Option D: n/3 - 6 = 21. This reverses the order of operations — divides first, then subtracts. A student who doesn't track the sequence properly would pick this.
+
+Comparing to calibration items: The order-of-operations item (0.4 - 1/5 x 3) had classical difficulty 0.134 and IRT b = -0.245. That item required computation; this item requires translating words to algebra, which is arguably harder because it's more abstract. However, the word problem format is quite standard in UK KS3/KS4 curriculum.
+
+The distractors are reasonably plausible. Option B directly exploits the tested misconception. Option D is also attractive as it represents a common sequencing error. Option C is less plausible but could catch students who confuse multiplication and division.
+
+I'd estimate this is moderate difficulty — harder than the simple equation solving items but not as hard as the factorising or inequality items. Perhaps around 0.30-0.35 classical difficulty (proportion incorrect). The discrimination should be decent since the distractors target specific misconceptions. Guessing should be low since the distractors are meaningfully different.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

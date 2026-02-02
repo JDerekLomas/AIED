@@ -1,0 +1,26 @@
+As an experienced teacher, I have seen this specific type of question cause issues due to the equation being in an implicit form ($ax + by = c$) rather than the explicit $y = mx + c$ that students are more accustomed to.
+
+### Step 1 — Analysis of reasoning
+
+*   **A) 20:** This stems from a "multiplication grab." The student sees the numbers 4, 5, and 0 in proximity or attempts to multiply $4 \times 5$ because they are confused by the substitution process and simply try to combine given digits into a larger number.
+*   **B) 3:** This is the most common "mechanical" error. The student substitutes $x=1$ instead of $x=0$. If $x=1$, then $4(1) + 2y = 10 \Rightarrow 2y = 6 \Rightarrow y = 3$. Students often skip the first column if it contains a 0 because they find 1 "easier" to work with.
+*   **C) 5:** **Correct Reasoning.** The student substitutes $x = 0$ into the equation: $4(0) + 2y = 10$. This simplifies to $2y = 10$. Dividing both sides by 2 gives $y = 5$.
+*   **D) 2.5:** This is a "division error." The student correctly identifies that $x=0$ eliminates the $4x$ term, but then incorrectly divides the coefficient of $x$ by the constant, or the constant by the sum of coefficients ($10 \div 4 = 2.5$), or confuses the relationship between 10, 4, and 2.
+
+---
+
+### Step 2 — Predicted distributions
+
+I have categorized ability levels based on GCSE target grades (Below Basic: 1-2, Basic: 3-4, Proficient: 5-6, Advanced: 7-9).
+
+**below_basic: A=35% B=15% C=25% D=25%**
+*At this level, students often struggle with the concept of "substitution" entirely. They are likely to guess (A) or perform a random division (D). They find 0 a confusing number to substitute.*
+
+**basic: A=10% B=25% C=45% D=20%**
+*These students understand they need to find a value, but frequently make the "Column 2" error (B) by ignoring the 0. Many will find 5 by trial and error ("2 times what equals 10?").*
+
+**proficient: A=2% B=10% C=80% D=8%**
+*Students here are comfortable with the algebraic substitution. Errors usually only occur if they misread the $2y$ as $x$ or rush the calculation. Some might still perform the $10/4$ calculation if they confuse the roles of $x$ and $y$.*
+
+**advanced: A=0% B=2% C=97% D=1%**
+*Advanced students will instantly recognize that when $x=0$, $y$ is simply the y-intercept/constant divided by the y-coefficient. Mistakes are purely due to extreme carelessness/reading the wrong column.*

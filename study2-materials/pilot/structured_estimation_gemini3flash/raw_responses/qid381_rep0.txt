@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item asks students to rearrange the formula for the area of a triangle to make $h$ the subject. 
+1. **Mathematical Analysis**: Starting with $A = \frac{1}{2}bh$, the steps are: multiply by 2 ($2A = bh$), then divide by $b$ ($h = \frac{2A}{b}$).
+2. **Distractor Analysis**:
+    - Option A ($h = \frac{1}{2}(b \times A)$): This replaces the subject but keeps the structure of the original formula, showing a lack of understanding of inverse operations.
+    - Option C ($h = \frac{A}{2b}$): This is a very common error where students "move" the 2 to the denominator instead of multiplying by 2 (effectively treating the $1/2$ as a $2$ that needs to be divided).
+    - Option D: A safety net for students who are confused by the fraction.
+3. **Target Audience (UK Ages 11-16)**: Changing the subject of a formula is a key KS3/KS4 skill. Fractions in formulas (like $1/2$) significantly increase difficulty compared to linear additive equations.
+4. **Comparison with Calibration Items**: 
+    - The first calibration item ($-5 = p + 10$) is much simpler (one step, additive) and had a classical difficulty of 0.167 (very hard). 
+    - The inequality item ($2n+3 \leq 3n-7$) had a difficulty of 0.569.
+    - Rearranging formulas is generally perceived as more abstract than solving for a numerical unknown. The presence of the fraction $1/2$ is a major hurdle. 
+    - However, the "Area of a triangle" formula is extremely familiar, which might provide a slight scaffold compared to an abstract formula like $v^2 = u^2 + 2as$.
+5. **Psychometric Estimation**: The misconception "uses same operation rather than inverse" is specifically targeted by Distractor C (keeping the 2 in the denominator). I expect a moderate discrimination because students who understand inverse operations will clearly see B, while those who don't will be split between A and C. The difficulty is likely to be middle-of-the-road for the 11-16 range—harder than basic equations but easier than complex quadratics.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS). While it seems straightforward, the calculation $16-6+4 \div 2$ without brackets equals $12$ (using $16 - 6 + 2$), which is not an option given. 
+
+**Analysis of Options:**
+*   **A: $16 - (10) \div 2 = 16 - 5 = 11$.** This attracts students who think brackets always go around the addition in the middle.
+*   **B: $(10) + 4 \div 2 = 10 + 2 = 12$.** This is the most common "waste" answer because it's the same result as the original expression.
+*   **C: $16 - 6 + (2) = 12$.** Redundant brackets; same result as B.
+*   **D: $(16 - 6 + 4) \div 2 = (10 + 4) \div 2 = 14 \div 2 = 7$.** This is the correct answer.
+
+**Student Behaviour:**
+Students at the **below_basic** level often ignore the division at the end and focus on the 16, 6, and 4, or simply guess. **Basic** students often struggle with the "Left to Right" rule for addition and subtraction, but they are capable of testing the options. **Proficient** students will methodically check each option until they hit 7. **Advanced** students will likely see that to get 7 from a $\div 2$, they need the numerator to be 14, and immediately spot $(16-6+4)$.
+
+below_basic: A=30% B=25% C=15% D=30%
+basic: A=20% B=15% C=10% D=55%
+proficient: A=10% B=5% C=5% D=80%
+advanced: A=2% B=1% C=1% D=96%

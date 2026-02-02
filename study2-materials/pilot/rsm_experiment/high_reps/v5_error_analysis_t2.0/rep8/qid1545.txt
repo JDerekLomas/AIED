@@ -1,0 +1,21 @@
+In this Year 9 mock, this question specifically tests Order of Operations (BIDMAS/BODMAS). The most common pitfall is the "Left-to-Right" trap, where students ignore the priority of division over addition on the left-hand side.
+
+**Analysis of Errors:**
+- **The Correct Calculation:** LHS: $8 + (12 \div 4) = 8 + 3 = 11$. RHS: $(8 + 12) \div 4 = 20 \div 4 = 5$. Since $11 > 5$, the answer is **A**.
+- **The "Left-to-Right" Error (LHS):** Students calculate $(8 + 12) \div 4 = 5$. This leads them to see $5 \square 5$, making **C** the most attractive wrong answer for lower-ability students.
+- **The "Inverse" Error:** A small number of students misinterpret the bracket on the RHS as somehow making the number larger or think the presence of more "parts" on the left makes it smaller, leading to **B**.
+- **Distractors:** **D** is rarely chosen unless a student is purely guessing or thinks both sides could be equal under certain circumstances.
+
+**Predicted Performance:**
+
+below_basic: A=15% B=20% C=60% D=5%
+*(Most students here calculate 8+12 first on both sides, see $20 \div 4$ for both, and confidently pick C.)*
+
+basic: A=45% B=15% C=35% D=5%
+*(Many have heard of BIDMAS but forget to apply it to the left side when there are no brackets. They are split between those who "follow the rules" and those who read instinctively left-to-right.)*
+
+proficient: A=85% B=5% C=10% D=0%
+*(Most catch the priority of division. Those who miss it are usually rushing or making a silly arithmetic slip.)*
+
+advanced: A=98% B=1% C=1% D=0%
+*(Almost all students at this level will identify the trick immediately. Errors here are strictly due to extreme carelessness.)*

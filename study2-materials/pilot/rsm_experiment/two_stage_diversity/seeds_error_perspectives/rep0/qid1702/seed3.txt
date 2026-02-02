@@ -1,0 +1,13 @@
+One specific reason why students might find this question difficult is a **visual/positional trap** caused by the atypical horizontal orientation of the table of values.
+
+In early algebra education, students are overwhelmingly habituated to vertical tables where the independent variable ($x$) is in the left column and the dependent variable ($y$) is in the right. When tables are horizontal, the top row is conventionally $x$ and the bottom row is $y$.
+
+However, many students develop a **"First Row = Input / Second Row = Output"** heuristic. Because the target variable ($\bigstar$) is located in the top row, a student may instinctively treat it as the output of the function. This leads to a **directional substitution error**: 
+
+Instead of substituting $y = 0.5$ into the equation to solve for $x$, the student may substitute the given numerical value ($0.5$) into the $x$ position:
+\[10(0.5) - 6y = 30\]
+\[5 - 6y = 30\]
+\[-6y = 25\]
+\[y \approx -4.16\]
+
+While $-4.16$ is not an option here, the cognitive friction caused by looking at the "top" row for the answer often leads students to attempt to "plug in" whatever number they see into the $x$ variable by default, simply because it is the first variable in the equation and the $y$-value is the only number available in the table. They fail to map the table cell's position to its corresponding algebraic variable.

@@ -1,0 +1,13 @@
+This question tests two distinct areas of potential error: **Order of Operations (BIDMAS/BODMAS)** and **Negative Number Arithmetic**.
+
+The primary trap here is performing the addition before the multiplication ($(-4 + -5) \times 3$), which leads to $-9 \times 3 = -27$. Many students instinctively read left-to-right, making Option B the most attractive distractor. Option A represents the same BIDMAS error combined with a sign error ($(-4 + -5) \times 3 \rightarrow -9 \times 3 \rightarrow 27$). Option C occurs when a student correctly identifies multiplication goes first but fails the directed number addition (e.g., $(-5 \times 3) = -15$, then thinking $-15$ is 4 units away from $-11$).
+
+The correct calculation is $-4 + (-15) = -19$.
+
+**Teacher's Insight:** 
+In the UK, students at "below_basic" (low KS3/Foundation GCSE) almost always work left-to-right. "Basic" students know they should do multiplication first but frequently lose the negative sign when adding $-4$ and $-15$. "Proficient" students generally handle BIDMAS well but under pressure may still gravitate towards the "left-to-right" visual flow of the question.
+
+below_basic: A=15% B=55% C=15% D=15%
+basic: A=5% B=45% C=20% D=30%
+proficient: A=2% B=20% C=8% D=70%
+advanced: A=0% B=5% C=2% D=93%

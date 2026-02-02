@@ -1,0 +1,27 @@
+This question tests two distinct concepts: index notation (the power of 4) and the application of even powers to negative bases.
+
+**Analysis:**
+1.  **The Negative Sign Trap:** This is the primary hurdle. Students often calculate $3^4 = 81$ and then reflexively re-attach the negative sign, or they believe that because the input is negative, the output must be negative.
+2.  **Multiplication vs. Exponents:** Lower-ability students frequently confuse $k^4$ with $k \times 4$.
+3.  **Calculation Error:** $3^4$ is $3 \times 3 \times 3 \times 3$. Some students lose track and calculate $3 \times 3 \times 3 = 27$ or make a arithmetic slip.
+
+The choice of $k=-3$ is particularly effective because $3^4$ is large enough to invite errors, and the "even power" rule is one of the most common misconceptions in GCSE Algebra.
+
+**Predicted Performance:**
+
+below_basic: A=15% B=35% C=20% D=30%
+(Students here often default to multiplication ($3 \times 4$) and struggle with the sign, making D the most attractive "guess".)
+
+basic: A=30% B=15% C=45% D=10%
+(These students know that $3^4 = 81$, but the majority will still hold the misconception that a negative base raised to a power results in a negative answer unless they see brackets.)
+
+proficient: A=65% B=5% C=28% D=2%
+(Students at this level are confident with $3^4$. However, a significant portion will still fall into the "C" trap of $-81$, often influenced by how certain scientific calculators treat $-3^4$ without parentheses.)
+
+advanced: A=94% B=1% C=5% D=0%
+(Almost all advanced students will recognise that $(-3)^4$ results in a positive value, though a small number may make a high-speed error regarding the even/odd power rule.)
+
+below_basic: A=15% B=35% C=20% D=30%
+basic: A=30% B=15% C=45% D=10%
+proficient: A=65% B=05% C=28% D=02%
+advanced: A=94% B=01% C=05% D=00%

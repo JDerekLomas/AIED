@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item tests order of operations (BIDMAS/BODMAS): 5 + 4 x 3. The correct procedure is to multiply first (4 x 3 = 12), then add 5, giving 17 (option B). The key misconception is carrying out operations left to right: 5 + 4 = 9, then 9 x 3 = 27 (option A). This is an extremely common misconception among younger secondary students.
+
+Looking at the calibration item with the same misconception (0.4 - 1/5 x 3), that item had classical difficulty 0.134 and IRT difficulty -0.245. However, that item involved decimals and fractions, adding complexity beyond just order of operations. This target item is simpler - pure integers, straightforward arithmetic. So I'd expect it to be easier than that calibration item.
+
+Distractor analysis:
+- A (27): Left-to-right computation 5+4=9, 9x3=27. Very plausible, directly tests the misconception.
+- B (17): Correct. 4x3=12, 12+5=17.
+- C (60): Could come from 5x4x3=60, multiplying all numbers. Less common but possible.
+- D (12): Could come from 4x3=12, forgetting to add 5. Partial correct working.
+
+The misconception of left-to-right processing is very strong, especially for younger students who haven't internalized BIDMAS. Option A will attract many students. However, the item is fundamental and commonly practiced, so many students will get it right.
+
+Comparing to calibration: the equation-solving items range from 0.167 to 0.569 in classical difficulty. This BIDMAS item is more basic than most of those. I estimate roughly 20-25% of the age 11-16 cohort would get it wrong, placing classical difficulty around 0.20-0.25. The IRT difficulty should be negative, perhaps around -0.5 to -0.3. Discrimination should be moderate-high since this cleanly separates students who know BIDMAS from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.40</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

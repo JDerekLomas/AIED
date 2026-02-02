@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item asks students to expand -(2 - 3p). This requires distributing the negative sign across the bracket, which means multiplying each term by -1.
+
+Correct working: -(2 - 3p) = -1 * 2 + (-1) * (-3p) = -2 + 3p, which is answer D.
+
+Looking at the distractors:
+- A) 2 - 3p: Student simply removed the bracket without distributing the negative. Very common error.
+- B) -2 - 3p: Student distributed the negative to the first term but not the second (or believed -1 * -3p = -3p, the tested misconception about multiplying two negatives).
+- C) 2 + 3p: Student changed the sign of the second term but not the first - an odd error, less likely.
+- D) -2 + 3p: Correct answer.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." This maps to distractor B, where the student correctly negates 2 to get -2, but then incorrectly keeps -3p as -3p (thinking negative times negative is still negative).
+
+Calibration: The factorising item (Tom and Katie) testing the same misconception had classical difficulty 0.473 and IRT difficulty 0.404. That item was more complex (required factorising and checking two expressions). This item is more straightforward - just expanding a single bracket with a negative sign. However, the negative sign distribution is a very common source of errors, especially distractor B which directly tests the misconception.
+
+I'd estimate this is moderately difficult - easier than the factorising item but harder than the simple equation solving. The distractors are quite plausible, especially A and B. I'd estimate around 0.40-0.45 classical difficulty, with IRT difficulty around 0.2-0.4.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

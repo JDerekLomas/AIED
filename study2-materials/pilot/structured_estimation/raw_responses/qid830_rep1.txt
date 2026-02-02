@@ -1,0 +1,35 @@
+<chain_of_thought>
+To solve: given 2x + 3y = 12 with x = 0.3, find y. Substituting: 2(0.3) + 3y = 12 gives 0.6 + 3y = 12. Subtracting 0.6: 3y = 11.4. Dividing by 3: y = 3.8.
+
+The misconception "uses the same operation rather than the inverse" would lead a student to add 0.6 rather than subtract it from 12, yielding 3y = 12.6, so y = 4.2 (option C). This makes C a strong distractor.
+
+Option B (3.9) likely comes from forgetting to multiply x by 2: 12 - 0.3 = 11.7, 11.7/3 = 3.9. Option A (4.1) combines the same-operation error with the coefficient error: (12 + 0.3)/3 = 4.1.
+
+This item is notably harder than simple one-variable equations because students must (1) understand the table of values context, (2) substitute correctly into a two-variable equation, (3) handle decimal multiplication (2 times 0.3), and (4) perform multi-step rearrangement. The table format adds a layer of interpretation that differs from standard "solve for y" presentations.
+
+The distractors are tightly clustered numerically (3.8, 3.9, 4.1, 4.2), which increases difficulty since students cannot easily eliminate answers by rough estimation. This tight clustering should make the item quite discriminating — students who truly understand the procedure will get it right, while those with partial understanding will be drawn to specific wrong answers.
+
+Comparing to calibration: the inequality item (0.569 classical difficulty) requires similar algebraic manipulation. However, this item adds decimal arithmetic and the table-of-values interpretation layer. I estimate it's somewhat harder, perhaps around 0.50 classical difficulty. The tight distractors suggest moderate guessing — even random picking among close values could occasionally yield the right answer, but the base rate is still ~0.25.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

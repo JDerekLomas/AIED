@@ -1,0 +1,38 @@
+<chain_of_thought>
+Item: 5 + 4 x 3 = ?
+Options: A) 27, B) 17, C) 60, D) 12
+Correct: B (17)
+Misconception: Left-to-right processing ignoring operator precedence
+
+This is perhaps the most canonical order-of-operations question possible. It directly tests whether students apply multiplication before addition.
+
+Let me think about the student population. UK secondary students ages 11-16 span a huge range. Year 7 students (age 11-12) are just learning BIDMAS formally, while Year 11 students (age 15-16) should find this trivial. Across this entire range, the proportion getting it wrong will be driven primarily by the younger students.
+
+Distractor quality: Option A (27) is the classic trap - it's what you get by going left to right. It's highly plausible and will attract most incorrect responses. Options C (60 = 5x4x3) and D (12 = 4x3) are weaker distractors. The item is essentially a two-option choice between A and B for most students, which means the effective guessing rate is low since students who don't know BIDMAS will systematically choose A rather than guess randomly.
+
+Calibration anchor: The similar misconception item (0.4 - 1/5 x 3) yielded classical difficulty 0.134, IRT b = -0.245, a = 1.552. That item is more complex computationally but tests the same concept. The simpler numbers here might make it slightly easier overall, but the pure addition-before-multiplication trap is very direct. I think difficulty is comparable - maybe slightly easier, around 0.15 classical difficulty.
+
+The discrimination should be high because this item cleanly separates students who understand BIDMAS from those who don't. The calibration item had a = 1.552, and I'd expect similar here.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>1</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>1</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.50</irt_difficulty>
+<irt_discrimination>1.60</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

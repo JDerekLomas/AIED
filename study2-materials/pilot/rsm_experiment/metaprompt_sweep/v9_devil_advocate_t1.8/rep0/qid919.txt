@@ -1,0 +1,11 @@
+To predict these percentages, I have considered several common pitfalls:
+1. **The Order of Operations (BIDMAS/BODMAS):** A very high number of students will multiply $3 \times 0.3$ first to get $0.9$, then square that result to get $0.81$.
+2. **Decimal Squaring Errors:** Many students know $3^2=9$ but incorrectly think $0.3^2 = 0.9$. If they do this and then multiply by $3$, they arrive at $2.7$.
+3. **Multiplication vs Squaring:** Lower-ability students often confuse squaring with "multiplying by 2", leading to $0.3 \times 2 = 0.6$, and $0.6 \times 3 = 1.8$.
+
+Option B ($0.27$) is the correct answer ($0.3^2 = 0.09$; $0.09 \times 3 = 0.27$). This is significantly harder than it looks because students must correctly apply BIDMAS and correctly square a decimal.
+
+below_basic: A=35% B=15% C=30% D=20%
+basic: A=45% B=20% C=15% D=20%
+proficient: A=35% B=40% C=5% D=20%
+advanced: A=10% B=80% C=2% D=8%

@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item asks students to multiply (-8) x (-2) in the context of expanding brackets (x-8)(x-2). The correct answer is +16, since multiplying two negatives yields a positive. The misconception tested is "believes multiplying two negatives gives a negative answer."
+
+Looking at the distractors:
+- A) -10: This is (-8) + (-2), so the student added instead of multiplied
+- B) +16: Correct, (-8)(-2) = +16
+- C) -6: This could be (-8) - (-2) = -6, or some other arithmetic confusion
+- D) -16: This is the key misconception distractor -- student multiplied correctly in magnitude but kept negative sign
+
+The calibration item about Tom and Katie (factorising) also tested the same misconception and had classical difficulty 0.473 and IRT b = 0.404. That item was more complex because students had to check two factorisations. This item is more direct -- it isolates just the multiplication step. However, the misconception about negative x negative is quite strong and common among younger students.
+
+The question requires understanding of: bracket notation, what "multiply" means for the indicated terms, and the sign rule for negatives. The visual component (arrows pointing at terms) adds some complexity but also makes it clearer what's being asked.
+
+I'd estimate this is moderately difficult. The misconception is common, but the task is very focused. Compared to the Tom/Katie item (0.473 classical difficulty), this should be somewhat easier because it's more direct, but the misconception is powerful. I'll estimate around 0.35-0.40 classical difficulty.
+
+For discrimination, since this cleanly separates students who know the sign rule from those who don't, I'd expect decent discrimination, around 1.2-1.4. The guessing parameter should be low since students who don't know will be drawn to D (-16) specifically.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,41 @@
+<chain_of_thought>
+The target item asks students to evaluate 3 + 6 / 2 + 1. The correct answer requires applying order of operations (BIDMAS/BODMAS): first compute 6 / 2 = 3, then 3 + 3 + 1 = 7 (answer A).
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student making this error would compute: 3 + 6 = 9, 9 / 2 = 4.5, 4.5 + 1 = 5.5, which corresponds to answer C. So distractor C directly targets the misconception.
+
+Looking at the other distractors: D (5) could arise from 6/2 + 1 = 4 then forgetting the 3, or some partial error. B (3) is harder to explain -- perhaps 6/(2+1) = 2, then 3+2-something? These are less plausible.
+
+Comparing to the calibration item with the same misconception (0.4 - 1/5 x 3), that had classical difficulty 0.134 and IRT difficulty -0.245. That item involved decimals and fractions together, making it more complex in some ways but the order-of-operations error is similar. However, the current item is simpler -- just whole numbers and basic arithmetic. Order of operations is taught early in secondary school and is a very common topic. Many students do struggle with it though, especially when there are no brackets to guide them.
+
+I'd estimate this item is relatively easy -- perhaps slightly easier than the calibration BODMAS item because all numbers are whole and small. The left-to-right misconception is quite strong and common, which means distractor C is highly plausible. But overall, most students at KS3+ should get this right.
+
+Classical difficulty estimate: around 0.15-0.25. Many students know BODMAS but a solid minority will do left-to-right. I'll say about 0.20.
+
+IRT difficulty: similar range to the calibration item, maybe around -0.3 to 0.0. I'll estimate -0.15.
+
+Discrimination: the item cleanly separates those who know BODMAS from those who don't. Should be moderate-high, around 1.4.
+
+Guessing: since the left-to-right error leads clearly to C, students who don't know BODMAS won't guess randomly -- they'll pick C. Low guessing, maybe 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

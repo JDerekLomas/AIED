@@ -1,0 +1,14 @@
+After marking 200 of these, I’ve seen every variation of this error. Even though it's a "simple" addition, the wording of the question and the "instinct" to operate on denominators catches a lot of Year 9s out.
+
+**Analysis of Errors:**
+*   **A (Correct):** Adding whole numbers (3) and numerators (3) over the common denominator (5).
+*   **B (Conversion):** Converting to an improper fraction correctly ($\frac{11}{5} + \frac{7}{5} = \frac{18}{5}$), but failing to convert back to the "mixed number" requested in the prompt.
+*   **C (The "Total Failure"):** Adding everything. $2+1=3$ (forgotten or ignored), $1+2=3$ (numerator), and $5+5=10$ (denominator). $\frac{3}{10}$ or just ignoring the whole numbers entirely.
+*   **D (The "Natural Error"):** Adding the whole numbers correctly (3) and the numerators correctly (3), but instinctively adding the denominators as well ($5+5=10$). This is the most common misconception in middle-sets.
+
+**Predicted Percentages:**
+
+below_basic: A=15% B=10% C=35% D=40%
+basic: A=45% B=15% C=5% D=35%
+proficient: A=80% B=12% C=1% D=7%
+advanced: A=96% B=3% C=0% D=1%

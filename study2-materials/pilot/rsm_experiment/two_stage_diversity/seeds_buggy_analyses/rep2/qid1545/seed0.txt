@@ -1,0 +1,36 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in UK Year 9 students (ages 13–14), particularly when they are reconciling their intuition with formal Order of Operations (BIDMAS/BODMAS).
+
+### 1. The Misconception: "The Left-to-Right Processing Bug"
+This is a specific type of **Operation Priority Error**. The student treats mathematics like a sentence in English, processing operations strictly from left to right, regardless of the operators involved. They effectively ignore the hierarchical rules of BIDMAS (Brackets, Indices, Division/Multiplication, Addition/Subtraction), believing that the physical position of a number dictates its order in the calculation.
+
+### 2. Step-by-Step Calculation (The Buggy Procedure)
+
+**Step 1: Processing the Left Hand Side (LHS)**
+The student looks at $8 + 12 \div 4$. 
+*   **The Error:** Instead of performing the division first, they see the "8 + 12" first.
+*   **The Action:** They calculate $8 + 12 = 20$.
+*   **The Follow-up:** They then take that 20 and divide it by the remaining number: $20 \div 4 = 5$.
+*   **LHS Result:** 5.
+
+**Step 2: Processing the Right Hand Side (RHS)**
+The student looks at $(8 + 12) \div 4$.
+*   **The Action:** They see the brackets. Even if they don't fully respect BIDMAS elsewhere, they usually know "brackets first."
+*   **The Calculation:** $8 + 12 = 20$, then $20 \div 4 = 5$.
+*   **RHS Result:** 5.
+
+**Step 3: Comparing the two**
+The student compares their two results: $5$ and $5$.
+
+### 3. Resulting Answer Option
+**C) \( = \)**
+
+Because the student has "linearised" the expression on the left, they arrive at the same numerical result for both sides, leading them to conclude that the brackets on the right are redundant and that both sides are equal.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and "stealthy"** for a few reasons:
+
+*   **Computational Ease:** Adding 8 and 12 to get a "round" number like 20 feels instinctively "correct" to a student. Dividing 20 by 4 yields a clean integer (5), which provides a false sense of security that the path was intended by the question setter.
+*   **Visual Symmetry:** A student might look at the numbers ($8, 12, 4$) appearing in the same order on both sides and conclude, without even calculating, that "it's the same sum." 
+*   **Lack of Conflict:** Because the buggy procedure yields a neat, whole number, the student encounters no "friction" (like a messy decimal) that would normally trigger a second look. 
+
+In a classroom setting, a student would likely be very confident in this answer, unaware that the correct procedure (Division before Addition) results in the LHS being $11$ ($8 + 3$), making the correct answer **A) \( > \)**.

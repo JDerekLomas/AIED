@@ -1,0 +1,17 @@
+This question is a classic "filter" in secondary mathematics. While expanding double brackets is a core GCSE skill, the shorthand notation of squaring a binomial $(x-4)^2$ triggers a very specific and persistent mental shortcut: squaring the individual terms rather than writing out $(x-4)(x-4)$.
+
+**Analysis of the options:**
+*   **Option B and C ($x^2 \pm 16$):** These are the most common traps. Students "square the $x$" and "square the $-4$" (or $4$) and omit the middle term. Option B is especially attractive to students who remember that $(-4)^2 = +16$.
+*   **Option D ($x^2-8x-16$):** This catches students who successfully expand the middle term but make a sign error with the constant (calculating $-4 \times -4 = -16$ or simply following the sign from the bracket).
+*   **Option A:** The correct answer.
+
+**Performance by ability level:**
+*   **Below Basic:** Many will choose C or B because they do not recognise the need for a middle term at all. The notation $(x-4)^2$ is seen as an instruction to square everything inside.
+*   **Basic:** Students here often remember they need to "FOIL" or use a grid, but sign errors are very common. Many will arrive at $-16$ as the constant, leading them to D.
+*   **Proficient:** These students usually know the process well. The main risk here is a "slip" under time pressure, opting for B because it looks "cleaner."
+*   **Advanced:** These students recognise the pattern $(a-b)^2 = a^2 - 2ab + b^2$ and will rarely get this wrong.
+
+below_basic: A=20% B=35% C=35% D=10%
+basic: A=45% B=20% C=10% D=25%
+proficient: A=85% B=5% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%

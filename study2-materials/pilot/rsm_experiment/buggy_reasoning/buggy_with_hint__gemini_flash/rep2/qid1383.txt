@@ -1,0 +1,45 @@
+As a specialist in mathematical diagnostics, I have analysed the question \( T = k^4 \) for \( k = -3 \). This is a classic "barrier" question in Key Stage 3 and 4 algebra that tests the intersection of indices and directed numbers.
+
+### 1. Analysis of Buggy Reasoning
+
+*   **Option B (12): Multiplicative Confusion**
+    *   **Buggy Reasoning:** The student identifies the base ($3$) and the power ($4$) but performs a simple multiplication: $3 \times 4 = 12$. They usually ignore the negative sign entirely or assume it will be "fixed" later.
+    *   **Attractiveness:** Very high for lower-ability students. In the heat of an assessment, the visual cue of two numbers sitting near each other often triggers multiplication rather than exponentiation.
+
+*   **Option C (-81): Negative Product Misconception (Known)**
+    *   **Buggy Reasoning:** The student correctly identifies that $3^4 = 81$. However, they hold the misconception that "a negative number raised to any power stays negative" or, more specifically, they process it as: $(-3) \times (-3) \times (-3) \times (-3) = -81$, believing that the presence of a negative sign in the question must dictate a negative sign in the answer.
+    *   **Attractiveness:** Extremely high, even for middle-to-high ability students. This is often reinforced by a calculator error: if a student types $-3^4$ into a scientific calculator without brackets, the calculator correctly (according to BIDMAS) returns $-81$. The student then internalises this as the mathematical rule.
+
+*   **Option D (-12): Compound Error (Linear + Directed)**
+    *   **Buggy Reasoning:** This is a combination of the error in Option B and a literal interpretation of the sign. The student calculates $3 \times 4 = 12$ and simply attaches the negative sign from the $k$ value.
+    *   **Attractiveness:** High for students working at "Below Basic" level. It feels logical: "I multiplied the numbers I saw, and one was negative, so the answer is negative."
+
+---
+
+### 2. Evaluation of "Attractiveness"
+
+*   **Option C** is the most sophisticated and "dangerous" error. It often persists in proficient students who understand the concept of powers but have a shaky grasp of the mechanics of negative multiplication. They fail to group the negatives into pairs.
+*   **Option B** is the hallmark of a student who lacks conceptual fluency with index notation. This is a "surface-level" error.
+*   **Option D** is highly attractive to those who lack confidence and are "clutching" at any visible numbers to find a result.
+
+---
+
+### 3. Predicted Response Distribution
+
+This distribution reflects typical UK secondary school data for this specific topic.
+
+**Below Basic**
+*   *Characterised by confusion over the definition of an exponent.*
+*   A=10% **B=40%** C=20% **D=30%**
+
+**Basic**
+*   *Understanding that exponents mean repeated multiplication, but struggling with negatives.*
+*   A=30% B=20% **C=40%** D=10%
+
+**Proficient**
+*   *Confident with exponents; however, the calculator syntax error ($-3^4$ vs $(-3)^4$) is a significant trap.*
+*   **A=55%** B=5% **C=35%** D=5%
+
+**Advanced**
+*   *Secure knowledge of the 'even power = positive result' rule.*
+*   **A=92%** B=1% C=6% D=1%

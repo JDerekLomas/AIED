@@ -1,0 +1,42 @@
+<chain_of_thought>
+This item asks students to evaluate two proposed steps for solving (x/3) - 5 = 12. Let me analyze each claim:
+
+Tom says: x/3 = 17. This is obtained by adding 5 to both sides, which is the correct inverse operation. So Tom is correct.
+
+Katie says: x - 5 = 36. This would be obtained by multiplying both sides by 3, giving x - 15 = 36... no wait. If you multiply both sides by 3 correctly: 3*(x/3 - 5) = 3*12, you get x - 15 = 36. But Katie wrote x - 5 = 36, which means she only multiplied the x/3 term by 3 (getting x) but left the -5 unchanged. This is a common error where students fail to distribute multiplication across all terms. So Katie is incorrect.
+
+The correct answer is A (Only Tom).
+
+Now comparing to calibration items. The misconception tested is "uses the same operation rather than the inverse," which appears in several calibration items. However, Katie's error is actually about failing to multiply all terms - it's more of a distribution error. The question requires students to:
+1. Understand equation solving steps
+2. Evaluate whether each step is algebraically valid
+3. Recognize the distribution error in Katie's work
+
+This is similar to the Tom/Katie factoring question (calibration item 4) in format. That item had classical difficulty 0.473 and IRT b = 0.404. This item involves evaluating algebraic steps with fractions, which adds complexity. The fraction x/3 increases cognitive load. Students need to verify two different approaches.
+
+I'd estimate this is moderately difficult - perhaps slightly harder than the factoring question because verifying Katie's step requires understanding distribution when multiplying an equation by 3. Many students might think Katie's step looks reasonable (just multiply x/3 by 3 to get x). The distractor "Both Tom and Katie" (option C) is likely quite attractive.
+
+I estimate classical difficulty around 0.45-0.50, IRT difficulty around 0.35-0.50.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.47</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

@@ -1,0 +1,11 @@
+Error Analysis:
+A) The student replaces the $y$ with $0$ instead of the $x$, or confuses the operations by multiplying the entire left side by the value of $x$. Alternatively, they might multiply the coefficients ($4 \times 2 = 8$) and the constant ($8 + 10 = 18$), then round to the nearest "clean" number, or more commonly, they calculate $4 \times (0+10)$ or misread the equation as $4(x + y) = 20$.
+B) The student likely substitutes $x=1$ (the second column) into the equation instead of $x=0$. $4(1) + 2y = 10 \Rightarrow 2y = 6 \Rightarrow y = 3$. This is a very common "scanning error" where students look at the next available value in the table.
+C) The student correctly substitutes $x=0$, giving $4(0) + 2y = 10$, which simplifies to $2y = 10$. However, they may stop at the sight of "10" and halve it, or more simply, they understand that when $x=0$, $y$ is the intercept, and they correctly solve $2y=10$ to get $y=5$. This is the correct answer.
+D) The student ignores the $2y$ and treats the equation as $4x = 10$, then solves for $x$ ($10 \div 4 = 2.5$). This demonstrates a misconception where the student focuses only on the term with the coefficient attached to the $x$ and the constant, ignoring the $y$ variable entirely.
+
+Predictions:
+below_basic: A=25% B=30% C=20% D=25%
+basic: A=10% B=35% C=40% D=15%
+proficient: A=5% B=15% C=75% D=5%
+advanced: A=1% B=4% C=94% D=1%

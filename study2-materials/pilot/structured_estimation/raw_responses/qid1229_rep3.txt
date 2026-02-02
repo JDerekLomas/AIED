@@ -1,0 +1,41 @@
+<chain_of_thought>
+Item: What does a scientific calculator give for -6^2? Options: 12, -12, 36, -36. Correct: D (-36).
+
+The item tests whether students understand that exponentiation has higher precedence than unary negation. On a scientific calculator, typing -6^2 computes -(6^2) = -36.
+
+Thinking about the student population (UK, ages 11-16): This convention is typically encountered in Key Stage 3-4. Students learn about BIDMAS, but the interaction between negation and exponentiation is a specific subtlety that many curricula don't emphasize enough.
+
+Distractor appeal:
+- C (36) is by far the strongest distractor. Most students who err will choose this, thinking (-6)^2 = 36.
+- A (12) and B (-12) capture doubling errors, which are less common but plausible for weaker students who confuse x^2 with 2x.
+
+Calibration comparison: The two order-of-operations related calibration items show a range. The straightforward one (0.4 - 1/5 x 3) was easy (0.134 incorrect). But that involved a standard BIDMAS application. The -6^2 item involves a much more commonly held misconception. I think this is harder than the inequality item (0.569) because the -6^2 misconception catches even competent students.
+
+My estimates:
+- Classical difficulty: 0.48. I'll be slightly less pessimistic than my initial instinct because some students will have been explicitly warned about this.
+- IRT difficulty: 0.35. Moderate.
+- Discrimination: 1.40. Should discriminate well -- it cleanly separates deep from surface understanding.
+- Guessing: 0.10. Small chance of guessing right since C is such a strong attractor, but some students might reason by elimination or recall being told about this specific case.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

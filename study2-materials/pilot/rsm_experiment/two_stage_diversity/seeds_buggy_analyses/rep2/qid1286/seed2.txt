@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is common among Year 9 students when rearranging formulas involving fractions.
+
+### 1. The Specific Misconception: "Reciprocal Misplacement in Multiplication"
+This is a **rearrangement bug**. The student knows the goal is to isolate $r^3$, but they struggle with the dual-action step of moving a fraction (the coefficient $\frac{4}{3}$) to the other side of the equation. Instead of multiplying by the reciprocal ($\frac{3}{4}$), the student performs the operations in an order that keeps the "4" in the numerator or treats the division by 3 as if it remains a multiplication in the final step.
+
+### 2. The Step-by-Step Error
+A student with this misconception would proceed as follows:
+
+1.  **State the formula:** The student correctly identifies the volume of a sphere: $V = \frac{4}{3}\pi r^3$.
+2.  **Move the constant $\pi$:** They correctly divide by $\pi$ to get $\frac{V}{\pi} = \frac{4}{3}r^3$.
+3.  **The Buggy Step (The "Flipped Fraction" error):** When attempting to remove the $\frac{4}{3}$, the student looks at the numbers and thinks, "To move the 4 and the 3, I multiply $V$ by them." They see the $4$ as the dominant numerator and mistakenly calculate $4 \times V \times \pi$, keeping them all together in the numerator, or they fail to "divide by the whole coefficient" correctly. Specifically, they may interpret $V \div \frac{4}{3}$ as $V \times \frac{4}{3}$, leading to:
+    $r^3 = \frac{4V\pi}{3}$
+4.  **Final isolation:** They cube root the entire expression to solve for $r$:
+    $r = \sqrt[3]{\frac{4V\pi}{3}}$
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option A**.
+
+### 4. How Natural/Attractive is this Error?
+This error is **highly attractive** and often goes unnoticed by the student for several reasons:
+
+*   **Visual Familiarity:** In the original formula, the number $4$ is "on top" and the number $3$ is "on the bottom." In Option A, the $4$ is still on top and the $3$ is still on the bottom. Students often feel that the "shape" of the formula should stay the same during rearrangement.
+*   **Surface-Level Matching:** The student sees all the correct ingredients (V, $\pi$, 4, 3, and a cube root) and assumes they must be correct.
+*   **Lack of Dimensional Analysis:** A Year 9 student rarely checks if their units make sense (e.g., whether the resulting formula would yield $cm$ or $cm^7$). Because Option A *looks* like a complex formula, they feel they have successfully "done the math."
+
+Unless the student has been explicitly taught the "Inverse Operation" rule (multiplying by the reciprocal $\frac{3}{4}$), they are likely to remain confident in this answer.

@@ -1,0 +1,15 @@
+As a researcher in mathematics education, I identify the **omission of the "$\mathbf{0}$" coefficient** during the substitution process as a specific feature that makes this question deceptively difficult for many students.
+
+### The Specific Obstacle: The "Vanishing" $x$ vs. the "Ignored" $x$
+
+When a student substitutes $x=0$ into the equation $4x + 2y = 10$, they encounter the term $4(0)$. While this mathematically simplifies to zero, many students struggle with the **spatial transition** from a two-variable equation to a one-variable equation.
+
+**Why students struggle with this specific step:**
+*   **Additive Interference:** A common error at the pre-algebraic level is for students to see $4x$ and, when $x=0$, perceive it as $4 + 0$ (resulting in $4$) rather than $4 \times 0$. This leads to the incorrect equation $4 + 2y = 10 \rightarrow 2y = 6 \rightarrow y=3$. 
+*   **The "Elimination" Intuition:** Stronger students often know that if $x=0$, the $x$-term "goes away." However, many students take this literally and feel uneasy when half of the left-hand side of the equation disappears. To "fill the void," they might erroneously carry the coefficient $4$ into the next step as a constant.
+*   **Confusion with the y-intercept (Option C):** Students who have been over-drilled on the form $y = mx + b$ may instinctively look for a "starting value." If they misread the equation as $y = -4x + 10$ or simply focus on the constant $10$, they may assume $y$ is half of 10 ($5$) because of the $2y$ term, or they may fail to process the $2y$ coefficient entirely and choose $10$.
+
+### Why Option C (5) is a "Lure"
+The specific choice of $x=0$ tests a student’s ability to handle **null values** in an algebraic structure. While $x=0$ is computationally the "easiest" number to use, it is conceptually difficult because it requires the student to acknowledge that a term exists ($4x$) but currently contributes nothing to the sum. 
+
+A student who correctly recognizes that $4(0) = 0$ is left with $2y = 10$. The final hurdle is the division by $2$. If a student performs the substitution correctly but is mentally exhausted by the "disappearance" of the $x$, they might succumb to **Answer D ($2.5$)**, incorrectly dividing $10$ by $4$ (the coefficient they just ignored).

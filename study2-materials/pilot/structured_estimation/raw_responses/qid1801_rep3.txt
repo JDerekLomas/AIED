@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: -5 < 2x + 1 < 5, correct answer B: -3 < x < 2.
+
+Step-by-step solution: Subtract 1 throughout: -6 < 2x < 4. Divide by 2: -3 < x < 2.
+
+The misconception being tested is applying the same operation rather than the inverse. In this context, a student might add 1 instead of subtracting it. If they add 1 to all parts: -4 < 2x < 6, then divide by 2: -2 < x < 3. This doesn't exactly match any distractor, though C (-2 < x < 2) picks up the -2 on the left side. Perhaps C is designed to catch a student who adds 1 on the left but correctly subtracts on the right, or who makes an arithmetic slip.
+
+Thinking about difficulty relative to the calibration items - the factorising item (Tom and Katie) had classical difficulty 0.473 and involved recognizing that multiplying two negatives gives a positive. That requires conceptual understanding. This compound inequality requires procedural fluency with a slightly unfamiliar format. I'd place this at a similar or slightly higher difficulty level.
+
+Key factors pushing difficulty up: compound inequality format (less commonly practiced), two-step process, need to track three expressions. Factors moderating difficulty: the operations themselves are simple (subtract 1, divide by 2), no sign changes or tricky division.
+
+One important note: the correct answer B has -3 < x < 2, where the upper and lower bounds are not symmetric. Students who expect symmetry (since the original inequality is symmetric around 0 for the +-5) might be drawn to C (-2 < x < 2) which is symmetric. This makes C a strong distractor.
+
+I'll estimate classical difficulty around 0.50, IRT difficulty around 0.50, with moderate discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

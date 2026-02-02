@@ -1,0 +1,36 @@
+<chain_of_thought>
+The item tests the order of operations (BIDMAS/BODMAS), specifically identifying which operation to perform first in the expression \( 8-7 \div 6^{3} \). 
+
+- **Concepts**: The hierarchy of operations (Indices before Division before Subtraction).
+- **Complexity**: Low. It asks for the first step, not the final evaluation. This reduces the procedural load significantly compared to the second calibration example (\(0.4 - \frac{1}{5} \times 3\)).
+- **Distractors**: 
+    - Option C (\(8-7\)) targets the "left-to-right" misconception (AS before DM/I). 
+    - Option B (\(7 \div 6\)) targets those who know division comes before subtraction but forget indices come first.
+    - Option D is a "safety net" for confused students.
+- **Student Population**: UK students aged 11-16. Order of operations is a foundational Key Stage 3 concept.
+- **Difficulty Comparison**: The second calibration example had a classical difficulty of 0.134 and IRT difficulty of -0.245. However, that item required fraction-to-decimal conversion and a full calculation. This target item only asks for the *first step*, which is cognitively easier. 
+- **Discrimination**: Order of operations items usually discriminate well between students who have mastered the hierarchy and those who rely on intuitive left-to-right processing.
+- **Guessing**: With 4 choices, the floor is 0.25, but the "left-to-right" misconception is so strong that students often choose C deliberately rather than guessing randomly, which can suppress the effective guessing parameter.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

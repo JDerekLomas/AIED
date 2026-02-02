@@ -1,0 +1,30 @@
+## Step 1: Understand the task
+The task requires predicting the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for the given math question.
+
+## 2: Analyze the question and options
+The question asks to multiply out the brackets in \((m-5)(m-7)\). The correct answer, based on the FOIL method or simple multiplication, is \(m^2 - 12m + 35\), which corresponds to option B.
+
+## 3: Consider student understanding at each level
+- **Below_basic**: Students at this level may struggle with basic algebraic manipulations and are more likely to make significant errors.
+- **Basic**: Students at this level have a foundational understanding but may still make careless mistakes or struggle with applying formulas consistently.
+- **Proficient**: Students at this level have a good grasp of algebraic methods and are likely to apply them correctly but might make occasional errors under pressure or with complex problems.
+- **Advanced**: Students at this level have a strong understanding and can apply algebraic concepts accurately and efficiently.
+
+## 4: Predict student choices based on ability levels
+- **Below_basic**: These students might choose any option randomly or based on incorrect calculations, so A, C, or D might be chosen with nearly equal frequency, with B being less likely due to its correctness.
+- **Basic**: Students here might still struggle with the correct application of the FOIL method or simple multiplication, potentially leading to a higher incidence of choosing A or D due to miscalculation of the middle term or constant.
+- **Proficient**: These students are likely to understand and apply the FOIL method correctly, leading to a high rate of choosing B.
+- **Advanced**: Advanced students will almost certainly choose B, as they can accurately and efficiently expand the expression.
+
+## 5: Assign percentages based on reasoning
+Given the analysis:
+- **Below_basic**: A=25%, B=20%, C=25%, D=30% (guessing or simple errors)
+- **Basic**: A=15%, B=70%, C=10%, D=5% (mostly correct but some errors)
+- **Proficient**: A=5%, B=90%, C=3%, D=2% (mostly correct with occasional minor errors)
+- **Advanced**: A=0%, B=98%, C=1%, D=1% (very high accuracy)
+
+The final answer is:
+below_basic: A=25% B=20% C=25% D=30%
+basic: A=15% B=70% C=10% D=5%
+proficient: A=5% B=90% C=3% D=2%
+advanced: A=0% B=98% C=1% D=1%

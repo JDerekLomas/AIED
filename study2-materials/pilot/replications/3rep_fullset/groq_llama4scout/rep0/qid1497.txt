@@ -1,0 +1,30 @@
+To approach this question, let's first understand what's being tested. The question involves a quadratic inequality of the form $x^{2}-3x-10 \leq 0$. The graph provided shows a parabola that crosses the x-axis at $x=-2$ and $x=5$, which are the roots of the equation $x^{2}-3x-10 = 0$. This means the quadratic expression can be factored as $(x+2)(x-5)$.
+
+## Step 1: Understanding the Inequality
+The inequality $x^{2}-3x-10 \leq 0$ can be rewritten as $(x+2)(x-5) \leq 0$. To solve this inequality, we look for where the expression $(x+2)(x-5)$ is less than or equal to zero. This happens when one factor is positive and the other is negative, including when the expression equals zero.
+
+## 2: Identifying the Solution Intervals
+The roots of the equation (where the expression equals zero) are $x=-2$ and $x=5$. This divides the number line into three intervals: $(-\infty, -2)$, $(-2, 5)$, and $(5, \infty)$. Testing a value from each interval into $(x+2)(x-5)$ will determine where it is non-positive.
+
+## 3: Testing Intervals
+- For $x < -2$, both $(x+2)$ and $(x-5)$ are negative, so their product is positive.
+- For $-2 < x < 5$, $(x+2)$ is positive and $(x-5)$ is negative, so the product is negative.
+- For $x > 5$, both factors are positive, making the product positive.
+
+## 4: Including the Roots
+Since the inequality is $\leq 0$, we include the roots $x=-2$ and $x=5$ where the product is zero.
+
+## 5: Writing the Solution
+The solution to the inequality is $-2 \leq x \leq 5$, which corresponds to option B.
+
+## 6: Predicting Student Responses
+- **Below Basic:** Students at this level may struggle with understanding inequalities and graphing. They might incorrectly read the graph or not understand how to express the solution set. Option A and D might appeal to those who misunderstand the intervals, and option C might be chosen by those who confuse the direction of inequalities. However, given the clear graph and common misconceptions, A=30% (incorrectly extending to infinity in the wrong direction), B=20% (correct but struggling with format), C=20% (confusing inequality signs), D=30% (similar to A but reversed).
+- **Basic:** Students here have a grasp of basic concepts but might make simple errors. They should be able to identify the roots and understand the concept of intervals but might struggle with the notation or ensuring they include the correct intervals. B=60% (understanding the concept but might fumble with notation), A=20%, C=10%, D=10%.
+- **Proficient:** These students understand quadratic equations and inequalities. They should easily solve the inequality and express the solution correctly. B=80%, A=10%, C=5%, D=5%.
+- **Advanced:** Students at this level are confident and meticulous. They will accurately solve the inequality and express it in the correct mathematical notation. B=90%, A=5%, C=3%, D=2%.
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=20% B=60% C=10% D=10%
+proficient: A=10% B=80% C=5% D=5%
+advanced: A=5% B=90% C=3% D=2%

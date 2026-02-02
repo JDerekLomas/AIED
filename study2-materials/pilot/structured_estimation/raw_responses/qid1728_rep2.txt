@@ -1,0 +1,46 @@
+<chain_of_thought>
+Analyzing the item: 3/4 - 1/4 × 1/5
+
+The correct solution requires applying order of operations:
+- Multiply first: 1/4 × 1/5 = 1/20
+- Then subtract: 3/4 - 1/20. Common denominator is 20: 15/20 - 1/20 = 14/20 = 7/10
+- Answer: C
+
+The misconception-driven error (left-to-right computation):
+- 3/4 - 1/4 = 2/4 = 1/2
+- 1/2 × 1/5 = 1/10
+- Answer: B
+
+This item combines two skill areas: order of operations and fraction arithmetic. Students need both skills to succeed. Even a student who knows BODMAS might fail if they can't subtract fractions with different denominators.
+
+Considering the distractors more carefully:
+- A (2/16): Could arise from some incorrect cross-multiplication approach. Not strongly linked to a single misconception. Relatively implausible.
+- B (1/10): Direct result of left-to-right processing. Very plausible.
+- D (5/10): Equals 1/2. Could be a partial computation — a student who correctly identifies multiplication first might compute 1/4 × 1/5 = 1/20 but then incorrectly subtract by doing 3/4 - 1/20 as (3-1)/(4+20) or some other error. Or it might attract students who get 1/2 from left-to-right but express it as 5/10. Actually somewhat plausible.
+
+The calibration item with the same misconception (order of operations with mixed decimals/fractions) had classical difficulty 0.134. This all-fractions version requires finding common denominators, which is an additional procedural demand. But the fractions are very simple (fourths and fifths). I'd estimate difficulty slightly higher, around 0.20.
+
+Discrimination should be solid — the misconception creates a clear binary: either you know to multiply first or you don't. I'd estimate a similar or slightly lower discrimination compared to the calibration item (which was 1.55).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

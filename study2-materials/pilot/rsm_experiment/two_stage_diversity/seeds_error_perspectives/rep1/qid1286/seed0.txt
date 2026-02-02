@@ -1,0 +1,14 @@
+As a researcher in mathematics education, I would identify the **isolation of the variable $r$ from the fractional coefficient** as the primary source of difficulty—specifically, the cognitive trap of **reciprocal inversion error**.
+
+### The Specific Difficulty: "Fractional Division Confusion"
+
+When students set up the formula $V = \frac{4}{3}\pi r^3$, they must isolate $r^3$. This requires dividing $V$ by the coefficient $\frac{4\pi}{3}$. Students frequently struggle with the "multi-story" nature of this algebraic manipulation.
+
+**Where the error occurs:**
+Instead of correctly multiplying by the reciprocal (calculating $V \times \frac{3}{4\pi}$), students often commit one of two specific procedural errors:
+
+1.  **Partial Transposition:** They successfully move the $3$ to the numerator but leave the $4$ as a multiplier in the numerator as well, or vice versa. This leads them directly to **Distractor A** ($\frac{4V\pi}{3}$), as they intuitively "bring everything over" without flipping the operator.
+2.  **$\pi$ Placement Ambiguity:** Many students view the formula as $(\frac{4}{3})\pi$ rather than $\frac{4\pi}{3}$. When moving these terms, they often correctly invert the fraction to get $\frac{3}{4}$, but then become uncertain whether $\pi$ (which was "on the side") should end up in the numerator or denominator. This makes **Distractor B** ($\frac{4V}{3\pi}$) or even **Distractor D** ($\frac{3\sqrt[3]{V}}{4\pi}$) highly attractive.
+
+**The Notational Trap:**
+The question uses a literal equation ($V$ instead of a numerical value). Without a concrete number to "divide" on a calculator, students are forced to rely purely on their mental model of fraction division rules ($Keep-Change-Flip$). The visual similarity of the choices A, B, and C tests their ability to track which parts of the coefficient were "dividers" and which were "multipliers" in the original formula. Those who process the formula $V = \frac{4\pi r^3}{3}$ as a single fraction are significantly more likely to succeed than those who see it as a coefficient and a variable $V = \frac{4}{3} \cdot \pi \cdot r^3$.

@@ -1,0 +1,13 @@
+To predict these results, I’ve analysed the common misconceptions associated with squaring decimals and the order of operations ($BIDMAS/BODMAS$):
+
+*   **Option A ($0.81$):** A classic "premature multiplication" error. The student multiplies $3 \times 0.3$ to get $0.9$, then squares $0.9$. This is a very common $BIDMAS$ error for students who read left-to-right.
+*   **Option B ($0.27$):** This is the correct calculation $(0.3^2 = 0.09; 3 \times 0.09 = 0.27)$, but students often arrive here and second-guess the decimal place, or conversely, students who struggle with decimals might reach this and move to D.
+*   **Option C ($1.8$):** The "multiplied by power" error. The student treats $x^2$ as $x \times 2$. They do $0.3 \times 2 = 0.6$, then $3 \times 0.6 = 1.8$. 
+*   **Option D ($2.7$):** The "lost decimal" error. The student knows $3^2 = 9$ and $3 \times 9 = 27$, but misplaces the decimal point (e.g., $0.3^2 = 0.9$ instead of $0.09$). This is the most common "distractor" for middle-ability students.
+
+Here is the predicted distribution based on 200 mock papers:
+
+below_basic: A=35% B=15% C=30% D=20%
+basic: A=30% B=25% C=15% D=30%
+proficient: A=15% B=55% C=5% D=25%
+advanced: A=5% B=90% C=0% D=5%

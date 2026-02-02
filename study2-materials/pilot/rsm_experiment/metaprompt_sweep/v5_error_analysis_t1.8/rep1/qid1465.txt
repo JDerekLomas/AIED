@@ -1,0 +1,11 @@
+To arrive at these predictions, I’ve considered the following common Year 9 pitfalls:
+
+*   **Option A (6):** The correct answer applying BIDMAS/BODMAS ($3 - 5 + 8$). High-ability students get this easily. 
+*   **Option B (4):** The most common "mid-range" error. Students remember BIDMAS and think Addition must come before Subtraction ($5+8=13$, then $3-13 = -10$, OR more commonly: $3 - (5+8)$ incorrectly handling the signs). However, a very specific common error here is calculating $3-5 = -2$, then $+4 = 2$, then $\times 2 = 4$ (working strictly left-to-right).
+*   **Option C (-12):** This comes from performing the operations strictly left-to-right but ignoring signs: $3-5 = -2$; $-2+4 = 2$, then $2 \times 2$... wait, C is usually the "Total Left to Right" error where a student does $(3-5+4) \times 2$. $3-5 = -2$, $-2+4=2$, $2 \times 2 = 4$. If they make a sign error at the start: $3-5=2$, $2+4=6$, $6 \times 2 = 12$. Option C is the "left to right with a sign swap" or "addition first" trap: $3 - (5+4) \times 2 \rightarrow 3 - 18 = -15$ (not listed), but $3 - 5 + 8$ where they subtract the whole sum: $(3-5) + (4 \times 2)$ is correct, but many lower-ability students do $3 - (5+4) = -6 \times 2 = -12$.
+*   **Option D (-10):** The classic BIDMAS trap. Students follow the acronym literally: Addition before Subtraction. They calculate $4 \times 2 = 8$, then they do $5 + 8 = 13$, then $3 - 13 = -10$. This is an "attractive" wrong answer for middle-set students who know the acronym but not the equal priority of addition and subtraction.
+
+below_basic: A=20% B=35% C=25% D=20%
+basic: A=35% B=20% C=10% D=35%
+proficient: A=75% B=5% C=0% D=20%
+advanced: A=98% B=1% C=0% D=1%

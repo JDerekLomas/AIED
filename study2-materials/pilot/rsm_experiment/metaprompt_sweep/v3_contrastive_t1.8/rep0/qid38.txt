@@ -1,0 +1,19 @@
+As an experienced UK maths teacher, I've seen students approach algebraic fractions with varying degrees of confidence. Here is my analysis of how students across the ability spectrum would likely perform on this specific question.
+
+**Key Insights:**
+*   **The Trap (Option D):** This is the most common error for students who lack "fraction fluency." They simply add the numerators ($3+4=7$) and pick one of the denominators or combine them vaguely.
+*   **The Trap (Option B):** This catches students who "add across" the top and the bottom ($3+4=7$ and $2x+x=3x$), treating algebra like a different set of rules from numeric fractions.
+*   **Difficulty level:** This is a "mid-tier" algebraic fraction question. Because one denominator is a multiple of the other ($2x$ and $x$), it is significantly easier than if they were coprime (e.g., $2x$ and $x+1$). However, the requirement to scale the second fraction by $2/2$ is where the "Basic" and "Below Basic" students often stumble.
+
+**Predicted Performance:**
+
+below_basic: A=15% B=30% C=10% D=45%
+basic: A=45% B=15% C=5% D=35%
+proficient: A=85% B=5% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%
+
+**Rationale:**
+*   **Below Basic:** These students often struggle with the concept of a common denominator. They are highly likely to pick **D** (just adding numerators) or **B** (adding across), as these require the least amount of "work" or conceptual understanding.
+*   **Basic:** These students know they need a common denominator but often make a procedural error. They might multiply the second fraction by 2 to get the $2x$ but forget to multiply the numerator, leading them back to $3+4=7$ (**D**), or they correctly calculate $\frac{3}{2x} + \frac{8}{2x}$ to get the correct answer **A**.
+*   **Proficient:** Students at this level have mastered the routine of equivalent fractions. The simple relationship between $x$ and $2x$ makes this a very high-success question for them.
+*   **Advanced:** Only a rare "silly" calculation error would prevent an advanced student from getting **A**. There are no sophisticated algebraic traps (like subtraction involving a binomial) to catch them out.

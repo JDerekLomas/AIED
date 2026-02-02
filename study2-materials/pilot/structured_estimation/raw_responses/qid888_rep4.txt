@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analysing (m-5)(m-7) expansion. Correct answer: m² - 12m + 35 (B).
+
+This is a bread-and-butter GCSE algebra question. Every student learning to expand double brackets will encounter items like this. The twist here is that both brackets contain subtraction, which creates the opportunity for the sign error misconception.
+
+Let me think about how students approach this. Many will use FOIL or a grid method:
+- First: m × m = m²
+- Outer: m × (-7) = -7m
+- Inner: (-5) × m = -5m
+- Last: (-5) × (-7) = +35 (or -35 if misconception held)
+
+The middle terms combine to -12m regardless of the sign error on the last term, so the distinction between B and D comes down entirely to whether the student correctly computes (-5)(-7) = +35 or incorrectly gets -35.
+
+Looking at distractor A: m² - 2m - 35. To get -2m, a student would need to compute -7m + 5m (treating -5 as +5 in the inner product but not the last). This is an inconsistent error pattern, making A less likely. Option C: m² + 12m + 35 implies treating both brackets as (m+5)(m+7), which seems like a reading error rather than a conceptual misconception. So D is by far the most attractive distractor.
+
+For calibration: the factorising item with the same misconception was 0.473 difficulty. That item was arguably harder because it required checking two claims and understanding factorisation (the reverse of expansion). But expanding brackets with two negatives is notoriously tricky. I'll estimate slightly lower difficulty — around 0.43.
+
+The item should have good discrimination. The single misconception being tested is clear-cut: you either know negative × negative = positive or you don't. Guessing should be low since students will attempt the calculation rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.32</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

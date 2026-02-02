@@ -1,0 +1,31 @@
+To predict the percentage of students at each ability level who chose each option for the question \(T = k^4\), let's analyze the potential calculation errors and the attractiveness of each wrong answer.
+
+## Step 1: Understand the Correct Calculation
+The correct calculation is \(T = (-3)^4 = 81\), because any number raised to an even power results in a positive value.
+
+## 2: Identify Potential Calculation Errors
+- Option B (12) and D (-12) suggest a misunderstanding of the exponentiation or a miscalculation. For B and D to be considered, a student might incorrectly calculate \((-3)^4\) as \(-3 \times 4 = -12\) or simply \(3 \times 4 = 12\), ignoring the power of 4.
+- Option C (-81) could result from a student calculating \((-3)^4\) as \(-3^4\), mistakenly applying the negative sign to the result of \(3^4 = 81\), hence getting \(-81\).
+
+## 3: Analyze Attractive Wrong Answers
+- **Option C (-81)** seems particularly attractive because it follows a common mistake of treating \(k^4\) as \(k \times k^3\) or simply misinterpreting the power's effect on the negative sign. Students who are not confident with rules of indices might find this "logic" appealing.
+- **Option B (12) and D (-12)** imply a more basic misunderstanding, possibly substituting the power for multiplication or not understanding that an even power yields a positive result.
+
+## 4: Consider Student Ability Levels
+- **Below Basic:** Students at this level are likely to make basic arithmetic errors or misunderstand the operation entirely. They might choose B, C, or D due to lack of understanding of exponent rules or incorrect calculations.
+- **Basic:** These students understand basic math operations but might struggle with more complex rules like indices. They are more likely to incorrectly calculate or misunderstand the power, leading to choices like B, C, or D.
+- **Proficient:** Proficient students have a solid grasp of mathematical concepts, including indices. However, under pressure, they might rush and make simple errors, potentially choosing C if they're in doubt about applying the negative sign.
+- **Advanced:** Advanced students are expected to have a firm understanding of mathematical concepts, including the rules of indices. They are less likely to choose incorrect options unless under significant stress or due to a momentary lapse.
+
+## 5: Predict Percentages
+Given these considerations:
+- **Below Basic:** A=30% (because even they might get it right by chance or partial understanding), B=20%, C=30%, D=20%.
+- **Basic:** A=60%, B=15%, C=20%, D=5%.
+- **Proficient:** A=90%, B=5%, C=4%, D=1%.
+- **Advanced:** A=98%, B=1%, C=1%, D=0%.
+
+The best answer is:
+below_basic: A=30% B=20% C=30% D=20%
+basic: A=60% B=15% C=20% D=5%
+proficient: A=90% B=5% C=4% D=1%
+advanced: A=98% B=1% C=1% D=0%

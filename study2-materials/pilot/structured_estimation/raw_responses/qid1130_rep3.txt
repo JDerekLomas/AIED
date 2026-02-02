@@ -1,0 +1,44 @@
+<chain_of_thought>
+This is a multi-concept item combining triangle angle sums with algebraic equation solving. Let me consider difficulty from the student's perspective.
+
+A Year 8-9 student encountering this must:
+1. Recognize this is a triangle angle problem requiring the 180-degree rule
+2. Set up: 4x + (2x - 12) + (4x + 42) = 180
+3. Combine the x terms: 4x + 2x + 4x = 10x
+4. Combine constants: -12 + 42 = +30
+5. Solve 10x + 30 = 180
+6. 10x = 150 (subtracting 30 — the inverse operation step)
+7. x = 15
+
+The misconception "uses the same operation rather than the inverse" specifically targets step 6. Adding 30 instead of subtracting gives 10x = 210, x = 21 = option D.
+
+However, I should note that this item could catch students at multiple points. The collecting like terms with mixed signs (-12 and +42) is itself error-prone. A student who gets -12 + 42 = -54 might end up with 10x - 54 = 180, then 10x = 234, x = 23.4 (not an option). Or miscombining to get 10x + 54 = 180 → 10x = 126 → x = 12.6 = option B! So distractor B likely catches a collecting-like-terms error.
+
+Option C (x = 33) might arise from students who set up 4x + 2x + 4x = 180 (ignoring the constants entirely), getting 10x = 180, but then... that gives 18, not 33. Perhaps x = 33 comes from a different error path, like only summing two angles or misreading the diagram.
+
+This is a solid diagnostic item. The visual component (reading angles from a triangle diagram) adds a small layer of complexity. Overall, I'd place this at moderate difficulty — harder than the simple equation calibration items but easier than the inequality.
+
+Given the multiple error sources, discrimination might be moderate. The item doesn't purely isolate the tested misconception; students could get it wrong for other reasons. I'll estimate classical difficulty around 0.40, acknowledging the multi-step nature pushes it above simpler inverse-operation items.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

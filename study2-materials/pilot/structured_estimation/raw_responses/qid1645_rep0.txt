@@ -1,0 +1,42 @@
+<chain_of_thought>
+This item requires solving a quadratic equation of the form 3p^2 + 9 = 39. The correct solution involves: (1) subtract 9 from both sides to get 3p^2 = 30, (2) divide both sides by 3 to get p^2 = 10, (3) take the square root of both sides to get p = +/- sqrt(10). The correct answer is B.
+
+The misconception being tested is "uses the same operation rather than the inverse." This could manifest if a student, for example, adds 9 instead of subtracting, or multiplies by 3 instead of dividing, leading to incorrect intermediate values.
+
+Looking at the distractors:
+- A (n=+/-5): Uses the wrong variable name. The value 5 might come from a student who does something like sqrt(39-9) = sqrt(30) and rounds, or perhaps confuses steps and arrives at p^2=25.
+- C (p=+/-2): Could arise if a student does 39/3=13, 13-9=4, sqrt(4)=2 -- performing operations in the wrong order (dividing before subtracting). This is actually a plausible error related to order of inverse operations.
+- D (p=+/-4): Could come from 39-9=30, 30-3=27... not obvious. Or maybe 39-3=36, 36-9=27... also not clean. Perhaps 39+9=48, 48/3=16, sqrt(16)=4 -- this would be adding 9 instead of subtracting (using same operation), which directly tests the named misconception.
+
+So distractor D directly tests the misconception (adding instead of subtracting), while C tests wrong order of operations. The distractors are reasonably plausible, especially D which maps to the stated misconception.
+
+Comparing to calibration items: This item involves solving a quadratic (more steps than linear equations), requires knowledge of square roots and recognizing irrational answers, and demands comfort with surds. The answer sqrt(10) is irrational, which many students find uncomfortable, potentially making them second-guess a correct approach.
+
+Looking at the calibration items, the inequality item (b=0.808, 56.9% incorrect) is a multi-step algebraic solve. This item has more steps and the added complexity of quadratics and surds. I'd estimate it's somewhat harder than the inequality, perhaps around 55-65% incorrect.
+
+The discrimination should be moderate to good since the distractors map to specific misconceptions, though the sqrt(10) answer being unfamiliar might cause some able students to doubt themselves. I estimate a ~ 1.1-1.3.
+
+Some guessing is likely since students who are lost might eliminate one or two options but still guess among the rest. I estimate c ~ 0.10-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>0.65</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

@@ -1,0 +1,38 @@
+<chain_of_thought>
+Evaluating 3 - 5 + 4 × 2 requires knowledge of BIDMAS (multiplication before addition/subtraction).
+
+Correct solution: 4 × 2 = 8, then 3 - 5 + 8 = 6 (answer A).
+
+Distractor analysis:
+- B) 4: Left-to-right computation: 3 - 5 = -2, -2 + 4 = 2, 2 × 2 = 4. This is the primary misconception target.
+- C) -12: Harder to derive naturally. Perhaps a student who groups incorrectly: (3 - 5) × (4 + 2) = -2 × 6 = -12? Or some other error chain.
+- D) -10: Could arise from 3 - 5 - 4 × 2 = 3 - 5 - 8 = -10, a sign error on the addition.
+
+This is a bread-and-butter order of operations question. The numbers are small integers, no fractions or decimals. It's very standard for Years 7-8 in the UK curriculum. The question wording is completely unambiguous.
+
+The calibration item testing the same misconception (0.4 - 1/5 × 3) had classical difficulty 0.134 but involved harder arithmetic with fractions and decimals. This item has easier numbers, so one might expect it to be even easier. However, the presence of subtraction creating negative intermediates plus the multiplication could trip up students. The left-to-right error giving 4 is very natural and tempting.
+
+I think this item is on the easier side but not trivially easy—perhaps around 0.15 classical difficulty. The strong misconception-targeted distractor B should give decent discrimination. The IRT difficulty should be slightly negative, around -0.4 to -0.1.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

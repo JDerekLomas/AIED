@@ -1,0 +1,44 @@
+## Step 1: Understand the task
+The task requires predicting the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for a given math question.
+
+## 2: Analyze the question
+The question asks students to simplify the expression \( \frac{4 t^{2}-4 t-48}{8} \times \frac{2}{t-4} \) into a single fraction as simple as possible.
+
+## 3: Solve the expression
+First, factor the numerator of the first fraction: \( 4t^{2} - 4t - 48 = 4(t^{2} - t - 12) = 4(t - 4)(t + 3) \).
+
+## 4: Substitute the factored form into the expression
+The expression becomes \( \frac{4(t - 4)(t + 3)}{8} \times \frac{2}{t-4} \).
+
+## 5: Simplify the expression
+Simplifying, we get \( \frac{(t - 4)(t + 3)}{2} \times \frac{2}{t-4} \).
+
+## 6: Cancel common factors
+Canceling \( (t - 4) \) and \( 2 \), we obtain \( t + 3 \).
+
+## 7: Compare with given options
+The simplified form \( t + 3 \) matches option B.
+
+## 8: Consider common misconceptions and difficulties
+- Factoring \( 4t^{2} - 4t - 48 \) might be challenging for some.
+- Canceling \( (t - 4) \) could be tricky if students don't notice it's in both numerator and denominator.
+- Simplifying fractions and canceling common factors is fundamental but can be a source of error if not done carefully.
+
+## 9: Predict student responses based on ability levels
+- **Below_basic**: Struggle with factoring and simplifying, might choose A due to not simplifying enough or C due to incorrect factoring. B=20%, C=40%, A=30%, D=10%.
+- **Basic**: Can simplify but might make errors in factoring or canceling, more likely to get it right but could choose A or C. B=50%, C=30%, A=15%, D=5%.
+- **Proficient**: Should be able to factor and simplify correctly, but might still make minor errors. B=80%, C=15%, A=4%, D=1%.
+- **Advanced**: Highly likely to get it right without issues. B=95%, C=4%, A=1%, D=0%.
+
+## 10: Assign percentages
+Given the analysis:
+- below_basic: A=30% B=20% C=40% D=10%
+- basic: A=15% B=50% C=30% D=5%
+- proficient: A=4% B=80% C=15% D=1%
+- advanced: A=1% B=95% C=4% D=0%
+
+The final answer is:
+below_basic: A=30% B=20% C=40% D=10%
+basic: A=15% B=50% C=30% D=5%
+proficient: A=4% B=80% C=15% D=1%
+advanced: A=1% B=95% C=4% D=0%

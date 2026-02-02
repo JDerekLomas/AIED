@@ -1,0 +1,146 @@
+{
+  "temp": 1.2,
+  "rep": 0,
+  "predictions": [
+    {
+      "item": "INVERSE_OPS",
+      "qid": 332,
+      "b_2pl": -5.1791,
+      "p_incorrect": 0.5,
+      "raw": "As an experienced UK maths teacher, I have evaluated this question based on common misconceptions surrounding the order of operations when rearranging linear equations. \n\nTom's method represents the standard approach (adding 5 to both sides first). Katie's method is a very common student error: she has multiplied the $12$ and the $\\frac{x}{3}$ by $3$, but failed to multiply the $-5$ by $3$ (which would yield $x-15=36$). \n\nStudents at lower ability levels often see the \"$\\div 3$\" and \"$12$\" and assume \"$\\times 3$\" is the correct inverse, neglecting the necessity of multiplying every term in the equation. Proficient and advanced students are more likely to recognise that Katie's line is algebraically invalid.\n\nbelow_basic: A=30% B=25% C=35% D=10%\nbasic: A=45% B=15% C=35% D=5%\nproficient: A=75% B=5% C=18% D=2%\nadvanced: A=92% B=2% C=5% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1702,
+      "b_2pl": -0.4997,
+      "p_incorrect": 0.55,
+      "raw": "To find the missing value, we substitute $y = 0.5$ into the equation $10x - 6y = 30$:\n$10x - 6(0.5) = 30$\n$10x - 3 = 30$\n$10x = 33$\n$x = 3.3$\n\n**Analysis of misconceptions:**\n*   **C (Correct):** $x = 3.3$.\n*   **A/B:** Students often struggle with the sign when moving terms across the equals sign. $10x = 30 - 3 = 27$ leads to $2.7$ (Option D), while errors in decimal multiplication or rearrangement lead to $4.25$ calculations.\n*   **D:** This is the most common distractor, resulting from the sign error $10x = 30 - 3$ instead of $30 + 3$.\n\nbelow_basic: A=20% B=15% C=30% D=35%\nbasic: A=15% B=10% C=45% D=30%\nproficient: A=5% B=5% C=75% D=15%\nadvanced: A=1% B=1% C=95% D=3%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 934,
+      "b_2pl": -0.5221,
+      "p_incorrect": 0.4,
+      "raw": "below_basic: A=25% B=15% C=45% D=15%\nbasic: A=10% B=20% C=60% D=10%\nproficient: A=2% B=10% C=85% D=3%\nadvanced: A=0% B=2% C=98% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1599,
+      "b_2pl": -3.3719,
+      "p_incorrect": 0.65,
+      "raw": "below_basic: A=25% B=30% C=25% D=20%\nbasic: A=55% B=10% C=15% D=20%\nproficient: A=85% B=3% C=5% D=7%\nadvanced: A=98% B=0% C=1% D=1%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 306,
+      "b_2pl": -0.158,
+      "p_incorrect": 0.65,
+      "raw": "As a UK maths teacher, I have observed that many students fall into the \"BIDMAS trap\" with Problem P. Because 'A' (Addition) comes before 'S' (Subtraction) in the acronym, students across all but the highest ability levels often believe they must perform the addition $5+6$ first, rather than working from left to right. In Problem Q, while the order of operations is more commonly understood, weaker students still tend to work strictly from left to right.\n\nThe correct answer is **B** (Left-to-right for P, Multiplication first for Q).\n\nbelow_basic: A=20% B=15% C=35% D=30%\nbasic: A=10% B=25% C=15% D=50%\nproficient: A=5% B=45% C=5% D=45%\nadvanced: A=0% B=85% C=0% D=15%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 202,
+      "b_2pl": -0.2375,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=20% B=15% C=35% D=30%\nbasic: A=60% B=10% C=10% D=20%\nproficient: A=85% B=10% C=2% D=3%\nadvanced: A=96% B=3% C=0% D=1%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 644,
+      "b_2pl": -0.2617,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=35% B=45% C=10% D=10%\nbasic: A=65% B=25% C=5% D=5%\nproficient: A=92% B=6% C=1% D=1%\nadvanced: A=99% B=1% C=0% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1545,
+      "b_2pl": -0.2892,
+      "p_incorrect": 0.6,
+      "raw": "To predict the performance of UK students (typically Key Stage 3 and 4), we must consider their understanding of the order of operations (BIDMAS/BODMAS).\n\n**Analysis of the mathematics:**\n*   Left Side: $8 + 12 \\div 4 = 8 + 3 = 11$\n*   Right Side: $(8 + 12) \\div 4 = 20 \\div 4 = 5$\n*   Comparison: $11 > 5$ (Option A)\n\n**Student misconceptions:**\n*   **Below Basic:** Often work strictly left-to-right, ignoring the order of operations. They calculate the left side as $(8+12) \\div 4 = 5$, leading them to choose \"C\" (Equal).\n*   **Basic:** Might remember \"Division comes before Addition\" for the left side but get confused by the visual similarity of the numbers, or incorrectly apply BIDMAS and subtract/add in the wrong order.\n*   **Proficient:** Generally handle BIDMAS correctly but may make occasional slips under pressure.\n*   **Advanced:** Almost always apply the rules correctly and check both sides independently.\n\nbelow_basic: A=15% B=10% C=70% D=5%\nbasic: A=45% B=10% C=40% D=5%\nproficient: A=85% B=5% C=8% D=2%\nadvanced: A=98% B=1% C=1% D=0%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1286,
+      "b_2pl": 0.0618,
+      "p_incorrect": 0.65,
+      "raw": "As an experienced UK maths teacher, I have evaluated this question based on common misconceptions regarding the rearrangement of the sphere volume formula $V = \\frac{4}{3}\\pi r^3$.\n\n**Analysis of misconceptions:**\n*   **Option A:** Reflects a mistake in algebraic inversion, where the student multiplies by $4\\pi$ instead of dividing.\n*   **Option B:** A common error where the student correctly moves the $4$ and the $\\pi$ but fails to correctly invert the fraction $4/3$ (multiplying by $4$ instead of $3$).\n*   **Option C:** The correct rearrangement ($r = \\sqrt[3]{\\frac{3V}{4\\pi}}$).\n*   **Option D:** A \"non-calculator\" style error where the student treats the cube root as applying only to $V$ or applies the coefficients outside the radical incorrectly.\n\nHere is the predicted percentage breakdown:\n\nbelow_basic: A=35% B=30% C=15% D=20%\nbasic: A=25% B=35% C=30% D=10%\nproficient: A=10% B=15% C=70% D=5%\nadvanced: A=2% B=3% C=94% D=1%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 919,
+      "b_2pl": 0.034,
+      "p_incorrect": 0.65,
+      "raw": "As a UK maths teacher, here is my analysis of how students would likely perform on this question.\n\nThe question tests the order of operations (indices before multiplication) and place value when squaring decimals. The correct calculation is $0.3^2 = 0.09$, followed by $3 \\times 0.09 = 0.27$.\n\nCommon errors:\n- **Option B (Correct):** $3(0.3)^2 = 3(0.09) = 0.27$.\n- **Option D:** Misplacing the decimal point when multiplying $3 \\times 0.09$ (thinking it is $0.27$ but slipping to $2.7$), or incorrectly calculating $(3x)^2$ as $0.9^2 = 0.81$ but then misidentifying it. \n- **Option A:** Squaring the product of 3 and 0.3, i.e., $(3 \\times 0.3)^2 = 0.9^2 = 0.81$. This is a very common BIDMAS/PEMDAS error.\n- **Option C:** Multiplying $3$ by $0.3$ and then multiplying by $2$ (confusing squaring with doubling), or $3 \\times 0.3 \\times 2 = 1.8$.\n\nbelow_basic: A=35% B=15% C=30% D=20%\nbasic: A=40% B=30% C=15% D=15%\nproficient: A=20% B=65% C=5% D=10%\nadvanced: A=5% B=92% C=1% D=2%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 888,
+      "b_2pl": 0.0015,
+      "p_incorrect": 0.44999999999999996,
+      "raw": "below_basic: A=25% B=20% C=25% D=30%\nbasic: A=15% B=45% C=15% D=25%\nproficient: A=5% B=85% C=2% D=8%\nadvanced: A=1% B=98% C=0% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 506,
+      "b_2pl": -0.1058,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=45% B=15% C=30% D=10%\nbasic: A=35% B=40% C=15% D=10%\nproficient: A=15% B=75% C=5% D=5%\nadvanced: A=2% B=96% C=1% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1607,
+      "b_2pl": 0.5037,
+      "p_incorrect": 0.55,
+      "raw": "In this question, Isaac correctly performs Step 1 by multiplying both sides by 4 ($15 \\times 4 = 60$). However, in Step 2, he makes a common sign error: instead of subtracting 1 from 60 to get $k=59$, he adds 1 to 60. Therefore, only Step 1 is correct.\n\nBelow basic students often struggle with the initial inverse operation (multiplication) or assume that if an answer is reached, the process must be correct, leading them to choose C. Basic students generally recognise the first step but frequently fall for the \"add 1\" trap in the second step. Proficient students usually spot the sign error in Step 2. Advanced students almost always identify that only the first step follows algebraic rules correctly.\n\nbelow_basic: A=20% B=15% C=50% D=15%\nbasic: A=45% B=10% C=35% D=10%\nproficient: A=80% B=5% C=10% D=5%\nadvanced: A=96% B=1% C=2% D=1%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 1383,
+      "b_2pl": 0.5622,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=20% B=30% C=25% D=25%\nbasic: A=45% B=10% C=35% D=10%\nproficient: A=75% B=2% C=22% D=1%\nadvanced: A=98% B=0% C=2% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 254,
+      "b_2pl": 0.5976,
+      "p_incorrect": 0.55,
+      "raw": "below_basic: A=25% B=45% C=25% D=5%\nbasic: A=40% B=20% C=30% D=10%\nproficient: A=70% B=5% C=10% D=15%\nadvanced: A=85% B=0% C=0% D=15%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 689,
+      "b_2pl": 0.2501,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=20% B=35% C=35% D=10%\nbasic: A=35% B=15% C=45% D=5%\nproficient: A=75% B=5% C=18% D=2%\nadvanced: A=98% B=0% C=2% D=0%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 525,
+      "b_2pl": 0.6233,
+      "p_incorrect": 0.55,
+      "raw": "below_basic: A=10% B=20% C=30% D=40%\nbasic: A=20% B=45% C=10% D=25%\nproficient: A=35% B=55% C=5% D=5%\nadvanced: A=5% B=94% C=0% D=1%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 38,
+      "b_2pl": 0.692,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=20% B=45% C=15% D=20%\nbasic: A=55% B=15% C=10% D=20%\nproficient: A=85% B=5% C=2% D=8%\nadvanced: A=98% B=1% C=0% D=1%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 466,
+      "b_2pl": 0.7156,
+      "p_incorrect": 0.55,
+      "raw": "below_basic: A=25% B=20% C=25% D=30%\nbasic: A=45% B=25% C=15% D=15%\nproficient: A=80% B=10% C=5% D=5%\nadvanced: A=96% B=2% C=1% D=1%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1465,
+      "b_2pl": 0.8347,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=25% B=30% C=25% D=20%\nbasic: A=45% B=35% C=10% D=10%\nproficient: A=75% B=20% C=3% D=2%\nadvanced: A=96% B=3% C=1% D=0%"
+    }
+  ]
+}

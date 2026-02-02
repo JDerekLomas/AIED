@@ -1,0 +1,23 @@
+In the context of UK Year 9 mathematics (GCSE Foundation level), here is an analysis of a highly common misconception related to indices and decimal operations.
+
+### 1. The specific misconception or procedural error
+**The "Over-extended Scaling" Bug (Place Value Squaring Error)**
+The student correctly identifies that they need to square $0.3$, but they mistakenly apply the rule that "squaring $x$ results in the same digits as $x^2$, just moved along." Specifically, because $3^2 = 9$, they assume $(0.3)^2$ must be $0.9$. They fail to realise that when multiplying a decimal by itself, the number of decimal places must sum ($0.1 \times 0.1 = 0.01$).
+
+### 2. How a student with this misconception would work through the question
+*   **Step 1 (Substitution):** The student identifies the formula $y = 3 \times x^2$ and substitutes $0.3$ for $x$: $y = 3 \times (0.3)^2$.
+*   **Step 2 (The Squaring Error):** The student calculates $(0.3)^2$. They think "3 squared is 9, so $0.3$ squared is $0.9$."
+*   **Step 3 (Final Multiplication):** The student then multiplies their result by the coefficient 3: $3 \times 0.9$.
+*   **Step 4 (Final Calculation):** They calculate $3 \times 9 = 27$ and adjust the decimal point once to account for the $0.9$, resulting in $2.7$.
+
+### 3. Which answer option this misconception leads to
+This leads directly to **Option D) $2.7$**.
+
+*(Note: The correct calculation is $0.3 \times 0.3 = 0.09$, and $0.09 \times 3 = 0.27$, which is Option B).*
+
+### 4. How natural/attractive this error is
+This is a **highly "invisible" error** to a student at this level for several reasons:
+
+*   **The "Squaring makes it smaller" paradox:** Year 9 students are often taught that squaring a number less than 1 makes it smaller. Since $0.9$ is larger than $0.3$, it *should* feel wrong, but many students are so focused on the digit "9" appearing after a "3" that they ignore the magnitude.
+*   **Misleading Pattern Matching:** Because $0.3 \times 2 = 0.6$ and $0.3 + 0.3 = 0.6$, the student subconsciously treats the decimal point as a fixed "barrier" and only operates on the integers behind it.
+*   **Plausibility:** Option D ($2.7$) looks like a "neat" answer. Because it appears in the multiple-choice list, it provides **confirmation bias**; the student sees their result reflected in the options and assumes their logic is sound, never suspecting they missed a place value in Step 2.

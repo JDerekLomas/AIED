@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item asks students to expand -3(m-2). The correct answer is D: -3m+6.
+
+Let me analyze the distractors:
+- A) 3m+6: Student ignores the negative sign on the 3, gets 3*m=3m and 3*(-2)=-6... no wait, that gives 3m-6. Actually A could come from -(-3)*m = 3m and -3*(-2)=6. This might reflect a student who flips the sign on the first term incorrectly but correctly handles the second.
+- B) -3m-6: This is the key misconception distractor. Student computes -3*m=-3m correctly, but then -3*(-2)=-6, believing two negatives multiply to give a negative. This directly tests the stated misconception.
+- C) 3m-6: Student might think -3*m=3m (dropping the negative) and -3*(-2)=-6 (negative times negative is negative). Double error.
+- D) -3m+6: Correct. -3*m=-3m, -3*(-2)=+6.
+
+The misconception "believes multiplying two negatives gives a negative answer" is quite common among younger secondary students. This is a standard bracket expansion question, fairly routine in UK KS3/KS4 curriculum.
+
+Comparing to calibration items: The factorising question (Tom and Katie) tests the same misconception and has classical difficulty 0.473 and IRT difficulty 0.404. However, that item is more complex (factorising vs expanding). This item is more straightforward but the negative signs add confusion.
+
+I'd estimate this is moderately difficult - harder than the simple equation solving (0.167) but perhaps similar to or slightly easier than the factorising item. The distractors are quite plausible since each represents a different sign error pattern.
+
+I'll estimate classical difficulty around 0.40, IRT difficulty around 0.25, good discrimination since the misconception is targeted well.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

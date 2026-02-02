@@ -1,0 +1,14 @@
+Having just sat at my desk marking 200 of these, this is a classic "gotcha" question that tests two distinct things: the handling of zero in averages and the understanding of BIDMAS/order of operations.
+
+Here is the breakdown of the pitfalls:
+*   **The Zero Trap (C):** Students often think "zero doesn't count" and divide by 4. This is the most common error for those who know the *mechanism* of the mean but not the *definition*.
+*   **The BIDMAS Trap (B):** This looks "correct" as a linear sentence, but mathematically it is $7 \div 5$ added to the rest. Weaker students read left-to-right and ignore the lack of brackets.
+*   **The Stealth Success (A):** Since $0 + 1 + 3 + 4 + 7$ is the same as $1 + 3 + 4 + 7$, this is mathematically correct. Students who are mathematically cautious often doubt this because the zero isn't visible in the numerator.
+*   **The Overthinker (D):** Usually chosen by students who see that the 0 is missing from the numerator of A and think "therefore it must be wrong."
+
+Predicted performance across Year 9:
+
+below_basic: A=10% B=45% C=35% D=10%
+basic: A=20% B=25% C=45% D=10%
+proficient: A=55% B=10% C=25% D=10%
+advanced: A=90% B=2% C=3% D=5%

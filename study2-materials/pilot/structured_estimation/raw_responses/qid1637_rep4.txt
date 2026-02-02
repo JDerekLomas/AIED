@@ -1,0 +1,47 @@
+<chain_of_thought>
+Solving -3 < 2x + 1 < 7:
+- Subtract 1: -4 < 2x < 6
+- Divide by 2: -2 < x < 3 (Answer A)
+
+I want to approach this estimation by carefully positioning this item relative to the calibration set.
+
+Calibration item 1 (p=-5=p+10, classical=0.167, b=-0.702): Very easy single equation, one-step solve. Much easier than our target.
+
+Calibration item 2 (order of operations, classical=0.134, b=-0.245): Easy for those who know BODMAS. Easier than our target.
+
+Calibration item 3 (function machines for x^2+5=14, classical=0.295, b=0.002): Moderate, involves understanding inverse operations in a visual context. Our target is somewhat harder due to compound inequality format.
+
+Calibration item 4 (factorising argument, classical=0.473, b=0.404): Requires checking two factorisations and understanding signs. Moderate-hard. Our target might be similar or slightly harder.
+
+Calibration item 5 (solving inequality 2n+3 <= 3n-7, classical=0.569, b=0.808): Requires collecting like terms across an inequality. This is arguably harder procedurally because of the variable on both sides. Our target has simpler algebra but the compound format.
+
+I think the compound inequality sits between calibration items 4 and 5. The algebra is straightforward but the three-part structure is unfamiliar to many students. Students who have practiced compound inequalities will find this routine; those who haven't will struggle with the format even if they can do single inequalities.
+
+My estimate: classical difficulty approximately 0.55, somewhat higher than item 4 but close to item 5. The IRT difficulty I'd place around 0.60.
+
+For discrimination: The item should discriminate well because there's a clear knowledge threshold (can you handle compound inequalities?). Students above this threshold will get it right; those below will choose distractors somewhat randomly. I'd estimate a = 1.35, which is in the range of the calibration items.
+
+Guessing: The four options have different structures (different bounds), so pure guessing gives 0.25, but some partial knowledge might help eliminate D (which has very wide bounds). Low-ability students might be drawn to B or C. I estimate c around 0.18.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

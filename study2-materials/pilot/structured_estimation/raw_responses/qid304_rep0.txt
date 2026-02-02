@@ -1,0 +1,62 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question tests understanding of order of operations (BIDMAS/BODMAS/PEMDAS). The expression is:
+1 + 2 × (3 - 4)
+
+The correct answer is C (3-4) because brackets/parentheses must be evaluated first according to order of operations.
+
+**Misconception being tested:** "Carries out operations from left to right regardless of priority order"
+- Students with this misconception would choose A (1+2) because it comes first when reading left to right.
+
+**Analyzing the distractors:**
+- A) 1+2: Attractive to students who work left-to-right
+- B) 2×3: Attractive to students who know multiplication comes before addition but ignore brackets
+- C) 3-4: CORRECT - brackets first
+- D) "It doesn't matter": Attractive to students who don't understand order matters
+
+**Comparing to calibration items:**
+- The calibration item with the same misconception (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT difficulty -0.245
+- That item was harder because it required actual computation AND understanding of order of operations
+- This item ONLY asks which calculation to do first - it's purely conceptual about order of operations
+
+**Difficulty assessment:**
+- This is a fundamental concept typically taught early in secondary school (Year 7-8)
+- The question is very clear and direct
+- Students who know BIDMAS will easily identify brackets first
+- However, the misconception of left-to-right processing is common
+- The presence of brackets makes this relatively straightforward for students who know the rule
+
+**Key observations:**
+- Low procedural demand - just identify the first step, no computation needed
+- Clear visual presentation with brackets obvious
+- The misconception tested is common but this is a basic application
+- Distractor A is quite plausible for students with the left-to-right misconception
+- Distractor B might catch students who remember "multiplication before addition" but forget brackets
+
+Given this is a conceptual question about order of operations at its most basic level (with explicit brackets), I expect it to be relatively easy - easier than the calibration item testing the same misconception because that required actual computation.
+
+I estimate classical difficulty around 0.15-0.25 (15-25% incorrect), IRT difficulty around -0.5 to -0.3, good discrimination since it clearly separates those who know BIDMAS from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

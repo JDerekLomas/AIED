@@ -1,0 +1,27 @@
+As an expert in mathematical misconceptions, I have identified a specific "bug" related to algebraic manipulation and signs, which is common among Year 9 students.
+
+### 1. The Specific Misconception: "Sign Reversal Error" (Subtraction-Addition Confusion)
+The student makes a **transposition error** when moving the constant term from one side of the equation to the other. Specifically, instead of correctly identifying that $-6y$ is a subtracted term and therefore requires addition to "cancel" it out (or careful substitution), they treat the negative sign as fixed or attached to the variable in a way that flips the required operation during isolation. 
+
+Alternatively, it manifests as a **Negative Sign Oversight** when dividing by the coefficient.
+
+### 2. The Step-by-Step "Buggy" Procedure
+A student with this misconception would follow these steps:
+1.  **Substitution:** They correctly substitute $y = 0.5$ into the equation:
+    $10x - 6(0.5) = 30$
+2.  **Simplification:** They calculate $6 \times 0.5$ correctly to get $3$:
+    $10x - 3 = 30$
+3.  **The Error (Mis-transposition):** When trying to "move" the $-3$ to the other side to isolate $x$, the student mentally equates the "minus" in $-3$ with the final operation, or they believe that because the equation has a minus, they must subtract 3 from 30 (instead of adding).
+    $10x = 30 - 3$ (The error happens here; it should be $30 + 3$)
+    $10x = 27$
+4.  **Final Division:** They divide by 10 to solve for $x$:
+    $x = \frac{27}{10} = 2.7$
+
+### 3. Corresponding Answer Option
+This procedure leads directly to **Option D: 2.7**.
+
+### 4. How "Attractive" is this Error?
+This is a **highly natural and "sticky" error** for a Year 9 student for several reasons:
+*   **Logical "Feel":** The number 27 feels like a "neater" intermediate step than 33 to many students, and $2.7$ looks like a very plausible coordinate for a linear graph.
+*   **Superficial Pattern Matching:** In lower secondary school, students often see the minus sign in $10x - 3$ and intuitively think "this is a subtraction problem," leading them to subtract the value from the total on the right.
+*   **The "Invisible" Mistake:** The student is unlikely to realize they went wrong because the calculation $6 \times 0.5 = 3$ is simple and "correct," and the final division by 10 is straightforward. Because the answer $2.7$ appears in the multiple-choice list, it provides **false validation**. The student assumes that since their result is an option, their method must be correct, unaware they missed a basic sign change in the algebraic manipulation phase.

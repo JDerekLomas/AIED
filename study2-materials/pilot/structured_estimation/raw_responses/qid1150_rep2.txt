@@ -1,0 +1,39 @@
+<chain_of_thought>
+Target: Rearrange F = v^2/r for v. Correct answer: v = sqrt(rF) (option C).
+
+This is a subject-changing problem involving two inverse operations: undoing division by r (multiply) and undoing squaring (square root). Students need to understand both operations and apply them in the correct order.
+
+Distractor analysis:
+- A: v = rF^2. Student squares F rather than square-rooting, suggesting they applied the same operation (squaring) rather than the inverse (square root). This directly tests the named misconception.
+- B: v = sqrt(F/r). Student divided by r rather than multiplied, applying the same operation as in the formula. Also tests the named misconception but for the division step.
+- C: v = sqrt(rF). Correct.
+- D: v = r*sqrt(F). Student correctly takes the square root of F but incorrectly handles the r -- pulling it outside the radical and multiplying rather than including it under the square root. This is a different error related to misunderstanding how radicals work with products.
+
+All three distractors are quite plausible. Option B is particularly tempting because the F/r structure mirrors the original equation. Option D shows partial knowledge.
+
+Comparing to calibration: This item requires more sophisticated algebra than the linear equation items. The need to deal with a squared variable and rearranging a physics-style formula elevates the difficulty. I'd compare it most closely to the inequality item (classical difficulty 0.569, b = 0.808) since both require multi-step algebraic manipulation beyond basic equation solving.
+
+However, formula rearrangement might be more practiced in science contexts, which could lower the difficulty slightly. I'll estimate classical difficulty around 0.55 and b around 0.60.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

@@ -1,0 +1,22 @@
+In the context of UK Year 9 mathematics (Ages 13–14), where students are refining their skills with powers and indices, the following misconception is highly prevalent.
+
+### 1. The Specific Misconception: "Linear Distribution of Decimals" (Incorrect Decimal Squaring)
+The specific bug is the **"Move the point once"** error when squaring decimals. Students correctly know that $3^2 = 9$, but they mistakenly believe that if the input has one decimal place, the output must also have exactly one decimal place. They treat the decimal point as a static separator rather than understanding that $0.3 \times 0.3 = 0.09$.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would follow these steps:
+1.  **Substitution:** Replace $x$ with $0.3$ in the formula: $y = 3 \times (0.3)^2$.
+2.  **Squaring the Base (The Error):** To calculate $(0.3)^2$, the student thinks "3 squared is 9." Instead of calculating $0.3 \times 0.3 = 0.09$, they apply a "symmetry rule" for decimals and conclude that $(0.3)^2 = 0.9$.
+3.  **Final Multiplication:** They then multiply their result by the coefficient: $3 \times 0.9$.
+4.  **Result:** Using basic times tables ($3 \times 9 = 27$) and re-inserting the single decimal place, they arrive at **2.7**.
+
+### 3. Which Answer Option?
+This misconception leads directly to **Option D (2.7)**.
+
+*(Note: Option B (0.27) is the correct answer. Option A (0.81) comes from the "Product-then-Square" bug $(3 \times 0.3)^2$, and Option C (1.8) comes from the "Power-is-Multiplier" bug $(3 \times 0.3 \times 2)$.)*
+
+### 4. How Natural/Attractive is this Error?
+This error is **highly attractive** and often feels "correct" to a Year 9 student for two reasons:
+*   **Intuitive "Plausibility":** $2.7$ "looks" like the right size. In the minds of many students, $0.3$ squared becoming $0.09$ (a much smaller looking number with more digits) feels counter-intuitive. $0.9$ feels like a more "natural" partner for $0.3$.
+*   **Misapplied Prior Knowledge:** Students are often taught that when you add or subtract decimals, you "keep the decimal points in a line." They incorrectly extend this logic to powers, assuming the decimal "stays in its column."
+*   **Lack of Feedback:** Because 2.7 appears in the multiple-choice list, it provides a "false confirmation" of their logic. Unless the student specifically checks their work by converting to fractions ($\frac{3}{10} \times \frac{3}{10} = \frac{9}{100}$), they are unlikely to realise they have made an error.

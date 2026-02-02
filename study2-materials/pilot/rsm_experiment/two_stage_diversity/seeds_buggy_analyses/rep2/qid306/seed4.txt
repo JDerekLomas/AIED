@@ -1,0 +1,34 @@
+As an expert in mathematical misconceptions, the specific issue here relates to the misinterpretation of the **order of operations (BIDMAS/BODMAS)**.
+
+### 1. The Misconception: "Strict Hierarchical Addition"
+The specific bug is the **strict interpretation of the BIDMAS acronym**, specifically the belief that **Addition must always be performed before Subtraction** because the 'A' comes before the 'S' in the mnemonic. 
+
+Students often fail to realize that Addition and Subtraction have **equal priority** and should be solved from left to right. They treat the acronym as a rigid, one-way vertical hierarchy rather than a grouping of levels (Brackets, Indices, Division/Multiplication, Addition/Subtraction).
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would approach the problems as follows:
+
+*   **Problem P (\(4 - 5 + 6\)):**
+    *   The student looks at the operations: Subtraction and Addition.
+    *   They recall "BIDMAS" and see that 'A' (Addition) comes before 'S' (Subtraction).
+    *   They identify the addition component: \(5 + 6\).
+    *   **Decision:** They decide they must do **\(5 + 6\)** first. (This is a procedural error; the correct priority is left-to-right, starting with \(4 - 5\)).
+
+*   **Problem Q (\(4 + 5 \times 6\)):**
+    *   The student looks at the operations: Addition and Multiplication.
+    *   They recall "BIDMAS" and see that 'M' (Multiplication) comes before 'A' (Addition).
+    *   They identify the multiplication component: \(5 \times 6\).
+    *   **Decision:** They decide they must do **\(5 \times 6\)** first. (This is actually the correct procedure for this specific problem).
+
+### 3. Corresponding Answer Option
+This misconception leads the student to choose **Option D**:
+*   **Problem P:** \(5 + 6\)
+*   **Problem Q:** \(5 \times 6\)
+
+### 4. Attractiveness of the Error
+This is one of the most common and "natural" errors in Key Stage 3 (Year 7–9) mathematics. 
+
+**Why it is attractive:**
+*   **Mnemonic Logic:** Students are explicitly taught BIDMAS/BODMAS as a memory tool. For a Year 9 student, following the letters in their literal alphabetical order feels like they are "following the rules" precisely.
+*   **Avoidance of Negatives:** If a student attempts to do Problem P from left to right (\(4 - 5\)), they encounter a negative number (\(-1\)). Subconsciously, students often choose to add the two positive integers at the end (\(5 + 6\)) to stay within the "safety" of positive numbers.
+*   **Lack of Feedback:** The student would **not** realize they had gone wrong. To them, they are being disciplined and systematic by applying the acronym. Because their logic for Problem Q is correct (Multiplication before Addition), they feel reinforced in their strategy and apply that same "letter-order" logic to Problem P, unaware that the rule changes for Addition/Subtraction.

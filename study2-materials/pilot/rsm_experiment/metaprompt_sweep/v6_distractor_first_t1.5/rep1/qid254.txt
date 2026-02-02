@@ -1,0 +1,30 @@
+As a UK maths teacher, this is a classic "trick" question that tests two distinct concepts: the treatment of zero in a data set and the understanding of the order of operations (BIDMAS).
+
+### Step 1 — Reasoning for each option
+
+**A) Correct Reasoning:** To find the mean, you sum all values (including 0, though it doesn't change the total) and divide by the count of all values. Since there are 5 numbers in the list ($0, 1, 3, 4, 7$), the sum is divided by 5. The student recognises that $0$ is a data point that must be counted.
+
+**B) BIDMAS/Calculator Error:** The student knows the steps (add then divide) but fails to account for the order of operations. Without brackets, this calculation equates to $0+1+3+4+(7 \div 5) = 9.4$. This is a very common error for students using basic scientific calculators or writing out horizontal expressions.
+
+**C) "Zero doesn't count" Misconception:** The student believes that because $0$ represents "nothing," it should not be included in the count of numbers. They sum the four non-zero digits and divide by 4. This is the most common conceptual error regarding the mean.
+
+**D) Verification Error:** The student may have calculated the mean correctly ($15 \div 5 = 3$) but because the *expression* in Option A does not explicitly show the "$+ 0$" in the numerator, they believe it is technically incomplete or incorrect, leading them to choose "None of them."
+
+---
+
+### Step 2 — Predicted distributions
+
+In the UK curriculum, "below basic" refers to students working significantly below age-related expectations (KS2 level), "basic" refers to a low GCSE Grade 3/4 student, "proficient" refers to a solid Grade 5/6, and "advanced" refers to Grade 7-9.
+
+| Ability Level | A (Correct) | B (BIDMAS Error) | C (Ignore 0) | D (Over-thinking) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 15% | 35% | 40% | 10% |
+| **Basic** | 40% | 20% | 30% | 10% |
+| **Proficient** | 75% | 10% | 10% | 5% |
+| **Advanced** | 94% | 2% | 1% | 3% |
+
+**Key Trends Observed:**
+*   **Below Basic:** Students are highly likely to pick **C** because they struggle with the concept of zero as a placeholder in statistics. They also frequently pick **B** because they write calculations exactly as they say them ("add them all up and divide by 5").
+*   **Basic:** There is a "toss-up" between A and C. Many students at this level have been warned "don't forget the zero," but in the heat of a test, the intuition that $0$ "doesn't count" remains strong.
+*   **Proficient:** These students usually spot the trap regarding the denominator ($5$ vs $4$). They are less likely to fall for the BIDMAS trap (B) as they are used to seeing fractions used for division.
+*   **Advanced:** Almost all will get this right. The few who miss it might choose **D** by being "too clever" and arguing that the numerator *must* explicitly show the zero to be the "correct calculation."

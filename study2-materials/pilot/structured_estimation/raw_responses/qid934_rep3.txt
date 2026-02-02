@@ -1,0 +1,46 @@
+<chain_of_thought>
+The target item presents a table of values for the equation 4x + 2y = 10 and asks what y equals when x = 0 (the star position).
+
+Working through the solution:
+4(0) + 2y = 10
+2y = 10
+y = 10/2 = 5
+Answer: C
+
+Thinking about this from a student perspective -- many students at KS3 level are comfortable with substitution and simple equation solving. The x = 0 case is particularly friendly because it eliminates one term entirely, reducing the problem to 2y = 10.
+
+However, the item has several features that could challenge students:
+1. Two-variable equation -- students must understand that substituting one variable lets them solve for the other
+2. Table interpretation -- they need to map the star to the correct (x, y) pair
+3. The equation has coefficients on both variables (4 and 2), which adds mild complexity
+
+The misconception "uses same operation rather than inverse" maps directly to distractor A (20). From 2y = 10, multiplying instead of dividing gives 20. This is a well-known and common error.
+
+Looking at the calibration set more carefully: the items range from classical difficulty 0.167 to 0.569, with IRT b from -0.702 to 0.808. The easier items involve single-variable equations; the harder ones involve factorising or multi-step inequality solving.
+
+This item sits in the easier portion. The substitution step with x = 0 is trivial, and 2y = 10 is about as simple as single-step equations get. But the framing (table of values, two-variable equation) pushes it slightly above the easiest calibration item.
+
+I'd place classical difficulty around 0.22, IRT b around -0.30. The discrimination should be moderate -- maybe around 1.35 -- since the item cleanly tests one specific misconception. Guessing is likely low because each distractor has a plausible derivation; random guessing is unlikely to be a dominant strategy here.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

@@ -1,0 +1,15 @@
+This question targets two common pitfalls in secondary mathematics: the order of operations (BIDMAS/BODMAS) and the multiplication of decimals.
+
+For the expression $3x^2$ where $x = 0.3$:
+1. **The correct path:** Square $0.3$ first ($0.09$), then multiply by $3$ to get **$0.27$ (B)**.
+2. **BIDMAS error:** Multiply $3 \times 0.3$ first ($0.9$), then square it to get **$0.81$ (A)**. This is the most common conceptual error.
+3. **Decimal placement error:** Squaring $0.3$ to get $0.9$ (instead of $0.09$) then multiplying by $3$ leads to **$2.7$ (D)**.
+4. **Linear error:** Thinking $x^2$ means $x \times 2$, leading to $3 \times 0.3 \times 2 = \mathbf{1.8}$ **(C)**.
+
+**Analysis of Difficulty:**
+Decimals exacerbate the standard $3x^2$ error. Many students struggle with $0.3 \times 0.3$, often instinctively wanting to say $0.9$. This makes option D a very "sticky" distractor. Option A is the classic distractor for those who don't prioritize indices. 
+
+below_basic: A=35% B=15% C=20% D=30%
+basic: A=30% B=30% C=10% D=30%
+proficient: A=15% B=65% C=5% D=15%
+advanced: A=5% B=90% C=2% D=3%

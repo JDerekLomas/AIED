@@ -1,0 +1,46 @@
+As a UK maths teacher, I have frequently encountered this specific problem type when teaching indices and the order of operations (BIDMAS/BODMAS). Squaring decimals combined with a coefficient is a "perfect storm" for common errors.
+
+### 1. Analysis of Misconceptions
+
+**Option A: 0.81 (The Targeted Distractor)**
+*   **Reasoning:** The student follows the operation left-to-right: $(3 \times 0.3)^2$. They multiply 3 by 0.3 to get 0.9, then square 0.9 ($0.9 \times 0.9$) to arrive at 0.81.
+*   **Misconception:** They ignore the priority of indices over multiplication. To a student, $3x^2$ looks like a single "term" to be processed from start to finish.
+
+**Option C: 1.8**
+*   **Reasoning:** The student interprets $x^2$ as "multiply by 2." They calculate $y = 3 \times (0.3 \times 2)$. Or, alternatively, $(3 \times 0.3) \times 2$.
+*   **Misconception:** A very common low-ability error where the index is treated as a linear multiplier rather than a power.
+
+**Option D: 2.7**
+*   **Reasoning:** The student ignores the decimal point during the squaring process but keeps it for the multiplication, or makes a "sliding decimal" error. They might do $3^2 \times 0.3 = 2.7$ (squaring the coefficient) or simply misplace the decimal point from the correct answer ($0.27 \rightarrow 2.7$).
+*   **Misconception:** Confusing the square of a decimal (thinking $0.3^2 = 0.9$) or mistakenly squaring the constant $3$.
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option A (0.81) - HIGHLY ATTRACTIVE:** This is the most "logical" error. In a student's mind, they are being "thorough" by working through the expression as written. It doesn't feel like a mistake because 0.81 is a "clean" number. This is most prevalent in mid-ability (Basic/Proficient) students who know *how* to square but forget the *hierarchy* of operations.
+*   **Option C (1.8) - MODERATE ATTRACTIVE:** This is the classic "squaring is doubling" error. It is very common at the "Below Basic" level. Once a student reaches a GCSE Foundation level (Basic), they usually stop making this mistake, but under exam pressure, it persists.
+*   **Option D (2.7) - LOW/MODERATE ATTRACTIVE:** This usually occurs because students find the leading zero and decimal point in $0.09$ unintuitive. They "feel" the answer should be larger.
+
+---
+
+### 3. Predicted Response Distribution
+
+**Below Basic (Grade 1-2):** These students often struggle with both BIDMAS and the concept of powers, frequently reverting to multiplication.
+*   **A=30% B=15% C=40% D=15%**
+
+**Basic (Grade 3-4):** These students know what a square is, but their BIDMAS is shaky when algebraic notation ($3x^2$) is involved. Option A is the dominant trap here.
+*   **A=45% B=30% C=15% D=10%**
+
+**Proficient (Grade 5-6):** These students generally follow BIDMAS but may still be tripped up by the arithmetic of squaring a decimal (thinking $0.3 \times 0.3 = 0.9$).
+*   **A=20% B=65% C=5% D=10%**
+
+**Advanced (Grade 7+):** These students have internalized both the order of operations and the place value shifts when squaring decimals.
+*   **A=5% B=92% C=1% D=2%**
+
+| Level | A (0.81) | B (0.27) | C (1.8) | D (2.7) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 30% | 15% | 40% | 15% |
+| **Basic** | 45% | 30% | 15% | 10% |
+| **Proficient** | 20% | 65% | 5% | 10% |
+| **Advanced** | 5% | 92% | 1% | 2% |

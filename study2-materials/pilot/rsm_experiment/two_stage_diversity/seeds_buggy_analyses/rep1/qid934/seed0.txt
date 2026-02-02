@@ -1,0 +1,35 @@
+In this context, the student is being asked to find the $y$-intercept of a linear equation presented in its implicit form ($ax + by = c$).
+
+### 1. The Misconception: "Operation Detachment / Variable Neglect"
+The specific bug is **Variable Neglect resulting in a Simple Calculation**. The student recognizes the numbers 4, 2, and 10 in the equation, but instead of treating the variables as containers for values, they see the equation as a "number sentence" puzzle. They ignore the relationship between $4x$ and $2y$ (multiplication/addition) and instead attempt to reach 10 using only the constants and the coefficient of the variable they are solving for.
+
+Alternatively, a common specific procedural bug for Year 9 is the **"First Number is X" error**, where the student believes the value for $x$ must be the first number seen in the equation ($4$), rather than the value given in the table ($0$).
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would follow these steps:
+1. **Identify the goal:** Find the value for $y$ when $x$ is 0.
+2. **Scan the equation:** Look at $4x + 2y = 10$.
+3. **Execute the "Neglect" bug:** Since $x=0$, the student assumes the $4x$ part of the equation simply "disappears" or becomes irrelevant (which is mathematically correct in this specific instance).
+4. **Perform the "Single Operation" logic:** They are left with $2y = 10$. Instead of dividing 10 by 2, the student's brain looks for a basic arithmetic bond. They see "2" and "10" and think, "What do I do to 2 to get 10?"
+5. **The Error:** Because $4 + 2 + \square = 10$ is a common structure in earlier primary key stages, the student performs **$10 - 2 - 3$** (attempting to use all numbers in the row) or, most likely, assumes the star is the result of the constant 10 minus the coefficient 4 and the coefficient 2: **$10 - 4 - 1 = 5$** or simply **$10 \div (4 \times 1)$**.
+
+**However, the most likely path to a wrong answer in the options provided is the "Calculation reversal" or "Substitution swap":**
+* The student substitutes $x = 0$ into the equation correctly: $4(0) + 2y = 10$.
+* They simplify to $2y = 10$.
+* Instead of dividing 10 by 2, they perform an **Additive Compensation**: they think "$2 + \text{what} = 10$?" or "$2 \times 10 = 20$".
+* **Specifically for Option A (20):** The student thinks they must multiply the coefficient (2) by the target (10).
+* **Specifically for Option D (2.5):** The student reverses the division, calculating $10 \div 4$ because they believe $x$ is always the "dominant" divisor, even when it is 0.
+
+**The most common bug for C (5):** This is the correct answer. To show a misconception, let's look at **Option A (20)**.
+1. The student sees $2y = 10$.
+2. They misunderstand the algebraic notation $2y$, believing it means "half of $y$ is 10" or they confuse the inverse operation of division with multiplication.
+3. They calculate $10 \times 2 = 20$.
+
+### 3. Answer Option
+This specific procedural bug (Multiplication instead of Division) leads to **Option A (20)**.
+*(Note: If the student ignores the $y$ coefficient and just sees $x=0$, they might pick **Option C (5)** for the right reasons, or **Option D (2.5)** if they divide 10 by the wrong coefficient—the 4).*
+
+### 4. How attractive is this error?
+This error is **highly attractive** and often feels "correct" to a Year 9 student struggling with fluency. Because $10 \div 2$ and $10 \times 2$ both produce "clean" integers that "look" like coordinates, the student will rarely pause to check their work.
+
+The student likely **would not realize they went wrong**. In their mind, they have used the numbers provided in the equation to arrive at a value that exists in the multiple-choice list. To a

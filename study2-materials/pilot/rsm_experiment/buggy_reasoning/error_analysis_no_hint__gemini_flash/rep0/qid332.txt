@@ -1,0 +1,17 @@
+In this Year 9 mock, this question specifically tests "order of operations in reverse" when solving linear equations. 
+
+**Tom's method** follows the standard "Flowchart" or "Inverse Operations" approach: he tackles the subtraction first ($12 + 5 = 17$). This is what the vast majority of students are taught as the "safest" first step.
+
+**Katie's method** is the "Eliminate the Denominator" approach. While mathematically valid, it is the number one "trap" for Year 9 students. Many forget that if you multiply by 3, you must multiply *every* term on both sides. Katie has failed to multiply the $-5$ by $3$ (it should be $x - 15 = 36$). 
+
+*   **Below Basic** students often struggle with the concept of "both" and will guess based on which single operation looks more familiar (multiplication or addition).
+*   **Basic** students recognize Tom's move as "correct" and often stop there, assuming only one person can be right in a math problem.
+*   **Proficient** students are the most likely to fall for Katie’s trap. They know they are "allowed" to multiply by the denominator to clear it, but their procedural fluency isn't high enough to remember to distribute that 3 across the $-5$. They will confidently select "Both".
+*   **Advanced** students will check Katie's expansion. They will notice that $\frac{x-15}{3} = 12$ would lead to $x-15=36$, and therefore spot that Katie missed a term.
+
+Here are the predicted percentages:
+
+below_basic: A=35% B=20% C=25% D=20%
+basic: A=55% B=10% C=30% D=5%
+proficient: A=45% B=5% C=48% D=2%
+advanced: A=92% B=1% C=5% D=2%

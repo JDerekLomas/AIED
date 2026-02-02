@@ -1,0 +1,18 @@
+To predict the performance of Year 9 students on this question, we must look at the specific algebraic hurdles they face.
+
+**Error Analysis:**
+*   **A ($3.3$):** This is the **correct answer**. $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$.
+*   **B ($2.7$):** This is the most "attractive" trap. Students often move the $-3$ to the other side by subtracting it again ($30 - 3 = 27$) rather than adding it. It feels natural to "subtract to solve," and $27/10$ gives a clean decimal.
+*   **C ($4.25$):** This comes from an "order of operations" or substitution flip. Some students solve $10(0.5) - 6y = 30$, substituting $0.5$ for $x$ instead of $y$. $5 - 6y = 30 \Rightarrow -6y = 25 \Rightarrow y \approx -4.16$, but more commonly they calculate $30 + 10 = 40; 40/6 = 6.6$ or $30-5=25; 25/6 \approx 4.16$, which they round to 4.25.
+*   **D ($-4.25$):** Similar to above but failing to handle the negative coefficient of $y$.
+
+**Student Profiles:**
+*   **Below Basic:** Often substitute $0.5$ for $x$ because $x$ comes first in the equation, or they simply guess.
+*   **Basic:** Can substitute correctly but usually fall for the "sign change" trap (Answer D).
+*   **Proficient:** Understand the substitution and the two-step equation, but a significant portion will still make the arithmetic error of $30 - 3$ instead of $30 + 3$.
+*   **Advanced:** Will perform the inverse operation correctly and double-check the substitution.
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=35% B=45% C=10% D=10%
+proficient: A=65% B=25% C=5% D=5%
+advanced: A=95% B=4% C=1% D=0%

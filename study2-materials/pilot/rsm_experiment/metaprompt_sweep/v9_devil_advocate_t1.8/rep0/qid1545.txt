@@ -1,0 +1,18 @@
+To predict student performance accurately, we must consider the pervasive impact of "left-to-right" processing bias and the "appearance of equivalence" in BIDMAS (order of operations) questions.
+
+**The Maths:**
+Left Side: $8 + (12 \div 4) = 8 + 3 = 11$
+Right Side: $(8 + 12) \div 4 = 20 \div 4 = 5$
+Result: $11 > 5$ (Option A)
+
+**The Student Pitfalls:**
+1. **The "Left-to-Right" Trap:** Lower-ability students often ignore BIDMAS and work strictly left-to-right. On the LHS, they calculate $(8+12) \div 4 = 5$. This leads them to conclude $5 = 5$, making Option C an incredibly strong distractor for Below Basic and Basic students.
+2. **Visual Matching:** The numbers 8, 12, and 4 appear on both sides in the same order. Many students assume the brackets are "extra" or that the operations will "balance out" regardless of order, again pushing them toward Option C.
+3. **Advanced Oversights:** Even proficient students can slip up by thinking the RHS will be larger because the addition happens "first," mentally inflating the value before the division, without actually performing the calculation.
+
+**Predicted Distributions:**
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=35% B=15% C=45% D=5%
+proficient: A=70% B=10% C=18% D=2%
+advanced: A=95% B=2% C=2% D=1%

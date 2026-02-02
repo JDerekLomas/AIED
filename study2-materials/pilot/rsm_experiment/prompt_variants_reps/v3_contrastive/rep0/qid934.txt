@@ -1,0 +1,22 @@
+As an experienced UK maths teacher, I evaluate this question based on how students interact with implicit functions and substitution.
+
+**Analysis:**
+The question tests the ability to substitute $x=0$ into the equation $4x + 2y = 10$. 
+*   **The Trap (Option A):** Students often confuse the coefficient with a placeholder. If they "remove" $x$, they might see $4+2y=10 \Rightarrow 2y=6 \Rightarrow y=3$. However, a very common "low-ability" error is to treat the expression as $4(0) + 2y = 10$, but then perform an incorrect operation or misinterpret the "4" and "2" together, leading to A (20) if they multiply $4 \times 5$. 
+*   **The most common error (Option B):** Many students substitute $x=1$ instead of $x=0$ by accident (skipping the first column), or they mentally solve $4(1) + 2y = 10$, which gives $y=3$.
+*   **The correct path (Option C):** When $x=0$, $4(0)$ vanishes, leaving $2y=10$, so $y=5$. This is relatively straightforward, but the format of $Ax + By = C$ is significantly harder for UK students than the standard $y = mx + c$.
+*   **The distraction (Option D):** This comes from $10 \div 4$, a common mistake if the student forgets which variable is which or tries to solve for the $x$-intercept incorrectly.
+
+**Predicted Percentages:**
+
+below_basic: A=20% B=30% C=40% D=10%
+*(Students at this level often guess or pick the first "sensible" number they see after a single operation. Many will miss the $x=0$ and look at the next possible integer $x=1$.)*
+
+basic: A=10% B=25% C=55% D=10%
+*(Students at this level can substitute 0, but the $2y=10$ step still catches some who might subtract 2 instead of dividing, though 5 is a very strong "attractive" result here.)*
+
+proficient: A=5% B=10% C=80% D=5%
+*(Proficient students handle the $4(0)$ easily. The main error here is a "silly mistake" reading the table and solving for $x=1$ by mistake.)*
+
+advanced: A=1% B=2% C=96% D=1%
+*(Advanced students will find this trivial as $x=0$ is the easiest substitution to perform.)*

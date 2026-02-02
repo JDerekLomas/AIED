@@ -1,0 +1,49 @@
+<chain_of_thought>
+Item: 1/3 + 1/2 x 1/3
+Correct answer: A (1/2)
+Misconception: Left-to-right processing ignoring operator precedence
+
+Correct working: BIDMAS says multiply first. 1/2 x 1/3 = 1/6. Then 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2.
+
+Misconception working: 1/3 + 1/2 = 5/6, then 5/6 x 1/3 = 5/18. This gives B.
+
+I want to think about the population of UK secondary students taking this item. Order of operations is introduced early in KS3 and reinforced throughout. By Year 9-10, most students should handle this. But the fraction context adds cognitive load compared to integer-based BIDMAS questions.
+
+Key considerations for difficulty estimation:
+1. The misconception (ignoring BIDMAS) is very common, especially in younger students
+2. Fraction arithmetic adds a layer of difficulty even for students who know BIDMAS
+3. The correct answer (1/2) is actually the simplest-looking option, which could go either way: some students might gravitate toward it, others might distrust it
+
+Looking at the calibration items more broadly:
+- Easy items (classical diff ~0.13-0.17): simple equation solving, order of operations with decimals
+- Medium items (classical diff ~0.30): function machines requiring inverse operations
+- Hard items (classical diff ~0.47-0.57): factorising, inequalities
+
+This item feels like it sits between easy and medium. The pure fraction context and the strong distractor pull toward B make it moderately challenging. I'll estimate classical difficulty around 0.23.
+
+For discrimination: the item should discriminate well. Students who understand BIDMAS will get it right; those who don't will reliably choose B. This clean separation suggests good discrimination, maybe 1.3-1.5.
+
+Guessing: the correct answer doesn't particularly stand out as a guess target. Low guessing, around 0.05 or less.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.23</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.38</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

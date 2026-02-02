@@ -1,0 +1,26 @@
+This question specifically tests the understanding of **Order of Operations (BIDMAS/BODMAS)**. 
+
+The left-hand side ($8 + 12 \div 4$) requires division before addition: $8 + 3 = 11$. 
+The right-hand side ($(8 + 12) \div 4$) requires brackets before division: $20 \div 4 = 5$. 
+Therefore, $11 > 5$.
+
+The main trap here is for students who simply work left-to-right on the first expression ($8+12 = 20$, then $20 \div 4 = 5$), leading them to believe the two sides are equal ($5 = 5$). This is a very common error among lower-attaining students. However, the numbers are small and manageable, so proficient students should handle the calculation easily. Option D is rarely chosen as "greater than or equal to" is less familiar and often seen as "wrong" when a strict inequality exists.
+
+**Predictive breakdown:**
+
+below_basic: A=30% B=15% C=50% D=5%
+*Students here almost always work left-to-right. They will calculate $20 \div 4$ for both sides and conclude they are equal (C).*
+
+basic: A=55% B=10% C=30% D=5%
+*Students are beginning to remember BIDMAS but often slip up. Many will correctly identify the first side as 11, but the "visual" symmetry of the numbers makes Option C a strong distractor.*
+
+proficient: A=85% B=5% C=8% D=2%
+*Most students at this level have mastered BIDMAS for basic two-step operations. Mistakes here are usually due to haste rather than a lack of knowledge.*
+
+advanced: A=98% B=1% C=1% D=0%
+*This is a trivial calculation for an advanced student; errors would be extremely rare clerical slips.*
+
+below_basic: A=30% B=15% C=50% D=05%
+basic: A=55% B=10% C=30% D=05%
+proficient: A=85% B=05% C=08% D=02%
+advanced: A=98% B=01% C=01% D=00%

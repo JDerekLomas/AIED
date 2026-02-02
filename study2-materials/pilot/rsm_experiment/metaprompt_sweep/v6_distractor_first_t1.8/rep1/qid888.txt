@@ -1,0 +1,26 @@
+As a UK maths teacher, I frequently see students tackle quadratic expansion. The main hurdles here are the addition of negative integers and the multiplication of two negatives (the directed number rules).
+
+### Step 1 — Reasoning for each option
+
+*   **A) $m^2 - 2m - 35$**: This is a dual-error response. The student has correctly found $-5$ and $-7$, but instead of adding them $(-5 + -7 = -12)$, they have calculated the *difference* between 7 and 5 to get 2 (or performed $-7 + 5$). Additionally, they have multiplied $(-5) \times (-7)$ and incorrectly concluded it is $-35$, missing the "negative times a negative is a positive" rule.
+*   **B) $m^2 - 12m + 35$**: **Correct reasoning.** Using FOIL (First, Outside, Inside, Last) or the grid method: $m \times m = m^2$; outside/inside terms are $-7m$ and $-5m$, which sum to $-12m$; and the final constants are $(-5) \times (-7) = +35$.
+*   **C) $m^2 + 12m + 35$**: The student understands that a negative times a negative is a positive for the final term ($+35$), but they have failed to maintain the signs for the linear terms, effectively treating the bracket as $(m+5)(m+7)$ or simply adding 5 and 7 and ignoring the negative signs.
+*   **D) $m^2 - 12m - 35$**: This is the most common "partial proficiency" error. The student correctly adds $-5$ and $-7$ to get $-12m$, but makes the very frequent mistake of thinking that $(-5) \times (-7)$ is $-35$ (often because they are over-thinking the "negative" nature of the problem).
+
+---
+
+### Step 2 — Predicted distributions
+
+In the UK curriculum, "Below Basic" usually refers to students working at Foundation Tier Grade 1-2, "Basic" at Grade 3-4, "Proficient" at Grade 5-6 (Higher Tier entry), and "Advanced" at Grade 7-9.
+
+**below_basic:** A=30% B=15% C=30% D=25%
+*(At this level, students often guess or simply combine the numbers without a formal method like FOIL, leading to an even split between common errors.)*
+
+**basic:** A=15% B=40% C=15% D=30%
+*(Students here know to use the grid method or FOIL, but roughly 1 in 3 will consistently fail the directed number multiplication $-5 \times -7$, making D a very attractive distractor.)*
+
+**proficient:** A=5% B=75% C=5% D=15%
+*(At this level, students are fluent in the expansion process but may still make a "slip" with the final sign, particularly under exam pressure.)*
+
+**advanced:** A=1% B=96% C=1% D=2%
+*(Higher ability students rarely struggle with this, but when they do make a mistake, it is almost exclusively the sign error in Option D.)*

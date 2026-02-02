@@ -1,0 +1,14 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it appears simple, it contains two classic traps: the tendency to work strictly from left to right, and the common misconception that addition should be performed before multiplication because "A" comes before "M" in some versions of the acronym.
+
+**Analysis of Options:**
+*   **D (8):** The correct answer ($6 + 2 = 8$).
+*   **A (9):** Calculating left to right ($12 \div 2 = 6$; $6 + 1 = 7$; $7 \times 2 = 14$ - wait, this leads to C). **A (9)** is often reached by students doing $12 \div (2+1) \times 2$, but more commonly it's a "near miss" calculation error or a misread of the signs. However, **A (14)** is the primary "left-to-right" distractor. 
+*   **B (3):** Reached by doing the addition first ($2+1=3$), then $12 \div (3 \times 2)$, or $12 \div 3 = 4$ then subtract.
+*   **C (14):** The most common error. Students work strictly left to right: $12 \div 2 = 6$, then $6 + 1 = 7$, then $7 \times 2 = 14$.
+
+In the UK context, "below basic" students almost always default to left-to-right processing. "Basic" students remember BIDMAS exists but often apply it inconsistently or think Addition comes before Multiplication. "Proficient" students get this right unless they make a "silly" calculation error.
+
+below_basic: A=10% B=15% C=60% D=15%
+basic: A=5% B=10% C=45% D=40%
+proficient: A=2% B=3% C=15% D=80%
+advanced: A=0% B=1% C=2% D=97%

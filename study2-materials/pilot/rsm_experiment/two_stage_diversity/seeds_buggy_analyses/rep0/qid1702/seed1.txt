@@ -1,0 +1,31 @@
+Here is the analysis of a specific misconception a Year 9 student might face when tackling this linear equation problem.
+
+### 1. The specific misconception: "Variable Swap Bug"
+The student understands that they need to substitute the given value into the equation and solve for the unknown, but they **incorrectly substitute the $y$-value into the $x$-position.** 
+
+This is a highly specific "Variable Swap" or "Positional Mapping" error. In tables of values, $x$ is almost always listed first (top row) and $y$ second (bottom row). If a student has developed a rigid procedural habit of "plug the number into the first letter I see," they will substitute $0.5$ for $x$ regardless of the table’s labeling.
+
+### 2. Step-by-step student logic
+A student with the Variable Swap Bug would work as follows:
+1.  **Identify the value:** See the number $0.5$ in the table.
+2.  **Incorrect Mapping:** Ignore the labels $x$ and $y$ and assume $0.5$ is the "input" for the first variable in the equation ($x$).
+3.  **Substitution:** Write $10(0.5) - 6y = 30$.
+4.  **Simplify:** Calculate $10 \times 0.5$, resulting in $5 - 6y = 30$.
+5.  **Isolate $y$:** 
+    *   Subtract $5$ from both sides: $-6y = 25$.
+    *   Divide by $-6$: $y = \frac{25}{-6}$.
+6.  **Calculate:** Compute $25 \div -6 \approx -4.166...$ or realize that $30 - 10(0.5) = 25$ and then perform $25 / 6 \approx 4.16$. 
+7.  **Select the "Nearest" Fit:** Because the calculation is slightly complex, the student looks for an option that looks similar to their result. Since $10(0.5)$ left them with $25$, and $30 - 4.25 \times 6 = 4.5$ (or similar rounding), they drift toward **Option B** as it is the only one reflecting a negative result near their "25/6" calculation, or they simply mix up the signs during subtraction (doing $30 + 5$ instead of $30 - 5$).
+
+*Note: Alternatively, a simpler version of the "Variable Swap" occurs where the student thinks $y$ is the subject and they should multiply by the "10". If they do $10(0.5) - 6y = 30 \rightarrow 5 - 6y = 30$, many students will simply flip the sign of the subtraction and do $(30-5)/6 = 25/6 = 4.16...$ or simply look for a "4" digit start.*
+
+### 3. Which answer option this leads to
+This misconception typically leads to **Option B (-4.25)** or **Option A (4.25)**.
+
+If the student performs: $10(0.5) - 6y = 30 \Rightarrow 5 - 6y = 30 \Rightarrow -6y = 25 \Rightarrow y = -4.166$, they see **Option B (-4.25)** as the only logical distractor that matches their sign and lead digit.
+
+### 4. How natural/attractive is this error?
+This error is **extremely common** for several reasons:
+*   **Table Fatigue:** In most Year 7 and 8 work, tables are presented where $x$ is the "given" and $y$ is the "calculated" value. Students become habituated to moving from top-to-bottom or left-to-right. 
+*   **Reading Direction:** English-speaking students read the equation from left to right. Since $10x$ appears first, they naturally want to "use" the provided number on the first variable they encounter.
+*   **Low Self-Correction Likelihood:** The student would **not** realize they went wrong. Because the math they performed (multiplication and subtraction) felt "correct" in isolation, they assume the mismatch in the decimal (4.16 vs 4.25) is a result of their own poor division skills rather than a fundamental error in substitution. They will pick the closest option and move on with high confidence.

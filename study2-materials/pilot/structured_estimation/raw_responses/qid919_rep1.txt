@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item tests substitution into y = 3x^2 with x = 0.3. The correct answer is B: 3 * (0.3)^2 = 3 * 0.09 = 0.27.
+
+The key misconception is order of operations—specifically, students who multiply 3 * 0.3 first (getting 0.9) and then square (getting 0.81, answer A). This is a classic BIDMAS error where exponentiation should precede multiplication.
+
+Let me consider each distractor:
+- A (0.81): (3 * 0.3)^2 = 0.9^2 = 0.81. This is the primary misconception trap.
+- C (1.8): Possibly from treating x^2 as 2x, so 3 * 2 * 0.3 = 1.8. Or perhaps 3 * 0.3 * 2 = 1.8.
+- D (2.7): Could come from 3 * 0.3 * 3 = 2.7, or thinking 0.3^2 = 0.9 (a squaring error) then 3 * 0.9 = 2.7.
+
+Distractor D is interesting—if a student thinks squaring 0.3 means multiplying by the exponent base somehow, or confuses 0.3^2 with 0.3 * 10 * 3... Actually, 0.3^2 might be mistakenly computed as 0.9 (multiplying 0.3 by 3 instead of by itself), yielding 3 * 0.9 = 2.7. That's also quite plausible.
+
+So we have two strong distractors (A and D), making this moderately difficult. Comparing to calibration: the BIDMAS item had difficulty 0.134 but involved fractions and subtraction in a simpler setup. This item's decimal squaring component and multiple plausible errors suggest higher difficulty.
+
+I'd estimate this is somewhat harder than the calibration BIDMAS item but not as hard as the factorising item. Perhaps around 0.30-0.40 classical difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

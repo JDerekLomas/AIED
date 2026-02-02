@@ -1,0 +1,39 @@
+As a specialist in diagnostic assessment, I have analysed this question focusing on the algebraic manipulation required to rearrange the sphere volume formula: $V = \frac{4}{3}\pi r^3$.
+
+### 1. Analysis of Wrong Answer Options
+
+**Option A (The specified misconception): "When solving an equation, uses the same operation rather than the inverse."**
+*   **Reasoning:** The student knows the formula $V = \frac{4}{3}\pi r^3$. To isolate $r$, they see $\frac{4}{3}$ and $\pi$. Instead of dividing by these terms (the inverse), they multiply $V$ by them. This leads to $V \times \frac{4}{3} \times \pi$, then taking the cube root to find $r$.
+*   **Result:** $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+**Option B: Reciprocal error / Selective inversion.**
+*   **Reasoning:** The student successfully moves the $\pi$ (by dividing) but fails to correctly "flip" the fraction $\frac{4}{3}$. They likely see the 4 and 3 and simply keep them in their original positions relative to the fraction bar (4 on top, 3 on bottom) while moving them to the other side of the equals sign. This is a common error in "cross-multiplication" where students lose track of the numerator/denominator relationship.
+*   **Result:** $r = \sqrt[3]{\frac{4V}{3\pi}}$.
+
+**Option D: Order of operations / Scope of the root.**
+*   **Reasoning:** The student correctly identifies the inverse operations (multiply by 3, divide by 4 and $\pi$) but fails to apply the cube root to the entire expression. They may cube root $V$ first and then attempt to multiply by the fraction. It also demonstrates a lack of understanding of the vinculum (fraction bar) as a grouping symbol.
+*   **Result:** $r = \frac{3 \sqrt[3]{V}}{4\pi}$.
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option A (High Attractiveness for Lower Sets):** This is a classic "clutching at straws" error. For a student who doesn't understand "doing the same to both sides," they see numbers and letters and just combine them. It looks "maths-like" because it uses all the right components from the formula.
+*   **Option B (High Attractiveness for Middle Sets):** This is the most "dangerous" distractor. Even students who understand inverse operations often get confused about which way a fraction flips when moving it across an equals sign. It feels like a very "reasonable" next step if they are rushing.
+*   **Option D (Low/Moderate Attractiveness):** This usually occurs when a student tries to do the rearrangement entirely in their head or on a non-fraction-display calculator. It’s less likely to be chosen if the student is writing out steps, as the cube root is clearly the final act of the process.
+
+---
+
+### 3. Predicted Response Distribution
+
+This question tests two things: memory of the volume formula and algebraic rearrangement skills. I expect significant "noise" in the data from students who have forgotten the $4/3$ or $\pi$ altogether, but among those attempting the algebra:
+
+| Group | A | B | C (Correct) | D |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 45% | 25% | 15% | 15% |
+| **Basic** | 25% | 35% | 30% | 10% |
+| **Proficient** | 10% | 20% | 65% | 5% |
+| **Advanced** | 2% | 5% | 92% | 1% |
+
+**Key takeaway for teachers:** 
+If a student chooses **A**, they need to go back to one-step equations (e.g., $5x = 10$). If they choose **B**, they understand the concept of isolating a variable but need more practice with the "Reciprocal Rule" for fractional coefficients.

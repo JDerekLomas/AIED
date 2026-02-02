@@ -1,0 +1,42 @@
+<chain_of_thought>
+Target: -3 < 2x + 1 < 7, correct answer A: -2 < x < 3.
+
+Step 1: Subtract 1 from all parts: -4 < 2x < 6
+Step 2: Divide all parts by 2: -2 < x < 3
+
+Key considerations for difficulty estimation:
+
+1. Compound inequality format -- students must apply operations to THREE parts simultaneously, which is less familiar than standard equations or single inequalities. This is typically KS4 content (ages 14-16).
+
+2. The misconception "uses same operation rather than inverse" -- for this item, a student who adds 1 instead of subtracting would get: -2 < 2x < 8, then dividing by 2: -1 < x < 4. Option B (-1 < x < 3) is close to this but not exact, suggesting the student might add 1 on the left but correctly subtract on the right, or there's an arithmetic slip.
+
+3. Looking at calibration anchors: The single inequality item (calibration 5) had classical difficulty 0.569 and b=0.808. That item involved rearranging terms across sides of the inequality (moving n terms), which is conceptually trickier. This compound inequality has simpler individual steps but the three-part format adds load.
+
+4. I think this item is slightly easier than calibration 5 because the operations are more mechanical (subtract, divide) without needing to collect like terms. But harder than calibration items 1-2. I'll estimate it's in the moderate range.
+
+5. Discrimination: The item tests a clear misconception and has a definite correct procedure, so it should discriminate reasonably well between students who understand inverse operations and those who don't. However, the compound format might introduce noise. I estimate moderate discrimination around 1.1-1.3.
+
+6. Guessing: With 4 options, chance is 0.25 but the options are structured enough that weak students might be able to eliminate some. I'd put guessing around 0.10-0.18.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

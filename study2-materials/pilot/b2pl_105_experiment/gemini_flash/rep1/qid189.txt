@@ -1,0 +1,15 @@
+This question tests a student's ability to substitute a value into an $n$th term formula. While the substitution is straightforward ($1 - 3 \times 15$), the presence of a negative term and the "1 minus" structure provides significant friction for lower-ability students.
+
+**Breakdown of choices:**
+*   **A (-44):** The correct answer ($1 - 45 = -44$).
+*   **B (-46):** A common directional error when working with negative numbers (thinking $45 + 1$ or moving the wrong way on the number line from $-45$).
+*   **C (-14):** A calculation error where the student performs $(1-3) \times 15$, or handles the 1 and 3 incorrectly before multiplying.
+*   **D (-30):** Usually chosen by students who ignore the "$1-$" and simply calculate $-3 \times 15$ incorrectly or think the sequence is related to $2n$ or $15 \times 2$.
+
+**Complexity Analysis:**
+The difficulty here isn't the algebra, but the integer arithmetic. Basic and Below Basic students frequently struggle with the "small number minus larger number" calculation ($1 - 45$). Many will instinctively do $45 - 1$ and then realize it must be negative, but a significant portion will make a "one-off" error or subtract in the wrong order mentally.
+
+below_basic: A=35% B=25% C=25% D=15%
+basic: A=60% B=20% C=10% D=10%
+proficient: A=85% B=10% C=3% D=2%
+advanced: A=98% B=1% C=1% D=0%

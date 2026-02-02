@@ -1,0 +1,36 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question step by step.
+
+The function machine operates as follows: input \(\Rightarrow-3 \Rightarrow \times 3 \Rightarrow 9a-21\).
+
+## Step 1: Understand the Function Machine Process
+First, let's denote the input as \(x\). The process can be described as:
+1. \(x \Rightarrow -3\), so we have \(x - 3\).
+2. Then, \(\times 3\), which gives \(3(x - 3)\).
+3. This results in \(9a - 21\), but to find the input, we need to work backwards from \(9a - 21 = 3(x - 3)\).
+
+## 2: Solve for the Input
+Let's solve \(9a - 21 = 3(x - 3)\) for \(x\):
+\[9a - 21 = 3x - 9\]
+Rearrange to solve for \(x\):
+\[3x = 9a - 21 + 9\]
+\[3x = 9a - 12\]
+\[x = 3a - 4\]
+
+## 3: Analyze the Options
+Given the correct input is \(3a - 4\), let's analyze the options:
+- A: \(3a - 18\)
+- B: \(3a - 4\)
+- C: \(3a - 21\)
+- D: \(3a - 7\)
+
+## 4: Predict Student Responses
+- **Below Basic**: Students at this level might struggle with algebraic manipulations and understanding function machines. They might incorrectly apply operations or forget steps. Given the algebraic nature of the question, a significant portion might choose an option that looks similar but is incorrect, such as A or C. Let's assume B=20% (those who might guess or partially understand), A=30%, C=30%, D=20%.
+- **Basic**: Students here have a foundational understanding but might make careless mistakes. They should be able to follow the function machine process but might get confused with the algebra. Option B should be more popular here. Let's assume B=50%, A=20%, C=20%, D=10%.
+- **Proficient**: These students should easily solve the problem. The correct answer, B, should be chosen by the majority. Let's assume B=80%, A=10%, C=5%, D=5%.
+- **Advanced**: Students at this level should not only solve it correctly but also understand the process well. The correct answer should be nearly universally chosen. Let's assume B=95%, A=3%, C=1%, D=1%.
+
+## 5: Format the Predictions
+below_basic: A=30% B=20% C=30% D=20%
+basic: A=20% B=50% C=20% D=10%
+proficient: A=10% B=80% C=5% D=5%
+advanced: A=3% B=95% C=1% D=1%

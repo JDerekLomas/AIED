@@ -1,0 +1,51 @@
+<chain_of_thought>
+Examining this BODMAS/order of operations item that uses a comparison format.
+
+Step-by-step solution:
+Left side: 8 + 12 ÷ 4
+- Division has priority: 12 ÷ 4 = 3
+- Addition: 8 + 3 = 11
+
+Right side: (8 + 12) ÷ 4
+- Brackets first: 8 + 12 = 20
+- Division: 20 ÷ 4 = 5
+
+Result: 11 > 5, so A (>) is correct.
+
+Distractor analysis:
+- C (=) is the primary trap, catching students who process left-to-right on both sides, effectively treating the left expression the same as the right. Both would evaluate to 5.
+- B (<) seems unlikely unless a student makes a specific computational error.
+- D (≥) is technically valid since 11 ≥ 5 is true. In a strict mathematical sense, > implies ≥, but in assessment contexts, students are expected to give the strongest/most specific relationship. Most students probably wouldn't overthink this.
+
+Difficulty estimation: The order of operations misconception is extremely prevalent. Research consistently shows it's one of the most persistent errors in arithmetic. The Eedi calibration item with this misconception had 0.134 classical difficulty, but that involved mixed number types (decimals and fractions).
+
+This item uses only integers, making computation simpler, but the comparison format is less standard than "compute this expression." Students must also know inequality notation. I think the comparison aspect and the strong pull of the equals misconception make this moderately difficult.
+
+For a broad 11-16 population on Eedi, I'd estimate perhaps 35% get it wrong. The younger students (Year 7-8) who are still consolidating BODMAS will struggle, while older students should handle it. The item spans a wide ability range.
+
+Discrimination: This should discriminate well because it tests a clear, binary concept — you either apply BODMAS or you don't. The main risk to discrimination is option D capturing some able students. I estimate discrimination around 1.3-1.5.
+
+Guessing: With four options, random guessing gives 0.25, but the structure of this item means students either know BODMAS (choose A) or don't (choose C), with little random guessing. The effective guessing parameter should be low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

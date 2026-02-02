@@ -1,0 +1,41 @@
+<chain_of_thought>
+Factorising x^2 - x - 6. The correct answer is A: (x-3)(x+2).
+
+Let me consider the difficulty from a different angle. In UK secondary maths, factorising quadratics with negative terms appears in Year 10-11 (ages 14-16) and is a core GCSE skill. However, research consistently shows that sign errors are one of the most persistent difficulties in algebra.
+
+The distractors systematically vary the signs of the two factors:
+- A: (x-3)(x+2) -- correct: -3 and +2, product -6, sum -1
+- B: (x-3)(x-2) -- both negative: product +6 (not -6), sum -5
+- C: (x+3)(x+2) -- both positive: product +6, sum +5
+- D: (x+3)(x-2) -- swapped: product -6 but sum +1
+
+Options A and D both give the correct constant term (-6). The key discriminator between them is the middle term: -x vs +x. So a student who correctly identifies that the constant must be -6 still has a 50-50 between A and D unless they carefully check the middle term.
+
+This makes me think the item might be harder than my initial instinct. Students who know the basics of factorisation but are careless with signs could easily pick D. And students with the negative-times-negative misconception pick B.
+
+Given this analysis, I'd push the difficulty estimate up a bit. Maybe classical difficulty around 0.50 -- about half of students get it wrong. This accounts for the strong pull of both B (misconception) and D (sign swap).
+
+The discrimination should be moderate to good. The guessing parameter could be notable since there's a natural 50-50 between A and D for students with partial knowledge.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

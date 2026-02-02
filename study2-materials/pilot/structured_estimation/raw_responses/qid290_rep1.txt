@@ -1,0 +1,37 @@
+<chain_of_thought>
+Let me work through this item. Students must find which substitution into 2n^2 - 1 produces a non-positive result, thereby disproving Katie's theory.
+
+Evaluating each option:
+- A: 2(3/4)^2 - 1 = 2 * 9/16 - 1 = 18/16 - 1 = 2/16 = 1/8. Positive.
+- B: 2(0.5)^2 - 1 = 2 * 0.25 - 1 = -0.5. Negative! This is the counter-example.
+- C: 2(-2)^2 - 1 = 2 * 4 - 1 = 7. Positive.
+- D: 2(-1)^2 - 1 = 2 * 1 - 1 = 1. Positive.
+
+The key misconception is about squaring negative numbers. A student who believes (-2)^2 = -4 would compute C as 2(-4) - 1 = -9, making it look like a counter-example. Similarly, (-1)^2 mistakenly computed as -1 gives 2(-1) - 1 = -3 for option D.
+
+This item requires multiple skills: understanding what "counter-example" means, substitution, order of operations, and correct handling of squaring (especially with negatives and small decimals). The cognitive demand is fairly high because students must evaluate all four options or at least reason about which values could make the expression negative.
+
+Comparing to the calibration set, this feels similar in difficulty to the factorising item (0.473 classical difficulty) but potentially a bit harder due to the added layer of counter-example reasoning. The discrimination should be moderate -- students who understand squaring well should consistently get this right, but the guessing rate may be elevated since students with the misconception are drawn to specific wrong answers rather than guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>7</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.56</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

@@ -1,0 +1,14 @@
+To predict these percentages, I have analysed the common cognitive pathways Year 9 students take when faced with a linear equation where they must substitute for $y$ rather than $x$.
+
+**Error Analysis:**
+*   **The "Natural Process" (Option C):** Many students intuitively believe that if a table lists $x$ above $y$, you must plug in $x$ to find $y$. They substitute $x=0.5$, giving $10(0.5) - 6y = 30$, leading to $5 - 6y = 30$, then $-6y = 25$, resulting in approximately $-4.16$. However, a much more common "basic" error is simply calculating $10(0.5) - 6 - 0.5$ or simply $(30 + 3)/10 = 3.3$ by rearranging the numbers haphazardly.
+*   **The Sign Error (Option B):** This is the most common "proficient" trap. A student correctly substitutes $0.5$ for $y$ to get $10x - 3 = 30$, but when moving the $-3$ across the equals sign, they subtract it instead of adding it ($10x = 27 \Rightarrow x = 2.7$) or they mangle the signs during a mental check, landing on negative values.
+*   **The Correct Logic (Option C vs A):** Option A ($33 / 10 = 3.3$) is often chosen by students who substitute correctly but fail the arithmetic of $6 \times 0.5$, or those who add $3$ to $30$ and get $33$ but then stop.
+*   **Option D ($2.7$):** This is the "high-level" distractor. $10x - 3 = 30 \rightarrow 10x = 27$. This comes from a student knowing they need to substitute $y$, but failing the inverse operation (subtracting 3 from 30 instead of adding).
+
+Here is the predicted breakdown:
+
+below_basic: A=20% B=15% C=50% D=15%
+basic: A=25% B=15% C=35% D=25%
+proficient: A=15% B=10% C=10% D=65%
+advanced: A=92% B=2% C=1% D=5%

@@ -1,0 +1,29 @@
+## Error Analysis:
+
+A) To arrive at answer A (6), a student might perform the operations in the wrong order or misunderstand the application of operations. For example, they might calculate \(3 - 5 + 4 \times 2\) as \(3 - 5 + 8 = 3 + 8 - 5 = 11 - 5 = 6\). This shows a lack of understanding of the order of operations (PEMDAS/BODMAS).
+
+B) For answer B (4), a student could be applying the operations sequentially without proper regard for precedence, but making an arithmetic error: \(3 - 5 + 4 \times 2 = 3 - 5 + 8 = -2 + 8 = 6\), but if they incorrectly calculate the multiplication first but then incorrectly add and subtract, they might not get this. A possible mistake could involve incorrect handling of negative numbers or a miscalculation in steps.
+
+C) To get answer C (-12), a student might incorrectly apply the operations as \(3 - 5 + 4 \times 2 = 3 - (5 + 8) = 3 - 13 = -10\), or more likely, a calculation like \(4 \times 2 = 8\), then \(3 - 5 = -2\), and \(-2 + 8 = 6\), which does not match. However, misinterpreting and misapplying operations could lead to wrong calculations. For example, operating in completely the wrong order or applying incorrect rules.
+
+D) For answer D (-10), a common mistake could involve evaluating the expression with incorrect order of operations or arithmetic: \(3 - 5 = -2\); then \(4 \times 2 = 8\); finally, \(-2 + 8 = 6\). Alternatively, another incorrect pathway is \(3 - (5 + 4) \times 2 = 3 - 9 \times 2 = 3 - 18 = -15\), which still doesn't directly lead to -10 but shows misconception. The error here may simply be adding and subtracting numbers in incorrect order without applying multiplication correctly: directly calculating as \(5 - 3 + 8 = 10\), or another wrong sequential operation.
+
+## Predictitions:
+
+Given common error patterns in maths, let's assume:
+
+- **Below Basic**: Students here lack fundamental understanding. High chance of not following order of operations and making basic calculation errors.
+- **Basic**: Students have basic understanding but are prone to small mistakes and not fully grasping concepts like order of operations.
+- **Proficient**: Students generally understand concepts but might occasionally make minor errors under time pressure or with complex problems.
+- **Advanced**: Students have a strong grasp and are less likely to make concept mistakes.
+
+Response Distribution Predictions, where each level (in %) for A, B, C, D directly correlates with described student reaction given instruction types:
+
+below_basic: A=40% B=25% C=20% D=15% 
+    # The complete flip without applying 
+basic: A=60% B=15% C=5% D=20% 
+    # Mis-order or wrong simple calculation most
+proficient: A=30% B=5% C=5% D=60% 
+    # Mostly standard operations understanding & then small deviation in higher concept knowledge levels 
+advanced: A=5% B=0% C=5% D=90% 
+    # Very well understanding leading only towards standard outcome.

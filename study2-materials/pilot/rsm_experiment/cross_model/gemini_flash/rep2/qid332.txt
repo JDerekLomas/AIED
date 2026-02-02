@@ -1,0 +1,16 @@
+This question explores a common algebraic threshold: the order of operations when rearranging equations. Specifically, it tests whether students understand that the "-5" is a separate term from the fraction.
+
+Tom's method is the standard "balance" approach (adding 5 to both sides first), which most students find intuitive. Katie’s method represents a common misconception where students attempt to "undo" the division by 3 before dealing with the constant term, but they fail to multiply the entire side (the -5) by 3. 
+
+**Analysis of student performance:**
+*   **Below Basic:** These students often pick "Both" because they assume any mathematical operation shown by two people must be valid ways of looking at it, or they lack the formal rules for isolating $x$.
+*   **Basic:** Many students at this level will recognize Tom is correct but will be "fooled" by Katie. They see $12 \times 3 = 36$ and assume that because one part of the equation was treated correctly, the whole line is correct.
+*   **Proficient:** These students usually recognize that Tom is correct. They are the most likely to get this right (Option A), though a significant minority will still fall for Katie's "partial multiplication" error because it looks "mathsy."
+*   **Advanced:** These students will immediately spot that Katie failed to multiply the -5 by 3, making her step $x - 15 = 36$ if it were to be correct.
+
+The most common wrong answer across the board is C, driven by the fact that $12 \times 3$ is indeed $36$, which acts as a strong "distractor" for students who don't fully grasp the distributive property/maintaining equality across all terms.
+
+below_basic: A=25% B=15% C=45% D=15%
+basic: A=45% B=10% C=35% D=10%
+proficient: A=70% B=5% C=20% D=5%
+advanced: A=92% B=2% C=5% D=1%

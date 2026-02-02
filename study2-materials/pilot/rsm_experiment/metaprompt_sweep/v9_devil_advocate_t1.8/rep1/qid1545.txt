@@ -1,0 +1,16 @@
+To predict student performance on this BIDMAS/BODMAS question, we must acknowledge the classic "left-to-right" trap. Students often ignore the priority of division over addition unless brackets are present.
+
+On the left side: $8 + 12 \div 4$. 
+*   **Correct priority:** $8 + 3 = 11$.
+*   **Common error:** $(8 + 12) \div 4 = 20 \div 4 = 5$.
+
+On the right side: $(8 + 12) \div 4$.
+*   **Calculation:** $20 \div 4 = 5$.
+
+**The Trap:** 
+Many students in the "below_basic" and "basic" categories will calculate the left side as $20 \div 4 = 5$ because they simply read from left to right. This leads them to conclude that $5 = 5$, making Option C an extremely high-frequency "distractor" for those who do not apply BIDMAS correctly. "Proficient" students know the rule but often slip up under pressure; "Advanced" students see the structure immediately.
+
+below_basic: A=10% B=5% C=80% D=5%
+basic: A=25% B=10% C=60% D=5%
+proficient: A=65% B=10% C=23% D=2%
+advanced: A=95% B=2% C=2% D=1%

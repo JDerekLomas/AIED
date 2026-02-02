@@ -1,0 +1,18 @@
+This question specifically tests the student's ability to handle an algebraic equation where the unknown is in the denominator. This is a notorious "hinge point" in Key Stage 3 and GCSE algebra.
+
+**Analysis of the Distractors:**
+*   **C (p = 2):** This is the most common error. Students see "10, 5, and $p$" and perform $10 \div 5$ regardless of the structure. They treat $\frac{5}{p}$ as if it were $5p$ or $\frac{p}{5}$ incorrectly.
+*   **B (p = 50):** This catches students who know they need to multiply to "undo" a fraction, but they multiply $10 \times 5$ instead of realizing they are multiplying by $p$.
+*   **A (p = 0.5):** The correct answer. Requires the student to either multiply by $p$ and then divide by 10 ($10p = 5$), or use the "swap" shortcut for denominators.
+*   **D (No solutions):** A distractor for students who believe you cannot divide a smaller number (5) by something to get a larger number (10).
+
+**Ability Level Predictions:**
+*   **Below Basic:** Often rely on "number juggling." They see 10 and 5 and immediately go to 2 (Option C). This will be the most popular choice by far.
+*   **Basic:** Some will attempt a formal method but fail at the first step (multiplication), leading to 50. Others will still fall for the "10 ÷ 5" intuition.
+*   **Proficient:** These students recognize that $p$ must be less than 1 for the answer to be larger than 5, but many will still instinctively calculate $10 \div 5$ before correcting themselves.
+*   **Advanced:** Usually comfortable with the reciprocal nature of these equations or can perform the two-step rearrangement ($10p = 5 \rightarrow p = 5/10$) accurately.
+
+below_basic: A=15% B=20% C=60% D=5%
+basic: A=35% B=25% C=35% D=5%
+proficient: A=70% B=10% C=18% D=2%
+advanced: A=96% B=2% C=2% D=0%

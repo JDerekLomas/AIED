@@ -1,0 +1,42 @@
+<chain_of_thought>
+This item asks students to expand (x-4)^2. The correct answer is x^2 - 8x + 16 (option A). The misconception tested is "believes multiplying two negatives gives a negative answer," which would lead students to think (-4)(-4) = -16 rather than +16.
+
+Let me think about each distractor:
+- A: x^2 - 8x + 16 — correct, full expansion of (x-4)(x-4)
+- B: x^2 + 16 — student forgot the middle term entirely, treating it like a sum of squares
+- C: x^2 - 16 — student treated it as a difference of squares (x-4)(x+4) or forgot the middle term and got the sign wrong on 16
+- D: x^2 - 8x - 16 — student got the middle term right but believes (-4)(-4) = -16, which is the tested misconception
+
+The tested misconception specifically targets distractor D. This is a very common error — students often struggle with signs when squaring binomials.
+
+Comparing to calibration items: The factorising item (Tom and Katie) also tests "believes multiplying two negatives gives a negative answer" and has classical difficulty 0.473, IRT difficulty 0.404. This expansion item is somewhat similar in difficulty — expanding a squared binomial is a standard GCSE topic. However, the distractors here are quite plausible since there are multiple common errors students make with squared binomials (forgetting the middle term, sign errors).
+
+I'd estimate this is moderately difficult — perhaps slightly harder than the Tom/Katie item because students need to perform the expansion themselves rather than just checking given factorisations. The discrimination should be reasonable since the distractors target specific misconceptions. There may be some guessing but not much since students who don't know the expansion will likely pick a specific wrong answer based on their misconception rather than guess randomly.
+
+Classical difficulty estimate: around 0.45-0.55 (similar to the factorising item)
+IRT difficulty: around 0.3-0.5
+IRT discrimination: around 1.2-1.4
+Guessing: low, maybe 0.10-0.15
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

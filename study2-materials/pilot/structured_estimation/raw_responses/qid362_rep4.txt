@@ -1,0 +1,44 @@
+<chain_of_thought>
+Item analysis: Finding the gradient from 4x + 3y = 5.
+
+This is a standard GCSE topic -- rearranging a linear equation to find its gradient. The correct process yields y = (-4/3)x + 5/3, so gradient = -4/3 (option C).
+
+Let me consider the population of UK secondary students (11-16). This topic is typically covered in Year 9-10, so younger students in the 11-16 range would struggle significantly. For the full age range, difficulty will be elevated partly due to students who haven't yet encountered this topic.
+
+However, for students who have studied coordinate geometry, this is a fairly routine exercise. The main traps are:
+1. Not changing the sign of 4x when rearranging (giving 4/3 -- option D)
+2. Forgetting to divide by 3 (giving -4 -- option A)
+3. Just reading the coefficient (giving 4 -- option B)
+
+The structure of the distractors is elegant: they form a 2x2 matrix of (correct sign / wrong sign) x (divided by 3 / not divided). This means each distractor captures exactly one or two specific procedural errors.
+
+Reflecting on the calibration set more carefully: all five anchors test algebraic manipulation misconceptions. The gradient from b=-0.702 to b=0.808 correlates with increasing procedural and conceptual demands. Where does this item fall?
+
+It requires: (a) knowing what gradient means, (b) knowing y=mx+c form, (c) rearranging correctly with sign change, (d) dividing by 3 correctly, (e) identifying m. That's substantial prerequisite knowledge but routine procedural steps.
+
+I think this is harder than the order-of-operations item (b=-0.245) because it requires domain-specific knowledge about gradients. It's probably comparable to or slightly harder than the factorising item (b=0.404) because while factorising is harder algebraically, the gradient concept adds an extra layer of required knowledge.
+
+Estimate: classical difficulty 0.55 (slightly more than half incorrect), b = 0.55. I'm going slightly higher than my initial instinct because students who haven't reached this topic will essentially be guessing. Discrimination around 1.20 -- good but not exceptional because the item conflates two potential errors (sign and division) which could muddy the ability-response relationship. Guessing around 0.15 given that lower-ability students who haven't learned gradients would need to guess among four options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

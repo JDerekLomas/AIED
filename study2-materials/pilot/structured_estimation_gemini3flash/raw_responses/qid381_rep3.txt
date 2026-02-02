@@ -1,0 +1,46 @@
+<chain_of_thought>
+The target item asks students to rearrange the formula for the area of a triangle ($A = \frac{1}{2}bh$) to make $h$ the subject. 
+
+1. **Mathematical Steps**: 
+   - Multiply both sides by 2: $2A = bh$.
+   - Divide both sides by $b$: $h = \frac{2A}{b}$.
+
+2. **Analysis of Distractors**:
+   - **A ($h=\frac{1}{2}(b \times A)$)**: This reflects a total lack of algebraic manipulation, simply swapping $h$ and $A$ without changing operations.
+   - **C ($h=\frac{A}{2b}$)**: This is a very common error where students "move" the $\frac{1}{2}$ to the other side but treat it as a multiplier of the denominator (essentially dividing by 2 instead of multiplying by 2, or dividing by $2b$ instead of dividing by $0.5b$).
+   - **D (None)**: Often chosen by students who arrive at an answer like $h = \frac{A}{0.5b}$ and don't recognize it as equivalent to B, or who are completely lost.
+
+3. **Psychometric Comparison**:
+   - This item is more difficult than the simple linear equation $-5 = p + 10$ because it involves two steps (multiplication and division) and literal symbols (variables) rather than numbers.
+   - It is similar in complexity to the inequality $2n+3 \leq 3n-7$ but deals with fractions, which usually decreases the proportion correct.
+   - Rearranging formulae is a mid-tier GCSE skill (UK ages 14-16). Younger students (11-13) will find this very difficult.
+   - The discrimination is likely high, as it clearly separates those who understand inverse operations from those who apply rote "moving" rules.
+
+4. **Parameter Estimation**:
+   - **Classical Difficulty**: Based on the calibration items, multi-step algebra usually sits between 0.30 and 0.45. The fraction $\frac{1}{2}$ is a significant hurdle. I estimate around 0.38.
+   - **IRT Difficulty (b)**: Looking at the calibration, $b=0.404$ was for factorising, and $b=0.808$ was for the inequality. This item is likely around $b=0.55$.
+   - **Discrimination (a)**: Algebraic manipulation items in this set show high discrimination (1.2 to 1.5). I'll estimate 1.35.
+   - **Guessing (c)**: With 4 options, there's always a baseline, but "None of these" often reduces blind guessing. I'll estimate 0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

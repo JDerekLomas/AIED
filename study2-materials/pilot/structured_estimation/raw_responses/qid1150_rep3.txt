@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item presents F = v^2/r and asks to isolate v. Solution: multiply by r, then square root, yielding v = sqrt(rF).
+
+I want to think about this from a student perspective. A Year 10-11 student encountering this in a GCSE context would need to:
+1. Recognize that v^2/r means v squared divided by r
+2. Know to multiply both sides by r first: rF = v^2
+3. Know to take the square root: v = sqrt(rF)
+
+The key difficulty is managing two operations in sequence and correctly applying inverse operations. Many students struggle with which operation to "undo" and in what order. The presence of the square adds significant difficulty compared to linear rearrangement.
+
+Looking at the distractors more carefully: each one represents a distinct and common error pattern. This is well-designed from a diagnostic standpoint, which should produce good discrimination -- students who understand the concept will reliably pick C, while students with specific misconceptions will be attracted to specific wrong answers rather than guessing randomly.
+
+From the calibration set, I note that the three items testing the same misconception ("uses same operation rather than inverse") have difficulties of 0.167, 0.295, and 0.569. There's a clear trend: as the algebraic complexity increases, so does the difficulty. This item has high algebraic complexity (squared terms, fractions, square roots), so I'd expect it to be at least as difficult as the inequality item (0.569) or possibly harder.
+
+I'll estimate classical difficulty around 0.58 and an IRT b parameter around 0.70. Discrimination should be solid given the well-targeted distractors, maybe around 1.2-1.3. Some guessing is likely since weaker students may recognize parts of the correct answer structure.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>0.70</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.16</guessing_probability>
+</predictions>

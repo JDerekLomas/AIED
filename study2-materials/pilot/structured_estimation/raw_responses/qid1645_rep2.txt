@@ -1,0 +1,41 @@
+<chain_of_thought>
+Item: 3p^2 + 9 = 39. Solve giving all solutions.
+
+Correct procedure: 3p^2 + 9 = 39 -> 3p^2 = 30 -> p^2 = 10 -> p = +/- sqrt(10). Answer B.
+
+Let me consider the cognitive demands. Students need to: identify this as a rearranging equation problem, apply three inverse operations in sequence (subtract, divide, square root), accept an irrational answer, and remember to give both roots.
+
+The misconception tested is "uses the same operation rather than the inverse." In context, option D (p=+/-4) likely captures this: if a student adds 9 to 39 getting 48, then divides by 3 getting 16, then sqrt(16)=4. This is a very natural error for students who mechanically "undo" by doing the same operation.
+
+Option C (p=+/-2) captures a different error -- likely wrong order of operations when unwinding. If a student divides first (39/3=13) then subtracts 9 (=4) then takes sqrt(4)=2.
+
+For difficulty calibration: comparing to the calibration set, the linear equation -5=p+10 had b=-0.702 (easy), the inequality had b=0.808 (hard). This quadratic item is more complex than the linear equation but the structure is still "undo operations." The surd answer is the key difficulty amplifier. I'd place the IRT difficulty around 0.4-0.7.
+
+The item should discriminate well because weaker students will make the specific procedural errors captured by distractors, while stronger students will correctly execute the inverse operations and accept the surd. However, the surd answer being "unusual" may reduce discrimination slightly. I estimate a around 1.15.
+
+Looking at classical difficulty: with three operations to get wrong and an unfamiliar answer form, I expect around 50-60% of students get it wrong. The calibration item with factorising (conceptual, b=0.404) had 47.3% incorrect. This is procedurally harder but perhaps conceptually simpler. I'll say about 0.53.
+
+Guessing: Option A uses the wrong variable (n instead of p), which attentive students will catch. This makes pure random guessing less likely. I estimate c around 0.08.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.53</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

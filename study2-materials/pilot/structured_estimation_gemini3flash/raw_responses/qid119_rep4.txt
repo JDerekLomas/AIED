@@ -1,0 +1,49 @@
+<chain_of_thought>
+The item assesses the multiplication and division of negative integers, specifically the rule that a negative multiplied/divided by a negative results in a positive. 
+
+1. **Mathematical Analysis**: 
+   - Tom says: $-3 \times -8 = -24$. This is incorrect because $(-)(-) = (+)$. Correct answer: $+24$.
+   - Katie says: $-24 / -3 = -8$. This is incorrect because $(-)/(-) = (+)$. Correct answer: $+8$.
+   - Therefore, neither is correct (Option D).
+
+2. **Misconception Profile**: 
+   - The primary misconception is the belief that "multiplying two negatives gives a negative." This is a very common error among UK Key Stage 3 (ages 11-14) students. 
+   - The diagram adds a layer of complexity. It shows a vector of -24 and a smaller vector that is one-third the length. While intended to support the math, diagrams in negative number problems often increase cognitive load or confusion if the student isn't used to vector representations of directed numbers.
+
+3. **Psychometric Comparison**:
+   - Looking at the calibration examples, items involving negative number rules (like the factorising example) tend to have classical difficulties around 0.4-0.5. However, this specific item asks for "Neither," which is often a more difficult choice for students than "Both" or a specific person, as it requires confidence in rejecting both presented calculations.
+   - The "Neither" option (D) often attracts lower success rates than options where a student can just agree with one person.
+   - The discrimination is likely to be high, similar to the factorising item (1.45), because this is a "threshold" concept in algebra/arithmetic.
+
+4. **Difficulty Estimation**:
+   - Classical Difficulty (p): The misconception is strong. I expect many students to choose C (Both) because they see the numbers 3, 8, and 24 and ignore the sign rules, or they believe two negatives make a negative. This will drive the p-value down. I estimate it around 0.35 - 0.40.
+   - IRT Difficulty (b): Based on the calibration items, a p-value of ~0.4 relates to a $b$ value around 0.5. Given the "Neither" trap, the $b$ value might be slightly higher than the factorising item.
+   - Guessing (c): With 4 options, 0.20 is standard.
+
+5. **Rating Justification**:
+   - Concept complexity is moderate (negative signs).
+   - Visual complexity is moderate due to the vector diagram.
+   - Clarity is slightly lower because "Neither" is cognitively taxing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.65</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

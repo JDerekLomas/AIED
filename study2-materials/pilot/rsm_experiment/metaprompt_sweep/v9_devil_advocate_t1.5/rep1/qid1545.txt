@@ -1,0 +1,30 @@
+To predict the performance of UK students (typically Key Stage 3 and 4), we must look at the common misconceptions regarding the Order of Operations (BIDMAS/BODMAS).
+
+**The Calculation:**
+Left side: $8 + 12 \div 4 = 8 + 3 = 11$
+Right side: $(8 + 12) \div 4 = 20 \div 4 = 5$
+The correct answer is **A ($11 > 5$)**.
+
+**Common Pitfalls:**
+1.  **Left-to-Right Processing:** Many students ignore BIDMAS and calculate the left side as $(8+12) \div 4 = 5$, leading them to choose **C ($5 = 5$)**.
+2.  **Visual Similarity:** Students see the same numbers and operations on both sides and instinctively feel they should be equal without calculating.
+3.  **Inverse Misconception:** Some students associate the presence of brackets with "making a number bigger," leading them to guess **B**.
+
+**Predicted Statistics:**
+
+below_basic: A=20% B=15% C=60% D=5%
+*Explanation: These students almost universally work left-to-right. They will calculate the left side as $8+12=20$, then $20 \div 4=5$. Since the right side clearly equals 5, "equal" is the most "logical" answer to them.*
+
+basic: A=45% B=10% C=40% D=5%
+*Explanation: Students at this level know the acronym BIDMAS exists but often fail to apply it when the addition comes first in the string. There is a high "pull" toward the equals sign because the numbers are identical.*
+
+proficient: A=85% B=5% C=8% D=2%
+*Explanation: Most students at this level have mastered the order of operations for simple two-step problems. Occasional slips occur due to rushing, but they generally identify that brackets change the outcome.*
+
+advanced: A=98% B=1% C=1% D=0%
+*Explanation: Advanced students will see the "trick" immediately. The only errors here would be extreme cognitive lapses or misreading the inequality signs.*
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

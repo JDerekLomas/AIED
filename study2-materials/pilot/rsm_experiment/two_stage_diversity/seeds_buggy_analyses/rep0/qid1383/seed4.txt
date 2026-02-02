@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I have identified a prevalent issue involving the interaction between negative bases and exponents.
+
+### 1. The Misconception: "Negative Base Neglect" (Order of Operations Confusion)
+The specific bug is the **misinterpretation of index notation when involving negative bases.** In UK Year 9, students are taught BIDMAS (Brackets, Indices, Division/Multiplication, Addition/Subtraction). Many students believe that the negative sign is separate from the number being raised to the power, treating $-3^4$ as $-(3 \times 3 \times 3 \times 3)$. They fail to internalize that if $k = -3$, the entire value (including the sign) must be substituted into the base.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would approach the question as follows:
+*   **Step 1:** Look at the substitution $k = -3$. 
+*   **Step 2:** Write down the expression as $-3^4$. (Crucially, they omit the parentheses that are mathematically necessary for substitution: $(-3)^4$).
+*   **Step 3:** Apply the order of operations (BIDMAS). They believe "Indices come before the negative sign" (treating the negative as a subtraction or a multiplier of $-1$).
+*   **Step 4:** Calculate $3 \times 3 \times 3 \times 3 = 81$.
+*   **Step 5:** Re-attach the negative sign to the final result, concluding that the answer is $-81$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option C: -81**.
+
+### 4. Attractiveness of the Error
+This is one of the most "natural" and persistent errors in secondary mathematics for several reasons:
+
+*   **Calculator Reinforcement:** If a student types `- 3 ^ 4` into many standard scientific calculators (like the Casio models used in UK schools) without brackets, the calculator will output `-81`. This validates their incorrect mental logic with "technological authority."
+*   **Visual Logic:** The student sees the negative sign and the exponent separately. They often remember the rule "a negative times a negative is a positive" for $(-3) \times (-3)$, but when they see $k^4$, their brain focuses on the magnitude of the number ($3^4$) and then applies the negative sign "because $k$ was negative."
+*   **Lack of Internal Conflict:** The student will likely not realize they have gone wrong. Because 81 and -81 both "look" like correct magnitudes for $3^4$, they will see Option C in the multiple-choice list and feel a sense of "confirmation bias," assuming they have correctly followed the rules of negative numbers.

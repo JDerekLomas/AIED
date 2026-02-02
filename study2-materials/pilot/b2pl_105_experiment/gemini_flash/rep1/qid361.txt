@@ -1,0 +1,16 @@
+This question tests the student's ability to translate a multi-step word problem into algebraic notation, specifically focusing on the order of operations (BIDMAS/BODMAS) and the use of brackets.
+
+**Jo's expression** is correct. The nested brackets and the fraction bar correctly show that the subtraction happens first, followed by the division, then the addition, and finally the multiplication of the *entire* previous result by 7.
+
+**Paul's expression** is incorrect because he fails to wrap the "+ 4" inside the final set of brackets. According to the order of operations, his version would result in $7 \times (\text{the division result}) + 4$, rather than adding 4 *before* multiplying by 7.
+
+**Student Behavior Analysis:**
+*   **Below Basic:** Students often struggle with the "visual" look of algebra. Many will choose **C** (Both) because both expressions contain the correct numbers and operations, assuming they are just different "ways" of writing it without checking the order of operations.
+*   **Basic:** These students often recognize Jo's version as the standard "textbook" way to write it. However, a significant number will still choose **C** because Paul's use of $\div$ looks more familiar to them than the fraction bar, and they don't spot the missing outer brackets for Paul.
+*   **Proficient:** These students generally identify that Jo is correct. The "trap" here is whether they are rigorous enough to spot Paul's error. Many proficient students see $(n-5)$ and assume Paul has handled the "brackets" part of the problem, missing the fact that the $+4$ is outside the final multiplication.
+*   **Advanced:** These students will carefully track the "finally multiply by 7" instruction and see that Paul’s expression applies the 7 only to the division part, making Jo the only correct one.
+
+below_basic: A=30% B=15% C=45% D=10%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=70% B=5% C=22% D=3%
+advanced: A=92% B=2% C=5% D=1%

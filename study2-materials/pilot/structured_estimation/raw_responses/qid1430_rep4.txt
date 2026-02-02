@@ -1,0 +1,39 @@
+<chain_of_thought>
+Target: 2/7 + 1/7, correct answer C (3/7), misconception is adding numerators and denominators.
+
+I want to think carefully about the student population here. These are diagnostic assessments used across UK secondary (11-16). The Eedi platform is often used for formative assessment, meaning students of varying ability levels encounter these items. Some items are assigned to specific year groups, but fraction addition would likely be given to younger secondary students (Years 7-8, ages 11-13).
+
+For this age group, the "add numerators and denominators" misconception is quite prevalent. Studies in fraction arithmetic suggest error rates of 20-30% for like-denominator addition even among students who have been taught the procedure, because the misconception is reinforced by whole-number thinking.
+
+However, this is the SIMPLEST case of fraction addition -- same denominators, small numbers, no simplification needed. Students who have any procedural memory of fraction addition will get this right. The ones who get it wrong are those who either never learned or have deeply held misconceptions.
+
+Looking at calibration: The items range from b=-0.702 to b=0.808. The easiest (b=-0.702) was a linear equation. I think this fraction item is similar in difficulty or perhaps slightly easier.
+
+My estimates:
+- Classical difficulty: 0.25 (I'm going slightly higher than other estimates because I think fraction misconceptions are underestimated)
+- IRT b: -0.45 (reflecting that while most get it right, the misconception pulls enough students away)
+- IRT a: 1.15 (decent discrimination but maybe not as sharp as equation items because multiple misconceptions compete)
+- Guessing c: 0.10 (some students might guess correctly without understanding)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

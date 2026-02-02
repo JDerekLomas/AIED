@@ -1,0 +1,29 @@
+Okay, 200 papers marked, here we go again. This type of question often catches them out with the negatives and the fraction/decimal arithmetic. Let's break it down.
+
+The core task is to substitute \(y = 0.5\) into the equation \(10x - 6y = 30\) and solve for \(x\).
+
+So, \(10x - 6(0.5) = 30\).
+\(10x - 3 = 30\).
+\(10x = 33\).
+\(x = 3.3\).
+
+Therefore, the correct answer is C.
+
+Now, let's look at the errors leading to the other options:
+
+**A) \(4.25\)**
+*   This error usually comes from messing up the sign of the \(6y\) term when moving it over or dividing incorrectly.
+    *   One way: \(10x - 3 = 30 \implies 10x = 30 - 3 = 27 \implies x = 2.7\) (This is option D)
+    *   Another way to get something like 4.25 could be \(10x + 6(0.5) = 30 \implies 10x + 3 = 30 \implies 10x = 27 \implies x = 2.7\).
+    *   What if they added 3 to 30 *and then* added 0.5 to that, or perhaps divided incorrectly?
+    *   Let's think of a specific path to 4.25: If they did \(10x - 6(0.5) = 30 \implies 10x - 3 = 30\). And then *incorrectly* did \(10x = 30 + 6 - 0.5 = 35.5 \implies x = 3.55\) (doesn't quite fit).
+    *   What if they substituted 0.5 for x by mistake, then isolated y? No, the question specifies y=0.5.
+    *   Consider \(10x - 3 = 30\). What if they rearranged to \(10x = 30 + 3 = 33\), and then made an arithmetic error *and a division error*? Like \(33/10\) leading to something like 4.25? Unlikely.
+    *   A common trap with signs: \(10x - 3 = 30 \implies 10x = 30 - (-3) = 33\). This step is correct.
+    *   What if they somehow divided 30 by 6, and added 0.5?
+    *   Could it be from setting up \(10x - 6y = 30\) as \(10x = 30 + 6y \implies x = 3 + 0.6y \implies x = 3 + 0.6(0.5) = 3 + 0.3 = 3.3\)? No, that's correct.
+    *   Okay, let's think about working backwards from 4.25. If x=4.25, then \(10(4.25) - 6(0.5) = 42.5 - 3 = 39.5 \neq 30\).
+    *   What if they did \(10x - 6y = 30\), and somehow interpreted the -6y as division? \(10x = 30 + 6/0.5 = 30 + 12 = 42 \implies x = 4.2\). This is *very* close to 4.25 and a plausible misinterpretation of a coefficient. This is a strong candidate for an "attractive" error. Misinterpreting "6y" as 6/y or even 6-y can happen. More likely, thinking 6y as 6 / y. Let's assume 4.2 is close enough.
+
+**B) \(-4.25\)**
+*   This would be the same arithmetic error as A), but with a sign error somewhere, likely when rearranging or combining terms. E.g., if \(10x = -42.5 \implies x = -4.25\). Or if they added 30 + 3 to get 33, but thought \(x = 33 / (-10)\) or similar. Or if their value 4.

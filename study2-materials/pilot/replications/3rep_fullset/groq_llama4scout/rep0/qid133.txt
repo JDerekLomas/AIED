@@ -1,0 +1,21 @@
+To approach this question, let's first understand the formulas and reasoning behind calculating the size of each interior angle in a regular polygon.
+
+The sum of the interior angles of any polygon can be found using the formula: \(S = (n - 2) \times 180^\circ\), where \(n\) is the number of sides. For a regular polygon, since all angles are equal, the size of each interior angle can be found by dividing this sum by the number of sides: \(\text{each interior angle} = \frac{(n - 2) \times 180^\circ}{n}\).
+
+## Step 1: Analyze Tom's suggestion
+Tom suggests calculating the size of each interior angle as \(\frac{18 \times 180}{20}\). This can be rewritten as \(\frac{(20 - 2) \times 180}{20}\), which matches the formula for finding each interior angle in a regular polygon with \(n = 20\). So, Tom's suggestion is correct.
+
+## 2: Analyze Katie's suggestion
+Katie suggests \(180 - \frac{360}{20}\). This can be simplified to \(180 - 18 = 162\). The formula for the exterior angle of a regular polygon is \(\frac{360}{n}\), and the interior angle can be found by \(180 - \frac{360}{n}\). For \(n = 20\), Katie's calculation directly corresponds to the formula for an interior angle: \(180 - \frac{360}{20} = 180 - 18 = 162\), which means Katie is also correct.
+
+## 3: Consider Student Understanding
+- **Below Basic**: Students at this level might struggle with the formulas and could easily be confused. However, given the straightforward nature of Tom's and the direct applicability of Katie's formula, a significant portion might still opt for C (Both Tom and Katie) if they partially understand or recognize the formulas. Yet, errors in calculation or misunderstanding the formulas could lead to a spread across options. A=20%, B=15%, C=50%, D=15%
+- **Basic**: At this level, students have a grasp of basic geometric formulas. They are more likely to recognize both formulas as valid and understand their application, leaning towards C. A=10%, B=10%, C=70%, D=10%
+- **Proficient**: Proficient students are well-versed in geometric formulas and can apply them accurately. They would easily see the validity of both Tom's and Katie's approaches, making C the most likely choice. A=5%, B=5%, C=85%, D=5%
+- **Advanced**: Advanced students not only understand the formulas but can also derive and apply them with ease. They would quickly validate both methods, supporting C. The error rates would be minimal. A=2%, B=2%, C=90%, D=6%
+
+The final answer is:
+below_basic: A=20% B=15% C=50% D=15%
+basic: A=10% B=10% C=70% D=10%
+proficient: A=5% B=5% C=85% D=5%
+advanced: A=2% B=2% C=90% D=6%

@@ -1,0 +1,30 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is very common among Year 9 students when dealing with linear equations involving subtraction.
+
+### 1. The Misconception: "Negative Term Isolation Error" (Operation Reversal Bug)
+The student understands they need to substitute $y$ and solve for $x$, but they struggle with the directed number logic when moving terms. Specifically, when they "move" the $-6y$ term to the other side of the equation, they fail to perform the inverse operation (addition) and instead **subtract** it from the constant, or they perform a **sign-confusion error** where they multiply by the coefficient but forget to adjust the sign of the constant accordingly.
+
+### 2. Step-by-Step Student Working
+A student with this misconception would likely follow these steps:
+
+1.  **Substitution:** They correctly replace $y$ with $0.5$.
+    *   $10x - 6(0.5) = 30$
+2.  **Evaluation:** They correctly calculate $6 \times 0.5 = 3$.
+    *   $10x - 3 = 30$
+3.  **The Error (The Bug):** Instead of adding $3$ to $30$ (the inverse of $-3$), the student experiences a cognitive load error. They see the "minus" sign and associate it with subtraction, leading them to **subtract 3 from 30** because they think they are "moving" the 3 and maintaining its subtractive property, or they confuse the balancing method.
+    *   $10x = 30 - 3$
+    *   $10x = 27$
+4.  **Division:** They divide their result by the coefficient of $x$.
+    *   $x = 27 \div 10$
+    *   $x = 2.7$
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D: 2.7**.
+
+*(The correct working would be $10x = 30 + 3 \rightarrow 10x = 33 \rightarrow x = 3.3$, which is Option C.)*
+
+### 4. How natural/attractive is this error?
+This is an extremely "high-trap" error for a Year 9 student for three reasons:
+
+*   **Plausibility:** The result ($2.7$) is a "clean" decimal. In many textbook problems, students expect "neat" answers, and $2.7$ feels more mathematically "correct" than a repeating decimal or a larger-than-expected number.
+*   **Intuition over Rule:** Many students rely on a visual "jump" method (moving numbers over the equals sign). If a student hasn't mastered the concept of "doing the same to both sides," they often default to the operation that "looks" like it belongs. Seeing $30$ and $3$, the most intuitive thing for a student to do is subtract them.
+*   **Self-Correction Lack:** The student is unlikely to realize they went wrong because they successfully completed a multi-step process. Since they performed the substitution and the division ($27/10$) correctly, they feel a sense of procedural completion. Unless they check their answer by substituting $2.7$ back into the original equation (which Year 9s rarely do spontaneously), they will remain confident in Option D.

@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is highly prevalent among Year 9 students when dealing with datasets containing zeros.
+
+### 1. The specific misconception: The "Zero is Nothing" Bug
+This is a **denominator-selection error** rooted in the misconception that zero is "not a number" or a "place holder" that does not count towards a statistical set. Students conflate the *value* of the number (0) with its *existence* as a data point. Consequently, they exclude the zero from the count ($n$) used in the divisor.
+
+### 2. Step-by-step student logic
+A student with the "Zero is Nothing" bug would approach the question as follows:
+*   **Step 1:** Look at the list $0, 1, 3, 4, 7$ and attempt to find the total sum.
+*   **Step 2:** They calculate $0 + 1 + 3 + 4 + 7 = 15$. They likely ignore the $0$ during addition because it doesn't change the sum, reinforcing the idea that it is irrelevant.
+*   **Step 3:** Count the numbers to find the divisor. The student looks at the list and identifies "1, 3, 4, and 7" as the "actual" numbers. They physically count 1, 2, 3, 4 items.
+*   **Step 4:** They conclude that they must divide the total (15) by 4.
+*   **Step 5:** They look for an expression that represents (Sum of non-zeroes) $\div$ (Count of non-zeroes).
+
+### 3. Corresponding answer option
+This misconception leads directly to **Option C: $\frac{1+3+4+7}{4}$**.
+
+Note: Option A is the mathematically correct calculation. Option B represents a **Order of Operations (BIDMAS) error**, which is a separate bug where the student knows the numbers to use but lacks the parentheses to show the sum must be completed before the division.
+
+### 4. Attractiveness of the error
+This error is **highly natural and attractive**, making it one of the most common pitfalls in lower-secondary statistics.
+*   **Intuition over Logic:** In everyday language, "nothing" (zero) is the absence of a thing. If you asked a student how many goals they scored in five games and they scored $0, 1, 3, 4, 7$, their brain focuses on the "active" games. Dividing by 4 "feels" more representative of their performance to a struggling student.
+*   **Self-Correction:** The student would **not realize they were wrong.** In fact, they would feel quite clever. If they performed the calculation $(\frac{15}{4} = 3.75)$ versus the correct $(\frac{15}{5} = 3)$, both results are "sensible" averages (they fall within the range of the data). Because the student thinks of zero as a "null" value rather than a measured observation, they see excluding it as a necessary step to "clean" the data.

@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, I have identified a specific and highly prevalent error relevant to this question.
+
+### 1. The Misconception: "The Floating Inverse" (Incomplete Multiplication)
+This is a procedural "bug" where a student recognizes the correct inverse operation (multiplying by 3) but fails to apply the property of equality across the entire side of the equation. They treat the multiplication as a localized action that "removes" the denominator from the fraction, without realizing that **every term** on that side of the equation must be scaled to maintain balance.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would look at Katie's suggestion ($x - 5 = 36$) and follow these steps:
+
+*   **Step 1:** Look at the left side: $\frac{x}{3} - 5$.
+*   **Step 2:** Decide to "undo" the divide-by-3.
+*   **Step 3:** Perform the "shortcut": Move the 3 to the other side to multiply the 12. 
+*   **Step 4:** Logic: "The 3 is gone from the fraction, so I just have $x$ left. I haven't touched the $-5$ yet, so it stays there."
+*   **Result:** They write $x - 5 = 12 \times 3$, leading to $x - 5 = 36$.
+*   **Step 5:** Evaluate the options: They see Tom's step (adding 5 first) as correct, and they see Katie's step (multiplying by 3) as also correct.
+
+### 3. Answer Selection
+This misconception leads the student to choose **C) Both Tom and Katie.**
+
+In the student's mind, both routes are valid starting points. They do not realize that while Tom followed the standard order of operations (BIDMAS in reverse), Katie performed a "legal" move (multiplying) but executed it illegally by failing to multiply the constant $(-5)$.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and "natural"** for several reasons:
+
+*   **Visual Displacement:** Students often perceive an equation as a collection of separate "blocks." To them, the "3" belongs only to the "$x$." Multiplying the "5" feels counter-intuitive because the 5 wasn't "over" the 3.
+*   **Efficiency Bias:** Students are often taught to "clear the fraction" as a priority. This makes Katie's line look like a sophisticated, fast-track method.
+*   **False Confirmation:** If the student continues from Katie’s incorrect line ($x - 5 = 36 \rightarrow x = 41$), they arrive at a clean, whole-number answer. This "neatness" often serves as a false signal that the method was sound.
+
+Because the procedure follows the "logic" of moving numbers across the equals sign, a Year 9 student would likely be very confident in this answer and would not realize a mistake was made until they tried to substitute the answer back into the original equation (a step they rarely perform).

@@ -1,0 +1,43 @@
+<chain_of_thought>
+The target item asks students to substitute d = -2 into the expression 10 - 2d.
+
+Correct solution: 10 - 2(-2) = 10 - (-4) = 10 + 4 = 14 (answer C).
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." If a student thinks -2 times -2 = -4 (negative), they would compute 10 - 2(-2) as 10 + (-4) = 6, choosing answer B. Wait, let me reconsider. The term is -2d. If d = -2, then -2d = -2 * -2 = 4. But a student with this misconception would think -2 * -2 = -4, giving 10 + (-4) = 6, which is option B.
+
+Another error: a student might ignore the negative sign of d entirely, computing 10 - 2(2) = 10 - 4 = 6 (also option B). Or they might compute 10 - 2 = 8, then 8 * (-2) = -16... that doesn't match any option.
+
+For option A (-12): possibly 10 - 2 = 8, then treat differently, or maybe -2 * (10-2) misread... or 2*(-2) = -4, then -2 - 4 - 6... hard to see a clean path. Perhaps reading it as -(10 - 2d) with d=2 giving -(10-4) = -6... no. Maybe treating it as (10-2)*d = 8*(-2) = -16, not -12. Actually -12 could come from treating it as 10 + 2*(-2) wrong: if they think the expression is -2d = -(2)(-2) but mess up signs getting -2*(-2) = -4, then -(10) - 2 = -12? That's a stretch.
+
+For option D (32): possibly 10 - 2*(-2) miscomputed as 10 + 22 = 32? That would mean treating -2d with d=-2 as +22. Or reading 10 * 2 + something... unclear.
+
+Looking at the calibration items: the factorising item with the same misconception (multiplying two negatives) had classical difficulty 0.473 and IRT b = 0.404. That was a more complex problem involving factorisation. This substitution item is simpler — it's a straightforward substitution task taught early in KS3 (ages 11-13). However, the misconception about negative multiplication is quite common among younger students.
+
+I'd estimate this is moderately easy, perhaps around 0.25-0.35 classical difficulty. The question is very clear and direct. The distractors are moderately plausible — B in particular should attract students with the tested misconception. The concept complexity is low (substitution + arithmetic with negatives). Procedural steps: substitute, multiply, subtract — about 3 steps. Abstraction is moderate since it involves algebraic expression with a negative value.
+
+Comparing to calibration: the simple equation -5 = p + 10 had difficulty 0.167 and b = -0.702. That was also straightforward. This item is slightly harder because of the negative number multiplication, so I'd place it a bit higher.
+
+My estimates: classical difficulty around 0.30, IRT b around -0.1, discrimination around 1.3, guessing around 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

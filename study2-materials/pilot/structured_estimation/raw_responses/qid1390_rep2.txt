@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing: 1/3 + 1/2 x 1/3
+
+The correct procedure: multiply first (BIDMAS), 1/2 x 1/3 = 1/6, then add 1/3 + 1/6 = 1/2. Answer A.
+
+The misconception (left-to-right computation) yields: 1/3 + 1/2 = 5/6, then 5/6 x 1/3 = 5/18. Answer B.
+
+Let me think about how each distractor might arise:
+- A (1/2): Correct, requires BIDMAS + fraction operations
+- B (5/18): Left-to-right error, the primary misconception
+- C (2/9): Perhaps from 1/3 x 2/3? Or some error like treating the whole expression as (1x1)/(3x2) x 1/3 = 1/6 x 1/3... no that gives 1/18. Maybe (1+1)/(3x3) x 1 = 2/9. Hard to reverse-engineer exactly, but it catches some fraction arithmetic confusion.
+- D (1/15): Could be from adding all denominators somehow: 1/(3+2) x 1/3 = 1/15. Or misapplying addition of fractions as 1/(3+2) = 1/5, then 1/5 x 1/3 = 1/15.
+
+The item is well-designed. The primary distractor (B) is highly plausible for the target misconception. The other distractors catch different types of fraction errors.
+
+Comparing to the similar calibration item (classical difficulty 0.134): I think this is somewhat harder. The calibration item uses 0.4 - 1/5 x 3, where the decimal-to-fraction conversion might actually cue students to think more carefully. Here, all fractions and a simple "+" sign might lure more students into adding first. I'd estimate around 0.18-0.30 classical difficulty.
+
+This item requires two skills: order of operations AND fraction arithmetic (finding common denominators). The compound skill requirement could push difficulty up a bit. I'll estimate classical difficulty around 0.28, IRT b around 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

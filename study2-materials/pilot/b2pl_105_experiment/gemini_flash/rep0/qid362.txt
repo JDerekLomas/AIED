@@ -1,0 +1,14 @@
+This question is a classic "gradient of an implicit line" problem. It tests two distinct skills: the ability to rearrange an equation into the form $y = mx + c$, and the ability to handle negative signs during that manipulation.
+
+**Teacher Insight:**
+*   **Below Basic** students often assume the gradient is simply "the number in front of $x$," leading many to choose **B** (4). If they have a vague memory that "left means negative," they might pick **A** (-4).
+*   **Basic/Lower Proficient** students know they need to divide by the coefficient of $y$, but they often make sign errors. They might subtract $4x$ correctly but then ignore the minus sign or assume gradients in these types of questions "should" be positive, leading to **D**.
+*   **Proficient** students usually navigate the algebra ($3y = -4x + 5$) but a significant minority will still drop the negative sign or accidentally divide the wrong way around (though that isn't an option here, which helps them).
+*   **Advanced** students will perform the two-step rearrangement ($3y = -4x + 5 \implies y = -\frac{4}{3}x + \frac{5}{3}$) mentally and accurately.
+
+The main "distractor" here is the sheer number of students who never attempt to rearrange and simply look at the $x$ coefficient.
+
+below_basic: A=25% B=45% C=10% D=20%
+basic: A=15% B=25% C=30% D=30%
+proficient: A=5% B=10% C=65% D=20%
+advanced: A=2% B=3% C=92% D=3%

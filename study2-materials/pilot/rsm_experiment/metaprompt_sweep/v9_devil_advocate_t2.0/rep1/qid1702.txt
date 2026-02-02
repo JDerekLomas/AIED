@@ -1,0 +1,15 @@
+To accurately predict the outcome of this question, we must look at it from a student’s perspective rather than a mathematician’s. 
+
+The primary pitfalls here are:
+1.  **Algebraic manipulation of negatives:** Substituting $y = 0.5$ leads to $10x - 3 = 30$. Many lower-ability students will mistakenly subtract 3 from 30 instead of adding it, leading to $10x = 27$ ($x = 2.7$).
+2.  **Order of Operations and Rearranging:** "Basic" students often move the $x$ and $y$ variables incorrectly. Some may even try to subtract the 10 and 6 first or swap the values for $x$ and $y$.
+3.  **The Decimal Factor:** $6 \times 0.5 = 3$ is a relatively simple calculation, but the presence of the decimal often triggers "calculator dependency" or anxiety in Below Basic students, leading to wild guesses.
+
+The correct calculation is $10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$.
+
+Below are the predicted percentage splits:
+
+below_basic: A=20% B=20% C=30% D=30%
+basic: A=10% B=15% C=45% D=30%
+proficient: A=5% B=5% C=75% D=15%
+advanced: A=2% B=3% C=90% D=5%

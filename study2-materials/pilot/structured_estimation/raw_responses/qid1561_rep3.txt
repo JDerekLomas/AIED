@@ -1,0 +1,39 @@
+<chain_of_thought>
+Item: Solve 20t - 5 = 0. Answer: t = 1/4.
+
+Let me think about this from the student's perspective. A Year 8 or 9 student encounters this equation. They need to:
+1. Recognise this is a linear equation in t
+2. Add 5 to both sides to isolate the term with t: 20t = 5
+3. Divide both sides by 20: t = 5/20
+4. Simplify the fraction: t = 1/4
+
+The simplification step (5/20 to 1/4) adds a small extra demand. Some students might write 5/20 and not see it among the options, causing confusion -- though 1/4 is a very familiar equivalent.
+
+The biggest trap is distractor B (t = 4). Students who get to 20t = 5 might think "20 divided by 5 is 4" rather than "5 divided by 20." This isn't strictly the "same operation instead of inverse" misconception -- it's more of an order-of-division error. But distractor D (t = -1/4) directly targets the inverse operation misconception: a student who subtracts 5 from both sides gets 20t = -5, then t = -5/20 = -1/4.
+
+Compared to the calibration items, this is a standard linear equation but with a coefficient that produces a fractional answer. The first calibration item (p + 10 = -5) was very easy (0.167 incorrect). This should be harder because of the multiplication/division step and the fractional result.
+
+I think this lands in the 0.25-0.40 difficulty range. The discrimination should be solid -- around 1.2-1.4 -- as the item cleanly tests procedural fluency with equations. Guessing should be relatively low; the distractors are targeted enough that random guessing is unlikely to be the dominant error pattern, but some low-ability students will guess.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

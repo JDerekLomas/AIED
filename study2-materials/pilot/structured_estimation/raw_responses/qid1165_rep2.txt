@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing this item: students must identify that multiplying -8 by -2 gives +16 when expanding (x-8)(x-2).
+
+The key challenge is the sign rule for multiplying two negative numbers. This is a well-documented misconception -- many students believe that negative times negative gives a negative result.
+
+Distractor analysis:
+- A) -10: addition error (-8 + -2 = -10)
+- B) +16: correct
+- C) -6: unclear origin, maybe |-8| - |-2| = 6 with negative sign, or subtraction confusion
+- D) -16: the target misconception -- magnitude correct but sign wrong
+
+The question uses a visual diagram with arrows, which is somewhat non-standard compared to just asking "what is (-8) x (-2)?" This contextualizes it within bracket expansion, which is important for ecological validity but might add confusion for weaker students who aren't sure what operation the arrows indicate.
+
+The same misconception appeared in the Tom/Katie calibration item (difficulty 0.473, b=0.404, a=1.451, c=0.186). That item had more layers -- students needed to expand two different quadratics and compare. This item strips it down to just one multiplication step within expansion.
+
+However, I want to consider that the visual/contextual framing might make this harder than a bare arithmetic question. Students need to: (1) understand the bracket expansion context, (2) identify that the arrows mean "multiply these terms," (3) apply the sign rule correctly. Some students might not even realize multiplication is what's needed.
+
+I'll estimate classical difficulty around 0.40-0.45. The misconception is strong and the contextual framing adds difficulty. The discrimination should be solid since this tests a specific skill. Given the strong pull of distractor D, guessing should be low -- wrong students will be systematically drawn to D.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

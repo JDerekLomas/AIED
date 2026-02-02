@@ -1,0 +1,43 @@
+<chain_of_thought>
+Solving 3 - y = 5 for y. The correct value is y = -2 (option B).
+
+Working through the solution paths:
+- Method 1: 3 - y = 5 => -y = 5 - 3 => -y = 2 => y = -2
+- Method 2: 3 - y = 5 => 3 - 5 = y => -2 = y (rearranging, recognizing y = 3 - 5)
+- Method 3: Substitute and check. 3 - (-2) = 3 + 2 = 5. Correct.
+
+This item is interesting because it tests multiple potential failure points: handling subtraction of the variable, dealing with the implicit -1 coefficient, and managing negative results. However, it's fundamentally a one-step algebraic manipulation.
+
+The simultaneous equations framing is a narrative wrapper that shouldn't substantially change difficulty, though it signals to students that this is an algebra context requiring formal solving rather than arithmetic intuition.
+
+Comparing carefully to the calibration set:
+- The easiest calibration item (p + 10 = -5, difficulty 0.167) has a simpler structure with positive variable coefficient.
+- The order-of-operations item (difficulty 0.134) tests a different skill entirely.
+- The function machine (difficulty 0.295) requires understanding of inverse operations visually.
+
+I think this item sits close to the function machine in difficulty. The negative coefficient is the main challenge. Students in KS3/KS4 often get confused by equations like a - x = b. I'll estimate around 0.30 classical difficulty.
+
+For IRT parameters: discrimination should be moderate-to-good since this is a focused diagnostic item. The guessing parameter could be slightly elevated because students who are truly lost might pick randomly, but option A is such a strong distractor that confused students will likely gravitate there rather than guess randomly -- which actually means the effective guessing rate is low (students don't guess uniformly).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

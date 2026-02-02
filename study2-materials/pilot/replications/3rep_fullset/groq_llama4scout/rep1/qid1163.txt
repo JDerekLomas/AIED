@@ -1,0 +1,69 @@
+To solve this, let's analyze the question and the potential pitfalls for students at different ability levels.
+
+The task is to eliminate \(qs\) from two pairs of simultaneous equations. The general approach to eliminate one of the variables in simultaneous equations is to either add or subtract the equations, depending on the coefficients of the variable to be eliminated.
+
+## Pair 1:
+\[
+\begin{array}{l}
+-5p + 2q = 12 \\
+3p - 2q = 8
+\end{array}
+\]
+To eliminate \(q\), notice that the coefficients of \(q\) are \(2\) and \(-2\), which are additive inverses. Therefore, adding the two equations will eliminate \(q\):
+\[
+(-5p + 2q) + (3p - 2q) = 12 + 8
+\]
+\[
+-2p = 20
+\]
+So, for Pair 1, the correct operation is to **add** the equations.
+
+## Pair 2:
+\[
+\begin{array}{l}
+-5p - 2q = 12 \\
+3p + 2q = 8
+\end{array}
+\]
+Here, the coefficients of \(q\) are \(-2\) and \(2\), which are also additive inverses. Thus, adding these two equations will also eliminate \(q\):
+\[
+(-5p - 2q) + (3p + 2q) = 12 + 8
+\]
+\[
+-2p = 20
+\]
+So, for Pair 2, the correct operation is also to **add** the equations.
+
+Given this analysis, the correct answer for both pairs is to **add** them, which corresponds to option **B: Add Pair 1, Add Pair 2**.
+
+## Predicting Student Responses:
+
+- **Below Basic:** Students at this level might struggle with the concept of adding or subtracting equations to eliminate variables. They might not recognize that adding the equations in both pairs eliminates \(q\) due to the coefficients being opposites. A significant portion might choose randomly or based on a wrong understanding. 
+  - A: 20% (guessing or mistakenly thinking subtraction could work in one pair)
+  - B: 30% (correct but possibly by luck or not fully understanding why)
+  - C: 20% (mistaken approach)
+  - D: 30% (another mistaken approach)
+
+- **Basic:** Students here have a grasp of basic algebraic manipulations but might still make careless mistakes. They are more likely to understand the concept of eliminating variables but might not apply it correctly here.
+  - A: 10% 
+  - B: 60% 
+  - C: 15% 
+  - D: 15% 
+
+- **Proficient:** These students understand the method and can apply it. They should easily see that adding both pairs of equations eliminates \(q\).
+  - A: 5% 
+  - B: 80% 
+  - C: 10% 
+  - D: 5% 
+
+- **Advanced:** Students at this level not only understand the method but can also analyze the equations quickly and make the correct decision.
+  - A: 2% 
+  - B: 90% 
+  - C: 5% 
+  - D: 3% 
+
+The final answer is:
+below_basic: A=20% B=30% C=20% D=30%
+basic: A=10% B=60% C=15% D=15%
+proficient: A=5% B=80% C=10% D=5%
+advanced: A=2% B=90% C=5% D=3%

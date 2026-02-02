@@ -1,0 +1,17 @@
+To predict these results, I’ve looked at how Year 9s typically handle subject rearrangement involving fractions and pi.
+
+**The Distractors:**
+*   **A ($ \sqrt[3]{\frac{4V\pi}{3}} $):** This is the most "attractive" wrong answer for mid-to-low ability students. They know the numbers 4, 3, and $\pi$ are involved, but they multiply by the numerator ($4\pi$) instead of dividing by it when moving it to the other side of the equation.
+*   **B ($ \sqrt[3]{\frac{4V}{3\pi}} $):** This happens when a student correctly multiplies by 3 but then "loses" the 4 or places the $\pi$ incorrectly in the denominator while leaving the 4 in the numerator. It looks "almost right" to a student who is rushing.
+*   **D ($ \frac{3\sqrt[3]{V}}{4\pi} $):** This represents a fundamental algebraic error where the student tries to cube root only the $V$ before finishing the rearrangement, or simply gets overwhelmed by the notation and picks the one where the radical looks smallest.
+
+**Performance by Level:**
+*   **Below Basic:** Often guessing or choosing A because the multiplication feels more natural than division.
+*   **Basic:** Usually remembers $V = \frac{4}{3}\pi r^3$, but struggles with the two-step process of multiplying by 3 and then dividing by $4\pi$.
+*   **Proficient:** High success rate, but 1 in 5 will make a "copying error" and select A or B by mistake under exam pressure.
+*   **Advanced:** Should find this trivial; the only errors here are genuine accidents (bubbling the wrong box).
+
+below_basic: A=45% B=20% C=10% D=25%
+basic: A=35% B=25% C=25% D=15%
+proficient: A=10% B=5% C=80% D=5%
+advanced: A=2% B=1% C=96% D=1%

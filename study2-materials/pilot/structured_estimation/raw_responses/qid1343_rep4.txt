@@ -1,0 +1,45 @@
+<chain_of_thought>
+Expression: 12 / 2 + 1 x 2
+
+Correct approach using BODMAS/BIDMAS:
+- Division: 12 / 2 = 6
+- Multiplication: 1 x 2 = 2
+- Addition: 6 + 2 = 8
+Answer D is correct.
+
+Left-to-right misconception path: 12/2=6, 6+1=7, 7x2=14 -> answer C.
+
+Let me consider other possible error paths more carefully this time:
+- Answer A (9): What if a student does 12/2 = 6 correctly, then computes 1x2 = 2, but then does 6 + 2 + 1 = 9? This could happen if they somehow count the "1" twice. Or: 12/(2+1) = 4, then 4+... no. Another path: treating it as (12/2 + 1) x 2 with partial BODMAS - doing division first but then going left-to-right for the rest: 6+1=7, but that gives 14 not 9. Actually: maybe 12/2 = 6, then thinking "x2" applies to just the 1, getting 6+1x2 = 6+2 = 8... that's correct. Hmm, A=9 is hard to reach systematically.
+- Answer B (3): 12/(2+1x2) = 12/(2+2) = 12/4 = 3. This could come from a student who applies BODMAS to the multiplication but then treats the division as applying to the entire remaining expression. This is actually a somewhat plausible error for students who partially understand order of operations!
+
+So we have two plausible distractors: C (strong, pure left-to-right) and B (moderate, partial BODMAS misapplication). A seems like a weak distractor.
+
+For this population (UK secondary, 11-16), order of operations is well-covered in the curriculum. The item uses only basic integers and standard notation. It should be relatively straightforward for most students who have internalized BODMAS.
+
+Considering the calibration set, I note the full range spans from classical difficulty 0.134 (easiest, same misconception) to 0.569 (hardest, inequality). This item sits closer to the easy end. The simplicity of the numbers means fewer computation errors contaminating the misconception measurement.
+
+I'll estimate classical difficulty around 0.20, acknowledging that the clean distractor C will reliably attract students with the left-to-right misconception. IRT difficulty around -0.20 with good discrimination around 1.50.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

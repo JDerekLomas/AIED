@@ -1,0 +1,44 @@
+<chain_of_thought>
+The item requires solving a linear equation with the unknown on both sides: \(20t - 5 = 5t + 10\).
+
+**Step-by-step solution:**
+1. Subtract \(5t\) from both sides: \(15t - 5 = 10\)
+2. Add \(5\) to both sides: \(15t = 15\)
+3. Divide by \(15\): \(t = 1\) (Correct Answer: B)
+
+**Distractor Analysis:**
+- **A) \(t=0\)**: Might arise if a student thinks \(20t - 5t\) is \(15t\) and \(10 + 5\) is \(15\), but then concludes \(15t - 15 = 0\), or simply makes a calculation error leading to zero.
+- **C) \(t=-1\)**: Likely results from sign errors or the "same operation" misconception. If a student does \(20t + 5t = 25t\) and \(10 - 5 = 5\), they get \(25t = 5\), or if they do \(15t = -15\).
+- **D) \(t=1/5\)**: Likely results from dividing the coefficient by the constant (\(3/15\) or \(5/25\)) rather than the constant by the coefficient.
+
+**Comparison with Calibration Items:**
+- Item 1 (\(-5 = p + 10\)) had a classical difficulty of 0.167. This target item is slightly more complex because it has variables on both sides, but the numbers (20, 5, 5, 10) are "friendlier" and lead to an integer result (\(t=1\)), which often increases success rates compared to negative results or fractions.
+- Item 5 (\(2n+3 \leq 3n-7\)) had a classical difficulty of 0.569. That item involved inequalities (harder) but simpler coefficients.
+- Solving equations with variables on both sides is a standard Year 8/9 topic (ages 12-14). 
+
+The "same operation" misconception is strong here. A student using the same operation might do \(20t + 5t = 25t\) and \(10 - 5 = 5\), leading to \(25t = 5\), \(t = 1/5\) (Option D). Or \(15t = 5\). The integer nature of the correct answer (1) makes it quite attractive to those who solve it correctly, but the distractors are mathematically grounded in common errors.
+
+Given the calibration data, items of this type usually have a classical difficulty in the 0.4 to 0.5 range for this age group. The discrimination should be relatively high as it's a procedural algebraic task.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

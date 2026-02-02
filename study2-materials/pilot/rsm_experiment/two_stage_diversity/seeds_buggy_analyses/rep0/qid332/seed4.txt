@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, here is an analysis of a common error a UK Year 9 student would make when faced with this algebraic problem.
+
+### 1. The Specific Misconception: The "Selective Multiplier" Bug
+This is a specific form of **mal-prioritization of operations** during equation solving. The student knows that "to get rid of a divide-by-3, I must multiply by 3," but they fail to treat the entire side of the equation as a single entity. 
+
+Instead of applying the distributive property to the whole left-hand side (LHS), the student treats the equation as a collection of separate terms and believes they can "pick and choose" which term to apply the inverse operation to. In this case, they apply the multiplication only to the fraction and the result on the right, completely ignoring the constant term ($-5$).
+
+### 2. Step-by-Step Student Reasoning
+A student with this misconception would approach Katie’s suggestion as follows:
+
+*   **Step 1:** Look at the equation $\frac{x}{3} - 5 = 12$ and decide to "cancel out" the denominator first.
+*   **Step 2:** Think: *"To get x by itself, I'll multiply by 3."*
+*   **Step 3:** Perform $ \frac{x}{3} \times 3 = x $. 
+*   **Step 4:** Move straight to the constant on the RHS and perform $ 12 \times 3 = 36 $.
+*   **Step 5:** Leave the $-5$ exactly as it is because "it isn't part of the fraction."
+*   **Result:** They write down $x - 5 = 36$.
+
+### 3. Resulting Answer Option
+This misconception leads the student to select **Option C (Both Tom and Katie)**. 
+
+The student will recognize that Tom’s method is correct (adding 5 to both sides), but because they believe Katie’s "selective multiplication" is also a mathematically valid first step, they conclude that both characters have provided valid paths to the solution.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent "bugs" in Year 9 algebra for several reasons:
+
+*   **The "LHS/RHS" Over-simplification:** Students are often told "whatever you do to one side, you must do to the other." In their mind, multiplying the $x$ and the $12$ satisfies this rule (they did something to both sides), while the $-5$ is perceived as an "innocent bystander."
+*   **Visual Grouping:** The horizontal bar in $\frac{x}{3}$ creates a visual "island." Students often feel that the $-5$ is physically too far away from the division to be affected by the multiplication.
+*   **Lack of Realisation:** The student would **not** realise they went wrong. To them, the logic feels clean and efficient because it "clears the fraction" immediately. They would only realise the error if they completed the full solve ($x = 41$) and substituted it back into the original equation ($41/3 - 5 \neq 12$), a verification step that many Year 9 students skip.

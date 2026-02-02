@@ -1,0 +1,40 @@
+First, analyse the question:  
+We have \( T = k^4 \), and \( k = -3 \).  
+
+So \( T = (-3)^4 = (-3) \times (-3) \times (-3) \times (-3) \).  
+Step-by-step: \( (-3)^2 = 9 \), \( 9 \times (-3) = -27 \), \( -27 \times (-3) = 81 \).  
+Or directly: even power of a negative number is positive.  
+
+So \( T = 81 \), which is option A.
+
+---
+
+**Common errors:**  
+1. **Misapplying the exponent** – thinking \( (-3)^4 = -3^4 = -81 \) → leads to C.  
+2. **Multiplying incorrectly** – e.g. \( -3 \times 4 = -12 \) → leads to D.  
+3. **Adding instead of multiplying** – e.g. \( -3 \times 4 = 12 \) → leads to B.  
+
+The most likely trap is C (\( -81 \)), because students sometimes think the negative sign is not inside parentheses properly, or they calculate \( 3^4 = 81 \) then apply the negative afterward because \( k \) is negative.  
+
+However, the notation \( T = k^4 \) with \( k = -3 \) means \( (-3)^4 \), not \( -(3^4) \). This distinction is subtle for weaker students, but stronger students know even powers give positives.
+
+---
+
+**Ability level predictions:**
+
+**Below basic:** Likely to struggle with negative bases and exponents. Some will multiply \( -3 \times 4 \) and pick D (\( -12 \)) or B (\( 12 \)). Many will pick C (\( -81 \)) because they ignore parentheses conceptually. Only a small fraction will compute correctly.
+
+**Basic:** Still high chance of C (\( -81 \)) error, but some know even power → positive. Might still confuse \( (-3)^4 \) with \( -3^4 \). Fewer picking B/D but still present.
+
+**Proficient:** Understand exponent rules. Most get A (\( 81 \)), but a small percentage might rush and pick C.
+
+**Advanced:** Almost all get A. Rare careless errors.
+
+---
+
+**Percentages:**
+
+below_basic: A=25% B=15% C=50% D=10%  
+basic: A=60% B=5% C=30% D=5%  
+proficient: A=90% B=2% C=8% D=0%  
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,10 @@
+To predict these percentages, I have evaluated the likely "order of operations" traps.
+
+The correct path is $4 \times 2 = 8$, followed by $3 - 5 = -2$, and $-2 + 8 = 6$ (**A**). 
+
+The most "attractive" trap for Year 9s is the "left-to-right" error: $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$ (**B**). Students who know the order of operations but struggle with negative number addition often do $3 - 5 = -2$, then $4 \times 2 = 8$, but erroneously calculate $-(2+8) = -10$ (**D**). Option **C** comes from doing the addition first ($5+4=9$) then $3-9 = -6$, multiplied by 2.
+
+below_basic: A=15% B=55% C=10% D=20%
+basic: A=45% B=30% C=5% D=20%
+proficient: A=80% B=10% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%

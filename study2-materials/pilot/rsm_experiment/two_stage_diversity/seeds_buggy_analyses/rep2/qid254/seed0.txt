@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is highly prevalent among UK Year 9 students.
+
+### 1. The Specific Misconception: "The Zero-Value Exclusion Bug"
+The misconception is the belief that **the number zero has no "weight" or "value" in a data set** and should therefore be ignored when counting the number of items ($n$). Students conflate the "sum" (where zero adds nothing) with the "count" (where zero must be counted). They essentially treat 0 as a placeholder or a lack of data, rather than a data point itself.
+
+### 2. Step-by-Step Student Process
+A student with the **Zero-Value Exclusion Bug** would process the question as follows:
+*   **Step 1:** Read the list $0, 1, 3, 4, 7$.
+*   **Step 2:** Sum the numbers: $0 + 1 + 3 + 4 + 7 = 15$. The student correctly identifies that the zero doesn't change the total sum.
+*   **Step 3:** Count the numbers to find the divisor ($n$). The student looks at the list and "skips" the 0, counting only the "actual" numbers: $1$ (one), $3$ (two), $4$ (three), $7$ (four).
+*   **Step 4:** Conclude that since there are four "meaningful" numbers, the total must be divided by 4.
+*   **Step 5:** Construct the expression $\frac{1+3+4+7}{4}$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option C**. 
+
+*(Note: While Option A also omits the 0 from the numerator, the divisor of 5 correctly accounts for the zero’s presence, making Option C the more "consistent" choice for a student who believes the zero shouldn't be involved at all.)*
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most common mistakes in early statistics. 
+*   **Why it feels right:** In everyday language, "nothing" or "zero" means the absence of something. If you asked a student how many pieces of fruit they ate this week and they said "zero" on Monday, they intuitively feel that Monday "doesn't count" toward their average intake.
+*   **Lack of self-correction:** The student is unlikely to realize they went wrong because their math remains internally consistent. They will perform the division $15 \div 4 = 3.75$ and observe that the result falls within the range of the data (between 0 and 7). Because $3.75$ "looks" like a plausible mean for these numbers, there is no cognitive dissonance to trigger a second look. They mistakenly believe they are finding the mean of the "active" numbers.

@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item asks students to evaluate T = k^4 when k = -3. The correct answer is 81 (A), because (-3)^4 = (-3)(-3)(-3)(-3) = 9 * 9 = 81. The misconception tested is "believes multiplying two negatives gives a negative answer" -- students who hold this misconception would likely choose C (-81), thinking that a negative base always produces a negative result regardless of the exponent.
+
+Looking at the calibration items for comparison: The factorising item (Tom and Katie) tests the same misconception and has classical difficulty 0.473 and IRT difficulty 0.404. That item is more complex because it involves factorising quadratics and checking two claims. This substitution item is more straightforward -- it only requires knowing how to raise a negative number to a power.
+
+However, the misconception about negative numbers and even powers is quite common among younger students. Many students struggle with the distinction between (-3)^4 and -(3^4), and the instinct that "negative in means negative out" is strong.
+
+Distractor analysis:
+- A: 81 (correct) -- (-3)^4 = 81
+- B: 12 -- This would come from computing -3 * 4 = -12, taking absolute value, or k*4 instead of k^4
+- C: -81 -- The target misconception: computing the magnitude correctly but keeping the sign negative
+- D: -12 -- Computing -3 * 4 = -12, confusing exponentiation with multiplication
+
+The distractors are reasonably plausible. B and D catch students who confuse exponentiation with multiplication. C catches the target misconception.
+
+I'd estimate this is moderately easy. The computation is not complex, and many students will correctly compute 81. But a meaningful proportion will fall for the sign error. I'd put classical difficulty around 0.35 -- somewhat easier than the factorising item since the procedure is simpler, but the misconception still trips up a fair number.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,40 @@
+<chain_of_thought>
+This item tests whether students can correctly expand (x-4)^2. The correct answer is A: x^2 - 8x + 16.
+
+I want to think carefully about where this sits in the UK curriculum. Expanding double brackets is typically introduced in Year 9/10 and is a key GCSE topic. Squaring a binomial is a special case that students encounter frequently. However, research consistently shows that students make systematic errors with squared binomials — the most common being the "missing middle term" error where students write (a+b)^2 = a^2 + b^2.
+
+Let me consider the attractiveness of each distractor from a student's perspective:
+- B (x^2 + 16): Very attractive. Students who think "square each part" land here. This might be the most commonly chosen wrong answer.
+- C (x^2 - 16): Also attractive. Students who confuse squaring with difference of two squares, or who "square each part" but keep the negative sign.
+- D (x^2 - 8x - 16): Attractive to students who correctly expand the middle term but make the sign error on (-4)^2. This is the tested misconception.
+
+Given that there are THREE plausible distractors each targeting a real misconception, I expect this to be harder than it appears at first glance. Many students who partially understand expansion will still get caught by one of these traps.
+
+The comparable calibration item (Tom/Katie factorising, same misconception category) had difficulty 0.473. But that item only really had one strong distractor. With three strong distractors here, I'd push difficulty slightly higher — perhaps 0.55.
+
+For discrimination: the item should discriminate well because it requires complete understanding of binomial expansion. Partial knowledge leads to specific wrong answers. I estimate a = 1.2 to 1.4.
+
+For guessing: with such plausible distractors, below-chance guessing is possible for weaker students (they're drawn to wrong answers), so the effective guessing parameter should be low, perhaps 0.05-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,15 @@
+To predict these percentages accurately, we must consider the specific pitfalls associated with decimal arithmetic and order of operations (BIDMAS/BODMAS).
+
+The correct calculation is $y = 3(0.3)^2 = 3(0.09) = 0.27$.
+
+Common student errors include:
+1. **Misplacing the decimal in the square:** Many students think $0.3 \times 0.3 = 0.9$ (instead of $0.09$), leading to $3 \times 0.9 = 2.7$.
+2. **Order of operations error:** Doing $(3 \times 0.3)^2$, which is $0.9^2 = 0.81$.
+3. **Confusion between squaring and doubling:** Calculating $3 \times (0.3 \times 2) = 1.8$.
+
+Based on these common misconceptions:
+
+below_basic: A=35% B=15% C=25% D=25%
+basic: A=30% B=25% C=15% D=30%
+proficient: A=20% B=45% C=5% D=30%
+advanced: A=5% B=85% C=2% D=8%

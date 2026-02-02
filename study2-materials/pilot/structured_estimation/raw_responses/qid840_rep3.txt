@@ -1,0 +1,44 @@
+<chain_of_thought>
+Examining 8x/5 = 40.
+
+Tom's claim: 8x = 8. To get 8x alone, multiply both sides by 5: 8x = 200. Tom got 8, suggesting he divided 40 by 5. Classic inverse operation error. Incorrect.
+
+Katie's claim: x/5 = 5. Divide both sides by 8: x/5 = 40/8 = 5. Valid step. Correct.
+
+Only Katie is correct — answer B.
+
+For difficulty estimation, I want to anchor against the calibration items. The key reference points for this misconception:
+- Simple linear equation (p + 10 = -5): classical difficulty 0.167, b = -0.702
+- Function machine item: 0.295, b = 0.002
+- Inequality item: 0.569, b = 0.808
+
+This item involves a fraction (8x/5), which is inherently more challenging than integer coefficients. The "who is correct" meta-reasoning format adds another layer. However, the numbers are clean (40/5 = 8, 40/8 = 5), which makes the arithmetic straightforward even if the algebraic reasoning is tricky.
+
+I think this falls between the function machine and inequality items. The fraction increases difficulty but the "who is correct" format provides scaffolding by presenting possible next steps rather than requiring students to generate them from scratch.
+
+One factor that could increase difficulty: students might not recognize that dividing both sides by 8 first is a valid approach. Many are taught to "clear the fraction first," so Katie's unconventional ordering might be incorrectly rejected.
+
+I'll estimate classical difficulty around 0.42, IRT difficulty around 0.20. Discrimination should be reasonable — maybe 1.30, as the item cleanly separates those who understand inverse operations from those who don't. Some guessing likely given four options — perhaps c = 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

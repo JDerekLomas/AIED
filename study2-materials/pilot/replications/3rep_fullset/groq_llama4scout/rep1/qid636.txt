@@ -1,0 +1,40 @@
+To approach this question, let's first understand the rules for rounding to significant figures.
+
+1. **Rounding to 1 significant figure**: When rounding to 1 significant figure, we look at the second digit (the first digit after the decimal point if there is one, or the second digit if there isn't). If it's 5 or greater, we round up the first digit. If it's less than 5, we leave the first digit as it is. For \( \mathbf{6 0 5 . 7 6} \), the first digit is 6, and the second digit is 0. Since 0 is less than 5, \( \mathbf{6 0 5 . 7 6} \) rounded to 1 significant figure is \( \mathbf{6 0 0} \). So, Tom is correct.
+
+2. **Rounding to 2 significant figures**: When rounding to 2 significant figures, we look at the third digit. If it's 5 or greater, we round up the second digit. If it's less than 5, we leave the second digit as it is. For \( \mathbf{6 0 5 . 7 6} \), rounding to 2 significant figures, the first digit is 6, and the second digit is 0. The third digit is 5, which means we round up the second digit (0) to a 1. So, \( \mathbf{6 0 5 . 7 6} \) rounded to 2 significant figures is \( \mathbf{6 1 0} \) or more commonly written as \( 6.1 \times 10^2 \) but in standard form without indices for this context, it's \( \mathbf{6 1 0} \). Katie says it's \( \mathbf{6 0 0} \), which is incorrect.
+
+Given this, Tom is correct, and Katie is incorrect.
+
+Let's predict the performance:
+
+- **Below Basic**: Students at this level might struggle with understanding significant figures. They might not apply the rules correctly or might misunderstand them. Given the nature of the question, there's a chance they could incorrectly side with Katie or choose "neither" due to confusion. However, without a solid grasp, they might lean towards incorrect options. 
+  - A=30% (some understanding but might apply rules wrong)
+  - B=20% (misunderstanding of significant figures)
+  - C=10% (unlikely to understand both correctly)
+  - D=40% (total confusion)
+
+- **Basic**: Students here have a foundational understanding but might make simple mistakes. They are more likely to understand Tom's argument but could still be tricked by Katie's statement.
+  - A=60% 
+  - B=20% 
+  - C=10% 
+  - D=10%
+
+- **Proficient**: These students understand the concept of significant figures well and are less likely to make mistakes. They should easily identify Tom as correct and Katie as incorrect.
+  - A=80% 
+  - B=5% 
+  - C=5% 
+  - D=10%
+
+- **Advanced**: Students at this level have a deep understanding and can apply the rules accurately. They will easily see Tom's correctness and Katie's mistake.
+  - A=90% 
+  - B=0% 
+  - C=0% 
+  - D=10%
+
+So, in the required format:
+
+below_basic: A=30% B=20% C=10% D=40%
+basic: A=60% B=20% C=10% D=10%
+proficient: A=80% B=5% C=5% D=10%
+advanced: A=90% B=0% C=0% D=10%

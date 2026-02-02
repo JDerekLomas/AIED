@@ -1,0 +1,18 @@
+In marking this set of mocks, the common pitfall isn't the multiplication itself, but the order of operations when negative numbers are involved, and the classic "left-to-right" trap.
+
+**Breakdown of Errors:**
+*   **A (6) - The Correct Answer:** Following BIDMAS ($4 \times 2 = 8$, then $3 - 5 = -2$, then $-2 + 8 = 6$). 
+*   **B (4) - The "Natural Addition" Error:** Students often see the $+$ sign and do $5 + 4$ first, or they calculate $4 \times 2 = 8$, but then do $3 - (5 + 8)$. Another variation is doing $3-5=-2$ and $-2+4=2$, $2 \times 2 = 4$.
+*   **C (-12) - The "Left-to-Right" Addition Error:** Working strictly left to right regardless of the multiplication: $3 - 5 = -2$, then adding $4$ to get $2$, then multiplying by $2$ to get $4$ (as above) OR, more commonly, performing $5+4 \times 2$ first and then subtracting from 3.
+*   **D (-10) - The Left-to-Right Execution:** $3 - 5 = -2$. Then $-2 + 4 = 2$, but many treat the addition/multiplication boundary poorly. Most who get $-10$ do $(3-5+4) \times 2 = 4$, then mismanage the signs. However, the biggest "distractor" here is actually $3 - (5+8) = -10$.
+
+**Student Profiles:**
+*   **Below Basic:** Often work left-to-right regardless of operators, or get "lost" as soon as a subtraction results in a negative number.
+*   **Basic:** Know the word "BIDMAS" but incorrectly assume Addition must come before Subtraction (calculating $5+8$ first) rather than treating them with equal priority.
+*   **Proficient:** Will successfully do $4 \times 2 = 8$, but some will still stumble on the directed number arithmetic of $-2 + 8$.
+*   **Advanced:** Will perform the operations fluently, treating it as $3 - 5 + 8$ and potentially regrouping to $11 - 5$.
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=45% B=20% C=15% D=20%
+proficient: A=80% B=10% C=5% D=5%
+advanced: A=98% B=1% C=1% D=0%

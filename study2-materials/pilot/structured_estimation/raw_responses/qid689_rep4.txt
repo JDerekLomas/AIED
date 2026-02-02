@@ -1,0 +1,43 @@
+<chain_of_thought>
+Solving 10 = 5/p for p. The correct answer is p = 0.5 (since 5/0.5 = 10).
+
+This item tests whether students can manipulate equations where the unknown is in the denominator of a fraction. The core difficulty is that the "inverse" operation here isn't simply switching from + to - or * to /; students need to understand the relationship between division and the reciprocal.
+
+Approach 1 (algebraic): Multiply both sides by p: 10p = 5. Then p = 5/10 = 0.5.
+Approach 2 (reasoning): "What do I divide 5 by to get 10?" This requires understanding that dividing by a number less than 1 gives a larger result, which is counterintuitive for many students.
+
+The answer p = 0.5 being less than 1 adds a layer of difficulty. Students often expect equation solutions to be "nice" whole numbers. Seeing 0.5 as an answer and trusting it requires confidence.
+
+Distractor plausibility: B (50) and C (2) are both highly plausible. I'd argue C is especially attractive because 10 divided by 5 is a basic fact that students compute almost reflexively. B requires the student to multiply, which is a more deliberate (wrong) choice.
+
+Calibration: Among the "same operation instead of inverse" items in the anchors:
+- Simple linear (p+10=-5): 16.7% incorrect, b=-0.702
+- Function machine (x^2+5=14): 29.5% incorrect, b=0.002
+- Inequality (2n+3<=3n-7): 56.9% incorrect, b=0.808
+
+This item's complexity is between the function machine and the inequality. The variable-in-denominator aspect is tricky but the numbers are simple. I'll estimate around 0.45 classical difficulty, b around 0.30.
+
+Discrimination: The item has well-crafted distractors that should separate students who understand reciprocal relationships from those who don't. I'd estimate a around 1.25. For guessing, the "no solutions" option is weak enough that it won't attract much random guessing, so c is probably low, around 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

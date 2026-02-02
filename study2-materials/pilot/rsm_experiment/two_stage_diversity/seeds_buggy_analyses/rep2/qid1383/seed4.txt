@@ -1,0 +1,27 @@
+As an expert in mathematical misconceptions, I have identified a prevalent "bug" that affects students transitioning from arithmetic to algebraic substitution.
+
+### 1. The Specific Misconception: "Implicit Linearization" (Multiplication by Index)
+
+This specific procedural error involves the student treating the exponent (index) as a multiplier rather than a power. In the UK Year 9 curriculum, this is often formally identified as **"Multiplying the Base by the Index."** It stems from a fragile understanding of notation where the student confuses $k^4$ with $4k$.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would follow these steps:
+1. **Substitution:** They correctly identify that $k$ should be replaced by $-3$. They write or visualize $T = (-3)^4$.
+2. **Operational Error:** They look at the notation $k^4$ and subconsciously retrieve the rule for "repeated addition" (multiplication) instead of "repeated multiplication" (powers). 
+3. **Calculation:** They perform the calculation: $-3 \times 4$.
+4. **Final Result:** They conclude that $T = -12$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option D (-12)**. 
+
+*(Note: If the student had also forgotten the negative sign, they would choose Option B, but Option D is the direct result of the index multiplication bug applied to the substituted value.)*
+
+### 4. Attractiveness of the Error
+This error is **highly natural and "invisible"** to the student for several reasons:
+
+*   **Cognitive Load:** When dealing with negative numbers (a common "stressor" for Year 9s), cognitive load increases. Under pressure, the brain often defaults to a simpler operation (multiplication) rather than the more complex one (exponentiation).
+*   **Visual Similarity:** Students spend years learning $4k = k+k+k+k$. The proximity of the $4$ to the $k$ in $k^4$ triggers that "four groups of $k$" neural pathway.
+*   **The "Sensible" Result:** $-12$ "feels" like a reasonable magnitude for a quick calculation. In contrast, calculating $(-3) \times (-3) \times (-3) \times (-3) = 81$ requires four distinct mental steps, providing more opportunities for the student to doubt themselves. 
+
+**Would the student realize?**
+Likely not. Because $-12$ is provided as a distractor, it provides **false validation**. The student sees their exact result listed as an option, which suppresses any "wait, that seems wrong" instinct. They would likely move on to the next question feeling confident.

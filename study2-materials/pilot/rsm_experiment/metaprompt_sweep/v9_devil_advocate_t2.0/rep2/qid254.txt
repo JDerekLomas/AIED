@@ -1,0 +1,17 @@
+To predict these percentages, I have applied the "teacher's blind spot" filter. At first glance, this looks like a simple average question. However, it is a diagnostic question designed to expose two specific misconceptions: 
+1. **The "Zero is Nothing" Trap:** Students often ignore the '0' when counting the number of items (leading to option C). 
+2. **Order of Operations (BIDMAS) Blindness:** Students frequently write calculations in a linear string without brackets (leading to option B).
+
+**A is the correct answer.** Even though the '0' isn't explicitly written in the numerator ($0+1+3+4+7 = 1+3+4+7$), the divisor is correctly 5. 
+
+Here is the predicted distribution:
+
+below_basic: A=20% B=30% C=45% D=5%
+basic: A=35% B=25% C=35% D=5%
+proficient: A=60% B=15% C=20% D=5%
+advanced: A=90% B=2% C=5% D=3%
+
+**Reflections on the distribution:**
+*   **Below Basic:** Many students here instinctively believe 0 "doesn't count." They see four non-zero digits and choose C. Others will choose B because it "reads" like the process they describe verbally ("add them all up then divide by 5"), failing to see that BIDMAS makes B mathematically incorrect ($7 \div 5$ happens first).
+*   **Basic/Proficient:** This is where the struggle between A and C is most prominent. These students know the formula but are prone to the executive error of dividing by the number of *non-zero* values. 
+*   **Advanced:** Most will recognise that $0+x = x$ and that 5 remains the correct denominator. A small percentage might overthink it and choose D because the 0 isn't explicitly visible in the sum, but this is rare.

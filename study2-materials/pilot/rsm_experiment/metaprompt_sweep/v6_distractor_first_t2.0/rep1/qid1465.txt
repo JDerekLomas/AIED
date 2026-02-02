@@ -1,0 +1,26 @@
+As a UK maths teacher, I encounter expressions like this frequently when teaching Order of Operations (BIDMAS/BODMAS). This specific question is a "classic" trap because it tests whether a student understands that multiplication precedes addition/subtraction, and importantly, that addition and subtraction have equal priority.
+
+### Step 1 — Reasoning for each option
+
+*   **A) $6$ (The Correct Path):** The student follows BIDMAS correctly. First, they multiply: $4 \times 2 = 8$. Then they resolve the addition and subtraction from left to right: $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **B) $4$ (The "Addition First" Error):** A common misconception with the acronym BIDMAS/BODMAS is that 'A' (Addition) comes before 'S' (Subtraction). The student does $4 \times 2 = 8$, then adds this to $5$ (the digit they see after the minus sign) to get $13$, then does $3 - 13 = -10$. Wait—correction: $4$ is usually reached by $3 - 5 + 8$. If they do $5+8 = 13$ and then $3-13$, they get $-10$ (Option D). To get **4**, students often calculate $(3-5+4) \times 2$. They ignore BIDMAS and work left-to-right: $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$.
+*   **C) $-12$ (The Multiplication Mistake):** The student adds $5 + 4$ first ($9$), then does $3 - 9 = -6$, then $-6 \times 2 = -12$. This ignores the hierarchy of operations and works through the numbers in a semi-random order or interprets the minus sign as applying to the whole sum following it.
+*   **D) $-10$ (The BIDMAS Literalism Error):** The student knows multiplication comes first ($4 \times 2 = 8$). However, because 'Addition' comes before 'Subtraction' in the acronym, they perform $5 + 8 = 13$ first, and then $3 - 13 = -10$. This is the most sophisticated error, as it shows knowledge of the rules but a failure to understand that Addition/Subtraction are a "ranked pair" solved left-to-right.
+
+---
+
+### Step 2 — Predicted distributions
+
+In a UK secondary school context (Key Stage 3 or 4), I would expect the following distribution across ability levels.
+
+**below_basic:** (These students usually work left-to-right or struggle with negative numbers.)
+A=15% B=45% C=25% D=15%
+
+**basic:** (These students know they shouldn't just go left-to-right, but fall into the acronym trap.)
+A=30% B=20% C=10% D=40%
+
+**proficient:** (Most have mastered the hierarchy, but "Addition before Subtraction" remains a persistent bug.)
+A=65% B=10% C=5% D=20%
+
+**advanced:** (These students treat addition and subtraction as equal priority and handle the negative integer correctly.)
+A=95% B=2% C=0% D=3%

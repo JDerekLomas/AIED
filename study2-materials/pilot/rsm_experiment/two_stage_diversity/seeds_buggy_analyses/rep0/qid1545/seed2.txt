@@ -1,0 +1,36 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among UK Year 9 students (ages 13–14) who have a superficial understanding of order of operations.
+
+### 1. The Misconception: The "Left-to-Right Overload" (Strict Linearity)
+The specific bug is the **failure to prioritise division over addition** in the absence of brackets. Students often internalise a "reading order" rule (left-to-right) that overrides the hierarchy of operations (BIDMAS/BODMAS). They treat the expression as a stream of numbers rather than a structured mathematical object.
+
+### 2. Step-by-Step Calculation (The Buggy Procedure)
+
+**Step 1: Evaluate the left side ($8 + 12 \div 4$)**
+*   The student starts at the left: $8 + 12$.
+*   They calculate $8 + 12 = 20$.
+*   They then divide that result by $4$: $20 \div 4 = 5$.
+*   *Note: They ignore that BIDMAS requires $12 \div 4$ to be done first.*
+
+**Step 2: Evaluate the right side ($(8 + 12) \div 4$)**
+*   The student sees the brackets and correctly calculates the inside first: $8 + 12 = 20$.
+*   They then divide by $4$: $20 \div 4 = 5$.
+*   *Even though they are technically following the bracket rule here, they perceive both sides as having the same "flow."*
+
+**Step 3: Comparison**
+*   The student compares their two results: $5$ and $5$.
+*   They conclude that the two expressions are identical in value.
+
+### 3. Resulting Answer Option
+This misconception leads the student to choose **C) \( = \)**.
+
+### 4. How Natural/Attractive is this Error?
+This is an **extremely high-probability error** for Year 9 students, for several reasons:
+
+*   **Visual Symmetry:** To a student, the numbers are identical and appear in the same order. They often suffer from "bracket blindness," believing brackets are merely "organizational" rather than "functional." If they calculate both sides as 5, the answer feels intuitively "neat" and satisfying.
+*   **The "BIDMAS Paradox":** Students often think that if you do the same operations with the same numbers, you must get the same result. They may think, "Why would the brackets change it if I'm adding then dividing anyway?"
+*   **Zero Cognitive Friction:** The student will likely **not realise they are wrong**. In their mind, they have successfully completed four operations ($+ , \div, +, \div$) and arrived at a clean integer on both sides. Unlike an error that leads to a messy decimal, this path results in "clean" numbers, which reinforces the student's false confidence that their method is correct.
+
+**Correct Mathematical Reality:**
+*   Left: $8 + (12 \div 4) = 8 + 3 = 11$
+*   Right: $(8 + 12) \div 4 = 20 \div 4 = 5$
+*   Correct Answer: **A) \( > \)** ($11 > 5$)

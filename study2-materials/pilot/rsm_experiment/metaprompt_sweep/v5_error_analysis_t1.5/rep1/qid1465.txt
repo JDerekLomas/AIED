@@ -1,0 +1,12 @@
+To arrive at these predictions, I have considered the common "Order of Operations" (BIDMAS/BODMAS) pitfalls:
+*   **A (6) is correct:** $3 - 5 + 8 \rightarrow -2 + 8 = 6$. Students must handle the negative number correctly after the multiplication.
+*   **B (4) is a very "attractive" trap:** Students do $3 - (5 + 8)$, incorrectly thinking "Addition comes before Subtraction" in the acronym, rather than working left-to-right.
+*   **C (-12) is the linear error:** Students work strictly left-to-right: $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$... No, that's not it. $C$ is actually $(3-5+4) \times 2 = 4$, wait. $C$ comes from $3-5 = -2$; $-2+4 = 2$... No, C is often reached by $3 - (5+4) \times 2 = 3 - 18 = -15$... or similar grouping errors. Actually, $-12$ is commonly $(3-5-4) \times 2$.
+*   **D (-10) is the "Addition first" linear error:** $5+4=9$, $3-9 = -6$, $-6 \times 2 = -12$... Or $(3-5)+ (4 \times 2)$ error. D is often chosen by students who see $5+4$ and then $3-9$, then multiply by $2$.
+
+Here is the predicted breakdown:
+
+below_basic: A=15% B=40% C=20% D=25%
+basic: A=35% B=45% C=10% D=10%
+proficient: A=75% B=20% C=3% D=2%
+advanced: A=98% B=2% C=0% D=0%

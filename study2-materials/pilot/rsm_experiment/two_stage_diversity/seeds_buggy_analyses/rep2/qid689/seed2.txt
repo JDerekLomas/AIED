@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I identify the following "bug" frequently encountered in Year 9 (age 13-14) classrooms:
+
+### 1. The Specific Misconception: "Commutative Division" (or "Top-Number Focus")
+The most precise name for this procedural bug is **Commutative Division**. It is the false belief that the order of numbers in a division does not matter, or more specifically, the habit of always dividing the larger number by the smaller number regardless of their positions as dividend/divisor.
+
+A secondary element of this bug is a **linearization error**: the student sees three numbers ($10, 5, p$) and assumes the operation must be $10 \div 5$ because they are the "available" integers, ignoring the algebraic structure where $p$ is the denominator.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would approach the equation as follows:
+*   **Step 1:** Look at the equation $10 = \frac{5}{p}$ and identify the goal is to isolate $p$.
+*   **Step 2:** Isolate the numbers 10 and 5.
+*   **Step 3:** Instead of multiplying both sides by $p$ to clear the fraction, the student assumes the relationship is simply a division of the two constants.
+*   **Step 4:** They calculate $10 \div 5$. They ignore that the 5 is the numerator and the 10 is the result. They follow the logic: "I need to find the relationship between 10 and 5 to get $p$."
+*   **Step 5:** Since $10 \div 5 = 2$, they conclude $p = 2$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C: \( p = 2 \)**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most common "distractor" pitfalls for 13-14 year olds for several reasons:
+
+*   **Ease of Calculation:** $10 \div 5 = 2$ is a "clean" number bonds calculation. Students often feel a sense of "correctness" when they reach a whole number, whereas the actual answer ($0.5$) feels counter-intuitive to those who still subconsciously believe that "division always makes things smaller."
+*   **Superficial Similarity:** If the question were $10 = 5 \times p$ or $10 = \frac{p}{5}$, the "divide 10 by 5" instinct would be correct or closer to correct. The student fails to recognize that when the unknown is in the **denominator**, a reciprocal action is required.
+*   **Lack of Verification:** The student is unlikely to realize they went wrong. If they "checked" their answer by plugging it back in, they would need to calculate $5 \div 2$. However, students with this bug often see $5 \div 2$ and $2 \div 5$ as roughly "the same sort of thing," or they would mentally perform $10 \div 5$ again and confirm "Yes, that's 2," effectively reinforcing their error through a circular logical loop.

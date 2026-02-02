@@ -1,0 +1,40 @@
+<chain_of_thought>
+Examining this item on rearranging the sphere volume formula to find the radius.
+
+Starting from V = (4/3)pi*r^3, the student must isolate r:
+- 3V = 4pi*r^3
+- r^3 = 3V/(4pi)
+- r = cube_root(3V/(4pi)) => Option C
+
+I want to think carefully about who in the 11-16 age range would encounter this. The sphere volume formula is GCSE Higher tier content, typically taught in Year 10-11 (ages 14-16). Making a variable the subject of a formula is also a GCSE skill, but combining it with cube roots and the sphere formula makes this a higher-tier question.
+
+One thing I notice: a student could potentially solve this without memorizing the formula if they recognize the structure of the options. Options A, B, C all have cube roots of fractions involving V and pi, differing only in where 3 and 4 appear and whether pi is in the numerator or denominator. A student who vaguely remembers V = (4/3)pi*r^3 might try to work backwards but easily confuse the positions of 3 and 4.
+
+Option B (cube_root(4V/(3pi))) is an especially strong distractor because students might think: "V = (4/3)pi*r^3, so r^3 = V divided by pi times (4/3), giving 4V/(3pi)." This conflates division by pi with the fraction 4/3 in a plausible but wrong way.
+
+Compared to calibration items, I note the inequality problem (b=0.808) requires multi-step algebra but with concrete numbers. This item is purely symbolic and involves a more complex formula. I'd place the difficulty higher.
+
+However, I should consider that some students might use process of elimination or dimensional/structural reasoning. Still, I estimate around 65-75% incorrect. Let me settle on 0.70. IRT difficulty around 1.2. The discrimination should be reasonable -- perhaps 1.15 -- as this tests a genuine skill boundary. Guessing could be around 0.20 given four options that are hard to eliminate without knowledge.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.70</classical_difficulty>
+<irt_difficulty>1.20</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

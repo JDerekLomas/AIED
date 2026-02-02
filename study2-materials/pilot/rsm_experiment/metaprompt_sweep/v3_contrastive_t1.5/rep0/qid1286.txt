@@ -1,0 +1,15 @@
+This question tests the ability to rearrange a formula involving a fraction, a power of 3, and the constant $\pi$. 
+
+The core challenge here is algebraic manipulation. The formula for the volume of a sphere ($V = \frac{4}{3}\pi r^3$) is usually given in the formula sheet for GCSE, but many students struggle with the order of operations when isolating $r$. 
+
+**Key traps for this specific question:**
+1. **The "Multiply by the top, divide by the bottom" error:** Many lower-ability students instinctively multiply by the 4 and divide by the 3, leading to Option A.
+2. **Incorrect Placement of $\pi$:** Students often forget that $\pi$ is in the numerator. When they divide by it, it should end up in the denominator (Option C), but they may leave it "up top" or mismanage it during the cube root process.
+3. **The Radical Sign:** Some students (Option D) try to take the cube root of $V$ before finishing the division/multiplication steps, resulting in an algebraically invalid expression.
+
+Below is the predicted performance based on typical UK secondary school cohorts (KS4):
+
+below_basic: A=35% B=15% C=30% D=20%
+basic: A=25% B=15% C=45% D=15%
+proficient: A=10% B=8% C=75% D=7%
+advanced: A=2% B=2% C=95% D=1%

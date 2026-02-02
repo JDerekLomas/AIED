@@ -1,0 +1,23 @@
+Here's my prediction based on years of seeing this exact mistake in exam papers.
+
+**Analysis of Errors:**
+
+This question is a classic discriminator. It tests both substitution and a fundamental rule of indices with negative numbers.
+
+*   **Correct Answer A (81):** Requires the student to correctly substitute k = -3 and understand that an even power of a negative number is positive. The calculation is \( (-3) \times (-3) \times (-3) \times (-3) = 81 \).
+*   **Wrong Answer B (12):** This is a weak distractor. The student likely calculated \( 3 \times 4 = 12 \), mixing up indices with multiplication and also dropping the negative sign. This shows a very weak understanding of indices.
+*   **Wrong Answer C (-81):** This is the most common and "attractive" incorrect answer. The student knows that \( 3^{4} = 81 \), but incorrectly applies the negative sign. They calculate \( -(3^{4}) \) instead of \( (-3)^{4} \). This is often due to calculator misuse (typing `-3^4` instead of `(-3)^4`) or a conceptual misunderstanding that the negative sign just "stays at the front".
+*   **Wrong Answer D (-12):** This is another very common error, especially for students with a weaker grasp of algebra. They confuse raising to a power with multiplication, calculating \( k \times 4 \) instead of \( k^{4} \). So, \( -3 \times 4 = -12 \).
+
+**Student Profile Predictions:**
+
+*   **Below Basic:** These students will struggle with the concept of indices, especially with the `k` notation. They are most likely to confuse `k⁴` with `k x 4`, leading them to answer D. Some will make a further sign error or guess, choosing B. Very few will get it right.
+*   **Basic:** This group is the most likely to fall for trap C. They understand substitution and powers, so they can calculate \( 3^{4} = 81 \). However, their understanding of how the negative sign interacts with the power is insecure. The wrong answer `-81` feels plausible to them. The "power first, then the sign" misconception is common here.
+*   **Proficient:** These students have a solid grasp of the rules. Most will correctly identify that `(-3) x (-3)` is positive `9`, and therefore the final answer must be positive. They will correctly calculate 81. A small but significant minority might still make a careless mistake and choose C, especially if rushing.
+*   **Advanced:** These students will instantly recognise the core concept being tested. They know that an even power of any non-zero real number is positive and will not fall into the traps. They will quickly calculate the correct answer. The chance of error is negligible.
+
+---
+below_basic: A=10% B=20% C=20% D=50%
+basic: A=30% B=5% C=60% D=5%
+proficient: A=85% B=0% C=15% D=0%
+advanced: A=99% B=0% C=1% D=0%

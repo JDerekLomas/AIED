@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item tests knowledge of the order of operations (BIDMAS/BODMAS), specifically identifying that indices (powers) must be calculated before division or subtraction. 
+
+1. **Concept Complexity**: The concept is fundamental (order of operations). It involves three operations: subtraction, division, and indices.
+2. **Procedural Steps**: The question doesn't ask for the final answer, only the first step. This reduces the procedural burden significantly compared to the second calibration example ($0.4 - 1/5 \times 3$).
+3. **Distractor Plausibility**: Option C ($8-7$) is a very strong distractor for students who work strictly left-to-right. Option B ($7 \div 6$) is less likely but attracts those who know division comes before subtraction but forget indices come first.
+4. **Misconception Strength**: The "left-to-right" misconception is one of the most persistent in early secondary math.
+5. **Comparison to Calibration**: 
+   - The second calibration example ($0.4 - 1/5 \times 3$) had a classical difficulty of 0.134. However, that required a full calculation involving decimals and fractions. 
+   - This target item is much simpler because it only asks for the *first step*.
+   - Because it is a "meta" question (which step first?), it might actually be easier for some but confusing for others who just want to calculate.
+6. **Psychometric Estimates**: 
+   - Proportion correct should be higher than the multi-step calculation items (around 0.45 - 0.55) because identifying the first step is a lower-level Bloom's taxonomy task than executing the whole calculation.
+   - IRT difficulty (b) will likely be near the mean or slightly below (around -0.2 to 0.2) because order of operations is a mid-tier skill for this age group.
+   - Discrimination (a) is usually high for order of operations because it clearly separates those who know the rule from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

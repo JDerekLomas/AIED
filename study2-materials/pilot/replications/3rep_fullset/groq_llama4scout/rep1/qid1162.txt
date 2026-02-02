@@ -1,0 +1,22 @@
+To approach this question, let's analyze the conjecture made by Jacob: \( P \div Q = Q \div P \). This equation can be rearranged as \( P^2 = Q^2 \) by multiplying both sides by \( PQ \), assuming \( P \) and \( Q \) are not zero. This implies \( P = Q \) or \( P = -Q \). However, Jacob's conjecture specifies that \( P \) and \( Q \) are different numbers. 
+
+## Step1: Understanding the Conjecture
+The conjecture \( P \div Q = Q \div P \) simplifies to \( P^2 = Q^2 \) under the assumption that \( P \) and \( Q \) are not zero. For \( P \) and \( Q \) to be different and satisfy this, they must be opposites (e.g., \( P = 1 \) and \( Q = -1 \)), because if \( P = Q \), they are not different.
+
+##2: Evaluating the Options
+- **Option A (Always true):** This would mean \( P \div Q = Q \div P \) is true for all different \( P \) and \( Q \), which is not the case since it only holds when \( P = -Q \) (and neither is zero).
+- **Option B (Sometimes true):** This suggests there are cases where \( P \div Q = Q \div P \) is true for different \( P \) and \( Q \), which is indeed the case when \( P \) and \( Q \) are opposites.
+- **Option C (Never true):** This implies \( P \div Q = Q \div P \) is never true for different \( P \) and \( Q \), which is incorrect because it is true when \( P \) and \( Q \) are opposites.
+- **Option D (I don't know):** This option indicates uncertainty.
+
+##3: Predicting Student Responses
+- **Below Basic:** Students at this level might struggle to understand the algebraic manipulation and the conditions under which the conjecture holds. They might see the equation and think it's always true because it "looks" balanced, or they might not understand what "different numbers" implies. **A=40%**, **B=20%**, **C=20%**, **D=20%**.
+- **Basic:** Students here have a foundational understanding but may not fully grasp the implications of the conjecture. They might recognize that \( P \) and \( Q \) being different affects the outcome but could be unsure about the conditions under which \( P \div Q = Q \div P \). **A=20%**, **B=30%**, **C=30%**, **D=20%**.
+- **Proficient:** These students understand the relationship between \( P \) and \( Q \) and can evaluate the conjecture. They should recognize that the statement is sometimes true (when \( P = -Q \)) and sometimes not (when \( P \) and \( Q \) are different but not opposites). **A=5%**, **B=70%**, **C=20%**, **D=5%**.
+- **Advanced:** Advanced students will quickly see that \( P \div Q = Q \div P \) implies \( P^2 = Q^2 \), and thus \( P = Q \) or \( P = -Q \). Since \( P \) and \( Q \) must be different, only \( P = -Q \) applies, making the conjecture sometimes true. **A=0%**, **B=90%**, **C=5%**, **D=5%**.
+
+The final answer is:
+below_basic: A=40% B=20% C=20% D=20%
+basic: A=20% B=30% C=30% D=20%
+proficient: A=5% B=70% C=20% D=5%
+advanced: A=0% B=90% C=5% D=5%

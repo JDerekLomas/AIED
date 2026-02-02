@@ -1,0 +1,34 @@
+As an expert in mathematical misconceptions, I identify the most likely error for a UK Year 9 student (age 13–14) as the **"Left-to-Right Processing" bug**, specifically the failure to apply the priority of division over addition.
+
+### 1. The Specific Misconception: The "PEMDAS/BIDMAS is Optional" Bug
+While Year 9 students have been taught BIDMAS (Brackets, Indices, Division/Multiplication, Addition/Subtraction), many retain a "primitive" procedural bug where they treat mathematical expressions like a sentence in English: **reading and calculating strictly from left to right.** In this bug, the student ignores the hierarchical nature of operators and treats the plus sign as the first command simply because it appears first spatially.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would process the expression as follows:
+
+**Step 1: Process the left side**
+*   They see $8 + 12 \div 4$.
+*   Ignoring the rule that division comes before addition, they calculate $8 + 12 = 20$.
+*   They then take that result and divide by $4$: $20 \div 4 = \mathbf{5}$.
+
+**Step 2: Process the right side**
+*   They see $(8 + 12) \div 4$.
+*   Even though they might recognize the brackets, the result is the same as their previous "left-to-right" logic.
+*   They calculate $8 + 12 = 20$, then $20 \div 4 = \mathbf{5}$.
+
+**Step 3: Comparison**
+*   The student concludes that both sides equal $5$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option C ($=$)**. 
+
+*(Note: The correct mathematical path is $8 + 3 = 11$ on the left and $20 \div 4 = 5$ on the right, making the correct answer A ($>$)).*
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and "invisible" to the student** for several reasons:
+
+*   **Computational Symmetry:** Because the numbers used are identical ($8, 12, 4$), the student feels a sense of cognitive ease. The fact that they get the same result ($5$) for both sides feels like a "validation" of their method rather than a warning sign.
+*   **The "Brackets are Redundant" Bias:** A student struggling with BIDMAS often views brackets as "suggestions" or decorative elements. If their left-to-right method already yields the result they think the brackets are asking for, they will assume the brackets are simply there to clarify the left-to-right order, not to change it.
+*   **Intuition over Rule-Following:** At this age, under time pressure or in low-stakes practice, the brain defaults to the "path of least resistance." Left-to-right reading is a more deeply ingrained neural pathway than the abstract hierarchy of operations, making it feel more "natural." 
+
+The student would likely move on to the next question with high confidence, never realizing they bypassed a fundamental rule of algebraic priority.

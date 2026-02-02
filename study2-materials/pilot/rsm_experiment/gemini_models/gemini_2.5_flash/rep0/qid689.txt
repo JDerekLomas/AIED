@@ -1,0 +1,38 @@
+Okay, 200 papers marked... I can practically smell the correcting fluid and the slightly damp smell of the exam hall. Let's break this down.
+
+**Analysis of the Question and Errors:**
+
+The core of this problem is understanding how to manipulate an equation with a variable in the denominator.
+\( 10 = \frac{5}{p} \)
+
+**Correct Solution:**
+Multiply both sides by p: \( 10p = 5 \)
+Divide both sides by 10: \( p = \frac{5}{10} \)
+Simplify: \( p = \frac{1}{2} = 0.5 \)
+
+So, **A) p=0.5** is the correct answer.
+
+**Common Error Pathways for Incorrect Options:**
+
+*   **B) p=50:** This error comes from trying to "solve" by multiplying 10 by 5.
+    *   One possible pathway: The student sees \( 10 = \frac{5}{p} \) and thinks, "To get rid of the fraction, I need to multiply something." They might incorrectly apply a "multiply crosswise" method without moving the variable, or simply misinterpret the relationship as \( p = 10 \times 5 \). This is a very common inverse operation error. They've effectively done \( p = 10 \times 5 \) instead of \( p = \frac{5}{10} \).
+    *   Another way: They treat it like \( \frac{p}{5} = 10 \), in which case \( p=50 \). They swap the variable position in their mental model.
+
+*   **C) p=2:** This is the error of inverting the final step. Instead of \( \frac{5}{10} \), they calculate \( \frac{10}{5} \).
+    *   Pathway: They correctly get to \( 10p = 5 \), but then make the mistake \( p = \frac{10}{5} = 2 \). This is a fundamental misunderstanding of isolating the variable or simple fraction division. They've effectively thought \( 10p=5 \implies p=2 \), as if 5 * 2 = 10 (which is true) so 5 divided by 10 is 2. A real struggle with which number is the numerator and which is the denominator.
+
+*   **D) There are no solutions:** This is highly unlikely unless a student is guessing or completely lost. The only scenario I could imagine is if they incorrectly get \( \frac{0}{0} \) or some other undefined expression and jump to this conclusion, but that's very contrived here. More likely to be a random guess if they can't even start.
+
+**Predicting by Ability Level:**
+
+*   **Below Basic:** Struggle with rearranging equations involving division, especially when the variable is in the denominator. Lack of number sense and basic algebraic manipulation. Likely to guess or make fundamental errors.
+*   **Basic:** Might get confused with the variable in the denominator, might struggle with the final division. They're trying to apply rules but misapplying them. Some might flip the fraction for the final division.
+*   **Proficient:** Should generally get this right. They understand isolating variables. They might initially stumble if they quickly try to divide 10 by 5 but should self-correct quickly by writing it out. A very small minority might make a calculation error under pressure or carelessness.
+*   **Advanced:** Will almost certainly get this correct. They have strong algebraic foundations and number sense. Any error would be a very rare slip.
+
+---
+
+below_basic: A=10% B=45% C=35% D=10%
+basic: A=40% B=30% C=25% D=5%
+proficient: A=90% B=5% C=5% D=0%
+advanced: A=100% B=0% C=0% D=0%

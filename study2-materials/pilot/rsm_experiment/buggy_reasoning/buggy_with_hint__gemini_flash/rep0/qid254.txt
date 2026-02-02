@@ -1,0 +1,45 @@
+As an experienced examiner, I see this specific question type as a "trap" for students who rely on rote-learning the "Add them all up, divide by how many there are" rule without understanding formal notation or data set properties.
+
+Here is my diagnostic analysis:
+
+### 1. Misconception Analysis
+
+**Option A (Correct Answer)**
+The student understands that 0 must be included in the count of numbers ($n=5$) but knows that adding 0 does not change the sum. They recognise the vinculum (fraction bar) as a grouping symbol that implies brackets.
+
+**Option B (Buggy Reasoning: Order of Operations)**
+*   **The Error:** The student carries out operations from left to right regardless of priority order. 
+*   **The Chain:** They translate "add them and then divide" literally into a linear string. In their head, they see: $0+1+3+4+7 \rightarrow 15 \div 5 = 3$. 
+*   **Scientific Calculator Conflict:** If they typed this exactly into a scientific calculator, they would get $13.4$ (due to BIDMAS/BODMAS), but these students ignore priority rules.
+
+**Option C (Buggy Reasoning: "Zero doesn't count")**
+*   **The Error:** The student treats the value '0' as non-existent or irrelevant to the average.
+*   **The Chain:** "There are four 'actual' numbers ($1, 3, 4, 7$). Therefore, I divide the sum by 4." This is a common error in data sets involving 0 or "no results."
+
+**Option D (Buggy Reasoning: Perfectionist/Notation confusion)**
+*   **The Error:** The student believes the calculation *must* explicitly show the "0" in the sum to be mathematically "correct."
+*   **The Chain:** They look at Option A and think "That’s missing the 0." They look at B and think "That’s written wrong." They conclude the "correct" calculation isn't there because it isn't $\frac{0+1+3+4+7}{5}$.
+
+---
+
+### 2. Attractiveness of Distractors
+
+*   **Option B (High Attractiveness for Lower Ability):** This is the "default" way students write maths horizontally. They communicate their intent rather than formal logic. It feels entirely reasonable to them because "everyone knows you do the plus first." Most will not notice they are wrong until they are taught the strictness of the Order of Operations.
+*   **Option C (Moderate Attractiveness for Mid Ability):** This is a conceptual error about the nature of data. Students often equate "0" with "null" or "nothing." It is a persistent error when calculating averages from frequency tables or when a value is zero.
+*   **Option D (Low Attractiveness):** This usually only catches the overly pedantic student or the student who is totally lost and selects "None" as a guess.
+
+---
+
+### 3. Predicted Response Distribution
+
+**Below Basic (Grade 1-2):** High B/C split. Minimal understanding of order of operations or the significance of zero as data.
+**Basic (Grade 3-4):** Option B remains dominant as they struggle to bridge "verbal instructions" with "algebraic notation." 
+**Proficient (Grade 5-6):** Most will identify A, but some may still be tempted by C if they work too quickly and "see" 4 digits.
+**Advanced (Grade 7+):** High success rate. They recognize that adding zero is identity and the vinculum acts as a bracket.
+
+| Level | A | B | C | D |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 45% | 25% | 10% |
+| **Basic** | 40% | 35% | 20% | 5% |
+| **Proficient** | 80% | 10% | 8% | 2% |
+| **Advanced** | 98% | 1% | 0% | 1% |

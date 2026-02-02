@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item assesses the ability to translate a multi-step verbal description of operations into a formal algebraic expression, specifically testing the correct use of brackets and the order of operations (BIDMAS/BODMAS).
+
+The sequence is: (n - 5) -> ÷ 8 -> + 4 -> × 7.
+Jo's expression: 7((n-5)/8 + 4) correctly nests the operations. The division is applied to (n-5), then 4 is added, and finally the whole result is multiplied by 7.
+Paul's expression: 7((n-5) ÷ 8) + 4 fails because the "multiply by 7" is only applied to the division result, not the "+ 4".
+
+Psychometric considerations:
+1. Concept Complexity: Medium. Requires understanding of algebraic notation and order of operations.
+2. Distractor Plausibility: High. Paul's mistake is a classic "left-to-right" reading error where students fail to realize the final operation applies to the entire preceding sum. Option C (Both) is a very common "safe" guess for students who see both look vaguely correct.
+3. Cognitive Load: High for the age group. There are four distinct operations to track and compare against two different symbolic representations.
+4. Comparison to Calibration Items: This feels more difficult than the simple linear equation (Item 1) but perhaps less procedurally taxing than the inequality (Item 5). However, the "Who is correct?" format often increases difficulty because it requires evaluating two separate logical paths.
+5. Misconception: The left-to-right processing (ignoring the scope of brackets) is a strong distractor. Paul's expression literally follows the order of words if one isn't careful about the nesting.
+
+The proportion correct is likely to be lower than Item 4 (0.473) because algebraic nesting is more abstract than factorizing. I expect it to be around 0.35 - 0.40.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

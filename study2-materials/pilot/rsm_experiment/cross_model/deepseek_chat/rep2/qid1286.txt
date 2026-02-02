@@ -1,0 +1,14 @@
+below_basic: A=40% B=25% C=20% D=15%  
+basic: A=25% B=35% C=30% D=10%  
+proficient: A=10% B=20% C=65% D=5%  
+advanced: A=5% B=10% C=80% D=5%  
+
+**Reasoning:**  
+The question tests rearrangement of the volume formula \( V = \frac{4}{3} \pi r^3 \).  
+
+- **Below basic** students often misremember the formula or incorrectly rearrange it. Many will pick **A** because it *looks* most like the original formula (just cube‑rooted), or **B** because they swap the 3 and π incorrectly.  
+- **Basic** students are more likely to attempt rearrangement but still make errors in algebraic steps, especially with the placement of π, leading to high choices for **B** (common mis‑step: \( r^3 = \frac{4V}{3\pi} \)).  
+- **Proficient** students mostly get the correct rearrangement \( r = \sqrt[3]{\frac{3V}{4\pi}} \) (**C**), though some slip to **B** by mis‑ordering division.  
+- **Advanced** students overwhelmingly choose **C**, with a small percentage misreading or rushing.  
+
+The main difficulty is the algebraic manipulation involving division by \( \frac{4}{3} \pi \); the cube root itself is not the trap, but the order of constants is.

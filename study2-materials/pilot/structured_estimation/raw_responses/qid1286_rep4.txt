@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item tests whether students can rearrange the sphere volume formula V = (4/3)pi*r^3 to solve for r. The correct answer is C: r = cube_root(3V/(4pi)).
+
+Let me approach the difficulty estimation from a different angle -- thinking about what proportion of UK secondary students at various levels could handle this.
+
+Year 7-9 students (ages 11-14): Almost none would get this right except by guessing. They haven't encountered sphere volume or cube roots in this context.
+
+Year 10 Foundation tier: Very unlikely to encounter this. Even if they know the formula, rearranging with cube roots is beyond foundation.
+
+Year 10-11 Higher tier: This is the target audience. Even among these students, formula rearrangement involving cube roots is one of the more challenging algebraic skills. I'd estimate perhaps 30-40% of higher tier students get this correct.
+
+Since the Eedi dataset likely includes a broad mix of students (not just higher tier), the overall proportion incorrect could be quite high. But Eedi is diagnostic, so students are typically shown items matched to topics they're studying. If mostly higher tier students attempt this, classical difficulty might be around 0.60-0.70.
+
+The distractors all involve similar-looking expressions, making this harder. Option B (4V/(3pi)) is the most dangerous distractor -- it's what you'd get if you incorrectly rearranged the fraction, perhaps dividing by (3/4)pi instead of (4/3)pi, or equivalently multiplying by (4/3)/pi.
+
+For IRT parameters: given calibration, the hardest item (inequality) had b=0.808 with classical difficulty 0.569. This item should be harder, so I'll estimate b around 1.0-1.3. Discrimination should be moderate -- maybe 0.95-1.2 -- since the similar distractors might reduce discrimination somewhat (even strong students could make a careless error). Guessing should be slightly above pure chance (0.25) because the options are hard to eliminate, but maybe some students can rule out option D.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>8</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>9</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>5</age_appropriateness>
+<transfer_distance>7</transfer_distance>
+<visual_complexity>8</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.66</classical_difficulty>
+<irt_difficulty>1.10</irt_difficulty>
+<irt_discrimination>0.95</irt_discrimination>
+<guessing_probability>0.23</guessing_probability>
+</predictions>

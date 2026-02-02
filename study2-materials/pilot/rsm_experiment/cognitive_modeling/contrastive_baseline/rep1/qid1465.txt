@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS). 
+
+**The Breakdown:**
+*   **Correct (A):** $4 \times 2 = 8$. Then $3 - 5 = -2$. Finally, $-2 + 8 = 6$.
+*   **The "Left-to-Right" Trap (B):** $3 - 5 = -2$. Then $-2 + 4 = 2$. Finally, $2 \times 2 = 4$. Students often ignore the priority of multiplication when it's at the end of the string.
+*   **The "Addition first" Misconception (D):** Many students believe "A" comes before "S" in BIDMAS literally. They do $5 + (4 \times 2) = 13$, then $3 - 13 = -10$. Or, more commonly, they do $5+4 = 9$, then $9 \times 2 = 18$, then $3 - 18 = -15$ (not an option). However, the specific trap here is $3 - (5+8) = -10$.
+*   **The "Subtraction first" error (C):** Students doing $(3 - 5 + 4) \times 2 \rightarrow (2) \times 2$ (doesn't fit), or more likely, seeing $3-5$ as $2$, then $2+4 = 6$, $6 \times 2 = 12$ and choosing the negative version.
+
+**Teacher's Insight:**
+The negative result of $3-5$ is the biggest hurdle for 'Basic' students. Many will struggle to process the subtraction before adding the product of the multiplication. Option B is a very high-distractor for those who work linearly, while Option D catches those who strictly follow the letters of BIDMAS without understanding that Addition and Subtraction have equal priority.
+
+below_basic: A=20% B=45% C=15% D=20%
+basic: A=45% B=30% C=5% D=20%
+proficient: A=80% B=10% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%

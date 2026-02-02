@@ -1,0 +1,45 @@
+<chain_of_thought>
+Examining this item: solve (x-6)/2 = 10, then evaluate Tom and Katie's proposed next steps.
+
+First, the correct approach: the expression (x-6) is divided by 2, so to undo that division we multiply both sides by 2, yielding x - 6 = 20. Then x = 26.
+
+Tom's proposed step: x/2 = 16. Tom appears to have reasoned: "I need to get rid of the -6, so I'll add 6 to both sides." On the right he gets 16 correctly (10+6). On the left, he incorrectly transforms (x-6)/2 into x/2, as if adding 6 to the fraction only affects the numerator directly. This reveals a misunderstanding of how operations distribute over fractions. If he truly added 6 to the entire left side: (x-6)/2 + 6 = (x-6)/2 + 12/2 = (x+6)/2 = 16, which gives x+6 = 32, x = 26. The answer would still be correct but the intermediate step x/2 = 16 is not what you'd get. Tom is incorrect.
+
+Katie's proposed step: x - 6 = 5. She divided 10 by 2, applying the same operation rather than the inverse. Multiplying by 2 would give x - 6 = 20. This is the exact misconception the item targets. Katie is incorrect.
+
+So D is correct.
+
+For difficulty estimation, I note several features that make this challenging:
+1. The "who is correct" format requires evaluating two independent claims
+2. Both claims are wrong (answer D), which is psychologically the least popular choice
+3. Tom's error is subtle — it's not a simple inverse-operation mistake but a structural misunderstanding of fractions
+4. The misconception label focuses on Katie's error (same operation instead of inverse)
+
+The Tom-Katie factorising calibration item had b = 0.404 with "Only Tom" as the answer. This item should be harder because (a) the correct answer is "Neither," and (b) Tom's error requires deeper understanding of fraction manipulation. I'd put the IRT difficulty higher, around 0.9-1.0.
+
+Discrimination might be moderate. High-ability students should see through both errors. However, mid-ability students might correctly spot Katie's error but be fooled by Tom's seemingly reasonable step, leading them to choose A (Only Tom). This pattern could actually boost discrimination if it creates a clean split between high and mid ability students.
+
+Guessing probability for D is likely lower than 0.25 baseline since students tend to avoid "Neither" unless confident.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.65</classical_difficulty>
+<irt_difficulty>0.95</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

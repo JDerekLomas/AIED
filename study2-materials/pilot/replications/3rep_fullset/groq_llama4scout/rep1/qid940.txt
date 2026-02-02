@@ -1,0 +1,42 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential misconceptions.
+
+The question provides a ratio of teachers to students as 1:9. This implies that for every 1 teacher, there are 9 students. The total number of people (teachers + students) for every 1 teacher and 9 students is 10.
+
+Tom says there are 9 times as many students as teachers. Given the ratio 1:9, this is correct because there are indeed 9 students for every 1 teacher.
+
+Katie says one in ten people are teachers. Given that for every 10 people (1 teacher + 9 students), 1 is a teacher, this is also correct.
+
+Therefore, both Tom and Katie are correct.
+
+Now, let's consider how students at different ability levels might respond:
+
+- **Below Basic:** Students at this level may struggle with ratios and proportions. They might not understand what the ratio 1:9 implies about the relationship between the number of teachers and students or may confuse the statements. 
+  - A=20% (some might think Tom is right but not Katie)
+  - B=20% (some might think Katie is right but not Tom)
+  - C=30% (those who understand both statements are correct)
+  - D=30% (those who think neither is correct, possibly due to misunderstanding the ratio)
+
+- **Basic:** Students at this level have a basic understanding of ratios but might still make errors in application or in interpreting the statements.
+  - A=15% 
+  - B=15% 
+  - C=60% (most understand both are correct)
+  - D=10% 
+
+- **Proficient:** Students at this level are comfortable with ratios and can easily see that both statements are correct.
+  - A=5% 
+  - B=5% 
+  - C=85% 
+  - D=5% 
+
+- **Advanced:** Students at this level not only understand the ratio but can also quickly deduce the implications of the statements.
+  - A=0% 
+  - B=0% 
+  - C=95% 
+  - D=5% 
+
+Given these considerations:
+
+below_basic: A=20% B=20% C=30% D=30%
+basic: A=15% B=15% C=60% D=10%
+proficient: A=5% B=5% C=85% D=5%
+advanced: A=0% B=0% C=95% D=5%

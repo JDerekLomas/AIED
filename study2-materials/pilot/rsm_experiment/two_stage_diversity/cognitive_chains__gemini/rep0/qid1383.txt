@@ -1,0 +1,20 @@
+As an experienced maths teacher, I’ve seen this exact problem catch out many Year 9 students. The difficulty lies in three distinct areas: understanding indices (powers vs. multiplication), the arithmetic of negative numbers, and the subtle distinction between $(-3)^4$ and $-3^4$.
+
+Here is my prediction of the percentage distribution for a typical Year 9 mock cohort:
+
+**below_basic: A=10% B=45% C=15% D=30%**
+Students at this level often treat algebra as simple arithmetic. The most common error is multiplying the base by the index ($3 \times 4 = 12$). Since the input $k$ is negative, many will instinctually choose D over B because it "looks" more like the question. A few may attempt the powers but get lost in the arithmetic.
+
+**basic: A=25% B=15% C=50% D=10%**
+Students at this level generally understand that $k^4$ means $k$ multiplied by itself four times. However, they are highly susceptible to "negative bias"—the feeling that a negative input should result in a negative output. Like Perspective 3 and 5, they often reach 81 but then manually add a negative sign at the end, mistakenly believing the power doesn't "cancel out" the original sign.
+
+**proficient: A=65% B=5% C=25% D=5%**
+These students are confident with indices and know that $(-3) \times (-3) = 9$. Most will correctly pair the negatives to reach positive 81. However, some will be tripped up by the "invisible bracket" ambiguity. Like Perspective 5, a significant portion of this group will second-guess themselves and choose C, thinking the expression is evaluated as $-(3^4)$.
+
+**advanced: A=95% B=0% C=5% D=0%**
+Top-tier students know that if $k = -3$, then $k^4$ must be treated as $(-3)^4$. They are familiar with the rule that even powers of negative bases are always positive. The only errors here are usually from overthinking the notation or simple "silly" arithmetic slips, though $3^4$ is a commonly known fact for this group.
+
+below_basic: A=10% B=45% C=15% D=30%
+basic: A=25% B=15% C=50% D=10%
+proficient: A=65% B=5% C=25% D=5%
+advanced: A=95% B=0% C=5% D=0%

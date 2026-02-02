@@ -1,0 +1,39 @@
+<chain_of_thought>
+Item: 18 / 2 + 2 x 2 = ? Answer: B (13).
+
+This is a prototypical BODMAS/BIDMAS item testing whether students respect operation priority. The expression contains division, addition, and multiplication, requiring students to handle division and multiplication before addition.
+
+Correct working: 18/2 = 9, 2x2 = 4, 9+4 = 13.
+
+The main trap is option C (22), produced by left-to-right sequential processing. This is the explicitly tested misconception. Option A (3) likely comes from treating the expression as a single fraction: 18/(2+2x2) = 18/6 = 3 - a student who incorrectly groups everything after the division sign as the denominator. Option D (12) is harder to derive from a systematic error; it may serve as a catch-all for arithmetic mistakes.
+
+Psychometric expectations: Order of operations is taught early in UK secondary and heavily practiced. By the time students are 13-14, most have consolidated this. For a broad 11-16 sample, I'd expect the majority to answer correctly. The item is very standard - it looks exactly like textbook exercises.
+
+However, I should consider that the Eedi platform often catches students at the point of learning, so the sample may over-represent students who are currently studying this topic or who are weaker. This could push difficulty slightly higher than expected for a general population.
+
+Comparing to the calibration item with the same misconception (classical difficulty 0.134, IRT b = -0.245): that item mixed decimals and fractions with BODMAS, adding complexity. This item is simpler. But the simplicity might paradoxically lead students to rush and not think about order. I'll estimate slightly higher difficulty than one might expect for such simple arithmetic - around 0.18 classical difficulty.
+
+For discrimination: BODMAS items typically discriminate well. I expect a value around 1.3-1.6. No meaningful guessing effect since students will compute an answer rather than guess blindly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

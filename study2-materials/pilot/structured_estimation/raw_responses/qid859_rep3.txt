@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: 12d - 3 = 6d + 3, correct answer d = 1 (option B).
+
+This is fundamentally about solving a linear equation with the unknown on both sides. In the UK national curriculum, this appears around Year 8-9 (ages 12-14). It's a bread-and-butter algebra skill but one that many students find challenging because it requires understanding that you must perform inverse operations to isolate the variable.
+
+Key consideration: the coefficients here are relatively friendly. 12 and 6 are easily related (difference of 6), and the constants -3 and +3 also simplify nicely (sum to 6). The arithmetic is clean, which should reduce difficulty somewhat compared to messier numbers.
+
+However, I want to think about what makes this potentially harder than it looks. The misconception tested is specifically about using the same operation rather than the inverse. When students see "6d on the right," they need to subtract 6d from both sides. The error would be to add 6d, yielding 18d - 3 = 3, then 18d = 6, d = 1/3. Option D captures this precisely.
+
+Looking at the calibration set pattern: the equation items show a clear progression. Simple one-step equation: b = -0.702. Function machine (conceptual equation solving): b = 0.002. Inequality with variables on both sides: b = 0.808. This item is procedurally similar to the inequality but without the added complexity of inequality rules. I'd place it around b = 0.15-0.30.
+
+For classical difficulty, I note the inequality was 0.569. This should be somewhat easier - maybe 0.35. But I should also consider that d=1/3 is a very tempting distractor for students with this misconception, which could push difficulty up. Let me settle on 0.37.
+
+Discrimination: The clean arithmetic means the item primarily tests one skill (equation balancing), which should give decent discrimination. I'll estimate a = 1.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.37</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

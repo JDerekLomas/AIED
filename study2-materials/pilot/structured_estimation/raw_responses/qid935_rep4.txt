@@ -1,0 +1,43 @@
+<chain_of_thought>
+Examining this simultaneous equations item where students substitute k = 8 into 2j - k = -10.
+
+Correct solution: 2j - 8 = -10 → 2j = -10 + 8 → 2j = -2 → j = -1 (D).
+
+I want to approach this from the perspective of what proportion of the student population (UK ages 11-16) encounters simultaneous equations. This topic is typically introduced in Year 10-11 (ages 14-16) at GCSE level. The item says Isaac is "halfway through solving" simultaneous equations, which provides helpful context but also signals this is an advanced topic.
+
+However, the actual skill being tested is much more basic: substituting a value and solving a two-step equation with negatives. A Year 8 student could potentially do the mechanics if they ignored the simultaneous equations framing.
+
+The key question is: does the simultaneous equations context create additional difficulty beyond the algebra itself? I think it does, slightly, because:
+- Students may overthink the problem, wondering if they need to use elimination or other methods
+- The word "halfway" implies prior work has been done, which could confuse students about what step they're on
+
+Distractor plausibility: C (j = -9) is highly plausible as it directly results from the tested misconception. B (j = 9) catches students who make the same error plus a sign error. A (j = 1) catches those who solve mostly correctly but err on the final sign. The distractors cover a good range of error types.
+
+Anchoring to calibration data: I note that all three calibration items testing the same misconception have guessing parameters of 0.000, 0.000, and 0.193. The simpler items have zero guessing, while the harder inequality has some. This item should have a small but nonzero guessing parameter.
+
+For difficulty, I'll place this between the function machine (0.295) and the factoring question (0.473). The negative arithmetic is a significant hurdle. I estimate classical difficulty around 0.48 - slightly higher than my other estimates because I'm now weighing the simultaneous equations framing more heavily as a source of confusion for weaker students who might panic at the terminology.
+
+IRT b parameter: around 0.40, discrimination about 1.15 (moderate - the item tests a clear misconception but the context may add noise), guessing around 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

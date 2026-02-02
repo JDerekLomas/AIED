@@ -1,0 +1,22 @@
+Let's break down the thinking for each ability level and common errors.
+
+**Correct Answer Analysis:**
+Tom's move: \(\frac{x}{3}-5=12 \Rightarrow \frac{x}{3}=12+5 \Rightarrow \frac{x}{3}=17\). This is correct as he has added 5 to both sides.
+Katie's move: \(\frac{x}{3}-5=12 \Rightarrow x-5=3 \times 12 \Rightarrow x-5=36\). This implies multiplying the entire LHS by 3 without properly applying it to the -5. If she were to multiply the *whole equation* by 3, it should be \(x-15=36\). Katie's line is incorrect.
+
+Therefore, the correct answer is A (Only Tom).
+
+**Error Analysis:**
+*   **Error leading to Katie being seen as correct:** Multiplying *just the fraction* by 3 to clear the denominator, without multiplying the -5 by 3 as well. So, \(3 \times \frac{x}{3} - 5 = 3 \times 12 \Rightarrow x-5 = 36\). This is a very common algebraic misconception: not multiplying *all* terms in an expression or equation when clearing a denominator.
+*   **Error leading to "Neither":**
+    *   Perhaps believing Tom is incorrect because they would clear the denominator first.
+    *   Getting confused by Tom's addition, thinking it should be \(12-5\).
+    *   A student might look at Tom and Katie's steps and think that *only one* way to solve it exists and these are two different pathways, assuming one of them is an immediate next line.
+*   **Error leading to "Both":** Believing Tom's correct step and incorrectly believing Katie's step is also valid due to the common misconception mentioned above. This will be the most attractive distractor.
+
+Now for the predictions:
+
+below_basic: A=10% B=15% C=60% D=15%
+basic: A=25% B=10% C=55% D=10%
+proficient: A=70% B=5% C=20% D=5%
+advanced: A=95% B=0% C=5% D=0%

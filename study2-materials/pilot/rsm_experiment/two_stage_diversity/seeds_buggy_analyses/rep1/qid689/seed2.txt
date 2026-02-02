@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among students in Key Stage 3 (UK Year 9).
+
+### 1. The Specific Misconception: The "Variable Placement Blindness" (Operation Inversion)
+The specific bug here is the **Division Commutativity Fallacy** combined with a **Restructuring Bug**. Many students at this level struggle when the unknown ($p$) is the **denominator** (the divisor) rather than the numerator. They subconsciously apply a rule that "to solve for a variable, you divide the numbers you see," ignoring the reciprocal relationship. They treat $10 = \frac{5}{p}$ as if it were the more familiar $10 = \frac{p}{5}$.
+
+### 2. The Step-by-Step Error Procedure
+A student with this misconception would typically follow these steps:
+1. **Goal Identification:** "I need to get $p$ on its own. To do that, I need to get rid of the 5."
+2. **Recognition of Operation:** "The 5 is currently involved in a division. The inverse of division is multiplication." (The student understands the principle of balance but applies it incorrectly).
+3. **Faulty Rearrangement:** Instead of multiplying both sides by $p$, the student decides they need to "undo" the 5. They believe that because 5 is "on top," they should perform the operation $10 \times 5$.
+4. **Calculation:** They calculate $10 \times 5 = 50$.
+5. **Conclusion:** They conclude that $p = 50$, often reasoning that "50 divided by something gives 10... oh wait, it must be 50." They rarely substitute the 50 back into the original denominator.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option B: $p = 50$**.
+
+### 4. How Natural/Attractive is this Error?
+This is a **highly seductive error**. In the UK curriculum, students spend significant time solving equations of the form $ax = b$ or $\frac{x}{a} = b$. In both those cases, they are trained to "take the number to the other side and do the opposite." 
+
+When they see $10 = \frac{5}{p}$, their brain follows the strongest neural pathway: "I see a 10, I see a 5, and I see a division sign. The opposite is multiplication. $10 \times 5$ is 50." 
+
+**Would the student realize they went wrong?**
+Usually, **no**. The number 50 "feels" right because it is a common multiple of 10 and 5. Without the habit of **back-substitution** (checking if $10 = \frac{5}{50}$ is true), the student will feel confident in their answer. They have performed a "mathematical operation" and reached a whole number that exists in the multiple choices, providing a false sense of validation. They have essentially solved the equation $p = 10 \times 5$ instead of the one provided.

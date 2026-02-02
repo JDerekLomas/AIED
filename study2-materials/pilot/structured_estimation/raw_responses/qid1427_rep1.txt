@@ -1,0 +1,40 @@
+<chain_of_thought>
+Analyzing this item: students see two lines of working where x + 7 = ... becomes x = ..., and must identify the operation (the "star") applied to both sides.
+
+The correct answer is D (-7), applying the inverse of +7. The key misconception distractor is A (+7), which tests whether students mistakenly use the same operation.
+
+Comparing to calibration items with identical misconception:
+1. Solve -5 = p + 10: difficulty 0.167, b = -0.702 -- requires both identifying AND executing the inverse operation
+2. Function machine for x^2 + 5 = 14: difficulty 0.295, b = 0.002 -- involves two operations and square root
+3. Inequality 2n + 3 <= 3n - 7: difficulty 0.569, b = 0.808 -- multi-step with variable on both sides
+
+This target item only requires identifying the inverse operation, not executing it. That makes it simpler than even the easiest calibration item. Students don't need to compute any answer -- just recognize that undoing +7 means -7.
+
+However, there's a wrinkle: the question is presented with an image showing lines of working and an arrow with a star. Students need to interpret this visual representation, which adds some cognitive overhead compared to a standard "solve this equation" prompt. Some younger students (age 11-12) encountering this format for the first time might be confused by the presentation rather than the mathematics.
+
+The distractors B (x7) and C (/7) seem weakly plausible -- they involve 7 but the wrong type of operation entirely. Distractor A (+7) is the primary trap for students with the target misconception.
+
+I estimate this is an easy item, likely easier than the p + 10 calibration example. Classical difficulty around 0.10-0.18, with a negative IRT difficulty. Good discrimination expected since the item cleanly targets one misconception.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>4</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.65</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

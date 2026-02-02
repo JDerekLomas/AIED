@@ -1,0 +1,13 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). While it looks straightforward, it contains two specific traps that frequently catch UK students:
+
+1.  **The "Left-to-Right" Trap (Option D):** Students who ignore order of precedence and simply calculate $8 - 7 = 1$, then $1 + 10 = 11$, then $11 \times 3 = 33$.
+2.  **The Addition over Subtraction Trap (Option A):** This is the most common conceptual error. Students see "A" before "S" in BIDMAS and mistakenly believe addition *must* be performed before subtraction. They calculate $7 + (10 \times 3) = 37$, then $8 - 37 = -29$ (Option C), OR they calculate $7 + 10 = 17$, then $8 - 17$ (negative), OR they simply do $8 - (7 + 30) = -29$. However, the specific trap for Option A is $8 - 7 = 1$, then $1 + 30 = 31$, but many students instinctively group the addition: $(8-7) + 30$ vs $8 - (7+30)$.
+
+Option B is the correct answer: $8 - 7 + 30 = 1 + 30 = 31$.
+
+Here is the predicted distribution:
+
+below_basic: A=15% B=25% C=10% D=50%
+basic: A=20% B=45% C=5% D=30%
+proficient: A=10% B=75% C=3% D=12%
+advanced: A=2% B=95% C=1% D=2%

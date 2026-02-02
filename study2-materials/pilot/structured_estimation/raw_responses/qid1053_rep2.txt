@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analysing x^2 - x - 6 factorisation. This is a standard GCSE-level quadratic factorisation problem. The correct factorisation is (x-3)(x+2).
+
+What strikes me about this item is how well the distractors cover different sign errors:
+- A: (x-3)(x+2) = x^2 - x - 6 CORRECT
+- B: (x-3)(x-2) = x^2 - 5x + 6 -- both factors negative, product becomes +6 not -6
+- C: (x+3)(x+2) = x^2 + 5x + 6 -- both positive, completely wrong
+- D: (x+3)(x-2) = x^2 + x - 6 -- swapped signs on the factors, middle term becomes +1 not -1
+
+The misconception "believes multiplying two negatives gives a negative" specifically targets option B. Students who correctly identify that 3 and 2 are the relevant numbers, and that negatives are involved to get -6, but then incorrectly think (-3)(-2) = -6 will pick B.
+
+However, a student could also be attracted to D if they get the factor pair right (3 and 2, one positive one negative) but assign the signs incorrectly.
+
+Compared to the calibration set, this is a pure factorisation task -- no wrapping in a story or function machine. It's quite standard. But the sign manipulation is genuinely challenging for many students. I'd place it around the same difficulty as the Tom/Katie item, maybe slightly harder because students must do the factorisation themselves rather than just verify.
+
+Actually, upon reflection, verification (Tom/Katie) might be easier since you can expand and check. But here students also have options to expand and check. So it could go either way. I'll estimate classical difficulty around 0.48.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.42</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

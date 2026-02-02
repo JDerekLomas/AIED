@@ -1,0 +1,44 @@
+<chain_of_thought>
+Target item: Evaluate Isaac's solution of 15 = (1+k)/4.
+
+Step 1: 60 = 1 + k. Isaac multiplied both sides by 4, which correctly undoes the division. This step is correct.
+
+Step 2: 61 = k. Isaac took 60 = 1 + k and got 61 = k, meaning he added 1 to the left side rather than subtracting 1 from both sides. The correct result should be k = 59. This is wrong — classic "same operation rather than inverse" error.
+
+So answer A is correct (only Step 1).
+
+How hard is this? Let me think about it from a student's perspective. A weaker student might:
+- Not bother checking each step carefully and just pick C (both correct) because the work "looks right"
+- Actually share the misconception and genuinely believe 61 = k is correct, also picking C
+- Be confused by the fraction and think Step 1 is wrong too, picking D
+
+The main competing distractor is C. Students who themselves would make the same inverse-operation error will think both steps are fine. This is quite likely given how common this misconception is.
+
+Calibration anchoring: The simplest same-misconception item had difficulty 0.167 (just solving p+10=-5). But that was direct solving. This requires evaluation of steps, which is harder cognitively. The function machine item (same misconception, evaluation format) had difficulty 0.295. The inequality version had 0.569 but that was much harder content.
+
+This item involves a fraction (slightly harder than p+10=-5) and evaluation framing (adds difficulty). I'd place it near the function machine item or slightly higher: around 0.30-0.40.
+
+For discrimination, the calibration items with this misconception ranged from 1.05 to 1.32. This item should discriminate reasonably well — I'll estimate around 1.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.02</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

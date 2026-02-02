@@ -1,0 +1,41 @@
+<chain_of_thought>
+The target item requires adding 3/5 + 1/4. To solve correctly, a student must find the lowest common denominator (20), convert 3/5 to 12/20 and 1/4 to 5/20, then add to get 17/20.
+
+The tested misconception - adding numerators and denominators separately - is one of the most robust and well-documented misconceptions in mathematics education. Students who do 3+1=4 and 5+4=9 get option A (4/9).
+
+Let me think about difficulty. Fraction addition with unlike denominators is typically introduced around Year 7 (age 11-12) in the UK curriculum, so it spans the full age range. However, this misconception persists even into later years.
+
+Looking at distractor analysis more carefully:
+- A) 4/9 is the primary misconception trap
+- B) 4/20 suggests a student found the common denominator but only added numerators without converting (3+1=4, denominator=20)
+- C) 7/20 could come from adding 3+4=7 (treating the 4 from 1/4's denominator as a numerator?) with denominator 20
+- D) 17/20 correct
+
+The distractors are well-designed with A being highly attractive. Given that this is a fundamental skill with a strong misconception, I expect moderate difficulty. The visual presentation with circles is slightly non-standard but not confusing.
+
+Calibrating against the examples: this feels similar in difficulty to the function machine item (0.295) or slightly harder, since fraction misconceptions are deeply ingrained. I'll estimate around 0.35 proportion incorrect.
+
+For IRT discrimination, the clean separation between the misconception and correct procedure should yield decent discrimination, maybe around 1.2-1.4.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

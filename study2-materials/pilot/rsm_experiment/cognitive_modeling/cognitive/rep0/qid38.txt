@@ -1,0 +1,60 @@
+### Student 1 [ability: below_basic]
+"Okay, fractions. I hate these. Top plus top, bottom plus bottom. That’s how you do it, right? So $3 + 4$ is $7$. And then $2x + x$... wait, is that $3x$ or $2x^2$? Usually you just add them, so $2 + 1 = 3$. So $7$ over $3x$. Yeah, that’s option B. Looks right."
+**Final Answer: B**
+
+### Student 2 [ability: basic]
+"Adding fractions means I need a common denominator. One is $2x$ and one is $x$. I can make them the same if I multiply the $x$ by $2$. So if I do that to the bottom, I have to do it to the top. So $4$ becomes $8$. Now I have $3/2x + 8/2x$. Now I add the tops... $3 + 8 = 11$. Do I add the bottoms too? $2x + 2x = 4x$? No, the bottom stays the same in fractions. So $11/2x$. That's A."
+**Final Answer: A**
+
+### Student 3 [ability: proficient]
+"To add $\frac{3}{2x}$ and $\frac{4}{x}$, I need a least common multiple for the denominators. The LCM of $2x$ and $x$ is $2x$. The first fraction already has it. For the second fraction, I multiply the numerator and denominator by $2$. That gives me $\frac{4 \times 2}{x \times 2}$, which is $\frac{8}{2x}$. Now, $\frac{3}{2x} + \frac{8}{2x} = \frac{11}{2x}$. It can't be simplified further because $11$ is prime."
+**Final Answer: A**
+
+### Student 4 [ability: basic]
+"Okay, $3$ over $2x$ plus $4$ over $x$. I’ll just cross-multiply because that’s what my tutor said. $3 \times x = 3x$. $4 \times 2x = 8x$. Add those: $11x$. Then multiply the bottoms: $2x \times x = 2x^2$. So it's $11x / 2x^2$. Oh, I can cancel an $x$ from the top and bottom. That leaves $11 / 2x$. Okay, cool, that’s A."
+**Final Answer: A**
+
+### Student 5 [ability: below_basic]
+"The numbers on top are $3$ and $4$. $3 + 4 = 7$. The bottom has $2x$ and $x$. Is that $2x$? No, maybe I just pick the biggest one? Or maybe I add the $3$ and $4$ and keep the $2x$? $\frac{7}{2x}$ is an option. That looks cleaner than the others. Let’s go with D."
+**Final Answer: D**
+
+### Student 6 [ability: advanced]
+"Expression: $\frac{3}{2x} + \frac{4}{x}$. 
+Common denominator is $2x$. 
+$\frac{3}{2x} + \frac{4(2)}{x(2)} = \frac{3}{2x} + \frac{8}{2x}$.
+Summing the numerators gives $11$, denominator remains $2x$. 
+Result is $\frac{11}{2x}$. 
+Quick check: if $x=1$, $3/2 + 4 = 5.5$. $11/2 = 5.5$. Correct."
+**Final Answer: A**
+
+### Student 7 [ability: basic]
+"I need the bottoms to be the same. I'll just multiply the first one by $x$ and the second one by $2x$. 
+Top becomes $3x + 8x = 11x$. 
+Bottom becomes $2x$ times $x$ which is... $2x$. Wait, no, $2x^2$. 
+So $11x / 2x^2$. 
+I don't see that answer. Let me look at the choices. A has $11$ and $2x$. Maybe the $x$ just disappears? I'll guess A because the $11$ matches my $11x$."
+**Final Answer: A**
+
+### Student 8 [ability: proficient]
+"The denominators are $2x$ and $x$. To add them, they must be the same. I'll convert $\frac{4}{x}$ to $\frac{8}{2x}$ by multiplying by $2/2$. 
+Then $\frac{3}{2x} + \frac{8}{2x} = \frac{11}{2x}$. 
+I should check if I can simplify... no, $11$ doesn't divide by $2$ or $x$. Choice A."
+**Final Answer: A**
+
+### Student 9 [ability: below_basic]
+"$\frac{3}{2x} + \frac{4}{x}$... if I ignore the $x$, it's $3/2 + 4$. $4$ is the same as $8/2$. So $3/2 + 8/2 = 11/2$. Now I put the $x$ back. Where does it go? Maybe it's $11/x$ because the $x$ was on the bottom of both? C looks like a good guess. Or is it $11/2x$? A or C... let's go with C, it looks simpler."
+**Final Answer: C**
+
+### Student 10 [ability: basic]
+"The common denominator is $2x$. 
+Fraction 1: $\frac{3}{2x}$
+Fraction 2: $\frac{4}{x} \times \frac{2}{2} = \frac{6}{2x}$... wait, $4 \times 2$ is $8$. 
+So $\frac{3}{2x} + \frac{8}{2x}$. 
+$3 + 8 = 11$. 
+Denominator is $2x$. 
+Answer is $\frac{11}{2x}$."
+**Final Answer: A**
+
+***
+
+**ANSWER_COUNTS: A=6 B=1 C=1 D=2**

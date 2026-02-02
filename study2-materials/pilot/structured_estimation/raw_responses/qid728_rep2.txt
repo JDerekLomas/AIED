@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing this order-of-operations item. The question asks students to place brackets in 16-6+4÷2 so the result is 7.
+
+Let me check each answer:
+- A: 16-(6+4)÷2 = 16-5 = 11
+- B: (16-6)+4÷2 = 10+2 = 12. Note: this is the same as the default BODMAS reading since subtraction and the bracket around 16-6 don't change the division priority.
+- C: 16-6+(4÷2) = 16-6+2 = 12. This is actually identical to the standard BODMAS evaluation. The brackets are redundant here.
+- D: (16-6+4)÷2 = 14÷2 = 7. Correct.
+
+Interesting observation: options B and C both give 12, which is the correct BODMAS evaluation of the original expression. This means students who understand BODMAS might initially be confused -- they know the "normal" answer is 12 and need to find which rearrangement gives 7. Option C is a particularly clever distractor because a student might think "I need to make sure division happens first" and put brackets around 4÷2, not realizing that doesn't change anything.
+
+The misconception of left-to-right processing is strongly tested. A student who processes left-to-right would calculate 16-6+4÷2 as ((16-6)+4)÷2 = 7, which matches option D. So ironically, the student with the misconception might recognize that D "just makes explicit what I already do" -- but they'd need to understand brackets to formalize it.
+
+This is a nuanced item. It requires understanding both how brackets work AND order of operations. The cognitive load is significant because students must evaluate 4 different expressions.
+
+Compared to the calibration set, I'd estimate this is moderate difficulty. The same-misconception calibration item was easy (0.134), but this format is more demanding. I'll estimate around 0.35-0.40 classical difficulty, roughly comparable to the factorising item but not as hard as the inequality.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

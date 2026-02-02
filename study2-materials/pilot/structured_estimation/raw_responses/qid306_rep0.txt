@@ -1,0 +1,44 @@
+<chain_of_thought>
+This item tests whether students understand order of operations (BIDMAS/BODMAS). The question presents two problems and asks which calculation should be done first in each.
+
+Problem P: 4 - 5 + 6. Since subtraction and addition have equal priority, we work left to right, so 4 - 5 is done first.
+
+Problem Q: 4 + 5 x 6. Multiplication has higher priority than addition, so 5 x 6 is done first.
+
+The correct answer is B: Problem P: 4-5, Problem Q: 5x6.
+
+Looking at distractors:
+- A says do 4+5 first in Q (left-to-right error) -- this is the target misconception
+- C says do 5+6 first in P (right-to-left for equal priority) and 4+5 first in Q (left-to-right ignoring BIDMAS)
+- D says do 5+6 first in P and 5x6 first in Q -- gets Q right but P wrong
+
+The misconception tested is "carries out operations from left to right regardless of priority order." Option A is the classic left-to-right trap for Q, but gets P correct (since left-to-right is actually correct for P). This makes A a very plausible distractor.
+
+Calibrating against the examples: The BIDMAS item in calibration (0.4 - 1/5 x 3) had classical difficulty 0.134 and IRT difficulty -0.245. That item required computation with fractions/decimals. This item only asks about order, not computation, making it conceptually simpler but the two-problem structure adds cognitive load. The misconception about order of operations is very common among younger students.
+
+This item is somewhat easier because students don't need to compute -- just identify which operation comes first. However, the two-problem structure and the subtlety that left-to-right IS correct for equal-priority operations in P could confuse some students. I'd estimate moderate difficulty, perhaps slightly below the calibration BIDMAS item.
+
+I estimate classical difficulty around 0.25-0.35, moderate discrimination since BIDMAS knowledge clearly separates students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

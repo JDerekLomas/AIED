@@ -1,0 +1,46 @@
+<chain_of_thought>
+Analyzing F = r * omega^2, rearrange for omega.
+
+Step 1: Divide both sides by r -> omega^2 = F/r
+Step 2: Square root both sides -> omega = sqrt(F/r)
+
+Answer is B.
+
+Let me consider what makes this item difficult. The key challenges are:
+1. Students must recognize that r is multiplied by omega^2, so the inverse is division.
+2. Students must then recognize that the inverse of squaring is square rooting.
+3. The use of Greek letter omega and literal coefficients (no numbers) increases abstraction significantly.
+
+Looking at the distractors more carefully:
+- A (omega = rF^2): Very implausible for any student with basic algebra skills. This would only attract random guessers.
+- C (omega = sqrt(rF)): This is the key misconception distractor. A student might multiply both sides by r (same operation) or simply fail to properly divide.
+- D (omega = sqrt(F)/r): This is actually quite subtle — the student correctly identifies the need to square root but incorrectly handles the division. They might divide by r instead of dividing under the radical. This is a reasonable error.
+
+Comparing with calibration set: The inequality item (b=0.808, classical=0.569) is the hardest calibration example. This rearranging item involves similar multi-step reasoning but with the added complexity of a squared term and no numerical values. I think it's slightly harder than the factorising item but comparable to the inequality.
+
+One key difference from the calibration items is that this is a "change of subject" problem rather than a "solve for x with numbers" problem. Students often find change-of-subject harder because there are no numbers to check against.
+
+I'll estimate classical difficulty around 0.50, IRT b around 0.50. Discrimination moderate at ~1.15 because option A is weak. Guessing around 0.12.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

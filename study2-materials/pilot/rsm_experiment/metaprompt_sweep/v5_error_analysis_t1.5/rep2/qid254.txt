@@ -1,0 +1,18 @@
+Having marked 200 of these scripts, I can tell you that this question is a "wolf in sheep's clothing." While it looks simple, it tests two distinct misconceptions: the role of zero in a data set and the priority of operations (BIDMAS).
+
+**The Calculation Errors:**
+*   **Option A (The correct answer):** This accounts for the 0 in the denominator ($n=5$) but excludes it from the sum in the numerator because $0$ doesn't change the total. Students often doubt themselves here, thinking the $0$ *must* be physically written in the addition to be "correct."
+*   **Option B (The BIDMAS trap):** Many students understand "add them all then divide by 5," but they fail to recognise that without brackets, this calculation would only divide the $7$ by $5$.
+*   **Option C (The "Ignore Zero" trap):** This is the most common error for students who think that a value of zero means the data point doesn't count towards the total number of items ($n=4$).
+*   **Option D (The Over-thinker):** Often chosen by students who believe the $0$ *must* be in the numerator (like $\frac{0+1+3+4+7}{5}$) and, since it isn't explicitly there in A, they assume all options are wrong.
+
+**The Breakdown:**
+*   **Below Basic:** Often go for C (ignoring zero entirely) or B (writing it out as they would say it aloud).
+*   **Basic:** The majority fall for C. They remember "divide by how many numbers there are" but visually only count four non-zero digits.
+*   **Proficient:** These students usually navigate the $n=5$ requirement correctly. The battle is between A and D. 
+*   **Advanced:** Usually identify A quickly, recognising that $\sum x$ is the same whether $0$ is written or not.
+
+below_basic: A=15% B=35% C=45% D=5%
+basic: A=30% B=20% C=45% D=5%
+proficient: A=65% B=10% C=15% D=10%
+advanced: A=92% B=2% C=2% D=4%

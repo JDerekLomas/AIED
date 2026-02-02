@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item tests understanding of order of operations (BODMAS/BIDMAS) by asking students to compare two expressions that differ only in whether parentheses are present.
+
+Computing each side:
+- Left: 8 + 12 ÷ 4 = 8 + 3 = 11 (division before addition)
+- Right: (8 + 12) ÷ 4 = 20 ÷ 4 = 5 (parentheses force addition first)
+
+Therefore 11 > 5, so answer A is correct.
+
+The key misconception: students who process left-to-right would compute the left as 8+12=20, then 20÷4=5, matching the right side, and select C (=). This is a very prevalent error, especially at KS3 level.
+
+Comparing to the calibration item testing order of operations (0.4 - 1/5 × 3), that had difficulty 0.134. But that item used fractions and decimals together, which is actually a different kind of challenge. This current item uses only whole numbers but requires comparing two expressions, which is a slightly different cognitive task — more about conceptual understanding of why BODMAS matters rather than just computing a single answer.
+
+The format with the box/square for the comparison symbol is fairly standard in UK maths assessments. The presence of ≥ as option D is interesting — it's technically true (11 ≥ 5) but students are expected to choose the most specific symbol. This could cause some confusion among stronger students who overthink it, though most would choose >.
+
+I think the left-to-right misconception is so strong that a fair proportion of students will select C. I'd place this around 0.30-0.35 classical difficulty. The discrimination should be solid because it cleanly tests one concept.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

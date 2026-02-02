@@ -1,0 +1,29 @@
+## Step 1: Understand the question
+The question asks students to determine after how many miles Company P becomes more expensive than Company Q, based on a graph showing the cost of journeys from two taxi companies.
+
+## 2: Analyze the graph
+The graph shows two lines: one for Company P, which starts at (0,0) and goes through (5,20), and one for Company Q, which starts at (0,10) and also goes through (5,20). This implies that Company P's cost increases linearly from 0 to 20 pounds over 5 miles, and Company Q's cost increases linearly from 10 to 20 pounds over the same 5 miles.
+
+## 3: Determine the equations of the lines
+For Company P, the line goes through (0,0) and (5,20), so its equation can be found using \(y = mx + b\), where \(m\) is the slope and \(b\) is the y-intercept. For Company P, \(b = 0\) and \(m = 20 / 5 = 4\), so the equation is \(y = 4x\). For Company Q, the line goes through (0,10) and (5,20), so \(b = 10\) and \(m = (20 - 10) / 5 = 2\), thus the equation is \(y = 2x + 10\).
+
+## 4: Find where Company P is more expensive than Company Q
+To find where Company P is more expensive than Company Q, we set \(4x > 2x + 10\) and solve for \(x\). Subtracting \(2x\) from both sides gives \(2x > 10\), and dividing by 2 gives \(x > 5\).
+
+## 5: Interpret the solution
+This means Company P is more expensive than Company Q after 5 miles. The question essentially asks for the point at which Company P's line crosses above Company Q's line, which is exactly at \(x = 5\) miles, but since the question is about after how many miles Company P is more expensive, the correct interpretation is that it's after 5 miles.
+
+## 6: Evaluate answer choices
+Given the solution, the correct answer is that Company P is more expensive than Company Q after 5 miles. This matches option C: \(5\).
+
+## 7: Predict student responses based on ability levels
+- **Below_basic:** Students at this level might struggle with reading the graph or understanding the concept of linear equations. They might incorrectly assume Company P is cheaper at all distances or not understand the concept of "after how many miles." Expect a high likelihood of choosing incorrect options. \(A=30\% B=20\% C=20\% D=30\%\)
+- **Basic:** Students here have a foundational understanding but might make simple arithmetic mistakes or misinterpret the graph. They might recognize the need to compare costs but struggle with the exact calculation. \(A=10\% B=10\% C=60\% D=20\%\)
+- **Proficient:** These students understand linear relationships and can interpret graphs. They are likely to solve the problem correctly or make minor calculation errors. \(A=5\% B=5\% C=80\% D=10\%\)
+- **Advanced:** Students at this level are confident in their understanding of linear equations and graph interpretation. They are likely to solve the problem quickly and accurately. \(A=0\% B=0\% C=90\% D=10\%\)
+
+The final answer is: 
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=10% B=10% C=60% D=20%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=0% B=0% C=90% D=10%

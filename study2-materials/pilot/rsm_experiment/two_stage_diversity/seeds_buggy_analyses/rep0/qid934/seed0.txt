@@ -1,0 +1,31 @@
+In this context, the student is being asked to find the $y$-intercept of a linear equation given in the implicit form $ax + by = c$.
+
+### 1. The specific misconception: "Coefficient-as-Solution" (Specifically, the $4+x+2+y$ Summation Bug)
+
+The student treats the algebraic equation not as a set of conditional operations, but as a "bin" of numbers. When faced with $4x + 2y = 10$, a common Year 9 misconception is to ignore the implicit multiplication between coefficients and variables and instead treat the coefficients as standalone constants that must be added to $x$ and $y$ to reach the total.
+
+### 2. Step-by-step student work
+A student with this misconception would process the column where $x = 0$ as follows:
+
+1.  **Identify the numbers:** The student sees the numbers $4, 0$ (from the table), $2, y,$ and $10$.
+2.  **Apply additive logic:** Instead of substituting $x=0$ to get $4(0)$, they "insert" the value of $x$ into the expression: $4 + 0 + 2 + y = 10$.
+3.  **Simplify constants:** They add the visible digits: $4 + 0 + 2 = 6$.
+4.  **Solve for the missing piece:** They ask, "What do I add to $6$ to get $10$?"
+5.  **Conclusion:** $6 + 4 = 10$. However, since $y$ is sitting next to the $2$, they often divide the remaining "gap" by the coefficient or simply look for the value that "completes" the sum.
+6.  **The specific "Star" value:** Alternatively, and more commonly for Option C, the student ignores the $4x$ entirely because $x=0$. They look at the remaining part of the equation: $2y = 10$. Instead of dividing by 2, they interpret "two $y$s make 10" or "2 plus what equals 10," or more simply, they confuse the coefficient $2$ with the variable and think the answer is half of 10 or related to the constant 5.
+
+**The most direct "Bug" for Option C:**
+1. Substitute $x=0$ correctly to get $4(0) + 2y = 10$.
+2. Realize $0 + 2y = 10$.
+3. **The "Inverse Operation Confusion"**: Instead of dividing 10 by 2, the student sees the numbers $10, 2,$ and $y$ and assumes $y$ is the **result of $10 \div 2$ because they have seen $y$ isolated in $y = mx + c$ forms so often.**
+4. They calculate $10 \div 2 = 5$.
+
+### 3. Answer Option
+This misconception leads to **Option C (5)**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and often feels "correct" to a Year 9 student for two reasons:
+*   **The "Half" Intuition:** Students often associate the number $2$ with "halving." When they see $2y = 10$, the mental shortcut to 5 is much faster than the formal algebraic process of dividing both sides.
+*   **Intercept Confusion:** Many students are taught that the $y$-intercept is "the number at the end" of an equation (from $y = mx + c$). When the equation is rearranged or written in the form $4x + 2y = 10$, they desperately want one of the visible numbers or a simple factor of the constant ($10$) to be the answer.
+
+The student would **not realize they went wrong.** In their mind, $x=0$ means "the $x$ part disappears," and $y$ must simply be whatever makes the rest of the equation "true" in the simplest way possible ($10 \div 2$). They would likely feel confident because $5$ is an integer and a clean factor of $10$.

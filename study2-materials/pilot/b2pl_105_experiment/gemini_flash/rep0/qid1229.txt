@@ -1,0 +1,13 @@
+This question is a classic "order of operations" trap that specifically targets how a calculator processes negative signs versus subtraction. 
+
+In standard mathematical notation (and thus scientific calculator logic), the exponent takes precedence over the unary minus. Therefore, $-6^2$ is interpreted as $-(6^2) = -36$. Many students, however, instinctively think of this as $(-6) \times (-6) = 36$.
+
+**Analysis of student performance:**
+*   **Below Basic:** These students often struggle with indices altogether, sometimes multiplying the base by the power ($6 \times 2 = 12$) or ignoring the sign entirely.
+*   **Basic/Proficient:** This is where the error peaks. These students know that "a minus times a minus is a plus," and they assume the calculator will square the entire number -6. They feel confident that 36 is the correct mathematical answer and therefore what the calculator would show.
+*   **Advanced:** These students have likely been "burned" by this specific calculator quirk before (often when substituting values into formulas like the quadratic formula) and know that the calculator requires brackets to produce $+36$.
+
+below_basic: A=20% B=20% C=45% D=15%
+basic: A=5% B=5% C=65% D=25%
+proficient: A=2% B=2% C=50% D=46%
+advanced: A=0% B=0% C=15% D=85%

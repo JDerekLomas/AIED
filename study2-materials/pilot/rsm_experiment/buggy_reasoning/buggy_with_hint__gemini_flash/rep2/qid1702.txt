@@ -1,0 +1,45 @@
+As a specialist in diagnostic assessment, I have analysed this problem which tests both substitution and the manipulation of linear equations.
+
+The correct value for the star ($\bigstar$) is found by substituting $y = 0.5$ into $10x - 6y = 30$:
+$10x - 6(0.5) = 30$
+$10x - 3 = 30$
+$10x = 33 \rightarrow x = \mathbf{3.3}$ (Option C)
+
+---
+
+### 1. Analysis of Wrong Answer Options
+
+#### **Option A: 4.25**
+*   **Buggy Reasoning:** The student performs a "sign flip" error or an incorrect rearrangement. They correctly calculate $6 \times 0.5 = 3$, but they see $-6y$ and decide they must **add** $6 \times 0.5$ and then **add** another $10$ (treating $10x$ as $+10$ to be moved) or, more likely, they add the $3$ to the $30$ twice by mistake in their head, or perform $30 + 3 + 10$ then divide by a misremembered number.
+*   **Most likely path:** $10x - 3 = 30 \rightarrow 10x = 33$. Student then divides by $10$, but does $33 \div 8$ or $33 + 10$ and confuses digits. Another common path is treating the equation as $8x = 34$ or similar through messy combining of coefficients.
+
+#### **Option B: -4.25**
+*   **Buggy Reasoning:** This is the "Negative Result Bias." The student follows a similar path to Option A but struggles with the directed numbers involved in moving terms across the equals sign. They might reach $10x = -33$ through an incorrect subtraction of $30 - 3$ while also losing a sign. Alternatively, they perform $10x = 3 - 30$, leading to $x = -2.7$, and then make a calculation error trying to "correct" it to a more complex decimal.
+
+#### **Option D: 2.7 (The "Same Operation" Misconception)**
+*   **Buggy Reasoning:** "When solving an equation, uses the same operation rather than the inverse." 
+*   **Path:** $10x - 3 = 30$. Instead of adding 3 (the inverse of $-3$), the student subtracts 3 (keeping the same operation as the sign in the equation).
+*   $10x = 30 - 3 \rightarrow 10x = 27$.
+*   $x = 27 \div 10 = 2.7$.
+
+---
+
+### 2. Attractiveness of Distractors
+
+*   **Option D (High Attractiveness):** This is the most dangerous distractor. The student has done 90% of the work correctly (substitution and multiplication) but falls at the "inverse operation" hurdle. This feels very "reasonable" to a struggling student because $30 - 3$ results in $27$, a "cleaner" looking number than $33$. It is likely the most common error for students working at a Grade 3-4 (Foundation GCSE) level.
+*   **Option A (Moderate Attractiveness):** This often attracts students who "over-process" the equation. They move things around and lose track of whether they are adding or subtracting. It looks like a "mathsy" answer due to the $.25$, which some students subconsciously prefer over $.3$.
+*   **Option B (Low Attractiveness):** Only attractive to students with significant weakness in negative number operations. Usually, once a student reaches $x = -2.7$, the lack of that option on the board might make them panic-pick B because it shares the same digits as an "adjustment" they tried to make.
+
+---
+
+### 3. Predicted Response Distribution
+
+| Level | A (4.25) | B (-4.25) | C (3.3) - **CORRECT** | D (2.7) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 25% | 20% | 15% | 40% |
+| **Basic** | 15% | 10% | 35% | 40% |
+| **Proficient** | 5% | 5% | 75% | 15% |
+| **Advanced** | 2% | 1% | 95% | 2% |
+
+**Commentary:** 
+At the **Basic** level (equivalent to a mid-tier Foundation student), Option D will often outperform the correct answer. These students understand the *process* of substitution but lack the *fluency* in algebraic manipulation. As they move to **Proficient**, they have mastered the "inverse operation" rule, and their errors become more about simple arithmetic slips, which are less systematic.

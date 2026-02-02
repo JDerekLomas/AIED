@@ -1,0 +1,37 @@
+<chain_of_thought>
+The target item asks students to evaluate 4 + 12 / (2+2). The correct approach requires understanding order of operations (BIDMAS/BODMAS): first evaluate the brackets (2+2=4), then division (12/4=3), then addition (4+3=7). The correct answer is B (7).
+
+Let me analyze the distractors:
+- A (10): This comes from ignoring brackets but respecting division: 4 + 12/2 + 2 = 4+6+2 = 12... no. Or possibly (4+12)/(2+2) = 16/4 = 4... no. Actually 10 might come from: 4+12 = 16, 16/(2+2) = 16/4 = 4... no. Let me think again. 10 could be: doing 12/(2+2)=3, then 4+3=7... no that's correct. Maybe 10 = 4+12/2 + 2... nah. Actually the misconception tested is left-to-right: 4+12=16, 16/2=8, 8+2=10. That's distractor A, which directly tests the stated misconception.
+- B (7): Correct.
+- C (12): Could come from 4+12=16, 16/(2+2)=16/4=4... no. Or 12/2=6, 6+2=8... no. Perhaps 4+12/(2) + 2 = 4+6+2 = 12. That's ignoring one bracket component.
+- D (4): Could come from (4+12)/(2+2) = 16/4 = 4. Treating the whole expression as one fraction.
+
+Comparing to the calibration example with a similar misconception (item 2: 0.4 - 1/5 x 3), that had classical difficulty 0.134 and IRT b = -0.245. That item involved decimals and fractions which adds complexity but the order of operations concept is similar. This target item uses only whole numbers and has explicit brackets, making it somewhat more transparent. However, the left-to-right misconception is very common among younger students.
+
+The brackets here are explicit, which should help students recognize they need to evaluate them first. The numbers are simple. I'd estimate this is relatively easy but not trivial - the left-to-right pull is strong. I'd place classical difficulty around 0.15-0.25, somewhat similar to the calibration BIDMAS item but perhaps slightly harder since division inside brackets with addition outside can be confusing.
+
+IRT difficulty: around -0.3 to 0.0. Discrimination should be moderate to good since order of operations is a clear skill boundary. Guessing should be low since students typically have a systematic approach (right or wrong).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.18</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

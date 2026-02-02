@@ -1,0 +1,44 @@
+<chain_of_thought>
+Analyzing this order-of-operations comparison item.
+
+The student must evaluate both sides of the comparison:
+Left expression: 8 + 12 ÷ 4. By BIDMAS, division first: 12 ÷ 4 = 3, then 8 + 3 = 11.
+Right expression: (8 + 12) ÷ 4. Brackets first: 20 ÷ 4 = 5.
+So 11 > 5, answer is A.
+
+Error analysis for each distractor:
+- A (>) — correct
+- B (<) — would require computing left < right, perhaps a student who correctly applies BODMAS on the right but makes an arithmetic error on the left? Unlikely to be commonly chosen.
+- C (=) — the classic left-to-right error. Student ignores priority, computes both as 5. This will be the most popular wrong answer by far.
+- D (≥) — technically also true, but this is a non-standard choice. Some students might pick this if they correctly compute 11 and 5 but are uncertain. However, in typical UK maths convention, > is the expected answer. A small number might be drawn to this.
+
+The presence of D as a "technically correct but not the intended answer" option is somewhat unusual. It could reduce the discrimination slightly, as some knowledgeable students might select D instead of A.
+
+Regarding difficulty: the numbers are simple (all whole numbers, small values), and the format — while requiring evaluation of two expressions — is fairly standard for KS3 assessments. The misconception of left-to-right processing is one of the most common in primary/early secondary mathematics. I expect roughly 20-25% of students to get this wrong, primarily choosing C.
+
+This is slightly easier than the factorising item (0.473 difficulty) and the inequality item (0.569), but potentially harder than the simple equation item (0.167) because order of operations is conceptually trickier than inverse operations for many students.
+
+I'll estimate classical difficulty around 0.22, IRT difficulty around -0.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

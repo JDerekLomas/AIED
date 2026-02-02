@@ -1,0 +1,48 @@
+<chain_of_thought>
+Target: Find the gradient of 4x + 3y = 5. Answer: C (-4/3).
+
+Let me think about this from a student perspective. A Year 10 or 11 student encounters this in a GCSE-style assessment. They need to recall that to find the gradient, they should get the equation into y = mx + c form.
+
+Step 1: 3y = 5 - 4x (subtract 4x -- or equivalently, 3y = -4x + 5)
+Step 2: y = (-4x + 5)/3 = (-4/3)x + 5/3
+Step 3: Read off gradient = -4/3
+
+Common errors:
+- Choosing D (4/3): Moved 4x without changing sign. This is exactly the tested misconception.
+- Choosing A (-4): Changed sign correctly but forgot to divide by 3.
+- Choosing B (4): Read the coefficient of x directly from the original equation without rearranging.
+
+Now for calibration. I want to compare this to the anchor items carefully.
+
+The simplest anchor (-5 = p + 10, difficulty 0.167, b = -0.702) is a one-step equation with integer answer. Most students get it right.
+
+The hardest anchor (2n + 3 <= 3n - 7, difficulty 0.569, b = 0.808) requires collecting like terms across an inequality with variables on both sides.
+
+This gradient item is conceptually rich -- it requires knowledge of gradient as a concept, equation rearrangement, and working with fractions. But procedurally it's only 2-3 steps. I think it falls between the factorising item and the inequality item in difficulty.
+
+The factorising item (difficulty 0.473, b = 0.404) required evaluating two factorisations and understanding sign rules. This gradient item requires similar depth but different skills.
+
+My estimate: classical difficulty around 0.46, b around 0.38. Discrimination should be solid -- maybe 1.35 -- since the item cleanly separates students who understand rearrangement from those who don't. Guessing should be moderate because the four options form a natural 2x2 grid (sign x division), so students with partial knowledge pick systematically.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.46</classical_difficulty>
+<irt_difficulty>0.38</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

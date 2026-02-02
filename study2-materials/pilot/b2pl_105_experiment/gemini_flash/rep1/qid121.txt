@@ -1,0 +1,14 @@
+This question is a classic "gradient of a linear equation in implicit form" problem. In the UK curriculum (GCSE), this is a significant jump in difficulty from $y = mx + c$.
+
+**Analysis of student performance:**
+*   **Below Basic:** Students at this level often associate the gradient simply with "the number in front of $x$." They ignore the $3y$ and the need to rearrange, making **A** the most popular "guess."
+*   **Basic:** These students know they need to do "something" with the $x$ term. Many will move $5x$ to the other side but forget it becomes negative, or they will divide by $3$ but lose the negative sign in the process. This leads them to **C**.
+*   **Proficient:** These students know the steps to rearrange to $y = -\frac{5}{3}x + 5$. However, many make sign errors during the subtraction of $5x$, occasionally leading them back to **C**.
+*   **Advanced:** Most should handle the two-step rearrangement ($3y = -5x + 15$ then $y = -\frac{5}{3}x + 5$) correctly. The main trap is if they work too quickly and choose the coefficient of $x$ without dividing by 3.
+
+The presence of the "15" is a distractor for those who think the gradient might be the constant, though it's less common. The negative sign is the primary separator between "Proficient" and "Advanced."
+
+below_basic: A=65% B=15% C=15% D=5%
+basic: A=25% B=15% C=45% D=15%
+proficient: A=10% B=5% C=25% D=60%
+advanced: A=2% B=3% C=5% D=90%

@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to solve a linear inequality: 3n + 2 >= 4n - 5. The correct answer is C (7 >= n).
+
+To solve: subtract 3n from both sides to get 2 >= n - 5, then add 5 to both sides to get 7 >= n. Alternatively, subtract 4n from both sides: -n + 2 >= -5, then subtract 2: -n >= -7, then divide by -1 and flip: n <= 7, equivalent to 7 >= n.
+
+The misconception tested is "uses the same operation rather than the inverse." A student making this error might add instead of subtract (or vice versa) when rearranging terms. For example, moving the +2 by adding 2 instead of subtracting, or moving the -5 by subtracting 5 instead of adding.
+
+Looking at the distractors:
+- A: -3 >= n. This could come from 3n + 2 >= 4n - 5 → subtracting 4n and subtracting 2: -n >= -7, then incorrectly dividing without flipping, but that gives n <= 7. Alternatively, a student who gets confused with signs: 2 - 5 = -3, n(4-3) = n, giving -3 >= n. This is plausible if a student subtracts constants incorrectly.
+- B: 1 >= n. Possibly from 3 - 2 = 1 or some other arithmetic error.
+- D: n >= 7. This flips the direction of the inequality, a common error when students don't track the variable side correctly.
+
+Comparing to the calibration item "2n + 3 <= 3n - 7" (classical difficulty 0.569, b = 0.808), this item is structurally very similar — same misconception, same format, same number of steps. The coefficients differ slightly (3n vs 4n instead of 2n vs 3n) but the complexity is comparable. Distractor D (n >= 7) is quite attractive because students often default to writing n on the left side of the inequality, making this potentially tricky.
+
+I'd expect this item to be of similar difficulty to the calibration item, perhaps marginally easier because the arithmetic (7) is a clean number and the steps are straightforward. I'll estimate classical difficulty around 0.52, IRT difficulty around 0.65.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.65</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

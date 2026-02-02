@@ -1,0 +1,32 @@
+As an experienced UK maths teacher, I see this question as a classic test of **order of operations** (BIDMAS/BODMAS). It specifically targets the common misconception that expressions should be read strictly from left to right, ignoring the priority of division over addition.
+
+### Step 1 — Reasoning for each option
+
+*   **A) $>$ (Correct Reasoning):**
+    *   Left side: $8 + (12 \div 4) = 8 + 3 = 11$.
+    *   Right side: $(8 + 12) \div 4 = 20 \div 4 = 5$.
+    *   Since $11 > 5$, this is the correct answer. It requires correctly applying division before addition on the left, and brackets first on the right.
+*   **B) $<$ (Incorrect Reasoning):**
+    *   Student incorrectly calculates the left side as $(8 + 12) \div 4 = 5$ (moving left to right) but perhaps makes a calculation error on the right or gets confused by the structure, assuming the side with the brackets *must* be larger because brackets "add value."
+*   **C) $=$ (Common Misconception):**
+    *   The student assumes that the presence or absence of brackets doesn't change the result. They likely calculate $(8 + 12) \div 4$ on both sides, effectively ignoring the order of operations on the left and simply adding then dividing because that is the physical order of the numbers.
+*   **D) $\geq$ (Fundamental Misunderstanding):**
+    *   This usually indicates a guess or a student who has recently learned about inequalities but does not understand that these expressions evaluate to single, fixed integers. They may see that 11 is "greater than or equal to" 5 and think this is a "safer" or more "advanced" version of option A.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK curriculum, these levels correspond roughly to: **Below Basic** (Working below Year 6/KS2 expected standard), **Basic** (GCSE Foundation Grade 1-2), **Proficient** (GCSE Foundation Grade 4/5 or Higher Grade 4), and **Advanced** (GCSE Higher Grade 7-9).
+
+**below_basic:** A=15% B=15% C=60% D=10%
+*   *At this level, "left-to-right" is the default setting. The vast majority will see both sides as $20 \div 4$ and pick the equals sign.*
+
+**basic:** A=40% B=15% C=40% D=5%
+*   *Students here are aware of BIDMAS but often forget to apply it if the "easier" operation (addition) comes first. This results in an even split between the correct answer and the "equals" trap.*
+
+**proficient:** A=80% B=5% C=12% D=3%
+*   *Most students at this level have internalised that division comes before addition. Errors here are usually due to haste rather than a lack of knowledge.*
+
+**advanced:** A=98% B=1% C=1% D=0%
+*   *High-ability students will find this trivial. Anything other than A would be a "fat-finger" error or extreme lapse in concentration.*

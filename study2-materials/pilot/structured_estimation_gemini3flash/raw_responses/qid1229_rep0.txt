@@ -1,0 +1,32 @@
+<chain_of_thought>
+The item tests the understanding of the order of operations (BIDMAS/BODMAS) specifically regarding the unary minus and exponentiation. 
+- Concept: $-6^2$ is interpreted by calculators (and formal mathematics) as $-(6^2) = -36$.
+- Misconception: Many students believe the negative is "attached" to the 6 before squaring, leading to $(-6)^2 = 36$. Others may multiply by 2 (getting 12 or -12).
+- Comparison to calibration items: The calibration items show that items involving order of operations (like $0.4 - 1/5 \times 3$) or negative numbers often have very low classical difficulty (around 0.13 to 0.16). 
+- Distractor C (36) is extremely attractive. In fact, many adults and high-attaining students struggle with this distinction. 
+- The wording "What answer would your calculator give" is a clever way to ground the question, but it doesn't change the underlying mathematical trap.
+- Psychometric profile: This is likely to be a "hard" question in terms of proportion correct (classical difficulty) because the misconception is so prevalent, even though the procedure is short. The IRT difficulty (b) will likely be near the middle of the ability range because high-ability students are more likely to know the calculator's logic, but the high distractor attractiveness will suppress the overall success rate.
+- Guessing: With 4 choices, the guessing parameter is usually around 0.20 unless the distractors are so good that they pull people away from guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

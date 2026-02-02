@@ -1,0 +1,31 @@
+To solve this, let's analyze the addition pyramid and the arguments made by Tom and Katie.
+
+## Step 1: Understand the structure of the addition pyramid
+The pyramid has 3 rows of boxes. The bottom row has 3 boxes containing a star, \(3g\), and \(2g\). The middle row has 2 boxes (empty), and the top row has 1 box containing \(2f + 8g\).
+
+## 2: Determine the relationships between the boxes
+In an addition pyramid, each box is the sum of the two boxes directly below it. So, for the two boxes in the second row, their values must add up to \(2f + 8g\).
+
+## 3: Express the second row in terms of the star, \(g\), and \(f\)
+Let \(x\) be the value of the star. The two boxes in the second row can be represented as \(x + 3g\) and \(3g + 2g = 5g\), because they sit on top of the star and \(3g\), and on top of \(3g\) and \(2g\), respectively.
+
+## 4: Write the equation for the top box
+The top box is the sum of the two boxes below it: \((x + 3g) + 5g = 2f + 8g\).
+
+## 5: Simplify the equation
+Simplifying, we get \(x + 8g = 2f + 8g\). The \(8g\) cancels out, leaving \(x = 2f\).
+
+## 6: Evaluate Tom and Katie's claims
+Tom says the star could be \(f\), and Katie says it could be \(2f\). From our equation, \(x = 2f\), which means Katie is correct. For Tom to be correct, \(f\) would need to equal \(2f\), which implies \(f = 0\). This is a specific condition and not a general solution.
+
+## 7: Assess the difficulty and potential student responses
+- **Below Basic**: Students might not fully understand the relationships or make simple algebraic mistakes. They might not see that \(x = 2f\) directly implies Katie's answer is correct and Tom's is only correct if \(f = 0\). They might guess or not fully engage with the algebraic aspect. **A=30% B=20% C=20% D=30%**
+- **Basic**: These students understand the concept of the addition pyramid and can set up basic equations. They might see that \(x\) must equal \(2f\) but might not quickly realize the implications for Tom and Katie's statements. **A=10% B=40% C=30% D=20%**
+- **Proficient**: Students can solve the equation and understand that \(x = 2f\), making Katie correct. They might recognize Tom's suggestion only works under a specific condition. **A=5% B=45% C=40% D=10%**
+- **Advanced**: These students quickly solve the equation, understand the conditions under which Tom and Katie are correct, and recognize that Katie's statement is universally correct given the equation, while Tom's requires \(f = 0\). **A=0% B=50% C=45% D=5%**
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=10% B=40% C=30% D=20%
+proficient: A=5% B=45% C=40% D=10%
+advanced: A=0% B=50% C=45% D=5%

@@ -1,0 +1,25 @@
+Here is an analysis of a common misconception for this specific quadratic expansion.
+
+### 1. The Specific Misconception: The Negative Integer Product Bug
+The specific error is a **sign-rule confusion during the multiplication of directed numbers**. Specifically, the student incorrectly believes that a "negative times a negative equals a negative." This is often a procedural "leak" where the student confuses the rules for *adding* two negatives (which stays negative) with the rules for *multiplying* them.
+
+### 2. Step-by-Step Calculation
+A student with this misconception would typically use the FOIL (First, Outside, Inside, Last) method or a grid:
+
+*   **First:** $m \times m = m^2$ (Correct)
+*   **Outside:** $m \times (-7) = -7m$ (Correct)
+*   **Inside:** $(-5) \times m = -5m$ (Correct)
+*   **Combine middle terms:** $-7m - 5m = -12m$ (The student correctly calculates that they are becoming "more negative" through addition).
+*   **Last:** $(-5) \times (-7)$. This is where the bug occurs. The student knows $5 \times 7 = 35$, but applies the logic: *"I am multiplying a negative by a negative, so the answer must be negative."* Result: **$-35$**.
+
+Final assembly: $m^2 - 12m - 35$.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D**.
+
+### 4. How natural/attractive is this error?
+This is an **extremely high-frequency error** for Year 9 students. 
+
+The error is "sticky" because it feels mathematically intuitive to the student. They associate the negative symbol with a sense of "debt" or "taking away." In their mind, multiplying two "debts" should not result in a "positive profit." 
+
+Because the student has successfully handled the middle term ($-12m$), they often feel a false sense of confidence. If the four options are presented together, and they see $m^2 - 12m - 35$ as an option, it validates their incorrect logic. The student is highly unlikely to realize they are wrong until they are prompted to check their work using a numerical substitution (e.g., testing $m=10$), which is a verification step most Year 9 students do not perform spontaneously.

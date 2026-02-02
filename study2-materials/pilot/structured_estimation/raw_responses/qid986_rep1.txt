@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing the target item: (x-6)/2 = 10.
+
+To solve correctly: multiply both sides by 2 to get x - 6 = 20, then add 6 to get x = 26.
+
+Tom's claim: x/2 = 16. It seems Tom tried to "add 6 to both sides" to eliminate the -6 in the numerator. He got x/2 on the left (removing the -6 from x-6) and 16 on the right (10+6). The problem is that adding 6 to the left side means adding 6 to (x-6)/2, not adding 6 inside the numerator. (x-6)/2 + 6 = (x-6+12)/2 = (x+6)/2, not x/2. So Tom is wrong. His error relates to not understanding that the whole expression (x-6) is divided by 2.
+
+Katie's claim: x - 6 = 5. She divided 10 by 2 to get 5, rather than multiplying by 2. This is the classic "same operation instead of inverse" misconception. The correct step would yield x - 6 = 20.
+
+Neither is correct → answer D.
+
+This item format ("Who is correct?") with answer D being "Neither" is known to be tricky for students. Students have a bias toward thinking at least one person must be right. Additionally, evaluating two separate claims increases working memory demands.
+
+Looking at the calibration set, the factorising item (Tom and Katie format) had classical difficulty 0.473 and b = 0.404. That item required checking two factorizations. This item similarly requires checking two algebraic steps, but the fraction manipulation adds complexity and the "neither correct" answer is psychologically harder to select than "Only Tom." I estimate this item is harder.
+
+The discrimination should be moderate — strong students will catch both errors, but the two-evaluation structure means some capable students might make an error on one of the two checks. Guessing at D ("Neither") is somewhat unlikely since students tend to gravitate toward named individuals being correct.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>0.70</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

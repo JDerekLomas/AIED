@@ -1,0 +1,37 @@
+As a UK maths teacher, I see this type of question frequently in Foundation and Higher tier GCSE papers. It tests substitution, rearrangement, and basic arithmetic with directed numbers.
+
+### Step 1 — Analysis of Reasoning
+
+**A) 3.3 (Correct Reasoning)**
+The student correctly substitutes $y = 0.5$ into the equation: $10x - 6(0.5) = 30$.
+They calculate $6 \times 0.5 = 3$, leading to $10x - 3 = 30$.
+They add $3$ to both sides to get $10x = 33$.
+Finally, they divide by $10$ to get $x = 3.3$.
+
+**B) 2.7 (Sign Error in Rearranging)**
+The student substitutes correctly: $10x - 3 = 30$.
+However, they make a common error when moving the $-3$ across the equals sign, subtracting it instead of adding it: $10x = 30 - 3$, resulting in $10x = 27$ and $x = 2.7$.
+
+**C) 4.25 (Inverse Substitution / Operations Error)**
+The student likely tries to "work backwards" but uses the wrong operations or coefficients. A common path to $4.25$ is confusing the variables or signs: $30 + 10$ then dividing by $6 \dots$ or calculating $30 + 3 = 33$ but then perhaps mistakenly treating the $10x$ as $8x$ or similar messy arithmetic. Most often, this comes from $(30 + 10 \times 0.5) / 10 \approx 3.5$, but $4.25$ is a frequent "guess" for students who struggle with the decimal $0.5$ and try to divide 34 by 8.
+
+**D) -4.25 (Conceptual/Negative Error)**
+The student reaches a similar numerical value to option C but believes the answer must be negative because of the minus sign in the original equation. They are essentially guessing based on "looking like" a coordinate geometry problem where one value is negative.
+
+***
+
+### Step 2 — Predicted Distributions
+
+In the UK system, **Below Basic** corresponds to students struggling for a Grade 1-2; **Basic** to Grade 3-4 (Pass); **Proficient** to Grade 5-6; and **Advanced** to Grade 7+.
+
+**below_basic:** A=15% B=30% C=25% D=30%
+*Reasoning: High guessing rate. Many will subtract the 3 because they see a minus sign, or choose 2.7 because "30 minus something" feels intuitive.*
+
+**basic:** A=40% B=35% C=15% D=10%
+*Reasoning: Students at this level understand substitution but frequently make "transfer errors" with signs when rearranging equations ($10x - 3 = 30$ becomes $10x = 27$).*
+
+**proficient:** A=75% B=15% C=5% D=5%
+*Reasoning: Most will perform the steps correctly. Errors are usually down to rushing (2.7) rather than a lack of understanding.*
+
+**advanced:** A=96% B=3% C=1% D=0%
+*Reasoning: Grade 7-9 students rarely fail on linear substitution. The only errors here are "silly" slips in mental arithmetic.*

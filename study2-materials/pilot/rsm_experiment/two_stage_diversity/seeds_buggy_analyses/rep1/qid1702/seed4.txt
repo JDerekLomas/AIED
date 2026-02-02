@@ -1,0 +1,30 @@
+Here is the analysis of a specific misconception for this Year 9 algebra question.
+
+### 1. The Misconception: "Negative-to-Positive Rearrangement Error"
+This is a specific type of **procedural transposition error**. When solving an equation involving a negative term (in this case, $-6y$), students often "force" the equation into a positive structure or ignore the negative sign entirely when moving terms across the equals sign. They perceive the relationship between $10x$ and $6y$ as additive rather than subtractive.
+
+### 2. Step-by-Step Student Work
+A student with this misconception would follow these steps:
+
+1.  **Substitution:** They substitute $y = 0.5$ into the equation correctly:
+    $10x - 6(0.5) = 30$.
+2.  **Simplification:** They calculate $6 \times 0.5$ correctly to get $3$:
+    $10x - 3 = 30$.
+3.  **The Error (The Bug):** When moving the $-3$ to the right-hand side, the student suffers a cognitive load failure regarding the sign. Instead of performing the inverse operation (adding 3), they "detach" the $3$ from the minus sign and effectively calculate as if the equation were $10x + 3 = 30$, or they subtract $3$ from $30$ because they see the "minus" and associate it with subtraction rather than "doing the inverse."
+    *   *Calculation:* $10x = 30 - 3$
+    *   *Result:* $10x = 27$
+4.  **Final Step:** They divide by $10$ to find $x$:
+    $x = 2.7$.
+
+### 3. Which Answer Option?
+This misconception leads directly to **Option D: 2.7**.
+
+(The correct path—Option C—requires the student to realize $10x = 30 + 3$, leading to $x = 33/10 = 3.3$).
+
+### 4. How natural/attractive is this error?
+This is a highly "sticky" and attractive error for Year 9 students for several reasons:
+
+*   **Plausibility:** The result, $2.7$, looks like a "nice" and reasonable decimal. It doesn't trigger any immediate alarm bells because it isn't a complex, recurring fraction.
+*   **Sign-Blindness:** At this level, students are often taught "move it over and change the sign," but when the sign is attached to a constant term (the $-3$), their eyes often prioritize the operation they *want* to do (subtraction is often viewed as "simpler" or "forward-moving" compared to addition).
+*   **Checking the Answer:** If the student checks their work, they might substitute $2.7$ back in but repeat the same logical error: $10(2.7)$ is $27$, and $27$ and $3$ make $30$... they may overlook whether they should be adding or subtracting until the very end, confirming their bias toward the incorrect answer.
+*   **Absence of Negatives:** Many students subconsciously avoid producing larger numbers (33) when they started with 30, mistakenly feeling that "solving" should usually result in a smaller value.

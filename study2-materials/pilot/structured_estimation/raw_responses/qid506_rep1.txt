@@ -1,0 +1,38 @@
+<chain_of_thought>
+Analyzing 3p = 1/12. To solve, divide both sides by 3: p = (1/12) / 3 = 1/36. The correct answer is B.
+
+The tested misconception is applying the same operation instead of the inverse. A student making this error would multiply both sides by 3: p = 3 * (1/12) = 3/12 = 1/4, which is distractor A. This is a very natural error.
+
+Distractor C (p = 4) suggests a student who perhaps inverts the fraction to get 12, then divides by 3. Or computes 12/3. Distractor D (p = 1/9) suggests subtracting 3 from 12 in the denominator: 1/(12-3) = 1/9. This is also a plausible arithmetic confusion.
+
+Key difficulty factors:
+1. Fraction arithmetic -- dividing a fraction by a whole number is harder than dividing integers
+2. The answer 1/36 may feel unintuitive to students (denominator gets bigger)
+3. Multiple distractors map to common errors
+
+Looking at the calibration set, the basic equation -5 = p + 10 was easy (0.167). This item requires fraction skills on top of equation solving, so it should be noticeably harder. I'd compare it to the factorising item (0.473) in terms of requiring two layered skills. Perhaps slightly easier since the equation structure is simpler than factorising.
+
+I'll estimate classical difficulty around 0.38, IRT difficulty around 0.15. The discrimination should be solid -- this item separates students who understand inverse operations with fractions from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

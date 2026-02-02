@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item tests order of operations (BIDMAS/BODMAS) with the expression 8 - 7 + 10 × 3.
+
+Correct solution: First multiply 10 × 3 = 30, then compute 8 - 7 + 30 = 31. Answer B.
+
+Let me analyze the distractors:
+- A) 36: This could come from (8 - 7 + 10) × 3 = 11 × 3 = 33... no, that's 33. Or maybe 8 - 7 + 10 = 11, then some other error. Actually wait: if a student does left-to-right: 8 - 7 = 1, 1 + 10 = 11, 11 × 3 = 33. That gives D, not A. Let me reconsider A=36: perhaps 8 + (7 + 10) × ... hmm. Maybe misreading as 8 - 7 + 10 × 3 but computing 8 + (-7 + 10) × 3 = 8 + 9 = ... no. Or possibly (8 - 7 + 10) × 3 with arithmetic error giving 12 × 3 = 36. That would mean the student ignores order of operations AND miscalculates 8 - 7 + 10 as 12 instead of 11.
+- B) 31: Correct. 8 - 7 + 30 = 31.
+- C) -29: This might come from 8 - (7 + 10 × 3) = 8 - 37 = -29. A student who groups the addition with the multiplication incorrectly.
+- D) 33: Left-to-right calculation: 8 - 7 = 1, 1 + 10 = 11, 11 × 3 = 33. This is the primary misconception being tested.
+
+The misconception tested is "carries out operations from left to right regardless of priority order." Distractor D (33) directly tests this. The other distractors capture related errors.
+
+Comparing to the calibration item testing the same misconception (0.4 - 1/5 × 3): that had classical difficulty 0.134 and IRT difficulty -0.245. That item involved decimals and fractions which adds complexity, but the order of operations error there was quite similar. This item uses only whole numbers, making the arithmetic simpler, but the expression is slightly longer (three operations vs two). The misconception is very common among KS3/KS4 students.
+
+I'd estimate this item is slightly easier than the calibration BODMAS item because it uses only integers, but D is a very plausible distractor. I'll estimate classical difficulty around 0.20-0.25, indicating moderate difficulty. The discrimination should be reasonable since order of operations is a clear skill boundary.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

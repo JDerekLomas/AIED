@@ -1,0 +1,12 @@
+After marking hundreds of these, this question is a classic "Order of Operations" trap.
+
+The calculation on the left ($8 + 12 \div 4$) requires students to apply BIDMAS and divide before adding ($8 + 3 = 11$). The calculation on the right ($(8 + 12) \div 4$) forces the addition first due to brackets ($20 \div 4 = 5$). Since $11 > 5$, the correct answer is **A**.
+
+The primary trap is the "Left-to-Right" error. Students who don't apply BIDMAS to the first expression calculate $8 + 12 = 20$, then $20 \div 4 = 5$. This leads them to see $5 \square 5$ and choose **C**. This is highly "attractive" because the numbers look designed to match.
+
+Here is the predicted distribution based on Year 9 performance:
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=80% B=5% C=14% D=1%
+advanced: A=98% B=1% C=1% D=0%

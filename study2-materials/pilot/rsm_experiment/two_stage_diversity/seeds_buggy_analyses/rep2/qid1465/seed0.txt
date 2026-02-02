@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, I will focus on a pervasive error involving the hierarchy of operations (BIDMAS/BODMAS).
+
+### 1. The Specific Misconception: "Strict PEMDAS/BIDMAS Order" (specifically, the A-before-S bug)
+
+The misconception is that **Addition must always be performed before Subtraction** because the letter 'A' precedes the letter 'S' in the mnemonic BIDMAS (Brackets, Indices, Division, Multiplication, Addition, Subtraction).
+
+In reality, Addition and Subtraction have equal priority and should be performed from left to right. However, many Year 9 students view the mnemonic as a rigid six-step hierarchy rather than a four-step one.
+
+### 2. Step-by-Step Procedure
+A student with this "Addition-before-Subtraction" bug would look at $3 - 5 + 4 \times 2$ and follow these steps:
+
+1.  **Multiplication First:** They correctly identify that multiplication has higher priority than addition and subtraction.
+    *   $4 \times 2 = 8$
+    *   The expression becomes: $3 - 5 + 8$
+2.  **The Misconception (A before S):** Looking at $3 - 5 + 8$, the student ignores the left-to-right rule. Because 'A' (Addition) comes before 'S' (Subtraction) in BIDMAS, they feel compelled to add $5$ and $8$ first.
+    *   $5 + 8 = 13$
+3.  **Final Calculation:** They substitute the result of the addition back into the expression, maintaining the minus sign.
+    *   $3 - 13 = -10$
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D: -10**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and one of the most common "hidden" bugs in lower-secondary mathematics. 
+
+*   **Deceptive Clarity:** The student feels they are being a "good mathematician" by strictly following the acronym they were taught. To them, doing the subtraction first feels like "breaking the rules."
+*   **Confidence:** Because the student is actively trying to apply a rule (BIDMAS) rather than just guessing from left-to-right, they are often very confident in their answer. 
+*   **No Red Flags:** The numbers in $3 - 13$ result in a clean integer ($-10$). Because it doesn't result in a messy fraction or a seemingly "impossible" operation, the student would have no reason to suspect they have made a procedural error. They would likely move to the next question without a second thought, convinced they have successfully applied the order of operations.

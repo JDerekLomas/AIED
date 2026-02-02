@@ -1,0 +1,42 @@
+<chain_of_thought>
+Item: y=(x-8)(x-6), find y-intercept. Answer: C (0,48).
+
+Let me approach this from a student perspective. A student sees a quadratic in factored form and is asked about the y-intercept. Several things could go wrong:
+
+1. Not knowing what y-intercept means -- these students would guess or pick B (confusing with roots).
+2. Knowing to set x=0 but computing (-8)(-6) as -48 -- these students pick D.
+3. Knowing to set x=0 but adding -8+-6=-14 -- these pick A.
+4. Correctly computing (-8)(-6)=48 -- these pick C.
+
+The distribution across these errors matters for difficulty estimation. I think a substantial fraction of students DO know what y-intercept means (especially higher-ability students who've studied quadratics). Among those, the negative multiplication error is the main trap.
+
+I want to consider the population carefully. The Eedi platform draws from a wide range of UK secondary students. Many would be encountering this in Year 10-11 GCSE preparation. At that level, y-intercept is a well-taught concept. But the factored form presentation is less standard for y-intercept questions -- students are more accustomed to reading y-intercept directly from y=ax^2+bx+c form where c is the intercept.
+
+The fact that two distractors (C and D) only differ by sign means the item effectively becomes a two-choice test between "positive or negative" for students who get the magnitude right. This could inflate the guessing parameter somewhat.
+
+Looking at calibration anchors: the Tom/Katie item (same misconception) had b=0.404, classical=0.473. I think this item is slightly harder because it requires knowledge of intercepts AND negative multiplication, whereas Tom/Katie only required checking factorisation. But the procedure here is simpler.
+
+I'll estimate this as roughly comparable: classical difficulty 0.55 (a bit harder due to the combined knowledge requirements), IRT difficulty 0.55. The discrimination should be moderate-to-good since the item cleanly separates those who understand negative multiplication from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

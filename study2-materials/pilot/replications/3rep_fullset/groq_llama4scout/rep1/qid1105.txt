@@ -1,0 +1,50 @@
+To approach this question, let's first understand the common misconception related to function machines and then analyze each option given.
+
+The common misconception often involves the order of operations and how functions are composed. Students might struggle with understanding that the operations must be applied in a specific order and that changing the order can lead to different results.
+
+Let's examine each option:
+
+A: \(a \Rightarrow \times2  \Rightarrow -5\Rightarrow 2a-5\) 
+
+\(a \Rightarrow \times2  \Rightarrow -5\Rightarrow 2(a-5)\) 
+
+- The first sequence: \(a \times 2 = 2a\), then \(2a - 5\), so \(2a - 5\) is correct.
+- The second sequence: \(a \times 2 = 2a\), then \(2a - 5\), which again results in \(2a - 5\), not \(2(a-5) = 2a - 10\). So, A seems incorrect because the two expressions don't match.
+
+B: \(a \Rightarrow -5  \Rightarrow \times2\Rightarrow 2a-5\) 
+
+\(a \Rightarrow -5  \Rightarrow \times2\Rightarrow 2(a-5)\) 
+
+- The first sequence: \(a - 5\), then \((a - 5) \times 2 = 2a - 10\), not \(2a - 5\). So, B seems incorrect.
+- The second sequence: \(a - 5\), then \((a - 5) \times 2 = 2a - 10\), which matches \(2(a - 5)\). 
+
+C: \(a \Rightarrow -5 \Rightarrow \times2 \Rightarrow 2a-5\) 
+
+\(a \Rightarrow \times2  \Rightarrow -5\Rightarrow 2(a-5)\) 
+
+- The first sequence: \(a - 5\), then \(2(a - 5) = 2a - 10\), not \(2a - 5\). So, C seems incorrect.
+- The second sequence, as discussed, leads to \(2a - 10\).
+
+D: \(a \Rightarrow \times2  \Rightarrow -5\Rightarrow 2a-5\) 
+
+\(a \Rightarrow -5  \Rightarrow \times2\Rightarrow 2(a-5)\) 
+
+- The first sequence correctly results in \(2a - 5\).
+- The second sequence correctly results in \(2a - 10\) or \(2(a - 5)\).
+
+Given the explanations:
+
+- **Below Basic**: These students are likely to struggle significantly and might choose any option without much thought. However, D presents a plausible scenario where operations are straightforward and less likely to confuse: A=20% B=15% C=15% D=50%
+  
+- **Basic**: Students at this level might start to apply some logical thinking but still could be prone to errors in following sequences: A=25% B=10% C=10% D=55%
+
+- **Proficient**: These students are more likely to correctly follow the sequences and identify the correct pair: A=5% B=5% C=5% D=85%
+
+- **Advanced**: Students at this level are expected to not only understand but also quickly and accurately solve such problems: A=0% B=0% C=0% D=100%
+
+So, the predictions are:
+
+below_basic: A=20% B=15% C=15% D=50%
+basic: A=25% B=10% C=10% D=55%
+proficient: A=5% B=5% C=5% D=85%
+advanced: A=0% B=0% C=0% D=100%

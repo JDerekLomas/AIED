@@ -1,0 +1,33 @@
+Here's my analysis and prediction, drawing on my experience marking countless papers like this.
+
+**Mental Walkthrough & Analysis**
+
+*   **The Core Skill:** This question tests the addition of algebraic fractions, which requires finding a common denominator. This is a multi-step process that trips up many students.
+
+*   **Correct Method (Leading to A):**
+    1.  Identify the common denominator: The lowest common multiple of `2x` and `x` is `2x`.
+    2.  Convert the second fraction: \( \frac{4}{x} = \frac{4 \times 2}{x \times 2} = \frac{8}{2x} \).
+    3.  Add the numerators: \( \frac{3}{2x} + \frac{8}{2x} = \frac{3+8}{2x} = \frac{11}{2x} \).
+    This is **Option A**. Students who get this right have a solid grasp of the procedure.
+
+*   **Error Analysis (The Distractors):**
+
+    *   **Option B) \( \frac{7}{3 x} \):** This is the most common and "attractive" error. It comes from adding the numerators (3+4=7) and adding the denominators (2x+x=3x). This is a classic misconception where students apply whole number addition rules directly to fraction components. This will be the go-to answer for students who have no procedural knowledge of adding fractions.
+
+    *   **Option C) \( \frac{11}{x} \):** This error is more subtle. The student has correctly identified the need for a common denominator and correctly calculated the new numerator (3+8=11). However, in the final step, they have made an error with the denominator, perhaps by incorrectly simplifying `2x` to `x`, or by thinking the `x` from `2x` and the `x` from the original fraction somehow "combine" into a single `x`. It's an error made by someone who is halfway there but gets confused at the end.
+
+    *   **Option D) \( \frac{7}{2 x} \):** This is a different type of procedural mix-up. The student correctly identifies the common denominator as `2x`, but then incorrectly just adds the original numerators (3+4=7) without converting the second fraction. This student understands the *first* step (find common denominator) but misses the crucial *second* step (create equivalent fractions). This is a very common slip for students who are still learning the method and haven't fully automated it.
+
+**Student Profile Predictions**
+
+*   **Below Basic:** These students often lack foundational fraction rules. They will most likely fall for the "add the tops, add the bottoms" trap (Option B). Some may guess randomly.
+*   **Basic:** This group is trying to apply the rule but is prone to procedural errors. Many will correctly identify the denominator but fail to adjust the numerator (Option D). A significant number will still fall back to the incorrect "add everything" method of Option B when they feel unsure.
+*   **Proficient:** The majority of these students will execute the procedure correctly. However, some might make a slip under pressure, with Option D being the most likely careless mistake for this group. They know the method but can sometimes miss a step.
+*   **Advanced:** These students will find the question straightforward. They will correctly identify the common denominator, create the equivalent fraction, and add. Their error rate will be very low, and any mistakes would likely be a rare calculation slip or misreading the question, rather than a conceptual one.
+
+---
+
+below_basic: A=10% B=65% C=5% D=20%
+basic: A=25% B=40% C=10% D=25%
+proficient: A=75% B=5% C=5% D=15%
+advanced: A=95% B=0% C=2% D=3%

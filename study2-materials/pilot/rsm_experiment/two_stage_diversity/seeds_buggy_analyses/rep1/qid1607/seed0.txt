@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I identify the following issue for this Year 9 student:
+
+### 1. The Misconception: "Inverse Operation Directionality Bug" (Applying the same operation to both sides)
+The specific error in Step 2 is the **Failure to Apply Inverse Operations**. Rather than applying the inverse of $+1$ (which is $-1$) to isolate $k$, the student observes the number $+1$ on the right and mistakenly adds 1 to the other side to "move" it. They are confusing the *direction* of the movement with the *type* of operation required.
+
+### 2. Step-by-Step Walkthrough
+A student with this misconception would proceed as follows:
+*   **Initial state:** $15 = \frac{1+k}{4}$
+*   **Step 1:** They correctly identify that "divide by 4" must be undone. They multiply both sides by 4: $15 \times 4 = 60$. They arrive at $60 = 1 + k$. This step is mathematically sound.
+*   **Step 2:** They look at the expression $1 + k$. They see a positive $1$ and decide it needs to move to the left side of the equation to leave $k$ alone.
+*   **The Bug:** Instead of subtracting 1 from 60 (the inverse), they think: *"I have 60 on one side and I'm bringing the 1 over to join it."* They perform $60 + 1 = 61$. 
+*   **Conclusion:** They conclude $k = 61$.
+
+### 3. Selected Answer Option
+This misconception leads the student to choose **A) Only step 1**. 
+
+The student believes their Step 2 is correct, but since the question asks "Which steps, if any, are correct?" and $k=61$ is actually mathematically incorrect (as the check $60 - 1 = 59$ shows), the objective truth is that only Step 1 is valid. However, many students in this position choose **C** because they are confident in their "additive" logic. If the student realizes they made a calculation error, they choose A; if they are unaware of the error, they choose C.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and one of the most common "bugs" in Year 9 algebra. 
+*   **Visual cues:** The student sees $60 = 1 + k$ and "feels" the 1 and 60 should be combined. Since the 1 is positive, their brain defaults to addition rather than the formal inverse.
+*   **Self-Correction:** Students rarely realize they have gone wrong. To them, "moving" a number across the equals sign is often viewed as a physical shift rather than a balance of operations. Unless the student is explicitly taught to **"Check by Substitution"** (plugging 61 back into $\frac{1+61}{4}$ to see if it equals 15), they will remain entirely confident in the incorrect answer $k=61$.

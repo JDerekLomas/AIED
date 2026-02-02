@@ -1,0 +1,156 @@
+{
+  "gpt-4o": {
+    "metrics": {
+      "n_items": 8,
+      "n_failed_parse": 0,
+      "overall_mae": 24.2015625,
+      "overall_mae_std": 22.46117345963015,
+      "per_option_mae": {
+        "A": 25.29375,
+        "B": 17.948749999999997,
+        "C": 36.58,
+        "D": 16.98375
+      },
+      "mean_correlation": 0.1151254718861624,
+      "median_correlation": -0.11036314868079024
+    },
+    "results": [
+      {
+        "question_id": 1385,
+        "predicted": {
+          "A": 25.0,
+          "B": 10.0,
+          "C": 50.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 10.85,
+          "B": 5.76,
+          "C": 76.27,
+          "D": 7.12
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis: \\( \\frac{7}{12} \\)**\n- **Misconception/Error:** A student might incorrectly add fractions by adding the numerators and denominators separately. This error is common when students are first learning to add fractions and haven't fully grasped the concept of finding a common denominator.\n- **Plausibility:** This is a very plausible error for middle school students, especially those who are just beginning to work with fractions.\n\n**Option B analysis:",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis: \\( \\frac{7}{12} \\)**\n- **Misconception/Error:** A student might incorrectly add fractions by adding the numerators and denominators separately. This error is common when students are first learning to add fractions and haven't fully grasped the concept of finding a common denominator.\n- **Plausibility:** This is a very plausible error for middle school students, especially those who are just beginning to work with fractions.\n\n**Option B analysis: \\( \\frac{7}{14} \\)**\n- **Misconception/Error:** This error could arise from a similar misunderstanding as in Option A, where students add numerators and denominators separately. Additionally, students might simplify \\( \\frac{7}{14} \\) to \\( \\frac{1}{2} \\), thinking they have simplified the expression correctly.\n- **Plausibility:** This is somewhat plausible, but less so than Option A, since students might recognize that \\( \\frac{7}{14} \\) simplifies to \\( \\frac{1}{2} \\), which doesn't make sense in the context of the problem.\n\n**Option C analysis: \\( 2 \\)**\n- **Misconception/Error:** This is the correct answer. Students who correctly find a common denominator (12) and perform the addition will arrive at this answer. They would calculate \\( \\frac{1}{3} = \\frac{4}{12} \\), \\( \\frac{1}{4} = \\frac{3}{12} \\), \\( \\frac{2}{3} = \\frac{8}{12} \\), and \\( \\frac{3}{4} = \\frac{9}{12} \\), then add to get \\( \\frac{24}{12} = 2 \\).\n- **Plausibility:** Students who have a good understanding of adding fractions with different denominators will select this option.\n\n**Option D analysis: \\( \\frac{28}{12} \\)**\n- **Misconception/Error:** A student might correctly find the common denominator and add the fractions but forget to simplify the result. This option represents the unsimplified sum of the fractions.\n- **Plausibility:** This is a plausible error for students who understand the process but overlook the simplification step, which is a common oversight.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here is an estimated distribution of how middle school students might respond:\n\n- **A: 25%** - This option is likely to attract students who incorrectly add fractions by adding numerators and denominators separately.\n- **B: 10%** - This option is less plausible but might attract students who make a similar error as in A and simplify incorrectly.\n- **C: 50%** - This is the correct answer, and students with a solid understanding of fraction addition should choose this.\n- **D: 15%** - This option will attract students who correctly add the fractions but forget to simplify the result.\n\nThese estimates reflect common misconceptions and the typical understanding level of middle school students regarding fraction addition."
+      },
+      {
+        "question_id": 1390,
+        "predicted": {
+          "A": 60.0,
+          "B": 25.0,
+          "C": 10.0,
+          "D": 5.0
+        },
+        "actual": {
+          "A": 47.57,
+          "B": 11.65,
+          "C": 28.16,
+          "D": 12.62
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- Misconception/Error: Students who select this option likely understand the order of operations correctly. They first compute the multiplication \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\) and then add \\( \\frac{1}{3} + \\frac{1}{6} \\). To add these fractions, they find a common denominator (6), converting \\( \\frac{1}{3} \\) to \\( \\frac{2}{6} \\), and then add \\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\). This is the correct ",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- Misconception/Error: Students who select this option likely understand the order of operations correctly. They first compute the multiplication \\( \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6} \\) and then add \\( \\frac{1}{3} + \\frac{1}{6} \\). To add these fractions, they find a common denominator (6), converting \\( \\frac{1}{3} \\) to \\( \\frac{2}{6} \\), and then add \\( \\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2} \\). This is the correct process and answer.\n- Plausibility: This is the correct answer, so students who understand the order of operations and fraction addition will choose this option.\n\n**Option B analysis:**\n- Misconception/Error: Students might incorrectly add the fractions without considering the order of operations, treating the expression as \\( \\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6} \\), and then multiplying \\( \\frac{5}{6} \\times \\frac{1}{3} = \\frac{5}{18} \\).\n- Plausibility: This error is plausible as students often struggle with the order of operations, especially when fractions are involved.\n\n**Option C analysis:**\n- Misconception/Error: Students might incorrectly multiply the numerators and denominators of all fractions involved, treating the expression as \\( \\frac{1 \\times 1}{3 \\times 2 \\times 3} = \\frac{1}{18} \\), and then mistakenly simplifying it to \\( \\frac{2}{9} \\).\n- Plausibility: This is less plausible because it involves multiple errors in both order of operations and fraction multiplication.\n\n**Option D analysis:**\n- Misconception/Error: Students might incorrectly multiply all fractions together, treating the expression as \\( \\frac{1 \\times 1 \\times 1}{3 \\times 2 \\times 3} = \\frac{1}{18} \\), and then mistakenly simplifying it to \\( \\frac{1}{15} \\).\n- Plausibility: This is the least plausible as it involves significant errors in both order of operations and fraction multiplication.\n\n## Step 2: Estimate Distribution\n\nA: 60% - This is the correct answer, and a majority of students who understand the order of operations and fraction addition will select this option.\n\nB: 25% - This option reflects a common misconception with the order of operations, making it a likely choice for students who struggle with these concepts.\n\nC: 10% - This option involves multiple errors, making it less likely but still possible for students who are confused about fraction operations.\n\nD: 5% - This option is the least plausible due to significant errors in understanding both the order of operations and fraction multiplication.\n\nThese estimates reflect the likelihood of each option being chosen based on common student misconceptions and understanding levels."
+      },
+      {
+        "question_id": 1150,
+        "predicted": {
+          "A": 15.0,
+          "B": 25.0,
+          "C": 45.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 14.18,
+          "B": 10.73,
+          "C": 71.21,
+          "D": 3.88
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** A student might incorrectly manipulate the equation by thinking they need to square the entire right side, leading to \\( v = rF^2 \\). This error could stem from a misunderstanding of how to isolate variables and apply operations correctly.\n- **Plausibility:** This is a moderately plausible error for middle schoolers who are still learning how to rearrange equations and might confuse operations involving exponents and ",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** A student might incorrectly manipulate the equation by thinking they need to square the entire right side, leading to \\( v = rF^2 \\). This error could stem from a misunderstanding of how to isolate variables and apply operations correctly.\n- **Plausibility:** This is a moderately plausible error for middle schoolers who are still learning how to rearrange equations and might confuse operations involving exponents and multiplication.\n\n**Option B analysis:**\n- **Misconception/Error:** Students selecting this option might confuse the operations needed to isolate \\( v \\). They might incorrectly assume that dividing by \\( r \\) and then taking the square root of \\( F/r \\) is the correct step, without considering the proper algebraic manipulation.\n- **Plausibility:** This error is quite plausible, as students often struggle with correctly applying square roots and division in the context of rearranging formulas.\n\n**Option C analysis:**\n- **Misconception/Error:** This is the correct answer. Students who understand the steps to isolate \\( v \\) by multiplying both sides by \\( r \\) and then taking the square root will choose this option.\n- **Plausibility:** Students who have a good grasp of algebraic manipulation will find this option logical and correct.\n\n**Option D analysis:**\n- **Misconception/Error:** A student might mistakenly think that they need to multiply \\( r \\) by the square root of \\( F \\), perhaps due to a misinterpretation of how to handle the square root operation or a misunderstanding of the relationship between the variables.\n- **Plausibility:** This is a somewhat plausible error, as students might misapply the square root operation or incorrectly manipulate the equation.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here is an estimated distribution of how middle school students might respond:\n\n- **A: 15%** - This option might attract students who confuse the operations involving exponents and multiplication.\n- **B: 25%** - This is a common error due to misunderstanding the application of division and square roots, making it a likely choice for many students.\n- **C: 45%** - As the correct answer, it should attract the highest percentage of students, especially those with a better understanding of algebraic manipulation.\n- **D: 15%** - This option might attract students who misapply the square root operation, but it is less likely than option B.\n\nThese estimates sum to 100% and reflect the likelihood of each option being chosen based on common student misconceptions and understanding levels."
+      },
+      {
+        "question_id": 556,
+        "predicted": {
+          "A": 15.0,
+          "B": 10.0,
+          "C": 60.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 14.8,
+          "B": 64.57,
+          "C": 8.07,
+          "D": 12.56
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- Misconception/Error: A student might choose \\( +9 \\) if they mistakenly believe that addition is the inverse operation needed to isolate the variable. This could stem from a misunderstanding of how to \"undo\" multiplication, confusing it with addition.\n- Plausibility: This error is somewhat plausible, as students often confuse operations and may not fully grasp the concept of inverse operations. However, it's less likely than some other errors",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- Misconception/Error: A student might choose \\( +9 \\) if they mistakenly believe that addition is the inverse operation needed to isolate the variable. This could stem from a misunderstanding of how to \"undo\" multiplication, confusing it with addition.\n- Plausibility: This error is somewhat plausible, as students often confuse operations and may not fully grasp the concept of inverse operations. However, it's less likely than some other errors because students typically learn to associate multiplication with division as inverse operations.\n\n**Option B analysis:**\n- Misconception/Error: A student might select \\( \\times 9 \\) if they misunderstand the goal of isolating the variable, thinking they need to perform the same operation on both sides rather than the inverse. This could be due to a lack of understanding that multiplying by 9 would not help solve for \\( y \\).\n- Plausibility: This error is less plausible because students are usually taught that multiplying both sides by the same number will not help in isolating the variable when it's already being multiplied.\n\n**Option C analysis:**\n- Misconception/Error: This is the correct answer, as dividing both sides by 9 is the appropriate operation to isolate \\( y \\) when starting with \\( 9y \\). Students who understand the concept of inverse operations and the goal of solving for a variable should choose this option.\n- Plausibility: This is the most plausible choice for students who have a good grasp of solving linear equations and understand the relationship between multiplication and division.\n\n**Option D analysis:**\n- Misconception/Error: A student might choose \\( -9 \\) if they confuse subtraction with division as the inverse operation needed to solve the equation. This could occur if they are not clear on the distinction between operations or if they are rushing and misinterpret the operation needed.\n- Plausibility: This error is somewhat plausible, as students sometimes confuse subtraction and division, especially if they are still developing their understanding of inverse operations.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here are the estimated percentages:\n\nA: 15% - Some students may confuse addition as the inverse operation needed.\nB: 10% - Less likely, as multiplying would not isolate the variable.\nC: 60% - Most students should recognize division as the correct inverse operation.\nD: 15% - Some students might mistakenly choose subtraction due to confusion with inverse operations.\n\nThese estimates sum to 100% and reflect the likelihood of each option being chosen based on common misconceptions and the correct understanding of solving equations."
+      },
+      {
+        "question_id": 644,
+        "predicted": {
+          "A": 50.0,
+          "B": 30.0,
+          "C": 10.0,
+          "D": 10.0
+        },
+        "actual": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.15,
+          "D": 98.85
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct answer. Students who correctly apply the rule for multiplying two negative numbers will select this option. They recognize that multiplying \\(-1\\) by \\(-4\\) results in a positive product, \\(+4\\).\n- **Plausibility:** This is a fundamental rule of arithmetic that students are typically taught in middle school. Therefore, students who remember and apply this rule correctly will choose this option.\n\n**",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct answer. Students who correctly apply the rule for multiplying two negative numbers will select this option. They recognize that multiplying \\(-1\\) by \\(-4\\) results in a positive product, \\(+4\\).\n- **Plausibility:** This is a fundamental rule of arithmetic that students are typically taught in middle school. Therefore, students who remember and apply this rule correctly will choose this option.\n\n**Option B analysis:**\n- **Misconception/Error:** Students selecting this option might mistakenly believe that multiplying a negative number by another negative number results in a negative product. This is a common misconception where students confuse the rules for addition/subtraction with multiplication.\n- **Plausibility:** This error is quite plausible for middle school students who are still solidifying their understanding of operations with negative numbers.\n\n**Option C analysis:**\n- **Misconception/Error:** Students might select this option if they incorrectly add the numbers rather than multiply them, thinking \\(-1 + (-4) = -5\\), and then mistakenly change the sign to positive.\n- **Plausibility:** This error is less plausible because it involves multiple steps of incorrect reasoning, but some students might confuse operations or misapply rules.\n\n**Option D analysis:**\n- **Misconception/Error:** Students might choose this option if they add the numbers instead of multiplying, resulting in \\(-1 + (-4) = -5\\), and then mistakenly believe the operation was correct.\n- **Plausibility:** This error is plausible as students often confuse multiplication with addition, especially when dealing with negative numbers.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here is an estimated distribution of how middle school students might respond:\n\n- **A: 50%** - Many students will correctly apply the rule for multiplying negative numbers.\n- **B: 30%** - A significant portion might fall for the common misconception that the product of two negatives is negative.\n- **C: 10%** - Fewer students will make the error of adding instead of multiplying and then incorrectly adjusting the sign.\n- **D: 10%** - Some students might confuse operations and add the numbers instead of multiplying, resulting in this choice.\n\nThese estimates reflect the likelihood of each misconception and the typical understanding level of middle school students regarding operations with negative numbers."
+      },
+      {
+        "question_id": 1053,
+        "predicted": {
+          "A": 50.0,
+          "B": 25.0,
+          "C": 10.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 10.05,
+          "B": 6.08,
+          "C": 80.16,
+          "D": 3.7
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Correct Answer:** This option correctly factors the quadratic expression \\(x^2 - x - 6\\). Students who understand how to factor quadratics by finding two numbers that multiply to \\(-6\\) and add to \\(-1\\) will choose this option. \n- **Plausibility:** Students who have a solid grasp of factoring and have practiced similar problems will likely choose this option. This is the expected choice for students who understand the concept.\n\n**Option B ",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Correct Answer:** This option correctly factors the quadratic expression \\(x^2 - x - 6\\). Students who understand how to factor quadratics by finding two numbers that multiply to \\(-6\\) and add to \\(-1\\) will choose this option. \n- **Plausibility:** Students who have a solid grasp of factoring and have practiced similar problems will likely choose this option. This is the expected choice for students who understand the concept.\n\n**Option B analysis:**\n- **Misconception/Error:** A student might choose this option if they incorrectly identify the factors of \\(-6\\) as \\(-3\\) and \\(-2\\), possibly due to confusion with signs or a miscalculation.\n- **Plausibility:** This is a plausible error, as students often struggle with the correct use of signs when factoring quadratics. The error stems from a common mistake in identifying the correct pair of factors.\n\n**Option C analysis:**\n- **Misconception/Error:** Choosing this option indicates a misunderstanding of both the signs and the factor pairs. The student might be guessing or incorrectly applying the rule for factoring.\n- **Plausibility:** This is less plausible than Option B because both signs are incorrect, which suggests a more fundamental misunderstanding or a random guess.\n\n**Option D analysis:**\n- **Misconception/Error:** This option might be selected if a student correctly identifies one factor but incorrectly identifies the other. It could also result from a mix-up of signs similar to Option B.\n- **Plausibility:** This is somewhat plausible, as students might partially remember the correct factorization or make a sign error with one of the terms.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here is an estimated distribution of responses:\n\n- **A: 50%** - This option should receive the highest percentage as it is the correct answer, and students who understand the concept will choose it.\n- **B: 25%** - This is a common error due to sign confusion, making it a likely choice for students who partially understand the process.\n- **C: 10%** - This option is less likely to be chosen because it involves multiple errors, indicating a more significant misunderstanding.\n- **D: 15%** - This option might attract students who have a partial understanding or make a single sign error.\n\nThese estimates reflect the likelihood of each option being chosen based on common student misconceptions and the typical understanding of middle school students."
+      },
+      {
+        "question_id": 1615,
+        "predicted": {
+          "A": 50.0,
+          "B": 25.0,
+          "C": 15.0,
+          "D": 10.0
+        },
+        "actual": {
+          "A": 3.26,
+          "B": 19.07,
+          "C": 72.33,
+          "D": 5.35
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct representation of the problem. Students who understand how to translate the verbal description into an algebraic equation will choose this option. They correctly interpret \"take away six and then divide the result by three\" as \\((n-6)/3\\).\n- **Plausibility:** This is a plausible choice for students who have a solid grasp of translating word problems into algebraic expressions.\n\n**Option B analysis:",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct representation of the problem. Students who understand how to translate the verbal description into an algebraic equation will choose this option. They correctly interpret \"take away six and then divide the result by three\" as \\((n-6)/3\\).\n- **Plausibility:** This is a plausible choice for students who have a solid grasp of translating word problems into algebraic expressions.\n\n**Option B analysis:**\n- **Misconception/Error:** This option represents a misunderstanding of the order of operations. A student might mistakenly interpret the division as applying only to the 6, rather than to the entire expression \\(n-6\\).\n- **Plausibility:** This is a common error among middle school students who struggle with order of operations and the correct grouping of terms in expressions.\n\n**Option C analysis:**\n- **Misconception/Error:** This option suggests a misunderstanding of the problem structure, where the student incorrectly multiplies instead of dividing. A student might misinterpret the problem as needing to multiply the difference by 3 to get 21.\n- **Plausibility:** This is a plausible error for students who confuse operations or misinterpret the sequence of operations described in the problem.\n\n**Option D analysis:**\n- **Misconception/Error:** This option shows a misunderstanding of the problem's structure, where the student divides the original number by 3 first and then subtracts 6. This error might occur if a student misinterprets the sequence of operations.\n- **Plausibility:** This is less plausible than options B and C, as it requires a more significant misinterpretation of the problem's sequence.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis, here is an estimated distribution of how middle school students might respond:\n\n- **A: 50%** - Many students will correctly interpret the problem and choose the correct option.\n- **B: 25%** - A significant number of students might struggle with the order of operations and choose this option.\n- **C: 15%** - Some students might confuse the operations and choose this option.\n- **D: 10%** - Fewer students will choose this option, as it requires a more substantial misinterpretation of the problem's sequence.\n\nThese estimates reflect the likelihood of each option being chosen based on common misconceptions and the typical understanding level of middle school students."
+      },
+      {
+        "question_id": 1195,
+        "predicted": {
+          "A": 50.0,
+          "B": 15.0,
+          "C": 30.0,
+          "D": 5.0
+        },
+        "actual": {
+          "A": 11.94,
+          "B": 17.31,
+          "C": 63.73,
+          "D": 7.01
+        },
+        "reasoning": "Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct answer. Students who correctly understand the order of operations (PEMDAS/BODMAS) would first calculate \\(3^2 = 9\\) and then multiply by 2 to get 18.\n- **Plausibility:** This is highly plausible for students who have a solid grasp of the order of operations and exponents.\n\n**Option B analysis:**\n- **Misconception/Error:** Students selecting this option might incorrectly apply the order of operation",
+        "raw_response": "## Step 1: Analyze Each Option\n\n**Option A analysis:**\n- **Misconception/Error:** This is the correct answer. Students who correctly understand the order of operations (PEMDAS/BODMAS) would first calculate \\(3^2 = 9\\) and then multiply by 2 to get 18.\n- **Plausibility:** This is highly plausible for students who have a solid grasp of the order of operations and exponents.\n\n**Option B analysis:**\n- **Misconception/Error:** Students selecting this option might incorrectly apply the order of operations by multiplying first, i.e., \\(2 \\times 3 = 6\\), and then squaring the result to get \\(6^2 = 36\\). However, they might have made an arithmetic error or misremembered the steps, leading them to 12 instead of 36.\n- **Plausibility:** This error is somewhat plausible, especially if students are confused about the order of operations or make a simple arithmetic mistake.\n\n**Option C analysis:**\n- **Misconception/Error:** Students might mistakenly apply the order of operations by multiplying first and then squaring the result, i.e., \\((2 \\times 3)^2 = 6^2 = 36\\).\n- **Plausibility:** This is a common misconception among middle school students who struggle with the order of operations, making it a plausible error.\n\n**Option D analysis:**\n- **Misconception/Error:** This option might be chosen by students who add the numbers together and then subtract 1, i.e., \\(2 + 3 = 5\\) and \\(5^2 - 5 = 11\\), or they might have guessed without performing any calculations.\n- **Plausibility:** This is less plausible as it doesn't follow a common arithmetic error pattern related to the problem, and it seems more like a random guess.\n\n## Step 2: Estimate Distribution\n\nBased on the analysis above, here is an estimated distribution of how middle school students might respond:\n\n- **A: 50%** - Many students will correctly apply the order of operations and identify the correct answer.\n- **B: 15%** - Some students might make a simple arithmetic error or misapply the order of operations.\n- **C: 30%** - A significant number of students may misapply the order of operations by multiplying before squaring.\n- **D: 5%** - Few students are likely to choose this option, as it doesn't follow a common error pattern related to the problem.\n\nThese estimates reflect common misconceptions and the typical understanding of middle school students regarding order of operations and exponents."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+This question tests the order of operations (BIDMAS/BODMAS). 
+
+The complexity lies in the fact that many students intuitively want to work from left to right. On the left side, the "common sense" approach ($8+12 = 20$, then $20 \div 4 = 5$) matches the explicit structure of the right side where brackets are present. Students who do not understand that division takes priority over addition will conclude that both sides equal 5 and choose option C.
+
+**Breakdown of thought process:**
+*   **The Left Side:** $8 + (12 \div 4) = 8 + 3 = 11$.
+*   **The Right Side:** $(8 + 12) \div 4 = 20 \div 4 = 5$.
+*   **The Correct Answer:** $11 > 5$ (Option A).
+*   **The Trap:** Students often see the same numbers and operators and assume the brackets make no difference or that the left side is naturally $20 \div 4$. Option C is the primary distractor for lower-ability students. Option B is chosen by students who calculate correctly but confuse the inequality symbols.
+
+**Predicted Performance:**
+
+below_basic: A=25% B=15% C=55% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=80% B=5% C=14% D=1%
+advanced: A=96% B=2% C=2% D=0%

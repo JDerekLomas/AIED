@@ -1,0 +1,16 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and directed number arithmetic. 
+
+The primary "trap" is the common misconception that Addition must come before Subtraction (due to the letter 'A' coming before 'S' in the acronym), leading students to calculate $5+8$ or $5+4$ incorrectly. 
+
+*   **Correct path:** $3 - 5 + 8 \rightarrow -2 + 8 = 6$ (Option A).
+*   **The "Addition first" trap:** $3 - (5+8) = -10$ (Option D). This is the most common error for mid-ability students.
+*   **Left-to-right trap (ignoring multiplication):** $(3 - 5 + 4) \times 2 = 4$ (Option B).
+*   **Sign error/Addition first:** $3 - 9 = -6$ (not an option) or $3 - (5+4) \times 2 = -15$.
+*   **Incorrect grouping:** $3 - 5 = -2$, $-2 + 4 = 2$, $2 \times 2 = 4$ (Option B).
+
+The presence of the negative result in the first step (3 - 5) is a significant hurdle for lower-ability students, often driving them toward Option B where they might ignore the signs to find a "cleaner" number.
+
+below_basic: A=25% B=40% C=10% D=25%
+basic: A=45% B=20% C=5% D=30%
+proficient: A=75% B=5% C=2% D=18%
+advanced: A=95% B=1% C=0% D=4%

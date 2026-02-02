@@ -1,0 +1,31 @@
+As a UK maths teacher, I see this type of linear equation problem frequently in GCSE Foundation and Higher tiers. It tests algebraic substitution and the ability to rearrange an equation involving negatives.
+
+### Step 1 — Analysis of reasoning for each option:
+
+*   **A) 3.3 (Correct Reasoning):**
+    The student substitutes $y = 0.5$ into the equation: $10x - 6(0.5) = 30$. This simplifies to $10x - 3 = 30$. Adding 3 to both sides gives $10x = 33$, and dividing by 10 results in $x = 3.3$.
+*   **B) 2.7 (Sign Error in Rearranging):**
+    The student substitutes $y = 0.5$ correctly but makes an error when moving the term to the RHS. They calculate $10x - 3 = 30$ but then subtract 3 instead of adding it: $10x = 30 - 3$, leading to $10x = 27$ and $x = 2.7$.
+*   **C) 4.25 (Inverse Substitution / Formula Misuse):**
+    The student often confuses the roles of $x$ and $y$. They might try to solve for $y$ given $x=0.5$ or perform a calculation like $(30 + 10 \times 0.5) / 6$, resulting in $35/6$ (roughly 5.8) but more likely they calculate $(30 + 6 + 6.5) / 10$ or similar scrambled operations. Specifically, 4.25 often comes from treating the $10x - 6$ as $4x$ (ignoring the variables/operating on coefficients first): $4x = 30 \dots 30 + 3 = 33 / 4 = 8.25$. Another common route to 4.25 is $(30 + 6 \times 2) \dots$ reflecting a fundamental lack of substitution structure.
+*   **D) -4.25 (Sign Error and Substitution Error):**
+    The student likely follows the logic of Option C but treats the "$- 6y$" as needing to be subtracted from a total of zero, or gets tangled in a negative result when dividing. Usually chosen as a "guess" by students who feel the answer should be negative because there is a minus sign in the equation.
+
+---
+
+### Step 2 — Predicted distributions:
+
+In the UK system, **below_basic** equates to students targeting Grade 1-2, **basic** to Grade 3-4, **proficient** to Grade 5-6, and **advanced** to Grade 7+.
+
+| Ability Level | A (3.3) | B (2.7) | C (4.25) | D (-4.25) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 15% | 25% | 35% | 25% |
+| **Basic** | 45% | 35% | 12% | 8% |
+| **Proficient** | 85% | 10% | 3% | 2% |
+| **Advanced** | 98% | 1% | 1% | 0% |
+
+**Teacher’s Note on the Data:**
+*   **Below Basic:** These students often ignore the variables entirely and simply combine the numbers seen in the question ($30, 10, 6, 0.5$) using random operations.
+*   **Basic:** This is the most "dangerous" group for Option B. They know they have to substitute and move numbers across the equals sign, but the "change side, change sign" rule often fails them when a minus is already present.
+*   **Proficient:** Students at this level usually handle the $6 \times 0.5$ well and have mastered the inverse operation (adding 3), leading to high success.
+*   **Advanced:** Only "careless errors" (misreading 0.5 as 5) would lead to an incorrect answer here.

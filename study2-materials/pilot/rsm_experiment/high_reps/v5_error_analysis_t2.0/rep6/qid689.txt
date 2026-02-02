@@ -1,0 +1,14 @@
+In this particular Year 9 question, the primary challenge is the position of the variable $p$ in the denominator. 
+
+**Diagnostic breakdown:**
+*   **A ($p=0.5$):** This is the correct answer. To get here, the student must successfully multiply by $p$ to get $10p = 5$ and then divide by $10$.
+*   **B ($p=50$):** This is the result of "un-doing" the division by $5$ incorrectly, i.e., $10 \times 5 = 50$. It stems from a failure to recognize $p$ is the divisor.
+*   **C ($p=2$):** This is the "high-frequency error" (the trap). Students see the numbers 10 and 5 and perform $10 \div 5$. It feels intuitively right because 10 is larger than 5, and they ignore the fact that the equation is actually $5 \div p = 10$. Even "basic" ability students will choose this because it yields a "clean" integer.
+*   **D (No solutions):** A common guess for students who find the setup confusing or "backwards" and assume a larger number cannot be the result of a smaller number divided by something else (ignoring fractions).
+
+Here is the predicted distribution based on marking patterns for a typical UK Year 9 cohort:
+
+below_basic: A=10% B=40% C=40% D=10%
+basic: A=25% B=15% C=55% D=5%
+proficient: A=70% B=5% C=25% D=0%
+advanced: A=98% B=0% C=2% D=0%

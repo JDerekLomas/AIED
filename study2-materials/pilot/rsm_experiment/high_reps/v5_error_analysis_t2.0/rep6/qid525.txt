@@ -1,0 +1,11 @@
+To arrive at these predictions, I have considered the classic pitfalls of Year 9 fractional arithmetic:
+
+*   **Option D (The "Adder"):** This is the classic "below basic" trap. Students simply add the whole numbers ($2+2=4$), then add the numerators ($7+1=8$) and denominators ($10+4=14$). It requires no common denominator and feels intuitively "correct" to a struggling student.
+*   **Option A (The "Nearly There"):** These students know the process (converting to improper fractions or finding a common denominator of 20), and they correctly calculate the total as $\frac{99}{20}$. However, they fail to read the final instruction to "Leave your answer as a mixed number."
+*   **Option C (The "Denominator Destroyer"):** These students often find the correct numerators after finding a common denominator but either add the denominators ($20+20=40$) or multiply them ($10 \times 4=40$), resulting in a scale error.
+*   **Option B (The Correct Answer):** Requires the student to successfully navigate the common denominator (20), convert correctly ($4 \frac{14}{20} + 4 \frac{5}{20}$), and follow the formatting instruction.
+
+below_basic: A=10% B=15% C=25% D=50%
+basic: A=25% B=45% C=10% D=20%
+proficient: A=15% B=80% C=2% D=3%
+advanced: A=5% B=94% C=1% D=0%

@@ -1,0 +1,18 @@
+This question specifically tests the understanding of **Order of Operations (BIDMAS/BODMAS)**. 
+
+The primary trap here is for students to read left-to-right on the first expression ($8 + 12 = 20$; $20 \div 4 = 5$). If they do this, they will calculate $5 \square 5$ and choose Option C (=). Because the numbers in both expressions are identical (8, 12, 4), many lower-ability students instinctively look for equality without performing the formal calculation.
+
+**Analysis of the values:**
+Left Side: $8 + (12 \div 4) = 8 + 3 = 11$
+Right Side: $(8 + 12) \div 4 = 20 \div 4 = 5$
+Since $11 > 5$, the answer is **A**.
+
+*   **Below Basic:** Many will choose C because "it's the same numbers" or they will calculate the left side incorrectly ($20 \div 4 = 5$) and see they match.
+*   **Basic:** Some understand brackets but forget division comes before addition. They are the most likely to fall into the "C" trap.
+*   **Proficient:** Most know BIDMAS well enough to get this right, though some may rush and see the symmetry and guess C.
+*   **Advanced:** Almost all will correctly identify the operations and verify the values.
+
+below_basic: A=25% B=20% C=45% D=10%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=80% B=5% C=12% D=3%
+advanced: A=96% B=1% C=2% D=1%

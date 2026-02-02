@@ -1,0 +1,14 @@
+This question specifically tests the intersection of order of operations (BIDMAS/BODMAS) and decimal arithmetic. The presence of $3x^2$ is a classic trap: many students will multiply by 3 before squaring, or fail to place the decimal point correctly when squaring $0.3$.
+
+The calculation required is $3 \times (0.3)^2$. 
+- **Correct path:** $0.3 \times 0.3 = 0.09$, then $0.09 \times 3 = 0.27$.
+- **Error 1 (Option A):** Squaring the whole term $(3 \times 0.3)^2 \rightarrow 0.9^2 = 0.81$.
+- **Error 2 (Option D):** Correct squaring but missing a decimal place $(0.3 \times 0.3 = 0.9 \rightarrow 0.9 \times 3 = 2.7)$.
+- **Error 3 (Option C):** Multiplying $x$ and the power $2 \times 0.3 = 0.6 \rightarrow 0.6 \times 3 = 1.8$.
+
+Below basic students struggle significantly with the squaring of decimals (often thinking $0.3^2 = 0.9$) and BIDMAS. Proficient students usually handle BIDMAS well but are highly susceptible to the "one decimal place" slip in D.
+
+below_basic: A=25% B=20% C=25% D=30%
+basic: A=20% B=35% C=15% D=30%
+proficient: A=10% B=65% C=5% D=20%
+advanced: A=2% B=92% C=1% D=5%

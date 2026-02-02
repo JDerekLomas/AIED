@@ -1,0 +1,14 @@
+This order of operations (BIDMAS/BODMAS) question is a classic test of whether students apply rules mechanically or understand their underlying structure. 
+
+**Distractor Analysis:**
+*   **A (6):** The correct answer ($4 \times 2 = 8$, then $3 - 5 + 8 = 6$).
+*   **B (4):** The most common error for students who follow the acronym "AS" (Addition before Subtraction) too literally. They calculate $5 + 4 = 9$, then $3 - 9 = -6$, but then usually fail with the multiplication or calculate $3 - 5 = -2$, then $+ (4 \times 2) = 6$ but mistakenly treat the $5+4$ as a group: $3 - (5+4) \times 2$. This is rarer. Actually, the most common route to 4 is reading left-to-right but ignoring BIDMAS: $(3 - 5) + 4 = 2$, then $2 \times 2 = 4$.
+*   **C (-12):** Left-to-right error with a sign flip: $(3 - 5)$ is $-2$, $(-2 + 4)$ is $2$, then $2 \times 2$ is $4$... This is less likely to lead to -12 unless they calculate $5 + 4 = 9 \times 2 = 18$ then $3 - 18 = -15$. Actually, -12 comes from $3 - (5 + 4) \times 2 \rightarrow 3 - 9 \times 2 \rightarrow 3 - 18 = -15$, but if they do $(3-5-4) \times 2 = -6 \times 2 = -12$.
+*   **D (-10):** A common result of doing $5+4=9$ first (Addition before Subtraction misconception) and then left-to-right: $3 - 13$ or similar variants. 
+
+The biggest pitfall here isn't the multiplication (most know to do $4 \times 2$ first), it is the left-to-right nature of subtraction and addition. Many "basic" students see the plus sign and think they must add $5+4$ before subtracting from $3$.
+
+below_basic: A=25% B=40% C=15% D=20%
+basic: A=55% B=25% C=10% D=10%
+proficient: A=85% B=10% C=2% D=3%
+advanced: A=98% B=1% C=0% D=1%

@@ -1,0 +1,40 @@
+<chain_of_thought>
+Analyzing: 4 + 12 / (2+2) = ?
+
+Correct solution path: Brackets (2+2)=4, then 12/4=3, then 4+3=7. Answer B.
+
+This is a standard BIDMAS question. The presence of explicit brackets should cue students to evaluate them first. The key misconception is computing left to right: 4+12=16, 16/2=8, 8+2=10, yielding distractor A.
+
+Thinking about the student population (UK ages 11-16): BIDMAS is a fundamental KS3 topic. By KS4, most students handle this correctly. The question is quite standard - it's the kind of thing you'd see in a Year 7/8 textbook. The numbers are deliberately simple so arithmetic isn't a barrier.
+
+Comparing to calibration examples: The closest match is item 2 (order of operations with decimals/fractions). That had p_incorrect=0.134. This item is arguably easier because:
+1. All whole numbers
+2. Explicit brackets (no implicit priority reasoning needed)
+3. Standard textbook format
+
+But I should also consider that the 4 distractors spread students across different error types. Students who partially understand might still get confused. Distractor D (4) could attract students who group everything as a fraction.
+
+I think this is on the easier side. Maybe 18% get it wrong. The IRT discrimination should be decent because BIDMAS knowledge is a fairly clean skill. I'll estimate b around -0.10, slightly easier than average. Low guessing since students tend to compute something systematically.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

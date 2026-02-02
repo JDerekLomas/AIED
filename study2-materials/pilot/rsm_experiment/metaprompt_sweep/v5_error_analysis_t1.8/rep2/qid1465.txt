@@ -1,0 +1,13 @@
+To predict these percentages, I’ve analysed the common pitfalls for a typical Year 9 cohort:
+
+*   **Option A (6):** The correct answer applying BIDMAS/BODMAS correctly ($4 \times 2 = 8$, then $3 - 5 + 8 = 6$).
+*   **Option B (4):** The "Left-to-Right" error. The student ignores order of operations entirely ($3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$). This is the most common error for struggling students.
+*   **Option C (-12):** The "Addition before Subtraction" trap. Students misinterpret the 'A' coming before 'S' in BIDMAS and perform $(5+4)$ first ($3 - 9 \times 2 \rightarrow 3 - 18 = -15$) or more likely $3 - (5+4) \times 2 \rightarrow 3 - 18 = -15$, but often they lose the negative and arrive at 12 or -12 through messy mental arithmetic.
+*   **Option D (-10):** The "Execution error" where they do the multiplication first but then group the subtraction incorrectly: $3 - (5+8) = -10$.
+
+The biggest "trap" for Year 9 is reading left-to-right (Option B), as it feels more "natural" than jumping to the end of the expression.
+
+below_basic: A=20% B=55% C=15% D=10%
+basic: A=45% B=35% C=12% D=8%
+proficient: A=82% B=10% C=5% D=3%
+advanced: A=98% B=1% C=1% D=0%

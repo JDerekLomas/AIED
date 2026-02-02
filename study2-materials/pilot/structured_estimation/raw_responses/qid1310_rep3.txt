@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item asks which calculation to do first in ((0.5 / (0.2 + 0.4) - 0.3) x 0.6). Answer: B, 0.2 + 0.4, the innermost parentheses.
+
+Let me approach this from the student perspective. A Year 7 student encounters this expression. What do they see? A lot of decimals and brackets. The first challenge is simply reading the expression correctly and identifying the structure.
+
+For BIDMAS-aware students: they know brackets come first. But which brackets? There are two levels. Students who understand nesting will correctly identify (0.2 + 0.4) as the inner bracket. But some students might look at the outer bracket and think the first operation within it (reading left to right) is 0.5 / 0.2.
+
+Actually, I want to reconsider difficulty. This question only asks "which calculation first" - it's a metacognitive question about process, not about getting a numerical answer. This is actually a standard textbook-style question for teaching order of operations. Students who have been taught to "look for the innermost brackets" have a simple rule to apply. This could make it easier than I might initially think.
+
+On the other hand, the expression itself is more complex than typical textbook examples at KS3 level, with nested brackets and multiple operations. The decimals don't add conceptual difficulty but do add visual clutter.
+
+Calibration comparison: The BIDMAS calibration item was easy (0.134 incorrect). That item required both knowing BIDMAS and computing the answer. This item only requires identifying the first step, which is arguably simpler cognitively. But the visual parsing is harder here.
+
+I'll estimate classical difficulty around 0.22-0.28. It's a relatively straightforward application of bracket rules, but the nested structure and visual complexity will trip up some students. Discrimination should be good - this cleanly tests whether students understand bracket priority.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.24</classical_difficulty>
+<irt_difficulty>-0.12</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

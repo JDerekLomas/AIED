@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item tests order of operations (BIDMAS). The expression is 4 + 12 / (2+2).
+
+Step-by-step correct solution: brackets first: 2+2=4. Then division: 12/4=3. Then addition: 4+3=7. Answer B.
+
+Distractor analysis:
+- A (10): Left-to-right computation: 4+12=16, 16/2=8, 8+2=10. This is the primary misconception target.
+- C (12): Possibly from 12/(2) + 2 + 4 with some error, or perhaps 4+12=16, then only dividing by the first 2 to get 8, plus... this doesn't cleanly yield 12. Maybe students do 12/2=6, then 4+6+2=12, partially respecting division priority but ignoring that the denominator is (2+2). This would be a partial-BIDMAS error.
+- D (4): Treating the entire expression as (4+12)/(2+2) = 16/4 = 4.
+
+The misconception of left-to-right evaluation is extremely common in KS3 students. BIDMAS is typically introduced around Year 7 and reinforced through KS3. The numbers are small and friendly, making the arithmetic trivial - the only challenge is knowing the correct order.
+
+Looking at calibration item 2 which also tests left-to-right misconception: classical difficulty 0.134, b=-0.245, a=1.552. That item involved decimals and fractions (0.4, 1/5) which makes the arithmetic harder but the order of operations issue similar. This target item has simpler numbers but explicit brackets which might actually make students more likely to handle them correctly. I'd expect similar or slightly lower difficulty.
+
+However, the distractor A (10) is very compelling for students who default to left-to-right. I'll estimate classical difficulty around 0.15, b around -0.35, with good discrimination since this cleanly separates students who know BIDMAS from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

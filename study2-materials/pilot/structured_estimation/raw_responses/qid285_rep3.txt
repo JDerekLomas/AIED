@@ -1,0 +1,47 @@
+<chain_of_thought>
+Item: Make omega the subject of F = r * omega^2.
+
+Solution path: Divide by r to get omega^2 = F/r, then square root to get omega = sqrt(F/r). This is answer B.
+
+Let me think about this from a student perspective. A Year 10 student encountering this problem needs to:
+1. Recognize that omega is being squared and multiplied by r
+2. Know that to "undo" multiplication by r, you divide by r
+3. Know that to "undo" squaring, you take the square root
+4. Apply these operations in a valid sequence
+5. Understand that sqrt(F/r) means the square root applies to the entire fraction
+
+The use of omega (a Greek letter) and the physics-style formula F = r*omega^2 gives this a "real-world" feel that could be either helpful (motivation) or confusing (unfamiliarity). Many students first encounter omega in physics contexts, and the formula resembles centripetal force/acceleration formulas.
+
+Distractor mapping:
+- A: omega = rF^2 — random rearrangement, very weak
+- C: omega = sqrt(rF) — uses multiplication instead of division (the tested misconception), strong distractor
+- D: omega = sqrt(F)/r — partially correct reasoning but misapplies the square root operation, moderate distractor
+
+I want to compare this with the calibration items carefully. The factorising item (b=0.404, classical=0.473) requires recognizing sign errors in expansion. The inequality (b=0.808, classical=0.569) requires multi-step algebraic manipulation with variables on both sides.
+
+This formula rearrangement with a power is conceptually similar to the inequality in complexity but the abstractness is higher (no numbers at all). However, the procedural steps are fewer (just 2 operations). I think it falls between the factorising and inequality items.
+
+My estimates: classical difficulty 0.48, IRT b = 0.45, discrimination 1.25 (the item is well-targeted for measuring algebraic manipulation skill), guessing around 0.10 (students who understand some algebra will engage with the problem rather than guess randomly).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

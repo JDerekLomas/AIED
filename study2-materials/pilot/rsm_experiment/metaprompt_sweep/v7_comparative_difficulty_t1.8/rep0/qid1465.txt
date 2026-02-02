@@ -1,0 +1,33 @@
+This is a classic "trap" question that exploits a common misunderstanding of the Order of Operations (BIDMAS/BODMAS), specifically the relationship between Addition and Subtraction.
+
+### DIFFICULTY: 4/10
+For a Year 9 student, the arithmetic itself is trivial (Difficulty 2). However, the **misconception activation** is extremely high. Many students believe that because 'A' comes before 'S' in BIDMAS, they *must* add before they subtract, leading them to calculate $3 - (5 + 8)$ or $3 - 9$.
+
+### Predicted Response Distributions
+
+**The Distractors:**
+*   **A (6):** The Correct Answer. $4 \times 2 = 8$. Then $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **B (4):** The "Addition First" Trap. Students do $4 \times 2 = 8$, then $5 + 8 = 13$, then $3 - 13 = -10$... wait, actually, they often do $(5+8) - 3$ to get $10$, or $3 - (5+8)$ to get $-10$. **Option B** is often reached by students doing $(3-5) + 4 = 2$, then $2 \times 2 = 4$ (calculating strictly left-to-right).
+*   **C (-12):** Random operational error or $(3-5-4) \times 2$.
+*   **D (-10):** The **Strongest Misconception.** Students do $4 \times 2 = 8$, then see the "+" sign and do $5 + 8 = 13$, finally doing $3 - 13 = -10$.
+
+---
+
+#### **below_basic (Working at KS2 levels/Year 7 transition)**
+*These students often ignore priority of operations and work strictly left-to-right, or get overwhelmed by the negative result of 3-5.*
+**A=15% B=45% C=10% D=30%**
+
+#### **basic (Lower Set Year 9)**
+*These students know BIDMAS exists but misinterpret it. They will prioritize the Multiplication, but then strictly follow the letter 'A' before 'S'.*
+**A=25% B=15% C=10% D=50%**
+
+#### **proficient (Working at Age Related Expectations)**
+*These students are cautious. Many will still fall for the Addition trap, but a significant portion knows that Addition and Subtraction have equal priority.*
+**A=60% B=10% C=5% D=25%**
+
+#### **advanced (Top Set / G&T)**
+*These students recognize the trap immediately. They understand that subtraction is just the addition of a negative number.*
+**A=92% B=3% C=0% D=5%**
+
+### Teacher's Note:
+In a Year 9 classroom, this question would likely result in a heated debate. The high percentage for **D** among "Basic" and "Below Basic" learners is due to the "false confidence" provided by the BIDMAS acronym. They feel they are following a rule correctly, which makes them **confidently wrong.**

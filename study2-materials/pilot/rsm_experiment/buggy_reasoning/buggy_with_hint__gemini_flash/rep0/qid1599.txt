@@ -1,0 +1,38 @@
+As an experienced maths teacher, I see this specific problem frequently when transitioning students from primary-style linear arithmetic to secondary algebraic notation. The division bar ($/$) acting as a grouping symbol is a high-level concept that often clashes with their prior "Left-to-Right" training.
+
+### 1. Analysis of Wrong Answer Options
+
+#### **Option B: $\frac{c+4}{h+4}$**
+*   **Buggy Reasoning:** The student is applying a "Pattern Completion" or "Over-distribution" error. They see the $+4$ inside the bracket and feel that to preserve balance or "match" the structure, both the numerator and denominator need that constant. They may also be confusing this with rules for adding fractions with common denominators or transforming equations where "whatever you do to the bottom, you do to the top."
+*   **Attractiveness:** Low to Medium. This is a "creative" error. It appeals to students who are guessing based on visual symmetry rather than logical operation.
+
+#### **Option C: $\frac{c}{h}+4$**
+*   **Buggy Reasoning:** (As specified) **Carries out operations from left to right regardless of priority order.** The student sees $c$, then $\div$, then $h$. They write this immediately as $\frac{c}{h}$. They then see $+4$ and tack it onto the end. They ignore the brackets because their mental "calculator" processes the string linearly. They fail to realise the vinculum (fraction bar) must cover the entire expression that follows the division sign.
+*   **Attractiveness:** Very High. This is the "default" state for students moving out of Key Stage 2. It follows the natural reading order of the English language.
+
+#### **Option D: $\frac{h+4}{c}$**
+*   **Buggy Reasoning:** **Commutative Misconception.** The student knows that division should be written as a fraction, but they believe the "more complex" expression ($h+4$) should be the "base" or the numerator, or they simply believe order doesn't matter in division (similar to addition/multiplication). Often, students put the "bigger" looking part on top because it looks more "standard" to them.
+*   **Attractiveness:** Medium. Usually seen in students who understand the *notation* of algebra but haven't grasped the *non-commutative* nature of the division operation.
+
+---
+
+### 2. Pedagological Judgment
+
+*   **Option C (The "Linear" Error):** This is the most dangerous distractor. For a "Below Basic" or "Basic" student, brackets are often viewed as "optional" or secondary to the left-to-right flow. They won't notice they are wrong because $\frac{c}{h}+4$ looks like a perfectly valid algebraic term.
+*   **Option D (The "Swapped" Error):** This is common in "Basic" students who are rushing. They recognise the components but are "algebraically dyslexic" regarding which term is the divisor.
+*   **Option B (The "Symmetry" Error):** This is a rare "noise" distractor, usually chosen by students who are completely overwhelmed and looking for patterns.
+
+---
+
+### 3. Predicted Response Distribution
+
+As students move toward "Proficient," the "Left-to-Right" (Option C) error usually persists the longest, often remaining a "careless mistake" even when they know the rule.
+
+| Level | A (Correct) | B (Patterning) | C (Left-to-Right) | D (Swapped) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 15% | **45%** | 20% |
+| **Basic** | 45% | 5% | **35%** | 15% |
+| **Proficient** | 80% | 2% | **15%** | 3% |
+| **Advanced** | 97% | 0% | 2% | 1% |
+
+**Teacher's Note:** The transition from $c \div (h+4)$ to $\frac{c}{h+4}$ is a hurdle because it requires the student to see the vinculum as an *implicit* grouping symbol. The "Basic" student will likely struggle to accept that the brackets "disappear" into the structure of the fraction.

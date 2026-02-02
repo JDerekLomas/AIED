@@ -1,0 +1,20 @@
+below_basic: A=20% B=20% C=50% D=10%  
+basic: A=40% B=10% C=45% D=5%  
+proficient: A=85% B=5% C=10% D=0%  
+advanced: A=95% B=0% C=5% D=0%  
+
+**Explanation:**  
+This question tests solving a linear equation of the form \( a = \frac{b}{c} \).  
+The common error is multiplying incorrectly (e.g., \( 15 = \frac{1+k}{4} \) → \( 15 \times 4 = 1+k \), correct, but then incorrectly handling the "1+" when isolating \( k \)).  
+
+- **Step 1** is correct: multiplying both sides by 4 gives \( 60 = 1+k \).  
+- **Step 2** is correct: subtracting 1 gives \( 59 = k \), but Isaac wrote \( 61 = k \). This is wrong — he appears to have added 1 instead of subtracting.  
+
+Many weaker students will not notice the Step 2 error because they might think "60 = 1+k → so k = 60+1" (a common mis-generalisation from forms like \( k-1=60 \)).  
+Thus:  
+- **Below basic**: likely to guess or think both steps fine if arithmetic slips.  
+- **Basic**: some recognise Step 1 correct, but many still miss Step 2 error.  
+- **Proficient**: most spot Step 2 error, so choose A.  
+- **Advanced**: almost all choose A; a tiny fraction might misread question and think both correct.  
+
+The question looks easy but Step 2’s error is subtle for those not checking arithmetic carefully.

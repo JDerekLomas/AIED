@@ -1,0 +1,51 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential misconceptions or understanding it tests.
+
+The equation given is \(\frac{8x}{5} = 40\). To solve for \(x\), one would typically multiply both sides by 5 to get \(8x = 200\), and then divide both sides by 8 to find \(x = 25\).
+
+Tom suggests a next line of working could be \(8x = 8\), which is incorrect because multiplying both sides of the original equation by 5 would yield \(8x = 200\), not \(8x = 8\).
+
+Katie suggests \(\frac{x}{5} = 5\), which can be checked by multiplying both sides by 5 to get \(x = 25\), and then substituting back into the original equation to verify: \(\frac{8(25)}{5} = 40\), which simplifies to \(\frac{200}{5} = 40\), and thus \(40 = 40\). This means Katie's suggestion, when properly derived, is actually correct in the context of solving the equation (\(\frac{x}{5} = 5\) implies \(x = 25\), which satisfies the original equation).
+
+However, Katie's line of working as presented (\(\frac{x}{5} = 5\)) directly, is derived by first multiplying both sides by 5 to get \(8x = 200\), then dividing both sides by 8 to get \(x = 25\), and finally dividing \(x\) by 5, which indeed results in 5. But directly, if you divide both sides of \(\frac{8x}{5} = 40\) by 8, you get \(\frac{x}{5} = 5\), making Katie's suggestion a correct step.
+
+## Step 1: Understand the task
+The task is to evaluate the correctness of two proposed steps in solving the equation \(\frac{8x}{5} = 40\).
+
+## 2: Evaluate Tom's suggestion
+Tom's suggestion, \(8x = 8\), does not follow from the equation \(\frac{8x}{5} = 40\) by a standard algebraic operation that would solve for \(x\); to get \(8x = 8\), one would have to multiply both sides by \(\frac{5}{10}\) or \(\frac{1}{10}\), which is not a step towards solving the equation directly.
+
+## 3: Evaluate Katie's suggestion
+Katie's suggestion, \(\frac{x}{5} = 5\), directly follows from dividing both sides of the equation by 8, which gives \(\frac{x}{5} = 5\). This indicates Katie has a correct understanding of how to manipulate the equation.
+
+## 4: Analyze potential student responses
+- **Below Basic:** Students at this level might struggle with algebraic manipulations. They might not recognize that multiplying or dividing both sides by the same number is necessary, or they might incorrectly apply operations. Tom's mistake seems obvious to those with some understanding, but Katie's correct manipulation might be less intuitively recognized. 
+    - A: XX%
+    - B: XX%
+    - C: XX%
+    - D: XX%
+
+- **Basic:** Students here have a foundational understanding of algebra. They should recognize standard operations but might make simple errors. 
+    - Given the clear incorrectness of Tom's statement and the derivability of Katie's, one might expect:
+        - A = 10% (confusion, thinks Tom right)
+        - B = 70% (sees Katie's correctness)
+        - C = 15% (some might mistakenly think both are right)
+        - D = 5% (thinks neither correct, which is wrong)
+
+- **Proficient:** Students here are more adept at algebraic manipulations and should clearly see that Katie's suggestion is correct and Tom's is not.
+    - A = 5%
+    - B = 80%
+    - C = 10%
+    - D = 5%
+
+- **Advanced:** Students at this level are very comfortable with algebraic manipulations and can readily identify correct and incorrect steps.
+    - A = 0%
+    - B = 90%
+    - C = 5%
+    - D = 5%
+
+Given this analysis:
+
+below_basic: A=20% B=40% C=10% D=30%
+basic: A=10% B=70% C=15% D=5%
+proficient: A=5% B=80% C=10% D=5%
+advanced: A=0% B=90% C=5% D=5%

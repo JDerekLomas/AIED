@@ -1,0 +1,32 @@
+Let me break this down by ability level:
+
+This question is interesting because despite looking straightforward, it has several trap points:
+1. Need to handle different denominators (10 and 4) which don't divide conveniently
+2. Need to find LCM of 20
+3. The fraction parts sum to 7/10 + 1/4 = 7/10 + 2.5/10 = no, wait... they'd need to find common denominator
+4. Must give answer as a mixed number, not improper fraction
+5. Option A gives the right fraction but wrong format (improper), tricking those ignoring the instruction
+6. Option C uses wrong denominator when adding numerators directly
+7. Option D adds both numerators and denominators - very common misconception
+
+The biggest trap in this specific question is that students will likely add 1/4 + 7/10, struggle with the common denominator (would need 9/20) and may give up. However, the fraction parts alone work out cleanly to 9/20, which is just under a whole, so there's no carrying complexity that trips students up.
+
+below_basic=90% A 0% B 5% C 5% D | These students will usually:
+                   - Ignore "mixed number" instruction, pick improper fraction option A
+                   - Randomly pick C or D if distracted
+                   - Never consolidate fraction parts reliably
+
+basic=25% A 5% B | These are confident that mixed-number answers "feel messy"; believe B looks implausibly complicated while C's cleaner looking fraction deceives. Most errors here are:
+                       - Fail to manage 10/40 denom when finding common denom across fractions
+                       - Give up, go for improbably clean number.
+
+advancing | 50% A 40% B 5% C 5% D
+          Usually convert & consolidate fractions right, but lose a mark formatting (leave answer) in wrong form.
+
+prof=0% A 85% B
+Advanced | 95-98% B, remainder distracted slip into leaving A
+
+below_basic: A=85% B=5% C=10% D=0%
+basic: A=50% B=25% C=10% D=15%
+proficient: A=0% B=8#3% C=10% D=7%
+advanced: A=0% B=97% C=2% D=1%

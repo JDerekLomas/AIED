@@ -1,0 +1,24 @@
+In this scenario, the student correctly completes Step 1 but fails in Step 2.
+
+### 1. The Specific Misconception: "Operation Inversion Confusion" (specifically, Inverse Balancing Error)
+The precise error is the **failure to apply the inverse operation when moving a term across the equals sign.** In algebra, students are taught that to "undo" an addition, they must subtract. However, a common "buggy procedure" occurs when a student sees a positive number ($+1$) and reflexively thinks of the next step as a cumulative addition to the other side of the equation, rather than an isolation of the variable.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would work through the problem as follows:
+
+*   **Step 1:** They correctly identify that they need to eliminate the denominator. They multiply both sides by $4$: $15 \times 4 = 60$. They arrive at $60 = 1 + k$.
+*   **Step 2:** They look at the $+1$ and $k$. Instead of subtracting $1$ from both sides ($60 - 1$), their brain follows a **"shortcut" rule** often misapplied in early algebra: *"Move the number to the other side and combine it."*
+*   **The Error:** Because $60$ and $1$ are both positive, they simply add them together ($60 + 1$) to get $61$. They feel that because the $k$ is being "added to," they should "add the numbers" to find the total value.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Answer A (Only step 1)**.
+
+The student recognizes that Step 1 is mathematically sound (multiplication), but because they have committed a procedural error in Step 2 ($61=k$ instead of $59=k$), they would identify Step 2 as "correct" based on their own flawed logic. However, since the question asks which steps *actually* are correct, and only Step 1 is mathematically valid, the student who realizes the mistake in the provided text (or a student analyzing Isaac's work) would choose A. 
+
+*Note: If the student themselves were Isaac, they would incorrectly believe the answer is C, but a student identifying Isaac's specific mistake would select A.*
+
+### 4. How attractive is this error?
+This error is **highly attractive and very common** for Year 9 students for two reasons:
+
+1.  **Number Proximity:** $60$ and $1$ are "friendly" numbers to add. In the heat of an exam, the instinct to sum numbers is often stronger than the formal algebraic requirement to subtract.
+2.  **Lack of Self-Correction (Checking):** The student is unlikely to realize they are wrong unless they are in the habit of **back-substitution**. If they plugged $61$ back into the original equation: $\frac{1+61}{4} = \frac{62}{4} = 15.5$, they would see it does not equal $15$. However, students who struggle with operation inversion rarely perform this verification step, making the error feel "smooth" and correct during the process.

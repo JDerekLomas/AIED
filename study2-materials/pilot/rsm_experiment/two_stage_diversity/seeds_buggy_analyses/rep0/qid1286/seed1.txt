@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I have identified the following specific error for a Year 9 student (typically aged 13–14) attempting to rearrange the formula for the volume of a sphere.
+
+### 1. The specific misconception: "Multiplicative Inversion Error" (Specifically, Multiplied by the Coefficient)
+The specific bug is the **misapplication of the multiplicative inverse** when dealing with fractions. When a student sees $V = \frac{4}{3}\pi r^3$, they know they must "move" the fraction $\frac{4}{3}$ to the other side. A student with this bug understands the concept of "doing the opposite," but incorrectly assumes that because the $\frac{4}{3}$ is "connected" to the $\pi r^3$ via multiplication, they should multiply the other side by $\frac{4}{3}$ as well, rather than dividing by it (or multiplying by the reciprocal).
+
+### 2. Step-by-step student work
+A student with this misconception would proceed as follows:
+
+1.  **State the formula:** The student correctly identifies the volume of a sphere formula: $V = \frac{4}{3}\pi r^3$.
+2.  **Isolate the variable (The Bug):** To get $r$ by itself, the student decides to "move" the fraction. Instead of multiplying by $3$ and dividing by $4$, they simply bring the $4/3$ across and multiply: $V \cdot \frac{4}{3}\pi = r^3$.
+3.  **Rearranging notation:** They write this as $r^3 = \frac{4V\pi}{3}$.
+4.  **Final step:** To solve for $r$, they take the cube root of the entire expression: $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Corresponding answer option
+This misconception leads directly to **Option A**: $\sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm}$.
+
+### 4. Attractiveness of the error
+This is a highly "attractive" and "natural" error for a Year 9 student for three reasons:
+
+*   **Visual Pattern Matching:** The student sees a 4, a 3, and a $\pi$. Option A contains all those elements in a configuration that "looks" like the original formula (with 4 on top and 3 on the bottom). 
+*   **Symbol Association:** Students at this level often treat $\pi$ as a "unit" or a "tag" rather than a number. They feel it belongs "next to" the numbers rather than being part of the divisor. Moving $\pi$ into the numerator of the new expression feels "right" because it stays near the 4, where it started.
+*   **False Confidence:** The student is unlikely to realize they are wrong because they have performed the correct *type* of operations (moving terms and cube-rooting). Unless they are taught to explicitly "check" their rearrangement by substituting a value for $r$, the result looks mathematically sophisticated enough to be correct. They have followed a process that "looks like algebra," making the error invisible to them.

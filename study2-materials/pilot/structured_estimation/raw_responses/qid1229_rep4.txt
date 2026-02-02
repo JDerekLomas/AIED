@@ -1,0 +1,43 @@
+<chain_of_thought>
+This question asks about typing -6^2 into a scientific calculator. The answer is -36 (option D) because calculators follow strict order of operations where exponentiation binds before unary minus.
+
+Let me think about this from the perspective of different student ability levels:
+
+Low-ability students (bottom quartile): These students may confuse squaring with doubling, selecting A (12) or B (-12). They may not engage with the order of operations issue at all.
+
+Middle-ability students: This is where the item really bites. These students know that squaring a negative gives a positive, so they confidently select C (36). They have enough knowledge to be dangerous but lack the nuanced understanding of how -6^2 differs from (-6)^2.
+
+High-ability students: Will recognize that -6^2 = -(6^2) = -36. But even among strong students, some may not have encountered this specific convention and could select C.
+
+This pattern suggests the item has a somewhat unusual response profile. The middle group may perform worse than the low group in some sense, because the low group might at least guess randomly, while the middle group systematically chooses C. This could affect the discrimination parameter -- it might be somewhat lower than expected because the item doesn't monotonically separate by ability.
+
+Comparing to calibration: I think this falls between the factorising item (0.473) and the inequality (0.569). The misconception is very strong but the item is also commonly used as a teaching example.
+
+Estimates:
+- Classical difficulty: 0.46 -- slightly below 0.50, as calculator-specific BIDMAS is increasingly taught.
+- IRT difficulty: 0.30 -- moderate positive.
+- Discrimination: 1.15 -- slightly lower due to the non-monotonic ability pattern I described.
+- Guessing: 0.12 -- some residual benefit from students who recall being taught this specific case without fully understanding it.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.46</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

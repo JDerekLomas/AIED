@@ -1,0 +1,42 @@
+<chain_of_thought>
+Analyzing this order of operations item. The student must determine which operation to perform first in two separate expressions.
+
+For Problem P (4 - 5 + 6): Addition and subtraction share the same precedence level, so we proceed left to right. The first operation is 4 - 5. This is a subtle point -- many students might think addition should come before subtraction.
+
+For Problem Q (4 + 5 x 6): Multiplication takes precedence over addition per BIDMAS, so 5 x 6 is done first.
+
+Answer B correctly identifies both.
+
+Key distractor analysis:
+- Option A: Gets P right (4-5 first) but gets Q wrong (4+5 first). This represents the classic BIDMAS misconception -- doing left-to-right regardless of priority. This is the target misconception distractor and should attract many students.
+- Option C: Gets both wrong -- thinks you go right-to-left in P (5+6) and left-to-right in Q (4+5).
+- Option D: Gets P wrong (5+6 first, perhaps thinking addition before subtraction) but gets Q right (5x6). This is interesting -- a student might know multiplication comes first but incorrectly think addition always comes before subtraction.
+
+The item has a dual structure requiring two separate judgments, which increases cognitive load. However, no actual computation is required -- just identifying the correct first step.
+
+Comparing to calibration: The similar BIDMAS item had difficulty 0.134. But that required actual computation with fractions and decimals. This item is purely about identifying order, which is more conceptual. The dual-problem format may increase errors. I'd place this around 0.25-0.30 difficulty.
+
+The discrimination should be moderate-to-good since this cleanly tests BIDMAS understanding. Students who know the rules will get it right; those who don't will be drawn to A.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.27</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

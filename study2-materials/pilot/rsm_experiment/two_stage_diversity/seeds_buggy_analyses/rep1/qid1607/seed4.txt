@@ -1,0 +1,20 @@
+In this scenario, the student correctly completes Step 1 but fails in Step 2. This is a classic example of a procedural error in linear equations.
+
+### 1. The specific misconception: The "Operation Reversal Error" (specifically, Additive Inverse Confusion)
+The student possesses a bug in their **inverse operations** logic. Instead of applying the inverse operation to "undo" a number, the student applies the same operation shown in the equation to move it to the other side. Alternatively, this can be seen as a **balancing error**, where the student intuitively believes that "to get rid of +1, I should add 1 to the other side."
+
+### 2. Step-by-step student workthrough:
+*   **Step 1:** The student correctly identifies that the $\div 4$ must be undone first. They multiply $15$ by $4$ to get $60$. They successfully reach the equation $60 = 1 + k$.
+*   **Step 2:** The student looks at $60 = 1 + k$ and identifies that they need to isolate $k$ by moving the $1$. 
+*   Instead of subtracting $1$ from both sides ($60 - 1$), the student thinks, *"I have a 60 and a 1, and I need to combine them."* Because the equation says $+ 1$, they instinctively perform an addition: $60 + 1 = 61$. 
+*   They conclude that $k = 61$.
+
+### 3. Which answer option this leads to:
+This misconception leads the student to select **A) Only step 1**.
+
+They will recognize that Step 1 is mathematically sound ($15 \times 4 = 60$), but they will believe Step 2 is correct as well—until they look at the options or re-check. If they are asked which is *actually* correct, they will be forced to choose (A) because, in reality, $k$ should be $59$.
+
+### 4. How natural/attractive this error is:
+This is an **extremely high-frequency error** for Year 9 students. 
+*   **Psychological Pull:** In the student's mind, they are "collecting" the numbers. If they see a positive number, the natural reflex is to add.
+*   **Lack of Verification:** The student is unlikely to realize they went wrong unless they are coached to **substitute** their answer back into the original equation. If they checked $k=61$ by doing $\frac{1+61}{4}$, they would get $\frac{62}{4} = 15.5$. However, most students at this level view algebra as a "forward-only" set of instructions rather than a balance, making them unlikely to spot the error themselves. They will feel confident that "adding is the opposite of nothing" or "matching the plus sign."

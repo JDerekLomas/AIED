@@ -1,0 +1,41 @@
+<chain_of_thought>
+Let me work through this item carefully. The expression is 3/4 - 1/4 × 1/5.
+
+By BODMAS rules, multiplication comes before subtraction:
+1/4 × 1/5 = 1/20
+3/4 - 1/20 = 15/20 - 1/20 = 14/20 = 7/10 (answer C)
+
+The tested misconception is "carries out operations from left to right regardless of priority order." A student making this error would compute:
+3/4 - 1/4 = 2/4 = 1/2
+1/2 × 1/5 = 1/10 (answer B)
+
+This is a well-known and persistent misconception. The fact that 3/4 - 1/4 simplifies so neatly to 1/2 makes the left-to-right approach feel natural and reinforcing — students get a clean intermediate answer, which makes them more confident in the wrong approach. This makes distractor B particularly seductive.
+
+Distractor A (2/16) is less obviously connected to a common error pathway and seems implausible to most students. Distractor D (5/10) might attract students who partially attempt the correct method but make arithmetic errors with common denominators.
+
+For calibration: the analogous item (0.4 - 1/5 × 3) had difficulty 0.134. That item mixed decimals and fractions, which might actually be easier because converting 1/5 to 0.2 is straightforward. Here, the student must handle fraction subtraction with unlike denominators (fourths and twentieths), adding a procedural hurdle. I estimate this is moderately harder — perhaps 0.18-0.28 classical difficulty.
+
+The item should discriminate well because the primary misconception maps cleanly onto one distractor, meaning high-ability students will almost always get it right while mid-ability students are likely to fall for B.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

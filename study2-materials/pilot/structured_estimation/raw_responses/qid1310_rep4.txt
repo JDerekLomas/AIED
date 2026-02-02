@@ -1,0 +1,43 @@
+<chain_of_thought>
+Target item: ((0.5 / (0.2 + 0.4) - 0.3) x 0.6). Which calculation first? Correct: B (0.2 + 0.4).
+
+I want to think carefully about the distractor pull here. Let me consider each option's attractiveness to students with different levels of understanding:
+
+Option A (0.5 / 0.2): Very attractive to left-to-right processors. It's the first two numbers they encounter and division is a "high priority" operation in BIDMAS. A student who knows "division before addition" but ignores brackets would choose this. This is probably the strongest distractor.
+
+Option B (0.2 + 0.4): Correct. Innermost brackets.
+
+Option C (0.4 - 0.3): Requires misreading the bracket structure. The 0.4 is inside the inner bracket while the 0.3 is outside it. A student who doesn't carefully parse the nesting might group these together. Moderately attractive.
+
+Option D (0.3 x 0.6): Would attract students who think "multiplication first" regardless of brackets. Less common misconception at secondary level since BIDMAS is heavily drilled, but still possible.
+
+The misconception "carries out operations from left to right regardless of priority order" is one of the most persistent in mathematics education. Even university students sometimes exhibit this error. For 11-16 year olds, this is extremely common, particularly in complex expressions like this one.
+
+Thinking about the population - the Eedi platform serves a wide range of UK secondary students. For this item, I'd expect strong performance from students in Year 8+ who have been explicitly taught nested brackets, but weaker performance from Year 7 students or those who learned BIDMAS as a rote rule without deep understanding.
+
+The nested bracket structure makes this harder than a simple BIDMAS question. I note that the calibration items show a clear progression: simple equation solving (0.167 difficulty) to complex factorising (0.473) to inequalities (0.569). This item involves a core KS3 skill with moderate visual complexity. I'd place it in the 0.25-0.40 range for classical difficulty.
+
+I'll estimate classical difficulty at 0.32, placing it between the simple BIDMAS calibration item and the mid-difficulty items. IRT difficulty around 0.10, with good discrimination given the clean construct being measured.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,41 @@
+<chain_of_thought>
+The item assesses order of operations (BIDMAS/BODMAS) and the use of brackets.
+To solve it, a student must evaluate the four expressions:
+A) $16 - (10) \div 2 = 16 - 5 = 11$
+B) $10 + 4 \div 2 = 10 + 2 = 12$
+C) $16 - 6 + 2 = 12$ (This is identical to the expression without brackets)
+D) $(10 + 4) \div 2 = 14 \div 2 = 7$ (Correct)
+
+The misconception "left to right regardless of priority" is strong here. If a student calculates $16-6+4 \div 2$ left to right without brackets, they get $(10+4) \div 2 = 7$. Therefore, the question asks which brackets *force* that specific (often incorrect) left-to-right result. 
+
+Comparing this to the calibration items:
+- It is more complex than the $0.4 - 1/5 \times 3$ item because it involves evaluating multiple options rather than a single calculation.
+- The "left to right" misconception is very common in the UK 11-14 age range.
+- The difficulty should be moderate. While the calculation is simple, the logic of "adding brackets to make it true" requires more working memory than a standard calculation.
+- Option C is a "weak" distractor because it doesn't change the value of the original expression, but students often struggle with the fact that $16-6+2$ is $12$ (they might do $6+2$ first to get $16-8=8$).
+- Classical difficulty is likely higher (easier) than the first two calibration examples because the answer can be found by trial and error with relatively small integers.
+
+IRT b-parameter will likely be around the mean (0.0 to 0.5) as it requires multiple steps of verification. Discrimination should be high as BIDMAS is a key "gatekeeper" concept.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

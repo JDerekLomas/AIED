@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a very specific and common "bug" related to the Order of Operations (BIDMAS/BODMAS) that frequently surfaces in UK secondary schools.
+
+### 1. The specific misconception: "The Hierarchy over Directionality" Bug
+The student possesses a rigid, literal interpretation of the **BIDMAS** acronym. Specifically, they believe that because 'A' (Addition) comes before 'S' (Subtraction) in the acronym, **all additions must be performed before all subtractions**, regardless of their position in the expression. They fail to understand that Addition and Subtraction have equal priority and should be calculated from left to right.
+
+### 2. Step-by-step student workflow
+A student with this misconception would process the expression $3 - 5 + 4 \times 2$ as follows:
+
+1.  **Prioritise Multiplication:** They correctly identify that Multiplication ($M$) comes before Addition ($A$) and Subtraction ($S$).
+    *   Calculation: $4 \times 2 = 8$.
+    *   The expression now looks like: $3 - 5 + 8$.
+2.  **Misinterpret Priority (The Bug):** Looking at $3 - 5 + 8$, the student checks their acronym. Since $A$ comes before $S$, they feel they *must* add before they subtract. 
+3.  **The Calculation Error:** They isolate the "addition" part: $5 + 8 = 13$.
+4.  **The Final Step:** They substitute that result back into the expression, leaving them with the subtraction: $3 - 13$.
+5.  **Result:** $3 - 13 = -10$.
+
+### 3. Corresponding Answer
+This specific procedural error leads directly to **Option D: -10**.
+
+### 4. Attractiveness of the error
+This error is **highly attractive** and perceived as mathematically rigorous by the student. 
+*   **Why it feels right:** The student feels they are being disciplined by following the "rules" of BIDMAS strictly. To them, doing the subtraction first ($3 - 5$) feels like "cheating" or going out of order because they are ignoring the alphabetical/acronym order they were taught to memorise.
+*   **Likelihood of realization:** The student would **not realize they went wrong.** In fact, if they arrived at $-10$ and saw it as an option, they would feel a high degree of confidence. They would view someone who got the correct answer ($6$) as "lazy" for simply working from left to right without "using the BIDMAS formula." This is a classic example where a mnemonic device (BIDMAS) actually hinders conceptual understanding of operational priority.

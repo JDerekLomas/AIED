@@ -1,0 +1,45 @@
+<chain_of_thought>
+The item presents four numerical expressions and asks which equals -20. The correct answer is B.
+
+Computing each:
+A) 2×(-2) - (-4)×4 = -4 - (-16) = -4 + 16 = 12
+B) -28 - (-4)×2 = -28 + 8 = -20
+C) (-5)^2 + 5 = 25 + 5 = 30
+D) (-42)÷(-2) + 1 = 21 + 1 = 22
+
+The tested misconception is believing that multiplying (or dividing) two negatives yields a negative. Under this misconception:
+- C becomes (-5)^2 = -25, so -25+5 = -20 (matches target)
+- D becomes (-42)÷(-2) = -21, so -21+1 = -20 (matches target)
+
+This is a notable design feature: two distractors become exactly -20 under the same misconception. Students holding this belief face a secondary decision between C and D, but both are wrong. Meanwhile, the correct answer B involves (-4)×2 which is a negative times a positive (yielding -8), not two negatives. So the misconception doesn't interfere with correctly solving B - it primarily makes C and D look correct.
+
+Actually, let me reconsider B more carefully. -28 - (-4)×2. Order of operations: (-4)×2 = -8 first, then -28 - (-8) = -28 + 8 = -20. A student might also make an order of operations error here, computing -28-(-4) = -24 first, then -24×2 = -48. So BIDMAS errors could also cause problems.
+
+For difficulty calibration: the matched calibration item (factorising, same misconception) had 47.3% incorrect and b=0.404. This item has stronger distractors (two that produce exactly -20 under the misconception) but is purely numerical rather than algebraic. I think the strong distractors push difficulty up, but the concrete numerical nature brings it down slightly. Net effect: similar difficulty, maybe slightly higher. I'll estimate 0.50-0.55 classical difficulty.
+
+Discrimination: The item should discriminate well between students who understand negative arithmetic and those who don't. The clean misconception targeting in the distractors means errors are systematic, not random. I'd estimate discrimination around 1.3-1.4.
+
+Guessing is likely low because students with the misconception will be systematically drawn to C or D, not guessing randomly. True guessing (from completely lost students) should be near the theoretical 0.25 but the effective c parameter will be lower since most incorrect responses are misconception-driven.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.53</classical_difficulty>
+<irt_difficulty>0.42</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

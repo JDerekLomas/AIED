@@ -1,0 +1,17 @@
+This question tests Order of Operations (BIDMAS/BODMAS). While it seems straightforward, it contains two specific traps that challenge students: 
+1. **The Multiplication Priority:** Students who read left-to-right without applying order of operations will calculate $(3-5+4) \times 2 = 4$ (Option B).
+2. **The Addition vs. Subtraction Trap:** Among students who know multiplication comes first, many believe "A comes before S" in BIDMAS, leading them to do $5+8=13$, then $3-13 = -10$ (Option D). This is the most common error for mid-to-high ability students who have been taught the acronym but not the "left-to-right" rule for addition and subtraction.
+
+The correct calculation is $3 - 5 + 8$. Working left to right: $-2 + 8 = 6$ (Option A).
+
+**Ability Level Breakdown:**
+
+*   **Below Basic:** Often ignore all rules and perform operations in a random order or simple left-to-right sequence. A significant number will land on Option B.
+*   **Basic:** Usually know multiplication comes first but struggle with directed numbers (negatives) or fall into the "Addition before Subtraction" trap (Option D).
+*   **Proficient:** Understand BIDMAS well, but a significant portion will still succumb to the $3 - (5+8)$ misconception because it is a very persistent "pseudo-rule."
+*   **Advanced:** Expected to know that Addition and Subtraction have equal priority and are performed left-to-right.
+
+below_basic: A=25% B=45% C=10% D=20%
+basic: A=35% B=20% C=5% D=40%
+proficient: A=65% B=5% C=0% D=30%
+advanced: A=92% B=2% C=0% D=6%

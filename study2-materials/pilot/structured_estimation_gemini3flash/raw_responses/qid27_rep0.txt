@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item tests substitution into a linear expression with a negative variable value. 
+Calculation: $10 - 2(-2) = 10 - (-4) = 10 + 4 = 14$.
+
+Distractor Analysis:
+- A) $-12$: Likely from $10 - 2 = 8$, then $8 \times -2 = -16$ (misorder), or more likely $10 - 2(-2)$ where they treat it as $-(10 + 4)$ or a combination of sign errors like $-2 - 10$.
+- B) $6$: $10 - 4 = 6$. This is the "multiplying two negatives gives a negative" error ($10 + (-4) = 6$). This is a very common mistake for UK students in Key Stage 3 and 4.
+- D) $32$: Likely from treating $2d$ as $2$ followed by the digit $-2$ (concatenation) or $10 - 2 = 8$, then $8 \times (-2)$? Less clear, but often stems from $10 - 2 = 8$, then $8 \times 4$? 32 is a common "distractor" in these sets for students who perform operations in the wrong order or misinterpret notation.
+
+Comparing to calibration items:
+- The first item ($-5 = p + 10$) had a very low classical difficulty (0.167) and a negative IRT difficulty.
+- This item is more straightforward than the fraction/decimal one (0.134) but the negative sign in substitution is a notorious "killer" for mid-ability students.
+- The misconception "multiplying two negatives gives a negative" is specifically identified. 
+- I expect a classical difficulty around 0.35 - 0.45. It is easier than the complex fraction item but harder than the inequality item for many.
+- Discrimination (a) is usually high for these algebraic substitution items as they clearly separate those who understand directed numbers from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

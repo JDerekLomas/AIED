@@ -1,0 +1,19 @@
+As an experienced maths teacher, I analyze the complexity of this question as follows:
+
+1.  **The Variable Confusion:** Option A uses the variable $n$ instead of $p$. While this might seem like a distractor, lower-ability students often ignore the letter and focus on the number, while high-ability students will quickly dismiss it.
+2.  **Arithmetic Errors:** The calculation steps are $3p^2 = 30$ and $p^2 = 10$. A very common mistake for students is to subtract 9 from 39 to get 30, but then subtract 3 instead of dividing by 3 (leading to $p^2 = 27$) or accidentally dividing 30 by 3 to get 10 but then thinking $10$ is a square number like $9$.
+3.  **The "Square Root" Trap:** Students often struggle to recognize when a number is or isn't a perfect square. Because $3p^2 + 9 = 39$ leads to $p^2 = 10$, the solution involves $\sqrt{10}$. However, many students "expect" a whole number answer in school maths. They may think they've made a mistake and gravitate toward Option D (if they think $30/3 = 16$ or similar) or Option C.
+4.  **Negative Roots:** All options include the negative root, which eliminates the most common "mid-level" error of only providing the positive solution.
+
+Here is the predicted breakdown:
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=10% B=45% C=20% D=25%
+proficient: A=5% B=75% C=10% D=10%
+advanced: A=1% B=97% C=1% D=1%
+
+**Reasoning:** 
+*   **Below Basic:** These students often guess or perform one operation correctly (39-9=30) and then pick a number that "looks like" a math answer (like 4 or 2).
+*   **Basic:** Many will reach $p^2=10$ but feel uncomfortable that it isn't a perfect square, potentially hunting for a way to get to 16 or 4. However, Option B is the mathematically direct result of $p^2=10$, so many will still pick it.
+*   **Proficient:** These students will correctly divide by 3 and recognize that 10 is not a square number, leading them directly to $\sqrt{10}$.
+*   **Advanced:** These students will see the $n$ in Option A as a typo and solve the algebra confidently.

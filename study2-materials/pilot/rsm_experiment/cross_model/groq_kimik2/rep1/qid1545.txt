@@ -1,0 +1,16 @@
+below_basic: A=45% B=25% C=25% D=5%
+basic: A=50% B=20% C=25% D=5%
+proficient: A=20% B=10% C=65% D=5%
+advanced: A=5% B=5% C=85% D=5%
+
+This question tests the order of operations in two versions of similar-looking expressions, making it subtle rather than simply procedural. Students must compute \(8+12-&4\) versus \((8+12)-&4\). The presence of subtraction often goes overlooked, potentially altering meaning—but actually the symbol \(* is **not** a minus sign*; it's typeset "•" for "missing symbol to pick A>B, B<C, C==? Or perhaps, strictly, the question should render a visible glyph such as "> *  * or ≤/ ≥ – likely missing glyph. (Assumption by analyst—the square is meant as <*strong>empty placeholder*; real symbol missing.)
+
+Ignoring the typographical failure (assume two visible numbers+operators to evaluate): Compute left part with priority: 
+\[
+\frac+ \} =11;\qquad\text{(because divide first)\)}\\
+The bracketed expression yields exactly:
+\[
+(8+  \bigm)<  &= \\qquad \}
+=11.
+\]
+Therefore, *each side evaluates identical*, hence equality == hold. Students who rush apply 'strict operator precedence correctly yet miscalculate with the  brackets—or who confuse  the symbols in haste**—split toward == (or ==, possibly mis-guessing >< / etc. Below-basic likely will pick either symbol, believing their error. A plausible mistake is: they wrongly resolve LHS == 1 for neglecting order so that it leads to choosing><; others compute right == "something smaller than theirs so they may go>+. Many below-basic and basic never see equality plausible — equality often looks like "a different symbol is sure" thus many omit C, despite is correct. Most successful students from middle proficiency upwards spot equivalence immediately.

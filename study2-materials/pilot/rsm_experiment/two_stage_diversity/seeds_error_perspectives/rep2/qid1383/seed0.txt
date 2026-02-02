@@ -1,0 +1,11 @@
+One specific reason why students might find this question difficult is the **notation-dependent handling of the negative sign during exponentiation**, leading them to choose **C (-81)**.
+
+### The Specific Difficulty: Implicit vs. Explicit Parentheses
+Students often fail to distinguish between $(-3)^4$ and $-3^4$. In mathematical convention, substituting a value into an algebraic expression implies that the entire value is raised to the power. However, students frequently internalize the "rule" that "a negative number stays negative if you don't see parentheses," or they rely on a calculator input error.
+
+**Why this occurs in this specific problem:**
+*   **The substitution step:** When a student replaces $k$ with $-3$, they often write it as $T = -3^4$.
+*   **Order of Operations confusion:** According to the standard Order of Operations (PEMDAS/BODMAS), an exponent is applied *before* the unary minus sign. Therefore, $-3^4$ is mathematically evaluated as $-(3 \times 3 \times 3 \times 3) = -81$.
+*   **The Trap:** A student who correctly identifies that $3^4 = 81$ but incorrectly applies the negative sign as an afterthought (rather than part of the base being multiplied) will arrive at **-81**.
+
+Even students who understand that "a negative times a negative is a positive" may still select C because they process the calculation as "3 to the power of 4 is 81, and then make it negative because $k$ was negative."

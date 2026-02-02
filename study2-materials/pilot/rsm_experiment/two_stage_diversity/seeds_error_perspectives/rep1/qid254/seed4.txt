@@ -1,0 +1,8 @@
+One specific reason why students might find this question difficult is the **conceptual status of the zero** within the dataset, specifically how it relates to the denominator of the mean formula.
+
+In statistics, zero is a valid data point (a "score"), but students frequently treat it as a "placeholder" or a "nothing" value. This leads to a specific interference between two steps of the calculation:
+
+1.  **The Summation (Numerator):** Because $0 + x = x$, the zero does not change the total sum. Students often notice that $0+1+3+4+7$ equals $1+3+4+7$.
+2.  **The Count (Denominator):** This is where the error occurs. Because the zero did not affect the sum, students often cognitively "discard" it when counting the number of items. This makes **Option C** a highly attractive "distractor."
+
+The difficulty lies in the fact that the zero is **arithmetically invisible** in the numerator but **statistically mandatory** in the denominator. A student who correctly identifies that the sum is 15 may still choose Option C because they see only four "active" numbers, failing to recognize that the mean represents an average over five trials/instances, even if one instance resulted in a value of zero.

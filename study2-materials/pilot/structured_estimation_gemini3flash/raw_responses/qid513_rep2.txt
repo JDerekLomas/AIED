@@ -1,0 +1,45 @@
+<chain_of_thought>
+The target item asks students to evaluate two steps in solving a linear equation: $15 = 2p - 4$.
+Step 1: $11 = 2p$ (The student subtracted 4 instead of adding 4; inverse operation error).
+Step 2: $22 = p$ (The student multiplied by 2 instead of dividing by 2; inverse operation error).
+Correct answer: D (Both are incorrect).
+
+Comparing this to the calibration items:
+- The first calibration item ($ -5 = p + 10 $) had a classical difficulty of 0.167. It was a one-step equation where the inverse operation error led to a distractor.
+- The target item is more complex because it involves two steps and asks the student to *evaluate* someone else's work. This meta-cognitive step usually increases difficulty.
+- However, the distractors are "Only step 1", "Only step 2", and "Both steps correct". If a student thinks even one step is correct because they share the misconception, they will get it wrong. 
+- The misconception "uses the same operation rather than the inverse" is tested twice here. 
+- Step 1: $15 - 4 = 11$ (Incorrectly used subtraction).
+- Step 2: $11 \times 2 = 22$ (Incorrectly used multiplication).
+- Students who consistently apply the "same operation" rule will think both steps are correct (Option C). Students who only make the error once might choose A or B. 
+- This item is likely to have a very low proportion correct (high difficulty) because it requires identifying *two* errors, and the "Both incorrect" option is often psychologically harder for students to select if they are unsure.
+
+Looking at the calibration data:
+- Equations items with inverse operation errors are consistently difficult (e.g., the first item at 0.167).
+- The "Both incorrect" structure in diagnostic questions often yields low scores.
+- I expect the IRT difficulty (b) to be around 0.0 to 0.5, and the classical difficulty to be low (around 0.20-0.25).
+- Discrimination (a) should be moderate to high, similar to other algebra items (~1.2 - 1.4).
+- Guessing (c) is likely low but not zero because students might guess D if they are totally lost.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.24</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

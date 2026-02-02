@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 algebra question:
+
+### 1. The Misconception: "Operation Priority Drift" (specifically regarding the vinculum as a grouping symbol)
+The specific error is a **failure to recognize the fraction bar (vinculum) as an implied grouping symbol**. While Year 9 students generally know that division can be written as a fraction, many suffer from a "left-to-right" transcription bias. They fail to understand that the denominator in an algebraic fraction must act as a single unit if it contains an operation.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would process the expression $c \div (h+4)$ as follows:
+
+1.  **Direct Transcription:** The student looks at the first part of the expression: $c \div h$. They know the algebraic convention for $c \div h$ is $\frac{c}{h}$.
+2.  **Linear Appending:** They then see the remaining $+4$ outside the parentheses (or they mentally discard the parentheses as "finished" once they've looked at the division).
+3.  **Combination:** They simply "tack on" the $+4$ to their first step, resulting in the notation $\frac{c}{h} + 4$.
+4.  **Order of Operations Blindness:** They do not realize that in their new expression ($\frac{c}{h} + 4$), the division only applies to $h$, whereas in the original expression, the division applies to the entire sum $(h+4)$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option C**: $\frac{c}{h} + 4$.
+
+### 4. Attractiveness of the Error
+This error is **highly natural and extremely common** for several reasons:
+
+*   **The "Calculators say so" effect:** Many students are used to entering calculations into basic calculators where typing $C \div H + 4$ would indeed yield the result of $\frac{C}{H} + 4$. They map the visual sequence of the question directly onto the visual sequence of the answer.
+*   **The "Invisible Grouping" hurdle:** Students often struggle with the idea that moving from linear notation ($c \div (h+4)$) to fractional notation ($\frac{c}{h+4}$) allows them to "remove" the parentheses. To a novice, removing parentheses usually implies they are no longer needed. Therefore, keeping the $+4$ inside the "action" of the fraction feels counter-intuitive compared to placing it safely at the end.
+*   **Lack of metacognitive friction:** A student making this error will feel **completely confident**. They believe they have successfully applied the "division-to-fraction" rule they were taught. Because the result looks like "proper algebra," they are unlikely to check if the two expressions are numerically equivalent by substituting values.

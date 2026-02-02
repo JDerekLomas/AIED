@@ -1,0 +1,22 @@
+In the context of UK Year 9 mathematics, this question targets the intersection of index laws (squaring) and decimal place value.
+
+### 1. The specific misconception: "The Double-Double Bug" (Linear Scaling of Decimals)
+The specific procedural error is the **misapplication of decimal place value during squaring**, specifically the belief that squaring a number with one decimal place should result in an answer with only one decimal place (often driven by an incorrect analogy to addition or simple multiplication by a whole number).
+
+### 2. Step-by-step walkthrough
+A student with this misconception would approach the problem as follows:
+
+1.  **Substitution:** They correctly identify the need to substitute $0.3$ into the formula $y = 3x^2$. They write or think: $3 \times 0.3^2$.
+2.  **Order of Operations (BIDMAS/BODMAS):** They correctly realize they must square $0.3$ before multiplying by $3$.
+3.  **The Error (Squaring $0.3$):** Instead of calculating $0.3 \times 0.3 = 0.09$, the student applies a "shortcut." They think: "$3$ squared is $9$, and there is one decimal place, so the answer must be $0.9$."
+4.  **Final Multiplication:** They take their result ($0.9$) and multiply it by the coefficient $3$.
+5.  **Calculation:** $3 \times 0.9 = 2.7$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: 2.7**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and one of the most common "invisible" traps in the Year 9 curriculum.
+
+*   **Logic:** To a student, if $3^2 = 9$ and $30^2 = 900$, it feels "balanced" and intuitive that $0.3^2$ should be $0.9$. They are applying a linear rule (where $x$ moves one decimal place, so $y$ moves one decimal place) to a non-linear (quadratic) function.
+*   **Lack of Internal Conflict:** The student is unlikely to realize they are wrong because $2.7$ looks like a "sensible" answer. Option B ($0.27$) might look "too small" to a student who hasn't fully grasped how squaring a fraction between $0$ and $1$ results in a smaller value. Because $2.7$ is a clean, terminating decimal that appears in the options, the student will select it with high confidence, never suspecting that the extra decimal place in $0.09$ was required.

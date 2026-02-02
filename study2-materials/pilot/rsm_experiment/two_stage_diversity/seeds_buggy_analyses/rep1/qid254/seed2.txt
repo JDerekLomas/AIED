@@ -1,0 +1,26 @@
+In the context of UK Year 9 probability and statistics, this question targets several common "stumbling blocks." The most prominent misconception identified here is related to the status of zero in data sets.
+
+### 1. The specific misconception: "Zero as a Non-Entity"
+The misconception is the belief that **zero is "nothing" and therefore should be ignored** when calculating statistical measures. Students often fail to distinguish between the **value** of a data point (zero) and its **existence** as a piece of data (the count). In their minds, because adding zero doesn't change the sum, it shouldn't be "counted" in the divisor.
+
+### 2. How a student would work through this question
+A student with this misconception would follow these steps:
+*   **Step 1:** Look at the list $0, 1, 3, 4, 7$. 
+*   **Step 2:** Decide that the $0$ is irrelevant to the calculation because it has no value. They may even physically cross it out.
+*   **Step 3:** Sum the remaining "meaningful" numbers: $1 + 3 + 4 + 7 = 15$.
+*   **Step 4:** Count the number of items they summed. Since they ignored the $0$, they count 4 items.
+*   **Step 5:** Form the fraction representing the mean: $\frac{15}{4}$.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option C**.
+
+Option C reflects both parts of the error: it omits the 0 from the numerator (which is mathematically benign for the sum) but, crucially, uses **4** as the divisor (which is the procedural error).
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive and intuitive** for Year 9 students for several reasons:
+
+*   **Linguistic Confusion:** In everyday English, "nothing" means an absence of things. If a student is told "I have nothing," they assume there is nothing to count. Translating this to a math problem, they feel they are being "clever" by ignoring the zero.
+*   **Arithmetic Reward:** $\frac{15}{5}$ (the correct calculation) results in 3, but $\frac{15}{4}$ results in $3.75$. Students often associate "higher level" math with decimals. If they calculate $3.75$, they may feel they have performed a more complex and therefore "more correct" calculation than the simpler integer 3.
+*   **Lack of Internal Conflict:** The student is unlikely to realize they are wrong. They will see that their sum $(15)$ and their count $(4)$ are both represented in Option C. This "recognition" provides a false sense of security, reinforcing the idea that their strategy of ignoring the zero was intended by the question designer. 
+
+*Note: While Option B represents a **BODMAS/Order of Operations error** (calculating $0+1+3+4+(7 \div 5)$), the "Zero as a Non-Entity" bug (Option C) is a more fundamental conceptual misunderstanding of what a "data set" actually represents.*

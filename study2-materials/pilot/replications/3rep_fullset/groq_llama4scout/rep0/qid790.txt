@@ -1,0 +1,31 @@
+## Step 1: Understanding the Question
+The question requires identifying the line of reflection that maps triangle P to triangle Q on a grid. The triangles P and Q are isosceles and identical in shape and size, and there are three vertical lines labeled A, B, and C.
+
+## 2: Identifying Key Features of the Triangles
+Triangle P has corners at (0,4), (2,3), and (2,5) if we consider the bottom left corner of the grid as (0,0). Triangle Q has corners at (6,3), (6,5), and (8,4).
+
+## 3: Determining the Line of Reflection
+To reflect a point over a vertical line, we find the midpoint between the point and its reflection on the line (which lies on the line) and ensure the line is equidistant from the point and its image. The line of reflection must be halfway between the corresponding points of triangles P and Q.
+
+## 4: Finding the Midpoint Between Triangles P and Q
+The x-coordinates of corresponding vertices of P and Q are 0 and 6, 2 and 6, 2 and 8, and 4 and 4 (averaged for the line), suggesting a horizontal shift. A vertical line of reflection would be at x = (0+6)/2 = 3 or more accurately for the sides: between 2 and 6 is 4, and between 0 and 8 is 4.
+
+## 5: Analyzing the Grid and Lines
+- Line A is at x = 2.
+- Line B is at x = 4.
+- Line C is at x = 5.
+
+## 6: Identifying the Correct Line of Reflection
+Given that the x-coordinate shift from P to Q appears to center around a shift from 2 to 6 (a change of 4), the line of reflection should logically be at x = 4, which corresponds to line B.
+
+## 7: Predicting Student Responses
+- **Below Basic**: Students at this level might struggle to understand the concept of reflection and identifying midpoints. They may randomly select or choose line A or C due to a lack of understanding (A=30%, B=20%, C=30%, D=20%).
+- **Basic**: Students here might have a basic understanding but could make errors in calculation or identifying the correct line. They might lean towards B but have a significant percentage choosing D due to uncertainty (A=15%, B=50%, C=20%, D=15%).
+- **Proficient**: These students should accurately calculate and understand reflections. They are likely to choose B with a high degree of accuracy (A=5%, B=80%, C=10%, D=5%).
+- **Advanced**: Advanced students would not only accurately identify the line of reflection but also quickly and confidently eliminate incorrect options. They would predominantly choose B (A=0%, B=90%, C=5%, D=5%).
+
+The final answer is:
+below_basic: A=30% B=20% C=30% D=20%
+basic: A=15% B=50% C=20% D=15%
+proficient: A=5% B=80% C=10% D=5%
+advanced: A=0% B=90% C=5% D=5%

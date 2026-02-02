@@ -1,0 +1,40 @@
+<chain_of_thought>
+The item asks for the expansion of $(m-3)(m-2)$. This is a standard quadratic expansion problem involving two negative constants. 
+
+The expansion follows $(m \times m) + (m \times -2) + (-3 \times m) + (-3 \times -2) = m^2 - 2m - 3m + 6 = m^2 - 5m + 6$. 
+
+Distractor Analysis:
+- Option D ($m^2 - 5m - 6$): Tests the primary misconception identified: multiplying two negatives results in a negative. This is a very common error in secondary school algebra.
+- Option B ($m^2 - m - 6$): Likely results from incorrect addition of the middle terms ($-3 + 2$ or $3 - 2$) and the sign error on the constant.
+- Option C ($m^2 + 5m + 6$): Ignores the signs of the linear terms entirely or assumes $(m+3)(m+2)$.
+
+Psychometric Calibration:
+Comparing this to the calibration items:
+- The Tom and Katie item (expanding/factorizing quadratics) had a classical difficulty of 0.473 and an IRT difficulty of 0.404. That item was slightly more complex because it required evaluating two different statements.
+- This item is a direct "multiply out," which is a very standard textbook procedure. However, the sign error is a "sticky" misconception.
+- In the UK context (KS3/KS4), expanding brackets is introduced around age 13-14. 
+- The discrimination is likely to be high because students who understand the distributive property and directed numbers will get it right, while those with weak negative number skills will almost certainly choose D.
+- The guessing parameter should be around 0.20 as it is a 4-choice MCQ, though the distractors are quite targeted.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

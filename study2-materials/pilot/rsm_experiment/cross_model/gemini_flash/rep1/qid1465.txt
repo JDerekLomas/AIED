@@ -1,0 +1,18 @@
+This order of operations (BIDMAS/BODMAS) question is a classic "trap" for students who follow the mnemonic strictly but misunderstand the hierarchy of addition and subtraction.
+
+**Analysis of the Distractors:**
+*   **A (6):** The correct answer ($4 \times 2 = 8$, then $3 - 5 = -2$, and $-2 + 8 = 6$).
+*   **B (4):** The "strict mnemonic" error. Students do Addition before Subtraction regardless of position: $5 + 8 = 13$, then $3 - 13 = -10$. Wait, no—Option B is actually the result of $(3 - 5 + 4) \times 2 \rightarrow 2 \times 2 = 4$. This attracts students who process left-to-right and ignore BIDMAS.
+*   **C (-12):** The result of $(3 - 5) + 4 \times 2$ is 6, but if they do $3 - (5+4) \times 2$ they get $3 - 18 = -15$. $-12$ is less common but usually comes from $3 - (5+4) = -6$, then $-6 \times 2$.
+*   **D (-10):** This is the most significant "intelligent" distractor. Students who follow BODMAS strictly often think Addition **must** come before Subtraction. They calculate $5 + (4 \times 2) = 13$, then $3 - 13 = -10$.
+
+**Ability Level Breakdown:**
+*   **Below Basic:** These students often ignore BIDMAS entirely or get lost in the negative numbers. Option B (left-to-right) is very attractive here.
+*   **Basic:** These students know BIDMAS exists but usually fall for the "Addition before Subtraction" trap (Option D).
+*   **Proficient:** Most have mastered the priority of multiplication, but under exam pressure, a significant minority still fall for the "A before S" trap or make a sign error with $3-5$.
+*   **Advanced:** Almost all will correctly identify that addition and subtraction have equal priority and should be worked left-to-right (or treat the 5 as a -5).
+
+below_basic: A=25% B=40% C=10% D=25%
+basic: A=35% B=15% C=5% D=45%
+proficient: A=75% B=5% C=2% D=18%
+advanced: A=96% B=1% C=0% D=3%

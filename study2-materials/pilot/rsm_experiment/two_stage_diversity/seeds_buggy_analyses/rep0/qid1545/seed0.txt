@@ -1,0 +1,33 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among UK Year 9 students (typically ages 13–14) who are still transitioning from informal arithmetic to formal algebraic priority of operations.
+
+### 1. The Specific Misconception: The "Left-to-Right" Linear Processing Bug
+This is a specific procedural error where the student ignores the **Order of Operations (BIDMAS/BODMAS)** and instead treats a mathematical expression like a sentence in English, processing operators strictly from left to right as they appear. 
+
+In this specific "bug," the student views the division symbol ($\div$) not as an operation with higher precedence, but as a secondary instruction to be performed on the "running total" of the previous addition.
+
+### 2. Step-by-Step Calculation (The Buggy Procedure)
+
+**Step 1: Evaluate the Left-Hand Side (LHS)**
+*   The student sees $8 + 12 \div 4$.
+*   They ignore BIDMAS and read left-to-right.
+*   Calculation 1: $8 + 12 = 20$.
+*   Calculation 2: $20 \div 4 = \mathbf{5}$.
+*   *Correct value should be 11 ($8 + 3$).*
+
+**Step 2: Evaluate the Right-Hand Side (RHS)**
+*   The student sees $(8 + 12) \div 4$.
+*   Even if they remember that brackets come first, they perform the same sequence: $8 + 12 = 20$, then $20 \div 4 = \mathbf{5}$.
+*   In their mind, the brackets "don't change anything" because they already wanted to do the addition first.
+
+**Step 3: Comparison**
+*   The student compares their results: $5$ vs $5$.
+
+### 3. Resulting Answer Option
+This misconception leads the student to **Option C ($=$)**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** because it produces a "clean" result on both sides of the box. 
+
+*   **Internal Consistency:** The student arrives at the same integer ($5$) for both sides. In a multiple-choice setting, finding that both sides equal the same number feels like a confirmation of correctness (a "matching" success).
+*   **Lack of Cognitive Dissonance:** Because the numbers in the brackets are identical to the numbers outside the brackets ($8$ and $12$), the student’s intuition suggests that "it's the same sum." They fail to realize that brackets are only necessary when you want to *override* standard priority; if their default is left-to-right, the brackets appear redundant rather than transformative.
+*   **The "Natural" Trap:** The student is unlikely to realize they went wrong because $20 \div 4$ "fits" perfectly. Had the calculation resulted in a messy fraction (e.g., if the sum was $7 + 12 \div 4$), they might have paused, but because the left-to-right logic yields a whole number, it reinforces their confidence in the incorrect method.

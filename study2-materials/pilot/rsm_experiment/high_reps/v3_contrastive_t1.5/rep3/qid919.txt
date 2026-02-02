@@ -1,0 +1,17 @@
+This question targets two specific areas of difficulty: squaring decimals and the order of operations (BIDMAS/BODMAS).
+
+The primary trap here is the interaction between $3$ and $0.3$. 
+- **Option B (0.27)** represents the most common error for students who understand the order of operations but struggle with the placement of the decimal point when squaring ($0.3^2 = 0.09$, but many students instinctively think $0.3^2 = 0.9$). Thus, $3 \times 0.09 = 0.27$.
+- **Option A (0.81)** represents students who perform the multiplication before the index ($3 \times 0.3 = 0.9$, then $0.9^2 = 0.81$). This is a very common BIDMAS error.
+- **Option C (1.8)** represents students who treat $x^2$ as $2x$ ($3 \times 0.3 \times 2 = 1.8$).
+- **Option D (2.7)** is the correct answer ($0.3 \times 0.3 = 0.09$; $0.09 \times 3 = 0.27$ is a mistake, $0.3 \times 0.3 = 0.09$ followed by $3 \times 0.09 = 0.27$... wait). 
+*Correction:* Actually, $0.3^2 = 0.09$. $3 \times 0.09 = 0.27$. **Wait, Option D is 2.7.** Many students will think $0.3^2 = 0.9$ and then $3 \times 0.9 = 2.7$. This is actually the "intended" distractor for those who misplace the decimal in the squaring phase but follow BIDMAS.
+
+Actual calculation: $y = 3(0.3)^2 = 3(0.09) = 0.27$. **Option B is the correct answer.** 
+
+The presence of $0.27$ and $2.7$ side-by-side will cause significant confusion for proficient students who are unsure where the decimal point lands.
+
+below_basic: A=30% B=15% C=25% D=30%
+basic: A=35% B=20% C=10% D=35%
+proficient: A=20% B=45% C=5% D=30%
+advanced: A=5% B=85% C=0% D=10%

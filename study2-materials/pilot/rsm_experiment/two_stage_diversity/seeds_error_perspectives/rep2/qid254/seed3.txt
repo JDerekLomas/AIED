@@ -1,0 +1,11 @@
+A specific reason why students often find this question difficult is the presence of the number **zero** in the dataset, which triggers a misconception regarding whether it "counts" as a value.
+
+### The Specific Difficulty: Inclusion vs. Exclusion of Zero
+Students frequently struggle with the ontological status of zero in a data set. This leads to a conflict between the sum and the divisor, making **Option C** a very attractive "distractor."
+
+**Why this specific error happens:**
+1.  **Additive Identity Confusion:** Because $0 + 1 + 3 + 4 + 7 = 15$ and $1 + 3 + 4 + 7 = 15$, students intuitively feel that the zero "isn't doing anything." 
+2.  **Counting Heuristic:** Many students use a mental shortcut where they count the "numbers" they see. To a novice learner, "zero" is often synonymous with "nothing" or "empty." Therefore, they perceive only four "active" data points.
+3.  **The Resulting Trap:** The student correctly calculates the sum (15) but incorrectly identifies the $n$ value as 4 instead of 5. This leads them to select **Option C** ($15 \div 4 = 3.75$), whereas the correct mean must include the zero as an observation ($15 \div 5 = 3$).
+
+In this specific question, **Option A** is the correct answer, but students who fall into the "zero doesn't count" trap will overlook it because they do not see the 0 written in the numerator, despite the divisor (5) being correct for the full dataset. Conversely, a student might select **Option B** because they see all five numbers and the divisor 5, but fail to notice the **notational trap** (the lack of parentheses), which violates the order of operations.

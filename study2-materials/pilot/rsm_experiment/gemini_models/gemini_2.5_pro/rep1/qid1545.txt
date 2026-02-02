@@ -1,0 +1,30 @@
+Here is my prediction, based on marking a stack of 200 Year 9 papers and seeing these exact BIDMAS traps year after year.
+
+***
+### Teacher's Analysis
+
+**Correct Calculation:**
+*   **Left Side:** `8 + 12 ÷ 4` follows BIDMAS. Division first: `12 ÷ 4 = 3`. Then `8 + 3 = 11`.
+*   **Right Side:** `(8 + 12) ÷ 4` has brackets. Brackets first: `8 + 12 = 20`. Then `20 ÷ 4 = 5`.
+*   **Comparison:** `11` compared to `5`.
+*   **Correct Answer:** `11 > 5`, so the answer is **A**.
+
+**Common Errors & Misconceptions:**
+*   **The "Equals" Trap (Leads to C):** This is the most common and "attractive" error. Students see the same numbers (8, 12, 4) and the same operations (+, ÷) in the same order. Without applying BIDMAS rules carefully, they assume the expressions are identical. This is a very quick, system-1 "looks the same" bit of thinking that students who are less confident or in a rush will fall for.
+*   **The "Left-to-Right" Trap (Leads to C):** A specific type of error that also leads to C. The student ignores BIDMAS on the left side and calculates `8 + 12 = 20`, then `20 ÷ 4 = 5`. They then correctly calculate the right side as `(8+12) ÷ 4 = 5`. Because they get `5 = 5`, they choose C. This is a powerful misconception because the incorrect method on the left side yields the same result as the correct method on the right side, reinforcing their faulty logic.
+*   **Minority Errors (Leads to B or D):**
+    *   Choosing `<` (B) would require a significant calculation error on one or both sides, for instance, getting the left side value to be smaller than the right. This is less common than the `C` trap.
+    *   Choosing `≥` (D) shows a misunderstanding of mathematical symbols. They might get `>` but be unsure of its exact meaning, or think the symbols are interchangeable. This is typically seen only at the lowest ability levels.
+
+**Student Profiles:**
+*   **Below Basic:** Will almost certainly fall for the "looks the same" or "left-to-right" trap, leading overwhelmingly to `C`. They are not secure with order of operations. A few might randomly guess or misunderstand the symbols, picking B or D.
+*   **Basic:** Still very susceptible to the "left-to-right" trap, as it feels intuitive. However, a significant minority will remember "do division first" from their lessons, get it right, and choose `A`. The `=` trap is still the most likely outcome.
+*   **Proficient:** These students generally know and apply BIDMAS. The vast majority will correctly calculate both sides and confidently choose `A`. A small number might make a careless slip under exam pressure and fall into the "left-to-right" trap, but this is an uncharacteristic error for them.
+*   **Advanced:** Will solve this almost instantly and correctly. They not only know the rule but understand *why* the brackets change the order and thus the outcome. It's almost impossible for them to get this wrong.
+
+***
+
+below_basic: A=10% B=5% C=80% D=5%
+basic: A=40% B=5% C=55% D=0%
+proficient: A=90% B=2% C=8% D=0%
+advanced: A=99% B=0% C=1% D=0%

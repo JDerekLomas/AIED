@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, I will focus on a specific, high-frequency procedural error involving **Linear Equations with Fractional Coefficients.**
+
+### 1. The Specific Misconception: The "Partial Multiplication" Bug
+The specific error is **inconsistent application of the inverse operation when clearing a denominator.**
+
+While Katie’s intention is to multiply by 3 to "get rid of" the fraction, she fails to apply the property of equality to the entire side of the equation. This is often driven by a "Distributive Property Conflict": the student sees the $\times 3$ and $\div 3$ as a pair that "cancels out" for the $x$, but fails to recognize that the $-5$ is a separate term that must also be scaled.
+
+### 2. Step-by-Step Student Reasoning
+A student with this misconception would approach the problem as follows:
+
+*   **Step 1:** Look at the equation $\frac{x}{3} - 5 = 12$ and decide they want to remove the fraction first (often because they find fractions "scary" or difficult).
+*   **Step 2:** They identify that the inverse of "divide by 3" is "multiply by 3."
+*   **Step 3 (The Bug):** They multiply the $\frac{x}{3}$ by 3 to get $x$. They then multiply the right-hand side ($12$) by 3 to get $36$. Crucially, they **ignore** the $-5$ because it is not "part of the fraction."
+*   **Step 4:** They write down the resulting line: $x - 5 = 36$.
+*   **Step 5:** They look at Tom’s working. They recognize that adding 5 to both sides is a "correct" move ($12 + 5 = 17$), so they conclude Tom is right.
+*   **Step 6:** Since they believe their own derived line ($x - 5 = 36$) is also a valid first step, they conclude Katie is also right.
+
+### 3. Resulting Answer Option
+This misconception leads the student to choose **C) Both Tom and Katie.**
+
+The student validates Tom’s working using the "Order of Operations in Reverse" (SAMD) logic and validates Katie’s working using their own "Partial Multiplication" bug.
+
+### 4. Attractiveness of the Error
+This error is **extremely natural and highly attractive** for a Year 9 student for several reasons:
+
+*   **Visual Proximity:** The 3 is physically under the $x$, but not under the 5. Students often treat terms as "silos." To a novice, the 5 looks "safe" and "untouched" by the multiplication because it isn't part of the numerator.
+*   **The "Elimination" Mentality:** Students are often taught that the goal of multiplying by the denominator is to "cancel it out." In their minds, they have successfully canceled the 3, so they feel they have performed the move correctly.
+*   **Lack of Verification:** The student is unlikely to realize they are wrong. If they were to solve $x - 5 = 36$, they would get $x = 41$. If they solved $\frac{x}{3} = 17$, they would get $x = 51$. Unless the student has the habit of checking their final answer back in the original equation, the two different results for $x$ will never be compared, leaving the misconception undiscovered.

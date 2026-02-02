@@ -1,0 +1,21 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is common among students transitioning from arithmetic thinking to formal algebraic notation.
+
+### 1. The Specific Misconception: The "Serial Processing" Bug (Priority Overlook)
+The specific misconception is a **failure to recognise the Vinculum (fraction bar) as a grouping symbol**. In arithmetic, students are taught to read operations from left to right. When moving to algebra, many students view the horizontal fraction bar merely as a replacement for the `÷` sign, without realizing it inherently acts like a set of brackets for whatever is above or below it. This results in **Serial Processing**, where the student performs the first operation and "tacks on" the remaining terms afterwards.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would work through the question as follows:
+1.  **Step 1:** Look at the first part of the expression: \(c \div h\).
+2.  **Step 2:** Convert this part into its algebraic fraction form because they know "division becomes a fraction." This results in \(\frac{c}{h}\).
+3.  **Step 3:** See the remaining part of the expression: \(+ 4\).
+4.  **Step 4:** Since they have already "processed" the division, they simply write the \(+ 4\) next to their fraction, failing to realize that the division operator applies to the *entire sum* inside the brackets.
+5.  **Conclusion:** They arrive at the expression \(\frac{c}{h} + 4\).
+
+### 3. Resulting Answer Option
+This misconception leads the student directly to **Option C: \(\frac{c}{h} + 4\)**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural** and deceptively "logical" to a Year 9 student for several reasons:
+*   **Visual Mimicry:** The student feels they have successfully translated every symbol from the prompt into the answer in the correct left-to-right order (\(c\) first, then division, then \(h\), then \(+ 4\)).
+*   **The "Invisible Brackets" Problem:** In the expression \(c \div (h+4)\), the brackets are visible. However, in the correct answer \( \frac{c}{h+4} \), the brackets disappear because the vinculum performs that role. A student may feel that choosing Option A "loses" the brackets, whereas Option C preserves the separation between the division and the addition.
+*   **Overconfidence:** The student would likely **not realize they went wrong**. To them, Option A looks "messy" because it puts an operation inside a denominator, while Option C looks like a tidy two-step process that matches the rhythm of how they read the original expression aloud: *"c divided by h... plus 4."*

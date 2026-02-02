@@ -1,0 +1,49 @@
+<chain_of_thought>
+Examining this item about converting a sequence of operations into correct algebraic notation.
+
+The operations: start with n, subtract 5, divide by 8, add 4, multiply by 7.
+
+Building up: n-5, then (n-5)/8, then (n-5)/8 + 4, then 7((n-5)/8 + 4).
+
+Jo's version 7((n-5)/8 + 4) is correct — it nests the addition of 4 inside the multiplication by 7, preserving the intended order.
+
+Paul's version 7((n-5) ÷ 8) + 4 is wrong — the +4 occurs after the multiplication by 7, which means Paul's expression performs multiply-by-7 before add-4, reversing those two operations.
+
+Answer: A (Only Jo).
+
+Now for difficulty estimation. I need to consider what makes this item challenging:
+
+1. Students must parse two different algebraic expressions with brackets — this requires algebraic reading fluency.
+2. The difference between the expressions is a single structural detail (placement of +4 relative to the outer brackets).
+3. The function machine context helps ground the problem but the notation itself is abstract.
+
+A key consideration: many students at KS3/KS4 level struggle with nested brackets. Research on BIDMAS understanding suggests that even after instruction, a significant proportion of students default to left-to-right processing. The tested misconception is quite prevalent.
+
+However, the function machine scaffold makes this more accessible than a purely symbolic question. Students who carefully trace through each step can arrive at the answer even without deep algebraic fluency.
+
+Comparing to calibration: the BIDMAS item (0.4 - 1/5 × 3) was easy (0.134 incorrect). But that was computation, not expression interpretation. This is considerably more demanding. I'd place it closer to the factorising item difficulty (0.473) or slightly above.
+
+My estimates: classical difficulty ~0.52, IRT b ~0.50. The item should discriminate well because it targets a specific, well-defined skill. Guessing probability is moderate — the "who is correct" format has some inherent structure that allows partial-knowledge responses.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.16</guessing_probability>
+</predictions>

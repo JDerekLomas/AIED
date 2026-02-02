@@ -1,0 +1,16 @@
+To predict the performance of Year 9 students on this question, we must look at the specific algebraic traps involved.
+
+**The Logic of the Errors:**
+*   **Option C (3.3):** This is the "Strongest Distractor." Students correctly substitute $y=0.5$ and get $10x - 3 = 30$. However, when "moving" the $-3$ to the other side, they treat it as $30 - 3 = 27$ rather than adding it. $27/10 = 2.7$. (Wait, this leads to D). 
+*   **Option C (3.3):** The logic for 3.3 is correctly adding the 3 to get 33, then dividing by 10. This is the **correct answer**.
+*   **Option D (2.7):** As noted above, this is the most common procedural error: subtracting 3 from 30 instead of adding it.
+*   **Option A (4.25):** This comes from "reversal" errors. A student might try to find $y$ when $x=0.5$. $10(0.5) - 30 = -25$. $-25 / 6 \approx 4.16$ or $30+12 / 10...$ Or, more commonly, they handle the $6y$ poorly, thinking they need to add $6(0.5)$ to $30$ and then divide by something else entirely, or confuse the $x/y$ placement.
+*   **Option B (-4.25):** Usually a sign error paired with the mistake above.
+
+**The "Vibe" across 200 papers:**
+Below basic students often guess based on the numbers appearing in the prompt or perform a random operation (like $30 \div 6 - 0.5 = 4.5$). Proficient students handle the substitution but often stumble on the two-step equation $(10x - 3 = 30)$ by performing the inverse operation incorrectly.
+
+below_basic: A=25% B=20% C=20% D=35%
+basic: A=15% B=10% C=35% D=40%
+proficient: A=5% B=5% C=65% D=25%
+advanced: A=2% B=1% C=92% D=5%

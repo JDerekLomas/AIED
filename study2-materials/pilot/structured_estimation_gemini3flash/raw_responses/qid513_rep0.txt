@@ -1,0 +1,38 @@
+<chain_of_thought>
+The target item asks students to evaluate two steps in solving the linear equation $15 = 2p - 4$.
+- Step 1: $11 = 2p$. This is incorrect. The student subtracted 4 from 15 instead of adding 4 (inverse operation error).
+- Step 2: $22 = p$. This is incorrect. It appears to come from $11 \times 2$ instead of $11 \div 2$.
+The correct answer is D (Both steps incorrect).
+
+Comparing this to the calibration items:
+- The misconception (using the same operation rather than the inverse) is identical to the first calibration item ($ -5=p+10 \rightarrow p=5 $), which had a very low classical difficulty (0.167).
+- Evaluating someone else's steps adds a layer of cognitive load and "meta-analysis" compared to just solving it.
+- Option A is a strong distractor for those who think Step 1 is correct ($15-4=11$).
+- Option C is a distractor for students who consistently use the wrong operation (subtracting then multiplying).
+- Because both steps are wrong, students who get Step 1 wrong but Step 2 "right" (relative to their wrong Step 1) might be confused by the options.
+- The IRT difficulty for items testing this specific inverse-operation misconception tends to be around -0.5 to 0.5, but the classical difficulty is often surprisingly low because the misconception is so "sticky."
+
+The item is clear but requires students to resist the "intuitive" but wrong operations shown in the steps. The visual layout is standard for "error analysis" questions in the UK curriculum.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

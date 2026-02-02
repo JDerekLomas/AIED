@@ -1,0 +1,10 @@
+This question is a classic test of the hierarchy of operations (BIDMAS/BODMAS) combined with decimal arithmetic. It is significantly more difficult than it looks because it triggers two distinct cognitive traps.
+
+First, many students will incorrectly calculate $(3 \times 0.3)^2$ instead of $3 \times (0.3)^2$. This leads to $0.9^2 = 0.81$ (Option A). Second, even students who know to square first often struggle with the decimal placement of $0.3 \times 0.3$, often guessing $0.9$, which leads to $3 \times 0.9 = 2.7$ (Option D). Option C ($1.8$) represents the common "multiplying by the power" error $(3 \times 0.3) \times 2$.
+
+The "Basic" level is where we see the most varied spread because students are most susceptible to $0.3^2 = 0.9$, making Option D a very high-frequency "false positive" for understanding.
+
+below_basic: A=25% B=15% C=35% D=25%
+basic: A=30% B=20% C=10% D=40%
+proficient: A=20% B=55% C=5% D=20%
+advanced: A=5% B=90% C=2% D=3%

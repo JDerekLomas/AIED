@@ -1,0 +1,35 @@
+<chain_of_thought>
+Target: Multiply out -5(m - 7). Answer: C, -5m + 35.
+
+This problem tests whether students correctly handle the sign when multiplying -5 by -7. The tested misconception is believing negative times negative is negative, which would yield option B.
+
+Let me think about this from a student perspective. A Year 8 student encounters this problem. They likely know they need to multiply -5 by each term. The first multiplication, -5 * m = -5m, is relatively straightforward. The critical moment is -5 * (-7). Students who have memorized "negative times negative is positive" without deep understanding may still err under the cognitive pressure of also tracking the subtraction sign from (m - 7). Some students may not even parse "m - 7" as "m + (-7)" and instead think of it as two separate operations, leading to various errors.
+
+Comparing to calibration items: The order-of-operations item (0.4 - 1/5 * 3) has classical difficulty 0.134 and b = -0.245. That item tests BIDMAS knowledge and is relatively easy. The inequality item (2n + 3 <= 3n - 7) has difficulty 0.569 and b = 0.808, involving multiple steps and variable manipulation. This bracket expansion sits between these -- more demanding than simple arithmetic but less complex than multi-step inequality solving.
+
+I think the difficulty will be moderate. The misconception about negative multiplication is very common (I'd say misconception_strength is high), but the problem format is standard and well-practised. Perhaps 42% get it wrong, considering that this specific misconception tends to catch even students who are otherwise competent at algebra.
+
+For discrimination: the item has a clean diagnostic structure. Students either know the sign rule or they don't. This should give decent discrimination, perhaps around 1.2. Guessing is likely low because students with the misconception will confidently choose B rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

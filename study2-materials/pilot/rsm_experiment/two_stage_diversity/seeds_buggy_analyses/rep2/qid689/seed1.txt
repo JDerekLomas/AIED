@@ -1,0 +1,25 @@
+As an expert in mathematical misconceptions, I identify the following "buggy procedure" frequently encountered in UK Year 9 classrooms.
+
+### 1. The Specific Misconception: "Operation Inversion with Fixed Constant" (or "Top-Down Division")
+The misconception is the belief that when solving for a variable in a denominator, the relationship between the numbers remains a "Top $\div$ Bottom" structure, where the larger number (or the constant on the other side) simply undergoes the inverse operation of the numerator. 
+
+More specifically, many students fail to understand that $p$ is a **divisor**, not a dividend. They default to the **"Division is Commutative" bug**, incorrectly assuming that if $10 = 5/p$, then $p$ must be $10 \div 5$.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would typically follow these steps:
+
+*   **Step 1:** Look at the equation $10 = \frac{5}{p}$ and identify that it involves division and the numbers 10 and 5.
+*   **Step 2:** Recognize that "undoing" the equation involves rearranging the numbers 10 and 5.
+*   **Step 3:** Apply the buggy rule: "To find the unknown at the bottom, divide the answer by the top" (or simply divide the larger number by the smaller number because it feels 'neater').
+*   **Step 4:** Perform the calculation: $p = 10 \div 5$.
+*   **Step 5:** Conclude that $p = 2$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C ($p = 2$)**.
+
+### 4. How Natural/Attractive is this Error?
+This error is **highly attractive** and one of the most common "trap" results in KS3 and GCSE algebra for several reasons:
+
+*   **Ease of Calculation:** $10 \div 5$ yields a clean, whole number (2), whereas the correct calculation ($5 \div 10$) yields a decimal (0.5). Students often have an "answer instinct" that steers them toward whole numbers, assuming decimals are a sign they have done something wrong.
+*   **Linguistic Priming:** When a student reads "10 equals 5 divided by $p$," their brain often prioritizes the numbers 10 and 5. Since 10 is the larger "total," they subconsciously revert to a part-whole model where the bigger number is divided by the smaller one.
+*   **Lack of Verification:** The student would likely **not** realize they went wrong. If they were to "check" their work, they might plug 2 back in and mentally process "10, 5, 2" as a valid number family ($5 \times 2 = 10$), failing to notice that $5 \div 2$ actually equals 2.5, not 10. They are validating the *relationship between the numbers*, not the *structure of the equation*.

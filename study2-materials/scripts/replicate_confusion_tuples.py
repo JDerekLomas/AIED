@@ -266,8 +266,12 @@ def load_eedi_items_with_misconceptions(csv_path: str, limit: int = None) -> lis
         if 'AnswerAText' in row:
             options = f"A) {row['AnswerAText']}\nB) {row['AnswerBText']}\nC) {row['AnswerCText']}\nD) {row['AnswerDText']}"
 
-            correct = row['CorrectAnswer']
-            correct_pct = row[f'pct_{correct}'] / 100
+            correct = row['CorrectAnswer']  # Kaggle letter (for LLM prompt)
+            neurips_correct = row['neurips_correct_pos']  # NeurIPS position (for pct lookup)
+            correct_pct = row[f'pct_{neurips_correct}'] / 100
+            # NOTE: target_distractor uses Kaggle letter ordering — pct lookup
+            # is misaligned with NeurIPS pct columns. Cannot fix without
+            # per-option Kaggle→NeurIPS mapping.
             target_pct = row[f'pct_{target_distractor}'] / 100 if target_distractor else 0
 
             item = {

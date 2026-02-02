@@ -1,0 +1,45 @@
+<chain_of_thought>
+This item tests whether students can translate c / (h+4) into correct fraction notation. It targets the misconception of applying operations left-to-right without respecting grouping.
+
+Key considerations:
+
+1. The correct answer A is the most parsimonious option -- it's literally what the expression says. This makes it potentially easy for students to identify even without deep understanding, just by pattern matching.
+
+2. The misconception distractor (C: c/h + 4) requires the student to actively misparse the brackets. Students who understand that brackets mean "treat as a single unit" will not be tempted.
+
+3. Distractor D (fraction flipped) tests a different misconception entirely -- confusion about dividend vs. divisor. This could catch some students.
+
+4. Distractor B is the weakest distractor -- it's hard to see a natural reasoning path that leads to adding 4 to the numerator.
+
+For difficulty estimation, I need to consider:
+- The calibration item with the same misconception (0.4 - 1/5 x 3 = ?) had classical difficulty 0.134, meaning 86.6% got it right. That item required computation.
+- This item requires only notation recognition, which could go either way: easier because no computation, or harder because algebraic notation is abstract.
+
+I think overall this is an easy item. The correct answer visually "looks right" and matches the structure of the expression. I estimate around 0.20 classical difficulty.
+
+For discrimination: this should discriminate reasonably well, separating students who understand algebraic fraction notation from those who don't. I estimate a around 1.30.
+
+Guessing: with four options and one clearly matching option, true guessing should be minimal. Maybe 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>4</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.50</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

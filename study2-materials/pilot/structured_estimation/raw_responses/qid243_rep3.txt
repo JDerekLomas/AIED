@@ -1,0 +1,40 @@
+<chain_of_thought>
+Target: 3n + 2 >= 4n - 5, correct C (7 >= n), misconception: same operation instead of inverse.
+
+I want to focus on the discrimination and guessing aspects for this replication.
+
+The item tests a specific, well-defined misconception. Students either know to use inverse operations or they don't — this should lead to reasonable discrimination. However, the presence of distractor D (n >= 7) complicates things: a student who correctly solves the inequality but writes the answer as n >= 7 (flipping sides without flipping the sign) would get it wrong despite understanding inverse operations. This means the item partially measures inequality manipulation skills beyond just the stated misconception, which could reduce discrimination on the intended construct.
+
+For guessing: with 4 options, baseline guessing is 0.25. However, students with some partial knowledge can eliminate options. A student who knows the answer should involve 7 (from adding 2 + 5) can narrow to C or D, giving a 50% chance. This suggests guessing might be somewhat elevated.
+
+Looking at the calibration set pattern:
+- Easy items (difficulty 0.13-0.17): guessing near 0
+- Medium items (difficulty 0.30-0.47): guessing 0 to 0.19
+- Hard items (difficulty 0.57): guessing 0.19
+
+The anchor inequality item at 0.569 classical difficulty had guessing 0.193 and discrimination 1.050. This item should behave similarly but the C/D confusion could spread responses and increase apparent guessing.
+
+I'll put classical difficulty at 0.50, slightly lower than the anchor because the arithmetic is marginally cleaner. IRT difficulty around 0.60. Discrimination around 1.00 given the D distractor potentially catching some able students. Guessing around 0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.00</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

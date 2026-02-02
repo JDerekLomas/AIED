@@ -1,0 +1,18 @@
+In this Year 9 mock, this question assesses Order of Operations (BIDMAS/BODMAS). The primary "trap" is the Left-to-Right bias, where students perform $8+12$ first on the left side, leading them to think both sides are equal.
+
+**Calculation Errors:**
+*   **Correct (Left Side):** $8 + (12 \div 4) = 8 + 3 = 11$.
+*   **Correct (Right Side):** $(8 + 12) \div 4 = 20 \div 4 = 5$. Since $11 > 5$, the answer is **A**.
+*   **The "Equal" Trap:** Students do $8+12$ first on both sides (ignoring BIDMAS on the left), getting $20 \div 4 = 5$ on both sides. This leads to **C**.
+*   **The Inverse Trap:** Students correctly calculate $11$ and $5$, but confuse the inequality signs (thinking $<$ means "greater than") or assume division makes a number smaller, leading to **B**.
+
+**Teacher's Observations:**
+*   **Below Basic** students often view maths as a string of numbers to be processed strictly left-to-right. They see "8+12" first and dive in, making C very attractive.
+*   **Basic** students remember BIDMAS exists but often apply it inconsistently, or they get the right numbers (11 and 5) but habitually pick the wrong symbol.
+*   **Proficient** students usually handle the calculation well, but a significant minority still fall for the "visual symmetry" of the numbers and rush to choose C without picking up a pen.
+*   **Advanced** students see this as a "standard" check and rarely miss it, though some might overthink the $\geq$ symbol (D) even though A is more precise.
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=15% C=35% D=5%
+proficient: A=80% B=5% C=12% D=3%
+advanced: A=96% B=1% C=2% D=1%

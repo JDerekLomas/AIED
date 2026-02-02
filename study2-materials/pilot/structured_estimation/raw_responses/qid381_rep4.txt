@@ -1,0 +1,43 @@
+<chain_of_thought>
+Analyzing this formula rearrangement item. Students must transform A = (1/2)bh into h = ...
+
+The algebraic steps are: multiply by 2, divide by b, yielding h = 2A/b (option B).
+
+I want to approach this from the perspective of common student errors and how they map to the answer choices.
+
+Error pattern 1 (Option A): Student treats rearrangement as simple substitution -- swapping A and h in the original formula. This yields h = (1/2)(bA). This is a very basic misunderstanding, likely from younger or lower-ability students.
+
+Error pattern 2 (Option C): Student attempts rearrangement but applies the same operation instead of the inverse. Seeing that h is multiplied by (1/2) and b in the original, the student divides by both 2 and b, getting h = A/(2b). This is the primary misconception being tested and is extremely common in the research literature on algebraic equation solving.
+
+Error pattern 3 (Option D): Student either cannot solve it and defaults to this, or makes an error that doesn't match any option and concludes they're all wrong.
+
+What's interesting about this item is the interplay between the formula context and the algebraic demands. The triangle area formula is very well-known, which means students might try to use memorized versions rather than algebraic manipulation. Some students might actually know that h = 2A/b from memory rather than deriving it, which would reduce discrimination slightly.
+
+Thinking about the calibration set more carefully: the items testing this same misconception show a clear progression. Simple linear equation: 0.167. Function machine: 0.295. Inequality with multiple terms: 0.569. This formula rearrangement sits somewhere in between -- it's more complex than a single-operation equation but the context is very familiar. I'd place it around 0.40-0.52.
+
+One factor that could push difficulty higher is that many students are more comfortable "solving for x" in equations than "making y the subject" in formulae. The language of "rearrangement" and "subject" can itself be a barrier.
+
+I'll estimate classical difficulty at 0.52, IRT difficulty slightly above zero, good discrimination, and low guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

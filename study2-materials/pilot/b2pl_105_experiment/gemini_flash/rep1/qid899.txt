@@ -1,0 +1,16 @@
+This question specifically tests the hierarchy of operations (BIDMAS/BODMAS). While it seems straightforward, it contains a classic "left-to-right" trap and an "addition before subtraction" trap (caused by the acronym itself).
+
+For this specific question, the presence of the multiplication sign in the middle is a strong visual cue for many. However, "Below Basic" students almost exclusively read left-to-right. "Basic" level students often remember the BIDMAS acronym but mistakenly believe Addition must come before Subtraction (affecting the final calculation, though this question only asks for the *first* step). The most common error for students who know a rule exists but haven't mastered it is following the linear order of the expression.
+
+**Analysis of the options:**
+*   **C (Correct):** Multiplication takes precedence.
+*   **B (Left-to-right):** The most common error for students who don't apply BIDMAS.
+*   **A (End-loading):** Often chosen by students who think Addition always comes before Subtraction because 'A' comes before 'S' in the acronym.
+*   **D (Misconception):** Rarely chosen except by those guessing.
+
+The simplicity of the numbers (8, 7, 6, 10) means the arithmetic doesn't distract from the logic, making the "order of operations" the sole barrier.
+
+below_basic: A=15% B=60% C=20% D=5%
+basic: A=20% B=25% C=50% D=5%
+proficient: A=5% B=5% C=88% D=2%
+advanced: A=1% B=1% C=97% D=1%

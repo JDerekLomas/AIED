@@ -1,0 +1,11 @@
+Error Analysis:
+A) Incorrect distribution/expansion. The student multiplies only the first term on the right by 3, but not the -1 ($5d - 2 = 6d - 1$). This leads to $5d - 6d = 2 - 1$, so $-d = 1$, giving $d = -1$.
+B) Multiple sign errors and operation confusion. The student may have expanded correctly to $5d - 2 = 6d - 3$ but then performed additions incorrectly, such as adding $2d$ to $11d$ or incorrectly moving constants, ending up with $13$ as a denominator through a sum of $5 + 6 + 2$.
+C) "Ghost" coefficients or poor fraction handling. This occurs when students correctly multiply the right side ($6d - 3$) but then combine terms haphazardly across the equals sign without flipping signs ($5d + 6d + 2 = 13d$ and $3$). 
+D) Correct solution. Multiply both sides by 3 ($5d - 2 = 6d - 3$). Subtract $5d$ from both sides ($-2 = d - 3$). Add 3 to both sides ($1 = d$).
+
+Predictions:
+below_basic: A=40% B=25% C=20% D=15%
+basic: A=35% B=15% C=15% D=35%
+proficient: A=15% B=5% C=5% D=75%
+advanced: A=2% B=1% C=1% D=96%

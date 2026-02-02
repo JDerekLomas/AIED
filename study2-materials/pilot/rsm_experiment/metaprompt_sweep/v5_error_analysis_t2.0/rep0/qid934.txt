@@ -1,0 +1,14 @@
+To predict the performance of 200 Year 9 students on this question, we must look at the cognitive load and common misconceptions regarding implicit linear equations.
+
+**The "Trap" Analysis:**
+*   **A (20):** A common "number grabber" error. Students see $4$, $2$, $10$, and $0$. They might think $4 + 2 + 10 + 4 = 20$ or perform $4 \times 5 = 20$. This is a guess for students overwhelmed by variables.
+*   **B (3):** This is the result if a student mistakes the $x$ and $y$ values, or assumes a gradient relationship incorrectly (e.g., $10 - 4 - 3...$). More likely, it is a random selection when they can't balance the equation.
+*   **C (5):** The "Gold Standard" misconception. Students substitute $x=0$, getting $4(0) + 2y = 10$, and correctly solve $2y=10$. This is the intended correct answer.
+*   **D (2.5):** The "Divided by everything" error. Students see the $4$, ignore the $x=0$, and think they need to divide $10$ by $4$ instead of $2$. Or, they rearrange to $y = -2x + 5$ but divide the gradient by the constant.
+
+**Distribution Prediction:**
+
+below_basic: A=35% B=15% C=20% D=30%
+basic: A=10% B=10% C=45% D=35%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=0% B=2% C=96% D=2%

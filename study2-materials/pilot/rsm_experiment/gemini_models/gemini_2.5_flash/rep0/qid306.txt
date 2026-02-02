@@ -1,0 +1,24 @@
+Okay, I've just powered through 200 papers, so the common errors are very fresh in my mind! This question specifically targets order of operations, which is a perennial favourite for causing confusion, especially the 'PEMDAS/BODMAS' acronym oversimplifications. Let's break down each option and who would fall for it.
+
+**Understanding the errors:**
+
+*   **Problem P (4-5+6):** This is purely left-to-right. The "order of operations" doesn't apply to addition/subtraction beyond doing them as they appear.
+    *   `4-5` first is correct.
+    *   `5+6` first (i.e., treating it as `4-(5+6)` or `4+(-5+6)`) is an error caused by prioritizing addition over subtraction, or seeing the `+` sign and assuming it comes first, potentially a misuse of BODMAS focusing too heavily on A before S.
+*   **Problem Q (4+5x6):** This is a classic BODMAS question.
+    *   `5x6` first is correct (Multiplication before Addition).
+    *   `4+5` first is the error, stemming from purely left-to-right calculation, or misunderstanding BODMAS.
+
+**Predicting the choices:**
+
+*   **Option A:** P: `4-5` (Correct), Q: `4+5` (Incorrect). This is the "always left to right" choice for P but a fundamental BODMAS error for Q.
+*   **Option B:** P: `4-5` (Correct), Q: `5x6` (Correct). This is the fully correct answer.
+*   **Option C:** P: `5+6` (Incorrect), Q: `4+5` (Incorrect). This is a double error: prioritizing addition in P AND left-to-right for Q. Likely by students who really struggle with BODMAS and sometimes try to invent their own rules for P (maybe seeing +5+6).
+*   **Option D:** P: `5+6` (Incorrect), Q: `5x6` (Correct). This shows a correct application of BODMAS for Q, but a misunderstanding for P, specifically thinking addition comes before subtraction even when not grouped, or seeing it as `-5+6` and treating that part first.
+
+Here's my prediction based on the ability levels I've seen:
+
+below_basic: A=30% B=15% C=45% D=10%
+basic: A=35% B=40% C=15% D=10%
+proficient: A=10% B=80% C=5% D=5%
+advanced: A=0% B=100% C=0% D=0%

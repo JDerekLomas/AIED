@@ -1,0 +1,26 @@
+As an experienced UK maths teacher, I see this type of question frequently. It tests two distinct skills: the order of operations (BIDMAS) and decimal arithmetic. Students often struggle when these are combined.
+
+### Step 1 — Reasoning Analysis
+
+*   **A) 0.81**: This stems from a **conceptual error in the order of operations** combined with a decimal calculation. The student calculates $(3 \times 0.3)^2$. They multiply 3 by 0.3 to get 0.9, then square 0.9. They correctly square 9 to get 81, but manage the decimal places as if they were doing $0.9^2 = 0.81$.
+*   **B) 0.27**: **The Correct Answer.** The student correctly follows BIDMAS/order of operations by squaring the $x$ value first: $0.3^2 = 0.09$. Then they multiply by 3: $3 \times 0.09 = 0.27$. 
+*   **C) 1.8**: This is a **procedural error combined with a linear misconception**. Some students treat $x^2$ as $x \times 2$. They calculate $y = 3 \times (0.3 \times 2) = 1.8$. Alternatively, they might do $3^2 \times 0.2$ (rare) or just get confused between $x^2$ and $2x$.
+*   **D) 2.7**: This is the most common **decimal placement error**. The student squares $0.3$ and gets $0.9$ (forgetting that $0.3 \times 0.3 = 0.09$). They then multiply $0.9 \times 3$ to get $2.7$. It represents a correct understanding of BIDMAS but a failure in decimal place value.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK system, **"Below Basic"** refers to students working at Grades 1-2, **"Basic"** to Grades 3-4 (Standard Pass), **"Proficient"** to Grades 5-6 (Strong Pass/B grade), and **"Advanced"** to Grades 7-9 (A/A*).
+
+**below_basic:** A=25% B=15% C=35% D=25%  
+*Reasoning: High guessing rate and a strong tendency to linearize the exponent (Option C).*
+
+**basic:** A=30% B=25% C=10% D=35%  
+*Reasoning: Students at this level usually know they must square first, but almost universally make the error $0.3 \times 0.3 = 0.9$, leading them heavily toward Option D.*
+
+**proficient:** A=15% B=55% C=5% D=25%  
+*Reasoning: Order of operations is usually secure, but the decimal place value ($0.09$ vs $0.9$) remains the primary distractor for about a quarter of this group.*
+
+**advanced:** A=5% B=90% C=0% D=5%  
+*Reasoning: Most should be fluent in decimal arithmetic. Errors at this level are typically due to rushing/silly mistakes rather than conceptual misunderstanding.*

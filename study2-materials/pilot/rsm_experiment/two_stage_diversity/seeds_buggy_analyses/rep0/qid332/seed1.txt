@@ -1,0 +1,30 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in UK Year 9 students (ages 13–14) regarding the **distributive property of multiplication over equality**, often called the **"Incomplete Inverse"** bug.
+
+### 1. The Misconception: Partial Multiplication
+The specific bug is **failing to multiply every term in an equation when clearing a denominator.** 
+
+A student with this misconception understands the inverse operation (multiplying by 3 to "undo" dividing by 3), but they apply it only to the term containing the fraction and the term on the other side of the equals sign. They treat the $-5$ as an independent entity that is "outside" the operation, failing to realize that to maintain equality, the entire left-hand side must be multiplied by 3.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would look at Katie’s suggestion and validate it as follows:
+
+*   **Step 1:** Look at $\frac{x}{3} - 5 = 12$. Identify that the $\frac{x}{3}$ is "annoying" and needs to be cleared.
+*   **Step 2:** Apply the inverse operation: multiply by $3$.
+*   **Step 3:** Calculate $\frac{x}{3} \times 3 = x$.
+*   **Step 4:** Keep the $-5$ exactly as it is because "it doesn't have a 3 under it."
+*   **Step 5:** Calculate $12 \times 3 = 36$.
+*   **Step 6:** Resulting line: $x - 5 = 36$. 
+
+Because Tom’s working is also standard ($\text{add } 5 \text{ to both sides}$), the student would conclude that both methods are valid alternative first steps.
+
+### 3. Answer Choice
+This misconception leads the student to select **C) Both Tom and Katie.**
+
+The student recognizes Tom is correct (the standard "add 5 first" approach), but their bug causes them to incorrectly validate Katie's method of "multiplying by the denominator first."
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and "natural"** because it mirrors the "Balance Method" but applies it selectively. 
+
+Students often view equations as a collection of separate "blocks." To them, the $-5$ is a distinct block from the $\frac{x}{3}$. In their mind, they are "fixing" the fraction block and "scaling" the answer block, but leaving the "whole number block" alone. 
+
+The student would likely **not realize they went wrong** because the resulting equation ($x - 5 = 36 \rightarrow x = 41$) produces a "clean" integer result. Without checking the solution back in the original equation ($\frac{41}{3} - 5 \neq 12$), the logic feels internally consistent. This is a classic "malrule" (a wrongly applied rule) that stems from a fragile understanding of the properties of equality.

@@ -1,0 +1,39 @@
+<chain_of_thought>
+The item requires students to substitute a decimal value ($x=0.3$) into a linear equation ($2x + 3y = 12$) and solve for $y$. 
+Steps: 
+1. Multiply $2 \times 0.3 = 0.6$.
+2. Subtract $0.6$ from $12$ to get $11.4$.
+3. Divide $11.4$ by $3$ to get $3.8$.
+
+Misconception analysis:
+The stated misconception is "using the same operation rather than the inverse." 
+- If a student adds $0.6$ instead of subtracting: $12 + 0.6 = 12.6$; $12.6 / 3 = 4.2$ (Option C).
+- If a student treats $2x$ as $2.3$ (concatenation): $2.3 + 3y = 12 \rightarrow 3y = 9.7 \rightarrow y \approx 3.23$ (not an option).
+- Arithmetic errors with decimals are highly likely here. $12 - 0.3 = 11.7$; $11.7 / 3 = 3.9$ (Option B).
+- $12.3 / 3 = 4.1$ (Option A).
+
+Psychometric context:
+Compared to the calibration items, this involves multi-step manipulation (substitution + two-step equation solving) with decimals. Decimals significantly increase the difficulty for UK secondary students compared to integers. While the underlying algebra is mid-level (KS3/Year 8-9), the decimal arithmetic makes it prone to errors. The discrimination is likely to be moderate-to-high as it separates those who can handle multi-step procedural logic from those who cannot. The guessing parameter is likely low because the distractors are mathematically "close" and derived from common errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

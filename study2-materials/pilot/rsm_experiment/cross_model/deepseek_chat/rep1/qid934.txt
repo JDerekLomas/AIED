@@ -1,0 +1,60 @@
+Let’s analyze the question step-by-step.  
+
+We have:  
+\[
+4x + 2y = 10
+\]  
+Table:  
+
+| \(x\) | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|---|
+| \(y\) | ★ |   |   |   |   |
+
+So when \(x = 0\),  
+\[
+4(0) + 2y = 10 \implies 2y = 10 \implies y = 5
+\]  
+
+Correct answer is **C) 5**.
+
+**What traps might exist here?**  
+
+- **A) 20** – could come from misreading the equation as \(4x + 2y = 10\), plugging \(x=0\) but wrongly calculating \(4 \times 0 = 0\), then thinking \(2y = 10 \implies y=10\), but then maybe mistakenly multiplying \(10 \times 2 = 20\)? Or maybe from \(4 \times 0 + 2 \times y = 10 \implies 2y=10\), then \(y=10\) then some slip to 20. Or maybe just substituting \(x=0\) incorrectly into \(4x\) part as \(4 \times 0 = 0\) but then forgetting to divide by 2 and picking 10, but 10 not an option, so maybe taking 10 and doubling for no reason.  
+
+- **B) 3** – might come from solving \(4x + 2y = 10\) for \(x=0\) as \(2y=10 \implies y=3\) (arithmetic error: 10/2 = 3? Some students might mis-divide). Also, some might mistakenly use \(4x + 2y = 10\) as \(4x + 2y = 8+2\) and get 3 from that. Or they might think \(y = 10 - 4x / 2\) and do \(10/2 = 5\) then subtract \(4x/2=0\) incorrectly.  
+
+- **D) 2.5** – likely from solving \(4x + 2y = 10\) but incorrectly rearranging: maybe they think \(y = (10 - 4x)/2\) but then mistakenly compute for \(x=4\) (the last column) instead of \(x=0\), so \(10 - 16 = -6\) / 2 = -3 not 2.5; or maybe misremembering the table asks for when \(x=2\): \(8 + 2y = 10 \implies 2y=2 \implies y=1\) — not 2.5. Actually 2.5 could come from \(4x+2y=10\) with \(x=0\): \(2y=10\) so \(y=5\) — but they might divide 10 by 4 instead of 2? That gives 2.5. Yes, that’s the most plausible: misreading the coefficient of \(y\) as 4 instead of 2, so \(4y=10 \implies y=2.5\).  
+
+---
+
+**Ability levels reasoning**  
+
+**Below basic** – likely to make arithmetic slips, maybe divide 10 by 4 → D (2.5), or misdivide 10/2 → B (3), but also some might pick A (20) if they confuse operations. Fewer pick C (correct) than higher groups.  
+
+**Basic** – fewer extreme errors like A=20, but still some pick D (divide by 4 error) or B (10/2=3 error). Correct proportion increases.  
+
+**Proficient** – most get C correct, but some may rush and divide by 4 instead of 2 → D. Almost no one picks A or B.  
+
+**Advanced** – nearly all get C correct; rare careless error might be D but very small percentage.  
+
+---
+
+Let me estimate percentages:
+
+below_basic: A=15% B=25% C=40% D=20%  
+(big spread because many errors; largest error B maybe from 10/2=3 slip)
+
+basic: A=5% B=20% C=60% D=15%  
+(now C is majority, but D still common from divide-by-4 mistake)
+
+proficient: A=0% B=5% C=90% D=5%  
+(almost all correct; D is main slip)
+
+advanced: A=0% B=0% C=98% D=2%  
+(almost perfect)
+
+---
+
+below_basic: A=15% B=25% C=40% D=20%  
+basic: A=5% B=20% C=60% D=15%  
+proficient: A=0%

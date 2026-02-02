@@ -1,0 +1,36 @@
+<chain_of_thought>
+The item tests a very specific and notorious nuance in mathematical notation and calculator logic: the order of operations (BIDMAS/BODMAS) regarding unary negatives versus powers. 
+
+1. **Mathematical analysis**: $-6^2$ is interpreted by calculators (and standard convention) as $-(6^2)$, resulting in $-36$. Many students intuitively believe it means $(-6)^2 = 36$.
+2. **Distractors**: 
+   - **C (36)** is the primary distractor and is extremely powerful. Most students who haven't encountered this specific calculator quirk or the formal priority of indices over negation will choose this.
+   - **A (12) and B (-12)** target students who confuse squaring with multiplying by 2.
+3. **Difficulty assessment**: Looking at the calibration examples, items involving order of operations (like the $0.4 - 1/5 \times 3$ item) often have very low classical difficulty (proportion correct). This item is famously counter-intuitive. In the UK context, even high-attaining students at GCSE (age 16) frequently miss this.
+4. **IRT parameters**: 
+   - The difficulty will be high (low classical proportion correct). 
+   - The discrimination is likely to be moderate to high because it separates those who truly understand notation from those who apply a "common sense" rule.
+   - Guessing (c) is likely low because the misconception (C) is so attractive that students don't guess; they confidently choose the wrong answer.
+5. **Comparison with Calibrations**: The "Solve $-5=p+10$" item had a 0.167 success rate. I expect this item to be similarly difficult or even harder, as the "36" distractor is more seductive than the distractors in the algebra items.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>9</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

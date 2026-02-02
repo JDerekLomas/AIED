@@ -1,0 +1,52 @@
+To approach this question, let's analyze the strategies proposed by Jo and Paul and evaluate their correctness.
+
+Jo's strategy for adding 19 is to add 10, then another 10, and then subtract 1. Mathematically, this can be represented as:
+\[ 19 = 10 + 10 - 1 \]
+This is indeed correct because:
+\[ 10 + 10 = 20 \]
+\[ 20 - 1 = 19 \]
+So, Jo's strategy is correct.
+
+Paul's strategy for subtracting 19 is to subtract 10, then another 10, and then add 1. Mathematically, this can be represented as:
+If we start with a number \( x \), subtracting 19 can be done by:
+\[ x - 19 = (x - 10) - 10 + 1 \]
+This is also correct because:
+\[ x - 10 = x - 10 \]
+\[ (x - 10) - 10 = x - 20 \]
+\[ x - 20 + 1 = x - 19 \]
+So, Paul's strategy is correct as well.
+
+Given that both Jo and Paul's strategies are mathematically sound, the correct answer is that both are correct.
+
+Now, let's predict the percentage of students at each ability level who would choose each option:
+
+- **Below Basic**: Students at this level might struggle with understanding the strategies or evaluating their correctness. They might find it hard to follow the logic or see the mathematical operations involved. However, the question is relatively straightforward, and the strategies are simple. 
+  - A=20% (Some might incorrectly think only Jo is right without fully understanding Paul's strategy)
+  - B=20% (Similarly, some might think only Paul is right)
+  - C=40% (Many would see that both strategies work, given the simplicity of the explanation)
+  - D=20% (Some might not understand either strategy)
+
+- **Basic**: Students at this level have a better grasp of basic arithmetic operations and might find it easier to validate both strategies.
+  - A=10%
+  - B=10%
+  - C=60% (Most would understand and agree with both Jo and Paul)
+  - D=20%
+
+- **Proficient**: Students at this level are comfortable with arithmetic and can easily see the logic in both strategies.
+  - A=5%
+  - B=5%
+  - C=80% (Most would clearly see that both strategies are correct)
+  - D=10%
+
+- **Advanced**: Students at this level have a deep understanding of mathematical concepts and can easily evaluate the effectiveness of each strategy.
+  - A=0%
+  - B=0%
+  - C=90% (Almost all would confirm that both Jo and Paul are correct)
+  - D=10%
+
+So, here is the final prediction:
+
+below_basic: A=20% B=20% C=40% D=20%
+basic: A=10% B=10% C=60% D=20%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=0% B=0% C=90% D=10%

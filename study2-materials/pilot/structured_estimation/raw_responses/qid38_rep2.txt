@@ -1,0 +1,42 @@
+<chain_of_thought>
+The target item: 3/(2x) + 4/x, correct answer A = 11/(2x).
+
+Step-by-step solution: LCD = 2x. Convert 4/x = 8/(2x). Then 3/(2x) + 8/(2x) = 11/(2x).
+
+Key considerations:
+1. Students must recognize that x and 2x share a common factor, so LCD is 2x not 2x^2.
+2. Students must multiply only the numerator of 4/x by 2 to get 8/(2x).
+3. Then add numerators: 3 + 8 = 11.
+
+The misconception (adding numerators and denominators) leads to B: (3+4)/(2x+x) = 7/(3x). This is an extremely well-documented misconception in mathematics education research.
+
+However, I want to consider whether option D might also be quite attractive. A student who adds 3+4=7 but correctly identifies 2x as the denominator would pick D. This represents a partial understanding - they know the denominator should be 2x but don't convert the second fraction properly.
+
+Compared to calibration items, this requires algebraic fraction manipulation which is typically Year 10+ content. The factorising item (0.473 classical difficulty) tests Year 10 algebra. I think this item is comparable or slightly harder because fraction misconceptions are so deeply ingrained.
+
+I'll estimate this as moderately difficult. The strong misconception pull of option B and reasonable attractiveness of D suggest many students will err. But the question is very clear and well-structured, so high-ability students should have no trouble.
+
+My estimate: classical difficulty around 0.55, moderate-high IRT difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

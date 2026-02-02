@@ -1,0 +1,18 @@
+To determine these percentages, I have looked at the common pitfalls associated with the Order of Operations (BIDMAS/BODMAS). 
+
+The calculation for the left-hand side is $8 + (12 \div 4) = 8 + 3 = 11$. 
+The calculation for the right-hand side is $(8 + 12) \div 4 = 20 \div 4 = 5$. 
+Therefore, $11 > 5$, so **D** is the correct answer.
+
+**Common Errors Identified:**
+*   **The "Left-to-Right" Trap:** Students who ignore BIDMAS calculate the LHS as $(8 + 12) \div 4 = 5$. They then see both sides equal 5 and choose **B (=)**. This is the most common error.
+*   **The "Same Numbers" Intuition:** Weaker students often assume that because the numbers and operators are the same, the result must be equal, leading them to choose **B** without calculating.
+*   **LHS/RHS Confusion:** Some students calculate correctly ($11$ and $5$) but point the inequality symbol the wrong way, leading to **C (<)**.
+*   **Symbol Confusion:** "Below Basic" students often treat the inequality symbols as random or "greater than or equal to" (A) as a sophisticated guess.
+
+Here is the predicted distribution based on 200 Year 9 mock papers:
+
+below_basic: A=10% B=60% C=15% D=15%
+basic: A=5% B=55% C=10% D=30%
+proficient: A=2% B=18% C=5% D=75%
+advanced: A=0% B=2% C=1% D=97%

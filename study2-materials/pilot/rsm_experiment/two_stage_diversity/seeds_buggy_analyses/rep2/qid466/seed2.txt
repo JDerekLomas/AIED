@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for a UK Year 9 student (typically aged 13–14).
+
+### 1. The Misconception: "The Sign-Preservation Bug" (Reciprocal vs. Inverse)
+The student correctly identifies that they need the **reciprocal** to change the magnitude of the fraction to $1$, but they conflate the rule for the **additive inverse** with the rule for the **multiplicative inverse**. 
+
+Specifically, they believe that to "get rid" of a negative fraction, they must multiply it by its positive counterpart. They operate under a flawed heuristic: *"To reach a target, the sign of the operator must be the opposite of the starting sign."*
+
+### 2. Step-by-Step Procedure
+A student with this misconception would approach the problem as follows:
+*   **Step 1:** Look at the left side and see $-\frac{3}{4}$. They recognize this is a fraction multiplication problem.
+*   **Step 2:** Observe the target value on the right side is $-1$. 
+*   **Step 3:** Recall the "flipping" rule for fractions. They decide that $\frac{4}{3}$ is needed to cancel out the digits $3$ and $4$.
+*   **Step 4 (The Error):** They reason about the signs. They think, *"The start is negative. To keep it negative or 'move' it, I should use a positive number because a negative times a negative would make it positive, and I don't want that."* 
+*   **Step 5:** Alternatively, they may simply confuse the rule for adding to zero (where you need $+\frac{3}{4}$) with the rule for multiplying to one (where you need the reciprocal), leading them to pick the positive reciprocal.
+
+### 3. Resulting Answer Option
+This misconception leads the student to **Option A: $\frac{4}{3}$**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural and extremely common** at Key Stage 3. 
+*   **The "Sign Switch" Intuition:** Students are often taught that to "undo" something in algebra, you switch the sign (e.g., $x - 5$ becomes $+ 5$). They incorrectly extend this "sign-switching" logic to the star in this multiplication, thinking they need to "balance" the negative with a positive.
+*   **The Over-Correction:** Students are so frequently warned that "two negatives make a positive" that they become fearful of using a second negative. They see the negative sign in the answer ($-1$) and think, *"If I put another negative in the star, the answer would have to be $+1$. Therefore, the star must be positive."*
+*   **Self-Correction Likelihood:** The student is **unlikely to realize they are wrong** because the numbers "cancel out" perfectly ($3$ cancels $3$, $4$ cancels $4$). The visual satisfaction of the numbers disappearing often blinds them to the sign error. They would only realize the error if they performed a formal check: $(-\frac{3}{4}) \times (\frac{4}{3}) = -\frac{12}{12} = -1$, which actually proves Option A is correct. 
+
+**Wait—did the expert just get caught?**
+Actually, in this specific equation $(-\frac{3}{4} \times \frac{4}{3} = -1)$, **A is the mathematically correct answer.** 
+
+If a student had the **opposite** misconception—**"The Sign Carry-Over Bug"** (thinking that because the start is negative and the result is negative, the multiplier must also be negative)—they would select **Option B**. This is the more "classic" mistake in this context: a student ignoring the rule that $(\text{neg}) \times (\text{neg}) = (\text{pos})$ and assuming "Negative in, negative out" requires a negative multiplier.

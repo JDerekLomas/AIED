@@ -1,0 +1,14 @@
+To predict the performance of UK students (typically GCSE level), we must look at the specific points of failure in this multi-step substitution task.
+
+**The "Teacher Trap":** Most teachers assume this is a simple linear substitution ($10x - 6(0.5) = 30 \implies 10x - 3 = 30 \implies 10x = 33 \implies x = 3.3$). 
+
+**The Student Reality:** 
+1. **The Negative Sign Trap:** A significant portion of "below basic" and "basic" students will struggle with the $-6y$ term. When they see a minus, they often intuitively feel the result should be smaller or they incorrectly move terms across the equals sign.
+2. **The "Calculation over Logic" Error:** Students often calculate $6 \times 0.5$ as $3$. However, instead of adding $3$ to $30$, many will subtract $3$ from $30$ because they see the minus sign in the original equation and carry that operation over, leading to $10x = 27$, thus $x = 2.7$ (Option D).
+3. **The "x/y swap":** Some students will plug $0.5$ into $x$ instead of $y$. $10(0.5) = 5$; $5 - 6y = 30$; $-6y = 25$; $y \approx -4.25$ (Option B).
+4. **Basic Calculation Error:** Students who add $3$ to $30$ but struggle with division by $10$ or confuse decimals might arrive at $4.25$ (Option A) by guessing or "fudging" the arithmetic to find a familiar-looking number.
+
+below_basic: A=15% B=25% C=25% D=35%
+basic: A=10% B=15% C=45% D=30%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=1% B=1% C=96% D=2%

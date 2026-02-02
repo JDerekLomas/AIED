@@ -1,0 +1,13 @@
+This question tests the understanding of BIDMAS/Order of Operations. 
+
+The left-hand side requires division before addition: $8 + (12 \div 4) = 8 + 3 = 11$. 
+The right-hand side requires brackets before division: $(8 + 12) \div 4 = 20 \div 4 = 5$. 
+Since $11 > 5$, the correct answer is A.
+
+**Teacher's Insight:**
+This is a classic Order of Operations problem. The primary trap is for students who read left-to-right on the first expression, performing $8 + 12 = 20$, then $20 \div 4 = 5$. If a student makes this error, they see $5$ on both sides and choose **C**. Students at "below_basic" and "basic" levels are highly susceptible to this "left-to-right" bias. Option **B** is rarely chosen unless students confuse the direction of the inequality signs. Option **D** is often ignored as students are taught that such expressions usually have a single definitive relationship.
+
+below_basic: A=25% B=15% C=55% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,39 @@
+Here are the predicted percentages, based on experience marking Year 9 papers.
+
+***
+
+### Analysis of Errors
+
+This question tests two core skills: the ability to systematically expand double brackets (using a method like FOIL, grid, or smiley face) and, crucially, fluency with directed numbers (negatives). The distractors are designed to catch specific, common errors with signs.
+
+*   **Correct Answer: B) \( m^{2}-12 m+35 \)**
+    *   Calculation: \( (m)(m) + (m)(-7) + (-5)(m) + (-5)(-7) \)
+    *   This simplifies to \( m^{2} - 7m - 5m + 35 \), which equals \( m^{2} - 12m + 35 \).
+    *   Requires both steps to be correct: collecting the middle terms and multiplying the two negative numbers.
+
+*   **Wrong Answer A) \( m^{2}-2 m-35 \)**
+    *   **Error Source:** Multiple sign errors.
+        *   The `+35` has become `-35`. This happens when students incorrectly calculate `(-5) * (-7) = -35`, a very common error where they see two negatives and just make the answer negative.
+        *   The `-12m` has become `-2m`. This comes from incorrectly calculating `(-7) + 5 = -2` instead of `(-7) + (-5)`. The student has likely forgotten the minus sign on the 5 when collecting the 'm' terms.
+    *   **Attractiveness:** Low. It requires two distinct errors, making it less likely than a single-error mistake.
+
+*   **Wrong Answer C) \( m^{2}+12 m+35 \)**
+    *   **Error Source:** Sign error in collecting the 'm' terms.
+        *   The student has correctly calculated `(-5) * (-7) = +35`.
+        *   However, they have incorrectly calculated the middle term as `+12m`. This can happen if they add 7 and 5 but ignore both minus signs, or see `-7m` and `-5m` and think "two negatives make a positive" – a rule misapplied from multiplication to addition.
+    *   **Attractiveness:** Medium. Students who are weak on directed number rules but have the expansion method mostly right often fall for this.
+
+*   **Wrong Answer D) \( m^{2}-12 m-35 \)**
+    *   **Error Source:** The single, most classic sign error in this topic.
+        *   The student has correctly collected the middle terms: `-7m - 5m = -12m`.
+        *   However, they have incorrectly calculated `(-5) * (-7) = -35`. This is an extremely common mistake. The rule "a negative times a negative is a positive" is easily forgotten, or they simply multiply `5*7` and carry a negative sign through.
+    *   **Attractiveness:** Very high. This is the most "attractive" wrong answer for a student who understands the expansion process but makes a single slip on the final multiplication.
+
+***
+
+### Predicted Percentages
+
+below_basic: A=15% B=20% C=25% D=40%
+basic: A=5% B=45% C=15% D=35%
+proficient: A=0% B=85% C=5% D=10%
+advanced: A=0% B=98% C=0% D=2%

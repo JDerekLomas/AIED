@@ -1,0 +1,45 @@
+<chain_of_thought>
+Evaluating this order of operations diagnostic item.
+
+Tom: 3+2-1 = 3-1+2. Computing: 4 = 4. Correct. This demonstrates that addition and subtraction (same precedence) can be reordered when we treat subtraction as addition of negatives.
+
+Katie: 3+2x1 = 2x1+3. Computing with BIDMAS: 3+(2x1) = 3+2 = 5. (2x1)+3 = 2+3 = 5. Correct. The multiplication term 2x1 evaluates to 2 regardless of position, then addition is commutative.
+
+Answer: C, both correct.
+
+Thinking about student errors: The main trap is distractor A (Only Tom). A student might accept Tom's rearrangement as valid since it only involves + and -, but reject Katie's because multiplication is "different" and you "can't move things around." This is a conceptual error rather than a computational one.
+
+Distractor B (Only Katie) seems unlikely - it's hard to see why someone would reject Tom's claim. Distractor D (Neither) might attract students who are very uncertain and think you can never rearrange expressions.
+
+The item is interesting because it tests conceptual understanding of commutativity across operation types. However, the specific numbers chosen (multiplying by 1) make the computational verification trivial, which could make the item easier than intended.
+
+Comparison with calibration items: The factoring Tom/Katie item (0.473 difficulty) required understanding of quadratic factoring and sign rules. This item requires only basic arithmetic and conceptual order-of-operations understanding. I'd expect it to be noticeably easier.
+
+However, I want to consider that the "who is correct" format itself creates difficulty. Research shows students struggle more with evaluating others' claims than solving problems directly. The four-option structure (Only A, Only B, Both, Neither) means random guessing gives 0.25.
+
+I'll estimate this is moderately easy. Classical difficulty perhaps 0.30-0.35 - not trivially easy because the conceptual trap about Katie's statement will catch some students, but most should be able to verify by direct computation.
+
+For IRT parameters: moderate discrimination since it distinguishes students who understand commutativity from those who don't, but the computational bypass weakens this. Low guessing since there's no reason to randomly land on C over other options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.12</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

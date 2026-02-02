@@ -1,0 +1,47 @@
+To approach this question, let's first understand what a quadratic sequence is. A quadratic sequence is a sequence of numbers in which the difference between consecutive terms changes linearly. In other words, if you take the differences between consecutive terms, and then take the differences of those differences, the second set of differences should be constant.
+
+## Step1: Analyze Tom's sequence
+Tom's sequence is \(3, 5, 10, 17, 26, \ldots\). Let's calculate the differences between consecutive terms:
+- \(5 - 3 = 2\)
+- \(10 - 5 = 5\)
+- \(17 - 10 = 7\)
+- \(26 - 17 = 9\)
+
+The differences between consecutive terms are \(2, 5, 7, 9, \ldots\). Now, let's calculate the differences of these differences:
+- \(5 - 2 = 3\)
+- \(7 - 5 = 2\)
+- \(9 - 7 = 2\)
+
+The second set of differences is not constant (\(3, 2, 2, \ldots\)), which might initially suggest this isn't a quadratic sequence based on a strict interpretation. However, the definition provided isn't standard; typically, a sequence is considered quadratic if the \(n\)th term can be expressed as \(an^2 + bn + c\). Let's check if Tom's sequence fits a quadratic formula.
+
+##2: Analyze Katie's sequence
+Katie's sequence is \(3, 6, 12, 24, 48, \ldots\). This sequence can be recognized as obtained by multiplying the previous term by 2, which is a geometric sequence, not a quadratic sequence.
+
+##3: Determine if Tom's sequence is quadratic
+Let's assume Tom's sequence could be quadratic and try to fit it into \(an^2 + bn + c\). Given terms:
+- For \(n=1\), \(a + b + c = 3\)
+- For \(n=2\), \(4a + 2b + c = 5\)
+- For \(n=3\), \(9a + 3b + c = 10\)
+
+Solving these equations simultaneously:
+- Subtracting the first equation from the second gives \(3a + b = 2\).
+- Subtracting the second equation from the third gives \(5a + b = 5\).
+
+Subtracting these two new equations (\(5a + b = 5\)) - (\(3a + b = 2\)) gives \(2a = 3\), so \(a = \frac{3}{2}\).
+
+##4: Detailed check for Tom
+Substituting \(a = \frac{3}{2}\) into \(3a + b = 2\):
+- \(3(\frac{3}{2}) + b = 2\), so \(\frac{9}{2} + b = 2\), which gives \(b = 2 - \frac{9}{2} = -\frac{5}{2}\).
+
+Substituting \(a = \frac{3}{2}\) and \(b = -\frac{5}{2}\) into \(a + b + c = 3\):
+- \(\frac{3}{2} - \frac{5}{2} + c = 3\), so \(-1 + c = 3\), which gives \(c = 4\).
+
+So, the formula could be \(\frac{3}{2}n^2 - \frac{5}{2}n + 4\). Let's verify:
+- For \(n=1\), \(\frac{3}{2}(1)^2 - \frac{5}{2}(1) + 4 = \frac{3}{2} - \frac{5}{2} + 4 = \frac{3-5+8}{2} = 3\), which matches.
+- For \(n=2\), \(\frac{3}{2}(2)^2 - \frac{5}{2}(2) + 4 = 6 - 5 + 4 = 5\), which matches.
+- For \(n=3\), \(\frac{3}{2}(3)^2 - \frac{5}{2}(3) + 4 = \frac{27}{2} - \frac{15}{2} + 4 = 6 + 4 = 10\), which matches.
+- For \(n=4\), \(\frac{3}{2}(4)^2 - \frac{5}{2}(4) + 4 = 24 - 10 + 4 = 18\), but the sequence given is \(3, 5, 10, 17, 26, \ldots\), and for \(n=4\), the term is \(17\), not \(18\). This indicates a miscalculation in identifying Tom's sequence as quadratic based on direct formula derivation.
+
+##5: Correct Analysis
+Given the mistake in detailed verification and to correct the approach:
+- Tom's sequence \(3, 5, 10, 

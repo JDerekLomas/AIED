@@ -1,0 +1,33 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: "Variable Swapping" (Substitution Error)
+The most common procedural error here is **Reverse Substitution**. In this bug, the student ignores the labels in the table and assumes that the first variable provided ($x$) is always the "input" and the value provided in the cell ($0.5$) is that input. They treat the question as "Find $y$ when $x = 0.5$," rather than "Find $x$ when $y = 0.5$."
+
+### 2. Step-by-Step Execution
+A student with the **Variable Swapping** bug would work as follows:
+
+1.  **Read the value:** They see the number $0.5$ and the equation $10x - 6y = 30$.
+2.  **Incorrect Substitution:** They substitute $0.5$ for $x$ (the first variable) instead of $y$.
+    *   $10(0.5) - 6y = 30$
+3.  **Evaluate:** They calculate $10 \times 0.5 = 5$.
+    *   $5 - 6y = 30$
+4.  **Isolate the variable term:** They subtract 5 from both sides.
+    *   $-6y = 25$
+5.  **Solve for $y$:** They divide 25 by $-6$.
+    *   $y = 25 \div -6$
+    *   $y = -4.166...$ (which they would likely round to **-4.25** or perceive as the nearest match in a "multiple choice trap").
+
+*Alternatively, if they make a **Sign Flip Error** during the substitution step ($5 - 6y = 30$ becomes $6y = 30 - 5$):*
+*   $6y = 25$
+*   $y = 4.166... \approx \mathbf{4.25}$
+
+### 3. Answer Choice
+This misconception leads directly to **Option A (4.25)** or **Option B (-4.25)**. 
+*(Note: Option C is the correct answer: $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$).*
+
+### 4. How Natural/Attractive is this Error?
+This error is **highly attractive** and often "invisible" to a Year 9 student for several reasons:
+
+*   **Linear Habits:** Students are conditioned to think of $x$ as the "cause" and $y$ as the "effect." In most textbook exercises, the left-hand column of a table is filled with inputs for $x$, making the substitution of a $y$-value feel counter-intuitive.
+*   **Reading Direction:** We read from left to right. Since $x$ appears first in the equation and top in the table, the student instinctively wants to perform an operation on the first number they see to get the second.
+*   **Pseudo-Success:** Because the student is still performing complex algebraic steps (substituting and solving), they feel a sense of "mathematical labor." This creates a false confidence—they believe they are "doing algebra," so they don't stop to check if they substituted into the correct letter. They would only realize they were wrong if the resulting fraction was extremely "ugly," but since $4.25$ looks like a "clean" school-math answer, they would likely select it and move on without hesitation.

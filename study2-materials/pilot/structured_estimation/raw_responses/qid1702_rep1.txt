@@ -1,0 +1,45 @@
+<chain_of_thought>
+Analyzing the target item: students must find x given y = 0.5 in 10x - 6y = 30.
+
+Step-by-step correct approach:
+- Substitute y = 0.5 into 10x - 6y = 30
+- 10x - 6(0.5) = 30
+- 10x - 3 = 30
+- 10x = 33
+- x = 3.3 (answer C)
+
+Distractor analysis:
+- D = 2.7: From 10x = 30 - 3 = 27, x = 2.7. This happens if a student subtracts 3 from 30 instead of adding it, which is exactly the "uses same operation rather than inverse" misconception. When moving -3 to the other side, they keep it as -3 instead of +3.
+- A = 4.25: This is 42.5/10. I think this might come from 10x = 6(0.5) + 30 + some error, or perhaps miscomputing 6 * 0.5 as 12.5 somehow. Not immediately obvious but serves as a plausible distractor.
+- B = -4.25: Negative of A, catching students who additionally make a sign error.
+
+This is a multi-step problem requiring: (1) understanding table notation, (2) substitution, (3) decimal multiplication, (4) equation solving. The combination of skills makes it moderately challenging.
+
+Looking at calibration: the inequality problem (b = 0.808, p = 0.569) is the hardest, requiring similar algebraic manipulation but with the added complexity of inequality notation. The simple solve p + 10 = -5 (b = -0.702, p = 0.167) is much easier. This item falls somewhere in between but closer to the harder end because of the two-variable equation and decimal work.
+
+I think this item is moderately hard - the combination of substitution, decimal arithmetic, and solving pushes difficulty up. I'll estimate around 50% incorrect, with IRT difficulty around 0.4-0.5.
+
+The discrimination should be reasonable since the misconception-based distractor D directly targets the tested error. However, the other distractors (A, B) are less clearly tied to common errors, which might reduce overall discrimination slightly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

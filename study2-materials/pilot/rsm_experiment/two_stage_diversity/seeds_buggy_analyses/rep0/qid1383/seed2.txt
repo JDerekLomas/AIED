@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: The "Multiplication by Index" Bug
+This is a foundational procedural error where a student interprets exponentiation as multiplication between the base ($k$) and the index ($4$). Instead of treating the power as repeated multiplication ($k \times k \times k \times k$), the student treats the power as a coefficient ($4 \times k$). 
+
+In pedagogy, this is often linked to **procedural interference**, where the visual layout of $k^4$ is confused with the layout of $4k$.
+
+### 2. The Step-by-Step Error
+A student with this misconception would follow these steps:
+1. **Identify the variables:** Recognize that $k = -3$ and the exponent is $4$.
+2. **Apply the buggy rule:** Rather than raising $-3$ to the power of $4$, the student performs the operation: $(-3) \times 4$.
+3. **Execute the calculation:** Multiply $-3$ by $4$ to reach $-12$.
+4. **Conclusion:** State that $T = -12$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: -12**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often "invisible" to a Year 9 student for several reasons:
+
+*   **Cognitive Load:** When students encounter negative numbers, their working memory is taxed. To reduce the "load" of dealing with the minus sign, they often default to a more basic, intuitive operation (multiplication) rather than the more complex one (exponentiation).
+*   **Pseudo-Reasonableness:** Because $-12$ is a negative number and the input was negative, the answer "feels" correct to a student who hasn't fully mastered the "even power = positive result" rule.
+*   **Lack of Conflict:** The student would likely not realize they went wrong because -12 is a "clean" integer that appears exactly as one of the multiple-choice options. To the student, the presence of -12 in the list validates their incorrect process. 
+*   **The "Double Bug":** If the student multiplied $3 \times 4$ and ignored the negative sign, they would get Option B (12). However, by correctly applying the rule for multiplying a negative by a positive (resulting in -12), they feel a false sense of security that they are performing "higher-level" math correctly.

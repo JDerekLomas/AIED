@@ -1,0 +1,41 @@
+<chain_of_thought>
+This item requires solving a linear equation with variables on both sides: 20t - 5 = 5t + 10. The correct answer is t = 1.
+
+Solution path: Subtract 5t from both sides to get 15t - 5 = 10, then add 5 to get 15t = 15, then divide by 15 to get t = 1.
+
+The misconception tested is "uses the same operation rather than the inverse." A student with this misconception might add 5t instead of subtracting, or subtract 5 instead of adding, leading to incorrect intermediate results.
+
+Let me check the distractors:
+- A) t = 0: Could arise from various arithmetic errors, e.g., if a student gets 20t = 5t and cancels to 0.
+- B) t = 1: Correct.
+- C) t = -1: Could arise from a sign error during rearrangement.
+- D) t = 1/5: Could arise from mishandling coefficients, e.g., getting t = (10-5)/(20+5) = 5/25 = 1/5, which reflects using addition instead of subtraction for the 5t term.
+
+Comparing to calibration items: The first calibration item (-5 = p + 10) is a simpler one-step equation with classical difficulty 0.167. This item has variables on both sides with larger coefficients, making it moderately harder. It's comparable to the inequality item (calibration 5, difficulty 0.569) but slightly easier since inequalities add conceptual complexity.
+
+The coefficients (20 and 5) are chosen to make arithmetic manageable, which lowers difficulty somewhat. But having variables on both sides is a known difficulty driver for KS3/KS4 students. I'd estimate classical difficulty around 0.35-0.45.
+
+For discrimination, the calibration items with this same misconception range from 1.05 to 1.32. This item should discriminate reasonably well since it cleanly tests equation-solving skill.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.39</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

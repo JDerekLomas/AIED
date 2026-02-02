@@ -1,0 +1,50 @@
+<chain_of_thought>
+Analyzing 3 + 6 / 2 + 1.
+
+The item tests whether students apply operator precedence (division before addition). This is a fundamental KS3 concept -- BIDMAS/BODMAS.
+
+Correct path: 6/2 first = 3, then 3+3+1 = 7 (A).
+Misconception path (left-to-right): 3+6=9, 9/2=4.5, 4.5+1=5.5 (C).
+
+What about distractors D=5 and B=3?
+- D=5: One possibility is a student who does division first but then makes an addition error: 3+3+1... perhaps they compute 3+3=6, then somehow get 5? Or they compute (3+6)/(2+1) = 9/3 = 3, no that's B. Alternatively, maybe they do 6/2=3 and then only add one of the remaining terms: 3+2... hmm not quite. D is a weak-to-moderate distractor.
+- B=3: Perhaps from grouping as 3 + 6/(2+1) = 3+2 = 5? No, that's 5. Or (3+6)/(2+1) = 3. A student who groups both additions before division. This is actually a plausible misconception variant.
+
+Actually wait -- B=3 from (3+6)/(2+1) = 9/3 = 3 is interesting. That's a student who treats all additions as happening before division, grouping them on both sides. That's a distinct but related misconception.
+
+So we have two plausible misconception-driven distractors (C and B), making this a reasonably well-designed item.
+
+Thinking about difficulty: The expression uses only single-digit numbers and basic operations. It's a very standard textbook exercise. But the left-to-right pull is real, especially for the expression "3 + 6 / 2 + 1" where the natural reading order creates a strong sequential flow.
+
+I want to think about the student population. In Eedi data, students range from strong to weak. For a BODMAS item with whole numbers, I'd expect roughly 75-85% correct, so 15-25% incorrect.
+
+Comparing to calibration: The matched misconception item had 0.134 difficulty with decimals/fractions. This item is arguably more tempting for the left-to-right error despite simpler numbers, because there's no visual cue (like a fraction bar) to disrupt the left-to-right reading.
+
+Estimates:
+- Classical difficulty: 0.25 (I'll go slightly higher than the calibration item -- the seductive simplicity of left-to-right reading may catch more students)
+- IRT difficulty: 0.00 (right around average)
+- Discrimination: 1.30 (good but the presence of two misconception-driven distractors might spread errors, slightly reducing discrimination for the primary misconception)
+- Guessing: 0.05 (low -- students tend to commit to a specific computational path)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

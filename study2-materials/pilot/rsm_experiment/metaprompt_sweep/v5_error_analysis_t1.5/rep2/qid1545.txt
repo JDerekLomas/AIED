@@ -1,0 +1,13 @@
+After marking 200 of these, I can tell you that the order of operations (BIDMAS/BODMAS) remains the single biggest hurdle for Year 9s. This question is a classic "trap" because the left-hand side and right-hand side contain the exact same numbers, tempting students to assume equality or to simply work left-to-right.
+
+**Teacher's Analysis:**
+*   **The Left Side ($8 + 12 \div 4$):** The common error is adding first ($20 \div 4 = 5$). The correct approach is dividing first ($8 + 3 = 11$).
+*   **The Right Side ($(8 + 12) \div 4$):** Almost everyone gets $5$ here because the brackets force the addition first.
+*   **The Trap:** Students who calculate $5$ for both sides will choose **C**. Students who work left-to-right on the first side ($5$) and then realize the second side is also $5$ feel "safe" in their error. Students who apply BIDMAS correctly see $11 > 5$ and choose **A**.
+
+Here is the predicted percentage breakdown based on common classroom performance:
+
+below_basic: A=15% B=10% C=70% D=5%
+basic: A=35% B=10% C=50% D=5%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=98% B=1% C=1% D=0%

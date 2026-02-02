@@ -1,0 +1,40 @@
+<chain_of_thought>
+This question tests whether students can correctly represent a two-step verbal process as an algebraic equation, with the critical issue being bracket usage to enforce order of operations.
+
+The verbal description is: start with n, add 5, then multiply result by 4, get 17. The key word is "result" -- the multiplication applies to the entire sum (n+5), not just to 5 or n alone. This necessitates 4(n+5)=17.
+
+Let me think about who gets this wrong and why:
+- Students selecting A (n+5*4=17) are writing the operations in narrative order but don't realize that algebraic convention (BIDMAS) would evaluate 5*4 first. This is the target misconception -- very common in KS3/KS4.
+- Students selecting B (4n+5=17) may understand that multiplication needs emphasis but misapply it, thinking "multiply by four" applies to n alone, then add 5 separately.
+- Students selecting C (n^4+5=17) is a more fundamental confusion between multiplication and powers.
+
+I think option A will attract the most incorrect responses since it directly maps to left-to-right writing. Option B might attract a meaningful minority too.
+
+Thinking about difficulty relative to calibration items: this requires understanding bracket notation conceptually, not just computing. The BODMAS calibration item (classical difficulty 0.134) was easier because it was pure computation. This item adds the translation step. I'd compare it most closely to the function machine item (difficulty 0.295) since both require understanding structural relationships in equations.
+
+However, the "I think of a number" format is very standard in UK maths curricula -- students encounter this type frequently from Year 7 onwards. This familiarity might make it easier than it looks. I'll estimate around 0.25-0.30 classical difficulty.
+
+Discrimination should be solid -- this cleanly separates understanding of brackets from not. Perhaps around 1.4. Guessing is likely low since students will have a definite preference based on their understanding.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.27</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

@@ -1,0 +1,12 @@
+One specific reason why students might find this question difficult is a **notational trap** caused by the horizontal orientation of the table of values, leading to an **input/output reversal error.**
+
+In early algebra education, students are overwhelmingly exposed to tables where the $x$-value (the independent variable) is provided, and they must calculate the $y$-value (the dependent variable). Furthermore, standard notation $(x, y)$ establishes a left-to-right or top-to-bottom hierarchy. 
+
+Because the star $(\bigstar)$ is in the top row, which is the "first" position, many students will reflexively treat the given value ($0.5$) as $x$ and solve for $y$, rather than substituting $0.5$ for $y$ and solving for $x$. 
+
+If a student falls into this trap:
+1. They substitute $x = 0.5$ into $10(0.5) - 6y = 30$.
+2. They simplify to $5 - 6y = 30$.
+3. They solve for $y$: $-6y = 25 \rightarrow y = -4.16...$
+
+Even though their result doesn't perfectly match the options, students prone to this error often "best-fit" their answer to **Option B (-4.25)**, assuming they made a minor arithmetic slip rather than a conceptual reversal of the variables. The difficulty lies not in the arithmetic of the equation, but in resisting the habit of treating the unknown in a table as the $y$-value.

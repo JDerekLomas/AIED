@@ -1,0 +1,33 @@
+<chain_of_thought>
+The expression is 12 / 2 + 1 x 2. Applying BIDMAS correctly: division and multiplication first (left to right within that tier), so 12/2 = 6 and 1x2 = 2, then addition: 6+2 = 8. Answer D is correct.
+
+The key misconception is left-to-right processing ignoring operator precedence. Following strict left-to-right: 12/2=6, 6+1=7, 7x2=14, yielding distractor C. This is a well-known and persistent misconception even among older students.
+
+Let me think about the other distractors. Answer A (9) might arise from computing 12/(2+1) = 4, then 4+... no, that gives 4. Or perhaps adding all numbers: 12+2+1+2 with some operation confusion? It's not an obvious error path. Answer B (3) could arise from 12/(2+1+2-1) type grouping, also unclear. These weaker distractors mean most errors will cluster on C.
+
+Comparing to the calibration anchor for the same misconception (classical difficulty 0.134, IRT b = -0.245): that item involved 0.4 - 1/5 x 3 with fraction-decimal conversion, making it arguably more complex computationally. This item is pure integers, so should be at least as easy or possibly slightly harder because the left-to-right path here produces a "clean" answer (14) that looks right, whereas the calibration item's misconception path gives 0.6 which might feel wrong to some students.
+
+I'll estimate classical difficulty slightly higher than the anchor, around 0.18, and IRT difficulty around -0.30. Good discrimination expected since the item cleanly targets one misconception.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

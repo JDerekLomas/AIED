@@ -1,0 +1,51 @@
+To predict the percentage of students at each ability level who would choose each option, let's first understand the correct method for calculating the size of each interior angle in a regular polygon. The formula for the interior angle of a regular polygon with \(n\) sides is \(\frac{(n-2) \times 180}{n}\).
+
+## Step 1: Understand Tom's Suggestion
+Tom suggests calculating the interior angle as \(\frac{20 \times 180}{18}\). This can be simplified to \(\frac{3600}{18} = 200\). However, using the correct formula: for an 18-sided polygon, the calculation is \(\frac{(18-2) \times 180}{18} = \frac{16 \times 180}{18} = \frac{2880}{18} = 160\). Tom's method does not seem to align with the correct formula but let's examine Katie's suggestion as well.
+
+## 2: Understand Katie's Suggestion
+Katie suggests \(360 - \frac{180}{18}\). This simplifies to \(360 - 10 = 350\), which does not match the correct calculation for an interior angle of a regular 18-sided polygon. The correct formula yields \(160\) degrees for each interior angle, not \(350\) or \(200\).
+
+## 3: Evaluate Tom's and Katie's Suggestions Against the Correct Formula
+The correct calculation for each interior angle in an 18-sided polygon is \(\frac{(18-2) \times 180}{18} = 160\) degrees. 
+
+- Tom's suggestion: \(\frac{20 \times 180}{18} = 200\) degrees, which is incorrect.
+- Katie's suggestion: \(360 - \frac{180}{18} = 350\) degrees, which is also incorrect.
+
+## 4: Analyze the Misconceptions
+Both Tom and Katie provide incorrect methods. The question tests understanding of the formula for interior angles of a polygon and the ability to identify incorrect suggestions.
+
+## 5: Predict Student Responses
+- **Below Basic**: Students at this level may not understand the formula or may misapply basic concepts. They might choose randomly or based on a superficial understanding. 
+  - A: XX%
+  - B: XX%
+  - C: Low (since both are incorrect)
+  - D: Could be high if they recognize both are wrong.
+
+- **Basic**: Students here have a foundational understanding but might not apply it correctly.
+  - A and B: Could be chosen if they mistakenly think one method is right.
+  - C: Low
+  - D: Might increase as they realize both are incorrect.
+
+- **Proficient**: These students know the formula and can apply it. They are less likely to choose A or B as correct but might still choose C if they don't calculate or if they misunderstand the logic.
+  - A and B: Lower percentages
+  - C: Lower
+  - D: Higher as they understand both suggestions are flawed.
+
+- **Advanced**: These students not only know the formula but can also critically evaluate suggestions.
+  - A and B: Very low
+  - C: Very low
+  - D: High, as they can see through both incorrect methods.
+
+## 6: Assign Percentages
+Given the nature of the question and typical student understanding:
+- **Below Basic**: A=30% B=30% C=10% D=30%
+- **Basic**: A=25% B=25% C=15% D=35%
+- **Proficient**: A=10% B=10% C=5% D=75%
+- **Advanced**: A=5% B=5% C=0% D=90%
+
+The final answer is:
+below_basic: A=30% B=30% C=10% D=30%
+basic: A=25% B=25% C=15% D=35%
+proficient: A=10% B=10% C=5% D=75%
+advanced: A=5% B=5% C=0% D=90%

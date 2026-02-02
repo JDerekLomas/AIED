@@ -1,0 +1,37 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential misconceptions.
+
+The question asks students to identify who is correct between Tom and Katie, regarding their statements about sequences. Tom claims \( (2n + 1)^2 \) produces a linear sequence, and Katie claims \( 1 - \frac{n}{2} \) produces a linear sequence.
+
+## Step 1: Understand what makes a sequence linear
+A linear sequence is one where each term increases or decreases by a constant difference. For a sequence to be linear, it must be expressible in the form \(a_n = a_1 + (n-1)d\), where \(a_n\) is the nth term, \(a_1\) is the first term, \(n\) is the term number, and \(d\) is the common difference.
+
+## 2: Analyze Tom's sequence
+Tom's sequence is given by \( (2n + 1)^2 \). To determine if it's linear, let's expand it: \( (2n + 1)^2 = 4n^2 + 4n + 1 \). This is a quadratic expression, not linear, because it contains an \(n^2\) term. Thus, Tom is incorrect.
+
+## 3: Analyze Katie's sequence
+Katie's sequence is \( 1 - \frac{n}{2} \). This can be rewritten as \( \frac{2}{2} - \frac{n}{2} = \frac{2 - n}{2} \). This sequence is linear because it can be expressed as \( a_n = a_1 + (n-1)d \), with \( a_1 = 1 \) (when \( n = 0 \) or considering \( n = 1 \) gives \( \frac{1}{2} \)) and a common difference of \( -\frac{1}{2} \). So, Katie is correct.
+
+## 4: Consider student understanding at different levels
+- **Below Basic**: Students at this level may struggle to understand or analyze sequences. They might not recognize the form of a linear sequence or make errors in algebraic manipulation. They could mistakenly think Tom's sequence is linear due to its appearance or incorrectly assess Katie's sequence.
+- **Basic**: Students here have a foundational understanding but might not apply it correctly. They might recognize Katie's sequence as linear but could be unsure or misinterpret Tom's sequence.
+- **Proficient**: These students understand linear sequences and can identify them. They should recognize Katie's sequence as linear and Tom's as not. However, some might still be cautious or unsure about quadratic vs. linear.
+- **Advanced**: Advanced students are likely to have a strong grasp of sequences, algebraic expressions, and can easily distinguish between linear and non-linear sequences.
+
+## 5: Predict student responses
+Given the analysis:
+- **Below Basic**: A=40% (mistakenly think Tom is correct), B=20% (recognize Katie), C=10% (both), D=30% (neither).
+- **Basic**: A=30% (Tom), B=40% (Katie), C=15% (both), D=15% (neither).
+- **Proficient**: A=10% (Tom), B=70% (Katie), C=5% (both), D=15% (neither).
+- **Advanced**: A=5% (Tom), B=85% (Katie), C=0% (both), D=10% (neither).
+
+## 6: Convert to requested format
+below_basic: A=40% B=20% C=10% D=30%
+basic: A=30% B=40% C=15% D=15%
+proficient: A=10% B=70% C=5% D=15%
+advanced: A=5% B=85% C=0% D=10%
+
+The final answer is: 
+below_basic: A=40% B=20% C=10% D=30%
+basic: A=30% B=40% C=15% D=15%
+proficient: A=10% B=70% C=5% D=15%
+advanced: A=5% B=85% C=0% D=10%

@@ -1,0 +1,41 @@
+This question tests a student's ability to substitute a value into a linear equation and solve the resulting one-step or two-step equation. Specifically, it tests the manipulation of signs and the application of inverse operations.
+
+### 1. Analysis of Misconceptions
+
+**Correct Answer: $x = 3.3$ (Option C)**
+*Substitution: $10x - 6(0.5) = 30 \rightarrow 10x - 3 = 30 \rightarrow 10x = 33 \rightarrow x = 3.3$.*
+
+**Option A ($4.25$): Calculation Error or Sign Confusion**
+*   **Reasoning:** The student correctly substitutes $0.5$, but then makes two errors. First, they calculate $10x + 6(0.5) = 30$ (treating the $-6y$ as $+6y$). This gives $10x + 3 = 30 \rightarrow 10x = 27$. They then somehow confuse the division or mistake the final constant. Alternatively, they may calculate $10x = 30 + 6 + 6.5$ or some other additive mishmash. A common route to $4.25$ is the "Average Error": calculating $(30 + 6)/10 = 3.6$ then thinking they need to add the $y$ value back in some way.
+*   **Attractiveness:** Low-Medium. This answer is often a "buffer" for students who get lost in the arithmetic of decimals.
+
+**Option B ($-4.25$): The "Negative Result" Guess**
+*   **Reasoning:** Students who are uncomfortable with the subtraction $10x - 6y$ often assume the result must be negative if they see a subtraction sign and a small $y$ value. This is a common "shot in the dark" for students who perform an initial calculation and arrive at a decimal they don't like, leading them to pick the negative version of a distractor.
+*   **Attractiveness:** Low. Mostly appeals to students who have reached total cognitive overload.
+
+**Option D ($2.7$): Using the same operation rather than the inverse**
+*   **Reasoning:** This student reaches $10x - 3 = 30$. Instead of adding $3$ (the inverse), they perform the operation they see in the equation: subtraction. They calculate $10x = 30 - 3$, leading to $10x = 27$, and therefore $x = 2.7$.
+*   **Attractiveness:** **Very High.** This is the most "logical" error for a student with fragile procedural knowledge. They know they must "move the 3", and since the sign in the equation is minus, they subtract. It produces a "clean" decimal (2.7), which gives the student a false sense of security that the answer is correct.
+
+---
+
+### 2. Attraction of Errors
+
+*   **Option D (2.7)** is a "classic" error. In the UK curriculum, "Change the side, change the sign" is a common mnemonic, and students who forget it default to "performing the calculation they see." This is most prevalent among "Basic" students who have moved past simple substitution but haven't mastered algebraic balancing.
+*   **Option A/B** are generally "noise" answers, but Option A attracts those who perhaps incorrectly rearranged to $10x = 30 + 12.5$ (misidentifying $6 \times 0.5$ as $6 + 6.5$ or similar).
+
+---
+
+### 3. Predicted Response Distribution
+
+**below_basic:** These students struggle with the decimal multiplication ($6 \times 0.5$) and the rearrangement. They are likely to guess or choose B because they see a minus sign.
+**basic:** This group is the primary target for Option D. They can do the substitution and the multiplication but fail the inverse operation.
+**proficient:** These students usually handle the inverse operation correctly but may occasionally trip on a mental arithmetic slip (leading to A).
+**advanced:** Should solve this with high accuracy.
+
+| Level | A | B | C (Correct) | D |
+| :--- | :--- | :--- | :--- | :--- |
+| **below_basic** | 20% | 30% | 15% | 35% |
+| **basic** | 15% | 10% | 25% | 50% |
+| **proficient** | 10% | 5% | 70% | 15% |
+| **advanced** | 2% | 1% | 95% | 2% |

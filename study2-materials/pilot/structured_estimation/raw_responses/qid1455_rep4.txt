@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item presents a classic "I think of a number" problem requiring students to translate sequential verbal operations into a bracketed algebraic equation. The correct answer is D: 4(n+5)=17.
+
+The misconception tested is left-to-right processing without regard for operation priority. This is one of the most persistent misconceptions in school mathematics -- research consistently shows students struggle with when and why brackets are needed, even after explicit instruction.
+
+Distractor analysis:
+- A) n+5*4=17: The strongest distractor. It mirrors the verbal narrative directly (n, then +5, then *4, then =17). Students who don't understand that algebraic convention differs from reading order will choose this. This IS the target misconception in action.
+- B) 4n+5=17: Represents a structural misunderstanding where the student puts "multiply by 4" first but applies it only to n. This could appeal to students who've seen lots of linear equations in the form ax+b=c and pattern-match.
+- C) n^4+5=17: A weaker distractor conflating multiplication and exponentiation. Likely chosen only by students with fundamental gaps.
+
+Comparing to anchors: The second calibration item tests the same misconception (BODMAS) computationally and has classical difficulty 0.134. But that's a computation task where students just need to evaluate. Here, students need to construct an equation, which is harder cognitively. The function machine item (0.295) requires similar structural understanding.
+
+I note that distractor B could actually catch a substantial proportion of students, especially those in Years 10-11 who are very familiar with linear equations and might reflexively write things in ax+b form. This could push difficulty higher than the function machine item.
+
+My estimate: classical difficulty around 0.30, IRT difficulty near 0.0 (average difficulty). Discrimination should be moderate-to-high since this is a clean conceptual distinction. I'll say 1.40. Guessing is minimal -- students have clear reasoning for their choices even when wrong.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

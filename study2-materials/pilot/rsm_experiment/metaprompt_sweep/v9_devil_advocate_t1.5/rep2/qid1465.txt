@@ -1,0 +1,24 @@
+To accurately predict student performance on this BIDMAS (order of operations) question, we must look past the "simple" arithmetic and focus on the common hierarchy errors and the "left-to-right" instinct.
+
+**The Maths:**
+1. Multiplication first: $4 \times 2 = 8$
+2. Addition/Subtraction (left to right): $3 - 5 + 8$
+3. Result: $-2 + 8 = 6$ (Option A)
+
+**The Traps:**
+*   **The Left-to-Right Trap (Option B):** $3 - 5 = -2$, then $+4 = 2$, then $\times 2 = 4$. This is the most common error for students who ignore BIDMAS.
+*   **The "A comes before S" Trap (Option D):** Many students believe Addition *must* happen before Subtraction because the 'A' precedes 'S' in BIDMAS/BODMAS. They calculate $5 + 8 = 13$, then $3 - 13 = -10$.
+*   **The Parenthesis Trap (Option C):** $3 - 5 = -2$, $4 \times 2 = 8$, but they treat it as $(-2) \times (8)$ or misinterpret the sequence entirely.
+
+**Performance Prediction:**
+
+below_basic: A=15% B=45% C=10% D=30%
+basic: A=35% B=30% C=5% D=30%
+proficient: A=70% B=10% C=0% D=20%
+advanced: A=95% B=2% C=0% D=3%
+
+**Rationale:**
+*   **Below Basic:** Students at this level almost always work strictly left-to-right (B) or apply BIDMAS haphazardly, often falling for the "Addition before Subtraction" rule (D).
+*   **Basic:** These students know BIDMAS exists but struggle with negative numbers. Even if they get to $3 - 5 + 8$, many will do $5 + 8$ first because of the acronym's letter order, leading them to $-10$ (D).
+*   **Proficient:** These students usually remember the multiplication goes first. Their main error is usually the $3 - 13$ mistake, but most will correctly handle the left-to-right addition/subtraction.
+*   **Advanced:** Near-total mastery, though a small percentage might make a "speed error" by doing addition before subtraction.

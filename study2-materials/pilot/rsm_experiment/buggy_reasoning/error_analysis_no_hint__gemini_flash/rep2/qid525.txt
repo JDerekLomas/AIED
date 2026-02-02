@@ -1,0 +1,10 @@
+To arrive at these predictions, I’ve considered the following common Year 9 pitfalls:
+*   **The "Add the Numerator, Add the Denominator" Trap (D):** This is the most common error for below-basic students. They see $7+1=8$ and $10+4=14$, producing $4 \frac{8}{14}$. It feels "natural" because it mirrors integer addition.
+*   **The Improper Fraction Conversion (A):** Proficient students often convert to $\frac{27}{10} + \frac{9}{4} = \frac{54}{20} + \frac{45}{20} = \frac{99}{20}$. However, many forget to convert back to a mixed number as the question specifically requested, or they stop here because they see the value matches A.
+*   **Common Denominator Multiplication Error (C):** Students often multiply the denominators ($10 \times 4 = 40$) but fail to adjust the numerators correctly, or they find the correct numerator ($\frac{99}{...}$) but stick it over the product of the denominators without simplifying.
+*   **Advanced Level Catch:** Advanced students will instinctively look for the lowest common multiple (20) and correctly convert to $2 \frac{14}{20} + 2 \frac{5}{20} = 4 \frac{19}{20}$. They are the least likely to leave it as an improper fraction.
+
+below_basic: A=10% B=15% C=25% D=50%
+basic: A=25% B=40% C=15% D=20%
+proficient: A=35% B=55% C=5% D=5%
+advanced: A=5% B=93% C=1% D=1%

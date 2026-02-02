@@ -1,0 +1,42 @@
+<chain_of_thought>
+Item: Solve -3 = p + 12. Correct answer: B (p = -15).
+
+Step-by-step: subtract 12 from both sides, yielding p = -3 - 12 = -15. This is a single-step linear equation requiring knowledge of inverse operations and negative number arithmetic.
+
+Distractor analysis:
+- A) p = 9: Student computes -3 + 12 = 9 (same operation, the tested misconception). This is the primary trap.
+- C) p = -9: Could arise from 12 - 3 = 9 with a negative sign, or confusing subtraction order. A secondary error pattern.
+- D) p = 15: Student computes 3 + 12 = 15, dropping the negative. Likely attracts weaker students.
+
+This is essentially a parallel form of calibration item 1. The key difference is the specific numbers (-3 and 12 vs. -5 and 10), but the cognitive demand is identical. I note that -3 - 12 might actually be slightly trickier than -5 - 10 because -5 - 10 = -15 has a nice "round" feel, while -3 - 12 = -15 requires crossing through -10 mentally. This could push difficulty up by a small margin.
+
+On the other hand, the distractor set might be slightly less plausible because p = 9 and p = 15 are both positive, which might cue students that something is wrong if they have a rough sense that p should be negative given the -3 on the left. This could make the item slightly easier.
+
+These effects roughly cancel out. I'll predict difficulty close to but marginally higher than calibration item 1.
+
+For discrimination, the clean alignment between the misconception and distractor A should produce good discrimination. I expect a value around 1.2-1.4, consistent with the calibration items testing this misconception.
+
+Guessing should be near zero for an item this straightforward -- students either can solve it or fall into a specific error pattern.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.55</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.01</guessing_probability>
+</predictions>

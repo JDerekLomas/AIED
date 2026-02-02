@@ -1,0 +1,48 @@
+<chain_of_thought>
+This item targets order of operations understanding through a metacognitive lens -- asking students to identify the first step rather than compute. Let me analyze from a psychometric standpoint.
+
+Content analysis:
+Problem P (4 - 5 + 6): Only addition and subtraction, same precedence, left-to-right convention applies. First step: 4 - 5.
+Problem Q (4 + 5 x 6): Mixed operations, multiplication has priority. First step: 5 x 6.
+Correct: B.
+
+The item structure creates a 2x2 matrix of possible answers based on two independent decisions:
+- P first step: 4-5 (left-to-right, correct) vs 5+6 (right-to-left or "addition first")
+- Q first step: 5x6 (BIDMAS, correct) vs 4+5 (left-to-right)
+
+This gives exactly the four options A through D, which is elegant item design.
+
+Option A (correct P, wrong Q): The target misconception -- left-to-right always. This should be the most popular incorrect response.
+Option C (wrong P, wrong Q): Both wrong -- this should attract fewer students.
+Option D (wrong P, correct Q): Knows multiplication priority but thinks addition precedes subtraction. This is a secondary misconception.
+
+Thinking about difficulty estimation. The question doesn't require any arithmetic, which lowers the bar. But identifying order of operations abstractly (without computing) may actually be harder for some students who can apply BIDMAS procedurally but struggle to articulate or identify the rule explicitly.
+
+Looking at the calibration set more carefully:
+- The BIDMAS computation item: classical difficulty 0.134, IRT b = -0.245. That was relatively easy.
+- This item should be in a similar range but potentially a bit harder because of the two-problem format and the metacognitive demand.
+
+I'll estimate classical difficulty around 0.28, IRT difficulty around -0.05. The item should discriminate well because it cleanly separates students who understand BIDMAS from those who don't. I'll estimate discrimination around 1.40. Guessing should be low since the options form a logical grid and random guessing is 0.25 baseline, but the structured distractors mean low-ability students will be drawn to specific wrong answers rather than guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

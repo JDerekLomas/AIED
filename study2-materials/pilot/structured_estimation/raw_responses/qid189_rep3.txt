@@ -1,0 +1,82 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks for the 15th term of the sequence defined by u_n = 1 - 3n.
+
+**Correct solution:**
+u_15 = 1 - 3(15) = 1 - 45 = -44
+
+So the correct answer is A) -44
+
+**Misconception being tested:** "Carries out operations from left to right regardless of priority order"
+
+If a student does this incorrectly:
+- They might calculate (1 - 3) × 15 = -2 × 15 = -30 (This gives answer D)
+
+Let me check the other distractors:
+- B) -46: This could come from 1 - 3(15) = 1 - 45 = -44, but getting -46 might be an arithmetic error (perhaps -45 - 1 = -46 if they subtract 1 instead of adding)
+- C) -14: This could come from 1 - 15 = -14 (ignoring the coefficient 3 entirely)
+- D) -30: As analyzed, this comes from (1-3) × 15 = -30, which is the left-to-right error
+
+The misconception tested (left-to-right operations) directly leads to distractor D.
+
+**Analyzing the item characteristics:**
+
+1. **Concept complexity:** This involves understanding sequence notation (u_n), substitution, and order of operations. Moderate complexity (about 4-5).
+
+2. **Procedural steps:** Substitute n=15, multiply 3×15, subtract from 1. About 3 steps (3-4).
+
+3. **Abstraction level:** Uses algebraic notation for sequences, which is moderately abstract (5-6).
+
+4. **Prerequisite knowledge:** Need to know sequence notation, substitution, order of operations, negative numbers (5).
+
+5. **Distractor plausibility:** D is very plausible for the misconception. B and C are less directly tied to common errors but could catch arithmetic mistakes (6-7).
+
+6. **Misconception strength:** Order of operations errors are common, especially with expressions like 1-3n where students might read it left-to-right (6-7).
+
+7. **Question clarity:** Very clear question - straightforward substitution task (9).
+
+8. **Cognitive load:** Moderate - need to hold the formula, substitute, and compute with negatives (5).
+
+9. **Age appropriateness:** Sequences with nth term formulas are typically KS3/KS4 content, very appropriate (9).
+
+10. **Transfer distance:** This is a fairly standard presentation of finding a term in a sequence (3-4).
+
+11. **Visual complexity:** Simple algebraic notation, no diagrams (3).
+
+12. **Solution uniqueness:** Students need to understand both substitution and order of operations to get the right answer (7).
+
+**Difficulty prediction:**
+Comparing to the calibration items:
+- The order of operations item (0.4 - 1/5 × 3) had classical difficulty of 0.134 and IRT difficulty of -0.245
+- This item tests a similar misconception but in a different context (sequences)
+- The sequence context adds some complexity
+- I estimate this to be slightly harder than the calibration order of operations item
+
+Classical difficulty: Around 0.25-0.35 (proportion incorrect)
+IRT difficulty: Around 0.0 to 0.3
+IRT discrimination: Should be moderate to good, around 1.2-1.5
+Guessing: Low, around 0.05-0.15
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

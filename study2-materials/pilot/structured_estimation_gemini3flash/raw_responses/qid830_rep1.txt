@@ -1,0 +1,38 @@
+<chain_of_thought>
+The item requires students to substitute a decimal value ($x=0.3$) into a linear equation ($2x + 3y = 12$) and solve for $y$.
+Step 1: $2(0.3) = 0.6$
+Step 2: $0.6 + 3y = 12$
+Step 3: $3y = 12 - 0.6 = 11.4$
+Step 4: $y = 11.4 / 3 = 3.8$
+
+Analysis of distractors:
+- D (3.8) is correct.
+- If a student uses the "same operation" misconception (adding $0.6$ instead of subtracting): $3y = 12 + 0.6 = 12.6 \Rightarrow y = 4.2$ (Option C).
+- If a student makes a decimal error in subtraction: $12 - 0.6 = 11.7 \Rightarrow y = 3.9$ (Option B).
+- If a student adds the coefficients or misplaces the decimal: $2+3=5$, $12/3=4$, etc. leading to 4.1 (Option A).
+
+Psychometric context:
+The calibration items show that multi-step equations involving decimals or negatives often have low facility (high difficulty). The "same operation" misconception is explicitly tested here. Substituting a decimal ($0.3$) into a linear equation adds significant cognitive load and procedural complexity compared to integer substitution. The IRT difficulty (b) is likely to be around the middle of the range (0.0 to 0.5) because while the steps are clear, the decimal arithmetic is a frequent source of error for this age group. Discrimination is likely high as it separates those who can handle multi-step procedures from those who cannot.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.42</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

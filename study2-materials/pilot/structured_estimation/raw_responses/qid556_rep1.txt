@@ -1,0 +1,38 @@
+<chain_of_thought>
+The target item presents a partial equation-solving scenario: 9y = ... transforms to y = ..., and students must identify that dividing by 9 is what replaces the star. This is a foundational algebra concept typically introduced around Year 7-8 in the UK curriculum.
+
+Comparing to calibration items with the same misconception:
+- The simplest calibration item (-5 = p + 10) had difficulty 0.167 and involved a single additive inverse step with a negative number.
+- The function machine item had difficulty 0.295 and required understanding of inverse operations in a more abstract context.
+- The inequality item had difficulty 0.569 and involved multiple steps plus inequality handling.
+
+This target item strips away nearly all complexity -- no negative numbers, no multi-step solving, no additional operations. The student just needs to know: "9 times y becomes y, so we divided by 9." This is arguably simpler than even the easiest calibration item because there's no computation to perform, just identification of the operation.
+
+However, the diagram-based presentation is slightly unusual. Students must interpret the visual showing "9y =" becoming "y =" with a star representing the operation. This non-standard format could confuse some students, pushing difficulty slightly above what the pure conceptual simplicity would suggest.
+
+The distractor x9 directly tests the misconception (using same operation instead of inverse). Options +9 and -9 test whether students default to additive rather than multiplicative thinking. These distractors have reasonable plausibility for weaker students.
+
+I estimate this is quite easy -- around 0.15-0.18 classical difficulty. The IRT difficulty should be negative, perhaps around -0.7. Discrimination should be decent since it cleanly separates those who understand inverse operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.65</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

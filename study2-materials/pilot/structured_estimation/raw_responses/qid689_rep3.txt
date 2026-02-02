@@ -1,0 +1,38 @@
+<chain_of_thought>
+Item: 10 = 5/p, solve for p. Correct: A) p = 0.5.
+
+This equation type - with p in the denominator - sits at a transition point in the UK maths curriculum. Students encounter it around KS3/KS4 (ages 13-16). The key challenge is recognizing that to "undo" 5/p = 10, you need to think about what value of p makes 5 divided by it equal 10. Many students default to simpler operation patterns.
+
+Let me consider the population of students taking this diagnostic. The Eedi platform serves a broad range of abilities. For a typical mixed-ability class:
+- Strong students will quickly see p = 5/10 = 0.5 or multiply both sides by p.
+- Middle-ability students may try 10/5 = 2 (choosing C) or get confused by the format.
+- Weaker students might multiply 5*10 = 50 (choosing B) or give up and pick D.
+
+The distractor C (p=2) is particularly dangerous because it "feels right" - dividing 10 by 5 is natural, and 2 is a clean whole number. I suspect C might actually attract more students than B, even though B is the one aligned with the stated misconception.
+
+Looking at the calibration anchors more carefully: items testing "same operation rather than inverse" appear three times with difficulties 0.167, 0.295, and 0.569. The difficulty increases with the complexity of the equation structure. This item has a variable in the denominator, which is more complex than addition or function machines but perhaps comparable to the inequality. I'd estimate classical difficulty around 0.52.
+
+For IRT parameters: b around 0.45, a around 1.10 (moderate discrimination - the item separates well but the multiple competing error patterns may reduce discrimination somewhat). Guessing parameter probably around 0.15 since option D provides an "escape hatch" that low-ability students might use, slightly elevating the lower asymptote.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

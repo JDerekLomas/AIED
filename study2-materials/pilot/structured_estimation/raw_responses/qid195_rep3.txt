@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: Solve (t-3)/2 = 1/8. Answer D: t = 3 1/4.
+
+This equation requires students to "unwrap" the expression (t-3)/2 using inverse operations in the correct order. The standard approach: multiply by 2 first, then add 3.
+
+The tested misconception is applying the same operation instead of the inverse. The most direct manifestation is in distractor C: if a student sees "divided by 2" and divides 1/8 by 2 again (same operation) instead of multiplying, they get 1/16, then adding 3 gives 3 1/16.
+
+Considering the difficulty relative to calibration items: the equation -5 = p+10 is a single-step integer equation with difficulty 0.167. The inequality 2n+3 <= 3n-7 has difficulty 0.569 and involves rearranging terms with variables on both sides. This target item is between those - it has two steps and fractions but variables on only one side.
+
+However, fractions significantly increase difficulty for many UK secondary students. Research consistently shows that combining algebraic reasoning with fraction manipulation is substantially harder than either alone. This suggests the item could be on the harder side.
+
+Distractor A (6 1/4) is interesting - it could result from a student who adds 3 first to both sides (getting t/2 = 3 1/8) then multiplies by 2 (getting t = 6 1/4). This is actually applying inverse operations but in the wrong order, which is a different but related procedural error. This makes it a strong distractor.
+
+I'll estimate classical difficulty around 0.45-0.50 given the fraction complexity, with moderate discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.47</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

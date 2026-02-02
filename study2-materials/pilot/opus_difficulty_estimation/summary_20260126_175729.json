@@ -1,0 +1,77 @@
+{
+  "experiment": "opus_difficulty_estimation_calibrated",
+  "model": "claude-opus-4-5-20251101",
+  "timestamp": "20260126_175729",
+  "config": {
+    "num_calls": 10,
+    "num_test_items": 25,
+    "num_calibration_items": 3,
+    "random_seed": 42
+  },
+  "results": {
+    "successful_calls": 10,
+    "total_estimates": 250
+  },
+  "call_metadata": [
+    {
+      "call_num": 1,
+      "num_estimates": 25,
+      "elapsed_seconds": 28.752054929733276,
+      "success": true
+    },
+    {
+      "call_num": 2,
+      "num_estimates": 25,
+      "elapsed_seconds": 31.84759783744812,
+      "success": true
+    },
+    {
+      "call_num": 3,
+      "num_estimates": 25,
+      "elapsed_seconds": 28.356839895248413,
+      "success": true
+    },
+    {
+      "call_num": 4,
+      "num_estimates": 25,
+      "elapsed_seconds": 31.534244775772095,
+      "success": true
+    },
+    {
+      "call_num": 5,
+      "num_estimates": 25,
+      "elapsed_seconds": 31.51917791366577,
+      "success": true
+    },
+    {
+      "call_num": 6,
+      "num_estimates": 25,
+      "elapsed_seconds": 27.63467288017273,
+      "success": true
+    },
+    {
+      "call_num": 7,
+      "num_estimates": 25,
+      "elapsed_seconds": 26.243616104125977,
+      "success": true
+    },
+    {
+      "call_num": 8,
+      "num_estimates": 25,
+      "elapsed_seconds": 34.05015707015991,
+      "success": true
+    },
+    {
+      "call_num": 9,
+      "num_estimates": 25,
+      "elapsed_seconds": 31.999359846115112,
+      "success": true
+    },
+    {
+      "call_num": 10,
+      "num_estimates": 25,
+      "elapsed_seconds": 28.764911890029907,
+      "success": true
+    }
+  ]
+}

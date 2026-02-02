@@ -1,0 +1,17 @@
+In my experience marking this specific order of operations (BIDMAS/BODMAS) question, the primary pitfall is the "Left-to-Right" trap. Students who lack a firm grasp of hierarchy simply process numbers as they read them, leading them to think both sides equal 5. 
+
+**Calculations & Traps:**
+*   **Left Side (Correct):** $8 + (12 \div 4) = 8 + 3 = \mathbf{11}$.
+*   **Left Side (Error):** $(8 + 12) \div 4 = 20 \div 4 = \mathbf{5}$.
+*   **Right Side:** $(8 + 12) \div 4 = 20 \div 4 = \mathbf{5}$.
+
+**The Distribution:**
+*   **A ($>$):** Correct. Requires applying BIDMAS to the left side and comparing.
+*   **C ($=$):** The most common error. Students ignore BIDMAS on the left or assume the brackets on the right don't change the outcome of those specific numbers.
+*   **B ($<$):** Less common, usually resulting from a mental arithmetic error (e.g., $12 \div 4 = 2$ or $8 + 3 = 10$ vs $20 \div 4 = 5$).
+*   **D ($\geq$):** Generally chosen by students who are guessing or overthinking the presence of an inequality they rarely use.
+
+below_basic: A=15% B=25% C=50% D=10%
+basic: A=35% B=15% C=45% D=5%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=98% B=1% C=1% D=0%

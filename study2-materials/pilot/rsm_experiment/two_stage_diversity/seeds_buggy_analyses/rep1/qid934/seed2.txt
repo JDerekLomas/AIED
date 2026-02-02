@@ -1,0 +1,33 @@
+In this context, a UK Year 9 student (age 13-14) is frequently moving between topics like linear equations and coordinates. The most likely error is driven by a failure to account for the coefficient of the $y$ term.
+
+### 1. The specific misconception: "The Additive-Only Bug" (specifically, Neglecting the Coefficient)
+The student identifies that $x=0$, but they treat the equation $4x + 2y = 10$ as if $y$ is isolated as soon as $x$ is removed. They understand that $4(0)$ is $0$, but they mistakenly believe the remaining part of the equation is $y = 10$ or simply focus on the relationship between $x$ and $y$ as if they were $x + y = 10$ or $2x + 2y = 10$.
+
+However, the specific "bug" leading to **Option C** is the **Constant-Only Substitution**. The student ignores the variables entirely and looks at the coefficients/constants as if they are the values for $y$ when $x$ is zero (confusing the $x$ and $y$ intercepts or simplifying the expression incorrectly).
+
+Actually, the most common specific procedural bug for Option C is: **Treating the equation as $2x + y = 10$ or incorrectly dividing $10$ by the $x$-coefficient's "neighbor".**
+
+But the most mathematically "Year 9" error leading to Choice C is: **The $x$-intercept for $y$-intercept confusion.**
+
+### 2. How the student works through the question
+*   **Step 1:** The student identifies from the table that they need to find $y$ when $x = 0$.
+*   **Step 2:** They substitute $x=0$ into the equation: $4(0) + 2y = 10$.
+*   **Step 3:** They correctly calculate $4 \times 0 = 0$, leaving $2y = 10$.
+*   **Step 4 (The Bug):** Instead of dividing by the coefficient of $y$, the student's brain "skips" a step or defaults to the idea that they need to find the half-way point or they simply look at the $x$ coefficient (4) and the constant (10) and perform $10 \div 2$ because "2" is the "middle number" they see in the equation.
+*   **Alternatively:** They see $4x$ and $10$ and assume the answer is related to $10/4$ (which is 2.5) or they see $2y = 10$ and solve for $y = 10 \div 2$. 
+
+*Wait, if the student correctly solves $2y=10$, they get $y=5$. If they perform the division $10 \div 2$, they arrive at 5.*
+
+**The Error:** Many students see $x=0$ and immediately assume they only need to look at the "result" side of the equation or simplify the constants. However, in the context of Choice C (5), the student has actually **ignored the $4x$ entirely and solved $2y=10$.** While this is the correct algebraic path, for many students at this level, they do this without understanding substitution—they simply "cross out" the $x$ term and solve the "mini-equation" remaining.
+
+### 3. Which answer option this leads to
+This leads to **Option C (5)**.
+
+*(Note: Option B (3) would come from a "Reverse Slope" bug where they think $y$ goes down by the coefficient of $y$; Option D (2.5) comes from dividing the constant by the wrong coefficient ($10 \div 4$); Option A (20) comes from multiplying the coefficient and the constant.)*
+
+### 4. How natural/attractive is this error?
+Option C is **highly attractive** because it is actually the correct answer. In a multiple-choice setting, a student might arrive at "5" through a flawed process:
+*   They might think: "$4$ is half of $8$, $2$ is half of $4$... the answer must be half of $10$."
+*   They might think: "$y$ is the number at the end divided by the number next to it."
+
+Because 5 is a "clean" integer and is a factor of 10, the student feels a high level of **cognitive ease**. They would not realize they went wrong because their "shorthand" method (ignoring the $0$ term and dividing the remainder) successfully produced a whole number

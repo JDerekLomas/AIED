@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item requires students to convert a word problem into an algebraic equation involving order of operations. The narrative describes: think of a number (n), add 5, then multiply by 4, getting 17. The correct representation is 4(n+5)=17.
+
+The misconception being tested is "carries out operations from left to right regardless of priority order." This is identical to the calibration item about 0.4 - 1/5 * 3, but the task here is fundamentally different -- it's equation formation rather than computation.
+
+Analyzing each option:
+- Option A: n+5*4=17. A student writing operations left to right without brackets would produce this. Without brackets, BIDMAS means 5*4=20 is computed first, so this doesn't represent the verbal description. This is the primary trap.
+- Option B: 4n+5=17. This misinterprets "multiply by four" as applying only to n, then adding 5. A student might think "four times something plus five."
+- Option C: n^4+5=17. Confuses multiplication with exponentiation. Less common but possible for weaker students.
+- Option D: 4(n+5)=17. Correct -- brackets enforce the addition before multiplication.
+
+The item is somewhat harder than basic equation solving because it requires translating words into symbolic form AND understanding why brackets matter. Students need to understand that without brackets, the equation doesn't match the verbal sequence.
+
+Calibration: The BODMAS computation item was easy (0.134 incorrect). Equation formation is typically harder. The function machine item (0.295 incorrect) involves similar structural thinking. I'd place this item slightly above that -- around 0.30-0.40 incorrect. Many students aged 11-14 struggle with when brackets are needed.
+
+For discrimination, this should discriminate well since it cleanly separates students who understand bracket notation from those who don't. I estimate a moderate-to-good discrimination around 1.2-1.4.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.36</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

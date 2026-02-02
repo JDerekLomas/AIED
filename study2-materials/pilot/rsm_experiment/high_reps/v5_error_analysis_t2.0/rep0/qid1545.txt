@@ -1,0 +1,13 @@
+After marking 200 of these Year 9 scripts, the trends are very clear. This is a classic test of **Order of Operations (BIDMAS)** vs. **Left-to-Right** processing.
+
+The common errors are:
+1.  **The Left-to-Right Trap (Resulting in B):** Students calculate $8 + 12 = 20$, then $20 \div 4 = 5$ on both sides. This makes them look equal ($C$), or more commonly, if they miscalculate one side slightly, they guess.
+2.  **Misapplying Brackets (Resulting in C):** The "Visual Symmetry" error. Students see the same numbers and operators and assume equivalence without calculating, assuming brackets don't "change" the numbers.
+3.  **The Correct Path (Resulting in A):** LHS is $8 + 3 = 11$. RHS is $20 \div 4 = 5$. Since $11 > 5$, the answer is A.
+
+Here is the predicted distribution based on Year 9 mock data:
+
+below_basic: A=15% B=45% C=30% D=10%
+basic: A=35% B=40% C=20% D=5%
+proficient: A=75% B=15% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

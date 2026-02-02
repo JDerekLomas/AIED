@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item presents a worked solution with errors and asks students to identify which steps are correct. Let me trace through it.
+
+Given: 15 = 2p - 4
+
+Isaac's Step 1: 11 = 2p
+To go from 15 = 2p - 4 to isolate 2p, you need to add 4 to both sides: 15 + 4 = 19 = 2p. Isaac got 11, meaning he did 15 - 4 = 11. He subtracted instead of adding. This is the classic "same operation instead of inverse" error. Step 1 is wrong.
+
+Isaac's Step 2: 22 = p
+From 11 = 2p, to isolate p you divide by 2: 11/2 = 5.5 = p. Isaac got 22, meaning he did 11 × 2 = 22. He multiplied instead of dividing. Same type of error. Step 2 is also wrong.
+
+Correct answer: D (both steps incorrect).
+
+Key consideration: this item format (evaluating someone else's work) is cognitively different from solving an equation yourself. Research shows error identification tasks are generally harder because they require not just procedural knowledge but also the ability to check and verify. Students must mentally solve the equation themselves (or at least verify each step) and compare.
+
+The strongest distractor is C. Students who routinely make this inverse-operation error will look at Isaac's work and think it's perfectly fine. This creates a direct diagnostic trap.
+
+For calibration: the simplest inverse-operation item had difficulty 0.167 (very easy). But that was a straightforward "solve" task. The more complex items testing this misconception reached 0.295 and 0.569. This error-analysis item has moderate algebraic content but high metacognitive demand.
+
+I think this item is moderately difficult. The two-step verification requirement and the very plausible distractor C will catch many students. I'd place classical difficulty around 0.40, IRT b around 0.25. Discrimination should be decent since it cleanly separates those who understand inverse operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

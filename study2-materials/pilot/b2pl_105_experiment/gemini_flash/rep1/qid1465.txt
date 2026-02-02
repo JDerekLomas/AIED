@@ -1,0 +1,13 @@
+This question is a classic test of the Order of Operations (BIDMAS/BODMAS). While it looks simple, it contains two distinct "trap" areas:
+1.  **The Multiplicative Priority:** Students often process the sum from left to right ($3-5 = -2$, $-2+4 = 2$, $2 \times 2 = 4$), leading to Option B.
+2.  **The Addition vs Subtraction trap:** A very common misconception is that "Addition comes before Subtraction" because the 'A' comes before 'S' in the acronym. Students may incorrectly calculate $5+8 = 13$ and then $3-13 = -10$ (Option D), or perform the addition first in the sequence ($3-9 = -6$, not an option, or $5+4=9$ then $3-9+2$).
+
+**Option A (6)** is the correct answer: $3 - 5 + (4 \times 2) = 3 - 5 + 8 = -2 + 8 = 6$.
+**Option B (4)** comes from purely left-to-right calculation.
+**Option C (-12)** comes from $(3-5+4) \times 2 = 2 \times 2 = 4$ (wait, usually a sign error or $3-(5+4) \times 2$).
+**Option D (-10)** comes from performing addition before subtraction: $3 - (5 + 8)$.
+
+below_basic: A=20% B=40% C=10% D=30%
+basic: A=45% B=30% C=5% D=20%
+proficient: A=75% B=15% C=2% D=8%
+advanced: A=96% B=2% C=1% D=1%

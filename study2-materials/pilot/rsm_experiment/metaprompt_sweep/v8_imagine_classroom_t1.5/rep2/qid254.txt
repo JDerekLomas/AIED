@@ -1,0 +1,12 @@
+Here is the predicted distribution for a typical Year 9 mixed-ability class of 30 students.
+
+**The Logic Behind the Errors:**
+*   **The "Zero Doesn't Count" Trap (C):** Many students, particularly those working at a Basic level, view '0' as 'nothing'. When calculating the mean, they intuitively believe it shouldn't affect the divisor. They will count four non-zero digits and pick C.
+*   **The BIDMAS/Calculator Trap (B):** Students who are comfortable with the concept but forget the "rules of the line" (fraction bar) or how they would type it into a calculator will gravitate toward B. They don't realise that without brackets, only the 7 is being divided by 5.
+*   **The Conceptual Master (A):** Proficient students know that 0 is a data point that must be included in the count, even if it doesn't add value to the sum.
+*   **The Over-Thinker (D):** A few advanced students might choose D because they are looking for the expression $\frac{0+1+3+4+7}{5}$ and, seeing the 0 missing from the numerator in A, will deem it technically "incomplete" or a trick, despite the sum being mathematically identical.
+
+below_basic: A=10% B=40% C=50% D=0%
+basic: A=30% B=20% C=45% D=5%
+proficient: A=70% B=10% C=15% D=5%
+advanced: A=85% B=0% C=5% D=10%

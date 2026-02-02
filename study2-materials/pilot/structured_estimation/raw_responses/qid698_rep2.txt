@@ -1,0 +1,43 @@
+<chain_of_thought>
+Two spinners: first has 1-4, second has 1-5. Find P(1 on both).
+
+Correct solution: P = 1/4 x 1/5 = 1/20. Answer B.
+
+The key concept is the multiplication rule for independent events. This is a fundamental probability concept in the UK KS3/KS4 curriculum.
+
+Analyzing distractors:
+- A (1/9): Student adds the total outcomes 4+5=9, then puts 1 over that. This is a very natural error for students who haven't properly learned about sample spaces for combined events.
+- B (1/20): Correct. 4 x 5 = 20 total outcomes, 1 favorable.
+- C (2/9): Adding fractions incorrectly: 1/4 + 1/5 = 2/9. This directly tests the stated misconception.
+- D (2/20): Could be 2/(4x5), perhaps thinking there are 2 ways to get a 1 (one from each spinner).
+
+The distractors are quite plausible. Option A especially is a very natural error. The misconception of adding denominators (1/9) might actually be more common than the stated misconception (2/9). This makes me think the item might have moderate to high difficulty.
+
+However, probability with spinners is a very standard presentation in UK textbooks. Students who have been taught this topic properly should handle it. I'll estimate this as moderately difficult.
+
+Comparing to calibration: this feels like it sits around the factorising question difficulty (0.473) or slightly below. Combined probability is hard but the numbers are simple. I'll say 0.45.
+
+For discrimination: the item should discriminate well since you either know to multiply or you don't. But the multiple plausible distractors might spread errors across ability levels somewhat. I'll estimate moderate discrimination around 1.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

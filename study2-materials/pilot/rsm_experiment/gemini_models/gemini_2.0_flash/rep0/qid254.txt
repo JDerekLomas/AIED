@@ -1,0 +1,27 @@
+Okay, I'm ready to predict student responses based on my experience marking Year 9 papers. Here's how I expect different ability levels to perform on this question:
+
+**Reasoning:**
+
+*   **Correct Answer:** A. The mean requires summing *all* values (including zero) and dividing by the *total* count of values.
+
+*   **Error Analysis for Each Incorrect Option:**
+
+    *   **B:** Follows order of operations incorrectly; performs the division by 5 only on the 7 and *then* adds it to the rest. *Extremely* common misunderstanding of the order of operations with division and addition/subtraction, despite them "learning" BODMAS earlier on.
+
+    *   **C:** Sums all of the numbers without including 0, and then divides the new sum by the wrong denominator. Fairly basic error about remembering the number of numbers they are adding.
+
+    *   **D:** Suggests students believe the answers do not show the correct methods, showing confidence in what it is to find the mean but possibly not enough ability to then simplify down the calculations on show to confirm this.
+
+*   **Ability-Specific Predictions:**
+
+    *   **Below Basic:** Students at this level often struggle with fundamental concepts. Order of operations and the precise meaning of "mean" will be shaky. Many will just pick something that "looks right" based on previous experience. They may struggle to see that including zero will lead to different values in numerator of option B vs Option A.
+    *   **Basic:** These students are likely to understand that they must divide by something and maybe that numbers will be added to the numerator, they are likely to fall into a BODMAS calculation error as in option B). A good proportion may still guess/forget that 0 is a valid data point, like in C).
+    *   **Proficient:** These students mostly know the steps and can calculate from basic principles. They might trip up due to misreading the equation but not as common. A likely way to err will be to not summate the 0 when summing like in C). The confidence in those getting the steps to finding the mean means that they will know what needs to happen and therefore be confident it exists as the equations.
+    *   **Advanced:** These students are unlikely to make any fundamental errors but may fall for trick options and have excellent arithmetic skills, spotting it quickly
+
+**Predictions:**
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=40% B=35% C=15% D=10%
+proficient: A=70% B=15% C=10% D=5%
+advanced: A=95% B=2% C=1% D=2%

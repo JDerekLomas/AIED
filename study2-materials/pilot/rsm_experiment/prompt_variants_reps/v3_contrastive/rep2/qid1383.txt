@@ -1,0 +1,10 @@
+This question tests two distinct areas of potential error: index notation (confusing $k^4$ with $k \times 4$) and the application of even powers to negative bases (the $-3 \times -3 \times -3 \times -3$ vs. $-(3 \times 3 \times 3 \times 3)$ trap).
+
+For "Below Basic" students, the most common error is multiplicative ($3 \times 4 = 12$). Since the base is negative, many will reflexively pick $-12$. "Basic" students usually understand indices but struggle with the sign rule over four iterations or default to the calculator-style error where they think a negative number raised to a power stays negative. "Proficient" students generally know that an even power results in a positive answer, though a small percentage may still make a mental arithmetic slip to $-81$. "Advanced" students will find this straightforward.
+
+The choice of $k=-3$ is a classic "trap" because it yields $81$, a number students recognize, but the sign is the primary separator of ability.
+
+below_basic: A=20% B=25% C=15% D=40%
+basic: A=45% B=5% C=40% D=10%
+proficient: A=85% B=2% C=12% D=1%
+advanced: A=98% B=0% C=2% D=0%

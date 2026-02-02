@@ -1,0 +1,17 @@
+In this BIDMAS/BODMAS question, students must navigate a subtraction, an addition, and a division. This specific problem is tricky because the default order of operations (left to right for addition/subtraction) results in $12$. To get $7$, the student must perform the addition before the subtraction, making Option A the correct answer: $16 - (10) \div 2 \rightarrow 16 - 5 = 11$ (incorrect) vs $16 - 10 \div 2$ which isn't the goal. Wait, let's re-calculate:
+
+*   **Target is 7.**
+*   A: $16 - (10) \div 2 = 16 - 5 = 11$
+*   B: $(10) + 2 = 12$
+*   C: $16 - 6 + 2 = 12$
+*   D: $(16 - 6 + 4) \div 2 = 14 \div 2 = 7$. **Correct.**
+
+**Analysis:**
+The most common error for **Basic** students is Option B or C because they naturally want to work left-to-right or think the brackets "belong" at the start. Option D is actually quite accessible because the division by $2$ at the end is a very "satisfying" way to reach a small prime number like $7$. However, **Below Basic** students often struggle with the fact that brackets can encompass three terms (as in D). They often default to "the first two numbers" (Option B).
+
+The complexity here isn't the division, it's the length of the expression inside the brackets in Option D.
+
+below_basic: A=20% B=40% C=25% D=15%
+basic: A=15% B=25% C=15% D=45%
+proficient: A=5% B=10% C=5% D=80%
+advanced: A=1% B=1% C=1% D=97%

@@ -1,0 +1,22 @@
+To predict the performance on this question, we first need to look at the algebra behind the sphere volume formula: $V = \frac{4}{3}\pi r^3$. 
+
+The correct rearrangement steps are:
+1. Multiply by 3 ($3V = 4\pi r^3$)
+2. Divide by $4\pi$ ($\frac{3V}{4\pi} = r^3$)
+3. Cube root the entire expression.
+
+**The "Attractor" Errors:**
+*   **Option D (The Fraction Flip):** This is the most common error. Students see $\frac{4}{3}$ and instinctively move it as $\frac{4}{3}$ to the other side, forgetting that to "undo" a fraction you multiply by the reciprocal.
+*   **Option B (The Floating Pi):** Students often associate $\pi$ with being a multiplier, but when moving parts of a formula, they frequently multiply rather than divide, or simply "drift" the symbols into the numerator.
+*   **Option C (The Half-Hearted Root):** Usually chosen by students who remember there is a cube root involved but have weak algebraic manipulation skills, thinking they can root the $V$ first then apply the coefficients.
+
+**The Student Profiles:**
+*   **Below Basic:** Mostly guessing based on which "looks" like the sphere formula.
+*   **Basic:** Attempting the rearrangement but often failing to move the 3 and 4 correctly; many get "upside down."
+*   **Proficient:** Understand the steps but can be tripped up by the placement of $\pi$ in the denominator versus the numerator.
+*   **Advanced:** Usually comfortable with rearranging subjects involving fractions and powers; they check the "dimensions" of their answer.
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=25% B=20% C=15% D=40%
+proficient: A=55% B=10% C=5% D=30%
+advanced: A=92% B=2% C=1% D=5%

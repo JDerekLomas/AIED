@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item tests the order of operations (BIDMAS/BODMAS/PEMDAS), specifically prioritizing indices (powers) over division and subtraction. 
+- Concept Complexity: Low. It's a fundamental arithmetic rule.
+- Procedural Steps: Technically one step (identifying the first operation), though it requires scanning the whole expression.
+- Distractors: 
+    - Option C (8-7) is the "left-to-right" misconception, which is very common in younger secondary students (Year 7/8).
+    - Option B (7/6) is a "middle-out" or "division before indices" error.
+    - Option D is a standard "doesn't matter" distractor.
+- Comparison to Calibration: 
+    - The second calibration item ($0.4 - 1/5 \times 3$) had a classical difficulty of 0.134, but that required actual calculation with decimals and fractions. 
+    - This target item does *not* require calculation, only identification of the first step. This makes it significantly easier (higher p-value).
+    - However, order of operations misconceptions are persistent. The phrasing "Which calculation should you do first?" is very clear, which usually increases performance compared to "Solve...".
+- IRT Parameters: Since the question is more accessible than solving the expression, the difficulty (b) will be lower (more negative) than the second calibration item. Discrimination (a) is likely to be high because order of operations is a "threshold" concept—you either know the hierarchy or you don't.
+- Guessing: With 4 options, there is a baseline, but since "A" is the correct answer and "C" is a very strong attractor for those with the misconception, the effective guessing might be slightly suppressed, but I'll stick near the 0.20-0.25 range for the 3PL model.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.22</guessing_probability>
+</predictions>

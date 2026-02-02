@@ -1,0 +1,30 @@
+As a UK maths teacher, I see this question as a classic test of **Order of Operations (BIDMAS/BODMAS)**. It specifically targets the common misconception that expressions should be read strictly from left to right, ignoring operator precedence.
+
+### Step 1 — Analysis of reasoning
+
+*   **A) Correct Reasoning:** Following BIDMAS, the left side is calculated as $8 + (12 \div 4) = 8 + 3 = 11$. The right side requires brackets first: $(8 + 12) \div 4 = 20 \div 4 = 5$. Since $11 > 5$, this is the correct answer.
+*   **B) Calculation Error:** This is often chosen by students who correctly calculate the right side as $5$, but on the left side, they incorrectly add first: $(8 + 12) \div 4 = 5$. They then may make a minor arithmetic slip (e.g., thinking $5 < 5.something$) or confuse the symbols. It is the least common "logical" error but appears when students swap the meaning of $>$ and $<$.
+*   **C) Left-to-Right Misconception:** This is the most common error. Students ignore the hierarchy of operations and calculate both sides from left to right. Left: $8 + 12 = 20, 20 \div 4 = 5$. Right: $8 + 12 = 20, 20 \div 4 = 5$. They conclude $5 = 5$.
+*   **D) Misunderstanding of Notation:** Students who choose this often do not understand the components of the expressions and guess based on the presence of similar numbers, or they vaguely remember that $\geq$ "covers more bases" than $>$.
+
+---
+
+### Step 2 — Predicted distributions
+
+In the UK curriculum, these distributions reflect students in Key Stage 3 (Ages 11-14).
+
+**Below Basic:**
+*These students struggle with basic operations and almost always calculate strictly left-to-right.*
+**A=10% B=15% C=65% D=10%**
+
+**Basic:**
+*Students have heard of BIDMAS but fail to apply it when the addition comes first in the string. "C" remains a very attractive "distractor" because it feels intuitive that the same numbers result in the same answer.*
+**A=30% B=10% C=55% D=5%**
+
+**Proficient:**
+*These students are becoming consistent with BIDMAS. Most will identify that the left side equals 11 and the right side equals 5. Errors usually come from symbol confusion ($>$ vs $<$).*
+**A=75% B=5% C=18% D=2%**
+
+**Advanced:**
+*These students can perform these calculations mentally and accurately. They immediately recognize the distributive property trap being set.*
+**A=98% B=1% C=1% D=0%**

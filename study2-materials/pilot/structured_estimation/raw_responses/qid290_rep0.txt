@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to identify a counter-example to the claim that 2n^2 - 1 is always positive. To solve it, students must substitute each value and evaluate:
+
+A) 2(3/4)^2 - 1 = 2(9/16) - 1 = 9/8 - 1 = 1/8 > 0 (positive, not a counter-example)
+B) 2(0.5)^2 - 1 = 2(0.25) - 1 = 0.5 - 1 = -0.5 < 0 (negative, IS a counter-example) -- CORRECT
+C) 2(-2)^2 - 1 = 2(4) - 1 = 7 > 0 (positive)
+D) 2(-1)^2 - 1 = 2(1) - 1 = 1 > 0 (positive)
+
+The misconception being tested is "believes multiplying two negatives gives a negative answer." Students holding this misconception would think (-2)^2 = -4 or (-1)^2 = -1, leading them to believe options C or D produce negative results, and thus pick one of those as the counter-example.
+
+This is a moderately challenging item. The concept of counter-examples adds a layer of abstraction beyond simple substitution. Students need to understand what a counter-example is, correctly evaluate expressions with fractions/decimals and negative numbers squared, and then identify which yields a negative result.
+
+Looking at the calibration items: the factorising item (misconception about negatives) had classical difficulty 0.473 and IRT b = 0.404. This item is somewhat harder because it combines the negatives misconception with understanding counter-examples and substitution into algebraic expressions. I'd estimate slightly higher difficulty.
+
+The distractors are quite plausible -- C and D are specifically designed to trap students with the negatives misconception, and A involves a fraction that might confuse students who struggle with fraction arithmetic. The discrimination should be reasonable as it separates students who understand squaring negatives from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

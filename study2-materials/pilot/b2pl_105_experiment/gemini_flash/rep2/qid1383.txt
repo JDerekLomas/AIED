@@ -1,0 +1,10 @@
+This question specifically tests two potential pitfalls: the application of an index to a negative base and the misconception of multiplying the base by the index (e.g., $3 \times 4$ instead of $3^4$).
+
+The "negative sign" trap is particularly potent here. Many students correctly identify that $3^4 = 81$, but they often struggle with whether the negative sign persists. Even students who know that a negative number raised to an even power is positive may experience "calculator syntax error" logic, where they perceive $-3^4$ as $-(3^4)$.
+
+Lower-ability students (below basic) are highly likely to treat the index as a multiplier, leading them to $12$ or $-12$. Middle-ability students (basic/proficient) will likely perform the exponentiation correctly but will be split on the sign. Advanced students will recognize that $(-3) \times (-3) \times (-3) \times (-3)$ results in a positive value.
+
+below_basic: A=20% B=30% C=20% D=30%
+basic: A=40% B=10% C=45% D=5%
+proficient: A=65% B=5% C=30% D=0%
+advanced: A=94% B=1% C=5% D=0%

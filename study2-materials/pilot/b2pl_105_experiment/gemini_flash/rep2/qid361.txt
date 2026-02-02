@@ -1,0 +1,13 @@
+This question tests a student's ability to translate multi-step worded operations into algebraic notation, specifically focusing on the hierarchy of operations (BIDMAS/BODMAS).
+
+**Teacher Analysis:**
+The "trap" in this question lies in Paul’s expression. A student reading left-to-right might see $7((n-5) \div 8)+4$ and think it follows the sequence of the words. However, the instruction says "next add 4, and **finally** multiply by 7." In Paul's version, the $+4$ is outside the final multiplication by 7, meaning only the division result is multiplied by 7. Jo’s version correctly uses the large brackets to ensure the "add 4" happens before the "multiply by 7."
+
+*   **Below Basic** students often struggle with the nested nature of brackets and might choose **C** because both "look" like they contain the right numbers and operations, or **B** because they prefer the $\div$ symbol over the fraction bar.
+*   **Basic/Proficient** students are the most likely to fall for **B** or **C**. They recognise the operations but fail to spot that the final multiplication must apply to the *entire* previous sum. 
+*   **Advanced** students will identify that the word "finally" necessitates the distributive property (or a large bracket) covering the $+4$.
+
+below_basic: A=25% B=30% C=35% D=10%
+basic: A=45% B=20% C=30% D=5%
+proficient: A=70% B=10% C=18% D=2%
+advanced: A=92% B=3% C=4% D=1%

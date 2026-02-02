@@ -1,0 +1,44 @@
+<chain_of_thought>
+Target: If d = -2, what is the value of 10 - 2d?
+Options: A) -12, B) 6, C) 14 (correct), D) 32
+
+This is a substitution problem involving negative numbers. Let me trace the correct solution and common errors.
+
+Correct: 10 - 2(-2) = 10 - (-4) = 10 + 4 = 14.
+
+The misconception is "believes multiplying two negatives gives a negative answer." Let me think about how each distractor could be reached:
+
+B = 6: Student computes 2 * (-2) = -4 correctly, but then does 10 + (-4) = 6. Wait — that's wrong. 10 - (-4) should be 14, not 6. Getting 6 means: 10 - 4 = 6, which means the student computed 2d = 2*2 = 4 (ignoring the negative of d) then subtracted. OR the student computes -2*(-2) = -4 (misconception: two negatives give negative), giving 10 + (-4) = 6. Either way, B captures the misconception well.
+
+A = -12: This might come from computing -(10 + 2) = -12, or 10 - 22 where they interpret 2d as "twenty-two" when d=2. Actually: if a student interprets -2d as -2 * 2 = -4... no. Let me think differently. If they compute 2*(-2) = -4, then -(10) - 2 = -12... maybe reading expression as -(10-2d) and botching it. Or: -2 - 10 = -12? If they substitute and get -2d = -2(-2) and then confuse the whole expression. A seems like a weaker distractor.
+
+D = 32: Hard to construct a natural error path. Maybe 10 * 2 + 12? Or confusing with something else. Weakest distractor.
+
+Comparing to calibration anchors, this item has moderate conceptual load. The substitution concept is elementary but the negative arithmetic is a common stumbling block. The calibration item with the same misconception (Tom and Katie factorising) was significantly more complex and had difficulty 0.473. This item should be easier.
+
+However, negative number multiplication errors are extremely common in KS3 populations. The simplicity of the item means students can't hide behind partial understanding — they either handle negatives or they don't. I'd expect around 25-30% getting it wrong.
+
+I'll anchor my prediction closer to the easier calibration items but adjust upward for the misconception: classical difficulty ~0.28, IRT b ~-0.15, discrimination ~1.35 (clean item that separates well), guessing low since the distractors require specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

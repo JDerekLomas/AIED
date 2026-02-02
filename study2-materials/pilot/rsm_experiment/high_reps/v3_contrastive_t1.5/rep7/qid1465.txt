@@ -1,0 +1,15 @@
+This order of operations (BIDMAS/BODMAS) question is a classic "trap" for students who follow mnemonic rules strictly without understanding the hierarchy of addition and subtraction.
+
+The common errors expected here are:
+1.  **Left-to-Right calculation (Ignoring hierarchy):** $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = \mathbf{4}$ (Option B).
+2.  **AS Misconception (Addition before Subtraction):** Students see "A" before "S" in BIDMAS and perform $5+4 = 9$ first. Then $3-9 = -6$, followed by $-6 \times 2 = \mathbf{-12}$ (Option C).
+3.  **Hierarchy correctly identified but Left-to-Right Addition/Subtraction error:** $4 \times 2 = 8$, then $3 - (5+8) = -10$ (Option D). This is the most common error for intermediate students who know to multiply first but mistakenly believe addition must happen before subtraction.
+
+The correct path is $4 \times 2 = 8$, then $3 - 5 + 8$. $3 - 5 = -2$, and $-2 + 8 = \mathbf{6}$ (Option A).
+
+**Predictive breakdown:**
+
+below_basic: A=15% B=40% C=25% D=20%
+basic: A=35% B=20% C=15% D=30%
+proficient: A=75% B=5% C=5% D=15%
+advanced: A=98% B=1% C=0% D=1%

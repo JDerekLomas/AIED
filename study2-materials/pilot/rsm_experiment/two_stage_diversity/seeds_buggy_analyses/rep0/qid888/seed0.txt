@@ -1,0 +1,26 @@
+In the context of UK Year 9 algebra, expanding double brackets is a core skill. One of the most prevalent procedural bugs involves the mishandling of signs when multiplying and adding integers.
+
+### 1. The Misconception: Sign-Agnostic Multiplication and Addition
+The specific bug is a combination of **integer sign confusion** and **associating negative symbols only with subtraction** rather than with the value of the term. Specifically, the student follows the "FOIL" procedure (Firsts, Outers, Inners, Lasts) correctly in sequence but fails the specific rule: **$(-a) \times (-b) = +ab$.**
+
+The student operates under the common misconception that "two negatives make a negative" because they confuse the rules of addition with the rules of multiplication.
+
+### 2. Step-by-Step Student Working
+A student with this misconception would approach $(m-5)(m-7)$ as follows:
+
+*   **Firsts:** They multiply $m \times m$ to get $m^2$.
+*   **Outers:** They multiply $m \times -7$. They correctly identify this as $-7m$.
+*   **Inners:** They multiply $-5 \times m$. They correctly identify this as $-5m$.
+*   **Lasts (The Bug):** They multiply $-5 \times -7$. They know $5 \times 7 = 35$, but because both numbers are preceded by a minus sign, they assume the result must stay negative. They write $-35$.
+*   **Simplifying (The Middle Term):** They combine $-7m - 5m$. Using a number line (or "down 7, then down another 5"), they correctly get $-12m$.
+*   **Final Assembly:** They put the terms together to get $m^2 - 12m - 35$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: $m^{2}-12 m-35$**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent in Year 9.
+
+*   **Consistency:** The student feels they have been consistent. To them, the expression is "full of minus signs," so it feels logically sound that the final answer should be dominated by minus signs.
+*   **False "Pattern Recognition":** Students often misremember the rule "two negatives make a positive." When they apply it to $(-7m) + (-5m)$, they get $12m$ (which would lead to option C). However, the student choosing option D has usually mastered the addition of negatives (moving left on a number line) but hasn't yet reconciled that with the distinct rule for multiplication. 
+*   **Self-Correction Likelihood:** The student would **not** realize they went wrong. Because they performed the addition part correctly ($-7 - 5 = -12$), they feel confident in their work. The "negative times a negative" rule is counter-intuitive for many 13-14 year olds; in their everyday experience, "adding more debt" (negative) just results in "more debt" (negative), so $-5 \times -7 = -35$ "feels" correct.

@@ -1,0 +1,18 @@
+To predict these percentages, I’ve considered the following common Year 9 behaviours:
+*   **The "Substitution vs. Instinct" Trap:** Students often ignore the $4x$ because $x=0$, but then forget they are solving for $2y$, not $y$.
+*   **The "Add instead of Multiply" Error:** Students see $4$, $x(0)$, and $2$, then somehow combine them to get $20$ (often $10 \times 2$ or thinking the equation "starts" at $10+10$).
+*   **The Constant Term:** Many students simply pick the constant $10$ or half of it without considering the structure of the equation.
+*   **Option C (5)** is the classic "partial completion" error. Students calculate $2y = 10$ but stop there, assuming the answer is $5$ before dividing by the coefficient of $y$.
+
+**Error Analysis:**
+*   **A (20):** Common for students who multiply the constant by the coefficient of $y$, or have total confusion with operations.
+*   **B (3):** Rare; usually a random guess or a misread of the $+2y$ as $+3y$.
+*   **C (5):** The most common mistake. Students successfully substitute $x=0$ to get $2y=10$, then forget to divide by $2$. 
+*   **D (2.5):** An error where students might divide 10 by 4, confusing the coefficients.
+
+**Predicted Results:**
+
+below_basic: A=25% B=15% C=50% D=10%
+basic: A=10% B=5% C=65% D=20%
+proficient: A=5% B=2% C=43% D=50%
+advanced: A=0% B=1% C=9% D=90%

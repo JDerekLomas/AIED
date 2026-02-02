@@ -1,0 +1,32 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential misconceptions or understanding required.
+
+## Step 1: Understand the Sequences
+First, let's understand what a linear sequence is. A linear sequence is a sequence of numbers in which the difference between consecutive terms is constant. For example, 2, 5, 8, 11, ... is a linear sequence because each term increases by 3.
+
+## 2: Analyze Tom's Sequence
+Tom says \( (n+1)^3 \) would produce a linear sequence. Let's expand this: \( (n+1)^3 = n^3 + 3n^2 + 3n + 1 \). This does not produce a linear sequence because the difference between consecutive terms is not constant due to the \( n^3 \) and \( n^2 \) terms.
+
+## 3: Analyze Katie's Sequence
+Katie says \( 3 - \frac{n}{3} \) would produce a linear sequence. Let's examine this: if \( n = 1 \), then \( 3 - \frac{1}{3} = \frac{8}{3} \); if \( n = 2 \), then \( 3 - \frac{2}{3} = \frac{7}{3} \). The difference between these terms is \( \frac{8}{3} - \frac{7}{3} = \frac{1}{3} \), which is constant. Thus, Katie's sequence is linear.
+
+## 4: Evaluate Student Understanding
+- **Below Basic:** Students at this level may not fully understand what a linear sequence is or may struggle with algebraic expressions. They might incorrectly identify sequences or not fully grasp the implications of the formulas given. Given the algebraic nature of the question, many might choose D (Neither is correct) due to a lack of understanding or incorrectly apply the concept of linear sequences to Tom's sequence without proper expansion or analysis.
+
+- **Basic:** At this level, students have a basic understanding of linear sequences but might struggle with more complex algebraic manipulations or proving/disproving sequence types. They might correctly identify Katie's sequence but struggle with Tom's, potentially leading to a mix of choices but with a leaning towards B (Only Katie) as they recognize Katie's sequence is linear but may not fully disprove Tom's.
+
+- **Proficient:** Students here have a solid grasp of algebra and sequences. They should easily recognize that Katie's sequence is linear. For Tom's sequence, expanding \( (n+1)^3 \) would clearly show it's not linear, leading them to conclude that only Katie is correct.
+
+- **Advanced:** These students not only understand the concepts but can also quickly analyze and conclude. They would immediately see that \( (n+1)^3 \) expands into a cubic expression, which cannot produce a linear sequence, and that \( 3 - \frac{n}{3} \) clearly does produce a linear sequence. Thus, they would confidently choose B (Only Katie).
+
+## 5: Predicted Percentages
+Given the analysis:
+- **Below Basic:** A=30% (some might mistakenly think Tom's could be linear), B=20% (recognize Katie but not necessarily disprove Tom), C=10% (unlikely to see both are correct), D=40% (not understanding either).
+- **Basic:** A=20%, B=50%, C=10%, D=20%.
+- **Proficient:** A=5%, B=80%, C=5%, D=10%.
+- **Advanced:** A=0%, B=95%, C=0%, D=5%.
+
+The final answer is:
+below_basic: A=30% B=20% C=10% D=40%
+basic: A=20% B=50% C=10% D=20%
+proficient: A=5% B=80% C=5% D=10%
+advanced: A=0% B=95% C=0% D=5%

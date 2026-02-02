@@ -1,0 +1,44 @@
+<chain_of_thought>
+Examining this item from a psychometric standpoint. The question asks students to find x where a triangle has angles 4x, 2x - 12, and 4x + 42.
+
+Solution path: Sum of angles = 180 → 4x + 2x - 12 + 4x + 42 = 180 → 10x + 30 = 180 → 10x = 150 → x = 15 (option A).
+
+The tested misconception (using same operation rather than inverse) would produce x = 21 (option D) if a student adds 30 rather than subtracting at the key step.
+
+Let me think about this from a population perspective. In the UK secondary curriculum, the angle sum of triangles is introduced in Year 7 and reinforced through KS3. Forming and solving equations from geometric contexts is a staple of GCSE-level work. This is a very standard question type that appears frequently in textbook exercises and past papers.
+
+Because of its familiarity, I might expect the difficulty to be somewhat lower than a novel presentation. Students who have practised this type of question will find it routine. The main source of difficulty is the algebraic manipulation—specifically, correctly collecting the constant terms (-12 + 42 = 30) and then performing the inverse operation.
+
+Distractor mapping:
+- D (x=21): Misconception target — add 30 instead of subtract → 10x = 210
+- B (x=12.6): Likely from combining constants incorrectly as +54 or getting 10x = 126
+- C (x=33): Perhaps from setting angles equal to 360 instead of 180, then 10x + 30 = 360 → 10x = 330 → x = 33. This is actually a quite plausible error — confusing triangle (180) with quadrilateral (360)!
+
+With that realization, option C is quite a strong distractor for students who confuse angle sum rules. This means the item tests more than just inverse operations — it also catches students on angle sum knowledge.
+
+Given the multiple potential error sources, I expect moderate difficulty. The standard presentation keeps transfer distance low. Comparing to calibration: the function machine item (b = 0.002, classical = 0.295) tested the same misconception in a less familiar context. This triangle item is more familiar but has more steps, so I'd estimate similar or slightly higher difficulty.
+
+I'll estimate classical difficulty around 0.33, IRT b around 0.05. Discrimination should be reasonable but perhaps not as high as pure algebra items since geometric knowledge errors can also contribute.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

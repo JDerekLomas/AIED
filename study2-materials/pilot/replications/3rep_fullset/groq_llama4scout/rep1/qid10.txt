@@ -1,0 +1,37 @@
+## Step 1: Understanding the Question
+The question presents a scenario where John is expanding the expression \((x+5)(x-3)(x+6)\) by first splitting the first bracket into \(x(x-3)(x+6)+5(x-3)(x+6)\) and then expanding further. The task is to identify the terms that contain \(x^2\) before simplification.
+
+## 2: Identifying Terms with \(x^2\)
+To find terms with \(x^2\), let's expand the given expression partially:
+\(x(x-3)(x+6) + 5(x-3)(x+6)\).
+
+Expanding each part:
+- \(x(x-3)(x+6) = x(x^2 + 3x - 18) = x^3 + 3x^2 - 18x\)
+- \(5(x-3)(x+6) = 5(x^2 + 3x - 18) = 5x^2 + 15x - 90\)
+
+## 3: Focusing on \(x^2\) Terms
+From the expansion:
+- The \(x^3 + 3x^2 - 18x\) part does not directly contribute an \(x^2\) term without \(x\) or a constant, but when considering the product \((x-3)(x+6)\) for \(x^2\) terms, we get \(x^2 + 3x - 18\).
+- So, \(x(x^2 + 3x - 18)\) gives \(x^3 + 3x^2 - 18x\), and here the \(3x^2\) term is relevant.
+- \(5(x^2 + 3x - 18)\) gives \(5x^2 + 15x - 90\), and here the \(5x^2\) term is relevant.
+
+## 4: Considering \((x-3)(x+6)\) for \(x^2\)
+The product \((x-3)(x+6) = x^2 + 3x - 18\), which means it contributes an \(x^2\) term directly. 
+- When multiplied by \(x\), it gives \(x^3 + 3x^2 - 18x\), contributing \(+3x^2\).
+- When multiplied by \(5\), it gives \(5x^2 + 15x - 90\), contributing \(+5x^2\).
+
+## 5: Accounting for All \(x^2\) Terms
+The \(x^2\) terms before simplification come from:
+- \(x(x-3)(x+6)\) which gives \(+3x^2\),
+- \(5(x-3)(x+6)\) which gives \(+5x^2\),
+and directly from \((x-3)(x+6) = x^2 + 3x - 18\), the \(x^2\) term is \(+x^2\) or simply \(+6x^2\) is not directly obtained but \(3x^2\) and \(5x^2\) are from the expansions.
+
+## 6: Direct Calculation of \(x^2\) Terms
+Let's directly calculate:
+- \(x(x-3) = x^2 - 3x\), then \((x^2 - 3x)(x+6) = x^3 + 6x^2 - 3x^2 - 18x = x^3 + 3x^2 - 18x\), so \(+3x^2\).
+- \(5(x-3) = 5x - 15\), then \((5x - 15)(x+6) = 5x^2 + 30x - 15x - 90 = 5x^2 + 15x - 90\), so \(+5x^2\).
+
+## 7: Predicting Student Responses
+- **Below Basic**: Students might struggle to expand and identify \(x^2\) terms correctly. They may not correctly expand \((x-3)(x+6)\) or may miss terms. Expect a high chance of incorrect answers (A=40%, B=20%, C=20%, D=20%).
+- **Basic**: Students can expand simple brackets but may struggle with the multiplication and identification of \(x^2\) terms. They might get \(+3x^2\) and \(+5x^2\) but could be confused (A=20%, B=40%, C=20%, D=20%).
+- **Proficient**: Students should correctly expand and identify \(x^2\) terms. They know \((x-3)(x+6) = x^2 + 3x - 18\), so when multiplied by \(x\) and \(5\), they get \(+3x^2\) and \(+5x^2\). Also, directly from \((x^2 + 3x

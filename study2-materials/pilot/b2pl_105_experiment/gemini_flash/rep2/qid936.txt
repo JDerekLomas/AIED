@@ -1,0 +1,13 @@
+This question tests the ability to expand brackets and manage directed numbers when factorising quadratics. 
+
+Tom’s statement is correct: $(x+3)(x+2) = x^2 + 2x + 3x + 6 = x^2 + 5x + 6$.
+Katie’s statement is incorrect: $(x-3)(x-2) = x^2 - 2x - 3x + 6 = x^2 - 5x + 6$. 
+The trap for students is that the factors 3 and 2 sum to 5 and multiply to 6, leading many to overlook the sign of the constant term $(-3 \times -2 = +6$, not $-6)$.
+
+**Teacher's Insight:**
+Students at lower ability levels often focus solely on the digits. They see 5 and 6 and 2 and 3, and assume both are correct without verifying the sign of the constant. "Proficient" students usually catch the sign error in Katie's expansion, while "Advanced" students will check both systematically and rarely miss the $+6$ vs $-6$ distinction. "Below Basic" students often guess "Both" because it feels like a symmetrical or "trick" question.
+
+below_basic: A=30% B=15% C=45% D=10%
+basic: A=45% B=10% C=35% D=10%
+proficient: A=75% B=5% C=15% D=5%
+advanced: A=96% B=1% C=2% D=1%

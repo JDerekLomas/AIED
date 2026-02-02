@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I have identified the following specific error for this Year 9 algebra question.
+
+### 1. The Misconception: "Operation Reflection" (The Dividend Swap)
+The specific bug here is a **procedural inversion of the division order**, often driven by a cognitive bias toward "whole number results" or "easier division." Instead of dividing the constant on the right ($1/12$) by the coefficient ($3$), the student multiplies the denominator of the fraction by the coefficient’s "value" but treats the operation as if they are dividing $12$ by $3$.
+
+More simply, it is the **misapplication of inverse operations where the student moves the 3 across the equals sign and applies it only to the denominator as a division ($12 \div 3$) rather than a multiplication ($12 \times 3$).**
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would follow these steps:
+*   **Step 1:** Look at the equation $3p = \frac{1}{12}$ and identify that to isolate $p$, they need to "move" the $3$.
+*   **Step 2:** Recognize that the $3$ is multiplying $p$, so the inverse is division.
+*   **Step 3:** Instead of performing $\frac{1}{12} \div 3$, the student looks at the denominator $12$ and thinks, *"I need to divide by 3. 12 divided by 3 is 4."*
+*   **Step 4:** They replace the $12$ with the result of that division ($4$), keeping the numerator as $1$.
+*   **Step 5:** They conclude that $p = \frac{1}{4}$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option A ($p = \frac{1}{4}$)**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and feels "natural" to a Year 9 student for three reasons:
+
+*   **Number Sense Comfort:** Students have spent years learning that $12 \div 3 = 4$. When they see a $3$ and a $12$ in the same problem, their brain reflexively seeks the "clean" relationship between those two numbers. $\frac{1}{4}$ feels like a "neater" answer than $\frac{1}{36}$.
+*   **False Logical Reinforcement:** The student knows they are supposed to divide because of the inverse operation rule. Since they performed a division ($12 \div 3$), they feel they have correctly followed the algebraic process. 
+*   **Lack of Estimation:** Most Year 9 students struggle to intuitively grasp the magnitude of small fractions. A student is unlikely to realize that if $3$ of something makes a tiny fraction ($1/12$), one of that thing must be even smaller ($1/36$). Without this "sanity check," the answer $1/4$ (which is larger than $1/12$) does not trigger any alarm bells.
+
+**Conclusion:** The student would likely select **A** with high confidence, unaware that by "dividing the denominator," they actually tripled the value of the right-hand side instead of dividing it by three.

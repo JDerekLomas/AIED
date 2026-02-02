@@ -1,0 +1,81 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+**The Question:**
+Find the 15th term of the sequence defined by u_n = 1 - 3n
+
+**Correct Solution:**
+u_15 = 1 - 3(15) = 1 - 45 = -44
+
+So the correct answer is A) -44
+
+**Analyzing the Distractors:**
+
+- A) -44: Correct answer (1 - 45 = -44)
+- B) -46: This could come from 1 - 3(15) = 1 - 45 = -44, but getting -46 might be from an arithmetic error
+- C) -14: This could come from doing (1-3) × 15 = -2 × 15 = -30... no wait. Let me think. If someone does 1 - 3 = -2, then -2 × 15 = -30. That doesn't give -14.
+  Actually, -14 might come from 1 - 15 = -14 (ignoring the coefficient 3)
+- D) -30: This comes from doing operations left to right: (1-3) × 15 = -2 × 15 = -30
+
+**The Misconception Tested:**
+"Carries out operations from left to right regardless of priority order"
+
+This matches distractor D) -30, where the student computes (1-3) × n = -2 × 15 = -30 instead of 1 - (3×n) = 1 - 45 = -44.
+
+**Comparison to Calibration Items:**
+
+The calibration item testing the same misconception was:
+0.4 - 1/5 × 3 with classical difficulty 0.134 and IRT difficulty -0.245
+
+This current item is similar but involves:
+1. Understanding sequence notation u_n
+2. Substituting n = 15
+3. Following order of operations with subtraction and multiplication
+
+The sequence notation adds some abstraction compared to the pure arithmetic problem. However, the calculation itself is straightforward.
+
+**Rating Analysis:**
+
+- Concept complexity: Involves sequence notation and order of operations - moderate (4)
+- Procedural steps: Substitute n=15, multiply 3×15, subtract from 1 - about 3 steps (3)
+- Abstraction level: Uses algebraic notation for sequences - moderate (5)
+- Prerequisite knowledge: Need to know sequence notation, substitution, BIDMAS (5)
+- Distractor plausibility: D is very plausible for the misconception; others less so (6)
+- Misconception strength: Order of operations errors are common (7)
+- Question clarity: Very clear what's being asked (9)
+- Cognitive load: Moderate - need to remember substitution and order of operations (4)
+- Age appropriateness: Sequences are typically KS3/KS4 content - very appropriate (9)
+- Transfer distance: Fairly standard sequence problem (3)
+- Visual complexity: Simple algebraic notation (3)
+- Solution uniqueness: Need to understand both substitution and order of operations (7)
+
+**Difficulty Prediction:**
+
+Compared to the calibration item (0.134 classical difficulty), this item adds the complexity of sequence notation which might trip up some students. However, the arithmetic is straightforward. The misconception distractor (-30) is quite tempting for students who don't follow BIDMAS.
+
+I'd estimate this is slightly harder than the calibration item due to the additional abstraction of sequence notation, but still relatively easy overall. Classical difficulty around 0.20-0.25.
+
+The discrimination should be moderate to good since it clearly separates those who understand order of operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

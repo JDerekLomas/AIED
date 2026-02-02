@@ -1,0 +1,16 @@
+This question is a classic test of the hierarchy of operations (BIDMAS/BODMAS) combined with decimal arithmetic. Having taught this for two decades, I’ve seen that the primary trap isn't the algebra itself, but the order in which operations are applied.
+
+The most common error (yielding Option A) is the "linear" approach: $(3 \times 0.3)^2$, leading to $0.9^2 = 0.81$. The second most common error (yielding Option D) involves a misunderstanding of place value or "floating decimals" during the squaring process (thinking $0.3^2 = 0.9$, then $3 \times 0.9 = 2.7$). Option C comes from forgetting the square altogether and simply doing $3 \times 0.3 \times 2$.
+
+The correct path is $0.3^2 = 0.09$, then $3 \times 0.09 = 0.27$.
+
+**Teacher's Insight:**
+*   **Below-basic** students will almost exclusively go for C or D because they lack the confidence to square a decimal correctly, often assuming $0.3^2 = 0.6$ or $0.9$.
+*   **Basic** students often fall for Option A because they perform the operations as they read them from left to right, ignoring the priority of indices.
+*   **Proficient** students usually know to square first but frequently stumble on $0.3 \times 0.3 = 0.9$ (the "one decimal place" error), leading them to Option D.
+*   **Advanced** students recognise $0.3^2$ as $0.09$ and compute $0.27$ reliably.
+
+below_basic: A=20% B=15% C=35% D=30%
+basic: A=40% B=25% C=10% D=25%
+proficient: A=15% B=55% C=5% D=25%
+advanced: A=2% B=93% C=1% D=4%

@@ -1,0 +1,14 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). While it seems simple, it contains two classic traps: the priority of multiplication over addition/subtraction, and the "left-to-right" rule for addition and subtraction.
+
+**The Correct Path:** $4 \times 2 = 8$, then $3 - 5 + 8$. Working left to right: $3 - 5 = -2$, and $-2 + 8 = \mathbf{6}$ **(Option A)**.
+
+**Common Errors:**
+1.  **Linear calculation (No BIDMAS):** $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = \mathbf{4}$ **(Option B)**. This is a very common error for students who solve purely left-to-right.
+2.  **Incorrect Addition priority:** $5 + 8 = 13$, then $3 - 13 = \mathbf{-10}$ **(Option D)**. This stems from a misunderstanding of BIDMAS where students think 'Addition' *must* come before 'Subtraction'.
+3.  **Bracket/Sign error combined with linear:** $3 - (5 + 4) \times 2 \rightarrow 3 - 9 \times 2 = \mathbf{-15}$ (not an option) or $3 - (5 + 4 \times 2) = 3 - 13 = \mathbf{-10}$.
+4.  **C is a "wild card"** for students who might do $(3 - 5 + 4) \times (- something)$, though it is less common.
+
+below_basic: A=30% B=45% C=5% D=20%
+basic: A=50% B=25% C=5% D=20%
+proficient: A=85% B=5% C=2% D=8%
+advanced: A=98% B=1% C=0% D=1%

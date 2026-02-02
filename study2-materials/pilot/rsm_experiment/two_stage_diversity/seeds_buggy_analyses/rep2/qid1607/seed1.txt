@@ -1,0 +1,25 @@
+As an expert in mathematical misconceptions, here is an analysis of the error in Isaac’s work.
+
+### 1. The Specific Misconception: "The Sign-Change Confusion" (Inversion Bug)
+The specific procedural error here is a **faulty application of the balance method during transposition**, specifically involving inverse operations. When "moving" a number to the other side of an equals sign, the student knows that the operation must change, but they treat "change" as an arbitrary toggle rather than a logical inverse. 
+
+In Step 2, the student sees a **$+1$** and incorrectly applies an **addition** to the other side instead of a **subtraction**. This is often triggered by the student seeing the positive nature of the number and subconsciously deciding that "doing math" means "adding," or by confusing the rule for removing a negative (adding) with the rule for removing a positive.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would process the problem as follows:
+
+*   **Step 1:** The student correctly identifies that the $\div 4$ must be undone first. They know the inverse of division is multiplication. They calculate $15 \times 4 = 60$. They write: $60 = 1 + k$. **(Step 1 is correct).**
+*   **Step 2:** The student looks at $60 = 1 + k$. They want to isolate $k$. They see the number $1$. Instead of thinking "I need to subtract $1$ from both sides to keep it balanced," they think "I need to move the $1$ to the other side." 
+*   **The Bug:** Because they just performed a "big" operation (multiplication) to get 60, they maintain that "additive" momentum. They move the $1$ over and simply combine it with the $60$ through addition ($60 + 1$), resulting in $k = 61$. 
+
+### 3. The Corresponding Answer
+This misconception leads the student to choose **Option A (Only step 1)**. 
+
+The student recognizes that Step 1 follows the rules of algebra, but they have produced an incorrect result in Step 2. Therefore, they identify Step 1 as the only valid part of the process.
+
+### 4. Attractiveness of the Error
+This is an **extremely attractive and natural error** for a Year 9 student for several reasons:
+
+*   **Positive Association:** Students have a natural "positive bias." It feels more "correct" to add numbers together to get a larger, cleaner result ($61$) than to subtract.
+*   **Computational Ease:** $60 + 1$ is mentally "smoother" than $60 - 1$ in the heat of a multi-step problem.
+*   **Lack of Verification:** The student is unlikely to realize they went wrong because they aren't in the habit of **back-substitution**. If they plugged $61$ back into the original equation: $\frac{1+61}{4} = \frac{62}{4} = 15.5$, they would see it does not equal $15$. However, students with this procedural bug focus on "moving" numbers like puzzle pieces rather than maintaining the truth of the equality, making the error invisible to them.

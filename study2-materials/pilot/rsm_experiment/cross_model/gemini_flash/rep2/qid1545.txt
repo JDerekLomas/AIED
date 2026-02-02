@@ -1,0 +1,8 @@
+This question tests the order of operations (BIDMAS/BODMAS). The challenge lies in comparing a multi-step expression that requires division before addition on the left ($8 + 3 = 11$) versus a bracketed expression that requires addition before division on the right ($20 \div 4 = 5$).
+
+The left-hand side ($11$) is larger than the right-hand side ($5$). The primary pitfall for students is performing the left side linearly from left to right (calculating $8 + 12 = 20$, then $20 \div 4 = 5$), which would lead them to select option C (equality). Below-basic students often treat math expressions like sentences, reading strictly left-to-right. Proficient students recognize the brackets on the right but may still slip up on the hierarchy of operations on the left if they are rushing. Advanced students will identify the structure immediately.
+
+below_basic: A=30% B=15% C=50% D=5%
+basic: A=45% B=15% C=35% D=5%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=96% B=1% C=2% D=1%

@@ -1,0 +1,43 @@
+<chain_of_thought>
+The item asks students to rearrange the formula for the area of a triangle ($A = \frac{1}{2}bh$) to make $h$ the subject. 
+
+1.  **Mathematical Steps**: 
+    - Multiply both sides by 2: $2A = bh$.
+    - Divide both sides by $b$: $h = \frac{2A}{b}$.
+2.  **Distractor Analysis**:
+    - **A**: $h = \frac{1}{2}(b \times A)$. This suggests a failure to understand inverse operations, perhaps just shuffling the letters around or thinking that if $1/2$ was on the right, it stays as $1/2$.
+    - **C**: $h = \frac{A}{2b}$. This is a very common error where students "move" the 2 but keep it in the denominator (effectively dividing by 2 instead of multiplying). It indicates a misconception about how to undo a fraction.
+    - **D**: "They are all incorrect". This is usually a low-performing distractor but can attract students who are unconfident in their algebraic manipulation.
+3.  **Psychometric Comparison**:
+    - Compared to Example 1 ($-5 = p + 10$), this is more abstract because it involves variables only (literal equations). Example 1 had a classical difficulty of 0.167 (very hard).
+    - Compared to Example 3 (function machine for $x^2+5=14$), this requires similar inverse operation logic but without the scaffolding of a diagrammatic function machine.
+    - Rearranging formulas is a topic that typically appears in the UK Higher/Foundation crossover (ages 14-16) and is notoriously difficult for students who struggle with the "balance" method of algebra.
+    - The "inverse operation" misconception is strong here. Many students will see the $1/2$ and assume it stays as $1/2$ or becomes a division by 2 on the other side.
+4.  **Predicted Parameters**:
+    - **Classical Difficulty**: This is a difficult topic. I expect a low proportion correct, likely around 0.30 - 0.40, as literal equations are harder than numerical ones.
+    - **IRT Difficulty (b)**: Looking at the calibration, Example 5 (inequalities) was 0.808. Literal equations are often perceived as more difficult than linear inequalities. I'll place $b$ around 0.60 to 0.90.
+    - **Discrimination (a)**: Algebra items usually discriminate well between high and low ability students. I expect a value around 1.3.
+    - **Guessing (c)**: With 4 options and one being "all incorrect", guessing is likely around the 0.15-0.20 mark.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.72</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

@@ -1,0 +1,12 @@
+This question is a significant "trap" for students across several ability levels because it combines two high-frequency error types: BIDMAS (Order of Operations) and decimal multiplication.
+
+The primary error anticipated is the "multiplication before squaring" error (performing $(3 \times 0.3)^2$ instead of $3 \times 0.3^2$). This leads to $(0.9)^2$, which is $0.81$ (Option A). This is a common mistake even for proficient students who know their square numbers but lack procedural fluency with powers. 
+
+The secondary error is decimal place value during squaring. Many students correctly identify $3^2 = 9$ but believe $0.3^2 = 0.9$. This leads to $3 \times 0.9 = 2.7$ (Option D). Option B ($0.27$) is the correct answer. Option C ($1.8$) is a weaker distractor, usually resulting from $3 \times (0.3 \times 2)$.
+
+Below basic students often pick D because they struggle with decimal multiplication ($0.3 \times 0.3$). Basic and proficient students are highly susceptible to Option A because the "left-to-right" reading habit often overrides BIDMAS rules in the context of algebra.
+
+below_basic: A=30% B=15% C=15% D=40%
+basic: A=45% B=25% C=5% D=25%
+proficient: A=35% B=50% C=5% D=10%
+advanced: A=10% B=85% C=2% D=3%

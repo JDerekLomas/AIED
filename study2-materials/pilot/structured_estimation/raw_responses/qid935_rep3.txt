@@ -1,0 +1,45 @@
+<chain_of_thought>
+Target item: Given 2j - k = -10 and k = 8, find j.
+
+Step 1: Substitute k = 8 → 2j - 8 = -10
+Step 2: Add 8 to both sides → 2j = -2
+Step 3: Divide by 2 → j = -1 (answer D)
+
+Error pathways for each distractor:
+- C (j = -9): Student subtracts 8 instead of adding (the tested misconception). 2j = -10 - 8 = -18, j = -9. This is the primary trap.
+- B (j = 9): Same arithmetic as C but drops the negative: j = 9. Could also come from treating the equation as 2j + 8 = 10 somehow.
+- A (j = 1): Gets 2j = -2 correctly but divides to get j = 1 (sign error). Or substitutes incorrectly.
+
+Thinking about difficulty from a different angle - what proportion of UK secondary students can reliably:
+1. Understand "substitute k = 8 into equation"? Most KS3/4 students should manage this.
+2. Rearrange 2j - 8 = -10? This requires adding 8 to -10, which many students find confusing. -10 + 8 = -2 requires comfort with negative arithmetic.
+3. Divide -2 by 2? Relatively straightforward once step 2 is done correctly.
+
+The critical barrier is step 2. The misconception of subtracting instead of adding is particularly tempting here because subtracting feels natural when you see subtraction in the equation. Combined with the negative numbers, I expect a substantial proportion to err.
+
+Looking at calibration anchors more carefully: the inequality item (b = 0.808, classical = 0.569) involves variable manipulation on both sides plus inequality understanding. This item is simpler structurally but the negative arithmetic and simultaneous equations context add challenge.
+
+I'll estimate this as slightly easier than the inequality but harder than the function machine: classical difficulty ~0.35-0.45, b ~0.15-0.40. I'll go with 0.38 and b = 0.25. Discrimination should be solid - maybe 1.20. Guessing parameter around 0.12 since some students might randomly guess among the options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

@@ -1,0 +1,11 @@
+To arrive at these percentages, I’ve considered the following common Year 9 pitfalls:
+
+*   **Option A (6):** The correct application of BIDMAS/Order of Operations. $4 \times 2 = 8$, then $3 - 5 = -2$, and $-2 + 8 = 6$.
+*   **Option B (4):** A very "attractive" error. Students calculate $3 - 5 = -2$, but then incorrectly add the 4 before multiplying ($[-2 + 4] \times 2 = 2 \times 2 = 4$). It follows a strict left-to-right reading pattern while ignoring operation priority.
+*   **Option C (-12):** This comes from performing the additions/multiplications first but failing with negative number logic. $5 + (4 \times 2) = 13$, then $3 - 13 = -10$, but some students mistakenly calculate $(3-5)$ as $-2$, then multiply the $4 \times 2$ to get $8$, but subtract the whole lot: $-(5 + 4) \times 2$, or similar heavy grouping errors.
+*   **Option D (-10):** Students apply BIDMAS correctly for the multiplication ($4 \times 2 = 8$), but then treat the calculation as $3 - (5+8)$. They see the "+" sign and assume they must add $5+8$ before subtracting from $3$. This is a classic "addition before subtraction" misconception.
+
+below_basic: A=15% B=45% C=15% D=25%
+basic: A=40% B=30% C=5% D=25%
+proficient: A=75% B=10% C=0% D=15%
+advanced: A=98% B=1% C=0% D=1%

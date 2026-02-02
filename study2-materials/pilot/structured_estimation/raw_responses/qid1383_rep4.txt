@@ -1,0 +1,46 @@
+<chain_of_thought>
+T = k^4 where k = -3. The answer is 81 (A) since (-3)^4 = 81.
+
+I want to think carefully about what proportion of the 11-16 UK student population gets this wrong. The item sits at the intersection of two skills: exponentiation and signed number arithmetic.
+
+For the sign issue: research consistently shows that even secondary students struggle with powers of negative numbers. The "even power = positive" rule is often taught but poorly retained. Students who remember "negative times negative is positive" for two factors may not extend this reasoning to four factors. They might think: "two negatives make a positive, but then multiplying by another negative makes it negative again, and one more negative... I'm confused, probably negative." This confusion is very real.
+
+For the computation: 3^4 isn't a commonly memorised power (unlike 2^4=16 or 3^2=9 or 3^3=27). Students need to compute it, which adds cognitive load.
+
+Distractor analysis: The B/D options (12/-12) come from 3*4 or -3*4. This is actually a very common error -- confusing "to the power of 4" with "times 4." In my experience, this error is just as common as the sign error, maybe more so among lower-ability students.
+
+So we have roughly three groups getting it wrong:
+1. Sign error -> C (-81): maybe 15-20% of students
+2. Operation confusion -> B (12) or D (-12): maybe 15-20% of students
+3. Combined errors or random guessing
+
+This suggests classical difficulty might be quite high -- perhaps 0.40-0.45. But then again, higher-ability students should breeze through this, so perhaps it's not that bad.
+
+Let me anchor more carefully. The simple equation -5=p+10 had difficulty 0.167. That's very easy. The inequality had 0.569. This item is somewhere in between. I'll estimate 0.42.
+
+For IRT difficulty, mapping 0.42 to b: looking at the calibration, 0.473 maps to b=0.404 and 0.295 maps to b=0.002. Linear interpolation suggests 0.42 maps to roughly b=0.30.
+
+Discrimination: this should be moderate to good. The item clearly separates students who understand exponentiation of negatives. I'll say 1.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

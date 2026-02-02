@@ -1,0 +1,17 @@
+Okay, I'm ready to predict the percentage breakdown for each answer choice based on ability level, reflecting common Year 9 errors.
+
+Here's my reasoning:
+
+*   **Correct Answer:** A) \(\frac{11}{2x}\) is the correct answer.  You need a common denominator (2x). So, the second fraction becomes 8/2x. (3/2x) + (8/2x) = 11/2x
+
+*   **Error Analysis:**
+    *   **B) \(\frac{7}{3 x}\):** This comes from incorrectly adding both the numerators AND the denominators: (3+4)/(2x+x) = 7/3x. It's a very common misunderstanding of fraction addition, and is a major red flag showing fundamental misunderstanding.
+    *   **C) \(\frac{11}{x}\):**  This error happens if a student gets the 11 as the correct sum of 3 and 8, but then erroneously "simplifies" 11/2x as 11/x - effectively dividing away only *part* of the denominator (the 2). Alternately it is simply ignoring that they need to get a common denominator first and performing 3 + 4 without a common denominator.
+    *   **D) \(\frac{7}{2 x}\):** This result arises from simply adding the numerators while incorrectly using the lowest common denominator to the fraction with x. (3 + 4 = 7 with 2x left below.). It doesn't understand the need to apply this LCM for both.
+
+*   **Ability Level Predictions:**
+
+below_basic: A=10% B=50% C=20% D=20%
+basic: A=30% B=35% C=20% D=15%
+proficient: A=70% B=10% C=10% D=10%
+advanced: A=95% B=1% C=2% D=2%

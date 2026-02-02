@@ -1,0 +1,17 @@
+## Step 1: Understand the question and the misconception it tests.
+The question tests students' understanding of the function \(y = x^3\) and specifically targets the misconception that a cubic function has a unique output for every input, implying that if \(y = 27\), then \(x\) must have a single value. However, \(y = x^3\) implies \(x = \sqrt[3]{y}\). For \(y = 27\), \(x = \sqrt[3]{27} = 3\). But, it's crucial to note that \(x = -3\) would give \(y = (-3)^3 = -27\), not \(27\), which might initially seem to validate only Tom's statement. Yet, considering \(y = x^3\), if \(y = 27\), then \(x\) could indeed only be \(3\) because \(3^3 = 27\) and \((-3)^3 = -27\). The question essentially checks if students recognize that \(x^3 = 27\) has one real solution, \(x = 3\), and that \(x = -3\) does not satisfy \(y = 27\) but rather \(y = -27\).
+
+## 2: Analyze the potential for misconceptions.
+A common misconception might be thinking that both positive and negative roots are valid for any given \(y\) in \(y = x^3\), which is not the case because this equation does not have two real solutions for a given positive \(y\). The equation \(x^3 = 27\) specifically has one real solution, \(x = 3\), because \((-3)^3 = -27\), not \(27\).
+
+## 3: Determine the difficulty level and likely student responses.
+- **Below Basic:** Students at this level might not fully understand the relationship between \(x\) and \(y\) in \(y = x^3\). They might incorrectly think both Tom and Katie could be right or not understand the concept of cubic roots well enough to evaluate the statements. Given the simplicity of the question, they might lean towards guessing or not fully understanding that only one value of \(x\) gives \(y = 27\). So, \(A = 30\%\), \(B = 20\%\), \(C = 20\%\), \(D = 30\%\).
+- **Basic:** Students here have a foundational understanding but might still struggle with the implications of \(y = x^3\). They are likely to recognize Tom is correct because \(3^3 = 27\), but might not immediately see why Katie can't be correct. So, \(A = 60\%\), \(B = 10\%\), \(C = 20\%\), \(D = 10\%\).
+- **Proficient:** These students understand \(y = x^3\) well and can calculate \(\sqrt[3]{27} = 3\). They should see Tom is correct and Katie is incorrect because \((-3)^3 = -27\). Thus, \(A = 80\%\), \(B = 5\%\), \(C = 10\%\), \(D = 5\%\).
+- **Advanced:** Advanced students not only understand the function but can also reason about its properties, including its monotonicity and the uniqueness of \(x\) for a given \(y\). They would easily see that only Tom is correct. So, \(A = 90\%\), \(B = 0\%\), \(C = 5\%\), \(D = 5\%\).
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=60% B=10% C=20% D=10%
+proficient: A=80% B=5% C=10% D=5%
+advanced: A=90% B=0% C=5% D=5%

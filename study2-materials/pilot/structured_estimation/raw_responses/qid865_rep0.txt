@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item asks students to identify the equation of a negative quadratic curve that crosses the x-axis at (-5, 0) and (1, 0). Let me analyze each option.
+
+For a negative quadratic (opens downward), we need a negative leading coefficient when expanded.
+
+The roots are x = -5 and x = 1. In factored form with roots r1 and r2, a quadratic is y = a(x - r1)(x - r2). For roots -5 and 1: y = a(x + 5)(x - 1). Since it's negative (opens downward), a must be negative, giving y = -(x + 5)(x - 1) = (1 - x)(x + 5). That's option A.
+
+Let me check each distractor:
+- A: y = (1-x)(x+5). Roots at x=1 and x=-5. Leading term: (1-x)(x+5) = -x^2 -4x + 5. Negative leading coefficient. Correct.
+- B: y = (1-x)(5-x). Roots at x=1 and x=5. Wrong root at x=5 instead of x=-5. Also expands to x^2 - 6x + 5, positive leading coefficient.
+- C: y = (x-1)(x+5). Correct roots but expands to x^2 + 4x - 5, positive leading coefficient (opens upward, not downward). This is the key misconception distractor - students who find the right roots but don't account for the negative orientation.
+- D: y = (x-1)(x-5). Wrong root (x=5 instead of x=-5) and positive leading coefficient.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." This relates to students who might pick C, thinking (x-1)(x+5) would produce a negative quadratic because of the negative constant term, or who don't understand that having a factor like (x-1) vs (1-x) changes the sign of the whole expression.
+
+This is a fairly challenging item. Students need to: (1) understand that roots correspond to factors, (2) understand that the sign/orientation of the parabola depends on the leading coefficient, (3) correctly relate factored form to the graph's features. The connection between roots and the negative orientation requires careful reasoning about signs.
+
+Comparing to calibration items: The factorising item (Tom and Katie) with the same misconception had classical difficulty 0.473 and IRT difficulty 0.404. This item adds graphical interpretation and the need to reason about the sign of the leading coefficient from a graph, which is arguably harder. I'd estimate this is moderately difficult, perhaps slightly harder than the Tom/Katie item.
+
+I'll estimate classical difficulty around 0.50-0.55, as the graphical component and sign reasoning add complexity. The discrimination should be reasonable since stronger students will systematically check the sign. Some guessing is likely given the 4 options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

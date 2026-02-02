@@ -1,0 +1,22 @@
+In the context of UK Year 9 mathematics (roughly ages 13–14), where students are transitionary between arithmetic and more formal algebraic manipulation, the most likely specific error here is a **Linear Substitution with Squared Coefficient (Bidmas/PEMDAS Error).**
+
+### 1. The specific misconception: **Multiplying the base before squaring (Order of Operations Bug)**
+The student incorrectly prioritizes the multiplication $(3 \times x)$ over the index/power $(x^2)$. They view the term $3x^2$ as $(3x)^2$ rather than $3(x^2)$. This is a fundamental misconception regarding the hierarchy of operations (BIDMAS), where "Indices" should be performed before "Multiplication."
+
+### 2. The step-by-step walkthrough
+A student with this misconception would process the equation $y = 3x^2$ using the following steps:
+1. **Substitution:** Replace $x$ with $0.3$, writing it as $3 \times 0.3^2$.
+2. **Incorrect Prioritization:** Instead of squaring $0.3$ first, the student multiplies $3$ by $0.3$. 
+   *   Calculation: $3 \times 0.3 = 0.9$
+3. **The Power Operation:** They then apply the square to their result from the multiplication.
+   *   Calculation: $0.9^2$
+4. **Final Arithmetic:** The student calculates $0.9 \times 0.9$, resulting in $0.81$.
+
+### 3. The corresponding answer
+This misconception leads directly to **Option A ($0.81$).**
+
+### 4. How attractive/natural is this error?
+This error is **extremely attractive** and is arguably the "distractor of choice" for teachers at this level.
+*   **Reading left-to-right:** Many students have a deep-seated habit of processing mathematical symbols linearly from left to right. Since the $3$ appears before the $x$, they perform that operation first.
+*   **Visual cues:** In the term $3x^2$, the coefficient is written closer to the $x$ than the exponent is perceived as "dominant," leading students to group $(3x)$ as a single entity to be squared.
+*   **Confidence:** The student would likely feel **very confident**. Because $0.81$ appears exactly as Option A, the presence of the result in the list reinforces the validity of their incorrect procedure. They would likely not realize they had made a BIDMAS error, as the arithmetic ($0.9 \times 0.9 = 0.81$) "feels" correct and yields a neat, decimal answer that fits the pattern of the question.

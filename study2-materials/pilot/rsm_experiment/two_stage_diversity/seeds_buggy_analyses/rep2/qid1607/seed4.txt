@@ -1,0 +1,26 @@
+Here is the analysis of the misconception involved in this question.
+
+### 1. The Misconception: "Inverse Operation Directionality" (or "Floating Addition")
+The specific bug is a failure to identify which term is the "subject" of the inverse operation when rearranging. Specifically, in Step 2, the student performs the inverse of subtracting 1 (addition) instead of the inverse of adding 1 (subtraction).
+
+This is often rooted in a **procedural surface-matching bug**: the student sees the number 1 and the number 60 and knows they must be "combined," but because they are moving a term from one side of the equals sign to the other, they instinctively "add" because they feel they are "building" the answer, or they confuse the sign of the constant they are moving.
+
+### 2. Step-by-Step Workthrough
+A student with this misconception would process the problem as follows:
+
+*   **Step 1:** They correctly identify that the division by 4 must be undone first. They multiply $15 \times 4$ to get 60 and successfully write $60 = 1 + k$. They view this step as correct.
+*   **Step 2:** They look at the equation $60 = 1 + k$. They know they need to "move" the 1 to isolate $k$.
+*   **The Error:** Instead of performing the balanced operation $-1$ from both sides, they mentally move the 1 across the equals sign and **add it** to the 60. This is often driven by the visual cue of the $+k$ (thinking "it’s a plus, so I plus") or a simple retrieval error where they choose the wrong inverse.
+*   **Result:** They calculate $60 + 1 = 61$ and conclude $k = 61$.
+
+### 3. Resulting Answer Option
+This misconception leads the student to choose **Option C (Both steps are correct)**. 
+
+Because the student's internal logic for "Step 2" aligns perfectly with Isaac's work, they will validate the entire process as correct, even though Step 2 contains a fundamental algebraic error.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most common mistakes for Year 9 students. 
+
+*   **Fluency vs. Logic:** Students often treat rearranging like "magic" rather than balanced operations. If a student is taught to "change the side, change the sign," they frequently get muddled about which sign is changing and why.
+*   **Positive Integer Bias:** In many early algebraic problems, answers are positive. Subtracting 1 from 60 ($59$) and adding 1 to 60 ($61$) both produce "nice" numbers, so there is no immediate "red flag" (like a negative number or a fraction) to suggest they are wrong.
+*   **Self-Correction Likelihood:** Low. Without a habit of **substitution** (checking if $15 = \frac{1+61}{4}$), the student will remain entirely confident. To them, 61 feels like a "natural" progression from 60.

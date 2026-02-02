@@ -1,0 +1,30 @@
+As an experienced UK maths teacher, I see this question as a test of two distinct skills: recall of the geometric formula for the volume of a sphere and the algebraic skill of rearranging an equation with a fractional coefficient and a cubic term.
+
+### Step 1 — Reasoning for each option:
+
+*   **A) \( \sqrt[3]{\frac{4V\pi}{3}} \):** This error occurs when a student understands they need to cube root to find $r$, but they perform the algebraic inverse of division incorrectly. They have multiplied $V$ by both $\frac{4}{3}$ and $\pi$ instead of dividing by them (or multiplying by the reciprocal).
+*   **B) \( \sqrt[3]{\frac{4V}{3\pi}} \):** This student likely remembers the formula incorrectly or mishandles the reciprocal. They have successfully moved the 3 to the numerator (incorrectly) and kept the 4 and $\pi$ in the correct relative positions for a "multiplication-style" rearrangement, essentially solving $V = \frac{3}{4}\pi r^3$.
+*   **C) [Correct Reasoning]:** The student starts with $V = \frac{4}{3}\pi r^3$. They multiply by 3 ($3V = 4\pi r^3$), divide by $4\pi$ ($\frac{3V}{4\pi} = r^3$), and then take the cube root of the entire expression: $r = \sqrt[3]{\frac{3V}{4\pi}}$.
+*   **D) \( \frac{3 \sqrt[3]{V}}{4\pi} \):** This is a common "procedural flow" error. The student identifies that a cube root, a 3, a 4, and a $\pi$ are involved, but fails to apply the cube root to the entire RHS. They have effectively isolated $r^3$, then "floated" the cube root symbol over the $V$ while leaving the coefficients outside the radical.
+
+***
+
+### Step 2 — Predicted distributions:
+
+I have categorised "ability" based on typical GCSE performance (Foundation/Higher tiers).
+
+**Below Basic (Grade 1-2):**
+Students at this level often guess based on which formula "looks" most like a sphere formula.
+*   **A=30% B=30% C=20% D=20%**
+
+**Basic (Grade 3-4):**
+Students know the volume formula but struggle with the multi-step rearrangement of fractions. Option B is a very tempting distractor here as they often mistake which way the 4 and 3 go.
+*   **A=20% B=40% C=25% D=15%**
+
+**Proficient (Grade 5-6):**
+Most students at this level can rearrange $V = \frac{4}{3}\dots$ correctly but might make a notation error (like D) or a slight slip in placement.
+*   **A=10% B=15% C=60% D=15%**
+
+**Advanced (Grade 7-9):**
+These students have mastered the rearrangement of subjects where the power is $>1$.
+*   **A=2% B=3% C=93% D=2%**

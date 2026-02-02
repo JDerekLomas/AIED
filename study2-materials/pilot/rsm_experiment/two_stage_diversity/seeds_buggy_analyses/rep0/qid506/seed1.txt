@@ -1,0 +1,23 @@
+In the context of UK Year 9 mathematics (ages 13–14), where students are transitionally moving from mental arithmetic to formal algebraic manipulation, the most likely error for this specific question is the **"Inverse Operation Cross-Pollination"** (specifically, **Incorrect Division of Fractions**).
+
+### 1. The specific misconception: "Multiplication by Association"
+The student understands that they must perform the inverse operation (dividing by 3) to isolate $p$. However, their procedural bug is treating the 3 and the denominator 12 as numbers to be combined via multiplication or division in a way that "looks right" rather than following the formal rule of multiplying the denominator by the divisor.
+
+The most common specific bug here is **Mental Reciprocal Simplification**: The student sees a 3 and a 12 and identifies a common factor. Instead of dividing the whole fraction by 3, they divide only the denominator by 3 because $12 \div 3 = 4$ feels "neater" than $12 \times 3 = 36$.
+
+### 2. The step-by-step student work
+*   **Step 1:** The student identifies that to solve for $p$, they need to "get rid" of the 3 by dividing the right-hand side by 3. 
+*   **Step 2:** They write or think: $p = \frac{1}{12} \div 3$.
+*   **Step 3 (The Error):** The student views the fraction $\frac{1}{12}$ and the integer $3$. Instead of applying the "Keep-Change-Flip" rule ($ \frac{1}{12} \times \frac{1}{3} $), they instinctively divide the denominator (12) by the coefficient (3). 
+*   **Calculation:** $12 \div 3 = 4$.
+*   **Result:** They place the result back into the denominator (or the whole answer), resulting in $p = \frac{1}{4}$.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option A ($p = \frac{1}{4}$)**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** for two main reasons:
+
+1.  **Number Sensitivity:** Year 9 students are often subconsciously hunting for "clean" integer relationships. 12 and 3 have a very strong relationship (factors). Multiplying $12 \times 3$ to get 36 feels like the number is "growing," which confuses students who are told that division usually makes things smaller. Dividing 12 by 3 to get 4 feels more "mathematically satisfying."
+2.  **Visual Processing:** Many students struggle with the spatial arrangement of fractions. They see the 3 "on top" (as a numerator) and the 12 "on the bottom." They may believe they are "simplifying" the equation across the equals sign.
+3.  **Lack of Self-Correction:** The student is unlikely to realize they are wrong because $\frac{1}{4}$ is a very "standard" looking fraction, whereas $\frac{1}{36}$ looks "too small" or "weird" to many students at this level. Unless they physically substitute $\frac{1}{4}$ back into the equation ($3 \times \frac{1}{4} = \frac{3}{4} \neq \frac{1}{12}$), they will feel confident in their answer.

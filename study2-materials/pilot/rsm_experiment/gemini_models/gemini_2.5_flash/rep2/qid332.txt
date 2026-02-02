@@ -1,0 +1,20 @@
+**Analysis of errors and attractiveness:**
+
+*   **Tom's line (\(\frac{x}{3}=17\)):** This is the correct first step, adding 5 to both sides.
+    *   **Attractiveness:** It's the standard, most logical first step in inverse operations. Students who understand the order of operations and how to "undo" them will go for this.
+    *   **Students who would catch themselves:** Those who mentally (or on paper) perform the operation and check the new equation's equivalence.
+    *   **Error leading away from this:** Misunderstanding inverse operations (e.g., subtracting 5 instead of adding), or trying to get rid of the division by 3 first (Katie's error).
+
+*   **Katie's line (\(x-5=36\)):** This results from multiplying the *entire* left side by 3 *before* isolating the \(\frac{x}{3}\) term. So, \(3 \times (\frac{x}{3}-5) = 3 \times 12\), which becomes \(x - 15 = 36\). Katie's line is \(x-5=36\), which is even more incorrect, as it implies only multiplying the \(x/3\) term by 3, leaving the -5 untouched, *and* then somehow distributing the 3 *incorrectly* to the 12 to get 36. *Or*, more likely, multiplying the \(x/3\) by 3 to get \(x\), and multiplying the 12 by 3 to get 36, but forgetting to multiply the -5 by 3. This is a common distribution error.
+    *   **Attractiveness:** The desire to "get rid of the fraction" immediately is very strong for many students. They see a division by 3 and immediately want to multiply by 3. The error lies in not multiplying *all* terms on the left side by 3. Often, they multiply \(\frac{x}{3}\) by 3 (to get \(x\)), multiply 12 by 3 (to get 36), but forget to multiply the -5 by 3. This results in \(x-5=36\).
+    *   **Students who would catch themselves:** Those with a solid understanding of algebraic operations and the distributive property. They'd write out \(3(\frac{x}{3}-5) = 3(12)\) and see the mistake \(3 \times -5\) being -15, not -5.
+    *   **Error leading to this:** Incorrect application of multiplication to clear a denominator, specifically failing to distribute the multiplication to all terms on one side of the equation.
+
+*   **Conclusion:** Only Tom is correct. So the answer is A.
+
+**Predictions:**
+
+below_basic: A=30% B=40% C=20% D=10%
+basic: A=55% B=25% C=15% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=0% C=1% D=1%

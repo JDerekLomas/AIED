@@ -1,0 +1,28 @@
+My internal monologue:
+
+Okay, Year 9 mock exam, 200 papers. I've seen these before. This question tests algebraic manipulation of a known formula (volume of a sphere) to find a specific variable (radius). It involves isolating r, multiplying, dividing, and taking a cube root. Common pitfalls will involve order of operations, inverse operations, and algebraic sign errors.
+
+The formula for the volume of a sphere is $V = \frac{4}{3}\pi r^3$.
+We need to make *r* the subject.
+
+Step 1: Get rid of the fraction. Multiply both sides by 3.
+$3V = 4\pi r^3$
+
+Step 2: Isolate $r^3$. Divide both sides by $4\pi$.
+$r^3 = \frac{3V}{4\pi}$
+
+Step 3: Isolate *r*. Take the cube root of both sides.
+$r = \sqrt[3]{\frac{3V}{4\pi}}$
+
+This is option C. This is the correct answer.
+
+Let's break down the incorrect options and the likely errors:
+
+**Option A: $ \sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm} $**
+Error: The $\frac{4}{3}$ has been inverted to $\frac{3}{4}$, but the $\pi$ has been left in the numerator when it should have gone to the denominator. Or, more simply, students have inverted the entire $\frac{4\pi}{3}$ as if it was $\frac{3}{4\pi}$, but then stuck the $V$ on top. It looks like they tried to do $V \div (\frac{3}{4\pi})$ or $V \times (\frac{4\pi}{3})$ and took the cube root. The "attractive" part is perhaps multiplying by $4\pi$ and dividing by 3, getting them in the 'wrong' order in the final fraction. $V \times \frac{4\pi}{3}$ gives $r^3 = \frac{4V\pi}{3}$. This is a common error for students who flip *some* terms but not all correctly. Often, it's about seeing $V = (\text{stuff}) r^3$, so $r^3 = V \div (\text{stuff})$, but then doing $V \times (\text{stuff})$ instead of $V \times \frac{1}{\text{stuff}}$.
+
+**Option B: $ \sqrt[3]{\frac{4 V}{3 \pi}} \mathrm{~cm} $**
+Error: Here, it looks like they have done $V \times \frac{4}{3\pi}$. This is almost the inverse of what's needed for $4\pi/3$. They have treated $4\pi$ as $4$ *multiplied by* $\pi$ and then divided by 3, but the 4 should be divided and 3 multiplied. Specifically, they multiplied $V$ by 4 and then divided by 3 and divided by $\pi$. This means they've kept 4 in the numerator and moved $\pi$ to the denominator correctly, but also inverted the fraction part ($\frac{4}{3}$ becoming $\frac{4}{3}$) instead of $(\frac{3}{4})$. So it's $r^3 = V \times \frac{4}{3\pi}$. This error keeps the $4$ in the numerator. It could stem from seeing the $4\pi$ in the numerator of the formula, and trying to keep it there in the $r^3$ isolated term. It's $V \div \frac{3\pi}{4}$ as an inversion mistake. Or $V \times \frac{4}{3\pi}$.
+
+**Option D: $ \frac{3 \sqrt[3]{V}}{4 \pi} \mathrm{~cm} $**
+Error: This option shows a misunderstanding of how the cube root works across multiplication and division within the term $r^3 = \frac{3V}{4\pi}$. They've only taken the cube root of $V$ and left the $\frac{3}{4\pi}$ outside. This is a common algebraic error – applying the root to only *part* of the term. Or they tried to move the $4\pi$ and 3 *after* taking the cube root of $V$. So, $r = \frac{3 \times (\text{cube root of } V)}{4\pi}$. This means they isolated $r$ by doing $\sqrt[3]{V} \times \frac{3}{4\pi}$. This suggests they started with $V= \frac{4}{3}\pi r^3

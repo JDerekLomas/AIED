@@ -1,0 +1,42 @@
+<chain_of_thought>
+Target item analysis: Find x when y = 0.5 satisfies 10x - 6y = 30, presented in table form.
+
+Solution: 10x - 6(0.5) = 30 => 10x - 3 = 30 => 10x = 33 => x = 3.3. Answer C.
+
+Distractor mapping:
+- D (2.7): The misconception distractor. Student does 10x - 3 = 30 then 10x = 30 - 3 = 27 (subtracting instead of adding). x = 2.7. Classic "same operation" error.
+- A (4.25): Possibly from mishandling the substitution. If student thinks 6y means 6/y: 6/0.5 = 12, then 10x - 12 = 30, 10x = 42, x = 4.2 (close but not exact). Or another route: 10x = 30 + 6 + 6.5 = 42.5, x = 4.25.
+- B (-4.25): Sign error variant of A.
+
+I want to think carefully about calibration. The five anchor items show a clear difficulty progression from p = 0.167 to p = 0.569. The key factors driving difficulty seem to be: number of steps, abstraction of the mathematical concept, and how natural the misconception-based error is.
+
+This item requires substitution into a two-variable linear equation plus solving - this is typically KS3/KS4 material (ages 13-15). The table format adds interpretation overhead. The decimal arithmetic (6 * 0.5) is straightforward but adds a step where errors can creep in.
+
+I think distractor D is highly attractive because the "same operation" error is very natural here - students see "-3" on the left and instinctively want to "cancel" it by subtracting from the right. This is one of the most persistent algebraic misconceptions.
+
+My estimate: this is harder than the simple equation items but not as hard as the inequality. Perhaps p_incorrect around 0.40-0.50. The discrimination should be moderate - the item tests meaningful algebraic understanding, and the key distractor targets a specific, well-documented misconception.
+
+I'll estimate slightly lower difficulty than my previous analyses might suggest, because the actual computation is quite clean once you set it up correctly. The 6 * 0.5 = 3 step is simple, and 33/10 = 3.3 is straightforward.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

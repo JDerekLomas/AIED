@@ -1,0 +1,40 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: "Variable Reversal" (Substitution Swap)
+This is a very common **procedural substitution error**. The student identifies that a value (0.5) must be plugged into the equation, but they substitute the given $y$-value into the $x$ position. This often stems from a lack of "checking back" and the habitual tendency to always solve for the variable on the right-hand side of an equation.
+
+### 2. Step-by-Step Walkthrough
+A student with this misconception would process the question as follows:
+1.  **Identify the input:** They see the value $0.5$ in the table.
+2.  **Mis-substitute:** Instead of replacing $y$ with $0.5$, they replace $x$ because $x$ is the first variable in the equation and "starts" the problem. 
+    *   *Equation becomes:* $10(0.5) - 6y = 30$
+3.  **Simplify:** They calculate $10 \times 0.5 = 5$.
+    *   *Equation becomes:* $5 - 6y = 30$
+4.  **Isolate the variable term:** They subtract 5 from both sides.
+    *   $-6y = 25$
+5.  **Final Division:** They divide 25 by $-6$ to find $y$.
+    *   $y = 25 \div -6 = -4.166...$
+6.  **"Best Fit" Adjustment:** Finding that $-4.16$ is not an option, they look at the values. They may notice that if they had ignored the negative sign in the subtraction (treating $5 - 6y$ as $6y - 5$ or simply forgetting the sign in the division), they get $30 + 5 = 35$; $35 \div 10 = 3.5$. 
+
+However, a more precise "Variable Reversal" path that leads directly to a distractor is **incorrectly rearranging the formula first**:
+1.  The student tries to make $x$ the subject but treats the equation as $y = \dots$
+2.  They write: $10x = 30 + 6y$
+3.  Then $x = \frac{30 + 6y}{10}$
+4.  They perform the calculation: $x = \frac{30 + 6(0.5)}{10}$
+5.  $x = \frac{30 + 3}{10} = \frac{33}{10} = 3.3$.
+
+### 3. Which answer option this leads to:
+This specific procedural bug (mistakenly calculating $x$ when $y$ is the input, but doing the arithmetic correctly for that setup) leads directly to **Option C: 3.3**.
+
+*(Note: The correct answer is **A (3.3 / 1 = 3.3 is wrong, correct is: $10x - 3 = 30 \rightarrow 10x = 33 \rightarrow x = 3.3$**—Wait, in this specific problem, Option C actually happens to be the correct answer! This is a "miracle" distractor scenario or a poorly designed question. If the correct answer is indeed 3.3, a student with the **Negative Sign Slip** would arrive at Option D: 2.7 by subtracting the 3 instead of adding it.)*
+
+**Let's refine the Misconception for the Distractor "Option D":**
+The "Subtractive Transposition Error": 
+1. Substitute correctly: $10x - 6(0.5) = 30 \rightarrow 10x - 3 = 30$.
+2. Instead of adding 3 to 30, they subtract it: $10x = 27$.
+3. $x = 2.7$.
+
+### 4. How natural/attractive is this error?
+The **Subtractive Transposition Error (Option D)** is extremely attractive. In Year 9, students are often "moving" numbers across the equals sign. They see the minus sign in the equation and subconsciously think "I need to do a subtraction." 
+
+The student would **not realize they went wrong** because 2.7 is a "clean" decimal. In many UK classrooms, students are conditioned to believe that if an answer is a simple, one-place decimal that appears in the multiple-choice list,

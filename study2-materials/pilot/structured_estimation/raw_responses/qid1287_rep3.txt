@@ -1,0 +1,42 @@
+<chain_of_thought>
+This item presents a cups-and-counters representation of solving x + 4 = 2x + 2, and asks students to identify the correct algebraic working.
+
+The visual model is a standard KS3 approach to introducing equation solving. Cups represent the unknown variable x, counters represent constants. The three steps show the balance method: remove a cup from both sides, then remove 2 counters from both sides, yielding x = 2.
+
+Answer A is correct: it shows x + 4 = 2x + 2 and x = 2.
+
+The distractors target a specific error pattern: combining terms using addition rather than isolating variables through inverse operations.
+- D is the strongest distractor: correct initial equation, but then 3x = 6 (adding all x-terms and all constants)
+- B is a simplified version of the same error: 3x = 6 without the initial equation
+- C is a hybrid error: 3x = 2, perhaps adding x-terms but only partially collecting constants
+
+The question wording "which would be the correct start to work it out" is slightly ambiguous - it could mean the initial equation setup or the full solution process. This may cause some confusion since all of A, C, and D start with the same equation x + 4 = 2x + 2.
+
+Key consideration: Students who understand the cups-and-counters model should find this accessible since the visual literally shows the solution steps. The challenge is for students who can read the visual but don't connect it to the algebraic operations correctly.
+
+Difficulty estimation: I'll anchor to the function machine item (classical difficulty 0.295, IRT b = 0.002) which also tests the same misconception with a visual representation. This item is arguably slightly easier because the cups-and-counters model is more concrete and introduced earlier in the curriculum. But the ambiguity in the question stem and the plausibility of distractor D could push difficulty up.
+
+I'll estimate classical difficulty around 0.32, IRT difficulty near 0.05. The visual complexity is moderate. Discrimination should be reasonable - around 1.2 - as the item cleanly tests the misconception but the visual interpretation adds some noise.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

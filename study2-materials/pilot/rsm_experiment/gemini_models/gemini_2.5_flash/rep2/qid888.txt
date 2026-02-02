@@ -1,0 +1,21 @@
+Here's my prediction based on marking hundreds of Year 9 papers for this exact topic:
+
+**Analysis of Errors:**
+*   **Correct Answer (B):** Requires correct FOIL/grid method, paying attention to signs for all terms. `m*m = m^2`, `m*-7 = -7m`, `-5*m = -5m`, `-5*-7 = +35`. Combining: `m^2 - 12m + 35`.
+*   **Distractor A:** `m^2 - 2m - 35`
+    *   `m^2` correct.
+    *   `-35` from `-5 * 7` (sign error, not `-5 * -7`). This is a common basic multiplication sign error.
+    *   `-2m` from `-7m + 5m` (sign error, treating `-5` as `+5` for the middle term *or* correctly multiplying `m*-7` and `m*-5` but adding the coefficients as `7-5=2` instead of `-7-5=-12` *or* just calculating `(-7)-(-5)` incorrectly). The `m` part comes from `-5m` and `-7m`, which should combine to `-12m`. The `-2m` could arise if they've tried to just add the numbers together from `-5` and `-7` ignoring signs and then tried to correct it for some reason, or if they calculated `(-7m) - (-5m)` which gives `-2m`. A slightly more complex thought process error for the middle term.
+*   **Distractor C:** `m^2 + 12m + 35`
+    *   `m^2` correct.
+    *   `+35` from `5 * 7` (sign error, not `-5 * -7`). Or correctly `-5 * -7`.
+    *   `+12m` from `5m + 7m`. This means they've treated both `-5` and `-7` as positive numbers for the middle term, *or* multiplied `-5m` and `-7m` correctly but then made a sign error when adding. A very common sign error where students avoid negative signs altogether for the 'OUTSIDE' and 'INSIDE' parts of FOIL.
+*   **Distractor D:** `m^2 - 12m - 35`
+    *   `m^2` correct.
+    *   `-12m` correct (they've added `-5m` and `-7m` correctly). This is good.
+    *   `-35` from `-5 * 7` (sign error for the constant term). This is *the* most attractive wrong answer for students who are good with negative numbers in addition/subtraction but forget the "negative times negative equals positive" rule for multiplication. They correctly handle `-5m` and `-7m` giving `-12m`, but then for `-5 * -7` they do `- (5 * 7) = -35`. Very common.
+
+below_basic: A=25% B=15% C=30% D=30%
+basic: A=10% B=45% C=10% D=35%
+proficient: A=5% B=80% C=0% D=15%
+advanced: A=0% B=95% C=0% D=5%

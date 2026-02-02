@@ -1,0 +1,42 @@
+<chain_of_thought>
+The target item asks students to compute (-2)^4. The correct answer is 16 (option C), since (-2)^4 = (-2)*(-2)*(-2)*(-2) = 4*4 = 16.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." A student with this misconception would compute the magnitude correctly as 16 but think the answer is -16 (option A). This is a very common misconception, particularly among younger secondary students.
+
+Looking at the calibration item that tests the same misconception (the factorising question with Tom and Katie), that had classical difficulty 0.473 and IRT difficulty 0.404. However, that item involved factorising quadratics which is considerably more complex. This item is more straightforward - it's a direct computation with negative number exponentiation.
+
+The distractors are well-designed:
+- A) -16: from the misconception that negatives always produce negative results
+- B) -8: confusing exponentiation with multiplication (-2 * 4 = -8)
+- D) 8: confusing exponentiation with multiplication but getting the sign wrong (2 * 4 = 8)
+
+The item requires understanding of: negative numbers, exponentiation, and the rule that even powers of negative numbers are positive. This is typically KS3/KS4 content.
+
+I'd estimate this is moderately difficult. Many students confuse (-2)^4 with -(2^4) or with -2*4. The misconception about negatives is strong. I'll estimate around 40-45% get it wrong, placing it as moderate difficulty.
+
+For discrimination, the item should discriminate well since it tests a specific conceptual understanding. The calibration examples with similar misconception strength show discrimination around 1.2-1.5.
+
+Guessing should be low-moderate. Some students might guess correctly, but the strong pull of distractor A makes random guessing somewhat unlikely to land on C.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

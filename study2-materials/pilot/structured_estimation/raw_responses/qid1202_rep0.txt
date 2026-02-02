@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to solve 3 - y = 5 for y. The correct solution requires subtracting 3 from both sides to get -y = 2, then multiplying by -1 to get y = -2 (answer B).
+
+The misconception tested is "uses the same operation rather than the inverse." A student with this misconception might add y to both sides incorrectly or subtract when they should add. Specifically, a common error is to compute 3 - 5 = -2 and then lose the negative on y, getting y = 2 (answer A). Or a student might think 3 + 5 = 8 and get y = 8 (answer C) or y = -8 (answer D).
+
+Looking at the calibration examples with the same misconception:
+- The simple equation -5 = p + 10 had classical difficulty 0.167 and IRT b = -0.702 (easy)
+- The function machine item had 0.295 and b = 0.002 (medium)
+- The inequality 2n + 3 <= 3n - 7 had 0.569 and b = 0.808 (hard)
+
+This item is somewhat tricky because y is being subtracted from 3, not the usual "y + something = result" form. The variable is on the "wrong side" of a subtraction. This creates a moderate challenge. But it's a single-step equation, simpler than the inequality. I'd place it between the first calibration item and the function machine item, perhaps around classical difficulty 0.30-0.35 and IRT b around 0.0 to 0.2.
+
+The distractors are reasonably plausible: y = 2 is the sign-error trap, y = 8 comes from adding instead of subtracting, and y = -8 is less likely but possible from a combination of errors. Distractor A (y = 2) is particularly strong.
+
+Discrimination should be decent since the misconception is well-targeted. The guessing parameter should be low as students who know algebra will get this right confidently.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

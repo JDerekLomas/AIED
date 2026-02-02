@@ -1,0 +1,40 @@
+Let me break this down systematically:
+
+Correct formula for sphere volume is V = (4/3)πr³
+
+Errors I'd expect:
+
+Below Basic (low confidence):
+- Likely to guess randomly
+- Might swap π around without understanding
+- Probable rearrangement mistakes
+Prediction:
+A=30% B=25% C=25% D=20%
+
+Basic (procedural understanding):
+- Will likely swap π/numbers around
+- Common error: "forgetting" the 4/3 coefficient
+- Some algebra confusion
+Prediction:
+A=40% B=30% C=20% D=10%
+
+Proficient (solid algebraic skills):
+- Most will work it out correctly
+- Might make small sign/coefficient errors
+- More systematic working
+Prediction:
+A=10% B=10% C=5% D=75%
+
+Advanced (confident mathematical reasoning):
+- Will methodically rearrange
+- Full understanding of volume formula
+- Precise algebraic manipulation
+Prediction:
+A=5% B=5% C=5% D=85%
+
+Therefore my final prediction:
+
+below_basic: A=30% B=25% C=25% D=20%
+basic: A=40% B=30% C=20% D=10%
+proficient: A=10% B=10% C=5% D=75%
+advanced: A=5% B=5% C=5% D=85%

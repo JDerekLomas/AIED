@@ -1,0 +1,41 @@
+<chain_of_thought>
+Item: 12d - 3 = 0, solve for d. Answer: d = 1/4.
+
+Step-by-step solution: Add 3 to both sides -> 12d = 3. Divide both sides by 12 -> d = 3/12 = 1/4.
+
+This tests a fundamental algebra skill. The equation itself is not complex, but there are several sources of potential difficulty:
+
+1. The answer is a unit fraction (1/4), which is less common in early equation-solving practice where answers tend to be integers. Students may doubt an answer of 1/4 and look for an integer alternative.
+
+2. The coefficient 12 is relatively large compared to the constant 3, creating the fractional result. Students who are used to "nice" numbers may struggle.
+
+3. The distractors include both the sign-error version (-1/4) and integer alternatives (4, -4), giving students multiple "escape routes" from the correct answer.
+
+Thinking about population-level performance: This would typically be taught in Year 7-8 (ages 11-13) in UK curriculum. By Year 9, most students should handle this. Across the full 11-16 age range, I'd expect around 65-75% to get it right, putting classical difficulty (proportion incorrect) at 0.25-0.35.
+
+Comparing to the calibration set: The simple one-step equation had difficulty 0.167. This two-step equation with a fractional answer should be harder. The function machine item (also same misconception, b = 0.002) required understanding function machines, a different representation. I'd place this item's IRT difficulty around 0.0 to 0.15 -- slightly harder than the simple equation but easier than items requiring more complex reasoning.
+
+Discrimination: The misconception is well-targeted by distractor A, but distractor B could catch students making a different type of error. This spread of error types might slightly reduce discrimination. I'll estimate a = 1.15-1.35.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

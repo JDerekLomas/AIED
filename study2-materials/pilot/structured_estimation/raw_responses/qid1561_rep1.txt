@@ -1,0 +1,36 @@
+<chain_of_thought>
+The target item requires solving 20t - 5 = 0. The correct answer is t = 1/4.
+
+Step 1: Add 5 to both sides: 20t = 5
+Step 2: Divide both sides by 20: t = 5/20 = 1/4
+
+The key difficulty here is that the answer is a fraction. Many students at the KS3/KS4 level are comfortable with integer solutions but struggle when the answer is a non-integer. Distractor B (t = 4) is particularly attractive because students might compute 20/5 = 4 rather than 5/20 = 1/4 -- this is a very common error pattern where students divide the larger number by the smaller regardless of order.
+
+Looking at the calibration set, the simplest equation (-5 = p + 10) had difficulty 0.167. The inequality item (2n + 3 <= 3n - 7) had difficulty 0.569. This item sits somewhere in between -- it's a straightforward linear equation but with a fractional answer and a two-digit coefficient that could trip students up.
+
+The misconception "uses the same operation rather than the inverse" appears in three calibration items spanning difficulties from 0.167 to 0.569. This item's complexity (fractional answer, larger coefficient) suggests it's harder than the easiest calibration example but not as hard as the inequality. I estimate classical difficulty around 0.35.
+
+Discrimination should be moderate to good. The item clearly separates students who understand inverse operations from those who don't. The guessing rate should be near the baseline for 4-choice items but slightly suppressed because the distractors are well-targeted to specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

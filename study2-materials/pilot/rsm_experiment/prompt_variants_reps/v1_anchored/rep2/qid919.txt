@@ -1,0 +1,13 @@
+In my experience, this question is a classic "order of operations" trap combined with decimal place value misconceptions. The most common error is students calculating $(3 \times 0.3)^2 = 0.9^2 = 0.81$ (Option A), or neglecting the squaring of the decimal correctly.
+
+**Option B (0.27)** is the correct answer: $0.3^2 = 0.09$, and $3 \times 0.09 = 0.27$.
+**Option A (0.81)** comes from multiplying 3 and 0.3 before squaring.
+**Option C (1.8)** often comes from doubling instead of squaring ($3 \times 0.6$).
+**Option D (2.7)** comes from misplacing the decimal point ($3 \times 0.9$ but treating $0.3^2$ as $0.9$ instead of $0.09$).
+
+Here is my prediction of the performance distribution:
+
+below_basic: A=30% B=20% C=25% D=25%
+basic: A=45% B=30% C=10% D=15%
+proficient: A=20% B=70% C=5% D=5%
+advanced: A=4% B=94% C=1% D=1%

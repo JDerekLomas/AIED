@@ -1,0 +1,19 @@
+To predict the performance on this question, we must look at how students handle the "negative result" requirement of a counter-example. 
+
+The theory states $2n^2 - 1$ is positive. To disprove it, the student must find the option where $2n^2 - 1 \leq 0$.
+*   **A:** $2(9/16) - 1 = 18/16 - 1 = 2/16$ (Positive, so not a counter-example).
+*   **B:** $2(0.25) - 1 = 0.5 - 1 = -0.5$ (Negative, this is the correct answer).
+*   **C:** $2(4) - 1 = 7$ (Positive).
+*   **D:** $2(1) - 1 = 1$ (Positive).
+
+The difficulty here lies in the "traps" of Options C and D. Students with lower ability often assume that substituting a negative number into a quadratic will automatically result in a negative value (forgetting that $(-x)^2$ is positive). Higher-ability students will quickly calculate the values, but even they can be tripped up by the fraction in A or the decimal in B if they aren't careful.
+
+**Predicted Percentages:**
+
+below_basic: A=15% B=20% C=35% D=30%
+basic: A=15% B=45% C=20% D=20%
+proficient: A=10% B=75% C=10% D=5%
+advanced: A=2% B=95% C=2% D=1%
+
+**Teacher's Insight:**
+Students at the "below basic" and "basic" levels have a strong psychological bias toward negative inputs (C and D) when asked for counter-examples for positivity. They see the minus sign in the input and assume it will result in a negative output. Option B is often avoided by these students because it involves decimal multiplication ($0.5^2$), which they perceive as "harder" or they mistakenly think $0.5^2 = 1$. The "proficient" group usually realizes C and D don't work and then decides between A and B, where the simple calculation $2 \times 0.25 = 0.5$ makes B the clear choice.

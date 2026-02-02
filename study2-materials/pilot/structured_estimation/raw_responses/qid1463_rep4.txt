@@ -1,0 +1,37 @@
+<chain_of_thought>
+The target item requires students to apply the quadratic formula to 5h^2 - 3h - 2 = 0 and identify that the triangle (representing b^2 in the discriminant) equals 9.
+
+Key analysis: The quadratic formula gives x = (-b +/- sqrt(b^2 - 4ac)) / 2a. Here a=5, b=-3, c=-2. The discriminant is b^2 - 4ac = 9 - 4(5)(-2) = 9 + 40 = 49. The triangle specifically represents b^2 = (-3)^2 = 9.
+
+The misconception "believes multiplying two negatives gives a negative answer" leads to (-3)^2 = (-3)(-3) = -9, selecting D. This is a persistent misconception even among older students.
+
+I want to think about whether this item is actually easier or harder than it first appears. On one hand, the quadratic formula is advanced content. On the other hand, if you know the formula, the question isolates just one piece - computing b^2. A student who recognizes b = -3 just needs to square it. The real question is whether enough students in the 11-16 age range have encountered the quadratic formula at all.
+
+For younger students in the sample (ages 11-13), this is likely impossible without guessing. For ages 14-16, it's accessible. If the sample skews toward the full 11-16 range, the classical difficulty could be quite high simply because many haven't learned the content yet.
+
+The answer options are nicely structured: two pairs differing by sign. A student who knows the formula and can square negatives gets C immediately. A student who makes the sign error gets D. Students who confuse squaring with doubling get A or B. This creates good diagnostic information.
+
+I'll estimate this as moderately hard. Compared to calibration items, it's in the upper difficulty range. Classical difficulty around 0.50-0.55, since students who know the formula often get it right but many don't know it. IRT difficulty around 0.55. Discrimination moderate - the prerequisite barrier introduces noise.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

@@ -1,0 +1,42 @@
+<chain_of_thought>
+Target: 3 + 6 / 2 + 1 = ?
+
+Correct (BIDMAS): 6/2 = 3, so 3+3+1 = 7. Answer A.
+Left-to-right error: (3+6)/2 + 1 = 4.5 + 1 = 5.5. Answer C.
+
+Let me think about who gets this wrong. Order of operations is introduced around Year 7 (age 11-12) and reinforced through KS3. By Year 9+, most students should handle this. But it's a persistent misconception -- research consistently shows BODMAS errors are common even among older students when expressions look "simple."
+
+The distractor quality matters here. C (5.5) is a very strong distractor that directly captures the misconception. D (5) is moderately plausible -- could result from a computational error after correctly applying BODMAS (e.g., 3 + 3 + 1 miscounted, or forgetting the initial 3 and computing 6/2 + 1 + 1 = 5, or some other partial understanding). B (3) seems weak as a distractor.
+
+I want to anchor to the calibration data. The BODMAS calibration item had difficulty 0.134. But I notice the five calibration items span a nice range: 0.167, 0.134, 0.295, 0.473, 0.569. The current item is simpler than most of these. Pure arithmetic with small whole numbers, single concept tested.
+
+However, I should consider that diagnostic assessments often have a wide ability range in the sample. If many lower-ability students are included, even "easy" BODMAS items can have 25-30% error rates.
+
+I'll estimate conservatively:
+- Classical difficulty: 0.15 (most students get it right, but the misconception catches a consistent minority)
+- IRT b: -0.40 (easier than average)
+- IRT a: 1.55 (high discrimination -- this is a clean, single-concept item)
+- Guessing c: 0.03 (students with the misconception go to C confidently; very little random guessing)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.40</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

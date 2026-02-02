@@ -1,0 +1,43 @@
+<chain_of_thought>
+The target item asks students to evaluate two steps in solving a linear equation: $15 = 2p - 4$.
+Step 1: $11 = 2p$ (The student subtracted 4 instead of adding 4; inverse operation error).
+Step 2: $22 = p$ (The student multiplied by 2 instead of dividing by 2; inverse operation error).
+
+Psychometric Analysis:
+- The item tests the "inverse operation" misconception twice. 
+- Distractor A (Only step 1) is attractive if a student thinks $15-4=11$ is the correct first move.
+- Distractor B (Only step 2) is attractive if a student thinks multiplying the result of an incorrect step 1 by 2 is a "correct" algebraic move in isolation, though unlikely.
+- Distractor C (Both correct) is very attractive to students who consistently use the same operation rather than the inverse.
+- Correct Answer D (Both incorrect) requires identifying two distinct errors.
+
+Comparison with Calibration Items:
+- Item 1 ($-5 = p + 10$) had a classical difficulty of 0.167 (very hard). 
+- Item 3 (Function machine for $x^2 + 5 = 14$) had a difficulty of 0.295.
+- This target item is slightly more complex than Item 1 because it requires checking two steps, but the "Both incorrect" option is often a difficult choice for students who lack confidence.
+- The "inverse operation" misconception is strong. Many students will see $15-4=11$ and immediately think Step 1 is correct.
+- Given the calibration data where simple inverse operation questions have very low success rates (0.167 to 0.295), this item is likely to have a low proportion correct. The IRT difficulty (b) will likely be near or slightly below 0, similar to Item 2 and 3.
+
+Discrimination is likely to be high as this is a classic diagnostic question. Guessing is likely low (0) because students with the misconception are drawn strongly to specific distractors rather than guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.24</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

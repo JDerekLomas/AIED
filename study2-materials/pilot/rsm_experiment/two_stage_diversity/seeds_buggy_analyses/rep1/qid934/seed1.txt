@@ -1,0 +1,23 @@
+In this scenario, a Year 9 student is most likely to commit a **Variable Confusion / Swap Error**.
+
+### 1. The specific misconception: "The Input-Output Swap"
+The misconception is the belief that the first number in the table always corresponds to the result (the $y$ value) of the equation's structure, or a failure to distinguish between the coefficients of $x$ and $y$. Specifically, the student treats the equation as if it is $y = 4x + 10$ or incorrectly maps the value of $x$ to the variable $y$ during substitution because the $\star$ is in the $y$ row.
+
+### 2. How the student would work through the question
+1.  **Identification:** The student looks at the table and identifies $x = 0$ as the input.
+2.  **Incorrect Substitution/Mapping:** Instead of substituting $0$ for $x$, the student mentally defaults to the "standard form" $y = mx + c$ they see most often. They look at the constant in the equation ($10$) and the coefficient of the other variable ($4$).
+3.  **The Operation:** The student assumes that if $x$ is 0, the $4x$ part is gone, but then they simply map the "result" to be the $x$ term. They perform $4 + 2 + x$ or simply look at the $x$ and $y$ and the $10$. 
+4.  **The "Shortcut" Bug:** A very specific and common Year 9 bug is to treat the $2$ next to the $y$ as a power or a separate constant. However, the most likely path to **A** is the **Product Error**: They multiply $x$ and $y$ by the constants provided regardless of the equals sign. They do $4 \times (2 + 3)$ or see $2 \times 10 = 20$. 
+
+Alternatively, if they arrive at **C (5)**, they have correctly substituted $x=0$, getting $2y = 10$, and divided by $2$. 
+
+If they arrive at **A (20)**, they have committed the **Inverse Operation Failure**:
+1. They substitute $x=0$: $4(0) + 2y = 10$.
+2. This leaves $2y = 10$.
+3. Instead of dividing by 2, they **multiply** by 2 because "2 is next to $y$" and $2 \times 10 = 20$.
+
+### 3. Which answer option this leads to
+This leads to **Option A (20)**.
+
+### 4. How natural/attractive this error is
+This error is extremely natural for a Year 9 student. At this level, students are moving from one-step to two-step equations. The **"Inverse Confusion"** (multiplying instead of dividing) is a highly attractive bug because the brain seeks "clean" numbers. Since $10 \times 2$ is a very simple calculation compared to interpreting the relationship between a coefficient and a variable, the student will perform the multiplication, see "20" as an option, and feel an immediate sense of "fluency validation." Because the answer they calculated is present in the list, they are very unlikely to realize they applied the inverse operation backwards; they will assume they "solved" for $y$ correctly.

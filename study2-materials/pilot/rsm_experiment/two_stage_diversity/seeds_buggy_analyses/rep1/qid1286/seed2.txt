@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is common among Year 9 students when rearranging formulas involving fractions.
+
+### 1. The Specific Misconception: The "Cross-Multiplication Inverse" Bug
+The student understands the general goal of isolating the variable $r$, but they possess a procedural "bug" regarding how to move a fraction to the other side of an equation. Instead of multiplying by the reciprocal (multiplying by the denominator and dividing by the numerator), they treat the fraction as a single unit to be multiplied, or they "flip" the wrong side of the equation during the transposition. 
+
+Specifically, in this case, the student believes that to move $\frac{4}{3}$ to the other side, they should **multiply** $V$ by the fraction as it stands, rather than its inverse.
+
+### 2. Step-by-Step Student Work
+A student with this bug would work through the problem as follows:
+
+1.  **State the formula:** The student correctly identifies the volume of a sphere formula: $V = \frac{4}{3}\pi r^3$.
+2.  **Move the coefficients:** The student wants to move the $\frac{4}{3}$ and the $\pi$ to the left side to leave $r^3$ alone.
+3.  **The Error:** Instead of multiplying by 3 and dividing by 4, the student thinks, *"I need to move the fraction and pi over to the V side."* They incorrectly multiply $V$ by the coefficients they see:
+    $$r^3 = \frac{4}{3} \pi V \quad \text{or} \quad r^3 = \frac{4V\pi}{3}$$
+4.  **The Cube Root:** To get $r$ by itself, they apply the cube root to their newly formed expression:
+    $$r = \sqrt[3]{\frac{4V\pi}{3}}$$
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option A**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "correct" to a Year 9 student for three reasons:
+
+*   **Visual Familiarity:** Option A contains all the correct components ($V$, $\pi$, 4, 3, and the $\sqrt[3]{}$ symbol) in a layout that looks very similar to the original volume formula. It "feels" right because it preserves the 4-over-3 structure.
+*   **Procedural Default:** Students often struggle with the idea that "undoing" a multiplication by a fraction requires division (multiplication by the reciprocal). To a struggling student, "moving" the numbers to the other side of the equals sign is often just seen as a "copy-paste" job.
+*   **False Confidence:** Because the result $\sqrt[3]{\frac{4V\pi}{3}}$ appears exactly as one of the multiple-choice options, the student will feel validated. They are unlikely to check their work by substituting a value back in, as they believe they have followed a logical "moving" rule. They would likely move on to the next question without any suspicion that they reversed the operation.

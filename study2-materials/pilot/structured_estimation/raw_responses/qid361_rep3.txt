@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item presents a function machine scenario and asks students to identify which algebraic representation is correct. It tests understanding of order of operations in algebraic notation.
+
+Let me verify the operations: Think of n, subtract 5, divide by 8, add 4, multiply by 7.
+
+Constructing: n → n-5 → (n-5)/8 → (n-5)/8 + 4 → 7((n-5)/8 + 4)
+
+Jo: 7((n-5)/8 + 4) — correct, the +4 is inside the outer brackets, so it happens before multiplication by 7.
+
+Paul: 7((n-5) ÷ 8) + 4 — incorrect, because +4 is outside the multiplication. By order of operations, Paul's expression computes 7 times (n-5)/8 first, then adds 4. This reverses the last two operations.
+
+The answer is A.
+
+This is an interesting item because the difference between the two expressions is subtle — just whether "+4" falls inside or outside the outermost brackets. Students need to carefully parse the bracket structure. The misconception (left-to-right processing) is very common among students who haven't fully internalized BIDMAS.
+
+Thinking about difficulty: this requires fairly sophisticated algebraic literacy. Students need to read and interpret nested bracket notation, which many find challenging. The "who is correct" format requires evaluating both expressions, doubling the cognitive load compared to simply writing the expression.
+
+Compared to calibration items, this seems similar in difficulty to the Tom/Katie factorising item (0.473 difficulty, b = 0.404). Both require evaluating two claims and understanding a specific algebraic concept. However, this item may be slightly easier because the function machine context provides scaffolding — students can trace through the operations step by step.
+
+I'll estimate classical difficulty around 0.43, b around 0.30. Discrimination should be decent since it clearly separates students who understand bracket notation from those who don't. The four-option "who is correct" format limits pure guessing somewhat, but students can often eliminate "Neither" if they can verify at least one expression.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,21 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: The "Subtraction-Before-Division" Sign Error
+Specifically, this is a **Negative Coefficient Handling Bug**. When solving for $x$, the student must move the term containing $y$ to the other side of the equation. If the term is negative ($-6y$), the student mistakenly **subtracts** the absolute value (performing $30 - 3$) instead of **adding** it (performing $30 + 3$), usually due to the visual presence of the minus sign in the original equation $10x - 6y$.
+
+### 2. Step-by-Step Student Work
+A student with this misconception would follow these steps:
+1.  **Substitution:** Replace $y$ with $0.5$ in the equation: $10x - 6(0.5) = 30$.
+2.  **Simplification:** Correcty calculate $6 \times 0.5 = 3$. The equation becomes $10x - 3 = 30$.
+3.  **The Error (Operation Choice):** The student sees the minus sign in "$10x - 3$" and conceptually thinks "I need to get rid of the 3." Instead of applying the inverse operation (addition), they "combine" the 30 and the 3 through subtraction, effectively treating the equation as if it were $10x = 30 - 3$.
+4.  **Resulting Equation:** $10x = 27$.
+5.  **Final Step:** Divide by 10 to get $x = 2.7$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D (2.7)**.
+
+### 4. Naturalness and Attractiveness of the Error
+This error is **highly attractive** and one of the most common mistakes in Key Stage 3 algebra. 
+*   **Why it feels right:** The student is working with $30$ and $3$. In their mind, "finding $x$" often involves decreasing the larger number if they haven't mastered the concept of "balancing" both sides of an equality.
+*   **Surface-level Logic:** A student may look at the equation $10x - 3 = 30$ and think that because 30 is the "total" and 3 is being "taken away" on the left, $10x$ must be the smaller part ($27$).
+*   **Lack of Realization:** The student is unlikely to realize they went wrong because $2.7$ is a "clean" decimal. In many school-level math problems, landing on a tidy number like 2.7 provides a false sense of security (confirmation bias), whereas the correct answer (3.3) might actually feel "messier" and thus "wrong" to a struggling student.

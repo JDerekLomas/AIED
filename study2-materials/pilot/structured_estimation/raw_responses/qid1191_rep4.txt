@@ -1,0 +1,47 @@
+<chain_of_thought>
+Solving 20t - 5 = 5t + 10:
+20t - 5t = 10 + 5
+15t = 15
+t = 1, which is option B.
+
+Let me consider this item in the context of the calibration set. Three calibration items test the same misconception ("uses same operation rather than inverse"):
+
+1. -5 = p + 10: One-step, classical difficulty 0.167, IRT b = -0.702
+2. Function machine for x^2 + 5 = 14: Multi-concept, classical difficulty 0.295, IRT b = 0.002
+3. Inequality 2n + 3 <= 3n - 7: Multi-step with inequality, classical difficulty 0.569, IRT b = 0.808
+
+This target item sits between items 2 and 3 in complexity. It requires multiple rearrangement steps like the inequality but doesn't have the added conceptual challenge of inequality direction. However, the larger coefficients (20t, 5t) add some cognitive load compared to simpler equations.
+
+Key consideration: the answer t = 1 is a very "nice" number that students might guess or verify by substitution. Among the four options, t = 1 and t = 0 are the most natural guesses to try. A student who tries t = 1 first will immediately confirm it works (20 - 5 = 15, 5 + 10 = 15). This back-substitution strategy significantly lowers the effective difficulty.
+
+Distractor analysis:
+- t = 0: Substituting gives -5 on left, 10 on right. Easy to reject.
+- t = -1: Gives -25 on left, 5 on right. Plausible only if student doesn't check.
+- t = 1/5: Gives 4 - 5 = -1 on left, 1 + 10 = 11 on right. An unusual value that might attract students confused about dividing by coefficients.
+
+I estimate this falls around classical difficulty 0.35-0.45. The large coefficients and multiple steps push difficulty up, but the clean answer and substitution shortcut pull it down. I'll estimate 0.40 as a compromise, placing IRT difficulty around 0.10-0.20.
+
+Discrimination should be moderate. The substitution shortcut means it doesn't perfectly separate students by algebraic manipulation skill. I expect around 1.15-1.30 for the a parameter. Guessing should be low to moderate -- the clean answer helps strategic students but random guessing is still at the 0.25 baseline for 4 choices.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.22</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

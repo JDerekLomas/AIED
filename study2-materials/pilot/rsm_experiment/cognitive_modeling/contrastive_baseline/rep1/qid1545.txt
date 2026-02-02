@@ -1,0 +1,12 @@
+This question tests the order of operations (BIDMAS/BODMAS). 
+
+The complexity here lies in the "Left-to-Right" trap. A student who calculates the first expression from left to right (ignoring the order of operations) would do $8+12=20$, then $20 \div 4 = 5$. Because the second expression also equals 5 (due to the brackets forcing the addition first), many lower-ability students will conclude the answers are equal and choose C.
+
+Higher-ability students will correctly identify that the first expression is $8 + 3 = 11$, and $11 > 5$. Option D is a distractor that usually only confuses those who understand the inequality but are unsure of the notation, though it is rarely chosen over A in this context.
+
+Here is the predicted performance breakdown:
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

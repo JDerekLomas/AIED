@@ -1,0 +1,8 @@
+This question tests the order of operations (BIDMAS/BODMAS). The primary difficulty lies in the contrast between the left side, where division must be performed before addition, and the right side, where the brackets force addition to happen first.
+
+For "below_basic" students, the most common error is reading from left to right on both sides ($8+12 = 20$, then $20 \div 4 = 5$), leading them to believe the expressions are equal. "Basic" students often remember brackets come first (making the right side 5) but fail to apply BIDMAS to the left side ($8+12 \div 4$ also becoming $20 \div 4$), again leading to option C. "Proficient" students typically recognize the left side requires division first ($12 \div 4 = 3$, then $8+3=11$), though a small margin may miscalculate or confuse the "greater than" and "less than" symbols. "Advanced" students will find this straightforward.
+
+below_basic: A=15% B=10% C=70% D=5%
+basic: A=25% B=10% C=60% D=5%
+proficient: A=80% B=5% C=12% D=3%
+advanced: A=98% B=1% C=1% D=0%

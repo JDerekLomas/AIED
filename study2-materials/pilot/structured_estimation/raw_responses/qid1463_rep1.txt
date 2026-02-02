@@ -1,0 +1,35 @@
+<chain_of_thought>
+The question concerns the quadratic formula applied to 5h^2 - 3h - 2 = 0. Students must figure out what the triangle represents in a partial rendering of the formula: ? +/- sqrt(triangle - ?) / ...
+
+The quadratic formula is x = (-b +/- sqrt(b^2 - 4ac)) / 2a. The triangle is in the position of b^2 in the discriminant. With b = -3, we get b^2 = (-3)^2 = 9, so the answer is C.
+
+The key misconception: students who think (-3)^2 = -9 would pick D. This is a very common error among younger students but by the time they encounter the quadratic formula (Year 10-11), many have overcome it. Still, in the stress of applying a complex formula, the error resurfaces.
+
+Looking at the calibration set, the Tom/Katie factorising item with the same misconception had difficulty 0.473. However, this item layers the misconception on top of quadratic formula knowledge, which is a higher-level topic. The question presentation is also somewhat unusual - showing only part of the formula with a placeholder - which increases transfer distance and cognitive load.
+
+On the other hand, if a student knows the quadratic formula well, identifying b^2 is fairly direct. The item is really testing two things: (1) can you identify b from the equation, and (2) can you square a negative number correctly. Students who don't know the quadratic formula at all will guess randomly.
+
+I think this is a harder item. Many students struggle with the quadratic formula itself, and the partial presentation adds confusion. I'll estimate classical difficulty around 0.55, IRT difficulty around 0.6. Discrimination should be moderate since the item conflates formula knowledge with the sign misconception, meaning some high-ability students might trip on the unusual format while some lower-ability students might get lucky.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>4</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>7</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

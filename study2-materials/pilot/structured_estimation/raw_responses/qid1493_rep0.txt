@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item asks students to identify the first operation in the expression 8 - 7 / 6^3, testing knowledge of order of operations (BIDMAS/BODMAS). The correct answer is A (6^3), since exponentiation has highest priority.
+
+Looking at the calibration items, the second example tests the same misconception (left-to-right regardless of priority) and has classical difficulty 0.134 and IRT difficulty -0.245. That item involved decimals, fractions, and multiplication — arguably more computationally complex.
+
+This target item is conceptually simpler in some ways: it doesn't ask students to compute the answer, just identify which operation comes first. This makes it more of a pure knowledge-of-rules question. However, the expression includes an exponent (6^3), which adds a layer — students need to know that exponentiation comes before division, which comes before subtraction.
+
+The distractors: B (7 / 6) represents doing division before exponentiation — a subtler error. C (8 - 7) is the classic left-to-right error. D ("doesn't matter") is a fundamental misunderstanding. C and D are quite plausible for students who haven't learned BIDMAS properly.
+
+Since the question only asks "which calculation first?" rather than requiring actual computation, cognitive load is low. The misconception (left-to-right processing) is very common among younger students but well-taught by KS3. I'd estimate this is slightly easier than the calibration item with the same misconception, since no actual computation is required.
+
+Comparing to anchors: the equation-solving item (classical difficulty 0.167) is relatively easy. This item should be in a similar range — maybe slightly easier since it's recognition rather than execution. I'll estimate classical difficulty around 0.15, IRT difficulty around -0.50.
+
+Discrimination should be moderate-to-good since students either know BIDMAS or don't — it separates well. The guessing parameter should be low since the question is clear and students who know the rule will get it right confidently.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.15</classical_difficulty>
+<irt_difficulty>-0.50</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

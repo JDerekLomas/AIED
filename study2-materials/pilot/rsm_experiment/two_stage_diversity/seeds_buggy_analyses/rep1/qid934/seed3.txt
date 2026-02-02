@@ -1,0 +1,21 @@
+In this scenario, the student is tasked with finding the value of $y$ when $x=0$ for the equation $4x + 2y = 10$.
+
+### 1. The specific misconception: "The Coefficient is the Value" (Substitutional Neglect)
+The specific bug is **Variable Substitution Ignorance** (or more specifically, **Equation as a List**). Instead of treating $4x$ as "4 multiplied by the value of $x$", the student views the numbers $4, 2,$ and $10$ as static components of a puzzle and believes that $x$ and $y$ are simply placeholders for those numbers. A very common Year 9 variant of this is the **Inverse Coefficient Misconception**, where the student believes $y$ must be the coefficient of $x$ (and vice versa) to "balance" the visual appearance of the equation.
+
+### 2. Step-by-step student reasoning
+1. **The $x=0$ Distraction:** The student looks at the table and sees $x=0$. They recognize they need to find $y$.
+2. **The Equation Scanning:** They look at $4x + 2y = 10$.
+3. **The Term Swapping Logic:** The student recalls that in equations with two variables, the numbers and letters are linked. They incorrectly assume that if $x$ is "gone" (because it is 0), the "partner" to $x$ (which is 4) is no longer relevant, and the answer must be the "other" coefficient they see in the expression.
+4. **The Halfway Arithmetic:** The student looks at $2y = 10$ but, rather than dividing $10$ by $2$, they see the number $2$ next to the $y$ and conclude that because $2 + 3 = 5$ or $4 + 1 = 5$, or simply by misidentifying the relationship between the coefficients, they settle on $5$ because it is half of the total, or they mistakenly solve $x + y = 5$ by using the numbers available.
+5. **Alternatively (and most likely for Option C):** The student ignores $x$ entirely because $x=0$. They see $2y = 10$. They mentally perform the operation $10 \div 2 = 5$. 
+
+### 3. The Resulting Option
+This misconception/procedural shortcut leads to **Option C (5)**.
+
+*(Note: While C is the correct answer, it is often reached via a "buggy" path where students ignore the $4x$ term entirely rather than substituting 0, or they confuse the y-intercept conceptually with the constant $10$ and simply divide by the coefficient they see.)*
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** because it leads to a "clean" integer result that exists in the multiple-choice options. 
+
+A student with this misconception would feel very confident. If a student simply "covers up" $4x$ because $x=0$, they feel they are using a sophisticated shortcut (the "Cover-up Method" for intercepts). Because $10 \div 2$ yields a whole number ($5$) that is present in the list, the student experiences **confirmation bias**. They would not realize they went wrong because they haven't produced a "messy" decimal (like $2.5$ or a negative number), which are usually the red flags that trigger a Year 9 student to re-check their work.

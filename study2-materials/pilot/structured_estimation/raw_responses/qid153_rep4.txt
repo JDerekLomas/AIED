@@ -1,0 +1,40 @@
+<chain_of_thought>
+Solving 12d - 3 = 0 for d. The correct procedure: add 3 to get 12d = 3, divide by 12 to get d = 1/4.
+
+Let me think about what makes this item interesting psychometrically. The misconception -- using the same operation rather than inverse -- appears in three of the five calibration items, so I have good anchoring data.
+
+The progression in the calibration set for this misconception:
+- Simple one-step (p + 10 = -5): b = -0.702, difficulty = 0.167
+- Function machine representation: b = 0.002, difficulty = 0.295
+- Inequality with variable rearrangement: b = 0.808, difficulty = 0.569
+
+This target item is a two-step equation with a straightforward presentation but a fractional answer. In terms of complexity, it sits between the one-step equation and the function machine item. The fractional answer is the main complicating factor. I'd estimate it's close to the function machine item in difficulty, perhaps slightly easier since the presentation is more standard.
+
+One important consideration: the pair of distractors d = 1/4 and d = -1/4 creates a sign-discrimination task. Students who correctly perform both inverse operations will get d = 1/4, while those who subtract (same operation) on the first step get d = -1/4. Meanwhile, d = 4 catches students who may invert the fraction or compute 12/3. This is a well-constructed item.
+
+I note that the question clarity is high -- "solve the equation" with a clear algebraic expression. No ambiguity whatsoever.
+
+My estimates: classical difficulty around 0.26, IRT b around -0.15, discrimination around 1.40 (the distractors map well to specific errors), guessing low at around 0.02.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.26</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

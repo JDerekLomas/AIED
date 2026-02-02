@@ -1,0 +1,40 @@
+<chain_of_thought>
+Evaluating y = 3x^2 at x = 0.3. The student must substitute and compute correctly: 3 * (0.3)^2 = 3 * 0.09 = 0.27.
+
+This item sits at the intersection of three skills: (1) substitution into a formula, (2) understanding order of operations with exponents, and (3) squaring a decimal. Any weakness in these areas could lead to errors.
+
+The tested misconception—left-to-right computation ignoring operator precedence—would yield 3 * 0.3 = 0.9, then 0.9^2 = 0.81. Answer A captures this precisely.
+
+Looking at the calibration anchor: the similar BIDMAS item (0.4 - 1/5 * 3) had classical difficulty 0.134 and b = -0.245. That item was relatively easy. However, I think this target item is notably harder for several reasons:
+1. Squaring a decimal (0.3^2 = 0.09) is non-trivial for many students
+2. The multiplication by 3 combined with squaring creates confusion about order
+3. All four answers are plausible decimal values, none obviously wrong
+
+On the other hand, the table presentation makes the task very clear—there's no ambiguity about what's being asked. Students who know BIDMAS and can square decimals will find this straightforward.
+
+I think this aligns roughly with the function machine item (classical difficulty 0.295, b = 0.002), perhaps slightly harder due to decimal computation. I'll estimate around 0.30 classical difficulty and b near 0.05.
+
+For discrimination, order-of-operations items tend to discriminate well since they separate students who truly understand precedence rules from those who don't. I expect moderate-to-good discrimination around 1.2-1.4.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

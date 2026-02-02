@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item presents the expression 3 + ab and asks students to select the correct verbal description from four options. The correct answer is A: "Add 3 to a multiplied by b."
+
+The core skill tested: understanding that in 3 + ab, the multiplication ab is performed first (by convention/BODMAS), so the expression equals 3 + (a*b). The targeted misconception is processing left to right: 3 + a = (3+a), then multiply by b.
+
+Let me evaluate each distractor's attractiveness:
+- B ("Add a and b then add three") -- misreads ab as a+b. A fairly basic error, likely only made by students very new to algebra. Weak distractor for most of the age range.
+- C ("Add three to a and then multiply by b") -- the classic left-to-right reading. This is the primary trap and will catch students with the targeted misconception. Strong distractor.
+- D ("Add three to b and then multiply by a") -- similar structure to C but reverses a and b. Less natural because reading left to right you'd encounter 'a' before 'b'. Moderate distractor.
+
+Difficulty estimation: The same misconception was tested in calibration item 2, which had 13.4% incorrect. However, that was a computational item where students could potentially arrive at the answer through calculation. This item requires abstract reasoning about notation and language, with no numbers to compute. I think this actually makes it slightly easier in some ways (no arithmetic errors possible) but harder in others (pure conceptual understanding required, plus verbal interpretation).
+
+Looking at the calibration set more broadly: items testing order of operations tend to be on the easier side. The expression is short and the options are clearly distinct. I'd place this around 0.15-0.20 classical difficulty.
+
+For IRT parameters: given similarity to calibration item 2 (b = -0.245, a = 1.552), I'd expect somewhat similar values. Perhaps b around -0.30 and a around 1.35. The discrimination might be slightly lower than the calibration item because the verbal format introduces construct-irrelevant variance (reading comprehension). Guessing should be near zero -- students who understand the concept will confidently pick A.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.16</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

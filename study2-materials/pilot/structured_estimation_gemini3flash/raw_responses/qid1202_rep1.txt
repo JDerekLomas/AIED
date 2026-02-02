@@ -1,0 +1,40 @@
+<chain_of_thought>
+The item asks for the solution to $3 - y = 5$. 
+1. **Mathematical context:** This is a one-step or two-step linear equation depending on the student's method (either adding $y$ to both sides and subtracting 5, or subtracting 3 and then dealing with $-y = 2$).
+2. **Distractor Analysis:**
+   - A ($y=2$): Likely comes from $5 - 3$ without considering the negative sign of $y$ or the structure of the equation.
+   - B (Correct): $3 - (-2) = 5$.
+   - C ($y=8$): Likely comes from $5 + 3$, using the "same operation" misconception mentioned in the prompt (adding instead of subtracting).
+   - D ($y=-8$): A variation of the addition error combined with a sign error.
+3. **Comparison with Calibration Items:**
+   - The first calibration item $-5 = p + 10$ (Difficulty 0.167) is conceptually similar but arguably easier because $p$ is positive. Dealing with a negative variable ($3 - y$) is a notorious stumbling block for UK students (Year 7-9).
+   - The misconception "uses the same operation rather than the inverse" suggests many students will do $5 + 3 = 8$ (Option C).
+   - This item is more difficult than it looks. Students often struggle with equations where the variable is being subtracted.
+4. **Psychometric estimation:**
+   - Classical difficulty: Given the calibration items, "simple" equations often have surprisingly low success rates (0.15 - 0.30). I expect a low proportion correct because $y=2$ and $y=8$ are very attractive.
+   - IRT difficulty (b): Calibration item 1 had a $b$ of -0.702 for a slightly simpler structure. This item's negative $y$ coefficient increases the difficulty. I expect a $b$ value slightly higher (more difficult) than -0.702, likely around -0.3 to -0.1.
+   - Discrimination (a): These types of algebraic misconceptions usually discriminate well between students who understand inverse operations and those who follow rote (but incorrect) rules. Expect $a \approx 1.2 - 1.4$.
+   - Guessing (c): With 4 options, and very strong distractors, the guessing parameter is likely low (0.00 to 0.10).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

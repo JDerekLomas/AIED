@@ -1,0 +1,55 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential misconceptions.
+
+The sequence given is \(7, 2, -3, \ldots\). To determine the correct statement, we need to identify the first term and the rule that generates the sequence.
+
+1. **First term**: It's clearly \(7\), so options that do not start with \(7\) as the first term can be eliminated based on this.
+
+2. **Term-to-term rule**: Let's calculate the difference between consecutive terms.
+   - From \(7\) to \(2\), the change is \(-5\).
+   - From \(2\) to \(-3\), the change is \(-5\).
+
+This indicates a term-to-term rule of subtracting \(5\) or \(-5\).
+
+Given this, let's examine the options:
+
+- **A**: The first term is \(7\) and the term-to-term rule is \(+5\). This is incorrect because the rule should be \(-5\), not \(+5\).
+- **B**: The first term is \(7\) and the position-to-term rule is \(-5\). A position-to-term rule would describe the \(n\)th term directly, which doesn't apply here as we're looking at a sequence where each term is derived from the previous one by a simple addition/subtraction.
+- **C**: The first term is \(7\) and the term-to-term rule is \(-5\). This matches our analysis.
+- **D**: The first term is \(12\) and the position-to-term rule is \(-5\). The first term is not \(12\), making this incorrect.
+
+## Analysis by Ability Level
+
+### Below Basic
+Students at this level might struggle with identifying sequences and rules. They might not carefully calculate the term-to-term change or might confuse the concepts.
+- **A**: \(40\%\) (initial term correct, might mistakenly think addition)
+- **B**: \(20\%\) (confusion with types of rules)
+- **C**: \(20\%\) (correct but might not recognize the rule)
+- **D**: \(20\%\) (incorrect first term, wrong type of rule)
+
+### Basic
+Students here have a foundational understanding but might still make errors in identifying sequence rules or get confused between term-to-term and position-to-term rules.
+- **A**: \(30\%\) (easily mistaken for a simple addition sequence)
+- **B**: \(15\%\) (some might think in terms of direct rules)
+- **C**: \(40\%\) (correct identification of both)
+- **D**: \(15\%\) (misinterpretation of both)
+
+### Proficient
+Proficient students understand sequences well and are less likely to confuse term-to-term and position-to-term rules.
+- **A**: \(10\%\) (should recognize the subtraction)
+- **B**: \(5\%\) (understand it's a term-to-term rule)
+- **C**: \(80\%\) (accurately identify both)
+- **D**: \(5\%\) (clearly incorrect)
+
+### Advanced
+Advanced students have a deep understanding and are likely to quickly and accurately analyze sequences.
+- **A**: \(0\%\) (obviously incorrect)
+- **B**: \(0\%\) (wrong type of rule)
+- **C**: \(95\%\) (correct understanding)
+- **D**: \(5\%\) (very unlikely to be chosen)
+
+Given the analysis, here are the predictions:
+
+below_basic: A=40% B=20% C=20% D=20%
+basic: A=30% B=15% C=40% D=15%
+proficient: A=10% B=5% C=80% D=5%
+advanced: A=0% B=0% C=95% D=5%

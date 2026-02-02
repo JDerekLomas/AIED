@@ -1,0 +1,41 @@
+<chain_of_thought>
+Target item: Add brackets to 16-6+4÷2 to make 7. Correct answer is D: (16-6+4)÷2 = 7.
+
+Verification of all options:
+A) 16-(6+4)÷2: inside brackets first: 6+4=10, then 10÷2=5 (division before subtraction), then 16-5=11.
+B) (16-6)+4÷2: brackets first: 10, then 4÷2=2 (division next), then 10+2=12.
+C) 16-6+(4÷2): brackets first: 4÷2=2, then 16-6+2=12. The brackets here are actually redundant since BODMAS already prioritizes the division.
+D) (16-6+4)÷2: brackets first: 16-6+4=14, then 14÷2=7. Correct.
+
+This is a classic BODMAS/order of operations question, a staple of KS3 mathematics. The item is well-designed in that it requires genuine understanding rather than rote application. Students need to evaluate how different bracket placements change the computation.
+
+One subtle aspect: a student with the left-to-right misconception evaluates 16-6+4÷2 as 7 already, so they might think "none of these brackets are needed" or might pick any option at random. Alternatively, they might check D and confirm it gives 7 (because their left-to-right computation of the inside still gives 14). This means the misconception could paradoxically lead to the correct answer through incorrect reasoning.
+
+Wait -- actually, inside the brackets of D, (16-6+4) = 14 regardless of whether you use BODMAS or left-to-right, because there's only addition and subtraction (same priority, evaluated left to right). So both correct and misconception students would get 14÷2 = 7 for option D. The question is whether students with the misconception can even parse the question properly.
+
+For difficulty: BODMAS is taught early in secondary school and revisited frequently. The computational demands are moderate. Looking at calibration, the similar misconception item had classical difficulty 0.134. But that was a direct calculation. This requires evaluating multiple expressions, which is harder. I'd estimate around 0.32.
+
+The discrimination should be solid. The item separates students who understand brackets and order of operations from those who don't. The four-option format with meaningful distractors helps.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

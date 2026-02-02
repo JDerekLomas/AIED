@@ -1,0 +1,22 @@
+Here is an analysis of a common misconception for this specific problem.
+
+### 1. The specific misconception: "The Operator Omission" (treating $4x$ as $4+x$)
+In the UK Year 9 curriculum, a frequent "bug" occurs when students are presented with algebraic terms like $4x$ where the value of $x$ is $0$. The student fails to recognise that the implicit operation between a coefficient and a variable is multiplication. Instead, they treat the two elements as independent parts of an addition sum or simply "ignore" the zero in a way that reverts the equation to a simpler structure.
+
+In this specific case, the student performs **additive substitution** or **term-omission** rather than multiplicative substitution.
+
+### 2. Step-by-step student logic
+A student with this misconception would follow these steps:
+1. **Identify the goal:** Find the value of $y$ when $x=0$.
+2. **Substitute $x$:** Look at the term $4x$ and, seeing $x=0$, assume that the "$4$" remains as a standalone constant in the equation (treating it as $4 + 0$ or simply forgetting that the 4 must be multiplied by 0).
+3. **Formulate a new equation:** Rewrite the equation as $4 + 2y = 10$.
+4. **Isolate the $y$-term:** Subtract $4$ from $10$, resulting in $2y = 6$.
+5. **Solve for $y$:** Divide $6$ by $2$, arriving at $y = 3$.
+
+### 3. Corresponding answer option
+This misconception leads directly to **Answer B) 3**.
+
+### 4. How natural/attractive is this error?
+This error is highly "attractive" because it leads to a clean, integer result. In a Year 9 context, students are often conditioned to expect "nice" whole numbers. If they correctly substituted $0$ and calculated $0 + 2y = 10 \Rightarrow y = 5$ (Option C), they might actually feel *less* confident because the term $4x$ "disappearing" entirely feels counter-intuitive to a struggling learner. 
+
+Furthermore, many students struggle with the concept of "zero as a nullifier" in multiplication. They often feel that if you have "four $x$'s" and $x$ is $0$, you still have "the four" left over. Because $y=3$ is a standard integer and requires a multi-step process to reach (Subtracting then Dividing), the student will feel a false sense of accomplishment, believing they have performed "proper algebra" to get there. They would likely not realize they went wrong unless prompted to check if $4(0) + 2(3)$ actually equals $10$.

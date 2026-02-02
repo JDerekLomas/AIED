@@ -1,0 +1,16 @@
+This question targets two primary areas of difficulty: the order of operations (BIDMAS/BODMAS) and decimal multiplication.
+
+The core conflict is between the correct operation $3 \times (0.3^2) = 3 \times 0.09 = 0.27$ and the common mistake of multiplying before squaring: $(3 \times 0.3)^2 = 0.9^2 = 0.81$. 
+
+Additionally, many students struggle with the placement of the decimal point when squaring 0.3. A common error is thinking $0.3 \times 0.3 = 0.9$, which leads to $3 \times 0.9 = 2.7$ (Option D). Option C ($1.8$) represents a double-error or a confusion with $3 \times (0.3 \times 2)$, mistaking the square for a multiplier.
+
+**Why this is difficult:**
+*   **Decimal Squaring:** Even "proficient" students often reflexively say $0.3^2 = 0.9$.
+*   **Order of Operations:** The proximity of the 3 to the $x$ makes it look like a single term $(3x)$, leading students to evaluate the product first.
+
+**Predicted Performance:**
+
+below_basic: A=25% B=15% C=25% D=35%
+basic: A=35% B=25% C=10% D=30%
+proficient: A=30% B=45% C=5% D=20%
+advanced: A=10% B=85% C=0% D=5%

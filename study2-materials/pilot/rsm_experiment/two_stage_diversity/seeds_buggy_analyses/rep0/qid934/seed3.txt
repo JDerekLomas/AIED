@@ -1,0 +1,26 @@
+In this scenario, the student is tasked with finding $y$ when $x=0$ for the equation $4x + 2y = 10$.
+
+### 1. The specific misconception: "The Coefficient Recovery Bug" (or Ignoring the 0-term)
+The specific misconception is **Term Deletion via Zero-Substitution**. When a student substitutes $x=0$ into a term (like $4x$), they correctly realize that $4 \times 0 = 0$. However, their procedural "bug" is to then treat the remaining equation as if the coefficients must simply sum to the total, or more commonly, they **divide the total by the coefficient of the variable they just replaced**, rather than the coefficient of the variable they are solving for.
+
+Alternatively, a very common Year 9 "blind spot" is **Operation Confusion**, where the student interprets $4x$ as "4 plus $x$."
+
+### 2. Step-by-step through the misconception
+A student with the **Operation Confusion** (treating $4x$ as $4+x$) would work as follows:
+*   **Step 1:** Replace $x$ with $0$ in the equation: $4 + 0 + 2y = 10$.
+*   **Step 2:** Simplify the expression: $4 + 2y = 10$.
+*   **Step 3:** Subtract $4$ from both sides: $2y = 6$.
+*   **Step 4:** Divide $6$ by $2$ to find $y$.
+*   **Result:** $y = 3$.
+
+Another pathway to the same result ($B$) is the **Equation Balance Error**:
+*   The student substitutes $x=0$ correctly to get $0 + 2y = 10$, but then mistakenly looks at the previous coefficient (the $4$) and thinks they need to subtract it from the total because they "haven't used the 4 yet." This leads them to $10 - 4 = 6$, and $6 \div 2 = 3$.
+
+### 3. Which answer option this leads to
+This misconception leads to **Option B (3)**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and feels very "natural" to a Year 9 student for several reasons:
+*   **Internal Consistency:** The number 3 fits perfectly into the pattern of the rest of the table if they were to continue (at $x=1, y=3$; at $x=2, y=1$). A student might look ahead at the next values and see a linear pattern forming that makes "3" look like a logical starting point.
+*   **Over-reliance on Arithmetic:** Students at this level often feel that all numbers provided in the question (4, 2, and 10) *must* be used in a calculation. To get to the correct answer (5), they only have to calculate $10 \div 2$. To a struggling student, "ignoring" the 4 feels "too easy" or like they have missed a step of the puzzle.
+*   **Lack of Verification:** The student is unlikely to realize they are wrong because $3$ is a whole, "clean" number. If their calculation resulted in a messy decimal, they might double-check their work, but "3" feels "correct" in the context of a UK classroom worksheet.

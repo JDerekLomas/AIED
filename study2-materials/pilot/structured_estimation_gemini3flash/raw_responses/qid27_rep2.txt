@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item asks students to evaluate the expression $10 - 2d$ for $d = -2$.
+- **Step 1: Substitution.** $10 - 2(-2)$.
+- **Step 2: Multiplication.** Students must recognize that $-2 \times -2 = +4$.
+- **Step 3: Addition.** $10 + 4 = 14$.
+
+**Distractor Analysis:**
+- **A (-12):** Likely from $2 \times -2 = -4$, then $10 - 4 = 6$, but then perhaps applying a sign error or miscalculating $10 - 22$ (concatenation). More likely: $10 - 2 = 8$, $8 \times -2 = -16$ (incorrect order). Wait, if they do $10 - 2(-2)$ and think $-2 \times -2 = -4$, they get $10 - 4 = 6$ (Option B).
+- **B (6):** This is the most common distractor. It arises from the misconception mentioned: multiplying two negatives gives a negative, or simply failing to see the subtraction sign as part of the coefficient. $10 - (2 \times -2) \rightarrow 10 - (-4) \rightarrow 10 - 4 = 6$.
+- **C (14):** Correct answer.
+- **D (32):** This likely comes from concatenation or positional errors: $10 - 2$ followed by $-2$, or $102$ related logic. Another possibility: $10 - 2 = 8$, $8 \times 4 = 32$.
+
+**Psychometric comparison:**
+Comparing to Example 1 ($-5 = p + 10$, difficulty 0.167), this item is slightly more intuitive but involves the "double negative" hurdle which is a notorious "killer" for UK Key Stage 3 students. 
+Example 4 ($x^2 + 5x + 6$, difficulty 0.473) also tests signs but in a more complex quadratic context.
+The target item is a standard substitution task. The difficulty usually lies in the sign change. In UK cohorts, negative number arithmetic is a significant discriminator. I expect a classical difficulty around 0.35-0.45.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

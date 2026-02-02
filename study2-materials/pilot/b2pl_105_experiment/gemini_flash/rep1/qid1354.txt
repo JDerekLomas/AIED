@@ -1,0 +1,20 @@
+As an experienced teacher, I’ve found that the primary challenge in this question is the **order of operations** (BIDMAS) within function machines and the subsequent logic of **inverse operations**.
+
+**Key insights for this specific question:**
+1.  **Option A vs C:** This is the main discriminator. Option A represents $(x+5)^2 = 14$. Many lower-ability students read equations left-to-right rather than following BIDMAS, leading them to think the "$+5$" happens before the square.
+2.  **Option D:** This targets the common misconception that the inverse of squaring is dividing by 2 ($x^2 \to \div 2$). Surprisingly, even some mid-ability students revert to this when they are focused on the "reverse" aspect of the machine.
+3.  **Visual Complexity:** Students find the "double" machine (forward and backward) helpful but also distracting. "Below basic" students often pick Option B because they don't understand that the output of the forward machine must be the input of the reverse machine.
+
+**Predictions:**
+
+**below_basic: A=35% B=20% C=25% D=20%**
+*At this level, students struggle with BIDMAS. They see "x" followed by "+5" in the equation text and pick A. Others see the "14" at the start of B and assume that's how it should look.*
+
+**basic: A=25% B=10% C=45% D=20%**
+*Basic level students start to recognize that $x^2$ comes first, but a significant portion will still be lured by the "divide by 2" trap in D or the incorrect order in A.*
+
+**proficient: A=10% B=5% C=75% D=10%**
+*Proficient students generally understand that indices come before addition. Most will correctly identify C, though some will make a hasty error picking D because they misread the inverse sign.*
+
+**advanced: A=2% B=1% C=95% D=2%**
+*Advanced students will find this very straightforward. They automatically process the structure of the equation and verify the inverse operations.*

@@ -1,0 +1,41 @@
+## Step 1: Understand the task
+The task requires predicting the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for a given maths question. The question involves completing the square for a quadratic expression.
+
+## 2: Analyze the question
+The question provides a quadratic expression \(3g^{2} - 18g - 7\) and its equivalent form \(3(g-3)^{2} \triangle\), and asks to find the value that should replace \(\triangle\). To solve this, we need to complete the square for the given quadratic expression.
+
+## 3: Complete the square for the given expression
+Starting with \(3g^{2} - 18g - 7\), factor out the coefficient of \(g^{2}\): \(3(g^{2} - 6g) - 7\).
+
+## 4: Add and subtract the square of half the coefficient of \(g\) within the parenthesis
+The coefficient of \(g\) is \(-6\), so half of it is \(-3\), and its square is \(9\). Thus, \(3(g^{2} - 6g + 9 - 9) - 7 = 3((g - 3)^{2} - 9) - 7\).
+
+## 5: Simplify the expression
+\(3(g - 3)^{2} - 27 - 7 = 3(g - 3)^{2} - 34\).
+
+## 6: Compare with the given equivalent form
+Comparing \(3(g - 3)^{2} - 34\) with \(3(g-3)^{2} \triangle\), it's clear that \(\triangle = -34\).
+
+## 7: Consider student errors
+Students might make errors if they misunderstand the process of completing the square or if they incorrectly simplify the expression. However, this question is straightforward once the process is understood.
+
+## 8: Assess difficulty level and potential misconceptions
+The potential for error comes from miscalculating the constant term when completing the square. Given that the numbers are manageable and the process is standard, most students who understand completing the square should get it right.
+
+## 9: Predict student responses based on ability levels
+- **Below_basic**: Students at this level might struggle with the algebra and are likely to choose incorrect options. Given the simplicity of the correct answer, some might guess or incorrectly calculate, potentially leading to a spread across options but with a higher chance of B, C, or D due to calculation errors.
+- **Basic**: Students here have a foundational understanding and might make minor calculation errors. They are more likely to understand the concept of completing the square but could get the constant term wrong.
+- **Proficient**: These students should be able to complete the square accurately and are likely to choose A) \(\triangle = -34\).
+- **Advanced**: Students at this level should easily complete the square and choose the correct option without hesitation.
+
+## 10: Estimate percentages
+Given the straightforward nature of the question once understood, and assuming most students have been taught to complete the square:
+- **Below_basic**: A=20% B=30% C=30% D=20%
+- **Basic**: A=60% B=20% C=10% D=10%
+- **Proficient**: A=85% B=10% C=3% D=2%
+- **Advanced**: A=95% B=3% C=1% D=1%
+
+The best answer is below_basic: A=20% B=30% C=30% D=20%
+basic: A=60% B=20% C=10% D=10%
+proficient: A=85% B=10% C=3% D=2%
+advanced: A=95% B=3% C=1% D=1%

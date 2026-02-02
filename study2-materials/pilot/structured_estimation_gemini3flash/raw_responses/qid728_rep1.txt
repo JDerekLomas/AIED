@@ -1,0 +1,39 @@
+<chain_of_thought>
+The item tests the order of operations (BIDMAS/BODMAS) and the strategic use of brackets. 
+- The target value is 7.
+- Option A: $16 - (10 \div 2) = 16 - 5 = 11$.
+- Option B: $(10) + 4 \div 2 = 10 + 2 = 12$.
+- Option C: $16 - 6 + 2 = 12$ (This is the same as the original expression without brackets).
+- Option D: $(16 - 6 + 4) \div 2 = (10 + 4) \div 2 = 14 \div 2 = 7$. Correct.
+
+The primary misconception is "left-to-right" processing. If a student processes D from left to right inside the brackets, they get 7. Interestingly, the expression $16-6+4 \div 2$ without brackets equals $16-6+2 = 12$. 
+
+Psychometric considerations:
+- This is a "reverse" order of operations question (finding where the brackets go), which is slightly more cognitively demanding than simple evaluation.
+- The misconception of left-to-right processing is very strong in the UK 11-14 age group.
+- Compared to the calibration items, this is moderately difficult. It is more complex than a basic linear equation (Item 1) but less abstract than the inequality (Item 5).
+- Option C is a "distractor" because it doesn't change the value of the expression, which might confuse students who don't understand that brackets around a high-priority operation are redundant.
+- Based on the calibration items, "proportion correct" for BIDMAS items with strong misconceptions usually falls between 0.3 and 0.5.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

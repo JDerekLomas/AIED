@@ -1,0 +1,38 @@
+<chain_of_thought>
+The target item requires expanding (x-4)^2. Students must recognise this as (x-4)(x-4) and apply FOIL or the identity (a-b)^2 = a^2 - 2ab + b^2.
+
+Correct expansion: x^2 - 2(x)(4) + 4^2 = x^2 - 8x + 16, which is option A.
+
+Distractor analysis:
+- B (x^2 + 16): The student has squared each term separately, missing the cross term -8x entirely. This reflects the misconception that (a-b)^2 = a^2 + b^2, which is extremely common.
+- C (x^2 - 16): Could arise from confusing (x-4)^2 with (x-4)(x+4) = x^2 - 16, i.e., difference of two squares confusion. Also very common.
+- D (x^2 - 8x - 16): The student correctly identified the middle term but computed (-4)^2 = -16. This is the tested misconception — multiplying two negatives giving a negative.
+
+Multiple strong distractors make this item harder than it might first appear. Options B and C capture different but equally common errors, and option D captures the specific misconception.
+
+Looking at the calibration anchor with the same misconception (Tom/Katie factorising, difficulty 0.473, b=0.404): expanding a squared binomial is a core GCSE skill but the multiple plausible errors should push difficulty up. I think this item is comparable — maybe slightly harder because the "forgot the middle term" errors (B and C) will capture many students who might otherwise have gotten it right.
+
+I'll estimate classical difficulty around 0.52, somewhat above the factorising anchor. Discrimination should be solid since the item separates students who truly understand binomial expansion from those with partial understanding. Guessing should be modest since each distractor appeals to a specific error pattern.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

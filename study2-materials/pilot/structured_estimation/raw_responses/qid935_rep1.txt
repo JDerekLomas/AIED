@@ -1,0 +1,40 @@
+<chain_of_thought>
+Analyzing the target item: Isaac has 2j - k = -10 and k = 8, find j.
+
+Solution path: Substitute k = 8 into 2j - k = -10 to get 2j - 8 = -10. Then add 8 to both sides: 2j = -2. Divide by 2: j = -1 (answer D).
+
+Distractor analysis:
+- A (j = 1): Could arise from correctly getting 2j = -2 but then thinking -2/2 = 1 (sign error on division).
+- B (j = 9): Could come from ignoring the negative sign entirely: treat as 2j - 8 = 10, then 2j = 18, j = 9. Or perhaps from a different error chain.
+- C (j = -9): This is the key misconception distractor. Student subtracts 8 instead of adding (same operation as appears in equation): 2j = -10 - 8 = -18, j = -9.
+
+The item sits within a simultaneous equations context which raises the prerequisite knowledge bar - students need to understand substitution. However, once k is substituted, it's a two-step linear equation with negatives.
+
+Comparing to the calibration set, the simplest equation (p + 10 = -5) had classical difficulty 0.167. That was a single-step solve. The inequality problem (two variables, multiple steps) had 0.569. This item requires substitution plus two algebraic steps with negative numbers, but the substitution is straightforward since k's value is given directly.
+
+The negative numbers are a major source of difficulty here. Many UK secondary students struggle with arithmetic involving negatives, especially when combined with algebraic manipulation. The framing as "simultaneous equations" may also intimidate some students even though the actual task is simpler than full simultaneous equation solving.
+
+I'll estimate classical difficulty around 0.38-0.48. The discrimination should be decent since the misconception is clearly targeted. I'll place b around 0.2-0.4, discrimination around 1.3, and a small guessing parameter.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.28</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

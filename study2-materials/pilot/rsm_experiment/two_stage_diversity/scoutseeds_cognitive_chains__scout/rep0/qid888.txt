@@ -1,0 +1,29 @@
+## Step 1: Understanding the task
+The task is to predict the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for the given math question.
+
+## 2: Analyzing the question and options
+The question requires multiplying out the brackets in the expression \((m-5)(m-7)\). The correct answer, based on the FOIL method, is \(m^2 - 12m + 35\), which corresponds to option B.
+
+## 3: Considering student ability levels
+- **Below Basic**: Students at this level might not fully understand the FOIL method or how to combine like terms. They are more likely to make significant errors.
+- **Basic**: Students at this level have a basic understanding of algebraic manipulation but may still struggle with applying the FOIL method correctly or combining like terms.
+- **Proficient**: Students at this level are expected to have a good understanding of algebraic manipulation, including the FOIL method, and should be able to apply it correctly.
+- **Advanced**: Students at this level have a strong understanding of algebra and are less likely to make errors.
+
+## 4: Predicting student responses
+- **Option A (\(m^{2}-2 m-35\))**: This would likely be chosen by students who misunderstand the FOIL method or make calculation errors.
+- **Option B (\(m^{2}-12 m+35\))**: This is the correct answer, so proficient and advanced students should choose this.
+- **Option C (\(m^{2}+12 m+35\))**: This might be chosen by students who incorrectly add the \(m\) terms or misunderstand the signs.
+- **Option D (\(m^{2}-12 m-35\))**: This could be chosen by students who incorrectly subtract the constant term.
+
+## 5: Estimating percentages
+- **Below Basic**: These students are likely to choose incorrect options due to a lack of understanding. Let's assume A=30%, B=20%, C=20%, D=30%.
+- **Basic**: Students here have some understanding but may still make errors. Let's assume A=15%, B=60%, C=10%, D=15%.
+- **Proficient**: These students should mostly get it right but might have some errors. Let's assume A=5%, B=85%, C=5%, D=5%.
+- **Advanced**: These students are expected to get it right almost always. Let's assume A=0%, B=95%, C=0%, D=5%.
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=15% B=60% C=10% D=15%
+proficient: A=5% B=85% C=5% D=5%
+advanced: A=0% B=95% C=0% D=5%

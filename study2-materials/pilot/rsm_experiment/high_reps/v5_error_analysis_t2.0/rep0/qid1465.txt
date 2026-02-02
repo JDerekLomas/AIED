@@ -1,0 +1,14 @@
+To arrive at these predictions, I have considered the standard BIDMAS/priority of operations pitfalls that Year 9 students face.
+
+**Error Analysis:**
+*   **Correct (A):** Multiply first ($4 \times 2 = 8$), then handle addition/subtraction left-to-right ($3 - 5 = -2$; $-2 + 8 = 6$).
+*   **The "Linear" Trap (B):** Solving purely left-to-right ignoring priority $(3 - 5 = -2$; $-2 + 4 = 2$; $2 \times 2 = 4$). This is the most common error for mid-to-low ability students.
+*   **The "Addition First" Trap (D):** Misinterpreting BIDMAS as "Addition always before Subtraction" ($5 + 8 = 13$, then $3 - 13 = -10$).
+*   **The "Negative Blindness" Trap (C):** Combining the Linear trap with a sign error or treating the sum as $(3 - 5 + 4) \times 2$ but incorrectly calculating the bracket as something like $-6$.
+
+**Percentage Predictions:**
+
+below_basic: A=15% B=55% C=10% D=20%
+basic: A=45% B=30% C=5% D=20%
+proficient: A=85% B=10% C=0% D=5%
+advanced: A=98% B=2% C=0% D=0%

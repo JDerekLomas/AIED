@@ -1,0 +1,44 @@
+<chain_of_thought>
+Expression: 8 - 7 + 10 × 3
+
+Step-by-step correct solution:
+1. Apply multiplication first: 10 × 3 = 30
+2. Then left to right: 8 - 7 + 30 = 31
+Answer: B
+
+This is a classic BODMAS/order of operations item. Let me think about how UK secondary students at different ability levels would approach this.
+
+Lower-ability students (Year 7-8) who haven't internalized BODMAS will naturally read left to right: 8-7=1, 1+10=11, 11×3=33, choosing D. This is the target misconception.
+
+Some students might partially apply BODMAS but make sign errors. For instance, computing 10×3=30 correctly but then doing 8 - 7 + 30 incorrectly as 8 - 37 = -29 (answer C). This represents a different misconception about the scope of the subtraction sign.
+
+Answer A (36) seems least naturally derivable. It might catch students making multiple errors simultaneously.
+
+Comparing to calibration examples: The equation-solving item (-5 = p + 10) had classical difficulty 0.167 and was relatively easy. The other BODMAS calibration item (0.4 - 1/5 × 3) had difficulty 0.134. Both are on the easier side.
+
+This item should be comparable or slightly harder than the fraction-based BODMAS item because while the numbers are simpler, the expression length (four numbers, three operations) creates more opportunity for left-to-right processing. Also, the subtraction at the start combined with the multiplication at the end is a particularly effective trap.
+
+I'll estimate slightly higher difficulty than the calibration BODMAS item - perhaps around 0.25. The presence of D as a very natural left-to-right answer makes it a strong distractor. But many students do learn BODMAS effectively, so the majority should get it right.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

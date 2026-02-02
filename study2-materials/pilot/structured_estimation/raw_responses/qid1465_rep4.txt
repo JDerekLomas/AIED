@@ -1,0 +1,39 @@
+<chain_of_thought>
+The expression is 3 - 5 + 4 × 2. By BIDMAS, multiplication takes priority: 4 × 2 = 8. Then proceeding left to right with addition/subtraction: 3 - 5 + 8 = 6. Correct answer: A.
+
+I want to approach the difficulty estimation from the perspective of error rates on BIDMAS items in the literature. Research on order of operations consistently shows this is a persistent misconception, but typically more so for younger students. In a diagnostic assessment spanning ages 11-16, many students will have encountered and practiced BIDMAS extensively.
+
+Key considerations for difficulty:
+1. The expression mixes subtraction and multiplication—a common BIDMAS trap.
+2. All numbers are small single-digit integers—low computational burden.
+3. The left-to-right answer (4) is a clean, plausible number, making distractor B very tempting.
+4. The negative intermediate (-2 from 3-5) when doing left-to-right might actually make some students pause and reconsider, potentially helping them realize they should check the order.
+
+Distractor attractiveness: B is highly attractive (the main misconception). D could catch students who handle BIDMAS correctly but make a sign error (3 - 5 - 8 = -10 instead of 3 - 5 + 8 = 6). C (-12) seems to require multiple errors and will likely have low selection rates.
+
+Comparing to calibration: The equation-solving items (e.g., -5 = p + 10, difficulty 0.167) test a different skill but have similar difficulty levels for what are considered "foundational" misconceptions. The BIDMAS calibration item (difficulty 0.134) is computationally harder but tests the same misconception.
+
+I'll estimate this item is comparable in difficulty—perhaps marginally harder than the calibration BIDMAS item because the left-to-right answer here (4) is a cleaner, more attractive number than what the calibration item's left-to-right answer would be. Classical difficulty estimate: 0.20, IRT difficulty: -0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.48</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

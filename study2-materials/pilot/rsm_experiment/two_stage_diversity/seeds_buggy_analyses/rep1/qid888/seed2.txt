@@ -1,0 +1,21 @@
+As an expert in mathematical misconceptions, the specific error I have identified for this UK Year 9 student is the **"Negative Multiplication Sign Bug"** (often involving a failure of the rule "a negative times a negative is a positive").
+
+### 1. The specific misconception or procedural error
+The error is a **sign processing bug** specifically regarding the constant terms. The student correctly applies the distributive law (using FOIL or the grid method) to find the middle term via addition $(-5 + -7 = -12)$, but fails to correctly multiply two negative integers for the final term. They believe that since the numbers being multiplied are negative, the result must remain negative (confusing the rules for addition with the rules for multiplication).
+
+### 2. How a student would work through this step by step
+A student using the FOIL (First, Outer, Inner, Last) method would proceed as follows:
+*   **First:** $m \times m = m^2$ (Correct)
+*   **Outer:** $m \times -7 = -7m$ (Correct)
+*   **Inner:** $-5 \times m = -5m$ (Correct)
+*   **Last:** $-5 \times -7 = -35$ (**The Bug**: The student correctly identifies $5 \times 7 = 35$, but logicizes that "a negative and a negative makes a negative" or simply carries the sign from the brackets.)
+*   **Simplify:** $m^2 - 7m - 5m - 35 = m^2 - 12m - 35$
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. How natural/attractive this error is
+This is one of the most "attractive" and persistent errors in Key Stage 3 algebra. 
+*   **The "Vibe" of the Question:** Because the original expression $(m-5)(m-7)$ is dominated by minus signs, a result with two minus signs (Option D) "looks" more correct to a student than an answer with a plus sign (Option B). 
+*   **Rule Overload:** Year 9 students are often juggling several conflicting rules. They recently learned that $-5 + -7 = -12$ (negative stays negative), and they intuitively misapply this logic to $-5 \times -7$.
+*   **Lack of Verification:** The student would unlikely realise they were wrong. They have correctly executed the distributive process (the "bracket" part of the skill) and the combining of like terms (the "linear" part of the skill). Unless they are prompted to check by substituting a value for $m$, the internal logic of "negative terms produce negative results" feels entirely consistent to them.

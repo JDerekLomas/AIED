@@ -1,0 +1,69 @@
+{
+  "description": "Recommended item subset based on psychometric criteria",
+  "criteria": {
+    "exclude_misconception_1214": "Near-ceiling mastery (97% P(L0))",
+    "discrimination_gt_0.5": "High-quality diagnostic items",
+    "response_count_gt_100": "Stable human baseline estimates",
+    "human_target_rate_gt_10": "Misconception actually observed in humans",
+    "difficulty_20_to_80": "Avoids floor/ceiling effects"
+  },
+  "n_items": 36,
+  "by_misconception": {
+    "217": 8,
+    "1507": 15,
+    "1597": 13
+  },
+  "by_type": {
+    "conceptual": 21,
+    "procedural": 15
+  },
+  "statistics": {
+    "discrimination_mean": 0.715,
+    "discrimination_sd": 0.137,
+    "difficulty_mean": 0.413,
+    "difficulty_sd": 0.119,
+    "human_target_rate_mean": 32.7,
+    "human_target_rate_sd": 22.7,
+    "response_count_mean": 845.0,
+    "response_count_min": 103,
+    "response_count_max": 4825
+  },
+  "item_ids": [
+    189,
+    233,
+    254,
+    304,
+    306,
+    1032,
+    1195,
+    1229,
+    1310,
+    1343,
+    1390,
+    1465,
+    1493,
+    1615,
+    1728,
+    119,
+    139,
+    290,
+    466,
+    655,
+    867,
+    936,
+    1035,
+    1373,
+    1383,
+    1491,
+    1540,
+    1718,
+    525,
+    698,
+    789,
+    1055,
+    1386,
+    1390,
+    1430,
+    1526
+  ]
+}

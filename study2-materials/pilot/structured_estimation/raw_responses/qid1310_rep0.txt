@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to identify which calculation should be performed first in the expression ((0.5 / (0.2 + 0.4) - 0.3) x 0.6). The correct answer is B: 0.2 + 0.4, because the innermost parentheses dictate that this addition must be done first before the division can proceed.
+
+Let me consider the cognitive demands. The student needs to understand order of operations (BIDMAS/BODMAS) and specifically recognize that parentheses take priority, and that nested parentheses are resolved from the inside out. The expression uses decimals, which adds slight complexity but is not the main challenge.
+
+Looking at the distractors:
+- A (0.5 / 0.2) is attractive to students who read left-to-right and start with the first operation they see, ignoring the inner parentheses.
+- C (0.4 - 0.3) is attractive if students misread the grouping or don't carefully parse the nested brackets.
+- D (0.3 x 0.6) would attract students who think multiplication has highest priority regardless of brackets.
+
+The misconception tested is "carries out operations from left to right regardless of priority order," which is a very common error among younger secondary students.
+
+Comparing to the calibration item with the same misconception (0.4 - 1/5 x 3), that item had classical difficulty 0.134 and IRT b = -0.245. However, this target item has more complex notation with nested parentheses and more decimal values to parse, making it visually and cognitively more demanding. I'd expect it to be somewhat harder than that calibration item, but the question itself is conceptually straightforward - you just need to find the innermost brackets.
+
+I estimate classical difficulty around 0.25-0.35. The nested parentheses add complexity but the core concept (do innermost brackets first) is well-taught. The distractors are moderately plausible, particularly option A. Discrimination should be moderate to good since understanding order of operations is a clear skill.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,39 @@
+As a specialist in mathematical error analysis, I have broken down the cognitive pathways for this algebraic fraction problem.
+
+### 1. Error Analysis (The Buggy Reasoning)
+
+*   **Option B (The Known Misconception): $\frac{7}{3x}$**
+    *   **Reasoning:** The student treats the fraction as four independent numbers. They add the numerators $(3 + 4 = 7)$ and add the denominators $(2x + x = 3x)$. 
+    *   **The Bug:** "Add across." This stems from an intuitive but incorrect carry-over from multiplication rules or a total lack of understanding of what a denominator represents (the "size" or "unit" of the part).
+
+*   **Option C: $\frac{11}{x}$**
+    *   **Reasoning:** The student correctly identifies they need a common denominator. They realise the second fraction needs to be multiplied by $2$ to reach $2x$, getting $\frac{8}{2x}$. They add the numerators correctly ($3 + 8 = 11$), but then they "simplify" or ignore the $2$ in the denominator at the final step, perhaps thinking that since $x$ is common to both, the answer should just be "over $x$".
+    *   **The Bug:** Incomplete denominator management or a "floating" constant that is discarded during the final summation.
+
+*   **Option D: $\frac{7}{2x}$**
+    *   **Reasoning:** The student identifies that $2x$ is the common denominator (LCM). However, they only add the original numerators ($3+4$) without scaling the second fraction.
+    *   **The Bug:** Partial conversion. The student knows they need a common denominator but forgets the fundamental law of equivalent fractions: "whatever you do to the bottom, you must do to the top."
+
+---
+
+### 2. Attractiveness and Utility
+
+*   **Option B (Add Across):** Highly attractive for **Below Basic** students. It feels "logical" and avoids the cognitive load of finding a common denominator. Students won't notice it's wrong because it feels like a consistent operation.
+*   **Option D (The "Half-done" method):** The most dangerous distractor for **Basic** and **Lower-Proficient** students. They know the rule for denominators but lack the procedural fluency to apply it to the numerator. It is a very "comfortable" mistake.
+*   **Option C (The missing 2):** Low attractiveness compared to the others. It usually occurs when a student tries to do too much in their head and loses a constant factor.
+
+---
+
+### 3. Predicted Response Distribution
+
+This distribution reflects typical performance in a UK secondary setting (Key Stage 4).
+
+| Ability Level | A (Correct) | B (Misconception) | C (Sloppy) | D (Partial Proc.) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 10% | 60% | 10% | 20% |
+| **Basic** | 25% | 30% | 5% | 40% |
+| **Proficient** | 70% | 5% | 5% | 20% |
+| **Advanced** | 95% | 1% | 2% | 2% |
+
+**Summary for the Teacher:** 
+The "Add Across" error (**B**) will dominate your lower-ability groups, as they treat algebra like a crossword puzzle rather than a system of logic. In middle-ability groups, your primary enemy is Option **D**, which signifies that the student understands the *concept* of a common denominator but hasn't yet mastered the *mechanics* of equivalent fractions.

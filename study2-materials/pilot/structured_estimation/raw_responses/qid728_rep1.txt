@@ -1,0 +1,41 @@
+<chain_of_thought>
+The target item presents 16-6+4÷2 and asks which bracketing gives 7.
+
+Evaluating options:
+A) 16-(6+4)÷2 → 16 - (10÷2) → 16 - 5 = 11. Not 7.
+B) (16-6)+4÷2 → 10 + 2 = 12. Not 7.
+C) 16-6+(4÷2) → 10 + 2 = 12. Not 7.
+D) (16-6+4)÷2 → 14÷2 = 7. Correct.
+
+Key insight: without any brackets, using BODMAS correctly: 16 - 6 + (4÷2) = 16 - 6 + 2 = 12. But a student who goes left to right gets 16-6=10, +4=14, ÷2=7. So the misconception student would think "it already equals 7, why do I need brackets?" This is interesting because option D essentially enforces the left-to-right reading.
+
+For difficulty estimation, I need to consider that students must evaluate multiple expressions. Some students may try to work backwards from 7 or test each option. The computational demands are moderate but not extreme -- basic arithmetic with small numbers.
+
+The misconception about left-to-right operations is very common among younger secondary students. Looking at the calibration item testing the same misconception (0.4 - 1/5 × 3), it had difficulty 0.134 (quite easy, only 13.4% got it wrong). But that was a direct computation. This item requires evaluating bracket placements, which adds complexity.
+
+I think this item is moderately difficult. Students who understand BODMAS well can evaluate each option systematically. Those who don't may struggle to see why D works. I'll estimate classical difficulty around 0.30, placing it between the calibration BODMAS item and the function machine item.
+
+The discrimination should be reasonable since understanding order of operations is a clear skill divide. Guessing is possible but the need to compute each option reduces pure guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

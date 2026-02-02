@@ -1,0 +1,534 @@
+{
+  "gpt-4o-mini": {
+    "metrics": {
+      "n_items": 8,
+      "pairwise_accuracy": 0.47916666666666663,
+      "mean_rank_correlation": 6.938893903907228e-18,
+      "top1_accuracy": 0.25
+    },
+    "item_results": [
+      {
+        "question_id": 1385,
+        "pairwise_accuracy": 0.8333333333333334,
+        "rank_correlation": 0.6666666666666666,
+        "predicted_ranking": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "actual_ranking": [
+          "C",
+          "A",
+          "D",
+          "B"
+        ],
+        "actual_pcts": {
+          "A": 10.85,
+          "B": 5.76,
+          "C": 76.27,
+          "D": 7.12
+        }
+      },
+      {
+        "question_id": 1390,
+        "pairwise_accuracy": 0.6666666666666666,
+        "rank_correlation": 0.3333333333333333,
+        "predicted_ranking": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "actual_ranking": [
+          "A",
+          "C",
+          "D",
+          "B"
+        ],
+        "actual_pcts": {
+          "A": 47.57,
+          "B": 11.65,
+          "C": 28.16,
+          "D": 12.62
+        }
+      },
+      {
+        "question_id": 1150,
+        "pairwise_accuracy": 0.3333333333333333,
+        "rank_correlation": -0.3333333333333333,
+        "predicted_ranking": [
+          "B",
+          "D",
+          "C",
+          "A"
+        ],
+        "actual_ranking": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "actual_pcts": {
+          "A": 14.18,
+          "B": 10.73,
+          "C": 71.21,
+          "D": 3.88
+        }
+      },
+      {
+        "question_id": 556,
+        "pairwise_accuracy": 0.16666666666666666,
+        "rank_correlation": -0.3333333333333333,
+        "predicted_ranking": [
+          "C",
+          "B",
+          "D",
+          "A"
+        ],
+        "actual_ranking": [
+          "B",
+          "A",
+          "D",
+          "C"
+        ],
+        "actual_pcts": {
+          "A": 14.8,
+          "B": 64.57,
+          "C": 8.07,
+          "D": 12.56
+        }
+      },
+      {
+        "question_id": 644,
+        "pairwise_accuracy": 0.16666666666666666,
+        "rank_correlation": -0.6666666666666666,
+        "predicted_ranking": [
+          "A",
+          "B",
+          "D",
+          "C"
+        ],
+        "actual_ranking": [
+          "D",
+          "C",
+          "B",
+          "A"
+        ],
+        "actual_pcts": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.15,
+          "D": 98.85
+        }
+      },
+      {
+        "question_id": 1053,
+        "pairwise_accuracy": 0.5,
+        "rank_correlation": 0.0,
+        "predicted_ranking": [
+          "B",
+          "C",
+          "D",
+          "A"
+        ],
+        "actual_ranking": [
+          "C",
+          "A",
+          "B",
+          "D"
+        ],
+        "actual_pcts": {
+          "A": 10.05,
+          "B": 6.08,
+          "C": 80.16,
+          "D": 3.7
+        }
+      },
+      {
+        "question_id": 1615,
+        "pairwise_accuracy": 0.5,
+        "rank_correlation": 0.0,
+        "predicted_ranking": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "actual_ranking": [
+          "C",
+          "B",
+          "D",
+          "A"
+        ],
+        "actual_pcts": {
+          "A": 3.26,
+          "B": 19.07,
+          "C": 72.33,
+          "D": 5.35
+        }
+      },
+      {
+        "question_id": 1195,
+        "pairwise_accuracy": 0.6666666666666666,
+        "rank_correlation": 0.3333333333333333,
+        "predicted_ranking": [
+          "B",
+          "A",
+          "C",
+          "D"
+        ],
+        "actual_ranking": [
+          "C",
+          "B",
+          "A",
+          "D"
+        ],
+        "actual_pcts": {
+          "A": 11.94,
+          "B": 17.31,
+          "C": 63.73,
+          "D": 7.01
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "question_id": 1385,
+        "pair": "A vs B",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1385,
+        "pair": "A vs C",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1385,
+        "pair": "A vs D",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1385,
+        "pair": "B vs C",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1385,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 1385,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1390,
+        "pair": "A vs B",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1390,
+        "pair": "A vs C",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1390,
+        "pair": "A vs D",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1390,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1390,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 1390,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1150,
+        "pair": "A vs B",
+        "predicted": "B",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 1150,
+        "pair": "A vs C",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1150,
+        "pair": "A vs D",
+        "predicted": "D",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 1150,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1150,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1150,
+        "pair": "C vs D",
+        "predicted": "D",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 556,
+        "pair": "A vs B",
+        "predicted": "A",
+        "actual": "B",
+        "correct": false
+      },
+      {
+        "question_id": 556,
+        "pair": "A vs C",
+        "predicted": "C",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 556,
+        "pair": "A vs D",
+        "predicted": "D",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 556,
+        "pair": "B vs C",
+        "predicted": "C",
+        "actual": "B",
+        "correct": false
+      },
+      {
+        "question_id": 556,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 556,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "A vs B",
+        "predicted": "A",
+        "actual": "B",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "A vs C",
+        "predicted": "A",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "A vs D",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 644,
+        "pair": "C vs D",
+        "predicted": "D",
+        "actual": "D",
+        "correct": true
+      },
+      {
+        "question_id": 1053,
+        "pair": "A vs B",
+        "predicted": "B",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 1053,
+        "pair": "A vs C",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1053,
+        "pair": "A vs D",
+        "predicted": "D",
+        "actual": "A",
+        "correct": false
+      },
+      {
+        "question_id": 1053,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1053,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1053,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1615,
+        "pair": "A vs B",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1615,
+        "pair": "A vs C",
+        "predicted": "A",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1615,
+        "pair": "A vs D",
+        "predicted": "A",
+        "actual": "D",
+        "correct": false
+      },
+      {
+        "question_id": 1615,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1615,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1615,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      },
+      {
+        "question_id": 1195,
+        "pair": "A vs B",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1195,
+        "pair": "A vs C",
+        "predicted": "A",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1195,
+        "pair": "A vs D",
+        "predicted": "A",
+        "actual": "A",
+        "correct": true
+      },
+      {
+        "question_id": 1195,
+        "pair": "B vs C",
+        "predicted": "B",
+        "actual": "C",
+        "correct": false
+      },
+      {
+        "question_id": 1195,
+        "pair": "B vs D",
+        "predicted": "B",
+        "actual": "B",
+        "correct": true
+      },
+      {
+        "question_id": 1195,
+        "pair": "C vs D",
+        "predicted": "C",
+        "actual": "C",
+        "correct": true
+      }
+    ]
+  }
+}

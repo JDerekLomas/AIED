@@ -1,0 +1,14 @@
+This question is a classic test of three distinct skills: identifying roots from intercepts, understanding the distributive property of the negative sign in factored form, and identifying the shape (concavity) of a quadratic.
+
+What makes this specific question tricky is **Option A**. Most students are taught that a "negative" quadratic should have a $-x^2$ term. They often look for a leading minus sign *outside* the brackets (e.g., $y = -(x-1)(x+5)$). When they don't see that, they look for $(1-x)$, but frequently get muddled with the signs of the roots. **Option C** is the "most popular wrong answer" because it correctly identifies the roots $x=1$ and $x=-5$ but ignores the fact that the graph is an inverted 'u' shape (n-shape).
+
+**Predictive breakdown:**
+*   **Below Basic:** Often confuse the sign of the intercept with the sign in the bracket (thinking $(x-5)$ means an intercept at $-5$). They also struggle to identify that a negative quadratic is required.
+*   **Basic:** Can usually identify the roots correctly $(x-1)$ and $(x+5)$, but will almost reflexively pick **C** because it "looks" like the standard form they've practiced, failing to check if the expansion results in a $-x^2$ or a $+x^2$.
+*   **Proficient:** Understand that the graph is negative. They will narrow it down to A or B. Some will still fall for B because they see the two 5s and two 1s, but most will correctly expand or test a point to find A.
+*   **Advanced:** Will instantly recognise that $(1-x)(x+5)$ expands to $-x^2 - 4x + 5$, providing the required shape and intercepts.
+
+below_basic: A=20% B=25% C=30% D=25%
+basic: A=35% B=15% C=40% D=10%
+proficient: A=70% B=10% C=15% D=5%
+advanced: A=95% B=2% C=2% D=1%

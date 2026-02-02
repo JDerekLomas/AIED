@@ -1,0 +1,19 @@
+To answer this question correctly, students must substitute $y = 0.5$ into the equation $10x - 6y = 30$, leading to $10x - 3 = 30$, then $10x = 33$, and finally $x = 3.3$.
+
+**Analysis:**
+This is a standard linear substitution question, but it has several friction points for students:
+1.  **Inverse logic:** Students often see the $x$ on top and $y$ on bottom and instinctively try to substitute for $x$ to find $y$. If a student replaces $x$ with $0.5$, they get $5 - 6y = 30 \Rightarrow -6y = 25 \Rightarrow y \approx -4.16$ (Option B is a distractor for general calculation/sign errors).
+2.  **The "6y" trap:** Many students struggling with basic algebra might miscalculate $6 \times 0.5$. Some will add them (6.5), some will subtract.
+3.  **Decimal Division:** Dividing 33 by 10 is relatively simple, but many students may choose $2.7$ (Option D) if they mistakenly subtract 3 from 30 (getting $10x = 27$) instead of adding 3 to 30. This is the most common error: $10x - 3 = 30$ leads to $10x = 27$.
+4.  **Option A (4.25):** This acts as a "noise" distractor for students guessing or making multiple operational errors.
+
+**Predicted Performance:**
+*   **Below Basic:** Many will struggle to start the algebraic manipulation and will gravitate towards 2.7 or 4.25 based on visual estimation or random arithmetic.
+*   **Basic:** The mistake $10x = 27$ is very common here (treating $-3$ as $+3$ when moving it across, or simple subtraction error), making D a strong contender.
+*   **Proficient:** Most will correctly identify the need to add 3 to 30, but a few will still slip on the arithmetic.
+*   **Advanced:** Should find this trivial, though a tiny percentage might misread the $y$ for $x$.
+
+below_basic: A=20% B=15% C=35% D=30%
+basic: A=10% B=10% C=50% D=30%
+proficient: A=3% B=2% C=85% D=10%
+advanced: A=0% B=0% C=98% D=2%

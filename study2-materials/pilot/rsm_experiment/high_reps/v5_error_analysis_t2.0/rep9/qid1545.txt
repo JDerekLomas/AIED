@@ -1,0 +1,21 @@
+In this Year 9 mock, this question specifically tests Order of Operations (BIDMAS/BODMAS). The most common trap is the "Left-to-Right" fallacy, where students ignore the hierarchy of operations and simply calculate numbers in the order they appear.
+
+**Analysis of Errors:**
+- **The Correct Path:** Left side is $8 + (12 \div 4) = 8 + 3 = 11$. Right side is $(8 + 12) \div 4 = 20 \div 4 = 5$. Since $11 > 5$, the answer is **A**.
+- **The "C" Trap:** Students at lower ability levels often assume the brackets don't change the value if the numbers are the same, or they calculate both sides incorrectly to get the same result (often 5).
+- **The "B" Trap (Left-to-Right):** If a student ignores BIDMAS on the left side, they calculate $(8 + 12) \div 4 = 5$. They then see $5 \square 5$ and might choose B or C based on a secondary calculation error, but most commonly, students who fail to use BIDMAS on the left arrive at the same value for both sides.
+- **The "D" Trap:** Students who have a vague memory of inequalities often pick the most "complex" symbol when they are unsure of the definitive result.
+
+**Predicted Distributions:**
+
+below_basic: A=20% B=25% C=45% D=10%
+*(These students often see the same numbers and symbols and conclude they are equal without calculating, or they work left-to-right on both sides.)*
+
+basic: A=45% B=15% C=35% D=5%
+*(A significant number still fall for the 'equality' trap or get 5 on the left by ignoring BIDMAS, but half will remember 'Brackets first' for the right-hand side.)*
+
+proficient: A=85% B=5% C=8% D=2%
+*(Most Year 9s at this level have mastered BIDMAS, though a small percentage will make a silly arithmetic error or rush the left-hand calculation.)*
+
+advanced: A=98% B=1% C=1% D=0%
+*(Almost all will identify this instantly, with errors only occurring due to extreme fatigue or misreading the symbol.)*

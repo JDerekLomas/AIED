@@ -1,0 +1,41 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error that is highly prevalent among Year 9 students when dealing with two-step linear equations involving negative coefficients.
+
+### 1. The Specific Misconception: "Sign Error in Isolation" (Subtrahend Neglect)
+The specific bug is the **failure to preserve the negative sign of a term when the preceding term is moved.** Students often treat the operator as a "glue" between terms, and when the $10x$ is moved, they ignore the negative sign attached to the $6y$, treating it as a positive $6y$.
+
+### 2. Step-by-Step Error Procedure
+A student with this misconception would perform the following steps:
+
+1.  **Substitution:** They correctly substitute $y = 0.5$ into the equation:
+    $10x - 6(0.5) = 30$
+2.  **Simplification:** They calculate $6 \times 0.5$ correctly:
+    $10x - 3 = 30$
+3.  **Isolation (The Error):** The student intends to solve for $10x$. Instead of performing the inverse operation (adding 3 to both sides), they treat the equation as $10x = 30 + 3$, which is correct, but if they are rearranging for $x$ after getting a negative result or if they mishandle the constant, they often perform **$30 - 3$** because they view the relationship between the 10x and the 3 as flexible.
+4.  **The specific "Path to Option C":** 
+    *   $10x - 3 = 30$
+    *   $10x = 33$ (They add 3 correctly)
+    *   $x = 3.3$
+    *   **Wait, where is the misconception?** The most common mistake for this specific question (leading to C) is the **Substitution Switch**. The student looks at the table, sees $x$ on top and $y$ on bottom, but because they are used to $x$ being the "input," they substitute **$x = 0.5$** to find $y$ (the star).
+    *   $10(0.5) - 6y = 30$
+    *   $5 - 6y = 30$
+    *   $-6y = 25$
+    *   $y = 25 / -6$ (Resulting in -4.16... which doesn't match)
+
+**Let’s look at Option C ($3.3$) through the "Sign Disregard" lens:**
+A student calculates $10x - 3 = 30$. They add 3 to get $10x = 33$, and divide by 10 to get $3.3$. While this is the "correct" calculation for the values given, many students struggle with the subtraction sign. **However, Option C is actually the correct answer.**
+
+The most likely **misconception-driven answer** provided in your list is **Option A (3.3 vs 4.25).** Let's look at **Option D (2.7)**.
+
+**The "Subtraction Misconception" leading to D:**
+1.  **Substitution:** $10x - 6(0.5) = 30 \rightarrow 10x - 3 = 30$.
+2.  **Inverse Operation Error:** The student sees the minus sign and, through a "Change the Side, Change the Sign" confusion or simple mental fatigue, performs the operation **$30 - 3$** instead of **$30 + 3$**.
+3.  **Calculation:** $10x = 27$.
+4.  **Division:** $x = 2.7$.
+
+### 3. Which answer option this leads to:
+This leads to **Option D (2.7)**.
+
+### 4. How natural/attractive is this error?
+This error is extremely natural and common.
+*   **Visual Mimicry:** In many simpler equations ($10x + 3 = 30$), the student would subtract. They see "minus 3" and "30" and instinctively think the numbers should get smaller because of the presence of the minus sign.
+*   **Verification Bias:** When the student arrives at $2.7$, it feels like a "clean" number. It doesn't look like an obviously broken decimal. Because they have performed a standard procedure (substitution, multiplication, subtraction/addition, division), they feel they have followed the "ritual" of

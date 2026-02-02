@@ -1,0 +1,50 @@
+## Step 1: Understanding the Question
+The question provides three vertices of a rectangle: $(-6,-2), (-3,2), (0,0)$, and asks for the coordinates of the fourth vertex. To solve this, one needs to understand the properties of a rectangle, specifically that the diagonals bisect each other and that opposite sides are parallel and equal in length.
+
+## 2: Identifying the Properties of a Rectangle
+In a rectangle, the midpoints of the diagonals coincide. This means that if we find the midpoint of the diagonal formed by two given points and then use the third given point, we can find the fourth point such that it also forms a diagonal with one of the given points and shares the same midpoint.
+
+## 3: Calculating the Midpoint of a Diagonal
+Let's calculate the midpoint of the diagonal that could be formed by $(-6,-2)$ and $(0,0)$:
+\[ \text{Midpoint} = \left( \frac{-6 + 0}{2}, \frac{-2 + 0}{2} \right) = (-3, -1) \]
+
+## 4: Finding the Fourth Vertex
+Alternatively, and more directly, if $(-6,-2)$ and $(0,0)$ are two vertices, and $(-3,2)$ is the third, we notice that the sides of the rectangle are parallel to the axes (given the points). The fourth point must form a vertical line with $(-6,-2)$ and a horizontal line with $(-3,2)$. Thus, the fourth vertex should have the same x-coordinate as $(-6,-2)$ (which is $-6$) and the same y-coordinate as $(-3,2)$ (which is $2$), or it should share coordinates to maintain the rectangle's properties.
+
+## 5: Applying Rectangle Properties Directly
+Given $(-6,-2)$, $(-3,2)$, and $(0,0)$, let's directly apply properties:
+- The vector from $(-6,-2)$ to $(-3,2)$ is $(3, 4)$.
+- The vector from $(-3,2)$ to $(0,0)$ is $(3, -2)$.
+- To form a rectangle, the vector from $(0,0)$ to the fourth point must be $(-3, -4)$ (since $-6,-2$ to $0,0$ is $6,2$ and $-3,2$ to fourth point must give $6,2$ or directly use given points).
+
+## 6: Direct Calculation
+The fourth vertex must make the diagonals intersect at their midpoints. Let's directly check:
+If $(-6,-2)$ and $(0,0)$ are vertices, the fourth point with $(-3,2)$ should satisfy:
+The midpoint of $(-6,-2)$ and $(0,0)$ is $(-3,-1)$.
+The midpoint of $(-3,2)$ and the fourth point $(x,y)$ should also be $(-3,-1)$:
+\[ \frac{-3 + x}{2} = -3 \]
+\[ \frac{2 + y}{2} = -1 \]
+Solving these:
+\[ -3 + x = -6 \]
+\[ x = -3 \]
+And:
+\[ 2 + y = -2 \]
+\[ y = -4 \]
+So, the fourth point is $(-3, -4)$.
+
+## 7: Analyzing Student Responses
+- **Below Basic**: Students might struggle with coordinate geometry and rectangle properties. They might randomly guess or mistakenly apply formulas. Option C $(-3,-4)$ seems likely to be identified through logical deduction by more capable students, but less capable might not identify it correctly.
+- **Basic**: Students at this level understand basic geometry but might struggle with applying properties to find the exact coordinates. They might recognize that $(-3,2)$ and $(-6,-2)$ don’t share an axis, suggesting a potential for error in calculation.
+- **Proficient**: These students should easily identify the fourth vertex by applying properties of rectangles and coordinate geometry, likely choosing C.
+- **Advanced**: These students would quickly and accurately calculate the fourth vertex.
+
+## 8: Predicting Responses
+- **Below Basic**: A=20% (completely off), B=20% (close but incorrect), C=40% (logical but requires understanding), D=20% (random).
+- **Basic**: A=10%, B=15%, C=60%, D=15%.
+- **Proficient**: A=5%, B=5%, C=85%, D=5%.
+- **Advanced**: A=0%, B=0%, C=95%, D=5%.
+
+The final answer is:
+below_basic: A=20% B=20% C=40% D=20%
+basic: A=10% B=15% C=60% D=15%
+proficient: A=5% B=5% C=85% D=

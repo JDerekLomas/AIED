@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item asks students to solve -3 = p + 12. The correct answer is p = -15 (option B), obtained by subtracting 12 from both sides.
+
+Comparing to calibration example 1 (-5 = p + 10, correct answer p = -15), this is structurally identical: a negative number equals p plus a positive number, requiring subtraction of the constant. The first calibration item had classical difficulty 0.167 and IRT difficulty -0.702.
+
+The distractors map to common errors:
+- A) p = 9: student subtracts -3 from 12, or adds 12 - 3 (uses same operation, the tested misconception)
+- C) p = -9: student computes -3 - 12 incorrectly as -9, or does 12 - 3 = 9 then slaps a negative sign
+- D) p = 15: student adds 3 + 12 = 15, ignoring the negative sign entirely
+
+The misconception tested (using same operation rather than inverse) maps most directly to distractor A (p = 9), where the student effectively does -3 + 12 = 9 instead of -3 - 12 = -15.
+
+This is a straightforward one-step linear equation, very standard for KS3/KS4. The negative number on the left might add slight complexity compared to the calibration item, but overall this should be quite easy. The calibration item 1 had difficulty 0.167; I'd expect this to be similar, perhaps very slightly harder due to the arrangement with -3 on the left side, but the numbers are simple.
+
+The discrimination should be moderate-to-good since this cleanly separates students who understand inverse operations from those who don't. Given the very close parallel to calibration item 1, I'll anchor my estimates near those values, adjusting slightly upward in difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.19</classical_difficulty>
+<irt_difficulty>-0.60</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

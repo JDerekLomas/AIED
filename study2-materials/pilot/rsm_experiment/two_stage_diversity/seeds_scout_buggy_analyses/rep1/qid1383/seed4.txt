@@ -1,0 +1,24 @@
+## Step 1: Identify the specific misconception or procedural error.
+The specific misconception or procedural error that a UK Year 9 student might apply in this context is treating an even power as if it were an odd power, or more precisely, not applying the rule that an even power results in a positive value regardless of the sign of the base. A common misconception is to simply ignore the exponent or misinterpret its effect on the sign. However, the precise bug here could be described as 'confusing the power's parity with sign retention,' but a more likely bug is simply forgetting to consider that $k^4$ will always yield a positive result for any non-zero $k$ because four is an even number.
+
+## 2: Describe how a student with this misconception would work through this question step by step.
+If a student misconceives that raising to a power directly affects the sign (ignoring the parity of the exponent), they might do:
+
+Given \( T = k^4 \) and \( k = -3 \),
+
+1. Substitute \( k = -3 \) into the equation: \( T = (-3)^4 \)
+2. Calculate: \( T = -3 \times -3 \times -3 \times -3 \)
+3. Perform multiplication step by step: \( (-3 \times -3) = 9 \), \( 9 \times -3 = -27 \), \( -27 \times -3 = 81 \)
+
+However, a student committed to a misconception like ignoring the effect of an even exponent on sign might argue incorrectly: \( T = -3^4 \) (mistaking \( (-3)^4 \) for \( -3^4 \)), leading to:
+\( T = -(3^4) = -81 \).
+
+## 3: Determine which answer option this misconception leads to.
+Given the mistaken calculation \( T = -3^4 = -81 \), the student would choose:
+
+C) \( -81 \).
+
+## 4: Assess how natural/attractive this error is.
+This error is quite attractive and natural, especially for students who are not yet comfortable with the rules of indices or have not fully internalized the concept that an even power always results in a positive number (for non-zero bases). The student's instinct might be to simply 'apply the negative sign' and then calculate the power, which would incorrectly suggest \( T = -81 \) as a reasonable answer. It might not be immediately obvious to the student that they've made a mistake, as their arithmetic steps might seem correct, but their application of the rules of indices or sign handling might be flawed.
+
+The best answer is C.

@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing the fraction addition item: 3/5 + 1/4 = ?
+
+The correct procedure is to find a common denominator. LCM(5,4) = 20. So 3/5 = 12/20, 1/4 = 5/20, sum = 17/20 (option D).
+
+The misconception "adds numerators and denominators" produces 4/9 (option A). This is an extremely common error pattern, especially among students who haven't fully internalized why common denominators are necessary.
+
+Thinking about the population of UK secondary students ages 11-16: by the upper end of this range, most students should handle this. But at ages 11-12, many will still make this error. Across the full range, I'd expect maybe 30-40% to get it wrong.
+
+The visual presentation uses a circle diagram which is slightly non-standard - instead of just saying "add these fractions," it wraps it in a visual puzzle format. This adds a small layer of interpretation but is generally clear.
+
+Key consideration: the correct answer 17/20 has a numerator larger than either input numerator, which might seem counterintuitive to weaker students (they might expect a "smaller-looking" answer). This could push some students toward the incorrect options.
+
+Option B (4/20) is interesting - it represents a student who found the common denominator but forgot to scale the numerators. Option C (7/20) might come from 3+4=7 with denominator 20, possibly confusing which numbers to add.
+
+Given the strong misconception and multiple plausible distractors, I think this item discriminates well. Comparing to calibration: harder than the basic equation solving (0.167) but easier than the inequality (0.569). I'll place it around 0.38.
+
+For guessing: the correct answer D (17/20) doesn't "look" like a typical guess since it's the largest fraction. Students guessing randomly would likely pick something simpler like 4/9. So guessing parameter should be low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

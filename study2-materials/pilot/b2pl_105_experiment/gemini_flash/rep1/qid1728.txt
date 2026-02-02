@@ -1,0 +1,15 @@
+To predict how students will perform on this question, we must look at the hierarchy of operations (BIDMAS/BODMAS) versus the intuitive "left-to-right" calculation bias.
+
+**Teacher's Analysis:**
+This is a classic "trap" question. The layout is designed to lure students into performing the subtraction first ($3/4 - 1/4 = 2/4 = 1/2$) and then multiplying the result by $1/5$. This leads to $1/10$ (Option B). 
+
+The correct method requires multiplying first: $1/4 \times 1/5 = 1/20$, then $15/20 - 1/20 = 14/20 = 7/10$ (Option C).
+
+The distraction of the matching denominators ($3/4$ and $1/4$) is a very strong psychological "hook" for students below the advanced level, as it makes the initial subtraction appear deceptively simple. Option A represents students who both ignore BIDMAS and subtract denominators (a very common "below basic" error).
+
+**Predicted Percentages:**
+
+below_basic: A=35% B=45% C=10% D=10%
+basic: A=15% B=60% C=20% D=5%
+proficient: A=5% B=40% C=50% D=5%
+advanced: A=0% B=10% C=88% D=2%

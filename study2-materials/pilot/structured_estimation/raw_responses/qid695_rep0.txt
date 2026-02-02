@@ -1,0 +1,27 @@
+<chain_of_thought>
+This item tests order of operations (BIDMAS/BODMAS) with a straightforward arithmetic expression: 18 / 2 + 2 x 2. The correct approach is to perform division and multiplication before addition: 18/2 = 9, 2x2 = 4, then 9+4 = 13 (answer B). The key misconception is performing operations left to right: 18/2=9, 9+2=11, 11x2=22 (answer C). Answer A (3) could arise from treating it as 18/(2+2x2) = 18/6 = 3, grouping everything after the division sign. Answer D (12) might come from 18/2 + 2 = 11 then rounding or a minor arithmetic slip, or perhaps (18/2) + 2 = 11 confused with 12.
+
+Looking at calibration: the similar BODMAS item (0.4 - 1/5 x 3) had classical difficulty 0.134 and IRT difficulty -0.245. That item involved fractions and decimals which adds complexity. This item uses only whole numbers, making the arithmetic simpler, but the BODMAS trap is equally present. I'd expect this to be slightly easier overall - maybe classical difficulty around 0.10-0.15. The distractors are reasonably plausible, especially C (left-to-right) which directly tests the misconception. The item is very clear and standard. Discrimination should be moderate to good since it cleanly separates students who know BODMAS from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.12</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

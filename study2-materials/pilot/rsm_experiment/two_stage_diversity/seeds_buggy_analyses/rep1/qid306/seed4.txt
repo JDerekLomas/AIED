@@ -1,0 +1,30 @@
+In the context of the UK Year 9 curriculum, where students have been taught the order of operations acronym **BIDMAS** (Brackets, Indices, Division/Multiplication, Addition/Subtraction), a very specific misconception often emerges.
+
+### 1. The Misconception: Strict Hierarchical Adherence to BIDMAS
+The bug is treating the order of the letters in the acronym as a **fixed linear hierarchy** rather than recognizing that Addition/Subtraction (and Multiplication/Division) hold equal priority and should be calculated from left to right. Specifically, this is the **"Addition before Subtraction" bug**.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would approach the problems as follows:
+
+*   **For Problem P ($4 - 5 + 6$):**
+    The student looks at "BIDMAS" and sees that 'A' (Addition) comes before 'S' (Subtraction). 
+    *   They look for the addition part first: $5 + 6$.
+    *   They conclude that they must perform **$5 + 6$** as the first calculation.
+    *   *(Note: This often leads to the further error of $4 - 11 = -7$.)*
+
+*   **For Problem Q ($4 + 5 \times 6$):**
+    The student looks at "BIDMAS" and sees that 'M' (Multiplication) comes before 'A' (Addition).
+    *   They identify $5 \times 6$ as the first step.
+    *   They conclude they must do **$5 \times 6$** as the first calculation.
+
+### 3. Corresponding Answer Option
+This procedure leads the student to **Option D**:
+*   **Problem P: $5 + 6$**
+*   **Problem Q: $5 \times 6$**
+
+### 4. Attractiveness of the Error
+This error is incredibly attractive and "logical" to a student because it stems from **over-reliance on a mnemonic.** 
+
+*   **Literal Interpretation:** In most school contexts, students are told to "follow BIDMAS." If the letter 'A' is physically before 'S' in the word they were told to memorize, they feel they are being mathematically rigorous by following that exact order.
+*   **False Confidence:** The student will likely feel very confident in this answer. Because they have correctly identified that $5 \times 6$ comes before $4+5$ in Problem Q (where the hierarchy actually works), they assume the same "priority rule" applies to Problem P. 
+*   **The "Invisible" Mistake:** The student will almost certainly not realize they have gone wrong. Unlike errors where the numbers "don't fit" (like getting a remainder in a problem they expect to be whole), the order of operations always yields *an* answer. Without the specific knowledge that Addition and Subtraction are co-equal operators, there is no internal "alarm" that $5+6$ is the wrong starting point.

@@ -1,0 +1,45 @@
+<chain_of_thought>
+Item: Add 3/5 + 1/4 using a visual circles diagram. Correct answer: 17/20 (D).
+
+Let me approach this by thinking about the student population carefully. UK secondary students ages 11-16 represent a wide ability range. Fraction addition with unlike denominators is introduced in primary school (KS2) and reinforced in KS3. So by secondary school, most students should have encountered this multiple times.
+
+The misconception "adds numerators and denominators" is extremely well-documented and persistent. Research by Stafylidou & Vosniadou (2004) and many others shows this survives well into secondary education. The intuitive appeal is strong - addition of whole numbers is so ingrained that students extend the pattern to fraction components.
+
+Distractor analysis:
+- A) 4/9: Direct misconception trap. (3+1)/(5+4). Very attractive to students with the misconception.
+- B) 4/20: Partial knowledge - found LCD=20 but added numerators without converting (3+1=4). Moderately plausible.
+- C) 7/20: Perhaps 3+4=7 over 20, where student confuses which numbers are numerators. Less plausible.
+- D) 17/20: Correct. 12/20 + 5/20.
+
+The visual format (circles with arrows) is a common presentation in UK diagnostic assessments, particularly Eedi-style items. It adds minimal complexity.
+
+Comparing to calibration items: The BODMAS item (0.134 difficulty) involves multiple concepts but is apparently easy. The equation item (-5=p+10) at 0.167 is basic algebra. This fraction item should be harder than those because the misconception is so deeply rooted. But easier than the factorising item (0.473) which requires more advanced knowledge.
+
+I'll estimate around 0.42 proportion incorrect. My reasoning: the misconception is extremely strong and option A is highly attractive. Even students who "know" the rule may revert under time pressure. The IRT difficulty should be moderate positive, around 0.2.
+
+For discrimination: this should discriminate well because it cleanly separates students who understand fraction addition from those who don't. I'll estimate a=1.20.
+
+Guessing: the correct answer 17/20 is somewhat distinctive (largest value), which could attract some guessers who reason "adding should make it bigger." So guessing parameter might be slightly elevated.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

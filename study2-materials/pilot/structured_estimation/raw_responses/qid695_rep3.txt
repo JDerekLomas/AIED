@@ -1,0 +1,38 @@
+<chain_of_thought>
+Target: 18 / 2 + 2 x 2. Correct answer is B (13).
+
+Step-by-step correct solution: Apply BIDMAS. Division: 18/2 = 9. Multiplication: 2x2 = 4. Addition: 9 + 4 = 13.
+
+Error patterns for distractors:
+- C = 22: Sequential left-to-right: 18/2=9, 9+2=11, 11x2=22. This is the targeted misconception.
+- A = 3: Could be 18 / (2+2x2) = 18/6 = 3, or 18 / (2+2) / 2 = 4.5/2... no. Most likely interpretation: student treats everything after the division as the denominator.
+- D = 12: Possibly 18/2 + 2 = 11, then some confusion. Or maybe (18/(2+2)) x 2 = 4.5 x 2 = 9... that doesn't work either. Perhaps a simple arithmetic slip from 13 to 12, or the student does 2+2=4, 4x2=8, 18-8=10... no. Honestly D is a weak distractor that likely attracts few students.
+
+This item is a textbook BODMAS question. It appears in virtually every KS3 curriculum resource. The numbers are deliberately chosen to produce different results depending on operation order, which makes it an effective diagnostic tool.
+
+I note the calibration item with the same misconception used decimals and fractions (0.4 - 1/5 x 3), which had classical difficulty 0.134. That item requires converting between fractions and decimals as an additional skill. This item is purely whole-number arithmetic, so conceptually simpler. However, I wonder if the simpler presentation might actually lead to more careless left-to-right processing. Students might slow down more with fractions. Net effect: I think they're comparable in difficulty, perhaps this one is slightly easier. I'll estimate classical difficulty around 0.13.
+
+Discrimination should be good - this type of item reliably separates students who understand BODMAS from those who don't. No guessing effects expected.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.13</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

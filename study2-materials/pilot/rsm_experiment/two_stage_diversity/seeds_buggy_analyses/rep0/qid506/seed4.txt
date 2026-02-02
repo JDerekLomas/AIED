@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a prevalent procedural error that affects many Key Stage 3 students.
+
+### 1. The Misconception: "Operation Pairing" (Inverse Multiplication as Coefficient Division)
+The specific bug here is the **Incomplete Inverse Procedure**. When students see a coefficient (3) and a denominator (12), they recognize that they must "do something" with the 3 to isolate $p$. Rather than multiplying the entire equation by the reciprocal or dividing the fraction by the whole number, the student simplifies the expression by **applying the inverse operation only to the denominator.**
+
+In their mental model, they think: *"The 3 is multiplying on the left, so I must divide by 3 on the right. Since 12 is at the bottom, and I am dividing, I do 12 ÷ 3."*
+
+### 2. Step-by-Step Student Working
+*   **Step 1:** The student identifies the equation $3p = \frac{1}{12}$.
+*   **Step 2:** They recognize that they need to "get rid" of the 3 by dividing.
+*   **Step 3:** Instead of performing the operation $\frac{1}{12} \div 3$, they look for "compatible" numbers within the equation.
+*   **Step 4:** They see the 12 in the denominator and apply the division there: $12 \div 3 = 4$.
+*   **Step 5:** They place this result back into the denominator (or treat it as the whole value), leading them to conclude that $p = \frac{1}{4}$.
+
+### 3. Resulting Answer
+This misconception leads directly to **Option A ($p = \frac{1}{4}$)**.
+
+### 4. Attractiveness and Self-Correction
+This is a highly **"attractive" error** for a Year 9 student for three reasons:
+
+1.  **Number Compatibility:** $12$ is a multiple of $3$. Students are cognitively drawn to "clean" integer divisions ($12 \div 3 = 4$). The correct operation ($12 \times 3 = 36$) feels "wrong" to a struggling student because the number is getting larger, which they often associate with multiplication rather than the division of a fraction.
+2.  **Visual Logic:** The student knows they must divide. They see a number "on the bottom" and simply apply the division to that number. It feels like "simplifying" the fraction.
+3.  **Lack of Self-Correction:** Students rarely check their work by substituting back in. If they did, they would find that $3 \times \frac{1}{4} = \frac{3}{4}$, which is not $\frac{1}{12}$. However, because $\frac{1}{4}$ "looks" like a plausible smaller version of $\frac{1}{12}$ (ironically, it is actually larger), the student feels a false sense of confidence and is unlikely to realize they made an error.

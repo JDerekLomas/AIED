@@ -1,0 +1,25 @@
+Here is an analysis of a common misconception a UK Year 9 student might demonstrate when approaching this question.
+
+### 1. The specific misconception: "Left-to-Right Equation Stripping" (Ignoring Operation Order/Algebraic Structure)
+The specific bug is a form of **procedural parsing error**. In this error, the student ignores the algebraic relationship between $x$ and $y$ (addition) and instead treats the terms sequentially as they appear in the expression. Specifically, the student believes that to "find $y$," they simply need to apply the operations as read from left to right to the target value (10), ignoring the equal sign’s function as a balance.
+
+Alternatively, this is often seen as a **Division over Addition preference**: the student sees the numbers 4, 2, and 10 and assumes the relationship is a simple division or subtraction problem because $x=0$ has "removed" the first term.
+
+### 2. Step-by-step student logic
+A student with this misconception would approach the table like this:
+
+1.  **Substitution:** The student correctly identifies that $x = 0$. They plug it into the equation: $4(0) + 2y = 10$.
+2.  **Elimination:** They correctly realise that $4 \times 0 = 0$. This leaves them with the remaining parts of the string: $2$, $y$, and $10$.
+3.  **The Misconception (Calculation):** Instead of seeing $2y = 10$ as "2 times $y$ equals 10" (requiring division), the student interprets the proximity of the numbers 4 and 2 as a hint for the operation, or simply performs **$4 + 2 \times 0$** and attempts to adjust, but most commonly they perform: **$10 - 4 - 2 + 0$** or more likely: **$(4 \times 2) + y = 10$**? 
+    *   **The specific bug leading to Option A:** The student sees the numbers 4, 2, and 0. They think they need to combine all "known" numbers to get the star. They calculate $(4 \div 2) \times 10 = 20$.
+    *   **The specific bug leading to Option D (2.5):** The student sees $4x + 2y = 10$ and ignores the $2y$. They simply divide 10 by 4, assuming the first coefficient is the primary divisor.
+    *   **The most likely bug (leading to Option C):** The student confuses the constant with the $y$-intercept in a simpler $y = mx + c$ format. They see $4x + 2y = 10$, mentally "delete" the $x$ term since it is 0, and see $2y = 10$. However, instead of dividing, they confuse the process with a "half of 10" or they see the "0" for $x$ and simply assume the $y$ value is half of the total (10), which is **5**.
+
+### 3. Which answer option this leads to: Option C (5)
+While "5" is the result of $10 \div 2$, the misconception often isn't a "correct" division of the remaining coefficient. In Year 9, students often hold the **"Linear Shortcut" misconception**. They see the 0 in the table and assume that $y$ must simply be the "result" divided by the "number of variables," or they identify that when $x=0$, the answer is just the "other side" divided by 2. This seems correct mathematically, but for the student, it is often a "pattern match" (10 and 2 makes 5) rather than formal substitution.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** because it yields a "clean" integer that feels right.
+*   **The Trap of the Zero:** Because $x=0$ is the easiest number to substitute, students often become lazy with their formal working. They "hide" the $4x$ with their thumb and just look at $2y=10$.
+*   **Lack of verification:** At Year 9, students rarely substitute their answer back into the equation to see if $4(0) + 2(5) = 10$ works. Because 5 is a factor of 10, the answer "feels" mathematically related to the numbers in the question.
+*   **The "y = ..." Confusion:** Many students are so used to seeing equations in the form $y = mx + c$ that

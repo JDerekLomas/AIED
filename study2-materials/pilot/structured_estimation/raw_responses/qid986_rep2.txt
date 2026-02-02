@@ -1,0 +1,39 @@
+<chain_of_thought>
+The equation is (x-6)/2 = 10. Let me verify the correct solution and then evaluate each student.
+
+Correct method: Multiply both sides by 2 → x - 6 = 20. Then add 6 → x = 26. Check: (26-6)/2 = 20/2 = 10. Correct.
+
+Tom says x/2 = 16. Let me check: if x/2 = 16, then x = 32. Check in original: (32-6)/2 = 26/2 = 13 ≠ 10. So Tom is wrong. His error: he seems to have tried to add 6 to both sides to cancel the -6, but incorrectly applied this only to the numerator. He should recognize that (x-6)/2 is a single fraction — you can't just add 6 to the numerator without multiplying by the denominator first.
+
+Katie says x - 6 = 5. Check: if x - 6 = 5, then x = 11. Check: (11-6)/2 = 5/2 = 2.5 ≠ 10. Katie divided by 2 instead of multiplying by 2 — the textbook "same operation instead of inverse" error.
+
+Answer: D, neither is correct.
+
+Difficulty analysis: This is a multi-step evaluation problem. Students must independently verify two claims, each involving different types of algebraic errors. The "neither" option as the correct answer adds difficulty because it requires rejecting both claims with confidence.
+
+Comparing to calibration: The Tom and Katie factorising question (classical difficulty 0.473, b = 0.404) is somewhat similar in format. However, that item had answer A (Only Tom), which is more intuitive to select. Having D (Neither) as correct typically inflates difficulty. The algebraic content here (solving linear equations with fractions) is at a similar curriculum level to the inequality problem (classical difficulty 0.569, b = 0.808).
+
+I'll estimate this falls between the factorising and inequality items in difficulty, perhaps slightly above the inequality item due to the "neither" effect. Discrimination should be reasonable but not extremely high, as the two-claim evaluation can trip up students who correctly identify one error but mishandle the other.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

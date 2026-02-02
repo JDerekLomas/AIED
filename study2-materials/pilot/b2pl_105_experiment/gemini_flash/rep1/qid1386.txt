@@ -1,0 +1,14 @@
+This question tests a fundamental understanding of algebraic fractions. Unlike problems with different denominators, the common denominator is already provided here. This significantly reduces the cognitive load, but it creates a specific trap for lower-ability students who apply "the rules of fractions" (adding both top and bottom) or "the cross-multiplication method" (Butterfly method) mechanically without noticing the simpler path.
+
+**Teacher's Analysis:**
+*   **B (Correct):** Most students recognize that if the denominators are the same, you simply add the numerators.
+*   **C (The "Add Everything" Error):** This is the most common error for **Below Basic** and **Basic** students. They treat the $x$ like a number and add across both the numerator and denominator ($2+3=5$ and $x+x=2x$).
+*   **D (The Multiplication Error):** Students often confuse the rules for adding fractions with those for multiplying them ($2 \times 3 = 6$ and $x \times x = x^2$). 
+*   **A (The Over-Complication):** This occurs when a student tries to use a common denominator of $x^2$ (cross-multiplying) but then doesn't know how to simplify, or thinks they must change the denominator because "it's algebra."
+
+**Predicted Performance:**
+
+below_basic: A=10% B=45% C=35% D=10%
+basic: A=5% B=70% C=20% D=5%
+proficient: A=2% B=92% C=5% D=1%
+advanced: A=0% B=99% C=1% D=0%

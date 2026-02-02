@@ -193,7 +193,13 @@ def load_eedi_items(csv_path: str, limit: int = None) -> list:
                 "id": row['QuestionId'],
                 "question": row['QuestionText'],
                 "options": options,
-                "correct": row['CorrectAnswer'],
+                "correct": row['CorrectAnswer'],  # Kaggle letter (for LLM prompt)
+                "correct_neurips": row['neurips_correct_pos'],  # NeurIPS position (for pct lookup)
+                # WARNING: student_dist uses NeurIPS positional ordering but
+                # LLM response dist uses Kaggle ordering. These orderings are
+                # independent — distribution-level comparisons are misaligned.
+                # Only correct/error rate comparisons using neurips_correct_pos
+                # are valid.
                 "student_dist": {
                     "A": row['pct_A'] / 100,
                     "B": row['pct_B'] / 100,
@@ -283,6 +289,7 @@ def run_error_alignment(
                 "model": model_name,
                 "item_id": item['id'],
                 "correct_answer": item['correct'],
+                "correct_answer_neurips": item.get('correct_neurips', ''),
                 "samples": samples_per_item,
                 "valid_responses": valid_total,
                 "llm_dist": llm_dist,
@@ -337,8 +344,12 @@ def analyze_error_alignment(results: list) -> dict:
         items_with_errors = 0
 
         for r in model_results:
-            correct = r['correct_answer']
+            correct_kaggle = r['correct_answer']
+            correct_neurips = r.get('correct_answer_neurips', correct_kaggle)
 
+            # NOTE: LLM dist uses Kaggle ordering, student dist uses NeurIPS ordering.
+            # Full per-option distribution comparison is misaligned.
+            # Only correct/error rate comparisons are valid using the respective keys.
             for opt in ['A', 'B', 'C', 'D']:
                 llm_p = r['llm_dist'].get(opt, 0)
                 student_p = r['student_dist'].get(opt, 0)
@@ -346,24 +357,27 @@ def analyze_error_alignment(results: list) -> dict:
                 all_llm.append(llm_p)
                 all_student.append(student_p)
 
-                # Only errors (wrong answers)
-                if opt != correct:
+                # Only errors (wrong answers) — use respective correct keys
+                if opt != correct_kaggle:
                     llm_error_probs.append(llm_p)
+                if opt != correct_neurips:
                     student_error_probs.append(student_p)
 
             # Count items where LLM made errors
-            if r['llm_dist'].get(correct, 0) < 1.0:
+            if r['llm_dist'].get(correct_kaggle, 0) < 1.0:
                 items_with_errors += 1
 
-        # Overall correlation
+        # Overall correlation — WARNING: misaligned orderings
         overall_r, overall_p = stats.pearsonr(all_llm, all_student)
 
-        # Error-only correlation (when both have errors)
-        error_r, error_p = stats.pearsonr(llm_error_probs, student_error_probs)
+        # Error-only correlation — now using separate correct keys
+        # Note: lists may differ in length due to different correct positions
+        min_len = min(len(llm_error_probs), len(student_error_probs))
+        error_r, error_p = stats.pearsonr(llm_error_probs[:min_len], student_error_probs[:min_len])
 
-        # Accuracy
+        # Accuracy — use respective correct answer keys
         llm_accuracy = np.mean([r['llm_dist'].get(r['correct_answer'], 0) for r in model_results])
-        student_accuracy = np.mean([r['student_dist'].get(r['correct_answer'], 0) for r in model_results])
+        student_accuracy = np.mean([r['student_dist'].get(r.get('correct_answer_neurips', r['correct_answer']), 0) for r in model_results])
 
         print(f"\nItems analyzed: {len(model_results)}")
         print(f"Items where LLM made errors: {items_with_errors}")

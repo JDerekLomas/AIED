@@ -1,0 +1,44 @@
+<chain_of_thought>
+Analyzing (-2)^4 for UK secondary students.
+
+I want to think about this from a curriculum perspective first. Powers and roots of negative numbers appear in the UK National Curriculum at KS3, typically Year 8. By Year 9-10 students should be fluent with this. Given the age range 11-16, younger students (Year 7-8) may not have encountered this yet, while older students should know it.
+
+The item is testing a very specific and well-documented misconception: that the product of negative numbers is negative. With exponent 4, the student needs to recognize that an even number of negative factors produces a positive result. The brackets around -2 make it unambiguous that the entire quantity is being raised to the 4th power (as opposed to -(2^4), which would indeed be -16).
+
+However, many students don't attend to the brackets carefully or don't understand their significance in this context. The notation (-2)^4 with explicit brackets should help, but the misconception is strong enough to override notational cues for many students.
+
+Let me reconsider the difficulty level. Looking at the calibration set more holistically:
+- Items with classical difficulty ~0.15-0.17 are straightforward procedural questions
+- Items around 0.30 involve function machines (visual/conceptual)
+- Items around 0.47-0.57 involve algebraic reasoning
+
+This item falls in the conceptual understanding category. It's not purely procedural (you need to understand the sign rule), but it's also not deeply algebraic. I'd place it around 0.35-0.45.
+
+One factor pulling difficulty down: the question is extremely clear and short. No reading comprehension burden, no complex setup. One factor pulling difficulty up: the misconception is very common and the primary distractor (-16) looks very natural.
+
+I'll estimate classical difficulty at 0.40, IRT b around 0.15. For discrimination, the item should work well because it cleanly separates conceptual understanding from misconception. I'll estimate a around 1.50. The high discrimination reflects that this is a targeted diagnostic item.
+
+Guessing should be quite low. A student who doesn't understand the concept will almost certainly choose A (-16) rather than randomly selecting C (16). The effective guessing rate for C is probably below 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

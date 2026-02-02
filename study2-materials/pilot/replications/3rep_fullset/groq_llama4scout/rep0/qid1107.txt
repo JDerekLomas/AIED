@@ -1,0 +1,63 @@
+To approach this question, let's first analyze what it's testing: the ability to eliminate a variable in simultaneous equations by either adding or subtracting the equations. The specific equations given are:
+\[ \begin{array}{l}3 x-2 y=15 \\ x+2 y=20\end{array} \]
+
+## Step 1: Understand the Conditions for Eliminating a Variable
+To eliminate a variable, the coefficients of either \(x\) or \(y\) must be the same in both equations but with opposite signs when subtracting, or the same when adding.
+
+## 2: Analyze Tom's Statement
+Tom suggests adding the two equations together to eliminate a variable. If we add them:
+\[ (3x - 2y) + (x + 2y) = 15 + 20 \]
+\[ 3x + x - 2y + 2y = 35 \]
+\[ 4x = 35 \]
+This simplifies to \( 4x = 35 \), which means \( x = \frac{35}{4} \). This shows that adding the equations does eliminate \(y\), making Tom correct.
+
+## 3: Analyze Katie's Statement
+Katie suggests subtracting the two equations to eliminate a variable. If we subtract the second equation from the first:
+\[ (3x - 2y) - (x + 2y) = 15 - 20 \]
+\[ 3x - x - 2y - 2y = -5 \]
+\[ 2x - 4y = -5 \]
+This does not eliminate a variable directly as Katie hoped (it was supposed to eliminate \(x\) or \(y\) directly), but let's check if subtracting could eliminate a variable with a different arrangement. The equations are:
+\[ \begin{array}{l}3 x-2 y=15 \\ x+2 y=20\end{array} \]
+If we multiply the second equation by 3 and the first by 1:
+\[ \begin{array}{l}3 x-2 y=15 \\ 3x+6 y=60\end{array} \]
+Then subtract:
+\[ (3x - 2y) - (3x + 6y) = 15 - 60 \]
+\[ -8y = -45 \]
+\[ y = \frac{45}{8} \]
+However, directly subtracting or adding as originally stated:
+- Adding eliminates \(y\).
+- Subtracting as stated doesn't directly eliminate a variable without further manipulation.
+
+## 4: Directly Evaluate Katie's Original Claim
+Given:
+\[ \begin{array}{l}3 x-2 y=15 \\ x+2 y=20\end{array} \]
+Subtracting:
+\[ (3x - 2y) - (x + 2y) = 15 - 20 \]
+\[ 2x - 4y = -5 \]
+Does not directly help. But if we want to eliminate \(y\), we see that adding works. For \(x\), consider:
+If we multiply the second equation by 3:
+\[ 3x + 6y = 60 \]
+And the first remains:
+\[ 3x - 2y = 15 \]
+Subtracting these:
+\[ (3x + 6y) - (3x - 2y) = 60 - 15 \]
+\[ 8y = 45 \]
+\[ y = \frac{45}{8} \]
+So, Katie's method requires a manipulation to eliminate \(x\), not straightforward.
+
+## 5: Determine the Correctness of Each Statement
+- Tom is correct because adding the equations eliminates \(y\).
+- Katie's statement to subtract and eliminate a variable directly is misleading without manipulation; the direct subtraction does not eliminate \(y\) or \(x\) easily.
+
+## 6: Predicting Student Responses
+Given the clarity of the question and the straightforward nature of adding to eliminate \(y\), but the need for a bit of thought on subtraction:
+- **Below Basic**: Might struggle to see either method clearly. A=40% (some see adding works), B=20% (some guess Katie), C=20% (not sure), D=20% (neither seems plausible).
+- **Basic**: Would likely see Tom's method. A=60%, B=20%, C=10%, D=10%.
+- **Proficient**: Clearly see Tom's method and understand Katie needs adjustment. A=80%, B=5%, C=10%, D=5%.
+- **Advanced**: Understand both, with a nuanced view. A=5%, B=5%, C=90%, D=0%.
+
+The final answer is:
+below_basic: A=40% B=20% C=20% D=20%
+basic: A=60% B=20% C=10% D=10%
+proficient: A=80% B=5% C=10% D=5%
+advanced: A=5% B=5% C=90% D=0%

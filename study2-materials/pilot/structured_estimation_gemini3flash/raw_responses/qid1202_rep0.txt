@@ -1,0 +1,42 @@
+<chain_of_thought>
+The item asks students to solve the linear equation $3 - y = 5$. This is a classic "one-step" or "two-step" equation depending on the method used, but it is notoriously difficult for students due to the negative coefficient of $y$.
+
+1. **Misconception Analysis**:
+   - **Distractor A ($y=2$):** Students perform $5 - 3$ but ignore the negative sign on the $y$, or they think $3 + y = 5$. This is very common.
+   - **Distractor C ($y=8$):** Students see the subtraction and perform the inverse operation (addition) regardless of the structure: $5 + 3 = 8$. This matches the "uses same operation rather than inverse" or "blindly applies inverse to the visible constant" misconception.
+   - **Distractor D ($y=-8$):** A combination of adding the terms and then realizing a sign change might be needed, or simply $-(5+3)$.
+
+2. **Calibration Comparison**:
+   - The first calibration example ($-5 = p + 10$) had a classical difficulty of 0.167 (very hard). That equation required handling a negative constant.
+   - The current item ($3 - y = 5$) involves a negative variable term, which is cognitively more demanding than a negative constant for most students.
+   - Many students will incorrectly conclude $y=2$ or $y=8$. 
+   - Looking at the IRT difficulty of the calibration items, items involving negative numbers and algebraic manipulation often result in lower proportion correct than teachers expect.
+
+3. **Psychometric Estimates**:
+   - **Classical Difficulty**: Likely low. Algebraic subtraction is a major hurdle. I estimate around 0.25 - 0.30.
+   - **IRT Difficulty (b)**: Given the calibration examples, a proportion correct of 0.25-0.30 usually sits around the 0.0 to 0.5 range on the IRT scale for this population.
+   - **Discrimination (a)**: This is a "clean" algebraic item. It should discriminate well between those who understand the additive inverse and those who use "rules of thumb."
+   - **Guessing (c)**: With 4 choices, but very strong distractors (especially $y=2$), the guessing parameter is likely low as students are drawn to specific misconceptions rather than random guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

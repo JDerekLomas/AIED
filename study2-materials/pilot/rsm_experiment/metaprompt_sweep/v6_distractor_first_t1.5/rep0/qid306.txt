@@ -1,0 +1,37 @@
+As an experienced UK maths teacher, I see these two problems as the ultimate test of whether a student truly understands the "Order of Operations" (BIDMAS/BODMAS) or if they have simply memorised a mnemonic without context.
+
+### Step 1 — Reasoning Analysis
+
+**A) Problem P: $4-5$; Problem Q: $4+5$**
+*   **Reasoning:** The "Left-to-Right" bias. The student ignores BIDMAS entirely and simply calculates the first operation they see in both expressions. This is common among students who view maths as "reading a sentence."
+
+**B) Problem P: $4-5$; Problem Q: $5 \times 6$**
+*   **Reasoning:** Correct application of rules. In Problem P, Addition and Subtraction have equal priority, so we work left-to-right. In Problem Q, Multiplication takes precedence over Addition. This student understands that "A" and "S" in BIDMAS are a single tier.
+
+**C) Problem P: $5+6$; Problem Q: $4+5$**
+*   **Reasoning:** Misguided BIDMAS. The student believes that Addition ($A$) **must** always come before Subtraction ($S$) because $A$ comes before $S$ in the acronym. Simultaneously, they ignore the priority of multiplication in Problem Q (perhaps due to "left-to-right" fatigue). This is a rare combination but seen in very confused learners.
+
+**D) Problem P: $5+6$; Problem Q: $5 \times 6$**
+*   **Reasoning:** The "Literal BIDMAS" trap. This student knows that multiplication beats addition (Correct for Q), but they strictly follow the letters for Problem P, believing they must add $5+6$ before dealing with the $4-$. This is the most common high-level misconception in the UK curriculum.
+
+***
+
+### Step 2 — Predicted Distributions
+
+In the UK, "Below Basic" often corresponds to KS2/lower KS3 students who struggle with basic arithmetic, while "Advanced" corresponds to GCSE Grade 7-9 students.
+
+**below_basic** (Little to no grasp of BIDMAS):
+A=50% B=15% C=15% D=20%
+*Reasoning: Mostly left-to-right solvers, with some guessing at the others.*
+
+**basic** (Introduced to BIDMAS but applies it literally):
+A=20% B=25% C=5% D=50%
+*Reasoning: The majority will fall into the "Addition before Subtraction" trap (D), though some will still default to left-to-right (A).*
+
+**proficient** (Can handle standard priority but still wary of +/- rules):
+A=10% B=55% C=0% D=35%
+*Reasoning: Most understand multiplication comes first, but a significant chunk still gets tripped up by the A-S priority in Problem P.*
+
+**advanced** (Mastery of the equal priority of Addition/Subtraction):
+A=2% B=92% C=0% D=6%
+*Reasoning: Most will correctly identify that P is left-to-right. Occasional "silly mistakes" lead to D, but almost none will choose A or C.*

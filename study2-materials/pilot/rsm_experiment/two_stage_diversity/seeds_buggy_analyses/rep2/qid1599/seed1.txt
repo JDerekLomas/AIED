@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: "Order of Operations Flattening" (Selective Grouping)
+This is a conceptual "bug" where the student ignores the grouping power of brackets or the fraction bar, treating the expression as a linear sequence of events. Specifically, the student incorrectly applies the priority of division (the fraction bar) only to the immediate neighbor of the operator, rather than the entire grouped expression within the parentheses.
+
+### 2. Step-by-Step Student Process
+A student with this misconception would process the expression $c \div (h + 4)$ as follows:
+*   **Step 1:** Look at the first part of the expression: $c \div h$.
+*   **Step 2:** Convert this division into the algebraic fraction convention, resulting in $\frac{c}{h}$.
+*   **Step 3:** See the "remaining" part of the expression, which is $+ 4$.
+*   **Step 4:** Append the $+ 4$ to the end of the fraction they just created, failing to realize that the addition is part of the denominator's group.
+*   **Result:** They produce $\frac{c}{h} + 4$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural** and common for a Year 9 student for several reasons:
+
+*   **Left-to-Right Processing:** Students are conditioned to read from left to right. Once they have "dealt with" the division of $c$ and $h$, they feel they have successfully fulfilled the requirement of "using the algebraic convention."
+*   **Visual Complexity:** Option A looks "heavy" at the bottom. To a novice, a multi-term denominator often feels intuitively "messy" compared to a simple fraction followed by an integer.
+*   **The "Invisible Brackets" Problem:** In algebra, the fraction bar acts as a grouping symbol (an vinculum). Students often struggle to realize that by writing a fraction bar, they are effectively "hiding" the brackets. Because they see $+ 4$ outside the division context in their mental processing, they place it outside the fraction bar.
+*   **Lack of Conflict:** The student likely would **not realize they went wrong.** Option C uses "proper-looking" algebra (a fraction), so it satisfies their internal checklist for what a Year 9 answer should look like. Without substituting numbers to check for equivalence, the structural difference between $\frac{c}{h} + 4$ and $\frac{c}{h+4}$ is visually subtle but mathematically profound.

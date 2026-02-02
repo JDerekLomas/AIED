@@ -1,0 +1,23 @@
+Here is an analysis of a common misconception for this specific quadratic expansion.
+
+### 1. The Misconception: "Negative Multiplication Sign Error"
+The specific bug is the **failure to apply the "minus times a minus equals a positive" rule** when calculating the final constant term. In a Year 9 context, this is often a procedural oversight where the student correctly identifies that both $5$ and $7$ are preceded by minus signs, but intuitively feels that because they are "negative numbers," the result of combining them must stay negative.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would typically use the FOIL (First, Outside, Inside, Last) method or a grid method:
+
+*   **Step 1 (Firsts):** $m \times m = m^2$. (Correct)
+*   **Step 2 (Outsides):** $m \times (-7) = -7m$. (Correct)
+*   **Step 3 (Insides):** $(-5) \times m = -5m$. (Correct)
+*   **Step 4 (Collect middle terms):** They add the negative coefficients: $-7m + (-5m) = -12m$. (Correct)
+*   **Step 5 (Lasts):** They multiply $-5 \times -7$. Instead of applying the rule for two negatives making a positive, they conclude that "a 5 and a 7 with minus signs must result in -35." 
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. Attractiveness of the Error
+This is an exceptionally "sticky" and attractive error for Year 9 students for several reasons:
+
+*   **The Overgeneralization of Addition:** Students frequently confuse the rules for *adding* directed numbers with *multiplying* them. Since $-5 + (-7) = -12$ (it stays negative), they instinctively feel that $-5 \times -7$ should also be negative.
+*   **Visual Consistency:** In the expression $(m-5)(m-7)$, every sign the student sees is a minus sign. Writing a plus sign for the 35 ($+35$) feels "counter-intuitive" because there is no plus sign visible in the original problem to "justify" it.
+*   **False Confidence:** Because the student likely got the $m^2$ and the $-12m$ correct, they feel they are on the right track. By the time they reach the final multiplication, they are often on "autopilot." Without a calculator to check, they are highly unlikely to realize they have made an error, as $-35$ "looks" like it belongs with the other negative terms in the expression.

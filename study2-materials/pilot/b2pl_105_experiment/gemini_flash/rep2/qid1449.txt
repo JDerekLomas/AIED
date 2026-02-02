@@ -1,0 +1,12 @@
+This question primarily tests two concepts: **Order of Operations (BIDMAS/BODMAS)** and **Negative Number Arithmetic**.
+
+The primary trap here is the left-to-right calculation error. Many students will do $-4 + (-5)$ first to get $-9$, then multiply by $3$ to get $-27$ (Option B). Students with poor negative number handling might even ignore the sign of the product, leading to Option A ($+27$). 
+
+The correct path is multiplying $(-5) \times 3$ first to get $-15$, then calculating $-4 + (-15)$. A common secondary error here is "double negative makes a positive" thinking, leading to $-4 + 15 = 11$ (though $11$ is not an option, students might gravitate toward $-11$ as a "nearest" guess or from incorrectly subtracting $4$ from $15$).
+
+Here is the predicted distribution:
+
+below_basic: A=20% B=45% C=15% D=20%
+basic: A=10% B=50% C=15% D=25%
+proficient: A=5% B=20% C=5% D=70%
+advanced: A=0% B=5% C=0% D=95%

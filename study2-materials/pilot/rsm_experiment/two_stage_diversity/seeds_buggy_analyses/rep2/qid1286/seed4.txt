@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in Year 9 students when they rearrange formulas involving fractions.
+
+### 1. The Misconception: "Reciprocal Misplacement" (or Cross-Multiplication Confusion)
+The specific bug is a **procedural error in the transposition of terms**. Students often understand that they need to "move" the fraction $\frac{4}{3}$ to the other side of the equation, but they fail to correctly apply the inverse operation. Instead of multiplying by the reciprocal ($\frac{3}{4}$), they incorrectly "distribute" the parts of the fraction, often thinking that because 4 is in the numerator, it must remain "on top" in the final expression, or they simply multiply both sides by the entire coefficient without dividing.
+
+### 2. Step-by-Step Calculation
+A student with this misconception would proceed as follows:
+
+1.  **Start with the correct formula:** They recall $V = \frac{4}{3}\pi r^3$.
+2.  **Isolate the $r$ term (The Bug):** They see the 4 and the 3. Instead of multiplying $V$ by 3 and dividing by 4, they mentally "move" the 4 and $\pi$ to the top and the 3 stays as a multiplier because it was "attached" to the fraction. 
+3.  **Operation reversal error:** The student thinks: "I need to get $r$ by itself. I have $V$, I have 4, $\pi$, and 3. I’ll put the $4\pi$ next to $V$ and keep the 3 underneath." 
+4.  **Mathematical path:** They perform $r^3 = \frac{4V\pi}{3}$.
+5.  **Final step:** They take the cube root of their incorrect expression: $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option A**.
+
+### 4. How "Attractive" is this Error?
+This is a **highly natural and "sticky" error** for a Year 9 student for several reasons:
+
+*   **Visual Mimicry:** In the original formula $V = \frac{4}{3}\pi r^3$, the number 4 and the symbol $\pi$ are on the "top" level. In Option A, 4 and $\pi$ are also on the "top" level. Students often rely on visual pattern matching rather than inverse operations; if it looks like the original arrangement, it "feels" right.
+*   **The Multiplier Bias:** Many students believe that "rearranging" means simply moving symbols to the other side of the equals sign. They often forget that a multiplier ($4\pi$) must become a divisor.
+*   **Lack of Dimensional Analysis:** A student at this level is unlikely to check if the units work out. Because Option A *looks* like a complex formula involving a cube root and $\pi$, it possesses "mathematical authority." Unless the student explicitly checks their work by substituting a value for $r$ back into the original volume formula, they will likely remain completely confident that Option A is correct.

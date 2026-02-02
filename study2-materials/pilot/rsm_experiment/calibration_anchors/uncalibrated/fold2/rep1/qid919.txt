@@ -1,0 +1,14 @@
+To predict these percentages, I’ve analysed the common pitfalls for the equation $y = 3x^2$ where $x = 0.3$.
+
+**Common Errors & Traps:**
+*   **The "Linear Multiplication" Trap (Option C: 1.8):** Below-basic students often ignore the square symbol or misinterpret it as $\times 2$. They perform $3 \times 0.3 = 0.9$, then $0.9 \times 2 = 1.8$. 
+*   **The "Squaring the Product" Trap (Option A: 0.81):** This is the most "attractive" wrong method for basic/proficient students. They perform $(3 \times 0.3)^2 = 0.9^2 = 0.81$, forgetting the BIDMAS/BODMAS rule that indices come before multiplication.
+*   **The "Decimal Place" Trap (Option D: 2.7):** These students know the steps ($0.3^2 = 0.09$, then $0.09 \times 3$), but they make a mental arithmetic error with the decimal point, believing $0.3^2 = 0.9$. They then calculate $3 \times 0.9 = 2.7$.
+*   **Correct (Option B: 0.27):** This requires squaring the decimal correctly ($0.09$) and then multiplying.
+
+Here are the predicted percentages:
+
+below_basic: A=15% B=15% C=50% D=20%
+basic: A=40% B=20% C=15% D=25%
+proficient: A=20% B=60% C=5% D=15%
+advanced: A=5% B=90% C=2% D=3%

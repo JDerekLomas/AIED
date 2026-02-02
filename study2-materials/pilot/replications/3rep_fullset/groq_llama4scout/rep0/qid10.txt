@@ -1,0 +1,37 @@
+To approach this question, let's first understand what's being asked. John is expanding the expression \((x+5)(x-3)(x+6)\) by first splitting it into \(x(x-3)(x+6)+5(x-3)(x+6)\) and then further expanding the brackets. We're tasked with identifying the terms that contain an \(x^2\) before simplification.
+
+## Step 1: Expand the first part of the expression, \(x(x-3)(x+6)\)
+To find the \(x^2\) terms, we need to expand \(x(x-3)(x+6)\). First, expand \((x-3)(x+6)\) which gives \(x^2 + 6x - 3x - 18 = x^2 + 3x - 18\). Then, multiplying by \(x\), we get \(x(x^2 + 3x - 18) = x^3 + 3x^2 - 18x\). The \(x^2\) term here is \(3x^2\).
+
+## 2: Expand the second part of the expression, \(5(x-3)(x+6)\)
+Now, expand \(5(x-3)(x+6)\). We already know \((x-3)(x+6) = x^2 + 3x - 18\), so \(5(x^2 + 3x - 18) = 5x^2 + 15x - 90\). The \(x^2\) term here is \(5x^2\).
+
+## 3: Identify the \(x^2\) terms before simplification
+From the expansions, the \(x^2\) terms are \(3x^2\) from the first part and \(5x^2\) from the second part. 
+
+## 4: Consider the original question and the answer choices
+The question asks for the terms that contain an \(x^2\) before John simplifies. We have identified \(3x^2\) and \(5x^2\). There's no \(-3x^2\) or \(-5x^2\) term directly produced in our step-by-step expansion that matches the format of the given choices directly.
+
+## 5: Analyze the answer choices
+- A: \(+6x^2\) - This doesn't match our findings.
+- B: \(\begin{array}{l}+6 x^{2} \\ -3 x^{2} \\ +5 x^{2}\end{array}\) - This includes a \(-3x^2\) which we didn't find.
+- C: \(\begin{array}{l}+6 x^{2} \\ +3 x^{2} \\ +5 x^{2}\end{array}\) - This matches our identified \(x^2\) terms (\(3x^2\) and \(5x^2\)) and includes an extra \(+6x^2\) which could come from a direct multiplication of the three binomials but doesn't directly align with our step-by-step without fully expanding.
+- D: \(\begin{array}{l}+6 x^{2} \\ -3 x^{2} \\ -5 x^{2}\end{array}\) - This doesn't match since we found positive \(x^2\) terms.
+
+## 6: Detailed Expansion to Clarify
+Let's fully expand \((x-3)(x+6) = x^2 + 3x - 18\). 
+- Then, \(x(x^2 + 3x - 18) = x^3 + 3x^2 - 18x\)
+- And \(5(x^2 + 3x - 18) = 5x^2 + 15x - 90\)
+So, before combining like terms, the \(x^2\) terms are indeed \(3x^2\) and \(5x^2\).
+
+## 7: Re-evaluate Answer Choices with Full Expansion in Mind
+Upon a detailed examination, to actually get \(x^2\) terms from \((x+5)(x-3)(x+6)\), consider:
+\((x^2 + 2x - 15)(x+6) = x^3 + 6x^2 + 2x^2 + 12x - 15x - 90 = x^3 + 8x^2 - 3x - 90\).
+So, the \(x^2\) term in the full expansion is \(8x^2\), but we look for terms before simplification in the given split form.
+
+## 8: Predicting Student Responses
+- **Below Basic**: Students might not fully expand or understand the concept, likely choosing A or randomly selecting.
+- **Basic**: Might understand the need for expansion but could struggle with the split form, possibly choosing B or C.
+- **Proficient**: Should be able to identify \(3x^2\) and \(5x^2\), thus leaning towards C.
+- **Advanced**: Will easily identify and confirm C as the correct answer.
+

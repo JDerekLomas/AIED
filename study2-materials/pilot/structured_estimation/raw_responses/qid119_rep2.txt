@@ -1,0 +1,45 @@
+<chain_of_thought>
+Analyzing this item about operations with negative numbers and arrow diagrams.
+
+The diagram shows a large leftward arrow labeled -24 and a smaller leftward arrow that is one-third the length. The relationship between the arrows suggests that three of the smaller arrows would make the larger one.
+
+Tom writes: -3 × (-8) = -24. Let me check: -3 × (-8). The magnitude is 3 × 8 = 24. The sign: negative times negative equals positive. So the result should be +24, not -24. Tom is wrong.
+
+Katie writes: (-24)/(-3) = -8. The magnitude is 24/3 = 8. The sign: negative divided by negative equals positive. So the result should be +8, not -8. Katie is also wrong.
+
+Answer: D (Neither is correct).
+
+Now, thinking about this from a student's perspective. The diagram might actually be somewhat confusing — what does the smaller arrow represent? If it's one-third of -24, then -24/3 = -8, or equivalently -24 = 3 × (-8). But the question asks about -3 × (-8) and (-24)/(-3), which involve multiplying/dividing two negatives. The diagram could mislead students into thinking about dividing by 3 rather than by -3, or multiplying by 3 rather than by -3.
+
+This is a clever item because the numerical values in Tom's and Katie's statements look "right" if you ignore sign rules. The magnitude relationships are correct (3 × 8 = 24, 24/3 = 8), and the diagram supports those magnitudes. It's purely the signs that are wrong.
+
+For difficulty: The misconception tested is extremely common. Research consistently shows that sign rules for multiplication/division of negatives are one of the most persistent misconceptions in secondary mathematics. The "who is correct" format with answer D requires rejecting both claims, which is psychologically challenging.
+
+Compared to the calibration item (factorising, same misconception, difficulty 0.473): I think this might be slightly harder because (a) both claims must be checked, (b) the diagram could add confusion, and (c) "neither" is the hardest option type to select. But computationally it's simpler than factorising. I'll estimate around 0.55 classical difficulty.
+
+For discrimination: This should discriminate reasonably well since it directly tests a fundamental concept. However, the visual component might introduce some construct-irrelevant variance. I estimate around 1.15-1.35.
+
+Guessing: With four options and "neither" being psychologically unusual, random guessing gives 0.25 but informed guessing is probably lower since students with the misconception are drawn strongly to C.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.56</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

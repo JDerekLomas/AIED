@@ -1,0 +1,18 @@
+To predict how students will perform on this question, we must look at the specific numbers: $\frac{3}{5}$ and $\frac{1}{4}$. Adding fractions is a classic "threshold" concept in the UK curriculum.
+
+The most common misconception is adding the numerators and denominators independently ($3+1$ and $5+4$), leading to option A ($\frac{4}{9}$). This is an extremely seductive distractor for "below basic" and "basic" students who remember they have to "do something" with the numbers but forget the need for a common denominator.
+
+Option B ($\frac{4}{20}$) and C ($\frac{7}{20}$) represent partial understandings. B multiplies the denominators but simply adds the original numerators ($3+1$), while C is a common mistake where a student forgets to multiply the first numerator by 4 (doing $3+4$ instead of $12+5$).
+
+The correct answer, D ($\frac{17}{20}$), requires the full execution of the algorithm ($12/20 + 5/20$).
+
+**Analysis of student levels:**
+*   **Below Basic:** These students almost exclusively follow the "add across" rule.
+*   **Basic:** They know a common denominator of 20 is needed (ruling out A), but often fail to adjust the numerators correctly, making C a very likely "near-miss" error.
+*   **Proficient:** Most will correctly calculate $12+5=17$, though a small percentage will make a silly arithmetic error.
+*   **Advanced:** This is a routine operation with no complex "traps" like mixed numbers or negative signs, so they should be near-perfect.
+
+below_basic: A=65% B=15% C=10% D=10%
+basic: A=25% B=15% C=30% D=30%
+proficient: A=5% B=5% C=10% D=80%
+advanced: A=1% B=1% C=2% D=96%

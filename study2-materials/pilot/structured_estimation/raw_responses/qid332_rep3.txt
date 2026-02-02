@@ -1,0 +1,39 @@
+<chain_of_thought>
+The equation is (x/3) - 5 = 12. Students must evaluate two proposed solution steps.
+
+Tom proposes x/3 = 17. Check: add 5 to both sides of (x/3) - 5 = 12 yields x/3 = 17. Valid step.
+
+Katie proposes x - 5 = 36. Check: if we multiply both sides by 3, we should get 3*(x/3) - 3*5 = 3*12, which is x - 15 = 36. Katie has x - 5 = 36, meaning she didn't multiply the -5 by 3. Invalid step.
+
+So A (Only Tom) is correct.
+
+Thinking about student performance: This item has a layered structure. Students need to independently verify two algebraic transformations. Tom's step is straightforward to check. Katie's step is trickier because it contains a partial truth - the x and 36 are correct if you multiply by 3, but the -5 should become -15. Students who don't carefully check distribution will accept Katie's answer.
+
+The "Both" option (C) will be very tempting. Students who can verify Tom is right but don't catch Katie's error will choose C. Students who themselves would make the same distribution error will see Katie's step as correct.
+
+For anchoring against calibration items: I note the pattern that items testing "uses the same operation rather than the inverse" range from easy (b = -0.702 for the simple equation) to hard (b = 0.808 for the inequality). The difficulty seems driven more by the complexity of the equation and the question format than the misconception itself.
+
+This item has moderate equation complexity (fraction involved) and the evaluation format adds cognitive demand. I think it's in the moderate-to-hard range. Perhaps classical difficulty 0.44, b around 0.30. The discrimination should be good - around 1.3-1.4 - since it cleanly separates students who understand algebraic manipulation from those who don't. The guessing parameter might be moderate since some lower-ability students could randomly select A.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.44</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

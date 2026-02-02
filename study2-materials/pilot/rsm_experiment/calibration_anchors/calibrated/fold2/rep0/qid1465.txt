@@ -1,0 +1,14 @@
+To calibrate my predictions, I have analysed the error patterns in the provided mock data. A significant trend in this Year 9 cohort is a failure to apply order of operations correctly (as seen in the 84% choosing D for the BIDMAS comparison and 92% choosing C for the division algebraic convention). There is also a strong "left-to-right" bias and difficulty with directed numbers (99% choosing -5 for the multiplication of -1 and -4).
+
+For $3 - 5 + 4 \times 2$:
+- **Option A (6)** is correct: $3 - 5 + 8 = -2 + 8 = 6$.
+- **Option B (4)** comes from $(3 - 5 + 4) \times 2 \rightarrow (2) \times 2 = 4$. This ignores the priority of multiplication over addition/subtraction.
+- **Option C (-12)** comes from $3 - (5 + 4 \times 2) \rightarrow 3 - (5 + 8) \rightarrow 3 - 13 = -10$, but with an additional arithmetic slip, or more likely $3 - 5 = -2$, then $(-2 + 4) \times 2$ (logic B) or a complete miscalculation of $3 - 15$.
+- **Option D (-10)** comes from $3 - (5 + 8)$. This cohort frequently interprets $a - b + c$ as $a - (b + c)$, as seen in their tendency to group terms incorrectly in other questions.
+
+The "BIDMAS comparison" question suggests only 4% of this specific cohort correctly identify order of operations when competing against left-to-right intuition.
+
+below_basic: A=2% B=30% C=18% D=50%
+basic: A=5% B=45% C=10% D=40%
+proficient: A=15% B=40% C=5% D=40%
+advanced: A=45% B=25% C=5% D=25%

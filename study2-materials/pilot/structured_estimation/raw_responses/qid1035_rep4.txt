@@ -1,0 +1,47 @@
+<chain_of_thought>
+Analyzing -(2 - 3p). Correct answer: D (-2 + 3p).
+
+This tests expanding brackets with a negative multiplier, specifically targeting the misconception that multiplying two negatives gives a negative.
+
+Let me approach this by thinking about what makes items discriminate well vs poorly. A good discriminating item cleanly separates students by ability. Here, the key question is whether the misconception (double negative -> negative) correlates strongly with overall math ability.
+
+I think it does: understanding of negative number operations is foundational, and students who master it tend to be stronger overall. This suggests decent discrimination.
+
+Now for difficulty estimation. Let me anchor to the calibration items more carefully:
+
+- The simplest calibration item (solve -5 = p + 10) has classical difficulty 0.167 - very easy.
+- The order of operations item has 0.134 - also easy.
+- The function machine item: 0.295.
+- The factorising item (same misconception): 0.473.
+- The inequality item: 0.569.
+
+Expanding -(2 - 3p) is conceptually simpler than factorising but involves the same tricky misconception. I'd place this between the function machine item and the factorising item. My estimate: classical difficulty around 0.35.
+
+For IRT difficulty, the function machine was at 0.002 and factorising at 0.404. Splitting the difference but closer to the function machine since this is more procedural: maybe 0.15.
+
+Discrimination: The calibration items range from 1.05 to 1.55. This item has clean distractor design targeting a specific misconception, which should help discrimination. I'll say 1.50.
+
+Guessing: The distractors are all plausible systematic errors, so random guessing is unlikely to dominate. But some students might use process of elimination (knowing the answer should have -2 narrows to B or D). This partial knowledge could inflate the guessing parameter slightly. I'll estimate 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

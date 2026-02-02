@@ -1,0 +1,40 @@
+<chain_of_thought>
+The item presents 2/x + 3/x and asks for the simplest single fraction. Correct answer: 5/x (B).
+
+Let me think about what makes this item tick from a psychometric standpoint.
+
+The core skill: adding like fractions. The denominators are already the same. The only "algebra" here is that the denominator is x rather than a number. So this is really testing whether students can transfer their understanding of like-fraction addition to an algebraic context.
+
+Distractor analysis:
+- A: 5x/x^2. This student might have done something like finding a "common denominator" of x^2 and converting: 2x/x^2 + 3x/x^2 = 5x/x^2. Correct but not simplified. This is a process error (unnecessary work) rather than a conceptual error.
+- C: 5/2x. Classic "add everything" approach. Numerators: 2+3=5. Denominators: x+x=2x. This is the targeted misconception.
+- D: 6/x^2. Multiplication of fractions: 2*3=6, x*x=x^2. Student confused addition with multiplication.
+
+I think this item may be somewhat harder than it looks at first glance. Algebraic fractions are a known pain point in the UK secondary curriculum. Even though the operation is simple, the algebraic context can throw students off. Additionally, distractor A is clever because it IS equivalent to the correct answer - students who know how to add fractions but don't simplify might pick it, and students who are unsure might be confused by seeing what appears to be two correct answers.
+
+Actually, reconsidering - A being equivalent to B might actually reduce the item's effectiveness. Strong students might hesitate between A and B. Weaker students probably won't notice the equivalence.
+
+I'll estimate classical difficulty around 0.35. Algebraic fractions tend to be harder than people expect. IRT difficulty slightly positive, around 0.1. Discrimination moderate - the presence of a distractor equivalent to the correct answer might reduce discrimination slightly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

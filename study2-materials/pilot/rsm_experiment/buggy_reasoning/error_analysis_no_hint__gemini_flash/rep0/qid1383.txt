@@ -1,0 +1,18 @@
+In this Year 9 mock, the index notation with negative bases is a classic separator. The two main traps are "multiplication by the index" (leading to 12 or -12) and the "sign error" (forgetting that an even power of a negative number yields a positive result).
+
+**The Logic of the Errors:**
+*   **A (81):** The correct calculation: $(-3) \times (-3) \times (-3) \times (-3) = 81$.
+*   **B (12):** A common misconception at lower levels where indices are treated as multipliers ($k \times 4$), but with the negative sign ignored.
+*   **C (-81):** The most "attractive" error for middle-ability students. They know $3^4 = 81$, but they assume the negative sign remains, or they are using a calculator incorrectly without brackets (entering $-3^4$ which follows BODMAS/BIDMAS as $-(3^4)$).
+*   **D (-12):** Same as B, but keeping the negative sign. Often chosen by students who have a vague memory that "negative numbers stay negative."
+
+**Ability Level Breakdown:**
+*   **Below Basic:** Often confuse powers with multiplication. B and D will be very popular.
+*   **Basic:** Understands that $3^4 = 81$, but significantly struggles with the rules of signs or bracket usage, making C the dominant answer.
+*   **Proficient:** Stronger understanding, but a significant portion will still fall for the "sign trap" (Option C) or make a silly calculation error.
+*   **Advanced:** Usually identify the trap immediately. Those who get it wrong usually do so via a "slip" rather than a lack of knowledge.
+
+below_basic: A=10% B=40% C=15% D=35%
+basic: A=30% B=15% C=45% D=10%
+proficient: A=65% B=5% C=25% D=5%
+advanced: A=95% B=0% C=5% D=0%

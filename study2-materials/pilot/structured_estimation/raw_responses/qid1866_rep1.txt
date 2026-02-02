@@ -1,0 +1,38 @@
+<chain_of_thought>
+Analyzing: 8 - 7 + 10 × 3
+
+The correct approach using BIDMAS: multiplication first, so 10 × 3 = 30, then left to right: 8 - 7 + 30 = 1 + 30 = 31. Answer B.
+
+Distractor analysis:
+- D) 33 is the key distractor: strict left-to-right gives 8-7=1, 1+10=11, 11×3=33. This directly tests the stated misconception.
+- C) -29 would arise from treating it as 8 - (7 + 30) = 8 - 37 = -29. This suggests a student who correctly prioritizes multiplication but then incorrectly treats the subtraction as applying to everything after it.
+- A) 36 is harder to derive naturally. Possibly (8-7+10)×3 with 8-7+10 miscalculated as 12, giving 36. Or some other compound error.
+
+This is a foundational BODMAS question, very standard in the UK KS3 curriculum (Year 7-8). The numbers are small and manageable. The main challenge is purely conceptual - knowing to multiply before adding/subtracting.
+
+The calibration item with the same misconception (0.4 - 1/5 × 3) had difficulty 0.134. That item had additional complexity from decimals and fractions. This item is purely integers, which should make it more accessible. However, the expression has three terms with two different operations, which is a very standard BODMAS trap.
+
+Order of operations is heavily taught but the misconception remains persistent. I'd expect maybe 15-20% of the target population to get this wrong, primarily selecting D. The item should discriminate well since it's a clean test of a specific skill.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

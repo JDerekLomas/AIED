@@ -1,0 +1,13 @@
+In this Year 9 mock, this question is a classic "calculator vs. brain" trap that exposes a student's understanding of negative indices and algebraic substitution. 
+
+**Calculation Errors & Traps:**
+*   **A/B (12/-12):** The classic "multiplication instead of exponentiation" error ($3 \times 4$). Students at the **Below Basic** level consistently do this because they view $k^4$ as $k \times 4$.
+*   **D (-81):** This is the "Attractive Distractor." It captures students who know how to calculate $3^4 = 81$ but fail the sign rule. Crucially, many **Proficient** students fall into this trap because they type `-3^4` into a scientific calculator without brackets; the calculator (following BIDMAS/BODMAS correctly) calculates $-(3^4)$.
+*   **C (81):** This requires the student to understand that an even power of a negative number results in a positive value $(-3 \times -3 \times -3 \times -3 = 81)$, or to be disciplined enough to use brackets on their calculator.
+
+Here is the predicted distribution:
+
+below_basic: A=35% B=40% C=10% D=15%
+basic: A=10% B=15% C=35% D=40%
+proficient: A=2% B=3% C=50% D=45%
+advanced: A=0% B=0% C=95% D=5%

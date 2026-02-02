@@ -1,0 +1,13 @@
+This question specifically tests the order of operations (BIDMAS/BODMAS) combined with place value when squaring decimals. The most common pitfall is multiplying the coefficient (3) by the base (0.3) before squaring, or failing to correctly square 0.3.
+
+**A (0.81)** represents the error $(3 \times 0.3)^2$, where the student multiplies before squaring.
+**B (0.27)** is the correct answer: $0.3^2 = 0.09$, and $0.09 \times 3 = 0.27$.
+**C (1.8)** represents the error $3 \times (0.3 \times 2)$, where the student confuses squaring with doubling.
+**D (2.7)** is a common place value error: calculating $3 \times 0.9$ (forgetting that $0.3 \times 0.3 = 0.09$, not $0.9$).
+
+Below-basic students often disregard BIDMAS and work left-to-right or confuse powers with multiplication. Basic and Proficient students frequently struggle with the position of the decimal point when squaring decimals.
+
+below_basic: A=25% B=15% C=30% D=30%
+basic: A=30% B=25% C=15% D=30%
+proficient: A=15% B=60% C=5% D=20%
+advanced: A=5% B=90% C=0% D=5%

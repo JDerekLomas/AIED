@@ -1,0 +1,25 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for a UK Year 9 student (approx. 13–14 years old) transitioning from arithmetic to formal algebraic notation.
+
+### 1. The Misconception: "Order of Operations Dissociation" (Specifically, Left-to-Right Precedence Bug)
+This misconception occurs when a student treats the division sign as a "local" operator that only applies to the term immediately following it, rather than recognizing the brackets as a signal that the entire expression $(h+4)$ acts as a single denominator (the divisor). The student ignores the grouping power of the vinculum (the fraction bar).
+
+### 2. Step-by-Step Procedure
+A student with this misconception would approach the expression $c \div (h+4)$ as follows:
+
+*   **Step 1:** Look at the first part of the expression: $c \div h$.
+*   **Step 2:** Translate this part into algebraic notation as $\frac{c}{h}$, following the rule that "division is written as a fraction."
+*   **Step 3:** See the remaining part of the expression: $+ 4$.
+*   **Step 4:** Append the $+ 4$ to the end of the newly created fraction without realizing that the brackets originally grouped the $+4$ with the divisor $h$.
+*   **Step 5:** Finalize the expression as $\frac{c}{h} + 4$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option C: $\frac{c}{h} + 4$**.
+
+### 4. Attractiveness and "Blindness" to the Error
+This is a **highly natural and frequent error** for Year 9 students for several reasons:
+
+*   **Linear Thinking:** Students are conditioned by years of reading left-to-right. In their minds, they are "translating" the string into algebra symbol by symbol. Once they have converted $c \div h$ into a fraction, they feel they have "done" the division.
+*   **Misunderstanding the Vinculum:** Students often fail to realize that the fraction bar acts as a "grouping symbol" similar to brackets. In Option A, the bar stretches under the $+4$; in Option C, it does not. A student may perceive the length of the line as an aesthetic choice rather than a functional mathematical boundary.
+*   **Pseudo-Order of Operations:** They may misapply BODMAS/BIDMAS logic. They see the division sign and feel compelled to "do" that part first, essentially discarding the brackets as soon as they decide to use a fraction bar.
+
+**Would they realize they went wrong?** No. To the student, Option C looks "more algebraic" because it keeps the elements in the exact order they appeared in the original horizontal question. They likely feel they have successfully followed the instructions to remove the $\div$ symbol, making them confident in their incorrect choice.

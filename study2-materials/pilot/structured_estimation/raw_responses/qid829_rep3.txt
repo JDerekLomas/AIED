@@ -1,0 +1,43 @@
+<chain_of_thought>
+Item: Expand (m-3)(m-2). Correct answer A: m^2 - 5m + 6.
+
+This is a bread-and-butter algebra item for UK secondary maths. FOIL expansion is heavily practiced. The twist here is both brackets have subtraction, so the constant term requires multiplying two negatives.
+
+Misconception: "multiplying two negatives gives a negative." This is one of the most well-researched misconceptions in mathematics education. Studies consistently show it persists even among students who can state the rule correctly -- when embedded in a multi-step procedure like bracket expansion, the cognitive load can cause students to revert to the incorrect intuition that "negative times negative is negative."
+
+Distractor mapping:
+A) Correct: m^2 - 5m + 6
+B) m^2 - m - 6: Could arise from sign errors on multiple terms, possibly expanding as if it were (m-3)(m+2)
+C) m^2 + 5m + 6: Treating both terms as positive, expanding (m+3)(m+2)
+D) m^2 - 5m - 6: Only the constant term sign is wrong -- the targeted misconception
+
+D is the most dangerous distractor because a student could correctly perform three of four multiplications and only err on the last step. This makes it highly plausible. B and C require more extensive errors and should attract fewer students.
+
+Anchoring against calibration: The Tom/Katie item (same misconception) was at 0.473 classical difficulty. That item had additional complexity (evaluating two claims, understanding factoring). This expansion item is more direct. I'd expect it to be slightly easier, perhaps around 0.38.
+
+However, I want to consider that expanding brackets with two negative terms might actually be harder than the Tom/Katie item for some students because it requires active computation rather than recognition. The Tom/Katie item allowed process of elimination. Here, students must execute correctly.
+
+Revised estimate: classical difficulty 0.45, IRT b = 0.35. Discrimination should be solid since the misconception creates a clean split -- around 1.35. Guessing parameter modest at 0.10 since most students will attempt the expansion.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

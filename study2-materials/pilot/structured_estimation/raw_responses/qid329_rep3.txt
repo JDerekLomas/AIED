@@ -1,0 +1,53 @@
+<chain_of_thought>
+This question tests understanding of order of operations (BIDMAS) through a discussion format.
+
+Breaking down the mathematics:
+0.1 - 0.2 / 0.3
+
+By BIDMAS, division is performed before subtraction:
+= 0.1 - (0.2 / 0.3)
+= 0.1 - 0.6recurring
+= -0.5recurring
+
+Tom's statement places parentheses around 0.2 / 0.3, correctly showing the order. Tom is right.
+
+Katie's statement rewrites it as 0.2 / 0.3 - 0.1. While she does perform division first, she has effectively changed 0.1 - x to x - 0.1, which gives a different result (positive vs negative). Katie is wrong.
+
+Correct answer: A.
+
+Now considering item difficulty from a psychometric perspective:
+
+The key challenge here is twofold: (1) knowing that division takes priority and (2) recognizing that Katie's rearrangement is invalid because subtraction isn't commutative. Many students who correctly identify that division should come first might still think Katie is correct because she "does the division first." This would lead them to answer C (Both).
+
+Students with the left-to-right misconception might compute (0.1 - 0.2) / 0.3 first, then struggle to match either claim, potentially selecting D (Neither).
+
+The use of all decimals (no whole numbers) and the recurring decimal result (0.2/0.3) add computational complexity that could confuse students even if they understand the concept.
+
+For my calibration: the similar BIDMAS calibration item was easy (0.134 incorrect). But that was direct computation. The evaluative "who is correct" format combined with Katie's plausible-sounding but wrong rearrangement should push difficulty considerably higher. I'm thinking classical difficulty around 0.40-0.45, comparable to the factorising Tom/Katie item.
+
+Actually, on reflection, the underlying math concept here (BIDMAS) is more foundational than factorising, so even with the tricky format, students should do somewhat better. I'll estimate around 0.40.
+
+Discrimination should be solid -- this item separates deep understanding from surface-level rule application. I'll estimate a = 1.30.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

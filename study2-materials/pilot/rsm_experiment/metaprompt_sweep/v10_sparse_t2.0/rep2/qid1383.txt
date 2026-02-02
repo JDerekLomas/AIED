@@ -1,0 +1,20 @@
+As a UK maths teacher, I would categorize these levels according to GCSE progress (Below Basic: Grade 1-2, Basic: Grade 3-4, Proficient: Grade 5-6, Advanced: Grade 7+).
+
+The "distractors" in this question target three specific misconceptions:
+1. **Multiplication instead of power:** Thinking $3 \times 4 = 12$ (B and D).
+2. **The "Negative stay negative" rule:** Incorrectly applying the rule for $k^3$ to $k^4$ (C).
+3. **Calculator syntax error:** Many students type $-3^4$ into a calculator, which follows BIDMAS/BODMAS as $-(3^4) = -81$.
+
+Here is the predicted distribution:
+
+**below_basic: A=10% B=45% C=15% D=30%**
+*   **Analysis:** At this level, many students treat indices as multiplication. Option D is the "strongest" distractor here because it combines the multiplication error ($3 \times 4$) with the presence of a minus sign in the question.
+
+**basic: A=30% B=15% C=45% D=10%**
+*   **Analysis:** Students have moved past multiplication and recognize $3 \times 3 \times 3 \times 3 = 81$. However, they often believe that if a number starts negative, the result *must* stay negative (especially if they have recently covered $k^3$). Option C is usually the "trap" choice for Level 3/4 students.
+
+**proficient: A=65% B=5% C=25% D=5%**
+*   **Analysis:** Most students understand that a negative number raised to an even power becomes positive. The remaining 25% who choose C usually do so because they have "over-trusted" their scientific calculator by typing $-3^4$ without using brackets, resulting in $-81$.
+
+**advanced: A=95% B=0% C=5% D=0%**
+*   **Analysis:** Students at this level (aiming for Grade 7+) are explicitly taught the "brackets for substitution" rule. Errors are rare and are usually due to extreme haste or a rare calculator input slip.

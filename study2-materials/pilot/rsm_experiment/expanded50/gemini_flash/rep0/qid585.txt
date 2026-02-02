@@ -1,0 +1,11 @@
+Error Analysis:
+A) Correct Answer. To find this, the student correctly equates coefficients (e.g., doubling the first equation to get $8x+2y=14$), subtracts to find $5x=10$, yielding $x=2$, and substitutes back to find $y=-1$.
+B) This error stems from a mistake in the elimination process. A student may subtract the two original equations ($4x - 3x$ and $y - 2y$) without first matching coefficients. This gives $x - y = 3$. If they then guess values or incorrectly manipulate this into $x=3$ and $y=-5$ (which fits $x-y=8$ if they miscalculate signs), or simply make a subtraction error during the proper substitution method (e.g., $14-4=9$ instead of $10$), they arrive here.
+C) This is the "Additive Error." Instead of subtracting to eliminate $y$, the student adds the equations: $11x + 3y = 11$. Alternatively, and more commonly, it represents a calculation error where $7-4$ is handled as addition or the division $5x=3$ (instead of 10) occurs, leading to $x=0.6$. It often indicates a confusion between when to add and when to subtract terms.
+D) This represents an "Equation Manipulation Error." The student likely tried to use the substitution method but failed to distribute coefficients or misused the signs. For example, rearranging to $y=7-4x$ and substituting: $3x + 2(7-4x) = 4 \Rightarrow 3x + 14 - 4x = 4$ (forgetting to multiply $4x$ by 2). This gives $-x = -10$, so $x=10$. Substituting $x=10$ back into $4(10)+y=7$ gives $y=-33$.
+
+Predictions:
+below_basic: A=20% B=30% C=25% D=25%
+basic: A=45% B=20% C=15% D=20%
+proficient: A=80% B=5% C=5% D=10%
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,36 @@
+<chain_of_thought>
+This item asks students to solve 20t - 5 = 0 for t. The solution requires two steps: first add 5 to both sides to get 20t = 5, then divide both sides by 20 to get t = 5/20 = 1/4.
+
+The misconception tested is "uses the same operation rather than the inverse." A student making this error might subtract 5 instead of adding it, or multiply instead of dividing. Looking at the distractors:
+- B (t=4): This could arise from dividing 20 by 5 rather than 5 by 20, suggesting the student inverted the fraction.
+- C (t=-4): Similar to B but with a sign error, possibly from subtracting 5 (getting 20t = -5, then -5*4 or similar confusion).
+- D (t=-1/4): The correct magnitude but wrong sign, from an arithmetic sign error.
+
+Comparing to calibration items: The first calibration item (-5 = p + 10, same misconception) had classical difficulty 0.167 and IRT b = -0.702. That was a simpler one-step equation. This item involves a coefficient of 20 and requires the student to produce a fraction as the answer, which adds difficulty. The fraction answer t = 1/4 is less intuitive and many students may be drawn to t = 4 (distractor B), which "looks cleaner."
+
+However, the equation structure is standard and the question is clearly stated. I'd estimate this is moderately easy but harder than the simple p + 10 = -5 item due to the fractional answer and the plausibility of the whole-number distractor t = 4.
+
+I'd place classical difficulty around 0.30-0.35 (roughly 30-35% incorrect), IRT difficulty near 0.0 to 0.2. The discrimination should be reasonable since this is a well-constructed item testing a common misconception. Guessing should be low since the distractors are meaningful.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,44 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the misconceptions and the attractiveness of each error as described:
+
+### Misconceptions and Attractiveness
+
+- **Option A (20):** This is likely to be chosen by students who misunderstand the equation as needing to "scale" or who apply an incorrect operation such as multiplication instead of division. Highly seductive due to visual pattern matching but less common in proficient or advanced students.
+
+- **Option B (3):** Chosen by students who treat $4x$ as $4 + x$, or those who mistakenly subtract the coefficient from the total. Attractive because it leads to a clean, integer result and fits a pattern of incorrect algebraic manipulation.
+
+- **Option C (5):** The correct answer. Students who understand that substituting $x=0$ results in $2y=10$, and then correctly divide by 2 to find $y=5$.
+
+- **Option D (2.5):** Selected by students with operational swapping errors, dividing the coefficient by the constant instead of the other way around. Common due to the deceptive simplicity of the calculation.
+
+### Ability Levels and Predicted Percentages
+
+- **Below Basic:** At this level, students are prone to significant misconceptions and may not fully understand algebraic manipulations.
+  - **A=30%** (seduced by large numbers and incorrect operations)
+  - **B=25%** (attracted to integer solutions through incorrect additions/subtractions)
+  - **C=20%** (correct understanding but may struggle with division or substitution)
+  - **D=25%** (operate based on visual cues, leading to incorrect divisions)
+
+- **Basic:** These students have some grasp of algebra but are still vulnerable to misconceptions.
+  - **A=15%** (less likely to fall for extreme errors)
+  - **B=30%** (integer results are attractive and feel like proper algebra)
+  - **C=40%** (beginning to understand substitution and division)
+  - **D=15%** (operational errors still occur)
+
+- **Proficient:** Proficient students understand basic algebraic manipulations but might have residual misconceptions.
+  - **A=5%** (recognize and avoid extreme errors)
+  - **B=15%** (some still struggle with correct sequence of operations)
+  - **C=70%** (clear understanding of substitution and division by coefficient)
+  - **D=10%** (fewer operational errors but still present)
+
+- **Advanced:** These students have a solid grasp of algebra and are less likely to fall into misconceptions.
+  - **A=0%** (rarely make such significant errors)
+  - **B=5%** (for those pushing the limits of their understanding)
+  - **C=90%** (clear and confident application of algebraic principles)
+  - **D=5%** (a minimal chance of simple operational swapping)
+
+Given the described analysis, here are the percentages in the requested format:
+
+below_basic: A=30% B=25% C=20% D=25%
+basic: A=15% B=30% C=40% D=15%
+proficient: A=5% B=15% C=70% D=10%
+advanced: A=0% B=5% C=90% D=5%

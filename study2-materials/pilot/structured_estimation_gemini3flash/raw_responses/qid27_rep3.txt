@@ -1,0 +1,45 @@
+<chain_of_thought>
+The item tests substitution into an algebraic expression involving negative numbers.
+The expression is $10 - 2d$ with $d = -2$.
+Steps to solve:
+1. Substitute $d = -2$: $10 - 2(-2)$
+2. Multiply $-2 \times -2 = +4$ (Crucial step: negative $\times$ negative)
+3. Add: $10 + 4 = 14$
+
+Distractor analysis:
+- A ($10 - 2(2) = 6$, then making it negative? Or $10 - 22$ logic): $-12$ is a common result if students confuse signs or subtraction order.
+- B ($10 - 2(2) = 6$): Student ignores the negative sign of $d$.
+- C (Correct): $14$.
+- D ($10 - 2$ followed by $d$? Or $10 - (-22)$?): $32$ is less common but often results from concatenation or specific order of operations errors.
+
+The specific misconception "multiplying two negatives gives a negative" would lead to $10 - 4 = 6$ (Option B). However, the interaction between the subtraction sign and the negative coefficient is a notorious "trap" in UK secondary math (KS3/KS4). 
+
+Comparing to calibration items:
+- Item 1 ($-5=p+10$) had a very low classical difficulty (0.167). Negative number manipulation is consistently harder for this age group than teachers expect.
+- Item 4 (Factorising) had a difficulty of 0.473.
+- Substitution with two negatives is generally more difficult than standard substitution but easier than solving multi-step inequalities.
+
+I expect the classical difficulty to be around 0.45. Many students will choose 6 (Option B) because they see $10 - 2 \times 2 = 6$ or $10 + (-4) = 6$. The IRT difficulty (b) will likely be slightly positive as it requires mastery of directed numbers.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

@@ -1,0 +1,38 @@
+<chain_of_thought>
+Expanding (x-3)^2 is a foundational algebraic skill in UK secondary education. Let me think about the cognitive demands and likely student performance.
+
+The task: rewrite (x-3)^2 as (x-3)(x-3), then multiply out. Using FOIL: x*x + x*(-3) + (-3)*x + (-3)*(-3) = x^2 - 3x - 3x + 9 = x^2 - 6x + 9 (answer D).
+
+Distractor analysis:
+- A: x^2 - 6x - 9. Student got the middle term right but (-3)(-3) = -9. This is the tested misconception about negative times negative.
+- B: x^2 - 9. Very common — student thinks (x-3)^2 = x^2 - 3^2. This confuses the perfect square trinomial with difference of squares. Potentially the most selected wrong answer.
+- C: x^2 + 9. Student squares each term separately: x^2 and (-3)^2 = 9, missing the middle term entirely.
+
+I think this item could be harder than it first appears. The misconception about negative multiplication is strong, and distractor B captures a separate but equally common error. Many students at the KS3/KS4 boundary struggle with squaring binomials.
+
+Comparing to the calibration set: the inequality item (0.569 difficulty, b=0.808) required multi-step algebraic manipulation. The factorising item with the same misconception was 0.473 difficulty. I think this expansion item sits somewhere between those — it requires fewer conceptual leaps than factorising but the squared binomial is a known stumbling block. I'll estimate classical difficulty around 0.50, which maps to an IRT difficulty around 0.4-0.5.
+
+The discrimination should be decent — this is a well-constructed item with distractors targeting specific misconceptions. I'd estimate around 1.40.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

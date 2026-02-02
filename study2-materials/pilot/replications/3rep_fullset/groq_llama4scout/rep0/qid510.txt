@@ -1,0 +1,35 @@
+To approach this question, let's analyze what it's testing and how students at different levels might respond.
+
+The question involves a right-angled triangle with one angle given as 32 degrees, the side adjacent to this angle given as 6cm, and the side opposite to this angle given as \( p \). The task is to determine which trigonometric ratio would be used to find \( p \).
+
+## Step 1: Understanding Trigonometric Ratios
+Recall that in a right-angled triangle:
+- \(\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}\)
+- \(\cos(\theta) = \frac{\text{adjacent}}{\text{hypotenuse}}\)
+- \(\tan(\theta) = \frac{\text{opposite}}{\text{adjacent}}\)
+
+## 2: Identifying the Relevant Trigonometric Ratio
+Given that we need to find \( p \) (the side opposite to the 32-degree angle) and we know the length of the side adjacent to the 32-degree angle (6cm), the relevant ratio is \(\tan(32^\circ) = \frac{p}{6}\). This implies \( p = 6 \times \tan(32^\circ) \), making the correct answer \( \tan \), which corresponds to option C.
+
+## 3: Analyzing Potential Student Errors
+- Students might confuse \(\sin\), \(\cos\), and \(\tan\), especially if they remember the ratios but not which side each ratio involves.
+- The question specifically provides the adjacent side and asks for the opposite side, which directly points to \(\tan\).
+
+## 4: Predicting Student Responses by Ability Level
+- **Below Basic**: Students at this level might struggle to recall the basic trigonometric ratios or might confuse them. They might incorrectly choose \( \sin \) (A) because it's a commonly remembered ratio, or they might not know any of them, leading to \( D \) (None of these).
+- **Basic**: Basic level students are more likely to know the trigonometric ratios but might still make careless mistakes. They should recognize \( \tan \) as the correct ratio but might be tempted by \( \sin \) or \( \cos \) due to lack of attention to detail.
+- **Proficient**: Proficient students are expected to confidently apply trigonometric ratios. They should easily identify \( \tan \) as the correct ratio because they understand the relationship between the given sides and the angle.
+- **Advanced**: Advanced students will not only identify \( \tan \) correctly but also understand the context and implications of using each ratio. They are less likely to make mistakes.
+
+## 5: Estimating Percentages
+Given the analysis:
+- **Below Basic**: A=40% (common misconception), B=20% (another common ratio), C=20% (some might get it right by chance or recall), D=20% (not knowing any).
+- **Basic**: A=25%, B=15%, C=55% (most get it right but some errors), D=5%.
+- **Proficient**: A=10%, B=5%, C=85%, D=0%.
+- **Advanced**: A=0%, B=0%, C=100%, D=0%.
+
+The final answer is:
+below_basic: A=40% B=20% C=20% D=20%
+basic: A=25% B=15% C=55% D=5%
+proficient: A=10% B=5% C=85% D=0%
+advanced: A=0% B=0% C=100% D=0%

@@ -1,0 +1,28 @@
+Here is my analysis, based on marking many, many Year 9 papers.
+
+***
+
+### Teacher's Analysis & Rationale
+
+**The Question:** \( 2 \frac{7}{10}+2 \frac{1}{4}= \) Leave your answer as a mixed number.
+**Correct Answer:** **B) \( 4 \frac{19}{20} \)**
+The correct method is to add the whole numbers (2+2=4) and then find a common denominator for the fractions (\( \frac{7}{10} + \frac{1}{4} \)). The lowest common multiple of 10 and 4 is 20. This gives \( \frac{14}{20} + \frac{5}{20} = \frac{19}{20} \). Combining these gives \( 4 \frac{19}{20} \).
+
+**Analysis of Distractors:**
+
+*   **A) \( \frac{99}{20} \)**: This is the correct answer expressed as an improper fraction (\( (4 \times 20) + 19 = 99 \)). A student who does all the maths correctly but fails to read or understand the instruction "Leave your answer as a mixed number" will choose this. It's a classic trap for those who rush.
+
+*   **C) \( \frac{99}{40} \)**: This answer comes from a common but significant misconception. The student correctly converts the mixed numbers to improper fractions (\( \frac{27}{10} \) and \( \frac{9}{4} \)), but instead of finding a common denominator, they multiply them (\( \frac{27}{10} \times \frac{9}{4} \)) leading to \( \frac{243}{40} \). Ah, wait, that's not it. Let's re-evaluate. A more likely error for this is to add the improper fractions using the *wrong* common denominator. Instead of LCM=20, they might multiply the denominators: 10 x 4 = 40. Then they would calculate \( \frac{27 \times 4}{40} + \frac{9 \times 10}{40} = \frac{108+90}{40} = \frac{198}{40} \). Still not matching.
+    Let's try another path. The student adds the wholes (4) and then for the fractions (\( \frac{7}{10}+\frac{1}{4} \)), they multiply the denominators to get 40, and cross-multiply for the numerators: \( \frac{(7 \times 4) + (1 \times 10)}{40} = \frac{28+10}{40} = \frac{38}{40} \). This gives \( 4 \frac{38}{40} \). Also doesn't match.
+    Let's go back to the improper fractions \( \frac{27}{10} + \frac{9}{4} \). Maybe they added numerators and denominators? No. There isn't a simple, obvious calculation error that leads directly to \( \frac{99}{40} \). This makes it a *low-attraction* distractor. It's most likely selected by students who are completely guessing or have made a convoluted series of errors.
+
+*   **D) \( 4 \frac{8}{14} \)**: This is the classic, most common conceptual error. The student correctly adds the whole numbers (2+2=4). Then, they look at the fractions (\( \frac{7}{10} \) and \( \frac{1}{4} \)) and simply add the numerators together and the denominators together (7+1=8, 10+4=14). This "feels right" to students who don't understand the concept of common denominators. It is an extremely attractive error for weaker students.
+
+***
+
+### Prediction by Ability Level
+
+below_basic: A=10% B=5% C=15% D=70%
+basic: A=15% B=45% C=5% D=35%
+proficient: A=20% B=75% C=0% D=5%
+advanced: A=5% B=95% C=0% D=0%

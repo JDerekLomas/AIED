@@ -1,0 +1,14 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). While it appears simple, it is a high-discriminator because the operations are arranged in a way that provides very "tempting" incorrect paths if one simply reads from left to right.
+
+**Analysis of Options:**
+*   **B) 13 (Correct):** Division and Multiplication first ($9 + 4 = 13$).
+*   **A) 3:** A "left-to-right" error with a secondary mistake. $18 \div 2 = 9$; $9+2 = 11$; then perhaps a misunderstanding of the final $\times 2$ or a calculation slip.
+*   **C) 22:** The most common "left-to-right" error. $18 \div 2 = 9 \rightarrow 9 + 2 = 11 \rightarrow 11 \times 2 = 22$.
+*   **D) 12:** Errors in calculation or performing multiplication before division incorrectly ($2 \times 2 = 4$; $2+4=6$; $18 \div 6 = 3$, or other combinations).
+
+Lower-ability students almost exclusively work left-to-right on these problems. Even proficient students can be "tricked" by the sequence if they are rushing, as the addition symbol sits right in the middle, inviting the solver to sum the two "halves" of the problem incorrectly.
+
+below_basic: A=15% B=20% C=50% D=15%
+basic: A=10% B=40% C=40% D=10%
+proficient: A=5% B=75% C=15% D=5%
+advanced: A=1% B=96% C=2% D=1%

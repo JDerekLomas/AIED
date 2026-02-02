@@ -1,0 +1,45 @@
+This question tests order of operations (BIDMAS/BODMAS/PEMDAS), specifically the priority of multiplication over addition/subtraction and the correct handling of subtraction when combined with negative intermediate results.  
+
+The calculation:  
+\[
+3 - 5 + 4 \times 2
+\]
+Multiplication first: \(4 \times 2 = 8\)  
+Then left-to-right: \(3 - 5 = -2\), then \(-2 + 8 = 6\).  
+
+Correct answer: **A) 6**.  
+
+**Common errors:**  
+- Doing operations strictly left-to-right ignoring multiplication priority:  
+  \(3 - 5 = -2\), \(-2 + 4 = 2\), \(2 \times 2 = 4\) → **B) 4**.  
+- Applying multiplication only to the term before it incorrectly:  
+  \(3 - 5 + 8\) but then doing \(3 - (5+8) = -10\) → **D) -10**.  
+- Misinterpreting signs: \(3 - 5 \times 2 + 4\) (reading it wrong) could lead to \(3 - 10 + 4 = -3\), not an option, but if they do \(3 - (5+4\times2) = -10\) again.  
+- Possibly miscalculating \(3 - 5 \times 2\) as \(3 - 10 = -7\), then adding 4 → \(-3\) not an option, so maybe they then multiply wrong: \(3 - 5 = -2\), \(-2 \times (4+2??)\) not fitting here.  
+
+However, the most likely trap is **B) 4** from left-to-right without priority.  
+
+**Difficulty analysis:**  
+- Numbers are small, no division, no brackets, so easier than many BIDMAS questions.  
+- The main trap (B) is a classic “ignore multiplication first” error.  
+- Option C) -12 is less likely but could come from \(3 - (5+4) \times 2 = 3 - 18 = -15\) not -12, so maybe few pick C.  
+- Option D) -10 comes from \(3 - (5 + 8) = -10\), a bracketing error after doing multiplication first but then grouping 5+8 wrongly.  
+
+---
+
+**Predicted percentages by ability level:**
+
+**Below basic** – Likely to ignore order of operations, so many will choose B (left-to-right). Some will guess wildly.  
+
+**Basic** – Some will know multiplication first but may still make bracketing error (D) or left-to-right (B).  
+
+**Proficient** – Majority will get correct (A), but a few will slip to B or D.  
+
+**Advanced** – Almost all correct.  
+
+---
+
+below_basic: A=25% B=50% C=10% D=15%  
+basic: A=40% B=40% C=5% D=15%  
+proficient: A=85% B=10% C=0% D=5%  
+advanced: A=98% B=1% C=0% D=1%

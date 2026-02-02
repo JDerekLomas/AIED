@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item asks students to identify which pair of numbers has a product of -24. The core concept is multiplication of signed integers: a negative times a positive yields a negative, while a negative times a negative yields a positive.
+
+Let me check each option:
+A) -3 x -8 = +24 (not -24, because negative x negative = positive)
+B) -4 x 6 = -24 (correct, negative x positive = negative)
+C) -10 x -14 = +140 (not -24, both wrong sign and wrong magnitude)
+D) -3 x 9 = -27 (correct sign but wrong magnitude)
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." Options A is the primary distractor targeting this misconception -- a student who thinks (-3)(-8) = -24 would select A. Option C also involves two negatives but the product magnitude is wrong too, so it's a weaker distractor. Option D has the right sign pattern but wrong magnitude, catching computation errors.
+
+Comparing to the calibration item about factorising (Tom and Katie), which also tests "believes multiplying two negatives gives a negative," that item had classical difficulty 0.473 and IRT b = 0.404. That item required algebraic reasoning about factoring quadratics, which is considerably more complex. This item is more direct -- just multiply two numbers -- so it should be easier.
+
+However, the distractor A is quite plausible because students who hold the misconception will immediately see -3 and -8 and think "that gives -24." The question is relatively straightforward in its wording.
+
+I estimate this is a moderate-difficulty item, somewhat easier than the factorising item since it only requires basic integer multiplication rather than algebraic manipulation. Classical difficulty perhaps around 0.35-0.40, IRT difficulty around 0.1 to 0.3.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

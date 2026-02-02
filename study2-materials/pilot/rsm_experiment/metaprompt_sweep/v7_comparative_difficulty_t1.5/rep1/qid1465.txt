@@ -1,0 +1,37 @@
+This is a classic "trap" question that exploits a common misunderstanding of the order of operations (BIDMAS/BODMAS). While it looks simple, it specifically targets a weakness in how students process addition and subtraction when they appear together.
+
+### DIFFICULTY: 4/10
+For a Year 9 student, the arithmetic is trivial (Difficulty 1). However, the conceptual hurdle of "left-to-right" priority makes this a 4. It is a high-misconception question rather than a random-guess question.
+
+### The Misconception
+The primary error here is thinking that **Addition (A)** must come before **Subtraction (S)** because 'A' precedes 'S' in the acronym BIDMAS.
+*   **Incorrect logic:** $5 + 4 = 9$, then $3 - 9 = -6$, then $-6 \times 2 = -12$ (Option C).
+*   **Incorrect logic:** $4 \times 2 = 8$, then $5 + 8 = 13$, then $3 - 13 = -10$ (Option D).
+*   **Correct logic:** $4 \times 2 = 8$, then $3 - 5 = -2$, then $-2 + 8 = \mathbf{6}$ (Option A).
+
+---
+
+### Predicted Response Distributions
+
+**Below Basic**
+*These students often ignore order of operations entirely or work strictly left-to-right without prioritizing multiplication.*
+*   **A=10% B=15% C=50% D=25%**
+*   *Why:* High pull toward **C** because they do $3-5+4$ ($2$) then multiply by $2$, or they perform the addition $5+4$ first due to the acronym, then subtract from $3$, leading to negative results.
+
+**Basic**
+*These students know Multiplication comes first, but fall into the "Addition before Subtraction" trap.*
+*   **A=30% B=10% C=10% D=50%**
+*   *Why:* They correctly calculate $4 \times 2 = 8$. However, they see "AS" in BIDMAS and perform $5 + 8 = 13$ before doing $3 - 13$. **D** is the strongest "confidently wrong" distractor here.
+
+**Proficient**
+*These students understand that Addition and Subtraction have equal priority and should be worked left-to-right.*
+*   **A=75% B=5% C=5% D=15%**
+*   *Why:* Most will navigate the $4 \times 2$ first and then handle the $3 - 5 + 8$ correctly. Some may still slip up on the negative number arithmetic ($3-5$).
+
+**Advanced**
+*These students see the terms as $+3, -5,$ and $+8$.*
+*   **A=98% B=1% C=0% D=1%**
+*   *Why:* At this level, the order of operations is second nature. Errors would be purely down to rare "finger slips" or reading the question too quickly.
+
+### Teacher's Note
+The jump from **Basic** to **Proficient** in the UK curriculum is often marked by the realization that BIDMAS is actually grouped as **B - I - DM - AS**. This question is the perfect diagnostic tool to see if a Year 9 student has truly mastered that nuance or is just following a mnemonic blindly.

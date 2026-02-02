@@ -1,0 +1,47 @@
+<chain_of_thought>
+Let me analyze this item carefully. The task is to convert a verbal sequence of operations into algebraic notation and judge which student did it correctly.
+
+The verbal sequence: think of n, subtract 5, divide by 8, add 4, multiply by 7.
+
+Building the expression sequentially:
+- n → n-5 → (n-5)/8 → (n-5)/8 + 4 → 7((n-5)/8 + 4)
+
+Jo writes: 7((n-5)/8 + 4). This is a perfect match. Correct.
+
+Paul writes: 7((n-5) ÷ 8) + 4. In Paul's version, the +4 sits outside the multiplication by 7. Following BIDMAS/BODMAS, Paul's expression evaluates as: first compute (n-5)/8, then multiply by 7, then add 4. That gives 7(n-5)/8 + 4, which is wrong — the add 4 should happen before the multiply by 7.
+
+Answer: A (Only Jo).
+
+The key misconception is about order of operations — specifically whether students can see that brackets change the order in which operations are applied. Students who process left to right without respecting the grouping role of brackets would think Paul's expression is equivalent.
+
+Looking at the calibration set for difficulty anchoring:
+- The similar misconception item (0.4 - 1/5 × 3) was quite easy (difficulty 0.134). But that was a straightforward computation.
+- This item requires algebraic reasoning and evaluating two competing expressions, which is considerably harder.
+- The inequality item (2n+3 ≤ 3n-7) had difficulty 0.569 and b = 0.808.
+
+This item seems moderately hard. Students need to: (1) understand the verbal-to-algebra translation, (2) parse nested brackets in Jo's expression, (3) recognize the structural difference in Paul's expression, and (4) determine which matches the verbal description. That's a heavy cognitive load.
+
+However, the "who is correct" format means students who can verify Jo is right but can't fully parse Paul's might still get it right by elimination or partial reasoning. I'd place this around 0.55 classical difficulty, b around 0.60.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

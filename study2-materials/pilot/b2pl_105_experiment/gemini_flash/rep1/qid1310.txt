@@ -1,0 +1,14 @@
+As a UK maths teacher, here is my analysis of this question:
+
+The primary challenge here isn't the presence of decimals, but rather the "nested" structure of the brackets. Students are taught **BIDMAS/BODMAS**, and most know that "Brackets come first." However, "Below Basic" students often default to reading left-to-right despite the rules, leading them to pick the first operation they see inside the outer bracket (Division).
+
+"Proficient" students generally understand that you work from the innermost bracket outwards. The inclusion of $0.4 - 0.3$ as an option (Option C) is a "visual adjacency" trap for students who ignore the bracket boundaries and simply look for operations that look easy to perform. Option D is a trap for students who think the final operation in the string is somehow the priority or who confuse the order of operations.
+
+This specific question is relatively straightforward because the inner bracket $(0.2 + 0.4)$ is very clearly defined, making it an "easy" application of nested BIDMAS for anyone with a basic grasp of the concept.
+
+**Predicted Performance:**
+
+below_basic: A=35% B=40% C=15% D=10%
+basic: A=15% B=70% C=10% D=5%
+proficient: A=5% B=90% C=3% D=2%
+advanced: A=1% B=98% C=1% D=0%

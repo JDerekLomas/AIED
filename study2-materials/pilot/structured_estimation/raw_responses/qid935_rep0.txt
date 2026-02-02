@@ -1,0 +1,55 @@
+<chain_of_thought>
+Let me analyze this item step by step.
+
+The student is given the equation 2j - k = -10 and told k = 8. They need to find j.
+
+Substituting: 2j - 8 = -10
+Adding 8: 2j = -2
+Dividing by 2: j = -1
+
+So the correct answer is D (j = -1).
+
+Now let me consider how students might arrive at each distractor:
+
+A) j = 1: A student might substitute k = 8 to get 2j - 8 = -10, then incorrectly add to get 2j = -2, but then lose the negative sign, getting j = 1. Or they might do -10 + 8 = -2 but then divide incorrectly.
+
+B) j = 9: This could come from 2j - 8 = -10, then using the same operation (subtracting 8 instead of adding): 2j = -10 - 8 = -18... that gives j = -9, not 9. Alternatively, a student might ignore the negative and compute (10 + 8)/2 = 9.
+
+C) j = -9: From subtracting 8 instead of adding: 2j = -10 - 8 = -18, then j = -9. This is the misconception being tested - using subtraction (same operation) instead of addition (inverse operation).
+
+D) j = -1: Correct.
+
+The misconception tested is "uses the same operation rather than the inverse." Distractor C directly maps to this - subtracting 8 instead of adding 8. Distractor B (j = 9) could be the same error but also dropping the negative.
+
+Comparing to calibration items:
+- The equation-solving items with this same misconception ranged from easy (0.167 classical difficulty for the simple p + 10 = -5) to hard (0.569 for the inequality).
+- This item involves simultaneous equations context (added complexity), substitution, and negative numbers. The combination of substitution into an equation plus negative arithmetic puts this at moderate-to-hard difficulty.
+- The context of simultaneous equations adds some cognitive load and prerequisite knowledge, even though the actual solving step is straightforward.
+- The negative numbers throughout make sign errors very likely, increasing difficulty.
+
+I'd estimate this is moderately difficult, perhaps around 0.40-0.50 classical difficulty. The simultaneous equations framing adds transfer distance. The distractors are reasonably plausible especially C (direct misconception) and B (sign error variant).
+
+For IRT parameters, comparing to calibration: the factoring item with 0.473 classical difficulty had b = 0.404. I'd estimate this around b = 0.3 to 0.5. Discrimination should be moderate to good since it targets a specific misconception cleanly - perhaps around 1.2. Some guessing is possible but the distractors are targeted, so guessing parameter maybe 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

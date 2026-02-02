@@ -1,0 +1,35 @@
+<chain_of_thought>
+This item asks what a scientific calculator displays when you type -6^2. The key issue is order of operations: on a scientific calculator, exponentiation has higher priority than the unary minus. So the calculator evaluates 6^2 = 36 first, then applies the negative sign, giving -36. The correct answer is D.
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student who reads -6 as a single number and squares it would get 36 (option C). A student who thinks squaring means multiplying by 2 would get -12 (option B) or 12 (option A).
+
+Looking at the calibration set, the order-of-operations item (0.4 - 1/5 x 3) had classical difficulty 0.134 and IRT difficulty -0.245. That item was relatively easy. However, this calculator item is trickier because many students (and even some teachers) believe -6^2 = 36. The negative sign before the exponentiation is a well-known source of confusion. The fact that it involves a calculator adds another layer -- students need to understand how the calculator interprets input.
+
+The distractors are quite plausible. Option C (36) is the most attractive wrong answer, representing the common error of treating -6 as (-6) and squaring. Options A and B (12 and -12) capture students who confuse squaring with doubling.
+
+I'd estimate this is moderately difficult. The misconception about -6^2 vs (-6)^2 is extremely common. I'd put classical difficulty around 0.45-0.55 -- roughly half of students will get it wrong. The IRT difficulty should be moderate positive, around 0.3-0.5. Discrimination should be decent since this cleanly separates students who understand order of operations from those who don't.
+
+For guessing, option C is a very strong attractor, so random guessing is unlikely -- students who don't know will tend toward C. Guessing parameter should be low, maybe 0.05-0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.38</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

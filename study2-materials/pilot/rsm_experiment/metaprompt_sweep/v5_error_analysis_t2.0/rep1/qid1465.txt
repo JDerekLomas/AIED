@@ -1,0 +1,13 @@
+To determine the distribution of answers, we have to look at the primary misconceptions associated with the Order of Operations (BIDMAS/BODMAS):
+
+*   **A (6):** The correct answer ($3 - 5 + 8 \rightarrow -2 + 8 = 6$). This requires knowing that multiplication comes first and then processing addition/subtraction from left to right.
+*   **B (4):** The most common "Higher Tier" trap. Students remember "A comes before S" in BIDMAS, so they perform addition before subtraction: $3 - (5 + 4) \times 2$ is unlikely, but $3 - (5+8)$ leading to $3 - 13 = -10$, or more commonly: $3-5+8 \rightarrow 3-(5+8) = 3-13 = -10$. However, $4$ is often reached by $3-5 = -2$, then $-2+4=2$, $2 \times 2 = 4$ (working left to right strictly).
+*   **C (-12):** Left to right ignoring all BIDMAS rules: $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$ (as above), or $(3-5+4) \times 2 \rightarrow (2) \times 2 = 4$. Where does -12 come from? Usually $(3-5-4) \times 2$, a sign error. Actually, -12 is a "distractor" for those who do $3-9 \times 2$.
+*   **D (-10):** The most common mistake for "Basic/Proficient" students. They do $4 \times 2 = 8$, but then calculate $3 - (5 + 8) = 3 - 13 = -10$. They incorrectly group the addition before the subtraction because of the letter ordering in BIDMAS.
+
+**Teacher's Mark Book Prediction:**
+
+below_basic: A=15% B=30% C=25% D=30%
+basic: A=35% B=20% C=10% D=35%
+proficient: A=70% B=10% C=5% D=15%
+advanced: A=98% B=1% C=0% D=1%

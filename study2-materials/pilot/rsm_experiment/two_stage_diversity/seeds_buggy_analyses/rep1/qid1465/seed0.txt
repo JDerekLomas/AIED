@@ -1,0 +1,29 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among UK Year 9 students.
+
+### 1. The specific misconception: The "AS" Precedence Bug (Addition before Subtraction)
+
+The name of this bug is the **Rigid Order Misconception**. Students in the UK are taught the acronym **BIDMAS** (Brackets, Indices, Division, Multiplication, Addition, Subtraction). The error lies in interpreting the acronym as a **strict linear sequence** rather than a hierarchy of levels. 
+
+Because the letter 'A' comes before 'S' in BIDMAS, the student believes that *all* additions must be performed before *any* subtractions, failing to realize that Addition and Subtraction have equal priority and should be processed from left to right.
+
+### 2. Step-by-step student logic
+A student with the "AS" Precedence Bug would process the expression $3 - 5 + 4 \times 2$ in the following steps:
+
+1.  **Multiplication first:** They correctly identify that $4 \times 2$ takes priority due to the 'M' in BIDMAS. 
+    *   $3 - 5 + 8$
+2.  **The Buggy Step (Addition before Subtraction):** Looking at the remaining expression, the student sees a subtraction $(-)$ and an addition $(+)$. Following the literal order of letters in BIDMAS, they decide they must add the $5$ and the $8$ first.
+    *   $5 + 8 = 13$
+3.  **Final Subtraction:** They now substitute that result back into the expression, leaving the subtraction for the final step.
+    *   $3 - 13$
+4.  **Final Result:** 
+    *   $3 - 13 = -10$
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D: -10**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and remains one of the most persistent misconceptions in Key Stage 3. 
+
+*   **Linguistic reinforcement:** The acronym itself acts as a "false friend." If a teacher repeats "BIDMAS" or "BODMAS" without emphasizing the equal grouping of AS and DM, the student is literally following the instructions as they were spoken.
+*   **Aversion to negatives:** Performing $3 - 5$ first results in $-2$. Students often have an unconscious bias against starting a calculation with a negative number. By adding $5 + 8$ first to get $13$, they stay in the realm of positive integers for longer, making the process feel "safer" and more logical to them.
+*   **Confidence levels:** A student making this error would be **extremely unlikely to realize they went wrong.** They have applied a "rule" they memorized and performed the arithmetic correctly ($5+8=13$; $3-13=-10$). To the student, they are being "diligent" by following the letters in order, and seeing their final answer among the multiple-choice options would provide them with total (false) validation.

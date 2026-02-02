@@ -1,0 +1,26 @@
+In the context of UK Year 9 mathematics (ages 13–14), where students are transitionally moving from arithmetic to more formal algebraic manipulation, the most prevalent issue here is the **Negation-Exponent Priority Bug** (often related to "Calculus on a Calculator" error).
+
+### 1. The Specific Misconception: The "Missing Brackets" Bug
+The student fails to recognize that when a negative base is raised to an even power, the negative sign must be "included" in the multiplication. This stems from a misunderstanding of the Order of Operations (BIDMAS/BODMAS). They treat $-3^4$ as $-(3 \times 3 \times 3 \times 3)$ rather than $(-3) \times (-3) \times (-3) \times (-3)$. 
+
+In the student's mental model, the exponent $4$ is attached only to the digit $3$, and the negative sign is viewed as a separate operator to be applied at the very end.
+
+### 2. Step-by-Step Workings
+A student with this misconception would proceed as follows:
+*   **Step 1:** Substitute $k$ into the formula: $T = -3^4$.
+*   **Step 2:** Refer to BIDMAS/BODMAS rules. They correctly identify that Indices (I) come before Subtraction/Negation (S).
+*   **Step 3:** Calculate the index part first: $3 \times 3 \times 3 \times 3 = 81$.
+*   **Step 4:** "Re-attach" the negative sign that was sitting in front of the calculation.
+*   **Step 5:** Conclude that $T = -81$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option C: -81**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels mathematically "more correct" to the student for three reasons:
+
+1.  **Over-reliance on BIDMAS:** Many students are taught that the "Subtraction" or "Sign" part of a number comes last in priority. Because they don't see parentheses in the original equation $T=k^4$, they don't feel the need to "create" them.
+2.  **Calculator Reinforcement:** This is a classic "calculator trap." If a Year 9 student types `-3 ^ 4` into a standard scientific calculator, the display will show **-81**. This gives the student immense (but false) confidence that their logic is sound, as the device confirms their result.
+3.  **Visual Processing:** Visually, the minus sign is physically separated from the exponent by the digit. It feels intuitively natural to "square the number, then make it negative." 
+
+The student would likely **not realize they went wrong** because they applied a rule (Indices before Subtraction) in a way that seems logically consistent with the mnemonic they were taught, and the resulting number (81) is correct in magnitude.

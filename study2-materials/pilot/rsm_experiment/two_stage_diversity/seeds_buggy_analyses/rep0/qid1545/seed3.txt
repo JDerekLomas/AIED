@@ -1,0 +1,37 @@
+As an expert in mathematical misconceptions, I have identified a primary "buggy procedure" frequently observed in UK Year 9 students (ages 13–14) who are still transitioning from informal arithmetic to formal algebraic priority.
+
+### 1. The Specific Misconception: "The Left-to-Right Priority Bug"
+This misconception involves the student ignoring the **Order of Operations (BIDMAS/BODMAS)** in favour of the **Reading Order Strategy**. The student treats the mathematical expression as a sentence, performing operations strictly in the order they appear from left to right, regardless of the operators involved. 
+
+They believe that addition and division hold equal priority and that their sequence in the string determines the order of calculation.
+
+### 2. Step-by-Step Walkthrough
+A student with the "Left-to-Right Priority Bug" would process the question as follows:
+
+**Step 1: Process the Left-Hand Side (LHS)**
+*   The student reads: $8 + 12 \div 4$.
+*   Ignoring BIDMAS (which dictates division before addition), they perform the first operation they see: $8 + 12 = 20$.
+*   They then take that result and perform the next operation: $20 \div 4 = 5$.
+*   **Result for LHS = 5.**
+
+**Step 2: Process the Right-Hand Side (RHS)**
+*   The student reads: $(8 + 12) \div 4$.
+*   Even if they recognize that brackets mean "do this first," the calculation happens to be the same: $8 + 12 = 20$.
+*   Then $20 \div 4 = 5$.
+*   **Result for RHS = 5.**
+
+**Step 3: Compare results**
+*   The student compares their LHS result ($5$) with their RHS result ($5$).
+*   They conclude that $5 = 5$.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **C) $=$**.
+
+*(Note: The correct mathematical procedure follows BIDMAS/BODMAS. LHS: $8 + (12 \div 4) = 8 + 3 = 11$. RHS: $(8+12) \div 4 = 20 \div 4 = 5$. Since $11 > 5$, the correct answer is actually A).*
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and often feels "correct" to a student for three reasons:
+
+*   **Consistency:** The student reaches the same numerical answer for both sides. In many students' minds, "consistent results" validate the method used. They might think, *"The brackets are just there to show what I was going to do anyway,"* leading to a false sense of security.
+*   **Linguistic Mapping:** In English, we read left-to-right. For many students, mathematics is perceived as a "language" to be read. Calculating out of order (doing the division in the middle of the string first) feels counter-intuitive and "unnatural" compared to the flow of reading.
+*   **Absence of "Cognitive Conflict":** Because the numbers ($8, 12, 4$) are the same on both sides, the student expects the answer to be the same. Seeing Option C ($=$) reinforces their pre-existing bias that "if the parts are the same, the whole is the same." Unless prompted to "Remember BIDMAS," the student would likely submit their answer without any inkling that they have bypassed a fundamental rule of arithmetic.

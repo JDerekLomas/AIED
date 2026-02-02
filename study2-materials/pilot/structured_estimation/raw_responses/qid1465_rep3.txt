@@ -1,0 +1,39 @@
+<chain_of_thought>
+Target: Compute 3 - 5 + 4 × 2.
+
+Step-by-step correct: Multiply first (4×2=8), then add/subtract left to right (3-5+8 = 6). Answer: A.
+
+This is a classic BIDMAS item. Let me think about how it compares to the calibration set.
+
+The closest calibration item tests the identical misconception: 0.4 - 1/5 × 3 = ? That had classical difficulty 0.134 and IRT difficulty -0.245 with high discrimination (1.552). That item involves decimals and fractions, which adds computational complexity but also arguably signals to students "be careful, this is tricky."
+
+This item uses whole numbers only. On one hand, the arithmetic is simpler. On the other hand, the simplicity might lull students into going left-to-right without thinking. The expression 3 - 5 + 4 × 2 has a natural left-to-right flow that feels intuitive, making the misconception particularly tempting.
+
+Looking at the distractors: B (4) is the left-to-right answer and will be very attractive. D (-10) catches a different error (sign confusion). C (-12) is less clear but provides an option for students making compound errors.
+
+I note that BIDMAS is typically introduced in Year 7 (age 11-12) and reinforced throughout. For a mixed 11-16 population, most older students should get this right, while younger ones might struggle. This suggests moderate classical difficulty but the item should discriminate well between those who have mastered order of operations and those who haven't.
+
+My estimate: classical difficulty around 0.17, IRT difficulty around -0.20, good discrimination around 1.40.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

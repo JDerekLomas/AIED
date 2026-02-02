@@ -1,0 +1,39 @@
+First, let’s expand \((m-5)(m-7)\) correctly:  
+\[
+(m-5)(m-7) = m^2 - 7m - 5m + 35 = m^2 - 12m + 35
+\]  
+So the correct answer is **B**.
+
+---
+
+**Common errors:**  
+1. **Sign errors** — some might multiply \((-5)(-7) = -35\) instead of \(+35\), giving \(m^2 - 12m - 35\) (option D).  
+2. **Wrong outer/inner sums** — if they add \(-5\) and \(-7\) to get \(-12m\) but mess up the constant, but here that’s fine; the trap is the constant’s sign.  
+3. **Sign error in the linear term** — some might add \(5m + 7m = 12m\) and take \((-5)(-7)=+35\), yielding \(m^2 + 12m + 35\) (option C).  
+4. **Only partially correct** — might get \(-2m\) by incorrectly adding \(-5\) and \(-7\) but forgetting to multiply the numbers for the constant, just adding them to get \(-12\) then multiplying wrong? Actually, \(-5 + -7 = -12\) is correct for the middle term if done right, but if they do \((-5) + (-7) = -2\)?? That’s actually wrong: they might mistakenly think middle term = sum of brackets’ constants: \(-5 + -7 = -2m\)?? That’s impossible unless they think \((m-5)(m-7) = m^2 + (-5-7)m + \dots\) but miscalculate \(-5-7 = -2\)?? That’s an arithmetic slip (confusing with \((-5)+(-7) = -12\)). So maybe they’d do \((-5)+(-7) = -2\) as a slip, then multiply constants \((-5)(-7) = +35\) but think middle term is \(-2m\) → option A (\(m^2 - 2m - 35\)) — actually that’s wrong: A has \(-35\) constant, so maybe they did \((-5)+(-7) = -2m\) and \((-5)\times(-7) = -35\) (sign error) → yes, that matches A exactly. So A arises from **two** errors: middle term arithmetic slip **and** sign error in constant.  
+
+So plausible wrong answers:  
+- **A**: from miscalculating \(-5 + -7 = -2\) and \(-5 \times -7 = -35\) (rare but plausible for below basic).  
+- **C**: from thinking both minus signs in brackets become plus in expansion: \((m-5)(m-7) = m^2 + 12m + 35\) — i.e., treat as \((m+5)(m+7)\) — a misreading.  
+- **D**: correct \(-12m\) but constant sign wrong (\(-35\)).  
+
+---
+
+**Likelihood by ability:**
+
+**Below basic:** Many will guess or make sign errors. D is tempting if they know \(-5 \times -7 = -35\). C if they misread signs. A if they make both arithmetic slips. B (correct) maybe only 30%.
+
+**Basic:** Still many sign errors, especially D. Some will get B.
+
+**Proficient:** Most will get B, but some might rush to D (constant sign error).
+
+**Advanced:** Almost all correct.
+
+---
+
+**Estimates:**
+
+below_basic: A=20% B=30% C=20% D=30%  
+basic: A=10% B=50% C=10% D=30%  
+proficient: A=5% B=80% C=5% D=10%  
+advanced: A=2% B=95% C=1% D=2%

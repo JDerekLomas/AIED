@@ -1,0 +1,13 @@
+To predict the performance for this question, we must look at the specific misconceptions highlighted in the calibration data. In the previous questions, this cohort showed a significant tendency toward "intuitive but incorrect" operations:
+1. **Misapplication of operations:** In $10=5/p$, $59\%$ thought there was no solution or picked wrong operations. 
+2. **"Left-to-right" bias:** In $4-5+6$, $76\%$ failed to identify the correct first step.
+3. **Scaling errors:** In the $4x + 2y = 10$ question, $77\%$ chose $2.5$ ($10 \div 4$), completely ignoring the structure of the equation.
+
+For $3p = 1/12$, the "intuitive" trap is seeing $3$ and $12$ and wanting to divide $12$ by $3$ to get $4$. Because it is a fraction, $p=1/4$ becomes the most "attractive" distractor. $p=4$ is for those who ignore the fraction entirely. $p=1/36$ is the correct step ($1/12 \div 3$), which is conceptually difficult for this group.
+
+Here is the predicted distribution:
+
+below_basic: A=65% B=5% C=25% D=5%
+basic: A=70% B=8% C=15% D=7%
+proficient: A=55% B=15% C=10% D=20%
+advanced: A=30% B=45% C=5% D=20%

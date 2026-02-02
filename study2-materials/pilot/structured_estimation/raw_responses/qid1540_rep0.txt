@@ -1,0 +1,33 @@
+<chain_of_thought>
+This item requires students to substitute x = -1 into the quadratic y = x² - 2x + 1. The correct calculation is: (-1)² - 2(-1) + 1 = 1 + 2 + 1 = 4 (option B).
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." If a student thinks (-1)² = -1 instead of +1, they would compute -1 - 2(-1) + 1. If they then correctly handle -2(-1) = +2, they get -1 + 2 + 1 = 2 (option C). If they also mishandle -2(-1) as -2, they get -1 - 2 + 1 = -2 (option A).
+
+Looking at the calibration examples: the factorising item testing the same misconception had classical difficulty 0.473 and IRT b = 0.404. That item required understanding factorisation which is arguably more conceptually demanding. However, this substitution item involves multiple negative number operations in sequence, which creates several opportunities for error.
+
+The distractors are quite plausible — each corresponds to a specific computational error pattern. Option A (-2) results from squaring the negative incorrectly AND mishandling the double negative in -2(-1). Option C (2) comes from just the squaring error. Option D (0) could come from students who recognize x²-2x+1 = (x-1)² but then compute (-1-1)² incorrectly or substitute x=1 by mistake.
+
+This is a mid-level difficulty item. The procedural demands are moderate — three terms to evaluate, two involving negative numbers. I'd estimate this is slightly easier than the factorising item since substitution is a more practiced skill than evaluating factorisations, but the multiple negative operations will trip up many students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

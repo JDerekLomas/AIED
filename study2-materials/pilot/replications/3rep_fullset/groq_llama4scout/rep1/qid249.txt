@@ -1,0 +1,29 @@
+## Step 1: Understanding the task
+The task requires predicting the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for a given maths question about simultaneous equations.
+
+## 2: Analyzing the question
+The question presents a pair of simultaneous equations: \( \begin{array}{l}3 x-2 y=8 \\ 3 x+y=14\end{array} \) and asks students to determine if adding or subtracting these equations will eliminate a variable. The correct approach involves understanding that adding the equations will eliminate \(x\) if the coefficients of \(x\) are the same but the signs are different (which is not the case here as both have \(3x\)), and subtracting will eliminate \(x\) if the coefficients of \(x\) are the same.
+
+## 3: Identifying the correct method
+To eliminate \(x\), we subtract the equations because the \(x\) coefficients are the same: \((3x - 2y) - (3x + y) = 8 - 14\), which simplifies to \(-3y = -6\). To eliminate \(y\), we would add the equations, but given the \(y\) coefficients are \(-2\) and \(1\), adding them directly won't eliminate \(y\): \((3x - 2y) + (3x + y) = 8 + 14\), simplifying to \(6x - y = 22\). However, let's correct the understanding: Adding the equations as Tom suggests: \((3x - 2y) + (3x + y) = 8 + 14\), resulting in \(6x - y = 22\), which doesn't eliminate either variable cleanly as intended. Subtracting as Katie suggests: \((3x - 2y) - (3x + y) = 8 - 14\), which results in \(-3y = -6\), and thus \(y = 2\). This shows Katie is correct.
+
+## 4: Evaluating Tom's statement
+Tom says adding the equations will eliminate a variable. However, adding \(3x - 2y = 8\) and \(3x + y = 14\) gives \(6x - y = 22\), which does not eliminate \(x\) or \(y\) because the coefficients aren't opposites or the same for either variable. So, Tom is incorrect.
+
+## 5: Evaluating Katie's statement
+Katie says subtracting the equations will eliminate a variable. Subtracting them: \( (3x - 2y) - (3x + y) = 8 - 14 \), yields \( -3y = -6 \), which means \( y = 2 \). This indeed eliminates \(x\), making Katie correct.
+
+## 6: Predicting student responses
+- **Below_basic**: Students at this level might struggle with basic algebraic manipulations. They might not understand the concept of eliminating variables through addition or subtraction. Given the straightforward nature of the question but potential for confusion, they might lean towards incorrect options due to a lack of understanding. A=30% (incorrectly thinking adding eliminates), B=20% (correctly identifying subtraction eliminates), C=10% (incorrectly thinking both), D=40% (not understanding either method).
+- **Basic**: Students here have a foundational understanding but might make careless mistakes. They should recognize that subtracting eliminates \(y\), not \(x\), but might be confused about the process. A=25%, B=40%, C=15%, D=20%.
+- **Proficient**: These students understand algebraic methods well and should easily see that subtracting eliminates \(y\), not \(x\). They are less likely to be confused. A=10%, B=60%, C=10%, D=20%.
+- **Advanced**: Advanced students will quickly see the validity of Katie's statement and the incorrectness of Tom's. They might even solve the equations to verify. A=5%, B=70%, C=5%, D=20%.
+
+## 7: Adjusting predictions based on common misconceptions
+Given common misconceptions and the specific nature of this question, students might overestimate the simplicity of adding or subtracting without considering coefficients. However, the question's framing makes it somewhat straightforward, potentially reducing errors.
+
+The final answer is:
+below_basic: A=30% B=20% C=10% D=40%
+basic: A=25% B=40% C=15% D=20%
+proficient: A=10% B=60% C=10% D=20%
+advanced: A=5% B=70% C=5% D=20%

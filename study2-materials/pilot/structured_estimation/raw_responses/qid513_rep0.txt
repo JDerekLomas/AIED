@@ -1,0 +1,47 @@
+<chain_of_thought>
+Let me work through this item carefully.
+
+The equation is 15 = 2p - 4. To solve correctly:
+- Step 1 should add 4 to both sides: 15 + 4 = 2p, so 19 = 2p
+- Step 2 should divide both sides by 2: 19/2 = p, so p = 9.5
+
+Isaac's work:
+- Step 1: 11 = 2p. He got 11 by computing 15 - 4 = 11. Instead of adding 4 (the inverse of subtracting 4), he subtracted 4. This is the tested misconception: using the same operation rather than the inverse. Step 1 is INCORRECT.
+- Step 2: 22 = p. He got 22 by computing 11 * 2 = 22. Instead of dividing by 2 (the inverse of multiplying by 2), he multiplied by 2. Same misconception again. Step 2 is INCORRECT.
+
+So both steps are incorrect, and the answer is D.
+
+Now considering the distractors:
+- A (Only step 1): A student might think step 1 is correct if they also make the subtraction error, and then catch the multiplication error in step 2. Unlikely combination.
+- B (Only step 2): A student might miss the step 1 error but catch step 2. Also somewhat unlikely.
+- C (Both correct): This is the most dangerous distractor. A student who shares the same misconception as Isaac will think both steps look perfectly fine. This is very plausible.
+- D (Both incorrect): The correct answer. Requires recognizing both errors.
+
+The item requires students to evaluate someone else's work, which adds metacognitive demand. Students must know the correct procedure AND recognize deviations from it. The misconception tested (same operation instead of inverse) is extremely common among younger students.
+
+Comparing to calibration items: The simple equation (-5 = p + 10) had classical difficulty 0.167 and b = -0.702. But that item just required solving directly. This item requires error analysis of two steps, which is harder. The inequality item had difficulty 0.569 and b = 0.808, but involved algebraic manipulation with variables on both sides.
+
+I estimate this item falls in the moderate difficulty range. The two-step error analysis and the strong pull of distractor C (for students who share Isaac's misconception) push difficulty up. I'll estimate classical difficulty around 0.45 and b around 0.35.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

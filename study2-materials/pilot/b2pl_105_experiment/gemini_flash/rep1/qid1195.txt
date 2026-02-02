@@ -1,0 +1,13 @@
+This question is a classic test of the Order of Operations (BIDMAS/BODMAS). The primary challenge here is not the calculation itself, but the order in which the operations are performed.
+
+**A (18)** is the correct answer ($2 \times 9$).
+**B (12)** represents the most common error: treating $3^2$ as $3 \times 2$ (indices misconception), then adding/multiplying. In this case, $(2 \times 3) \times 2$.
+**C (36)** represents the "left-to-right" error: calculating $(2 \times 3)$ first to get $6$, then squaring it to get $36$. This is the hallmark of a student who does not understand that indices take priority over multiplication.
+**D (11)** is a less common error, usually stemming from a "mix and match" of operations (e.g., $(2 \times 3) + 3 + 2$ or similar arithmetic slips).
+
+In my experience, "Basic" students often prioritize the left-to-right sequence or fail to evaluate the power correctly. "Proficient" students usually know the rule but may still rush and choose 36 if they are not reading carefully. "Advanced" students almost never miss this.
+
+below_basic: A=30% B=25% C=35% D=10%
+basic: A=50% B=15% C=30% D=5%
+proficient: A=85% B=5% C=9% D=1%
+advanced: A=98% B=1% C=1% D=0%

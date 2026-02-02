@@ -1,0 +1,42 @@
+<chain_of_thought>
+Analyzing the item: Solve 3p^2 + 9 = 39, giving all solutions.
+
+The solution path is: subtract 9 -> 3p^2 = 30 -> divide by 3 -> p^2 = 10 -> p = +/- sqrt(10).
+
+This is a multi-step equation involving a squared variable, and critically the answer is an irrational number (sqrt(10)). Many UK secondary students are uncomfortable with surd answers, which could push them toward "nicer" looking answers like p=+/-2 or p=+/-4.
+
+Distractor analysis:
+- Option A: n=+/-5. Wrong variable label, and 5 doesn't follow cleanly from any obvious error path. The use of 'n' instead of 'p' might be a deliberate trap for students not reading carefully, but it's also somewhat implausible as a misconception-driven error.
+- Option C: p=+/-2. This could arise from doing operations in wrong order: 39/3=13, then 13-9=4, then sqrt(4)=2. This is a genuine procedural error.
+- Option D: p=+/-4. This could come from adding 9 instead of subtracting: 39+9=48, 48/3=16, sqrt(16)=4. This directly tests the stated misconception of using same operation instead of inverse.
+
+The key difficulty factors: (1) three inverse operations needed in correct order, (2) the answer involves a surd which students may not expect, (3) students need to remember both positive and negative roots.
+
+Calibration comparison: The factorising item (Tom and Katie, b=0.404, 47.3% incorrect) requires conceptual understanding of factoring. This item requires procedural fluency with equation solving plus comfort with surds. I'd place it slightly harder, around 50-60% incorrect.
+
+The discrimination might be slightly lower than the calibration items because the surd answer could cause even competent students to hesitate or switch to a "cleaner" distractor. I'd estimate a around 1.0-1.2.
+
+For guessing, with 4 options the baseline is 0.25, but the presence of the wrong variable in option A should help students eliminate at least that one. Effective guessing probably around 0.10-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.52</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.13</guessing_probability>
+</predictions>

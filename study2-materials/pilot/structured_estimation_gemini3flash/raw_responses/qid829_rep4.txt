@@ -1,0 +1,48 @@
+<chain_of_thought>
+The item asks for the expansion of $(m-3)(m-2)$. This is a standard quadratic expansion problem involving two negative constants. 
+
+1. **Step-by-step solution**:
+   - $m \times m = m^2$
+   - $m \times (-2) = -2m$
+   - $-3 \times m = -3m$
+   - $-3 \times (-2) = +6$
+   - Simplify: $m^2 - 5m + 6$
+
+2. **Analysis of Distractors**:
+   - Option B ($m^2-m-6$): Error in adding linear terms ($-3 + 2$ instead of $-3 - 2$) and sign error in the constant.
+   - Option C ($m^2+5m+6$): Sign error in linear terms (treating both as positive).
+   - Option D ($m^2-5m-6$): The specific misconception mentioned: multiplying two negatives to get a negative $(-3 \times -2 = -6)$.
+
+3. **Comparison with Calibration Items**:
+   - The "Tom and Katie" factorising item (Item 4) is very similar. It had a classical difficulty of 0.473 and $b = 0.404$. That item involved identifying the correct factorization, whereas this is the forward process (expanding). Expanding is generally slightly easier than factorising for students.
+   - However, the negative signs in both terms of $(m-3)(m-2)$ are a notorious "trap" for students at the foundation level.
+   - The IRT discrimination (a) for these algebraic expansion/factorisation items tends to be high (around 1.3 - 1.5) because they clearly separate those who know the rules of directed numbers from those who don't.
+
+4. **Psychometric Estimates**:
+   - Classical difficulty: Expanding brackets is a core skill. I expect about 45-50% of students to get this right, as the negative constant multiplication is a very common pitfall.
+   - IRT difficulty: Based on calibration item 4 ($b=0.404$), and noting this is expansion rather than factorisation, the difficulty should be slightly lower or similar. I'll place it near 0.35.
+   - Discrimination: Usually high for algebra, likely around 1.4.
+   - Guessing: Standard 4-choice MCQ often sees $c$ around 0.15-0.20 for this age group.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.42</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

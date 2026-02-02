@@ -1,0 +1,45 @@
+<chain_of_thought>
+This item tests understanding of order of operations through bracket placement. Students must determine which placement of brackets in 16-6+4÷2 yields 7.
+
+Computing each option:
+D is correct: (16-6+4)÷2 = 14÷2 = 7.
+
+The other options give 11 (A) and 12 (B and C).
+
+The tested misconception is left-to-right processing. Without brackets, BODMAS gives 16-6+(4÷2) = 12. Left-to-right gives 7. So the correct answer D essentially groups the expression to force the left-to-right computation order.
+
+How hard is this? Several factors:
+1. Students must compute all four options (or be strategic about it). This is time-consuming.
+2. The question is conceptually straightforward -- it's about brackets and BODMAS -- but requires careful arithmetic.
+3. Some students might recognize that 7 = 14/2 and look for which option creates 14÷2.
+
+I note that options B and C both yield 12. A student who evaluates both and gets 12 twice might gain confidence to focus on A and D. Option A yields 11, close to 12 but not 7. Only D gives 7.
+
+The item requires more procedural work than conceptual depth. Students who systematically evaluate each option will find the answer. The main risk is arithmetic errors or not evaluating all options.
+
+For calibration: the BODMAS calibration item was quite easy (0.134 incorrect). But that required a single computation. This requires four computations and understanding of bracket effects. I'd estimate this is notably harder, perhaps around 0.25-0.35.
+
+Discrimination should be moderate -- BODMAS understanding clearly separates students, but the procedural nature means some students who understand might still make errors, and some who don't might guess correctly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

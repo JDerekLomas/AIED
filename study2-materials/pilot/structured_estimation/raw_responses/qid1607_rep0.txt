@@ -1,0 +1,41 @@
+<chain_of_thought>
+This item asks students to evaluate two steps in solving the equation 15 = (1+k)/4. Let me work through it:
+
+Step 1: Multiply both sides by 4 → 60 = 1 + k. This is correct — the inverse of dividing by 4 is multiplying by 4.
+
+Step 2: 61 = k. This is WRONG. The student added 1 to both sides instead of subtracting 1. The correct step would be 60 - 1 = k, so k = 59. The student used the same operation (addition) rather than the inverse (subtraction).
+
+So the correct answer is A (Only Step 1 is correct).
+
+Looking at the calibration items for reference:
+- The first calibration item tests the same misconception ("uses same operation rather than inverse") with classical difficulty 0.167 and IRT b = -0.702. That was a straightforward solve-the-equation task.
+- The inequality item (same misconception) had classical difficulty 0.569 and b = 0.808, but that involved inequalities and collecting variables from both sides — much harder.
+
+This target item is more complex than the first calibration because students must evaluate someone else's work rather than solve directly. This metacognitive demand increases difficulty. However, Step 1 is clearly correct and Step 2 has an obvious error if you check it. The misconception being tested (adding instead of subtracting) is very common.
+
+The distractors: Option B (only step 2) would require thinking step 1 is wrong but step 2 is right — unlikely. Option C (both correct) would be chosen by students who don't check carefully. Option D (both wrong) might attract students confused by the fraction. The main attractor is likely C for students who assume both steps look reasonable.
+
+Comparing to calibration items, I'd place this around 0.35-0.45 classical difficulty — harder than the simple equation (0.167) because of the evaluative framing, but easier than the inequality (0.569). IRT difficulty around 0.1-0.3.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

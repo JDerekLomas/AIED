@@ -1,0 +1,13 @@
+To predict these percentages, I’ve analysed the common pitfalls for Year 9 students:
+
+*   **Option D (4 8/14)** is the "classic" error where students add the whole numbers ($2+2=4$), then add the numerators ($7+1=8$) and add the denominators ($10+4=14$). This is highly attractive to below-basic students.
+*   **Option B (4 19/20)** is the correct answer. Students must find a common denominator (20) to reach this ($4 \frac{14}{20} + \frac{5}{20}$).
+*   **Option A (99/20)** is the correct value but improper. The question explicitly asks for a **mixed number**. Proficient students often forget to convert back, or change to improper fractions first to add and then stop.
+*   **Option C (99/40)** results from converting to improper fractions ($27/10 + 9/4$), adding the numerators but multiplying the denominators (or just picking a wrong denominator of 40 and not adjusting the top).
+
+Here is the predicted breakdown:
+
+below_basic: A=10% B=20% C=15% D=55%
+basic: A=20% B=45% C=10% D=25%
+proficient: A=15% B=80% C=2% D=3%
+advanced: A=2% B=97% C=1% D=0%

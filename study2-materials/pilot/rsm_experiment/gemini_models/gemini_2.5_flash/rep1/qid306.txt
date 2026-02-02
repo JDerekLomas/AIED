@@ -1,0 +1,38 @@
+Here's my prediction based on marking hundreds of Year 9 papers, specifically looking at how students handle order of operations, the attractiveness of left-to-right processing, and BIDMAS.
+
+**Problem P: \( 4-5+6= \)**
+*   This is tricky because BIDMAS (BODMAS) doesn't differentiate between addition and subtraction - they have equal priority and should be done from left to right. Many students, especially if they see "addition" in BIDMAS and think it comes before "subtraction", will incorrectly do \( 5+6 \) first. However, the first operation encountered moving left to right is subtraction. So, \( 4-5 \) is correct.
+
+**Problem Q: \( 4+5 \times 6= \)**
+*   This is a classic BIDMAS problem. Multiplication comes before addition. So, \( 5 \times 6 \) is the correct first step.
+
+Let's break down the options:
+
+*   **A) Problem P: \( 4-5 \) ; Problem Q: \( 4+5 \)**
+    *   P: Correct (left-to-right)
+    *   Q: Incorrect (ignoring BIDMAS, left-to-right only)
+*   **B) Problem P: \( 4-5 \) ; Problem Q: \( 5 \times 6 \)**
+    *   P: Correct
+    *   Q: Correct
+    *   **This is the correct answer.**
+*   **C) Problem P: \( 5+6 \) ; Problem Q: \( 4+5 \)**
+    *   P: Incorrect (BIDMAS applied naively: Addition before Subtraction)
+    *   Q: Incorrect (ignoring BIDMAS, left-to-right only)
+*   **D) Problem P: \( 5+6 \) ; Problem Q: \( 5 \times 6 \)**
+    *   P: Incorrect (BIDMAS applied naively)
+    *   Q: Correct
+
+---
+
+**Thinking about "attractive" errors:**
+
+*   **Left-to-Right is very attractive, especially in P and the incorrect first step for Q.** It's a fundamental reading habit.
+*   **"Addition before Subtraction" in BIDMAS for P is very attractive.** Students often memorize it as A then S, not realizing they're of equal priority and done left-to-right.
+*   **BIDMAS for Q is fairly well known**, but weaker students will revert to left-to-right.
+
+---
+
+below_basic: A=35% B=15% C=35% D=15%
+basic: A=40% B=25% C=15% D=20%
+proficient: A=20% B=60% C=5% D=15%
+advanced: A=5% B=90% C=0% D=5%

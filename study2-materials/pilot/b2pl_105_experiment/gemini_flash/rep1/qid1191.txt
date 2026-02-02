@@ -1,0 +1,15 @@
+This linear equation tests the ability to collect like terms on both sides of an equals sign. Specifically, it tests the handling of negative signs and division at the final step.
+
+**Teacher's Analysis:**
+The most common error in this specific question arises from "sign flipping" errors or subtracting 5 from 20 to get 15, then dividing the remaining numbers incorrectly. 
+- **The $t=1$ (B) trap:** If a student correctly moves $5t$ to the left ($15t$) and correctly moves $-5$ to the right ($+5$), they get $15t = 15$, leading to $t=1$. This is a "satisfying" integer answer, making it highly attractive to students who have done the algebra correctly.
+- **The $t=0$ (A) trap:** This catches students who think that if you subtract things "out," you get zero, or those who confuse the constants and coefficients.
+- **The $t=-1$ (C) trap:** This catches students who make a sign error, for example, $15t = -15$ or $25t = -25$.
+- **The $t=1/5$ (D) trap:** This is for students who reach $15t = 3$ (not possible here without multiple errors) or confuse the division order (e.g., $15/3$ vs $3/15$). However, because $t=1$ is such a "clean" result, fewer students will gravitate toward the fraction unless they have completely stalled.
+
+In this specific case, the numbers $15$ and $15$ appearing on both sides makes this a relatively "easy" multi-step equation, as many students who make one mistake will realize their answer isn't an option, while those who do it correctly are heavily reinforced by the integer 1.
+
+below_basic: A=20% B=45% C=20% D=15%
+basic: A=10% B=70% C=12% D=8%
+proficient: A=3% B=92% C=3% D=2%
+advanced: A=0% B=99% C=1% D=0%

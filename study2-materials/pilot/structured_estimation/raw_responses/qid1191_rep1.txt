@@ -1,0 +1,38 @@
+<chain_of_thought>
+Analyzing: 20t - 5 = 5t + 10, answer B (t=1).
+
+To solve: collect t terms on one side, constants on the other. 20t - 5t = 10 + 5, so 15t = 15, t = 1.
+
+This is a standard "variables on both sides" equation, typically introduced around Year 8-9 in the UK curriculum. The numbers are deliberately chosen to be clean (multiples of 5), reducing arithmetic burden and isolating the algebraic reasoning.
+
+Distractor analysis:
+- t = 0: A student might substitute and see 20(0) - 5 = -5 and 5(0) + 10 = 10, these don't match, so this is not from a common error pattern. Perhaps from setting 20t = 5t naively.
+- t = -1: Substituting gives 20(-1) - 5 = -25 and 5(-1) + 10 = 5. This could come from a sign error: if student does 20t - 5t = 10 - 5 (subtracting 5 instead of adding), gets 15t = 5, t = 1/3... actually that doesn't give -1. Maybe from 5t - 20t = 10 + 5, giving -15t = 15, t = -1. This is a plausible error where the student collects terms in the wrong direction.
+- t = 1/5: As noted, could come from 20t + 5t = 10 + 5, giving 25t = 5... no that's t = 1/5 only if 25t = 5. Actually if student does 20t - 5t = 10 - 5, gets 15t = 5, t = 1/3. Hmm. Or maybe 5(20t - 5) = 5t + 10 type confusion. The path to 1/5 is less obvious.
+
+The misconception "uses same operation rather than inverse" would manifest when collecting terms: instead of subtracting 5t, the student adds 5t, or instead of adding 5, subtracts 5. Adding 5t: 25t - 5 = 10, then 25t = 15, t = 15/25 = 3/5 -- not a listed option. Subtracting 5 from both sides when should add: 20t - 10 = 5t + 5, then 15t = 15... that still gives 1. The misconception application is a bit unclear here.
+
+Given the calibration anchor of -5 = p + 10 at difficulty 0.167, this multi-step equation should be notably harder. I'd place it around 0.40 classical difficulty, similar to the factoring item (0.473) but slightly easier since this is more procedural.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

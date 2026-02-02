@@ -1,0 +1,37 @@
+<chain_of_thought>
+Item: 3 - 5 + 4 × 2. The student must apply order of operations (BIDMAS). Multiplication first: 4 × 2 = 8. Then left to right: 3 - 5 + 8 = -2 + 8 = 6. Answer A.
+
+Thinking about the student population (UK ages 11-16, diagnostic assessment):
+
+The misconception "carries out operations from left to right regardless of priority order" is one of the most common errors in early secondary maths. Distractor B (4) perfectly captures this: 3-5=-2, -2+4=2, 2×2=4.
+
+However, I want to consider whether the negative numbers in this problem add difficulty beyond just BIDMAS. A student might correctly identify that multiplication comes first (4×2=8) but then struggle with 3 - 5 + 8. Some might compute 3 - (5+8) = 3-13 = -10 (distractor D), confusing the order of addition and subtraction. This means the item tests two things: BIDMAS priority AND correct handling of addition/subtraction left to right.
+
+Distractor C (-12) is less obviously derivable and probably attracts fewer students.
+
+Given the dual challenge (BIDMAS + negative number arithmetic), I think this item might be slightly harder than the pure BIDMAS calibration example. The calibration item 0.4 - 1/5 × 3 had difficulty 0.134, but that involved fractions/decimals which might actually help students recognize the need for careful ordering. Here, the simplicity of the numbers might make students more careless.
+
+I'll estimate classical difficulty around 0.20-0.25, accounting for the combined BIDMAS and sign errors. IRT difficulty near 0.0.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

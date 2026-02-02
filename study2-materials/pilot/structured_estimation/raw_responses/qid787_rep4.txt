@@ -1,0 +1,55 @@
+<chain_of_thought>
+I need to analyze the item where students evaluate two proposed first steps for solving 2v - 5 = 6v - 3.
+
+Checking Jo's claim (2v - 8 = 6v):
+To eliminate -3 from the right side, add 3 to both sides:
+LHS: 2v - 5 + 3 = 2v - 2
+RHS: 6v - 3 + 3 = 6v
+Correct result: 2v - 2 = 6v
+Jo wrote 2v - 8 = 6v. The difference is on the left: -8 vs -2. Jo appears to have subtracted 3 instead of adding 3 — using the same operation (subtraction, matching the sign of the term being moved) rather than the inverse operation (addition). Jo is wrong.
+
+Checking Paul's claim (2v = 6v - 8):
+To eliminate -5 from the left side, add 5 to both sides:
+LHS: 2v - 5 + 5 = 2v
+RHS: 6v - 3 + 5 = 6v + 2
+Correct result: 2v = 6v + 2
+Paul wrote 2v = 6v - 8. The difference is on the right: -8 vs +2. Paul subtracted 5 instead of adding 5 — the identical misconception. Paul is also wrong.
+
+Answer: D (Neither is correct).
+
+Now for parameter estimation. Let me think about the student population taking this item.
+
+Lower-ability students (roughly bottom third): These students likely share the misconception being tested. They would check Jo's and Paul's work, find both steps "correct" by their own flawed logic, and select C. Some might not even check carefully and just pick C or guess randomly.
+
+Middle-ability students: These might catch one error but not the other, leading them to A or B. Or they might waver between C and D. This group will show the most variance.
+
+Higher-ability students: These will correctly identify both errors and choose D. However, even some stronger students might be tripped up by the "neither" option, second-guessing themselves.
+
+The distribution of responses likely favors C as the primary distractor, with A and B drawing some responses from students who partially understand.
+
+For calibration: The Tom/Katie factorising item (two-claim evaluation, one correct) had b = 0.404 and classical = 0.473. The key difference here is that the answer is "neither" rather than "only one," which research suggests is harder for students. Also, both errors here are the SAME type of error, making it harder to catch — if you miss it once, you'll miss it twice.
+
+I'll estimate slightly higher difficulty than the factorising item but not as extreme as the inequality item. Classical difficulty ~0.52, IRT b ~0.50. Discrimination should be reasonable given the clean misconception target, perhaps around 1.20-1.35.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

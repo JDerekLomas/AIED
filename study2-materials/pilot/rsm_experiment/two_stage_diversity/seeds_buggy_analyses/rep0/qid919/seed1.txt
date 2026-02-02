@@ -1,0 +1,23 @@
+In UK Year 9, students are often bridging the gap between arithmetic fluency and algebraic manipulation. This question targets a common weakness in multi-step substitutions involving indices.
+
+### 1. The Misconception: "Order of Operations Priority (Multiplication before Powers)"
+The specific bug is the **failure to follow BIDMAS/BODMAS priority**, specifically the failure to apply the Index (Square) before the Multiplication. Students treat $(3x)^2$ as equivalent to $3x^2$, mistakenly grouping the coefficient with the base before squaring.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would process the calculation as follows:
+1.  **Substitution:** Replace $x$ with $0.3$ in the expression: $3 \times 0.3^2$.
+2.  **Grouping Error:** Instead of squaring $0.3$ first, the student performs the multiplication first because it appears "earlier" in their mental reading of the expression or they view "3x" as a single inseparable unit.
+3.  **Calculation 1:** Multiply $3 \times 0.3 = 0.9$.
+4.  **Calculation 2:** Square the result of the multiplication: $0.9^2$ (which is $0.9 \times 0.9$).
+5.  **Result:** Arrive at $0.81$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option A ($0.81$)**.
+
+### 4. Attractiveness of the Error
+This is a **highly "natural" and dangerous error** for a Year 9 student for several reasons:
+
+*   **Linguistic Influence:** When we say "three $x$ squared," the word "squared" comes last. Auditory learners often process operations in the order they hear them, leading them to apply the square to the entire preceding term ($3x$).
+*   **The "Unit" Fallacy:** Students are taught that $3x$ is a single term. They often carry this logic into indices, assuming that any operation applied to the "term" applies to the coefficient and variable together, unless brackets tell them otherwise.
+*   **False Verification:** $0.81$ "looks" like a plausible answer in a sequence of squares. Because $3^2=9$ and $9^2=81$, the digit structure of the result feels familiar and mathematically "right," giving the student a false sense of confidence.
+*   **Lack of Internal Check:** The student is unlikely to realize they are wrong because they *did* perform a multi-step calculation. They see "Indices" and "Multiplication" in the question and have checked both boxes, just in the wrong order.

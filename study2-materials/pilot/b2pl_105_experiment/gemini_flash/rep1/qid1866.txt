@@ -1,0 +1,15 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). In the UK, students are taught that multiplication ($10 \times 3 = 30$) must be performed before addition and subtraction.
+
+The "trap" in this question lies in the common misconception involving the "AS" (Addition/Subtraction) part of BIDMAS. Many students believe addition must be performed before subtraction because 'A' comes before 'S'. This would lead to calculating $(8 - (7 + 30))$ or even $(8-7+30)$ but with a mistake in sequence. 
+
+Specifically:
+- **Option B (31)** is the correct answer: $8 - 7 + 30 = 1 + 30 = 31$.
+- **Option D (33)** comes from calculating $8 - (7 + 30)$ incorrectly or performing the multiplication first, then trying to add $7$ to $8$ and subtract.
+- **Option A (36)** comes from ignoring BIDMAS entirely and working left-to-right: $8 - 7 = 1$, then $1 + 10 = 11$, then $11 \times 3 = 33$ (though here it specifically leads to 36 if a student does $8-7=1$, $1+10=11...$ wait, the left-to-right logic is actually $1+10=11$, $11 \times 3 = 33$). Actually, $33$ is often the result of the left-to-right error. $36$ is often a random "close enough" guess or a specific calculation error.
+
+Lower ability students frequently work strictly left-to-right, making D very popular. Mid-level students often remember the multiplication rule but struggle with the "Addition vs Subtraction" left-to-right priority.
+
+below_basic: A=15% B=20% C=10% D=55%
+basic: A=10% B=45% C=5% D=40%
+proficient: A=5% B=80% C=2% D=13%
+advanced: A=1% B=96% C=0% D=3%

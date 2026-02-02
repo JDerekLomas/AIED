@@ -1,0 +1,51 @@
+To approach this question, let's first understand the concepts involved. The sum of interior angles in any polygon can be calculated using the formula \((n-2) \times 180^\circ\), where \(n\) is the number of sides. For a regular polygon, since all angles are equal, the size of each interior angle can be found by dividing the total sum of interior angles by the number of sides: \(\frac{(n-2) \times 180^\circ}{n}\).
+
+## Step 1: Understand Tom's Method
+Tom suggests calculating the size of each interior angle in an 18-sided shape using \(\frac{20 \times 180}{18}\). Let's see if this aligns with the correct formula. For an 18-sided polygon, \(n = 18\), so the correct calculation should be \(\frac{(18-2) \times 180}{18} = \frac{16 \times 180}{18}\). Simplifying, \(\frac{16 \times 180}{18} = \frac{2880}{18} = 160\). Tom's method, \(\frac{20 \times 180}{18}\), equals \(\frac{3600}{18} = 200\), which does not match the correct calculation.
+
+## 2: Understand Katie's Method
+Katie suggests \(360 - \frac{180}{18}\). The correct formula for the exterior angle of a polygon is \(\frac{360}{n}\), and for an 18-sided polygon, this is \(\frac{360}{18} = 20^\circ\). The interior angle can be found by \(180 - \frac{360}{n}\) or directly by \(\frac{(n-2) \times 180}{n}\). Katie's method, \(360 - \frac{180}{18}\), can be simplified to \(360 - 10 = 350\), which clearly does not represent the interior angle calculation correctly.
+
+## 3: Evaluate Tom's and Katie's Methods Correctly
+- Tom's method: \(\frac{20 \times 180}{18}\) actually represents \(\frac{(20) \times 180}{18}\) which seems to mistakenly use 20 instead of 16 (since \(18-2=16\)), suggesting a potential misunderstanding.
+- Katie's method: \(360 - \frac{180}{18} = 360 - 10 = 350\), which is not a valid method for finding interior angles of a polygon.
+
+## 4: Correct Calculation
+The correct formula for each interior angle in an n-sided polygon is \(\frac{(n-2) \times 180}{n}\). For an 18-sided polygon: \(\frac{(18-2) \times 180}{18} = \frac{16 \times 180}{18} = 160^\circ\).
+
+## 5: Predicting Student Responses
+- **Below Basic**: Students at this level might not fully understand polygon properties. They might choose randomly or based on simple arithmetic mistakes. 
+  - A: XX% 
+  - B: XX% 
+  - C: XX% 
+  - D: XX%
+
+- **Basic**: Students might recognize the formula but struggle with application.
+  - A: High chance of choosing A because they might see "20" and think of \(18+2\), and not fully evaluate Tom's and Katie's methods.
+  - B: Might choose B if they incorrectly validate Katie's method.
+  - C: Low chance because they need to accurately assess both.
+  - D: Could choose D if they see both methods as incorrect.
+
+- **Proficient**: These students understand the formula and can apply it. They might see through both incorrect methods but could still make errors in assessment.
+  - A: Lower percentage because they should see Tom's mistake.
+  - B: Lower percentage for similar reasons.
+  - C: Low because they know the correct method.
+  - D: Higher percentage because they can identify both as incorrect.
+
+- **Advanced**: These students not only know the formula but can also quickly assess the validity of given methods.
+  - A: Very low because they understand the principle.
+  - B: Very low for the same reason.
+  - C: Very low because they can calculate correctly.
+  - D: High because they can see both methods are flawed.
+
+## 6: Actual Predictions
+Given the understanding:
+- **Below Basic**: A=40% B=20% C=10% D=30%
+- **Basic**: A=50% B=15% C=5% D=30%
+- **Proficient**: A=20% B=10% C=5% D=65%
+- **Advanced**: A=5% B=5% C=0% D=90%
+
+The final answer is:
+below_basic: A=40% B=20% C=10% D=30%
+basic: A=50% B=15% C=5% D=30%
+proficient: A=20%

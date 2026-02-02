@@ -1,0 +1,39 @@
+<chain_of_thought>
+The item assesses the ability to identify errors in a two-step linear equation solution. 
+The equation is $15 = 2p - 4$.
+Step 1: Isaac subtracts 4 from 15 to get 11 (should have added 4 to get 19). This is the classic "same operation instead of inverse" misconception.
+Step 2: Isaac multiplies 11 by 2 to get 22 (should have divided by 2). This is again the "same operation" error.
+Both steps are incorrect, so the correct answer is D.
+
+Comparing this to the calibration items:
+- The first calibration item ($ -5 = p + 10 $) had a classical difficulty of 0.167. It was a one-step equation but the negative numbers and the position of the variable made it very difficult.
+- This target item is a "spot the mistake" question, which adds a layer of metacognitive demand compared to just solving the equation.
+- Distractor A (Only step 1) would be chosen if a student thinks subtracting 4 is correct but then realizes multiplying by 2 is wrong.
+- Distractor B (Only step 2) would be chosen if they think Step 1 is wrong but Step 2 is right.
+- Distractor C is for students who share both of Isaac's misconceptions.
+- Given that "Both steps are incorrect" is the correct answer and the misconceptions are very common (using same operation), students often "agree" with the incorrect steps shown in the prompt. In diagnostic questions of this type, "Both incorrect" is often the hardest option because students tend to find one step plausible or lack the confidence to reject both.
+
+The discrimination is likely to be high as it separates those who truly understand inverse operations from those who apply rules inconsistently. The guessing parameter is likely low because the options are specific to the steps.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

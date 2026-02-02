@@ -1,0 +1,11 @@
+Error Analysis:
+A) The student incorrectly uses the line $y = -3$ as the line of reflection (or treats the distance to the y-axis as a unit for the other side). They likely counted the distance from $P(0,3)$ to the other "side" of the shape's span and moved horizontally until they reached $x = -6$.
+B) This is a "double flip" error combined with a scale misinterpretation. The student knows $y=-x$ involves switching and negating, but applies it to the "width" of the triangle or confuses the coordinate transformation $(x,y) \rightarrow (-y, -x)$ by miscounting units from an arbitrary point on the line.
+C) The student treats the reflection as a horizontal translation only. They observe that point $P$ is on the $y$-axis and essentially reflect it across a vertical line passing through the "middle" of the empty space or the center of the grid, or they mistakenly think the reflection of $0$ across the diagonal is simply moving to $-3$ while keeping $y$ the same.
+D) This is the correct answer. The transformation rule for reflection in the line $y = -x$ is $(x, y) \rightarrow (-y, -x)$. For point $P(0, 3)$, the $x$-coordinate becomes $-3$ and the $y$-coordinate becomes $0$. Students reach this by either applying the rule or counting diagonally to the mirror line and repeating the distance.
+
+Predictions:
+below_basic: A=30% B=20% C=40% D=10%
+basic: A=20% B=25% C=35% D=20%
+proficient: A=10% B=15% C=20% D=55%
+advanced: A=2% B=3% C=5% D=90%

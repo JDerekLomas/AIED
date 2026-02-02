@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing the target item: Solve (x/3) - 5 = 12, evaluating Tom's and Katie's proposed next steps.
+
+Tom: x/3 = 17. This adds 5 to both sides - correct inverse operation for subtracting 5.
+
+Katie: x - 5 = 36. If we multiply both sides by 3 properly: 3(x/3 - 5) = 3(12) gives x - 15 = 36. Katie wrote x - 5 = 36 instead. She multiplied x/3 by 3 to get x and multiplied 12 by 3 to get 36, but failed to multiply -5 by 3. This is a failure to distribute multiplication across all terms on the left side.
+
+Correct answer is A.
+
+Now, the misconception label says "uses the same operation rather than the inverse." Interestingly, Katie's error is more about distribution than inverse operations. But perhaps the framing is that Katie tried to "undo" division by 3 but applied it incorrectly - or students who select "Both" or "Only Katie" may be confusing operations.
+
+For difficulty benchmarking: This is a "Who is correct?" format requiring meta-cognitive evaluation of algebraic steps. The key challenge is recognizing Katie's subtle distribution error. Many students aged 11-16 would find Katie's step plausible at first glance since x/3 * 3 = x and 12 * 3 = 36 are both correct partial calculations.
+
+Comparing to calibration: The simple equation -5 = p + 10 had difficulty 0.167 (easy). The factoring Tom/Katie had 0.473. The inequality had 0.569. This item involves fractions and evaluation of two approaches, making it moderately challenging. I think it falls between the factoring item and the inequality in difficulty.
+
+I'll estimate classical difficulty around 0.52, IRT b around 0.50. The discrimination should be solid since it targets a specific algebraic understanding. Some guessing likely from the four-option format with "Both" being attractive.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.16</guessing_probability>
+</predictions>

@@ -1,0 +1,44 @@
+<chain_of_thought>
+This item is embedded in a bracket expansion task but isolates a single operation: (-4) x (-3). The student needs to identify that both terms are negative (from the expression (5p-4)(2p-3)) and apply the rule that negative times negative equals positive, yielding +12.
+
+Let me think about this from a student perspective. A Year 9 student encountering this would need to:
+1. Read and interpret the diagram showing which terms to multiply
+2. Recognize that the terms are -4 and -3 (not just 4 and 3)
+3. Know and apply the sign rule for multiplication
+4. Compute 4 x 3 = 12
+
+The critical step is recognizing and applying the sign rule. The misconception being tested is extremely common. In my experience with psychometric data, items testing negative x negative typically see error rates of 30-50% depending on the student population and item context.
+
+The algebraic framing here is important. When the negatives appear as part of algebraic expressions in brackets, students may be more likely to err than in a bare arithmetic context like "what is (-4) x (-3)?". The algebraic context adds cognitive load and may cause students to focus on the procedure of expansion rather than the sign rules.
+
+Comparing to calibration items:
+- The easiest calibration item (solving -5=p+10) has classical difficulty 0.167 and b=-0.702. That's straightforward equation solving.
+- The Tom/Katie item (same misconception) has classical difficulty 0.473 and b=0.404. But it's more complex.
+- The inequality item has classical difficulty 0.569 and b=0.808. That's more demanding.
+
+I think this item falls between the Tom/Katie item and the easier items. The directness of the question (just multiply two terms) should make it easier than Tom/Katie, but the misconception's strength keeps difficulty moderate. I'll estimate classical difficulty around 0.35, IRT b around 0.10.
+
+For discrimination: the item should discriminate well because it cleanly separates students who understand the sign rule from those who don't. I expect a around 1.45. Guessing should be low since the misconception drives students to a specific wrong answer (B) rather than random selection.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

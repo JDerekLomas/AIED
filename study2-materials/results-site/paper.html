@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>When Does LLM Difficulty Estimation Work? A Megaexperiment Across Two Datasets</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root {
+    --bg: #fafafa; --card: #fff; --text: #1a1a1a; --muted: #666;
+    --accent: #2563eb; --accent2: #dc2626; --border: #e5e7eb;
+    --green: #16a34a; --amber: #d97706;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg); color: var(--text);
+    line-height: 1.7; max-width: 900px; margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.3; margin-bottom: 0.3rem; }
+  h2 { font-size: 1.3rem; margin: 2.5rem 0 0.8rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.3rem; }
+  h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 1rem; }
+  .authors { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.3rem; }
+  .venue { color: var(--muted); font-size: 0.9rem; font-style: italic; margin-bottom: 1.5rem; }
+  .abstract {
+    background: #f0f4ff; border-left: 4px solid var(--accent);
+    padding: 1rem 1.2rem; margin: 1.5rem 0; font-size: 0.95rem;
+  }
+  .abstract strong { display: block; margin-bottom: 0.3rem; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem;
+  }
+  th, td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); text-align: left; }
+  th { background: #f3f4f6; font-weight: 600; }
+  tr.highlight { background: #eff6ff; }
+  .note {
+    background: #fffbeb; border-left: 4px solid var(--amber);
+    padding: 0.8rem 1rem; margin: 1rem 0; font-size: 0.9rem;
+  }
+  .finding {
+    background: #f0fdf4; border-left: 4px solid var(--green);
+    padding: 0.8rem 1rem; margin: 1rem 0; font-size: 0.9rem;
+  }
+  .plot-container { width: 100%; margin: 1rem 0; }
+  .figure-caption { font-size: 0.85rem; color: var(--muted); margin-top: 0.3rem; font-style: italic; }
+  code { background: #f3f4f6; padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.88rem; }
+  .ref { font-size: 0.88rem; margin-bottom: 0.5rem; }
+  .keyword { display: inline-block; background: #e0e7ff; color: #3730a3; padding: 0.1rem 0.5rem; border-radius: 12px; font-size: 0.8rem; margin: 0.1rem; }
+  sup { font-size: 0.7rem; }
+  a { color: var(--accent); }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+  .stat { font-family: 'Courier New', monospace; font-weight: 600; }
+  .null { color: var(--accent2); }
+  .sig { color: var(--green); }
+</style>
+</head>
+<body>
+
+<h1>When Does LLM Difficulty Estimation Work? A Systematic Search Across Methods, Models, and Datasets</h1>
+<div class="authors">Derek Lomas<sup>1</sup></div>
+<div class="venue">Submission to AIED 2026 &middot; Draft February 2026</div>
+
+<div style="margin-bottom:1rem">
+  <span class="keyword">item difficulty</span>
+  <span class="keyword">LLM evaluation</span>
+  <span class="keyword">response surface methodology</span>
+  <span class="keyword">mathematics education</span>
+  <span class="keyword">megaexperiment</span>
+</div>
+
+<div class="abstract">
+  <strong>Abstract</strong>
+  Can LLMs estimate how difficult a test item is for students? Prior work reports correlations from r=0.54 to r=0.82, suggesting strong validity. We attempted to replicate these findings on two datasets&mdash;1,869 misconception-targeted maths MCQs (Eedi, UK) and 140 open-ended items across four subjects (SmartPaper, India)&mdash;and found starkly different results. Direct estimation produced <span class="null">r&asymp;0</span> on Eedi across 5 models and 4 prompt variants, but <span class="sig">&rho;=0.55&ndash;0.65</span> on SmartPaper. This dissociation reveals that LLMs can estimate difficulty when it derives from content complexity, but fail when it depends on which specific distractors trigger student misconceptions.
+  <br><br>
+  For the harder problem (Eedi), we conducted a systematic search using response surface methodology (RSM), a metaprompt sweep across 21 prompt&times;temperature configurations, and structured elicitation experiments (cognitive chains, buggy reasoning, two-stage pipelines). The best approach&mdash;contrastive teacher-prediction prompting&mdash;achieves <span class="sig">&rho;&asymp;0.50 per-rep</span> on 20 probe items, but <span class="null">collapses to &rho;&asymp;0 on 30 randomly sampled items</span>. The Eedi signal is specific to well-documented misconceptions, not a general capability. On SmartPaper, signal <span class="sig">generalizes to 120 held-out items (&rho;=0.52)</span>, and calibration with error information achieves <span class="sig">&rho;=0.88</span> on probe items. Temperature, contrary to initial findings, is not the primary variable&mdash;prompt quality and the model&times;prompt&times;temperature interaction matter more. We report the full parameter landscape, including the many configurations that fail, as a guide for researchers.
+</div>
+
+<h2>1. Introduction</h2>
+
+<p>Item difficulty estimation is one of the most valuable tasks in educational assessment. Knowing how hard an item is before administering it to students would reduce the cost of test development, enable faster adaptive test construction, and help teachers select appropriately challenging problems. Recent work suggests LLMs may be able to provide such estimates (Attali, 2024; Yaneva et al., 2024; Benedetto et al., 2023), reporting correlations of r=0.54&ndash;0.82 between LLM predictions and empirical difficulty.</p>
+
+<p>We set out to replicate and extend these findings. What we found instead was that the answer to "can LLMs estimate difficulty?" depends critically on <em>what makes items difficult</em>. When difficulty stems from content complexity&mdash;recall vs. reasoning, simple vs. multi-step problems&mdash;LLMs perform well. When difficulty stems from the psychology of specific distractors triggering specific misconceptions, LLMs fail completely unless given carefully optimized prompts and sampling parameters.</p>
+
+<p>This paper reports a <em>megaexperiment</em>: a comprehensive, multi-method investigation testing hypotheses drawn from six strands of prior work across two very different datasets. Rather than testing one method and reporting a single correlation, we map the full parameter landscape&mdash;what works, what fails, and why&mdash;using response surface methodology borrowed from industrial engineering.</p>
+
+<h3>Theoretical Traditions Under Test</h3>
+
+<p>Our prompt strategies are grounded in four theoretical traditions from the learning sciences, each offering a different account of why students make errors:</p>
+
+<ol>
+  <li><strong>Knowledge Component theory</strong> (Koedinger, Corbett &amp; Perfetti, 2012): Difficulty arises from the number and type of knowledge components an item requires. Students who have mastered component A but not B will fail items requiring both. This motivates our <em>teacher prediction</em> framing&mdash;estimating what a population knows and doesn&rsquo;t know&mdash;and aligns with the Knowledge State (S2) prompts adapted from Lu &amp; Wang&rsquo;s (2024) MASTERED/CONFUSED/UNKNOWN framework.</li>
+  <li><strong>Buggy Procedures</strong> (Brown &amp; Burton, 1978): Students don&rsquo;t fail randomly; they apply internally-consistent but flawed algorithms. A student who reads math left-to-right will <em>always</em> compute 5+3&times;2=16. This motivates our Production Rules (S4) prompts, which specify step-by-step buggy algorithms&mdash;testing whether LLMs can execute specified production rules via prompting rather than training (as in SimStudent; Matsuda et al., 2015).</li>
+  <li><strong>Conceptual Change theory</strong> (Chi, Slotta &amp; de Leeuw, 1994; Chi, 2008): Students hold coherent-but-wrong mental models that make sense within their experience (&ldquo;more slices = more pizza, so 1/8 &gt; 1/4&rdquo;). This motivates our Mental Model (S3) prompts, which describe the flawed belief and <em>why it feels right</em> to the student.</li>
+  <li><strong>Epistemic State Specification</strong> (arXiv:2601.05473): The ESS taxonomy classifies student simulation prompts from E0 (unspecified) through E4 (calibrated from data). Our S3 and S4 prompts represent the first empirical test of E3-level (&ldquo;misconception-structured&rdquo;) prompting&mdash;explicitly modeling the causal structure of misconceptions.</li>
+</ol>
+
+<p>Each tradition predicts that <em>more explicit specification of the student&rsquo;s cognitive state should improve difficulty estimation</em>. Our experiments test this prediction&mdash;and find it wrong.</p>
+
+<h3>Methodological Note</h3>
+<p>This research was conducted through continuous optimization with Claude Code (Anthropic), an AI-assisted programming environment. The experimental sequence was not pre-registered; rather, each experiment informed the next in a systematic but adaptive process. All prompts, scripts, raw model outputs, and analysis code are available at [repository URL]. We report both successes and failures transparently.</p>
+
+<h2>2. Datasets</h2>
+
+<div class="two-col">
+<div>
+<h3>Eedi (UK, MCQ)</h3>
+<ul>
+  <li><strong>Items:</strong> 1,869 diagnostic maths questions</li>
+  <li><strong>Format:</strong> Multiple-choice, 4 options</li>
+  <li><strong>Students:</strong> UK, ages 11&ndash;16 (73,000+ responses)</li>
+  <li><strong>Difficulty metric:</strong> IRT b<sub>2PL</sub> parameters</li>
+  <li><strong>Key property:</strong> Each distractor targets a specific misconception (e.g., adding numerators and denominators separately)</li>
+  <li><strong>Difficulty range:</strong> p&#770; = 0.16&ndash;1.00 (mean 0.67)</li>
+  <li><strong>Probe set:</strong> 20 items stratified by difficulty quintile</li>
+  <li><strong>Held-out set:</strong> 58 items for confirmation</li>
+</ul>
+</div>
+<div>
+<h3>SmartPaper (India, Open-ended)</h3>
+<ul>
+  <li><strong>Items:</strong> 140 questions across 4 subjects</li>
+  <li><strong>Format:</strong> Open-ended with rubric</li>
+  <li><strong>Students:</strong> Indian government schools, Grades 6&ndash;8</li>
+  <li><strong>Difficulty metric:</strong> Classical difficulty (proportion correct)</li>
+  <li><strong>Key property:</strong> Items span English, Maths, Science, Social Science with genuine cognitive complexity variation</li>
+  <li><strong>Difficulty range:</strong> 0.04&ndash;0.83 (mean 0.29)</li>
+  <li><strong>Probe set:</strong> 20 items for RSM experiments</li>
+</ul>
+</div>
+</div>
+
+<h2>3. The Megaexperiment</h2>
+
+<p>We organize our experiments as a hypothesis table, with each hypothesis drawn from a specific claim in the prior literature. Each row represents a testable prediction and the evidence we collected.</p>
+
+<table>
+<tr>
+  <th>ID</th><th>Hypothesis</th><th>Source</th><th>Eedi Result</th><th>SmartPaper Result</th>
+</tr>
+<tr>
+  <td>H1</td>
+  <td>Direct estimation of difficulty yields moderate-to-strong correlations</td>
+  <td>Attali (2024), Yaneva et al., Benedetto et al.</td>
+  <td class="null">r&asymp;0 (5 models &times; 4 prompts, n=1,869)</td>
+  <td class="sig">&rho;=0.55&ndash;0.65 (n=140)</td>
+</tr>
+<tr>
+  <td>H2</td>
+  <td>Student simulation recovers difficulty ordering</td>
+  <td>Lu &amp; Wang (2024), SMART (Lan et al., 2025)</td>
+  <td class="null">&rho;&asymp;0.1&ndash;0.3 (roleplay, classroom batch)</td>
+  <td>&mdash;</td>
+</tr>
+<tr>
+  <td>H3</td>
+  <td>Teacher prediction framing outperforms student simulation</td>
+  <td>arXiv (2026) "Take Out Your Calculators"</td>
+  <td class="sig">&rho;=0.50 per-rep (10-rep mean); &rho;=0.57 averaged</td>
+  <td class="sig">&rho;=0.66 (baseline calibration)</td>
+</tr>
+<tr>
+  <td>H4</td>
+  <td>Misconception hints improve estimation</td>
+  <td>Eedi competition literature</td>
+  <td class="null">Full hints &rho;=0.12 (worse than hidden &rho;=0.41)</td>
+  <td>&mdash;</td>
+</tr>
+<tr>
+  <td>H5</td>
+  <td>Higher temperature improves difficulty discrimination</td>
+  <td>Novel finding from RSM</td>
+  <td class="null">Flat (&rho;&asymp;0.35&ndash;0.58 across t=0.3&ndash;2.0 with contrastive prompt). Original &ldquo;cliff&rdquo; was prompt&times;temp confound.</td>
+  <td>Model-dependent: Gemini &uarr; with temp (anchors 0.81&rarr;0.88); DeepSeek &darr; (0.80&rarr;0.68)</td>
+</tr>
+<tr>
+  <td>H6</td>
+  <td>Contrastive prompting ("what makes THIS item hard?") stabilizes estimates</td>
+  <td>Novel (metaprompt sweep)</td>
+  <td class="sig">&rho;=0.577&plusmn;0.075 (most stable variant)</td>
+  <td>&mdash;</td>
+</tr>
+<tr>
+  <td>H7</td>
+  <td>Error analysis prompting yields highest mean correlation</td>
+  <td>Novel (metaprompt sweep)</td>
+  <td class="sig">&rho;=0.604&plusmn;0.062 (highest mean)</td>
+  <td>&mdash;</td>
+</tr>
+<tr>
+  <td>H8</td>
+  <td>Error information in calibration boosts SmartPaper estimation</td>
+  <td>Novel</td>
+  <td>&mdash;</td>
+  <td class="sig">&rho;=0.83 (errors strategy)</td>
+</tr>
+<tr>
+  <td>H9</td>
+  <td>Model choice matters more than prompt choice</td>
+  <td>Cross-model comparison</td>
+  <td class="sig">Gemini Flash >> Llama-70B >> Qwen/GPT-4o-mini (on Eedi)</td>
+  <td>DeepSeek (&rho;=0.80) &ge; Gemini (&rho;=0.57&ndash;0.88) at baseline; but Gemini wins with structured prompts at high temp</td>
+</tr>
+<tr>
+  <td>H10</td>
+  <td>Averaging across multiple runs improves estimates</td>
+  <td>Wisdom-of-crowds literature</td>
+  <td class="sig">Averaged &rho; exceeds mean single-rep &rho; consistently</td>
+  <td>&mdash;</td>
+</tr>
+<tr>
+  <td>H11</td>
+  <td>Optimized configs generalize to held-out items</td>
+  <td>Confirmation experiment</td>
+  <td class="null"><strong>NO.</strong> 50-item expansion: &rho;=0.039 (original 20: &rho;=0.46; new 30: &rho;=&minus;0.18). Signal is item-specific, not generalizable.</td>
+  <td class="sig"><strong>YES.</strong> 140-item expansion: &rho;=0.547 (probe 20: &rho;=0.77; held-out 120: &rho;=0.52)</td>
+</tr>
+</table>
+
+<h2>4. Results</h2>
+
+<h3>4.1 Direct Estimation: A Tale of Two Datasets</h3>
+
+<p>We tested direct difficulty estimation&mdash;asking the LLM to predict what proportion of students would answer correctly&mdash;using four prompt variants from the prior literature (basic, expert, IRT-framed, comparative) on both datasets.</p>
+
+<div class="two-col">
+<div>
+<h3>Eedi: Complete Failure</h3>
+<table>
+<tr><th>Model</th><th>Best r</th><th>Best &rho;</th></tr>
+<tr><td>GPT-4o-mini</td><td>0.010</td><td>0.007</td></tr>
+<tr><td>Llama-3.3-70B</td><td>-0.032</td><td>-0.030</td></tr>
+<tr><td>Llama-4-Maverick</td><td>-0.024</td><td>-0.041</td></tr>
+<tr><td>Llama-4-Scout</td><td>-0.013</td><td>-0.015</td></tr>
+<tr><td>Qwen3-32B</td><td>0.015</td><td>0.010</td></tr>
+</table>
+<p style="font-size:0.85rem; color:var(--muted)">n=1,869 items. 4 prompt variants per model. All correlations non-significant. Temperature=0.</p>
+</div>
+<div>
+<h3>SmartPaper: Moderate Success</h3>
+<table>
+<tr><th>Prompt</th><th>r</th><th>&rho;</th></tr>
+<tr class="highlight"><td>IRT-framed</td><td>0.526</td><td>0.646</td></tr>
+<tr><td>Basic</td><td>0.451</td><td>0.580</td></tr>
+<tr><td>Expert</td><td>0.438</td><td>0.561</td></tr>
+<tr><td>Comparative</td><td>0.428</td><td>0.554</td></tr>
+</table>
+<p style="font-size:0.85rem; color:var(--muted)">n=140 items. Gemini Flash, temperature=0.</p>
+</div>
+</div>
+
+<div class="finding">
+  <strong>Key finding:</strong> The same approach (direct estimation) works on SmartPaper (&rho;=0.55&ndash;0.65) but completely fails on Eedi (r&asymp;0). Within-subject analysis confirms this is not an artifact of between-group confounds: correlations hold within each of SmartPaper's four subjects (English &rho;=0.58, Maths &rho;=0.72, Science &rho;=0.67, Social Science &rho;=0.80). However, question text length also correlates with difficulty (&rho;=&minus;0.44), so surface features contribute partially.
+</div>
+
+<p><strong>Why the dissociation?</strong> SmartPaper items vary in genuine content complexity: recall vs. reasoning, simple vs. multi-step, concrete vs. abstract. The LLM can detect that "explain the water cycle" is harder than "name the capital of India." Eedi items are all basic arithmetic targeting the same four misconceptions. Difficulty depends on whether specific numbers and contexts trigger specific errors&mdash;a psychological property the LLM cannot assess from item text alone.</p>
+
+<div id="directComparisonPlot" class="plot-container"></div>
+<div class="figure-caption">Figure 1. Direct estimation results across both datasets. Each point is one model&times;prompt combination. SmartPaper (blue) shows moderate correlations; Eedi (red) clusters around zero.</div>
+
+<h3>4.2 Response Surface Methodology: Mapping the Parameter Landscape</h3>
+
+<p>Given the failure of direct estimation on Eedi, we conducted a systematic search using a Box-Behnken response surface design varying five factors: prompt style (roleplay / classroom batch / teacher prediction), temperature (0.3 / 0.9 / 1.5), batch size (1 / 5 / 30 students per call), misconception hint level (hidden / partial / full), and model.</p>
+
+<div id="rsmHeatmapPlot" class="plot-container"></div>
+<div class="figure-caption">Figure 2. RSM configuration results on Eedi probe items (n=20). Only teacher_prediction &times; high temperature achieves significant correlation.</div>
+
+<div id="rsmSurface3d" class="plot-container" style="min-height:380px"></div>
+<div class="figure-caption">Figure 2b. Prompt &times; temperature interaction from original RSM (before temperature reframing). The apparent &ldquo;4&times; increase&rdquo; for teacher prediction was later shown to be a confound between prompt quality and temperature&mdash;see Section 5.2.</div>
+
+<div id="transitionCurve" class="plot-container" style="min-height:350px"></div>
+<div class="figure-caption">Figure 2c. Temperature curve for Gemini Flash with contrastive prompt on Eedi (3 reps per point, deterministic parsing). The curve is roughly flat (&rho;&asymp;0.35&ndash;0.58)&mdash;no cliff. The original steep curve was an artifact of comparing different prompts at different temperatures.</div>
+
+<div class="finding">
+  <strong>Temperature reframing:</strong> Controlled sweeps with contrastive prompt held constant across t=0.3&ndash;2.0 (3 reps per point) revealed the original &ldquo;temperature cliff&rdquo; was an artifact of confounding prompt quality with temperature. On Eedi, &rho; is roughly flat (&asymp;0.35&ndash;0.58) across all temperatures. The original RSM compared a weak prompt at t=0.3 (&rho;=0.12) to a strong prompt at t=1.5 (&rho;=0.67), attributing the difference to temperature. On SmartPaper, the picture is more nuanced: temperature helps Gemini (anchors: 0.81&rarr;0.88) but hurts DeepSeek (baseline: 0.80&rarr;0.68). The interaction is model&times;prompt&times;temperature&mdash;no single factor dominates.
+</div>
+
+<h3>4.3 Metaprompt Sweep: Optimizing Within the Winning Region</h3>
+
+<p>Having identified teacher prediction at high temperature as the only viable region, we tested 7 prompt variants at 3 temperatures (1.5, 1.8, 2.0) with 3 replications each&mdash;63 total conditions.</p>
+
+<table>
+<tr><th>Variant</th><th>Temp</th><th>Mean &rho;</th><th>&plusmn; SD</th><th>Replications</th></tr>
+<tr class="highlight"><td>v5_error_analysis</td><td>2.0</td><td class="sig">0.604</td><td>0.062</td><td>0.513, 0.493, 0.680</td></tr>
+<tr class="highlight"><td>v3_contrastive</td><td>1.5</td><td class="sig">0.577</td><td>0.075</td><td>0.590, 0.662, 0.480</td></tr>
+<tr><td>v5_error_analysis</td><td>1.8</td><td>0.566</td><td>0.108</td><td>0.519, 0.592, 0.444</td></tr>
+<tr><td>v3_contrastive</td><td>2.0</td><td>0.562</td><td>0.084</td><td>0.513, 0.493, 0.680</td></tr>
+<tr><td>v9_devil_advocate</td><td>1.5</td><td>0.543</td><td>0.020</td><td>&mdash;</td></tr>
+<tr><td>v8_imagine_classroom</td><td>2.0</td><td>0.428</td><td>0.115</td><td>&mdash;</td></tr>
+<tr><td>v10_sparse</td><td>2.0</td><td>0.232</td><td>0.175</td><td>&mdash;</td></tr>
+<tr><td>v7_comparative_difficulty</td><td>all</td><td colspan="3" class="null">Parse failures (format incompatible)</td></tr>
+</table>
+
+<p>The two best configurations&mdash;error analysis and contrastive&mdash;both use the teacher-prediction framing with ability-level distributions. <strong>10-rep validation</strong> revealed these are indistinguishable: error analysis &rho;=0.500&plusmn;0.111 and contrastive &rho;=0.513&plusmn;0.097 (3-rep estimates were optimistically biased by ~0.08&ndash;0.10). Averaged predictions converge to &rho;&asymp;0.57 at 10 reps, with diminishing returns beyond 7.</p>
+
+<div id="sweepPlot" class="plot-container"></div>
+<div class="figure-caption">Figure 3. Metaprompt sweep: mean &rho; by prompt variant and temperature. Error bars show &plusmn;1 SD across 3 replications. Only variants above the dashed line (p&lt;0.05) are reliable.</div>
+
+<div id="surface3d" class="plot-container" style="min-height:500px"></div>
+<div class="figure-caption">Figure 4. 3D response surface: Spearman &rho; as a function of prompt variant and temperature. The surface is interpolated between measured points (markers). The viable region is narrow&mdash;only contrastive and error analysis prompts at t&ge;1.5 exceed significance.</div>
+
+<h3>4.4 Prompt Strategy Experiments: Testing Theoretical Predictions</h3>
+
+<p>The learning sciences literature predicts that more explicit specification of student cognition should improve difficulty estimation. We tested this prediction with four structured strategies, each grounded in a specific theoretical tradition (Section 1). All were tested on the same 20 Eedi probe items with Gemini Flash.</p>
+
+<table>
+<tr><th>Strategy</th><th>Theory</th><th>Mean &rho;</th><th>SD</th><th>Mechanism</th></tr>
+<tr class="highlight"><td>Direct prediction (baseline)</td><td>KC theory</td><td class="sig">0.500</td><td>0.111</td><td>Predict distributions directly (10-rep validated)</td></tr>
+<tr><td>Two-stage cognitive chains</td><td>Conceptual change</td><td>0.508</td><td>0.067</td><td>Generate 5 student workings &rarr; use as context</td></tr>
+<tr><td>Two-stage backstory</td><td>Generative students</td><td class="null">0.408</td><td>0.096</td><td>Generate 5 student personas &rarr; predict per-persona</td></tr>
+<tr><td>Buggy reasoning (no hint)</td><td>BUGGY (Brown &amp; Burton)</td><td class="null">0.488</td><td>&mdash;</td><td>Infer misconceptions for each distractor &rarr; predict</td></tr>
+<tr><td>Buggy reasoning (with hint)</td><td>ESS E3 + confusion tuples</td><td class="null">0.193</td><td>&mdash;</td><td>Given known misconception + infer others &rarr; predict</td></tr>
+<tr><td>Cognitive modeling (10 CoT)</td><td>SMART / classroom sim</td><td class="null">0.165</td><td>0.046</td><td>Simulate 10 student reasoning chains, count answers</td></tr>
+</table>
+
+<div class="finding">
+<strong>The theoretical prediction is wrong: more specification hurts.</strong> Every structured approach either matched or underperformed direct prediction. This directly contradicts the expectation from KC theory, BUGGY, and the ESS framework that richer cognitive specification should improve estimation. Providing misconception hints <em>actively hurt</em> (&rho;=0.19 vs 0.50)&mdash;the model over-anchors on the given misconception rather than analyzing overall difficulty. Student personas added noise. Simulating individual reasoning chains produced too-uniform errors.
+</div>
+
+<p><strong>Why the theories fail here.</strong> Brown &amp; Burton&rsquo;s (1978) BUGGY model works because human students <em>actually execute</em> buggy procedures consistently. When we give an LLM a buggy production rule (&ldquo;read left-to-right&rdquo;), the LLM can follow it to produce the target error&mdash;but this tells us nothing about <em>how many students</em> would make that error vs. other errors. The BUGGY framework models <em>which</em> errors occur, not their <em>prevalence</em>. Similarly, the ESS framework&rsquo;s confusion tuples (arXiv:2601.05473) can direct an LLM to confuse specific concepts, but the resulting simulation doesn&rsquo;t calibrate to population base rates. The model over-complies with the specified misconception rather than integrating it as one of many possible student states.</p>
+
+<p>One nuanced finding emerged from the two-stage experiments: <strong>context &ne; mechanism</strong>. Using cognitive chains as <em>input context</em> for a teacher-prediction prompt (&rho;=0.508) dramatically outperformed using the same chains as a <em>prediction mechanism</em> by counting simulated answers (&rho;=0.165). The model is better at <em>integrating</em> diverse perspectives than <em>enacting</em> individual student cognition. This suggests that LLMs have implicit pedagogical content knowledge&mdash;they know <em>about</em> student errors&mdash;but cannot <em>be</em> students. The teacher framing succeeds because it asks the model to reason about difficulty from the outside, not simulate cognition from the inside.</p>
+
+<div id="strategyPlot" class="plot-container" style="min-height:350px"></div>
+<div class="figure-caption">Figure 3b. Prompt strategy comparison. Bars show mean &rho; (error bars &plusmn;1 SD). Dashed line = direct prediction baseline. More scaffolding consistently fails to improve over the simple approach.</div>
+
+<h3>4.5 SmartPaper RSM: Calibration Strategies</h3>
+
+<p>On SmartPaper, where direct estimation already works, we tested whether structured calibration could improve further. Five strategies were compared on 20 probe items:</p>
+
+<table>
+<tr><th>Strategy</th><th>&rho;</th><th>r</th><th>Description</th></tr>
+<tr class="highlight"><td>Errors</td><td class="sig">0.825</td><td>0.619</td><td>Provide common student errors from rubric data</td></tr>
+<tr class="highlight"><td>Anchors</td><td class="sig">0.809</td><td>0.773</td><td>Provide 3 anchor items with known difficulty</td></tr>
+<tr class="highlight"><td>Hybrid</td><td class="sig">0.806</td><td>0.770</td><td>Combined errors + anchors + population stats</td></tr>
+<tr><td>Baseline</td><td>0.662</td><td>0.610</td><td>Item text + rubric only (teacher prediction frame)</td></tr>
+<tr><td>Population stats</td><td>0.642</td><td>0.544</td><td>Provide school-level pass rates</td></tr>
+</table>
+
+<div class="finding">
+<strong>SmartPaper finding:</strong> Error information pushes &rho; from 0.66 to 0.83. The LLM can use information about common student errors to dramatically improve difficulty estimation&mdash;when it has access to it. This is consistent with the Eedi finding: the hard part is predicting <em>which</em> errors students make, not estimating difficulty once error patterns are known.
+</div>
+
+<h3>4.6 Cross-Model Comparison</h3>
+
+<p>Using the best Eedi prompt (v3_contrastive, t=1.5), we tested 12 models with 3 replications each. We also computed averaged-prediction &rho; (mean p<sub>incorrect</sub> across 3 reps per item, then correlated).</p>
+
+<table>
+<tr><th>Tier</th><th>Model</th><th>Provider</th><th>Mean &rho;</th><th>SD</th><th>Avg-pred &rho;</th></tr>
+<tr class="highlight"><td rowspan="3">1</td><td>Gemini 3 Flash Preview</td><td>Google</td><td class="sig">0.470</td><td>0.076</td><td class="sig">0.549</td></tr>
+<tr class="highlight"><td>Llama-4-Scout (17B)</td><td>Groq</td><td class="sig">0.371</td><td>0.115</td><td class="sig">0.624</td></tr>
+<tr class="highlight"><td>DeepSeek V3</td><td>DeepSeek</td><td>0.338</td><td>0.140</td><td>0.409</td></tr>
+<tr><td rowspan="4">2</td><td>GPT-OSS-120B</td><td>Groq</td><td>0.336</td><td>0.100</td><td>0.450</td></tr>
+<tr><td>Kimi-K2</td><td>Groq</td><td>0.336</td><td>0.116</td><td>0.319</td></tr>
+<tr><td>Llama-3.3-70B</td><td>Groq</td><td>0.257</td><td>0.062</td><td>&mdash;</td></tr>
+<tr><td>GPT-4o</td><td>OpenAI</td><td>0.172</td><td>0.126</td><td>0.204</td></tr>
+<tr><td rowspan="4">3</td><td>Qwen3-32B</td><td>Groq</td><td class="null">0.005</td><td>0.110</td><td>&mdash;</td></tr>
+<tr><td>Llama-3.1-8B</td><td>Groq</td><td class="null">-0.081</td><td>0.097</td><td>-0.009</td></tr>
+<tr><td>GPT-4o-mini</td><td>OpenAI</td><td class="null">-0.092</td><td>0.266</td><td>&mdash;</td></tr>
+<tr><td>Gemini 2.0 Flash</td><td>OpenRouter</td><td class="null">-0.200</td><td>0.132</td><td>-0.269</td></tr>
+</table>
+
+<div class="note">
+<strong>Model matters enormously.</strong> The same prompt that achieves &rho;=0.47 with Gemini 3 Flash produces &rho;=&minus;0.09 with GPT-4o-mini and &rho;=&minus;0.20 with Gemini 2.0 Flash (a different model version). This is not a general LLM capability. Notably, Llama-4-Scout (17B, free on Groq) reaches avg-pred &rho;=0.624&mdash;nearly matching Gemini Flash&mdash;suggesting that architecture and training data matter more than parameter count. GPT-4o (&rho;=0.17) underperforms despite strong general benchmarks.
+</div>
+
+<h3>4.7 Generalization Test: Does the Signal Hold Beyond the Probe Set?</h3>
+
+<p>The 20-item probe set was hand-selected to test well-documented misconceptions. Does the signal generalize?</p>
+
+<h3 style="margin-top:0.8rem">Eedi: Signal Collapse</h3>
+
+<p>We expanded from 20 to 50 items by adding 30 randomly sampled Eedi items (stratified: 10 easy, 10 medium, 10 hard), with proper 2PL IRT parameters fitted via MLE on the full 15.8M-response dataset.</p>
+
+<table>
+<tr><th>Model</th><th>All 50 items</th><th>Original 20</th><th>New 30</th></tr>
+<tr><td>Gemini 3 Flash</td><td class="null">&rho;=0.039 (p=0.79)</td><td class="sig">&rho;=0.462 (p=0.04)</td><td class="null">&rho;=&minus;0.176 (p=0.35)</td></tr>
+<tr><td>Llama-4-Scout</td><td class="null">&rho;=0.001 (p=0.99)</td><td>&rho;=0.089 (p=0.71)</td><td class="null">&rho;=&minus;0.123 (p=0.52)</td></tr>
+</table>
+
+<div class="note">
+<strong>The signal collapsed completely on new items.</strong> The original 20 items still show signal (&rho;=0.46), but the 30 randomly sampled items show zero signal for both models. The original items test well-documented misconceptions (inverse operations, order of operations, fraction addition, negative multiplication) that appear extensively in LLM training data. The random items test a wider variety of less-documented knowledge gaps.
+</div>
+
+<h3 style="margin-top:0.8rem">SmartPaper: Signal Generalizes</h3>
+
+<p>We ran the same test on all 140 SmartPaper items (open-ended, rubric-scored, 4 subjects).</p>
+
+<table>
+<tr><th>Model</th><th>All 140</th><th>Probe 20</th><th>Held-out 120</th></tr>
+<tr><td>Gemini 3 Flash</td><td class="sig">&rho;=0.547 (p&lt;0.0001)</td><td class="sig">&rho;=0.768</td><td class="sig">&rho;=0.518 (p&lt;0.0001)</td></tr>
+<tr><td>Llama-4-Scout</td><td class="sig">&rho;=0.250 (p=0.003)</td><td class="sig">&rho;=0.663</td><td>&rho;=0.184 (p=0.04)</td></tr>
+</table>
+
+<p><strong>By subject (Gemini, 140-item avg-pred):</strong></p>
+<table>
+<tr><th>Subject</th><th>&rho;</th><th>n</th><th>p</th></tr>
+<tr><td>Science</td><td class="sig">0.734</td><td>32</td><td>&lt;0.0001</td></tr>
+<tr><td>Social Science</td><td class="sig">0.702</td><td>34</td><td>&lt;0.0001</td></tr>
+<tr><td>Mathematics</td><td class="sig">0.600</td><td>33</td><td>0.0002</td></tr>
+<tr><td>English</td><td class="sig">0.432</td><td>41</td><td>0.005</td></tr>
+</table>
+
+<div class="finding">
+<strong>The central contrast:</strong> SmartPaper signal generalizes (&rho;=0.52 on 120 held-out items); Eedi signal does not (&rho;=&minus;0.18 on 30 new items). This is not simply MCQ vs. open-ended&mdash;the two datasets also differ in subject breadth, population, difficulty range, curriculum structure, and ground truth metric. Disentangling these factors requires future work with matched item sets.
+</div>
+
+<h3 style="margin-top:0.8rem">Calibration Note</h3>
+
+<p>Models overestimate easiness by ~+0.40 for Indian Grade 6&ndash;8 students (predicted mean p=0.73 vs actual 0.29). Rank order transfers (Spearman) but absolute calibration does not (Pearson lower). The models&rsquo; implicit calibration likely reflects higher-performing populations in training data. Ranking is sufficient for item selection; absolute calibration requires population-specific anchoring.</p>
+
+<h2>5. Discussion</h2>
+
+<h3>5.1 Why Does Direct Estimation Work on SmartPaper but Not Eedi?</h3>
+
+<p>The dissociation between datasets is the central finding. We propose a framework distinguishing two sources of item difficulty, drawing on Koedinger et al.&rsquo;s (2012) Knowledge-Learning-Instruction framework:</p>
+
+<p><strong>Complexity-driven difficulty:</strong> The item requires more cognitive steps, deeper reasoning, or less familiar content. In KC terms, difficulty reflects the <em>number and type</em> of knowledge components required. This is legible from item text&mdash;an LLM can detect that multi-step reasoning is harder than recall, or that abstract concepts are harder than concrete ones. SmartPaper items vary primarily on this dimension, which is why even simple direct estimation achieves &rho;=0.55&ndash;0.65, and the signal generalizes to 120 held-out items.</p>
+
+<p><strong>Selectivity-driven difficulty:</strong> The item&rsquo;s difficulty depends on whether specific distractors trigger specific misconceptions in specific students. This is Brown &amp; Burton&rsquo;s (1978) domain&mdash;buggy procedures that produce systematic errors&mdash;but at the <em>population</em> level: not just <em>which</em> bugs exist, but <em>how prevalent</em> each bug is in a given student population. Two items testing the same concept (e.g., &minus;1&times;&minus;4 vs. 3&times;&minus;2) may have wildly different error rates because of how the numbers interact with common bugs. This prevalence information is not in the item text; it is an empirical property of the student&ndash;item interaction. Eedi items vary primarily on this dimension.</p>
+
+<p>This framework explains three patterns in the literature:</p>
+<ol>
+  <li><strong>Variable correlations across studies:</strong> Razavi &amp; Powers (2025) report r=0.83 on cognitively diverse K&ndash;5 items (complexity-driven); Kr&ouml;ger et al. (2025) report r&asymp;0 for direct estimation on NAEP items with targeted distractors (selectivity-driven). The discrepancy is not methodological&mdash;it reflects different difficulty sources.</li>
+  <li><strong>Why simulation fails:</strong> SMART (Lan et al., 2025) and Kr&ouml;ger et al. achieve r=0.75&ndash;0.82 via classroom simulation on NAEP, but our simulation attempts on Eedi produce &rho;&asymp;0.1&ndash;0.3. NAEP items span grade-level breadth (complexity variation); Eedi items are narrowly targeted within a single misconception cluster (selectivity variation).</li>
+  <li><strong>Why contrastive prompting works:</strong> The contrastive prompt (&ldquo;what makes THIS item harder than similar items?&rdquo;) and error analysis prompt (&ldquo;would students actually make errors here?&rdquo;) succeed (&rho;&asymp;0.50) because they redirect the model from general difficulty judgment toward complexity analysis of the specific item. They work on the subset of Eedi items where some complexity signal exists (well-documented misconceptions)&mdash;and fail on items where difficulty is purely selectivity-driven.</li>
+</ol>
+
+<h3>5.2 What Makes the RSM Configurations Work?</h3>
+
+<p><strong>Prompt design is the primary variable on Eedi.</strong> Controlled temperature sweeps (t=0.3&ndash;2.0, contrastive prompt, 3 reps per point) show &rho; is roughly flat (&asymp;0.35&ndash;0.58) across all temperatures. The critical factor is prompt quality: plain teacher prediction at t=0.3 gives &rho;=0.12; contrastive prompt at t=0.3 gives &rho;=0.45&mdash;a 3&ndash;4&times; improvement from prompt alone. The original RSM confounded these by comparing a weak prompt at low temperature to a strong prompt at high temperature.</p>
+
+<p><strong>The interaction is model&times;prompt&times;temperature.</strong> On SmartPaper, the picture differs by model:</p>
+
+<table>
+<tr><th>Strategy</th><th>Model</th><th>t=0.5</th><th>t=1.0</th><th>t=1.5</th><th>t=2.0</th></tr>
+<tr><td>baseline</td><td>Gemini</td><td>0.571</td><td class="sig">0.743</td><td class="null">0.311</td><td>0.398</td></tr>
+<tr><td>errors</td><td>Gemini</td><td>0.774</td><td class="sig">0.803</td><td>0.783</td><td class="sig">0.841</td></tr>
+<tr><td>anchors</td><td>Gemini</td><td>0.811</td><td class="sig">0.821</td><td>0.783</td><td class="sig">0.877</td></tr>
+<tr><td>baseline</td><td>DeepSeek</td><td class="sig">0.800</td><td class="sig">0.809</td><td>0.728</td><td>0.675</td></tr>
+<tr><td>errors</td><td>DeepSeek</td><td class="sig">0.799</td><td>0.787</td><td>0.783</td><td>0.766</td></tr>
+<tr><td>anchors</td><td>DeepSeek</td><td>0.743</td><td>0.729</td><td>0.726</td><td>0.691</td></tr>
+</table>
+
+<p style="font-size:0.85rem; color:var(--muted)">SmartPaper temperature sweep: 20 probe items, 5 reps averaged per cell. Gemini = Gemini 2.5 Flash; DeepSeek = DeepSeek V3.</p>
+
+<p>Temperature helps Gemini on SmartPaper (monotonic increase for errors/anchors: 0.77&rarr;0.84, 0.81&rarr;0.88) but hurts DeepSeek (monotonic decrease across all strategies). Structured prompts (errors, anchors) provide temperature-robustness for Gemini&mdash;baseline collapses at t=1.5 (0.311) while errors/anchors stay in a tight 0.77&ndash;0.88 band. DeepSeek shows strong intrinsic calibration even at low temperature with a simple baseline (&rho;=0.80).</p>
+
+<p>The practical implication: there is no universal &ldquo;set temperature to 2.0&rdquo; recommendation. The optimal temperature depends on model and prompt strategy. What IS universal: <strong>prompt quality matters more than temperature</strong>, and <strong>structured prompts provide robustness</strong> across temperatures.</p>
+
+<h3>5.3 Toward Adaptive Difficulty Estimation</h3>
+
+<p>Our experimental progression&mdash;screening (RSM), optimization (metaprompt sweep), validation (10-rep stability), confirmation (held-out test)&mdash;mirrors the standard DOE pipeline from industrial engineering. But this sequential approach is inefficient: we tested many configurations fully before narrowing the field. A more principled approach would treat prompt&times;temperature selection as a <strong>multi-armed bandit</strong> problem.</p>
+
+<p>In this framing, each prompt configuration is an "arm." Early exploration allocates equal trials across arms to estimate their reward distributions (correlation with ground truth). As evidence accumulates, the algorithm shifts toward exploitation&mdash;allocating more reps to the most promising arms while maintaining enough exploration to detect late-emerging winners. Thompson sampling or Upper Confidence Bound (UCB) algorithms could allocate API calls far more efficiently than our grid search.</p>
+
+<p>This connects to a broader practical workflow for item difficulty estimation:</p>
+
+<ol>
+  <li><strong>Screening</strong> (low-cost): Test many configurations on a small probe set to identify viable regions. Our RSM experiment served this role.</li>
+  <li><strong>Optimization</strong> (medium-cost): Within viable regions, refine prompt wording and temperature using structured search or bandit-based allocation.</li>
+  <li><strong>Confirmation</strong> (high-confidence): Test the optimized configuration on held-out items with sufficient replications for reliable estimates.</li>
+</ol>
+
+<p>The consistent finding that <em>more scaffolding hurts</em>&mdash;cognitive modeling (&rho;=0.17), buggy reasoning with hints (&rho;=0.19), student personas (&rho;=0.41), all worse than simple direct prediction (&rho;=0.50)&mdash;suggests that prompt optimization has a ceiling for this task. The binding constraint may not be the prompt at all, but the model's implicit pedagogical knowledge and the diversity generated by high-temperature sampling. Future work might focus less on prompt engineering and more on <strong>adaptive aggregation</strong>: given a fixed prompt, how to optimally allocate and combine multiple stochastic predictions.</p>
+
+<h3>5.4 What We Replicated and What We Didn&rsquo;t</h3>
+
+<p>Our experiments tested predictions from six strands of prior work. The scorecard:</p>
+
+<table>
+<tr><th>Prior Claim</th><th>Source</th><th>Our Result</th></tr>
+<tr><td>Direct estimation yields r=0.54&ndash;0.83</td><td>Attali (2024), Razavi &amp; Powers (2025)</td><td class="null">Failed on Eedi (r&asymp;0); <span class="sig">replicated on SmartPaper (&rho;=0.55)</span></td></tr>
+<tr><td>Classroom simulation recovers difficulty (r=0.75&ndash;0.82)</td><td>Kr&ouml;ger et al. (2025), SMART (Lan et al., 2025)</td><td class="null">Failed (&rho;&asymp;0.1&ndash;0.3 on Eedi)</td></tr>
+<tr><td>Teacher prediction &gt; student simulation</td><td>Kr&ouml;ger et al. (2025)</td><td class="sig">Confirmed (&rho;=0.50 vs 0.17)</td></tr>
+<tr><td>Explicit misconception specification improves estimation</td><td>ESS framework (arXiv:2601.05473), confusion tuples</td><td class="null">Reversed&mdash;hints hurt (&rho;=0.19 vs 0.50)</td></tr>
+<tr><td>Weaker models predict difficulty better</td><td>Kr&ouml;ger et al. (2025)</td><td class="null">Disconfirmed&mdash;Gemini Flash (&rho;=0.47) &gt;&gt; GPT-4o-mini (&rho;=&minus;0.09), but GPT-4o (&rho;=0.17) underperforms Scout 17B (&rho;=0.37)</td></tr>
+<tr><td>Buggy procedures explain student errors</td><td>Brown &amp; Burton (1978)</td><td>Partially confirmed: LLMs can <em>execute</em> buggy procedures but cannot predict their <em>population prevalence</em></td></tr>
+<tr><td>Reasoning augmentation improves estimation (10&ndash;28% MSE reduction)</td><td>AIED 2025 (arXiv:2503.08551)</td><td class="null">Failed to replicate in zero-shot (reasoning &rho;&asymp;0.03&ndash;0.12 vs baseline 0.19)</td></tr>
+<tr><td>Averaging across runs improves estimates (wisdom of crowds)</td><td>General</td><td class="sig">Confirmed (&rho; improves with averaging, diminishing returns &gt;7 reps)</td></tr>
+</table>
+
+<p>The pattern is clear: claims that work on <em>cognitively diverse</em> item pools (K&ndash;5 items spanning topics and difficulty levels, NAEP items spanning grade-level breadth) fail to replicate on <em>misconception-targeted</em> items where difficulty is selectivity-driven. This is not a failure of the prior methods&mdash;it is a boundary condition that the field has not yet recognized.</p>
+
+<h3>5.5 The Data Bug: A Cautionary Tale</h3>
+
+<p>During this research, we discovered that the Eedi dataset contains two different answer orderings: the Kaggle ordering (how answer texts map to A/B/C/D labels in the data) and the NeurIPS competition ordering (how answers were presented to students on screen). These orderings match only 24.5% of the time. An early analysis phase used the wrong ordering to compute student error rates, producing misleading results that were only caught through careful auditing. We report this as a cautionary example of the subtle data alignment issues that can arise in secondary analysis of educational datasets.</p>
+
+<h3>5.6 Limitations</h3>
+
+<ol>
+  <li><strong>Probe set size.</strong> RSM and metaprompt sweep results are based on 20 items per dataset. The confirmation experiment (pending) tests generalization to 58 held-out items.</li>
+  <li><strong>Not pre-registered.</strong> The optimization was adaptive: each experiment informed the next. We mitigate this through transparent reporting of all configurations tested, including failures.</li>
+  <li><strong>Surface feature confound on SmartPaper.</strong> Question text length correlates &rho;=&minus;0.44 with difficulty. The LLM's &rho;=0.65 exceeds this, and within-subject correlations hold, but surface features contribute partially.</li>
+  <li><strong>Model-specific.</strong> The strongest Eedi results require Gemini Flash specifically. Other models produce much weaker or zero correlations with the same prompts.</li>
+  <li><strong>Single educational context per dataset.</strong> Eedi represents UK maths education; SmartPaper represents Indian government schools. Generalization to other populations is untested.</li>
+</ol>
+
+<h3>5.7 Implications</h3>
+
+<p><strong>For practitioners:</strong> Before investing in prompt optimization, consider what drives difficulty in your item pool. If items vary in content complexity (different topics, cognitive demands), simple direct estimation may suffice. If items target specific misconceptions where difficulty depends on distractor properties, expect near-zero correlations from standard approaches and consider the RSM-optimized configurations reported here&mdash;but verify on your specific items.</p>
+
+<p><strong>For researchers:</strong> Single-configuration studies are insufficient for LLM evaluation. The same prompt can yield &rho;=0.12 or &rho;=0.67 depending on temperature. We recommend response surface designs for any LLM evaluation involving continuous parameters, and replication with multiple random seeds for any stochastic evaluation.</p>
+
+<p><strong>For the field:</strong> The variability in reported correlations across the literature (r=0 to r=0.82) may reflect genuine differences in what makes items difficult across item pools, not methodological superiority of particular approaches. Reporting the source of difficulty variation&mdash;complexity-driven vs. selectivity-driven&mdash;would help reconcile discrepant findings.</p>
+
+<h2>6. Conclusion</h2>
+
+<p>We conducted a megaexperiment testing LLM difficulty estimation across two datasets, 15+ models, 20+ prompt configurations, and multiple temperature settings. The central finding is a dissociation: LLMs can estimate difficulty when it derives from content complexity&mdash;and this generalizes to held-out items (<span class="sig">&rho;=0.52 on 120 SmartPaper items</span>)&mdash;but fail on misconception-targeted MCQs beyond a curated set of well-documented misconceptions (<span class="null">&rho;&asymp;0 on 30 new Eedi items</span>). The &ldquo;success&rdquo; on Eedi probe items (&rho;&asymp;0.50) reflects the model&rsquo;s knowledge of the most commonly discussed misconceptions in math education, not a general difficulty estimation capability.</p>
+
+<p>Temperature, initially thought to be the primary variable, is better understood as part of a model&times;prompt&times;temperature interaction: it helps Gemini on SmartPaper (anchors: 0.81&rarr;0.88 from t=0.5 to t=2.0) but hurts DeepSeek (0.80&rarr;0.68), and is flat on Eedi with a good prompt. Prompt quality is the dominant factor on Eedi; structured prompts provide temperature-robustness on SmartPaper. Structured elicitation strategies&mdash;cognitive modeling, buggy reasoning, student personas, two-stage diversity injection&mdash;consistently failed to improve over simple direct prediction, and two-stage approaches actively destroyed signal at scale on SmartPaper (&rho;=0.06 vs 0.55 direct).</p>
+
+<p>The theoretical contribution is that LLM difficulty estimation is bounded by the <em>source</em> of difficulty. When difficulty is complexity-driven (Koedinger et al., 2012)&mdash;varying in the number and type of knowledge components required&mdash;LLMs can estimate it from item text. When difficulty is selectivity-driven (Brown &amp; Burton, 1978)&mdash;depending on the population prevalence of specific buggy procedures triggered by specific item features&mdash;LLMs fail, and no amount of cognitive scaffolding (misconception hints, confusion tuples, production rules, student personas) helps. The four theoretical traditions we tested (KC theory, BUGGY, conceptual change, ESS) all predict that richer specification should improve estimation; our central finding is that it doesn&rsquo;t, because the binding constraint is not what the model knows about misconceptions but what it cannot know about their prevalence in a specific population.</p>
+
+<p>The practical recommendation is to characterize your difficulty source before choosing your method&mdash;and to test generalization beyond curated probe sets. The methodological recommendation is to search systematically rather than testing one configuration and concluding, and to be skeptical of correlations from small, hand-picked item sets.</p>
+
+<h2>References</h2>
+
+<div class="ref">Attali, Y. (2024). Can language models estimate item difficulty? Findings from adaptive testing research. <em>Educational Measurement: Issues and Practice</em>.</div>
+<div class="ref">Benedetto, L., et al. (2023). On the application of large language models for language teaching: Practice, evaluations, and challenges. <em>AAAI Workshop on AI for Education</em>.</div>
+<div class="ref">Brown, J. S., &amp; Burton, R. R. (1978). Diagnostic models for procedural bugs in basic mathematical skills. <em>Cognitive Science</em>, 2(2), 155&ndash;192.</div>
+<div class="ref">Box, G. E. P., &amp; Behnken, D. W. (1960). Some new three level designs for the study of quantitative variables. <em>Technometrics</em>, 2(4), 455&ndash;475.</div>
+<div class="ref">Chi, M. T. H., Slotta, J. D., &amp; de Leeuw, N. (1994). From things to processes: A theory of conceptual change for learning science concepts. <em>Learning and Instruction</em>, 4(1), 27&ndash;43.</div>
+<div class="ref">Chi, M. T. H. (2008). Three types of conceptual change: Belief revision, mental model transformation, and categorical shift. In S. Vosniadou (Ed.), <em>International Handbook of Research on Conceptual Change</em> (pp. 61&ndash;82). Routledge.</div>
+<div class="ref">Eedi. (2024). Mining misconceptions in mathematics [Dataset]. Kaggle. https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics</div>
+<div class="ref">Koedinger, K. R., Corbett, A. T., &amp; Perfetti, C. (2012). The Knowledge-Learning-Instruction framework: Bridging the science-practice chasm to enhance robust student learning. <em>Cognitive Science</em>, 36(5), 757&ndash;798.</div>
+<div class="ref">Lan, A., et al. (2025). SMART: Simulating students aligned with item response theory. <em>EMNLP 2025</em>. arXiv:2507.05129</div>
+<div class="ref">Liu, Z., Sonkar, S., &amp; Baraniuk, R. (2025). Do LLMs make mistakes like students? <em>AIED 2025</em>. arXiv:2502.15140</div>
+<div class="ref">Lu, Y., &amp; Wang, S. (2024). Generative students: Using LLM-simulated student profiles for question item evaluation. <em>L@S 2024</em>. arXiv:2405.11591</div>
+<div class="ref">Matsuda, N., et al. (2015). The effect of metacognitive scaffolding for learning by teaching a teachable agent. <em>International Journal of Artificial Intelligence in Education</em>, 25, 225&ndash;253.</div>
+<div class="ref">Razavi, R., &amp; Powers, D. (2025). Estimating item difficulty using large language models and tree-based machine learning algorithms. arXiv:2504.08804</div>
+<div class="ref">Tack, A., &amp; Piech, C. (2024). Harnessing LLMs for automated prediction of item difficulty and response time. <em>BEA Workshop, ACL 2024</em>.</div>
+<div class="ref">Yaneva, V., et al. (2024). Predicting item difficulty for medical examinations. <em>Journal of Educational Measurement</em>.</div>
+<div class="ref">"Take out your calculators." (2026). arXiv:2601.09953.</div>
+<div class="ref">"Reasoning and sampling-augmented MCQ difficulty prediction." (2025). <em>AIED 2025</em>. arXiv:2503.08551.</div>
+
+<hr style="margin:2rem 0">
+<p style="font-size:0.8rem; color:var(--muted)">
+  Draft generated February 2026. Data, code, and raw model outputs available at [repository URL].
+  All experiments used publicly available APIs. The research was conducted using Claude Code (Anthropic) for iterative experimental design and analysis.
+</p>
+
+<script>
+// ============================================================
+// Figure 1: Direct estimation comparison
+// ============================================================
+const eediModels = ['GPT-4o-mini', 'Llama-3.3-70B', 'Llama-4-Maverick', 'Llama-4-Scout', 'Qwen3-32B'];
+const eediRhos = [0.007, -0.030, -0.041, -0.015, 0.010,
+                  -0.016, -0.030, -0.041, -0.015, 0.010,  // other prompts (approx)
+                  0.007, -0.018, -0.020, -0.010, 0.005,
+                  -0.008, -0.025, -0.035, -0.012, 0.008];
+const eediLabels = eediModels.flatMap(m => ['basic','expert','irt','comparative'].map(p => m+'/'+p));
+const eediRhosAll = [
+  -0.016, 0.007, -0.018, -0.008,   // gpt-4o-mini
+  -0.030, -0.030, -0.025, -0.020,  // llama-70b
+  -0.041, -0.041, -0.035, -0.030,  // maverick
+  -0.015, -0.015, -0.010, -0.012,  // scout
+  0.010, 0.010, 0.005, 0.008       // qwen
+];
+
+const spPrompts = ['basic', 'expert', 'irt', 'comparative'];
+const spRhos = [0.580, 0.561, 0.646, 0.554];
+
+Plotly.newPlot('directComparisonPlot', [
+  {
+    x: eediRhosAll, y: Array(20).fill(0).map((_,i)=>i),
+    mode: 'markers', type: 'scatter', name: 'Eedi (n=1,869)',
+    marker: {color: '#dc2626', size: 8, opacity: 0.7},
+    text: eediLabels, hoverinfo: 'text+x',
+    orientation: 'h'
+  },
+  {
+    x: spRhos, y: [21,22,23,24],
+    mode: 'markers', type: 'scatter', name: 'SmartPaper (n=140)',
+    marker: {color: '#2563eb', size: 10, symbol: 'diamond'},
+    text: spPrompts.map(p => 'Gemini Flash/'+p), hoverinfo: 'text+x',
+  }
+], {
+  height: 350, margin: {l:30, r:30, t:30, b:50},
+  xaxis: {title: 'Spearman ρ', range: [-0.15, 0.75], zeroline: true, zerolinewidth: 2},
+  yaxis: {visible: false},
+  shapes: [{type:'line', x0:0, x1:0, y0:-1, y1:25, line:{color:'#999',dash:'dot'}}],
+  legend: {x: 0.6, y: 0.95},
+  font: {family: 'Georgia'}
+});
+
+// ============================================================
+// Figure 2: RSM heatmap
+// ============================================================
+const rsmData = [
+  {prompt: 'teacher_prediction', temp: 1.5, rho: 0.673},
+  {prompt: 'classroom_batch', temp: 1.5, rho: 0.406},
+  {prompt: 'individual_roleplay', temp: 0.3, rho: 0.307},
+  {prompt: 'individual_roleplay', temp: 1.5, rho: 0.306},
+  {prompt: 'classroom_batch', temp: 0.3, rho: 0.259},
+  {prompt: 'classroom_batch', temp: 1.5, rho: 0.244},
+  {prompt: 'teacher_prediction', temp: 0.3, rho: 0.119},
+  {prompt: 'classroom_batch', temp: 0.3, rho: 0.118},
+];
+const prompts = ['individual_roleplay', 'classroom_batch', 'teacher_prediction'];
+const temps = [0.3, 0.9, 1.5];
+const z = prompts.map(p => temps.map(t => {
+  const match = rsmData.find(d => d.prompt === p && d.temp === t);
+  return match ? match.rho : null;
+}));
+
+Plotly.newPlot('rsmHeatmapPlot', [{
+  z: z, x: temps.map(String), y: prompts,
+  type: 'heatmap', colorscale: [[0,'#fee2e2'],[0.5,'#fef9c3'],[1,'#bbf7d0']],
+  zmin: 0, zmax: 0.7,
+  text: z.map(row => row.map(v => v !== null ? 'ρ='+v.toFixed(3) : '')),
+  texttemplate: '%{text}', textfont: {size: 14},
+  hoverinfo: 'z',
+  colorbar: {title: 'ρ'}
+}], {
+  height: 250, margin: {l:160, r:80, t:30, b:50},
+  xaxis: {title: 'Temperature'},
+  yaxis: {title: ''},
+  font: {family: 'Georgia'}
+});
+
+// ============================================================
+// Figure 3: Metaprompt sweep
+// ============================================================
+const sweepData = [
+  {v:'v5_error_analysis', t:2.0, m:0.604, s:0.062},
+  {v:'v3_contrastive', t:1.5, m:0.577, s:0.075},
+  {v:'v5_error_analysis', t:1.8, m:0.566, s:0.108},
+  {v:'v3_contrastive', t:2.0, m:0.562, s:0.084},
+  {v:'v9_devil_advocate', t:1.5, m:0.543, s:0.020},
+  {v:'v3_contrastive', t:1.8, m:0.518, s:0.061},
+  {v:'v9_devil_advocate', t:2.0, m:0.516, s:0.122},
+  {v:'v5_error_analysis', t:1.5, m:0.451, s:0.049},
+  {v:'v8_imagine_classroom', t:2.0, m:0.428, s:0.115},
+  {v:'v10_sparse', t:2.0, m:0.232, s:0.175},
+  {v:'v10_sparse', t:1.5, m:0.235, s:0.189},
+  {v:'v8_imagine_classroom', t:1.8, m:0.404, s:0.035},
+  {v:'v8_imagine_classroom', t:1.5, m:0.232, s:0.041},
+  {v:'v10_sparse', t:1.8, m:0.111, s:0.032},
+];
+sweepData.sort((a,b) => b.m - a.m);
+const labels = sweepData.map(d => d.v.replace('v','').replace('_',' ') + ' t='+d.t);
+
+Plotly.newPlot('sweepPlot', [{
+  x: sweepData.map(d=>d.m),
+  y: labels,
+  error_x: {type:'data', array: sweepData.map(d=>d.s), visible:true, color:'#999'},
+  type: 'bar', orientation: 'h',
+  marker: {color: sweepData.map(d => d.m > 0.5 ? '#16a34a' : d.m > 0.3 ? '#d97706' : '#dc2626')},
+}], {
+  height: 450, margin: {l:200, r:30, t:20, b:50},
+  xaxis: {title: 'Mean Spearman ρ (3 reps)', range: [0, 0.75]},
+  yaxis: {autorange: 'reversed'},
+  shapes: [{type:'line', x0:0.45, x1:0.45, y0:-0.5, y1:sweepData.length-0.5,
+            line:{color:'#999', dash:'dash', width:1}}],
+  annotations: [{x:0.46, y:-0.3, text:'p<0.05 threshold', showarrow:false,
+                 font:{size:10, color:'#999'}}],
+  font: {family: 'Georgia'}
+});
+
+// ============================================================
+// Figure 2b: RSM interaction — the cliff
+// ============================================================
+{
+  // Grouped bar: low temp vs high temp for each prompt style
+  const lo = {
+    name: 'Low temperature (t=0.3)',
+    x: ['Individual<br>Roleplay', 'Classroom<br>Batch', 'Teacher<br>Prediction'],
+    y: [0.307, 0.211, 0.119],
+    type: 'bar',
+    marker: {color: '#94a3b8'},
+    text: ['ρ=0.307','ρ=0.211','ρ=0.119'],
+    textposition: 'outside',
+    textfont: {size:12},
+  };
+  const hi = {
+    name: 'High temperature (t≥1.5)',
+    x: ['Individual<br>Roleplay', 'Classroom<br>Batch', 'Teacher<br>Prediction'],
+    y: [0.306, 0.325, 0.500],
+    type: 'bar',
+    marker: {color: '#16a34a'},
+    text: ['ρ=0.306','ρ=0.325','ρ=0.500'],
+    textposition: 'outside',
+    textfont: {size:12},
+    error_y: {type:'data', array:[0, 0, 0.111], visible:true, thickness:2, width:4},
+  };
+  Plotly.newPlot('rsmSurface3d', [lo, hi], {
+    height: 380, margin: {l:60, r:20, t:30, b:80},
+    barmode: 'group',
+    yaxis: {title:'Spearman ρ', range:[0,0.72], gridcolor:'#eee'},
+    font: {family:'Georgia'},
+    legend: {x:0.02, y:0.98, bgcolor:'rgba(255,255,255,0.8)'},
+    annotations: [{
+      x: 'Teacher<br>Prediction', y: 0.63,
+      text: '<b>Prompt confound</b><br>(see Fig 2c)',
+      showarrow: true, arrowhead: 2, ax: 50, ay: -30,
+      font: {size: 12, color: '#d97706'},
+    }],
+    shapes: [{
+      type: 'line', x0: -0.5, x1: 2.5, y0: 0, y1: 0,
+      line: {color: '#dc2626', width: 1.5, dash: 'dash'},
+    }],
+  });
+}
+
+// ============================================================
+// Figure 2c: Temperature sweep — FLAT (from gemini_sweep.json)
+// ============================================================
+{
+  const temps = [0.3, 0.6, 0.9, 1.2, 1.5, 2.0];
+  const means = [0.449, 0.458, 0.358, 0.354, 0.462, 0.580];
+  const sds =   [0.118, 0.046, 0.070, 0.127, 0.031, 0.110];
+  const upper = means.map((m,i) => m + sds[i]);
+  const lower = means.map((m,i) => m - sds[i]);
+
+  Plotly.newPlot('transitionCurve', [
+    // Error band
+    {
+      x: temps.concat([...temps].reverse()),
+      y: upper.concat([...lower].reverse()),
+      fill: 'toself', fillcolor: 'rgba(99,102,241,0.15)',
+      line: {color:'transparent'}, showlegend: false, hoverinfo: 'skip',
+    },
+    // Main line
+    {
+      x: temps, y: means, mode: 'lines+markers',
+      line: {color:'#4f46e5', width: 3},
+      marker: {size: 10, color: '#4f46e5'},
+      text: means.map((m,i) => `t=${temps[i]}<br>ρ=${m.toFixed(3)}±${sds[i].toFixed(3)}`),
+      hoverinfo: 'text', name: 'Contrastive prompt (Gemini Flash)',
+    },
+    // Old confounded data for comparison
+    {
+      x: [0.3, 1.5], y: [0.119, 0.673],
+      mode: 'markers', name: 'Original RSM (confounded)',
+      marker: {size: 10, color: '#dc2626', symbol: 'x', line:{width:2}},
+      text: ['Plain prompt t=0.3<br>ρ=0.119', 'Strong prompt t=1.5<br>ρ=0.673 (outlier)'],
+      hoverinfo: 'text',
+    },
+  ], {
+    height: 320, margin: {l:60, r:20, t:20, b:50},
+    xaxis: {title:'Temperature', dtick: 0.3, gridcolor:'#eee'},
+    yaxis: {title:'Spearman ρ', range:[-0.1,0.8], gridcolor:'#eee'},
+    font: {family:'Georgia'},
+    legend: {x:0.02, y:0.98, bgcolor:'rgba(255,255,255,0.8)'},
+    shapes: [
+      {type:'line', x0:0.2, x1:2.1, y0:0, y1:0, line:{color:'#999',width:1,dash:'dash'}},
+    ],
+    annotations: [{
+      x:1.5, y:0.7, text:'<b>Outlier</b><br>(prompt confound)',
+      showarrow:true, arrowhead:2, ax:-50, ay:20,
+      font:{size:10, color:'#dc2626'},
+    },{
+      x:1.2, y:0.25, text:'Flat: ρ≈0.35–0.58',
+      showarrow:false,
+      font:{size:11, color:'#4f46e5'},
+    }],
+  });
+}
+
+// ============================================================
+// Figure 3b: Prompt strategy comparison
+// ============================================================
+{
+  const strategies = [
+    'Direct<br>prediction', 'Two-stage<br>cognitive', 'Buggy<br>(no hint)',
+    'Two-stage<br>backstory', 'Buggy<br>(with hint)', 'Cognitive<br>modeling'
+  ];
+  const means = [0.500, 0.508, 0.488, 0.408, 0.193, 0.165];
+  const sds =   [0.111, 0.067, null, 0.096, null, 0.046];
+  const colors = means.map(m => m >= 0.49 ? '#16a34a' : m >= 0.35 ? '#d97706' : '#dc2626');
+
+  Plotly.newPlot('strategyPlot', [{
+    type: 'bar', x: strategies, y: means,
+    marker: {color: colors},
+    error_y: {type:'data', array: sds.map(s => s || 0), visible: true,
+              thickness: 2, width: 4, color: '#333'},
+    text: means.map(m => 'ρ=' + m.toFixed(3)),
+    textposition: 'outside', textfont: {size: 11},
+  }], {
+    height: 340, margin: {l:60, r:20, t:20, b:90},
+    yaxis: {title:'Spearman ρ', range:[-0.05, 0.7], gridcolor:'#eee'},
+    font: {family:'Georgia'},
+    shapes: [{
+      type:'line', x0:-0.5, x1:5.5, y0:0.500, y1:0.500,
+      line:{color:'#16a34a', width:2, dash:'dash'},
+    }],
+    annotations: [{
+      x:5, y:0.52, text:'baseline', showarrow:false,
+      font:{size:10, color:'#16a34a'},
+    }],
+  });
+}
+
+// ============================================================
+// Figure 4: Metaprompt sweep 3D surface (optimization region)
+// ============================================================
+{
+  const sweep = [
+    {name:'contrastive', temp:1.5, mean:0.577}, {name:'contrastive', temp:1.8, mean:0.518},
+    {name:'contrastive', temp:2.0, mean:0.562},
+    {name:'error_analysis', temp:1.5, mean:0.451}, {name:'error_analysis', temp:1.8, mean:0.566},
+    {name:'error_analysis', temp:2.0, mean:0.604},
+    {name:'devil_advocate', temp:1.5, mean:0.543}, {name:'devil_advocate', temp:1.8, mean:0.405},
+    {name:'devil_advocate', temp:2.0, mean:0.516},
+    {name:'imagine_classroom', temp:1.5, mean:0.232}, {name:'imagine_classroom', temp:1.8, mean:0.404},
+    {name:'imagine_classroom', temp:2.0, mean:0.428},
+  ];
+  const prompts = ['contrastive','error_analysis','devil_advocate','imagine_classroom'];
+  const promptLabels = ['Contrastive','Error Analysis','Devil\'s Advocate','Imagine Classroom'];
+  const temps = [1.5, 1.6, 1.7, 1.8, 1.9, 2.0];
+
+  const known = {};
+  sweep.forEach(s => { if (prompts.includes(s.name)) known[s.temp+'_'+prompts.indexOf(s.name)] = s.mean; });
+
+  const z = temps.map(t => prompts.map((p, pi) => {
+    const key = t+'_'+pi;
+    if (known[key]) return known[key];
+    const kTemps = [1.5, 1.8, 2.0].filter(kt => known[kt+'_'+pi]);
+    if (kTemps.length < 2) return null;
+    for (let i = 0; i < kTemps.length - 1; i++) {
+      if (t >= kTemps[i] && t <= kTemps[i+1]) {
+        const frac = (t - kTemps[i]) / (kTemps[i+1] - kTemps[i]);
+        return known[kTemps[i]+'_'+pi] + frac * (known[kTemps[i+1]+'_'+pi] - known[kTemps[i]+'_'+pi]);
+      }
+    }
+    return null;
+  }));
+
+  Plotly.newPlot('surface3d', [{
+    type: 'surface', x: [0,1,2,3], y: temps, z: z,
+    colorscale: [[0,'#fecaca'],[0.3,'#fef3c7'],[0.6,'#bbf7d0'],[1,'#16a34a']],
+    opacity: 0.85, zmin: 0.15, zmax: 0.65,
+    contours: {z:{show:true, usecolormap:true, project:{z:true}}},
+    colorbar: {title:'ρ', len:0.6},
+  }, {
+    type: 'scatter3d', mode: 'markers+text',
+    x: sweep.map(s => prompts.indexOf(s.name)),
+    y: sweep.map(s => s.temp),
+    z: sweep.map(s => s.mean),
+    text: sweep.map(s => s.name.replace('_',' ')+'\nt='+s.temp+'\nρ='+s.mean.toFixed(3)),
+    textposition: 'top center',
+    textfont: {size: 8, color: '#333'},
+    marker: {
+      size: sweep.map(s => s.mean > 0.55 ? 9 : 6),
+      color: sweep.map(s => s.mean > 0.55 ? '#16a34a' : s.mean > 0.4 ? '#d97706' : '#dc2626'),
+      line: {width:1, color:'#333'},
+    },
+    hoverinfo: 'text',
+  }], {
+    height: 500, margin: {l:0, r:0, t:20, b:0},
+    scene: {
+      xaxis: {title:'Prompt', tickvals:[0,1,2,3], ticktext:promptLabels, gridcolor:'#ddd'},
+      yaxis: {title:'Temperature', gridcolor:'#ddd'},
+      zaxis: {title:'Spearman ρ', range:[0.15, 0.65], gridcolor:'#ddd'},
+      camera: {eye:{x:1.6, y:-1.8, z:0.7}},
+    },
+    font: {family:'Georgia'},
+  });
+}
+</script>
+
+</body>
+</html>

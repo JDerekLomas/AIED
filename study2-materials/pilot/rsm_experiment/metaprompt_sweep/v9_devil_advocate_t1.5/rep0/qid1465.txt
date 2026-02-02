@@ -1,0 +1,14 @@
+To accurately predict student performance on this BIDMAS (order of operations) question, we must look at common misconceptions rather than just mathematical correctness.
+
+**Analysis of misconceptions:**
+1.  **Left-to-Right Error:** Many students at the 'below_basic' and 'basic' levels ignore order of operations and calculate as they read: $3-5 = -2$; then $-2+4 = 2$; then $2 \times 2 = 4$. This leads to Option **B**.
+2.  **Addition before Subtraction:** Because of the acronyms BIDMAS or BODMAS, students often believe Addition MUST happen before Subtraction (because 'A' comes before 'S'). They calculate: $5+4 = 9$, then $3-9 = -6$, or even $3-(5+8)$. This leads to a variety of errors, though $4 \times 2$ is usually prioritized.
+3.  **The Bracket Trap:** Some students might perform the addition/subtraction and the multiplication separately and then apply a random sign: $(3-5+4) \times 2 \rightarrow 2 \times 2 = 4$.
+4.  **The Correct Path:** $4 \times 2 = 8$, then $3 - 5 + 8$. At this stage, some struggle with negative numbers. $-2 + 8 = 6$. This is Option **A**.
+
+**Teacher's Reality Check:** While this looks simple, the combination of a negative result in the first step (if going left to right) and the "Multiplication first" rule makes this a high-error question for non-proficient students.
+
+below_basic: A=15% B=55% C=15% D=15%
+basic: A=40% B=40% C=10% D=10%
+proficient: A=80% B=15% C=2% D=3%
+advanced: A=98% B=1% C=1% D=0%

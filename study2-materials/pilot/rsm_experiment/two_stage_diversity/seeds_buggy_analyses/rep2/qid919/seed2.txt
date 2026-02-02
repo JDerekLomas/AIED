@@ -1,0 +1,23 @@
+Here is the analysis of the mathematical misconception for this question:
+
+### 1. The Specific Misconception: "Order of Operations: Multiplication before Indices"
+The most common procedural error here is the **incorrect application of the BIDMAS/BODMAS hierarchy**, specifically the belief that multiplication by the coefficient (3) should happen before squaring the variable ($x$). 
+
+While Year 9 students are taught that Indices come before Multiplication, many hold a persistent "left-to-right" reading bias. Because the "3" appears before the "$x^2$" in the expression $3x^2$, students mistakenly treat the expression as $(3x)^2$.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would work through the problem as follows:
+1.  **Substitution:** They replace $x$ with $0.3$, writing the expression as $3 \times 0.3^2$.
+2.  **Premature Multiplication:** Instead of squaring first, they perform $3 \times 0.3$. They calculate this as $0.9$.
+3.  **Late Squaring:** They then take their result ($0.9$) and square it.
+4.  **Final Calculation:** They calculate $0.9 \times 0.9 = 0.81$.
+
+### 3. Which Answer Option?
+This misconception leads directly to **Option A: 0.81**.
+
+### 4. How natural/attractive is this error?
+This error is **extremely high-frequency and "sticky."** There are several reasons why a student would not realize they are wrong:
+
+*   **Linguistic Consistency:** In English, we read from left to right. When a student reads "$3x$ squared," they often perceive it as a single unit ($3x$) that is then being squared.
+*   **A "Nicer" Intermediate Number:** Squaring $0.3$ results in $0.09$. To a Year 9 student, $0.09$ often feels "too small" or "messy" because of the two decimal places. In contrast, multiplying $3 \times 0.3$ gives $0.9$, which feels like a much "cleaner" and more intuitive intermediate step.
+*   **Procedural Satisfaction:** $0.9 \times 0.9 = 0.81$ feels like a mathematically satisfying calculation. Because the resulting value ($0.81$) is included as an option, the student receives immediate "validation" for their incorrect process and is unlikely to double-check the order of operations.

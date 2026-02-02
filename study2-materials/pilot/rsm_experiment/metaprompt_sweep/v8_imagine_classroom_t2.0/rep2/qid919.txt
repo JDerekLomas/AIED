@@ -1,0 +1,12 @@
+Here is the predicted distribution for my Year 9 class of 30 students.
+
+**The Logic of the Wrong Answers:**
+*   **The Choice B (0.27) Trap:** This will be the most common mistake for "Below Basic" and "Basic" students. They follow BIDMAS correctly by squaring first ($0.3 \times 0.3 = 0.09$), but then their decimal multiplication fails them. They see "3 times 9 is 27" and intuitively place the decimal to make it "look right" ($0.27$), effectively treating $0.09$ as $0.9$.
+*   **The Choice D (2.7) Trap:** These students have a specific conceptual "over-correction." They calculate $0.3^2 = 0.09$ and then $0.09 \times 3 = 0.27$. However, they feel that $0.27$ is "too small" for a squared function, or they misplace the decimal point by one jump, thinking they need to preserve the scale of the original $x$ value.
+*   **The Choice C (1.8) Trap:** This is the "Linear Thinker." This student ignores the index completely and calculates $2(3x)$ or simply $y = (3 \times 0.3) \times 2$. 
+*   **The Choice A (0.81) Trap:** This student does $(3 \times 0.3)^2$. They violate BIDMAS by multiplying before squaring. They think $0.9 \times 0.9 = 0.81$. 
+
+below_basic: A=30% B=40% C=20% D=10%
+basic: A=20% B=50% C=10% D=20%
+proficient: A=10% B=15% C=5% D=70%
+advanced: A=0% B=5% C=0% D=95%

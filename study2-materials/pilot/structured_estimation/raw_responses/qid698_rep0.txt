@@ -1,0 +1,33 @@
+<chain_of_thought>
+This item asks students to find the probability of getting a 1 on both spinners, where spinner 1 has numbers 1-4 and spinner 2 has numbers 1-5. The correct approach is to multiply the individual probabilities: P(1 on first) = 1/4, P(1 on second) = 1/5, so P(both) = 1/4 * 1/5 = 1/20.
+
+The misconception tested is "when adding fractions, adds numerators and denominators." This connects to distractor A (1/9), which could come from adding 1/4 + 1/5 by incorrectly computing (1+1)/(4+5) = 2/9... wait, that's distractor C. Actually, if a student thinks P = 1/(4+5) = 1/9, that's distractor A. Distractor D (2/20) might come from a student who correctly multiplies but thinks there are two favorable outcomes. Distractor C (2/9) combines adding denominators and doubling numerators.
+
+Looking at calibration items: the equation-solving items range from 0.167 to 0.569 in classical difficulty. This probability item requires understanding of independent events and multiplication rule, which is a common area of difficulty. The spinners add visual complexity. I'd estimate this is moderately difficult - many students confuse the addition and multiplication rules for probability, and the misconception of adding fractions incorrectly is quite strong.
+
+Comparing to the calibration set, this feels similar in difficulty to the factorising item (0.473) or perhaps slightly easier since the concept is more straightforward once you know the rule. I'll estimate around 0.40-0.45 classical difficulty.
+
+For IRT discrimination, the distractors are well-designed to catch specific misconceptions, which should give reasonable discrimination. The guessing parameter should be modest since the distractors are attractive.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and directed number arithmetic. 
+
+**Analysis:**
+The correct order is $4 \times 2 = 8$, followed by $3 - 5 + 8$.
+- **The Correct Path:** $3 - 5 = -2$; $-2 + 8 = 6$ (Option A).
+- **Misconception 1 (Left to Right):** $(3 - 5) + 4 = 2$; $2 \times 2 = 4$ (Option B). This is a very common error for lower-ability students who ignore priority rules.
+- **Misconception 2 (AS Trap):** Students who think Addition must come before Subtraction (the "A" before "S" in BIDMAS) do $5 + 8 = 13$, then $3 - 13 = -10$ (Option D). 
+- **Misconception 3 (Parentheses Trap/Mixed):** Doing $3 - (5 + 8)$ or $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2$ (leading back to B) or other sign errors leading to -12 (Option C).
+
+The most significant "trap" here is that Option B feels like a very "neat" whole number calculation, and many students still fail to prioritize the multiplication over the linear string.
+
+below_basic: A=20% B=45% C=10% D=25%
+basic: A=45% B=30% C=5% D=20%
+proficient: A=75% B=15% C=2% D=8%
+advanced: A=95% B=2% C=1% D=2%

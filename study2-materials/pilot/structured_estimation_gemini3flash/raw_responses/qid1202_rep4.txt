@@ -1,0 +1,43 @@
+<chain_of_thought>
+The item asks students to solve the linear equation $3 - y = 5$. This is a classic "one-step" or "two-step" equation involving a negative variable term, which is a notorious stumbling block for UK secondary students (Key Stage 3 and 4).
+
+1.  **Mathematical Analysis**:
+    *   The correct solution is $y = -2$ (since $3 - (-2) = 5$).
+    *   Distractor A ($y = 2$): Results from $3 + y = 5$ or simply seeing the difference between 3 and 5 as 2 without considering the sign.
+    *   Distractor C ($y = 8$): Results from "using the same operation" (adding 3 and 5) or incorrectly moving the 3 over as an addition ($y = 5 + 3$).
+    *   Distractor D ($y = -8$): Results from $y = -(3 + 5)$.
+
+2.  **Psychometric Calibration**:
+    *   Comparing to the first calibration example ($-5 = p + 10$), which had a classical difficulty of 0.167 (very hard) and IRT $b$ of -0.702. Note: In this dataset, a lower $b$ often corresponds to a lower proportion correct, suggesting the scale might be inverted or specific to a low-ability cohort. However, looking at the sequence, as classical difficulty increases (0.16 -> 0.56), the IRT $b$ increases (-0.7 -> 0.8). This implies $b$ is positively correlated with the *ability* required, but the classical difficulty is quite low across the board.
+    *   The target item $3 - y = 5$ is conceptually similar to $-5 = p + 10$ but slightly more difficult due to the subtraction of the variable ($y$ vs $+p$). 
+    *   The misconception "uses same operation" is specifically targeted by Distractor C ($3+5=8$).
+    *   The discrimination is likely to be high because this specific structure (a - x = b) effectively separates students who understand inverse operations from those who use rote "change the side, change the sign" incorrectly.
+
+3.  **Parameter Estimation**:
+    *   Classical Difficulty: Likely low, similar to the first two examples. Many students will pick 2 or 8. I estimate ~0.22.
+    *   IRT Difficulty ($b$): Following the calibration trend, it should be between -0.6 and -0.3.
+    *   IRT Discrimination ($a$): These algebraic items show high discrimination (1.2 - 1.5). I'll estimate 1.4.
+    *   Guessing ($c$): Simple 1-step equations usually have low guessing parameters in this age group as students are confident in their (often wrong) methods.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.55</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,43 @@
+<chain_of_thought>
+Evaluating the expression 3 + 6 / 2 + 1 with BIDMAS:
+Step 1: 6 / 2 = 3
+Step 2: 3 + 3 + 1 = 7 --> Answer A
+
+The tested misconception is performing operations left to right without regard to operator precedence. This would yield: 3+6=9, 9/2=4.5, 4.5+1=5.5 --> Answer C.
+
+This is a straightforward BODMAS question using small whole numbers. No fractions, decimals, or negative numbers are involved. The arithmetic itself is trivial once the student identifies which operation to do first.
+
+Key consideration: how does this compare to the calibration items? The closest match is the BODMAS calibration item (0.4 - 1/5 x 3) with classical difficulty 0.134 and IRT b = -0.245. That item involved mixed number types (decimal and fraction) and multiplication, which arguably makes the arithmetic harder. However, that item might also make the priority more obvious because multiplication of a fraction is visually distinct from addition/subtraction.
+
+In this target item, the expression reads very naturally as a left-to-right sequence of simple operations. The numbers are small and inviting. I suspect the left-to-right pull might be stronger here than in the calibration item, potentially making this slightly harder despite simpler arithmetic.
+
+On the other hand, "3 + 6 / 2 + 1" is a textbook-standard BODMAS problem. Students who have been drilled on this will get it instantly. The population answering these diagnostic items likely includes a range from Year 7 to Year 11.
+
+My estimates:
+- Classical difficulty: 0.22 (somewhat harder than the calibration BODMAS item due to the seductive left-to-right flow)
+- IRT difficulty: -0.05 (just below average difficulty)
+- Discrimination: 1.35 (good but perhaps slightly lower than the calibration item because the simpler arithmetic means some weaker students might get lucky)
+- Guessing: 0.08 (mostly students either know BODMAS or fall for C, but some random selection among A/D is possible)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

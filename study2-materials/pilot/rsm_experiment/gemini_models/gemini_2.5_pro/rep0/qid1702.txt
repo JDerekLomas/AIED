@@ -1,0 +1,40 @@
+As a seasoned marker, this is a classic question that sorts students out based on their ability to handle substitution, negative signs in rearrangement, and decimal operations. Here's my breakdown after seeing 200 of these scripts.
+
+---
+### Teacher's Analysis
+
+**Correct Method:**
+1.  Substitute `y = 0.5` into `10x - 6y = 30`.
+2.  This gives `10x - 6(0.5) = 30`.
+3.  Calculate `6(0.5)` to get `3`. The equation becomes `10x - 3 = 30`.
+4.  Add `3` to both sides: `10x = 33`.
+5.  Divide by `10`: `x = 3.3`.
+6.  The correct answer is **C**.
+
+**Analysis of Wrong Answers:**
+
+*   **A) 4.25:** This is an unlikely result from a calculation error. It's most likely a random guess by students who have no idea how to start. Some might make a very strange arithmetic error like `30/6 = 5`, `5 - 0.5 = 4.5`, then get confused. It’s a "distractor for guessers".
+
+*   **B) -4.25:** As with A, this is very hard to arrive at through a procedural error. It’s another "I don't know" answer, possibly chosen because of the negative sign in the original equation.
+
+*   **D) 2.7:** This is the most common and "attractive" wrong answer. It comes from a classic algebraic error when rearranging.
+    *   The student incorrectly moves `-3` to the other side: `10x = 30 - 3` instead of `10x = 30 + 3`.
+    *   This gives `10x = 27`.
+    *   Then, `x = 2.7`.
+    *   This mistake is very common for students who have a procedural but not deep understanding of balancing equations.
+
+**Student Profile Predictions:**
+
+*   **Below Basic:** These students will struggle with the initial substitution and the concept of solving. They are most likely to guess, or make a fundamental error so significant that none of the answers match, leading to a guess. The most "maths-y" looking wrong answers are often appealing. I'd expect an even split between guessing randomly (A, B) and making the sign error (D).
+*   **Basic:** This group knows they need to substitute, but their core weakness is rearranging equations, especially with negative numbers. The trap of `10x = 30 - 3` is almost irresistible to them. A large majority will confidently select D.
+*   **Proficient:** These students have a solid grasp of the method. They will substitute correctly and know to add `3` to both sides. The vast majority will get this correct. A few might make a careless slip under exam pressure and fall into the D trap, but most would get C.
+*   **Advanced:** These students will execute the procedure flawlessly and quickly. They see the negative sign and are automatically on high alert for the classic rearrangement error. They may even do a mental check: `10(3.3) - 6(0.5) = 33 - 3 = 30`. It works. The chance of error is minimal.
+
+---
+
+### Predicted Percentages
+
+below_basic: A=25% B=20% C=15% D=40%
+basic: A=10% B=5% C=25% D=60%
+proficient: A=0% B=0% C=85% D=15%
+advanced: A=0% B=0% C=98% D=2%

@@ -1,0 +1,45 @@
+<chain_of_thought>
+The target item presents a linear equation in general form (4x + 3y = 5) and asks for the gradient. The correct answer is C: -4/3.
+
+To solve this, a student needs to:
+1. Recognize the equation is not in y = mx + c form
+2. Rearrange: subtract 4x from both sides -> 3y = -4x + 5
+3. Divide both sides by 3 -> y = (-4/3)x + 5/3
+4. Identify the gradient as -4/3
+
+The misconception "uses the same operation rather than the inverse" is relevant because when moving 4x to the other side, a student who adds instead of subtracts would get 3y = 4x + 5, leading to gradient 4/3 (option D).
+
+Distractor analysis:
+- A (-4): Student correctly changes sign but forgets to divide by 3
+- B (4): Student neither changes sign nor divides by 3 -- just reads off the coefficient
+- C (-4/3): Correct
+- D (4/3): Student forgets to change sign when rearranging (the tested misconception)
+
+All distractors are highly plausible and each captures a distinct error pattern. This makes the item diagnostically strong.
+
+Comparing to calibration anchors: This requires knowledge of coordinate geometry (gradient concept) plus algebraic manipulation. It combines two topic areas. The inequality item (b=0.808, difficulty 0.569) also required multi-step algebraic manipulation but was harder. This item is somewhat easier because the concept of rearranging to y=mx+c is well-drilled in GCSE preparation, but the fraction answer adds difficulty.
+
+I estimate this is moderately difficult -- around 0.48 classical difficulty. The IRT difficulty should be moderate, perhaps b=0.35. Discrimination should be good given the well-designed distractors. Some guessing is possible but limited since students tend to commit to specific errors rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

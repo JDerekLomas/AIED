@@ -1,0 +1,42 @@
+<chain_of_thought>
+Item: -4 + (-5) x 3 = ?
+A) 27, B) -27, C) -11, D) -19 (correct)
+
+This is a combined assessment of order of operations and negative number arithmetic. The primary misconception is left-to-right processing ignoring operator precedence.
+
+Correct path: (-5) x 3 = -15, then -4 + (-15) = -19 -> D
+
+Misconception path (left-to-right): -4 + (-5) = -9, then -9 x 3 = -27 -> B
+
+For option A (27): A student might do |(-4)+(-5)| x 3 = 9 x 3 = 27, combining left-to-right with absolute value errors. Or 4+5=9, 9x3=27 ignoring all negatives.
+
+For option C (-11): This is trickier to derive. Perhaps -4 + (-5) x 1 + something? Or maybe a student computes 5x3=15 then does -15+4=-11 (sign flip on the -4)? That actually works: if a student correctly applies BIDMAS to get -15 but then computes -15+4=-11 instead of -4+(-15)=-19, that's a reasonable error with negative addition. So C tests a secondary misconception about adding negative numbers.
+
+This item combines two difficulty sources: BIDMAS and negative arithmetic. Looking at the calibration set, the similar BIDMAS item (item 2) had classical difficulty 0.134. But that item's arithmetic was arguably more complex (decimals and fractions). Here the arithmetic is simpler integers but with multiple negatives.
+
+I think the negative numbers will trip up more students than expected, making this moderately difficult. The strong distractor B should capture many students. I'd estimate perhaps 30% get it wrong -- classical difficulty around 0.30.
+
+For IRT parameters, this maps to b around 0.1 to 0.2. Discrimination should be solid given the clear misconception being tested -- perhaps 1.3. Low guessing since answers are computationally derived.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

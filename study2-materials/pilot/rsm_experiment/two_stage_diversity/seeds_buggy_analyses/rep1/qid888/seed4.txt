@@ -1,0 +1,24 @@
+In the context of UK Year 9 algebra, the expansion of quadratic brackets often reveals fundamental issues with integer arithmetic and algebraic rules.
+
+### 1. The specific misconception: The Negative-Negative Product Error (Multiplication Bug)
+The specific bug is the **"Inconsistent Signed Integer Rule."** This occurs when a student correctly applies the addition rule for two negative numbers (identifying the middle term) but fails to apply the multiplication rule for two negative numbers (identifying the constant term).
+
+Specifically, the student believes that because they are "working with negatives," the final number must remain negative, overriding the "minus times a minus equals a plus" rule.
+
+### 2. Step-by-step walkthrough
+A student with this misconception would typically use the FOIL method or a grid:
+
+*   **Firsts:** $m \times m = m^2$. (Correct)
+*   **Outers & Inners:** The student calculates $-7m - 5m$. They correctly identify that "negative 7 take away another 5" results in $-12m$. (Correct)
+*   **Lasts:** The student calculates $-5 \times -7$. They know the absolute value is $35$. However, they think: *"The whole problem is about negatives, so it must stay negative,"* or they simply forget the sign-flip rule during the final step. They conclude $-5 \times -7 = -35$.
+*   **Assembly:** They combine the terms into $m^2 - 12m - 35$.
+
+### 3. Answer option
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. Attractiveness of the error
+This error is **highly natural and "sticky."**
+
+*   **Cognitive Load:** Expanding brackets requires several mental steps. Often, by the time a student reaches the fourth multiplication, their working memory is taxed, and they revert to a "dominant" feeling that the expression should be negative because the original brackets contained negatives.
+*   **Visual Consistency:** Looking at $(m-5)(m-7)$, there are two minus signs visible. A student often feels that the resulting quadratic should "match" the appearance of the input. They see a $(-)$ and a $(-)$, and they expect the final constant to look like a minus.
+*   **Lack of Verification:** Without substituting a number (like $m=0$) to check the result, the student has no "alarm" to tell them they are wrong. Because the $-12m$ part is correct, they gain a false sense of confidence that their process is working, making them unlikely to double-check the sign of the constant term.

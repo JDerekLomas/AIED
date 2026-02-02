@@ -1,0 +1,14 @@
+This question tests the order of operations (BIDMAS/BODMAS). While students are taught that multiplication and division have equal priority (left to right), and addition and subtraction have equal priority, the structure of this question often triggers a "left-to-right" bias in lower-ability students.
+
+**Breakdown of choices:**
+*   **B (13):** The correct answer. $(18 \div 2) + (2 \times 2) = 9 + 4 = 13$.
+*   **D (12):** The result of a "left-to-right" processing error: $18 \div 2 = 9$, then $9 + 2 = 11$, then $11 \times 2 = 22$... wait, 22 is option C. Students get 12 if they add first: $18 \div (2+2) \times 2 = 18 \div 4 \times 2 = 9$.
+*   **C (22):** The most common mistake. Students follow the operations strictly left-to-right: $18 \div 2 = 9 \rightarrow 9 + 2 = 11 \rightarrow 11 \times 2 = 22$.
+*   **A (3):** This occurs if a student does the entire right side first: $18 \div (2 + 2 \times 2) = 18 \div (2 + 4) = 18 \div 6 = 3$.
+
+The "left-to-right" trap is very strong here because the first operation encountered is division (which usually comes "first" in the acronyms anyway), making the middle addition the primary point of failure.
+
+below_basic: A=15% B=20% C=50% D=15%
+basic: A=10% B=45% C=35% D=10%
+proficient: A=5% B=80% C=12% D=3%
+advanced: A=1% B=96% C=2% D=1%

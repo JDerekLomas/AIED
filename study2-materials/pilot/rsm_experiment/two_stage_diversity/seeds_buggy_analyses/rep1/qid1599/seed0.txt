@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in Year 9 students regarding the hierarchy of operations in algebraic notation.
+
+### 1. The Misconception: "Order of Appearance Mapping"
+The specific bug is the **Failure to maintain grouping in division conversion.** In UK Year 9, students are taught that a vinculum (the fraction bar) acts as a grouping symbol similar to brackets. A common misconception occurs when a student ignores the brackets in the original horizontal expression $c \div (h+4)$, viewing the $\div$ sign as only applying to the term immediately following it, rather than the entire grouped expression.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would process the expression from left to right:
+*   **Step 1:** Look at the first part of the expression: $c \div h$.
+*   **Step 2:** Convert this specific "division part" into a fraction because they know that in algebra, "division means a fraction bar." They write this as $\frac{c}{h}$.
+*   **Step 3:** See the remaining part of the original expression: $+4$.
+*   **Step 4:** Append the remaining term to their fraction without realizing that the original brackets intended the $+4$ to be part of the divisor (the denominator). They result in the expression $\frac{c}{h} + 4$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option C: $\frac{c}{h} + 4$**.
+
+### 4. Attractiveness and "Stealth" of the Error
+This error is **highly natural** for three reasons:
+
+*   **Left-to-Right Processing:** Students are conditioned by years of arithmetic to read and solve expressions from left to right. Transforming only the first two elements $(c \div h)$ feels like a natural "first step."
+*   **Visual Similarity:** Option C contains all the original characters in the original order. To a novice eye, $\frac{c}{h} + 4$ "looks" like the original linear string $c, \div, h, +, 4$ more than the "compact" Option A does.
+*   **The "Invisible Bracket" Paradox:** Students often think that if they "use" the division symbol to make the fraction, the brackets are "done with" and can be discarded. 
+
+**Would the student realize?**
+Most likely **not**. A student choosing C would feel confident because they have correctly applied the rule "algebra doesn't use $\div$ signs" and "algebra uses fractions." Because they have successfully translated every character of the prompt into a mathematical symbol, they lack the internal "check" (the understanding of the vinculum as a grouping tool) to realize they have fundamentally changed the order of operations.

@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing this item about identifying which calculation equals -20. Students need to evaluate four expressions involving negative numbers and select the correct one.
+
+Evaluations:
+A) 2 × (-2) - (-4) × 4 = (-4) - (-16) = -4 + 16 = 12
+B) -28 - (-4) × 2 = -28 - (-8) = -28 + 8 = -20 ✓
+C) (-5)^2 + 5 = 25 + 5 = 30
+D) (-42) ÷ (-2) + 1 = 21 + 1 = 22
+
+The misconception "believes multiplying two negatives gives a negative answer" is tested here. This misconception would cause errors in options C and D specifically: if a student thinks (-5)^2 = -25, option C gives -25+5 = -20; if they think (-42)÷(-2) = -21, option D gives -21+1 = -20. Both become perfect traps.
+
+This item is interesting because it doesn't just test one operation - it requires sustained correct handling of negative numbers across multiple sub-calculations. The format of "evaluate and match" adds procedural burden compared to a single computation.
+
+For difficulty estimation, I note that negative number arithmetic is a persistent difficulty area in UK secondary maths. The misconception about squaring negatives (option C) is extremely common - many students at KS3 and even KS4 believe (-5)^2 = -25. This makes C a particularly dangerous distractor. The division of two negatives in D is similarly problematic.
+
+Given that two distractors are specifically engineered to exploit the tested misconception and yield exactly -20, I expect this item to be moderately difficult. Compared to the factorising calibration item (same misconception, classical difficulty 0.473), this is more computational but the distractors are arguably even more targeted. I'd estimate slightly higher difficulty - perhaps around 0.55 proportion incorrect.
+
+Discrimination should be moderate to good. The systematic nature of the misconception means it cleanly separates students who understand negative multiplication from those who don't. However, the multiple calculations introduce some noise from careless errors by able students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>8</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

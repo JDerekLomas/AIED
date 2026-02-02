@@ -1,0 +1,10 @@
+One specific reason why students might find this question difficult is a **"left-to-right processing" visual trap**, where the spatial arrangement of the symbols overrides the rules of PEMDAS/BODMAS.
+
+Specifically, the question presents the addition ($5+4$) in the middle of the expression, flanked by subtraction on the left and multiplication on the right. Many students develop a robust but incorrect heuristic of **"reading the expression like a sentence."**
+
+When applying this incorrect heuristic, a student’s thought process follows this specific sequence:
+1.  **3 minus 5**: They compute $-2$.
+2.  **Add 4**: They take their previous result and add $4$, arriving at $+2$.
+3.  **Multiply by 2**: They take that result and multiply by $2$, yielding **$4$ (Option B)**.
+
+The notation is particularly "sticky" for this error because the multiplication ($4 \times 2$) is placed at the end of the line. Because the human eye scans left-to-right, students often intuitively perform the "weaker" operations (subtraction and addition) first simply because they encounter them first, viewing the multiplication as a final "action" to be performed on the total of the preceding string rather than an operation with high precedence that must be isolated.

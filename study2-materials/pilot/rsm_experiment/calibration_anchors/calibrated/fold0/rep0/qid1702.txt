@@ -1,0 +1,16 @@
+To calibrate for these students, we must acknowledge a recurring trend in the mock data: a significant portion of the cohort consistently struggles with order of operations (BIDMAS), negative numbers, and rearranging linear equations. 
+
+Specifically, in the $4x + 2y = 10$ calibration question, 77% of students chose D (2.5), suggesting they ignore the $y$ term and simply divide the constant by the $x$-coefficient ($10 \div 4 = 2.5$). In the $y = 3x^2$ question, 75% chose C (1.8), likely from multiplying the base by the index ($0.3 \times 3 \times 2$). 
+
+For the question $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30$:
+- **A (3.3):** The result of $10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$. This is the correct answer.
+- **B (2.7):** Result of a sign error: $10x + 3 = 30 \Rightarrow 10x = 27 \Rightarrow x = 2.7$. Very attractive to "proficient" students who know how to substitute but mess up the negative.
+- **C (4.25):** Misinterpreting the $y$ value as being part of the $10x$ term or incorrect division order.
+- **D (-4.25):** Random sign variation of C.
+
+However, based on the $10x - 6y = 30$ structure, many "below basic" students will likely just do $30 \div 10$ (ignoring $y$) or $30 - 0.5$, or attempt to divide $30 \div (10 - 6)$. Option D ($2.7$) is a very high-frequency error for students who perform partial substitutions but fail on the additive inverse.
+
+below_basic: A=10% B=15% C=25% D=50%
+basic: A=15% B=20% C=25% D=40%
+proficient: A=25% B=30% C=15% D=30%
+advanced: A=65% B=15% C=10% D=10%

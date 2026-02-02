@@ -1,0 +1,18 @@
+As a UK maths teacher, I evaluate this question on adding algebraic fractions with unequal denominators. The common denominators are relatively simple ($2x$ and $x$), which makes the leap to finding a common denominator more manageable than if the denominators were linear expressions (e.g., $x+2$).
+
+**Analysis of Options:**
+*   **A (Correct):** Students multiply $\frac{4}{x}$ by $\frac{2}{2}$ to get $\frac{8}{2x}$, then add the numerators ($3+8=11$).
+*   **B (Misconception - "Add across"):** Students add the numerators ($3+4=7$) and add the denominators ($2x+x=3x$). This is the most common error for students who do not understand that fractions require a common denominator.
+*   **C (Misconception - Incomplete Denominator):** Students realize they need a common denominator but fail to adjust the numerator correctly (calculating $3+8$) or they add $3+4$ and choose the "standard" $x$ denominator, losing the coefficient.
+*   **D (Misconception - Partial Common Denominator):** Students identify $2x$ as the denominator but forget to multiply the numerator of the second fraction, simply adding $3+4$.
+
+**Ability Level Predictions:**
+*   **Below Basic:** These students struggle with the concept of common denominators even in numerical fractions. They will almost exclusively gravitate towards B (adding across).
+*   **Basic:** These students know they shouldn't just add across, but often forget to scale the numerator. They frequently pick D.
+*   **Proficient:** These students have a solid grasp of the method but can still make "slip" errors with the numerator. Most will get A.
+*   **Advanced:** This is a routine "1-mark" style question for these students. Errors will be negligible.
+
+below_basic: A=15% B=55% C=10% D=20%
+basic: A=45% B=20% C=5% D=30%
+proficient: A=82% B=5% C=3% D=10%
+advanced: A=97% B=1% C=1% D=1%

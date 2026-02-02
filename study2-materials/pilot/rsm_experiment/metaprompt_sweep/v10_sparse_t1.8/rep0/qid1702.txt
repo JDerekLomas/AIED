@@ -1,0 +1,35 @@
+In a UK secondary school context (Key Stage 3 or GCSE Foundation/Higher), this question tests linear substitution and solving two-step equations. The presence of decimals and a negative coefficient for $y$ are the primary "distractors" that separate ability levels.
+
+Here is the prediction of student responses:
+
+**below_basic: A=20% B=15% C=45% D=20%**
+*   **Analysis:** Students at this level often struggle with the order of operations and the equals sign. Many will try to combine the numbers given in the equation ($30 + 10 - 6 - 0.5$) or simply add 0.3 to 3. 
+*   **The "C" Trap:** A very common error at this level is ignoring the $y$ entirely or doing $30 \div 10 + 0.3$, leading them to gravitate toward **C** because it "looks" like the numbers provided ($3.3$).
+
+**basic: A=35% B=15% C=15% D=35%**
+*   **Analysis:** These students understand they need to substitute $y=0.5$. 
+*   **The Error:** Many will calculate $6 \times 0.5 = 3$, but then make a transposition error: $10x - 3 = 30 \Rightarrow 10x = 27 \Rightarrow x = 2.7$. This makes **D** a very high-frequency "near-miss" error. 
+*   **Choice A:** Some will correctly get $10x = 33 \Rightarrow x = 3.3$, but then get confused by the decimal and pick A because they expect a more complex-looking answer.
+
+**proficient: A=15% B=5% C=5% D=75%**
+*   **Analysis:** Proficient students (Grade 4/5) usually handle the substitution $6 \times 0.5 = 3$ correctly. 
+*   **The Trap:** This is the level where the "sign error" is most lethal. A student might correctly write $10x - 3 = 30$, but in a rush, subtract 3 from 30 instead of adding it, resulting in $27 \div 10 = 2.7$ (**D**). They feel confident because 2.7 is an option.
+
+**advanced: A=92% B=2% C=1% D=5%**
+*   **Analysis:** Students targeting Grade 7+ will treat this as a routine two-step process:
+    1.  $10x - 6(0.5) = 30$
+    2.  $10x - 3 = 30$
+    3.  $10x = 33$
+    4.  $x = 3.3$
+*   **Note:** Wait—there is a **typing error in the original prompt's options**. The correct mathematical answer is **3.3**, which is option **C**. However, in a standardized test scenario, Advanced students would identify **C** immediately. *If C was intended to be a distractor and A was the "correct" key for a different version of the question, Advanced students would spot the error.* 
+
+Assuming **C (3.3)** is the intended correct answer based on the calculation $10x - 3 = 30 \Rightarrow x = 3.3$:
+
+**Corrected Predicted Table (based on C being the correct answer):**
+
+| Ability Level | A (4.25) | B (-4.25) | C (3.3) | D (2.7) |
+| :--- | :--- | :--- | :--- | :--- |
+| **below_basic** | 15% | 10% | **45%** | 30% |
+| **basic** | 20% | 10% | **35%** | 35% |
+| **proficient** | 10% | 5% | **65%** | 20% |
+| **advanced** | 2% | 1% | **95%** | 2% |

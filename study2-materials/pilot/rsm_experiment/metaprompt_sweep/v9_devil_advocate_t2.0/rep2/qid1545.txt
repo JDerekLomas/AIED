@@ -1,0 +1,21 @@
+To predict student performance on this question, we must account for "The BIDMAS/BODMAS Trap." To a mathematician, the answer is clear ($11 > 5$), but students frequently process operations from left to right regardless of the rules, or believe that because the numbers are the same on both sides, they must be equal.
+
+**Analysis of student errors:**
+1.  **Left-to-right error (Left Side):** $8 + 12 = 20$; $20 \div 4 = 5$. This leads students to think the left side is $5$.
+2.  **Brackets priority (Right Side):** Even weak students usually know brackets come first, giving $20 \div 4 = 5$.
+3.  **The "Symmetry" Trap:** Students see $8, 12, 4$ on both sides and instinctively choose "$=$" (Option C) without calculating, assuming the brackets don't change the value.
+4.  **Misestimating the Inequality:** Students who calculate correctly ($11$ and $5$) may still mix up the $>$ and $<$ symbols.
+
+Here is the predicted distribution:
+
+below_basic: A=15% B=20% C=60% D=5%
+*(Below basic students overwhelmingly choose 'C' because the numbers match, or 'B' because they calculate the left side as 5 and guess that brackets make the right side 'bigger'.)*
+
+basic: A=25% B=30% C=40% D=5%
+*(Basic students are prone to the left-to-right error on the left side, leading them to see 5 vs 5 and choosing '='. If they realize they are different, they often flip the inequality sign.)*
+
+proficient: A=65% B=15% C=18% D=2%
+*(Proficient students usually apply BIDMAS correctly to get 11 and 5. The errors here are mainly due to rushing or mixing up the 'greater than' and 'less than' symbols.)*
+
+advanced: A=94% B=3% C=2% D=1%
+*(Advanced students rarely miss BIDMAS questions, but occasional slips in reading the inequality sign or 'over-thinking' the equality could occur.)*

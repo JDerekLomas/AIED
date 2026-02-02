@@ -1,0 +1,27 @@
+As a UK maths teacher, I encounter this specific rearrangement task frequently when preparing students for GCSE Higher Tier (Level 6-9) or IGCSE. It tests two distinct skills: recall of the geometric formula for the volume of a sphere and the algebraic proficiency required to change the subject of a formula involving fractions and powers.
+
+### Step 1 — Analysis of Reasoning
+
+*   **A) $\sqrt[3]{\frac{4 V \pi}{3}}$**: This error stems from incorrect algebraic manipulation of the fraction. The student understands that they need to "get rid" of the $\frac{4}{3}$ and $\pi$, but they have multiplied $V$ by both the numerator (4) and $\pi$ instead of dividing. They correctly identified the cube root but failed the balancing method.
+*   **B) $\sqrt[3]{\frac{4 V}{3 \pi}}$**: This is a very common "visual" error. The student remembers the $\frac{4}{3}$ from the original formula ($V = \frac{4}{3}\pi r^3$) and keeps it in that exact orientation in the final fraction, effectively only moving the $\pi$ and applying the root. They haven't grasped that to isolate $r$, you must multiply by the reciprocal of the coefficient.
+*   **C) $\sqrt[3]{\frac{3 V}{4 \pi}}$**: **Correct Reasoning.** Starting with $V = \frac{4}{3}\pi r^3$, the student multiplies both sides by 3 ($3V = 4\pi r^3$), divides by $4\pi$ ($\frac{3V}{4\pi} = r^3$), and then takes the cube root of the entire expression.
+*   **D) $\frac{3 \sqrt[3]{V}}{4 \pi}$**: This student likely has "fragmented" algebraic skills. They know a cube root is involved and they know 3, 4, and $\pi$ are part of the answer, but they haven't applied the root to the entire expression. They may have tried to rearrange and then "stuck" a root symbol on the $V$ alone, or they are confusing the rules of coefficients.
+
+---
+
+### Step 2 — Predicted Distributions
+
+I have categorized these levels based on typical GCSE grades (9-1):
+*   **Below Basic** (Grades 1-3): Struggling with formula recall and multi-step equations.
+*   **Basic** (Grades 4-5): Can recall the formula but often makes "one-step" rearrangement errors.
+*   **Proficient** (Grades 6-7): Secure with the formula; occasional errors with complex fractions.
+*   **Advanced** (Grades 8-9): High fluency in multi-step algebraic manipulation.
+
+| Ability Level | A | B | C (Correct) | D |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 35% | 30% | 15% | 20% |
+| **Basic** | 25% | 35% | 30% | 10% |
+| **Proficient** | 10% | 15% | 70% | 5% |
+| **Advanced** | 2% | 3% | 95% | 0% |
+
+**Teacher's Note:** Option B is the "distractor of choice" for mid-ability students because it maintains the visual structure of the $4/3$ fraction they memorized for the volume formula. Many students find it counter-intuitive to "flip" the fraction when rearranging.

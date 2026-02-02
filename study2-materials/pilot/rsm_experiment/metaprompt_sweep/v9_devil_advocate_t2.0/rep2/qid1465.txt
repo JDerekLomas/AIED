@@ -1,0 +1,19 @@
+To predict the performance of UK students (ranging from Key Stage 3 to GCSE), we must consider the specific pitfalls of order of operations (BIDMAS/BODMAS) and directed number arithmetic.
+
+The correct path is: $3 - 5 + (4 \times 2) = 3 - 5 + 8 = -2 + 8 = 6$ (**A**).
+
+**Common Misconceptions:**
+1.  **Left-to-Right Processing (Ignoring BIDMAS):** $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$ (**B**).
+2.  **"Addition before Subtraction" Misinterpretation:** Students often believe the 'A' comes before 'S' in BIDMAS literally. They calculate $5 + 8 = 13$, then $3 - 13 = -10$ (**D**).
+3.  **Operation Coupling:** Doing $3 - 5 = -2$ and then accidentally multiplying $4 \times 2 = 8$, but subtracting the 8 because of the sign: $-2 - 8 = -10$.
+4.  **Complete order of operations failure:** $(3-5+4) \times 2 = 2 \times 2 = 4$ or other variations leading to C or D.
+
+**Below Basic:** These students rarely apply BIDMAS and usually calculate strictly left-to-right. Option B is very attractive to them.
+**Basic:** These students know BIDMAS exists but often fall into the "Addition must happen before Subtraction" trap (Option D).
+**Proficient:** They handle the multiplication first but sometimes struggle with $3 - 5 + 8$, potentially making a sign error.
+**Advanced:** Most will get this correct, but a small percentage will make a "careless" error by doing addition before subtraction due to the mnemonic.
+
+below_basic: A=15% B=55% C=10% D=20%
+basic: A=35% B=25% C=5% D=35%
+proficient: A=70% B=10% C=5% D=15%
+advanced: A=92% B=3% C=0% D=5%

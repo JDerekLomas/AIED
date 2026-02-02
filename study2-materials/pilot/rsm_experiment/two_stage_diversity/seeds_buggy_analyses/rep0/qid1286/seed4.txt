@@ -1,0 +1,27 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in UK Year 9 students (ages 13–14) who are just beginning to master **subject rearrangement with fractions.**
+
+### 1. The Misconception: "Reciprocal Neglect" (Improper Division by a Fraction)
+The specific bug is the **misapplication of the multiplicative inverse** when moving the coefficient $\frac{4}{3}$ to the other side of the equation. 
+
+Instead of multiplying the volume ($V$) by the reciprocal of the fraction ($\frac{3}{4}$), the student intuitively feels they should "multiply the fraction into the variable" or divide in a way that preserves the original positions of the numbers (placing the 4 on top and the 3 on the bottom).
+
+### 2. Step-by-Step Student Work
+A student with this misconception would follow these steps:
+
+1.  **Recall the formula:** $V = \frac{4}{3}\pi r^3$.
+2.  **Isolate the $r$ term:** The student knows they need to move $\frac{4}{3}\pi$ to the other side.
+3.  **The Error:** When "moving" $\frac{4}{3}$ across the equals sign, the student thinks: *"I need to multiply $V$ by the numbers in the formula."* They simply append the $V$ to the existing fraction or perform a "cross-multiplication" where the 4 stays in the numerator. They write:
+    $$\frac{4V\pi}{3} = r^3$$
+    (In their head, they are thinking: "The 4 and $\pi$ are on top, the 3 is on the bottom, so $V$ just joins the top group.")
+4.  **Solve for $r$:** To undo the cube, they apply the cube root to their entire expression:
+    $$r = \sqrt[3]{\frac{4V\pi}{3}}$$
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option A**: $\sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm}$.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "correct" to a Year 9 student for three reasons:
+
+*   **Visual Preservation:** Option A looks the most like the original formula ($V = \frac{4}{3}\pi r^3$). The 4 is still "upstairs" and the 3 is "downstairs." Many students at this level lack the algebraic confidence to "flip" a formula so that it looks different from its textbook definition.
+*   **Surface-Level Rearrangement:** Many students are taught "Change the Side, Change the Sign." If they see 4 as a multiplier and 3 as a divisor, they often get confused when both are present in a single fraction. They may correctly move the 3 up but then forget to move the 4 down, or vice-versa.
+*   **Confidence:** Without substituting numbers to check the logic (e.g., "If $V$ is larger, $r$ should be larger"), the student will not realize they have swapped the roles of the numerator and denominator. Because the expression contains all the "correct" characters ($V$, $4$, $3$, $\pi$, and $\sqrt[3]{}$), the student will likely feel very confident and select Option A without a second thought.

@@ -1,0 +1,43 @@
+<chain_of_thought>
+Target item: 3/4 - 1/4 × 1/5
+
+To solve correctly: apply BODMAS. Multiplication before subtraction.
+1/4 × 1/5 = 1/20
+3/4 - 1/20: convert to common denominator 20 → 15/20 - 1/20 = 14/20 = 7/10 → C
+
+The misconception (left-to-right): 3/4 - 1/4 = 1/2, then 1/2 × 1/5 = 1/10 → B
+
+I want to think about what makes this item potentially tricky beyond just the order of operations issue. The fact that all operands are fractions means students need fluency in fraction multiplication AND subtraction with unlike denominators. A student might know BODMAS but still get stuck converting 3/4 to 15/20. This could lead them to guess or make arithmetic mistakes, possibly landing on A or D.
+
+However, for the target population (UK Key Stage 3-4), fraction arithmetic is a core skill and BODMAS is explicitly taught. Many students will have encountered similar problems. The question is how well the BODMAS concept has been retained.
+
+Looking at the calibration data more broadly: the first calibration item (simple linear equation, misconception about inverse operations) had difficulty 0.167 and b = -0.702. The order-of-operations calibration item had difficulty 0.134 and b = -0.245 — note the higher discrimination (1.552) drove the lower b despite the lower classical difficulty.
+
+For this item, I think the fraction context pushes classical difficulty higher than 0.134 but not dramatically so. Perhaps 0.17-0.23. The b parameter depends on discrimination — with strong discrimination, even moderate classical difficulty can yield a negative b.
+
+One consideration: the answer choices are all in different forms. C is 7/10 which is a reduced fraction. Students doing the correct computation get 14/20 and need to simplify. If they don't simplify, they won't see their answer among the choices, which could cause confusion. But 14/20 = 7/10 is a straightforward simplification.
+
+I'll estimate classical difficulty around 0.19, with good discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.19</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

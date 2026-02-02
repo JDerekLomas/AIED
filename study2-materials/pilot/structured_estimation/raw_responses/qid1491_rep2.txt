@@ -1,0 +1,45 @@
+<chain_of_thought>
+Evaluating (-2)^4. The correct answer is 16 (C).
+
+This is a fundamental question about powers of negative numbers. Let me consider the student population carefully. UK secondary students ages 11-16 would encounter this topic around Year 8-9 (ages 12-14). By age 14+, most should be comfortable with this, but younger students and those with weak number sense will struggle.
+
+The misconception "believes multiplying two negatives gives a negative answer" is deeply rooted. Research consistently shows this is one of the most persistent misconceptions in mathematics education. Even students who can correctly state the rule "negative times negative is positive" often fail to apply it consistently, especially when the context involves exponents.
+
+With (-2)^4, students need to:
+1. Recognize this means (-2) multiplied by itself 4 times
+2. Know that (-2)*(-2) = 4
+3. Then 4*(-2) = -8
+4. Then -8*(-2) = 16
+
+Or more efficiently: (-2)^2 = 4, then 4^2 = 16.
+
+The step-by-step computation involves keeping track of signs through multiple multiplications, which increases cognitive load somewhat. However, if students know the shortcut (even exponent = positive), it's trivial.
+
+I want to compare this more carefully to the calibration items. The easiest calibration item (solving -5=p+10) has classical difficulty 0.167. That's a basic equation. The hardest (solving an inequality) has 0.569. This item sits in between - it's conceptually tricky due to the sign issue but procedurally simple.
+
+I'm going to estimate this is moderately difficult, perhaps around 0.45-0.50 incorrect, because the misconception is so strong. Many students will confidently choose -16. The IRT difficulty should be moderate, around 0.3-0.5. Discrimination should be good since it cleanly separates those who understand the sign rule from those who don't.
+
+Actually, I want to revise upward on difficulty. The strong pull of distractor A (-16) combined with the operation confusion distractors (B and D) means a substantial fraction will err. I'll estimate 0.48.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.42</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

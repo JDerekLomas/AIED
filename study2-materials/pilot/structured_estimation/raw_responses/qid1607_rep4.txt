@@ -1,0 +1,51 @@
+<chain_of_thought>
+Item analysis: Students must judge Isaac's two-step solution of 15 = (1+k)/4.
+
+Verification of Isaac's work:
+- Step 1: 15 × 4 = 60 = 1 + k. Correct. He applied the inverse operation (multiply by 4) to undo division by 4.
+- Step 2: From 60 = 1 + k, Isaac writes 61 = k. Wrong. He should subtract 1 from both sides to get k = 59, but instead he added 1 (same operation as appears in the equation). This is the textbook "same operation instead of inverse" misconception.
+
+Correct answer: A (Only Step 1).
+
+Difficulty analysis from multiple angles:
+
+Content difficulty: The underlying equation involves a fraction, making it moderately challenging for KS3/KS4 students, but the actual operations (multiply by 4, subtract 1) are basic. The conceptual demand is recognizing correct vs incorrect inverse operations.
+
+Format difficulty: "Which steps are correct?" questions require students to evaluate rather than produce, which research shows is sometimes easier (recognition vs recall) but sometimes harder (requires explicit metacognitive checking of each step). For weaker students, the evaluative format can be harder because they may lack the monitoring skills to detect errors.
+
+Distractor analysis:
+- A (correct): Only Step 1 — requires recognizing Step 2 has the inverse operation error
+- B: Only Step 2 — unlikely, would mean thinking multiplication by 4 was wrong but adding 1 was right
+- C: Both correct — the primary attractor, for students who share the misconception or don't check carefully
+- D: Both incorrect — for students who can't verify the fraction multiplication
+
+I expect C to be the dominant wrong answer, with D as secondary.
+
+Anchoring against calibration: This is most comparable to the function machine item (same misconception, b = 0.002, difficulty 0.295) but with an evaluative rather than visual format. The evaluative framing could make it slightly harder. I'll estimate classical difficulty around 0.35-0.42 and IRT b around 0.10-0.25.
+
+Discrimination: Items testing this misconception show decent discrimination (1.05-1.55 range in calibration). The evaluative format might slightly reduce discrimination because some able students might rush and misread. I'll estimate around 1.15-1.30.
+
+Guessing: With four options and B being quite implausible, this effectively functions more like a 3-option item (A, C, D), so baseline guessing might be slightly above 0.25/4 = 0.0625. But I'll keep it modest.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.18</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

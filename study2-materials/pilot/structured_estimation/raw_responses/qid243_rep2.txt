@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: Solve 3n + 2 >= 4n - 5. Answer choices: A) -3 >= n, B) 1 >= n, C) 7 >= n (correct), D) n >= 7.
+
+Solution path: Rearrange to isolate n. One approach: subtract 3n from both sides → 2 >= n - 5 → add 5 → 7 >= n. This is a two-step algebraic manipulation requiring understanding of inverse operations with inequalities.
+
+The misconception "uses the same operation rather than the inverse" is central here. Let me think about how prevalent this misconception is across age groups. For younger students (11-13), this is a very common error as they're just learning equation solving. For older students (14-16), many will have automatized inverse operations, but inequalities add a layer of complexity that can reintroduce errors.
+
+Considering the distractor analysis more carefully:
+- Distractor A (-3 >= n): 2 - 5 = -3 rather than 2 + 5 = 7. The student moved -5 across by keeping the subtraction (same operation) rather than adding. This is the primary misconception target.
+- Distractor B (1 >= n): Less obvious derivation. Perhaps 3 - 2 = 1, confusing coefficients with constants.
+- Distractor D (n >= 7): Correct magnitude but inequality direction wrong. Very tempting for students who solve correctly then rewrite as "n >= 7" because they're used to having the variable on the left.
+
+Compared to the anchor item (2n+3 <= 3n-7, difficulty 0.569, b=0.808), this item has the same structure. The key difference is the direction of the inequality and specific numbers. The coefficient difference (4n - 3n = n) is identical to the anchor (3n - 2n = n), so no additional complexity there. The constant arithmetic (2 + 5 = 7 vs 3 + 7 = 10) is comparable.
+
+However, I note that distractor D may be more plausible here because 7 >= n and n >= 7 look very similar, potentially catching students who solve correctly but misread the direction. This could push difficulty slightly higher.
+
+I estimate classical difficulty around 0.56, IRT b around 0.75, with moderate discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.56</classical_difficulty>
+<irt_difficulty>0.75</irt_difficulty>
+<irt_discrimination>1.05</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

@@ -1,0 +1,14 @@
+This question specifically tests two potential pitfalls: the confusion between multiplication and exponentiation (resulting in 12 or -12) and the sign rule for negative bases with even exponents (resulting in -81).
+
+At the **below_basic** level, students often default to additive reasoning or simple multiplication ($3 \times 4 = 12$) and frequently ignore the sign of the base or apply it inconsistently.
+
+At the **basic** level, most students recognize the exponent requires repeated multiplication ($3 \times 3 \times 3 \times 3$), but many struggle with the negative sign. A common misconception here is that "if the base is negative, the answer must be negative," leading them to choose -81.
+
+At the **proficient** level, students generally understand the calculation $3^4 = 81$, but under exam pressure, a significant minority will still incorrectly evaluate $(-3)^4$ as $-81$, often influenced by how non-scientific calculators (or poorly bracketed inputs) display the result.
+
+At the **advanced** level, students are well-versed in the rule that an even power of a negative number is positive and rarely make the sign error, though a very small percentage might make a calculation slip.
+
+below_basic: A=20% B=40% C=15% D=25%
+basic: A=35% B=15% C=40% D=10%
+proficient: A=65% B=5% C=28% D=2%
+advanced: A=96% B=1% C=3% D=0%

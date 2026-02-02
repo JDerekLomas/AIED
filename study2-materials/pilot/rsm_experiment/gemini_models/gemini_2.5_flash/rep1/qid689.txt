@@ -1,0 +1,32 @@
+Okay, marking 200 of these, I've seen it all. Let's break down the student thinking for each option.
+
+*   **Correct Answer Logic (\( p=0.5 \))**:
+    *   Start with \( 10 = \frac{5}{p} \).
+    *   Multiply both sides by \( p \): \( 10p = 5 \).
+    *   Divide both sides by \( 10 \): \( p = \frac{5}{10} = \frac{1}{2} = 0.5 \).
+    *   Alternatively, reciprocal method: If \( 10 = \frac{5}{p} \), then \( \frac{1}{10} = \frac{p}{5} \). Multiply by 5: \( p = \frac{5}{10} = 0.5 \).
+    *   Mental "what divides 5 to get 10?" approach: \( 5 \div x = 10 \Rightarrow x=0.5 \).
+
+*   **Option B (\( p=50 \)) Logic**:
+    *   This is the classic "I need to multiply somewhere" error, often when trying to isolate 'p'.
+    *   A student might see \( 10 = \frac{5}{p} \) and think "to get 'p' on its own, I'll move the 5... so \( p = 10 \times 5 = 50 \)." They are treating the '5' as a divisor rather than a dividend, or fundamentally misunderstanding how to undo division when the variable is in the denominator.
+    *   Could also be a "cross-multiplication" attempt where they incorrectly assume \( \frac{10}{1} = \frac{5}{p} \) and then somehow turn it into \( p = 10 \times 5 \).
+    *   This error shows a weakness in algebraic manipulation with fractions.
+
+*   **Option C (\( p=2 \)) Logic**:
+    *   This comes from inverting the fraction *and* inverting the main number, or simply performing the division \( \frac{10}{5} \) or \( \frac{p}{5} = 10 \Rightarrow p=50 \) and then 'seeing' the '2'.
+    *   More commonly, a student might incorrectly try to "divide by 5" and get \( \frac{10}{5} = p \) so \( p=2 \). They're seeing the division sign, but performing \( \frac{\text{left side}}{\text{numerator}} \) instead of dealing with the denominator variable properly.
+    *   Another way: If \( 10 = \frac{5}{p} \), they might incorrectly see \( p = \frac{10}{5} \).
+    *   This is an error in understanding the reciprocal nature of the equation and incorrect isolation of \( p \).
+
+*   **Option D (No solutions) Logic**:
+    *   Students selecting this often panic when the variable is in the denominator, or they reach a point where they believe they have divided by zero (e.g., if they were trying to deal with a case like \( \frac{k}{p}=0 \), not applicable here).
+    *   Less common for this specific equation, unless they've utterly garbled their calculation and reached an illogical state or think that you can't have a non-integer or decimal solution (though it's multiple choice so the options are given). Might occur if they misinterpret \( p=0 \) as being possible at some point.
+    *   Very low probability for this equation unless they just gave up or have significant misconceptions about variables and solutions.
+
+---
+
+below_basic: A=10% B=45% C=35% D=10%
+basic: A=30% B=35% C=25% D=10%
+proficient: A=70% B=15% C=10% D=5%
+advanced: A=95% B=0% C=2% D=3%

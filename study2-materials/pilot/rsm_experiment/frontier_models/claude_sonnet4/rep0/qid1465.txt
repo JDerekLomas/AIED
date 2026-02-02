@@ -1,0 +1,17 @@
+Let me think through the common errors for this order of operations question.
+
+The correct answer is A) 6, following BIDMAS/BODMAS:
+3 - 5 + 4 × 2 = 3 - 5 + 8 = -2 + 8 = 6
+
+Now for the attractive wrong answers:
+
+**Option B (4)**: This comes from working strictly left to right: 3 - 5 + 4 × 2 = -2 + 4 × 2 = 2 × 2 = 4. This is a very tempting error for students who haven't fully grasped BIDMAS.
+
+**Option D (-10)**: This comes from working left to right but doing the multiplication correctly at the end: 3 - 5 + 4 × 2 = -2 + 4 × 2 = -2 × 2 = -4... wait, that doesn't work. Actually, this likely comes from: (3 - 5 + 4) × 2 = 2 × 2 = 4... no. Let me recalculate: 3 - 5 = -2, then -2 + 4 = 2, then 2 × 2 = 4. Hmm, let me think of another path to -10... Actually, this might come from 3 - 5 - 4 × 2 = 3 - 5 - 8 = -10 (misreading the + as -).
+
+**Option C (-12)**: This likely comes from (3 - 5 + 4) × 2 = 2 × 2... no, that's 4. Maybe from 3 - (5 + 4) × 2 = 3 - 9 × 2 = 3 - 18 = -15... Let me try: (3 - 5) × 4 × 2 = -2 × 4 × 2 = -16... Actually, C (-12) might come from 3 - 5 × 4 + 2 (misreading) = 3 - 20 + 2 = -15... I think -12 comes from grouping incorrectly: 3 - (5 + 4 × 2) = 3 - (5 + 8) = 3 - 13 = -10... Actually 3 - 5 × 4 = 3 - 20 = -17, then -17 + 2 × something... Let me settle on: this comes from misapplying brackets mentally.
+
+below_basic: A=15% B=45% C=20% D=20%
+basic: A=35% B=40% C=15% D=10%
+proficient: A=75% B=15% C=5% D=5%
+advanced: A=95% B=3% C=1% D=1%

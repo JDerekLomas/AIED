@@ -1,0 +1,26 @@
+Okay, this is a classic "rearrange the formula" question that really tests algebraic manipulation skills. I've seen students tie themselves in knots with this one.
+
+Let's break down the thought processes:
+
+The volume of a sphere formula is $V = \frac{4}{3} \pi r^3$.
+We need to find $r$.
+
+**Correct path (leading to C):**
+1. $V = \frac{4}{3} \pi r^3$
+2. Multiply by 3: $3V = 4 \pi r^3$
+3. Divide by $4\pi$: $\frac{3V}{4\pi} = r^3$
+4. Take the cube root: $r = \sqrt[3]{\frac{3V}{4\pi}}$
+
+**Analysis of Incorrect Options:**
+
+*   **A) $\sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm}$**
+    *   This comes from multiplying by 4/3 and $\pi$ instead of dividing. Or a complete inversion error - trying to move 4/3 and $\pi$ over but getting the numerators and denominators wrong. It's essentially treating $\frac{4}{3}\pi$ as $\frac{3}{4\pi}$ when rearranging. Specifically, they might do $V = \frac{4\pi}{3}r^3$, then multiply by $4\pi$ and divide by 3: $V \times \frac{4\pi}{3}$. Or multiply by 3 then divide by $4\pi$ correctly, then in the final cube root stage, invert everything: $r^3 = \frac{3V}{4\pi}$ so $r = \sqrt[3]{\frac{4\pi}{3V}}$ (if they inverted *V* as well, which isn't this option). This option likely comes from correctly bringing the $4\pi$ into the numerator when moving it over, but confusing the $3$ to go up as well, *and* leaving $V$ in the denominator after an error or two. More likely, thinking $\frac{4}{3}\pi$ should stay *together* and be multiplied to *V*. This option indicates very poor algebraic intuition.
+
+*   **B) $\sqrt[3]{\frac{4 V}{3 \pi}} \mathrm{~cm}$**
+    *   This is the inverse of the correct fraction inside the cube root. The student correctly gets to $3V = 4\pi r^3$, but then when dividing, they mistakenly write $r^3 = \frac{4\pi}{3V}$ or $r^3 = \frac{4V}{3\pi}$ if they inverted $\pi$ instead of $4$. Or, a common mistake: "multiply by 3, divide by 4, divide by $\pi$", so $3V / 4 / \pi$. This isn't exactly it.
+    *   Let's re-examine $V = \frac{4}{3} \pi r^3$.
+        *   $r^3 = V \times \frac{3}{4\pi}$. So $r = \sqrt[3]{\frac{3V}{4\pi}}$.
+    *   Option B looks like: $r^3 = V \times \frac{4}{3\pi}$. This error would involve confusing multiplication and division, specifically with the fraction and $\pi$. For example, if they did $3V = 4\pi r^3$ then divide by 3, so $V = \frac{4}{3}\pi r^3$. Or if they somehow moved the $3$ to divide the $V$ first ($V/3 = \frac{4}{}\pi r^3$), which isn't going to get here.
+    *   This option looks like they *moved the 3 over to divide $V$*, then incorrectly tried to deal with $4\pi$. So maybe they thought $r^3 = V \times \frac{4}{3\pi}$ because $3$ went down, but $4\pi$ stayed up. A student who correctly brings the $3$ over to $3V$, then tries to isolate $r^3$ but puts $4\pi$ in the *numerator* (thinking division by it means it ends up 'on top' with V), or mixes up multiplying by $\frac{3}{4\pi}$ and dividing by $\frac{4\pi}{3}$. This one is very attractive as a near miss: get the V, the 3 and the 4 correct but just put the pi in the denominator with the 3 instead of 4. A less likely path here.
+
+*   **C

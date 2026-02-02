@@ -1,0 +1,43 @@
+<chain_of_thought>
+The item presents a table of values for 2x + 3y = 12 with x = 0.3 and asks for y. Solution: 2(0.3) + 3y = 12 → 0.6 + 3y = 12 → 3y = 11.4 → y = 3.8 (D).
+
+Let me consider each distractor carefully:
+- C (4.2): Adding instead of subtracting 0.6 → 3y = 12.6 → y = 4.2. This directly tests the stated misconception.
+- B (3.9): Forgetting to multiply by the coefficient of x → 12 - 0.3 = 11.7 → 11.7/3 = 3.9. A substitution error.
+- A (4.1): Both errors combined → 12 + 0.3 = 12.3 → 12.3/3 = 4.1.
+
+All three distractors correspond to systematic errors rather than random mistakes, making them highly diagnostic. The numerical closeness (range of only 0.4) means students cannot use estimation to rule out answers.
+
+Reflecting on difficulty: this item sits at a moderate level within the UK secondary curriculum. "Tables of values" is a standard topic, typically introduced in Year 8-9 and reinforced through GCSE. However, the combination of:
+1. Interpreting table format
+2. Correct substitution into a multi-term equation
+3. Decimal multiplication (2 × 0.3)
+4. Rearranging with inverse operations
+5. Decimal division (11.4 ÷ 3)
+
+...creates a multi-step problem where errors can compound. I expect roughly 45-55% of the target population to answer incorrectly.
+
+For IRT parameters, I note the calibration examples show a clear trend: items requiring more steps and involving more common misconceptions have higher b-values. The discrimination values cluster around 1.0-1.5, suggesting well-constructed items. This item should discriminate well given its diagnostic distractors. The guessing parameter should be modest — perhaps around 0.15 — since some lower-ability students might pick an answer that "looks right" near 4, and with four close options, some lucky guessing will occur.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

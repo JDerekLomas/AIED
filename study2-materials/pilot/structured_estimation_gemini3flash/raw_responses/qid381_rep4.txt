@@ -1,0 +1,44 @@
+<chain_of_thought>
+The item asks students to rearrange a common geometric formula ($A = \frac{1}{2}bh$) for a specific variable ($h$). 
+
+1. **Mathematical Steps**:
+   - Multiply both sides by 2: $2A = bh$
+   - Divide both sides by $b$: $h = \frac{2A}{b}$
+
+2. **Distractor Analysis**:
+   - Option A ($h = \frac{1}{2}(b \times A)$): This suggests a superficial rearrangement where the student simply swaps $h$ and $A$ without performing inverse operations.
+   - Option C ($h = \frac{A}{2b}$): This is a very common error where students "move" the 2 to the denominator instead of multiplying. It stems from a misunderstanding of how to invert a fraction or simply associating the 2 with the denominator of the result.
+   - Option D ("They are all incorrect"): A standard distractor that captures students who are uncertain or have made a unique algebraic error.
+
+3. **Comparison with Calibration Items**:
+   - Item 1 ($-5 = p + 10$) had a classical difficulty of 0.167. Rearranging formulas is generally considered more difficult than basic linear equations for UK students (KS3/KS4).
+   - Item 5 ($2n + 3 \leq 3n - 7$) had a difficulty of 0.569. Rearranging with fractions is often more "tripping" for students than linear inequalities.
+   - The misconception "uses same operation rather than inverse" is explicitly tested here. If a student sees $\frac{1}{2}$ and thinks they should keep it as $\frac{1}{2}$ (or divide by 2), they will arrive at C.
+
+4. **Psychometric Profile**:
+   - The question is abstract (algebraic manipulation) but uses a very familiar formula (Area of a triangle), which might provide a scaffold.
+   - The discrimination is likely to be high as this is a "threshold" skill in the GCSE curriculum (higher vs foundation).
+   - Guessing is likely around the 0.20 mark as there are 4 options and C is a very "plausible" looking wrong answer.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

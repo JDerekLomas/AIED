@@ -1,0 +1,44 @@
+<chain_of_thought>
+Analyzing this geometry-algebra hybrid item. A triangle has angles 4x, 2x - 12, and 4x + 42. Students must find x.
+
+Step 1: Recall angle sum = 180
+Step 2: Write equation: 4x + 2x - 12 + 4x + 42 = 180
+Step 3: Collect like terms: 10x + 30 = 180
+Step 4: Subtract 30: 10x = 150
+Step 5: Divide by 10: x = 15
+
+The misconception tested is using the same operation rather than inverse. At step 4, a student might add 30 instead of subtracting, yielding 10x = 210, x = 21 (option D).
+
+I want to think carefully about difficulty relative to the calibration set. Three of the five calibration items test this exact misconception at varying difficulty levels:
+- Simple linear equation (b = -0.702, classical = 0.167): Very easy
+- Function machine with x² (b = 0.002, classical = 0.295): Medium
+- Inequality (b = 0.808, classical = 0.569): Hard
+
+This triangle item requires: (1) geometric knowledge about angle sums, (2) forming an equation from a diagram, (3) collecting like terms with mixed signs, and (4) solving a two-step linear equation. The combination of geometry and algebra increases cognitive load beyond a pure algebra item. However, the collecting like terms step is fairly mechanical.
+
+I think this falls near the function machine item in difficulty, maybe slightly harder because of the multi-step nature and the need to correctly handle negative and positive constants (the -12 and +42). Some students may make errors at the collecting-like-terms stage rather than at the inverse-operation stage, which would reduce the discrimination for the specific misconception.
+
+I'll estimate classical difficulty around 0.35, IRT difficulty around 0.10. The discrimination might be slightly lower than the calibration items because errors could stem from multiple sources (not just the tested misconception).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

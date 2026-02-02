@@ -1,0 +1,91 @@
+target_key,target_type,QuestionId,question_text,correct_answer,correct_answer_kaggle,target_distractor_kaggle,target_answer,misconception_id,misconception_name,student_selection_pct_kaggle,total_responses,pct_A,pct_B,pct_C,pct_D,AnswerAText,AnswerBText,AnswerCText,AnswerDText,n_responses,mean_student_ability,sd_student_ability,difficulty_classical,difficulty_classical_logit,b_2pl,a_2pl,b_3pl,a_3pl,c_3pl_guess,discrimination_rpb,empirical_guess,empirical_slip
+INVERSE_OPS,procedural,332,"Tom and Katie are discussing how to solve:
+\(
+\frac{x}{3}-5=12
+\)
+
+Tom says a correct next line of working could be: \( \frac{x}{3}=17 \)
+
+Katie says a correct next line of working could be: \( x-5=36 \)
+Who is correct?",D,A,D,Neither is correct,1214,"When solving an equation, uses the same operation rather than the inverse",87.74,155,7.74,3.87,0.65,87.74,"Only
+Tom",Only Katie,Both Tom and Katie,Neither is correct,155,1.3565,0.7659,0.1226,-1.9682,-5.1791,0.3042,-5.1791,0.3042,0.0,0.0702,0.7949,0.0769
+INVERSE_OPS,procedural,1702,"This is a part of the table of values for the equation
+\[
+10 x-6 y=30
+\] \begin{tabular}{|l|l|}
+\hline\( x \) & \( \bigstar \) \\
+\hline\( y \) & \( 0.5 \) \\
+\hline
+\end{tabular} What should replace the star?",B,C,D,\( 2.7 \),1214,"When solving an equation, uses the same operation rather than the inverse",3.81,105,1.9,84.76,9.52,3.81,\( 4.25 \),\( -4.25 \),\( 3.3 \),\( 2.7 \),105,0.8419,0.7075,0.1524,-1.716,-0.4997,1.5438,-0.4152,1.5839,0.0672,0.33,0.6667,0.037
+INVERSE_OPS,procedural,934,"\begin{tabular}{|l|l|l|l|l|l|}
+\hline\( x \) & \( 0 \) & \( 1 \) & \( 2 \) & \( 3 \) & \( 4 \) \\
+\hline\( y \) & \( \color{gold}\bigstar \) &   
+\end{tabular} This is a table of values for \( 4 x+2 y=10 \) 
+What should replace the star?",D,C,A,\( 20 \),1214,"When solving an equation, uses the same operation rather than the inverse",5.63,728,5.63,7.42,10.3,76.65,\( 20 \),\( 3 \),\( 5 \),\( 2.5 \),728,0.6416,1.0776,0.2335,-1.1886,-0.5221,1.4367,-0.2979,1.5693,0.1424,0.4029,0.478,0.0385
+ORDER_OPS,procedural,1599,Which answer shows the following calculation using the correct algebraic convention? \( c \div(h+4) \),C,A,C,\( \frac{c}{h}+4 \),1507,Carries out operations from left to right regardless of priority order,92.26,168,4.17,2.38,92.26,1.19,\( \frac{c}{h+4} \),\( \frac{c+4}{h+4} \),\( \frac{c}{h}+4 \),\( \frac{h+4}{c} \),168,0.9212,0.7889,0.0774,-2.4785,-3.3719,0.597,-1.7625,0.6643,0.5,0.1067,0.881,0.0476
+ORDER_OPS,procedural,306,"Problem P: \( 4-5+6= \)
+Problem Q: \( 4+5 \times 6= \)
+
+Which calculation should you do first in each problem?",A,B,A,"Problem P: \( 4-5 \)
+Problem Q: \( 4+5 \)",1507,Carries out operations from left to right regardless of priority order,75.62,283,75.62,13.78,1.41,9.19,"Problem P: \( 4-5 \)
+Problem Q: \( 4+5 \)","Problem P: \( 4-5 \)
+Problem Q: \( 5 \times 6 \)","Problem P: \( 5+6 \)
+Problem Q: \( 4+5 \)","Problem P: \( 5+6 \)
+Problem Q: \( 5 \times 6 \)",283,1.2007,0.7332,0.2438,-1.1319,-0.158,0.9127,-0.158,0.9127,0.0,0.2542,0.6056,0.1127
+FRAC_ADD,conceptual,202,\( 2 \frac{1}{5}+1 \frac{2}{5}= \) Leave your answer as a mixed number,A,A,D,\( 3 \frac{3}{10} \),217,"When adding fractions, adds the numerators and denominators",1.36,147,87.76,7.48,3.4,1.36,\( 3 \frac{3}{5} \),\( \frac{18}{5} \),\( \frac{18}{10} \),\( 3 \frac{3}{10} \),147,1.2398,1.104,0.1224,-1.9694,-0.2375,1.9224,-0.2375,1.9224,0.0,0.286,0.7027,0.027
+NEG_MULTIPLY,conceptual,644,"Molly is expanding these two brackets.
+
+What should she get when she multiplies the two terms indicated by the arrows? ![The brackets shown are (2p-1)(3p-4). The arrows are pointing at the -1 in the first bracket and the -4 in the second bracket.]()",D,A,B,\( -4 \),1597,Believes multiplying two negatives gives a negative answer,0.0,87,0.0,0.0,1.15,98.85,\( +4 \),\( -4 \),\( +5 \),\( -5 \),87,1.3134,0.9878,0.0115,-4.4543,-0.2617,10.0,-0.1754,10.0,0.5,0.1482,0.9545,0.0
+ORDER_OPS,procedural,1545,"\[
+8+12 \div 4 \square(8+12) \div 4
+\]
+Which symbol belongs in the box?",D,A,C,\( = \),1507,Carries out operations from left to right regardless of priority order,7.65,497,4.02,4.23,7.65,84.1,\( > \),\( < \),\( = \),\( \geq \),497,1.2302,1.2404,0.159,-1.666,-0.2892,1.8285,0.0808,2.272,0.2479,0.4445,0.496,0.008
+INVERSE_OPS,procedural,1286,"A sphere has a volume of
+\[
+V \mathrm{~cm}^{3} \text {. }
+\] ![A sphere with the radius labelled '?']() What is its radius?",D,C,A,\( \sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm} \),1214,"When solving an equation, uses the same operation rather than the inverse",12.07,613,12.07,13.54,13.21,61.17,\( \sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm} \),\( \sqrt[3]{\frac{4 V}{3 \pi}} \mathrm{cm} \),\( \sqrt[3]{\frac{3 V}{4 \pi}} \mathrm{cm} \),\( \frac{3 \sqrt[3]{V}}{4 \pi} \mathrm{cm} \),613,0.6835,1.0797,0.3883,-0.4547,0.0618,0.9003,0.5422,1.1097,0.1833,0.3735,0.3896,0.1623
+ORDER_OPS,procedural,919,"This is a part of the table of values for the equation
+\[y=3 x^{2}\] \begin{tabular}{|l|l|}
+\hline\( x \) & \( 0.3 \) \\
+\hline\( y \) & \( \bigstar \) \\
+\hline
+\end{tabular} What should replace the star?",C,B,A,\( 0.81 \),1507,Carries out operations from left to right regardless of priority order,5.88,68,5.88,19.12,75.0,0.0,\( 0.81 \),\( 0.27 \),\( 1.8 \),\( 2.7 \),68,1.2231,0.8762,0.25,-1.0986,0.034,1.1057,1.3003,2.9564,0.5,0.3395,0.6471,0.0588
+NEG_MULTIPLY,conceptual,888,"Multiply out the brackets:
+\[
+(m-5)(m-7)
+\]",B,B,D,\( m^{2}-12 m-35 \),1597,Believes multiplying two negatives gives a negative answer,8.73,1283,15.04,65.47,10.76,8.73,\( m^{2}-2 m-35 \),\( m^{2}-12 m+35 \),\( m^{2}+12 m+35 \),\( m^{2}-12 m-35 \),1283,0.7166,1.1366,0.3453,-0.6398,0.0015,1.3274,0.1265,1.4112,0.0701,0.4189,0.3364,0.081
+INVERSE_OPS,procedural,506,"Solve the equation:
+
+\(
+3 p=\frac{1}{12}
+\)",B,B,A,\( p=\frac{1}{4} \),1214,"When solving an equation, uses the same operation rather than the inverse",7.84,51,7.84,86.27,1.96,3.92,\( p=\frac{1}{4} \),\( p=\frac{1}{36} \),\( p=4 \),\( p=\frac{1}{9} \),51,1.7697,1.4434,0.1373,-1.8383,-0.1058,1.5014,0.7354,2.114,0.5,0.2982,0.6923,0.0
+INVERSE_OPS,procedural,1607,"Isaac is trying to solve the equation on the right. \( 15=\frac{1+k}{4} \) Here are his steps. Step \( 1: \) \(
+60=1+k
+\)
+
+Step \( 2: \) \(
+61=k
+\) Which steps, if any, are correct?",D,A,B,Only ste.p \( 2 \),1214,"When solving an equation, uses the same operation rather than the inverse",9.89,91,3.3,9.89,12.09,74.73,Only step \( 1 \),Only ste.p \( 2 \),Both steps are correct,Both step.s are incorrect,91,1.2942,0.8485,0.2527,-1.084,0.5037,1.9759,0.9232,3.3437,0.2318,0.5368,0.3478,0.0417
+NEG_MULTIPLY,conceptual,1383,"\(
+T=k^{4}
+\)
+
+What is the value of \( T \) when \( k=-3 \) ?",C,A,C,\( -81 \),1597,Believes multiplying two negatives gives a negative answer,52.66,4825,19.67,22.11,52.66,5.55,\( 81 \),\( 12 \),\( -81 \),\( -12 \),4825,0.7307,1.0829,0.4734,-0.1066,0.5622,1.2072,0.9625,1.8004,0.1938,0.4453,0.2527,0.1309
+ORDER_OPS,procedural,254,"When calculating the mean of the following numbers which calculation will give the correct answer?
+\[
+0,1,3,4,7
+\]",C,A,B,\( 0+1+3+4+7 \div 5 \),1507,Carries out operations from left to right regardless of priority order,12.35,688,5.67,12.35,62.06,19.91,\( \frac{1+3+4+7}{5} \),\( 0+1+3+4+7 \div 5 \),\( \frac{1+3+4+7}{4} \),None of them,688,1.2126,1.2536,0.3794,-0.4923,0.5976,1.2602,0.9337,1.5745,0.1624,0.4579,0.3081,0.0872
+INVERSE_OPS,procedural,689,"Solve the equation:
+\(
+10=\frac{5}{p}
+\)",D,A,B,\( p=50 \),1214,"When solving an equation, uses the same operation rather than the inverse",14.97,1503,17.43,14.97,8.52,59.08,\( p=0.5 \),\( p=50 \),\( p=2 \),There are no solutions,1503,0.7489,1.0979,0.4092,-0.3673,0.2501,0.9583,0.9543,1.5309,0.2829,0.3635,0.3564,0.1516
+FRAC_ADD,conceptual,525,\( 2 \frac{7}{10}+2 \frac{1}{4}= \) Leave your answer as a mixed number,A,B,C,\( \frac{99}{40} \),217,"When adding fractions, adds the numerators and denominators",17.58,1701,46.91,22.34,17.58,13.17,\( \frac{99}{20} \),\( 4 \frac{19}{20} \),\( \frac{99}{40} \),\( 4 \frac{8}{14} \),1701,0.565,1.1181,0.5309,0.1236,0.6233,1.3836,0.9446,2.3382,0.171,0.4905,0.1948,0.1338
+FRAC_ADD,conceptual,38,"Write this as a single fraction as simply as possible:
+\(
+\frac{3}{2 x}+\frac{4}{x}
+\)",D,A,B,\( \frac{7}{3 x} \),217,"When adding fractions, adds the numerators and denominators",12.22,90,8.89,12.22,10.0,68.89,\( \frac{11}{2 x} \),\( \frac{7}{3 x} \),\( \frac{11}{x} \),\( \frac{7}{2 x} \),90,1.273,0.7783,0.3111,-0.7949,0.692,2.0498,1.2286,4.3251,0.3657,0.5243,0.3478,0.0
+NEG_MULTIPLY,conceptual,466,\( -\frac{3}{4} \times \star=-1 \) What should replace the star?,D,A,B,\( -\frac{4}{3} \),1597,Believes multiplying two negatives gives a negative answer,21.51,1725,18.2,21.51,20.35,39.94,\( \frac{4}{3} \),\( -\frac{4}{3} \),\( \frac{3}{4} \),\( -\frac{3}{4} \),1725,0.2647,1.0308,0.6006,0.4079,0.7156,0.938,1.1338,1.5368,0.1896,0.3771,0.2315,0.287
+ORDER_OPS,procedural,1465,"What does the following equal?
+\[
+3-5+4 \times 2
+\]",B,A,B,\( 4 \),1507,Carries out operations from left to right regardless of priority order,46.68,1069,5.33,46.68,13.56,34.42,\( 6 \),\( 4 \),\( -12 \),\( -10 \),1069,0.7025,1.1059,0.5332,0.133,0.8347,0.8373,1.4826,1.5002,0.2545,0.3512,0.291,0.2751

@@ -1,0 +1,37 @@
+<chain_of_thought>
+Analysing (x-4)^2 expansion item. The key skill is recognising that squaring a binomial requires expanding as a product of two identical binomials: (x-4)(x-4).
+
+Step by step: x*x = x^2, x*(-4) = -4x, (-4)*x = -4x, (-4)*(-4) = 16. Sum: x^2 - 8x + 16 = option A.
+
+The misconception "believes multiplying two negatives gives a negative answer" points to distractor D where (-4)*(-4) is computed as -16 instead of +16.
+
+However, I want to think about how students actually approach this. Many UK secondary students learn the identity (a+b)^2 = a^2 + 2ab + b^2 but may not reliably apply it. A substantial proportion will simply square each term to get x^2 + 16 (option B) or x^2 - 16 (option C). These "missing the middle term" errors are arguably more common than the sign error in the constant term.
+
+This means the item has three strong distractors, each capturing a distinct misconception. That's good for discrimination but also means more students will get it wrong. I'd put this as a moderately difficult item.
+
+Calibration comparison: The inequality item (2n+3 <= 3n-7) has classical difficulty 0.569 and b=0.808. That involves multi-step algebraic manipulation. This item is probably somewhat easier since it's a single expansion, but the strong distractors pull difficulty up.
+
+I'll estimate classical difficulty around 0.48, b around 0.35. The discrimination should be good — around 1.3-1.5 — since this cleanly separates students who can expand binomials from those who can't. Guessing probability is moderate; with four options and strong distractors, random guessing is unlikely but some students may eliminate one or two options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

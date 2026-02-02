@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item requires students to find two numbers whose product is -24. This tests understanding of signed number multiplication rules.
+
+Evaluating the options:
+A) (-3)(-8) = 24, not -24. This is the key distractor for students who believe neg x neg = neg.
+B) (-4)(6) = -24. Correct answer.
+C) (-10)(-14) = 140. Wrong on both sign and magnitude. Weak distractor.
+D) (-3)(9) = -27. Right sign but wrong product. Tests computation errors.
+
+The misconception "believes multiplying two negatives gives a negative" is quite common among younger secondary students. The item is well-designed because option A has factors that actually produce 24 in magnitude, making it very tempting for students with this misconception.
+
+Looking at the calibration set, the factorising item testing the same misconception had difficulty 0.473 (IRT b = 0.404). That item was more complex because it embedded the misconception within algebraic factorisation. This item is more direct -- pure arithmetic with signed numbers -- so should be noticeably easier.
+
+However, the directness of the question means students either know the sign rules or they don't, which could make discrimination moderate to high. The strong distractor A should pull misconception-holders reliably.
+
+I'd estimate classical difficulty around 0.30-0.35, placing it between the easier calibration items and the factorising item. IRT difficulty probably near 0.0 to 0.2.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

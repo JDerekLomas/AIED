@@ -1,0 +1,38 @@
+As an experienced teacher, I see these errors frequently when students transition from "arithmetic thinking" to "algebraic convention." The shift from using division signs ($\div$) to fraction bars is a major threshold in Key Stage 3.
+
+### 1. Error Analysis for Wrong Options
+
+**Option B: $\frac{c+4}{h+4}$**
+*   **Buggy Reasoning:** This is a "visual matching" error combined with a lack of understanding of term isolation. The student sees the "$+ 4$" at the end of the expression and assumes it must apply to both the numerator and denominator, or they have misinterpreted the grouping of the brackets as a distributive property in reverse.
+*   **Attractiveness:** Low. This feels like a "guessed" pattern. Only students who are truly lost or searching for structural symmetry would pick this.
+
+**Option C: $\frac{c}{h}+4$ (Known Misconception: Left to Right Priority)**
+*   **Buggy Reasoning:** The student treats the expression like a calculator input. They see $c$, then $\div h$, then $+4$. Because they process from left to right, they create the fraction $\frac{c}{h}$ and simply "tack on" the $+4$ at the end, effectively ignoring the grouping purpose of the parentheses. They prioritize the linear order over the hierarchical order mandated by the brackets.
+*   **Attractiveness:** Very High. This is the "Gold Standard" of misconceptions in order of operations. To a student, $\frac{c}{h}+4$ looks like a perfect literal translation of the string of characters they were given.
+
+**Option D: $\frac{h+4}{c}$**
+*   **Buggy Reasoning:** Commutativity confusion. The student understands that a division should look like a fraction, but they do not realize that division is non-commutative (order matters). They likely find the more complex part ($h+4$) "weightier" and place it on top, or they have a habit of putting the larger-looking expression as the numerator.
+*   **Attractiveness:** Moderate. This is common for students who are beginning to understand fractions but have not internalised that $a \div b$ is a directional instruction where the first term *must* be the numerator.
+
+---
+
+### 2. Judge of Attractiveness
+
+*   **Option C (The "Left-to-Right" Error):** This is the most "logical" wrong answer for a student. It follows the natural flow of reading. It is highly attractive for **Basic** and **Lower-Proficient** students who are trying to follow BIDMAS but view the division symbol as an "action" to be taken on the first two terms before moving on.
+*   **Option D (The "Flip" Error):** This is most common at the **Below Basic** level. These students often focus on the symbols rather than the structure. They know it’s a fraction, but they don't know which bit goes where.
+*   **Option B (The "Pattern" Error):** Only attractive to students who have a "working memory overload" and are just trying to find an answer that contains all the numbers and letters shown in the question.
+
+---
+
+### 3. Predicted Response Distribution
+
+This question identifies students who understand that brackets *change* the standard fraction bar structure.
+
+| Level | A (Correct) | B (Symmetry) | C (Left-to-Right) | D (Flipped) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 15% | 35% | 30% |
+| **Basic** | 45% | 5% | 40% | 10% |
+| **Proficient** | 85% | 2% | 10% | 3% |
+| **Advanced** | 98% | 0% | 2% | 0% |
+
+**Teacher’s Note:** The **Basic** group will be heavily split between A and C. Those who choose C likely "know" BODMAS exists but believe that writing $\frac{c}{h}$ and then $+4$ somehow satisfies the left-to-right requirement of the original written string. Transitioning these students requires showing them that the fraction bar acts as a "grouping symbol" itself.

@@ -1,0 +1,39 @@
+<chain_of_thought>
+Evaluating T = k^4 at k = -3. Answer is 81 (option A).
+
+This is fundamentally a substitution and exponentiation problem. The core skill is substituting a negative value and correctly computing a fourth power. Let me consider the difficulty from a student perspective.
+
+A Year 8 or 9 student encountering this: they need to (1) understand k^4 means k*k*k*k, (2) substitute -3, (3) compute (-3)^4. Step 3 is where the misconception bites. Many students will think: "negative times negative is positive... wait, but it started negative... so it must be negative?" The even-power-makes-positive rule is something many students learn but don't deeply internalise.
+
+Actually, I want to reconsider the difficulty. The fourth power is unusual -- students are much more comfortable with squares and cubes. With a square, they might remember "negative squared is positive." With a fourth power, they have to either (a) recognise that any even power of a negative is positive, or (b) manually multiply four times and track signs. Both require solid understanding.
+
+Also, the distractor C (-81) gets the magnitude right but sign wrong -- this is very tempting for students who can compute 3^4 = 81 but don't handle the negative correctly.
+
+B (12) and D (-12) come from -3 * 4 = -12 or |(-3)*4| = 12. These catch students who confuse the notation entirely.
+
+Comparing to the calibration set: the equation-solving items with difficulty 0.167-0.569 give a range. This item requires less procedural work than the inequality (0.569) but tests a trickier conceptual point than the simple equation (0.167). I'd place it around 0.30-0.40.
+
+I'll go with classical difficulty 0.33, thinking it's a bit easier than the factorising item because the procedure is much simpler even if the misconception is the same.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

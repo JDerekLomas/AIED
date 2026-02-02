@@ -1,0 +1,13 @@
+In my experience marking Year 9 mocks, order of operations (BIDMAS/BODMAS) remains one of the most persistent hurdles. While most students know the acronym, their application of it—particularly the equal priority of Addition/Subtraction—is where the disparity lies.
+
+**Analysis of Errors:**
+- **The Left-to-Right Trap (Option B):** "Below Basic" students often treat mathematics like reading a sentence. They calculate $(3-5) = -2$, then $(-2 + 4) = 2$, and finally $(2 \times 2) = 4$.
+- **The Rigid BIDMAS Trap (Option D):** This is the most "attractive" wrong answer for "Basic/Proficient" students. They know they must multiply first ($4 \times 2 = 8$), but they then strictly follow the letters of the acronym, performing Addition before Subtraction ($5 + 8 = 13$), resulting in $3 - 13 = -10$.
+- **The Sign/Grouping Error (Option C):** Usually occurs when students combine parts of the expression incorrectly, such as performing $(3 - (5 + 4)) \times 2$. They often arrive at -12 by doing $5+4=9$, then $3-9=-6$, then $-6 \times 2 = -12$.
+
+**Predicted Results:**
+
+below_basic: A=15% B=45% C=25% D=15%
+basic: A=35% B=20% C=10% D=35%
+proficient: A=70% B=5% C=5% D=20%
+advanced: A=96% B=1% C=0% D=3%

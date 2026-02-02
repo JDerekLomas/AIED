@@ -1,0 +1,34 @@
+As an experienced examiner and lead teacher, I have analyzed the expansion of $(m-5)(m-7)$. This is a classic "Grade 4" (GCSE foundation/higher) topic where the primary hurdle is not the algebraic distribution, but the directed number arithmetic.
+
+### 1. Analysis of Wrong Answer Options
+
+*   **Option A ($m^2 - 2m - 35$): Misinterpreting Sign Rules and Constant Calculation**
+    *   **Reasoning:** The student successfully identifies that the middle term involves 5 and 7, but instead of adding $(-5) + (-7)$ to get $-12$, they find the "difference" between the absolute values (effectively calculating $-5 + 7$ or $7 - 5 = 2$, then applying the negative sign from the larger absolute value). Simultaneously, they treat the product $(-5) \times (-7)$ incorrectly as a subtraction or fail the negative multiplication rule.
+    *   **Alternative Logic:** Sometimes students "add" the numbers within the brackets to get the constant ($5+7=12$) and "subtract" them for the middle coefficient.
+*   **Option C ($m^2 + 12m + 35$): Ignoring the Negative Signs in Linear Terms**
+    *   **Reasoning:** The student treats the expression as $(m+5)(m+7)$. They recognize that $5 \times 7 = 35$ and $5 + 7 = 12$, but they ignore the negative signs attached to the integers. This is often a result of "algorithmic overload"—they are so focused on the FOIL process that they revert to the simplest version of the rule (the all-positive version).
+*   **Option D ($m^2 - 12m - 35$): Known Misconception (Multiplying two negatives gives a negative)**
+    *   **Reasoning:** The student correctly performs the "Outer" and "Inner" additions ($ -7m - 5m = -12m $). However, when they reach the "Last" step ($ -5 \times -7 $), they incorrectly conclude that "a negative times a negative must be negative," possibly confusing the rule with "adding two negatives."
+
+---
+
+### 2. Attractiveness Judgement
+
+*   **Option D (The "Negative Product" error): High Attractiveness.** This is the most "logical" error for a middle-attaining student. They have mastered the harder part of the process (combining $-5m$ and $-7m$ to get $-12m$) but trip up on a foundational arithmetic rule. It feels like a reasonable outcome because the problem is dominated by minus signs, so a negative result in the answer feels "consistent."
+*   **Option C (The "Ignore Negatives" error): High Attractiveness for Lower Levels.** This is extremely common among students who have just learned the method. They see "5" and "7" and automatically think "12" and "35." They won't notice they are wrong because they haven't yet developed the "checking" habit of looking at signs.
+*   **Option A (The "Difference" error): Moderate Attractiveness.** This is less likely than D or C but occurs when a student is guessing which operation to use. If they have a vague memory that $-5$ and $-7$ results in a "$2$", they will hunt for that option.
+
+---
+
+### 3. Predicted Response Distribution
+
+Students at **below_basic** often ignore the coefficients or the expansion entirely, but when they do attempt it, they gravitate toward all-positive terms (Option C). **Basic** students usually manage the linear sum (-12) but consistently fail the product of two negatives (Option D). **Proficient** students are the most likely to fall for Option D due to a momentary lapse in concentration, while **Advanced** students should be 100% correct.
+
+| Level | A (%) | B (%) | C (%) | D (%) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 15% | 40% | 25% |
+| **Basic** | 10% | 35% | 15% | 40% |
+| **Proficient** | 5% | 75% | 5% | 15% |
+| **Advanced** | 2% | 96% | 1% | 1% |
+
+**Note on "Basic" distribution:** This level is the peak for the D distraction. These students have "partial knowledge"—they know they should add to get the middle and multiply to get the end, making them extremely susceptible to the sign error in the final step.

@@ -1,0 +1,45 @@
+<chain_of_thought>
+Target: 2 x 3^2 = ?  Correct: A (18). Misconception: left-to-right processing ignoring operator precedence.
+
+Step-by-step correct solution: 3^2 = 9, then 2 x 9 = 18. Just two operations.
+
+Let me think about each distractor's appeal:
+- C = 36: (2x3)^2 = 36. This is the misconception-driven answer. Very attractive because 36 is a perfect square and "feels right" -- it's bigger, which might match students' intuition that squaring should give a big answer.
+- B = 12: Perhaps 2 x 3 x 2 = 12. Or maybe 2 x 6 = 12 where they computed 3x2=6 for "3 squared." Moderate plausibility.
+- D = 11: 2 + 9 = 11. Misreading multiplication as addition. Low plausibility for most students but catches careless errors.
+
+I want to think about this from a population perspective. UK secondary students ages 11-16 is a wide range. Year 7 students would find this challenging; Year 10-11 students would find it trivial. The overall difficulty depends heavily on the age distribution in the sample.
+
+For a diagnostic assessment given across the full 11-16 range, I'd expect:
+- Year 7 (age 11-12): maybe 40-50% incorrect
+- Year 8 (age 12-13): maybe 20-30% incorrect
+- Year 9+ (age 13+): maybe 10-15% incorrect
+
+Weighted average across years, assuming roughly equal representation: approximately 20-25% incorrect overall.
+
+The calibration BODMAS item was 13.4% incorrect, but that item's student sample might skew older given the fraction/decimal content. If I assume similar sampling for this item, the simpler numbers might attract a younger cohort, pushing difficulty up slightly.
+
+I'll estimate classical difficulty at 0.23, IRT difficulty at -0.30. Discrimination should be good -- around 1.2-1.4 -- since it's a clean single-concept item. Guessing parameter should be quite low since the distractors are well-targeted to specific errors rather than inviting random selection.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.23</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

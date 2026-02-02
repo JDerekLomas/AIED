@@ -1,0 +1,70 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks students to identify the correct calculation for finding the mean of 0, 1, 3, 4, 7.
+
+The correct answer is A: (1+3+4+7)/5 = 15/5 = 3
+
+Wait, let me check this. The mean of 0, 1, 3, 4, 7 should be (0+1+3+4+7)/5 = 15/5 = 3.
+
+Looking at option A: (1+3+4+7)/5 = 15/5 = 3 - This is correct because adding 0 doesn't change the sum.
+
+Option B: 0+1+3+4+7 ÷ 5 - This would be interpreted as 0+1+3+4+(7÷5) = 0+1+3+4+1.4 = 9.4 if following order of operations correctly. This tests the misconception about order of operations.
+
+Option C: (1+3+4+7)/4 = 15/4 = 3.75 - This excludes 0 from both the sum AND the count, which is incorrect.
+
+Option D: None of them
+
+The misconception being tested is "Carries out operations from left to right regardless of priority order" - students who don't understand BIDMAS/BODMAS might think option B is correct because they read it left to right.
+
+Let me think about difficulty:
+- The concept of mean is basic (sum ÷ count)
+- The twist is recognizing that 0 in the numerator doesn't affect the sum but DOES affect the count
+- Students need to understand order of operations to see why B is wrong
+- Option C is a trap for students who think 0 "doesn't count"
+
+This is a conceptual question requiring:
+1. Understanding of mean calculation
+2. Understanding that 0 counts as a data point
+3. Understanding order of operations (to reject B)
+
+The calibration example with the same misconception (0.4 - 1/5 × 3) had difficulty 0.134 (proportion incorrect), which was relatively easy. However, that was a direct calculation, while this requires more reasoning about which expression is correct.
+
+This question requires students to:
+1. Know the mean formula
+2. Recognize that 0 is still a data value (affects n)
+3. Understand order of operations to reject B
+4. Evaluate multiple options
+
+The distractors are quite plausible:
+- B looks like the correct formula written linearly (common student error)
+- C might trap students who think 0 "doesn't count"
+
+Given the multiple concepts involved and the plausibility of distractors, I'd estimate this is moderately difficult.
+
+For discrimination: The question clearly separates students who understand both mean calculation AND order of operations from those who don't. This should discriminate well.
+
+The question is clear and age-appropriate for UK secondary school (mean is taught early in secondary).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

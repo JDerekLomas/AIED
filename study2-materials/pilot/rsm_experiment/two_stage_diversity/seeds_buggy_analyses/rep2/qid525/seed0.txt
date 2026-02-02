@@ -1,0 +1,22 @@
+In the context of UK Year 9 mathematics (ages 13–14), students are moving toward fluency with fractions, but foundational "short-cuts" often persist.
+
+### 1. The specific misconception: "Componentwise Addition of Denominators" (The Freshman's Error)
+The specific procedural bug is **adding the denominators** as if they were numerators. This occurs when a student correctly identifies that the whole numbers should be added separately but fails to apply the rules of finding a common denominator for the fractional parts. Instead of scaling the fractions, they apply a "linear" logic: adding across the top and adding across the bottom.
+
+### 2. Step-by-step student work
+A student with this misconception would approach the calculation as follows:
+
+*   **Step 1: Add the integers.** The student identifies the whole numbers $2$ and $2$. They calculate $2 + 2 = 4$.
+*   **Step 2: Add the numerators.** The student looks at the fractions $\frac{7}{10}$ and $\frac{1}{4}$. They add the top numbers: $7 + 1 = 8$.
+*   **Step 3: Add the denominators (The Bug).** The student assumes that since $7+1$ made the new numerator, $10+4$ should make the new denominator: $10 + 4 = 14$.
+*   **Step 4: Combine.** The student joins the integer and the new fraction to get **$4 \frac{8}{14}$**.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D ($4 \frac{8}{14}$)**.
+
+### 4. Attractiveness of the error
+This is a **highly natural and "sticky" error** for several reasons:
+
+*   **Intuitive Logic:** Students are taught from a young age that "plus" means "add everything." They have already performed this "across the top/bottom" logic successfully with multiplication ($\frac{a}{b} \times \frac{c}{d}$), and they erroneously transfer that rule to addition.
+*   **Path of Least Resistance:** Finding a common denominator (in this case, 20) requires multiple sub-steps: finding a Lowest Common Multiple, scaling the numerators, and then adding. Adding "across" is much faster and feels consistent with the whole-number addition they have just performed ($2+2$).
+*   **Lack of Internal Red Flags:** $4 \frac{8}{14}$ "looks" like a reasonable answer. The fraction $\frac{8}{14}$ is slightly more than half, and the student can see that $\frac{7}{10}$ (nearly one) plus $\frac{1}{4}$ (a small bit) should indeed be slightly more than one. Because the estimate matches the result, the student is unlikely to realise they have violated a fundamental rule of fractions. Unless they are prompted to "simplify" the fraction, they will feel confident in this answer.

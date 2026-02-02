@@ -1,0 +1,26 @@
+To predict student performance accurately, we must identify the "traps" in this algebraic fraction question. While it appears simple, the $2x$ and $x$ denominators are a classic stumbling block.
+
+**Teacher's Reflection:**
+*   **The common error (D):** Students often add the numerators ($3+4=7$) and keep the "larger" or "common-looking" denominator ($2x$). They ignore the need for a common denominator because they see an $x$ in both.
+*   **The 'add across' error (B):** Below-basic students will often add numerators and add denominators ($3+4=7, 2x+x=3x$). 
+*   **The calculation error (C):** Students might correctly identify $2x$ as the common denominator, multiply the second fraction by $2$ to get $8/2x$, but then incorrectly simplify $11/2x$ to $11/x$.
+*   **The correct path (A):** Requires recognizing the second fraction must be scaled to $\frac{8}{2x}$.
+
+**Predicted Percentages:**
+
+**below_basic: A=10% B=45% C=5% D=40%**
+(Most students here will treat algebra like a sequence of symbols rather than values; they will either add across the top and bottom or simply combine the top and pick the "most impressive" denominator.)
+
+**basic: A=25% B=20% C=10% D=45%**
+(Students at this level often fall for the "halfway house" of adding the numerators while keeping the denominator $2x$ because it looks like a common factor, without performing the scaling step.)
+
+**proficient: A=65% B=5% C=5% D=25%**
+(These students generally understand common denominators but a significant minority will still rush and pick D, under the impression that they can just "add the numbers" if the letters match.)
+
+**advanced: A=92% B=1% C=2% D=5%**
+(Top students will find the common denominator of $2x$ effortlessly, though a small margin may make a "silly error" in their head or misread the plus sign.)
+
+below_basic: A=10% B=45% C=05% D=40%
+basic: A=25% B=20% C=10% D=45%
+proficient: A=65% B=05% C=05% D=25%
+advanced: A=92% B=01% C=02% D=05%

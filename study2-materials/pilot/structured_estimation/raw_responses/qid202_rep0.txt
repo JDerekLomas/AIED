@@ -1,0 +1,42 @@
+<chain_of_thought>
+This item asks students to add two mixed numbers: 2 1/5 + 1 2/5. The fractions already share a common denominator (5), so the procedure is straightforward: add the whole numbers (2+1=3) and add the fractions (1/5+2/5=3/5) to get 3 3/5.
+
+The correct answer is A: 3 3/5. Let me analyze the distractors:
+- B: 18/5 -- this is the correct value expressed as an improper fraction rather than a mixed number. Students who convert to improper fractions first (11/5 + 7/5 = 18/5) but forget to convert back would pick this.
+- C: 18/10 -- this reflects the misconception being tested: adding numerators (1+2=3... wait, actually 11+7=18 if converting to improper fractions, and 5+5=10 for denominators). So this is adding both numerators and denominators of the improper fraction forms.
+- D: 3 3/10 -- this is adding the whole numbers correctly but then adding numerators AND denominators of the fractional parts (1+2=3, 5+5=10), which is exactly the tested misconception applied to the fraction parts only.
+
+The misconception tested is "when adding fractions, adds the numerators and denominators." Distractor D directly tests this for the fraction part, while C tests it for the improper fraction version.
+
+Looking at the calibration items, this is relatively straightforward arithmetic. The denominators are already the same, which should make it easier. However, the misconception of adding denominators is quite common among younger students. The fact that the denominators are already the same might actually reduce the pull of the misconception somewhat, since students who understand like denominators should just add numerators.
+
+I'd estimate this is on the easier side -- comparable to the first calibration item (classical difficulty ~0.17). Maybe slightly higher because fraction arithmetic can be tricky, but the common denominator simplifies things. I'll estimate around 0.20-0.25 for classical difficulty.
+
+For IRT difficulty, given the calibration anchors, this should be negative (easier than average), perhaps around -0.5 to -0.3.
+
+Discrimination should be moderate to good since it cleanly separates students who understand fraction addition from those who don't. Around 1.2-1.4.
+
+Guessing should be low since the correct answer is fairly distinguishable if you understand the concept.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

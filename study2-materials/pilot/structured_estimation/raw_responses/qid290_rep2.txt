@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing this item about counter-examples and the expression 2n^2 - 1.
+
+The mathematical content: students need to find a value of n where 2n^2 - 1 is not positive (i.e., zero or negative). Since 2n^2 - 1 < 0 when n^2 < 1/2, i.e., when |n| < 1/sqrt(2) ≈ 0.707. So values between roughly -0.707 and 0.707 will make the expression negative.
+
+Option B uses n = 0.5, which is within this range: 2(0.25) - 1 = -0.5. Correct.
+Option A uses n = 3/4 = 0.75, which is just barely above the threshold: 2(9/16) - 1 = 1/8 > 0. This is a clever near-miss distractor.
+Options C and D use negative numbers whose squares are well above 1/2, so they give positive results. But students who mishandle squaring negatives will be drawn to these.
+
+The misconception label says "believes multiplying two negatives gives a negative answer." This directly targets C and D -- students who think (-2)^2 = -4 or (-1)^2 = -1 will believe these produce negative outputs.
+
+Difficulty assessment: The item requires understanding of counter-examples (a proof concept), careful substitution, and correct evaluation of powers. Option A is a subtle distractor for students who struggle with fraction arithmetic. The combination of conceptual (what is a counter-example?) and computational demands makes this moderately difficult.
+
+The closest calibration item is the factorising one (classical difficulty 0.473, b = 0.404) which also tests the negatives misconception. This item adds the counter-example concept and substitution, so I expect it to be somewhat harder -- perhaps classical difficulty around 0.50 and b around 0.40.
+
+Discrimination: The misconception creates a strong attractor to wrong answers, but there are multiple possible wrong answers (A, C, D) each attracting different error types. This could slightly reduce discrimination. I'll estimate around 1.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.49</classical_difficulty>
+<irt_difficulty>0.38</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

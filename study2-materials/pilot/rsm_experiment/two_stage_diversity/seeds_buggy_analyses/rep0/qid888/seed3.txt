@@ -1,0 +1,21 @@
+As an expert in mathematical misconceptions, I have identified a specific "buggy procedure" frequently observed in Year 9 students regarding **Integer Sign Processing in Polynomial Expansion**.
+
+### 1. The specific misconception: The "Negative Equals Subtraction" Bug
+This misconception occurs when a student fails to treat the negative sign as an **operator-integer unit** (a directed number) and instead treats it purely as an instruction to subtract. Specifically, when calculating the constant term (the "L" in FOIL), the student calculates the product of the magnitudes but "inherits" the negative sign from the expression above rather than applying the sign rule $(- \times - = +)$.
+
+### 2. Step-by-Step Procedure
+A student with this bug would work through the problem as follows:
+*   **Step 1 (Firsts):** They multiply $m \times m$ to get $m^2$. (Correct)
+*   **Step 2 (Outers & Inners):** They see $-7m$ and $-5m$. They combine these correctly as "negative 7 take away 5" or $-7 - 5$, resulting in $-12m$. (Correct)
+*   **Step 3 (Lasts):** They look at the terms $5$ and $7$. They know $5 \times 7 = 35$. However, because they see subtraction signs throughout the brackets, they intuitively feel the result should remain "subtraction." 
+*   **The Error:** Instead of performing $(-5) \times (-7) = +35$, they process it as "the end of the expansion is minus 35," or they believe that because the problem started with subtractions, the result cannot "turn into" an addition.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent in Key Stage 3. 
+
+*   **Logical Consistency:** To a student, if you are subtracting numbers in the brackets, it feels counter-intuitive that the result would "grow" via an addition at the end. 
+*   **Lack of Feedback:** The student will likely **not realise they have gone wrong**. Because they correctly calculated the $12m$ (which requires processing negative numbers), they feel a false sense of confidence in their handling of signs. They perceive the $-35$ not as a calculation error, but as a "continuation" of the negative signs established earlier in the problem. 
+*   **Surface Similarity:** Option D looks "more like" the question $(m-5)(m-7)$ than Option B does, because it preserves the negative symbols seen in the original prompt. Many students use "pattern matching" rather than strict algebraic rules when they are tired or under exam pressure.

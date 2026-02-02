@@ -1,0 +1,49 @@
+<chain_of_thought>
+Expanding (m-3)(m-2). Let me approach this fresh.
+
+The task is pure procedural algebra: apply the distributive law twice. Students need to:
+1. Multiply m by m = m^2
+2. Multiply m by -2 = -2m
+3. Multiply -3 by m = -3m
+4. Multiply -3 by -2 = +6 (this is where the misconception hits)
+5. Collect like terms: m^2 + (-2m) + (-3m) + 6 = m^2 - 5m + 6
+
+Answer A is correct.
+
+The misconception about negative times negative is extremely prevalent. Research by Vlassis (2004) and others has documented how students who can recite "negative times negative is positive" still fail to apply it in context. The embedding within bracket expansion adds procedural complexity that triggers the error.
+
+Looking at the answer options, I notice something interesting: the middle term coefficient helps discriminate between error types. A and D both have -5m (correct middle term), while B has -m and C has +5m. So a student who gets the middle term right but the constant wrong is exhibiting specifically the targeted misconception (choosing D over A). This makes the item diagnostically clean.
+
+For difficulty estimation, I want to think about base rates. In a typical UK secondary cohort taking a diagnostic assessment:
+- Strong students (maybe 40-50%) will get this right easily
+- Middle students (maybe 25-30%) might make the sign error and pick D
+- Weaker students (maybe 15-20%) might make other errors (B or C) or guess
+
+This suggests around 50-60% correct, so classical difficulty (proportion incorrect) around 0.40-0.50.
+
+The calibration anchor (Tom/Katie, same misconception) gives 0.473 difficulty. I think this item is comparable -- slightly easier procedurally but the direct computation makes the sign error more likely to manifest. I'll say 0.44.
+
+For IRT parameters: b around 0.28 (moderate difficulty), discrimination around 1.45 (clean diagnostic separation), guessing around 0.05 (students will compute rather than guess randomly on an expansion problem).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.44</classical_difficulty>
+<irt_difficulty>0.28</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

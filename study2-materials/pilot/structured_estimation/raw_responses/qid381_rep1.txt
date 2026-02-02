@@ -1,0 +1,45 @@
+<chain_of_thought>
+The target item requires rearranging A = (1/2)(b x h) to make h the subject. This is a standard formula rearrangement question typical of KS3/KS4 algebra.
+
+Working through the correct solution:
+A = (1/2)bh
+2A = bh (multiply both sides by 2)
+2A/b = h (divide both sides by b)
+So h = 2A/b, which is option B.
+
+Analyzing the distractors from a psychometric perspective:
+
+Option A (h = (1/2)(b x A)) simply substitutes A where h was without doing any algebraic manipulation. This is a very naive error -- the student treats rearranging as just "swapping" variables.
+
+Option C (h = A/(2b)) is the most dangerous distractor. A student who divides both sides by (1/2) incorrectly -- or who thinks "there's a 2 in the denominator so I divide by 2b" -- would choose this. It represents dividing by 2 rather than multiplying by 2, which is exactly the tested misconception.
+
+Option D is the "none of the above" option which might attract students who are uncertain.
+
+The key challenge here is dealing with the (1/2) coefficient. Many students struggle with fractions in equations. The two-step nature (multiply by 2, then divide by b) puts this at a medium difficulty level.
+
+Looking at the calibration anchors, this feels comparable to the inequality problem (classical difficulty 0.569) but perhaps slightly easier since the context (area of a triangle) is very familiar. I'll estimate around 0.45-0.50 for classical difficulty.
+
+For IRT parameters, the discrimination should be solid because the distractors specifically target the misconception. However, option D could reduce discrimination slightly as it doesn't correspond to a specific error pattern.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.42</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

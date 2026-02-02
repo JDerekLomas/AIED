@@ -1,0 +1,15 @@
+To predict the performance on this question, we must analyze the algebraic demands. The geometric fact (angles in a triangle sum to $180^\circ$) is well-known, but the execution of the equation $4x + 2x - 12 + 4x + 42 = 180$ contains two common stumbling blocks: the collection of like terms and the handling of the constants ($-12 + 42 = 30$).
+
+**Analysis of Options:**
+*   **A ($15^\circ$):** This is the correct answer ($10x + 30 = 180 \rightarrow 10x = 150 \rightarrow x = 15$).
+*   **B ($12.6^\circ$):** Likely obtained if a student adds all numbers regardless of signs ($10x + 54 = 180 \rightarrow 10x = 126$).
+*   **C ($33^\circ$):** Likely obtained if a student incorrectly subtracts 30 from 180 as if it were adding ($10x - 150 = 180$ or similar sign error resulting in $10x = 330$).
+*   **D ($21^\circ$):** Likely obtained if a student thinks the triangle sums to $180$, but ignores the constants entirely ($10x - 30 = 180 \rightarrow 10x = 210$).
+
+**Student Performance Predictions:**
+Below Basic students often struggle to form the equation initially or fail to combine like terms correctly. Basic students often form the equation but make arithmetic errors with directed numbers (the $-12$ and $+42$). Proficient students handle the algebra well but may make a "silly" arithmetic slip. Advanced students will find this a standard procedure.
+
+below_basic: A=25% B=30% C=20% D=25%
+basic: A=45% B=25% C=15% D=15%
+proficient: A=82% B=8% C=5% D=5%
+advanced: A=97% B=1% C=1% D=1%

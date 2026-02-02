@@ -1,0 +1,39 @@
+<chain_of_thought>
+The question asks students to determine the gradient from the equation 5x + 3y = 15. This is a standard form equation that must be converted to y = mx + c to read off the gradient.
+
+Step-by-step solution: 3y = -5x + 15, then y = (-5/3)x + 5. So gradient = -5/3, which is answer D.
+
+Analyzing the distractors:
+- A (5): Student reads the coefficient of x directly from the original equation without rearranging
+- B (-5): Student correctly identifies the negative sign but fails to divide by the coefficient of y
+- C (5/3): Student divides by 3 but forgets the sign change -- this is the core misconception being tested (using same operation rather than inverse)
+- D (-5/3): Correct
+
+The misconception about using the same operation rather than the inverse is quite prevalent. Looking at the calibration set, this same misconception appears in three of the five calibration items, with difficulties ranging widely (0.167 to 0.569). The key differentiator is the number of layered concepts. Here, students need to know what gradient means AND rearrange correctly, which adds difficulty.
+
+This feels like a mid-to-upper difficulty item. The distractors are all highly plausible -- each represents a specific, common error pathway. I expect roughly half of students to get this wrong. The discrimination should be good because the distractors map to specific ability levels: low-ability students pick A, mid-ability pick B or C, and high-ability pick D.
+
+Compared to the inequality item (classical difficulty 0.569, IRT b = 0.808), this is slightly less procedurally complex but involves the additional concept of gradient, so I'd estimate similar difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.56</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

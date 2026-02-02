@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing this quadratic graph-to-equation matching item. The graph shows a downward-opening parabola with x-intercepts at -5 and 1.
+
+First, let me think about what knowledge is being tested and how students might approach this:
+
+Approach 1 (Substitution): A student might try substituting the x-intercepts into each equation to check which gives y=0. All four options give y=0 at x=1 (checking: A gives (0)(6)=0, B gives (0)(4)=0, C gives (0)(6)=0, D gives (0)(-4)=0). At x=-5: A gives (6)(0)=0, B gives (6)(10)=60, C gives (-6)(0)=0, D gives (-6)(-10)=60. So substitution eliminates B and D, leaving A and C.
+
+Approach 2 (Factor recognition): Students who know that root r corresponds to factor (x-r) would write (x-1)(x+5), which is option C. But this opens upward! They need to recognize the graph opens downward and adjust. This requires understanding that -(x-1) = (1-x), leading to option A.
+
+The subtlety here is significant. Many students learn to write factors from roots mechanically but don't connect the leading coefficient to the graph's orientation. The tested misconception about multiplying negatives is somewhat indirectly related - it's more about students not recognizing that the arrangement of terms within a factor affects the overall sign.
+
+I think option C will be a very popular wrong answer. Students who can correctly identify roots will naturally write (x-1)(x+5) and stop there without checking orientation. This makes the item fairly difficult.
+
+Comparing to calibration: this feels comparable to or slightly harder than the inequality problem (classical 0.569, IRT 0.808). Actually, the inequality problem requires more procedural steps but the conceptual demand here might be comparable. The IRT difficulty of the inequality item seems quite high relative to its classical difficulty, suggesting lower discrimination there. Here I think discrimination could be somewhat higher since the item clearly separates conceptual understanding.
+
+Wait - let me reconsider. The inequality item's IRT difficulty of 0.808 with classical difficulty 0.569 and the factorising item's 0.404 IRT with 0.473 classical give me reference points. I think this item is between those two, closer to the factorising item since it tests the same misconception. I'll estimate classical difficulty around 0.53 and IRT difficulty around 0.50.
+
+For guessing: even random guessing gives 0.25 baseline, but some students can eliminate B and D via root-checking, making A vs C a coin flip for those who can't determine orientation. Effective guessing might be elevated.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>8</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>0.60</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.16</guessing_probability>
+</predictions>

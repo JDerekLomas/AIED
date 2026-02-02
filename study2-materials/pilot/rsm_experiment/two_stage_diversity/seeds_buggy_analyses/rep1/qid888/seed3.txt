@@ -1,0 +1,24 @@
+In the context of Year 9 algebra, a common hurdle is the consistent application of integer arithmetic during binomial expansion.
+
+### 1. The Misconception: "Negative-Negative Multiplication Overload" (Specifically, Sign Neglect in the Constant Term)
+The specific bug is a failure to apply the **"negative multiplied by a negative equals a positive"** rule when calculating the final term of the quadratic, despite often applying the negative addition rule correctly for the middle term. This is frequently a result of "cognitive load" — the student is so focused on the distributive process (FOIL/Grid method) that they revert to intuitive arithmetic (+/- equals -) for the last step.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would likely use the **FOIL** (First, Outside, Inside, Last) method as follows:
+
+1.  **First:** $m \times m = m^2$. (Correct)
+2.  **Outside:** $m \times (-7) = -7m$. (Correct)
+3.  **Inside:** $(-5) \times m = -5m$. (Correct)
+4.  **Simplify Middle:** The student combines $-7m - 5m$ to get $-12m$. (Correct)
+5.  **Last:** The student multiplies $(-5) \times (-7)$. Because they see two minus signs, their intuition tells them "the answer must be negative" or they simply associate the presence of subtraction signs in the brackets with a subtraction sign in the answer. They calculate $5 \times 7 = 35$ and prefix it with a minus.
+6.  **Final Result:** $m^2 - 12m - 35$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option D: $m^2 - 12m - 35$.**
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent in Key Stage 3. 
+
+*   **Logic to the Student:** Many students find it counter-intuitive that a problem filled with subtraction signs $(m-5)$ and $(m-7)$ should end with a "plus" $(+35)$. To a Year 9 student, a positive constant feels "wrong" or out of place given the context of the question.
+*   **The "Double Rule" Confusion:** Students often confuse the rule for *adding* negatives (which stays negative) with the rule for *multiplying* negatives. Having just correctly calculated $-7 - 5 = -12$ (staying negative), they are psychologically primed to keep the result negative for the final multiplication step.
+*   **Self-Correction:** A student is very unlikely to realize they have gone wrong. Because $-12m$ and $-35$ "look" consistent with the negative signs in the original brackets, the answer feels harmonious. They will likely feel confident in their choice because they "remembered" that $7+5=12$ and $7 \times 5 = 35$.

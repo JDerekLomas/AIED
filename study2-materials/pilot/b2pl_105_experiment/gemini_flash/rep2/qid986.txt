@@ -1,0 +1,21 @@
+As a UK maths teacher, I evaluate this question based on the typical hierarchy of solving two-step equations involving fractions. 
+
+The equation is $\frac{x-6}{2}=10$. 
+**Tom's logic:** He is attempting to "move" the $-6$ before dealing with the divisor. If he adds $6$ to both sides, the equation would actually become $\frac{x-6}{2} + 6 = 16$. He incorrectly thinks he can "isolate" $x$ from the numerator independently. This is a very common mistake.
+**Katie's logic:** She is attempting to multiply by $2$. However, she has divided $10$ by $2$ instead of multiplying, or she has multiplied the LHS but forgot to multiply the RHS (and then somehow performed an additional incorrect operation). If she multiplied correctly, the line would be $x-6=20$.
+
+**Challenges for students:**
+1.  **Tom's trap:** Many "Basic" students have "get the $x$ term on its own" drilled into them, so they try to add 6 first. Because the resulting equation ($\frac{x}{2}=16$) looks like a "neat" next step, many will fall for it.
+2.  **Katie's trap:** Students who know they should multiply by 2 often make arithmetic slips or do the inverse operation (division) by mistake.
+3.  **The "Neither" trap:** Proficient students will spot that Tom is wrong and that $10 \times 2 = 20$, not $5$, identifying both as incorrect.
+
+**Predictions:**
+*   **Below Basic:** These students often pick "Both" (C) because both names represent standard-looking operations, or they guess.
+*   **Basic:** A huge number will side with Tom (A). They see "-6" and want to do "+6".
+*   **Proficient:** These students usually recognize Katie is wrong ($10 \div 2$ instead of $10 \times 2$), but a significant portion will still be tricked by Tom's algebraic "legality."
+*   **Advanced:** These students will see that $\frac{x-6}{2} + 6$ does not equal $\frac{x}{2}$ and that $10 \times 2$ is $20$.
+
+below_basic: A=30% B=20% C=35% D=15%
+basic: A=45% B=15% C=25% D=15%
+proficient: A=25% B=10% C=10% D=55%
+advanced: A=5% B=2% C=3% D=90%

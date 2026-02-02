@@ -1,0 +1,18 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it looks like a standard arithmetic comparison, it is particularly effective because both sides use the exact same numbers and operations, making the role of the brackets the sole variable.
+
+The left-hand side ($8 + 12 \div 4$) requires division before addition ($8 + 3 = 11$). The most common error is calculating from left to right ($20 \div 4 = 5$). 
+The right-hand side ($(8 + 12) \div 4$) forces the addition first due to the brackets ($20 \div 4 = 5$).
+
+The "trap" here is that if a student lacks BIDMAS knowledge and works left-to-right on both sides, they will get $5$ for both and choose "=". If they know BIDMAS, they get $11 > 5$. Lower-ability students often guess that since the numbers are the same, they must be equal, or they find the presence of brackets "more powerful," leading them to assume the right side must be larger.
+
+**Ability Level Predictions:**
+
+**Below Basic:** These students often ignore BIDMAS entirely or see the same numbers and assume equality. They also frequently confuse the inequality symbols ($>$ vs $<$).
+**Basic:** This group usually knows "Brackets first" but often forgets that "Division comes before Addition" when brackets aren't present. Many will calculate $5 \square 5$ and choose C.
+**Proficient:** These students generally apply BIDMAS correctly on both sides but a small percentage may still make a calculation slip or a symbol-direction error.
+**Advanced:** These students will instantly recognise the structure of the problem and identify that the left side performs the addition last, making it significantly larger.
+
+below_basic: A=25% B=30% C=35% D=10%
+basic: A=20% B=15% C=60% D=5%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=97% B=1% C=1% D=1%

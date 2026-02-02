@@ -1,0 +1,35 @@
+<chain_of_thought>
+The target item presents a compound inequality -5 < 2x + 1 < 5. To solve correctly, a student must apply inverse operations to all three parts: first subtract 1 throughout to get -6 < 2x < 4, then divide by 2 to get -3 < x < 2.
+
+Let me trace through each distractor to understand its plausibility:
+- A) -9 < x < 11: This could arise from multiplying by 2 and adding 1 instead of the inverse operations. If a student does (-5)*2 - 1 = -11... actually this doesn't map cleanly. Perhaps (-5-1)*2 = -12... no. Let me try: if they multiply the bounds by 2 and then subtract 1: (-5*2)-1 = -11, (5*2)+1 = 11. Close to A but not exact. Alternatively adding instead of subtracting for step 1: -5+1=4, then *2... these don't map perfectly, suggesting A catches a general confusion error.
+- B) -3 < x < 2: Correct answer.
+- C) -2 < x < 2: This could come from adding 1 instead of subtracting (the tested misconception): -5+1 = -4, 5+1 = 6, then /2 gives -2 < x < 3. That gives -2 on the left but 3 on the right, not 2. So C might catch a partial error or a different path.
+- D) -3.5 < x < 1.5: This looks like subtracting 1 correctly (-6 and 4) but then subtracting 2 instead of dividing: -6/2 = -3 but -3.5 doesn't fit that... wait, (-5-1)/2 = -3 and (5-1)/2 = 2, that's the correct answer. For D: maybe they subtracted 2 instead of dividing? -5 - 2 = -7/2 = -3.5 and 5-2 = 3/2 = 1.5. So they might subtract 2 and then halve, or some mixed approach.
+
+This is a higher-level item requiring compound inequality handling. Looking at calibration, this involves more cognitive load than the simple equation p+10=-5 (difficulty 0.167) but is comparable to the factorising item (0.473) or the inequality item (0.569). The compound nature adds complexity.
+
+I think this falls in the 0.50-0.60 range for classical difficulty, perhaps slightly easier than I might first assume because strong students will handle it routinely.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.53</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

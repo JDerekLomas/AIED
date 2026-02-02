@@ -1,0 +1,22 @@
+As a researcher in mathematics education, I identify the most specific difficulty in this question as the **atypical placement of the variable to be substituted.**
+
+Specifically, students often fall into a "Procedural Schema Trap" where they default to substituting the $x$-value to find $y$, rather than the $y$-value to find $x$.
+
+### The Specific Difficulty: "Input-Output Inversion"
+
+In almost all introductory lessons and textbook exercises regarding linear tables, $x$ is presented as the independent variable (the input) and $y$ as the dependent variable (the output). Students are conditioned to look at the top row for a value and "plug it in" to find the bottom row.
+
+**Why this makes the question difficult:**
+1.  **Directional Bias:** Students often read the table top-to-bottom. Seeing the $\star$ in the $x$ row and the $0.5$ in the $y$ row requires them to "work backward." A significant number of students will impulsively substitute $0.5$ for $x$ instead of $y$.
+2.  **The Error Path:** If a student substitutes $x = 0.5$ into the equation:
+    *   $10(0.5) - 6y = 30$
+    *   $5 - 6y = 30$
+    *   $-6y = 25$
+    *   $y = -4.166...$
+    While this specific distractor isn't listed, the cognitive load of realizing they substituted the wrong variable often leads to frustration or mechanical errors in the subsequent algebraic manipulation.
+
+### The Algebraic Friction
+When students correctly identify that they must substitute for $y$, they encounter a secondary difficulty: **solving for $x$ when the coefficient of $y$ is negative.**
+Substituting $y = 0.5$ yields $10x - 6(0.5) = 30$, leading to $10x - 3 = 30$. Students who struggle with negative terms may mistakenly treat $- 6(0.5)$ as an addition or fail to add $3$ to both sides, instead subtracting it and arriving at $10x = 27$ ($x = 2.7$, **Distractor D**).
+
+**Summary:** The primary hurdle is not the decimal or the multiplication, but the **reversal of the traditional $x \to y$ mapping**, which disrupts the student's established habit of using the first row as the starting point for calculation.

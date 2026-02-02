@@ -1,0 +1,49 @@
+<chain_of_thought>
+Let me analyze this item: 1/3 + 1/2 x 1/3
+
+The correct answer is A (1/2), which requires applying order of operations: multiply first, then add.
+
+Step-by-step correct solution:
+1. First compute 1/2 x 1/3 = 1/6
+2. Then compute 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2
+
+The misconception being tested is "carries out operations from left to right regardless of priority order." A student making this error would compute:
+1/3 + 1/2 = 5/6, then 5/6 x 1/3 = 5/18
+
+That gives answer B (5/18), which is a very plausible distractor.
+
+Looking at answer C (2/9): This could arise from 1/3 x 2/3 or some other fraction arithmetic error.
+Answer D (1/15): Could come from adding denominators or other systematic errors like 1/(3+2) x 1/3 = 1/5 x 1/3 = 1/15.
+
+Calibrating against the reference items:
+- The second calibration item tests the same misconception (left-to-right operations) with 0.4 - 1/5 x 3, which had classical difficulty 0.134 and IRT difficulty -0.245. That item uses decimals and fractions together.
+- This item is purely fractions, which is arguably more straightforward notation-wise, but the order of operations trap is strong because adding fractions is more salient than multiplying them.
+
+I expect this item to be slightly harder than the calibration item with the same misconception because fraction addition is more tempting to do first, and all operations involve fractions. The distractor B directly corresponds to the misconception and is very attractive. I'd estimate classical difficulty around 0.20-0.30, meaning about 20-30% get it wrong.
+
+IRT difficulty: Probably around -0.1 to 0.2, slightly harder than the calibration item at -0.245.
+Discrimination should be moderate-to-good since the misconception cleanly maps to one distractor.
+Guessing is likely low since students who understand order of operations will reliably get it right.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

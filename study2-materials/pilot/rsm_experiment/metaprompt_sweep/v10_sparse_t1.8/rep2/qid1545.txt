@@ -1,0 +1,43 @@
+In the UK context (KS3/KS4), this question primarily tests **BIDMAS** (Brackets, Indices, Division/Multiplication, Addition/Subtraction).
+
+The core conflict is between the "left-to-right" intuitive reading versus the formal order of operations.
+
+*   **Left Side:** $8 + (12 \div 4) = 8 + 3 = \mathbf{11}$
+*   **Right Side:** $(8 + 12) \div 4 = 20 \div 4 = \mathbf{5}$
+*   **Correct Answer:** $11 > 5$ (**Option A**)
+
+Here is the prediction of student responses by ability level:
+
+### **below_basic**
+*These students often ignore BIDMAS entirely or apply operations in the order they appear. They likely calculate the left side as $(8+12) \div 4 = 5$ and the right side as $5$, leading them to believe both sides are equal.*
+*   **A (>):** 15%
+*   **B (<):** 10%
+*   **C (=):** 70% (Assumes "8+12 then divide by 4" for both sides)
+*   **D (≥):** 5%
+
+### **basic**
+*Students at this level are aware of BIDMAS but often apply it inconsistently. Many will correctly calculate the right side (because of the brackets) but will still perform addition before division on the left side because it comes first spatially.*
+*   **A (>):** 30%
+*   **B (<):** 10%
+*   **C (=):** 55% (Still a very common "trap" answer at this level)
+*   **D (≥):** 5%
+
+### **proficient**
+*These students generally understand that division happens before addition. They will correctly evaluate the left side as 11 and the right side as 5. The errors here are usually down to "processing haste" rather than a lack of knowledge.*
+*   **A (>):** 75%
+*   **B (<):** 5%
+*   **C (=):** 18% (Falling for the visual symmetry trap)
+*   **D (≥):** 2%
+
+### **advanced**
+*These students automatically identify the structure of the expression. They recognise that the brackets on the right "force" the addition to happen early, whereas on the left, the division happens first.*
+*   **A (>):** 95%
+*   **B (<):** 2%
+*   **C (=):** 2%
+*   **D (≥):** 1%
+
+---
+
+### **Teacher’s Note on "Common Misconceptions":**
+*   **The Equality Trap (C):** By far the most common error. Students see the same numbers and symbols and assume the brackets are "just there" or that math always works left-to-right.
+*   **Visual Bias:** On the left side, $12 \div 4$ is at the end, while on the right, it is the $(8+12)$ at the start. Students who don't have a firm grasp of BIDMAS find it "neater" to add first on both sides.

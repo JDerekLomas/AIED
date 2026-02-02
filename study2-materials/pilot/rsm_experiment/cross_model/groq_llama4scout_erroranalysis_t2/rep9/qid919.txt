@@ -1,0 +1,40 @@
+## Step 1: Understanding the task
+The task is to predict the percentage of students at different ability levels (below_basic, basic, proficient, advanced) who chose each option (A, B, C, D) for a given maths question.
+
+## 2: Analyzing the question
+The equation given is $y = 3x^2$, and the student needs to find $y$ when $x = 0.3$. The correct calculation is $y = 3 \times (0.3)^2 = 3 \times 0.09 = 0.27$.
+
+## 3: Identifying potential errors for each option
+- Option A: $0.81$ could result from $3 \times 0.3 = 0.9$ then squaring it or other calculation mistakes.
+- Option B: $0.27$ is the correct answer.
+- Option C: $1.8$ could result from $3 \times 0.3^2 = 3 \times 0.6 = 1.8$ or mistakenly using $0.3$ directly in a linear equation fashion.
+- Option D: $2.7$ could result from $3 \times 0.9 = 2.7$ or other miscalculations.
+
+## 4: Specific calculation errors
+- A common error would be to calculate $3 \times 0.3 = 0.9$ and then not square the $0.3$, leading to $0.9$ or related mistakes.
+- Another error could be squaring the $3$ and $0.3$ separately: $(3)^2 \times (0.3) = 9 \times 0.3 = 2.7$.
+- A straightforward linear calculation mistake: $3 \times 0.3 = 0.9$.
+
+## 5: Attractive but wrong methods
+- Using $x = 0.3^2 = 0.09$ seems less likely as students are more prone to mistakes with the multiplication step than with squaring.
+- The error leading to $0.81$ might come from $(0.3)^2 = 0.09$ then $3 \times 0.09 = 0.27$ (correct) or $0.9$ (incorrect if they forgot to square).
+- $1.8$ seems attractive if one mistakenly calculates it as $0.3 \times 6 = 1.8$.
+
+## 6: Relating errors to student ability levels
+- **Below_basic**: More likely to make basic calculation errors. So, they might choose A, C, or D due to simple miscalculations or misunderstanding the equation (e.g., A=30%, B=20%, C=30%, D=20%).
+- **Basic**: Should have a better grasp but still prone to mistakes. Thus, they might be more likely to choose A or C (e.g., A=20%, B=50%, C=20%, D=10%).
+- **Proficient**: Less likely to make careless mistakes. They should predominantly choose B, with some error (e.g., A=5%, B=85%, C=5%, D=5%).
+- **Advanced**: Least likely to make basic calculation errors; almost all should choose B (e.g., A=1%, B=95%, C=2%, D=2%).
+
+## 7: Estimating percentages
+Given the errors and student abilities:
+- **Below_basic**: A=40% (careless miscalculation), B=15% (got it right), C=30% (thought it was linear), D=15%.
+- **Basic**: A=25%, B=50%, C=20%, D=5%.
+- **Proficient**: A=5%, B=85%, C=5%, D=5%.
+- **Advanced**: A=1%, B=95%, C=2%, D=2%.
+
+The best answer is 
+below_basic: A=40% B=15% C=30% D=15%
+basic: A=25% B=50% C=20% D=5%
+proficient: A=5% B=85% C=5% D=5%
+advanced: A=1% B=95% C=2% D=2%

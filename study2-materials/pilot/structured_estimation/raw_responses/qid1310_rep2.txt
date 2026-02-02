@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing: ((0.5 / (0.2 + 0.4) - 0.3) x 0.6), which operation comes first?
+
+The key mathematical principle is nested parentheses: innermost brackets are evaluated first. The expression (0.2 + 0.4) is the innermost grouping, so B is correct.
+
+This is a recognition task rather than a computation task - the student doesn't actually need to calculate anything, just identify the correct first step. This makes it somewhat easier than if they had to carry through the full calculation.
+
+However, parsing the nested bracket structure with all these decimals is non-trivial. The expression is visually dense. Let me think about how a typical Year 7-8 student would approach this. Many students at this level have been drilled on BIDMAS but still struggle with application, especially when brackets are nested.
+
+The left-to-right misconception is extremely prevalent. Research consistently shows that even after explicit instruction, many students default to left-to-right processing. Option A (0.5 / 0.2) sits right at the start and would be the first thing a left-to-right reader encounters.
+
+Option C is interesting because 0.4 appears in both the inner bracket and adjacent to 0.3. A student who misparses the brackets might think 0.4 - 0.3 is a natural grouping. Option D targets students who elevate multiplication above brackets.
+
+Looking at the calibration items, the similar misconception item had classical difficulty 0.134 (quite easy). But this item has considerably more visual parsing required. I'd place it harder - perhaps around classical difficulty 0.35. The nested brackets create genuine confusion even for students who know the BIDMAS rules in principle.
+
+For IRT parameters, I'd expect moderate difficulty (b around 0.1 to 0.3) and good discrimination since this is a clean test of bracket understanding. Guessing should be relatively low since the distractors target specific misconceptions rather than being arbitrary.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

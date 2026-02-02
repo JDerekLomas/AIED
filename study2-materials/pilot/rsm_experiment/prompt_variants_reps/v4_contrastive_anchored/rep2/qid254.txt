@@ -1,0 +1,15 @@
+This question is a classic "traps and conventions" problem. It tests three distinct areas:
+1. **The role of zero in a data set:** Many students believe zero "doesn't count" and will divide by $n-1$.
+2. **Order of Operations (BIDMAS):** Option B looks like the correct method written linearly, but mathematically it is $0+1+3+4+(7 \div 5)$.
+3. **Notation vs. Logic:** Option A is actually the correct calculation because adding 0 does not change the numerator, and the denominator correctly identifies there are 5 data points.
+
+**Analysis of levels:**
+*   **Below-basic:** Likely to fall for C, thinking that 0 isn't a "number" to be counted in a mean. They also lack the BIDMAS awareness to see why B is wrong.
+*   **Basic:** Will struggle between A and C. Many will choose C because they've been told "divide by how many numbers there are" and they don't see 0 as a value.
+*   **Proficient:** Should recognise that 0 must be included in the count (ruling out C), but a significant portion will be caught by Option B if they read it as a left-to-right instruction rather than a mathematical expression.
+*   **Advanced:** Will immediately spot the BIDMAS error in B and recognise that while 0 is omitted from the addition in A, the division by 5 makes it mathematically sound and the only valid choice.
+
+below_basic: A=20% B=30% C=40% D=10%
+basic: A=40% B=25% C=30% D=5%
+proficient: A=65% B=20% C=10% D=5%
+advanced: A=92% B=5% C=1% D=2%

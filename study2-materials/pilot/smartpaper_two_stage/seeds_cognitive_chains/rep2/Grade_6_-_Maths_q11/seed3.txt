@@ -1,0 +1,16 @@
+bag 1 = 75 kg
+bag 2 = 69 kg
+
+finding maximum weight... so we do lcm.
+
+      2  | 75      2 | 69
+      5  | 15      3 | 23
+      3  | 3       23| 1
+         | 1
+
+75 = 5 x 5 x 3
+69 = 3 x 23
+
+comon is 3.
+
+Ans is 3 kg weight.

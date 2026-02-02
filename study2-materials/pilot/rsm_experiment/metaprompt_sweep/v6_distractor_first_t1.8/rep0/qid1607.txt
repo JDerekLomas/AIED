@@ -1,0 +1,26 @@
+As an experienced UK maths teacher, I have seen this specific "reverse operation" error frequently, particularly when students are transitioning from one-step to two-step equations.
+
+### Step 1 — Analysis of Reasoning
+
+*   **A) Only Step 1:** The student correctly identifies that they need to multiply by 4 to "undo" the division ($15 \times 4 = 60$), leading to $60 = 1 + k$. They then scrutinise Step 2 and realise that to isolate $k$, they should subtract 1 ($60 - 1 = 59$) rather than adding it. This reflects a student who understands the first inverse operation but identifies the error in the second.
+*   **B) Only Step 2:** This is a rare choice. It suggests a student who might think Step 1 is wrong (perhaps thinking they should subtract 4 or divide 15 by 4) but somehow believes that if you *did* have 60, adding 1 to get 61 is correct. It usually indicates a total lack of understanding of inverse operations or a misread of the signs.
+*   **C) Both steps are correct:** This is the most common "distractor" for middle-ability students. The student sees that $15 \times 4 = 60$ (Correct) and then sees the numbers 60 and 1 and thinks "I need to put them together." They see the '$+$' sign and reflexively add 1 to 60 to get 61, forgetting that to solve an equation, they must perform the **inverse** operation (subtraction).
+*   **D) Both steps are incorrect:** The student fails to recognise that multiplying by 4 is the correct first step. They may think you should subtract 1 first (a common mistake when the fraction bar isn't seen as a grouping symbol) or they simply cannot follow the logic of the rearrangement at all.
+
+***
+
+### Step 2 — Predicted Distributions
+
+In the UK system, **Below Basic** refers to students working well below age-related expectations (Lower KS3); **Basic** refers to Foundation GCSE level; **Proficient** refers to Higher GCSE (Grade 5/6); and **Advanced** refers to students aiming for Grades 8/9 or A-Level.
+
+**below_basic:** A=10% B=5% C=50% D=35%
+*Reasoning: These students often struggle with fractions in equations. Many will pick D because it "looks wrong" or C because they see familiar numbers ($60+1=61$) without understanding the mechanics of equality.*
+
+**basic:** A=35% B=5% C=50% D=10%
+*Reasoning: At this level, students are comfortable multiplying by the denominator (Step 1) but very frequently fall into the "additive inverse" trap, where they see a plus sign and add rather than subtract. C is a very high-frequency error here.*
+
+**proficient:** A=75% B=2% C=20% D=3%
+*Reasoning: Proficient students have usually mastered the "change the side, change the sign" rule. Most will spot the error in Step 2 immediately. However, under exam pressure, a significant minority will still lapse and pick C.*
+
+**advanced:** A=96% B=0% C=3% D=1%
+*Reasoning: These students have high fluency in algebraic manipulation. Almost all will identify that $k$ should be 59. The tiny percentage for C represents "silly mistakes" made through over-confidence/speed.*

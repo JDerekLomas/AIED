@@ -1,0 +1,26 @@
+As an experienced UK maths teacher, I see this type of question frequently. It tests two distinct skills: the algebraic order of operations (BIDMAS/BODMAS) and decimal place value during squaring.
+
+### Step 1 — Analysis of reasoning
+
+*   **A) 0.81**: This stems from a conceptual error regarding the base of the power. The student calculates $(3x)^2$ instead of $3x^2$. They multiply 3 by 0.3 to get 0.9, then square 0.9 to get 0.81. This is a very common "brackets omission" error.
+*   **B) 0.27**: This is the **correct reasoning**. Following BIDMAS, the student squares the $x$ first: $0.3 \times 0.3 = 0.09$. Then they multiply by 3: $3 \times 0.09 = 0.27$. 
+*   **C) 1.8**: This reasoning is based on a misconception about what $x^2$ means. The student confuses squaring with "doubling." They calculate $0.3 \times 2 = 0.6$, and then multiply by 3 to get 1.8. 
+*   **D) 2.7**: This is a decimal place value error. The student correctly identifies the steps ($0.3^2 \times 3$), but incorrectly calculates $0.3 \times 0.3$ as $0.9$ (forgetting the second decimal place). Then, $0.9 \times 3 = 2.7$.
+
+***
+
+### Step 2 — Predicted Distributions
+
+In the UK school system, "Below Basic" usually corresponds to students working toward GCSE Grade 1-2, "Basic" to Grade 3-4, "Proficient" to Grade 5-6, and "Advanced" to Grade 7-9.
+
+**below_basic:** A=20% B=10% C=40% D=30%
+*Reasoning: Students at this level heavily lean towards additive or linear operations (doubling instead of squaring) and frequently make place value errors with decimals.*
+
+**basic:** A=35% B=25% C=15% D=25%
+*Reasoning: These students often know they need to "square," but 0.3 squared being 0.09 is non-intuitive. Option A (3x then square) feels like a more natural "left-to-right" process to them.*
+
+**proficient:** A=20% B=55% C=5% D=20%
+*Reasoning: Most proficient students respect BIDMAS, but a significant portion will still fall into the decimal trap of $0.3 \times 0.3 = 0.9$, leading them directly to D.*
+
+**advanced:** A=5% B=92% C=0% D=3%
+*Reasoning: High-ability students have internalized that squaring a value less than 1 results in a smaller value (0.09) and rarely confuse the order of operations in simple terms.*

@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a prevalent issue for Year 9 students (ages 13–14) regarding **inverse operations and variable position.**
+
+### 1. The Misconception: "Variable Location Irrelevance" (The Multiplication Reflex)
+The specific bug is the **"Divide the larger number by the smaller number"** heuristic, combined with a misunderstanding of the variable as a denominator. Many students at this level struggle when the unknown ($p$) is the **divisor** rather than the dividend. They incorrectly treat $\frac{5}{p}$ as being functionally equivalent to $\frac{p}{5}$ because their mental schema for "solving" involves simply "undoing" the numbers they see using the operation they find most comfortable.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would follow these steps:
+1.  **Observe the expression:** The student looks at $10 = \frac{5}{p}$ and identifies that there is a division involved.
+2.  **Inversion Error:** They know they need to "move" the 5 to the other side to isolate $p$. However, instead of multiplying both sides by $p$, they decide to "do the opposite of 5" or "rearrange the numbers."
+3.  **Operation Selection:** The student assumes that to find $p$, they simply need to divide the two visible constants. Because $10 \div 5$ yields a clean, whole integer, it feels "mathematically correct."
+4.  **Calculation:** $10 \div 5 = 2$.
+5.  **Conclusion:** Therefore, $p = 2$.
+
+### 3. The Resulting Answer
+This misconception leads directly to **Option C ($p = 2$)**.
+
+### 4. Attractiveness of the Error
+This is an **extremely "attractive" error** for several reasons:
+
+*   **Ease of Calculation:** In Year 9, students are often still developing "number sense." Dividing 10 by 5 is much more intuitive and satisfying than dividing 5 by 10 (which results in a decimal).
+*   **The "Clean Answer" Bias:** Students often believe that if an operation results in a whole number (2), it is more likely to be correct than an operation resulting in a fraction (0.5).
+*   **Procedural Superficiality:** The student ignores the *position* of $p$. In their mind, the equation is just a "triangle" of numbers ($10, 5,$ and $p$). They know $10 \times 0.5 = 5$, $10 \div 5 = 2$, and $5 \div 0.5 = 10$. Without a solid grasp of algebraic manipulation (multiplying by the denominator first), they will pick the most "natural" looking pairing, which is $10 \div 5 = 2$.
+*   **Lack of Verification:** The student is unlikely to realize they are wrong because they rarely "plug the answer back in." If they did, they would see $10 = \frac{5}{2}$ is $10 = 2.5$ (False). Instead, they finish the calculation, see their result listed as Option C, and feel a false sense of validation.

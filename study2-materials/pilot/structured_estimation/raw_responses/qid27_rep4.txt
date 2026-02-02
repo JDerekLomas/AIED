@@ -1,0 +1,44 @@
+<chain_of_thought>
+Evaluating: If d = -2, what is 10 - 2d? Options: A) -12, B) 6, C) 14, D) 32. Correct: C.
+
+I want to think carefully about how difficult this actually is for the target population. Substitution is introduced early in secondary school, but this item layers on two common difficulties: (1) substituting a negative value, and (2) handling the resulting double negative in the arithmetic.
+
+The expression 10 - 2d requires students to:
+1. Recognize that 2d means 2 times d
+2. Substitute d = -2 to get 2*(-2) = -4
+3. Compute 10 - (-4) = 10 + 4 = 14
+
+The misconception tested — believing two negatives multiply to give a negative — would affect step 3 indirectly. Actually, the misconception manifests when students see the "-" in front of 2d and the "-2" for d. If they think the negative times negative in -2 * -2 still yields a negative, they'd get -4, leading to 10 + (-4) = 6.
+
+But wait — is it really about the multiplication, or is it about subtracting a negative? These are related but distinct concepts. The expression is 10 - 2d. With d=-2, we get 10 - 2(-2) = 10 - (-4). The critical step is knowing that subtracting a negative is adding. A student might correctly compute 2*(-2) = -4 but then fail at 10 - (-4), doing 10 - 4 = 6 instead of 10 + 4 = 14.
+
+So there are actually TWO potential failure points, making B an even stronger attractor than I might initially think. This could push difficulty higher than a simple substitution item.
+
+Let me reconsider the calibration items. The BODMAS item (0.4 - 1/5 * 3) had classical difficulty 0.134 and b = -0.245 — that was about order of operations, a different skill. The simple equation item had 0.167 difficulty. The factorising item with the same misconception had 0.473.
+
+Given the double-negative trap, I think this item is harder than the simple equation items but not as hard as the factorising. I'll estimate around 0.35-0.40 classical difficulty. The presence of two failure points (multiplication and subtraction of negatives) could push it toward 0.40.
+
+For discrimination: the item cleanly tests a specific skill set, so it should discriminate well, maybe around 1.15-1.40. Guessing should be low since each wrong answer corresponds to a specific error pattern rather than random guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.12</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

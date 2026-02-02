@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: Solve -3 = p + 12. Answer: B, p = -15.
+
+This is a basic one-step equation requiring the student to subtract 12 from both sides. The main challenge is working with negative numbers: -3 - 12 = -15.
+
+I'll approach this by considering what proportion of UK secondary students (ages 11-16) across the full ability range would get this wrong. Solving simple linear equations is introduced around Year 7-8 and should be well-practiced by most students in the Eedi dataset. The Eedi platform tends to be used for diagnostic purposes, so the student population is broad.
+
+Calibration item 1 is the closest match: -5 = p + 10, same misconception, same structure. It had 16.7% incorrect. The near-identical structure suggests very similar difficulty.
+
+One thing I want to think about differently this time: the role of the specific distractors in shaping the parameters. In calibration item 1, the correct answer was C (p = -15). Here the correct answer is B (p = -15). The position of the correct answer in the option list can sometimes matter -- research suggests middle options are slightly more frequently chosen. But this effect is small for math items where students compute an answer and match it.
+
+For discrimination, all three calibration items testing this misconception had a values between 1.05 and 1.32. The simpler items (1 and 3) had higher discrimination, suggesting cleaner measurement. This simple item should discriminate well.
+
+I'll estimate classical difficulty around 0.15-0.20, anchoring tightly to calibration item 1. IRT difficulty should be in the -0.5 to -0.8 range. Discrimination around 1.2-1.5. Guessing near zero since students compute specific values.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.16</classical_difficulty>
+<irt_difficulty>-0.72</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

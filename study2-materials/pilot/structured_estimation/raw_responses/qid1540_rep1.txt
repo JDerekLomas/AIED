@@ -1,0 +1,36 @@
+<chain_of_thought>
+The student must evaluate y = x² - 2x + 1 at x = -1. This involves substituting a negative value and performing arithmetic with negative numbers across three terms.
+
+Step by step: (-1)² = 1, then -2(-1) = 2, then +1. Sum: 1 + 2 + 1 = 4.
+
+The key misconception is about squaring negatives. Many students at KS3/KS4 struggle with (-1)² vs -(1²). This is a well-documented and persistent misconception. The distractors map to specific errors:
+- A (-2): (-1)² → -1, and -2(-1) → -2, giving -1 - 2 + 1 = -2
+- C (2): (-1)² → -1, but -2(-1) → +2 correctly, giving -1 + 2 + 1 = 2
+- D (0): Perhaps recognizing the perfect square trinomial (x-1)² but evaluating (-1-1)² = (-2)² then making an error, or simply a computational slip
+
+Comparing to the calibration set, this is similar in difficulty to the factorisation item (b = 0.404) which tests the same misconception. However, substitution into quadratics with negatives involves more procedural steps and working memory demands. The table format adds slight visual complexity but also scaffolds the task by making clear what's being asked.
+
+I think this item is moderately difficult — perhaps slightly harder than the factorisation item because students must handle negatives in multiple places. The misconception about negative squaring is very common among younger secondary students. I'd estimate around 45-50% get it wrong.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

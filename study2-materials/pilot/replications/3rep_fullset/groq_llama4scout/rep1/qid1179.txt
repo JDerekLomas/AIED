@@ -1,0 +1,35 @@
+To solve this, let's first understand the properties of a square and how they apply to the given situation. A square has all sides of equal length and all angles are right angles (90 degrees). The line segment given is from (0,2) to (3,1).
+
+## Step 1: Calculate the length and slope of the given line segment
+The length of the line segment can be found using the distance formula: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\). Substituting the given points: \(\sqrt{(3 - 0)^2 + (1 - 2)^2} = \sqrt{9 + 1} = \sqrt{10}\).
+
+The slope of the line segment is \(\frac{y_2 - y_1}{x_2 - x_1} = \frac{1 - 2}{3 - 0} = -\frac{1}{3}\).
+
+## 2: Determine the slope of the perpendicular line
+For a square, the sides are perpendicular to each other. The slope of a line perpendicular to another line with slope \(m\) is \(-\frac{1}{m}\). Thus, the slope of the line perpendicular to the given line segment is \(3\).
+
+## 3: Check Tom's suggestion
+Tom suggests a vertex could be \((2, -2)\). To verify, we calculate the distance from \((2, -2)\) to \((0, 2)\) and to \((3, 1)\) and check if either is \(\sqrt{10}\) (the length of the given side) and if the slopes are appropriately related.
+
+- Distance from \((2, -2)\) to \((0, 2)\): \(\sqrt{(2-0)^2 + (-2-2)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}\).
+- Distance from \((2, -2)\) to \((3, 1)\): \(\sqrt{(2-3)^2 + (-2-1)^2} = \sqrt{1 + 9} = \sqrt{10}\).
+
+The slope from \((0,2)\) to \((2,-2)\) is \(\frac{-2 - 2}{2 - 0} = -2\), and from \((3,1)\) to \((2,-2)\) is \(\frac{-2 - 1}{2 - 3} = 3\). Since one of the distances matches \(\sqrt{10}\) and the slopes are perpendicular (as one is \(3\) and the other is not \(-\frac{1}{3}\) but this indicates a potential right angle), let's see if Katie's suggestion also holds.
+
+## 4: Check Katie's suggestion
+Katie suggests a vertex could be \((1, 5)\).
+
+- Distance from \((1, 5)\) to \((0, 2)\): \(\sqrt{(1-0)^2 + (5-2)^2} = \sqrt{1 + 9} = \sqrt{10}\).
+- Distance from \((1, 5)\) to \((3, 1)\): \(\sqrt{(1-3)^2 + (5-1)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}\).
+
+The slope from \((0,2)\) to \((1,5)\) is \(\frac{5-2}{1-0} = 3\), and from \((3,1)\) to \((1,5)\) is \(\frac{5-1}{1-3} = -2\). 
+
+## 5: Conclusion on suggestions
+Tom's point \((2, -2)\) forms a line segment of length \(\sqrt{10}\) with \((3,1)\), suggesting it could be a vertex. Katie's point \((1,5)\) forms a line segment of length \(\sqrt{10}\) with \((0,2)\), suggesting it could also be a vertex.
+
+## 6: Predicting Student Responses
+Given that both Tom and Katie provide points that could potentially form a square with the given line segment, we assess the likelihood of students choosing each option based on common misconceptions and understanding of geometry.
+
+- **Below Basic**: Students might struggle with calculating distances and slopes. They might not accurately assess the validity of Tom's and Katie's points. Given the complexity of calculations, \( A = 20\% \), \( B = 20\% \), \( C = 30\% \), \( D = 30\% \).
+- **Basic**: Students have a basic understanding of geometry and can perform simple calculations. They might correctly identify one or both points as valid. \( A = 15\% \), \( B = 15\% \), \( C = 40\% \), \( D = 30\% \).
+- **Proficient**: Students can accurately calculate distances and slopes and apply geometric principles. They should be able to verify both points. \( A = 5\% \), \( B =

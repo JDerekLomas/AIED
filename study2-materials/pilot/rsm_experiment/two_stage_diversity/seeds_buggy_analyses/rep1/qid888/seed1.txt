@@ -1,0 +1,30 @@
+In the context of UK Year 9 algebra, the expansion of quadratic brackets often reveals underlying confusion regarding directed numbers (integers).
+
+### 1. The Misconception: "Negative Plus Negative is a Positive" (Operator Confusion)
+
+The specific bug is **Integer Operation Interference**. Students often over-generalize the "Double Negative Rule" (which applies to multiplication and division) and apply it to **addition/subtraction**.
+
+Because the student sees two minus signs in the expression $(m-5)$ and $(m-7)$, their brain triggers a heuristic that "two minuses make a plus," leading them to incorrectly add the middle term coefficients as positive 12 rather than negative 12.
+
+### 2. Step-by-Step Procedure
+
+A student with this misconception would likely use the FOIL method (First, Outside, Inside, Last) as follows:
+
+1.  **First:** $m \times m = m^2$. (Correct)
+2.  **Outside:** $m \times -7 = -7m$. (Correct)
+3.  **Inside:** $m \times -5 = -5m$. (Correct)
+4.  **Last:** $-5 \times -7 = +35$. (Correct — they correctly apply the rule that a negative times a negative is a positive here).
+5.  **Simplify (The Error):** The student now has $m^2 - 7m - 5m + 35$. When combining $-7m$ and $-5m$, the student thinks: *"7 and 5 is 12, and because there are two minuses, it becomes a plus."* They conclude that $-7 - 5 = +12$.
+6.  **Final Result:** $m^2 + 12m + 35$.
+
+### 3. Resulting Answer Option
+
+This misconception leads the student directly to **Option C**.
+
+### 4. Attractiveness of the Error
+
+This is an **exceptionally natural and common error** for Year 9 students. 
+
+*   **Self-Correction Likelihood:** Very low. The student feels they have followed a "rule" they were taught (the double negative rule). To the student, Option C looks "cleaner" because they have "resolved" the negative signs. 
+*   **The Trap:** Because students are so focused on the "Last" term ($(-5) \times (-7) = +35$), they enter a mental state where "negatives are turning into positives." They simply carry that momentum into the addition of the middle terms. 
+*   **Logical Conflict:** They may even recognize that $5 + 7 = 12$, and since they see $m^2 + 12m + 35$ as a standard, "normal-looking" quadratic, they find it more aesthetically pleasing than an answer with negative terms. They are unlikely to realize they have conflated **multiplication rules** with **addition rules** until they are prompted to use a number line or a bank-balance metaphor.

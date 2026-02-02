@@ -1,0 +1,43 @@
+<chain_of_thought>
+Target: 12 / 2 + 1 x 2
+
+Step-by-step correct solution:
+1. Identify operations: division, addition, multiplication
+2. Apply BIDMAS - do division and multiplication first (same priority, left to right): 12/2 = 6, 1x2 = 2
+3. Then addition: 6 + 2 = 8
+Correct answer: D (8)
+
+The tested misconception is sequential left-to-right processing. This would yield 12/2=6, 6+1=7, 7x2=14, which is distractor C.
+
+I want to think about how this compares to the calibration set more carefully. The anchor item testing the same misconception was 0.4 - (1/5) x 3, with classical difficulty 0.134. That item is arguably more complex because it requires fraction-to-decimal conversion (1/5 = 0.2), multiplication of a decimal (0.2 x 3 = 0.6), and subtraction with a sign change (0.4 - 0.6 = -0.2). The additional computational demands might actually help discrimination because only strong students handle all steps correctly, but the base misconception (BODMAS) gets partially masked by computation difficulty.
+
+This target item is computationally trivial - all operations yield whole numbers. The ONLY challenge is knowing to apply BODMAS. This makes it a purer test of the misconception but also potentially easier because there's no computational barrier.
+
+However, I note that this expression has both division AND multiplication interleaved with addition, creating two separate precedence applications. The student must recognize that BOTH 12/2 and 1x2 must be done before the addition.
+
+I think this item is on the easier side - perhaps 15-20% of students get it wrong. The strong left-to-right misconception distractor (C=14) will attract most errors. The other distractors are weak, which could slightly improve discrimination since random guessing is less likely to land on the correct answer by accident (all four options are plausible numbers).
+
+Given the anchor comparison, I estimate classical difficulty around 0.17, IRT b around -0.35, with strong discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.60</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

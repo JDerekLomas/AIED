@@ -1,0 +1,13 @@
+This question tests two distinct areas: the understanding of negative bases in indices and the common confusion between powers and multiplication.
+
+For a UK maths teacher, the primary trap here is $C$ ($-81$). Many students are taught that "a negative times a negative is a positive," but they often misapply the order of operations or rely on calculator inputs that lead to $-3^4$ rather than $(-3)^4$. Option $B$ and $D$ represent the "multiplication instead of index" error ($3 \times 4 = 12$).
+
+*   **Below Basic:** These students often treat $k^4$ as $k \times 4$. They will be split between 12 and -12, with some picking -81 because it "looks" more mathematical.
+*   **Basic:** These students know $3^4 = 81$, but they struggle with the sign rules for even powers. They often assume that if the input is negative, the output must be negative.
+*   **Proficient:** Most students at this level know that an even power of a negative number results in a positive answer, though a significant minority will still fall for the "negative stays negative" trap ($C$).
+*   **Advanced:** Almost all students at this level will correctly calculate $(-3) \times (-3) \times (-3) \times (-3) = 81$.
+
+below_basic: A=15% B=30% C=20% D=35%
+basic: A=40% B=10% C=40% D=10%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=97% B=1% C=2% D=0%

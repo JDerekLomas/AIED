@@ -14,3 +14,15 @@ venv/
 
 # Data outputs
 *.jsonl
+
+# Node modules
+node_modules/
+
+# Large Eedi raw data (keep processed CSVs only)
+# Raw NeurIPS 2020 data (~2.3GB unzipped)
+data/eedi/neurips_data.zip
+data/eedi/data/
+data/eedi/__MACOSX/
+# Duplicate location (if exists)
+data/neurips_eedi.zip
+data/neurips_eedi/

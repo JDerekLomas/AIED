@@ -1,0 +1,29 @@
+In this context, the student is being tested on **Order of Operations** (BIDMAS/BODMAS). While Year 9 students (ages 13–14) are expected to be proficient in this, many still harbour fundamental misunderstandings about the hierarchy.
+
+### 1. The specific misconception: "Strict Left-to-Right" Processing
+The name of this bug is the **Serial Processing Error** (or Linear Processing). 
+
+The student ignores the hierarchical rules of BIDMAS (which state Multiplication must occur before Addition or Subtraction) and instead treats the mathematical expression like a sentence of English text, performing operations strictly in the order they appear from left to right.
+
+### 2. Step-by-step student workthrough
+A student with the Serial Processing misconception would calculate the expression in the following order:
+
+*   **Step 1:** Look at the first two numbers: $3 - 5$.
+*   **Step 2:** Calculate $3 - 5 = -2$.
+*   **Step 3:** Look at the next operation in the chain: $(-2) + 4$.
+*   **Step 4:** Calculate $(-2) + 4 = 2$.
+*   **Step 5:** Look at the final operation: $2 \times 2$.
+*   **Step 6:** Calculate $2 \times 2 = 4$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option B (4)**.
+
+*(Note: The correct answer using BIDMAS is $3 - 5 + 8 = 6$, which is Option A.)*
+
+### 4. How natural/attractive is this error?
+This is one of the most natural and persistent errors in secondary mathematics for several reasons:
+
+*   **Cognitive Loading:** It is mentally "cheaper" to process symbols linearly than it is to scan the whole expression, identify the priority operator ($\times$), jump to the end, and then jump back to the start.
+*   **Reading Habits:** Students spend 100% of their time in other subjects reading left to right. They view the equals sign as a "command" to give an answer to the string of symbols they just read.
+*   **Hidden Validity:** In many simple expressions (like $10 + 5 - 2$), left-to-right processing actually yields the correct answer. This gives the student "false positives"—successes that reinforce a faulty method.
+*   **Self-Correction:** The student would **not** realize they had gone wrong. Unlike a "Remainder" in division or a complex decimal in a simple addition, "4" is a clean, whole integer. The fact that the result is "neat" gives the student a false sense of confidence that the procedure was correct.

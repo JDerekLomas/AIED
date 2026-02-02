@@ -1,0 +1,34 @@
+<chain_of_thought>
+The item tests a very specific and notorious nuance in mathematical notation and calculator logic: the order of operations (BIDMAS/BODMAS) regarding unary minus versus exponentiation. 
+
+- **Mathematical Logic**: $-6^2$ is interpreted by calculators (and standard convention) as $-(6^2)$, which equals $-36$. 
+- **The Misconception**: Students frequently believe that the negative sign is "attached" to the 6, leading them to calculate $(-6) \times (-6) = 36$ (Option C). This is arguably one of the most persistent misconceptions in secondary mathematics.
+- **Distractors**: 
+    - Option C (36) is the primary "trap" and is highly plausible for students who understand that a negative times a negative is positive but don't understand index priority.
+    - Options A and B (12, -12) target students who confuse squaring with multiplying by 2.
+- **Psychometric Profile**: Based on the calibration items, questions that target fundamental order-of-operation misconceptions often have surprisingly low success rates (classical difficulty). The discrimination is likely to be high because high-ability students are more likely to know the specific calculator/order-of-operations rule, while mid-to-low ability students will almost universally choose 36.
+- **Target Population**: UK students (11-16). While the concept is introduced early (KS3), even GCSE students (16) frequently get this wrong.
+- **Comparison to Calibration**: The item is simpler in structure than the $0.4 - 1/5 \times 3$ item but targets a deeper-seated notation misconception. I expect a classical difficulty (proportion correct) slightly higher than the first two examples but still below 0.5 because the distractor "36" is extremely attractive.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,44 @@
+<chain_of_thought>
+Target item: 8 - 7 / 6^3. Which calculation first? Correct: A (6^3).
+
+I want to think about this from the perspective of actual classroom data patterns. BIDMAS is one of the most frequently tested topics in UK KS3 maths. It appears in every scheme of work, usually in Year 7, and is revisited annually. By the time students encounter diagnostic assessments, most have had multiple exposures.
+
+The key question is: what proportion of students in a typical mixed-ability UK secondary cohort would get this wrong? Let me think about ability distribution. In a comprehensive school:
+- Top set students (roughly top 30%): virtually all would get this right
+- Middle set (roughly 40%): most would get this right, maybe 80-85%
+- Bottom set (roughly 30%): perhaps 50-60% would get this right
+
+This gives a rough weighted estimate: 0.30(0.98) + 0.40(0.82) + 0.30(0.55) = 0.294 + 0.328 + 0.165 = 0.787 correct, so about 0.21 incorrect.
+
+But wait — the Eedi dataset likely skews toward students who are actively using diagnostic tools, which might be more representative of average-to-lower ability students in many cases. Or it might be used across all abilities. Without knowing the exact population, I'll work with my estimate.
+
+The fact that this asks "which first" rather than "compute the answer" is interesting. It's a conceptual question, not a procedural one. I think the conceptual framing makes it slightly easier because students just need to recall the BIDMAS hierarchy, not apply it through multiple steps of calculation.
+
+Distractor B (7 / 6) is interesting — it gets the "not left to right" part right but confuses the indices/division priority. This is a more sophisticated error. Distractors C and D represent more fundamental misunderstandings.
+
+For discrimination: items that test a single well-defined concept with clear right/wrong tend to discriminate well. I expect a decent discrimination parameter. Guessing should be minimal — this isn't a question where random guessing is likely since students will have some opinion about the order.
+
+My estimates: classical difficulty ~0.22, IRT difficulty ~-0.20, discrimination ~1.30, guessing ~0.08.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

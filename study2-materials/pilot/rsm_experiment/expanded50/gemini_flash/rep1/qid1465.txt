@@ -1,0 +1,11 @@
+Error Analysis:
+A) Correct application of BIDMAS/Order of Operations. The student multiplies first ($4 \times 2 = 8$), then performs addition and subtraction from left to right: $3 - 5 = -2$, and $-2 + 8 = 6$.
+B) This is a common misconception where students apply BIDMAS too rigidly by thinking Addition must always come before Subtraction ($A$ before $S$). They calculate $5 + 4 = 9$, then $3 - 9 = -6$ (incorrect), or more likely they process the sum as $3 - (5+4) \times 2$ or confuse the signs entirely, though usually, 4 results from doing $(3-5+4) \times 2 = 4$, calculating the bracketed part left-to-right first.
+C) This occurs when a student calculates strictly from left to right, ignoring the order of operations: $3 - 5 = -2$, then $-2 + 4 = 2$, and finally $2 \times 2 = 4$. However, if they make a sign error in the middle ($3 - 5 + 4$ becoming $-6$) and multiply by 2, they land here. Most specifically, it often comes from $(3 - (5+4)) \times 2 = -12$, incorrectly grouping the addition first.
+D) This results from adding $5+4$ first (due to the "A" in BIDMAS), then subtracting that from 3 to get $-6$, then multiplying by 2. Alternatively, they do $3-5 = -2$, then $4 \times 2 = 8$, but instead of $-2+8$, they perform $-2-8$.
+
+Predictions:
+below_basic: A=20% B=30% C=25% D=25%
+basic: A=45% B=25% C=15% D=15%
+proficient: A=80% B=10% C=5% D=5%
+advanced: A=98% B=1% C=0.5% D=0.5%

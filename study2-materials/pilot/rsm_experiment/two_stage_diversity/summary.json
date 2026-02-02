@@ -1,0 +1,50 @@
+[
+  {
+    "config": "cognitive_chains__gemini",
+    "condition": "cognitive_chains",
+    "stage2_model": "gemini",
+    "mean_rho": 0.5083013858738407,
+    "std_rho": 0.06711933349375132,
+    "rhos": [
+      0.5821737907003846,
+      0.4197448556155664,
+      0.5229855113055711
+    ]
+  },
+  {
+    "config": "buggy_analyses__gemini",
+    "condition": "buggy_analyses",
+    "stage2_model": "gemini",
+    "mean_rho": 0.1671791257720441,
+    "std_rho": 0.09544117591943989,
+    "rhos": [
+      0.18573206565387143,
+      0.04212110113594513,
+      0.27368421052631575
+    ]
+  },
+  {
+    "config": "error_perspectives__gemini",
+    "condition": "error_perspectives",
+    "stage2_model": "gemini",
+    "mean_rho": 0.23945484929972868,
+    "std_rho": 0.10786243016171289,
+    "rhos": [
+      0.21068478499955973,
+      0.12410681584698119,
+      0.38357294705264505
+    ]
+  },
+  {
+    "config": "direct_baseline__gemini",
+    "condition": "direct_baseline",
+    "stage2_model": "gemini",
+    "mean_rho": 0.4308709322070487,
+    "std_rho": 0.06852406160648693,
+    "rhos": [
+      0.4996239187132417,
+      0.3373497801635436,
+      0.45563909774436084
+    ]
+  }
+]

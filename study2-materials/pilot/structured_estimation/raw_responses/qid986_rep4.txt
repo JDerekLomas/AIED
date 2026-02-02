@@ -1,0 +1,45 @@
+<chain_of_thought>
+Target item: (x-6)/2 = 10. Students must judge whether Tom's and Katie's proposed next lines of working are correct.
+
+Solving correctly: The fraction (x-6)/2 = 10 is undone by multiplying both sides by 2: x - 6 = 20, then x = 26.
+
+Evaluating Tom: He writes x/2 = 16. This suggests he added 6 to both sides but applied the +6 only to the numerator on the left side, changing (x-6) to just x, while correctly computing 10+6=16 on the right. However, adding 6 to (x-6)/2 does not yield x/2 — it yields (x-6+12)/2 = (x+6)/2. Tom's step is algebraically invalid. He fundamentally misunderstands how to add a constant to a fraction.
+
+Evaluating Katie: She writes x-6 = 5. She attempted to undo the "/2" but divided by 2 instead of multiplying. This is the classic inverse operation misconception. Correct would be x-6 = 20.
+
+Both are wrong → D.
+
+Calibration comparison: I want to anchor carefully against the provided examples.
+
+- The simple equation -5 = p+10: classical difficulty 0.167, b = -0.702. Straightforward one-step solve.
+- The order of operations item: classical difficulty 0.134, b = -0.245. Requires BODMAS knowledge.
+- Function machines for x²+5=14: classical difficulty 0.295, b = 0.002. Visual reasoning about inverse operations.
+- Tom/Katie factorising: classical difficulty 0.473, b = 0.404. Evaluate two claims, one correct.
+- Inequality 2n+3 ≤ 3n-7: classical difficulty 0.569, b = 0.808. Multi-step algebraic manipulation.
+
+This item combines the Tom/Katie evaluation format with fraction equation solving. The "Neither" answer option significantly increases difficulty relative to the factorising item where at least one person was correct. Students who correctly identify Katie's error may still be fooled by Tom's plausible-looking step. I'd place classical difficulty around 0.60, roughly between the factorising and inequality items but possibly higher due to the "Neither" factor.
+
+IRT discrimination: The two-evaluation structure creates multiple points of failure, which could reduce discrimination slightly. But the core skill being tested (understanding inverse operations and fraction manipulation) should differentiate well between ability levels.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.60</classical_difficulty>
+<irt_difficulty>0.75</irt_difficulty>
+<irt_discrimination>1.18</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

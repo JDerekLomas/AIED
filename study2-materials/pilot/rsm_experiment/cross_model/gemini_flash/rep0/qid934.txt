@@ -1,0 +1,14 @@
+As a UK maths teacher, I evaluate this question based on the specific structure of the equation $4x + 2y = 10$. 
+
+The star is located at $x = 0$. This is a "strategic" location because it simplifies the equation significantly, but it triggers specific student behaviors:
+1.  **The Substitution Error (C):** Students often see $x=0$, ignore the $4x$ entirely, and look at the remaining numbers. They might see the $10$ and the $x$ and $y$ and assume the answer is $5$ because $10 \div 2 = 5$. This is the correct mathematical path, making C a very strong distractor for those who can do basic algebra.
+2.  **The "Add the numbers" Trap (A):** Below-basic students often see $4$, $2$, and $10$ and perform an arbitrary operation like $(4+y) \times 2 = 10$, or more commonly, they confuse $4x + 2y$ for $40 + 2y$ when looking at a table, or simply multiply all visible digits $4 \times 5$ if they have seen a similar problem.
+3.  **The Inverse Error (D):** $10 \div 4 = 2.5$. Students who mistake which variable is zero or simply divide the total by the first coefficient will choose this.
+4.  **The "Pattern" Guess (B):** Some students don't use the equation at all; they look at the options and pick a "middle" or "nice" number like 3, or think the sequence goes $5, 4, 3, 2, 1$.
+
+Because $x=0$, the calculation $2y = 10 \Rightarrow y = 5$ is actually quite accessible, meaning "Proficient" and "Advanced" students will almost certainly get this right, while "Below Basic" students will likely guess or perform one-step arithmetic with the visible constants.
+
+below_basic: A=25% B=20% C=40% D=15%
+basic: A=10% B=10% C=70% D=10%
+proficient: A=2% B=3% C=90% D=5%
+advanced: A=0% B=1% C=98% D=1%

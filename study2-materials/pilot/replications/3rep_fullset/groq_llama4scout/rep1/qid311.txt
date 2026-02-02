@@ -1,0 +1,74 @@
+To approach this question, let's first understand the patterns and the methods Jo and Paul use to calculate the number of squares in Pattern 15.
+
+## Step 1: Understanding the Pattern
+The pattern consists of a rectangle with a height of 3 squares and a width that increases by 1 for each subsequent pattern, plus 2 additional squares, one on each side of the middle row of the rectangle.
+
+## 2: General Formula for the Pattern
+For Pattern \(n\), the number of squares can be calculated as:
+- The rectangle part: \(3 \times (n + 2)\) because the width starts at 3 (for Pattern 1) and increases by 1 for each pattern.
+- The 2 extra squares.
+
+## 3: Adjusting the Formula for Pattern \(n\)
+So, the total number of squares in Pattern \(n\) can be represented as:
+\[3 \times (n + 2) - 4\]
+or 
+\[3n + 6 - 4 = 3n + 2\]
+
+However, let's derive it directly from given patterns:
+- Pattern 3: \(3 \times 3 + 2 = 11\)
+- Pattern 4: \(3 \times 4 + 2 = 14\)
+
+## 4: Applying to Pattern 15
+Using the observed pattern:
+- For Pattern \(n\), the formula seems to be \(3n + 2\).
+
+## 5: Evaluating Jo's Method
+Jo does: \(15 \times 3 + 4 = 45 + 4 = 49\)
+
+## 6: Evaluating Paul's Method
+Paul does: \((15 + 2) \times 3 - 4 = 17 \times 3 - 4 = 51 - 4 = 47\)
+
+## 7: Correct Formula Application
+The correct calculation based on observed patterns (or a general formula if directly inferred) for Pattern 15 should be:
+\[3 \times 15 + 2 = 45 + 2 = 47\]
+
+## 8: Comparing Methods
+- Jo's method yields 49.
+- Paul's method yields 47.
+- The correct count is 47.
+
+## 9: Determining Correctness
+- Jo is incorrect because \(15 \times 3 + 4 = 49\), not 47.
+- Paul is correct because \((15 + 2) \times 3 - 4 = 17 \times 3 - 4 = 51 - 4 = 47\), which matches the correct count.
+
+## 10: Predicting Student Responses
+Given this, let's predict the percentage of students at each ability level who would choose each option:
+- **Below Basic**: Students might struggle with algebraic expressions and pattern recognition. They might not understand either method correctly.
+  - A: Only Jo: 30% (some might mistakenly think Jo's simpler calculation is correct)
+  - B: Only Paul: 20% (if they understand Paul's method but not Jo's)
+  - C: Both Jo and Paul: 10% (unlikely, as they'd need to see both as viable)
+  - D: Neither is correct: 40% (not understanding either)
+
+- **Basic**: Students have a foundational understanding but may make calculation errors.
+  - A: Only Jo: 25%
+  - B: Only Paul: 40% (as they might correctly identify Paul's method)
+  - C: Both Jo and Paul: 5%
+  - D: Neither is correct: 30%
+
+- **Proficient**: Students understand the pattern and can apply formulas.
+  - A: Only Jo: 10%
+  - B: Only Paul: 60% (correctly identifying Paul's method as right)
+  - C: Both Jo and Paul: 5%
+  - D: Neither is correct: 25%
+
+- **Advanced**: Students can not only apply formulas but also evaluate their correctness efficiently.
+  - A: Only Jo: 5%
+  - B: Only Paul: 80%
+  - C: Both Jo and Paul: 0%
+  - D: Neither is correct: 15%
+
+The final answer is:
+below_basic: A=30% B=20% C=10% D=40%
+basic: A=25% B=40% C=5% D=30%
+proficient: A=10% B=60% C=5% D=25%
+advanced: A=5% B=80% C=0% D=15%

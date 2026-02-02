@@ -1,0 +1,11 @@
+Error Analysis:
+A) Correct application of BIDMAS/Order of Operations. The student multiplies first ($4 \times 2 = 8$), then performs addition and subtraction from left to right: $3 - 5 = -2$, and $-2 + 8 = 6$.
+B) This result comes from a common misconception regarding the "Addition" step in BIDMAS. The student believes addition must happen before subtraction regardless of position: $5 + (4 \times 2) = 5 + 8 = 13$, then $3 - 13 = -10$ (Wait, this leads to D). To get B, the student likely ignores the negative sign on the 5 but groups the addition first: $(5+4) \times 2 = 18$, $3-18$ (No). More likely: Student does $(3-5+4) \times 2$, calculating $3-5=-2$, then $-2+4=2$, then $2 \times 2 = 4$. This is a "Left to Right" error, ignoring BIDMAS hierarchy entirely.
+C) This occurs if a student performs the calculation strictly left to right but makes a sign error or groups terms incorrectly: $(3-5)$ is $-2$, but they treat the rest as a block to multiply: $-2 + 4 = 2$, $2 \times 2 = 4$. To get $-12$, students often calculate $3-5 = -2$, then do $4 \times 2 = 8$ separately, but subtract the 8 from the -2, or calculate $3 - (5+4) \times 2$, which is $3 - 18 = -15$ (near miss). The specific path to $-12$ usually involves calculating $3-5+4$ as $2-8$ (arithmetic slip) or doing $3-5 = -2$, then $-2 \times (2+4)$... it is a common "muddled" answer for those struggling with directed numbers.
+D) This is the classic BIDMAS misconception: "Addition before Subtraction". The student calculates $4 \times 2 = 8$, then they see $5 + 8 = 13$ because of the 'A' coming before 'S' in the acronym, finally calculating $3 - 13 = -10$.
+
+Predictions:
+below_basic: A=15% B=35% C=15% D=35%
+basic: A=40% B=20% C=10% D=30%
+proficient: A=75% B=10% C=5% D=10%
+advanced: A=96% B=2% C=1% D=1%

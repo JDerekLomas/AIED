@@ -1,0 +1,38 @@
+<chain_of_thought>
+The target item presents -3 = p + 12. To solve, subtract 12 from both sides: p = -3 - 12 = -15, which is option B.
+
+Looking at the distractors through the lens of student errors:
+- A) p = 9: The student adds rather than subtracts, computing -3 + 12 = 9. This directly reflects the tested misconception of using the same operation rather than the inverse.
+- C) p = -9: Possibly from computing 12 - 3 = 9 and then making it negative, or from a sign error in the subtraction.
+- D) p = 15: The student ignores the negative sign on -3 entirely, computing 3 + 12 = 15.
+
+This is nearly a direct clone of calibration item 1 (-5 = p + 10). That item had classical difficulty 0.167, IRT b = -0.702, discrimination a = 1.324, and guessing c = 0.000. The structural similarity is very strong, so I expect comparable parameters.
+
+One consideration: the number 12 is slightly larger than 10, and -3 is closer to zero than -5, which might make the subtraction -3 - 12 = -15 require a tiny bit more care with negative arithmetic. But this is marginal.
+
+For discrimination, the item should discriminate well because the correct answer requires proper understanding of inverse operations with negative numbers. However, distractor C (p = -9) might catch some mid-ability students who partially understand but make arithmetic errors, which could slightly lower discrimination.
+
+I'll estimate this as slightly easier than the calibration item 1 overall, since the equation structure is transparent and the format is very standard.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.68</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

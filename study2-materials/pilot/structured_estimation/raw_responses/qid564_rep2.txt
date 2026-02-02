@@ -1,0 +1,37 @@
+<chain_of_thought>
+Item: Expand -5(m - 7). Correct answer: -5m + 35 (option C).
+
+This is a standard bracket expansion problem that appears early in algebra curricula in England (typically Year 8-9). The procedure involves two multiplications: -5 * m and -5 * (-7).
+
+The misconception being tested is extremely well-documented: students struggle with the rule that a negative multiplied by a negative produces a positive. In this item, if a student applies -5 * (-7) = -35 instead of +35, they arrive at option B (-5m - 35).
+
+Let me consider difficulty relative to the calibration set. The easiest calibration item (solving -5 = p + 10) has classical difficulty 0.167 and b = -0.702. That's a straightforward one-step equation. This bracket expansion is a bit more demanding because it requires tracking signs across two multiplications, but it's still a routine skill. I'd place it harder than that equation item but easier than the factorising item.
+
+The distractors are systematically constructed -- each represents a different combination of sign errors on the two terms. Option B is the strongest distractor as it matches the tested misconception exactly. Options A and D represent less common error patterns.
+
+One consideration: since all four options have distinct sign patterns, a student who is unsure might try to reason about each term independently. This could actually help some students -- if they're confident about one term, they can eliminate options. This might reduce difficulty slightly and improve discrimination.
+
+I'll estimate classical difficulty around 0.40 -- slightly higher than my initial thought because the negative-times-negative misconception is so robust even among students who can otherwise do algebra.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

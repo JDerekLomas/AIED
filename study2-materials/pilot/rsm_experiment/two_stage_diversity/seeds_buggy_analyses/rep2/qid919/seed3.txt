@@ -1,0 +1,24 @@
+In the context of UK Year 9 mathematics (Ages 13–14), where students are refining their skills with powers and indices, the following misconception is highly prevalent.
+
+### 1. The Specific Misconception: "Linear Distribution of Squares" (Misplacing the Decimal Point)
+The specific bug is a failure to recognise that squaring a number with one decimal place results in a number with **two** decimal places ($0.3 \times 0.3 = 0.09$, not $0.9$). Students often instinctively feel that "squaring keeps the magnitude similar," assuming that if $3^2 = 9$, then $0.3^2$ must simply be $0.9$. They effectively ignore the place value rules of multiplication in favour of a "square the digit, keep the decimal point where it is" heuristic.
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would approach the calculation $y = 3(0.3)^2$ as follows:
+
+1.  **Substitution:** Substitute $x = 0.3$ into the formula to get $3 \times 0.3^2$.
+2.  **Order of Operations:** Correcty identify that the squaring happens before the multiplication by 3 (BIDMAS/BODMAS).
+3.  **The Error (Squaring):** Calculate $0.3 \times 0.3$. They think: "$3 \times 3$ is $9$, and there is one decimal place in the question, so there should be one in the answer." They conclude $(0.3)^2 = 0.9$.
+4.  **Final Multiplication:** Multiply their result by the coefficient 3: $3 \times 0.9$.
+5.  **Conclusion:** $3 \times 9 = 27$; move the decimal point once to get **$2.7$**.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option D (2.7)**.
+
+*(Note: If the student applied the same decimal error to the multiplication at the end—thinking $3 \times 0.9$ is $0.27$—they might reach Option B, but Option D is the most common path for those who specifically struggle with the $x^2$ term.)*
+
+### 4. How Natural/Attractive is this Error?
+This is a **highly "invisible" error** for a Year 9 student. 
+*   **Intuition vs. Reality:** Students are conditioned to see $0.3$ as a "small 3." When they see $x^2$, their brain shortcuts to the identity $3^2 = 9$. The result $0.9$ "looks" correct to them because it maintains the digit structure they expect. 
+*   **Lack of Estimation:** Most Year 9 students do not naturally estimate that "a tenth of a tenth is a hundredth." Because $0.9$ is larger than the original $0.3$, it satisfies their (often incorrect) primitive intuition that "squaring makes things bigger," whereas the correct squaring result ($0.09$) is smaller than the input, which feels counter-intuitive to them.
+*   **Confidence:** The student would likely select Option D with high confidence, never realizing they have misplaced a factor of 10.

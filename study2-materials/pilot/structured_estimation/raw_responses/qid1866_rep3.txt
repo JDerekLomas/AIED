@@ -1,0 +1,37 @@
+<chain_of_thought>
+Target: 8 - 7 + 10 × 3. Correct answer B (31).
+
+This tests BODMAS - a core KS3 topic. The misconception is computing left-to-right without respecting multiplication priority.
+
+Key consideration: how does this compare to the calibration BODMAS item? That item (0.4 - 1/5 × 3 = -0.2) had difficulty 0.134 and IRT b = -0.245. It involved fractions and decimals, which adds procedural complexity but might actually help cue students that something non-trivial is going on. This integer-only item looks deceptively simple, which could actually cause MORE students to rush through left-to-right without thinking about order of operations. On the other hand, BODMAS with integers is the most drilled version in classrooms.
+
+The distractors are well-constructed. D (33) is the classic left-to-right error. C (-29) captures a subtraction-scope error. A (36) is less obvious but provides a fourth option.
+
+I think the simplicity of the numbers means most students who know BODMAS will get it right quickly. But the left-to-right trap is strong. Research on order of operations misconceptions shows they're remarkably persistent even after instruction.
+
+Given that this is a very standard presentation (no fractions, no brackets, just integers), and the calibration BODMAS item was 0.134, I think this might actually be slightly easier - maybe 0.12-0.18. Students are most practiced with this exact format. The discrimination should be high because it cleanly separates students who understand BODMAS from those who don't.
+
+Actually, re-examining: this expression has a subtraction which adds a wrinkle. Students need to handle 8 - 7 + 30 correctly even after identifying the multiplication. Some might get tripped up there. I'll adjust slightly upward to 0.17.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

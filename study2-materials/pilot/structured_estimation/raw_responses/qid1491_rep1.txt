@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item presents (-2)^4 and asks students to evaluate it. The correct answer is C (16).
+
+Let me think about what makes this item tick from a psychometric standpoint. The core knowledge tested is whether students understand that raising a negative number to an even power yields a positive result. The misconception is believing that multiplying negatives always gives a negative.
+
+Comparing to the calibration set: The Tom/Katie factorisation item tests the same misconception but in a much more complex algebraic context (difficulty 0.473, b=0.404). This exponentiation item is more direct and computational, so it should be somewhat easier. However, the misconception about negative numbers and exponents is extremely persistent - many students see the negative sign and automatically assume the result must be negative.
+
+Key consideration: students may also confuse exponentiation with multiplication. (-2)*4 = -8 gives distractor B, and 2*4 = 8 gives distractor D. These are additional sources of error beyond just the sign misconception.
+
+The presence of multiple plausible error pathways (sign error alone -> A, operation confusion -> B or D) suggests the item catches several different types of misunderstanding. This could make classical difficulty higher than one might initially think.
+
+I think roughly 35-40% of the target population would get this wrong. The item is fairly clear and direct, which should give decent discrimination. Students who understand exponentiation and negative numbers will get it right; those who don't will fall for specific distractors.
+
+For guessing: the item is structured so that partial knowledge (knowing it's exponentiation but not the sign rule) leads to the wrong answer A, not the right one. This means guessing parameter should be relatively low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

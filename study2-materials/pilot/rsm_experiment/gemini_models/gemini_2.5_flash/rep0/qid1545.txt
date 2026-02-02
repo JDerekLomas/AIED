@@ -1,0 +1,41 @@
+Let's break down the problem and common errors first.
+
+The problem asks to compare two expressions:
+1.  \(8+12 \div 4\)
+2.  \((8+12) \div 4\)
+
+**Expression 1: \(8+12 \div 4\)**
+Using the order of operations (BIDMAS/BODMAS):
+*   Division first: \(12 \div 4 = 3\)
+*   Then addition: \(8 + 3 = 11\)
+So, the left side is **11**.
+
+**Expression 2: \((8+12) \div 4\)**
+Using the order of operations:
+*   Brackets first: \(8+12 = 20\)
+*   Then division: \(20 \div 4 = 5\)
+So, the right side is **5**.
+
+**Comparison:**
+\(11 \square 5\)
+The correct symbol is \( > \). So, the correct answer is **A**.
+
+**Common Error Analysis:**
+
+*   **Error leading to B) < :** This would mean the first expression is *smaller* than the second. This happens if students calculate \(8+12=20\) then \(20 \div 4 = 5\) for the first expression, *ignoring BIDMAS*. If they do this for both, they get 5 and 5, leading to C. For B to be chosen, they'd need to make a mistake on the first, getting 5, but then calculate the second correctly as 5. Wait, no. If they get 5 for the first, and somehow make the second larger than 5, say they distribute the 4 wrong after getting 20. More likely, they miscalculate the second term to be very large (unlikely), or calculate the first expression incorrectly to be something less than 5 (e.g., \(8+3 = 11\), but they make a division error giving them 2 instead of 3, so \(8+2=10\), then somehow getting something *larger* than 10 for the second one? This seems less probable as a direct error for B).
+
+    The *most common way* to get B is to make the error for the first expression, calculating \(8+12 \div 4\) as \((8+12)\div 4 = 5\). And then calculating the second expression as something *greater* than 5. But the second expression *is* 5. This makes B a less direct common error based on calculation for *both*.
+    **Alternative Error for B):** Perhaps they correctly find 11 for the left, but then they make a severe error on the right side. Maybe \((8+12) \div 4 = 20 \div 4 = 5\). But if they get the correct 11 and 5, they should choose A.
+
+    The error leading to B is if they miscalculate both: say \(8+12 \div 4 = 5\) (BIDMAS ignored), but then \((8+12) \div 4\) they interpret somehow as, say, \(8 \div 4 + 12 \div 4 = 2+3 = 5\). Wait. Both are 5. This would be C.
+
+    Let's re-think the *direct errors* for each option.
+    Correct calculation: 11 vs 5 -> A.
+
+    **Error 1 (for first expression): Ignore BIDMAS.** \(8+12 \div 4 \rightarrow (8+12) \div 4 = 20 \div 4 = 5\).
+    **Error 2 (for second expression): Distribute incorrectly.** \((8+12) \div 4 \rightarrow 8 \div 4 + 12 \div 4 = 2+3=5\).
+    So if students make Error 1 for the first expression and perform the second correctly, they get 5 for both expressions. This leads to C.
+
+*   **Choice C) = :** This is an extremely common answer. It arises if students ignore the order of operations for the first expression, treating it as if there were implicit brackets: \((8+12) \div 4 = 5\). And then they correctly calculate the second expression as 5. Since both become 5, they choose "=". This is an "attractive" error for students who are not confident with BIDMAS, as it feels more "fair" to calculate the addition first in both cases.
+
+*   **Choice D) \(\geq \):** This would only be

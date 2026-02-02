@@ -1,0 +1,15 @@
+This question tests the order of operations (BIDMAS/BODMAS). 
+
+The calculation on the left is $8 + (12 \div 4) = 8 + 3 = 11$.
+The calculation on the right is $(8 + 12) \div 4 = 20 \div 4 = 5$.
+Since $11 > 5$, the correct answer is **A**.
+
+**Teacher's Analysis:**
+The "trap" in this question is the tendency for lower-ability students to work strictly from left to right. On the left side, a student working left-to-right would do $8+12=20$, then $20 \div 4 = 5$. This leads them to the incorrect conclusion that both sides are equal (Option C).
+
+While many students "know" BIDMAS, the visual layout of $8+12 \div 4$ is a classic trigger for the left-to-right error. However, because the numbers are small and the right-hand side explicitly uses brackets (which students usually prioritise correctly), "Proficient" students generally navigate this well. "Basic" students are highly susceptible to the "looks the same" fallacy or simply performing the addition first on the left because it comes first.
+
+below_basic: A=25% B=15% C=55% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=80% B=5% C=14% D=1%
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,46 @@
+<chain_of_thought>
+Analyzing the target item: A table of values for 4x + 2y = 10 with x values 0,1,2,3,4 and the y-value at x=0 replaced by a star.
+
+To solve: substitute x = 0 into 4x + 2y = 10:
+0 + 2y = 10
+2y = 10
+y = 5
+
+Answer: C
+
+Let me think about how students might arrive at each wrong answer:
+
+Option A (20): The tested misconception is "uses the same operation rather than the inverse." From 2y = 10, instead of dividing by 2, a student multiplies by 2, getting y = 20. This is the primary misconception distractor and quite plausible for weaker students.
+
+Option B (3): Harder to trace. Possibly a student who misreads x = 0 as x = 1, giving 4 + 2y = 10, 2y = 6, y = 3. Alternatively, some students might try to find a pattern in the table without using the equation.
+
+Option D (2.5): Could come from 10/4 = 2.5, where a student uses the wrong coefficient. Or perhaps they compute y = 10/(2+2) or something similar.
+
+Contextual features: The table format is common in UK KS3/KS4 curriculum for linear equations. Students need to understand that the table represents coordinate pairs satisfying the equation. The x = 0 case simplifies the problem considerably since the 4x term vanishes.
+
+Difficulty estimation: This is an accessible problem. The substitution with x = 0 is the easiest possible case. However, the two-variable equation and table format require some conceptual understanding beyond simple equation solving. Comparing to calibration item 1 (classical difficulty 0.167, b = -0.702), this should be somewhat harder due to the additional interpretation layer. I'll estimate classical difficulty around 0.25, b around -0.20.
+
+The discrimination should be reasonable -- the misconception distractor cleanly separates students who understand division as the inverse of multiplication. However, the table format might introduce some noise. I'll estimate a = 1.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

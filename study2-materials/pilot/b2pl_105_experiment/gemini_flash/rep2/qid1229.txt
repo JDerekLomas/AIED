@@ -1,0 +1,15 @@
+This question is a classic "order of operations" trap that specifically targets how a calculator interprets notation versus how a student's intuition works. 
+
+While many students learn "a negative times a negative is a positive," scientific calculators follow BIDMAS/BODMAS strictly. They treat $-6^2$ as $-(6^2)$, squaring the 6 first to get 36 and then applying the negative sign. 
+
+**Analysis of the Distractors:**
+*   **C (36):** This is the "high-level" misconception. Students who understand that squaring usually results in a positive number will pick this, thinking they are outsmarting the question.
+*   **A and B (12 and -12):** These attract students with a weak grasp of powers (6 × 2), though "-12" is a very common "low-ability" guess because it preserves the negative sign seen in the question.
+*   **D (-36):** This is the correct calculator output. Paradoxically, lower-ability students sometimes get this right simply because they "carry the minus sign down," while mid-to-high ability students overthink it and choose C.
+
+**Predicted Percentages:**
+
+below_basic: A=20% B=45% C=15% D=20%
+basic: A=10% B=20% C=45% D=25%
+proficient: A=5% B=5% C=60% D=30%
+advanced: A=0% B=0% C=30% D=70%

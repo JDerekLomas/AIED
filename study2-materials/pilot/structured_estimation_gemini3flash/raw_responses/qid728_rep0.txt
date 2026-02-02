@@ -1,0 +1,35 @@
+<chain_of_thought>
+The item assesses the order of operations (BIDMAS/BODMAS) and the use of brackets to modify standard priority. 
+- Concept: Order of operations is a fundamental but notoriously difficult concept for UK secondary students, who often default to a left-to-right processing strategy.
+- Procedural Steps: For each option, the student must evaluate the expression.
+  A) $16 - (10) \div 2 = 16 - 5 = 11$
+  B) $(10) + 4 \div 2 = 10 + 2 = 12$
+  C) $16 - 6 + 2 = 12$ (This is the same as the expression without brackets)
+  D) $(10 + 4) \div 2 = 14 \div 2 = 7$ (Correct)
+- Misconception: The primary misconception is "left-to-right" processing. If a student applies left-to-right to the original expression $16-6+4 \div 2$, they get $(10+4) \div 2 = 7$. This makes option D highly attractive because it explicitly formalizes the incorrect "natural" intuition of many students.
+- Psychometric Context: In the calibration examples, items involving order of operations and inverse operations often show very low classical difficulty (low proportion correct) because the distractors align perfectly with common intuitive errors. Here, the student is asked to *make* the answer 7. If they already think the answer *is* 7 using left-to-right logic, they will likely pick D, but they might be doing so for the "wrong" reason (validating their error) or the "right" reason (recognizing where brackets are needed to force that result).
+- Comparison: Similar to the $0.4 - 1/5 \times 3$ item (difficulty 0.134), order of operations items are harder than they look. However, since the goal is provided (make it 7), students can test the options, which slightly increases the success rate compared to open-ended calculation.
+- Discrimination: Usually high for BIDMAS as it clearly separates those who know the rules from those who use intuitive left-to-right processing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

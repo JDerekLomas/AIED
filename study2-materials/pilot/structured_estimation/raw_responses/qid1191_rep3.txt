@@ -1,0 +1,40 @@
+<chain_of_thought>
+Target: 20t - 5 = 5t + 10, correct answer t = 1 (B).
+
+This is a linear equation with the unknown on both sides -- a core skill in UK secondary mathematics. The solution requires:
+1. Rearranging variable terms to one side (subtract 5t)
+2. Rearranging constant terms to the other side (add 5)
+3. Dividing to isolate t
+
+The numbers are multiples of 5, keeping arithmetic simple. Notably, t = 1 can also be found by trial: substituting t = 1 gives 20 - 5 = 15 on the left and 5 + 10 = 15 on the right. With only 4 options and small integer values, trial-and-error is a viable strategy, which could inflate the number of correct responses beyond what pure algebraic skill would predict. This means the item may be easier than its procedural complexity suggests.
+
+The misconception (using same operation rather than inverse) is relevant to the rearrangement steps. Three of the five calibration items test this same misconception, with difficulties ranging from 0.167 to 0.569. The difficulty seems to scale with the number of steps and complexity of the equation structure. This item is intermediate -- more complex than a single-step equation but simpler than an inequality.
+
+The distractor t = -1 is moderately plausible (sign errors are common). t = 0 and t = 1/5 are less compelling. Overall distractor quality is moderate.
+
+Given the trial-and-error shortcut and clean numbers, I expect this to be on the easier side of the "variables on both sides" category. Estimating classical difficulty around 0.30-0.38. The possibility of guessing via substitution suggests the effective guessing parameter could be higher than pure chance (0.25).
+
+For discrimination: the trial-and-error route means both strong algebraic reasoners AND strategic guessers will get it right, potentially reducing discrimination compared to items that strictly require the algebraic procedure. I'll estimate a moderate discrimination of around 1.1.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>4</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

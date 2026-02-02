@@ -1,0 +1,41 @@
+To solve this, let's first analyze the methods Tom and Katie use and determine their correctness.
+
+Tom's method: He doubles \(59\) to get \(118\), and then doubles \(118\) to get \(236\). 
+Mathematically, this can be represented as \(59 \times 2 \times 2 = 59 \times 4\), which is correct.
+
+Katie's method: She calculates \(60 \times 4 = 240\) and then subtracts \(4\) to get \(236\).
+Mathematically, this can be represented as \(60 \times 4 - 4 = (59 + 1) \times 4 - 4 = 59 \times 4 + 4 - 4 = 59 \times 4\), which is also correct.
+
+Given that both methods are correct, the correct answer is \(C) Both Tom and Katie\).
+
+Now, let's predict the percentage of students at each ability level who would choose each option:
+
+- **Below Basic**: Students at this level might struggle with basic multiplication and have difficulties with mental math strategies. They might not fully understand the concepts or make errors in their calculations.
+  - A: 20% (some might mistakenly think Tom's method is wrong)
+  - B: 20% (similar reasoning for Katie)
+  - C: 30% (a few might understand both methods are correct)
+  - D: 30% (some might think neither is correct due to lack of understanding)
+
+- **Basic**: Students at this level have a basic understanding of math concepts but might still make simple errors.
+  - A: 10% (less likely to think only Tom is correct)
+  - B: 10% (similar for Katie)
+  - C: 60% (most should understand both methods)
+  - D: 20% (some might still be unsure)
+
+- **Proficient**: Students at this level have a solid understanding of math concepts and can apply them correctly.
+  - A: 5% (very few would think only Tom is correct)
+  - B: 5% (similar for Katie)
+  - C: 85% (most understand both methods are correct)
+  - D: 5% (unlikely to think neither is correct)
+
+- **Advanced**: Students at this level not only understand the concepts but can also apply them in various contexts and explain their reasoning.
+  - A: 0% (would not mistakenly limit it to Tom)
+  - B: 0% (similar for Katie)
+  - C: 95% (almost all understand both methods are correct)
+  - D: 5% (very few, if any, would think neither is correct)
+
+Therefore, the predictions are:
+below_basic: A=20% B=20% C=30% D=30%
+basic: A=10% B=10% C=60% D=20%
+proficient: A=5% B=5% C=85% D=5%
+advanced: A=0% B=0% C=95% D=5%

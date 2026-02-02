@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item tests whether students can correctly rearrange A = (1/2)bh to isolate h. The misconception is using the same operation rather than the inverse.
+
+Solution path: multiply both sides by 2 to get 2A = bh, then divide by b to get h = 2A/b (option B).
+
+Let me think carefully about difficulty by considering the student population. UK secondary students aged 11-16 span a wide range. Formula rearrangement is typically covered in Year 9-10 (ages 13-15) and is known to be one of the trickier algebra topics for mid-ability students.
+
+The fraction (1/2) is the crux. Students who understand inverse operations should handle this, but there's a well-documented tendency for students to apply the same operation. The question is how many students fall into this trap.
+
+Distractor C (h = A/(2b)) is particularly clever because it "looks right" -- it has A, 2, and b all in the right structural positions, just combined incorrectly. A student who thinks "I need to get rid of the 1/2 and the b, so I'll divide by both" would arrive at this. This is arguably even more tempting than in simpler equation-solving because the formula context makes the algebraic structure less transparent.
+
+Distractor A is weaker -- it requires a very superficial misunderstanding. I don't expect many students above age 13 to select it.
+
+Distractor D might attract students who correctly work out 2A/b but then second-guess themselves because the "2" is in the numerator rather than denominator, which might feel wrong given the original (1/2).
+
+Comparing to calibration: The inequality item (0.569 classical difficulty) requires similar inverse-operation thinking but in a more abstract context. This formula item has a concrete context (triangle area) which could make it slightly easier. But the fraction manipulation might offset that advantage. I'd estimate this is moderately difficult -- around 0.45.
+
+For discrimination, the item should perform well. The misconception is clearly targeted and the correct answer requires genuine understanding. I expect a parameter around 1.2-1.4.
+
+Guessing: with 4 options the baseline is 0.25, but the "they are all incorrect" option reduces effective guessing since students rarely guess that option. I'd put the effective guessing probability low, around 0.10-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.28</irt_discrimination>
+<guessing_probability>0.11</guessing_probability>
+</predictions>

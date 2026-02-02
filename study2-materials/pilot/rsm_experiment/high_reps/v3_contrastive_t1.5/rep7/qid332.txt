@@ -1,0 +1,20 @@
+This question targets a very specific and common point of confusion in solving linear equations: the order of operations when dealing with fractions.
+
+Tom's approach (adding 5 to both sides first) is the standard and most intuitive method for most students. This makes Option A very attractive. 
+
+Katie’s approach (multiplying by 3) is a common "trap" step. To be mathematically correct, she would have to multiply **every** term by 3, resulting in $x - 15 = 36$. However, many students believe that you can simply "multiply by the denominator" to "get rid of the fraction" without applying that multiplication to the constant term on the same side of the equation.
+
+**Why this is difficult:**
+1. **The Trap:** Katie's RHS ($12 \times 3 = 36$) looks correct, which masks the error in her LHS ($x - 5$). Students who are told "what you do to one side you do to the other" often fail to distribute that multiplication across all terms.
+2. **Preference for Tom:** Almost all students are taught to "deal with the $+/-$" first. Because Tom is so obviously right, many students will select A without critically evaluating Katie's algebra, or they will select C because Katie's $36$ "feels" like progress.
+
+**Performance Prediction:**
+*   **Below Basic:** Will likely pick C or B. They see the $12 \times 3 = 36$ and assume it's a valid "shortcut," or they guess randomly.
+*   **Basic:** Most will recognize Tom is right. However, a significant portion will be seduced by the $36$ in Katie’s working and pick C, thinking there are just two different ways to start.
+*   **Proficient:** These students usually know the "rules" but may still fall for C if they are working quickly. They see Katie multiplied the 12 but forget she missed the 5.
+*   **Advanced:** Will immediately spot that Katie failed to multiply the $-5$ by $3$ and will correctly identify that only Tom is right.
+
+below_basic: A=30% B=15% C=45% D=10%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=65% B=5% C=28% D=2%
+advanced: A=92% B=1% C=6% D=1%

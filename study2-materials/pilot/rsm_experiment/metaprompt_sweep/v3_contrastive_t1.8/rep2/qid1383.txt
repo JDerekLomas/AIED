@@ -1,0 +1,8 @@
+This question specifically tests two potential pitfalls: the misconception that exponents act like multiplication ($k^4$ vs $k \times 4$) and the handling of negative bases with even powers (the "calculator error" where $-3^4$ is processed differently than $(-3)^4$).
+
+While the math itself is straightforward, $k^4$ where $k$ is negative is a classic separator. Lower ability students frequently default to multiplication (yielding 12 or -12). Mid-ability students often perform the power of 3 correctly ($3^4 = 81$) but struggle with the sign, often believing that if the input is negative, the output must be negative, regardless of the index. Advanced students are well-drilled in the "even power equals positive result" rule.
+
+below_basic: A=20% B=35% C=15% D=30%
+basic: A=35% B=15% C=40% D=10%
+proficient: A=65% B=5% C=25% D=5%
+advanced: A=94% B=1% C=5% D=0%

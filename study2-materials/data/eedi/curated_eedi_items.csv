@@ -1,0 +1,397 @@
+target_key,target_type,QuestionId,question_text,correct_answer,correct_answer_kaggle,target_distractor_kaggle,target_answer,misconception_id,misconception_name,student_selection_pct_kaggle,total_responses,pct_A,pct_B,pct_C,pct_D
+ORDER_OPS,procedural,189,What is the \( 15 \) th term of this sequence? \( u_{n}=1-3 n \),C,A,D,\( -30 \),1507,Carries out operations from left to right regardless of priority order,12.86,941,9.46,14.35,63.34,12.86
+ORDER_OPS,procedural,233,"Which answer shows the following calculation using the correct algebraic convention?
+\(
+2 \div(3+a \times b)
+\)",A,C,A,\( \frac{2}{3}+a b \),1507,Carries out operations from left to right regardless of priority order,76.88,173,76.88,7.51,9.83,5.78
+ORDER_OPS,procedural,254,"When calculating the mean of the following numbers which calculation will give the correct answer?
+\[
+0,1,3,4,7
+\]",C,A,B,\( 0+1+3+4+7 \div 5 \),1507,Carries out operations from left to right regardless of priority order,12.35,688,5.67,12.35,62.06,19.91
+ORDER_OPS,procedural,304,"\[
+1+2 \times(3-4)=
+\]
+
+Which calculation should you do first?",C,C,A,\( 1+2 \),1507,Carries out operations from left to right regardless of priority order,11.13,1582,11.13,8.09,72.95,7.84
+ORDER_OPS,procedural,306,"Problem P: \( 4-5+6= \)
+Problem Q: \( 4+5 \times 6= \)
+
+Which calculation should you do first in each problem?",A,B,A,"Problem P: \( 4-5 \)
+Problem Q: \( 4+5 \)",1507,Carries out operations from left to right regardless of priority order,75.62,283,75.62,13.78,1.41,9.19
+ORDER_OPS,procedural,329,"Tom and Katie are discussing the order of operations
+Tom says: \( 0.1-0.2 \div 0.3 \equiv 0.1-(0.2 \div 0.3) \)
+Katie says: \( 0.1-0.2 \div 0.3 \equiv 0.2 \div 0.3-0.1 \)
+Who is correct?",C,A,B,"Only
+Katie",1507,Carries out operations from left to right regardless of priority order,10.0,60,5.0,10.0,81.67,3.33
+ORDER_OPS,procedural,361,"![Think of a number, then subtract \( 5 \), next divide by \( 8 \), next add 4, and finally multiply by \( 7 \).]() Jo says you can write this as:
+\[
+7\left(\frac{(n-5)}{8}+4\right)
+\]
+Paul says you can write this as:
+\[
+7((n-5) \div 8)+4
+\]
+Who is correct?",B,A,D,Neither is correct,1507,Carries out operations from left to right regardless of priority order,7.56,238,4.62,81.93,5.88,7.56
+ORDER_OPS,procedural,550,"Tom and Katie are discussing the order of operations
+Tom says: \( 3+2-1 \equiv 3-1+2 \)
+Katie says: \( 3+2 \times 1 \equiv 2 \times 1+3 \)",B,C,B,Only Katie,1507,Carries out operations from left to right regardless of priority order,56.25,64,28.12,56.25,9.38,6.25
+ORDER_OPS,procedural,695,\( 18 \div 2+2 \times 2= \),D,B,C,\( 22 \),1507,Carries out operations from left to right regardless of priority order,9.69,1218,2.55,15.85,9.69,71.92
+ORDER_OPS,procedural,728,Add brackets to this calculation to make the answer \( 7 \). \( 16-6+4 \div 2 \),B,D,A,\( 16-(6+4) \div 2 \),1507,Carries out operations from left to right regardless of priority order,4.3,93,4.3,86.02,3.23,6.45
+ORDER_OPS,procedural,746,\( 4+12 \div(2+2)= \),D,B,A,\( 10 \),1507,Carries out operations from left to right regardless of priority order,13.33,60,13.33,10.0,15.0,61.67
+ORDER_OPS,procedural,858,"Problem P: \( (4+5)^{2}= \)
+Problem Q: \( 4+5^{2}= \)
+
+Which calculation should you do first in each problem?",A,B,A,"Problem P: \( 4+5 \)
+Problem Q: \( 4+5 \)",1507,Carries out operations from left to right regardless of priority order,81.63,49,81.63,8.16,6.12,4.08
+ORDER_OPS,procedural,899,"\[
+10-8 \times 7+6=
+\]
+
+Which calculation should you do first?",C,C,B,\( 10-8 \),1507,Carries out operations from left to right regardless of priority order,1.32,152,1.32,1.32,94.74,2.63
+ORDER_OPS,procedural,919,"This is a part of the table of values for the equation
+\[y=3 x^{2}\] \begin{tabular}{|l|l|}
+\hline\( x \) & \( 0.3 \) \\
+\hline\( y \) & \( \bigstar \) \\
+\hline
+\end{tabular} What should replace the star?",C,B,A,\( 0.81 \),1507,Carries out operations from left to right regardless of priority order,5.88,68,5.88,19.12,75.0,0.0
+ORDER_OPS,procedural,1032,\( 5+4 \times 3= \),B,B,A,\( 27 \),1507,Carries out operations from left to right regardless of priority order,32.02,965,32.02,47.67,10.05,10.26
+ORDER_OPS,procedural,1195,\( 2 \times 3^{2}= \),C,A,C,\( 36 \),1507,Carries out operations from left to right regardless of priority order,63.73,2068,11.94,17.31,63.73,7.01
+ORDER_OPS,procedural,1229,"What answer would your calculator give if you typed in
+\(
+-6^{2}
+\) ![A scientific calculator]()",D,D,C,\( 36 \),1507,Carries out operations from left to right regardless of priority order,16.9,142,21.83,20.42,16.9,40.85
+ORDER_OPS,procedural,1310,"Which calculation should you do first?
+\(
+((0.5 \div(0.2+0.4)-0.3) \times 0.6)
+\)",D,B,A,\( 0.5 \div 0.2 \),1507,Carries out operations from left to right regardless of priority order,22.37,693,22.37,15.01,14.43,48.2
+ORDER_OPS,procedural,1343,\( 12 \div 2+1 \times 2= \),C,D,C,\( 14 \),1507,Carries out operations from left to right regardless of priority order,55.11,274,2.19,18.25,55.11,24.45
+ORDER_OPS,procedural,1390,\( \frac{1}{3}+\frac{1}{2} \times \frac{1}{3}= \),C,A,B,\( \frac{5}{18} \),1507,Carries out operations from left to right regardless of priority order,11.65,103,47.57,11.65,28.16,12.62
+ORDER_OPS,procedural,1402,"Which statement correctly describes the following algebraic expression?
+\(
+3+a b
+\)",B,A,C,"""Add three to a and then multiply by b.""",1507,Carries out operations from left to right regardless of priority order,2.97,202,0.5,93.56,2.97,2.97
+ORDER_OPS,procedural,1449,\( -4+(-5) \times 3= \),A,D,B,\( -27 \),1507,Carries out operations from left to right regardless of priority order,2.0,100,77.0,2.0,6.0,15.0
+ORDER_OPS,procedural,1455,"I think of a number. I add on five and then multiply the result by four. The answer I get is \( 17 \).
+Which of the following equations represents this?",B,D,A,\( n+5 \times 4=17 \),1507,Carries out operations from left to right regardless of priority order,6.55,2487,6.55,67.27,12.26,13.91
+ORDER_OPS,procedural,1465,"What does the following equal?
+\[
+3-5+4 \times 2
+\]",B,A,B,\( 4 \),1507,Carries out operations from left to right regardless of priority order,46.68,1069,5.33,46.68,13.56,34.42
+ORDER_OPS,procedural,1493,\( 8-7 \div 6^{3}= \) Which calculation should you do first?,B,A,C,\( 8-7 \),1507,Carries out operations from left to right regardless of priority order,12.46,1822,8.12,69.37,12.46,10.04
+ORDER_OPS,procedural,1508,\( 3+6 \div 2+1= \),D,A,C,\( 5.5 \),1507,Carries out operations from left to right regardless of priority order,2.11,95,8.42,5.26,2.11,84.21
+ORDER_OPS,procedural,1529,\( 0.4-\frac{1}{5} \times 3= \),C,C,B,\( 0.6 \),1507,Carries out operations from left to right regardless of priority order,4.12,97,8.25,4.12,86.6,1.03
+ORDER_OPS,procedural,1545,"\[
+8+12 \div 4 \square(8+12) \div 4
+\]
+Which symbol belongs in the box?",D,A,C,\( = \),1507,Carries out operations from left to right regardless of priority order,7.65,497,4.02,4.23,7.65,84.1
+ORDER_OPS,procedural,1599,Which answer shows the following calculation using the correct algebraic convention? \( c \div(h+4) \),C,A,C,\( \frac{c}{h}+4 \),1507,Carries out operations from left to right regardless of priority order,92.26,168,4.17,2.38,92.26,1.19
+ORDER_OPS,procedural,1615,"I think of a number. I take away six and then divide the result by three. The answer I get is \( 21 \).
+Which of the following equations represents this?",C,A,B,\( n-6 \div 3=21 \),1507,Carries out operations from left to right regardless of priority order,19.07,430,3.26,19.07,72.33,5.35
+ORDER_OPS,procedural,1728,\( \frac{3}{4}-\frac{1}{4} \times \frac{1}{5}= \),A,C,B,\( \frac{1}{10} \),1507,Carries out operations from left to right regardless of priority order,11.45,524,71.56,11.45,5.92,11.07
+ORDER_OPS,procedural,1866,"What does the following equal?
+\[
+8-7+10 \times 3
+\]",C,B,D,\( 33 \),1507,Carries out operations from left to right regardless of priority order,4.86,617,10.53,8.91,75.69,4.86
+INVERSE_OPS,procedural,29,"Solve
+\[
+2 n+3 \leq 3 n-7
+\]",C,B,A,\( 2 \leq n \),1214,"When solving an equation, uses the same operation rather than the inverse",18.06,144,18.06,14.58,43.06,24.31
+INVERSE_OPS,procedural,121,"What is the gradient of this line?
+\(5 x+3 y=15\)",B,D,C,\( \frac{5}{3} \),1214,"When solving an equation, uses the same operation rather than the inverse",7.03,128,7.81,75.78,7.03,9.38
+INVERSE_OPS,procedural,153,"Solve the equation:
+\(12 d-3=0\)",B,D,A,\( d=-\frac{1}{4} \),1214,"When solving an equation, uses the same operation rather than the inverse",11.67,1602,11.67,70.91,13.55,3.87
+INVERSE_OPS,procedural,195,"Solve the equation:
+\(
+\frac{t-3}{2}=\frac{1}{8}
+\)",B,D,C,\( t=3 \frac{1}{16} \),1214,"When solving an equation, uses the same operation rather than the inverse",14.08,916,10.92,66.16,14.08,8.84
+INVERSE_OPS,procedural,243,"Solve
+\[
+3 n+2 \geq 4 n-5
+\]",C,C,A,\( -3 \geq n \),1214,"When solving an equation, uses the same operation rather than the inverse",4.69,1385,4.69,4.26,87.87,3.18
+INVERSE_OPS,procedural,285,Rearrange the following equation to make \( \omega \) the subject \( F=r \omega^{2} \),A,B,A,\( \omega=r F^{2} \),1214,"When solving an equation, uses the same operation rather than the inverse",67.17,1529,67.17,11.45,12.16,9.22
+INVERSE_OPS,procedural,305,"Solve the equation:
+\(
+5 p=\frac{1}{10}
+\)",B,D,A,\( p=\frac{1}{2} \),1214,"When solving an equation, uses the same operation rather than the inverse",13.04,46,13.04,71.74,6.52,8.7
+INVERSE_OPS,procedural,332,"Tom and Katie are discussing how to solve:
+\(
+\frac{x}{3}-5=12
+\)
+
+Tom says a correct next line of working could be: \( \frac{x}{3}=17 \)
+
+Katie says a correct next line of working could be: \( x-5=36 \)
+Who is correct?",D,A,D,Neither is correct,1214,"When solving an equation, uses the same operation rather than the inverse",87.74,155,7.74,3.87,0.65,87.74
+INVERSE_OPS,procedural,362,"A line has equation \( 4 x+3 y=5 \)
+What is it's gradient?",B,C,D,\( \frac{4}{3} \),1214,"When solving an equation, uses the same operation rather than the inverse",11.93,461,6.51,69.85,11.71,11.93
+INVERSE_OPS,procedural,381,"The formula for the area of a triangle, \( A \), is
+\(A=\frac{1}{2}(b \times h)\)
+
+Rearrange this to make the height, \( h \), the subject. ![An image of a triangle with the base labelled b and the perpendicular height h.]()",D,B,A,\( h=\frac{1}{2}(b \times A) \),1214,"When solving an equation, uses the same operation rather than the inverse",4.95,788,4.95,20.43,29.31,45.3
+INVERSE_OPS,procedural,415,"Jo and Paul are discussing the sequence \( \mathbf{7 n}+\mathbf{5} \)
+
+Jo says \( \mathbf{1 4 9} \) is a term in the sequence.
+
+Paul says \( \mathbf{1 5 0} \) is a term in the sequence.
+
+Who is correct?",A,D,A,Only Jo,1214,"When solving an equation, uses the same operation rather than the inverse",69.57,46,69.57,15.22,8.7,6.52
+INVERSE_OPS,procedural,506,"Solve the equation:
+
+\(
+3 p=\frac{1}{12}
+\)",B,B,A,\( p=\frac{1}{4} \),1214,"When solving an equation, uses the same operation rather than the inverse",7.84,51,7.84,86.27,1.96,3.92
+INVERSE_OPS,procedural,513,"Isaac is trying to solve the equation below.
+
+Here are his steps.
+
+Which steps, if any, are correct? ![An equation 15 =  2p - 4 on the first line. 
+On the second line, Step 1 : 11 = 2p. 
+On the third line, Step 2: 22 = p]()",D,D,A,Only step \( 1 \),1214,"When solving an equation, uses the same operation rather than the inverse",5.62,89,5.62,2.25,3.37,88.76
+INVERSE_OPS,procedural,556,"Isaac is solving an equation. This is the left-hand side of two lines of working from Isaac's book. Isaac always records what operation he has done to both sides of the equation.
+
+What operation should replace the star? ![A diagram showing the change from the equations 9y = to y = represented by a gold star]()",B,C,B,\( \times 9 \),1214,"When solving an equation, uses the same operation rather than the inverse",64.57,223,14.8,64.57,8.07,12.56
+INVERSE_OPS,procedural,689,"Solve the equation:
+\(
+10=\frac{5}{p}
+\)",D,A,B,\( p=50 \),1214,"When solving an equation, uses the same operation rather than the inverse",14.97,1503,17.43,14.97,8.52,59.08
+INVERSE_OPS,procedural,722,"Tom and Katie are discussing how to solve:
+\(\frac{5 x}{3}-1=-2\)
+
+Tom says a correct next line of working could be: \( 5 x-3=-6 \)
+
+Katie says a correct next line of working could be: \( \frac{5 x}{3}=-3 \)
+
+Who is correct?",C,A,C,Both Tom and Katie,1214,"When solving an equation, uses the same operation rather than the inverse",59.57,47,0.0,19.15,59.57,21.28
+INVERSE_OPS,procedural,787,"Jo and Paul are arguing about a first step to solve this equation:
+\(2 v-5=6 v-3\)
+
+Jo says you can write: \( 2 v-8=6 v \)
+
+Paul says you can write: \( 2 v=6 v-8 \)
+
+Who is correct?",D,D,A,"Only
+Jo",1214,"When solving an equation, uses the same operation rather than the inverse",11.57,216,11.57,6.02,17.59,64.81
+INVERSE_OPS,procedural,830,"This is a part of the table of values for the equation
+\[
+2 x+3 y=12
+\] \begin{tabular}{|l|l|}
+\hline\( x \) & \( 0.3 \) \\
+\hline\( y \) & \( \bigstar \) \\
+\hline
+\end{tabular} What should replace the star?",D,D,C,\( 4.2 \),1214,"When solving an equation, uses the same operation rather than the inverse",13.25,1630,7.73,17.91,13.25,61.1
+INVERSE_OPS,procedural,840,"Tom and Katie are discussing how to solve:
+\(
+\frac{8 x}{5}=40
+\)
+
+Tom says a correct next line of working could be: \( 8 x=8 \)
+Katie says a correct next line of working could be: \( \frac{x}{5}=5 \)
+Who is correct?",D,B,A,"Only
+Tom",1214,"When solving an equation, uses the same operation rather than the inverse",4.45,1617,4.45,11.26,18.43,65.86
+INVERSE_OPS,procedural,859,"Solve the equation:
+\(12 d-3=6 d+3\)",C,B,C,\( d=-1 \),1214,"When solving an equation, uses the same operation rather than the inverse",88.68,53,1.89,5.66,88.68,3.77
+INVERSE_OPS,procedural,934,"\begin{tabular}{|l|l|l|l|l|l|}
+\hline\( x \) & \( 0 \) & \( 1 \) & \( 2 \) & \( 3 \) & \( 4 \) \\
+\hline\( y \) & \( \color{gold}\bigstar \) &   
+\end{tabular} This is a table of values for \( 4 x+2 y=10 \) 
+What should replace the star?",D,C,A,\( 20 \),1214,"When solving an equation, uses the same operation rather than the inverse",5.63,728,5.63,7.42,10.3,76.65
+INVERSE_OPS,procedural,935,"Isaac is halfway through solving a pair of simultaneous equations, one of which is below.
+
+\(
+2 j-k=-10
+\)
+
+Isaac found that \( k=8 \)
+What does \( j \) equal?",B,D,C,\( j=-9 \),1214,"When solving an equation, uses the same operation rather than the inverse",4.84,62,3.23,88.71,4.84,3.23
+INVERSE_OPS,procedural,986,"Tom and Katie are discussing how to solve:
+\(
+\frac{x-6}{2}=10
+\)
+
+Tom says a correct next line of working could be: \( \frac{x}{2}=16 \)
+Katie says a correct next line of working could be: \( x-6=5 \)
+Who is correct?",A,D,B,Only Katie,1214,"When solving an equation, uses the same operation rather than the inverse",12.46,1975,72.96,12.46,7.39,7.19
+INVERSE_OPS,procedural,1130,"Find the value of \( x \). ![A triangle with the angles labelled: 4x, 2x - 12 and 4x + 42]()",B,A,D,\( x=21^{\circ} \),1214,"When solving an equation, uses the same operation rather than the inverse",9.55,356,4.49,73.03,12.92,9.55
+INVERSE_OPS,procedural,1150,"Rearrange the following equation to make \( v \) the subject
+\(F=\frac{v^{2}}{r}\)",C,C,A,\( v=r F^{2} \),1214,"When solving an equation, uses the same operation rather than the inverse",14.18,2115,14.18,10.73,71.21,3.88
+INVERSE_OPS,procedural,1190,"Solve the equation:
+\(
+-5=p+10
+\)",C,C,A,\( p=5 \),1214,"When solving an equation, uses the same operation rather than the inverse",12.81,281,12.81,0.71,83.27,3.2
+INVERSE_OPS,procedural,1191,"Solve the equation:
+\(20 t-5=5 t+10\)",A,B,C,\( t=-1 \),1214,"When solving an equation, uses the same operation rather than the inverse",8.57,70,68.57,10.0,8.57,12.86
+INVERSE_OPS,procedural,1202,"Nick has almost solved a pair of simultaneous equations.
+He just needs to find the value of \( y \).
+He writes down:
+\[
+3-y=5
+\]
+
+What is the correct value of \( y \) ?",D,B,D,\( y=-8 \),1214,"When solving an equation, uses the same operation rather than the inverse",52.97,1348,21.14,12.02,13.87,52.97
+INVERSE_OPS,procedural,1286,"A sphere has a volume of
+\[
+V \mathrm{~cm}^{3} \text {. }
+\] ![A sphere with the radius labelled '?']() What is its radius?",D,C,A,\( \sqrt[3]{\frac{4 V \pi}{3}} \mathrm{~cm} \),1214,"When solving an equation, uses the same operation rather than the inverse",12.07,613,12.07,13.54,13.21,61.17
+INVERSE_OPS,procedural,1287,"Alisha is using cups and counters to help her solve an equation. Which would be the correct start to work it out? ![Three diagrams of equations shown with cups and counters. 
+Step 1 is one cup plus four counters equals two cups and two counters.
+Step 2 is four counters equals one cup plus two counters.
+Step 3 is two counters equals one cup.]()",C,A,B,\( 3 x=6 \),1214,"When solving an equation, uses the same operation rather than the inverse",9.59,73,8.22,9.59,67.12,15.07
+INVERSE_OPS,procedural,1351,"Solve the equation:
+\[
+-3=p+12
+\]",D,B,A,\( p=9 \),1214,"When solving an equation, uses the same operation rather than the inverse",21.67,120,21.67,0.0,7.5,70.83
+INVERSE_OPS,procedural,1354,Which function machine will solve the equation \( x^{2}+5=14 ? \),C,C,B,![A function machine showing 14 as the input then squaring and +5 to give the output](),1214,"When solving an equation, uses the same operation rather than the inverse",6.72,461,11.06,6.72,70.5,11.71
+INVERSE_OPS,procedural,1427,"Isaac is solving an equation. This is the left-hand side of two lines of working from Isaac's book. Isaac always records what operation he has done to both sides of the equation.
+What operation should replace the star? ![The image shows two lines of working and an arrow from the top line to the bottom line with a star next to it where the operation would be labelled. The top line of working is x + 7 = ..., and the bottom line is x = ...]()",C,D,A,\( +7 \),1214,"When solving an equation, uses the same operation rather than the inverse",5.94,101,5.94,12.87,76.24,4.95
+INVERSE_OPS,procedural,1561,"Solve the equation:
+\(20 t-5=0\)",D,A,D,\( t=-\frac{1}{4} \),1214,"When solving an equation, uses the same operation rather than the inverse",74.62,130,7.69,4.62,13.08,74.62
+INVERSE_OPS,procedural,1607,"Isaac is trying to solve the equation on the right. \( 15=\frac{1+k}{4} \) Here are his steps. Step \( 1: \) \(
+60=1+k
+\)
+
+Step \( 2: \) \(
+61=k
+\) Which steps, if any, are correct?",D,A,B,Only ste.p \( 2 \),1214,"When solving an equation, uses the same operation rather than the inverse",9.89,91,3.3,9.89,12.09,74.73
+INVERSE_OPS,procedural,1622,"This is a table of values for \( 3 x+2 y=6 \) 
+What should replace the star? \begin{tabular}{|l|c|c|c|c|c|}
+\hline\( x \) & \( 0 \) & \( 1 \) & \( 2 \) & \( 3 \) & \( 4 \) \\
+\hline\( y \) & \( \color{gold}\bigstar \) &   \\
+\hline
+\end{tabular}",A,A,D,\( 12 \),1214,"When solving an equation, uses the same operation rather than the inverse",14.5,131,61.83,11.45,12.21,14.5
+INVERSE_OPS,procedural,1637,"What is the solution to the following inequality?
+\(-3<2 x+1<7\)",B,A,D,\( -5<x<15 \),1214,"When solving an equation, uses the same operation rather than the inverse",5.68,88,17.05,76.14,1.14,5.68
+INVERSE_OPS,procedural,1645,"Solve this equation, giving all solutions:
+\(
+3 p^{2}+9=39
+\)",C,B,D,"\[
+p=4
+\]
+or
+\[
+p=-4
+\]",1214,"When solving an equation, uses the same operation rather than the inverse",14.6,137,14.6,7.3,63.5,14.6
+INVERSE_OPS,procedural,1702,"This is a part of the table of values for the equation
+\[
+10 x-6 y=30
+\] \begin{tabular}{|l|l|}
+\hline\( x \) & \( \bigstar \) \\
+\hline\( y \) & \( 0.5 \) \\
+\hline
+\end{tabular} What should replace the star?",B,C,D,\( 2.7 \),1214,"When solving an equation, uses the same operation rather than the inverse",3.81,105,1.9,84.76,9.52,3.81
+INVERSE_OPS,procedural,1767,"Isaac is solving an equation. This is the left-hand side of two lines of working from Isaac's book. Isaac always records what operation he has done to both sides of the equation.
+What operation should replace the star? ![The image shows two lines of working and an arrow from the top line to the bottom line with a star next to it where the operation would be labelled. The top line of working is x - 7 = ..., and the bottom line is x = ...]()",A,A,D,\( -7 \),1214,"When solving an equation, uses the same operation rather than the inverse",15.78,1413,42.46,24.7,17.06,15.78
+INVERSE_OPS,procedural,1801,"What is the solution to the following inequality?
+\(
+-5<2 x+1<5
+\)",B,B,A,\( -9<x<11 \),1214,"When solving an equation, uses the same operation rather than the inverse",3.28,61,3.28,78.69,13.11,4.92
+NEG_MULTIPLY,conceptual,27,If \( d=-2 \) what is the value of \( 10-2 d \) ?,C,C,B,\( 6 \),1597,Believes multiplying two negatives gives a negative answer,10.97,383,5.74,10.97,80.94,2.35
+NEG_MULTIPLY,conceptual,119,"Tom and Katie are trying to write different calculations for the diagram on the left.
+Tom writes: \( -3 \times(-8)=-24 \)
+Katie writes: \( \frac{(-24)}{-3}=-8 \)
+Who is correct? ![A diagram showing an arrow to the left, marked with a value of -24. Underneath this arrow there is a smaller arrow, still pointing to the left, that is a third of the length of the larger arrow]()",C,D,A,"Only
+Tom",1597,Believes multiplying two negatives gives a negative answer,13.3,564,13.3,10.82,67.38,8.51
+NEG_MULTIPLY,conceptual,136,"The product of two numbers is \( -24 \).
+What could the two numbers be?",D,B,A,\( -3 \) and \( -8 \),1597,Believes multiplying two negatives gives a negative answer,8.08,1571,8.08,7.64,10.18,74.09
+NEG_MULTIPLY,conceptual,139,"Alison is expanding these two brackets.
+What should she get when she multiplies the two terms indicated by the arrows? ![The two brackets are (5p-4)(2p-3). The arrows are pointing at the -4 in the first bracket and the -3 in the second bracket.]()",C,C,B,\( -12 \),1597,Believes multiplying two negatives gives a negative answer,21.31,122,6.56,21.31,63.11,9.02
+NEG_MULTIPLY,conceptual,290,Which of these could be used as a counter - example to disprove Katie's theory that \( 2 n^{2}-1 \) is positive?,A,B,C,\( 2(-2)^{2}-1 \),1597,Believes multiplying two negatives gives a negative answer,17.12,619,45.88,24.88,17.12,12.12
+NEG_MULTIPLY,conceptual,435,Which calculation is equal to \( -20 \) ?,A,B,C,\( (-5)^{2}+5 \),1597,Believes multiplying two negatives gives a negative answer,16.51,2816,77.06,3.23,16.51,3.2
+NEG_MULTIPLY,conceptual,466,\( -\frac{3}{4} \times \star=-1 \) What should replace the star?,D,A,B,\( -\frac{4}{3} \),1597,Believes multiplying two negatives gives a negative answer,21.51,1725,18.2,21.51,20.35,39.94
+NEG_MULTIPLY,conceptual,564,Multiply out the brackets: \( -5(m-7) \),D,C,B,\( -5 m-35 \),1597,Believes multiplying two negatives gives a negative answer,6.74,89,5.62,6.74,17.98,69.66
+NEG_MULTIPLY,conceptual,644,"Molly is expanding these two brackets.
+
+What should she get when she multiplies the two terms indicated by the arrows? ![The brackets shown are (2p-1)(3p-4). The arrows are pointing at the -1 in the first bracket and the -4 in the second bracket.]()",D,A,B,\( -4 \),1597,Believes multiplying two negatives gives a negative answer,0.0,87,0.0,0.0,1.15,98.85
+NEG_MULTIPLY,conceptual,655,"What should replace the star?
+
+\(
+(-6) \times \color{gold}\bigstar \color{black} =-8
+\)",C,D,C,\( -\frac{8}{6} \),1597,Believes multiplying two negatives gives a negative answer,48.69,2136,7.77,32.77,48.69,10.77
+NEG_MULTIPLY,conceptual,829,"Multiply out the brackets:
+\[
+(m-3)(m-2)
+\]",C,A,D,\( m^{2}-5 m-6 \),1597,Believes multiplying two negatives gives a negative answer,8.96,681,15.42,16.3,59.32,8.96
+NEG_MULTIPLY,conceptual,865,"Which of the following could be the equation of the curve? ![A negative  quadratic graph that crosses the x-axis at (-5,0) and (1,0).]()",D,A,B,\( y=(1-x)(5-x) \),1597,Believes multiplying two negatives gives a negative answer,1.25,80,0.0,1.25,2.5,96.25
+NEG_MULTIPLY,conceptual,867,Which of the following answers shows a correct expansion and simplification of the expression below? \( (x-4)^{2} \),A,A,D,\( x^{2}-8 x-16 \),1597,Believes multiplying two negatives gives a negative answer,10.47,659,63.13,12.9,13.51,10.47
+NEG_MULTIPLY,conceptual,888,"Multiply out the brackets:
+\[
+(m-5)(m-7)
+\]",B,B,D,\( m^{2}-12 m-35 \),1597,Believes multiplying two negatives gives a negative answer,8.73,1283,15.04,65.47,10.76,8.73
+NEG_MULTIPLY,conceptual,936,"Tom and Katie are arguing about factorising. Tom says \( x^{2}+5 x+6 \equiv(x+3)(x+2) \) 
+Katie says \( x^{2}-5 x-6 \equiv(x-3)(x-2) \) 
+Who is correct?",A,A,C,Both Tom and Katie,1597,Believes multiplying two negatives gives a negative answer,18.4,1147,52.66,10.46,18.4,18.48
+NEG_MULTIPLY,conceptual,1035,"Expand:
+\(
+-(2-3 p)
+\)",B,D,B,\( -2-3 p \),1597,Believes multiplying two negatives gives a negative answer,57.14,147,10.2,57.14,12.24,20.41
+NEG_MULTIPLY,conceptual,1053,"Which answer shows the correct factorisation of:
+\(
+x^{2}-x-6
+\)",C,A,B,\( (x-3)(x-2) \),1597,Believes multiplying two negatives gives a negative answer,6.08,378,10.05,6.08,80.16,3.7
+NEG_MULTIPLY,conceptual,1165,"James is expanding these two brackets.
+
+What should he get when he multiplies the two terms indicated by the arrows? ![The brackets shown are (x-8)(x-2). The arrows are pointing at the -8 in the first bracket and the -2 in the second bracket.]()",B,B,D,\( -16 \),1597,Believes multiplying two negatives gives a negative answer,8.63,811,7.4,74.23,9.74,8.63
+NEG_MULTIPLY,conceptual,1373,Multiply out the brackets: \( -3(m-2) \),A,D,B,\( -3 m-6 \),1597,Believes multiplying two negatives gives a negative answer,24.48,866,42.84,24.48,19.86,12.82
+NEG_MULTIPLY,conceptual,1383,"\(
+T=k^{4}
+\)
+
+What is the value of \( T \) when \( k=-3 \) ?",C,A,C,\( -81 \),1597,Believes multiplying two negatives gives a negative answer,52.66,4825,19.67,22.11,52.66,5.55
+NEG_MULTIPLY,conceptual,1463,"Mo wants to solve this equation using the quadratic formula.
+\(
+5 h^{2}-3 h-2=0
+\)
+
+What should replace the triangle? \( ?\pm \sqrt{\triangle-?} \)",B,C,D,\( -9 \),1597,Believes multiplying two negatives gives a negative answer,7.42,3637,32.22,46.44,13.91,7.42
+NEG_MULTIPLY,conceptual,1491,\( (-2)^{4}= \),A,C,A,\( -16 \),1597,Believes multiplying two negatives gives a negative answer,74.35,655,74.35,9.31,9.62,6.72
+NEG_MULTIPLY,conceptual,1540,"This is part of a table of values for
+\[y=x^{2} -2 x+1\] \begin{tabular}{|c|c|}
+\hline\( x \) & \( -1 \) \\
+\hline\( y \) & \(\bigstar\) \\
+\hline
+\end{tabular} What should replace the star?",A,B,A,\( -2 \),1597,Believes multiplying two negatives gives a negative answer,76.79,504,76.79,10.52,3.97,8.73
+NEG_MULTIPLY,conceptual,1718,"Which of the following answers shows a correct expansion and simplification of the expression below?
+
+\(
+(x-3)^{2}
+\)",B,D,A,\( x^{2}-6 x-9 \),1597,Believes multiplying two negatives gives a negative answer,25.12,207,25.12,54.11,10.63,10.14
+NEG_MULTIPLY,conceptual,1757,![Square then subtract \( 2 \)]() The first three terms of which sequence below is produced by this term-to-term rule?,D,A,C,"\( -1,-3,-11 \)",1597,Believes multiplying two negatives gives a negative answer,34.78,46,19.57,6.52,34.78,39.13
+NEG_MULTIPLY,conceptual,1844,\( y=(x-8)(x-6) \) \( y=(x-8)(x-6) \) Where does this curve intercept the \( y \) axis? Where does this curve intercept the \( y \) axis?,C,C,D,"\( (0,-48) \) \( (0,-48) \)",1597,Believes multiplying two negatives gives a negative answer,3.51,57,3.51,5.26,87.72,3.51
+FRAC_ADD,conceptual,38,"Write this as a single fraction as simply as possible:
+\(
+\frac{3}{2 x}+\frac{4}{x}
+\)",D,A,B,\( \frac{7}{3 x} \),217,"When adding fractions, adds the numerators and denominators",12.22,90,8.89,12.22,10.0,68.89
+FRAC_ADD,conceptual,86,"Work out:
+\(
+\frac{4}{11}+\frac{7}{11}
+\)
+Write your answer in its simplest form.",A,D,A,\( \frac{11}{22} \),217,"When adding fractions, adds the numerators and denominators",51.02,49,51.02,8.16,10.2,30.61
+FRAC_ADD,conceptual,202,\( 2 \frac{1}{5}+1 \frac{2}{5}= \) Leave your answer as a mixed number,A,A,D,\( 3 \frac{3}{10} \),217,"When adding fractions, adds the numerators and denominators",1.36,147,87.76,7.48,3.4,1.36
+FRAC_ADD,conceptual,328,"Calculate:
+\(
+\frac{2}{9}+\frac{1}{3}
+\)",A,A,B,\( \frac{3}{12} \),217,"When adding fractions, adds the numerators and denominators",7.02,1139,67.78,7.02,15.89,9.31
+FRAC_ADD,conceptual,511,"Express the following as a single fraction, writing your answer as simply as possible: \( \frac{t}{s}+\frac{2 s}{t} \)",D,D,B,\( \frac{t+2 s}{s+t} \),217,"When adding fractions, adds the numerators and denominators",4.88,41,7.32,4.88,12.2,75.61
+FRAC_ADD,conceptual,525,\( 2 \frac{7}{10}+2 \frac{1}{4}= \) Leave your answer as a mixed number,A,B,C,\( \frac{99}{40} \),217,"When adding fractions, adds the numerators and denominators",17.58,1701,46.91,22.34,17.58,13.17
+FRAC_ADD,conceptual,698,"![Two spinners shown. The first spinner has the numbers 1-4 and the second spinner has the number 1-5.]() You spin the above fair spinners
+What is the probability of getting a \( 1 \) on both spinners?",D,B,C,\( \frac{2}{9} \),217,"When adding fractions, adds the numerators and denominators",17.27,249,7.23,8.03,17.27,67.47
+FRAC_ADD,conceptual,789,"Work out:
+\(
+\frac{3}{10}+\frac{5}{10}
+\)
+Write your answer in its simplest form.",B,C,A,\( \frac{8}{20} \),217,"When adding fractions, adds the numerators and denominators",16.77,155,16.77,36.77,34.84,11.61
+FRAC_ADD,conceptual,1055,"The fractions in the two circles below add to give the fraction in the circle above.
+
+What should replace the question mark? ![Fractions 3/5 and 1/4 in two separate circles, both linked to a third circle above.]()",B,D,A,\( \frac{4}{9} \),217,"When adding fractions, adds the numerators and denominators",16.4,933,16.4,59.59,15.33,8.68
+FRAC_ADD,conceptual,1385,\( \frac{1}{3}+\frac{1}{4}+\frac{2}{3}+\frac{3}{4}= \),C,C,B,\( \frac{7}{14} \),217,"When adding fractions, adds the numerators and denominators",5.76,295,10.85,5.76,76.27,7.12
+FRAC_ADD,conceptual,1386,"Write this as a single fraction as simply as possible
+\(
+\frac{2}{x}+\frac{3}{x}
+\)",C,B,C,\( \frac{5}{2 x} \),217,"When adding fractions, adds the numerators and denominators",55.64,133,14.29,8.27,55.64,21.8
+FRAC_ADD,conceptual,1390,\( \frac{1}{3}+\frac{1}{2} \times \frac{1}{3}= \),C,A,C,\( \frac{2}{9} \),217,"When adding fractions, adds the numerators and denominators",28.16,103,47.57,11.65,28.16,12.62
+FRAC_ADD,conceptual,1430,"Calculate:
+\(
+\frac{2}{7}+\frac{1}{7}
+\)",D,C,D,\( \frac{3}{14} \),217,"When adding fractions, adds the numerators and denominators",64.72,462,23.16,6.28,5.84,64.72
+FRAC_ADD,conceptual,1526,"The fractions in the two circles below add to give the fraction in the circle above.
+
+What should replace the question mark? ![Two circles containing the fractions 3/5 and 2/7, both linked to a third circle above]()",A,B,C,\( \frac{5}{12} \),217,"When adding fractions, adds the numerators and denominators",17.41,741,58.84,16.46,17.41,7.29

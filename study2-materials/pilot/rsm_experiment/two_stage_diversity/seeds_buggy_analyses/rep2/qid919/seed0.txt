@@ -1,0 +1,23 @@
+In the context of UK Year 9 mathematics (Foundation and Higher), the calculation of $3x^2$ where $x$ is a decimal is a frequent source of errors involving the **Order of Operations (BIDMAS/BODMAS)**.
+
+### 1. The Misconception: The "Multiplication Before Indices" Bug
+The student believes that the terms in the expression $3x^2$ should be processed from left to right as if written $(3x)^2$. This is a failure to prioritize **Indices (I)** over **Multiplication (M)**. In their mental model, the exponent applies to the entire term $3x$ rather than just the variable $x$.
+
+### 2. Step-by-Step Working
+A student with this misconception would approach the calculation as follows:
+
+1.  **Substitution:** They replace $x$ with $0.3$, writing the expression effectively as $3 \times 0.3^2$.
+2.  **Premature Multiplication:** Ignoring the hierarchy of BIDMAS, they perform the multiplication first: $3 \times 0.3 = 0.9$.
+3.  **Squaring the Product:** They then square the result of their multiplication: $0.9^2$.
+4.  **Arithmetic:** They calculate $0.9 \times 0.9 = 0.81$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option A: 0.81**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural and "invisible" to the student.**
+*   **Linear Thinking:** Students naturally read from left to right. Without a strong conceptual "wall" between the coefficient ($3$) and the term being squared ($x^2$), the brain treats $3x$ as a single unit to be manipulated.
+*   **Procedural Overload:** In Year 9, students are often simultaneously learning about multiplying decimals and index laws. Under the cognitive load of handling $0.3 \times 0.3$, they often lose track of the priority of operations.
+*   **The "Trap" of Square Numbers:** $0.81$ feels like a very "correct" answer because it is a recognizable square number (81). The presence of $0.81$ in the multiple-choice list provides **false validation**; the student sees a number that matches their result exactly and concludes that their method must be correct, never pausing to re-check the order of operations.
+
+In contrast, the correct method ($0.3^2 = 0.09$, then $0.09 \times 3 = 0.27$) requires the student to hold the coefficient "in waiting" while they process the power, which is a more advanced executive function in algebra.

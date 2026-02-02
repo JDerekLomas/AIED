@@ -1,0 +1,73 @@
+**Student 1 [ability: below_basic]**
+Thinking: Okay, brackets. I need to times the things inside. $m$ times $m$ is $2m$? No, $m$ squared. Then there's a 5 and a 7. $5$ times $7$ is 35. I see a minus and a minus, so that stays minus? Let's look at the options. They all have $m^2$ and 35. Maybe I just add the 5 and the 7? $5 + 7$ is 12. But since they are both take-away, it should be $-12$. Let's look... A has $-2$, B has $-12$, D has $-12$. B has $+35$ and D has $-35$. $-5$ times $-7$... I think a negative and a negative is still a negative.
+Final Answer: D
+
+**Student 2 [ability: basic]**
+Thinking: I use the FOIL method. 
+First: $m \times m = m^2$. 
+Outside: $m \times -7 = -7m$. 
+Inside: $-5 \times m = -5m$. 
+Last: $-5 \times -7$. 
+Wait, $7 + 5$ is 12, so it's $-12m$. For the last bit, $5 \times 7$ is 35. It’s negative times negative, which makes a plus. So $+35$. $m^2 - 12m + 35$. That’s choice B.
+Final Answer: B
+
+**Student 3 [ability: proficient]**
+Thinking: $(m-5)(m-7)$. Expanding the terms: $m^2 - 7m - 5m + 35$. Combine the middle linear terms: $-7m - 5m = -12m$. The constant term is $(-5) \times (-7) = +35$. The full expression is $m^2 - 12m + 35$. Matches B.
+Final Answer: B
+
+**Student 4 [ability: basic]**
+Thinking: I'll draw a grid. $m$ and $-5$ on the top, $m$ and $-7$ on the side.
+$m \times m = m^2$.
+$m \times -5 = -5m$.
+$m \times -7 = -7m$.
+$-5 \times -7$... that's 35.
+Total is $m^2 - 5m - 7m + 35$.
+Wait, $-5 - 7$... is that $-2$ or $-12$? If I owe 5 and borrow 7 more, I owe 12. So $-12m$.
+So $m^2 - 12m + 35$.
+Final Answer: B
+
+**Student 5 [ability: below_basic]**
+Thinking: $m$ times $m$ is $m^2$. Then I do $5$ times $7$ which is 35. There is a minus in the middle of both, so it must be $m^2 - 35$. Oh, that's not an option. They all have a middle bit. The middle bit must be $7$ take away $5$ because 7 is bigger. $7 - 5 = 2$. So $m^2 - 2m - 35$. That's A.
+Final Answer: A
+
+**Student 6 [ability: advanced]**
+Thinking: This is a standard quadratic expansion of the form $(x-a)(x-b) = x^2 - (a+b)x + ab$.
+Here, $a=5$ and $b=7$.
+Sum: $5+7 = 12$.
+Product: $5 \times 7 = 35$.
+Since both are negative, the middle term is negative and the constant term is positive.
+Result: $m^2 - 12m + 35$.
+Final Answer: B
+
+**Student 7 [ability: proficient]**
+Thinking: Multiply out: $m(m-7) - 5(m-7) = m^2 - 7m - 5m + 35$. 
+Simplifying the $m$ terms: $-7 - 5 = -12$.
+So $m^2 - 12m + 35$. 
+Let me double check the signs. Negative times negative is positive for the 35. Adding two negatives stays negative for the 12. Correct.
+Final Answer: B
+
+**Student 8 [ability: basic]**
+Thinking: $(m-5)(m-7)$. 
+$m \times m = m^2$.
+$-5 \times -7 = 35$.
+Middle bit is $-5m$ and $-7m$. 
+$-5 - 7$... I'll use my calculator. $-5 - 7 = -12$. 
+So $m^2 - 12m + 35$. 
+Wait, looking at the answers, C is $m^2 + 12m + 35$. Is it plus or minus? The numbers are negative so maybe it's plus? No, I'll stick with B, the calculator said minus 12.
+Final Answer: B
+
+**Student 9 [ability: below_basic]**
+Thinking: I hate algebra. $m \times m$ is $m^2$. $5 \times 7$ is 35. The middle is $5 + 7 = 12$. Everything has minus signs in the brackets so the answer should have plus signs? $(m-5)(m-7)$ becomes $m^2 + 12m + 35$. That's C.
+Final Answer: C
+
+**Student 10 [ability: proficient]**
+Thinking: Expansion: $m^2 - 7m - 5m + 35$.
+Collect like terms: $m^2 - 12m + 35$.
+I need to be careful with the signs; $-5$ multiplied by $-7$ is definitely positive 35. 
+The sum of $-5$ and $-7$ is $-12$. 
+The answer is B.
+Final Answer: B
+
+***
+
+**ANSWER_COUNTS: A=1 B=7 C=1 D=1**

@@ -1,0 +1,45 @@
+<chain_of_thought>
+This item asks students to rearrange the volume formula for a sphere, V = (4/3)pi*r^3, to solve for the radius r. The correct answer is r = cube_root(3V / (4pi)), which is option C.
+
+Let me consider the difficulty. This requires:
+1. Knowing the volume of a sphere formula: V = (4/3)pi*r^3
+2. Rearranging a multi-step formula involving fractions and a cube root
+3. Understanding that to undo multiplication by (4/3)pi, you divide by (4/3)pi (i.e., multiply by 3/(4pi))
+4. Understanding that to undo cubing, you take a cube root
+5. Keeping track of which constants end up in numerator vs denominator
+
+The misconception tested is "uses the same operation rather than the inverse." This could manifest as multiplying by (4/3)pi instead of dividing, or squaring instead of cube-rooting. Looking at the distractors:
+
+- Option A: cube_root(4Vpi/3) -- this looks like someone multiplied V by 4pi/3 instead of dividing (or misarranged the fraction)
+- Option B: cube_root(4V/(3pi)) -- close but the 4 and 3 are swapped relative to correct
+- Option C: cube_root(3V/(4pi)) -- CORRECT
+- Option D: 3*cube_root(V)/(4pi) -- took cube root of V alone, then multiplied by 3/(4pi), failing to apply the cube root to the entire expression
+
+The distractors are quite plausible because the algebraic manipulation is complex and there are many places to make errors with the fraction rearrangement. Students at KS3/KS4 would find this challenging -- volume of a sphere is typically GCSE higher tier content, and rearranging this formula algebraically with cube roots is demanding.
+
+Comparing to calibration items: The inequality item (classical difficulty 0.569, IRT b=0.808) involves multi-step algebraic manipulation. This sphere item is significantly harder because it involves formula recall, fraction manipulation, AND cube roots in an abstract/symbolic context. I'd estimate this is harder than any calibration item.
+
+I estimate classical difficulty around 0.70-0.75 (most students get it wrong), IRT difficulty around 1.2-1.5. Discrimination should be moderate since higher-ability students who know the formula can work through it, but there's some guessing among the options since they look similar. Guessing is near chance but perhaps slightly below 0.25 since students may eliminate some options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>8</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>9</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>7</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.72</classical_difficulty>
+<irt_difficulty>1.30</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

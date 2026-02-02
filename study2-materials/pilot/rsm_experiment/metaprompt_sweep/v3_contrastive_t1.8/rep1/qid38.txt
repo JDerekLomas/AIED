@@ -1,0 +1,15 @@
+As an experienced teacher, I've seen students struggle with algebraic fractions, specifically regarding the "lowest common denominator" when variables are involved. 
+
+**Analysis of the Question:**
+The core trap here is whether students treat the denominators as separate entities or recognize that $2x$ is a multiple of $x$. 
+*   **A ($\frac{11}{2x}$)** is the correct answer. The common denominator is $2x$, so $\frac{4}{x}$ becomes $\frac{8}{2x}$, and $3+8=11$.
+*   **B ($\frac{7}{3x}$)** is the "add across" error ($3+4=7$ and $2x+x=3x$). This is the most common error for students who lack confidence in fraction addition.
+*   **C ($\frac{11}{x}$)** represents the student who knows they need a common denominator but forgets to multiply the numerator or incorrectly scales down the $2x$.
+*   **D ($\frac{7}{2x}$)** is the "forgot to scale the numerator" error. The student identifies $2x$ as the common denominator but simply adds the numerators $3+4$. This is a very frequent error even among intermediate students.
+
+**Predictions:**
+
+below_basic: A=20% B=45% C=10% D=25%
+basic: A=45% B=15% C=10% D=30%
+proficient: A=75% B=5% C=5% D=15%
+advanced: A=96% B=1% C=1% D=2%

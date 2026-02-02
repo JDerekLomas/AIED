@@ -1,0 +1,42 @@
+<chain_of_thought>
+The target item requires expanding double brackets: (m-3)(m-2).
+
+Correct expansion via FOIL:
+m*m = m^2, m*(-2) = -2m, (-3)*m = -3m, (-3)*(-2) = +6
+Total: m^2 - 5m + 6 = Answer A.
+
+The tested misconception is that multiplying two negatives gives a negative. Students holding this belief would get (-3)*(-2) = -6, producing m^2 - 5m - 6 (Answer D).
+
+Let me consider the distractors more carefully:
+- B: m^2 - m - 6. This could arise from a student who does m*m=m^2, then only computes one of the cross-terms (maybe -3*m = -3m and m*2 = 2m, getting -m for the middle), and also gets the sign wrong on the last term. This is a less systematic error.
+- C: m^2 + 5m + 6. This is (m+3)(m+2). A student ignoring the negative signs entirely would choose this.
+- D: m^2 - 5m - 6. The target misconception distractor.
+
+The distractor plausibility is high because all four options look like plausible quadratic expansions with similar terms.
+
+Calibration anchoring: The Tom/Katie factorising problem with the same misconception had difficulty 0.473 and b=0.404. But that problem required an additional meta-cognitive step (evaluating two people's claims). This problem is more straightforward procedurally. On the other hand, expanding brackets with two negative terms is precisely where the sign misconception bites hardest.
+
+I think this item sits around moderate difficulty. Many students in KS3/4 practice bracket expansion extensively, but the negative-times-negative pitfall is persistent. I'll pitch classical difficulty at 0.35, IRT b at 0.15. The discrimination should be reasonable since the misconception cleanly separates students -- maybe 1.40. Guessing should be low since students typically attempt the expansion rather than randomly guessing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

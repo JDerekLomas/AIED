@@ -1,0 +1,48 @@
+## Error Analysis:
+
+A) To arrive at \( m^{2}-2 m-35 \), a student would incorrectly apply the distributive property (also known as FOIL for binomials) but make a mistake in combining the middle terms. The correct steps are \( m \cdot m + m \cdot (-7) - 5 \cdot m - 5 \cdot (-7) \), which simplifies to \( m^{2} - 7m - 5m + 35 \) or \( m^{2} - 12m + 35 \). A student choosing A might have done \( -7m - 5m = -2m \) instead of \( -7m - 5m = -12m \), indicating a mistake in adding the coefficients of \( m \).
+
+B) The correct answer, \( m^{2}-12 m+35 \), requires proper application of FOIL: \( m \cdot m + m \cdot (-7) - 5 \cdot m - 5 \cdot (-7) \) = \( m^{2} - 7m - 5m + 35 \) = \( m^{2} - 12m + 35 \). No error here.
+
+C) For \( m^{2}+12 m+35 \), a student might have incorrectly applied the signs in the FOIL method: \( m^{2} + 7m + 5m + 35 \) (wrongly assuming both \( m \cdot (-7) \) and \( -5 \cdot m \) are positive, or simply adding instead of subtracting), resulting in \( m^{2} + 12m + 35 \).
+
+D) To get \( m^{2}-12 m-35 \), a student might have correctly applied FOIL but made a mistake with the signs: \( m^{2} - 7m - 5m - 35 \) (incorrectly keeping the \( -35 \) negative instead of it becoming \( +35 \) from \( -5 \times -7 \)).
+
+## Predictions:
+
+- **below_basic**: These students might not fully understand the FOIL method or correctly applying negative signs. 
+  - A: 30% (simple arithmetic mistake, directly picking an answer without full calculation)
+  - B: 20% (might have template or partially correct understanding)
+  - C: 25% (Adding instead of subtracting, common error)
+  - D: 25% (Incorrectly handling the negative signs)
+
+- **basic**: Students with basic understanding might make straightforward errors.
+  - A: 15% (still struggling with combining like terms)
+  - B: 50% (starting to get it but can be fragile)
+  - C: 20% (sign errors still common)
+  - D: 15% (either very careless or misunderstands completely)
+
+- **proficient**: These students have a good grasp but can still make careless mistakes.
+  - A: 5% (just a simple slip)
+  - B: 80% (mostly accurate but room for occasional mistake)
+  - C: 10% (less likely but possible with strong misconception)
+  - D: 5% (either strong misconception or very careless)
+
+- **advanced**: Highly competent students are less likely to make calculation errors.
+  - A: 0% (very unlikely to make such basic error)
+  - B: 90% (mostly standard application)
+  - C: 5% (exceptional misunderstandings)
+  - D: 5% (very unusual error)
+
+The final answer is: 
+Error Analysis:
+A) A student would incorrectly combine the middle terms, getting \( -7m - 5m = -2m \) instead of \( -12m \).
+B) No error, correct application of FOIL.
+C) A student might have added the \( m \) terms and incorrectly kept the \( -35 \) as \( +35 \) without error in signs leading to addition.
+D) A student might have incorrectly kept the constant term as \( -35 \) instead of \( +35 \).
+
+Predictions:
+below_basic: A=30% B=20% C=25% D=25%
+basic: A=15% B=50% C=20% D=15%
+proficient: A=5% B=80% C=10% D=5%
+advanced: A=0% B=90% C=5% D=5%

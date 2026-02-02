@@ -1,0 +1,45 @@
+<chain_of_thought>
+Analyzing this item: Students must match a cups-and-counters visual model to the correct algebraic equation and solution.
+
+The diagram depicts:
+- Step 1: x + 4 = 2x + 2 (one cup and four counters on left, two cups and two counters on right)
+- Step 2: 4 = x + 2 (removed one cup from each side - inverse operation)
+- Step 3: 2 = x (removed two counters from each side)
+
+The correct answer A shows x + 4 = 2x + 2 leading to x = 2, which faithfully represents what the cups and counters show.
+
+Distractor analysis:
+- B (3x = 6): Student ignores the equals sign and just totals everything. This reflects a fundamental misunderstanding of equations as balance.
+- C (x + 4 = 2x + 2, then 3x = 2): Correctly reads the initial setup but then adds the x terms (x + 2x = 3x) while only taking the right-side constant. Partial understanding.
+- D (x + 4 = 2x + 2, then 3x = 6): Correctly reads initial setup but collects all terms by addition rather than using inverse operations. This is the primary misconception target - using addition (same operation) rather than subtraction (inverse).
+
+D is likely the most attractive distractor since it correctly identifies the starting equation and the numbers look "right" if you just add everything up.
+
+This item sits at an interesting intersection: the visual model is designed to make equation-solving concrete and accessible, yet the question tests whether students can connect the concrete model to the abstract algebra. Students who understand the cups-and-counters model well should find this straightforward. Those who have a surface-level grasp may be drawn to D.
+
+Calibration comparison: The tested misconception appears in three calibration items spanning difficulty 0.167 to 0.569. The visual component and the need to interpret a concrete model before matching to algebra adds a layer. I think this is moderate - the visual actually helps many students. But distractor D will catch students who default to "add everything."
+
+My estimate: classical difficulty around 0.28, since the visual scaffolding helps. IRT difficulty slightly negative to near zero. Good discrimination because the distractors map cleanly to specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

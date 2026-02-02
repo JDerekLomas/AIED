@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item asks students to add two fractions: 3/5 + 2/7. To solve correctly, students need to find a common denominator (35), convert each fraction (21/35 + 10/35), then add numerators to get 31/35 (option B).
+
+The tested misconception is adding numerators and denominators separately: 3+2=5, 5+7=12, giving 5/12 (option C). This is an extremely common misconception among younger students.
+
+Option A (11/35) appears to come from correctly finding the common denominator but making an error in the numerator addition or cross-multiplication (perhaps 3+2=5 then something with 7 and 5... or maybe 3*2 + 5 = 11? Not immediately obvious). Actually, 3*7=21 and 2*5=10, so 21+10=31. Maybe 11 comes from just adding 3+5+2+1? Hard to say. It could be from adding cross-products incorrectly: 3*2 + 5 = 11? This distractor is somewhat plausible.
+
+Option D (5/35) looks like adding numerators (3+2=5) but getting the correct denominator (5*7=35). This represents a partial misconception where the student knows to multiply denominators but still adds numerators.
+
+Comparing to calibration items: The equation -5=p+10 had classical difficulty 0.167 (easy). The fraction addition item requires procedural knowledge of common denominators, which many students struggle with. I'd estimate this is moderately difficult, perhaps around 0.35-0.45 classical difficulty. The misconception of adding numerators/denominators is very strong and common, making the distractors quite attractive.
+
+The item is presented in a visual format (circles linked together) which adds a small layer of interpretation but is fairly standard for fraction addition pyramid tasks. The question clarity is high once the visual is understood.
+
+For IRT parameters: moderate difficulty around 0.1-0.4 on the b scale, decent discrimination since it cleanly separates those who understand common denominators from those who don't, and low guessing since students with the misconception will be drawn to specific wrong answers.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

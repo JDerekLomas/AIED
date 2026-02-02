@@ -1,0 +1,32 @@
+This is a classic "trap" question that tests the hierarchy of operations (BIDMAS/BODMAS) and directed number arithmetic. While it looks simple, it is a high-misconception problem.
+
+### DIFFICULTY: 4/10
+For a Year 9 student, the calculation itself is trivial, but the logical sequencing is where the errors occur. It sits at a 4 because while they have been taught BIDMAS since Year 6, a significant portion of the cohort still applies operations left-to-right or misunderstands the "Addition before Subtraction" rule.
+
+### The Misconception Distribution
+The danger in this question lies in **Distractor B (4)**. Many students believe that because 'A' comes before 'S' in BIDMAS, they must add before they subtract. They calculate $5+4=9$, then $3-9 = -6$, and then potentially mangle the multiplication or, more commonly, they do:
+$4 \times 2 = 8$, then $5+8 = 13$, then $3 - 13 = -10$ (**Distractor D**).
+
+The correct path is $4 \times 2 = 8$, then $3 - 5 + 8$. Since addition and subtraction have equal priority, they should work left-to-right: $-2 + 8 = 6$ (**A**).
+
+---
+
+**below_basic:** (Students ignore BIDMAS entirely and work left to right)
+*   $3-5 = -2$; $-2+4 = 2$; $2 \times 2 = 4$.
+*   **A=15% B=60% C=15% D=10%**
+
+**basic:** (Students remember $4 \times 2$ comes first, but follow 'Addition before Subtraction' literally)
+*   $4 \times 2 = 8$; $5+8 = 13$; $3-13 = -10$.
+*   **A=25% B=15% C=10% D=50%**
+
+**proficient:** (Students know BIDMAS and understand directed numbers)
+*   $3-5+8 \rightarrow -2+8 = 6$.
+*   **A=75% B=5% C=5% D=15%**
+
+**advanced:** (Students are fluent and rarely fall for the 'A before S' trap)
+*   **A=95% B=1% C=1% D=3%**
+
+### Summary of Results:
+*   **A (6) is the Correct Answer.**
+*   **B (4)** is the "Left-to-Right" error.
+*   **D (-10)** is the "Rigid BIDMAS" error (doing the addition of $5+8$ before the subtraction). This is the most common error for mid-ability Year 9s who over-rely on the acronym without understanding operator precedence.

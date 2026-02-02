@@ -1,0 +1,40 @@
+As an experienced examiner, I have seen many students stumble on fractions within equations. This specific question tests the ability to manipulate coefficients when the constant term is a unit fraction—a notorious "danger zone" for cognitive load.
+
+Here is the diagnostic breakdown:
+
+### 1. Analysis of Wrong Answer Options
+
+*   **Option A ($p = \frac{1}{4}$)**
+    *   **Buggy Reasoning:** As identified, the student uses the same operation rather than the inverse. They see a "3" and a "12" and instinctively perform the multiplication: $3 \times \frac{1}{12} = \frac{3}{12} = \frac{1}{4}$.
+    *   **Logic:** The student ignores the balance method. They treat the numbers on the page as components of a calculation rather than parts of an equality.
+
+*   **Option C ($p = 4$)**
+    *   **Buggy Reasoning:** Commutativity/Whole Number Bias. The student recognizes that a division must happen but divides the larger denominator by the coefficient ($12 \div 3 = 4$). Alternatively, they multiply by 3 to "get rid" of it but treat $p$ and $1/12$ as whole numbers, or they invert the fraction incorrectly and end up with $p = 48/12$ or similar mental clutter.
+    *   **Logic:** The student has an "answer must be a whole number" bias. $12 \div 3$ is a much "friendlier" calculation than $\frac{1}{12} \div 3$.
+
+*   **Option D ($p = \frac{1}{9}$)**
+    *   **Buggy Reasoning:** Additive vs Multiplicative Misconception. The student attempts to "undo" the 3 by subtracting it from the 12 in the denominator (thinking $12 - 3 = 9$), or they misapply a cross-multiplication rule where they subtract across the equals sign.
+    *   **Logic:** This represents a lower-level confusion of operations where "moving a number" results in a simple subtraction regardless of its relationship to the variable.
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option A (High Attractiveness):** This is the "trap" for students who work too quickly. Seeing $3$ and $12$ in a fraction context almost demands the answer $1/4$ to a novice brain. It feels like "simplifying," and students often conflate solving with simplifying. It is very likely for **Basic** and **Below Basic** students.
+*   **Option C (Moderate Attractiveness):** This appeals to students who hate fractions. If a student reaches $p = 12/3$, they will tick 4 and never look back. It feels like a "clean" answer, which provides a false sense of security.
+*   **Option D (Low Attractiveness):** This is usually reserved for the lowest-attaining students who lack a fundamental grasp of algebraic notation (understanding that $3p$ means $3 \times p$).
+
+---
+
+### 3. Predicted Response Distribution
+
+This question is difficult because even proficient students often "glance and click" A due to the visual suggestibility of $3/12$.
+
+| Level | A (Inverse Error) | B (Correct) | C (Whole Number Bias) | D (Op Confusion) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 45% | 15% | 25% | 15% |
+| **Basic** | 40% | 35% | 20% | 5% |
+| **Proficient** | 15% | 75% | 8% | 2% |
+| **Advanced** | 2% | 97% | 1% | 0% |
+
+**Key Takeaway:** The "Below Basic" and "Basic" tiers are dominated by Option A because multiplying $3 \times 1/12$ is computationally easier than dividing $1/12 \times 1/3$. In the absence of a solid "Balance Method" habit, the brain defaults to the path of least resistance.

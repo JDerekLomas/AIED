@@ -1,0 +1,31 @@
+As an expert in mathematical misconceptions, I have identified a prevalent procedural error for this specific Year 9 problem.
+
+### 1. The Specific Misconception: "Left-to-Right Processing" (Order of Operations Neglect)
+The specific bug is the **Left-to-Right Procedural Error**. A student with this misconception treats mathematical expressions like a sentence of text, performing operations in the literal order they appear from left to right, completely ignoring the hierarchy of operations (BIDMAS/BODMAS). While they may correctly identify that brackets should come first (the "B" in BIDMAS), they fail to prioritize division ("D") over addition ("A") when no brackets are present.
+
+### 2. Step-by-Step Student Work-through
+A student with this misconception would process the two sides of the box as follows:
+
+**Left-Hand Side: $8 + 12 \div 4$**
+*   **Step 1:** The student reads from left to right and sees $8 + 12$ first.
+*   **Step 2:** They calculate $8 + 12 = 20$.
+*   **Step 3:** they take that result and perform the next operation: $20 \div 4 = 5$.
+*   **Result:** The student concludes the left side is **5**.
+
+**Right-Hand Side: $(8 + 12) \div 4$**
+*   **Step 1:** The student recognizes the brackets (as "B" is the first letter of BIDMAS) and calculates $8 + 12 = 20$.
+*   **Step 2:** They perform the remaining operation: $20 \div 4 = 5$.
+*   **Result:** The student concludes the right side is **5**.
+
+**Comparison:**
+The student looks at their two results ($5$ and $5$) and determines that the two sides are equal.
+
+### 3. Which Answer Option?
+This misconception leads the student directly to **Option C ($=$)**.
+
+### 4. How Natural/Attractive is this Error?
+This is a highly "attractive" error for several reasons:
+
+*   **Computational Reinforcement:** The numbers $8 + 12$ sum perfectly to $20$, which is a multiple of $4$. This "clean" mental math acts as a psychological confirmation that the student is on the right track. If the division resulted in a messy decimal, they might stop to question their method; because it results in a whole number (5), they feel confident.
+*   **Symmetry of Appearance:** The student sees the exact same numbers and operations in the same linear order on both sides. To a student struggling with the abstract rules of priority, the brackets on the right side appear "redundant" or like a "distractor" because they are asking the student to do what they were going to do anyway (add first).
+*   **Lack of Internal Conflict:** Because the Left-to-Right student gets the same answer for both sides, they feel a sense of mathematical "elegance" and consistency. They are unlikely to realize they went wrong because their logic—while incorrect—was applied consistently to both sides, yielding a clear (though false) match.

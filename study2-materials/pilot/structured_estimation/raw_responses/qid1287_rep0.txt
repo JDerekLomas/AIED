@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item asks students to translate a visual representation (cups and counters) into an algebraic equation and its solution steps. The diagram shows:
+- Step 1: one cup + 4 counters = two cups + 2 counters, i.e., x + 4 = 2x + 2
+- Step 2: 4 counters = one cup + 2 counters (subtracted one cup from both sides)
+- Step 3: 2 counters = one cup (subtracted 2 counters from both sides)
+
+So the correct algebraic representation is x + 4 = 2x + 2, solved step by step to get x = 2. This matches option A.
+
+Looking at the distractors:
+- B (3x = 6): This combines all cups and counters incorrectly, adding rather than keeping the equation balanced. A student might add x + 2x = 3x and 4 + 2 = 6.
+- C (x + 4 = 2x + 2 then 3x = 2): Gets the equation right but then combines terms incorrectly, adding x + 2x = 3x on one side but only keeping the 2.
+- D (x + 4 = 2x + 2 then 3x = 6): Gets the equation right but then adds all terms together rather than using inverse operations.
+
+The misconception tested is "uses the same operation rather than the inverse" - students who add x to both sides instead of subtracting get 2x + 4 = 3x + 2 or similar errors, leading to distractors like D where terms are combined rather than isolated.
+
+Comparing to calibration items: The first calibration item (-5 = p + 10, classical difficulty 0.167) is a simpler equation. This item has additional complexity from the visual translation component, but the visual actually scaffolds the solution. The misconception is the same one tested in several calibration items.
+
+The visual scaffolding makes the item somewhat easier since students can literally see the steps. However, the translation between representations adds cognitive load. I'd estimate this is moderate difficulty - harder than the simple equation (0.167) but easier than the factorising item (0.473). The distractors B and D are plausible for students who don't understand inverse operations.
+
+I estimate classical difficulty around 0.30-0.35, IRT difficulty around 0.0 to 0.2, moderate discrimination since it cleanly separates those who understand equation solving from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

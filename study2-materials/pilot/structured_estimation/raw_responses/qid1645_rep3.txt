@@ -1,0 +1,48 @@
+<chain_of_thought>
+Target: 3p^2 + 9 = 39, solve giving all solutions. Correct answer: B, p = +/- sqrt(10).
+
+This is a higher-tier GCSE question involving solving a quadratic by rearrangement (not factoring or the quadratic formula). The solution requires three sequential inverse operations and yields a surd answer, which is atypical for students used to "nice" integer solutions.
+
+Step-by-step correct approach:
+1. 3p^2 + 9 = 39
+2. 3p^2 = 30 (subtract 9)
+3. p^2 = 10 (divide by 3)
+4. p = +/- sqrt(10) (square root both sides)
+
+Error analysis for distractors:
+- D (p=+/-4): Most likely captures the named misconception. Adding 9 instead of subtracting: 39+9=48, 48/3=16, sqrt(16)=4. This is a clean, predictable error.
+- C (p=+/-2): Wrong order -- divide then subtract. 39/3=13, 13-9=4, sqrt(4)=2. Also a systematic error.
+- A (n=+/-5): Uses wrong variable. Possibly from sqrt(39-9-3)=sqrt(27)... no, that's not 5. Or perhaps 39-9=30, 30/6=5. The 6 could come from misinterpreting 3p^2 as (3p)^2... so 3p=... hmm. Actually, if you treat it as (3p)^2, then (3p)^2=30, 3p=sqrt(30)... still not 5. This distractor path isn't clean; the wrong variable label is the main issue.
+
+Difficulty estimation: This sits firmly in the harder half of my calibration set. The factorising item (b=0.404) tested conceptual understanding at a similar tier. The inequality (b=0.808) was harder. This item has multiple steps AND a surd answer, but the actual algebra is more mechanical than the inequality. I'd estimate b around 0.5-0.7.
+
+The surd answer is important psychometrically -- many students will solve correctly up to p^2=10 but then either: (a) think they made an error because sqrt(10) isn't an integer, (b) try to simplify sqrt(10) incorrectly, or (c) abandon their correct work and pick a "nicer" distractor. This could inflate classical difficulty.
+
+I'll estimate classical difficulty around 0.60 -- more than half getting it wrong due to the surd plus multi-step demands.
+
+Discrimination should be moderate. The item separates students who can execute multi-step inverse operations AND accept irrational answers from those who can't. But the surd might trip up some high-ability students who second-guess themselves, slightly lowering discrimination. I'll say a ~ 1.25.
+
+Guessing: with one distractor using the wrong variable, it's somewhat easier to eliminate at least one option. I estimate c ~ 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.60</classical_difficulty>
+<irt_difficulty>0.70</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

@@ -1,0 +1,45 @@
+below_basic: A=10% B=30% C=40% D=20%
+basic: A=20% B=10% C=60% D=10%
+proficient: A=5% B=5% C=85% D=5%
+advanced: A=2% B=1% C=96% D=1%
+
+**Reasoning**  
+This question tests solving a simple linear equation of the form \( a = \frac{b}{c} \).  
+Step 1 correctly multiplies both sides by 4 to get \( 60 = 1 + k \).  
+Step 2 correctly subtracts 1 from both sides to get \( 59 = k \), but Isaac wrote \( 61 = k \), which is wrong (he appears to have added 1 instead of subtracting).  
+
+- **Below basic**: Many may not spot the error in Step 2, but some might think Step 1 is wrong (multiplying before subtracting is actually correct here). Misreading the question or lacking confidence could lead to scattered answers, with a slight bias toward choosing C (both correct) because both steps *look* plausible if arithmetic is rushed.  
+- **Basic**: Most will see Step 1 is correct but may miss the Step 2 error (adding instead of subtracting) and pick C. Some might notice Step 2 is wrong and pick A.  
+- **Proficient**: Most will notice Step 2’s arithmetic mistake and realize Step 1 is correct, so they should pick A, but the question asks “Which steps, if any, are correct?” — Step 2 is incorrect, so C is not right. However, in practice, even proficient students under time pressure can misread the question as “which step has a mistake?” or assume both steps follow correctly. But here, because the mistake is a simple arithmetic slip (61 instead of 59), many proficient students will actually still pick C because they don’t check the arithmetic carefully — they see the *process* of isolating k and think it’s fine. Real class data on similar questions shows a high % of proficient students still pick C when the mistake is a small arithmetic slip in the final step, unless explicitly warned to check arithmetic.  
+Wait — careful: If I put proficient as mostly C, that suggests they get it wrong. But actually, proficient students *should* spot the Step 2 error. However, exam experience shows that on multi‑step verification questions, if Step 1 is correct and Step 2 looks like a simple follow‑on, many assume both are right unless they recalculate. Given the numbers: \( 60 = 1 + k \), so \( k = 59 \), not 61 — that’s an addition error (1+60=61). Proficient students are likely to check that, so they’d pick A. But in my initial breakdown, I reversed A and C for proficient — let’s correct:  
+Actually:  
+Proficient: A=85% (only step 1 correct), C=10% (both correct) etc.  
+
+But the question says “Here are his steps” and Step 2 says “61=k”. That’s wrong. So the correct answer is **A** (Only step 1).  
+
+Below basic might still pick C often.  
+Basic might split between A and C.  
+Proficient mostly A.  
+Advanced nearly all A.  
+
+Let me adjust to match that logic:  
+
+below_basic: A=20% B=10% C=60% D=10%  
+basic: A=50% B=5% C=40% D=5%  
+proficient: A=85% B=3% C=10% D=2%  
+advanced: A=95% B=2% C=2% D=1%  
+
+But the instruction says: keep original format percentages consistent with my first answer? No — I should output final reasoning-based percentages.  
+
+Given typical student behavior:  
+- Below basic: often don’t check Step 2 arithmetic carefully, think both steps seem right → C common.  
+- Basic: many notice Step 2 error if they check, but some still miss it → split between A and C.  
+- Proficient: majority spot error, choose A.  
+- Advanced: almost all choose A.  
+
+Final answer:  
+
+below_basic: A=20% B=10% C=60% D=10%  
+basic: A=50% B=5% C=40% D=5%  
+proficient: A=85% B=3% C=10% D=2%  
+advanced: A=95% B=2% C=2% D=1%

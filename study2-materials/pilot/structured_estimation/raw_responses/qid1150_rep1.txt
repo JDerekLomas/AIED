@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing F = v^2/r, rearranging for v.
+
+The solution path: multiply both sides by r to get v^2 = rF, then square root both sides to get v = sqrt(rF). Answer C.
+
+Let me think about the distractor structure carefully. The misconception being tested is "uses the same operation rather than the inverse." In the original equation, v is squared and then divided by r. A student applying the same operation rather than the inverse would:
+- Instead of multiplying by r (inverse of dividing), they might divide by r again
+- Instead of taking the square root (inverse of squaring), they might square again
+
+Option B (v = sqrt(F/r)) shows the first error -- dividing by r instead of multiplying. Option A (v = rF^2) shows the second error -- squaring F instead of square-rooting, combined with correct multiplication by r. These are strong distractors.
+
+Looking at the calibration set, the items testing "same operation rather than inverse" range widely: b = -0.702 for simple linear, b = 0.002 for function machines, b = 0.808 for inequalities. This item involves rearranging a formula with powers and fractions, which is a higher-order skill than solving linear equations. I'd place it between the function machine and inequality items in difficulty.
+
+The formula rearrangement topic is typically KS4 (GCSE), making it appropriate for the older end of the 11-16 range. The notation is standard but involves fractions and square roots which add visual complexity.
+
+I estimate classical difficulty around 0.48, with moderate discrimination since the distractors target specific misconceptions well.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

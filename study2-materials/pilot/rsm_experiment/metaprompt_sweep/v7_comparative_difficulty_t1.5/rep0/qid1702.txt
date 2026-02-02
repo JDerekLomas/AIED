@@ -1,0 +1,41 @@
+As an experienced UK maths teacher, I’ve seen thousands of students tackle linear equations. This specific question is a classic "trap" because of the coefficient of $y$ and the presence of a decimal.
+
+### DIFFICULTY: 6/10
+For a Year 9 student, this isn't mathematically complex in theory, but it is high in **misconception activation**. 
+
+**The Barriers:**
+1.  **Rearrangement vs. Substitution:** Many students try to rearrange the formula first and make sign errors ($10x = 30 - 6y$ is a common mistake).
+2.  **Negative Coefficients:** The $-6y$ is the primary "boss" of this question. When students substitute $y=0.5$, they must calculate $10x - 3 = 30$.
+3.  **The "Add/Subtract" Slip:** A significant number of students will see the minus sign and, in a moment of cognitive load, add 3 to 30 but then somehow divide by 10 incorrectly, or vice versa.
+
+---
+
+### Predicted Response Distributions
+
+**Below Basic (Working at Grade 1-2):**
+These students often struggle with the order of operations or inverse operations. They are likely to ignore the $x$ and $y$ labels and just perform a random operation with the numbers visible (10, 6, 30, 0.5).
+*   **A=10% B=10% C=40% D=40%** (High guessing; often choosing 3.3 because $33/10$ feels "round").
+
+**Basic (Working at Grade 3):**
+These students know to substitute $0.5$ for $y$, but they often fail at the negative sign or the two-step equation logic.
+*   **A=30% B=15% C=35% D=20%**
+*   *Distractor C (3.3):* They get $10x - 3 = 30$, but then accidentally treat it as $10x = 33$ or they think $30 + 3 = 33$, leading to 3.3. This is the "confident mistake" zone.
+
+**Proficient (Working at Grade 4-5):**
+These students follow the process: $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$.
+*   **A=10% B=5% C=75% D=10%**
+*   Most will reach the correct answer. The ones who miss it will likely pick A (4.25) because they accidentally added 6 and then halved it, or some other procedural tangle.
+
+**Advanced (Working at Grade 6+):**
+These students have high fluency in algebraic manipulation. 
+*   **A=2% B=1% C=95% D=2%**
+*   Errors here are almost exclusively "fat-finger" calculator errors or rare mental arithmetic slips.
+
+| Category | A (4.25) | B (-4.25) | C (3.3) | D (2.7) |
+| :--- | :--- | :--- | :--- | :--- |
+| **below_basic** | 10% | 10% | 40% | 40% |
+| **basic** | 30% | 15% | 35% | 20% |
+| **proficient** | 10% | 5% | 75% | 10% |
+| **advanced** | 2% | 1% | 95% | 2% |
+
+**Teacher's Note:** Option D (2.7) is a clever distractor. It comes from the calculation $10x + 3 = 30 \Rightarrow 10x = 27$, which happens if the student ignores the negative sign in front of the $6y$. In a mid-set Year 9 class, C and D will be the two most fought-over answers.

@@ -1,0 +1,156 @@
+You are an expert psychometrician analyzing math assessment items for UK secondary school students (ages 11-16). These are 4-choice multiple-choice questions from diagnostic math assessments.
+
+## Calibration Examples
+Below are 5 items with their known psychometric parameters. Use these to calibrate your judgments.
+
+Question: Solve the equation:
+\(
+-5=p+10
+\)
+A) \( p=5 \)
+B) \( p=-5 \)
+C) \( p=-15 \)
+D) \( p=15 \)
+Correct answer: C
+Misconception tested: When solving an equation, uses the same operation rather than the inverse
+
+Actual parameters:
+  Classical difficulty (proportion incorrect): 0.167
+  IRT difficulty (b, 2PL): -0.702
+  IRT discrimination (a, 2PL): 1.324
+  Guessing parameter (c, 3PL): 0.000
+
+---
+
+Question: \( 0.4-\frac{1}{5} \times 3= \)
+A) \( 0.2 \)
+B) \( 0.6 \)
+C) \( -0.2 \)
+D) \( 0.06 \)
+Correct answer: C
+Misconception tested: Carries out operations from left to right regardless of priority order
+
+Actual parameters:
+  Classical difficulty (proportion incorrect): 0.134
+  IRT difficulty (b, 2PL): -0.245
+  IRT discrimination (a, 2PL): 1.552
+  Guessing parameter (c, 3PL): 0.000
+
+---
+
+Question: Which function machine will solve the equation \( x^{2}+5=14 ? \)
+A) ![A function machine showing x as the input then +5 then squaring to give 14 as the output. Then a reverse function machine underneath showing 14 (the output) now as the input square root and then -5]()
+B) ![A function machine showing 14 as the input then squaring and +5 to give the output]()
+C) ![A function machine showing x as the input then squaring then +5 to give 14 as the output. Then a reverse function machine underneath showing 14 (the output) now as the input -5 and then square root]()
+D) ![A function machine showing x as the input then x2 then +5 to give 14 as the output. Then a reverse function machine underneath showing 14 (the output) now as the input  -5 and then divide by 2]()
+Correct answer: C
+Misconception tested: When solving an equation, uses the same operation rather than the inverse
+
+Actual parameters:
+  Classical difficulty (proportion incorrect): 0.295
+  IRT difficulty (b, 2PL): 0.002
+  IRT discrimination (a, 2PL): 1.227
+  Guessing parameter (c, 3PL): 0.000
+
+---
+
+Question: Tom and Katie are arguing about factorising. Tom says \( x^{2}+5 x+6 \equiv(x+3)(x+2) \) 
+Katie says \( x^{2}-5 x-6 \equiv(x-3)(x-2) \) 
+Who is correct?
+A) Only Tom
+B) Only Katie
+C) Both Tom and Katie
+D) Neither is correct
+Correct answer: A
+Misconception tested: Believes multiplying two negatives gives a negative answer
+
+Actual parameters:
+  Classical difficulty (proportion incorrect): 0.473
+  IRT difficulty (b, 2PL): 0.404
+  IRT discrimination (a, 2PL): 1.451
+  Guessing parameter (c, 3PL): 0.186
+
+---
+
+Question: Solve
+\[
+2 n+3 \leq 3 n-7
+\]
+A) \( 2 \leq n \)
+B) \( 10 \leq n \)
+C) \( n \leq 10 \)
+D) \( -4 \leq n \)
+Correct answer: B
+Misconception tested: When solving an equation, uses the same operation rather than the inverse
+
+Actual parameters:
+  Classical difficulty (proportion incorrect): 0.569
+  IRT difficulty (b, 2PL): 0.808
+  IRT discrimination (a, 2PL): 1.050
+  Guessing parameter (c, 3PL): 0.193
+
+---
+
+## Target Item
+Analyze this item and provide your ratings and predictions.
+
+Question: \( 18 \div 2+2 \times 2= \)
+A) \( 3 \)
+B) \( 13 \)
+C) \( 22 \)
+D) \( 12 \)
+Correct answer: B
+Misconception tested: Carries out operations from left to right regardless of priority order
+
+## Instructions
+1. First, think through the item carefully in <chain_of_thought> tags.
+2. Then provide 12 ratings (integer 1-10) in <ratings> tags, each in its own XML tag.
+3. Finally, provide 4 direct predictions in <predictions> tags.
+
+Rating dimensions (1-10 scale):
+- concept_complexity: Number/depth of math concepts involved
+- procedural_steps: Number of sequential steps to solve
+- abstraction_level: Concrete (1) to abstract (10)
+- prerequisite_knowledge: Amount of prior math knowledge needed
+- distractor_plausibility: How attractive the wrong answers are
+- misconception_strength: How common the tested misconception is
+- question_clarity: How unambiguous the question is (10 = very clear)
+- cognitive_load: Working memory demands
+- age_appropriateness: Match to 11-16 curriculum (10 = perfect match)
+- transfer_distance: Distance from standard textbook presentation
+- visual_complexity: Notation/diagram complexity
+- solution_uniqueness: Whether partial knowledge helps (10 = must fully understand)
+
+Prediction ranges:
+- classical_difficulty: proportion of students answering INCORRECTLY, 0 to 1 (higher = harder)
+- irt_difficulty: b parameter, typically -1 to 1 (most items), extreme range -5 to 2
+- irt_discrimination: a parameter, roughly 0.3 to 3
+- guessing_probability: c parameter, 0 to 0.5
+
+Respond in this exact format:
+
+<chain_of_thought>
+Your reasoning here...
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>N</concept_complexity>
+<procedural_steps>N</procedural_steps>
+<abstraction_level>N</abstraction_level>
+<prerequisite_knowledge>N</prerequisite_knowledge>
+<distractor_plausibility>N</distractor_plausibility>
+<misconception_strength>N</misconception_strength>
+<question_clarity>N</question_clarity>
+<cognitive_load>N</cognitive_load>
+<age_appropriateness>N</age_appropriateness>
+<transfer_distance>N</transfer_distance>
+<visual_complexity>N</visual_complexity>
+<solution_uniqueness>N</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>X.XX</classical_difficulty>
+<irt_difficulty>X.XX</irt_difficulty>
+<irt_discrimination>X.XX</irt_discrimination>
+<guessing_probability>X.XX</guessing_probability>
+</predictions>

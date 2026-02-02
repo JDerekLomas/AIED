@@ -1,0 +1,27 @@
+In the context of UK Year 9 mathematics (GCSE Foundation level), here is the breakdown of a prevalent misconception for this specific problem.
+
+### 1. The specific misconception: "Multiplication-to-Numerator Migration" (Partial Inversion)
+The specific bug is a procedural error where the student recognizes that the "3" must be moved to the other side of the equation via the inverse operation (division), but they mistakenly believe they only need to perform that operation on the **numerator** of the existing fraction. 
+
+Instead of treating the right-hand side as a single entity ($1/12$), they see it as two separate numbers. They divide the numerator (1) by 3, but because $1 \div 3$ is difficult to write as a whole number, they default to "pairing" the numbers they see on the top: they essentially calculate $3 \div 12$ or simply move the 3 into the numerator's "spot."
+
+### 2. How the student would work through the question
+*   **Step 1:** The student identifies the equation $3p = \frac{1}{12}$.
+*   **Step 2:** They know that to "get $p$ by itself," they must move the 3 to the other side.
+*   **Step 3:** They see the numbers 3, 1, and 12. They associate the operation of "3 into 12" because 12 is a multiple of 3.
+*   **Step 4:** They perform the calculation: $12 \div 3 = 4$.
+*   **Step 5:** Having simplified the 12 and the 3 into a "4," they maintain the fractional structure and place the 4 in the denominator (where the 12 was) or they simply conclude that $p = \frac{1}{4}$.
+
+Alternatively, some students follow a "cross-multiplication" bug where they multiply the $3$ and the $12$ but somehow end up dividing because "division makes things smaller."
+
+### 3. The corresponding answer
+This misconception leads directly to **Answer A ($p = \frac{1}{4}$)**.
+
+### 4. How attractive is this error?
+This error is **highly attractive** and one of the most common "distractor" traps for Year 9 students for several reasons:
+
+*   **Number Sense Compatibility:** In a student's mind, $3$ and $12$ "belong" together. The result of 4 feels "mathematically clean." If they were to perform the correct procedure ($12 \times 3 = 36$), the number 36 feels "too large" or "wrong" in the context of a fraction starting with 12.
+*   **The "Smaller is Divider" Heuristic:** Many students subconsciously believe that when a whole number interacts with a fraction, you divide the bottom by the whole number. 
+*   **Lack of Verification:** A student is very unlikely to realize they went wrong. If they substitute $1/4$ back into the original equation, they might mentally calculate $3 \times (1/4)$ and mistakenly think "3 goes into 12 four times," conflating the verification process with the same error they made during the solve. 
+
+Because $1/4$ looks like a "neater" answer than $1/36$, many students will select A and move on with high confidence.

@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a prevalent "bug" that affects students transition from one-step to two-step algebraic manipulations.
+
+### 1. The Specific Misconception: The "Position-Independent Inverse" Bug
+The student understands the general principle that "the opposite of division is multiplication," but they apply it mechanically to any number they see "under" or "involved with" a fraction bar, regardless of whether that number is the divisor or the dividend. 
+
+In this specific case, the student identifies the $5$ as being part of a fraction and incorrectly concludes that they must multiply the two constants ($10$ and $5$) to "undo" the fraction. They treat the equation as if it were $\frac{p}{5} = 10$.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would follow these steps:
+1. **Identify the Operation:** The student sees the fraction $\frac{5}{p}$ and identifies that a division is occurring.
+2. **Apply the Inverse:** They recall the rule: "To solve for a letter, do the opposite operation with the numbers."
+3. **Execution:** They see the numbers $10$ and $5$. Instead of multiplying both sides by the denominator ($p$), they simply multiply the two visible constants: $10 \times 5$.
+4. **Conclusion:** They arrive at $p = 50$, essentially ignoring the fact that $p$ was the divisor, not the dividend.
+
+### 3. Answer Selection
+This misconception leads directly to **Option B ($p=50$)**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural and extremely attractive** to a Year 9 student for several reasons:
+
+*   **Computational Ease:** $10 \times 5 = 50$ is a "friendly" integer calculation. In contrast, the correct path requires the counter-intuitive step of moving the variable to the other side ($10p = 5$), which leads to a fraction or decimal ($0.5$). Students often believe that if an answer is a whole number, it is more likely to be correct.
+*   **Over-reliance on Mnemonics:** Students are often taught to "move it and change the sign." To a struggling student, "moving" the 5 and changing it from division to multiplication feels like following the rules of algebra.
+*   **Lack of Functional Sense:** Most students at this level do not "estimate" the answer first. They don't stop to ask, *"Is 10 equal to 5 divided by 50?"* Because they focus on the *procedure* rather than the *equivalence*, they rarely realize they have gone wrong until they are prompted to substitute their answer back into the original equation.

@@ -1,0 +1,15 @@
+As a mathematics education researcher, I identify the **"Linear Scale/Order of Magnitude" trap** as a primary reason students find this question difficult, specifically leading to the distraction of choice **D (2.7)**.
+
+### The Specific Difficulty: The $0.3$ vs $0.3^2$ Place Value Shift
+
+The core difficulty lies in how students handle the decimal place during the squaring process versus the multiplication process. 
+
+1.  **The Partial Computation Trap:** Many students correctly identify the two operations—squaring the input and multiplying by the coefficient—but execute them in an "integrated" mental shortcut that defaults to whole-number logic. A student thinks: *"3 squared is 9, and 9 times 3 is 27."*
+2.  **Misplacement of the Decimal Point:** When re-inserting the decimal point from $0.3$, students frequently apply a **linear rule** rather than a **power rule**. They see one decimal place in the input ($0.3$) and assume there must be one decimal place in the output, leading them directly to **2.7**. 
+
+### Why this is a "Notational Trap":
+Students often treat the decimal point as a fixed separator rather than an indicator of a power of ten ($3 \times 10^{-1}$).
+*   **The error:** $3(0.3)^2 \rightarrow 3 \times 0.9 = 2.7$ (Forgetting that $0.3 \times 0.3 = 0.09$).
+*   **The distraction:** Choice D is highly attractive because $2.7$ "looks" like it maintains the relationship between the digits 3 and 9 that students are comfortable with in whole-number multiplication ($3 \times 9 = 27$).
+
+In this specific problem, the number $0.3$ is "dangerous" because it is less than 1. Squaring a number between 0 and 1 results in a *smaller* value ($0.09$), which counter-intuitively shifts the digit two places to the right. Students who rely on the heuristic "multiplication makes things bigger" will struggle to accept $0.27$ as a plausible answer, favoring the more familiar-looking $2.7$.

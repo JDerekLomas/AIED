@@ -1,0 +1,14 @@
+To predict the percentages, we must evaluate the two expressions using BIDMAS (Brackets, Indices, Division/Multiplication, Addition/Subtraction):
+
+*   **Left Hand Side (LHS):** $8 + 12 \div 4$. Division happens first. $12 \div 4 = 3$. Then $8 + 3 = 11$.
+*   **Right Hand Side (RHS):** $(8 + 12) \div 4$. Brackets happen first. $8 + 12 = 20$. Then $20 \div 4 = 5$.
+*   **Comparison:** $11 > 5$. The correct answer is **A**.
+
+**Misconceptions:**
+*   **Left-to-Right Error:** A student calculates the LHS as $(8 + 12) \div 4 = 5$. This leads them to conclude $5 = 5$, choosing **C**.
+*   **Inverse BIDMAS:** A student might mistakenly think brackets make a number smaller or prioritize the addition on the left without a bracket, leading to confusion and picking **B**.
+
+below_basic: A=30% B=20% C=45% D=5%
+basic: A=50% B=15% C=30% D=5%
+proficient: A=80% B=5% C=14% D=1%
+advanced: A=97% B=1% C=1% D=1%

@@ -1,0 +1,51 @@
+<chain_of_thought>
+I need to evaluate this item about negative number operations presented in a "who is correct" format with a diagram context.
+
+Starting with the mathematics:
+- Tom: -3 × (-8) = -24. Checking: |-3| × |-8| = 24, and neg × neg = pos, so the answer is +24. Tom wrote -24, which is incorrect.
+- Katie: (-24)/(-3) = -8. Checking: |-24|/|-3| = 8, and neg ÷ neg = pos, so the answer is +8. Katie wrote -8, which is incorrect.
+
+Neither is correct. Answer D.
+
+Now for psychometric analysis. Let me think about the response distribution across the four options:
+
+Option A (Only Tom): A student might pick this if they think multiplication of two negatives gives a negative (so Tom is "right") but correctly compute the division. Unlikely — the misconception usually applies to both operations consistently.
+
+Option B (Only Katie): Similarly unlikely for the same reason — the misconception tends to be applied symmetrically.
+
+Option C (Both): This is the major attractor. Students holding the misconception that negative × negative = negative will verify Tom's calculation as correct. They'll also verify Katie's: if they think neg ÷ neg = neg, then (-24)/(-3) = -8 checks out. So C will draw many students.
+
+Option D (Neither): The correct answer. Only students who firmly know that neg × neg = pos and neg ÷ neg = pos will choose this.
+
+This response pattern suggests a very bimodal distribution — students either get it or they don't, with C being the dominant incorrect response. This should produce decent discrimination.
+
+For calibration against the anchor items: The factorising item testing the same misconception had difficulty 0.473 and b=0.404. That item embedded the misconception in an algebraic context. This item tests it more directly but adds the complexity of the diagram and the "evaluate two claims" structure.
+
+I think the direct arithmetic context might actually make it slightly easier than the factorising item for some students, since they can directly apply memorized sign rules without needing to understand factorisation. But the "neither" answer and diagram push difficulty up. Net effect: similar difficulty, perhaps 0.48-0.52.
+
+One more consideration: the diagram description mentions arrows pointing left. If students can't interpret the diagram well (e.g., in a digital assessment with rendering issues), this could affect performance unpredictably. This adds measurement error.
+
+My estimates: classical difficulty ~0.48, b ~0.42, discrimination ~1.35, guessing ~0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.42</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

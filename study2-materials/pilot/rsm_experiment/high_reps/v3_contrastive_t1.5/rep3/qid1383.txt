@@ -1,0 +1,13 @@
+This question specifically tests two potential pitfalls: the application of the power to a negative base (the "even power makes it positive" rule) and the confusion between exponentiation and multiplication ($k^4$ vs $4k$).
+
+While higher-ability students will instinctively know that $(-3) \times (-3) \times (-3) \times (-3) = 81$, lower-ability students struggle with the sign and the operation. Option C ($-81$) is a very strong distractor because many students associate a negative input with a negative output, and even some scientific calculators will return $-81$ if the student types $-3^4$ without brackets. Options B and D represent the common $3 \times 4$ calculation error.
+
+**below_basic:** These students frequently mistake powers for multiplication. They are roughly split between the positive and negative versions of that multiplication.
+**basic:** This group is likely to perform the exponentiation correctly ($3 \times 3 \times 3 \times 3 = 81$) but often believes a negative base must result in a negative answer regardless of the power, or they fail to handle the double negatives.
+**proficient:** Most have mastered the arithmetic, but a significant minority will still fall for the "calculator error" logic ($-3^4 = -81$).
+**advanced:** Almost all will correctly apply the rule that an even power of a negative number is positive.
+
+below_basic: A=20% B=35% C=15% D=30%
+basic: A=35% B=15% C=40% D=10%
+proficient: A=70% B=5% C=22% D=3%
+advanced: A=96% B=1% C=2% D=1%

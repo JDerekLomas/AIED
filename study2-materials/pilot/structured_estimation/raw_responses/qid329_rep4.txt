@@ -1,0 +1,52 @@
+<chain_of_thought>
+Evaluating this order of operations item in Tom/Katie format.
+
+The core expression is 0.1 - 0.2 / 0.3. Under BIDMAS rules, we compute division first: 0.2 / 0.3 = 2/3 approximately 0.667. Then subtract from 0.1: 0.1 - 0.667 = -0.567.
+
+Tom correctly brackets it as 0.1 - (0.2 / 0.3). This preserves the original meaning. Tom is correct.
+
+Katie writes 0.2 / 0.3 - 0.1. She has moved the division to the front but flipped the subtraction. The result would be 0.667 - 0.1 = 0.567, which differs from the original -0.567. Katie is incorrect.
+
+Answer: A (Only Tom).
+
+Thinking about what makes this item interesting from a measurement perspective: it actually tests two related but distinct skills. First, knowing BIDMAS (that division precedes subtraction). Second, understanding that a - b is not equal to b - a. A student could know BIDMAS perfectly but still think Katie is correct if they don't attend to the subtraction order.
+
+This dual-skill requirement is somewhat unusual. In the calibration set, the straightforward BIDMAS computation item was quite easy (classical difficulty 0.134). The Tom/Katie factorising item was much harder (0.473).
+
+Key factors pushing difficulty up:
+- Evaluative format (must assess two claims, not just compute)
+- Katie's error is subtle and requires noticing commutativity issues
+- Decimals make mental computation harder
+- The result involves a recurring decimal which students may find unsettling
+
+Key factors keeping difficulty moderate:
+- BIDMAS is a fundamental, heavily-taught concept
+- The expression is short (only three numbers and two operations)
+- No visual/spatial complexity
+
+I'll estimate this is moderately difficult, classical difficulty around 0.30. Students who know BIDMAS well will likely get it right, and Tom's claim is clearly correct. The main trap is thinking Katie is also correct (choosing C). I think maybe 25-35% of students would fall for that.
+
+For IRT parameters, the discrimination should be reasonable. The misconception is common but well-defined. I'll estimate a around 1.25-1.50. Guessing should be low since students will typically have a deliberate reason for their choice.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.38</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

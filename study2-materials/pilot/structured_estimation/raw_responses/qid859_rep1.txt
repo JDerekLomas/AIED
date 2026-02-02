@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing: 12d - 3 = 6d + 3, answer B (d=1).
+
+This is a standard "variables on both sides" equation, a key topic in KS3/KS4 algebra. The solution process:
+- Collect variable terms: 12d - 6d = 3 + 3 -> 6d = 6 -> d = 1
+
+The misconception "uses same operation rather than inverse" would manifest here when a student tries to move terms across the equals sign. For instance, instead of subtracting 6d from the left side, they might add 6d, getting 18d - 3 = 3, then 18d = 6, d = 1/3. This maps directly to distractor D.
+
+Alternatively, instead of adding 3 to both sides to eliminate the -3, a student might subtract 3: 12d - 6 = 6d, leading to 6d = 6... actually that still gives d=1. So the misconception is more likely to manifest in handling the variable terms.
+
+Let me check distractor D more carefully: if a student adds 6d to both sides instead of subtracting (same operation error), they get 18d - 3 = 3, then 18d = 6, d = 6/18 = 1/3. Yes, D is the misconception-targeted distractor.
+
+Distractor C (d=-1): checking 12(-1)-3 = -15, 6(-1)+3 = -3. Doesn't satisfy. Could come from a sign error.
+Distractor A (d=0): 12(0)-3 = -3, 6(0)+3 = 3. Doesn't work. Maybe from thinking "d cancels out" somehow.
+
+Comparing to calibration: this is harder than -5=p+10 (one-step, b=-0.702) but easier than the inequality (b=0.808). Variables on both sides with multi-digit coefficients adds challenge. I'd place this around b=0.35, classical difficulty around 0.40.
+
+The discrimination should be moderate-to-good. The misconception-linked distractor D is quite plausible, which should help discriminate. Guessing is probably minimal given four clearly distinct numerical answers.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I identify the following "buggy procedure" common among Year 9 students.
+
+### 1. The Misconception: "Operation Over Generalisation" (specifically, the Variable Position Blindness)
+The specific bug is the **"Divide Big by Small"** heuristic. Students often possess a deep-seated belief that in division, you must always divide the larger number by the smaller number to get a "sensible" answer. They ignore the algebraic positioning of the variable (whether $p$ is the divisor or the dividend) and instead treat the numbers 10 and 5 as operands to be combined using the operation they see: division.
+
+### 2. The Step-by-Step Error
+A student with this misconception would follow these steps:
+1. **Identify the goal:** They know they need to "solve for $p$," which to them means performing a calculation using 10 and 5.
+2. **Observe the operation:** They see a fraction bar, which they correctly associate with division.
+3. **Ignore structure:** Rather than multiplying both sides by $p$ to "undo" the division, they look at the two available numbers ($10$ and $5$).
+4. **Apply the heuristic:** They think, *"I need to divide. I cannot do $5 \div 10$ easily, or it looks wrong, so it must be $10 \div 5$."*
+5. **Calculate:** They perform $10 \div 5 = 2$.
+6. **Assign to variable:** They conclude $p = 2$.
+
+### 3. Corresponding Answer
+This misconception leads directly to **Option C ($p=2$)**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "correct" to a Year 9 student for several reasons:
+*   **Ease of Calculation:** $10 \div 5$ results in an integer (2), whereas the correct path ($5 \div 10$) results in a decimal/fraction (0.5). In many UK lower-secondary classrooms, students still subconsciously believe that "maths problems in textbooks should have whole-number answers."
+*   **Surface-Level Matching:** The student sees the numbers 10, 5, and a division sign. Their brain performs the most cognitively fluent operation available.
+*   **False Confidence:** The student would likely **not** realize they are wrong. If they "checked" their answer by plugging it back in, they might mistakenly calculate $10 \div 2 = 5$ and think, *"Yes, those are the three numbers in the equation, so it works,"* failing to notice that the result (5) is on the wrong side of the equals sign.
+
+This is a classic "Red Herring" distractor. Students often move too fast to set up the inverse operation correctly ($10p = 5$) and instead jump to the most comfortable arithmetic pairing.

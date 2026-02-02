@@ -1,0 +1,29 @@
+This is a classic "trapped" order of operations question. While the calculations themselves are Year 4/5 level, the cognitive conflict between the mnemonic (BIDMAS/BODMAS) and the actual mathematical rules makes it a formidable challenge for a typical Year 9 student.
+
+### DIFFICULTY: 4/10
+For a Year 9 student, the challenge isn't the arithmetic; it’s resisting the urge to follow the acronym "literally" rather than applying the rules of left-to-right precedence.
+
+---
+
+### Response Distributions
+
+**Key Misconception:**
+The "Basic" and "Below Basic" groups almost always fall into the **Addition before Subtraction** trap. Because the letter **A** comes before **S** in BIDMAS, they compute $(3- (5+8)) = -10$ or $((3-5)+8) = 6$. However, a very common error is to do the addition *first* regardless of position: $5 + 8 = 13$, then $3 - 13 = -10$.
+
+| Group | A (6) | B (4) | C (-12) | D (-10) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 10% | 20% | 50% |
+| **Basic** | 40% | 15% | 5% | 40% |
+| **Proficient** | 75% | 5% | 0% | 20% |
+| **Advanced** | 98% | 1% | 0% | 1% |
+
+---
+
+### Teacher's Commentary:
+
+*   **Option A (6) - The Correct Answer:** This requires the student to first multiply $(4 \times 2 = 8)$ and then perform the remaining addition and subtraction strictly from **left to right** $(3 - 5 = -2$, then $-2 + 8 = 6)$.
+*   **Option D (-10) - The BIDMAS Trap:** This is the most common "confident" wrong answer. Students follow the letter of the law: Addition then Subtraction. They calculate $4 \times 2 = 8$, then they see $+4 \times 2$ as $+8$. They add the $5$ and the $8$ to get $13$, then do $3 - 13 = -10$. 
+*   **Option C (-12) - Linear Processing:** These students ignore BIDMAS entirely and work left to right like a sentence: $3-5 = -2$; $-2+4 = 2$; $2 \times 2 = 4$. Wait—if they make an arithmetic error or subtract the total, they land on -12. Actually, **Option C** is often a result of $(3-5+4) \times 2$ if they think the multiplication applies to the whole string.
+*   **Option B (4):** Usually a result of a sign error during the calculation $3 - 5 + 8$. A student might calculate $3-5$ as $2$ (ignoring the negative), then $2+8=10$ (not an option), or they subtract the $2$ from the $8$ incorrectly.
+
+**Summary:** This question separates those who "know the acronym" from those who "understand the priority of operations." Expect "Below Basic" students to cluster heavily around **D** because they have been taught to look for addition before subtraction.

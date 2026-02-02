@@ -1,0 +1,31 @@
+As an expert in mathematical misconceptions, I will focus on a specific, very common error involving **selective multiplication** during algebraic manipulation.
+
+### 1. The Specific Misconception: "Partial Application of an Operation"
+The specific procedural bug here is **failing to distribute an operation across all terms**. 
+
+When a student chooses to multiply by the denominator to "get rid of the fraction," they often apply that multiplication only to the terms they perceive as being "linked" to the fraction, rather than applying the property of equality to the entire side of the equation. In this specific case, the student ignores the constant term ($5$) because it is not visually part of the fraction $\frac{x}{3}$.
+
+### 2. The Step-by-Step Procedure
+A student with this misconception would look at Katie’s suggestion ($x - 5 = 36$) and process it as follows:
+
+*   **Step 1:** Observe the equation $\frac{x}{3} - 5 = 12$.
+*   **Step 2:** Decide to eliminate the $\div 3$ by multiplying.
+*   **Step 3:** Multiply the $\frac{x}{3}$ by $3$ to get $x$.
+*   **Step 4:** Multiply the $12$ (the other side of the equation) by $3$ to get $36$.
+*   **Step 5:** Leave the $-5$ exactly as it is, because "the 5 isn't divided by 3, so why would I multiply it?"
+*   **Step 6:** Write down the resulting line: $x - 5 = 36$.
+*   **Step 7:** Compare this to Tom's work. They see Tom added 5 to both sides ($\frac{x}{3} = 17$). They recognize this as a valid "standard" move.
+*   **Step 8:** Conclude that because both Tom's "adding 5 first" and their "multiplying by 3 first" seem like valid paths, both characters must be correct.
+
+### 3. Which Answer Option (A/B/C/D) this leads to:
+This misconception leads directly to **C) Both Tom and Katie**. 
+
+(Note: Tom is actually correct, but Katie is mathematically incorrect because her line *should* have been $x - 15 = 36$. A student with this bug believes Katie has followed the rules of algebra correctly.)
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and remains one of the most persistent hurdles for Year 9 students. 
+
+The student would likely **not realize they went wrong** for several reasons:
+*   **Visual Logic:** The "big bar" of a fraction acts as a visual container. In an equation like $\frac{x-5}{3} = 12$, multiplying by 3 *does* result in $x-5=36$. Students often fail to distinguish between $\frac{x}{3} - 5$ and $\frac{x-5}{3}$. 
+*   **Pseudo-Productivity:** The resulting equation ($x - 5 = 36$) looks simpler and cleaner than the original. In the student's mind, they have successfully "broken" the fraction, which is the primary goal in solving these equations.
+*   **Verification Bias:** If the student checks the "answer" by continuing their buggy logic ($x = 41$), they rarely substitute it back into the *original* equation to check for equality. They feel confident because their steps "feel" like the rules they've been taught (e.g., "do the same thing to both sides").

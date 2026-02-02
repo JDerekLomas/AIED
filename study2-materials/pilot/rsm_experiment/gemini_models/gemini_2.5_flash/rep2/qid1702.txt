@@ -1,0 +1,25 @@
+Okay, marking 200 Year 9 papers, this question is a classic. It looks simple, but the negatives and decimals are traps, and a significant number will flip x and y or misinterpret the table. Let's break down the errors.
+
+**Correct Answer Logic:**
+Substitute y = 0.5 into the equation:
+10x - 6(0.5) = 30
+10x - 3 = 30
+10x = 33
+x = 33 / 10
+x = 3.3
+
+So, C is the correct answer.
+
+**Error Analysis for Each Option:**
+
+*   **A) 4.25:** This implies (30 + 3) / 6 = 33/6 = 5.5 (if solving for y instead of x with flipped 6/10). More likely from 30 - 3 = 27, then 27 / 6 = 4.5. If the equation was 6y = 10x - 30 and y = 0.5... hmm. This is more likely from doing 10x - 6(0.5) = 30 => 10x - 3 = 30 => 10x = 33 => x = 3.3. Now let's work backward for A. What if they thought it was 10x = 30 + 6(0.5)? 10x = 30 + 3 = 33. x = 3.3. So, A could be if they swap 10 and 6 after a sign error, or make an arithmetic error. Another route: 10x - 6y = 30. If x = 0.5 instead of y: 10(0.5) - 6y = 30 => 5 - 6y = 30 => -6y = 25 => y = -25/6 = -4.16. Not quite. Let's reconsider. 10x - 3 = 30. If they instead did 10x = 30 - 3 = 27, then x = 2.7 (D). What if they rearranged to 6y = 10x - 30 and got y = 0.5 => 3 = 10x - 30 => 33 = 10x => x = 3.3.
+    **Common path for 4.25 (A):** The most likely scenario for this kind of 'nearby' incorrect answer is making an arithmetic error after reaching a correct intermediate step, or flipping a division. What if they did (30 - 6) / 0.5 * 10 or something complex? Or if they misread 10x-6y=30 as something involving a positive 6y, then they could get different values. Let's assume an initial setup error. If they substituted x=0.5: 10(0.5) - 6y = 30 => 5 - 6y = 30 => -6y = 25 => y = -4.16... If they did 6y = 10x - 30 and tried to calculate y when x=4.25 then 6y = 10(4.25) - 30 = 42.5 - 30 = 12.5. So y = 12.5/6 = 2.08... No.
+    The common "attractive" error: forgetting the minus sign and doing 10x + 6y = 30.
+    10x + 6(0.5) = 30
+    10x + 3 = 30
+    10x = 27
+    x = 2.7 (D)
+    So if 10x + 6y = 30 gives D, what about A? Let's revisit if they were solving for y by mistake: 6y = 10x - 30. Not quite.
+    **Key insight for A = 4.25:** Often comes from an order of operations error, or from incorrectly dividing / multiplying the '3' at the wrong stage. One path is misinterpreting 6y: what if they just moved 6y over without changing sign (as 6y = 30-10x) but then later misapplied something else?
+    Another common mistake that creates a decimal like this:
+    If

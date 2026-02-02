@@ -1,0 +1,19 @@
+This question is a classic test of Order of Operations (BIDMAS/BODMAS). The difficulty lies in the structural similarity of the two sides; both contain the same integers and operations, but the brackets on the right shift the priority.
+
+The most common error across all levels is the "Left-to-Right" misconception: calculating $8+12$ first on the left side ($20 \div 4 = 5$). If a student makes this mistake, they will see both sides as equal (Option C). Another error is purely computational, but given the numbers are multiples of 4, this is less likely.
+
+**Analysis of the sides:**
+- Left: $8 + (12 \div 4) = 8 + 3 = 11$
+- Right: $(8 + 12) \div 4 = 20 \div 4 = 5$
+- Correct relation: $11 > 5$ (Option A)
+
+**Predicted Performance:**
+- **Below-basic:** Likely to be overwhelmed by the "long" expression and choose "=" because the numbers match, or guess randomly.
+- **Basic:** Many will apply the left-to-right rule ($20 \div 4$), find it matches the right side, and confidently select "=".
+- **Proficient:** Most know BIDMAS but a significant minority will rush, see the same numbers, and intuitively pick "=" without calculating, or correctly calculate the left side as 11 but misinterpret the inequality symbols.
+- **Advanced:** Will perform the two-step calculation mentally in seconds. They rarely fall for the "visual identity" trap.
+
+below_basic: A=20% B=20% C=45% D=15%
+basic: A=35% B=15% C=45% D=5%
+proficient: A=70% B=5% C=22% D=3%
+advanced: A=96% B=1% C=2% D=1%

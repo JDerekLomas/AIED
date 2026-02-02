@@ -1,0 +1,43 @@
+Hello. I am pleased to assist with this diagnostic analysis. This question is a classic "Order of Operations" trap that highlights how students transition from intuitive left-to-right reading to formal BIDMAS/BODMAS rules.
+
+### 1. Analysis of Wrong Answer Options
+
+*   **Option A: Problem P: $4-5$; Problem Q: $4+5$**
+    *   **Misconception:** Carries out operations from left to right regardless of priority order.
+    *   **Buggy Reasoning:** The student treats mathematics like a sentence in English. They scan from left to right and assume the first operation encountered is the one to perform first. They lack the concept of "operator precedence."
+
+*   **Option C: Problem P: $5+6$; Problem Q: $4+5$**
+    *   **Misconception:** "Addition always comes before Subtraction/Multiplication" (Literal BIDMAS).
+    *   **Buggy Reasoning:** This student has been taught the acronym BIDMAS/BODMAS but follows it with rigid literalism. Because 'A' (Addition) appears before 'S' (Subtraction) and 'M' (Multiplication) in the mnemonic, they believe they must always seek out the '+' sign first, regardless of its position or the other operators present.
+
+*   **Option D: Problem P: $5+6$; Problem Q: $5 \times 6$**
+    *   **Misconception:** Mixed model (Correct for Q, but "Literal Addition Priority" for P).
+    *   **Buggy Reasoning:** The student understands that Multiplication is more "powerful" than Addition (solving Q correctly). However, in Problem P, they apply the literal BIDMAS rule where Addition must happen before Subtraction. They fail to understand that Addition and Subtraction have equal priority and should be worked left to right.
+
+**The Correct Answer is B:** Problem P: $4-5$ (Left to right for ±); Problem Q: $5 \times 6$ (× takes priority).
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option A (Left to Right): Extremely High Attractiveness.**
+    For students at the **below_basic** level, this is the "default" state of human logic. It feels like a natural progression. A student won't notice an error because they haven't yet internalised that operators have intrinsic values.
+*   **Option D (Literal Addition Priority): High Attractiveness.**
+    This is the "Intermediate Trap." It is very common for **basic/proficient** students. They know "the rule" (BIDMAS), but the mnemonic itself is a "lying" teaching tool. It leads them to believe $5+6$ must happen first because A comes before S. This is one of the most persistent errors in Key Stage 3 (ages 11-14).
+*   **Option C (Hyper-Literalism): Low to Moderate Attractiveness.**
+    This requires a very specific type of confusion where a student prioritises Addition over Multiplication. It is less common because Multiplication is visually more distinct and usually taught as "stronger," but it still catches those who cling to the acronym letters as an absolute sequence.
+
+---
+
+### 3. Predicted Response Distribution
+
+As a teacher, I expect to see the "left-to-right" error dominate the lower tiers, while the "Literal BIDMAS" error (Option D) peaks at the Basic/Proficient tiers as students start learning the rules but haven't mastered equal priority levels.
+
+| Ability Level | Option A | Option B (Correct) | Option C | Option D |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 65% | 15% | 10% | 10% |
+| **Basic** | 40% | 25% | 5% | 30% |
+| **Proficient** | 15% | 55% | 5% | 25% |
+| **Advanced** | 2% | 94% | 1% | 3% |
+
+**Summary of the "Proficient" Tier:** Even students who are generally good at maths often get caught by **Option D** because they have been taught "Addition before Subtraction" as a rhyming rule without the nuance of left-to-right priority for equal operators.

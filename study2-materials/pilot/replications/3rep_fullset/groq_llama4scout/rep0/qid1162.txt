@@ -1,0 +1,36 @@
+To approach this question, let's consider the nature of the conjecture and the division operation. Jacob's conjecture is \( P \div Q = Q \div P \) for two different numbers \( P \) and \( Q \). This implies that \( \frac{P}{Q} = \frac{Q}{P} \), which simplifies to \( P^2 = Q^2 \) when we cross multiply. For \( P \) and \( Q \) to be different and satisfy this equation, \( P \) must be \( -Q \) (since \( P^2 = Q^2 \) leads to \( P = Q \) or \( P = -Q \), and \( P \) and \( Q \) must be different).
+
+## 1. Understanding the Conjecture
+The conjecture can only be true if \( P = -Q \) because that's the only scenario where \( P \div Q = Q \div P \) holds true for \( P \neq Q \). For any other pair of different numbers, the conjecture does not hold.
+
+## 2. Evaluating the Options
+- **A: Always true** - This would only be true if every pair of different numbers satisfies \( P \div Q = Q \div P \), which is not the case.
+- **B: Sometimes true** - This option suggests there are cases where the conjecture is true. Given \( P = -Q \), there is indeed a scenario where it's true.
+- **C: Never true** - This suggests that no pair of different numbers satisfies the conjecture, which is mostly true but doesn't account for \( P = -Q \).
+- **D: I don't know** - This is a catch-all for students unsure about the validity of Jacob's conjecture.
+
+## 3. Predicting Student Responses
+- **Below Basic**: Students at this level might struggle with abstract algebraic thinking and may not fully understand the conditions under which \( P \div Q = Q \div P \). They might think it's always or sometimes true without fully considering the implications, or they might be completely unsure. 
+  - A=30% (thinking it's always true because they don't see why it wouldn't be), B=20% (some recognition it might not always work but not fully sure), C=20% (understanding it's not generally true but lacking the nuance), D=30% (completely unsure).
+
+- **Basic**: Students here have a foundational understanding and might start to see that it's not always true but could be tricked into thinking it's sometimes true without fully exploring the conditions.
+  - A=10% (recognizing it's not universally applicable), B=40% (acknowledging there could be specific instances), C=30% (starting to understand it's generally not true), D=20%.
+
+- **Proficient**: These students have a solid grasp of mathematical concepts and should recognize that the statement is generally false but can be true under specific conditions.
+  - A=5% (very few think it's always true), B=30% (recognize it can be true in specific cases like \( P = -Q \)), C=60% (understand it's generally not true), D=5%.
+
+- **Advanced**: Students at this level have a deep understanding and can analyze the statement critically. They should easily identify that the conjecture is not always true but can be under specific conditions.
+  - A=0% (none think it's always true), B=20% (acknowledge the specific condition), C=80% (clearly understand it's not always true), D=0%.
+
+## 4. Final Predictions
+Given these considerations:
+- **below_basic**: A=30% B=20% C=20% D=30%
+- **basic**: A=10% B=40% C=30% D=20%
+- **proficient**: A=5% B=30% C=60% D=5%
+- **advanced**: A=0% B=20% C=80% D=0%
+
+The final answer is:
+below_basic: A=30% B=20% C=20% D=30%
+basic: A=10% B=40% C=30% D=20%
+proficient: A=5% B=30% C=60% D=5%
+advanced: A=0% B=20% C=80% D=0%

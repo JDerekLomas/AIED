@@ -1,0 +1,32 @@
+As a UK maths teacher, I frequently see these specific misconceptions when teaching Order of Operations (BIDMAS/BODMAS). This question is particularly effective because it tests two distinct concepts: left-to-right processing for equal priority operators and the hierarchy of multiplication over addition.
+
+### Step 1 — Analysis of Reasoning
+
+**A) Problem P: $4-5$; Problem Q: $4+5$**
+*   **Reasoning:** The student is applying a strict "left-to-right" rule for everything. They ignore the hierarchy of operations entirely, treating the symbols as they appear, much like reading a sentence. This is common in early functional skills learners or younger KS3 students.
+
+**B) Problem P: $4-5$; Problem Q: $5 \times 6$ (The Correct Answer)**
+*   **Reasoning:** The student correctly understands that addition and subtraction have equal priority and should be done left-to-right (Problem P). They also correctly identify that multiplication takes precedence over addition (Problem Q).
+
+**C) Problem P: $5+6$; Problem Q: $4+5$**
+*   **Reasoning:** This is the "A before S" misconception. In BIDMAS/BODMAS, "Addition" comes before "Subtraction" in the acronym. Students often wrongly conclude they must perform all additions in a string before any subtractions. In Problem Q, they are still ignoring the hierarchy or performing operations left-to-right.
+
+**D) Problem P: $5+6$; Problem Q: $5 \times 6$**
+*   **Reasoning:** The student understands the hierarchy (Multiplication > Addition) in Problem Q, but falls into the common acronym trap for Problem P. They see the 'A' before 'S' in BIDMAS and mistakenly believe $5+6$ must happen before $4-5$.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK curriculum, "below basic" students often default to reading left-to-right. "Basic" and "Proficient" students have been taught BIDMAS but often fall into the trap of treating the letters as a rigid linear sequence (the "A before S" error).
+
+*   **Below Basic:** These students rarely apply order of operations and almost always work left-to-right.
+    *   `below_basic: A=70% B=10% C=15% D=5%`
+*   **Basic:** These students have heard of BIDMAS and know $\times$ comes before $+$, but they are very likely to follow the literal letter order for $P$.
+    *   `basic: A=20% B=25% C=15% D=40%`
+*   **Proficient:** These students usually get the multiplication priority right, but about half still stumble on the Addition/Subtraction equal priority rule.
+    *   `proficient: A=5% B=55% C=5% D=35%`
+*   **Advanced:** These students understand that Addition/Subtraction are a "package deal" done left-to-right.
+    *   `advanced: A=2% B=90% C=0% D=8%`
+
+**Teacher's Note:** Option D is usually the "strongest distractor" for mid-ability UK students because it reflects a partial but flawed understanding of the BODMAS acronym.

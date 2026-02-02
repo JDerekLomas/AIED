@@ -1,0 +1,22 @@
+Here is an analysis of a common misconception for this specific problem.
+
+### 1. The specific misconception or procedural error
+**The Misconception: "Negative signs only belong to the number they precede in addition, not multiplication."** 
+Specifically, this is the **Sign-Error in Product (Negative × Negative = Negative)**. Many students successfully apply the FOIL (First, Outer, Inner, Last) method or grid method, but they possess a shaky mental model of directed numbers. The most frequent "buggy" rule applied here is assuming that if both constants are negative, the final product must remain negative because the problem is "dominated" by subtraction signs.
+
+### 2. How a student with this misconception would work through the question
+The student knows they need to multiply every term in the first bracket by every term in the second:
+
+1.  **First:** They multiply $m \times m$ to get $m^2$.
+2.  **Outer/Inner:** They correctly calculate the "middle" terms. They see $-7m$ and $-5m$. They successfully combine these to get $-12m$ (often using the mental logic of "starting at $-7$ and going down $5$").
+3.  **Last:** They multiply the constants: $5 \times 7 = 35$. 
+4.  **The Bug:** When looking at $(-5) \times (-7)$, the student ignores the "double negative makes a positive" rule. They think: *"The 5 is being subtracted and the 7 is being subtracted, so the 35 should be subtracted."* Alternatively, they confuse the rule for *addition* (where a negative plus a negative is a negative) with the rule for *multiplication*.
+5.  **Conclusion:** They write the final expression as $m^2 - 12m - 35$.
+
+### 3. Which answer option this misconception leads to
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. How natural/attractive this error is
+This is an **extremely attractive error** for Year 9 students. At this level, students are moving from "arithmetic thinking" to "algebraic manipulation," and their cognitive load is often focused entirely on the structure of the expansion (the "arrows" or the "grid"). 
+
+Because the original expression $(m-5)(m-7)$ contains only minus signs, it feels "mathematically intuitive" to a struggling student that the final answer should also be dominated by minus signs. The student will likely feel quite confident because they correctly identified "12" and "35"—the two difficult arithmetic parts—and may not even realize that the sign of the constant is a separate operation requiring its own rule. Unless they explicitly use a grid and label the headers as negative numbers, they are unlikely to catch this error.

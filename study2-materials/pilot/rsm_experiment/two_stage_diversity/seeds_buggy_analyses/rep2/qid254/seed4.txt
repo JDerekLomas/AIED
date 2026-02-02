@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this Year 9 question:
+
+### 1. The Specific Misconception: The "Zero Doesn't Count" Bug
+The specific misconception is **treating zero as a "null" value rather than a data point**. 
+
+In statistical contexts, students often confuse the *arithmetic value* of zero (which adds nothing to a sum) with its *cardinal significance* as an observation (which must be included in the count). This leads to a failure to include the 0 in the denominator ($n$) when calculating the mean.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would approach the question as follows:
+*   **Step 1:** Read the list of numbers: $0, 1, 3, 4, 7$.
+*   **Step 2:** Think, "To find the mean, I need to add them all up." They calculate $1 + 3 + 4 + 7 = 15$. They ignore the 0 because "adding zero doesn't change anything."
+*   **Step 3:** Think, "Now I need to divide by how many numbers there are."
+*   **Step 4:** Look at the set and count the "active" numbers. They count the 1, 3, 4, and 7, concluding there are **4** numbers. They disregard the 0 as a "placefiller" or "empty space."
+*   **Step 5:** Form the fraction $\frac{1+3+4+7}{4}$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C**.
+
+(Note: A student might also choose **Option A** if they recognize there are five numbers but think the 0 doesn't need to be written in the sum, but Option C is the "stronger" error because it represents a fundamental misunderstanding of the divisor $n$).
+
+### 4. Attractiveness of the Error
+This error is **highly natural and very attractive** for a Year 9 student.
+
+*   **Logic:** In most previous mathematical contexts (addition, subtraction, place value), zero represents "nothing." If you have 0 apples, you have no apples. Therefore, students instinctively feel that "nothing" shouldn't contribute to an average.
+*   **Self-Correction:** The student is **highly unlikely** to realize they have gone wrong. Because their sum ($15$) is exactly the same whether they include the $0$ or not, they feel they have handled the numerator correctly. When they see $n=4$ (by ignoring the zero), and see that fraction reflected exactly in Option C, it provides a "false confirmation" that their logic is sound.
+*   **Vocabulary Trap:** Students often define the mean as "the sum divided by the numbers," and to a teenager, "0" is often not processed as "a number" in a data-collection sense (like a score on a test), but rather the absence of a score.

@@ -1,0 +1,41 @@
+<chain_of_thought>
+Let me work through this item carefully.
+
+The equation is (x-6)/2 = 10. The correct solution process would be:
+Step 1: Multiply both sides by 2 → x - 6 = 20
+Step 2: Add 6 to both sides → x = 26
+
+Now evaluating each student's claim:
+
+Tom says a correct next line is x/2 = 16. He appears to have added 6 to both sides, getting (x-6+6)/2 = 10+6, which would give x/2 = 16. But this is incorrect because you cannot simply add 6 inside the numerator while keeping the denominator. Adding 6 to both sides of the original equation would give (x-6)/2 + 6 = 16, which simplifies to (x-6)/2 + 12/2 = 16, i.e., (x+6)/2 = 16. So Tom's line is wrong — he treated the numerator as separable and added 6 only to the x-6 part without accounting for the denominator.
+
+Katie says a correct next line is x - 6 = 5. She appears to have divided 10 by 2 instead of multiplying by 2. The correct inverse operation for "divided by 2" is "multiply by 2," giving x - 6 = 20. Katie used the same operation (division) rather than the inverse, which is exactly the misconception being tested.
+
+So neither Tom nor Katie is correct, making D the right answer.
+
+This is a moderately difficult item. Students need to understand fraction equations and inverse operations. The distractors are plausible because Tom's reasoning looks superficially correct (isolating x by "undoing" the subtraction), and Katie's error is a common one. The fact that students must evaluate TWO claims and reject both adds cognitive load. The misconception tested (using same operation rather than inverse) directly applies to Katie's error, while Tom's error involves misunderstanding how to manipulate fractional expressions.
+
+Comparing to calibration items: The inequality item (2n+3 ≤ 3n-7) had classical difficulty 0.569 and IRT difficulty 0.808. This item requires similar algebraic reasoning but adds the complexity of evaluating two claims and working with fractions, plus the correct answer is "neither," which students tend to avoid selecting. I'd estimate this is somewhat harder than the inequality item.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.62</classical_difficulty>
+<irt_difficulty>0.85</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item asks students to identify what goes under the triangle in the quadratic formula applied to 5h^2 - 3h - 2 = 0. The quadratic formula is (-b +/- sqrt(b^2 - 4ac)) / 2a. The triangle represents b^2, which is part of the discriminant. Here a=5, b=-3, c=-2.
+
+So b^2 = (-3)^2 = 9. The triangle should be 9, which is answer C.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." A student with this misconception would compute (-3)^2 = -9 and choose D. Another student might compute (-3)^2 = -9 but then get confused by signs and pick B (-6) or A (6), though those seem more related to confusing b^2 with 2b or similar errors.
+
+Comparing to calibration items: The factorising item (Tom and Katie) tests the same misconception and has classical difficulty 0.473, IRT b=0.404. This quadratic formula item requires more prerequisite knowledge (knowing the quadratic formula) and involves more abstract algebra, so it should be harder.
+
+The quadratic formula is typically taught at GCSE level (ages 14-16), making it age-appropriate but toward the higher end. Students need to know the formula, identify coefficients correctly (including signs), and compute (-3)^2. Multiple steps and concepts are involved.
+
+The distractors are quite plausible: -9 targets the misconception directly, while 6 and -6 might attract students who confuse b^2 with 2b or make sign errors in coefficient identification. The question format with the triangle placeholder adds cognitive load since students must map the partial formula to the full quadratic formula.
+
+I'd estimate this is moderately difficult to hard. Classical difficulty around 0.55-0.65 seems right - harder than the factorising item due to the additional prerequisite knowledge of the quadratic formula. IRT difficulty around 0.7-0.9.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.60</classical_difficulty>
+<irt_difficulty>0.75</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

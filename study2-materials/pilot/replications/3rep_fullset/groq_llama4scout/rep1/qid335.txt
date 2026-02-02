@@ -1,0 +1,42 @@
+To approach this question, let's analyze the strategies proposed by Jo and Paul and evaluate their correctness.
+
+Jo's strategy for adding 19 is to add 10, then another 10, and then subtract 1. Mathematically, this can be represented as:
+\[ 10 + 10 - 1 = 20 - 1 = 19 \]
+
+Paul's strategy for subtracting 19 is to subtract 10, then another 10, and then add 1. Mathematically, this can be represented as:
+\[ x - 10 - 10 + 1 = x - 20 + 1 = x - 19 \]
+
+Both strategies are mathematically correct. Jo's method correctly calculates \( 10 + 9 \) (since \( 19 = 10 + 9 \)) by doing \( 10 + 10 - 1 \), and Paul's method correctly adjusts for subtracting 19 by initially subtracting 20 and then adding 1 back.
+
+Given this, let's consider how students at different levels might respond:
+
+- **Below Basic:** Students at this level might struggle with understanding the strategies or evaluating their correctness. They might not fully grasp the mental math strategies or could misunderstand the explanations. However, the question is quite straightforward in terms of the math involved. 
+  - A: Only Jo = 20% (some might pick Jo because adding 10+10 seems straightforward)
+  - B: Only Paul = 20% (similar reasoning)
+  - C: Both Jo and Paul = 40% (if they understand both strategies are correct)
+  - D: Neither is correct = 20% (some might doubt both)
+
+- **Basic:** Students here have a foundational understanding and might see the logic in both strategies but could be prone to errors if they don't fully understand the question or if the calculations seem tricky.
+  - A: Only Jo = 10%
+  - B: Only Paul = 10%
+  - C: Both Jo and Paul = 70% (most would understand both are correct with some basic math checks)
+  - D: Neither is correct = 10%
+
+- **Proficient:** Students at this level have a solid grasp of mental math strategies and can evaluate the effectiveness and correctness of Jo and Paul's methods easily.
+  - A: Only Jo = 5%
+  - B: Only Paul = 5%
+  - C: Both Jo and Paul = 85%
+  - D: Neither is correct = 5%
+
+- **Advanced:** These students not only understand the strategies but can also likely explain why they work and evaluate their efficiency.
+  - A: Only Jo = 0%
+  - B: Only Paul = 0%
+  - C: Both Jo and Paul = 95%
+  - D: Neither is correct = 5%
+
+Given these considerations, the predicted percentages could be:
+
+below_basic: A=20% B=20% C=40% D=20%
+basic: A=10% B=10% C=70% D=10%
+proficient: A=5% B=5% C=85% D=5%
+advanced: A=0% B=0% C=95% D=5%

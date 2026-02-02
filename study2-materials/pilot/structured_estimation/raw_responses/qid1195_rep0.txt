@@ -1,0 +1,38 @@
+<chain_of_thought>
+The target item asks students to compute 2 x 3^2. The correct answer is 18 (A), which requires knowing that exponentiation takes priority over multiplication: first compute 3^2 = 9, then 2 x 9 = 18.
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student with this misconception would compute 2 x 3 = 6 first, then 6^2 = 36, selecting option C. Option B (12) could come from 2 x 3 x 2 = 12, perhaps interpreting the exponent as a multiplier. Option D (11) could come from 2 + 3^2 = 11, confusing multiplication with addition.
+
+Looking at calibration: the order-of-operations item (0.4 - 1/5 x 3) had classical difficulty 0.134 and IRT difficulty -0.245. That item involved fractions and decimals together, making it more complex in some ways, but the misconception is the same. However, the current item is simpler in terms of number types (all whole numbers) and fewer steps.
+
+The item 2 x 3^2 is quite standard and appears frequently in textbooks. It tests a fundamental concept (order of operations with exponents) that is introduced around Year 7-8. The distractor C (36) is very plausible because it directly results from the tested misconception. The question is extremely clear and uses simple notation.
+
+I'd expect this to be relatively easy overall since the numbers are small and the computation is straightforward, but the order-of-operations misconception is persistent. I estimate roughly 20-25% of students would get it wrong, making it slightly harder than the calibration BODMAS item which had 13.4% incorrect (but that involved more complex numbers which might have prompted more careful thinking).
+
+Classical difficulty estimate: ~0.22
+IRT difficulty: around -0.4 (easy side but not trivial)
+Discrimination: moderate-high, around 1.3, since it cleanly separates those who know order of operations from those who don't
+Guessing: low, near 0.05, since distractors are plausible enough that random guessing isn't the main mechanism
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.40</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

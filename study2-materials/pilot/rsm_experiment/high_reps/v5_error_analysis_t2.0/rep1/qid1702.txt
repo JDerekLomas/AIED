@@ -1,0 +1,19 @@
+To predict the performance of Year 9 students on this question, we must look at the specific algebraic traps involved.
+
+**The "Attractive" Errors:**
+*   **The Sign Error (A vs B):** The equation $10x - 6y = 30$ leads to $10x - 3 = 30$, and then $10x = 33$. Students often move the $-3$ to the other side and mistakenly subtract it instead of adding ($10x = 27$), leading to $2.7$ (**Option D**). Conversely, if they forget the minus sign in the original equation, they arrive at **Option B**.
+*   **The Substitution Swap (C):** Students frequently swap $x$ and $y$. If they substitute $x=0.5$, they get $5 - 6y = 30 \Rightarrow -6y = 25 \Rightarrow y \approx -4.16$. However, some perform $(30+3)/10$ but mentally "see" it as $33/10$ leading to $3.3$ (**Option C**) because the numbers feel more "round."
+*   **Decimal Division (A):** The correct path is $10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$. 
+
+**Student Behavior:**
+*   **Below Basic:** Often pick $4.25$ or $-4.25$ because they involve more complex decimal work which "looks" like a harder maths answer, or they simply guess. Many will see the $6 \times 0.5 = 3$ and somehow combine it with the $10$ or $30$ arbitrarily.
+*   **Basic:** The most common mistake here is **Option D**. They correctly substitute $0.5$ to get $3$, but then calculate $10x = 30 - 3$ rather than $30 + 3$.
+*   **Proficient:** These students generally handle the substitution but may rush the rearrangement. $3.3$ is a common successful answer here, though the $10x = 27$ trap remains tempting.
+*   **Advanced:** Most will correctly add 3 to 30 and divide by 10. The only errors here are genuine "slips" under exam pressure.
+
+Here is the predicted distribution:
+
+below_basic: A=30% B=25% C=20% D=25%
+basic: A=15% B=15% C=20% D=50%
+proficient: A=5% B=5% C=75% D=15%
+advanced: A=1% B=1% C=96% D=2%

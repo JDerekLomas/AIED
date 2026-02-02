@@ -1,0 +1,43 @@
+<chain_of_thought>
+Examining this item: students must identify that the operation taking x + 7 = ... to x = ... is subtraction of 7 (option D). The tested misconception is using the same operation rather than the inverse.
+
+Let me approach this by considering the cognitive demands systematically:
+
+1. Reading/interpretation: Students must parse the image showing two lines of working with an arrow and star. This is a representation commonly used in UK KS3 maths but requires some familiarity.
+
+2. Mathematical reasoning: Recognizing that to go from "x + 7" to "x", you subtract 7. This is a single conceptual step requiring understanding of additive inverses.
+
+3. Answer selection: Matching "-7" to option D.
+
+The item is interesting because distractors B and C (multiply/divide by 7) introduce a cross-operation confusion that goes beyond the primary misconception. A student selecting B or C would have a more fundamental misunderstanding than the target misconception. This means the item might capture two tiers of misunderstanding: (1) same-operation error -> A, (2) operation-type confusion -> B or C.
+
+Calibration comparison for the same misconception:
+- Simplest: p + 10 equation, difficulty 0.167 -- requires solving
+- This item: just identify the operation -- should be easier
+
+However, I want to consider a counterargument: some students who can solve -5 = p + 10 by rote might not be able to articulate what operation they performed. The metacognitive demand could make this harder than expected for procedurally-oriented students. That said, the multiple choice format with -7 as an option makes it quite straightforward even for those students -- they can just think "what gets rid of +7? Oh, -7."
+
+I'll estimate classical difficulty around 0.14, slightly below the simplest calibration item. IRT difficulty around -0.7. Discrimination around 1.3 -- solid but not exceptional because of potential ceiling effects. Very low guessing since even weak students can often recognize the additive inverse in this direct format.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.14</classical_difficulty>
+<irt_difficulty>-0.72</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a specific procedural error frequently observed in UK Year 9 students regarding the property of zero in data sets.
+
+### 1. The Misconception: "Zero is Not a Value" (The Identity Bug)
+The specific misconception is the belief that **the number zero should be ignored or discounted when calculating the mean** because it "doesn't add anything" to the total. Students confuse the additive identity property of zero (adding 0 doesn't change the sum) with the count of data points (the denominator). This is a subset of a broader misconception where students equate "zero" with "nothing" or "empty," leading them to believe it does not occupy a "place" in a statistical set.
+
+### 2. Step-by-Step Student Process
+A student with this misconception would follow these steps:
+*   **Step 1:** Look at the list: $0, 1, 3, 4, 7$.
+*   **Step 2:** Sum the numbers. They correctly calculate $1 + 3 + 4 + 7 = 15$. They consciously or unconsciously skip the 0 because it doesn't increase the total.
+*   **Step 3:** Determine the "number of items." They look at the list and count only the "real" or "non-zero" numbers: 1, 3, 4, and 7. They conclude there are **4** numbers in the set.
+*   **Step 4:** Set up the mean calculation as $\text{Total} \div \text{Count of non-zero items}$.
+*   **Step 5:** Write the expression: $\frac{1+3+4+7}{4}$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C**: $\frac{1+3+4+7}{4}$.
+
+*(Note: Option A is also an attractive "halfway house" for students who realize the denominator should be 5 but still ignore 0 in the numerator, but Option C represents the complete "Zero is Not a Value" bug.)*
+
+### 4. Attractiveness and Self-Correction
+This error is **highly natural and incredibly "sticky."**
+*   **The Logic of Efficiency:** Students are often taught that they can "ignore zeros" in addition to save time. Extending this shortcut to the denominator feels like a logical consistency rather than a mistake.
+*   **Linguistic Confusion:** In everyday English, if you have "zero" of something, you have "none." If a student is asked to average their "goals scored," and they scored 0 in one game, they intuitively feel that the "zero" game shouldn't "count against them" or be treated as an actual event.
+*   **Likelihood of Realisation:** The student is **highly unlikely** to realize they are wrong. Because $15 \div 4 = 3.75$ and $15 \div 5 = 3$, both answers "look" like plausible averages (they both fall within the range of the data). Without a firm conceptual grasp that the mean is a "fair share" across all occurrences (including the occurrence of a zero), the student will remain confident in their incorrect procedure.

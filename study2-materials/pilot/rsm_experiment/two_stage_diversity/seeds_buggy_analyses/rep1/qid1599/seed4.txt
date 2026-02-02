@@ -1,0 +1,30 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for a UK Year 9 student (approx. 13–14 years old).
+
+### 1. The Specific Misconception: "Order of Operations Priority Failure" (Incomplete Grouping)
+
+In the UK curriculum, students are taught **BIDMAS/BODMAS**, where Division (D) comes before Addition (A). The specific bug here is the **failure to recognise the vinculum (the fraction bar) as a grouping symbol**. 
+
+The student applies the division operation strictly to the first two terms they encounter ($c$ and $h$) because they see the division symbol positioned immediately between them, effectively ignoring the necessity of the brackets once translated into a fraction.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would process the question as follows:
+*   **Step 1:** Look at the expression $c \div (h + 4)$.
+*   **Step 2:** Identify the primary operation as $c$ divided by $h$. They think: *"Algebraic convention means division should be written as a fraction, so $c \div h$ becomes $\frac{c}{h}$."*
+*   **Step 3:** See the $+ 4$ at the end of the expression. 
+*   **Step 4:** Append the $+ 4$ to their previous result without including it in the denominator, essentially "lifting" the $+ 4$ out of the brackets because they have already "resolved" the fraction part.
+*   **Result:** They write $\frac{c}{h} + 4$.
+
+### 3. Selection
+This misconception leads directly to **Option C**.
+
+*(Note: If the student had the "Reciprocal Confusion" bug, they would choose D; if they had the "Distributive Over-extension" bug, they might choose B. However, Option C is the most common error related to the transition from linear arithmetic notation to formal algebraic notation.)*
+
+### 4. Attractiveness of the Error
+This error is **highly natural and "sticky"** for several reasons:
+
+*   **Visual Sequence:** Students read from left to right. In the expression $c \div (h + 4)$, the $c$ and $h$ are physically closer to the division sign than the $4$ is.
+*   **BIDMAS Over-reliance:** Students are conditioned to think "Division then Addition." By writing $\frac{c}{h} + 4$, they feel they have correctly prioritized the division.
+*   **The "Invisible Bracket" Problem:** When moving from $c \div (h+4)$ to a fraction, the brackets effectively disappear because the fraction bar acts as the grouping symbol. A student who does not fully grasp that the fraction bar "encloses" the entire denominator will see no reason to keep the $+4$ underneath it.
+
+**Would they realise they went wrong?**
+Likely not. To a student with this bug, Option C looks "more algebraic" than the original horizontal notation. Because they have performed a "translation" (changing $\div$ to a bar), they feel they have successfully applied the required algebraic convention. They would view the denominator $(h+4)$ in Option A as "unresolved" or "messy" compared to the partitioned look of Option C.

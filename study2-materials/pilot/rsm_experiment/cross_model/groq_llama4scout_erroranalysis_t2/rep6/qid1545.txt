@@ -1,0 +1,32 @@
+To predict the percentage of students at each ability level who chose each option, let's analyze the question and the potential pitfalls.
+
+## Step 1: Understanding the Question
+The question requires students to compare two expressions: \(8+12 \div 4\) and \((8+12) \div 4\). The correct calculation for the first expression, following the order of operations (PEMDAS/BODMAS), is \(8 + (12 \div 4) = 8 + 3 = 11\). For the second expression, it's \((8 + 12) \div 4 = 20 \div 4 = 5\).
+
+## 2: Identifying Wrong Answers and Calculation Errors
+- Option A (\(>\)) suggests \(8+12 \div 4 > (8+12) \div 4\), which is true based on the correct calculations (11 > 5).
+- Option B (\(<\)) suggests \(8+12 \div 4 < (8+12) \div 4\), which is false.
+- Option C (\(=\)) suggests \(8+12 \div 4 = (8+12) \div 4\), which is false.
+- Option D (\(\geq\)) suggests \(8+12 \div 4 \geq (8+12) \div 4\), which is true but less specific than Option A.
+
+## 3: Analyzing Calculation Errors Leading to Wrong Answers
+- A common error is to ignore the order of operations. For \(8+12 \div 4\), some might calculate as \(20 \div 4 = 5\), and for \((8+12) \div 4\), they might also get 5, leading them to think \(5 = 5\) or \(C =\)% might be higher among weaker students.
+- Another error could be to add first in \(8+12 \div 4\) to get \(20 \div 4 = 5\), then conclude both expressions equal 5.
+
+## 4: Prediction Based on Ability Levels
+- **Below Basic**: At this level, students are likely to make significant calculation errors. They might treat both expressions as equal because they don't follow the order of operations correctly or misunderstand the operations entirely. Thus, \(C =\)% could be high here due to incorrect calculations leading to a perceived equality.
+- **Basic**: Students here have a grasp of basic operations but might struggle with the application of the order of operations consistently. They might end up with \(C\) due to miscalculating both sides to the same incorrect value or thinking the expressions should be equal without properly evaluating them.
+- **Proficient**: Proficient students understand the order of operations and can calculate both expressions correctly, leading them to choose \(A\) (\(%\)) as the expressions are indeed not equal due to following BODMAS correctly.
+- **Advanced**: Advanced students are expected to not only calculate the expressions accurately but also have a conceptual understanding. They're unlikely to choose \(C\) or \(B\) since they know how to evaluate expressions correctly. They would likely choose \(A\).
+
+## 5: Estimate Percentages
+Given the typical errors and understanding:
+- **Below Basic**: A=30% (some get it right by chance or intuition), B=10%, C=50% (many think they're equal due to errors), D=10%.
+- **Basic**: A=50%, B=15%, C=25% (some still struggle with order of operations), D=10%.
+- **Proficient**: A=80%, B=5%, C=10% (minimal errors), D=5%.
+- **Advanced**: A=95%, B=0%, C=2% (rare but possible mistake), D=3%.
+
+The best answer is below_basic: A=30% B=10% C=50% D=10%
+basic: A=50% B=15% C=25% D=10%
+proficient: A=80% B=5% C=10% D=5%
+advanced: A=95% B=0% C=2% D=3%

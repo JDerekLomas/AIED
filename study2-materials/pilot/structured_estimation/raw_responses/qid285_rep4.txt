@@ -1,0 +1,45 @@
+<chain_of_thought>
+Rearranging F = r * omega^2 for omega. Correct answer: omega = sqrt(F/r) (option B).
+
+I want to think carefully about the population taking this test — UK students aged 11-16. The youngest students (KS3) would likely not have encountered changing the subject with squared terms. This is firmly GCSE content, probably Higher tier or top of Foundation. So in a mixed 11-16 sample, a large chunk of younger students would be guessing, while older/higher-ability students would attempt it properly.
+
+This population effect matters for my predictions. If the test population includes younger students who haven't learned this, the classical difficulty will be inflated and guessing will be higher. If it's a targeted sample of students who should know this topic, difficulty would be lower.
+
+Looking at the calibration examples, the sample seems to include a broad range — even the "easy" items have non-zero incorrect rates, and the harder items approach 0.57. This suggests a mixed-ability population.
+
+For this item specifically:
+- Students who have learned formula rearrangement with powers should find this moderately challenging but doable.
+- Students who haven't learned it yet will guess, likely picking C or D since they look "mathy" with square roots.
+- The misconception (same operation instead of inverse) is very common in algebra across all levels.
+
+Distractor attractiveness: C and D both contain square roots, making them plausible. A is clearly wrong to anyone with basic skills. So effectively this is a 3-option item for engaged students, with some choosing A randomly.
+
+Given the calibration set pattern where the b parameter roughly tracks classical difficulty, and considering this item is quite abstract with a squared term:
+
+Classical difficulty: I'll estimate 0.52 — slightly more than half get it wrong, comparable to the factorising item but a bit harder due to abstraction.
+IRT b: 0.55 — between the factorising (0.404) and inequality (0.808) items.
+Discrimination: 1.30 — should discriminate well since it requires genuine understanding of inverse operations.
+Guessing: 0.20 — higher than some calibration items because many younger students in the sample would need to guess, and there are 3 plausible-looking options with square roots (B, C, D).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

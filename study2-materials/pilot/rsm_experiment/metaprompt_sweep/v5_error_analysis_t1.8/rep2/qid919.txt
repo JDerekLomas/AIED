@@ -1,0 +1,14 @@
+To predict the performance of 200 Year 9 students on this question, we must look at the specific misconceptions associated with decimal arithmetic and the order of operations ($BIDMAS$).
+
+**Misconception Analysis:**
+*   **A ($0.81$):** This occurs when a student calculates $(3x)^2$. They multiply $3 \times 0.3$ to get $0.9$, then square it. This is a classic "left-to-right" error, ignoring $BIDMAS$ index priority.
+*   **B ($0.27$):** The correct answer. $0.3^2 = 0.09$, and $3 \times 0.09 = 0.27$. 
+*   **C ($1.8$):** This is a "multiplication instead of index" error. The student calculates $3 \times (0.3 \times 2)$. 
+*   **D ($2.7$):** This is the most common high-level error. The student knows the steps ($0.3^2$ then $\times 3$) but fails the decimal placement, thinking $0.3 \times 0.3 = 0.9$ rather than $0.09$.
+
+**Distribution Prediction:**
+
+below_basic: A=35% B=15% C=35% D=15%
+basic: A=25% B=25% C=15% D=35%
+proficient: A=10% B=55% C=5% D=30%
+advanced: A=2% B=92% C=1% D=5%

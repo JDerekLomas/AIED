@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item asks students to find the y-intercept of y=(x-8)(x-6). To solve, substitute x=0: y=(0-8)(0-6)=(-8)(-6)=48, giving (0,48) which is answer C.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." A student with this misconception would compute (-8)(-6)=-48 and choose D.
+
+Looking at the distractors:
+- A: (0,-14) -- student may have added -8 and -6 instead of multiplying, getting -14
+- B: (0,8) and (0,6) -- student confuses y-intercept with x-intercepts, and also gets the x-intercepts wrong (they should be 8 and 6 on the x-axis, not y-axis)
+- C: (0,48) -- correct
+- D: (0,-48) -- the target misconception, multiplying negatives incorrectly
+
+Comparing to calibration items: The factorising item (Tom and Katie) also tests "multiplying two negatives gives negative" and has classical difficulty 0.473 and IRT b=0.404. This item is somewhat similar but requires knowing how to find y-intercepts AND correctly multiplying negatives. The procedural demand is moderate -- substitute x=0, then multiply two negative numbers.
+
+The distractors are quite plausible. D directly targets the misconception. A catches students who add instead of multiply. B catches students who confuse intercept types. This should be a moderately difficult item, perhaps slightly harder than the factorising calibration item because it combines intercept knowledge with negative multiplication.
+
+I estimate classical difficulty around 0.50, IRT difficulty around 0.45. Discrimination should be decent since the distractors target specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

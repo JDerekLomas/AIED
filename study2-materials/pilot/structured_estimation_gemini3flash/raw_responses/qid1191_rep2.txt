@@ -1,0 +1,47 @@
+<chain_of_thought>
+The target item asks students to solve a linear equation with variables on both sides: \(20t - 5 = 5t + 10\).
+
+**Step-by-step solution:**
+1. Subtract \(5t\) from both sides: \(15t - 5 = 10\)
+2. Add 5 to both sides: \(15t = 15\)
+3. Divide by 15: \(t = 1\) (Option B)
+
+**Distractor Analysis:**
+- **A (\(t=0\)):** Could result from a variety of errors, possibly treating \(20t - 5t\) as \(15t\) and then \(10 - 5\) as \(5\), then concluding \(15t = 5\) and making an arithmetic error, or simply guessing.
+- **C (\(t=-1\)):** Could result from sign errors. For example, \(15t + 15 = 0 \Rightarrow 15t = -15\).
+- **D (\(t=1/5\)):** If a student gets to \(15t = 3\) or \(5t = 1\), or more likely, subtracts 10 from 5 to get 5 and then divides 15 by 3 (incorrectly) or 5 by 25.
+- **Misconception (Same operation):** If they use the same operation: \(20t + 5t = 25t\) and \(10 - 5 = 5\), then \(25t = 5 \Rightarrow t = 1/5\) (Option D).
+
+**Comparison with Calibration Items:**
+- Item 1 (\(-5 = p + 10\)): Classical difficulty 0.167. This was very difficult because it involves negative numbers and a simple one-step inverse that students often mess up.
+- Item 5 (\(2n + 3 \leq 3n - 7\)): Classical difficulty 0.569. This is an inequality but has a similar structure (variables on both sides).
+- The target item is a standard multi-step equation. It is more complex than Item 1 but more "standard" in its presentation than Item 5. The numbers (20, 5, 5, 10) are "friendly" and lead to a clean integer result (\(t=1\)), which usually increases the success rate compared to equations resulting in fractions or involving negatives at the start.
+
+**Psychometric Estimation:**
+- **Classical Difficulty:** Students find "variables on both sides" harder than one-step equations, but because the answer is \(t=1\), many will find it by inspection or substitution. I expect a p-value around 0.45 - 0.55.
+- **IRT Difficulty (b):** Based on the calibration items, a p-value of ~0.5 usually maps to a \(b\) parameter between 0.4 and 0.8.
+- **Discrimination (a):** Algebra items of this type usually discriminate well (around 1.2 - 1.4) as they clearly separate those who know the procedure from those who don't.
+- **Guessing (c):** Standard 4-choice MCQ. In algebra, guessing is often slightly lower than 0.25 because distractors are based on common misconceptions. I'll estimate 0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

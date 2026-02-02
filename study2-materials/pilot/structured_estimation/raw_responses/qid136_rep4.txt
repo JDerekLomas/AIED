@@ -1,0 +1,46 @@
+<chain_of_thought>
+Target item: Find two numbers whose product is -24.
+
+First, let me consider what students need to do:
+1. Understand "product" means multiplication
+2. Know the sign rules for multiplication (neg x neg = pos, neg x pos = neg)
+3. Verify the arithmetic for each option
+
+Working through options:
+A) -3 x -8: magnitude = 24, sign = positive. Result = +24, not -24.
+B) -4 x 6: magnitude = 24, sign = negative. Result = -24. Correct.
+C) -10 x -14: magnitude = 140, sign = positive. Result = +140, not -24.
+D) -3 x 9: magnitude = 27, sign = negative. Result = -27, not -24.
+
+The item has a layered structure: students could fail on vocabulary ("product"), sign rules, or arithmetic. This creates multiple pathways to incorrect answers, which is interesting psychometrically.
+
+Option A is the primary misconception-targeted distractor and it's very strong because the magnitude is correct. A student who simply ignores or misapplies sign rules and computes 3 x 8 = 24 will choose A confidently.
+
+Option D could attract students who get the sign right but miscalculate or don't bother checking 3 x 9.
+
+Thinking about the population: UK secondary students across ages 11-16. For Year 7 students this could be quite challenging; for Year 10+ it should be straightforward. Across the full age range, I'd expect maybe 35-45% incorrect.
+
+The calibration item with the same misconception (factorising, b = 0.404) is more complex. I'd place this item somewhat below that, perhaps b around 0.1-0.3. The discrimination should be solid since the misconception-targeting is clean, maybe around 1.2-1.4. Some guessing possible from option C being easily eliminated, effectively making it a 3-option item for attentive students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.28</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

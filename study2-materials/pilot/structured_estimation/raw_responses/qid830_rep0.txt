@@ -1,0 +1,33 @@
+<chain_of_thought>
+This item requires students to substitute x = 0.3 into the equation 2x + 3y = 12 and solve for y. The correct solution path is: 2(0.3) + 3y = 12, so 0.6 + 3y = 12, then 3y = 12 - 0.6 = 11.4, and y = 11.4/3 = 3.8 (answer D).
+
+The tested misconception is "uses the same operation rather than the inverse." A student making this error might add 0.6 instead of subtracting it, getting 3y = 12.6, then y = 4.2 (answer C). Another common error is substituting incorrectly by using x = 0.3 directly without multiplying by 2 first: 12 - 0.3 = 11.7, 11.7/3 = 3.9 (answer B). Answer A (4.1) could arise from (12 + 0.3)/3 = 12.3/3 = 4.1, combining both errors.
+
+Looking at the calibration examples, this item involves multiple concepts: substitution into a two-variable linear equation, decimal arithmetic, and multi-step algebraic rearrangement. The distractors are quite plausible because they are close in value (3.8 to 4.2) and each corresponds to a specific procedural error.
+
+Compared to calibration items: the equation-solving items range from classical difficulty 0.167 (simple one-step) to 0.569 (inequalities with variables on both sides). This item involves substitution plus solving, with decimal arithmetic adding cognitive load. I'd place it around the factorising item difficulty level — roughly 0.40-0.50 classical difficulty.
+
+The discrimination should be moderate to good since the distractors target specific misconceptions rather than random guessing. The guessing parameter should be relatively low since the numerical answers are specific.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

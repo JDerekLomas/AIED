@@ -1,0 +1,39 @@
+As an experienced teacher, I see this type of literal equation rearrangement (changing the subject of the formula) as a major stumbling block for students transitioning from GCSE Foundation to Higher tier.
+
+The volume of a sphere is $V = \frac{4}{3}\pi r^3$. Rearranging for $r$ involves three steps: multiplying by 3, dividing by $4\pi$, and cube rooting.
+
+### 1. Analysis of Wrong Answers
+
+**Option A: $\sqrt[3]{\frac{4 V \pi}{3}}$ (The Targeted Misconception)**
+*   **Reasoning:** When "moving" terms to the other side of the equals sign, the student maintains the operation used in the original formula instead of using the inverse. They see 4 and $\pi$ being multiplied, so they multiply $V$ by them; they see 3 being divided, so they divide the whole expression by 3.
+*   **Attractiveness:** High. This is a classic "copy-paste" error for students who haven't mastered the concept of balancing equations. It feels "right" because the same numbers appear in the same numerator/denominator relationship as the original formula.
+
+**Option B: $\sqrt[3]{\frac{4 V}{3 \pi}}$ (Selective/Partial Inverse)**
+*   **Reasoning:** The student knows they need to divide by $\pi$ because it’s on the "top," but they treat the fraction $\frac{4}{3}$ as a single entity and simply "move" it over as is. They might also mistakenly believe that because 4 is the coefficient, it stays with $V$, or they simply lose track of which parts of the fraction are being multiplied/divided.
+*   **Attractiveness:** Moderate. This often occurs when students use a "cross-multiplication" shortcut but apply it inconsistently, or if they struggle with fractions within equations.
+
+**Option D: $\frac{3 \sqrt[3]{V}}{4 \pi}$ (The "Outside-In" Error)**
+*   **Reasoning:** This student likely knows the steps (multiply by 3, divide by 4 and $\pi$) but performs them in a nonsensical order or forgets that the cube root must apply to the entire isolated expression. They might take the cube root of $V$ first and then attach the numbers as a linear coefficient.
+*   **Attractiveness:** Lower for proficient students, but common among those who struggle with BIDMAS/Order of Operations in reverse. It looks "neat" and scientific, which can lure students who are guessing.
+
+---
+
+### 2. Judging the Buggy Reasoning
+
+*   **Option A** is the most dangerous. For a student at the **Basic** level, the logic of "these are the numbers in the formula, they should stay in their places" is a very strong intuition. They won't notice they are wrong because the resulting expression looks like a valid formula.
+*   **Option B** is common among **Mid-ability** students who understand that $\pi$ needs to be moved via division but lack the fractional arithmetic confidence to flip $\frac{4}{3}$ to $\frac{3}{4}$.
+*   **Option D** usually signifies a student who understands the components of the formula but has zero experience with the process of "subject of" rearrangement.
+
+---
+
+### 3. Predicted Response Distribution
+
+| Level | A (Incorrect) | B (Incorrect) | C (Correct) | D (Incorrect) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 45% | 20% | 15% | 20% |
+| **Basic** | 40% | 25% | 20% | 15% |
+| **Proficient** | 15% | 15% | 60% | 10% |
+| **Advanced** | 2% | 3% | 93% | 2% |
+
+**Teacher’s Note:**
+The "Below Basic" and "Basic" groups are heavily drawn to **A** because it requires the least cognitive load—it’s just a visual rearrangement without logical inversion. "Proficient" students usually catch the mistake on Option A but often fall for **B** due to sloppy work with fractions. "Advanced" students almost always identify **C** instantly as it is a standard derivation they may even have memorised.

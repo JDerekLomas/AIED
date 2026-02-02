@@ -1,0 +1,26 @@
+In this scenario, the student correctly completes Step 1 but fails in Step 2. Here is the analysis of the specific mathematical misconception involved.
+
+### 1. The Misconception: "Change the Side, Change the Sign" Confusion (Sign Inversion Bug)
+The specific procedural error is the **misapplication of the additive inverse** during the process of isolating the variable. Students are often taught the shortcut "change the side, change the sign." The bug occurs when a student knows they must "move" a number but becomes confused about which operation to perform, or blindly applies an addition/subtraction operation based on visual cues rather than balancing the equation. In this specific case, the student sees a "$+1$" and instinctively adds it to the other side instead of subtracting it.
+
+### 2. Step-by-Step Walkthrough
+A student with this misconception would approach the problem as follows:
+
+*   **Step 1:** The student recognizes that the denominator (4) must be removed. They correctly identify that they need to multiply $15$ by $4$. 
+    *   *Calculation:* $15 \times 4 = 60$. 
+    *   *Result:* $60 = 1 + k$. This step is performed correctly.
+*   **Step 2:** The student now needs to isolate $k$. They see "$+ 1$" on the right side. Instead of performing the inverse operation (subtracting 1 from 60), the student's "buggy" rule suggests they should "combine" the 1 and the 60. Because they see a plus sign, they simply perform $60 + 1$.
+    *   *Calculation:* $60 + 1 = 61$.
+    *   *Result:* $k = 61$. 
+
+### 3. Answer Choice
+This misconception leads the student to select **Option A (Only step 1 is correct).**
+
+The student identifies that the result of Step 1 ($60 = 1 + k$) matches their own derivation, but since they calculated $k = 61$, they see Isaac's Step 2 ($61 = k$) as "correct" in their logic. However, since the question asks which of *Isaac's* steps are correct, and Isaac actually calculated $61$ in Step 2, the student concludes that both steps Isaac took match their own (flawed) logic. 
+
+*(Note: If the student is the one identifying Isaac's error, they would choose **A**, because they recognize Step 1 is mathematically sound but recognize that Step 2 should have been $k = 59$ if they were working correctly. If the student shares Isaac's bug, they would choose C.)*
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and very common in UK Year 9 classrooms.
+*   **Why it's natural:** In early mathematics, "addition" is often associated with "combining" any two numbers visible in the problem. Even though Year 9s move into algebra, under "exam pressure" or cognitive load, they often revert to "primitive" arithmetic strategies.
+*   **Lack of Self-Correction:** A student is unlikely to realize they went wrong unless they have the habit of **checking by substitution**. If the student plugged 61 back into the original equation, they would get $\frac{1+61}{4} = \frac{62}{4} = 15.5$. Because $15.5$ is so close to $15$, a student might assume they just made a minor rounding error or not check at all, as 61 "feels" like a reasonable, whole-number answer.

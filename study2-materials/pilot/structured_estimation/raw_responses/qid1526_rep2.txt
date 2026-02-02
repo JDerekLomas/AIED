@@ -1,0 +1,37 @@
+<chain_of_thought>
+Analyzing the fraction addition item: 3/5 + 2/7 = ?
+
+The correct procedure requires finding a common denominator. 5 and 7 are coprime, so LCD = 35. Then 3/5 = 21/35 and 2/7 = 10/35. Sum = 31/35, which is option B.
+
+The misconception tested is adding numerators and denominators: (3+2)/(5+7) = 5/12, option C. This is arguably the single most common fraction misconception worldwide. Research by Stafylidou and Vosniadou, and others, shows this persists even into secondary school.
+
+However, I want to think about whether this item might be easier than expected. The answer options provide a strong cue -- three of four answers have denominator 35, which might prompt students to think "I need denominator 35" even if they don't fully understand why. This could reduce the classical difficulty somewhat, as students might eliminate option C and then try to work out which of A, B, or D is correct.
+
+On the other hand, option D (5/35) is tempting for students who realize the denominator should be 35 but still just add the numerators (3+2=5). This is a sophisticated distractor.
+
+Looking at the calibration set, the inequality item (classical difficulty 0.569) involves algebraic manipulation which is harder conceptually. The BODMAS item (0.134) is surprisingly easy. I think fraction addition falls somewhere in between -- it's a fundamental skill but one that many students get wrong.
+
+I'll estimate classical difficulty around 0.45 -- slightly harder than average because of the strong pull of the misconception. The discrimination should be solid since this is a clean test of a specific concept. Guessing is likely low because students with misconceptions will systematically choose wrong answers rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

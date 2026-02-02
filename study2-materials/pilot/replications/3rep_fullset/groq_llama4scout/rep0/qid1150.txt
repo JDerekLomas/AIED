@@ -1,0 +1,36 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the potential pitfalls.
+
+The question asks students to rearrange the equation \(F = \frac{v^{2}}{r}\) to make \(v\) the subject. This involves solving for \(v\), which requires isolating \(v\) on one side of the equation.
+
+## Step 1: Understanding the Equation
+The given equation is \(F = \frac{v^{2}}{r}\). To solve for \(v\), the first step is to multiply both sides by \(r\), resulting in \(Fr = v^{2}\).
+
+## 2: Solving for \(v\)
+Next, to solve for \(v\), take the square root of both sides: \(v = \sqrt{Fr}\) or \(v = -\sqrt{Fr}\). However, since the question does not specify direction (and typically in such contexts, \(v\) might refer to speed, which is positive), we'll focus on the positive root: \(v = \sqrt{Fr}\) or more accurately for our purposes \(v = \sqrt{rF}\).
+
+## 3: Identifying the Correct Answer
+The correct rearrangement to make \(v\) the subject is \(v = \sqrt{rF}\), which corresponds to option C.
+
+## 4: Analyzing Potential Mistakes
+- Option A: \(v = rF^{2}\) suggests a misunderstanding of the operations needed to isolate \(v\).
+- Option B: \(v = \sqrt{\frac{F}{r}}\) incorrectly handles the \(r\) in the denominator.
+- Option D: \(v = r\sqrt{F}\) misinterprets the relationship between \(r\), \(F\), and \(v\).
+
+## 5: Predicting Student Responses
+- **Below Basic**: Students at this level might struggle with algebraic manipulation. They might incorrectly apply operations or forget steps. Option A could appeal due to a misapplication of exponent rules. Option B might be chosen due to confusion with the formula. Expect high rates of incorrect answers, with A and B potentially being popular due to simple errors.
+- **Basic**: Students here have a grasp of basic algebra but might make careless mistakes. They are more likely to choose B due to a common mistake of not properly handling the \(r\).
+- **Proficient**: These students understand algebra well and are less likely to make simple errors. They should predominantly choose C, with some potentially choosing B if they forget to multiply by \(r\) before taking the square root.
+- **Advanced**: Students at this level are highly competent in algebra and should easily identify C as the correct answer, with minimal errors.
+
+## 6: Estimating Percentages
+Given the analysis:
+- **Below Basic**: A=30% (simple mistake), B=40% (common algebraic error), C=20% (correct but struggling), D=10% (less common error).
+- **Basic**: A=10%, B=30%, C=50%, D=10%.
+- **Proficient**: A=5%, B=15%, C=75%, D=5%.
+- **Advanced**: A=0%, B=5%, C=90%, D=5%.
+
+The final answer is:
+below_basic: A=30% B=40% C=20% D=10%
+basic: A=10% B=30% C=50% D=10%
+proficient: A=5% B=15% C=75% D=5%
+advanced: A=0% B=5% C=90% D=5%

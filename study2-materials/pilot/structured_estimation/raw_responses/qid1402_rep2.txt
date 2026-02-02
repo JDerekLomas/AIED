@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing the target item: "Which statement correctly describes 3 + ab?"
+
+The expression 3 + ab means: first compute a * b, then add 3. The correct verbal description is A.
+
+Distractor analysis:
+- A (correct): "Add 3 to a multiplied by b" -- correctly identifies ab as the product, then adds 3.
+- B: "Add a and b then add three" -- interprets ab as a + b. This is a notation misunderstanding (not the targeted misconception). Probably weak.
+- C: "Add three to a and then multiply by b" -- interprets as (3 + a) * b. This IS the left-to-right misconception. Very plausible for students who don't respect BODMAS.
+- D: "Add three to b and then multiply by a" -- interprets as (3 + b) * a. Similar to C but with reversed variable roles. Less natural reading.
+
+The item is interesting because it doesn't require any calculation -- it's a pure test of whether students can parse algebraic notation. This is arguably harder than it looks because the verbal descriptions in options A and C are quite similar, and a student must carefully match the order of operations to the verbal phrasing.
+
+However, looking at the calibration set, the comparable item (calibration 2, same misconception) had only 13.4% incorrect. That was a computation problem. For a conceptual interpretation problem like this, I think the difficulty could be a bit higher because students need to carefully parse language. Maybe around 0.25 incorrect.
+
+On the other hand, option A is the first option and reads very naturally. Students who understand ab = a*b will immediately see A is correct without needing to analyze other options.
+
+I'll estimate classical difficulty around 0.22, placing the IRT difficulty around -0.10. Discrimination should be moderate -- perhaps around 1.3 -- because the verbal nature of the item introduces some noise (students might misread options even if they understand the math). Guessing is low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

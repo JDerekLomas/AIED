@@ -1,0 +1,41 @@
+<chain_of_thought>
+This item tests order of operations (BIDMAS/BODMAS) knowledge. The expression is 10 - 8 x 7 + 6, and students must identify which calculation to do first. The correct answer is C (8 x 7) because multiplication takes priority over addition and subtraction.
+
+Looking at the calibration items, the second calibration item tests the same misconception ("Carries out operations from left to right regardless of priority order") and has classical difficulty 0.134, IRT difficulty -0.245, and discrimination 1.552. That item involved decimals and fractions with order of operations, making it computationally harder but conceptually similar.
+
+This target item is simpler in some ways: it uses whole numbers and explicitly asks "which calculation should you do first?" rather than requiring students to compute the answer. This makes it a more direct test of whether students know the rule. However, the question format is quite clear and straightforward, which should make it easier.
+
+Distractor analysis:
+- A (7+6): Left-to-right error starting from the right, unlikely
+- B (10-8): Left-to-right error, very plausible for students who don't know BIDMAS
+- C (8x7): Correct - multiplication first
+- D (doesn't matter): Plausible for students who haven't encountered order of operations
+
+The misconception of left-to-right processing is extremely common among younger students. Option B is the most attractive distractor. Option D is also attractive for students who haven't learned BIDMAS at all.
+
+Given this is a direct conceptual question (not requiring computation), and BIDMAS is typically introduced early in secondary school, I'd expect this to be relatively easy - probably easier than the calibration item with the same misconception. The calibration item had difficulty 0.134, so I'd estimate this around 0.15-0.25, perhaps slightly harder because the distractors B and D are both quite attractive.
+
+I'll estimate classical difficulty around 0.18, IRT difficulty around -0.50. The discrimination should be reasonable since this cleanly separates students who know BIDMAS from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.50</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

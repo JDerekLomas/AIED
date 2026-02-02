@@ -1,0 +1,48 @@
+<chain_of_thought>
+This item asks students to expand (m-3)(m-2) using the distributive property (FOIL). Let me work through it:
+
+First: m*m = m^2
+Outer: m*(-2) = -2m
+Inner: (-3)*m = -3m
+Last: (-3)*(-2) = +6
+
+Result: m^2 - 2m - 3m + 6 = m^2 - 5m + 6, which is answer A.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." A student with this misconception would compute (-3)*(-2) = -6 instead of +6, yielding m^2 - 5m - 6, which is distractor D.
+
+Looking at the calibration examples: The factorising item (Tom and Katie) tested the same misconception and had classical difficulty 0.473 and IRT b = 0.404. That item required recognizing factored forms rather than performing the expansion directly. This target item is a direct expansion, which is a more standard textbook task, so it should be somewhat easier. However, the misconception about multiplying two negatives is quite common among younger students.
+
+Distractor analysis:
+- A: m^2 - 5m + 6 (correct)
+- B: m^2 - m - 6 (sign error on last term AND incorrect middle term, perhaps from (m-3)(m+2))
+- C: m^2 + 5m + 6 (all signs positive, as if expanding (m+3)(m+2))
+- D: m^2 - 5m - 6 (the target misconception: negative*negative = negative)
+
+The distractors are quite plausible. B represents a different common error. C might catch students who ignore the negatives. D directly targets the misconception.
+
+Comparing to calibration: The equation-solving items ranged from 0.167 to 0.569 classical difficulty. Expanding brackets is a core KS3/KS4 skill, and the sign rule misconception is well-documented. I'd estimate this is moderately difficult, similar to the Tom/Katie item but slightly easier since it's a direct computation rather than evaluating someone else's work.
+
+I'll estimate classical difficulty around 0.40, IRT difficulty around 0.25, discrimination around 1.3 (the misconception creates a clear separator between students who understand sign rules and those who don't), and guessing around 0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

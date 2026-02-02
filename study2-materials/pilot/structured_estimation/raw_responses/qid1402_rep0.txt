@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item asks students to interpret the algebraic expression 3 + ab and select the correct verbal description. The correct answer is A: "Add 3 to a multiplied by b," which respects order of operations (multiplication before addition).
+
+The misconception tested is "carries out operations from left to right regardless of priority order." Students who read 3 + ab left-to-right might interpret it as (3 + a) * b, which corresponds to option C or D.
+
+Looking at the calibration examples, the second calibration item tests the same misconception (order of operations with 0.4 - 1/5 x 3) and has classical difficulty 0.134 and IRT difficulty -0.245. That item involves numerical computation, while this item is purely about interpreting notation verbally, which may be somewhat easier or comparable.
+
+The distractors: B says "Add a and b then add three" which would be a + b + 3 -- this ignores multiplication entirely. C says "Add three to a and then multiply by b" = (3 + a) * b -- this is the classic left-to-right error. D says "Add three to b and then multiply by a" = (3 + b) * a -- similar left-to-right error but with roles swapped.
+
+C is the most plausible distractor since it directly reflects the left-to-right misconception. B is weak. D is moderately plausible but less natural.
+
+This is a fairly straightforward item testing understanding of algebraic notation and order of operations. It requires knowledge of BODMAS/BIDMAS and the convention that juxtaposition means multiplication. The concept complexity is low -- it's one expression with two operations. The abstraction level is moderate since it involves algebraic variables rather than numbers.
+
+Comparing to calibration: the order-of-operations item (calibration 2) was relatively easy at 0.134 incorrect. This item is conceptual rather than computational, which could make it slightly easier or harder depending on the student. I'd estimate it's somewhat easy, perhaps around 0.15-0.25 classical difficulty. The strong distractor C should catch some students, but many will recognize that ab means a*b which happens first.
+
+For discrimination, since the misconception is fairly clear-cut and the item cleanly separates those who understand order of operations from those who don't, I'd expect moderate-to-good discrimination, around 1.3-1.5. Guessing should be low since students who understand the concept will clearly pick A.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

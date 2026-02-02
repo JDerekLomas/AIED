@@ -1,0 +1,41 @@
+<chain_of_thought>
+The expression is 10 - 8 x 7 + 6 and the question asks which calculation to perform first. Correct answer: C (8 x 7), testing BIDMAS/order of operations.
+
+Let me approach this from a different angle. I want to think about the base rates in the calibration set and what patterns emerge.
+
+The calibration items range from classical difficulty 0.167 to 0.569, with corresponding IRT difficulty from -0.702 to 0.808. There's a rough positive correlation as expected. The easiest items involve single-step equation solving; the hardest involves inequality manipulation with multiple steps.
+
+The same-misconception calibration (0.4 - 1/5 x 3) has difficulty 0.134, making it the easiest in the calibration set. Order of operations appears to be well-understood by most students in this population.
+
+Now, this target item is different in character: it's metacognitive rather than computational. Students must identify the rule rather than apply it. Research on mathematical metacognition suggests that explicit rule identification can sometimes be harder than implicit application. A student might correctly compute 0.4 - 0.2 x 3 by habit but struggle to articulate why multiplication comes first.
+
+On the other hand, this question provides the answer options, making it recognition rather than recall. And option C is quite salient - multiplication "stands out" as different from the additions and subtractions.
+
+Balancing these considerations, I think the difficulty is comparable to the calibration item - perhaps slightly higher due to the metacognitive demand. I'll estimate classical difficulty 0.20, IRT difficulty -0.40.
+
+For discrimination: the item cleanly separates students on a single dimension (BIDMAS knowledge), so discrimination should be moderately high. The 4 options map to distinct student profiles: A (confused), B (left-to-right), C (correct), D (no awareness of precedence). This clean mapping should support good discrimination. I estimate a = 1.40.
+
+Guessing: with well-differentiated options, random guessing should be minimal. Perhaps c = 0.04.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.40</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

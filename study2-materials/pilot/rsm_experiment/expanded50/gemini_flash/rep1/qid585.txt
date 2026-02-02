@@ -1,0 +1,11 @@
+Error Analysis:
+A) Correct Answer. To find this, the student successfully eliminated a variable (e.g., doubling the first equation to get $8x+2y=14$, then subtracting to find $5x=10$) and substituted correctly to find $y=-1$.
+B) This choice comes from an "elimination by subtraction" error without scaling correctly. If a student simply subtracts the coefficients downwards $(4x-3x)$ and $(y-2y)$ and $(7-4)$, they get $x - y = 3$. If they then guess values that satisfy this specific (incorrect) deduction, such as $x=3, y=0$, or incorrectly solve the resulting system, they land here. It also satisfies the first equation $4(3) + (-5) = 7$, but fails the second. Students often check only one equation.
+C) This represents a "substitution without balancing" error or a calculation slip during division. If a student tries to eliminate $x$ by making both 12, but fails to multiply the constants or the $y$ terms correctly, they often end up with non-integer solutions. This specific answer stems from mistakenly calculating $5y=23$ or similar. It "looks" like a realistic answer for students who believe simultaneous equations should always be difficult/fractional.
+D) This stems from an additive error in elimination. Instead of subtracting the two equations after doubling the first $(8x+2y=14 \text{ and } 3x+2y=4)$, the student adds them to get $11x=18$, or makes a sign error during the subtraction ($7 - (-4)$ or similar). If they subtract the equations incorrectly as $5x = 50$, they arrive at $x=10$ and $y=-33$.
+
+Predictions:
+below_basic: A=30% B=40% C=20% D=10%
+basic: A=55% B=20% C=15% D=10%
+proficient: A=85% B=5% C=5% D=5%
+advanced: A=98% B=1% C=1% D=0%

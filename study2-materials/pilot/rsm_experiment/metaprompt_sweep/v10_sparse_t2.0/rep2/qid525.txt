@@ -1,0 +1,23 @@
+Here is a prediction of student responses based on typical UK Key Stage 3 and GCSE misconceptions regarding fractions.
+
+**Teacher Analysis of Distractors:**
+*   **A ($ \frac{99}{20} $):** The correct value, but in improper fraction form. Students who ignore the instruction "Leave your answer as a mixed number" will pick this.
+*   **B ($ 4 \frac{19}{20} $):** The correct answer.
+*   **C ($ \frac{99}{40} $):** Common "Adding Denominators" error combined with improper conversion ($10 \times 4$ for denominator).
+*   **D ($ 4 \frac{8}{14} $):** The most common low-ability error: adding the whole numbers ($2+2=4$) and then simply adding the numerators ($7+1=8$) and the denominators ($10+4=14$).
+
+---
+
+### **Predicted Student Responses**
+
+**below_basic: A=5% B=15% C=30% D=50%**
+Students at this level almost always apply "add across" logic. They will see the whole numbers as separate, add them to get 4, and then treat the fractions as independent numbers, adding $7+1$ and $10+4$. This leads them directly to option D.
+
+**basic: A=10% B=40% C=20% D=30%**
+Students at this level know they need a common denominator but often struggle to find the Least Common Multiple (LCM), frequently just multiplying the denominators ($40$). Some will still fall for the "add across" trap of option D, but many will attempt the calculation and get lost halfway, potentially picking C or B by fluke.
+
+**proficient: A=20% B=70% C=5% D=5%**
+Proficient students know the method (either converting to improper first or adding wholes and fractions separately). The main "trap" for them is Option A. They do the hard work, reach $\frac{99}{20}$, and then choose the first option that matches their numerical value without re-reading the "mixed number" constraint.
+
+**advanced: A=5% B=95% C=0% D=0%**
+Advanced students will immediately identify $20$ as the common denominator ($4 \frac{14}{20} + \frac{5}{20}$). They are highly attentive to the specific formatting instructions of the question. A very small minority might click A through haste.

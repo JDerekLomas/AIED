@@ -1,0 +1,43 @@
+This equation, though seemingly simple, is a "classic" diagnostic tool because the variable is in the denominator. This configuration often breaks the standard "flow" of operation-inversion that students learn for linear equations.
+
+### 1. Analysis of Wrong Answers
+
+**Option B: $p = 50$ (The Known Misconception)**
+*   **Reasoning:** The student sees the number 10 on the left and 5 on the right. They recognise that "solving" usually involves moving numbers to the same side. Following the specific misconception: they see $10 = \dots/5$ (visually misinterpreting the position) or simply decide to combine the 10 and 5 using the operation present in the question (multiplication/division context) without inverting. They perform $10 \times 5 = 50$. 
+*   **Attractiveness:** High for students who rely on "number grabbing" (taking the two visible integers and performing an operation). It feels like progress because 50 is a "neat" result.
+
+**Option C: $p = 2$**
+*   **Reasoning:** This is a "commutativity error" or "larger-by-smaller" error. The student recognizes that division is required but simply divides the larger number by the smaller number ($10 \div 5$). They ignore the actual structure of the equation $\frac{5}{p}$ and treat it as $p = 10 \div 5$.
+*   **Attractiveness:** Extremely high. Many students are conditioned to believe division must result in an integer or that you always divide the "number on its own" by the "coefficient." This feels like a "safe" answer.
+
+**Option D: There are no solutions**
+*   **Reasoning:** The student knows $10 = 5 \div p$. They may try to find an integer for $p$. Since $5 \div 1 = 5$ and $5 \div 2 = 2.5$, the numbers are getting smaller. They may conclude that you can't divide 5 by something to get a *larger* number (10). This stems from the misconception that "division always makes things smaller."
+*   **Attractiveness:** Low to Moderate. This is usually a "panic" option for students who can't figure out the mechanics and feel that the equation is "backwards" or impossible.
+
+---
+
+### 2. Judging Attractiveness
+
+*   **Option C ($p=2$) is the most "dangerous" distractor.** It yields a whole number, follows the heuristic of "divide the numbers you see," and is the result of the most common processing error for fractions in equations. Students will not notice they are wrong because the calculation $10/5$ is so fluent.
+*   **Option B ($p=50$) is highly attractive to lower-attainment students** who have been taught "if it's divide, you multiply," but they apply it to the numerator (10 and 5) rather than the variable.
+*   **The Correct Answer (Option A, $p=0.5$) is counter-intuitive** to many because it results in a value smaller than both constants in the equation, which contradicts many students' "common sense" about how division works.
+
+---
+
+### 3. Predicted Response Distribution
+
+**below_basic:** 
+*Students at this level often guess or perform a single operation on the visible integers.*
+A=10% B=45% C=35% D=10%
+
+**basic:**
+*Students know division is involved but fall for the $10/5$ trap or struggle with $p$ in the denominator.*
+A=25% B=20% C=50% D=5%
+
+**proficient:**
+*Students can usually handle $10 = 5p$, but $10 = 5/p$ still causes significant friction. Many will check their work and realize $5/2$ is not 10, leading them toward A.*
+A=65% B=5% C=25% D=5%
+
+**advanced:**
+*Students treat this as a two-step rearrangement ($10p = 5$) or instinctively know that to double a number (to get to 10), you must divide by 0.5.*
+A=92% B=2% C=5% D=1%

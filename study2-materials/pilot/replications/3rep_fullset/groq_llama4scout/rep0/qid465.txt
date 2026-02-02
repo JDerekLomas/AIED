@@ -1,0 +1,44 @@
+To approach this question, let's first understand what a quadratic sequence is. A quadratic sequence is a sequence of numbers in which the difference between consecutive terms changes linearly. In other words, if you take the differences between consecutive terms, and then take the differences of those differences, the second set of differences should be constant for it to be a quadratic sequence.
+
+## Step 1: Analyze Tom's Sequence
+Tom's sequence is \(3, 5, 10, 17, 26, \ldots\). Let's calculate the differences between consecutive terms:
+- \(5 - 3 = 2\)
+- \(10 - 5 = 5\)
+- \(17 - 10 = 7\)
+- \(26 - 17 = 9\)
+
+The differences between consecutive terms are \(2, 5, 7, 9, \ldots\). Now, let's calculate the differences of these differences:
+- \(5 - 2 = 3\)
+- \(7 - 5 = 2\)
+- \(9 - 7 = 2\)
+
+Since the second differences are not constant (they are \(3, 2, 2\)), Tom's sequence is not quadratic based on the strict definition that requires a constant second difference.
+
+## 2: Analyze Katie's Sequence
+Katie's sequence is \(3, 6, 12, 24, 48, \ldots\). This sequence can be recognized as obtained by multiplying the previous term by \(2\), which makes it a geometric sequence, not a quadratic sequence. 
+
+## 3: Determine the Nature of Each Sequence
+- Tom's sequence is not quadratic because it doesn't have a constant second difference.
+- Katie's sequence is geometric, not quadratic.
+
+## 4: Predict Student Responses
+Given the sequences:
+- Tom's sequence: \(3, 5, 10, 17, 26, \ldots\) is actually a quadratic sequence because its second differences are nearly constant but let's re-evaluate properly: The first differences are \(2, 5, 7, 9\), and the second differences are \(3, 2, 2\). Although not perfectly constant, many might mistakenly identify it as quadratic due to increasing differences.
+- Katie's sequence: \(3, 6, 12, 24, 48, \ldots\) is clearly geometric, not quadratic.
+
+## 5: Assess Misconceptions and Difficulty
+The difficulty lies in accurately identifying sequences. Students might struggle with:
+- Recognizing Tom's sequence as potentially quadratic due to its increasing differences.
+- Identifying Katie's sequence as not quadratic (or not recognizing geometric sequences as non-quadratic).
+
+## 6: Estimated Student Responses
+- **Below Basic**: These students might not understand quadratic sequences well. They might incorrectly identify both or neither. Given the clear geometric nature of Katie's sequence and the debatable nature of Tom's, \(A=20\%\), \(B=10\%\), \(C=20\%\), \(D=50\%\).
+- **Basic**: Students here have a foundational understanding but might make mistakes. They could recognize Katie's as non-quadratic but be unsure about Tom's, \(A=30\%\), \(B=15\%\), \(C=15\%\), \(D=40\%\).
+- **Proficient**: These students understand quadratic sequences and can identify them. They might see Tom's sequence as potentially quadratic and Katie's as not, \(A=40\%\), \(B=10\%\), \(C=20\%\), \(D=30\%\).
+- **Advanced**: Advanced students can accurately analyze sequences. They know Tom's sequence is not perfectly quadratic by strict definition and Katie's is geometric, \(A=5\%\), \(B=5\%\), \(C=5\%\), \(D=85\%\).
+
+The final answer is:
+below_basic: A=20% B=10% C=20% D=50%
+basic: A=30% B=15% C=15% D=40%
+proficient: A=40% B=10% C=20% D=30%
+advanced: A=5% B=5% C=5% D=85%

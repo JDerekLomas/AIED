@@ -1,0 +1,15 @@
+This question specifically tests the Order of Operations (BIDMAS/BODMAS). The complexity arises from the visual similarity of the numbers on both sides, which triggers a common "left-to-right" calculation impulse in weaker students.
+
+For the left side ($8 + 12 \div 4$), the common error is to perform $8 + 12$ first to get $20 \div 4 = 5$. If a student makes this error, they see $5$ on both sides and choose C (=).
+For the right side ($(8 + 12) \div 4$), the brackets force the addition first, resulting in $20 \div 4 = 5$.
+Correct calculation: Left side is $8 + 3 = 11$. Since $11 > 5$, the answer is A.
+
+**Below Basic:** These students almost universally calculate left-to-right. They will see $20 \div 4$ on the left and $20 \div 4$ on the right, making C a very high-frequency "trap" answer.
+**Basic:** Students have heard of BIDMAS but often forget to apply it when the addition comes first. Many will still fall for the visual symmetry and choose C, though some will correctly identify the left side as 11.
+**Proficient:** These students usually remember to divide before adding. Most will calculate 11 vs 5 and correctly choose A.
+**Advanced:** These students will identify the structure immediately without needing to perform full calculations.
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

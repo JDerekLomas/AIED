@@ -1,0 +1,28 @@
+{
+  "n_items": 1868,
+  "model_accuracy": 0.6263383297644539,
+  "correlations": {
+    "answer_prob_vs_difficulty": {
+      "r": -0.007466807914705376,
+      "p": 0.7470689044811192
+    },
+    "answer_entropy_vs_difficulty": {
+      "r": 0.016129385046662857,
+      "p": 0.48599268344485513
+    },
+    "consistency_vs_difficulty": {
+      "r": -0.010128274563353246,
+      "p": 0.6617734767093029
+    },
+    "uncertainty_vs_difficulty": {
+      "r": 0.007466807914705371,
+      "p": 0.7470689044811192
+    }
+  },
+  "prediction_metrics": {
+    "uncertainty_rmse": 0.32731278354097015,
+    "uncertainty_mae": 0.2828458404276516,
+    "baseline_rmse": 0.1582977581070501,
+    "improvement_pct": -106.77032161101252
+  }
+}

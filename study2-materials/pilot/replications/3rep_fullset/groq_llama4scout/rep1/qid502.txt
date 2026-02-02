@@ -1,0 +1,24 @@
+To approach this question, let's first analyze the factorisation methods described by Jo and Paul and assess their validity.
+
+## Step 1: Analyze Jo's method for factorising \( x^{2} - 4x \)
+Jo is factorising \( x^{2} - 4x \). The correct method involves finding two numbers that multiply to \( 0 \) (the constant term, which is implicitly 0 here) and add to \( -4 \) (the coefficient of \( x \)). However, for a quadratic in the form of \( x^{2} + bx + c \), we look for numbers that add to \( b \) and multiply to \( c \). For \( x^{2} - 4x \), we can factor out an \( x \) to get \( x(x - 4) \). Jo's approach seems to misunderstand the process for this specific quadratic since she looks for numbers that multiply to \( -4 \) and add to \( 0 \), which actually works because the numbers are \( -4 \) and \( 0 \) (since \( -4 \times 0 = 0 \) and \( -4 + 0 = -4 \)), but her description might be slightly misleading without considering the \( x \) factored out.
+
+## 2: Analyze Paul's method for factorising \( x^{2} - \frac{4}{25} \)
+Paul is factorising \( x^{2} - \frac{4}{25} \). This can be seen as a difference of squares: \( x^{2} - (\frac{2}{5})^{2} \), which factors into \( (x - \frac{2}{5})(x + \frac{2}{5}) \). Paul's method involves trying to think of two numbers that multiply together to give \( -\frac{4}{25} \) and add together to give \( 0 \) (since there's no linear term, implying its coefficient is 0). The numbers \( \frac{2}{5} \) and \( -\frac{2}{5} \) multiply to \( -\frac{4}{25} \) and add to \( 0 \), making Paul's description essentially correct for his case.
+
+## 3: Assess Jo's and Paul's correctness
+- Jo's method, although somewhat awkwardly described, can be seen as correct because she is essentially looking for factors of \( -4x \) in a form that leads to \( x(x - 4) \).
+- Paul's method is correct because he identifies numbers that multiply to \( -\frac{4}{25} \) and add to \( 0 \), aligning with factorising \( x^{2} - \frac{4}{25} \) into \( (x - \frac{2}{5})(x + \frac{2}{5}) \).
+
+## 4: Determine the percentage of students at each ability level who would choose each option
+Given the nature of the question and typical student understanding:
+- **Below Basic**: Students might struggle to understand the factorisation process. They might incorrectly apply methods or not understand the question. Let's assume they have a low chance of correctly identifying both as correct or either as incorrect based on misunderstanding the concepts. \( A = 20\% \), \( B = 20\% \), \( C = 30\% \), \( D = 30\% \)
+- **Basic**: Basic level students understand simple factorisation but might be confused by the descriptions. They might see Jo's method as plausible but struggle with Paul's fractional numbers. \( A = 30\% \), \( B = 20\% \), \( C = 40\% \), \( D = 10\% \)
+- **Proficient**: Proficient students understand factorisation well and can see the validity in both Jo's and Paul's methods given their specific examples. They are less likely to be confused. \( A = 5\% \), \( B = 5\% \), \( C = 80\% \), \( D = 10\% \)
+- **Advanced**: Advanced students not only understand the methods but can also quickly identify the correctness of each statement. They would easily recognise both methods as essentially correct given their contexts. \( A = 0\% \), \( B = 0\% \), \( C = 95\% \), \( D = 5\% \)
+
+The final answer is:
+below_basic: A=20% B=20% C=30% D=30%
+basic: A=30% B=20% C=40% D=10%
+proficient: A=5% B=5% C=80% D=10%
+advanced: A=0% B=0% C=95% D=5%

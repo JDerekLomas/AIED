@@ -1,0 +1,18 @@
+This question tests a student's ability to rearrange a formula involving a cube root, a fraction, and the constant $\pi$. While the formula for the volume of a sphere ($V = \frac{4}{3}\pi r^3$) is usually provided or memorized, the algebraic manipulation required to isolate $r$ is a common stumbling block.
+
+**Analysis:**
+1.  **The Fraction Flip:** The most common error is failing to correctly multiply by the denominator (3) and divide by the numerator (4). This leads students to Option B ($\frac{4}{3\pi}$).
+2.  **The Placement of $\pi$:** Students often struggle with whether $\pi$ is in the numerator or denominator. Those who treat $\frac{4}{3}\pi$ as a single term to be "divided away" often incorrectly end up with versions like Option A if they rush the reciprocal.
+3.  **Algebraic Order:** Option D represents a fundamental misunderstanding of the order of operations, where the cube root is applied only to $V$ before the coefficients are dealt with.
+4.  **Target (C):** This is the correct rearrangement: $3V = 4\pi r^3 \Rightarrow \frac{3V}{4\pi} = r^3 \Rightarrow \sqrt[3]{\frac{3V}{4\pi}} = r$.
+
+**Student Performance Prediction:**
+- **Below Basic:** These students often guess or pick options that "look" like the formula components. Option A and B are very popular here because they maintain the $4/3$ or $4\pi/3$ look.
+- **Basic:** Students at this level know the formula but often make one algebraic slip—most commonly failing to move the 3 to the numerator, leading them to Option B.
+- **Proficient:** Most students at this level can perform the three-step rearrangement ($ \times 3, \div 4, \div \pi, \sqrt[3]{}$) correctly, though a significant minority will swap the 3 and 4.
+- **Advanced:** These students will identify the correct rearrangement almost instantly, though 5% may make a "silly" transcription error under exam pressure.
+
+below_basic: A=25% B=35% C=20% D=20%
+basic: A=15% B=30% C=45% D=10%
+proficient: A=5% B=15% C=75% D=5%
+advanced: A=1% B=2% C=96% D=1%

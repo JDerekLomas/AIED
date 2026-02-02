@@ -1,0 +1,45 @@
+<chain_of_thought>
+Item: Expand -(2 - 3p), correct answer D: -2 + 3p.
+
+This is fundamentally about two things: (1) understanding that the negative sign outside means multiply by -1, and (2) correctly applying sign rules when multiplying negatives.
+
+Let me think about difficulty from a different angle - by considering what proportion of students at each ability level would get this right.
+
+Low-ability students: Many would pick A (just removing brackets) or guess. Some might pick B.
+Medium-ability students: This is where the misconception bites hardest. Students who partially understand expansion will correctly get -2 for the first term but stumble on -(-3p). Many will select B.
+High-ability students: Should handle this correctly, selecting D.
+
+The item has a subtlety: the expression is written as -(2 - 3p) rather than -1(2 - 3p). Some students may not even recognize this as an expansion problem, which could lead to answer A (thinking the negative and brackets are separate/ignorable).
+
+Looking at the calibration anchor for the same misconception (factorising, 0.473 difficulty): that required students to check Katie's factorisation of x^2 - 5x - 6, which is a higher-level task. This expansion task is more procedural and direct. However, the misconception about double negatives is extremely common.
+
+I think classical difficulty might be around 0.50 - this could be harder than I initially thought because: (1) the notation -(expression) without an explicit coefficient is less familiar, (2) the double negative is genuinely confusing, and (3) distractor B is very tempting.
+
+Actually, on reflection, expanding a single negative bracket is quite standard. I'll estimate 0.40-0.48.
+
+For discrimination: the item cleanly separates those who understand sign rules from those who don't, but the fact that lower-ability students might pick A rather than B could reduce discrimination slightly. I'll estimate around 1.2-1.3.
+
+Guessing: with 4 options and plausible distractors, guessing should be relatively low, maybe 0.10-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.13</guessing_probability>
+</predictions>

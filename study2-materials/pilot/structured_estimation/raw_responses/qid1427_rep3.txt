@@ -1,0 +1,40 @@
+<chain_of_thought>
+The target item shows Isaac's working going from "x + 7 = ..." to "x = ..." with a star representing the unknown operation. Students must select -7 (option D).
+
+This is fundamentally testing whether students understand that solving an equation requires applying inverse operations. The misconception being tested -- using the same operation rather than the inverse -- appears in three of the five calibration items, giving me good anchoring data.
+
+Key consideration: this item is unusual because it's purely about identifying the operation, not performing any calculation. It's almost like a "reading comprehension" task about equation solving. The mathematics itself is trivial -- there's no arithmetic to do at all. The challenge is entirely conceptual: do you understand that +7 is undone by -7?
+
+Thinking about the student population (ages 11-16, UK secondary): inverse operations for addition/subtraction is typically introduced in Year 7 (age 11-12) and reinforced throughout. By age 13-14, most students should have this firmly established. The wide age range in the sample means many students will find this trivially easy.
+
+The visual format with the arrow and star is a common pedagogical representation in UK maths textbooks (similar to function machines and bar models). Most students should be familiar with it. However, the image-dependency means if the image doesn't render well or is ambiguous, clarity suffers.
+
+Distractor analysis:
+- A (+7): Strong misconception distractor, will attract students who think "there's a +7 so the operation is +7"
+- B (x7) and C (/7): Weak distractors, mostly for random guessing
+- D (-7): Correct
+
+Given this is simpler than the easiest calibration item (which required computation), I expect very low difficulty. The proportion incorrect might be as low as 0.08-0.12, though the image-based format might push it to 0.15. IRT difficulty should be notably negative. Discrimination should be good but perhaps slightly lower than the calibration items because of potential floor effects (too easy for most students to discriminate well at higher ability levels).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>1</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>4</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.11</classical_difficulty>
+<irt_difficulty>-0.95</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

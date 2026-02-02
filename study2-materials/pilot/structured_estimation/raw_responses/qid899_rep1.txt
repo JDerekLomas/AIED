@@ -1,0 +1,36 @@
+<chain_of_thought>
+The target item presents the expression 10 - 8 x 7 + 6 and asks which calculation should be performed first. This is a straightforward test of BIDMAS/BODMAS understanding, specifically whether students know multiplication has higher priority than addition or subtraction.
+
+Let me compare to the calibration set. The closest match is the second calibration item (0.4 - 1/5 x 3) which tests the same misconception. That item had classical difficulty 0.134 and IRT difficulty -0.245. However, that item required actual computation with decimals and fractions, while this item only asks students to identify the first step. On one hand, this makes it conceptually purer and easier. On the other hand, the calibration item's low difficulty might reflect that computation-focused items allow partial credit through lucky guessing of the final answer.
+
+Thinking about the distractors:
+- B (10-8) will attract students who read left-to-right, which is the targeted misconception
+- D (doesn't matter) will attract students who have no awareness of operation priority
+- A (7+6) seems least attractive but might catch students who think you work right-to-left
+
+The question is very clearly worded. The expression uses simple integers. No diagrams or complex notation needed. This is solidly within KS3 curriculum (ages 11-14).
+
+Since this is asking about the rule rather than applying it in a complex computation, and since order of operations is a fundamental and well-taught topic, I expect this to be on the easier side. But the misconception is genuinely common, especially among Year 7-8 students, so it won't be trivially easy. I'll estimate around 0.22 classical difficulty. The item should discriminate well because it cleanly tests a single concept.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.55</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

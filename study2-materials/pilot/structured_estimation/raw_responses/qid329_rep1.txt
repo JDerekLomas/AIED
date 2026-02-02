@@ -1,0 +1,43 @@
+<chain_of_thought>
+Let me work through this item carefully.
+
+The expression is 0.1 - 0.2 / 0.3.
+
+By BIDMAS/BODMAS (the UK convention), division comes before subtraction. So the correct evaluation is: first compute 0.2 / 0.3 = 0.6667, then 0.1 - 0.6667 = -0.5667.
+
+Tom's claim: 0.1 - 0.2 / 0.3 = 0.1 - (0.2 / 0.3). The parentheses make the priority explicit. This is correct -- it matches the standard order of operations.
+
+Katie's claim: 0.1 - 0.2 / 0.3 = 0.2 / 0.3 - 0.1. Katie seems to be saying you can rearrange by moving the division part to the front. But 0.2/0.3 - 0.1 = 0.5667, which is not equal to -0.5667. The subtraction is not commutative here. Katie is wrong.
+
+The correct answer is A (Only Tom).
+
+Now thinking about difficulty. The tested misconception is doing operations left to right. A student making this error would compute (0.1 - 0.2)/0.3 = -0.1/0.3 = -0.333. They might then think neither Tom nor Katie is correct, or get confused.
+
+But there's another layer: even students who understand BIDMAS might think Katie is also correct because she "did the division first." The subtle error in Katie's statement -- swapping the order of the subtraction -- requires careful attention. This makes the item trickier than a straightforward order of operations problem.
+
+Looking at the calibration set, the similar BIDMAS item had difficulty 0.134. But that was a direct computation. The Tom/Katie evaluative format adds complexity. The factorising Tom/Katie item had difficulty 0.473. I'd place this somewhere in between, maybe around 0.30-0.35, since the underlying concept (order of operations) is simpler than factorising, but the evaluative format and Katie's subtle error add difficulty.
+
+For discrimination, the BIDMAS calibration item had a = 1.552, which was quite high. This item should also discriminate well since it cleanly separates students who truly understand order of operations from those who have a surface-level understanding. I'll estimate around 1.40.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

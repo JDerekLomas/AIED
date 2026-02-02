@@ -1,0 +1,20 @@
+Okay, let's break this down from a Year 9 perspective after marking 200 papers. This question tests understanding of negative numbers, indices, and order of operations, specifically \( (-3)^4 \) vs \( -3^4 \).
+
+**Analysis of Errors:**
+
+*   **A) 81:** Correct answer. Requires understanding that a negative number raised to an even power results in a positive number. \( (-3) \times (-3) \times (-3) \times (-3) = 9 \times 9 = 81 \).
+*   **B) 12:** Misunderstanding of indices. Treating \( k^4 \) as \( k \times 4 \). So, \( -3 \times 4 = -12 \). But wait, it's 12. This suggests a *double error*: \( k \times 4 \) *and* ignoring the negative sign or thinking it should always be positive in this context without real justification. Alternatively, it could be a calculation error after trying to do \( (-3) \times 4 \), getting -12 and writing 12 by mistake. Unlikely to be a direct target answer, but often seen from struggling students.
+*   **C) -81:** The classic error. Understanding that \( 3^4 = 81 \), but failing to correctly apply the rule for negative bases. This often comes from treating \( -3^4 \) as \( -(3^4) \) rather than \( (-3)^4 \). Students forget or don't know that the exponent applies *only* to the base immediately next to it, unless parentheses are used. So they see \( -3^4 \) and think "minus, then 3 to the power of 4". Very common error for students who haven't explicitly been taught or practiced enough with negative bases and brackets.
+*   **D) -12:** Another classic error. Combining the multiplication error (thinking \( k^4 = k \times 4 \)) with correct application of the negative sign (so \( -3 \times 4 = -12 \)). This is a very "attractive" wrong answer for the lower ability students.
+
+**Ability Levels and Predictions:**
+
+*   **Below Basic:** Often make fundamental errors with both indices and negative numbers. Calculation slips are common. They are highly susceptible to "k x 4" thinking.
+*   **Basic:** Understand what an index is (e.g., \( 3^4 = 81 \)), but struggle *significantly* with negative signs, especially in powers. They'll know it's *not* 12 but likely fall for -81.
+*   **Proficient:** Generally understand indices and negative numbers, but the \( (-k)^n \) vs \( -(k^n) \) distinction can still trip them up if they haven't seen it recently or focused. Most will get it, but a notable percentage will make the -81 error.
+*   **Advanced:** Fully grasp the rules of indices, order of operations, and negative numbers. They should consistently identify \( (-3)^4 \) as positive. The error of \( -81 \) is highly unlikely unless they rushed or made a silly transcription error.
+
+below_basic: A=10% B=15% C=30% D=45%
+basic: A=25% B=5% C=60% D=10%
+proficient: A=70% B=0% C=30% D=0%
+advanced: A=95% B=0% C=5% D=0%

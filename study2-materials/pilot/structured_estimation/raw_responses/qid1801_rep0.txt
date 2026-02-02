@@ -1,0 +1,33 @@
+<chain_of_thought>
+This item asks students to solve a compound (double) inequality: -5 < 2x + 1 < 5. The correct procedure is to subtract 1 from all three parts, giving -6 < 2x < 4, then divide all parts by 2, giving -3 < x < 2 (answer B).
+
+The misconception tested is "uses the same operation rather than the inverse." A student making this error might add 1 instead of subtracting, getting -4 < 2x < 6, then dividing by 2 to get -2 < x < 3. Looking at the distractors, option C is -2 < x < 2, which could come from adding 1 on the left side but subtracting on the right, or some partial error. Option A (-9 < x < 11) seems to come from multiplying by 2 instead of dividing, after some arithmetic errors. Option D (-3.5 < x < 1.5) could arise from subtracting 1 but then not dividing, or dividing incorrectly.
+
+Comparing to calibration items: The calibration item about solving 2n+3 <= 3n-7 had classical difficulty 0.569 and IRT b=0.808. That involved rearranging with variables on both sides. This compound inequality is arguably harder because students must handle three parts simultaneously and perform two operations. However, the algebraic steps are more straightforward (no variable on both sides).
+
+The compound inequality format is somewhat unusual - it's a transfer from standard single inequalities. Students need prerequisite knowledge of inequalities, operations on all parts, and algebraic manipulation.
+
+I'd estimate this is moderately difficult to hard. The distractors are reasonably plausible, especially C which is close to the correct answer. I'll estimate classical difficulty around 0.55-0.65, placing it similar to or slightly harder than the 2n+3 <= 3n-7 item.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.58</classical_difficulty>
+<irt_difficulty>0.72</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

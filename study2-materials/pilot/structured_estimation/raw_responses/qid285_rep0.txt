@@ -1,0 +1,44 @@
+<chain_of_thought>
+This item asks students to rearrange F = r * omega^2 to make omega the subject. Let me work through the solution and analyze the distractors.
+
+Correct solution: F = r * omega^2 -> F/r = omega^2 -> omega = sqrt(F/r), which is option B.
+
+Distractor analysis:
+- Option A: omega = rF^2. This seems like a student who has no understanding of rearranging and just rearranges symbols randomly. Not very plausible for students who have some algebraic knowledge.
+- Option B: Correct. Divide by r, then take square root.
+- Option C: omega = sqrt(rF). Student may have multiplied both sides by r instead of dividing, or failed to properly isolate omega^2 first. This reflects using the same operation rather than the inverse (multiplication instead of division).
+- Option D: omega = sqrt(F)/r. Student took the square root of both sides but only applied it to F, not to r. Or they divided by r after taking the square root incorrectly. This is a partial understanding error.
+
+The misconception tested is "uses the same operation rather than the inverse." Option C most directly tests this — the student multiplies by r instead of dividing.
+
+Comparing to calibration items:
+- The equation-solving items range from easy (p+10=-5, difficulty 0.167) to hard (inequality, 0.569).
+- This item involves rearranging a formula with a squared term, which is more advanced. It requires knowledge of inverse operations for both multiplication and squaring. This places it at the harder end.
+- The factorising item (0.473 difficulty) involves similar conceptual complexity. This item likely sits around 0.50-0.60 difficulty given the additional abstraction of literal symbols (no numbers) and the squared variable.
+
+The item uses purely algebraic notation with no concrete numbers, increasing abstraction. The two-step nature (divide then square root) adds cognitive load. This is appropriate for GCSE-level (ages 14-16) but would be challenging for younger students.
+
+IRT discrimination should be moderate-to-good since the distractors target specific misconceptions, but option A is weak. I'd estimate around 1.1-1.3. Some guessing is likely given 4 options and the difficulty level, perhaps c around 0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.62</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

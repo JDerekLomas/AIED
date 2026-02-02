@@ -1,0 +1,28 @@
+Here's my prediction based on marking many such papers:
+
+**Analysis of Errors:**
+
+*   **Correct Answer (B: 4):** Requires correct order of operations (BODMAS/PEMDAS). $3 - 5 + (4 \times 2) = 3 - 5 + 8 = -2 + 8 = 4$.
+*   **A) 6:**
+    *   Likely scenario 1: Reads left to right for addition/subtraction, then does multiplication last. $3-5=-2$. $-2+4=2$. $2 \times 2 = 4$. This is close but not quite.
+    *   Likely scenario 2: $3-5=-2$. $-2+4 \times 2 = -2+8 = 6$. (Error: Does the multiplication, then adds the first *number* instead of *result* from the first two parts). No, this is $(3-5+4)\times 2$ or similar. Let's re-evaluate.
+    *   More plausible for 6: $(3-5)+4 \times 2 \rightarrow -2+8=6$. (Mistake is in final arithmetic $ -2+8 = 6$ instead of $4$). Or they are doing $(3+4) \times 2 - 5$? No.
+    *   Let's think. If they do $3-5=-2$, then $-2+4=2$, then $2\times 2=4$. That's wrong.
+    *   Alternative for A=6: Maybe $3-(5+4) \times 2$? No.
+    *   Perhaps $3-5=-2$. Then $4\times 2=8$. And they add $-2+8=6$. Ah, this means they did $3-5=-2$, then $4 \times 2 = 8$, but then calculate $-2+8=6$ (simple arithmetic error at the end). This is common!
+*   **C) -12:** A classic BODMAS failure: reading left-to-right *completely*.
+    *   $3-5 = -2$
+    *   $-2+4 = 2$
+    *   $2 \times 2 = 4$. (This leads to 4, so C is not from pure left-to-right.)
+    *   Ah, for -12: What if they see $3-5+4$ as $-2+4=2$ then $2 \times -2$? No.
+    *   For -12: Could be $(3-5+4) \times (-2)$? No.
+    *   Perhaps: $3-(5+4)\times 2 = 3-9 \times 2 = 3-18 = -15$. Close.
+    *   Maybe $3-5+4 = 2$, and they apply $ \times 2$ to *that entire block* and then consider one of the 'minuses' earlier. No, this isn't obvious.
+    *   The only way to get a negative and large number from incorrect working is if multiplication precedes addition/subtraction and creates a large negative, or they combine numbers incorrectly before multiplication.
+    *   What about $3-(5+4\times 2) = 3-(5+8) = 3-13 = -10$? This is B.
+    *   Consider $3-5=-2$. And then $4 \times 2=8$. And then they do $ -2 - 8 = -10$?
+    *   What about if they misinterpret the negative sign with 5 and the multiplication? e.g. $3 - (5+4) \times 2 = 3-9 \times 2 = 3-18=-15$.
+    *   Let's go for: $3 - (5 \times 2) + 4 = 3 - 10 + 4 = -7+4 = -3$. No.
+    *   How about $3-5 = -2$. $4 \times 2 = 8$. Then $-2$ and $8$ become part of some expression like $3-(5+4) \times 2$ or similar, which gives a larger negative. Or: $(3-5+4)\times (-2)$ gives $2 \times (-2) = -4$. Not -12.
+    *   What about $(3-5) + (4 \times 2)$... $ -2+8=6$? (If $A$ is the calculation error.)
+    *   Let'

@@ -1,0 +1,12 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and directed number arithmetic. 
+
+The primary "trap" is the common misconception that addition comes before subtraction (the 'AS' in BIDMAS). Students following this strictly may calculate $5+4=9$ first, leading to $3-9 = -6$ and then multiplying by $2$ to get $-12$ (Option C), or calculating $4 \times 2 = 8$, then $5+8=13$, then $3-13 = -10$ (Option D). Option B ($4$) occurs if a student works strictly left-to-right, ignoring the priority of multiplication ($3-5 = -2$, $-2+4 = 2$, $2 \times 2 = 4$).
+
+Option A ($6$) is the correct answer: $4 \times 2 = 8$, followed by $3 - 5 + 8$. Working left to right with the addition/subtraction gives $-2 + 8 = 6$. 
+
+The combination of a leading subtraction and the placement of the multiplication at the end makes this significantly harder for lower-ability students than a standard $10 + 2 \times 3$ question.
+
+below_basic: A=20% B=30% C=25% D=25%
+basic: A=45% B=25% C=15% D=15%
+proficient: A=75% B=10% C=10% D=5%
+advanced: A=96% B=2% C=1% D=1%

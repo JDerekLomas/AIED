@@ -1,0 +1,24 @@
+In the context of UK Year 9 probability and statistics, this question targets several foundational areas. The most significant misconception for this specific set of numbers is the **"Zero Invisibility" bug (also known as the Null Exclusion error).**
+
+### 1. The Specific Misconception: "Zero Invisibility"
+The "Zero Invisibility" bug occurs when a student treats the number $0$ as "nothing" or a placeholder, rather than a valid data point. In the context of the mean, the student incorrectly assumes that because adding zero doesn't change the sum, the zero does not count towards the total number of items ($n$) in the data set.
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would process the question as follows:
+*   **Step 1:** Look at the list: $0, 1, 3, 4, 7$.
+*   **Step 2:** Think, "To find the mean, I add them all up." They calculate $0+1+3+4+7 = 15$. They realize the $0$ doesn't change the total, so they ignore it and focus on the "actual numbers" ($1, 3, 4, 7$).
+*   **Step 3:** Think, "Now I divide by how many numbers there are."
+*   **Step 4:** Count the "meaningful" numbers: $1, 2, 3, 4$. They conclude there are 4 items because $0$ "doesn't count."
+*   **Step 5:** Form the calculation: $15 \div 4$.
+
+### 3. Corresponding Answer Option
+This misconception leads the student directly to **Option C**: $\frac{1+3+4+7}{4}$.
+
+### 4. Attractiveness of the Error
+This is an **exceptionally attractive error** for Year 9 students for several reasons:
+
+*   **Logical Consistency:** Students are often taught that $0$ is "nothing." If they were asked to find the mean of their goals scored in five games and they scored $0, 1, 3, 4, 7$, their intuition suggests they only "performed" in four games.
+*   **Confirmation Bias:** Option C looks "clean." The numerator correctly omits the $0$ (since it doesn't affect the sum), and the denominator matches the number of non-zero digits the student sees. 
+*   **Calculator Trust:** If a student types $0+1+3+4+7 \div 5$ into a basic calculator without using brackets or the fraction button (like in Option B), they would get $11.4$ (due to Order of Operations). Compared to that "messy" answer, Option C ($\frac{15}{4} = 3.75$) feels mathematically intentional and "correct."
+
+The student would likely **not realize they went wrong.** They would view their decision to exclude the $0$ as a sophisticated realization that the zero is "empty," rather than a failure to account for all data points.

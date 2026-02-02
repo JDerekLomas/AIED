@@ -1,0 +1,43 @@
+<chain_of_thought>
+Analyzing the target item: students expand (2p-1)(3p-4) and must find the product of the two terms indicated by arrows, which are -1 and -4. The correct product is (-1)(-4) = +4, answer A.
+
+Key considerations:
+
+1. Mathematical content: This tests signed number multiplication within an algebraic bracket expansion context. The core skill is knowing that negative times negative equals positive. This is a fundamental rule that is taught early but remains a persistent source of error.
+
+2. Distractor analysis:
+   - A: +4 (correct: (-1)x(-4) = +4)
+   - B: -4 (misconception: neg x neg = neg, or just multiplying magnitudes and keeping negative)
+   - C: +5 (adding: (-1)+(-4)=-5... no, that's -5. Actually +5 could be |(-1)|+|(-4)| = 5 with positive sign)
+   - D: -5 (adding the values: (-1)+(-4) = -5)
+
+So B captures the primary misconception. D captures students who add instead of multiply. C is less obviously derived -- perhaps 1+4=5? The distractor set is quite effective.
+
+3. Comparison with calibration items: The Tom/Katie item (same misconception) had difficulty 0.473. But that was a more complex reasoning task. This item is simpler in structure but the misconception is strong. I think a substantial fraction of students will choose B.
+
+Given that the misconception "neg x neg = neg" is extremely common in this age group, and the item directly targets it with minimal other cognitive demands, I'd estimate classical difficulty around 0.43. The item is well-targeted for the middle of the ability distribution.
+
+For IRT parameters: b around 0.30 (slightly above average difficulty), discrimination around 1.4 (good separation since it's a clean test of one concept), guessing around 0.12 (some students might guess if unsure about sign rules).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.43</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

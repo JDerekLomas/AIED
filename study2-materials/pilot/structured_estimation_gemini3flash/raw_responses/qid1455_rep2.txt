@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item tests the ability to translate a word problem into an algebraic equation, specifically focusing on the correct use of brackets (order of operations). 
+
+1. **Concept Complexity**: The core concept is algebraic representation and BIDMAS/order of operations. This is a fundamental skill in Key Stage 3 (ages 11-14).
+2. **Procedural Steps**: The student must: (a) identify the variable, (b) apply the first operation (add 5), (c) apply the second operation to the *result* (multiply by 4), and (d) equate to 17.
+3. **Distractor Plausibility**: 
+   - Option A ($n+5 \times 4=17$) is a high-frequency error for students who translate word-for-word without considering operator precedence.
+   - Option B ($4n+5=17$) is a common error where students apply the multiplication only to the variable.
+   - Option C ($n^4+5=17$) targets confusion between multiplication and powers.
+4. **Psychometric Comparison**: 
+   - Compared to the first calibration example ($-5 = p + 10$), this is slightly more complex due to the linguistic-to-algebraic translation.
+   - The misconception "Carries out operations from left to right" is very strong in this item (Distractor A).
+   - In the calibration set, items with strong misconceptions often have low classical difficulty (proportion correct). The order of operations item in the calibration had a difficulty of 0.134. However, this item is slightly more intuitive as a "story."
+5. **IRT Parameters**: 
+   - The discrimination is likely to be high because this is a "classic" diagnostic question that clearly separates those who understand brackets from those who don't.
+   - The guessing parameter is likely low (near 0) because the distractors are very "attractive" based on specific misconceptions, rather than being random noise.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

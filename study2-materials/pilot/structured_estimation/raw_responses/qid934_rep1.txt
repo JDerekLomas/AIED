@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item asks students to find a missing y-value in a table for the linear equation 4x + 2y = 10, specifically when x = 0.
+
+Solution: Plug in x = 0 into 4x + 2y = 10.
+4(0) + 2y = 10
+2y = 10
+y = 5 (Answer C)
+
+Distractor analysis:
+- A (20): This is the key misconception distractor. A student who multiplies both sides by 2 instead of dividing (same operation instead of inverse) gets y = 20.
+- B (3): This might come from a student who substitutes x = 1 by mistake: 4(1) + 2y = 10 => 2y = 6 => y = 3. Or some other arithmetic slip.
+- D (2.5): Could result from dividing 10 by 4 (confusing the coefficient of x with the coefficient of y), giving 2.5.
+
+The question requires: (1) understanding what a table of values means, (2) identifying x = 0 corresponds to the star, (3) substituting into the equation, (4) solving a simple linear equation in one variable.
+
+The table presentation is a slight transfer from a standard "solve for y" problem, which could trip up some students who aren't used to reading tables of values. The visual complexity of the table notation adds mild cognitive load.
+
+Comparing to calibration: The first calibration item (solve -5 = p + 10) had difficulty 0.167, b = -0.702. That's a simpler one-step equation. This item requires substitution first, then solving, making it slightly harder. But the solving step (2y = 10) is very basic. I'd place this around the 0.20-0.30 difficulty range, closer to the second calibration item.
+
+I think this is a moderate-easy item with decent discrimination because the misconception distractor is well-targeted.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

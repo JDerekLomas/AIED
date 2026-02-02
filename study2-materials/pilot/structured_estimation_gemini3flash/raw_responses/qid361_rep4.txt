@@ -1,0 +1,37 @@
+<chain_of_thought>
+The target item tests the ability to translate a multi-step verbal description of operations into a correct algebraic expression, specifically focusing on the use of brackets and the order of operations (BIDMAS/BODMAS). 
+
+Jo's expression correctly uses a fraction bar to group $(n-5)$ and large brackets to ensure the final multiplication by 7 applies to the entire previous result. Paul's expression fails because the final "+ 4" is outside the multiplication by 7, which violates the sequence "finally multiply by 7".
+
+Comparing this to the calibration examples:
+1. It is more complex than the simple linear equation (Item 1) because it involves nested operations.
+2. It is similar to Item 2 (order of operations) but uses algebraic notation rather than just arithmetic.
+3. It shares structural similarities with Item 3 (function machines/inverse operations) but focuses on the construction of the expression rather than solving.
+4. The misconception "left to right regardless of priority" is strong here. Many students will see Paul's expression and think it follows the verbal flow correctly without realizing the multiplication by 7 should distribute or be applied last to the *sum*.
+
+The "Only Jo/Only Paul/Both/Neither" format typically has a higher guessing parameter than standard 4-choice questions because "Both" is a very attractive distractor for students who see two plausible-looking expressions. Paul's expression looks "correct" to a student who reads left-to-right and doesn't understand that $7(\dots)+4$ means the 4 is added after the multiplication.
+
+I expect the difficulty to be moderate to high (classical difficulty around 0.35-0.45) because while the steps are clear, the notation for Paul's answer is a common trap.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

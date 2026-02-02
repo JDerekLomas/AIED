@@ -1,0 +1,44 @@
+<chain_of_thought>
+Solving -3/4 * star = -1 for star:
+star = -1 / (-3/4) = -1 * (-4/3) = 4/3. Correct answer is A.
+
+Let me approach the difficulty estimation differently this time, focusing on error rates at each step.
+
+Step 1 - Recognizing to divide both sides by -3/4: Most students at KS3/4 level should manage this, though some may struggle with the format. Maybe 15% fail here.
+
+Step 2 - Computing the reciprocal of -3/4: Students need to know that dividing by a fraction means multiplying by its reciprocal (-4/3). Perhaps 15-20% of remaining students make errors here (choosing C or D).
+
+Step 3 - Handling the signs correctly: -1 divided by -3/4... two negatives make a positive. Research suggests roughly 20-30% of secondary students have persistent difficulties with sign rules. This is the key discriminating step.
+
+So roughly: ~65% get through step 1, ~55% get through step 2, ~40-48% get through step 3. That suggests classical difficulty of about 0.52-0.60.
+
+However, some students use substitution/checking rather than algebraic solving. A student who tries A: -3/4 * 4/3 = -12/12 = -1. Check! This bypasses the sign reasoning somewhat, reducing difficulty. Maybe 5-10% of students who would otherwise err get it right this way. Adjusted estimate: ~0.45-0.55 proportion incorrect.
+
+The calibration item with the same misconception (factorising, b=0.404) provides a useful anchor. I think this item is comparable in difficulty - the fraction component adds challenge but the directness of the question compensates. I'll estimate b around 0.45.
+
+Discrimination: This is a well-constructed item with clear misconception targeting. The primary distractor B cleanly captures the target misconception. I'd expect moderate-to-good discrimination, around a=1.30.
+
+Guessing: The well-targeted distractors mean students tend to select based on their specific error rather than randomly. Low guessing, around c=0.05-0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.49</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

@@ -1,0 +1,35 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among UK Year 9 students (typically ages 13–14).
+
+### 1. The Specific Misconception: "Left-to-Right Priority" (LRP)
+This is a specific procedural "bug" within the Order of Operations. While students are taught **BIDMAS** (Brackets, Indices, Division/Multiplication, Addition/Subtraction), many retain a primitive intuition that arithmetic should be processed linearly from left to right, regardless of the operator. They treat the expression as a "story" that unfolds chronologically.
+
+### 2. Step-by-Step Procedure
+A student with the **Left-to-Right Priority** bug would calculate the problem as follows:
+
+**Step 1: Evaluate the Left Side ($8 + 12 \div 4$)**
+*   The student starts at the left: $8 + 12 = 20$.
+*   They then take that result and divide by $4$: $20 \div 4 = \mathbf{5}$.
+*   *Note: They ignore the BIDMAS rule which dictates division happens before addition.*
+
+**Step 2: Evaluate the Right Side ($(8 + 12) \div 4$)**
+*   The student sees the brackets. Even with this bug, students are generally conditioned to "do brackets first."
+*   They calculate $8 + 12 = 20$.
+*   They divide by $4$: $20 \div 4 = \mathbf{5}$.
+
+**Step 3: Comparison**
+*   The student compares their two results: $5$ and $5$.
+*   They conclude that both sides are equal.
+
+### 3. The Resulting Answer
+This misconception leads the student to choose **C) \( = \)**.
+
+*(The correct mathematical path, using BIDMAS, results in the left side being $11$ because $12 \div 4 = 3$, and $8 + 3 = 11$. Since $11 > 5$, the correct answer is A).*
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "correct" to the student for three reasons:
+
+1.  **Confirmation Bias:** Because the student arrived at the same number (5) for both sides, they feel a sense of mathematical "harmony." They assume that if they reached the same integer twice, their method must be robust.
+2.  **Linguistic Mapping:** In English, we read from left to right. When a student reads "Eight plus twelve divided by four," their brain naturally wants to perform the operations in the order they are spoken.
+3.  **The "Brackets are Redundant" Myth:** Year 9 students often struggle to understand *why* brackets are used. By getting the same answer for both sides, the student reinforces a dangerous secondary misconception: that brackets "don't actually change anything" and are just there to look tidy. 
+
+Because the resulting comparison ($5=5$) is so "clean," the student is very unlikely to realise they went wrong until the correct order of operations is explicitly pointed out.

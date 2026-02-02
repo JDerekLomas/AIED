@@ -1,0 +1,14 @@
+This question tests the ability to rearrange a complex formula involving a cube root and fractions. While students are often taught the sphere volume formula $V = \frac{4}{3}\pi r^3$, many struggle with the multi-step algebraic manipulation required to isolate $r$, particularly when dealing with the coefficient $\frac{4}{3}$.
+
+**Analysis of student performance:**
+*   **Below Basic:** Many will guess or choose Option A simply because it contains all the correct components ($4, \pi, 3, V$) but fails to recognize that to "move" the fraction $\frac{4}{3}$ across the equals sign, the $3$ must multiply the $V$ and the $4\pi$ must divide it.
+*   **Basic:** Students in this category often remember that a cube root is involved but frequently make errors in the order of operations. Option B is a very common distractor for students who remember $\pi$ is "usually on the bottom" when rearranging for $r$, but forget to invert the fraction $\frac{4}{3}$.
+*   **Proficient:** These students usually successfully perform the steps: $3V = 4\pi r^3$, then $\frac{3V}{4\pi} = r^3$, finally taking the cube root. The main trap for them is misidentifying the correct algebraic form in the options (Option C).
+*   **Advanced:** Almost all students at this level will correctly rearrange the formula $r = \sqrt[3]{\frac{3V}{4\pi}}$ without issue.
+
+**Predicted Percentages:**
+
+below_basic: A=40% B=25% C=20% D=15%
+basic: A=20% B=35% C=35% D=10%
+proficient: A=5% B=15% C=75% D=5%
+advanced: A=1% B=2% C=96% D=1%

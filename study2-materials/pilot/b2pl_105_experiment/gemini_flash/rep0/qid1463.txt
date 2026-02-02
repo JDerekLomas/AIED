@@ -1,0 +1,23 @@
+To predict how students will answer this question, we must look at the specific values for $a$, $b$, and $c$.
+$a=5$, $b=-3$, $c=-2$.
+The quadratic formula is $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+The triangle replaces $b^2$.
+Students are substituting $b = -3$. Therefore, the triangle represents $(-3)^2$, which is $9$.
+
+**Why this is difficult:** This is a classic "sign error" trap. Students frequently forget that squaring a negative number results in a positive result. Many will write $-3^2$ on their calculator without brackets, resulting in $-9$, or simply apply the logic that "if $b$ is negative, $b^2$ stays negative".
+
+**Breakdown of choices:**
+- **C (9):** The correct answer.
+- **D (-9):** The most common misconception (squaring $-3$ incorrectly).
+- **A & B (6/-6):** Confusion between squaring and doubling ($2 \times 3$ or $2 \times -3$).
+
+**Student Performance:**
+*   **Below Basic:** These students often guess or confuse squaring with multiplying by 2. Many will pick $-9$ or $-6$ because they see a minus sign in the equation and assume it must persist.
+*   **Basic:** This group knows the formula but struggles with the calculator syntax or the "negative times negative" rule when substituting. A very high percentage will pick $-9$.
+*   **Proficient:** These students usually remember that $b^2$ is always positive in the formula, but a significant minority will still make a "slip" under exam pressure or rely on an incorrectly typed calculator entry.
+*   **Advanced:** Almost all will correctly identify that $(-3)^2 = 9$.
+
+below_basic: A=20% B=15% C=30% D=35%
+basic: A=10% B=10% C=35% D=45%
+proficient: A=2% B=3% C=65% D=30%
+advanced: A=1% B=1% C=93% D=5%

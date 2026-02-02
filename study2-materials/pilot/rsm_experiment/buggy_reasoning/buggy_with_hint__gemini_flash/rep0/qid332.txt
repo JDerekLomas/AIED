@@ -1,0 +1,51 @@
+This question is an excellent diagnostic tool for identifying whether students understand the order of operations in reverse (REVERSE-BIDMAS/BODMAS) and the "balancing" method of solving equations.
+
+The correct answer is **C (Both Tom and Katie)**.
+*   **Tom** is correct because he added 5 to both sides: $12 + 5 = 17$.
+*   **Katie** is correct because she multiplied the entire equation by 3: $3 \times (\frac{x}{3} - 5) = 3 \times 12 \rightarrow x - 15 = 36$. **Wait—actually, look closer at Katie's math.** 
+    *Correction:* Katie's math is actually **incorrect** algebraically if she only multiplies the $x/3$ and the $12$ ($x - 5 = 36$). To be correct, she must multiply the $-5$ by $3$ as well.
+    *Revised assessment:* If the intended "Correct" answer for the problem is **A**, then Katie has made a "partial multiplication" error. If the problem designer intended Katie to be a distracter for someone who doesn't distribute the multiplication, then Option A is correct. 
+
+Let's proceed based on the logic that **Option A** is the true correct answer (Tom correctly adds, Katie fails to multiply all terms).
+
+---
+
+### 1. Analysis of Buggy Reasoning (Wrong Answer Options)
+
+#### **Option B: Only Katie**
+*   **Buggy Reasoning:** The student prioritizes "clearing the fraction" first but lacks the proficiency to handle the $-5$. They recognize that the inverse of $\div 3$ is $\times 3$, so they multiply $x/3$ and $12$ to get $x$ and $36$, but they forget that the $-5$ must also be multiplied. Because this produces a "cleaner" equation ($x-5=36$), the student assumes Katie is correct. They may dismiss Tom because they think you "have to get rid of the fraction first."
+*   **Attractiveness:** **Very High.** This is the classic "partial multiplication" error. Students often believe that to "cancel" a denominator, you only need to multiply the fraction and the answer, neglecting the constant term.
+
+#### **Option C: Both Tom and Katie**
+*   **Buggy Reasoning:** The student correctly identifies Tom’s "inverse operation" ($-5 \rightarrow +5$). However, they see Katie's $x-5=36$ and think, "Yes, $3 \times 12 = 36$ and $3 \times \frac{x}{3} = x$, so she must be right too." They fail to spot that the $-5$ hasn't been scaled up. 
+*   **Attractiveness:** **Moderate.** This appeals to students who have a surface-level understanding of inverse operations but lack the rigorous "balancing" habit (doing the same to *everything* on both sides).
+
+#### **Option D: Neither is correct**
+*   **Known Misconception:** "When solving an equation, uses the same operation rather than the inverse."
+*   **Buggy Reasoning:** 
+    1.  Looking at Tom: The student sees $-5$ and tries to take $5$ away from $12$, getting $12-5=7$. Thus, they think Tom's $17$ is wrong.
+    2.  Looking at Katie: The student sees $\div 3$ and tries to divide $12$ by $3$ to get $4$. Thus, they think Katie's $36$ is wrong.
+*   **Attractiveness:** **High for Below-Basic students.** These students associate the symbol they *see* in the equation with the action they should *do* to the result.
+
+---
+
+### 2. Analysis of Attractiveness & Ability Levels
+
+*   **Option B (Only Katie):** Most attractive to **Basic/Intermediate** students. These students are moving beyond basic arithmetic and into "rules," but they apply the rule for clearing fractions inconsistently. They are lured by the "niceness" of an equation with no fractions.
+*   **Option C (Both):** Most attractive to **Proficient** students who are working too quickly. They see the logic of "add 5" and "multiply by 3" and assume both work out, without checking the distributive property on Katie's method.
+*   **Option D (Neither):** Only attractive to **Below-Basic** students. These students haven't yet grasped the "Do the Opposite" fundamental law of algebra.
+
+---
+
+### 3. Predicted Response Distribution
+
+This table assumes **Option A (Only Tom)** is the mathematically correct choice.
+
+| Ability Level | A (Only Tom) | B (Only Katie) | C (Both) | D (Neither) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below-Basic** | 10% | 20% | 15% | **55%** |
+| **Basic** | 25% | **40%** | 25% | 10% |
+| **Proficient** | **55%** | 15% | 25% | 5% |
+| **Advanced** | **90%** | 5% | 5% | 0% |
+
+**Note on "Advanced" students:** Advanced students will quickly spot that Katie didn't multiply the $-5$ by $3$, which results in a $100\%$ confidence that Only Tom is correct. Basic students are the most likely to fall for Katie (Option B) because "clearing the fraction" feels more like "real" algebra to them than just adding 5.

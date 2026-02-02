@@ -1,0 +1,53 @@
+First, let's analyse the question and each option.
+
+The correct mean is \( \frac{0+1+3+4+7}{5} = \frac{15}{5} = 3 \).
+
+- **A** \( \frac{1+3+4+7}{5} \) → This omits the 0 from the sum, but divides by 5. This gives \( \frac{15}{5} = 3 \), which is coincidentally correct here **only** because the 0 doesn’t affect the sum but is counted in the number of terms. Students might not realise this is actually wrong in method — it gives the right answer by luck.  
+- **B** \( 0+1+3+4+7 \div 5 \) → Without brackets, BIDMAS says only 7 is divided by 5, rest added: \(0+1+3+4+1.4=9.4\), wrong method.  
+- **C** \( \frac{1+3+4+7}{4} \) → Omits 0 and divides by 4, gives \(15/4=3.75\), wrong.  
+- **D** None of them → Actually correct, because A is not a *correct calculation* of the mean of all five numbers (it misses 0 in sum), even though it gives the right numeric answer.
+
+Key difficulty:  
+- The zero makes A seem wrong but it accidentally gives correct answer.  
+- Many students will think A is correct because it yields the right mean, without noticing the missing zero.  
+- But the question asks “which calculation will give the correct answer?” — mathematically, if we interpret it literally, A does give the correct answer (3), so is it right?  
+- However, from a *method* standpoint, if you include the 0 in the list, the correct *calculation* is (0+1+3+4+7)/5, not A. But if the question means “which expression equals the mean of the five numbers”, then A also equals 3.  
+- This is tricky: if a student realises A gives the correct final number, they may pick A; but if they think “you must include all numbers in the sum”, they might pick D.  
+- The intended trap is probably: many students will pick A because it works numerically, but the question wants them to notice the missing zero means it’s not the correct *calculation* for the mean of *all* numbers, so D is correct.
+
+Given UK classroom experience:  
+- Below basic: Likely to pick A (they see it matches mean they work out) or C (divide by one less if they forget zero counts).  
+- Basic: Many pick A because they don’t notice subtlety about including zero in sum but still dividing by 5.  
+- Proficient: More will notice the zero missing in A, so will lean D.  
+- Advanced: Almost all will pick D because they see A is not the correct representation of (sum of all five)/5.
+
+Let’s estimate percentages:
+
+**Below basic**:  
+- A: 50% (many pick it because it gives right numeric answer)  
+- B: 10% (order of operations trap)  
+- C: 30% (divide by 4 ignoring zero entirely)  
+- D: 10% (few realise the point)
+
+**Basic**:  
+- A: 60% (still many think it’s correct)  
+- B: 5%  
+- C: 20%  
+- D: 15%
+
+**Proficient**:  
+- A: 30% (some still fall for numeric coincidence)  
+- B: 0%  
+- C: 10%  
+- D: 60% (majority realise A’s flaw)
+
+**Advanced**:  
+- A: 5%  
+- B: 0%  
+- C: 0%  
+- D: 95%
+
+below_basic: A=50% B=10% C=30% D=10%  
+basic: A=60% B=5% C=20% D=15%  
+proficient: A=30% B=0% C=10% D=60%  
+advanced: A=5% B=0% C=0% D=95%

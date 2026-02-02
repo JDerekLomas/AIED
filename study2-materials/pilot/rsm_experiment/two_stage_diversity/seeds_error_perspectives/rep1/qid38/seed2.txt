@@ -1,0 +1,9 @@
+One specific reason why students might find this question difficult is a **failure to recognize that $x$ is already a shared component of the denominators**, leading to a "cross-multiplication trap."
+
+When students encounter algebraic fractions, they often default to a rigid procedural shortcut: multiplying the two denominators together to find a common denominator (e.g., $(2x) \times x = 2x^2$). While mathematically valid, this adds unnecessary complexity. In this specific question, that path looks like this:
+
+$$\frac{3(x) + 4(2x)}{2x^2} = \frac{3x + 8x}{2x^2} = \frac{11x}{2x^2}$$
+
+Students who reach $\frac{11x}{2x^2}$ often struggle to perform the final step of simplifying the $x$ terms. Seeing no "$\frac{11x}{2x^2}$" in the options, they may doubt their algebra and revert to an intuitive but incorrect strategy—such as simply adding the numerators and taking the "larger" denominator—which leads them to pick **Option D ($\frac{7}{2x}$)**. 
+
+The question is a "trap" because it looks like a general case of $\frac{a}{b} + \frac{c}{d}$, but it is actually a simpler case where one denominator is a multiple of the other ($2x$ is a multiple of $x$). Students who miss this "efficient" path introduce an extra variable ($x^2$) that they often lack the algebraic confidence to cancel out.

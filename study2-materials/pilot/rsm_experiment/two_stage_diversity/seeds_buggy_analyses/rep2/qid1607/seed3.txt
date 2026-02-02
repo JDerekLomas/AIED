@@ -1,0 +1,29 @@
+In the context of UK Year 9 mathematics (typically ages 13–14), where students are moving from one-step equations to multi-step linear equations, this question targets a common operational error.
+
+### 1. The specific misconception: The "Inverse Sign Error"
+The specific procedural bug is a **misapplication of the inverse operation during the "change side, change sign" process.** 
+
+Instead of performing the inverse of the operation shown in the equation to isolate the variable, the student identifies the correct constant to move but **repeats** the operation already present or chooses an arbitrary operation because they confuse the visual position of the number with its mathematical function. In this specific case, the student sees a $+1$ and, in an attempt to "solve," they add $1$ to both sides instead of subtracting.
+
+### 2. The step-by-step walkthrough
+A student with this misconception would process the problem as follows:
+
+*   **Initial thought:** "I need to get $k$ by itself. First, I need to get rid of the divide-by-4."
+*   **Step 1:** "The opposite of divide is multiply. $15 \times 4 = 60$. So, $60 = 1 + k$." **(Step 1 is correctly executed).**
+*   **Step 2 (The Bug):** "Now I need to move the $1$ to the other side to leave $k$ alone. Since it’s a $1$ and I want to combine it with $60$, I will add them together." 
+*   **The Error:** The student fails to recognize that to "undo" a $+1$, they must perform $-1$. Instead, they intuitively "group" the constants by addition, calculating $60 + 1 = 61$. 
+*   **Result:** They write down $k = 61$.
+
+### 3. Which answer option this leads to
+This misconception leads the student to select **A) Only step 1**. 
+
+The student will identify that Step 1 is correct (multiplication was the correct inverse of division). However, when they evaluate Step 2 against their own (flawed) logic or their calculated result, they will believe their answer of $61$ matches Isaac's Step 2. Crucially, if they are asked which of *Isaac's* steps are correct, they will validate Step 1 but—if they are self-aware of the subtraction rule—they might realize Step 2 is wrong. However, most students making this error will think Isaac is correct in Step 1 but "missed" the fact that Step 2 requires a subtraction, leading them to conclude Isaac’s Step 2 is an error.
+
+*(Note: If the student actually believes $60 + 1$ is the correct way to solve it, they would choose C. However, in most diagnostic UK assessments, this question is designed to see if the student can spot that Step 2 should have been $60 - 1 = 59$.)*
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** because it stems from a desire for "additive closure." 
+
+Students often view the equals sign as an instruction to "do something" with the numbers available. When they see $60$ and $1$, adding them to get $61$ feels "cleaner" and more progressive than subtracting. 
+
+The student would **rarely realize they went wrong** without a formal check (substitution). If they substituted $k=61$ back into the original equation, they would get $\frac{1+61}{4} = \frac{62}{4} = 15.5$. Because $15.5$ is "close" to $15$, a Year 9 student often lacks the numerical fluency to recognize that a small discrepancy in the check means the entire answer is fundamentally incorrect; they may simply attribute the $0.5$ difference to a rounding error or ignore it entirely.

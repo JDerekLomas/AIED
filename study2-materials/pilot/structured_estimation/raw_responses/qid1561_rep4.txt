@@ -1,0 +1,38 @@
+<chain_of_thought>
+Target: 20t - 5 = 0, correct answer t = 1/4.
+
+I want to think carefully about where this sits relative to the calibration items. All three calibration items testing the same misconception ("uses same operation rather than inverse") span a wide range:
+- p + 10 = -5: classical difficulty 0.167, b = -0.702 (easy)
+- Function machine for x^2 + 5 = 14: difficulty 0.295, b = 0.002 (medium)
+- 2n + 3 <= 3n - 7: difficulty 0.569, b = 0.808 (hard)
+
+The progression in difficulty tracks with: (1) number of steps, (2) complexity of operations, and (3) whether the answer is intuitive.
+
+This item (20t - 5 = 0) has two steps and requires division producing a fraction. It's algebraically simple but the fractional answer is a known source of errors. I'd place it between the first and third calibration items, probably near the function machine item in difficulty.
+
+One important consideration: the coefficient 20 and constant 5 have a clean relationship (20 = 4 * 5), making the fraction simplification straightforward (5/20 = 1/4). This helps somewhat. But the presence of t = 4 as a distractor is very strong -- students often default to dividing the larger number by the smaller.
+
+I'll estimate classical difficulty around 0.33, IRT b around 0.10. The item should discriminate reasonably well. For guessing, I note that the calibration items with easier difficulty (< 0.30) had c = 0.000, while harder items had c around 0.19. This item's moderate difficulty suggests a low but nonzero guessing parameter.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.28</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

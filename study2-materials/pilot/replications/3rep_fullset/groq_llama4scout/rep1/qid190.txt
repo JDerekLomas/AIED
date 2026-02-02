@@ -1,0 +1,29 @@
+## Step 1: Understand the question and what it's testing
+The question presents a scenario with points P, Q, and R on a straight line. To get from P to Q, one travels 4 squares right and 1 square up. From Q to R, one travels 8 squares right and 2 squares up. The task is to find the ratio of \( PQ:PR \).
+
+## 2: Calculate the distances PQ and PR
+To find the distance \( PQ \), we use the Pythagorean theorem or recognize the 4x1 right-angled triangle, but for ratios, we can directly use the changes in x and y. \( PQ \) can be represented as \( \sqrt{4^2 + 1^2} = \sqrt{16 + 1} = \sqrt{17} \) but for the ratio, we consider the changes (4,1).
+
+## 3: Calculate PR
+From P to R, the total change is \( (4+8) \) right and \( (1+2) \) up, which equals 12 right and 3 up. So, \( PR \) can similarly be represented, but again, for ratios, we focus on the proportional changes.
+
+## 4: Determine the ratio PQ:PR
+The vector \( \overrightarrow{PQ} = (4, 1) \) and \( \overrightarrow{PR} = (12, 3) \). Notice that \( \overrightarrow{PR} = 3 \times (4, 1) = 3 \times \overrightarrow{PQ} \). This implies that the ratio of \( PQ:PR \) is \( 1:3 \).
+
+## 5: Predict student responses based on ability levels
+- **Below Basic**: Students at this level might struggle with understanding the coordinate changes or calculating distances. They might incorrectly calculate or not understand the proportionality, leading to a higher chance of selecting incorrect options. Given the straightforward nature of the calculation once understood, A=20% B=30% C=20% D=30%.
+- **Basic**: Students here have a foundational understanding but might make simple arithmetic mistakes or misinterpret the proportional relationship. They are more likely to recognize the direct relationship but could get the ratio wrong. A=10% B=20% C=15% D=55%.
+- **Proficient**: These students understand the concepts well and are likely to calculate the ratio correctly or recognize the proportional increase from PQ to PR. A=5% B=10% C=10% D=75%.
+- **Advanced**: Students at this level are expected to not only solve the problem accurately but also understand the underlying geometric and algebraic principles. They are likely to get the correct answer with ease. A=0% B=0% C=5% D=95%.
+
+## 6: Convert predictions into the required format
+below_basic: A=20% B=30% C=20% D=30%
+basic: A=10% B=20% C=15% D=55%
+proficient: A=5% B=10% C=10% D=75%
+advanced: A=0% B=0% C=5% D=95%
+
+The final answer is: 
+below_basic: A=20% B=30% C=20% D=30%
+basic: A=10% B=20% C=15% D=55%
+proficient: A=5% B=10% C=10% D=75%
+advanced: A=0% B=0% C=5% D=95%

@@ -1,0 +1,43 @@
+<chain_of_thought>
+Item analysis for 8x/5 = 40 with two student claims.
+
+Verifying Tom: He says 8x = 8. The correct move to eliminate /5 is to multiply both sides by 5, yielding 8x = 200. Tom obtained 8, which is 40/5 — he divided when he should have multiplied. This directly exemplifies the tested misconception. Tom is wrong.
+
+Verifying Katie: She says x/5 = 5. Dividing both sides of 8x/5 = 40 by 8 yields x/5 = 5. Checking: if x/5 = 5, then x = 25, and 8(25)/5 = 200/5 = 40. Confirmed — Katie is correct.
+
+Answer is B.
+
+Difficulty considerations: This is a multi-layered item. Students must:
+1. Understand what valid equation manipulation looks like
+2. Check Tom's work (identify the inverse-operation error)
+3. Check Katie's work (verify an unusual but valid first step)
+4. Synthesize both judgments into a single answer choice
+
+The "who is correct" structure is well-suited to diagnostic assessment because it forces engagement with the misconception directly. Students can't just solve the equation and pick the numerical answer.
+
+Comparing to calibration anchors: The factorising "who is correct" item (also testing a misconception about sign rules) had classical difficulty 0.473. That item required knowledge of factorising quadratics, which is arguably a higher-level skill. This equation-solving item uses more fundamental algebra but the fraction makes it trickier than basic linear equations.
+
+I think difficulty will be moderate — around 0.47. The IRT difficulty should be near 0.35, placing it between the function machine item (0.002) and the factorising item (0.404). Discrimination around 1.20 — the "who is correct" format introduces some noise but the item still targets the misconception clearly. Guessing parameter modest at 0.12, since partial reasoning can eliminate some options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.47</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

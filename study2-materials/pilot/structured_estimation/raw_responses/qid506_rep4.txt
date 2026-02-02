@@ -1,0 +1,41 @@
+<chain_of_thought>
+Target: 3p = 1/12, solve for p. Correct: p = 1/36 (B).
+
+This is a one-step equation requiring division by 3. However, dividing a unit fraction by 3 is conceptually demanding for many students. The answer 1/36 has a large denominator which may seem wrong to students who lack confidence with fractions.
+
+The primary misconception (same operation instead of inverse) leads directly to distractor A: 3 * (1/12) = 1/4. This answer is "nicer" than 1/36, which makes the error especially attractive. Students who are uncertain may gravitate toward the cleaner-looking fraction.
+
+Let me consider the population. UK secondary students aged 11-16 span a wide range. Year 7-8 students would likely struggle significantly with this. By Year 10-11 most should handle it. The Eedi platform draws from across this range.
+
+Anchoring against the calibration set:
+- Simple inverse operation (integer): 0.167 difficulty
+- Function machine (visual): 0.295
+- Factorising (conceptual): 0.473
+- Inequality (multi-step): 0.569
+
+This item sits between the function machine and factorising items in terms of cognitive demand. The equation is structurally simple but fraction division adds a layer. I'd estimate around 0.35-0.40 classical difficulty.
+
+For IRT parameters: difficulty around 0.10 to 0.20. Discrimination probably around 1.30-1.40 since the item has a clear correct path and well-targeted distractors. Guessing should be near zero given four distinct answer choices mapping to specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.36</classical_difficulty>
+<irt_difficulty>0.12</irt_difficulty>
+<irt_discrimination>1.38</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

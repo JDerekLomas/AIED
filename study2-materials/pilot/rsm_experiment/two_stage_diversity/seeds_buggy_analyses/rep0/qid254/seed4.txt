@@ -1,0 +1,22 @@
+In this scenario, a Year 9 student is likely to demonstrate a misconception regarding the role of **zero as a numerical value** in statistical calculations.
+
+### 1. The specific misconception: "Zero as a Non-Value"
+This is a **conceptual bug** where students perceive the digit '0' as representing "nothing" or "empty," rather than a data point with numerical weight. In the context of the mean, the student incorrectly assumes that because adding zero doesn't change the sum (identity property of addition), the number zero should not be counted in the divisor (the $n$). 
+
+### 2. Step-by-step student thinking
+1.  **Examine the set:** The student looks at $0, 1, 3, 4, 7$.
+2.  **Calculate the sum:** They recognize that $0 + 1 + 3 + 4 + 7 = 15$. They might even consciously think, *"I don't need to add the zero because it doesn't change 15."*
+3.  **Determine the divisor:** The student counts the "actual" numbers. They see 1, 3, 4, and 7 as "real" numbers and dismiss the 0. They conclude there are only **four** numbers to divide by.
+4.  **Perform the division:** They set up the calculation as $15 \div 4$.
+
+### 3. Corresponding answer option
+This misconception leads directly to **Option C**: $\frac{1+3+4+7}{4}$.
+
+*(Note: While some might ignore the zero in the numerator and divide by the correct $n=5$ leading to Option A, Option C is the "purer" form of this misconception because it treats the zero as if it doesn't exist in the data set at all.)*
+
+### 4. Attractiveness of the error
+This is a **highly natural and "sticky" error** for several reasons:
+
+*   **Linguistic cues:** We often teach students that the mean is the "total divided by how many numbers there are." In a student's colloquial logic, a zero isn't "a number of something," it's "nothing."
+*   **False Reinforcement:** If the student calculates the sum, the zero has no impact ($15+0$ is still $15$). This lack of impact on the sum tricks the student into believing the zero has no impact on the denominator either.
+*   **Metacognition:** The student is unlikely to realize they are wrong. Option C looks "mathematically tidy" to them. Because $15 \div 4 = 3.75$ (a "clean" decimal) and the numbers range from 0 to 7, the result feels plausible. They would only realize the error if they compared their result to a context—for example, if these were scores in five matches, dividing by four would clearly suggest they "forgot" one game. However, in an abstract list, the error remains invisible to them.

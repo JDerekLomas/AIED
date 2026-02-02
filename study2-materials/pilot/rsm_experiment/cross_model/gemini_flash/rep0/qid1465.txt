@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS) and directed number arithmetic. 
+
+The primary "trap" is the order of addition and subtraction. Many students incorrectly believe that because 'A' comes before 'S' in BIDMAS, they must add before they subtract ($5+8$ rather than $3-5$ then $+8$). However, $4 \times 2 = 8$ is generally the first step most students identify correctly.
+
+*   **Option A (6):** The correct answer ($3 - 5 + 8 \rightarrow -2 + 8 = 6$).
+*   **Option B (4):** This comes from a dual error: $4 \times 2 = 8$, followed by the common misconception that Addition happens before Subtraction: $3 - (5+8) = 3 - 13 = -10$, but then making a sign error or treating it as $13-3-6$. Less common than D.
+*   **Option C (-12):** This results from working strictly left-to-right, ignoring the priority of multiplication ($3-5 = -2$; $-2+4 = 2$; $2 \times 2 = 4$... actually hard to reach -12 unless they do $3-5-4 \times 2$). 
+*   **Option D (-10):** This is the most common "strong" distractor. Students do the multiplication first ($8$), but then perform addition before subtraction because of the acronym: $3 - (5+8) = 3 - 13 = -10$.
+
+Predicting the student responses:
+
+below_basic: A=30% B=15% C=10% D=45%
+basic: A=50% B=10% C=5% D=35%
+proficient: A=80% B=5% C=2% D=13%
+advanced: A=96% B=1% C=1% D=2%

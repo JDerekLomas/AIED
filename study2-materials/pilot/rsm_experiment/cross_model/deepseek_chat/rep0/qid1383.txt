@@ -1,0 +1,36 @@
+First, I’ll analyze the question:  
+
+We have \( T = k^4 \), with \( k = -3 \).  
+\( (-3)^4 = (-3) \times (-3) \times (-3) \times (-3) = 81 \).  
+So correct answer is **A) 81**.  
+
+Potential misconceptions:  
+1. Multiplying a negative number an even number of times yields a positive result — some students forget this and pick C) -81.  
+2. Misinterpreting exponent notation \( k^4 \) as \( k \times 4 \) (linear scaling) would give \( -12 \) (D).  
+3. Some might compute \( 3^4 = 81 \) but incorrectly keep the sign from \( k = -3 \) if they think odd/even rule is reversed.  
+4. Others might compute \( (-3) \times 4 = -12 \) and pick D, or might compute \( (-3)^3 = -81 \) by mistake if they miscount exponent.  
+
+This question is relatively straightforward for those comfortable with exponents, but since the base is negative, it tests sign rules explicitly. Many students know \( (-2)^2 = 4 \) but higher even powers with negatives sometimes trigger errors.  
+
+---
+
+**Predictions by ability level:**
+
+- **Below basic**: Likely to confuse exponent with multiplication by 4 → pick D (-12). Others may guess B (12) from \( 3 \times 4 \), or C (-81) from sign error. Only some will compute correctly.  
+  - A=25% B=15% C=40% D=20%
+
+- **Basic**: Some will know even power → positive, but may miscalculate as \( -81 \) from \( -(3^4) \) misconception. Strong tendency for C.  
+  - A=45% B=10% C=35% D=10%
+
+- **Proficient**: Mostly correct, but a few slip to C due to misinterpreting \( (-3)^4 \) as \( -3^4 \) (order of operations mistake).  
+  - A=85% B=5% C=8% D=2%
+
+- **Advanced**: Almost all correct.  
+  - A=98% B=1% C=1% D=0%
+
+---
+
+below_basic: A=25% B=15% C=40% D=20%  
+basic: A=45% B=10% C=35% D=10%  
+proficient: A=85% B=5% C=8% D=2%  
+advanced: A=98% B=1% C=1% D=0%

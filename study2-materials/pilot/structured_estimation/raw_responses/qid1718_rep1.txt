@@ -1,0 +1,36 @@
+<chain_of_thought>
+The target item requires expanding (x-3)^2. Students need to recognize this as (x-3)(x-3) and apply FOIL or the binomial expansion formula. The correct answer is D: x^2 - 6x + 9.
+
+Key analysis of distractors:
+- A (x^2 - 6x - 9): The student did the cross-multiplication correctly (-3x - 3x = -6x) but failed on (-3)(-3), getting -9 instead of +9. This is the target misconception.
+- B (x^2 - 9): This is (x-3)(x+3), the difference of squares. The student may have confused squaring with the difference of squares pattern, or simply squared each term. This is arguably the most attractive distractor.
+- C (x^2 + 9): Squared each term without the middle term, but got the constant sign correct. Less common error.
+
+The item is relatively standard for GCSE maths. However, there are multiple strong distractors competing. Distractor B doesn't test the intended misconception but may attract more students than A does.
+
+For calibration: the Tom/Katie factorising item (same misconception) had difficulty 0.473 and b=0.404. But that item required evaluating two claims, adding complexity. This expansion task is more procedural. I think this is slightly easier, maybe around 0.40 classical difficulty.
+
+Discrimination should be reasonable since students who understand binomial expansion well will get this right. But the multiple error patterns could slightly reduce discrimination since different ability levels might make different errors. I'll estimate a moderate-to-good discrimination around 1.25.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

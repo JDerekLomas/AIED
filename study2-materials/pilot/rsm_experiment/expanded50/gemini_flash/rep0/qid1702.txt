@@ -1,0 +1,11 @@
+Error Analysis:
+A) Students substitute $y = 0.5$ correctly but make a sign error when rearranging. They calculate $10x - 3 = 30$, but instead of adding 3, they mistakenly believe they need to add $6 \times 0.5$ to the same side or misinterpret the balance: $10x = 30 + 6(0.5)$ which leads to $10x = 33$, hence $x = 3.3$. Wait, this leads to C. Option A is reached by a more fundamental arithmetic slip: $10x = 30 + (6 \div 0.5)$, or $30 + 12.5 = 42.5$, then $x=4.25$.
+B) This follows the same logic as A but with a negative sign applied arbitrarily, often seen when students are confused by the $-6y$ term and believe the final answer must be negative because of the subtraction in the original equation.
+C) This is the correct answer. The student substitutes $y=0.5$ into $10x - 6(0.5) = 30$, leading to $10x - 3 = 30$, then $10x = 33$, so $x = 3.3$.
+D) This is a "sign inversion" error during the balancing phase. The student substitutes correctly to get $10x - 3 = 30$, but then subtracts 3 from 30 instead of adding it ($10x = 27$), resulting in $x = 2.7$. This is the most common procedural misconception in linear equations.
+
+Predictions:
+below_basic: A=30% B=25% C=20% D=25%
+basic: A=15% B=15% C=40% D=30%
+proficient: A=5% B=5% C=75% D=15%
+advanced: A=1% B=1% C=95% D=3%

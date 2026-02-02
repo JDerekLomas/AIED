@@ -1,0 +1,21 @@
+To predict the performance of Year 9 students on this question, we must look at the specific misconceptions surrounding decimals and the order of operations (BIDMAS).
+
+**The Distractors:**
+*   **A ($0.81$):** This is the result of calculating $(3x)^2$. Students incorrectly multiply $3 \times 0.3 = 0.9$ first, then square $0.9$. This is a very common "visual" error where students read left-to-right rather than following BIDMAS.
+*   **C ($1.8$):** This is $3 \times (0.3 \times 2)$. Students confuse squaring with doubling.
+*   **D ($2.7$):** This is a place value error. Students correctly identify $0.3^2 = 0.09$, but then fail to multiply by 3 correctly, or they think $3 \times 0.9$ and lose the decimal place.
+*   **B ($0.27$):** The correct answer. Requires squaring $0.3$ to get $0.09$ and then multiplying by $3$.
+
+**Performance Prediction:**
+
+below_basic: A=40% B=15% C=30% D=15%
+*(Below basic students often ignore powers or treat them as 'multiply by 2', and almost always process the 3 before the power.)*
+
+basic: A=45% B=25% C=15% D=15%
+*(Basic students often know BIDMAS exists but fail to apply it when a coefficient is next to a squared term. $0.9^2$ feels like a "nicer" calculation to them.)*
+
+proficient: A=20% B=65% C=5% D=10%
+*(Proficient students know to square first, but the primary pitfall here is the decimal place. Many will get to $0.09 \times 3$ and arrive safely, but some will lose a zero and drift to D.)*
+
+advanced: A=5% B=92% C=1% D=2%
+*(Advanced students rarely miss the BIDMAS rule, though a small percentage might make a rush-induced slip on the decimal placement.)*

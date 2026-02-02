@@ -1,0 +1,15 @@
+To predict these responses, I’ve looked at the patterns in your provided data. These students struggle significantly with order of operations (BIDMAS) and fraction denominator rules. 
+
+Specifically, in the calibration questions, we saw a massive "add the denominators" bias in the algebraic fraction question ($D=69\%$ for $\frac{7}{2x}$) and a consistent failure to follow arithmetic priority. For the mixed number addition:
+
+*   **Option A** (Correct): Requires adding whole numbers and numerators correctly while keeping the denominator the same.
+*   **Option B** (Improper fraction): Is mathematically correct but violates the instruction to leave it as a "mixed number." In the "Mean" question (0, 1, 3, 4, 7), the students showed they are very susceptible to choosing answers that *look* right but ignore subtle constraints.
+*   **Option C** (Adding everything): Adding the whole numbers (3), the numerators (3), and the denominators (10), but then weirdly expressed as an improper fraction.
+*   **Option D** (Common Denominator Error): This is the "Attractive Distractor." Like the algebraic fraction question where 69% added denominators, many students will add the 5+5 to get 10.
+
+Based on the 0-1% success rates in your calibration samples, I expect the "Adding Denominators" error (D) to be the dominant choice across all but the top level.
+
+below_basic: A=5% B=10% C=15% D=70%
+basic: A=10% B=5% C=10% D=75%
+proficient: A=18% B=8% C=4% D=70%
+advanced: A=35% B=20% C=5% D=40%

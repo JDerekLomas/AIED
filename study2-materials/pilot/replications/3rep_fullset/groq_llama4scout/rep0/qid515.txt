@@ -1,0 +1,31 @@
+## Step 1: Understand the task
+The task is to predict the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for a given vector translation question.
+
+## 2: Analyze the question
+The question asks to identify the vector that describes the translation mapping object \( Q \) onto object \( P \). The coordinates for \( P \) and \( Q \) are given, and the correct translation vector can be found by subtracting the coordinates of a point on \( Q \) from the corresponding point on \( P \).
+
+## 3: Determine the correct answer
+To find the correct vector, we can use any pair of corresponding points from \( P \) and \( Q \). Let's use \( (1, 7) \) from \( P \) and \( (4, 2) \) from \( Q \).
+The translation vector \( \vec{v} \) from \( Q \) to \( P \) is given by \( \vec{v} = (1 - 4, 7 - 2) = (-3, 5) \).
+So, the correct vector is \( \left(\begin{array}{c}-3 \\ 5\end{array}\right) \), which corresponds to option C.
+
+## 4: Consider common misconceptions and errors
+A common misconception could be reversing the direction of the translation or miscalculating the differences in coordinates. Students might also confuse the signs or the order of operations.
+
+## 5: Assess difficulty and potential errors by ability level
+- **Below_basic**: Students at this level might struggle with coordinate geometry and vector calculations. They could easily make errors in calculating the differences or confuse the direction of the translation. Options A and B seem plausible if students get the signs wrong or miscalculate. Option D could be chosen if students incorrectly calculate or reverse the vector. Expect a spread across options but with a significant portion choosing incorrect options due to basic misunderstandings.
+
+- **Basic**: Students here have a foundational understanding but might still make simple arithmetic mistakes or get confused with the vector notation. They are more likely to correctly identify the vector but could be swayed by common misconceptions.
+
+- **Proficient**: These students have a solid grasp of vector operations and coordinate geometry. They are likely to calculate the vector correctly but might still be tempted by visually appealing or commonly mistaken options.
+
+- **Advanced**: Students at this level are expected to have a deep understanding of vectors and translations. They should easily identify the correct vector and are less likely to fall for simple traps.
+
+## 6: Estimate percentages based on ability levels and question difficulty
+Given the straightforward nature of the calculation but potential for confusion:
+- **Below_basic**: A=20% B=20% C=40% D=20% (Many might guess or make simple errors)
+- **Basic**: A=10% B=15% C=70% D=5% (Most understand the concept but some make errors)
+- **Proficient**: A=5% B=5% C=85% D=5% (Solid understanding, few errors)
+- **Advanced**: A=0% B=0% C=95% D=5% (High accuracy with minimal errors)
+
+The best answer is C.

@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified a primary "bug" that occurs when students encounter equations where the unknown is the divisor (the denominator).
+
+### 1. The specific misconception: "Multiplicative Commutativity Error" (also known as the "Large $\div$ Small" heuristic)
+
+The misconception is the belief that in a division relationship, the position of the numbers does not matter, or that you should always divide the larger number by the smaller number to find a "sensible" answer. In a procedural sense, the student fails to recognize that $p$ is an operator acting on $5$; instead, they treat the relationship as a "multiplication triad" where they can simply divide the two visible constants in any order.
+
+### 2. The step-by-step student work
+A student with this misconception would typically follow these steps:
+1. **Identify the goal:** They know they need to "undo" the fraction to isolate $p$.
+2. **Surface Pattern Recognition:** They see the numbers $10$ and $5$. They know that $10 \div 5 = 2$ and $5 \div 10 = 0.5$.
+3. **Procedural Misstep:** Because they struggle with the algebraic step of multiplying both sides by $p$ (which results in $10p = 5$), they bypass the formal algebra. They see the equation as a request for the relationship between 10 and 5.
+4. **The Calculation:** They perform the operation $10 \div 5$. Their logic is: "I need to find $p$, and $10$ divided by $5$ is $2$."
+5. **Final Step:** They conclude that $p = 2$ because it is a "clean" integer result that fits their arithmetic fluency.
+
+### 3. The resulting answer option
+This misconception leads directly to **C) $p = 2$**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and often feels "correct" to a Year 9 student for several reasons:
+*   **Aesthetic Fitness:** The answer $p=2$ "looks" right. If you replace $p$ with $2$ in the equation, a student who struggles with fractions might read $\frac{5}{2}$ and subconsciously "correct" it to $10 \div 5 = 2$, or simply feel that because $2$ is a factor of $10$, it must be the solution.
+*   **Resistance to Decimals:** Students at this level often have a bias toward integer answers. Choosing $2$ feels much more "natural" than choosing $0.5$, which represents a half.
+*   **The "Invisible" Algebra:** To solve this correctly, a student must move $p$ from the denominator (a two-step process: $10p = 5$, then $p = 5/10$). Most Year 9 students find it counter-intuitive to move the variable they are trying to solve for. Because they don't want to "move" the $p$, they simply manipulate the numbers around it.
+
+**Would they realize they were wrong?** Likely not. Without the habit of formal verification (substituting $0.5$ back in to see that $5 \div 0.5 = 10$), the student will see $10, 5,$ and $2$ as a "fact family" and move on with high confidence.

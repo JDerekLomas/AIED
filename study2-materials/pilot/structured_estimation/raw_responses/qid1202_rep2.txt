@@ -1,0 +1,43 @@
+<chain_of_thought>
+Target item: 3 - y = 5. Correct answer: y = -2 (B).
+
+This is an equation-solving item embedded in a simultaneous equations context. The student is told Nick has nearly solved a pair of simultaneous equations and just needs to find y from 3 - y = 5.
+
+The mathematical content is a linear equation in one variable, but with an unusual structure: the variable is subtracted rather than added. This means students need to deal with -y, which requires either:
+1. Subtract 3: -y = 2, then y = -2
+2. Recognize directly: y = 3 - 5 = -2
+
+The misconception "uses the same operation rather than the inverse" would lead a student to add rather than subtract (or vice versa). For instance, a student might try to "undo" the subtraction of y by subtracting again, or might add 3 to both sides getting -y = 8 then y = 8 or -8.
+
+Actually, let me reconsider the distractors more carefully:
+- y = 2: This is 5 - 3 = 2, ignoring the negative. Very plausible.
+- y = -2: Correct.
+- y = 8: Could come from 3 + 5 = 8, treating the subtraction as addition.
+- y = -8: Perhaps -(3 + 5).
+
+Looking at the calibration data, items testing this same misconception range from b = -0.702 to b = 0.808. The difficulty seems to scale with the complexity of the equation. This item is a simple one-step equation but with the tricky negative variable. I'd place it around classical difficulty 0.25-0.35.
+
+The context of simultaneous equations might slightly increase difficulty because students might overthink it, but the question is quite clear about what to do. Discrimination should be solid -- this is a clean diagnostic item.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.42</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

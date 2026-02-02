@@ -1,0 +1,40 @@
+To predict the percentage of students at each ability level who chose each option for the given equation \(10 = \frac{5}{p}\), let's analyze the potential errors and the attractiveness of each wrong answer.
+
+## Step 1: Understanding the Correct Solution
+The correct solution to the equation \(10 = \frac{5}{p}\) involves multiplying both sides by \(p\) to get \(10p = 5\), and then dividing both sides by \(10\) to find \(p = \frac{5}{10} = 0.5\).
+
+## 2: Analyzing Potential Errors
+- **Option A (\(p = 0.5\))**: This is the correct answer. Students who understand the algebra and perform the operations correctly will choose this.
+- **Option B (\(p = 50\))**: This error involves misinterpreting the equation. If a student incorrectly multiplies both sides by \(p\) but then incorrectly handles the division or multiplication, they might get this. For example, incorrectly solving it as \(10p = 5p\) (which doesn't make sense in this context) or simply mistaking the operation to get \(p = 50\).
+- **Option C (\(p = 2\))**: This could result from a calculation error where the student incorrectly solves the equation, possibly getting \(5 = 10p\) and then \(p = \frac{5}{10} = 0.5\), but due to a miscalculation or incorrect handling of fractions, ends up with \(p = 2\), though a more likely path is mixing up operations or not converting fractions/proportions correctly.
+- **Option D (There are no solutions)**: This would be chosen by students who incorrectly conclude that the equation has no solution, perhaps due to confusion with the rules of algebra or thinking that \(p\) cannot be a certain value.
+
+## 3: Predicting Student Errors by Ability Level
+- **Below Basic**: At this level, students struggle with basic algebra and may not understand how to solve equations that involve fractions or may invert operations. They are likely to choose options based on wrong calculations or no calculations at all. 
+  - **A (\(p = 0.5\))**: May not attempt or understand, but if they do get it right, it's serendipity. **10%**
+  - **B (\(p = 50\))**: May incorrectly manipulate the equation to get this. **30%**
+  - **C (\(p = 2\))**: Possible mistake if they misunderstood multiplication and division. **20%**
+  - **D (No solutions)**: Overly cautious or completely lost. **40%**
+
+- **Basic**: Students at this level have a grasp of basic algebraic manipulations but might still struggle with nuances. 
+  - **A (\(p = 0.5\))**: Straightforward for most who recall the method. **50%**
+  - **B (\(p = 50\))**: May accidentally or through incorrect manipulation get here. **25%**
+  - **C (\(p = 2\))**: Distraction or slight confusion could lead to. **15%**
+  - **D (No solutions)**: Misapplication of rules or principles. **10%**
+
+- **Proficient**: These students are more confident in algebraic manipulations but might still occasionally make mistakes. 
+  - **A (\(p = 0.5\))**: Almost certainly get it right. **80%**
+  - **B (\(p = 50\))**: Occasional simple error. **5%**
+  - **C (\(p = 2\))**: Perhaps through rapid not checking work. **5%**
+  - **D (No solutions)**: Very unlikely; might occur through momentary lapse. **10%**
+
+- **Advanced**: These students have mastered algebra and are less likely to make computational errors.
+  - **A (\(p = 0.5\))**: Will almost always solve correctly. **95%**
+  - **B (\(p = 50\))**: Minimal chance due to confident checking. **2%**
+  - **C (\(p = 2\))**: Extremely rare error, more through external distraction than calculation lapse. **2%**
+  - **D (No solutions)**: Essentially never chosen without reason. **1%**
+
+The best answer is below_basic: A=10% B=30% C=20% D=40%
+basic: A=50% B=25% C=15% D=10%
+proficient: A=80% B=5% C=5% D=10%
+advanced: A=95% B=2% C=2% D=1%

@@ -1,0 +1,45 @@
+<chain_of_thought>
+Let me work through this triangle angles problem step by step.
+
+The triangle has angles 4x, 2x - 12, and 4x + 42. Students must know that the interior angles of a triangle sum to 180 degrees, then form and solve the resulting equation.
+
+Equation: 4x + (2x - 12) + (4x + 42) = 180
+Simplify: 10x + 30 = 180
+Solve: 10x = 150 → x = 15
+
+The misconception "uses the same operation rather than the inverse" would manifest when going from 10x + 30 = 180 to isolating 10x. Instead of subtracting 30, a student adds 30, getting 10x = 210, then x = 21. This maps perfectly to distractor D.
+
+This item sits at an interesting intersection of geometry and algebra. The geometry component (angle sum property) is foundational and typically mastered by KS3. The algebraic component—collecting like terms with negative constants and then solving a two-step equation—is where errors are more likely.
+
+Distractor analysis:
+- A (x=15): Correct
+- B (x=12.6): Possibly from 10x = 126, perhaps subtracting 54 instead of adding constants correctly
+- C (x=33): Could come from only using two of the three angles or misapplying the angle sum
+- D (x=21): The misconception-aligned distractor (adding 30 instead of subtracting)
+
+Comparing with calibration: The first calibration item (-5 = p + 10, same misconception) had classical difficulty 0.167, but that was a much simpler one-step equation. The inequality item (same misconception, classical difficulty 0.569) was harder due to inequality concepts. This item falls between them—more steps than the first but more concrete than the inequality. I'd place classical difficulty around 0.38.
+
+The discrimination should be moderate since the item tests a clear misconception and the correct/incorrect boundary depends on specific algebraic skill.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

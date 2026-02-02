@@ -1,0 +1,20 @@
+Here is the predicted distribution based on typical Year 9 classroom misconceptions.
+
+**The Context:**
+*   **The "Zero Effect":** Many students see $x=0$ and mentally "cancel out" the entire left side of the equation, leading them to see only the numbers 4, 2, and 10. 
+*   **The Divider:** Those who struggle with formal algebra often perform a single operation (10 ÷ 2 or 10 ÷ 4) without considering the full structure.
+*   **The Confused:** A subset of students will multiply the first two numbers they see ($4 \times 5 = 20$).
+
+**The Prediction:**
+
+below_basic: A=20% B=10% C=40% D=30%
+**Why:** These students will likely choose **C (5)**. Their thought process is: "I see $2y = 10$, so $y$ must be 5." This is actually the correct logic, but many will guess **D (2.5)** because they see the 4 and the 10 and try to divide them ($10 \div 4 = 2.5$). A few will choose **A (20)** simply by multiplying $4 \times 5$.
+
+basic: A=5% B=35% C=50% D=10%
+**Why:** This group is the most likely to trip up on the "star." Many will correctly identify that if $x=0$, $2y=10$, therefore $y=5$ (**C**). However, a significant number will overcomplicate it or solve for when $y=0$ instead of $x=0$. Others might look at the options and pick **B (3)** because they are trying to find a "pattern" in the $y$ row before they've even calculated the first term.
+
+proficient: A=0% B=15% C=80% D=5%
+**Why:** Most will get **C** easily. The ones who miss it will likely pick **B**. This is the "look-ahead" error: they'll mentally solve for $x=1$ ($4(1) + 2y = 10 \rightarrow 2y=6 \rightarrow y=3$) and accidentally put the value for the *second* box into the *first* box because they misread the table.
+
+advanced: A=0% B=0% C=100% D=0%
+**Why:** These students will treat this as a "free" mark. They instinctively substitute $x=0$ and solve the one-step equation $2y=10$. They are unlikely to be distracted by the other numbers.

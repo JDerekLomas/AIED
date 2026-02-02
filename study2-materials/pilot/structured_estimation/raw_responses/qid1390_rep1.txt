@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: 1/3 + 1/2 x 1/3 = ?
+Correct: A (1/2)
+
+To solve correctly, a student must know BIDMAS/BODMAS and multiply before adding:
+1/2 x 1/3 = 1/6, then 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2.
+
+The targeted misconception is left-to-right processing. A student ignoring order of operations would do:
+1/3 + 1/2 = 5/6, then 5/6 x 1/3 = 5/18 = answer B.
+
+This is a clean diagnostic item. The distractor B is essentially a "trap" for the exact misconception. Distractors C and D seem to target fraction arithmetic errors.
+
+Comparing with the calibration example that tests the same misconception (0.4 - 1/5 x 3, difficulty 0.134): that item involves mixed representations (decimal and fraction) which might make the order of operations more salient because the multiplication "looks different." In this item, everything is fractions, so the addition might feel more natural to attempt first, potentially making this slightly harder.
+
+However, the simplicity of the fractions (1/3, 1/2) means that strong students will breeze through it. I think the classical difficulty (proportion incorrect) is moderate, perhaps 0.20-0.28. Many students do learn BIDMAS well by KS3/4.
+
+For IRT parameters: discrimination should be good because the item cleanly separates those who know order of operations from those who don't. The guessing parameter should be near zero since the correct answer isn't typically what you'd guess by default.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

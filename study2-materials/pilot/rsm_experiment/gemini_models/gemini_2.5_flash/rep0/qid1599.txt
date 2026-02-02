@@ -1,0 +1,24 @@
+Let's break down this question and the common misconceptions that lead to the wrong answers, predicting student behaviour at different ability levels.
+
+**Analysis of Errors:**
+
+*   **Correct Answer: A) \( \frac{c}{h+4} \)** This correctly translates division into a fraction and recognises that the parentheses \( (h+4) \) mean the *entire* expression is the divisor, hence it all goes into the denominator.
+*   **Error for B) \( \frac{c+4}{h+4} \)**: This error comes from confusing the initial operation. Instead of just `c` being divided, the student has incorrectly added `4` to `c` in the numerator. Perhaps they've tried to "balance" the equation or distribute the 4 somehow. This seems like a slightly more complex misunderstanding.
+*   **Error for C) \( \frac{c}{h}+4 \)**: This is a very common and "attractive" error. The student correctly turns \( c \div h \) into \( \frac{c}{h} \), but then completely ignores the parentheses `()` and simply adds 4 *after* the division. They are forgetting that \( h+4 \) is a single entity to be divided by. This highlights a misunderstanding of order of operations and the role of brackets in algebraic expressions.
+*   **Error for D) \( \frac{h+4}{c} \)**: This error is a fundamental misunderstanding of division. The student has swapped the dividend and the divisor, essentially doing \( (h+4) \div c \) instead of \( c \div (h+4) \). This suggests they're struggling with which term goes in the numerator and which in the denominator in a fraction.
+
+---
+
+**Ability Level Predictions:**
+
+*   **Below Basic:** Students at this level often have a very shaky understanding of order of operations and algebraic conventions. They're prone to ignoring brackets or mixing up the numerator/denominator. Option C is particularly tempting as they do the division, then the addition. Option D is also plausible if they lack a clear concept of division.
+*   **Basic:** These students understand that division often turns into a fraction. They might remember fractions somewhat, but the importance of brackets might still elude them, or they might make simple errors. Option C is still a strong contender, but some might get D too. They might have a gut feeling about fractions but misinterpret the divisor.
+*   **Proficient:** Students at this level are generally competent with algebraic conventions. They should confidently recognise that brackets group `h+4` as a single term. They would be less likely to make fundamental errors like C or D, but might, on occasion, be tempted by C if rushing or misreading. B is a more unlikely, almost "over-thinking" type of error.
+*   **Advanced:** These students have a solid grasp of algebraic notation and order of operations. This question should be straightforward for them. They would immediately identify the denominator as `h+4` due to the parentheses.
+
+---
+
+below_basic: A=20% B=10% C=45% D=25%
+basic: A=45% B=10% C=35% D=10%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

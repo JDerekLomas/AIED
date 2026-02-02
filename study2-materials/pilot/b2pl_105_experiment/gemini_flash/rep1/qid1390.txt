@@ -1,0 +1,16 @@
+This question is a classic test of **Order of Operations (BIDMAS/BODMAS)** combined with fraction arithmetic. 
+
+The primary trap here is the temptation to perform the addition before the multiplication ($1/3 + 1/2 = 5/6$, then $5/6 \times 1/3 = 5/18$). Because the numbers are small and the addition appears first, many lower-ability students will read left-to-right. 
+
+**Option Analysis:**
+*   **A ($1/2$):** The correct answer. Calculation: $1/3 + (1/2 \times 1/3) = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2$.
+*   **B ($5/18$):** The BIDMAS error. $(1/3 + 1/2) \times 1/3 = 5/6 \times 1/3 = 5/18$. This is the most attractive distractor.
+*   **C ($2/9$):** Typically results from a "add the tops, multiply the bottoms" confusion or general procedural drift.
+*   **D ($1/15$):** Adding all denominators ($3+2+3=8$?) or miscellaneous calculation errors.
+
+Even proficient students occasionally fall for the left-to-right trap if they are rushing, as $1/3 + 1/2$ is a very "standard" fraction addition they are trained to recognise as $5/6$.
+
+below_basic: A=20% B=45% C=25% D=10%
+basic: A=35% B=45% C=15% D=5%
+proficient: A=70% B=25% C=4% D=1%
+advanced: A=95% B=4% C=1% D=0%

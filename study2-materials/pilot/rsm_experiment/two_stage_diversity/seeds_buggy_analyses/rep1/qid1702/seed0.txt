@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, the specific error I identify for this UK Year 9 student is the **Variable Swapping Bug (or Substitution Reversal).**
+
+### 1. The specific misconception: Variable Swapping Bug
+This is a conceptual and procedural error where a student ignores the specific labels in the table ($x$ and $y$) and instead substitutes the given value ($0.5$) into the first variable they see in the equation (usually $x$). They assume that because $x$ comes first in the equation $10x - 6y = 30$, the first available number must belong to $x$, or they simply lack the algebraic fluency to distinguish between independent and dependent variables in a horizontal/vertical table layout.
+
+### 2. Step-by-step through the misconception
+A student with this bug would work as follows:
+1.  **Look at the value provided:** They see the number $0.5$ in the table.
+2.  **Incorrect Substitution:** Instead of substituting $0.5$ for $y$, they substitute it for $x$ in the equation: $10(0.5) - 6y = 30$.
+3.  **Evaluate:** $10 \times 0.5 = 5$, leading to the equation $5 - 6y = 30$.
+4.  **Isolate $y$:**
+    *   Subtract 5 from both sides: $-6y = 25$.
+    *   Divide by $-6$: $y = 25 / -6$.
+5.  **Calculate:** $25 \div -6 \approx -4.166...$
+6.  **Refine based on Distractors:** Alternatively (and very commonly in this specific setup), the student ignores the negative sign during division or makes a basic arithmetic error with the decimals, looking for the nearest visual match to their result. If they incorrectly processed the subtraction as $10(0.5) + 6y = 30$ (treating the equation as a sum), they would get $5 + 6y = 30 \Rightarrow 6y = 25 \Rightarrow y \approx 4.16$. They will see **4.25** as the "most likely" answer due to the presence of the ".5" and "4" in their working.
+
+### 3. Which answer option this leads to
+This misconception typically leads the student to **Option A (4.25)**. 
+*(Note: To get the correct answer D (3.3), the student must do: $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30 \Rightarrow 10x = 33 \Rightarrow x = 3.3$. The 4.25 distractor is specifically designed to catch those who substituted $0.5$ into $x$ and either made a sign error or miscalculated the division $25 \div 6$ as $4.25$ instead of $4.16$.)*
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** for two reasons:
+*   **The "x comes first" instinct:** Students are conditioned to believe $x$ is the "input" and $y$ is the "output." In many classroom exercises, the $x$ row in a table is filled and the $y$ row is blank. Seeing a value in the $y$ row requires "reverse thinking," which is cognitively more demanding.
+*   **The "Guess and Check" illusion:** Because $4.16...$ (from the incorrect $25/6$) looks vaguely like $4.25$, and $4.25$ is a "neat" number often found in Year 9 assessments, the student will assume their rounding or division was slightly off but that their method (substitution into $x$) was correct. They are unlikely to realize they went wrong because they followed a "logical" (albeit reversed) procedural flow.

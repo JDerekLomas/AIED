@@ -1,0 +1,47 @@
+<chain_of_thought>
+Item: Expand and simplify (x-4)^2. Correct answer A: x^2 - 8x + 16.
+
+This is fundamentally testing algebraic manipulation — specifically expanding a squared binomial. Let me think about the cognitive demands.
+
+The student needs to:
+1. Recognise (x-4)^2 = (x-4)(x-4)
+2. Apply double bracket expansion (FOIL): x^2 - 4x - 4x + 16
+3. Simplify: x^2 - 8x + 16
+4. Match to option A
+
+Critical step: computing (-4) x (-4) = +16. The tested misconception is getting -16 here.
+
+Distractor mapping:
+- A: Correct — full correct expansion
+- B: x^2 + 16 — squared each term, missed -8x (very common novice error)
+- C: x^2 - 16 — possibly confused with difference of squares, or squared terms keeping minus sign
+- D: x^2 - 8x - 16 — correct middle term but (-4)(-4) = -16 (tested misconception)
+
+I note that option B is probably the strongest distractor overall since the "square each piece" error is one of the most persistent in algebra education. Option D captures the specific misconception being tested.
+
+Comparing to the anchor items: the factorising item with the same misconception label had difficulty 0.473 and b = 0.404. However, expansion is generally considered slightly easier than factorisation for students at this level, since expansion is a more procedural/forward process. On the other hand, the squared binomial is a notorious trap.
+
+I'll estimate this as moderate difficulty — classical difficulty around 0.45, b around 0.30. The item should have decent discrimination since it clearly separates those who can expand correctly from those who can't. The guessing parameter should be relatively low because each wrong answer maps to a specific error, so students aren't randomly guessing — they're systematically erring.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

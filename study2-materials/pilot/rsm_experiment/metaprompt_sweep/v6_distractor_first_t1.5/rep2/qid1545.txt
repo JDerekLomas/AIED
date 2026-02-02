@@ -1,0 +1,29 @@
+As a UK maths teacher, I see this type of problem frequently when teaching Order of Operations (BIDMAS/BODMAS). It perfectly highlights the tension between reading left-to-right and following mathematical hierarchy.
+
+### Step 1 — Reasoning Analysis
+
+*   **A) $>$ (Correct Reasoning):** The student applies BIDMAS correctly.
+    *   Left side: $12 \div 4 = 3$, then $8 + 3 = 11$.
+    *   Right side: $(8 + 12) = 20$, then $20 \div 4 = 5$.
+    *   Since $11 > 5$, the symbol is $>$.
+*   **B) $<$ (Misapplying Left-to-Right):** The student calculates the left side by simply moving left to right, ignoring division priority: $8 + 12 = 20$, then $20 \div 4 = 5$. They then see the right side also equals $5$ (or they see the right side looks "bigger" because of the brackets). Most often, this choice stems from a calculation error where they think the left side is smaller than the right side.
+*   **C) $=$ (Fundamental Misunderstanding of Brackets):** The student assumes that because both sides contain $8, 12, 4,$ addition, and division, they must be equivalent. They likely believe brackets are "optional" or purely decorative, or they calculate both sides incorrectly as $(8+12) \div 4 = 5$.
+*   **D) $\geq$ (Partial Understanding/Confusion):** The student may realise that $11$ is greater than $5$, but is confused by the formal notation or thinks "greater than or equal to" is a "safer" or more sophisticated version of the answer.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK curriculum, "Below Basic" refers to students struggling with Year 6 expectations; "Basic" reflects students at a standard Grade 3/4 (GCSE) level; "Proficient" reflects Grade 5/6; and "Advanced" reflects Grade 7+.
+
+**below_basic:** A=15% B=25% C=50% D=10%
+*Reasoning:* These students almost always calculate left-to-right. They will see $(8+12)$ on the left and $(8+12)$ on the right and assume equality (C) or guess based on the visual "busyness" of the brackets.
+
+**basic:** A=40% B=20% C=35% D=5%
+*Reasoning:* These students have heard of BIDMAS but often forget to apply it if the addition comes first. Option C remains a strong "distractor" because the numbers match exactly.
+
+**proficient:** A=75% B=10% C=12% D=3%
+*Reasoning:* Most students at this level routinely apply BIDMAS. Errors here are usually due to "careless" reading—scanning the numbers and assuming they are a distributive property identity without actually calculating.
+
+**advanced:** A=98% B=1% C=1% D=0%
+*Reasoning:* For advanced students, this is a "10-second" question. The only errors are likely "optical illusions" (misreading a sign) rather than a lack of conceptual understanding.

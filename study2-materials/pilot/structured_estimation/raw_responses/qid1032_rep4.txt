@@ -1,0 +1,39 @@
+<chain_of_thought>
+Target: 5 + 4 x 3 = ?
+
+This is a foundational order of operations item. The student needs to recognize that multiplication has higher precedence than addition and compute 4 x 3 = 12 before adding 5 to get 17.
+
+Key considerations for difficulty estimation:
+
+1. Population heterogeneity: The 11-16 age range is broad. For Year 7 students this is a current-topic question; for Year 10-11 students it's trivially easy. The weighted average across this population should produce a relatively low difficulty.
+
+2. The misconception (left-to-right processing) is extremely common and well-documented in mathematics education research. It's arguably the single most tested misconception in arithmetic. However, precisely because it's so commonly targeted in teaching, many students will have been explicitly drilled on BIDMAS.
+
+3. Distractor analysis: A (27) is the strongest distractor - it directly results from the misconception. C (60 = 5x4x3) is implausible for most students. D (12 = 4x3 only) might attract a few students who forget the addition step.
+
+4. Comparison to calibration: The BIDMAS calibration item with fractions had classical difficulty 0.134 and IRT b = -0.245. That item involved more complex arithmetic (decimals, fractions) but the same core misconception. This item has simpler numbers. I'd expect similar or slightly higher difficulty because the simple integers create a more fluent left-to-right reading path that can trigger the misconception more readily. Students confronting fractions in the calibration item may slow down and think more carefully.
+
+My estimate: classical difficulty ~0.20, slightly harder than the calibration BIDMAS item due to the deceptive simplicity. IRT difficulty around -0.35. Strong discrimination (~1.4-1.5) because the item cleanly sorts students on a single well-defined skill.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>1</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.48</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

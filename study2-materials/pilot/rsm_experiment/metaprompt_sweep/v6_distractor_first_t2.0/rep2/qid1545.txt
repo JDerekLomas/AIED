@@ -1,0 +1,23 @@
+As an experienced UK maths teacher, I see this question as a classic assessment of **BIDMAS/BODMAS** (Order of Operations). It specifically tests whether students prioritise division over addition when no brackets are present, compared to when brackets dictate the order.
+
+### Step 1 — Reasoning for each option:
+
+*   **A) $>$ (Correct Reasoning):** The student follows BIDMAS. Left side: $12 \div 4 = 3$, then $8 + 3 = 11$. Right side: Brackets first $(8 + 12) = 20$, then $20 \div 4 = 5$. Since $11 > 5$, they choose $>$.
+*   **B) $<$ (Incorrect Reasoning):** The student incorrectly works from left-to-right on the left-hand side ($8+12=20$, $20 \div 4 = 5$) but calculates the right side correctly as $5$. However, they may perceive the right side as "heavier" because it has brackets, or they make a simple arithmetic error (e.g., $12 \div 4 = 3$ then $8+3=11$, but they think $5$ is larger).
+*   **C) $=$ (Common Misconception):** This is the most common error. The student ignores the priority of operations and assumes that because both sides contain $8, 12, 4,$ and $\div$, they must be equal regardless of brackets. They calculate both sides as $20 \div 4 = 5$.
+*   **D) $\geq$ (Technical Reasoning/Guess):** Usually a "distractor" choice for students who don't understand inequality symbols. Occasionally, an advanced student might argue that because $11$ is "greater than or equal to" $5$ it is technically true, but they would usually choose the most specific answer (A) in a standard GCSE-style context.
+
+---
+
+### Step 2 — Predicted distributions:
+
+In the UK system, **Below Basic** refers to students working well below age-related expectations (KS2 level). **Basic** corresponds to a Foundation GCSE grade 1–3. **Proficient** corresponds to a secure Grade 4–6, and **Advanced** refers to Grade 7+ students.
+
+*   **below_basic:** A=15% B=15% C=60% D=10%
+    *   *Reasoning:* These students almost always calculate linearly (left-to-right) or see the same numbers and assume equality. The symbol $\geq$ is often chosen as a guess.
+*   **basic:** A=35% B=15% C=45% D=5%
+    *   *Reasoning:* BIDMAS is familiar but not "second nature." Nearly half will still fall into the trap of assuming the brackets don't change the value or will work left-to-right.
+*   **proficient:** A=75% B=10% C=12% D=3%
+    *   *Reasoning:* At this level, students are coached specifically on the "BIDMAS trap." Most will calculate 11 vs 5 correctly. Mistakes are usually down to rushing (Option C) or a slight calculation error (Option B).
+*   **advanced:** A=96% B=2% C=1% D=1%
+    *   *Reasoning:* These students handle order of operations instinctively. Any error here would be a rare "slip of the pen." A tiny fraction might overthink the logic of Option D.

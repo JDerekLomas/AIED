@@ -1,0 +1,36 @@
+## Step 1: Understand the question and the task
+The task is to predict the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for simplifying the given algebraic expression \( \frac{q^{2}+q-12}{q^{2}-2 q-3} \).
+
+## 2: Factor the numerator and denominator
+To simplify the expression, first factor both the numerator and the denominator. The numerator \(q^{2}+q-12\) can be factored into \((q+4)(q-3)\), and the denominator \(q^{2}-2q-3\) can be factored into \((q-3)(q+1)\).
+
+## 3: Simplify the expression
+After factoring, the expression becomes \( \frac{(q+4)(q-3)}{(q-3)(q+1)} \). We can simplify this by cancelling out the \((q-3)\) from both the numerator and the denominator, yielding \( \frac{q+4}{q+1} \), provided that \(q \neq 3\) to avoid division by zero.
+
+## 4: Analyze the options
+- Option A: \( \frac{q-4}{q-1} \) is incorrect because it doesn't match our simplified expression.
+- Option B: \( \frac{q+4}{q+1} \) matches our simplified expression.
+- Option C: \( \frac{q-4}{-2q-1} \) is incorrect and doesn't match any simple factorization or cancellation.
+- Option D: \( 4 \) is incorrect as it suggests a completely different form that doesn't result from simplifying the given expression.
+
+## 5: Consider common misconceptions and errors
+A common error might be not cancelling the common factor correctly or not factoring the expressions properly. However, this question seems to test the ability to factor and simplify algebraic fractions, which is a fundamental skill.
+
+## 6: Predict student responses based on ability levels
+- **Below_basic**: Students at this level might struggle with factoring and simplifying. They might not factor correctly or might not see the cancellation opportunity. Option B seems unlikely to be chosen by a significant percentage without strong algebraic skills. Guessing or incorrect simplification might lead to A, C, or D, but given the simplicity of B once correctly factored, a notable percentage might still get it right by chance or basic understanding.
+- **Basic**: At this level, students have a better grasp of basic algebra. They are more likely to factor correctly and simplify, leading to a higher percentage choosing B. Errors might still occur, especially if they misfactor or fail to cancel terms.
+- **Proficient**: These students are expected to have a solid understanding of algebraic manipulations. They should easily factor and simplify to get \( \frac{q+4}{q+1} \), making option B the most likely choice with a high percentage.
+- **Advanced**: Students at this level have a deep understanding and can handle complex algebraic expressions with ease. They would likely choose option B without hesitation.
+
+## 7: Assign percentages
+Given the nature of the question and typical student performance:
+- **Below_basic**: A=20% B=30% C=30% D=20% (struggling with basic concepts, might guess or partially understand)
+- **Basic**: A=15% B=60% C=15% D=10% (improved understanding, but still errors in calculation or concept)
+- **Proficient**: A=5% B=90% C=3% D=2% (strong understanding, minor errors)
+- **Advanced**: A=0% B=98% C=1% D=1% (high level of understanding, almost no errors)
+
+The final answer is:
+below_basic: A=20% B=30% C=30% D=20%
+basic: A=15% B=60% C=15% D=10%
+proficient: A=5% B=90% C=3% D=2%
+advanced: A=0% B=98% C=1% D=1%

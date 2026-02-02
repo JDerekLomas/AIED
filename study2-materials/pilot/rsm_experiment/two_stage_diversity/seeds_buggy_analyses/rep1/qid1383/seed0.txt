@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, I have identified the following specific error for this question.
+
+### 1. The specific misconception: **Base-Sign Independent Evaluation** (or "Squaring the value but not the sign")
+
+The specific misconception here is the failure to include a negative base within the power’s scope when substituting. In mathematical terms, the student evaluates $-3^4$ instead of $(-3)^4$. They treat the negative sign as an operation to be applied *after* the exponentiation, rather than treating $-3$ as a single term to be raised to the power.
+
+### 2. Step-by-step student logic
+A student with this misconception would follow these steps:
+1.  **Substitution:** They replace $k$ with $-3$, writing it down as $T = -3^4$ (crucially, without parentheses).
+2.  **Order of Operations (Misapplied):** They follow BIDMAS/BODMAS strictly by looking for Indices first. They isolate the "3" and raise it to the power of 4: $3 \times 3 \times 3 \times 3 = 81$.
+3.  **Application of Sign:** They see the negative sign sitting in front of the result and attach it at the very end.
+4.  **Final Calculation:** $-(81) = -81$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C: $-81$**.
+
+### 4. Attractiveness of the error
+This is a **highly "natural" and persistent error** for Year 9 students for three main reasons:
+
+*   **Calculator Logic:** If a student types `-3 ^ 4` into many standard scientific calculators, the output is `-81`. The calculator is programmed to follow the hierarchy of operations where the "unary minus" is subordinate to the exponent. A student seeing this on a screen will believe their manual logic is verified.
+*   **The "Rule of Two" Confusion:** Students are often taught that "two negatives make a positive" (the rule for multiplication). When dealing with a power of 4, the student may feel that because there is only *one* minus sign visible in the initial substitution ($-3^4$), there is nothing to "cancel it out."
+*   **Visual Dominance:** The exponent is visually attached to the digit '3'. In the student's mind, the negative sign is a "prefix" or an "afterthought" to the number itself, rather than an integral part of the base.
+
+Because the answer $-81$ is provided as an option, the student experiences a "selection validation" effect—they see their result in the list, which provides a false sense of security, making them unlikely to check if the power of an even exponent should always yield a positive result.

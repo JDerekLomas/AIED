@@ -1,0 +1,31 @@
+Looking at this question, I need to analyze the common errors students make when expanding $(m-5)(m-7)$.
+
+The correct answer is B) $m^2 - 12m + 35$ using FOIL:
+- First: $m \times m = m^2$
+- Outer: $m \times (-7) = -7m$
+- Inner: $(-5) \times m = -5m$
+- Last: $(-5) \times (-7) = +35$
+- Combined: $m^2 - 7m - 5m + 35 = m^2 - 12m + 35$
+
+Let me analyze each wrong option:
+
+**Option A) $m^2 - 2m - 35$**: This suggests students got the middle term as $-2m$ (possibly $-7 + (-5) = -12$ but wrote $-2$) and the constant as $-35$ (forgot that negative × negative = positive).
+
+**Option C) $m^2 + 12m + 35$**: This is the classic "ignore the negative signs" error - treating it like $(m+5)(m+7)$. Very attractive for struggling students.
+
+**Option D) $m^2 - 12m - 35$**: Students got the middle term right ($-12m$) but made the constant negative, forgetting that $(-5) \times (-7) = +35$.
+
+Now for my predictions based on typical Year 9 performance:
+
+**Below Basic students**: Often struggle with negative numbers and make multiple errors. The "ignore negatives" approach (Option C) is very tempting.
+
+**Basic students**: Usually can handle the $m^2$ term and often get the middle term right, but frequently mess up the sign of the constant term.
+
+**Proficient students**: Generally know the method well and catch most errors.
+
+**Advanced students**: Should get this right consistently, with only occasional careless mistakes.
+
+below_basic: A=15% B=25% C=35% D=25%
+basic: A=10% B=50% C=15% D=25%
+proficient: A=5% B=80% C=5% D=10%
+advanced: A=2% B=95% C=1% D=2%

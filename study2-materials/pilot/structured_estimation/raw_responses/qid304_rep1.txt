@@ -1,0 +1,66 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks about order of operations (BIDMAS/BODMAS/PEMDAS) - specifically which calculation should be done first in the expression 1+2×(3-4).
+
+The correct answer is C (3-4) because brackets/parentheses have the highest priority in order of operations.
+
+Let me consider each distractor:
+- A) 1+2: This would be chosen by students who work left to right regardless of order of operations
+- B) 2×3: This might be chosen by students who know multiplication comes before addition but ignore brackets
+- D) "It doesn't matter": This shows a fundamental misunderstanding of order of operations
+
+The misconception being tested is "Carries out operations from left to right regardless of priority order" - this directly relates to distractor A.
+
+Comparing to calibration items:
+- The similar misconception item (0.4-1/5×3) had classical difficulty 0.134 and IRT difficulty -0.245
+- That item required actual computation, while this item just asks which operation to do first
+
+This is a more direct, conceptual question about order of operations rather than requiring full computation. It's testing recognition of the rule rather than application.
+
+Ratings analysis:
+- Concept complexity: This involves understanding order of operations (BIDMAS) - a single but important concept (3-4)
+- Procedural steps: Just need to identify the priority - very few steps (2)
+- Abstraction level: Fairly concrete - looking at a specific expression (3)
+- Prerequisite knowledge: Need to know BIDMAS rules (4)
+- Distractor plausibility: A is very plausible for those with the misconception, B might attract some, D is less likely (5)
+- Misconception strength: Left-to-right processing is a very common misconception (7)
+- Question clarity: Very clear what's being asked (9)
+- Cognitive load: Low - just need to apply the rule (3)
+- Age appropriateness: Order of operations is typically taught around Year 6-7, so very appropriate for 11-16 (9)
+- Transfer distance: This is a standard presentation of order of operations questions (3)
+- Visual complexity: Simple numerical expression with brackets (3)
+- Solution uniqueness: Need to understand BIDMAS to get it right, but partial knowledge could help (6)
+
+For predictions:
+- This is a fairly straightforward question about a fundamental concept
+- The similar item with the same misconception had difficulty 0.134
+- However, that item required computation while this just asks about identification
+- This should be easier than that item
+- I estimate classical difficulty around 0.15-0.20 (proportion incorrect)
+- IRT difficulty should be negative (easy item), around -0.5 to -0.8
+- Discrimination should be moderate to good since it clearly separates those who know BIDMAS from those who don't
+- Guessing should be low since students will likely have a systematic approach (right or wrong)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.60</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

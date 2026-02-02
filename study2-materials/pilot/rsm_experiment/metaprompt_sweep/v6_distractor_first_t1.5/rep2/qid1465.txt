@@ -1,0 +1,27 @@
+As a UK maths teacher, I see questions like this frequently. It tests the application of BIDMAS (Brackets, Indices, Division, Multiplication, Addition, Subtraction) and the often-misunderstood hierarchy within the "AS" (Addition/Subtraction) and "DM" (Division/Multiplication) levels.
+
+### Step 1 — Reasoning for each option:
+
+*   **A) 6 (Correct Reasoning):** The student correctly follows BIDMAS. They multiply $4 \times 2 = 8$ first. The expression becomes $3 - 5 + 8$. Working left to right (as Addition and Subtraction have equal priority), they calculate $3 - 5 = -2$, then $-2 + 8 = 6$.
+*   **B) 4 (Common Misconception - Left to Right):** The student ignores order of operations and calculates strictly from left to right: $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$.
+*   **C) -12 (Rigid BIDMAS Error - Addition before Subtraction):** The student identifies they must multiply first: $4 \times 2 = 8$. However, they follow the "A" before "S" in the acronym too literally, adding $5 + 8$ first to get $13$. They then calculate $3 - 13 = -10$. Wait—correction—to get **-12**, the student usually performs the addition part of the left-to-right calculation incorrectly: $3 - (5 + 4) \times 2 \rightarrow 3 - 9 \times 2 \rightarrow 3 - 18 = -15$ (doesn't fit). 
+    *   *Correction for C:* The student likely did $3 - 5 = -2$, then saw $(2+4) \times 2$ or similar. Actually, the most common route to **-12** is $(3 - 5 + 4) \times (- something)$ or a sign error during the calculation $3 - (5 + 8)$. A student seeing it as $(3-5-4) \times 2$ yields $-6 \times 2 = -12$.
+*   **D) -10 (The "Literal BIDMAS" Error):** The student does multiplication first: $4 \times 2 = 8$. Then they take the acronym BIDMAS literally and perform Addition before Subtraction. They see "$5 + 8$" as a block, resulting in $3 - 13 = -10$. This is the most common error for intermediate students.
+
+---
+
+### Step 2 — Predicted Distributions:
+
+In the UK curriculum, "Below Basic" often refers to students working at KS3 Level 3-4, while "Advanced" refers to Grade 8/9 GCSE students.
+
+**below_basic:** A=10% B=50% C=20% D=20%
+*Reasoning: Students at this level almost always calculate from left-to-right (B) or get lost in the negative numbers and signs (C).*
+
+**basic:** A=30% B=25% C=10% D=35%
+*Reasoning: They have heard of BIDMAS and know to multiply first, but they fall into the trap of doing the addition ($5+8$) before the subtraction (D).*
+
+**proficient:** A=75% B=5% C=5% D=15%
+*Reasoning: Most students understand that Addition/Subtraction are equal priority, but under exam pressure, a significant minority still defaults to the literal order of the acronym (D).*
+
+**advanced:** A=98% B=0% C=1% D=1%
+*Reasoning: At this level, students treat subtraction as "adding a negative," making the order of operations second nature.*

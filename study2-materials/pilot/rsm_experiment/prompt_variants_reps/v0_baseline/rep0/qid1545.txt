@@ -1,0 +1,17 @@
+To predict the performance, we must look at the Order of Operations (BIDMAS/BODMAS).
+
+**Mathematical Analysis:**
+*   **Left Side:** $8 + 12 \div 4 = 8 + 3 = 11$
+*   **Right Side:** $(8 + 12) \div 4 = 20 \div 4 = 5$
+*   **Comparison:** $11 > 5$. Therefore, the answer is **A**.
+
+**Student Misconceptions:**
+*   **Below Basic:** Often work left-to-right regardless of operators ($8+12=20$, $20\div4=5$), leading them to choose **C**.
+*   **Basic:** May recognize brackets but forget division comes before addition on the left side, or vice versa, often guessing between **B** and **C**.
+*   **Proficient:** Understand BIDMAS but may make a mechanical error or feel "tricked" by the similarity of the numbers, occasionally picking **C** if they assume both sides must be equal in such a problem.
+*   **Advanced:** Will consistently apply rules correctly.
+
+below_basic: A=15% B=15% C=65% D=5%
+basic: A=35% B=10% C=50% D=5%
+proficient: A=75% B=5% C=18% D=2%
+advanced: A=96% B=1% C=2% D=1%

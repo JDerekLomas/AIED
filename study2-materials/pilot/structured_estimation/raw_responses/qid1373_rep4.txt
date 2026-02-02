@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing -3(m-2) with answer D: -3m+6.
+
+Let me think about this from a student perspective. A Year 8 student sees this and needs to:
+1. Recognize they need to multiply -3 by each term inside the bracket
+2. Compute -3 * m = -3m
+3. Compute -3 * (-2) = +6
+4. Combine: -3m + 6
+
+Step 3 is where the misconception lives. Many students at this level have a fragile understanding of why negative times negative equals positive. They may have memorized the rule but under cognitive load (dealing with algebra and distribution simultaneously), they revert to intuition that "negative things stay negative."
+
+The distractors are systematically constructed around sign errors, which is good item design. Option B is clearly the primary distractor for the tested misconception.
+
+Now for difficulty estimation. I want to anchor to the calibration set. The easiest item (solving -5=p+10) has classical difficulty 0.167. The hardest (solving an inequality) has 0.569. This item involves algebra with negative numbers - it's conceptually simpler than the inequality but the sign manipulation is tricky.
+
+I think this falls in the middle range. Perhaps around 0.35 classical difficulty. Many students do learn the "negative times negative is positive" rule, but a significant minority still get confused.
+
+For IRT parameters: b around 0.10 (slightly above average difficulty), discrimination around 1.50 (the item cleanly discriminates between students who know sign rules and those who don't). Guessing should be quite low - students with misconceptions will be drawn to specific wrong answers rather than guessing randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

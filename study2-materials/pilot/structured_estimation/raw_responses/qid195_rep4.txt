@@ -1,0 +1,39 @@
+<chain_of_thought>
+Solving (t-3)/2 = 1/8:
+- Multiply both sides by 2: t - 3 = 1/4
+- Add 3: t = 3 1/4 (answer D)
+
+This is a standard two-step equation but made more challenging by the fraction on the right-hand side and the fraction bar on the left acting as both grouping and division.
+
+Misconception analysis: "uses same operation rather than inverse" - distractor C (3 1/16) captures this perfectly. A student who divides 1/8 by 2 gets 1/16 rather than multiplying to get 1/4. After correctly adding 3, they arrive at 3 1/16.
+
+Distractor A (6 1/4): I believe this comes from reversing the order of operations - adding 3 to both sides first to get t/2 = 1/8 + 3 = 3 1/8, then multiplying by 2 to get 6 1/4. This is a common error when students don't respect the order of inverse operations.
+
+Distractor B (1): This might come from cross-multiplying: 8(t-3) = 2*1, so 8t - 24 = 2, 8t = 26, t = 26/8 = 3.25. Wait, that actually gives the correct answer expressed differently. Let me reconsider. Perhaps B comes from a student who sets t-3 = 2*1/8 correctly but then computes t = 3 - 1/4 (subtracting instead of adding, another instance of using same operation). 3 - 1/4 = 2.75, not 1. Or perhaps a student who somehow gets t - 3 = -2, giving t = 1. The error path to B is less clear.
+
+Compared to calibration: this should be harder than the basic equation items but perhaps comparable to the function machine item (0.295). The fractions push it higher. I'd say around 0.35 classical difficulty - not as hard as the factorising or inequality items because the structure is straightforward.
+
+Discrimination should be solid since the distractors map to identifiable errors, and the item cleanly separates students who understand inverse operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

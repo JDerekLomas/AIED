@@ -1,0 +1,44 @@
+<chain_of_thought>
+The item involves solving a linear equation with the unknown on both sides ($20t - 5 = 5t + 10$). 
+Step 1: Subtract $5t$ from both sides ($15t - 5 = 10$).
+Step 2: Add 5 to both sides ($15t = 15$).
+Step 3: Divide by 15 ($t = 1$).
+
+Analyzing the distractors:
+- $t = 1$ is correct.
+- $t = 0$: Could arise if a student thinks $20t - 5t = 15t$ and $10 + 5 = 15$, then $15t = 15$ somehow leads to $0$, or if they misinterpret the relationship between the coefficients.
+- $t = -1$: Likely from sign errors, e.g., $15t = -15$ (subtracting 10 from 5 or subtracting 5 from -10).
+- $t = 1/5$: Likely from dividing the coefficient by the constant ($15/75$ or similar) or a misstep in the final division.
+
+The misconception "uses the same operation rather than the inverse" is specifically highlighted. If applied to $-5$, a student might subtract 5 from 10 to get 5. If applied to $5t$, they might add $5t$ to $20t$ to get $25t$. 
+$25t = 5 \rightarrow t = 1/5$ (Option D).
+$15t = 5 \rightarrow t = 1/3$ (Not an option).
+$25t = 15 \rightarrow t = 0.6$ (Not an option).
+
+Compared to the calibration items:
+- Item 1 ($-5 = p + 10$) had a very low classical difficulty (0.167) and IRT $b$ of -0.702. 
+- Item 5 ($2n+3 \leq 3n-7$) had a classical difficulty of 0.569 and IRT $b$ of 0.808.
+Equations with variables on both sides are generally harder than one-step equations but standard for the 11-16 age range (Year 8/9). The numbers here are "friendly" ($15t = 15$), which usually increases the success rate compared to equations resulting in fractions. However, the presence of the misconception-linked distractor $1/5$ will pull some students away.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

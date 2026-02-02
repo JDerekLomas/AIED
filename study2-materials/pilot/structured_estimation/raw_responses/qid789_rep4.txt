@@ -1,0 +1,39 @@
+<chain_of_thought>
+This is a like-denominator fraction addition item with a simplification requirement. Let me approach this from a different angle and think about the response distribution across options.
+
+Expected response distribution:
+- Option A (8/20): Students adding both numerators and denominators. This requires the student to actively do MORE work (adding denominators) rather than less. In my experience, when denominators match, fewer students make this error because the matching denominators actually cue the correct procedure. Maybe 10-15% select this.
+- Option B (8/10): The "almost right" answer. Students correctly add numerators, keep denominator, but stop. The prompt says "simplest form" but students under time pressure or with weak simplification skills will choose B. This could attract 15-20% of students.
+- Option C (4/5): Correct. I'd estimate 65-75% select this.
+- Option D (4/10): A strange option. Perhaps someone who halves 8/10 but only applies to numerator? Very unlikely reasoning. Maybe 3-5% select this, mostly random.
+
+So classical difficulty (proportion incorrect) would be around 0.25-0.35.
+
+This item is interesting because it actually tests TWO things: fraction addition AND simplification. The stated misconception (adding numerators and denominators) may not be the primary source of errors -- distractor B (failure to simplify) might catch more students.
+
+For IRT parameters, I'll anchor against the calibration. The linear equation -5 = p + 10 had b = -0.702 and was very easy (0.167 incorrect). This fractions item involves more common misconceptions and a two-step process, so it should be harder. I'll estimate b around -0.10.
+
+Discrimination should be solid. The item creates a clean ordering: low ability -> A, medium -> B, high -> C. This gradient suggests a ~ 1.3-1.5. Guessing is low since all distractors correspond to specific error patterns.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.38</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

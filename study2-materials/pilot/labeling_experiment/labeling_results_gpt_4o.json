@@ -1,0 +1,148 @@
+{
+  "gpt-4o": {
+    "metrics": {
+      "n_items": 8,
+      "n_failed_parse": 0,
+      "overall_mae": 23.928437499999998,
+      "overall_mae_std": 20.2080539496903,
+      "per_option_mae": {
+        "A": 22.18625,
+        "B": 17.99625,
+        "C": 35.955,
+        "D": 19.576249999999998
+      },
+      "mean_correlation": 0.04456690589152423,
+      "median_correlation": -0.27906996207580276
+    },
+    "results": [
+      {
+        "question_id": 1385,
+        "predicted": {
+          "A": 20.0,
+          "B": 15.0,
+          "C": 40.0,
+          "D": 25.0
+        },
+        "actual": {
+          "A": 10.85,
+          "B": 5.76,
+          "C": 76.27,
+          "D": 7.12
+        },
+        "raw_response": "A: 20%  \nB: 15%  \nC: 40%  \nD: 25%  \n\n**Explanation:**\n\n- **Option A (\\(\\frac{7}{12}\\))**: This option could attract students who mistakenly add the numerators and denominators separately, a common misconception when adding fractions. They might add \\(1+1+2+3 = 7\\) and \\(3+4+3+4 = 14\\), then simplify incorrectly or make an error in simplification. This option is plausible for students who are not confident in fraction addition, but it doesn't directly match the common mistake, so it might not be the most popular incorrect choice.\n\n- **Option B (\\(\\frac{7}{14}\\))**: This option is similar to A, but it represents a simplified version of \\(\\frac{7}{14}\\), which equals \\(\\frac{1}{2}\\). Students might choose this if they simplify incorrectly or if they are guessing. It's less likely than A because it involves an additional step of simplification, which might not occur to all students.\n\n- **Option C (2)**: This is the correct answer. Students who correctly find a common denominator and add the fractions will choose this. However, given the complexity of the task and common difficulties with fractions, not all students will arrive at this answer. Still, a significant portion of students who have been taught fraction addition well should be able to solve this correctly.\n\n- **Option D (\\(\\frac{28}{12}\\))**: This option represents the sum of the fractions without simplification. Students might arrive at this answer if they correctly find a common denominator (12) and add the fractions but forget or fail to simplify. This is a common error pattern, as students often struggle with the simplification step after correctly performing the addition.\n\nOverall, the distribution reflects the likelihood of students making specific errors or correctly solving the problem, based on common misconceptions and error patterns in fraction addition."
+      },
+      {
+        "question_id": 1390,
+        "predicted": {
+          "A": 40.0,
+          "B": 25.0,
+          "C": 20.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 47.57,
+          "B": 11.65,
+          "C": 28.16,
+          "D": 12.62
+        },
+        "raw_response": "A: 40%  \nB: 25%  \nC: 20%  \nD: 15%  \n\n**Reasoning:**\n\n- **Option A (\\(\\frac{1}{2}\\))**: This is the correct answer. Students who correctly apply the order of operations (PEMDAS/BODMAS) will first calculate \\(\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}\\) and then add \\(\\frac{1}{3} + \\frac{1}{6} = \\frac{1}{2}\\). However, many students struggle with order of operations, so not all will arrive at this answer. I estimate 40% will choose this option.\n\n- **Option B (\\(\\frac{5}{18}\\))**: This option might attract students who mistakenly add the fractions first, \\(\\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6}\\), and then multiply by \\(\\frac{1}{3}\\), leading to \\(\\frac{5}{18}\\). This reflects a common misconception of ignoring the order of operations, so I estimate 25% will choose this option.\n\n- **Option C (\\(\\frac{2}{9}\\))**: This could result from students who multiply the fractions first, \\(\\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}\\), but then incorrectly add \\(\\frac{1}{3} + \\frac{1}{6}\\) by adding numerators and denominators directly, leading to \\(\\frac{2}{9}\\). This reflects a misunderstanding of fraction addition, so I estimate 20% will choose this option.\n\n- **Option D (\\(\\frac{1}{15}\\))**: This option might attract students who incorrectly multiply all terms together, \\(\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{18}\\), and then make a further error in simplifying or calculating. This is less common, so I estimate 15% will choose this option."
+      },
+      {
+        "question_id": 1150,
+        "predicted": {
+          "A": 15.0,
+          "B": 25.0,
+          "C": 40.0,
+          "D": 20.0
+        },
+        "actual": {
+          "A": 14.18,
+          "B": 10.73,
+          "C": 71.21,
+          "D": 3.88
+        },
+        "raw_response": "A: 15%  \nB: 25%  \nC: 40%  \nD: 20%  \n\n**Explanation:**\n\n- **Option A (\\( v = r F^{2} \\)):** This option might attract students who misunderstand the manipulation of exponents and multiplication. They might incorrectly think that the square of \\( v \\) should be distributed to both \\( r \\) and \\( F \\). This is a less common error, so I estimate 15% might choose this.\n\n- **Option B (\\( v = \\sqrt{\\frac{F}{r}} \\)):** This option might seem plausible to students who correctly identify the need to take a square root but incorrectly rearrange the equation, placing \\( r \\) in the denominator. This error is somewhat common, so I estimate 25% might choose this.\n\n- **Option C (\\( v = \\sqrt{r F} \\)):** This is the correct answer. Students who correctly understand the manipulation of the equation and the properties of square roots are likely to choose this. Given typical performance, I estimate 40% might choose this option.\n\n- **Option D (\\( v = r \\sqrt{F} \\)):** This option might attract students who recognize the need for a square root but incorrectly apply it only to \\( F \\), misunderstanding the relationship between the variables. This is a plausible error, so I estimate 20% might choose this.\n\nOverall, the distribution reflects common misconceptions about algebraic manipulation, particularly with exponents and square roots, which are typical challenges for middle school students."
+      },
+      {
+        "question_id": 556,
+        "predicted": {
+          "A": 20.0,
+          "B": 15.0,
+          "C": 40.0,
+          "D": 25.0
+        },
+        "actual": {
+          "A": 14.8,
+          "B": 64.57,
+          "C": 8.07,
+          "D": 12.56
+        },
+        "raw_response": "A: 20%\nB: 15%\nC: 40%\nD: 25%\n\n**Explanation:**\n\n- **Option A (\\(+9\\))**: Some students might mistakenly think that addition is needed to \"undo\" multiplication, especially if they confuse operations or have a weak understanding of inverse operations. This is a common misconception, leading to a moderate percentage selecting this option.\n\n- **Option B (\\(\\times 9\\))**: This option is less likely to be chosen because multiplying by 9 would not simplify the equation to isolate \\(y\\). However, some students might mistakenly think that they need to \"apply\" the 9 again to both sides, leading to a smaller percentage selecting this option.\n\n- **Option C (\\(\\div 9\\))**: This is the correct answer. Students who understand that division is the inverse operation of multiplication and are familiar with solving equations will choose this option. However, given the prevalence of misconceptions and errors, not all students will select the correct answer, leading to a moderate percentage.\n\n- **Option D (\\(-9\\))**: Students might confuse subtraction as the inverse operation needed to isolate \\(y\\), especially if they are thinking about operations in terms of \"undoing\" without fully understanding the properties of equality. This is a common error, leading to a significant percentage selecting this option."
+      },
+      {
+        "question_id": 644,
+        "predicted": {
+          "A": 40.0,
+          "B": 30.0,
+          "C": 15.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 1.15,
+          "D": 98.85
+        },
+        "raw_response": "A: 40%  \nB: 30%  \nC: 15%  \nD: 15%  \n\n**Explanation:**\n\n- **Option A (+4):** This is the correct answer, and students who correctly apply the rule that multiplying two negative numbers results in a positive number will choose this option. However, given the common misconceptions and errors at this level, not all students will select the correct answer. I estimate that around 40% will choose this option.\n\n- **Option B (-4):** This is a plausible distractor because students often forget the rule about multiplying two negative numbers and may incorrectly assume the product is negative. This misconception is quite common, so I estimate that about 30% of students might choose this option.\n\n- **Option C (+5):** This option might attract students who mistakenly add the absolute values of the numbers being multiplied instead of multiplying them. While this is less likely than the sign error, it is still a possible mistake. I estimate that about 15% of students might choose this option.\n\n- **Option D (-5):** Similar to option C, this choice might attract students who both add the absolute values and apply the incorrect sign. Given that this involves two errors, it is less likely than the other options, so I estimate that about 15% of students might select this option."
+      },
+      {
+        "question_id": 1053,
+        "predicted": {
+          "A": 40.0,
+          "B": 25.0,
+          "C": 20.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 10.05,
+          "B": 6.08,
+          "C": 80.16,
+          "D": 3.7
+        },
+        "raw_response": "A: 40%  \nB: 25%  \nC: 20%  \nD: 15%  \n\n**Explanation:**\n\n- **Option A: \\( (x-3)(x+2) \\)**  \n  This is the correct factorization. Students who correctly understand how to factor quadratic expressions will choose this option. However, factoring quadratics can be challenging for middle school students, and many may not arrive at the correct answer. Therefore, I estimate that about 40% of students will select this option.\n\n- **Option B: \\( (x-3)(x-2) \\)**  \n  This option is a plausible distractor because students often confuse the signs when factoring. They might correctly identify one factor but incorrectly determine the sign of the other. Given the common error of misidentifying signs, I estimate that about 25% of students might choose this option.\n\n- **Option C: \\( (x+3)(x+2) \\)**  \n  This option might attract students who mistakenly add the constant term's factors instead of subtracting or those who misapply the signs entirely. Since both signs are incorrect, students who choose this option likely have a fundamental misunderstanding of the factoring process. I estimate that about 20% of students might select this option.\n\n- **Option D: \\( (x+3)(x-2) \\)**  \n  This option is less plausible because it does not correctly factor the quadratic expression in terms of signs or numbers. However, it might still attract students who are guessing or who have a partial understanding of the factoring process. I estimate that about 15% of students might choose this option."
+      },
+      {
+        "question_id": 1615,
+        "predicted": {
+          "A": 50.0,
+          "B": 20.0,
+          "C": 15.0,
+          "D": 15.0
+        },
+        "actual": {
+          "A": 3.26,
+          "B": 19.07,
+          "C": 72.33,
+          "D": 5.35
+        },
+        "raw_response": "A: 50%  \nB: 20%  \nC: 15%  \nD: 15%\n\n**Reasoning:**\n\n- **Option A (\\( \\frac{n-6}{3}=21 \\)):** This is the correct answer. Students who correctly interpret the problem and understand the order of operations will choose this option. Given the problem's straightforward nature and the age group, I estimate that about half of the students will select this option.\n\n- **Option B (\\( n-6 \\div 3=21 \\)):** This option reflects a common misconception where students might misinterpret the division operation as applying only to the 6, rather than the entire expression \\( n-6 \\). This mistake can occur if students are not careful with the order of operations or misread the problem. I estimate that about 20% of students might choose this option.\n\n- **Option C (\\( 3(n-6)=21 \\)):** This distractor might appeal to students who misinterpret the division operation as multiplication, or who think they need to multiply by 3 instead of dividing. This is a less common mistake but still plausible, so I estimate about 15% of students might select this option.\n\n- **Option D (\\( \\frac{n}{3}-6=21 \\)):** This option might attract students who incorrectly apply the division to the number \\( n \\) first, rather than the result after subtracting 6. This error shows a misunderstanding of the sequence of operations described in the problem. I estimate that about 15% of students might choose this option.\n\nThese estimates consider common student misconceptions and typical error patterns in middle school mathematics."
+      },
+      {
+        "question_id": 1195,
+        "predicted": {
+          "A": 50.0,
+          "B": 25.0,
+          "C": 15.0,
+          "D": 10.0
+        },
+        "actual": {
+          "A": 11.94,
+          "B": 17.31,
+          "C": 63.73,
+          "D": 7.01
+        },
+        "raw_response": "A: 50%  \nB: 25%  \nC: 15%  \nD: 10%  \n\n**Explanation:**\n\n- **Option A (18):** This is the correct answer, and students who correctly apply the order of operations (PEMDAS/BODMAS) will choose this. They will first calculate \\(3^2 = 9\\) and then multiply by 2 to get 18. Given the emphasis on order of operations in middle school, a significant portion of students should arrive at this answer.\n\n- **Option B (12):** This is a common error where students mistakenly multiply 2 by 3 first, getting 6, and then square the result to get 36. However, since 12 is not directly related to this specific error, it might be less chosen than option C. Still, some students might incorrectly simplify \\(2 \\times 3\\) first and then double it, leading to 12.\n\n- **Option C (36):** This is a plausible distractor for students who misunderstand the order of operations and multiply 2 by 3 first to get 6, and then square 6 to get 36. This error is quite common, so a notable percentage of students might choose this option.\n\n- **Option D (11):** This choice is less plausible but might attract students who are guessing or who perform a series of incorrect operations, such as adding 2 and 9 (from \\(3^2\\)) instead of multiplying. This option is likely to be chosen by a smaller percentage of students."
+      }
+    ]
+  }
+}

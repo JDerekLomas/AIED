@@ -1,0 +1,11 @@
+Error Analysis:
+A) The student identifies the points that are strictly *above* 25°C (July, August, September). This is a classic "opposite of intended" error, or simply a misunderstanding of the word "below."
+B) The student incorrectly counts the months that have an average temperature of *at least* 25°C (June, July, August, September). By including the boundary value (June at 25°C), they identify 4 months, again looking at the wrong side of the threshold.
+C) This is the correct answer. The student identifies January, February, March, April, May, October, November, and December (8 months). They correctly exclude June because its value is exactly 25°C, not *below* it.
+D) The student identifies all the points that are 25°C or lower. This is the "inclusive" error. They count the 8 months below the line plus the 1 month (June) that sits exactly on the 25°C line.
+
+Predictions:
+below_basic: A=25% B=25% C=20% D=30%
+basic: A=15% B=20% C=45% D=20%
+proficient: A=5% B=10% C=75% D=10%
+advanced: A=1% B=2% C=95% D=2%

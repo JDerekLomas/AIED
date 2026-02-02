@@ -1,0 +1,41 @@
+<chain_of_thought>
+Target: y = 3x^2, find y when x = 0.3. Answer: 3(0.3)^2 = 3(0.09) = 0.27 (B).
+
+The misconception being tested is left-to-right evaluation ignoring precedence. Students who do 3 * 0.3 first get 0.9, then squaring gives 0.81 (A).
+
+Let me think about difficulty by working through what different ability levels of students would do:
+- High ability: Correctly applies BIDMAS, computes 0.3^2 = 0.09, multiplies by 3. Gets B. No problem.
+- Medium ability: Knows BIDMAS but may struggle with 0.3^2. Might think 0.3^2 = 0.6 or 0.9 (common decimal squaring errors). If 0.3^2 = 0.9, then 3 * 0.9 = 2.7 (D).
+- Low-medium ability: Doesn't apply BIDMAS, computes left to right: 3 * 0.3 = 0.9, then 0.9^2 = 0.81 (A).
+- Low ability: May not understand squaring at all, might compute 3 * 0.3 * 2 = 1.8 (C) or guess.
+
+This analysis suggests the item has good spread across ability levels with each distractor targeting a different error pattern. This should give decent discrimination.
+
+The table-of-values presentation is familiar from textbook exercises, so transfer distance is low. The question is clear. Visual complexity is moderate—the table with LaTeX notation requires some parsing but isn't overly complex.
+
+For calibration: I note the two BIDMAS-related items in the anchors range from easy (0.134) to moderate. This item combines BIDMAS with decimal squaring, which should push difficulty up. I'll estimate around 0.32 classical difficulty.
+
+For IRT parameters: b around 0.0 to 0.15 (moderate, between the easy BIDMAS item at -0.245 and the function machine at 0.002, but actually harder than both due to decimal computation). Discrimination around 1.3—good but not exceptional, since multiple misconceptions are in play which could reduce the sharpness of the item response curve. Guessing low, around 0.05-0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

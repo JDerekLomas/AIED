@@ -1,0 +1,39 @@
+<chain_of_thought>
+Item: 2/9 + 1/3 with the misconception being adding numerators and denominators separately.
+
+Let me approach this from the perspective of item difficulty relative to the calibration set. The calibration items span algebra (equations, inequalities, factoring) and arithmetic (order of operations). Their difficulties range from 0.167 to 0.569 (classical) and -0.702 to 0.808 (IRT b).
+
+Fraction addition is a more fundamental skill than solving equations or factoring quadratics. However, the misconception tested here is extremely common — perhaps more common than "using the same operation rather than inverse" which appeared in several calibration items.
+
+Key consideration: the easiest calibration item (-5 = p + 10, classical difficulty 0.167) tests a simple equation where most students can solve it. Is fraction addition easier or harder? For UK secondary students, I think basic equation solving might actually be easier than fraction addition for many students, because fraction misconceptions are so deeply entrenched. Many students can mechanically solve simple linear equations but still struggle with fraction operations.
+
+So I'd place this item somewhat harder than the easiest calibration items but well below the hardest ones. Classical difficulty perhaps 0.30-0.40.
+
+The distractors: B is the primary trap (misconception target). C catches a different partial error. D is weak. Having one very strong distractor (B) and one moderate one (C) means the item should have good discrimination but possibly some lower-ability students might guess among the wrong answers rather than being pulled entirely to B.
+
+For guessing: with one correct answer and three wrong, naive guessing gives 0.25. But the distractors are well-designed enough that low-ability students will gravitate toward B rather than guess randomly. The effective guessing parameter should be low, maybe 0.05-0.10.
+
+IRT discrimination: The item tests a clear, specific skill with well-targeted distractors. I expect good discrimination, around 1.2-1.4. Not as high as the order-of-operations item (1.55) because fraction knowledge is more variable and some students might get it right for superficial reasons (e.g., they've memorized "find common denominator" without deep understanding).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.33</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

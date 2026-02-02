@@ -1,0 +1,18 @@
+To predict the performance of UK students (typically GCSE level), we must consider the specific pitfalls of negative number arithmetic.
+
+While the expansion steps $(m^2, -7m, -5m, +35)$ are standard, students struggle significantly with the signs:
+1.  **The Sum (-12):** Less able students often find the difference ($7-5=2$) or simply ignore signs.
+2.  **The Product (+35):** This is the biggest "trap." Students frequently think "a negative and a negative makes a negative" when distracted, or simply carry the minus sign from the brackets into the result (leading to -35).
+
+Here is the predicted breakdown:
+
+below_basic: A=25% B=20% C=15% D=40%
+basic: A=15% B=45% C=10% D=30%
+proficient: A=5% B=75% C=5% D=15%
+advanced: A=1% B=95% C=1% D=3%
+
+**Rationale:**
+*   **Below Basic:** Students often guess. Option D is highly attractive because the minus signs in the question lead them to expect minus signs in the answer. A is also common due to basic subtraction of 7 and 5.
+*   **Basic:** Students generally know they need to add 5 and 7 to get 12, but the most common error at this level is $(-5) \times (-7) = -35$. Therefore, D is a very strong distractor.
+*   **Proficient:** These students have mastered the "FOIL" or grid method and usually remember that a negative times a negative is a positive. Slip-ups on the final sign (Option D) are still the primary cause of error.
+*   **Advanced:** Usually high-attaining Grade 7-9 students who execute this algorithmically with very low error rates. Under exam pressure, a sign error is still the most likely mistake.

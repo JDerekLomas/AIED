@@ -1,0 +1,47 @@
+<chain_of_thought>
+The item presents 8x/5 = 40 and asks students to evaluate Tom's and Katie's proposed next steps.
+
+Let me verify each claim carefully.
+
+Tom: 8x = 8. Starting from 8x/5 = 40, to remove the /5 from the left side, we multiply both sides by 5. That gives 8x = 200, not 8x = 8. Tom seems to have done 40/5 = 8 — dividing instead of multiplying. This is wrong.
+
+Katie: x/5 = 5. Starting from 8x/5 = 40, dividing both sides by 8 gives (8x)/(5·8) = 40/8, which simplifies to x/5 = 5. This is correct.
+
+Answer: B (Only Katie).
+
+Now for psychometric estimation. Key considerations:
+
+1. The "who is correct" format requires evaluating two separate claims, which doubles the cognitive work compared to just solving the equation.
+
+2. Tom's error is seductive — 40 ÷ 5 = 8 is a clean calculation, and students who share the same-operation misconception will think Tom is right.
+
+3. Katie's step is less obvious. Many students default to "undo the fraction first" when solving, so dividing by 8 as a first step may seem unfamiliar even though it's valid. Some students might reject Katie's approach simply because it's not the standard textbook sequence.
+
+4. This means option C ("Both correct") and option A ("Only Tom") are both strong distractors.
+
+Looking at the calibration set: Items with this misconception span a wide difficulty range. The simple p + 10 = -5 item is easy (0.167), while the inequality is hard (0.569). This item's added complexity from the "who is correct" format and the fractional coefficient suggests moderate-to-high difficulty.
+
+I'll estimate classical difficulty around 0.52, slightly harder than the factorising item due to the fraction manipulation. Discrimination should be moderate — perhaps slightly lower than average because the "who is correct" format can introduce noise from students who solve correctly but misjudge the claims.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.48</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.13</guessing_probability>
+</predictions>

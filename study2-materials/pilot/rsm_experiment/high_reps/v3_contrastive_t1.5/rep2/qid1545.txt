@@ -1,0 +1,14 @@
+This question tests the order of operations (BIDMAS/BODMAS). The primary challenge is whether a student identifies that on the left side, the division ($12 \div 4$) must be performed before the addition, whereas on the right side, the brackets force the addition first.
+
+For "Below Basic" students, the most common error is "left-to-right" processing. On the left side, they will calculate $(8+12) \div 4 = 5$. Since the right side also equals 5, they will frequently choose **C (=)**.
+
+For "Basic" students, many have memorised that brackets come first, but they often forget that division takes precedence over addition when brackets are absent. They may also see the same numbers and operators on both sides and intuitively feel they should be equal without calculating.
+
+"Proficient" students usually recognise the need for BIDMAS but can occasionally make a calculation error (e.g., $12 \div 4 = 4$). However, most will correctly compare $11$ vs $5$.
+
+"Advanced" students will solve this mentally and almost instantly, recognizing the structural difference between $8 + (12 \div 4)$ and $(8 + 12) \div 4$. Option D is a rare distractor for students who understand that $11$ is "greater than or equal to" $5$, but in a multiple-choice context, $A$ is the standard "best" answer.
+
+below_basic: A=25% B=15% C=55% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=0% D=1%

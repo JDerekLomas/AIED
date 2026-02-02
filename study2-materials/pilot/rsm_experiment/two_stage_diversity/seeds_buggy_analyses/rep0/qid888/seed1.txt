@@ -1,0 +1,24 @@
+As an expert in mathematical misconceptions, the most common and "sticky" error for a Year 9 student (approx. 13–14 years old) in this specific problem involves the **Integer Sign Rule for Multiplication**, specifically when dealing with two negative constants.
+
+### 1. The specific misconception: The "Dominant Sign" Error
+The bug is a failure to apply the rule **"negative × negative = positive."** Instead, the student applies a flawed intuitive logic often called the **Dominant Sign Error** (or an "Additive Carry-over"). Because the expression is dominated by minus signs $(m-5)$ and $(m-7)$, the student subconsciously feels that the result *must* remain negative. They confuse the rules of *adding* directed numbers (e.g., $-5 + -7 = -12$) with the rules of *multiplying* them.
+
+### 2. Step-by-step student work
+A student with this misconception would likely use the FOIL method or a grid method:
+
+*   **Firsts:** $m \times m = m^2$ (The student gets this right).
+*   **Outers:** $m \times -7 = -7m$ (Correct).
+*   **Inners:** $-5 \times m = -5m$ (Correct).
+*   **Lasts:** $-5 \times -7 = \mathbf{-35}$ (**The Error occurs here**). The student correctly identifies $5 \times 7 = 35$, but since both original numbers were "minus," they keep the minus sign in the result, thinking: *"A minus and a minus make a bigger minus."*
+*   **Simplifying:** They group the middle terms $-7m - 5m = -12m$.
+*   **Final Result:** $m^2 - 12m - 35$.
+
+### 3. Answer Option
+This misconception leads directly to **Option D**.
+
+### 4. Attractiveness of the error
+This is a highly "natural" and persistent error for several reasons:
+
+*   **Linguistic Confusion:** Students are often taught the mnemonic "Minus and a minus make a plus." When adding $-5$ and $-7$, they get $-12$. If a teacher corrects them then, the student gets confused when, moments later, they are told that in multiplication, the minus signs *do* cancel out.
+*   **Visual Consistency:** Looking at the original expression $(m-5)(m-7)$, there isn't a single "plus" sign visible. To a Year 9 student, producing an answer with a $+35$ (Option B) feels counter-intuitive and "wrong" because it introduces a symbol that wasn't there to begin with.
+*   **Lack of Checking:** A student would rarely realize they went wrong because the result $-12m$ and $-35$ feels internally consistent with the "negative feel" of the brackets. Unless they are explicitly trained to substitute a value (like $m=0$) back into both expressions to check for equivalence, the error remains invisible to them.

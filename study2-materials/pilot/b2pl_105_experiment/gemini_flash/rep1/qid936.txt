@@ -1,0 +1,12 @@
+This question is a classic test of signs in quadratic factorisation. 
+
+Tom's statement is the standard "all positive" case ($3 \times 2 = 6$ and $3 + 2 = 5$), which most students identify correctly. 
+
+Katie’s statement is a "trap" for students who rely on heuristics rather than expansion. Many students believe that if the middle term is negative and the constant is negative, you just make the factors negative. However, $(x-3)(x-2)$ actually expands to $x^2 - 5x + 6$. To get $-6$ as a constant, one bracket must be positive and one must be negative (i.e., $(x-6)(x+1)$).
+
+Below-basic students often see "5 and 6" and "2 and 3" and assume both are correct without checking signs. Proficient students are the most likely to get this right as they have moved past the "sum and product" stage to "checking by expanding."
+
+below_basic: A=35% B=10% C=45% D=10%
+basic: A=55% B=5% C=35% D=5%
+proficient: A=80% B=2% C=15% D=3%
+advanced: A=96% B=1% C=2% D=1%

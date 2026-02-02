@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I will focus on a specific procedural error regarding the **rearrangement of fractions**, which is common for UK Year 9 students transitioning from simple algebra to multi-step subject transformation.
+
+### 1. The specific misconception: "Multiplication by the Numerator"
+The bug is a failure to apply the **inverse operation to a fraction coefficient**. When students see the formula $V = \frac{4}{3}\pi r^3$, they often struggle with the $\frac{4}{3}$ term. Instead of multiplying by the reciprocal ($3$) and dividing by the numerator ($4$), they intuitively associate "multiplying by a fraction" with "multiplying by the top number."
+
+This is often combined with a **top-heavy division error**, where students assume that because 4 is "on top" in the formula, it must remain "on top" when moved to the other side of the equals sign.
+
+### 2. Step-by-Step Student Working
+A student with this misconception would proceed as follows:
+
+*   **Step 1 (Formula recall):** The student correctly identifies the volume of a sphere formula: $V = \frac{4\pi r^3}{3}$.
+*   **Step 2 (The Misconception):** They attempt to move the $\frac{4}{3}\pi$ to the other side. Instead of multiplying by 3, they incorrectly "move" the 3 over as a multiplier for the right side or simply swap its position with the $V$. They treat the $4\pi$ as the denominator and the 3 as the numerator in the resulting fraction. 
+    *   *Faulty logic:* "The 4 and $\pi$ are currently multiplied by $r$, and the 3 is underneath. If I move them, I keep them together but flip the whole thing over." 
+    *   *Calculation:* $V \times \frac{4\pi}{3} = r^3$
+*   **Step 3 (The Algebra):** They arrive at $r^3 = \frac{4V\pi}{3}$.
+*   **Step 4 (Final step):** To isolate $r$, they take the cube root of the entire expression: $r = \sqrt[3]{\frac{4V\pi}{3}}$.
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option A**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive** and often feels "correct" to a Year 9 student for several reasons:
+
+*   **Visual Familiarity:** In the original formula, $4\pi$ is in the numerator. In Option A, $4\pi$ is still in the numerator. Many students have a subconscious bias toward keeping terms in their original "altitude" (top/bottom) even when rearranging.
+*   **Linear Reasoning:** Students who struggle with dividing by fractions often default to simply multiplying all available constants together ($V \times 4 \times \pi$) and then dividing by whatever number was originally at the bottom ($3$).
+*   **Lack of Internal Validation:** Because the student has successfully performed a "rearranging move" and an "inverse power move" (the cube root), they feel they have done "enough" algebra. Unless they check their units or substitute numbers back in, they will have no reason to suspect the formula is mathematically inverted. To them, Option A "looks" more like the original sphere formula than Option C does.

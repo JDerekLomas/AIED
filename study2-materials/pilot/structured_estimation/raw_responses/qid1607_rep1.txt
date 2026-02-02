@@ -1,0 +1,40 @@
+<chain_of_thought>
+Let me analyze this item about evaluating Isaac's equation-solving steps for 15 = (1+k)/4.
+
+The equation solving:
+- Correct approach: multiply both sides by 4 → 60 = 1 + k, then subtract 1 → k = 59.
+- Isaac's Step 1: 60 = 1 + k. Correct — he properly multiplied by 4.
+- Isaac's Step 2: 61 = k. Incorrect — he added 1 instead of subtracting 1. This is the classic "same operation instead of inverse" misconception.
+
+Answer: A (Only Step 1 is correct).
+
+Difficulty considerations: This is a "spot the error" format rather than "solve it yourself." Students need to understand equation solving well enough to judge each step independently. Some students might rush and pick C (both correct) because the numbers seem plausible — 61 is close to 59 and both "feel right" if you're not careful. The question format adds a layer of metacognition.
+
+Comparing with anchor items: The simple equation p + 10 = -5 had difficulty 0.167. The factoring evaluation item (Tom and Katie) had difficulty 0.473 — that also required evaluating others' work but with more complex algebra. This item sits somewhere between — simpler math than factoring but same evaluative format.
+
+The discrimination should be moderate to good — students who understand inverse operations will reliably get this right, while those who don't will be drawn to C or B. The misconception (same operation vs inverse) is one of the most pervasive in algebra instruction.
+
+I estimate classical difficulty around 0.35, IRT b around 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

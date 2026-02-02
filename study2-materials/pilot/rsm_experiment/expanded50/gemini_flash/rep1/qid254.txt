@@ -1,0 +1,11 @@
+Error Analysis:
+A) The student correctly identifies that the zero must be included in the count of the divisor (denominator), but incorrectly believes that since adding zero does not change the numerical total, it can be omitted from the sum entirely. They understand the algorithm but see the "0" as numerically redundant in the numerator.
+B) The student knows the steps are to add the numbers and divide by 5, but they fail to understand the hierarchy of operations (BIDMAS/BODMAS). They would enter this string into a basic scientific calculator, which would perform $7 \div 5$ first and then add the remaining integers, leading to an incorrect result.
+C) The student makes a dual error: they believe that the number zero "doesn't count" as a data point. Therefore, they exclude it from the sum and subsequently divide by 4 because they only see four "value-holding" numbers. This is the most common misconception regarding zero in data sets.
+D) The student correctly identifies that the proper calculation should be $\frac{0+1+3+4+7}{5}$. However, they lack the flexibility to realize that $\frac{1+3+4+7}{5}$ (Option A) is mathematically identical. They are looking for a literal representation of all five digits and, not seeing the '0+', assume all options are wrong.
+
+Predictions:
+below_basic: A=15% B=40% C=40% D=5%
+basic: A=25% B=20% C=45% D=10%
+proficient: A=45% B=5% C=20% D=30%
+advanced: A=85% B=1% C=2% D=12%

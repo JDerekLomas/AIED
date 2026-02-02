@@ -1,0 +1,28 @@
+To predict these percentages accurately, we must consider the specific pitfalls of order of operations (BIDMAS/BODMAS). 
+
+For the expression on the left ($8 + 12 \div 4$), students at the lower levels often read from left to right ($8+12=20$, then $20 \div 4 = 5$), which leads them to see the two sides as equal. Students who have "learned" BIDMAS but not mastered it often think the brackets on the right make that side larger automatically, or they mistakenly perform addition before division on both sides.
+
+**Left side (correct):** $8 + 3 = 11$
+**Left side (error):** $20 \div 4 = 5$
+**Right side (always):** $20 \div 4 = 5$
+
+Therefore, $11 > 5$. The correct answer is **A**.
+
+Here is the predicted distribution:
+
+below_basic: A=15% B=20% C=60% D=5%
+*Lower-ability students almost universally calculate $8+12$ first on both sides, leading them to see $5=5$ and choosing C. A significant portion might guess B simply because the right side "looks" more complex/bigger.*
+
+basic: A=35% B=20% C=40% D=5%
+*Students here are starting to remember BIDMAS exists, but many still default to left-to-right processing under pressure or believe the presence of brackets on the right side indicates a higher value. Many will still fall for the C trap.*
+
+proficient: A=75% B=10% C=12% D=3%
+*These students generally apply BIDMAS correctly to the left-hand side ($8+3$). The minority will make a calculation error or a lapse in judgment, assuming brackets are required for a side to be "bigger."*
+
+advanced: A=96% B=1% C=2% D=1%
+*Top-tier students will instantly recognise the structure: $8+(12 \div 4)$ vs $(8+12) \div 4$. The only errors here would be extreme carelessness.*
+
+below_basic: A=15% B=20% C=60% D=5%
+basic: A=35% B=20% C=40% D=5%
+proficient: A=75% B=10% C=12% D=3%
+advanced: A=96% B=01% C=02% D=01%

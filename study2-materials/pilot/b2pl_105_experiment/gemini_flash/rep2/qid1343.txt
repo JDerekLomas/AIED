@@ -1,0 +1,14 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it looks straightforward, it contains a specific trap: the operations are arranged such that a student working strictly from left-to-right will arrive at an incorrect answer that is listed as an option.
+
+**Analysis of Options:**
+*   **A (8):** The correct answer. Division and multiplication are performed first ($6 + 2 = 8$).
+*   **D (14):** The "left-to-right" error. Students do $12 \div 2 = 6$, then $6 + 1 = 7$, then $7 \times 2 = 14$. This is a very common error for Basic and Below Basic students.
+*   **B (3):** The "addition first" error. Students might perform the middle addition first ($2+1=3$), then $12 \div 3 = 4$, then $4 \times 2 = 8$ (coincidentally correct) or $12 \div (3 \times 2) = 2$ or similar variations. 3 is a common "guessed" distractor for those overwhelmed by the symbols.
+*   **A (9):** A calculation error or a "multiplication first" then left-to-right approach ($1 \times 2 = 2$, $12 \div 2 = 6$, $6+2=8$).
+
+This specific question is harder than some order of operation questions because the addition sits right in the middle, tempting the student to add before they multiply.
+
+below_basic: A=25% B=15% C=45% D=15%
+basic: A=45% B=10% C=35% D=10%
+proficient: A=85% B=2% C=10% D=3%
+advanced: A=98% B=1% C=1% D=0%

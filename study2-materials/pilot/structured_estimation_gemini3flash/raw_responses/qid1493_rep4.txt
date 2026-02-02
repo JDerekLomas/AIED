@@ -1,0 +1,35 @@
+<chain_of_thought>
+The item tests the order of operations (BIDMAS/BODMAS/PEMDAS), specifically prioritizing indices (Exponents) over division and subtraction. 
+- Concept Complexity: Low. It's a fundamental arithmetic rule.
+- Procedural Steps: Very low. The student doesn't have to calculate the final answer, only identify the first step.
+- Distractor Plausibility: Option C (8-7) is a very strong distractor for students who work left-to-right. Option B (7/6) is plausible for those who know MD/AS but forget indices come first.
+- Misconception: The "left-to-right" misconception is extremely common in UK Year 7 and 8 (ages 11-13).
+- Comparison with Calibrated Items: 
+    - The second calibration item (0.4 - 1/5 * 3) had a classical difficulty of 0.134, but that required a full calculation with fractions and decimals. 
+    - This target item is much simpler because it only asks for the *first step*. 
+    - However, the presence of an index ($6^3$) often confuses students more than simple multiplication.
+- Psychometric Prediction: Because it asks for the first step rather than the final value, the success rate will be higher than the multi-step calculation item. However, the misconception (left-to-right) is very potent. I expect a moderate difficulty but high discrimination because it's a "know it or you don't" question.
+- Guessing: Since it's a 4-choice question and "It doesn't matter" is a weak distractor, the effective guessing rate is low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>9</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

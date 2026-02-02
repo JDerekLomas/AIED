@@ -1,0 +1,14 @@
+As a researcher in mathematics education, I identify a specific **notational/procedural trap** involving the **unconventional layout of the input-output table**.
+
+### The Difficulty: Non-standard Variable Assignment
+Students are culturally and procedurally conditioned to see tables of values where $x$ is the "input" (top/left) and $y$ is the "output" (bottom/right). In this question, the known value provided is $y = 0.5$, and the unknown $(\bigstar)$ is $x$.
+
+**Why this makes the question difficult:**
+Many students follow a rigid "left-to-right" or "top-to-bottom" substitution script. They see a single number ($0.5$) and automatically substitute it into the first variable they encounter in the equation ($x$). 
+
+**The specific error pathway:**
+1.  **Mis-substitution:** Instead of $10x - 6(0.5) = 30$, the student performs $10(0.5) - 6y = 30$.
+2.  **Arithmetic:** $5 - 6y = 30 \Rightarrow -6y = 25 \Rightarrow y \approx -4.16$.
+3.  **Distractor Trap:** While $-4.16$ isn't exactly $-4.25$ (Option B), a student who makes a further sign error (e.g., $10(0.5) + 6y = 30$) would get $6y = 25$, resulting in $4.16$. A student prone to rounding or slight calculation errors will see **Option A (4.25)** or **Option B (-4.25)** as "close enough" and assume their only mistake was a decimal point error, rather than a fundamental misinterpretation of which variable to replace.
+
+Even high-attaining students may "auto-pilot" the $0.5$ into the $x$ position because $0.5 \times 10$ is mentally "cleaner" than $0.5 \times 6$, creating a cognitive bias toward substituting into the easier coefficient regardless of the labels in the table.

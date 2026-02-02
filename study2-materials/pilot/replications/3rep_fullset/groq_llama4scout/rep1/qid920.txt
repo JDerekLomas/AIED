@@ -1,0 +1,58 @@
+To approach this question, let's consider what rounding to 1 significant figure entails. When rounding a number to 1 significant figure, we look at the first digit of the number. If the second digit is 5 or greater, we round up the first digit; if it's less than 5, we leave the first digit unchanged. All digits after the first digit are then set to zero.
+
+The number given is \( 95365 \). 
+
+1. The first digit is \( 9 \).
+2. The second digit is \( 5 \).
+
+Since the second digit is \( 5 \), we round up the first digit. So, \( 9 \) becomes \( 10 \), but since we're working with significant figures and the concept of rounding, this translates to \( 10 \) being represented as \( 1 \) followed by zeros, which in this context (when dealing with significant figures), results in \( 100000 \) when properly rounded to 1 significant figure because we effectively look at the number as \( 9.5365 \times 10^4 \) and then apply the rounding rules.
+
+Given this, let's predict the student responses based on ability levels:
+
+### Below Basic
+Students at this level may struggle with basic concepts of rounding and significant figures. They might not fully understand the rules or apply them incorrectly.
+- A: \( 10000 \) could be a plausible mistake if they incorrectly round down or misunderstand significant figures.
+- B: \( 90000 \) might seem reasonable if they round down.
+- C: \( 100000 \) is the correct answer; however, these students might not get it.
+- D: \( 95365 \) might be chosen if they don't understand rounding.
+
+Prediction: 
+- A=30% (incorrect rounding)
+- B=30% (incorrect rounding)
+- C=20% (correct but challenging for this group)
+- D=20% (leaving the number as is, indicating a lack of understanding)
+
+### Basic
+Students at this level have a basic understanding but may still make simple mistakes.
+- They are more likely to understand the concept of rounding to 1 significant figure but might struggle with the specifics of this number.
+
+Prediction:
+- A=15% (still some confusion)
+- B=20% (some still round down)
+- C=60% (understand and apply correctly)
+- D=5% (better understanding means fewer leave it as is)
+
+### Proficient
+Students here have a good grasp of the concepts.
+- They should mostly get it right but might make occasional mistakes.
+
+Prediction:
+- A=5% (rare mistake)
+- B=10% (occasional error)
+- C=80% (correct application)
+- D=5% (rarely leave it unchanged)
+
+### Advanced
+Students at this level have a deep understanding and rarely make mistakes on such concepts.
+
+Prediction:
+- A=0% (no mistake expected)
+- B=0% (no mistake expected)
+- C=95% (confidently correct)
+- D=5% (possibly checking or ensuring accuracy)
+
+So, 
+below_basic: A=30% B=30% C=20% D=20%
+basic: A=15% B=20% C=60% D=5%
+proficient: A=5% B=10% C=80% D=5%
+advanced: A=0% B=0% C=95% D=5%

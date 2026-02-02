@@ -1,0 +1,39 @@
+<chain_of_thought>
+Examining the item: Solve -3 = p + 12. The solution is p = -3 - 12 = -15 (option B).
+
+This tests the same misconception as calibration items 1, 3, and 5: "When solving an equation, uses the same operation rather than the inverse." Having three calibration items with this exact misconception gives me strong anchoring data.
+
+Calibration item 1 is the most structurally similar (simple one-step equation with p): difficulty 0.167, b = -0.702, a = 1.324, c = 0.000.
+Calibration item 3 (function machine, squaring): difficulty 0.295, b = 0.002 -- but this involves more complex operations.
+Calibration item 5 (inequality with variable on both sides): difficulty 0.569, b = 0.808 -- much harder due to multi-step nature.
+
+So for a simple one-step equation like this, difficulty should be low, close to calibration item 1.
+
+However, I want to consider whether the negative constant on the left (-3 = ...) might trip up more students than the calibration item (-5 = p + 10). The equation is presented in a slightly non-standard form (constant = variable expression rather than variable expression = constant), which could add a small amount of confusion. But the calibration item 1 also has this same non-standard form, so it's a wash.
+
+The distractors are well-constructed. Option A (p = 9) directly captures the target misconception. Option C (p = -9) captures a related sign error. Option D (p = 15) captures students who ignore the negative sign. These are plausible errors but for a relatively able student body, this should remain easy.
+
+I'll predict parameters very close to calibration item 1 but allow for slight variation.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.65</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

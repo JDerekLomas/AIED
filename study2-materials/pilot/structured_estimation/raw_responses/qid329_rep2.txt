@@ -1,0 +1,51 @@
+<chain_of_thought>
+Analyzing the target item about order of operations in a Tom and Katie discussion format.
+
+The expression: 0.1 - 0.2 / 0.3
+
+Standard order of operations (BIDMAS): division before subtraction.
+Correct evaluation: 0.1 - (0.2/0.3) = 0.1 - 0.667 = -0.567
+
+Tom says: 0.1 - 0.2 / 0.3 = 0.1 - (0.2 / 0.3). This correctly adds parentheses around the division, making the implicit priority explicit. Tom is correct.
+
+Katie says: 0.1 - 0.2 / 0.3 = 0.2 / 0.3 - 0.1. Katie appears to have extracted the division and placed it first, then subtracted 0.1. But 0.2/0.3 - 0.1 = 0.567, not -0.567. She reversed the subtraction. Katie is incorrect.
+
+Answer: A (Only Tom).
+
+Difficulty considerations:
+- The use of decimals rather than whole numbers increases cognitive load slightly
+- The Tom/Katie format requires evaluating two separate claims
+- Katie's error is subtle -- she correctly prioritizes division but incorrectly rearranges the subtraction. Students might accept her claim if they focus only on whether division was done first.
+- The left-to-right misconception being tested is very common among younger secondary students
+
+Comparing to calibration examples:
+- The pure computation BIDMAS item (0.4 - 1/5 x 3) had difficulty 0.134 -- quite easy
+- This item wraps the same concept in an evaluative format, significantly increasing difficulty
+- The Tom/Katie factorising item had difficulty 0.473 but involved a harder underlying concept
+
+I think this falls in the 0.25-0.40 range. The evaluative format with Katie's plausible-looking error will catch many students. I'll estimate around 0.35.
+
+For IRT parameters, I expect moderate-to-good discrimination given the clear misconception being tested. The guessing parameter should be low since the "Both" and "Neither" options provide meaningful alternatives that students with partial understanding might choose deliberately rather than randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.10</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

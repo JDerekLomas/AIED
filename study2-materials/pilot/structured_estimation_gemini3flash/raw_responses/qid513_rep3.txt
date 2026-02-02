@@ -1,0 +1,42 @@
+<chain_of_thought>
+The item assesses the ability to identify errors in a multi-step linear equation solution. 
+The equation is $15 = 2p - 4$.
+Step 1: $11 = 2p$. Here, the student subtracted 4 from 15 instead of adding 4 (inverse operation error).
+Step 2: $22 = p$. Here, the student multiplied 11 by 2 instead of dividing by 2 (inverse operation error).
+Both steps are incorrect, making D the correct answer.
+
+Comparing this to the calibration examples:
+- The first example ($-5=p+10$) had a classical difficulty of 0.167. It was a one-step equation.
+- The target item is more complex because it requires evaluating another person's work (meta-cognition) across two steps.
+- The misconception "uses the same operation rather than the inverse" is explicitly tested twice here.
+- Step 1 is a very common error (subtracting when you should add). 
+- Step 2 is also common (multiplying when you should divide).
+- Many students will see $15-4=11$ and think Step 1 is correct. Others might see $11 \times 2 = 22$ and think Step 2 is correct. 
+- Option A (Only step 1) will be a very strong distractor for those who think $15-4=11$ is the correct first move.
+- Option C (Both correct) will attract students who consistently use the same operation instead of the inverse.
+- Because both steps are wrong, the "Double Negative" logic of the question (identifying that both are incorrect) usually makes the item harder than a standard "solve this" question.
+
+The calibration data shows that items involving inverse operation misconceptions are often quite difficult (low proportion correct). Given the two-step nature and the "which steps are correct" format, I expect a low classical difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

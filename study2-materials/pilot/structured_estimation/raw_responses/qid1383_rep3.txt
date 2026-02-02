@@ -1,0 +1,37 @@
+<chain_of_thought>
+Item: T = k^4, find T when k = -3. Correct answer: A (81).
+
+Let me approach this by thinking about the student population. UK secondary students ages 11-16 is a wide range. For 11-12 year olds, fourth powers of negative numbers would be quite challenging. For 15-16 year olds, this should be routine. The mixed-age population means we'll see a spread.
+
+The misconception tested -- believing multiplying two negatives gives a negative -- applies here because students need to recognise that (-3)^4 involves an even number of negative factors. The specific error path to C (-81) is: "I know 3^4 = 81, and k is negative, so the answer must be negative."
+
+But there's another interesting error path. Some students might not even compute 3^4 correctly. 3^4 = 81 requires knowing that 3*3=9, 9*3=27, 27*3=81. Students who make arithmetic errors or who confuse exponentiation with multiplication (3*4=12) would select B or D.
+
+Looking at this from a difficulty standpoint: this item has TWO hurdles -- (1) correctly computing 3^4 = 81 and (2) getting the sign right. Students must clear both. This could make it harder than I'd initially think.
+
+The comparable calibration item (Tom/Katie, same misconception) had difficulty 0.473. But that involved quadratic factorisation which is a harder topic. On the other hand, that item had a guessing parameter of 0.186, suggesting some low-ability students could guess correctly. Here, with four distinct numerical answers, random guessing gives 0.25.
+
+I think the difficulty is moderate -- maybe 0.38. The two distinct error types (sign and operation confusion) each capture different students. Discrimination should be solid because the item cleanly separates conceptual understanding levels.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.18</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

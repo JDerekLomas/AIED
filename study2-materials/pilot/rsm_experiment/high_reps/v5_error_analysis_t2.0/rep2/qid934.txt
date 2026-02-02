@@ -1,0 +1,14 @@
+To predict these percentages, I’ve considered the following common Year 9 behaviours:
+
+*   **The Trap for "Below Basic":** These students often ignore the $2y$ and the structure of the equation entirely. They see the numbers $4$ and $5$ (from the options) and perform a simple operation. Option A (20) is highly attractive to them because they see $4 \times 5 = 20$ or simply try to make the $y$ value "big" because it’s a table.
+*   **The Trap for "Basic":** These students know to substitute $x=0$, but they often treat the equation as $4 + 2y = 10$ or simply lose the $y$ term and think $4x = 10$, leading them to 2.5. However, many will see $2y = 10$ and instinctively pick 5, forgetting that $y$ is part of a relationship where $4x$ must be subtracted (even if $4 \times 0$ is 0).
+*   **The "Attractive" Wrong Answer:** **Option C (5)** is the most common answer overall. It is correct for $x=0$, as $4(0) + 2y = 10 \rightarrow 2y = 10 \rightarrow y=5$. 
+*   **Misinterpretation of Option B (3):** This is the value of $y$ when $x=1$. Many "Proficient" students solve for the second box in the table by mistake or calculate $4(1)+2y=10$ because they are used to linear sequences starting at "position 1".
+*   **Advanced Students:** They recognise this as finding the y-intercept. They rarely make the arithmetic slip but a small percentage might rush and solve for $x$ when $y=0$ (yielding 2.5).
+
+Here is the predicted distribution for the 200 papers:
+
+below_basic: A=45% B=10% C=30% D=15%
+basic: A=15% B=15% C=55% D=15%
+proficient: A=5% B=10% C=80% D=5%
+advanced: A=0% B=2% C=96% D=2%

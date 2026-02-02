@@ -1,0 +1,36 @@
+<chain_of_thought>
+This item asks students to add two algebraic fractions with the same denominator: 2/x + 3/x. The correct procedure is straightforward - since the denominators are the same, simply add the numerators: (2+3)/x = 5/x, which is answer B.
+
+Looking at the distractors:
+- A) 5x/x^2: This could result from multiplying numerator by x and denominator by x, essentially creating an equivalent but unsimplified fraction. It equals 5/x when simplified, so it's technically correct but not "as simply as possible." This is a plausible trap.
+- C) 5/2x: This comes from adding the denominators (x+x=2x) while correctly adding numerators. This matches the tested misconception of adding both numerators and denominators.
+- D) 6/x^2: This comes from multiplying the numerators (2*3=6) and multiplying the denominators (x*x=x^2), confusing addition of fractions with multiplication.
+
+The misconception tested is "adds numerators and denominators" which maps to distractor C. This is a very common misconception with numerical fractions that transfers directly to algebraic fractions.
+
+Comparing to calibration items: This is relatively straightforward algebraically. The concept is basic fraction addition with a common denominator, just using x instead of a number. The first calibration item (solving -5=p+10) had classical difficulty 0.167 and was quite easy. This item should be similarly easy or slightly harder because algebraic fractions can be intimidating, but the operation itself is trivial.
+
+I estimate classical difficulty around 0.20-0.30. The algebraic notation adds some difficulty but the operation is simple. IRT difficulty should be low, around -0.3 to 0.1. Discrimination should be moderate-good since it cleanly separates those who understand fraction addition from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

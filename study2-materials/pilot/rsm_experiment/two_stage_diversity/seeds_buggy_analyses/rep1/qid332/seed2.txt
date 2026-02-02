@@ -1,0 +1,31 @@
+As an expert in mathematical misconceptions, I will focus on a prevalent procedural bug common in UK Key Stage 3 algebra.
+
+### 1. The Specific Misconception: "Partial Operation Distribution" (The Multiplication Bug)
+
+The misconception here involves **incomplete distribution when clearing a fraction.** 
+
+In UK Year 9, students are taught the mantra "whatever you do to one side, you must do to the other." When a student sees a fraction ($\frac{x}{3}$), their instinct is to multiply by the denominator to "cancel it out." However, many students believe that the operation applies only to the term containing the fraction and the result on the other side of the equals sign, rather than applying to the **entire** expression on the left-hand side. This is often caused by a misunderstanding of the distributive property: $3(\frac{x}{3} - 5)$ must result in $x - 15$, but students often only "hit" the fraction and the final constant.
+
+### 2. The Step-by-Step Student Working
+
+A student with this misconception would analyze the two characters' claims as follows:
+
+1.  **Evaluating Tom:** The student sees Tom has added 5 to both sides ($\frac{x}{3} = 12 + 5$). They recognize this as a valid inverse operation to "undo" the $-5$. They conclude **Tom is correct.**
+2.  **Evaluating Katie:** The student looks at the original equation $\frac{x}{3} - 5 = 12$ and decides to multiply by 3 to "get $x$ by itself."
+3.  **The Error:** They multiply $\frac{x}{3}$ by 3 to get $x$. They multiply 12 by 3 to get 36. Crucially, **they ignore the $-5$**, leaving it exactly as it is.
+4.  **The Result:** They arrive at $x - 5 = 36$.
+5.  **Conclusion:** Because their own (flawed) calculation matches Katie’s exactly, they conclude **Katie is also correct.**
+
+### 3. The Resulting Answer Option
+
+This misconception leads the student to select **C) Both Tom and Katie.**
+
+(In reality, the correct answer is **A**, because Katie failed to multiply the $-5$ by $3$. If Katie were correct, the equation would have to be $x - 15 = 36$).
+
+### 4. Attractiveness of the Error
+
+This error is **highly attractive and "sticky"** for several reasons:
+
+*   **Visual Priority:** In the expression $\frac{x}{3}-5$, the fraction looks like a self-contained "block." Students often feel that the $-5$ is "separate" and therefore doesn't need to be touched by the multiplication.
+*   **Procedural Overload:** Students are often taught to "cancel the fraction first" to make the equation look easier. By doing so, they focus so intently on removing the $\div 3$ that they forget the golden rule of balancing the *entire* side of the equation.
+*   **Lack of Verification:** The student is unlikely to realize they are wrong because $x - 5 = 36$ "looks" like a logical progression. Unless they are in the habit of substituting their final answer ($x=41$) back into the original equation ($41/3 - 5 \neq 12$), the logic remains internally consistent to them. They have performed an action, saw it "clean up" the fraction, and matched a given option.

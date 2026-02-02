@@ -1,0 +1,11 @@
+Error Analysis:
+A) Incorrectly multiplying out the RHS or handling the signs. If a student multiplies by 3 but forgets to multiply the -1, they get $5d - 2 = 6d - 1$, leading to $-d = 1$, so $d = -1$.
+B) This is a "sign flip" and "operation" error combined with moving terms across the equals sign without changing signs correctly. Specifically, getting to $13d = 5$ through incorrect additive moves (e.g., treating $5d - 6d$ as $11d$ or similar combined with moving numbers).
+C) This occurs when a student multiplies only the $2d$ by $3$, but not the $-1$, and then makes a further arithmetic slip, or correctly finds $d=1$ but then performs an unnecessary final step like dividing $3/13$ based on misidentifying coefficients.
+D) Correct solution. Multiply both sides by 3 to get $5d - 2 = 3(2d - 1)$, expand to $5d - 2 = 6d - 3$. Rearranging gives $3 - 2 = 6d - 5d$, so $1 = d$.
+
+Predictions:
+below_basic: A=35% B=25% C=15% D=25%
+basic: A=30% B=15% C=10% D=45%
+proficient: A=15% B=5% C=5% D=75%
+advanced: A=3% B=1% C=1% D=95%

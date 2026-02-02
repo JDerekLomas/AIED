@@ -1,0 +1,39 @@
+<chain_of_thought>
+Analyzing (t-3)/2 = 1/8 with correct answer D: t = 3 1/4.
+
+To solve: first undo division by 2 (multiply both sides by 2), yielding t - 3 = 2/8 = 1/4. Then undo subtraction of 3 (add 3 to both sides), yielding t = 3 + 1/4 = 3 1/4.
+
+The misconception "uses the same operation rather than the inverse" maps to distractor C (3 1/16). If a student divides 1/8 by 2 (same operation as the denominator suggests division) instead of multiplying, they get 1/16, then correctly adding 3 gives 3 1/16.
+
+Distractor A (6 1/4) is harder to reverse-engineer. One path: a student might multiply (t-3) by 2 on the left and multiply 1/8 by 2 on the right, getting t-3 = 1/4, but then add 3 to t and also multiply or add incorrectly to get 6 1/4. Perhaps they compute 1/4 times something, or interpret the equation differently.
+
+Distractor B (t=1) might come from setting t-3 = -2 somehow, or from 8*(something) calculations gone wrong.
+
+This item involves working with fractions in an equation context, which is known to be challenging for KS3/KS4 students. The combination of fraction arithmetic and algebraic manipulation increases difficulty compared to pure integer equations.
+
+Looking at calibration: the simplest equation (-5 = p+10) had difficulty 0.167. The factorising item with more conceptual demands had 0.473. This item requires fraction fluency plus two algebraic steps, so I'd place it around 0.40 classical difficulty.
+
+The item discriminates well because the misconception distractor is well-targeted, but the other distractors are somewhat less obvious in their error pathways, which might reduce discrimination slightly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

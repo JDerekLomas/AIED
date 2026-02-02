@@ -1,0 +1,17 @@
+To determine these percentages, I’ve analysed the common misconceptions associated with BIDMAS (Order of Operations) that Year 9 students typically exhibit:
+
+*   **Option D (6) is the correct answer:** $3 - 5 + 8 = 6$. 
+*   **Option C (4) is the most "attractive" trap:** Students who remember BIDMAS but think Addition (A) *must* come before Subtraction (S). They calculate $3 - (5 + 4) \times 2 \rightarrow 3 - 9 \times 2$ (unlikely) or, more commonly, $3 - 9 + 8 \rightarrow -6 + 8$ or simply handle the first part as $3 - 9 = -6$. Most commonly, they do $(3-5)+4 \times 2$ but add the 5 and 4 first because of the 'A' in BIDMAS: $3 - 9 = -6$, then $...$ wait, the most common '4' derivation is $(3-5+4) \times 2 \rightarrow 2 \times 2 = 4$. This is a classic "left-to-right" error ignoring the multiplication priority.
+*   **Option B (-12):** This comes from ignoring the order of operations entirely and working left to right, but miscalculating the directed numbers: $(3 - 5 + 4) \times 2 \rightarrow 2 \times 2$ (which is 4) OR $3 - (5+4) \times 2 \rightarrow 3 - 18 = -15$ (near B) or $3 - 5 + 8$ where they mistakenly do $3 - 13 = -10$.
+*   **Option A (-10):** Students who do $3 - (5+8) = -10$. This is the "BIDMAS Trap" where they do the Addition part ($5+8$) before the Subtraction.
+
+**Teacher's breakdown:**
+*   **Below Basic:** They usually ignore BIDMAS and go left-to-right: $3-5 = -2$, $-2+4 = 2$, $2 \times 2 = 4$. They are very likely to land on C.
+*   **Basic:** They know multiplication comes first ($4 \times 2 = 8$) but then fall for the $3 - (5+8)$ trap because Addition precedes Subtraction in the acronym.
+*   **Proficient:** They usually handle the multiplication and the directed numbers correctly, though some still fail the "Addition/Subtraction have equal priority" rule.
+*   **Advanced:** Should get this correct almost 100% of the time, though 1% might make a silly arithmetic slip under exam pressure.
+
+below_basic: A=15% B=15% C=60% D=10%
+basic: A=45% B=10% C=25% D=20%
+proficient: A=20% B=5% C=5% D=70%
+advanced: A=1% B=0% C=0% D=99%

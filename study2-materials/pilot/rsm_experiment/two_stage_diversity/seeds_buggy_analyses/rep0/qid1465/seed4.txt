@@ -1,0 +1,28 @@
+As an expert in mathematical misconceptions, I have identified a primary "bug" that frequently occurs with this specific question among UK Year 9 students.
+
+### 1. The Misconception: Strict Left-to-Right Processing (The "Typewriter" Error)
+The specific misconception is **Strict Left-to-Right Processing**, ignoring the mathematical Order of Operations (BIDMAS/BODMAS). 
+
+In this error, the student treats the expression like a sentence in English, performing operations in the exact order they appear from left to right. They fail to "scan" the expression for higher-priority operators (multiplication) before executing lower-priority ones (addition/subtraction).
+
+### 2. Step-by-Step Procedure
+A student with this misconception would work through the expression $3 - 5 + 4 \times 2$ as follows:
+
+*   **Step 1:** Look at the first two numbers and the first operator ($3 - 5$).
+    *   Calculation: $3 - 5 = -2$.
+*   **Step 2:** Take the running total and apply the next operator/number ($+ 4$).
+    *   Calculation: $-2 + 4 = 2$.
+*   **Step 3:** Take the new running total and apply the final operator/number ($\times 2$).
+    *   Calculation: $2 \times 2 = 4$.
+
+### 3. Resulting Answer
+This procedure leads to **Option B: 4**. 
+*(The correct answer is A: 6, by calculating $3 - 5 + 8$)*.
+
+### 4. Attractiveness of the Error
+This is an **exceptionally natural and "sticky" error** for a Year 9 student for several reasons:
+
+*   **Linguistic Mapping:** Since we read words from left to right, it feels instinctively "correct" to calculate in that direction. The expression flows chronologically, making it cognitively easier than jumping to the end of the line and working backward.
+*   **False Confidence:** Unlike a student who makes a sign error (e.g., $3-5=2$), a student who follows a strict left-to-right path often feels very confident. They have "completed" every part of the sum and ended on a tidy, positive integer (4). 
+*   **Calculator Dependency:** Many basic (non-scientific) calculators operate using "Immediate Execution," where pressing `+` or `-` calculates the previous part instantly. If a student is used to using a phone calculator in portrait mode or a basic primary school calculator, the device actually reinforces this "Typewriter" error. 
+*   **Metacognition:** The student would likely not realize they were wrong. In their mind, they have "followed the instructions" of the sum sequentially. They would only realize the error if they specifically prompted themselves to check for BIDMAS priorities, which many students forget to do once the numbers involve negative integers or seem "simple" enough to do mentally.

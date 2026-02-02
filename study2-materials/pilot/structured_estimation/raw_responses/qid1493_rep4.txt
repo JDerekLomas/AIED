@@ -1,0 +1,46 @@
+<chain_of_thought>
+Item: 8 - 7 / 6^3, which operation first? Answer: A (6^3, exponentiation).
+
+Let me approach this by carefully examining the calibration anchors and interpolating. The two most relevant anchors are:
+
+1. The BIDMAS item (0.4 - 1/5 x 3): classical difficulty 0.134, IRT b = -0.245, a = 1.552
+2. The simple equation (-5 = p + 10): classical difficulty 0.167, IRT b = -0.702, a = 1.324
+
+Both are relatively easy items. The BIDMAS computation item tests the exact same misconception as our target.
+
+Key differences between the calibration BIDMAS item and the target:
+- Calibration requires full computation; target asks only for identification
+- Calibration involves decimals and fractions (added complexity); target uses whole numbers
+- Target includes exponentiation (6^3), which is a higher-tier operation than multiplication
+- Target format ("which first?") is more explicit about testing the rule
+
+The identification-only format should make it easier, but the inclusion of exponentiation adds nuance. Many students learn "multiply and divide before add and subtract" but may be less certain about where indices fit. The BIDMAS mnemonic helps, but "I" for indices isn't as intuitive as "M" and "D."
+
+I think these factors roughly cancel out, making this item comparable in difficulty to the calibration BIDMAS item. Perhaps slightly harder because of the exponent uncertainty, so I'll nudge the difficulty up a bit.
+
+For discrimination, the calibration BIDMAS item had a = 1.552, which is quite high. The identification format might reduce discrimination slightly because it's less sensitive to computational fluency — it's more binary (know the rule or don't). I'll estimate slightly lower discrimination.
+
+The guessing parameter: with 4 options, naive guessing gives 0.25, but most students will have some basis for their answer. The calibration items with similar difficulty had c = 0.00. I'll estimate a small but non-zero guessing parameter since option D ("doesn't matter") might be eliminated by most students, effectively reducing to 3 plausible options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.17</classical_difficulty>
+<irt_difficulty>-0.38</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.04</guessing_probability>
+</predictions>

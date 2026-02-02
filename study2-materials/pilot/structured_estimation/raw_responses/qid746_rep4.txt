@@ -1,0 +1,41 @@
+<chain_of_thought>
+Evaluating 4 + 12 / (2+2).
+
+Correct: brackets (2+2)=4, then 12/4=3, then 4+3=7. Answer B.
+
+This is fundamentally a BIDMAS/order of operations item with explicit brackets and simple whole-number arithmetic. The cognitive demand is almost entirely about knowing the correct operation priority.
+
+Distractor origins:
+- A=10: Pure left-to-right (4+12=16, /2=8, +2=10). Primary misconception.
+- B=7: Correct.
+- C=12: Hard to reconstruct cleanly. Perhaps 4+12/2+2 where student does 12/2=6 then 4+6+2=12 (respecting division priority but ignoring brackets, treating it as 4+12/2+2). Alternatively, some computational error path.
+- D=4: (4+12)/(2+2) = 16/4 = 4. Treating the + as part of numerator over a denominator.
+
+I want to think about base rates. In diagnostic assessments aimed at identifying misconceptions, the student sample often includes many lower-attaining students. The proportion incorrect could be higher than one might expect from a national sample. However, looking at calibration item 1 (solving -5=p+10), that's also conceptually straightforward and had only 16.7% incorrect.
+
+The presence of brackets here is a strong visual cue. Most students who have seen BIDMAS at all know "brackets first." The harder BIDMAS questions are those where priority is implicit (like multiplication before addition without brackets). So I think this item is on the easier end.
+
+My estimate: classical difficulty around 0.16 (similar to the simpler calibration items), IRT b around -0.30. Good discrimination because it cleanly tests a specific skill. The guessing parameter should be near zero since students compute systematically.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.16</classical_difficulty>
+<irt_difficulty>-0.30</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.01</guessing_probability>
+</predictions>

@@ -1,0 +1,29 @@
+As an expert in mathematical misconceptions, I have identified the following error for this Year 9 linear equations problem.
+
+### 1. The Specific Misconception: The "Subtraction Precedence" Bug
+The specific error is a **misapplication of the Order of Operations (BIDMAS)** combined with an **Inverse Operation Error**. Specifically, the student attempts to "simplify" the equation before substituting or isolating the variable by subtracting the coefficient ($10$) from the constant result ($30$), or incorrectly processing the sign of the $6y$ term as if it were an addition when moving it across the equals sign.
+
+However, the most precise "buggy procedure" leading to a specific distractor here is **The Coefficient-Sign Swap (Inverting the wrong term)**.
+
+### 2. Step-by-Step Student Work
+A student with this misconception follows these steps:
+1.  **Substitution:** The student correctly identifies that $y = 0.5$ and substitutes it: $10x - 6(0.5) = 30$.
+2.  **Arithmetic:** They correctly calculate $6 \times 0.5 = 3$, resulting in the equation $10x - 3 = 30$.
+3.  **The Error (Sign Mismatch):** Instead of adding $3$ to both sides (the inverse of $-3$), the student conceptually "moves" the $3$ but subtracts it from $30$, effectively treating the equation as $10x = 30 - 3$. 
+    *   *Alternatively, they may accidentally swap the roles of $x$ and $y$ and calculate $10(0.5) - 6y = 30$, leading to a negative result.*
+4.  **Final Division:**
+    *   $10x = 27$
+    *   $x = 27 \div 10$
+    *   $x = 2.7$
+
+### 3. Answer Choice
+This misconception leads directly to **Option D: 2.7**. 
+
+*(The correct answer is A: $33 \div 10 = 3.3$, reached by $10x - 3 = 30 \Rightarrow 10x = 33$. Option D is the "additive inverse error" result).*
+
+### 4. Attractiveness of the Error
+This error is **highly natural** and common among Year 9 students for several reasons:
+
+*   **Visual Bias:** When students see $10x - 3 = 30$, their eyes often jump to the $3$ and the $30$. Because subtraction is already present in the equation, they instinctively perform subtraction $(30 - 3)$ rather than the balancing operation (addition). 
+*   **"Sense-Making" of Decimals:** Students often expect $x$ values in tables to be "cleaner" than $3.3$. $2.7$ feels like a very "maths-looking" answer.
+*   **False Confidence:** The student will likely **not realise they have gone wrong.** Because $27$ is a multiple of $3$ (the number they substituted), the numbers feel like they "fit" together. They successfully performed substitution, multiplication, and division—all three "correct" stages of the process—masking the single sign error in the middle. Because $2.7$ appears as an option, it provides "Multiple Choice Confirmation," reinforcing their belief that their process was correct.

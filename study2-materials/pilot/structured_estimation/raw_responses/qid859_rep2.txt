@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: 12d - 3 = 6d + 3. Solve for d. Correct: d = 1.
+
+Step-by-step solution: Subtract 6d from both sides to get 6d - 3 = 3. Add 3 to both sides: 6d = 6. Divide: d = 1.
+
+This requires 3 procedural steps and understanding of inverse operations and balancing equations. The variable appears on both sides, which is a recognized difficulty jump for students compared to one-sided variable equations.
+
+Examining the distractors through the lens of common errors:
+- d = 0 (A): A student might think subtracting gives 12d - 6d = 0 somehow, or just default to zero.
+- d = -1 (C): Sign confusion - perhaps subtracting 3 from 3 and getting -6 instead of 6, yielding d = -1.
+- d = 1/3 (D): The targeted misconception - adding 6d to 12d (using same operation) gives 18d - 3 = 3, so 18d = 6, d = 1/3.
+
+Looking at calibration anchors, the first equation item (p+10=-5) was quite easy at 0.167 incorrect. But that was one-step. The factorising item had 0.473 difficulty. I think this equation with variables on both sides is intermediate - the concept isn't hard but the multi-step procedure and larger coefficients create room for error.
+
+I'll estimate slightly higher difficulty than my initial instinct because variables-on-both-sides is a known stumbling block in the UK curriculum, and the large coefficients (12, 6) may intimidate weaker students. Classical difficulty perhaps 0.35-0.45.
+
+For discrimination, the item should discriminate well because the correct procedure is clear-cut - students either can or cannot handle variables on both sides. The guessing parameter should be low since the answer choices are spread out numerically.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.25</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

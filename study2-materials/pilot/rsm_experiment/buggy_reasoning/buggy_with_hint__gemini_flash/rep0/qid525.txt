@@ -1,0 +1,49 @@
+Hello, I am happy to help diagnose these mathematical errors. Mixed number addition is a classic "stumbling block" in Key Stage 3 because it requires several discrete skills to be synchronised: handling integer parts, finding common denominators, and managing improper fractions.
+
+### 1. Analysis of Buggy Reasoning
+
+**Option A: $ \frac{99}{20} $**
+*   **Reasoning:** The student has followed the correct procedure for adding fractions (converting to improper fractions or finding a common denominator) but has failed to read the final instruction: *"Leave your answer as a mixed number."*
+    *   $2 \frac{14}{20} + 2 \frac{5}{20} = 4 \frac{19}{20}$.
+    *   $4 \times 20 + 19 = 99 \to \frac{99}{20}$.
+*   **Attractiveness:** Extremely high for middle-to-high ability students. This isn't a conceptual mathematical error; it is a **processing error**. Students often feel a sense of completion once they reach an improper fraction and stop before checking the requested format.
+
+**Option C: $ \frac{99}{40} $** (Note: Resulting from "Adding Numerators and Denominators")
+*   **Reasoning:** As specified, the student adds the numerators and the denominators. They likely converted to improper fractions first:
+    *   $2 \frac{7}{10} = \frac{27}{10}$ and $2 \frac{1}{4} = \frac{9}{4}$.
+    *   $\frac{27+9}{10+4} = \frac{36}{14}$. 
+    *   *Correction/Refinement:* However, looking at the distractors provided, if a student treats the whole numbers separately and adds the fraction parts using this "add across" rule: $2+2=4$ and $\frac{7+1}{10+4} = \frac{8}{14}$, which leads to **Option D**. 
+    *   To arrive at **C**, the student likely found a common denominator by multiplying $10 \times 4 = 40$, converted to $\frac{54}{40} + \frac{45}{40}$, but then **added the denominators as well** ($54+45$ and $40+40$), though they forgot to halve the 80 to get 40, or they used a different incorrect "cross-multiply and add" shortcut.
+*   **Attractiveness:** Low to Medium. Adding denominators is a "rookie" error usually ironed out by Year 8, but it resurfaces when students are stressed by the complexity of mixed numbers.
+
+**Option D: $ 4 \frac{8}{14} $**
+*   **Reasoning:** This is the most common manifestation of the "add the numerators and denominators" misconception for mixed numbers.
+    *   Whole numbers: $2 + 2 = 4$.
+    *   Fractions: $\frac{7 + 1}{10 + 4} = \frac{8}{14}$.
+*   **Attractiveness:** High for "Basic" ability levels. It feels intuitive because it mirrors the logic of multiplying fractions or adding whole numbers. It "looks" right because it preserves the whole numbers 2 and 2 into a 4.
+
+---
+
+### 2. Attractiveness Judgement
+
+*   **Option D** is the "comfort" error. It avoids the difficult task of finding a common denominator. It is highly attractive to students who lack confidence in the LCM (Lowest Common Multiple).
+*   **Option A** is the "expert's pitfall." It is highly attractive to students who have the technical skill but lack the checking mechanisms to ensure they have met the specific formatting requirements of the question.
+*   **Option C** is less attractive than D because it results in an improper fraction without a whole number, which feels less "balanced" to a struggling student than option D.
+
+---
+
+### 3. Predicted Response Distribution
+
+As an experienced teacher, I would expect the following spread across different UK attainment tiers:
+
+| Ability Level | A (Improper) | B (Correct) | C (Add Denoms) | D (Add Numer/Denom) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 5% | 15% | 20% | 60% |
+| **Basic** | 10% | 40% | 10% | 40% |
+| **Proficient** | 25% | 65% | 2% | 8% |
+| **Advanced** | 10% | 89% | 0% | 1% |
+
+**Key observations:**
+*   **Below Basic:** Most will gravitate toward D because it requires the least cognitive load.
+*   **Proficient:** These students know how to find the common denominator (20) but will likely split between the correct mixed number (B) and the improper version (A) because they forget to "re-convert."
+*   **Advanced:** Usually get it right, but a small percentage will make the "A" error if they are working too fast (a common trait in top-set students during low-stakes practice).

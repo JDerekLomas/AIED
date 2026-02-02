@@ -1,0 +1,48 @@
+As a specialist in diagnostic assessment, I have analysed this question focusing on order of operations (BIDMAS/BODMAS) and decimal place value.
+
+### 1. Error Analysis
+
+**Option A: 0.81 (The Targeted Misconception)**
+*   **Reasoning:** The student ignores the hierarchy of operations (indices before multiplication) and simply processes the calculation from left to right. They calculate $(3 \times 0.3)^2$. 
+*   **Steps:** $3 \times 0.3 = 0.9 \rightarrow 0.9^2 = 0.81$.
+*   **Attractiveness:** Very High. This is the most classic BIDMAS error. It feels like a logical progression to a student who views an equation as a "sentence" to be read from left to right.
+
+**Option C: 1.8**
+*   **Reasoning:** The student confuses squaring with multiplying by 2. They apply the indices correctly in terms of order, but incorrectly in terms of operation.
+*   **Steps:** $0.3 \times 2 = 0.6 \rightarrow 0.6 \times 3 = 1.8$.
+*   **Attractiveness:** Moderate. This "doubling instead of squaring" error is a common cognitive slip under pressure, particularly for lower-attaining students who are still shaky on power notation.
+
+**Option D: 2.7**
+*   **Reasoning:** Misplacement of the decimal point during the squaring phase. The student knows $3^2 = 9$ and thinks $0.3^2 = 0.9$. They then multiply this by 3.
+*   **Steps:** $0.3^2 = 0.9 \rightarrow 0.9 \times 3 = 2.7$.
+*   **Attractiveness:** High. Students often struggle with the fact that squaring a decimal *less than 1* results in a smaller number ($0.09$) rather than a larger one ($0.9$).
+
+**Correct Answer: B (0.27)**
+*   **Steps:** $0.3^2 = 0.09 \rightarrow 0.09 \times 3 = 0.27$.
+
+---
+
+### 2. Judging the "Attractiveness"
+
+*   **Option A** is the "Alpha Distractor." It exploits the most common procedural error in algebra: failing to prioritise the exponent over the coefficient. To a student, $(3 \times 0.3)^2$ feels "neater" than $3 \times (0.3^2)$.
+*   **Option D** is particularly "sticky" for mid-level students who understand BIDMAS but have weak "number sense" regarding decimals. It feels right because 27 is a multiple of 3 and 9, making it look like a plausible answer.
+
+---
+
+### 3. Predicted Response Distribution
+
+This distribution assumes a standard UK secondary school cohort (Years 9-10).
+
+**below_basic:** These students lack both the order of operations and basic exponent knowledge. Many will guess or default to doubling.
+**basic:** These students often apply BIDMAS left-to-right (Option A) or fail the decimal placement (Option D).
+**proficient:** Most follow BIDMAS correctly but may still fall for the decimal trap in Option D.
+**advanced:** Should navigate both the order of operations and the decimal multiplication fluently.
+
+| Level | A | B (Correct) | C | D |
+| :--- | :---: | :---: | :---: | :---: |
+| **below_basic** | 35% | 15% | 30% | 20% |
+| **basic** | 45% | 20% | 5% | 30% |
+| **proficient** | 25% | 55% | 2% | 18% |
+| **advanced** | 5% | 92% | 0% | 3% |
+
+**Note on "Basic" tier:** In my experience, the left-to-right error (Option A) peaks at the "basic" level—students have enough knowledge to attempt the calculation but haven't yet internalised the priority of indices over multiplication.

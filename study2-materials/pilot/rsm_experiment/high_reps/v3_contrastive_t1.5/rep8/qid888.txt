@@ -1,0 +1,15 @@
+This question tests a student's ability to expand double brackets with two negative terms. The primary "traps" here are the arithmetic of directed numbers: summing $-5$ and $-7$ to get $-12$, and multiplying $-5$ by $-7$ to get $+35$.
+
+Option **A** targets students who subtract the numbers rather than adding their absolute values ($-7 - (-5) = -2$).
+Option **C** targets students who ignore the signs entirely, simply treating it as $(m+5)(m+7)$.
+Option **D** is the most common mistake for "Basic" and "Proficient" students; they correctly identify that $-5 + -7 = -12$, but they fail the "double negative" rule, incorrectly assuming a negative times a negative stays negative.
+
+**Below Basic:** These students often struggle with the distributive property itself or guess based on the numbers 5 and 7. They are very likely to choose C (making everything positive) or D.
+**Basic:** These students understand the FOIL/Grid method but frequently make errors with the final constant term sign. D is a very "attractive" wrong answer here.
+**Proficient:** Most should navigate the $-12m$ correctly, but a small percentage will still slip on the $-5 \times -7$ calculation due to cognitive load.
+**Advanced:** High-level students will recognise this as a standard expansion and rarely make sign errors on such low coefficients.
+
+below_basic: A=15% B=25% C=30% D=30%
+basic: A=10% B=45% C=10% D=35%
+proficient: A=5% B=75% C=5% D=15%
+advanced: A=1% B=96% C=1% D=2%

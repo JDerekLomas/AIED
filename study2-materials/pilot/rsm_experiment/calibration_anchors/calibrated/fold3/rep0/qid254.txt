@@ -1,0 +1,14 @@
+To predict the performance for this question, we must look at the specific misconceptions evidenced in your calibration data. 
+
+**Misconception Analysis:**
+- **Option A (The Correct Method):** Even though 0 has no numerical value in addition, it is a data point that must be counted in the divisor. In your calibration data (e.g., the $c \div (h+4)$ and BIDMAS questions), students showed a massive failure to recognize how division interacts with addition and grouping. 
+- **Option B (The Calculator/Notation Error):** This mimics the "92% incorrect" response on the algebraic convention question. Students frequently ignore the need for brackets/vinculum, performing $7 \div 5$ first.
+- **Option C (The "Ignore Zero" Error):** This is the most "mathematically" attractive wrong answer. Many Year 9s believe that because 0 doesn't change the sum, it shouldn't be included in the count. Given the $4+2y=10$ question where 77% chose $2.5$ (failing to handle the 0 term correctly), this is a high-risk error.
+- **Option D (The "None" Trap):** As seen in the $10=5/p$ question where 59% chose "No solutions", these students often default to "None" if the formatting doesn't perfectly match their internal mental model (which usually involves a $0$ being explicitly written in the numerator).
+
+**Comparison:** This question is more accessible than the sphere or the fractions questions, but contains the "invisible grouping" trap which devastated the cohorts in the calibration set.
+
+below_basic: A=5% B=45% C=35% D=15%
+basic: A=12% B=30% C=48% D=10%
+proficient: A=28% B=15% C=50% D=7%
+advanced: A=55% B=5% C=38% D=2%

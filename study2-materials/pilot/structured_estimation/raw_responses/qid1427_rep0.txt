@@ -1,0 +1,38 @@
+<chain_of_thought>
+This item tests a fundamental equation-solving concept: identifying the inverse operation needed to isolate x. The equation goes from x + 7 = ... to x = ..., so the student must recognize that subtracting 7 from both sides is required.
+
+Looking at the calibration examples with this same misconception ("uses the same operation rather than the inverse"):
+- The simple linear equation (-5 = p + 10) had classical difficulty 0.167, IRT b = -0.702
+- The function machine item had classical difficulty 0.295, IRT b = 0.002
+- The inequality item had classical difficulty 0.569, IRT b = 0.808
+
+This target item is arguably the simplest and most direct test of inverse operations. It doesn't require the student to actually solve anything numerically -- just identify which operation was applied. The visual presentation (function machine style with arrow and star) is straightforward. The operation is single-step: +7 requires -7.
+
+Distractor A (+7) directly tests the misconception -- a student who thinks you use the same operation would pick this. Options B and C (multiply/divide by 7) are less plausible but could attract students who confuse operations entirely.
+
+Given that the simplest calibration item (solve -5 = p+10) had difficulty 0.167, and this item is even more conceptually direct (just name the operation, don't compute), I'd expect this to be quite easy -- perhaps around 0.10-0.15 classical difficulty. However, the visual/contextual framing with the "star" notation and image adds a small amount of transfer distance that could slightly increase difficulty.
+
+The discrimination should be moderate-to-good since it cleanly separates students who understand inverse operations from those who don't. Guessing should be near zero for an item this straightforward among the target population.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.13</classical_difficulty>
+<irt_difficulty>-0.85</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

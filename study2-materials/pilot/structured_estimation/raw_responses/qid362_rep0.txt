@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item asks students to find the gradient of a line given in general form 4x + 3y = 5. To solve correctly, students must rearrange to slope-intercept form y = mx + c:
+3y = -4x + 5
+y = (-4/3)x + 5/3
+
+The gradient is -4/3 (option C).
+
+The misconception tested is "uses the same operation rather than the inverse." A student making this error might move 4x to the other side without changing its sign, getting 3y = 4x + 5, yielding y = (4/3)x + 5/3, choosing D (4/3). Or they might not divide by 3 at all, picking A (-4) if they just take the coefficient of x with the correct sign change, or B (4) if they forget both the sign change and the division.
+
+Looking at calibration items with the same misconception: the equation p + 10 = -5 had difficulty 0.167 (easy), the function machine item had 0.295, and the inequality had 0.569. This item requires multiple algebraic steps (rearrange, divide) plus understanding of gradient from general form. It's more abstract than a simple one-step equation solve. I'd place it around 0.45-0.55 difficulty.
+
+The distractors are quite plausible: -4 (forgot to divide by 3), 4 (forgot sign change and division), 4/3 (forgot sign change). Each represents a common partial error. The misconception about not using inverse operations is strong here because students must both subtract 4x (change sign) and divide by 3.
+
+Comparing to calibration: the factorising item (0.473 difficulty, b=0.404) involved checking two claims about factorisation. This gradient item requires similar conceptual depth. I estimate classical difficulty around 0.50, IRT b around 0.45. Discrimination should be moderate-high since the distractors target specific errors. Some guessing likely given the 4-choice format and partial knowledge students might have.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

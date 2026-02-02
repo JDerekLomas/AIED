@@ -1,0 +1,13 @@
+To accurately predict student performance on this question, we must recognize that the primary challenge is not the arithmetic, but the "variable in the denominator" misconception. Many students at lower ability levels default to "large number divided by small number" or simply "multiplication" because they are uncomfortable with a fraction where the unknown is on the bottom.
+
+**A (p=0.5):** This is the correct answer. 5 divided by 0.5 is indeed 10.
+**B (p=50):** A very common error. Students see 10 and 5 and perform 10 × 5, effectively moving the 5 incorrectly or treating it as $p/5 = 10$.
+**C (p=2):** The most common attractor. Students habitually divide the larger number by the smaller number ($10 \div 5$) regardless of the algebraic structure. They often mistakenly believe that $\frac{5}{p}$ is the same as $\frac{p}{5}$.
+**D (No solutions):** A rare choice, usually reserved for students who are completely overwhelmed by the structure.
+
+Below is the predicted performance distribution:
+
+below_basic: A=15% B=30% C=50% D=5%
+basic: A=35% B=20% C=40% D=5%
+proficient: A=65% B=10% C=23% D=2%
+advanced: A=94% B=2% C=3% D=1%

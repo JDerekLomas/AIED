@@ -1,0 +1,14 @@
+This question is a classic "order of operations" trap that specifically targets how scientific calculators are programmed. Many students believe that "squaring a negative number" always results in a positive, but they fail to realise that without brackets, the index applies only to the base (6) and not the sign.
+
+**Below Basic:** These students often struggle with the concept of squaring entirely, sometimes confusing it with doubling ($6 \times 2 = 12$). They are almost as likely to choose A or B as they are to guess C or D.
+
+**Basic:** Students at this level usually know $6^2 = 36$. However, they almost universally believe that the negative sign is "attached" to the 6. They will pick C because they have been taught that "a minus times a minus makes a plus," and they assume the calculator "thinks" like they do.
+
+**Proficient:** These students have more experience with calculators but still fall into the trap. Many have been told by teachers to "use brackets for negatives," but they often forget why. C remains the most popular distractor here because the mathematical logic of $(-6)^2 = 36$ is so strongly ingrained that they don't see the expression as $-(6^2)$.
+
+**Advanced:** These students understand BIDMAS/BODMAS at a deeper level. They know that indices (powers) come before subtraction/negation. They are aware of how the Casio or Texas Instruments logic works and will correctly identify that the calculator squares 6 first and then applies the negative.
+
+below_basic: A=20% B=20% C=35% D=25%
+basic: A=5% B=10% C=65% D=20%
+proficient: A=2% B=3% C=55% D=40%
+advanced: A=0% B=0% C=15% D=85%

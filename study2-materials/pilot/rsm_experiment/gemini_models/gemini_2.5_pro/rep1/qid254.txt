@@ -1,0 +1,36 @@
+Here is my prediction, based on years of marking papers and seeing the same common misconceptions crop up time and again.
+
+**Analysis of the Distractors:**
+
+*   **The Core Task:** Calculating the mean of {0, 1, 3, 4, 7}. The correct process is to sum the numbers (0+1+3+4+7 = 15) and divide by the count of the numbers (5). So the correct calculation is \( \frac{0+1+3+4+7}{5} \), which gives an answer of 3.
+
+*   **Option A: \( \frac{1+3+4+7}{5} \)**
+    *   **Calculation Error:** This calculation ignores the 0 in the summation but correctly uses 5 as the divisor. Crucially, (1+3+4+7) is 15, so 15 ÷ 5 = 3. This calculation gives the *correct numerical answer*, but the written expression for the calculation is incomplete.
+    *   **Attractiveness:** This is the most dangerous and attractive distractor. Students who know the method will correctly calculate the answer as 3. They will then work backwards from the options and see that A gives the answer 3. They will select it, believing it's correct because the result matches their own, failing to notice the missing '0' in the numerator. Only very careful students will spot that the *calculation itself* is not correctly represented.
+
+*   **Option B: \( 0+1+3+4+7 \div 5 \)**
+    *   **Calculation Error:** This demonstrates a complete misunderstanding of how the mean is calculated and also a lack of understanding of the order of operations (BIDMAS/BODMAS). The student would calculate 7 ÷ 5 first.
+    *   **Attractiveness:** This is attractive to very low-ability students who have a vague memory of "adding and dividing" but can't recall the structure. They write the numbers out and just add a division sign at the end. This is a very common structural error.
+
+*   **Option C: \( \frac{1+3+4+7}{4} \)**
+    *   **Calculation Error:** This is the classic, most common conceptual error when a zero is included in the data set. The student decides the '0' doesn't count as a number, so they discard it from both the sum *and* the count. They add the four non-zero numbers and divide by four.
+    *   **Attractiveness:** This is extremely attractive to students who have a shaky understanding of the mean. It feels intuitive to them that zero means "nothing" and shouldn't be included.
+
+*   **Option D: None of them**
+    *   **The Correct Answer:** This is technically the correct answer because none of the options show the full, correct calculation of \( \frac{0+1+3+4+7}{5} \).
+    *   **Attractiveness:** A student has to be confident and have a very precise understanding to choose this. They must first reject A, B, and C for the specific reasons above. The advanced student will correctly calculate the mean is 3, see that A also gives 3, but then spot the flaw in the written calculation in A and conclude it is not a correct representation of the method. The proficient student is the most likely to get trapped by A. Lower-ability students are unlikely to have the confidence to choose 'None of them'.
+
+---
+**Predicted Percentages:**
+
+**below_basic:** A=20% B=45% C=30% D=5%
+*(This group is most likely to make a fundamental error. Many will be drawn to C, ignoring the zero entirely. An even larger number will pick B, demonstrating a poor grasp of both the mean and order of operations. A few will get the right answer of 3 by chance or a half-remembered method and pick A.)*
+
+**basic:** A=55% B=10% C=30% D=5%
+*(The most common error here will be C, a classic misconception. However, the majority will correctly calculate the answer as 3 and be immediately trapped by option A, which gives the same result. They won't question the written formula because the answer matches.)*
+
+**proficient:** A=65% B=0% C=10% D=25%
+*(This group knows the procedure. Almost none will pick B or C. The vast majority will correctly calculate the answer to be 3 and confidently select A, failing to spot the subtle error in the written calculation. A significant minority, however, will be more precise, notice the flaw in A, and correctly select D.)*
+
+**advanced:** A=15% B=0% C=0% D=85%
+*(The top students will not make the conceptual errors in B or C. They will quickly determine the mean is 3 and check option A. Their mathematical precision will lead them to spot that the calculation shown in A is not the correct one, as it omits the 0 from the numerator. They will have the confidence to conclude that D is the only correct choice.)*

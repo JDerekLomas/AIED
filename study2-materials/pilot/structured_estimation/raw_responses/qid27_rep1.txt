@@ -1,0 +1,43 @@
+<chain_of_thought>
+Analyzing: If d = -2, what is the value of 10 - 2d?
+
+Step-by-step correct solution:
+1. Substitute d = -2: 10 - 2(-2)
+2. Multiply: -2 * -2 = +4, so 10 - (-4) ... wait, let me be careful. 2d means 2 * d = 2 * (-2) = -4. So 10 - (-4) = 14. Answer C.
+
+Actually, more carefully: 2d = 2 * (-2) = -4. Then 10 - 2d = 10 - (-4) = 10 + 4 = 14.
+
+The tested misconception is about multiplying two negatives. The expression has a subtraction and then 2d. When d = -2, the key operation is computing -2d = -2*(-2). A student who believes two negatives multiplied give a negative would get -2*(-2) = -4 instead of +4. Then 10 + (-4) = 6, which is option B.
+
+Alternatively, some students might not even see the double negative and just compute 2*2 = 4, then 10 - 4 = 6 (option B again). So B is the main attractor for multiple different errors, which makes it a strong distractor.
+
+Option A (-12): This could arise from a student who reads it as -(10 + 2) = -12? Or maybe misinterprets the expression entirely.
+
+Option D (32): Perhaps 10 - 2(-2) = 10 + 2*2 = 10 + 22... no, that's not how place value works. Maybe (10-2) * (-2) * (-2) = 8*4 = 32? That's very convoluted. Or 10 + 2*11 ... these don't make clean sense. D seems like a weak distractor.
+
+This is a fundamental KS3 topic — substitution into expressions. It's commonly taught around age 11-13. The negative number aspect makes it slightly tricky. Looking at the calibration set, the simplest equation (p + 10 = -5) had 0.167 difficulty. But that didn't involve multiplying negatives. The factorising problem with the same misconception had 0.473 difficulty but was much more complex conceptually.
+
+I think this falls in between — the substitution is simple but the negative multiplication trips up a decent proportion. I'll estimate classical difficulty around 0.35, slightly harder than the basic equation because the misconception is quite prevalent. IRT difficulty around 0.0 to 0.1. The discrimination should be reasonable — around 1.2 — since students who understand negative multiplication will get it right consistently.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

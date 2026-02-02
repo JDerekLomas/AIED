@@ -1,0 +1,26 @@
+As a UK maths teacher, I see this question as a classic test of **BIDMAS** (Brackets, Indices, Division/Multiplication, Addition/Subtraction). Students often struggle with the priority of addition over division when no brackets are present.
+
+### Step 1 — Reasoning for each option:
+
+*   **A) $>$ (Correct Reasoning):** The student correctly applies BIDMAS. Left side: $12 \div 4 = 3$, then $8 + 3 = 11$. Right side: Brackets first $(8+12) = 20$, then $20 \div 4 = 5$. Since $11 > 5$, the symbol is $>$.
+*   **B) $<$ (Incorrect Reasoning):** The student likely calculates the left side incorrectly by working left-to-right (adding before dividing): $8+12 = 20$, then $20 \div 4 = 5$. They then see the right side is also $5$, but perhaps miscalculate the right side slightly higher or simply guess because the right side "looks" bigger due to the brackets.
+*   **C) $=$ (Incorrect Reasoning):** The most common error. The student ignores BIDMAS and works left-to-right on the first expression ($8+12=20; 20 \div 4 = 5$). They then solve the right side correctly (brackets first: $20 \div 4 = 5$) and conclude both sides are equal.
+*   **D) $\geq$ (Faulty Logic):** This is usually a "distractor" choice for students who have seen the symbol in inequalities but don't understand its specific use here. A student might pick this if they think both $=$ and $>$ are somehow applicable, or if they are guessing randomly.
+
+***
+
+### Step 2 — Predicted Distributions:
+
+In the UK system, **Below Basic** refers to students working well below age-related expectations (Level 3/Grade 1-2), **Basic** refers to students who know basic operations but forget order of operations (Grade 3-4), **Proficient** refers to students meeting expectations (Grade 5-6), and **Advanced** refers to students targeting top grades (Grade 7-9).
+
+**below_basic:** A=10% B=20% C=60% D=10%
+*Reasoning: High dependence on left-to-right calculation leads them straight to "=". Some may guess B or D based on the visual complexity of brackets.*
+
+**basic:** A=25% B=15% C=55% D=5%
+*Reasoning: Many students at this level have heard of BIDMAS but fail to apply it when a "simple" addition appears first. The "=" trap is extremely tempting here.*
+
+**proficient:** A=75% B=5% C=18% D=2%
+*Reasoning: Most proficient students will pause and apply BIDMAS correctly. Those who slip up will almost exclusively do so by falling into the "work left-to-right" trap (C).*
+
+**advanced:** A=98% B=1% C=1% D=0%
+*Reasoning: At this level, BIDMAS is second nature. Errors would only occur through extreme clerical carelessness.*

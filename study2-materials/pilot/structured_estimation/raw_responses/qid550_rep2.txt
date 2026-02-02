@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item asks students to evaluate two claims about order of operations equivalences.
+
+Verifying Tom: 3+2-1 vs 3-1+2. Both yield 4. Correct - this is just rearranging additive terms.
+
+Verifying Katie: 3+2x1 vs 2x1+3. With proper BIDMAS: 3+2=5 on left, 2+3=5 on right. Both 5. Correct - multiplication binds tighter, so 2x1 is a single "term" of value 2, and addition is commutative.
+
+Both correct, answer is C.
+
+Key psychometric consideration: this item has a peculiar feature. The numbers are chosen so that 2x1=2, meaning multiplication by 1 doesn't change anything. Even a student who ignores order of operations gets: (3+2)x1 = 5x1 = 5 on the left. So the misconception barely manifests computationally. The question is really testing whether students BELIEVE the rearrangement is valid, not whether they can compute correctly.
+
+This makes the item somewhat unusual. Students need conceptual understanding of why the rearrangement works, or they need to just verify by computing both sides. If they simply compute both sides, they'll get C regardless of whether they understand BIDMAS properly. The misconception only matters if they try to reason about it abstractly without computing.
+
+This suggests the item might be quite easy - students who just "plug and chug" will get it right. Only students who overthink or have a rigid belief that "you can't rearrange when multiplication is involved" would get it wrong.
+
+I'd compare this most closely to the BODMAS calibration item (classical difficulty 0.134) since it tests a similar misconception but with even simpler numbers. However, the "who is correct" format adds decision complexity. The factoring Tom/Katie item was 0.473 but that involved much harder math.
+
+I'll estimate this is relatively easy, maybe classical difficulty 0.20-0.25. Students mostly need to compute and compare, which is straightforward with these numbers.
+
+For discrimination: since the misconception doesn't cleanly separate students (you can get the right answer even with the misconception), discrimination might be moderate rather than high.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>4</distractor_plausibility>
+<misconception_strength>4</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>4</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

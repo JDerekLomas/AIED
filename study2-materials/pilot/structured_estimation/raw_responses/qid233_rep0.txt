@@ -1,0 +1,80 @@
+<chain_of_thought>
+Let me analyze this item carefully.
+
+The question asks students to convert a calculation written with division and multiplication symbols into proper algebraic convention (fraction notation).
+
+Original expression: 2 ÷ (3 + a × b)
+
+To solve this correctly:
+1. Recognize that a × b should be written as ab in algebraic convention
+2. Recognize that 2 ÷ (something) becomes 2/(something) as a fraction
+3. The expression inside the brackets is 3 + a × b, which by order of operations means 3 + (a×b), so it becomes 3 + ab or ab + 3
+4. The final answer should be 2/(ab + 3) which is option C
+
+Let me analyze the distractors:
+- A) 2/3 + ab: This represents someone who incorrectly applied left-to-right operations: 2÷3 = 2/3, then just added ab. This tests the misconception of ignoring brackets and order of operations.
+- B) 2/(b(a+3)): This shows 2/(ab + 3b) expanded, which would come from misreading the expression as 2÷(3+a)×b or some other misinterpretation
+- C) 2/(ab+3): CORRECT - properly converts to fraction notation with ab+3 in denominator
+- D) 2/(a×b+3): This keeps the multiplication sign, which isn't following algebraic convention properly
+
+The misconception being tested is "Carries out operations from left to right regardless of priority order" - this would lead to answer A, where someone does 2÷3 first, then adds ab.
+
+Comparing to calibration examples:
+- The order of operations question (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT difficulty -0.245
+- That question also tested the same misconception
+
+This question is slightly more complex because:
+1. It involves algebraic notation conversion
+2. It has brackets which should help students recognize grouping
+3. Multiple concepts: division as fractions, multiplication convention (ab vs a×b), order of operations
+
+The presence of brackets actually makes this clearer than the calibration example, so it might be slightly easier. However, the algebraic convention aspect adds complexity.
+
+The distractors are fairly plausible, especially A for those who ignore brackets and D for those who don't know algebraic convention.
+
+Rating analysis:
+- Concept complexity: Involves order of operations, fraction notation, algebraic convention - moderate (5)
+- Procedural steps: Recognize order of operations, convert to fraction, simplify notation - about 3 steps (4)
+- Abstraction level: Working with algebraic expressions, moderate abstraction (6)
+- Prerequisite knowledge: Need to know BIDMAS, fraction notation, algebraic conventions (5)
+- Distractor plausibility: A is very plausible for the misconception, D tests convention knowledge (6)
+- Misconception strength: Left-to-right processing is common but brackets help (5)
+- Question clarity: Clear question, though "algebraic convention" might confuse some (7)
+- Cognitive load: Need to hold multiple rules in mind (5)
+- Age appropriateness: Perfect for KS3/KS4 algebra (9)
+- Transfer distance: Somewhat standard but the convention aspect is less common (5)
+- Visual complexity: Moderate - fraction notation and algebraic expressions (5)
+- Solution uniqueness: Need to understand all aspects to get correct answer (7)
+
+For predictions, comparing to the similar calibration item (0.4 - 1/5 × 3):
+- That had classical difficulty 0.134, IRT difficulty -0.245, discrimination 1.552
+- This item has brackets which should make it easier, but the algebraic convention adds complexity
+- I'd estimate slightly harder than that item
+
+Classical difficulty: ~0.20 (about 20% incorrect)
+IRT difficulty: ~-0.15 (slightly easier than average)
+IRT discrimination: ~1.4 (good discrimination)
+Guessing: ~0.05 (low guessing, options are distinct)
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.22</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

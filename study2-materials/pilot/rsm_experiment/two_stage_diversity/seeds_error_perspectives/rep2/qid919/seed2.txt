@@ -1,0 +1,16 @@
+One specific reason why students might find this question difficult is the **conflicting intuition between the magnitude of an integer and a decimal when squaring.**
+
+In this specific case, students frequently fail at the substitution $y = 3(0.3)^2$ due to a misunderstanding of how decimals behave under exponentiation.
+
+### The Specific Step: Squaring $0.3$
+Many students mentally map the operation $0.3 \times 0.3$ to the familiar integer fact $3 \times 3 = 9$. However, there is a common "Place Value Trap" where students intuitively believe that multiplying a decimal by itself should maintain the number of decimal places or simply result in a number "starting with zero."
+
+**The Error:**
+A significant number of students will conclude that $0.3^2 = 0.9$ (matching the one decimal place of the input). If a student makes this error, their calculation becomes:
+\[ y = 3 \times 0.9 = 2.7 \]
+This leads them directly to **Distractor D**, which is a "magnetic" answer because it feels computationally correct after the initial misstep.
+
+### Why this is a "Notational Trap"
+Because the equation involves both a coefficient ($3$) and a base ($0.3$) that use the same digit, students often perform a **"visual mash-up."** A student might bypass the squaring rule entirely and mentally perform $(3 \times 0.3)^2$. This leads them to $0.9^2$, resulting in **0.81 (Distractor A)**.
+
+The presence of the digit '3' in both the multiplier and the variable value creates a cognitive load that makes it harder for the student to isolate the order of operations (BIDMAS/PEMDAS). They see three 3s ($3$, $x=0.3$, and the squared index) and impulsively multiply them to get $3 \times 3 \times 3 = 27$, then guess the decimal placement, making **Distractor B (0.27)** and **Distractor D (2.7)** highly plausible traps.

@@ -1,0 +1,49 @@
+First, recall the formula for the volume of a sphere:  
+\[
+V = \frac{4}{3} \pi r^3
+\]  
+We solve for \(r\):  
+\[
+r^3 = \frac{3V}{4\pi}
+\]  
+\[
+r = \sqrt[3]{\frac{3V}{4\pi}}
+\]  
+That matches option C.
+
+Now, consider the distractors:  
+
+- **A**: \(\sqrt[3]{\frac{4V\pi}{3}}\) — common error of swapping \(4\pi\) with \(4\pi/3\) incorrectly.  
+- **B**: \(\sqrt[3]{\frac{4V}{3\pi}}\) — common error of forgetting to swap \(4\) and \(3\) when rearranging, and also misplacing \(\pi\).  
+- **D**: \(\frac{3\sqrt[3]{V}}{4\pi}\) — arises from mistakenly taking cube root before handling constants.  
+
+---
+
+**Why this question might be tricky despite straightforward algebra:**  
+1. Students often misremember whether the formula is \(\frac{4}{3}\pi r^3\) or \(\frac{4}{3}\pi r^2\) (confusion with surface area), but here it’s clearly volume.  
+2. The main difficulty is rearranging correctly: multiply by \(\frac{3}{4\pi}\) or \(\frac{3}{4}\times\frac{1}{\pi}\).  
+3. The cube root step is simple, but some may try to cube root \(V\) first (like in D).  
+4. Options A and B look similar to C, so pattern-matching without careful work leads to errors.
+
+---
+
+**Estimated choices by ability level** (UK context):  
+
+**Below basic** — likely to guess or misremember formula; might pick A or B because numbers 4, 3, π appear familiar.  
+- A=30% B=30% C=20% D=20%
+
+**Basic** — know formula but often make rearrangement slips; common error is \(\frac{4}{3}\pi r^3=V \rightarrow r^3 = \frac{V}{\frac{4}{3}\pi} = \frac{3V}{4\pi}\) — that’s actually correct if done right, but many instead do \(r^3 = V \times \frac{4}{3}\pi\) → leads to A. Also, some might think to divide by \(4\pi/3\) but invert wrong: \( \frac{V}{4\pi/3} = \frac{3V}{4\pi} \) cube root → C (correct). But many will slip to B if they divide by \(4\pi\) and multiply by 3 wrongly.  
+- A=25% B=35% C=30% D=10%
+
+**Proficient** — mostly correct; some might rush into B if they mistakenly think \(r^3 = \frac{V}{(4/3)\pi} = \frac{3V}{4\pi}\) and then cube root → C (so actually correct), but if they mis-copy, they might pick B? Actually, proficient students should get C mostly.  
+- A=10% B=15% C=70% D=5%
+
+**Advanced** — nearly all correct.  
+- A=2% B=5% C=92% D=1%
+
+---
+
+below_basic: A=30% B=30% C=20% D=20%  
+basic: A=25% B=35% C=30% D=10%  
+proficient: A=10% B=15% C=70% D=5%  
+advanced: A=2% B=5% C=92% D=1%

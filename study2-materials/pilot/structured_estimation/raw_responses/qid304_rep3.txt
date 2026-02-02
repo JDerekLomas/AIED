@@ -1,0 +1,39 @@
+<chain_of_thought>
+This item asks students to identify the first operation to perform in the expression 1 + 2 x (3 - 4). The key concept being tested is order of operations (BIDMAS/BODMAS), specifically that brackets take priority over multiplication and addition.
+
+Looking at the target misconception: "Carries out operations from left to right regardless of priority order." A student with this misconception would choose A (1+2) since that appears first reading left to right.
+
+Let me consider the distractors:
+- A) 1+2: Appeals to left-to-right readers. Plausible error.
+- B) 2x3: A student might recognize multiplication has higher priority than addition but ignore the brackets, pulling 2x3 out. This reflects a partial understanding of BIDMAS (knows multiplication before addition but forgets brackets come first).
+- C) 3-4: Correct. Brackets first.
+- D) "It doesn't matter": A naive view that order is irrelevant.
+
+Comparing to the calibration item with the same misconception (0.4 - 1/5 x 3), that item had classical difficulty 0.134 and IRT difficulty -0.245. However, that item required actually computing the answer, whereas this item only asks which step comes first -- a more conceptual/declarative question. Asking "which calculation first" is arguably easier since students just need to recall the BIDMAS rule rather than execute it. But distractor B is quite tempting for students who remember "multiplication before addition" but forget brackets trump everything.
+
+I think this item is somewhat easier than the calibration BODMAS item because it's a recognition task rather than a computation task. The brackets are visually present and prominent. I'd estimate classical difficulty around 0.15-0.25, placing it as a relatively easy item. The discrimination should be moderate-to-good since it cleanly separates students who know BIDMAS from those who don't.
+
+For guessing: with 4 options, pure chance is 0.25, but the correct answer (brackets) is fairly well-known even among weaker students, so effective guessing should be low.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

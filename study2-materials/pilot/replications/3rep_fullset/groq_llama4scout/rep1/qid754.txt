@@ -1,0 +1,30 @@
+## Step 1: Understand the task
+The task is to predict the percentage of students at each ability level (below_basic, basic, proficient, advanced) who would choose each option (A, B, C, D) for the given question about finding the value of \( p \) in the equation \( y = (x + p)^2 + q \) based on a graph of the quadratic function \( y = x^2 - 2x - 3 \).
+
+## 2: Identify the correct method
+To find \( p \), we need to complete the square on the given quadratic equation \( y = x^2 - 2x - 3 \). The general form of completing the square for \( y = ax^2 + bx + c \) is \( y = a(x - h)^2 + k \), where \( h = -\frac{b}{2a} \) and \( k \) can be found by substituting \( h \) back into the equation. For \( y = x^2 - 2x - 3 \), \( a = 1 \), \( b = -2 \), and \( c = -3 \). So, \( h = -\frac{-2}{2*1} = 1 \). This implies \( p = -1 \) because the vertex form of a parabola \( y = a(x - h)^2 + k \) can be rewritten as \( y = (x - (-h))^2 + k \) or \( y = (x + p)^2 + q \) where \( p = -h \).
+
+## 3: Analyze potential misconceptions and difficulties
+A common misconception might involve incorrectly completing the square or misinterpreting the vertex form of a parabola. However, the question directly provides a graph and asks for \( p \) in a specific form, which might help students visualize and understand that \( p \) relates to the x-coordinate of the vertex.
+
+## 4: Consider student ability levels
+- **Below_basic**: Students at this level might struggle with completing the square or understanding the relationship between the standard form and vertex form of a quadratic equation. They might not accurately identify the vertex from the graph or might incorrectly apply formulas.
+- **Basic**: Students here have a foundational understanding but might make simple algebraic mistakes or have trouble relating the graph to the equation.
+- **Proficient**: These students should be able to complete the square accurately and understand how the vertex of the parabola \( y = x^2 - 2x - 3 \) relates to \( p \) in \( y = (x + p)^2 + q \).
+- **Advanced**: Advanced students are likely to quickly and accurately find \( p \) and understand the underlying concepts without error.
+
+## 5: Predict student responses
+Given \( y = x^2 - 2x - 3 \), completing the square yields \( y = (x - 1)^2 - 4 \), implying \( p = -1 \) (since \( y = (x + (-1))^2 - 4 \)).
+
+- **Below_basic**: Might confuse \( p \) with other parts of the equation or incorrectly read the graph. Option B (\( -1 \)) seems correct based on calculations, but errors in calculation or concept might lead to A (\( 1 \)) or other options. Let's assume 20% get it right (B), 40% choose A, 20% C, and 20% D.
+- **Basic**: Should have a better grasp but might still make simple mistakes. Let's assume 60% get it right (B), 20% choose A, 10% C, and 10% D.
+- **Proficient**: Will likely get it right. Assume 80% choose B, 10% A, 5% C, and 5% D.
+- **Advanced**: Almost certainly get it right. Assume 95% choose B, 3% A, 1% C, and 1% D.
+
+## 6: Format the prediction
+Based on step 5, here are the predictions:
+
+below_basic: A=40% B=20% C=20% D=20%
+basic: A=20% B=60% C=10% D=10%
+proficient: A=10% B=80% C=5% D=5%
+advanced: A=3% B=95% C=1% D=1%

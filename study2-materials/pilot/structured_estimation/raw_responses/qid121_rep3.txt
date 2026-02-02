@@ -1,0 +1,39 @@
+<chain_of_thought>
+Finding the gradient of 5x + 3y = 15. Students must rearrange to y = mx + c form.
+
+3y = -5x + 15
+y = (-5/3)x + 5
+Gradient = -5/3 (answer D)
+
+This item sits at an interesting intersection of skills: algebraic manipulation (rearranging equations) and coordinate geometry knowledge (understanding what gradient is and that it's the coefficient m in y = mx + c). Students need to execute two sub-procedures correctly: (1) isolate y with correct sign handling, and (2) identify the gradient from the rearranged form.
+
+The misconception -- using the same operation rather than the inverse -- would cause students to get a positive coefficient when moving 5x across, leading to answer C (5/3). But other errors are possible too: answer A (5) suggests a student who just reads the x-coefficient from the original form, and answer B (-5) suggests correct sign handling but forgetting to divide by 3.
+
+Looking at calibration anchors, I note that items testing this misconception span a wide difficulty range. The key factors driving difficulty seem to be: (1) number of concepts layered together, (2) how unfamiliar the presentation format is. This item layers gradient knowledge on top of rearranging, which pushes it higher. However, it's a very standard GCSE question, so well-prepared students will find it routine.
+
+I'd anchor this between the factorising item (0.473) and the inequality item (0.569). The fractional answer and sign change are tricky but the question format is standard. I'll estimate around 0.50 classical difficulty.
+
+For discrimination, the well-designed distractors should produce good separation. Each wrong answer maps to a distinct error, which typically yields discrimination values around 1.2-1.5. The guessing parameter should be low since the distractors are attractive enough that random guessing isn't the primary mechanism for incorrect responses.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

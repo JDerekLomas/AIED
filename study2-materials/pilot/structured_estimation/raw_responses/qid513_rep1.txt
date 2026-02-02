@@ -1,0 +1,50 @@
+<chain_of_thought>
+Analyzing this error-identification item. The equation is 15 = 2p - 4.
+
+Correct solution path:
+15 = 2p - 4
+15 + 4 = 2p  (add 4 to both sides)
+19 = 2p
+9.5 = p  (divide both sides by 2)
+
+Isaac's steps:
+Step 1: 11 = 2p. He subtracted 4 from 15 instead of adding 4. He used the same operation (-4) rather than the inverse (+4). Incorrect.
+Step 2: 22 = p. He multiplied 11 by 2 instead of dividing by 2. Again same operation (×2) rather than inverse (÷2). Incorrect.
+
+Answer: D, both steps are incorrect.
+
+This is an interesting item because it asks students to evaluate work rather than do the work themselves. This is a higher-order cognitive task. Students who hold the same misconception as Isaac will naturally select C (both correct), making C a very strong distractor.
+
+The misconception "uses same operation rather than inverse" is one of the most pervasive errors in equation solving. It persists well into KS3 and KS4. The fact that BOTH steps demonstrate this error means a student with this misconception sees nothing wrong at all.
+
+Distractor analysis:
+- C is the strongest distractor by far - any student sharing the misconception picks this
+- A and B require partial recognition, which is less common
+- D requires full understanding of inverse operations
+
+Looking at the calibration set, I notice the misconception appears in three items with increasing difficulty (0.167, 0.295, 0.569). The key differentiator seems to be cognitive complexity rather than the misconception itself. This item's error-evaluation format adds complexity comparable to the inequality item. However, the underlying algebra (one-step linear equation) is simpler than solving inequalities with variables on both sides.
+
+I'll estimate classical difficulty around 0.50 - roughly half of students will get it wrong. The strong pull of distractor C for misconception-holders, combined with the evaluation format, pushes this into moderate-hard territory. IRT difficulty around 0.40-0.50.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.50</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

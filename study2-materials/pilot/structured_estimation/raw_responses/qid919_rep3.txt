@@ -1,0 +1,39 @@
+<chain_of_thought>
+The item presents y = 3x^2 in a table-of-values format and asks for y when x = 0.3. Correct computation: square first (0.3^2 = 0.09), then multiply (3 * 0.09 = 0.27), answer B.
+
+Thinking about the student population (UK ages 11-16), this item would typically appear in KS3 or early KS4. Substitution into quadratic expressions is a core curriculum topic. The decimal value x = 0.3 adds arithmetic difficulty beyond what a whole-number substitution would require.
+
+Distractor analysis:
+- A (0.81): From (3 * 0.3)^2 — the BIDMAS error. Very strong distractor.
+- B (0.27): Correct.
+- C (1.8): From 3 * 0.3 * 2 — treating the exponent as a coefficient/multiplier rather than a power. This reflects a misconception about what squaring means.
+- D (2.7): From 3 * 0.3 * 3 — perhaps misunderstanding x^2 as x times the coefficient, or computing 0.3^2 = 0.9 (wrong) then 3 * 0.9 = 2.7.
+
+All distractors target distinct misconceptions, which is good diagnostic design. The primary one (A) will attract many students. C and D may attract weaker students who don't understand exponents at all.
+
+Compared to calibration items, this feels moderately difficult. The decimal computation adds a wrinkle. I note that the BIDMAS calibration item was quite easy (0.134), but that involved simpler numbers. The function machine item (0.295) and this item share similar conceptual demands. I'll estimate classical difficulty around 0.35, acknowledging that decimal arithmetic often trips up more students than expected.
+
+Discrimination should be solid—this cleanly separates students who understand order of operations from those who don't. I'll estimate a = 1.25. Guessing should be low since students will compute something and match an answer rather than guess randomly.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.12</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

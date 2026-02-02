@@ -1,0 +1,38 @@
+<chain_of_thought>
+Analyzing the compound inequality -3 < 2x + 1 < 7.
+
+Solution path: Subtract 1 throughout: -4 < 2x < 6. Divide by 2 throughout: -2 < x < 3. Answer A.
+
+This is a compound inequality which is a step up from the single inequality in calibration item 5 (b=0.808, classical=0.569). However, the actual algebra here is straightforward -- just two inverse operations applied uniformly. The compound format adds cognitive load because students must track three expressions simultaneously.
+
+Looking at the distractors through the lens of the tested misconception (same operation instead of inverse):
+- If a student adds 1 instead of subtracting: -2 < 2x < 8, then /2: -1 < x < 4. Not an option, but -1 < x < 3 (option B) is close -- perhaps a student who adds 1 to the left but subtracts from the right, or makes an arithmetic error.
+- Option D (-5 < x < 15): Could arise from multiplying by 2 instead of dividing. -3-1=-4, then *2=-8... doesn't quite work either. Maybe -3*2-... These distractors seem somewhat constructed rather than arising naturally from the misconception.
+- Option C (-0.5 < x < 2.5): Possibly from dividing by 2 first without subtracting 1? (-3)/2 = -1.5... no. Or (2x+1)/2 treated as x + 0.5, so -3 < x + 0.5 < 7, then -3.5 < x < 6.5... no.
+
+The distractors are moderately plausible but don't all map cleanly to the stated misconception. The item requires multi-step reasoning but is standard curriculum content for ages 14-16.
+
+Comparing to calibration: This feels harder than calibration item 3 (b=0.002) but perhaps comparable to item 4 (b=0.404) or slightly harder. The compound inequality format pushes difficulty up. I'll estimate classical difficulty around 0.52 and IRT b around 0.55.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing 5h^2 - 3h - 2 = 0 with the quadratic formula. The student needs to identify what replaces the triangle in the expression ? +/- sqrt(triangle - ?).
+
+The quadratic formula: x = (-b +/- sqrt(b^2 - 4ac)) / 2a. So the triangle = b^2. Here a=5, b=-3, c=-2. Therefore b^2 = (-3)^2 = 9. Answer: C.
+
+Distractor analysis:
+- A (6): Perhaps confusing b^2 with 2|b| or some other error
+- B (-6): Similar but with a sign error
+- C (9): Correct - (-3)^2 = 9
+- D (-9): The target misconception - thinking (-3)^2 = -9
+
+The distractors 6 and -6 seem less plausible than -9. Most students who know anything about the quadratic formula will narrow it down to 9 or -9, making this somewhat binary. This could mean discrimination is reasonable since the misconception cleanly separates students.
+
+However, the question clarity is an issue. The partial formula shown as "? +/- sqrt(triangle - ?)" requires students to map this to the full quadratic formula, recognize where the triangle sits, and work backwards. Students who haven't memorized the formula will be lost entirely.
+
+Comparing to calibration: the inequality item (difficulty 0.569, b=0.808) requires similar algebraic sophistication. This quadratic formula item requires higher prerequisite knowledge but the actual computation is simpler once you identify b. I'd place this similarly or slightly harder than the inequality item.
+
+Given the high prerequisite barrier, there will be a substantial group of students who simply don't know the quadratic formula and must guess, pushing guessing probability up. I estimate classical difficulty 0.62, IRT b around 0.85.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>8</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>9</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>6</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.62</classical_difficulty>
+<irt_difficulty>0.85</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.22</guessing_probability>
+</predictions>

@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I have identified the following error for a UK Year 9 student (age 13–14) attempting this linear equation.
+
+### 1. The Misconception: "Operation Inversion Error" (Additive Sign Confusion)
+The specific bug is the **failure to invert an operation when moving a term across the equals sign**, specifically treating a positive constant as an instruction to add rather than a value to be subtracted. 
+
+While the student correctly identifies that they need to "isolate $k$," they perceive the $+1$ in $60 = 1 + k$ as a command to perform addition on the other side of the equation ($60 + 1$) rather than performing the inverse operation ($60 - 1$).
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would process the problem as follows:
+
+*   **Step 1:** They see the division by $4$. They correctly identify the inverse of "divide" is "multiply." They calculate $15 \times 4 = 60$. They write down $60 = 1 + k$. **(Correct)**
+*   **Step 2:** They look at the expression $1 + k$. They see the "plus" sign. Instead of thinking "I need to undo the addition of 1," their brain follows a "doing" rule: *"I see a 1 and a plus sign, so I will add 1 to the 60."* 
+*   **Calculation:** They perform $60 + 1 = 61$. They conclude $k = 61$. **(Incorrect)**
+
+### 3. Selected Answer Option
+This misconception leads the student to choose **A) Only Step 1**.
+
+The student would review Isaac's work, agree with the multiplication in Step 1, but then also agree with Isaac’s (incorrect) logic in Step 2, concluding that Isaac’s final answer of $61$ is correct based on their own flawed process.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and frequent** in Year 9 for several reasons:
+
+*   **Visual Cueing:** The "$+$" symbol acts as a visual trigger. In early algebra, students are often taught "do the same to both sides," but struggling students often shortcut this to "move it and do the sign you see."
+*   **Cognitive Load:** The student has already successfully performed a multiplication ($15 \times 4$). By the time they reach Step 2, they often go into "autopilot." 
+*   **False Confirmation:** $61$ feels like a "nice" number and follows logically from a simple addition.
+*   **Self-Correction:** The student is **very unlikely to realize they went wrong** unless they are explicitly taught to check their answer by substitution. If they substitute $61$ back into the original equation: $\frac{1+61}{4} = \frac{62}{4} = 15.5$. Because $15.5$ is so close to $15$, a Year 9 student might even assume they made a small rounding error rather than a procedural one, or they may skip the check entirely because "the steps felt right."

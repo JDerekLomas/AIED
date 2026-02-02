@@ -1,0 +1,38 @@
+<chain_of_thought>
+The question presents a negative quadratic graph crossing the x-axis at (-5, 0) and (1, 0), and asks which equation matches.
+
+Starting from the graph: it's a downward-opening parabola with x-intercepts at -5 and 1. A quadratic with these roots in factored form is y = a(x - (-5))(x - 1) = a(x+5)(x-1). Since the parabola opens downward, a < 0. With a = -1: y = -(x+5)(x-1) = (-1)(x+5)(x-1) = (1-x)(x+5). This matches option A.
+
+Analyzing distractors and their likely appeal:
+- Option C, y = (x-1)(x+5), has the correct roots but is a positive quadratic (opens upward). This would be very tempting for students who correctly identify the roots from the graph but forget to check or don't know how to determine the orientation. The tested misconception about multiplying negatives fits here: students may not realize that (x-1)(x+5) has a positive x^2 term.
+- Option B has a wrong root (5 instead of -5).
+- Option D has both a wrong root and positive leading coefficient.
+
+Option C is a very strong distractor. Students must integrate multiple concepts: reading intercepts from graphs, writing equations from roots, and understanding how the sign of the leading coefficient relates to the parabola's orientation. The last step - recognizing that (1-x) instead of (x-1) flips the sign - is subtle.
+
+Looking at the calibration set, the Tom and Katie factorising problem (same misconception category) was at 0.473 classical difficulty and 0.404 IRT difficulty. This question arguably requires more integration of concepts (graph reading + algebra + sign reasoning), so I'd place it somewhat harder. However, the visual cue of a clearly downward-opening parabola might help some students.
+
+I estimate classical difficulty around 0.55, with moderate discrimination since it separates students who deeply understand sign conventions from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>8</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>7</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.55</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

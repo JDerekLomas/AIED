@@ -1,0 +1,47 @@
+<chain_of_thought>
+This item shows Isaac's equation-solving work: x - 7 = ... on one line, then x = ... on the next. An arrow with a star indicates the operation performed. The student must identify +7 as the correct operation.
+
+Key considerations:
+
+1. Content domain: This sits squarely in early algebra / equation solving, appropriate for KS3 (ages 11-14). It targets a foundational skill.
+
+2. Cognitive demand: Very low. No calculation needed. Pure recognition of inverse operations. A student simply needs to know that to cancel "- 7" you do "+ 7".
+
+3. Distractor analysis:
+   - A (+7): Correct -- inverse of -7
+   - B (x7): Weak distractor. Multiplication is a different operation class entirely. Only very confused students would pick this.
+   - C (/7): Similarly weak. Division isn't related to the subtraction shown.
+   - D (-7): The key distractor testing the misconception. A student who thinks you repeat the operation would choose this.
+
+The fact that two of four distractors are quite implausible (multiply and divide) means this item effectively becomes almost a two-choice question for students who have basic understanding of operation types. This could inflate the correct response rate and reduce discrimination somewhat.
+
+4. Visual element: The diagram with arrow and star is a standard UK maths textbook convention. Most students in the target age range will have encountered this format. It adds minimal complexity.
+
+Calibration anchoring: Comparing to the first calibration item (same misconception, b = -0.702, classical difficulty 0.167) which requires actual computation, this item should be easier. But the first calibration item also has strong distractors. I think this item might be slightly easier, perhaps classical difficulty 0.10-0.18.
+
+Given the weak distractors B and C, discrimination might be somewhat lower than ideal. Students who partially understand will easily eliminate B and C, leaving a 50/50 between A and D. This could actually boost discrimination for the specific misconception being tested.
+
+Estimate: classical difficulty ~0.18, IRT b ~ -0.55, moderate-good discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>4</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.55</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

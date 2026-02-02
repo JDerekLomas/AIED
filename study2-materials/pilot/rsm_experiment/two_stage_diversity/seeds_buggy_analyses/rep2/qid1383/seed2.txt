@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I identify the most common error for this specific question as the **"Negated Power Bug"** (or the confusion between $-3^4$ and $(-3)^4$).
+
+### 1. The Misconception: Order of Operations with Negatives
+The student fails to recognize that when a negative base is raised to an even power, the negative sign must be included in the multiplication. They treat the calculation as $-(k^4)$ rather than $(k)^4$. Essentially, the student ignores the "bracket rule" for substitution and follows the Order of Operations (BIDMAS/BODMAS) incorrectly, applying the index before the unary minus.
+
+### 2. Step-by-Step Student Workings
+A student with this misconception would process the question as follows:
+*   **Step 1:** Substitute $-3$ for $k$ to get $T = -3^4$.
+*   **Step 2:** Follow the order of operations by prioritizing the index (power). They calculate $3 \times 3 \times 3 \times 3 = 81$.
+*   **Step 3:** Apply the negative sign to the result of the power calculation: $-(81)$.
+*   **Step 4:** Conclude that $T = -81$.
+
+(The correct conceptual process should be $(-3) \times (-3) \times (-3) \times (-3)$, where the negatives cancel out in pairs to produce a positive result.)
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C: -81**.
+
+### 4. Attractiveness of the Error
+This is a highly "natural" and persistent error for Year 9 students for two main reasons:
+
+*   **Calculator Dependency:** If a student types `-3^4` into a standard scientific calculator, the machine will return `-81` because calculators are programmed to treat the minus as an operation following indices. Without using parentheses, the calculator confirms their incorrect logic.
+*   **Rule Over-generalization:** Students often learn the rule "if there's a minus in the question, there's a minus in the answer." They fail to internalize that an even exponent "washes away" the negative sign. 
+*   **Visual Liking:** $-81$ looks like a "logical" answer because the input was negative. Because the answer appears as a distracter (Option C), the student gains immediate "False Confirmation Bias"—they see their result listed and assume they must be correct, never pausing to check the sign.

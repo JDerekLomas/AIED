@@ -1,0 +1,18 @@
+In my experience marking this specific question type with Year 9 students, the difficulty lies in two distinct areas: understanding the operation of a power (multiplication vs. exponentiation) and the rules regarding negative signs with even powers.
+
+**The "Attractor" Logic:**
+*   **A (81):** The correct application of $(-3) \times (-3) \times (-3) \times (-3)$. 
+*   **B (12):** A common misconception at lower levels where students see $k$ and 4 and simply multiply them ($3 \times 4$ or $-3 \times 4$, ignoring the sign).
+*   **C (-81):** The "Calculated Error." Students know $3^4=81$ but assume the negative sign is simply "attached" to the answer. This is reinforced by students using calculators incorrectly without brackets: $-3^4$ gives $-81$ on most devices.
+*   **D (-12):** Similar to B, but maintaining the negative sign from the base.
+
+**Performance Prediction:**
+*   **Below Basic:** Many struggle with indices entirely, treating them as multiplication (B and D).
+*   **Basic:** They know to multiply the base by itself, but will almost universally forget that an even power results in a positive product. Many will guess C because the input was negative.
+*   **Proficient:** These students usually handle the indices well but are highly susceptible to the "calculator trap" (forgetting brackets) or simply rushing and assuming a negative base leads to a negative result.
+*   **Advanced:** Most will recognise the even exponent rule ($k^2, k^4$, etc.), though a small percentage will still make a "silly" sign error under exam pressure.
+
+below_basic: A=10% B=45% C=10% D=35%
+basic: A=25% B=15% C=45% D=15%
+proficient: A=55% B=5% C=35% D=5%
+advanced: A=92% B=0% C=8% D=0%

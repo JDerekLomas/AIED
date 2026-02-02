@@ -167,8 +167,9 @@ def load_eedi_items(csv_path: str, limit: int = None) -> list:
             options = f"A) {row['AnswerAText']}\nB) {row['AnswerBText']}\nC) {row['AnswerCText']}\nD) {row['AnswerDText']}"
 
             # Calculate difficulty as 1 - accuracy
-            correct = row['CorrectAnswer']
-            correct_pct = row[f'pct_{correct}'] / 100
+            correct = row['CorrectAnswer']  # Kaggle letter (for LLM prompt)
+            neurips_correct = row['neurips_correct_pos']  # NeurIPS position (for pct lookup)
+            correct_pct = row[f'pct_{neurips_correct}'] / 100
             difficulty = 1 - correct_pct
 
             item = {
@@ -314,7 +315,18 @@ def run_feature_extraction_experiment(
 
     results = []
 
+    # Resume from intermediate if available
+    intermediate_file = output_dir / "features_intermediate.json"
+    done_ids = set()
+    if intermediate_file.exists():
+        with open(intermediate_file) as f:
+            results = json.load(f)
+        done_ids = {r["item_id"] for r in results}
+        print(f"  Resuming from {len(results)} previously completed items")
+
     for i, item in enumerate(items):
+        if item['id'] in done_ids:
+            continue
         print(f"\nItem {i+1}/{len(items)}: {item['id']}")
 
         # Extract features

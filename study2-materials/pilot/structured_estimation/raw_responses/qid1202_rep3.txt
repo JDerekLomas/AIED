@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: Solve 3 - y = 5 for y. Correct: y = -2 (B).
+
+Let me approach this from the student's perspective. A Year 9 or 10 student encountering this in the context of simultaneous equations has already done significant algebraic manipulation to reach this point. The question isolates just this final step.
+
+The equation 3 - y = 5 is deceptively simple-looking but involves a subtlety: the coefficient of y is implicitly -1. Many students struggle with this. Research on algebraic misconceptions consistently shows that equations where the variable has a negative coefficient are significantly harder than those with positive coefficients.
+
+Error patterns:
+- Option A (y = 2): The most common error. Students think "3 minus something is 5, so something is 3 - 5... wait, that's negative" and then get confused, or they compute 5 - 3 = 2 and pick the positive answer.
+- Option C (y = 8): From misapplying operations, perhaps adding 3 + 5.
+- Option D (y = -8): Less likely, perhaps from a double-negative confusion.
+
+Calibration comparison: The p + 10 = -5 item was easy (0.167) because the variable has a +1 coefficient. The inequality item was hard (0.569) because of multiple steps plus inequality handling. This item should fall in between. The negative implicit coefficient pushes difficulty up relative to the simple equation.
+
+I estimate this is a moderate item. The framing within simultaneous equations doesn't add computational difficulty but might add slight cognitive overhead. I'll estimate classical difficulty around 0.35, IRT difficulty around 0.15.
+
+For discrimination, the item cleanly separates students who can handle negative coefficients from those who can't. I'd expect a = 1.2-1.5. Guessing should be low because Option A is such a strong attractor for students with the misconception -- they won't guess randomly, they'll confidently pick A.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

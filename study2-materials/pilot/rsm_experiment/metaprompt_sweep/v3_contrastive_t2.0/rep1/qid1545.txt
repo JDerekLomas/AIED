@@ -1,0 +1,16 @@
+As a UK maths teacher, I evaluate this question based on how students handle **BIDMAS/BODMAS**.
+
+This specific question is a classic "order of operations" trap. The numbers are deliberately chosen to be simple (8, 12, 4) so that the calculation doesn't hinder the student, but the structure triggers a very common left-to-right processing error. 
+
+**Analysis of student levels:**
+*   **Below Basic:** Many will calculate the left side as $(8+12) \div 4 = 5$, and the right side as $20 \div 4 = 5$, leading them to choose **C**. They ignore the hierarchy of operations entirely and simply perform the addition first because it appears first.
+*   **Basic:** Some will remember that "division comes before addition." They will correctly calculate the left side as $8+3 = 11$ and the right side as $20 \div 4 = 5$. Because $11 > 5$, they will choose **A**. However, a significant portion will still lapse into left-to-right thinking under test pressure.
+*   **Proficient:** These students have internalized BIDMAS. They will see the brackets as the signal to change the order. They will quickly identify $11 > 5$. 
+*   **Advanced:** These students will likely solve this without even calculating the final values, noting that on the left only the 12 is divided by 4, whereas on the right both numbers are. 
+
+**Predicted Performance:**
+
+below_basic: A=20% B=10% C=65% D=5%
+basic: A=55% B=10% C=30% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

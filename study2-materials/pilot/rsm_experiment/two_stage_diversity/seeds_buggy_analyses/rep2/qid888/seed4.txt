@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a specific and frequent error pattern regarding the multiplication of signed numbers in binomial expansion.
+
+### 1. The specific misconception: Sign Rule Failure (Negative $\times$ Negative)
+The specific bug is a failure to correctly apply the **multiplicative sign rules** to the constant terms. Many students internalize a "negative trend" in a problem—if they see multiple minus signs in the brackets, they instinctively expect the final answer to conclude with a minus sign as well. Specifically, the student incorrectly believes that a **negative multiplied by a negative equals a negative** (often confusing the rule for multiplication with the rule for adding two negative numbers).
+
+### 2. How the student would work through the question
+A student using the FOIL method (First, Outside, Inside, Last) would proceed as follows:
+
+*   **First:** $m \times m = m^2$ (Correct)
+*   **Outside:** $m \times (-7) = -7m$ (Correct)
+*   **Inside:** $(-5) \times m = -5m$ (Correct)
+*   **Simplify terms:** $-7m - 5m = -12m$ (The student correctly sums the debts/negatives here)
+*   **Last:** This is where the error occurs. The student multiplies $-5$ and $-7$. They calculate $5 \times 7 = 35$, but because they see two minus signs in the expression $(m-5)(m-7)$, they conclude the result must be **$-35$**.
+
+### 3. Which answer option this leads to
+This misconception leads directly to **Option D: $m^2 - 12m - 35$**.
+
+### 4. How natural/attractive is this error?
+This is an **extremely attractive error** for a Year 9 student, and they would likely feel very confident in this answer. There are three reasons for this:
+
+1.  **Over-generalization of Addition:** When students learn that "negative five minus seven makes negative twelve," they often mistakenly apply that same "keep the sign" logic to the multiplication step at the end. 
+2.  **Visual Consistency:** The student sees $(m-5)$ and $(m-7)$. Both brackets feature subtractions. In their mind, it "looks right" for the final quadratic to also feature subtraction symbols throughout. The leap to a positive $+35$ feels counter-intuitive because there wasn't a "plus" sign anywhere in the starting question.
+3.  **The Distractor Trap:** Because Option D includes the correct $-12m$ (which requires significant effort to calculate), the student assumes that if they got the middle term "right," the rest of their logic must be sound. They would not realize they were wrong until they specifically checked their work using a grid method or a sign-rule mnemonic.

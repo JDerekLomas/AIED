@@ -1,0 +1,42 @@
+As an experienced examiner, I see this specific question type often. It tests two distinct domains simultaneously: the statistical definition of the **mean** and the algebraic understanding of **order of operations (BIDMAS/BODMAS)**.
+
+Here is my diagnostic breakdown:
+
+### 1. Analysis of Wrong Answer Options
+
+*   **Option B (The target misconception: Left-to-right operations)**
+    *   **Buggy Reasoning:** The student understands that to find the mean, they must "add them up and divide by how many there are." They translate this verbal rule directly into a horizontal string of numbers on their calculator or page: $0+1+3+4+7 \div 5$. Because they read from left to right, they assume the division happens last. In reality, according to BIDMAS, a calculator would perform $7 \div 5$ first, then add the result to the other numbers.
+    *   **Attractiveness:** **Very High.** This is a classic "syntax" error. Students often don't realize that a written horizontal expression requires brackets to maintain the priority they intend. It is the single most common error when students use a scientific calculator for means.
+
+*   **Option C (Excluding the Zero from the Count)**
+    *   **Buggy Reasoning:** The student believes that "0 doesn't count." They correctly identify the four non-zero values but divide by 4 because they equate "zero" with "nothing." They feel that including 0 in the divisor would unfairly "lower" the average.
+    *   **Attractiveness:** **High (at lower ability levels).** This is a conceptual misunderstanding of "data." Students at this level often struggle with the idea that 0 is a piece of data with a value, rather than an absence of data.
+
+*   **Option D (The "Technical" Overthinker)**
+    *   **Buggy Reasoning:** A student might choose "None of them" because they see Option A correctly adds the numbers (since 0 doesn't change the sum) but notice the 0 is physically missing from the numerator. They may think, "If the 0 isn't written in the sum, it’s not mathematically perfect," and therefore reject it.
+    *   **Attractiveness:** **Low/Moderate.** This is usually selected by students who are unsure of themselves or by high-achievers who are over-complicating the notation of Option A.
+
+---
+
+### 2. Judging the Buggy Reasoning Chains
+
+*   **Option B:** This is the most "dangerous" distractor. Even students who understand the mean perfectly will fall for this if they lack rigor in algebraic notation. It is most likely among **Basic/Lower-Proficient** students who rely heavily on scientific calculators.
+*   **Option C:** This is a **Below Basic** error. It stems from a fundamental misunderstanding of what a "mean" represents (the fair share). A student at this level won't notice the error because they think they are being "clever" by ignoring the zero.
+*   **Option A (Correct):** Many students might hesitate here because the $+0$ is missing. However, $1+3+4+7 = 15$ and $0+1+3+4+7 = 15$. If a student understands that $x + 0 = x$, they will realize Option A is the only valid mathematical path.
+
+---
+
+### 3. Predicted Response Distribution
+
+| Ability Level | A (Correct) | B (Left-to-Right) | C (Exclude 0) | D (None) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 15% | 35% | 40% | 10% |
+| **Basic** | 30% | 50% | 15% | 5% |
+| **Proficient** | 75% | 20% | 2% | 3% |
+| **Advanced** | 95% | 3% | 0% | 2% |
+
+**Key Rationale:**
+*   **Below Basic** students are heavily distracted by Option C. They see a 0 and a 4 and instinctively pair them.
+*   **Basic** students understand the steps but fail the "Order of Operations" test (Option B). This is the "sweet spot" for this specific distractor.
+*   **Proficient** students generally recognize that the bracket-less expression in B is wrong, though a significant minority will still tick it through haste.
+*   **Advanced** students will recognize that while $0$ isn't written in the numerator of A, the sum is identical and the divisor (5) is correct.

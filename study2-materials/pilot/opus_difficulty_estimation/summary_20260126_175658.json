@@ -1,0 +1,67 @@
+{
+  "experiment": "opus_difficulty_estimation_calibrated",
+  "model": "claude-opus-4-5-20250514",
+  "timestamp": "20260126_175658",
+  "config": {
+    "num_calls": 10,
+    "num_test_items": 25,
+    "num_calibration_items": 3,
+    "random_seed": 42
+  },
+  "results": {
+    "successful_calls": 0,
+    "total_estimates": 0
+  },
+  "call_metadata": [
+    {
+      "call_num": 1,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLpy4SXW1hAP8j2PDMn'}"
+    },
+    {
+      "call_num": 2,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLq8KJetwshvvF2b5hJ'}"
+    },
+    {
+      "call_num": 3,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLqHpZHpS26L6Db4Fsb'}"
+    },
+    {
+      "call_num": 4,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLqT1SziAeduchhGBX7'}"
+    },
+    {
+      "call_num": 5,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLqcQkEqVFzxWWBpEQH'}"
+    },
+    {
+      "call_num": 6,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLqmd8yUCLmYpwEUkcj'}"
+    },
+    {
+      "call_num": 7,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLqw1Sa7SgsFrBgTfCG'}"
+    },
+    {
+      "call_num": 8,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLr6D5mJrTsGSDKuiBh'}"
+    },
+    {
+      "call_num": 9,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLrFTwmaJ5C5iNaHTZZ'}"
+    },
+    {
+      "call_num": 10,
+      "success": false,
+      "error": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-opus-4-5-20250514'}, 'request_id': 'req_011CXWLrQdcDb7fJxoBTyaLe'}"
+    }
+  ]
+}

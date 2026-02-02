@@ -1,0 +1,11 @@
+Here is my prediction based on teaching Year 9 classes. This is a classic "trap" question where decimal place value and the order of operations (BIDMAS) collide with common student misconceptions.
+
+**The "Why" behind the errors:**
+*   **The common mistake (B):** Most students will square $0.3$ and get $0.09$, but then fail at the multiplication. However, a significant number of "Basic" and "Below Basic" students will perform $(3 \times 0.3)^2$. They think they should multiply first, get $0.9$, and then square it to get $0.81$. 
+*   **The "Decimal Blindness" mistake (D):** This is the most popular wrong answer. Students do $3^2 = 9$ and $3 \times 0.3 = 0.9$ and somehow mash the numbers together, or more likely, they square $0.3$ and get $0.9$ (forgetting the second decimal place), then multiply $0.9 \times 3$ to get $2.7$. It "looks" like a sensible answer.
+*   **The "Addition" mistake (C):** Students who are truly struggling often see $3x^2$ and think $3 \times (0.3 \times 2)$ or just miscalculate the $0.3 \times 3$ logic.
+
+below_basic: A=30% B=10% C=20% D=40%
+basic: A=20% B=20% C=10% D=50%
+proficient: A=10% B=60% C=05% D=25%
+advanced: A=0% B=95% C=0% D=5%

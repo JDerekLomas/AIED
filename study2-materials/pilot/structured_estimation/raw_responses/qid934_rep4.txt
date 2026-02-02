@@ -1,0 +1,44 @@
+<chain_of_thought>
+This question gives a table of values for 4x + 2y = 10 and asks students to find y when x = 0.
+
+Mathematically: 4(0) + 2y = 10, so 2y = 10, so y = 5. Answer C.
+
+Let me focus on the distractor structure and how it relates to the calibration items sharing the same misconception ("uses the same operation rather than the inverse"). Three of the five calibration items test this exact misconception, at difficulties 0.167, 0.295, and 0.569. This gives me a good range to calibrate against.
+
+The first (b = -0.702) is a direct one-step equation: -5 = p + 10. The third (b = 0.002) involves function machines with squaring -- more conceptually demanding. The fifth (b = 0.808) involves inequalities with variables on both sides.
+
+Where does this item fall? It requires:
+- Reading a table of values (mild interpretation)
+- Substituting x = 0 (trivial since it zeroes out a term)
+- Solving 2y = 10 (single-step division)
+
+The actual math is comparable to the first calibration item in simplicity. But the table context and two-variable equation framing add interpretive demand. I'd place it between calibration items 1 and 3, perhaps closer to item 1.
+
+One consideration: the question clarity might be slightly reduced by the table formatting. Students need to understand that the star is in the y-row under x = 0. In a well-formatted assessment this would be clear, but in the text representation shown here it's somewhat ambiguous. In practice, with proper formatting, this should be clear.
+
+Distractor A (20) is the misconception distractor and is quite attractive for students who habitually apply the same operation. Distractors B (3) and D (2.5) are less directly connected to the tested misconception but provide plausible numerical traps.
+
+My estimates: classical difficulty ~0.30, IRT difficulty ~-0.10 to 0.10. I'll go with 0.0 for IRT difficulty as a round estimate. Discrimination around 1.20 -- solid but not exceptional since the table format may introduce some construct-irrelevant variance. Guessing low, around 0.05.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.00</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item presents two arithmetic expressions side by side with a missing comparison symbol. It directly targets order of operations understanding.
+
+Evaluating the expressions:
+- 8 + 12 ÷ 4: Applying BIDMAS, 12 ÷ 4 = 3 first, then 8 + 3 = 11
+- (8 + 12) ÷ 4: Brackets give 20 ÷ 4 = 5
+
+11 > 5, so A is correct.
+
+This is a well-designed diagnostic item. The two expressions use identical numbers but differ only in grouping, making it a pure test of whether students understand that order of operations changes the result. The misconception (left-to-right processing) would lead a student to get 5 on both sides and choose C (=).
+
+Thinking about the student population: order of operations is introduced around Year 7 in the UK curriculum and reinforced through KS3. By the time students reach Year 9-10, most should handle this correctly. However, among a mixed-ability cohort of 11-16 year olds, a substantial minority will still make the left-to-right error.
+
+One consideration is that the comparison format itself might cause difficulty beyond the BODMAS concept. Students need to evaluate two separate expressions and compare them, which adds working memory demands. They also need to be comfortable with inequality symbols.
+
+The D option (≥) is interesting — it's logically correct but conventionally the "wrong" answer. This muddies the water slightly. A mathematically sophisticated student might argue D is also valid. This could hurt discrimination.
+
+Looking at the calibration data, the similar misconception item had difficulty 0.134. But that was a computation item, not a comparison. I think comparison items tend to be slightly harder because of the additional step. I'll estimate around 0.25-0.30 for classical difficulty.
+
+The discrimination should be moderate. The item separates BODMAS-knowers from non-knowers, but the D option might siphon a few high-ability students away from A, reducing discrimination somewhat.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.30</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

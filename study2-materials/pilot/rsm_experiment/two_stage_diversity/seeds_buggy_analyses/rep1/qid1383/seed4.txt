@@ -1,0 +1,22 @@
+As an expert in mathematical misconceptions, I identify the following buggy procedure for this specific problem.
+
+### 1. The Specific Misconception: "Base-Sign Separation" (or the Calculator Logic Bug)
+The most common misconception here is the **failure to bracket negative bases**. In a Year 9 student's mental model (often reinforced by how they input values into a scientific calculator), they treat the negative sign as a prefix to the entire operation rather than part of the base being exponentiated. They interpret $-3^4$ as $-(3^4)$ rather than $(-3)^4$.
+
+### 2. The Step-by-Step Error
+A student with this misconception would follow these steps:
+1.  **Substitution:** They replace $k$ with $-3$, but write it down as $T = -3^4$.
+2.  **Order of Operations:** According to their internal (and often literal) "BODMAS" logic, they prioritise the Power/Index over the negative sign (which they treat as a Subtraction or a Multiplication by $-1$).
+3.  **Calculation:** They calculate $3 \times 3 \times 3 \times 3 = 81$.
+4.  **Final Application:** They re-attach the negative sign at the very end to the result.
+5.  **Result:** $-(81) = -81$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Option C: $-81$**.
+
+### 4. Attractiveness of the Error
+This is an **exceptionally attractive and "sticky" error** for several reasons:
+
+*   **Calculator Reinforcement:** If a student types `-3^4` into a standard UK scientific calculator (like a Casio), the display will show `-81`. This gives the student "technological proof" that they are correct. They do not realise that the calculator requires `(-3)^4` to include the sign in the power.
+*   **Over-reliance on "Odd/Even" Rules:** Students are often taught the heuristic "Even power = Positive answer." However, if they haven't grasped that the power must *govern* the negative sign, they ignore this rule in favour of the visual "presence" of the minus sign.
+*   **Intuition:** The student feels they have successfully performed two distinct mathematical tasks: "cubing the number" and "respecting the sign." Because they arrive at one of the listed multiple-choice options, they receive a hit of confirmation bias and are highly unlikely to realize they have made an error. To them, Option A (81) looks like they have "forgotten" the minus sign, making -81 feel like the more "complete" and rigorous answer.

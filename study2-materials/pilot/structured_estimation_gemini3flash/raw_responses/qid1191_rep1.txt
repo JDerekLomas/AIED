@@ -1,0 +1,46 @@
+<chain_of_thought>
+The item requires solving a linear equation with the unknown on both sides: \(20t - 5 = 5t + 10\).
+Step 1: Subtract \(5t\) from both sides: \(15t - 5 = 10\).
+Step 2: Add 5 to both sides: \(15t = 15\).
+Step 3: Divide by 15: \(t = 1\).
+
+Distractor Analysis:
+- Option A (\(t=0\)): Might come from a total misunderstanding of the terms or thinking \(10 - 10\) or similar, but less likely.
+- Option C (\(t=-1\)): Likely results from a sign error, perhaps \(15t = -15\) or \(25t = -25\).
+- Option D (\(t=1/5\)): Could come from \(15t = 3\) or similar manipulation errors, or potentially \(5/25\) if they add \(5t\) and add \(5\) but then divide the wrong way.
+
+The "Misconception tested" provided is "When solving an equation, uses the same operation rather than the inverse."
+If a student uses the same operation:
+- Instead of subtracting \(5t\), they add \(5t\): \(25t - 5 = 10 \Rightarrow 25t = 15\) or \(25t = 5\).
+- Instead of adding 5, they subtract 5: \(15t = 5\).
+None of these lead directly to the distractors in a simple way, suggesting the distractors might catch general arithmetic/sign errors or the specific misconception in a multi-step context.
+
+Compared to the calibration items:
+- Item 1 (\(-5 = p+10\)) is a 1-step equation and had a very low classical difficulty (0.167), though its IRT difficulty was -0.702 (suggesting it's actually "easy" for the latent trait but perhaps tricky for the cohort).
+- Item 5 (\(2n+3 \leq 3n-7\)) is a similar multi-step structure but with inequalities. It had a classical difficulty of 0.569 and IRT difficulty of 0.808.
+- The target item is a standard "unknowns on both sides" linear equation. This is a core GCSE Foundation/KS3 skill. The numbers are "friendly" (15 and 15), which usually increases the success rate compared to equations resulting in fractions.
+
+I expect this to be moderately difficult but easier than the inequality item because it's an equation and the numbers resolve to 1.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.55</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

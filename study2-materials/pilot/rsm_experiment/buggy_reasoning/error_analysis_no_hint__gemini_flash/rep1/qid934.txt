@@ -1,0 +1,13 @@
+To predict these percentages, I’ve considered the typical Year 9 thought processes for a linear equation in an implicit form ($4x + 2y = 10$):
+
+*   **Error A (20):** A classic "operation scramble." Students multiply the two visible constants ($4 \times 5 = 20$) or try to apply a gradient rule incorrectly without isolating $y$. Common for those who just guess when they see a "star."
+*   **Error B (3):** The "Common Difference" error. These students solve for $x=0, y=5$, then solve for $x=1, y=3$, and notice the sequence is going down by 2. If they look at the next cell instead of the current one, or confuse the $x$ and $y$ roles, they pick this. 
+*   **Error C (5):** The correct substitution. When $x=0$, $4(0) + 2y = 10$, so $2y=10$, $y=5$. 
+*   **Error D (2.5):** The "Inverse Ratio" error. Students think $10 \div 4 = 2.5$. They ignore the $y$ term or treat the equation as $4x = 10$. This is a very attractive "mathsy-looking" number.
+
+The implicit form is the main barrier; lower-ability students struggle to "plug in zero" and often just manipulate the numbers they see on the page.
+
+below_basic: A=30% B=15% C=20% D=35%
+basic: A=10% B=25% C=40% D=25%
+proficient: A=2% B=8% C=80% D=10%
+advanced: A=0% B=1% C=98% D=1%

@@ -1,0 +1,32 @@
+In this scenario, a Year 9 student is most likely to suffer from the **"Strict Hierarchy of BIDMAS"** bug (specifically the **Addition-over-Subtraction** priority).
+
+### 1. The specific misconception: Addition-over-Subtraction Priority
+This is a procedural error caused by a literal interpretation of the acronyms **BIDMAS** (Brackets, Indices, Division, Multiplication, Addition, Subtraction) or **BODMAS**.
+
+The student incorrectly believes that because 'A' appears before 'S' in the acronym, **addition must always be performed before subtraction**, regardless of their position in the expression. They fail to understand that Addition and Subtraction have equal priority and should be calculated from left to right.
+
+### 2. Step-by-Step walkthrough
+
+**Problem P: $4 - 5 + 6$**
+1.  The student looks at the operators (minus and plus).
+2.  Thinking of the acronym B-I-D-M-**A**-**S**, they see 'A' comes before 'S'.
+3.  They isolate the addition part: $5 + 6 = 11$.
+4.  They then perform the subtraction: $4 - 11 = -7$.
+5.  *Result:* They conclude that $5 + 6$ must be done first.
+
+**Problem Q: $4 + 5 \times 6$**
+1.  The student looks at the operators (plus and multiply).
+2.  Thinking of the acronym B-I-D-**M**-**A**-S, they see 'M' comes before 'A'.
+3.  They correctly identify that the multiplication must be done first: $5 \times 6 = 30$.
+4.  *Result:* They conclude that $5 \times 6$ must be done first.
+
+### 3. Corresponding Answer
+This misconception leads the student to choose **Option D**.
+
+*   **Problem P:** $5+6$
+*   **Problem Q:** $5\times6$
+
+### 4. Attractiveness of the error
+This error is extremely "sticky" and natural for UK students. In fact, many students who make this mistake believe they are being **more** mathematically rigorous than their peers. 
+
+Because the student correctly applied the rule for Problem Q (multiplication before addition), they feel a sense of confidence in their "system." They view BIDMAS as an absolute "queue" rather than a set of priority tiers. Without being explicitly taught the "Left-to-Right" tie-break rule for equal-priority operations (MD and AS), a student has no reason to doubt that the sequence of letters dictates the sequence of actions. They would likely finish the question convinced they have applied the "order of operations" rule perfectly.

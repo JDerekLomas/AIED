@@ -1,0 +1,52 @@
+<chain_of_thought>
+Examining this BIDMAS diagnostic item. The question asks students to identify the first operation in two expressions, not to compute results.
+
+Problem P: 4 - 5 + 6
+- Subtraction and addition are equal precedence, resolve left to right
+- First operation: 4 - 5
+
+Problem Q: 4 + 5 x 6
+- Multiplication before addition (BIDMAS)
+- First operation: 5 x 6
+
+Correct answer: B
+
+Distractor attractiveness analysis:
+Option A is the primary trap -- it applies left-to-right to both problems. For P this happens to give the right answer, but for Q it gives 4+5 instead of 5x6. Students with the target misconception will pick A.
+
+Option C reverses the order in P (picks 5+6, maybe thinking addition before subtraction) and also does left-to-right in Q. This is a double-error option.
+
+Option D picks 5+6 in P (wrong) but 5x6 in Q (right). A student who thinks "addition comes before subtraction because A comes before S in BIDMAS" but correctly applies multiplication priority would choose this.
+
+Actually, option D represents an interesting and potentially common misconception -- misinterpreting BIDMAS as meaning addition before subtraction. This could make D a stronger distractor than it first appears.
+
+Given the population (UK secondary, 11-16), BIDMAS is typically introduced around Year 7. By Year 8-9 most students have encountered it. But the misconception about left-to-right persists.
+
+The two-part structure means students must get both parts right, which could increase the error rate. However, the left-to-right approach in P happens to be correct, so the item really hinges on whether students know to prioritize multiplication in Q.
+
+For calibration: the BIDMAS computation item was at 0.134 classical difficulty. This item asks about procedure rather than computation. I think difficulty will be moderate -- perhaps 0.30-0.40. The reason I'm going slightly higher than the calibration item is that the explicit "which first" framing may actually make the misconception more salient (students have to actively choose rather than just compute). Also option D could attract a meaningful number of students.
+
+Discrimination should be solid since this directly separates BIDMAS-understanding from non-understanding students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.35</classical_difficulty>
+<irt_difficulty>0.05</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

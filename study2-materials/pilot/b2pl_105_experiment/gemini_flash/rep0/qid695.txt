@@ -1,0 +1,14 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it looks simple, the structure is designed to catch students who work strictly from left to right.
+
+**Teacher's Analysis:**
+*   **The Trap:** Working left-to-right ($18 \div 2 = 9$; $9 + 2 = 11$; $11 \times 2 = 22$) leads to **Option C**. This is the most common error for students who haven't internalised that multiplication/division must happen before addition.
+*   **The Misconception (Addition before Multiplication):** Students who think addition comes before multiplication (perhaps misinterpreting the order of "A" and "M" in the acronym) might do ($18 \div (2+2) \times 2$), but the non-integer result usually stops them. However, some might calculate $(2+2)=4$, then $18 \div 4 \times 2 \rightarrow 4.5 \times 2 = 9$ (not an option) or $18 \div (4 \times 2)$ leading to $2.25$.
+*   **The "Grouped" Error:** Some students might calculate $18 \div (2 + 4)$ if they do the division last, leading to **Option A**.
+*   **Correct Path:** $18 \div 2 = 9$ and $2 \times 2 = 4$; then $9 + 4 = 13$ (**Option B**).
+
+The numbers here are small enough that calculation errors are rare; the primary discriminator is purely the order of operations.
+
+below_basic: A=15% B=25% C=50% D=10%
+basic: A=10% B=45% C=35% D=10%
+proficient: A=5% B=75% C=15% D=5%
+advanced: A=1% B=96% C=2% D=1%

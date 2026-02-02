@@ -1,0 +1,21 @@
+In the context of UK Year 9 Algebra (adding algebraic fractions), a common and persistent error is the **"Add-All-Across" Bug** (also known as "Linear Addition of Components").
+
+### 1. The specific misconception: **"The Universal Add-All Bug"**
+The student treats the fraction bar as a mere separator and applies the logic of whole-number addition to both the numerator and the denominator independently. They fail to recognise that a common denominator must be established before the numerators can be combined, incorrectly assuming that $a/b + c/d = (a+c)/(b+d)$.
+
+### 2. Step-by-step student logic:
+1.  **Look at the Numerators:** The student sees $3$ and $4$. They add them together: $3 + 4 = 7$.
+2.  **Look at the Denominators:** The student sees $2x$ and $x$. They treat these as terms to be added linearly: $2x + x = 3x$ (or occasionally $2x^2$, but $3x$ is more common for this specific error level).
+3.  **Combine:** The student places the sum of the numerators over the sum of the denominators to get $\frac{7}{3x}$.
+
+### 3. Which answer option this leads to:
+This misconception leads directly to **Option B: $\frac{7}{3x}$**.
+
+### 4. How natural/attractive is this error?
+This error is **highly attractive and "intuitive"** for several reasons:
+*   **Consistency with Multiplication:** Students have recently learned that when multiplying fractions, you *do* multiply straight across ($\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd}$). They incorrectly "generalise" this rule to addition.
+*   **Least Resistance:** It is the "laziest" mathematical path. It avoids the cognitively demanding steps of finding a Lowest Common Multiple (LCM) and scaling the second fraction ($4/x$ to $8/2x$).
+*   **The "Natural" Feel:** Because $3+4=7$ and $2x+x=3x$ are both "correct" independent arithmetic facts, the student feels a sense of completion and correctness. 
+
+**Would the student realise they were wrong?**
+Almost certainly **not**. Without the "anchor" of substituting a value for $x$ (e.g., let $x=1$ and see if $1.5 + 4$ equals $7/3$), the student has no internal feedback mechanism to flag that the logic is flawed. To a student with this misconception, the answer $\frac{11}{2x}$ (Option A) actually looks "messier" and less logical than the "clean" addition performed in Option B.

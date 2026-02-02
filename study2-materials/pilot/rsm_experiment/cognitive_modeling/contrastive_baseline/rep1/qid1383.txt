@@ -1,0 +1,22 @@
+This question tests two distinct areas: the ability to substitute a negative number into a power (the "negative base" trap) and the distinction between multiplication and exponentiation.
+
+The core challenge is whether students correctly handle $(-3)^4$. Students with lower arithmetic confidence often default to $k \times 4$, leading to options B and D. Students who understand powers but struggle with negative bases frequently assume that because the base is negative, the result must be negative (Option C), forgetting that an even exponent results in a positive product. Many students also rely on calculators; if they type $-3^4$ without brackets, the calculator will return $-81$, leading them directly to C.
+
+**Performance Prediction:**
+
+**below_basic: A=15% B=35% C=15% D=35%**
+*   At this level, students struggle to distinguish between $k^4$ and $4k$. The choice is often a guess between the "multiplication" answers, with $D$ being popular because of the negative sign in the question.
+
+**basic: A=30% B=10% C=45% D=15%**
+*   These students know that $3^4 = 81$, but the negative sign is a major distractor. Many will either apply the "negative stays negative" logic or be misled by an incorrect calculator input. 
+
+**proficient: A=65% B=5% C=25% D=5%**
+*   Most students at this level recognize that $k^4$ means $3 \times 3 \times 3 \times 3$. The main source of error is the sign. While they understand "even power = positive," a significant minority will still fall for the $-81$ trap, either through haste or lack of brackets on a calculator.
+
+**advanced: A=94% B=1% C=5% D=0%**
+*   Advanced students will identify this as a "trap" question immediately. The very small percentage choosing C represents rare lapses in concentration or "calculator blind faith."
+
+below_basic: A=15% B=35% C=15% D=35%
+basic: A=30% B=10% C=45% D=15%
+proficient: A=65% B=5% C=25% D=5%
+advanced: A=94% B=1% C=5% D=0%

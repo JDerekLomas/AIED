@@ -1,0 +1,13 @@
+This question tests the order of operations (BIDMAS/BODMAS) combined with directed number arithmetic. 
+
+The primary hurdle is the multiplication ($4 \times 2 = 8$) which must be done first, resulting in $3 - 5 + 8$. The secondary hurdle is the left-to-right processing of addition and subtraction. Many students mistakenly believe Addition comes before Subtraction because 'A' precedes 'S' in BIDMAS, leading them to do $5 + 8 = 13$ and then $3 - 13 = -10$ (Option D).
+
+- **Option A (6)** is the correct answer: $3 - 5 = -2$, then $-2 + 8 = 6$.
+- **Option B (4)** comes from a "left-to-right" error where the student ignores BIDMAS entirely: $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$.
+- **Option C (-12)** is a variation of poor negative number handling combined with the wrong order: $(3-5+4) \times 2 = 2 \times 2$, but using a sign error.
+- **Option D (-10)** is the classic BIDMAS trap: $3 - (5 + 8) = 3 - 13 = -10$.
+
+below_basic: A=30% B=30% C=15% D=25%
+basic: A=45% B=15% C=5% D=35%
+proficient: A=75% B=5% C=0% D=20%
+advanced: A=96% B=1% C=0% D=3%

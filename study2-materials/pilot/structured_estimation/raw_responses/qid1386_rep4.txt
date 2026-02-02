@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: 2/x + 3/x = ? Correct answer B: 5/x. Misconception: adding numerators and denominators.
+
+Starting from the student's perspective: a Year 8-9 student sees two fractions with x in the denominator. If they understand that same-denominator fractions are added by adding numerators only, they get 5/x immediately. One mental step.
+
+But "algebraic fractions" as a topic is typically taught later in the curriculum and many students find it intimidating. The variable in the denominator creates uncertainty. Some students may not even recognize this as "same denominator" addition because they're used to seeing numbers, not letters.
+
+Distractor plausibility assessment:
+- A (5x/x^2): Moderately plausible. A student who cross-multiplies gets here. It's correct but unsimplified - the "as simply as possible" instruction should guide away from this, but some students won't attend to that detail.
+- C (5/2x): Highly plausible for students with the tested misconception. Very natural error.
+- D (6/x^2): Less plausible - confusing addition with multiplication is a different, less common error in this context.
+
+Comparing with calibration examples: The easiest calibration item (solving -5=p+10, classical difficulty 0.167) required a single inverse operation. This item also requires essentially one step but involves fraction notation which is typically harder for students. The order of operations item (0.4 - 1/5 * 3, difficulty 0.134) was also easy despite seeming complex.
+
+I think this falls in the easy-to-moderate range. The single-step nature keeps it accessible, but algebraic fractions introduce enough novelty to trip up some students. I'll estimate classical difficulty around 0.28.
+
+IRT parameters: b around -0.1 (slightly easy), discrimination around 1.30 (decent - the item cleanly tests one concept), guessing low since the correct answer is the simplest-looking option.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

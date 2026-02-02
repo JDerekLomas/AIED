@@ -1,0 +1,39 @@
+<chain_of_thought>
+Target item: Add 3/5 + 2/7 in a visual pyramid context. Correct answer: 31/35 (B).
+
+I want to approach this from the perspective of what proportion of UK secondary students would get this wrong. Fraction addition with unlike denominators is introduced around Year 7 (age 11-12) and is a major topic. By Year 8-9, most students should be competent, but research shows fraction misconceptions are remarkably persistent.
+
+The "add numerators and denominators" misconception is tested here via option C (5/12). This is perhaps the most well-known fraction error. In Eedi's own data across their platform, fraction addition items tend to have moderate to high error rates.
+
+Let me think about the specific numbers. The denominators 5 and 7 are both prime, so the LCD is simply their product (35). This actually makes the problem slightly easier than cases where LCD is not the product (e.g., adding fractions with denominators 4 and 6 where LCD=12). Students can use the "butterfly method" or cross-multiplication shortcut: (3*7 + 2*5)/(5*7) = (21+10)/35 = 31/35.
+
+The fact that three options share denominator 35 is a subtle hint. A test-wise student might reason: "most answers have 35 as the denominator, so 5/12 is probably wrong." This could reduce the attractiveness of option C somewhat for older, more test-savvy students.
+
+But option D (5/35 = 1/7) is a trap for students who get the denominator right but add numerators naively: 3+2=5. And option A (11/35) catches arithmetic errors.
+
+Considering all this, I think the classical difficulty is moderate -- perhaps 0.38. The item should discriminate well. I'll set discrimination around 1.25. The guessing parameter should be near zero since students with misconceptions choose systematically rather than randomly.
+
+One more thought: the visual presentation (circles with arrows) adds minimal complexity but does require students to interpret the diagram correctly. The text states "the fractions in the two circles below add to give the fraction in the circle above," so it's quite explicit. This shouldn't add much difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.06</guessing_probability>
+</predictions>

@@ -1,0 +1,30 @@
+As a UK maths teacher, I frequently see these specific misconceptions when teaching BIDMAS (or BODMAS). This question specifically tests the nuance of left-to-right priority for operations of equal precedence (Addition and Subtraction) versus the priority of Multiplication over Addition.
+
+### Step 1 — Reasoning Analysis
+
+*   **A) Problem P: $4-5$; Problem Q: $4+5$**
+    **Reasoning:** The "Reading Direction" approach. The student believes you always work from left to right, regardless of the operators involved. They lack understanding of operator precedence (the 'M' before 'A' in BIDMAS).
+*   **B) Problem P: $4-5$; Problem Q: $5 \times 6$**
+    **Reasoning:** The Correct Mathematical Approach. In Problem P, Addition and Subtraction have equal priority, so we work left-to-right. In Problem Q, Multiplication takes precedence over Addition.
+*   **C) Problem P: $5+6$; Problem Q: $4+5$**
+    **Reasoning:** The "Inverted BIDMAS" approach. The student likely remembers the acronym BIDMAS/BODMAS and takes it literally, believing that 'A' (Addition) must *always* come before 'S' (Subtraction), while simultaneously applying the "left-to-right" error to Problem Q.
+*   **D) Problem P: $5+6$; Problem Q: $5 \times 6$**
+    **Reasoning:** The "Literal BIDMAS" approach. The student correctly identifies that Multiplication comes before Addition in Problem Q, but falls into the common trap in Problem P: they believe Addition must be performed before Subtraction because 'A' precedes 'S' in the acronym, failing to realize they are equal-priority operations.
+
+---
+
+### Step 2 — Predicted Distributions
+
+In the UK curriculum, "Below Basic" usually refers to students working significantly below age-related expectations (KS2 level), "Basic" refers to a standard pass (Grade 4), "Proficient" refers to a strong pass (Grade 6/7), and "Advanced" refers to top-tier students (Grade 8/9).
+
+**below_basic: A=50% B=10% C=20% D=20%**
+*At this level, left-to-right processing (Option A) is the dominant strategy. Some may have a vague memory of the BIDMAS acronym, leading them to C or D.*
+
+**basic: A=20% B=30% C=10% D=40%**
+*Students here usually know that Multiplication comes before Addition. However, the "Literal BIDMAS" trap (performing Addition before Subtraction in Problem P) is at its peak here, making D a very common "distractor" for students who think they know the rule.*
+
+**proficient: A=5% B=65% C=5% D=25%**
+*Most proficient students have mastered the Multiplication priority. The remaining hurdle is the A/S tie-break in Problem P. Many still succumb to the literal interpretation of the acronym (Option D).*
+
+**advanced: A=1% B=94% C=0% D=5%**
+*Advanced students recognize that Addition and Subtraction are inverse operations with equal priority and will correctly work left-to-right in Problem P. Only a few might make a lapse in concentration regarding the BIDMAS priority.*

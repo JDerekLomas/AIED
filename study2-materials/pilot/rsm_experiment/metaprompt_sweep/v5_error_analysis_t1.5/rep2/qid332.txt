@@ -1,0 +1,16 @@
+To predict these results, I’ve looked at the common misconceptions surrounding the **order of operations in reverse** (SAMDEB) when solving linear equations.
+
+**The "Tom" Logic (+5 to both sides):** This is the standard "first step" taught in UK classrooms. It feels safe and is rarely messed up by students who have a basic grasp of balancing equations.
+
+**The "Katie" Logic (×3 to both sides):** This is the classic "partial multiplication" trap. Students often forget that if they multiply by the denominator, they must multiply **every term** on both sides. Katie has failed to multiply the $-5$ by $3$. This is an incredibly common error, even for mid-ability students who are rushing.
+
+**Distribution of answers:**
+*   **Below Basic:** Often guess or see two "mathsy" statements and assume both must be valid ways of starting.
+*   **Basic:** Have been drilled to "add the constant first." They see Tom is right but aren't confident enough to spot the specific distributive error in Katie’s multiplication, often leading them to choose A.
+*   **Proficient:** These students are the most likely to fall for the "Katie trap." They know they *can* multiply first, but they lack the rigour to realise that $3(x/3 - 5)$ must become $x - 15$. They see $x-5=36$ and think "Yes, $3 \times 12$ is $36$ and the $3$s cancel," making C a very high-frequency wrong answer.
+*   **Advanced:** These students recognise that Katie’s line should be $x-15=36$. They will correctly identify that only Tom is right.
+
+below_basic: A=30% B=15% C=45% D=10%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=55% B=5% C=38% D=2%
+advanced: A=92% B=1% C=6% D=1%

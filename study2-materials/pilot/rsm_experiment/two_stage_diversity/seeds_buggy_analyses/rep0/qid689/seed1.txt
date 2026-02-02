@@ -1,0 +1,27 @@
+As an expert in mathematical misconceptions, I have identified a prevalent issue for UK Year 9 students when dealing with equations where the unknown is the **denominator**.
+
+### 1. The Misconception: "Operation Inversion Priority" (The Division Swap)
+The specific bug is the **Commutative Property Error for Division**. In the student’s mind, division is incorrectly treated as commutative (like addition or multiplication), or they follow a rigid procedural rule that "to solve, you must move the numbers to one side using the opposite operation," without respecting the position of the variable. 
+
+They incorrectly simplify the structure $\text{Result} = \frac{\text{Numerator}}{\text{Unknown}}$ as being equivalent to $\text{Unknown} = \text{Result} \times \text{Numerator}$.
+
+### 2. The Step-by-Step Error
+A student with this misconception would work through the problem as follows:
+
+1.  **Identify the goal:** The student knows they need to "get $p$ on its own."
+2.  **Observe the operations:** They see a $10$, a $5$, and a division sign.
+3.  **Apply "Change the Side, Change the Sign":** They see the number $5$ is currently involved in a division. They believe that to move the $5$ away from the $p$, they must perform the inverse operation (multiplication) on the other side.
+4.  **Execute the calculation:** They perform $10 \times 5 = 50$.
+5.  **State the result:** They conclude that $p = 50$.
+
+*Crucially, they ignore the fact that $p$ is the divisor, not the dividend.*
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Answer B ($p=50$)**.
+
+### 4. Attractiveness of the Error
+This error is **highly natural and extremely attractive** to a Year 9 student for several reasons:
+
+*   **Fluency Traps:** Students are taught that "multiplication and division are opposites." Since the problem contains a division bar, their "autopilot" instinct is to multiply the two visible constants.
+*   **Aversion to Fractions:** If a student were to solve this correctly (multiplying by $p$ first), they would get $10p = 5$, then $p = 5/10$. This involves a result less than 1 ($0.5$). Many students still possess a "division makes things smaller" bias and find an answer like $50$ more "mathematically comfortable" than a decimal.
+*   **Lack of Verification:** The student is unlikely to realize they went wrong. If they were to substitute $50$ back into the original equation, they would get $10 = 5 \div 50$, which is $10 = 0.1$. However, because they are focused on the *process* of moving numbers rather than the *balance* of the equation, they rarely perform this check. To them, the "rule" was followed, so the answer must be correct.

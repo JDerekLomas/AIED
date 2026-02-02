@@ -1,0 +1,44 @@
+<chain_of_thought>
+Target item analysis: The question presents a visual of equation-solving steps where x - 7 = ... becomes x = ..., and asks what operation (marked with a star) was applied to both sides. Answer: +7 (option A).
+
+This tests the "uses same operation rather than inverse" misconception, which appears in three of the five calibration items at varying difficulty levels.
+
+Let me think about what makes this item distinctive. Unlike the calibration items that require students to actually solve equations, this item asks students to identify the operation used in someone else's working. This is a metacognitive task -- reasoning about the process rather than executing it. Some research suggests that metacognitive tasks can sometimes be harder than procedural ones because students can solve equations mechanically without being able to articulate what they're doing. However, in this case the answer choices make the task quite concrete.
+
+The visual component: students need to parse a diagram showing two lines of working with an arrow and star. This is a common UK maths teaching representation but still adds a layer of interpretation. Some students might be confused by the format even if they understand inverse operations.
+
+Now, the misconception trap: option D (-7) will catch students who think you "do the same thing" to both sides in the literal sense of repeating the operation shown. This is a persistent misconception particularly for younger students (Year 7-8).
+
+Comparing with calibration items sharing this misconception:
+- Calibration 1: b = -0.702 (requires solving, single step)
+- Calibration 3: b = 0.002 (function machines, more complex visual)
+- Calibration 5: b = 0.808 (inequality, multiple steps)
+
+This target item is conceptually simpler than all three but has an unusual presentation format. I'd place it between calibration 1 and 3 in difficulty, maybe around b = -0.5 to -0.8.
+
+One consideration: the proportion of students who might randomly guess correctly is relatively high because options B and C are implausible, effectively making this a binary choice for many students. This could lead to a non-trivial guessing parameter or at least inflate the proportion correct.
+
+My estimates: classical difficulty 0.14, IRT b = -0.75, discrimination around 1.30, low guessing parameter since even the effective two-choice nature comes from understanding (eliminating B and C requires some knowledge).
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.14</classical_difficulty>
+<irt_difficulty>-0.75</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

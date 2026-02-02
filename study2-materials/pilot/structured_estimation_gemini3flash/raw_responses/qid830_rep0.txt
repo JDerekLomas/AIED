@@ -1,0 +1,37 @@
+<chain_of_thought>
+The target item asks students to find a $y$ value given an $x$ value ($0.3$) for the linear equation $2x + 3y = 12$.
+1. Substitution: $2(0.3) + 3y = 12 \rightarrow 0.6 + 3y = 12$.
+2. Rearranging: $3y = 12 - 0.6 \rightarrow 3y = 11.4$.
+3. Division: $y = 11.4 / 3 = 3.8$.
+
+Analysis of Distractors:
+- D (3.8) is correct.
+- A (4.1): $12 + 0.3 = 12.3$, then $12.3 / 3 = 4.1$. This matches the "uses same operation instead of inverse" (adding $0.3$ or $2x$ instead of subtracting).
+- B (3.9): $12 - 0.3 = 11.7$, then $11.7 / 3 = 3.9$. This involves a common error of not multiplying $x$ by its coefficient ($2$) before subtracting.
+- C (4.2): $12 + 0.6 = 12.6$, then $12.6 / 3 = 4.2$. This uses the same operation (addition) instead of subtraction for the $2x$ term.
+
+Psychometric considerations:
+This item involves decimals ($0.3$), which significantly increases the difficulty for the 11-16 age group compared to integer-based linear equations. The misconception "uses same operation" is specifically targeted by options A and C. Compared to the calibration items, this requires multiple steps (substitution, subtraction, division) and handling decimals. It is likely more difficult than the simple equation in Calibration 1 but perhaps more straightforward in structure than Calibration 5. The discrimination is likely high because multiple common errors lead to the distractors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.45</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

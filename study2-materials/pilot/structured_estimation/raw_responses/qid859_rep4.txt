@@ -1,0 +1,42 @@
+<chain_of_thought>
+Equation: 12d - 3 = 6d + 3. Correct answer: d = 1 (B).
+
+I want to approach this from a student-centered perspective. What would a Year 9 student experience when encountering this item?
+
+First, they see variables on both sides - this is a signal that collection of like terms across the equation is needed. The larger coefficients (12d, 6d) look more intimidating than simple equations like p + 10 = -5, but the arithmetic is actually straightforward once the right steps are taken.
+
+The three-step solution (subtract 6d, add 3, divide by 6) requires sustained procedural execution. Each step is an opportunity for error. The misconception of using the same operation rather than the inverse is particularly insidious here because a student might remember "do something with the 6d" but apply addition instead of subtraction.
+
+Let me trace each distractor path:
+- d = 1/3 (D): Add 6d instead of subtracting -> 18d - 3 = 3 -> 18d = 6 -> d = 1/3. This is the misconception-aligned error.
+- d = 0 (A): Perhaps from 12d - 6d = 6d and then confusing 6d - 3 = 6d + 3 as impossible, defaulting to 0? Or from some other conceptual breakdown.
+- d = -1 (C): Could come from a sign error: if student gets 6d = -6 somehow, then d = -1.
+
+I think this item is moderately difficult. Comparing across the calibration set, I note that items testing this same misconception range widely: b = -0.702 (easy), b = 0.002 (medium), b = 0.808 (hard). The difficulty scales with the complexity of the equation format. Variables on both sides with 3 steps puts this in the middle-to-upper range.
+
+I'll estimate classical difficulty around 0.45 - nearly half of students getting it wrong. This might seem high, but variables-on-both-sides is genuinely challenging for the target age range, and the d=1/3 distractor is compelling. IRT difficulty around 0.40.
+
+For discrimination, I expect moderate values. The item tests a specific skill cleanly. The guessing parameter should be low - the distractors are all plausible enough that random guessing is unlikely to land on the correct answer at rates above chance.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

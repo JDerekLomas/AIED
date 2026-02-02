@@ -1,0 +1,85 @@
+<chain_of_thought>
+The student needs to apply the distributive property (or FOIL method) to multiply two binomials. This involves several steps:
+1.  Identify the terms in each binomial.
+2.  Multiply the first term of the first binomial by each term of the second binomial.
+3.  Multiply the second term of the first binomial by each term of the second binomial.
+4.  Combine like terms.
+
+Let's break down the expected solution for `(3a – 2b)` and `(2a + 3b)`:
+Step 1: `3a * 2a = 6a²`
+Step 2: `3a * 3b = 9ab`
+Step 3: `-2b * 2a = -4ab`
+Step 4: `-2b * 3b = -6b²`
+Step 5: Combine `9ab` and `-4ab` to get `5ab`.
+Final Answer: `6a² + 5ab - 6b²`
+
+The rubric states: "Shows correct expansion of the product, e.g., 3a(2a+3b) - 2b(2a+3b) or 6a² + 9ab - 4ab - 6b²."
+This means the student needs to show the intermediate steps of distribution, not just the final answer. This is a crucial detail. If only the final answer was required, the difficulty might be slightly different. The rubric specifically asks for "correct expansion of the product," meaning the intermediate distributed form is sufficient for full marks, even if the like terms aren't combined. However, the examples provided (`6a² + 9ab - 4ab - 6b²`) imply that the terms should at least be multiplied out before combining.
+
+Comparing to calibration items:
+-   **Math (Probability)**: `classical_difficulty = 0.468`, `mean_score_proportion = 0.532`. This was a relatively easy math problem requiring understanding of basic probability. The current item involves more steps and algebraic manipulation.
+-   **English (Verb phrase)**: `classical_difficulty = 0.808`, `mean_score_proportion = 0.192`. This was a recall/identification task.
+-   **Social Science (Healthcare)**: `classical_difficulty = 0.881`, `mean_score_proportion = 0.119`. This required analytical thinking and examples.
+
+The current item is a standard algebraic procedure for Grade 8. Students are expected to have learned about binomial multiplication and the distributive property.
+Common errors could include:
+    -   Incorrectly applying signs (e.g., -2b * 3b = +6b² instead of -6b²)
+    -   Errors in multiplying coefficients (e.g., 3a * 2a = 5a² instead of 6a²)
+    -   Errors in combining like terms (e.g., 9ab - 4ab = 13ab or 5a²b²).
+    -   Failure to show the expansion as required by the rubric, providing only the final answer.
+    -   Confusing addition/subtraction with multiplication rules for exponents.
+
+The rubric is quite specific, asking for "correct expansion," and provides examples of the intermediate steps. This indicates that the process is as important as the final answer. A student who only writes the final answer might not get full marks, depending on strict rubric application. Given the "Max score: 1" and the rubric example, showing the expanded form (e.g., `6a² + 9ab - 4ab - 6b²`) is likely enough.
+
+**Ratings Analysis:**
+*   **concept_complexity**: Involves distributive property, multiplication of monomials, and combining like terms. Moderate complexity for Grade 8. (6/10)
+*   **procedural_steps**: Multiple steps: distribute first term, distribute second term, then combine. (7/10)
+*   **abstraction_level**: It's an application of a learned procedure, not deep abstract reasoning, but requires applying rules to symbolic variables. (5/10)
+*   **prerequisite_knowledge**: Requires knowledge of algebraic terms, variables, exponents, distributive property, and integer multiplication/addition/subtraction. (7/10)
+*   **rubric_specificity**: The rubric is quite specific by providing examples of acceptable intermediate steps. It's not just "get the right answer." (8/10)
+*   **common_error_likelihood**: High due to multiple steps, sign errors, coefficient errors, and exponent errors, plus the potential for not showing the required expansion. (8/10)
+*   **question_clarity**: The question "Find the product of the binomials" is very clear. (9/10)
+*   **cognitive_load**: Keeping track of terms, signs, and variables across multiple multiplications and then combining like terms can be demanding for working memory. (7/10)
+*   **age_appropriateness**: This is a core topic in Grade 8 Algebra. (9/10)
+*   **transfer_distance**: This is a very standard problem type; not much transfer is needed from typical textbook examples. (3/10)
+*   **language_demand**: Minimal, just understanding "product" and "binomials." (2/10)
+*   **response_precision**: Students must correctly show the algebraic expansion, with precise coefficients, variables, and signs. (9/10)
+
+**Predictions:**
+The item is a procedural math problem with multiple steps and a high likelihood of small errors. The rubric requires showing the expansion, which might trip up students who just jump to the final answer or make a mistake in an intermediate step. Compared to the probability question (CD 0.468), this is likely harder because it requires more sustained algebraic manipulation rather than just setting up a ratio. Compared to the SS and English items, this is a math procedural item, usually with a lower classical difficulty than open-ended analysis questions for humanities, but higher than simple identification.
+
+The Math probability question (CD 0.468, MSP 0.532) was a single calculation. This item has several calculations and combining steps. The probability of error is higher.
+The English verb phrase (CD 0.808, MSP 0.192) was very specific identification.
+The Social Science local governance (CD 0.653, MSP 0.347) was open-ended but required a plausible suggestion.
+
+This item is a standard but multi-step algebraic problem. Errors with signs and combining like terms are common. The requirement to show "expansion" adds a layer of precision needed. I anticipate it will be harder than the probability question but easier than the English identification or SS analytical questions.
+
+Let's estimate the proportion of students who might get this completely wrong (score 0). Many students struggle with algebraic manipulation.
+If about 50% got the probability question right, this one, with more steps and common pitfalls, would likely have a lower success rate.
+I'd place it somewhere between the probability question (0.468) and the Social Science governance question (0.653). Perhaps slightly harder than the midpoint. A difficulty around 0.55-0.65 seems reasonable.
+Let's go with 0.60 for classical difficulty. This means 40% will get some score (which for max score 1, means they get 1).
+Mean score proportion will be 1 - classical difficulty, so 0.40.
+
+Item-total correlation: For a multi-step math problem that tests a core skill, it should differentiate well between students who grasp algebra and those who don't. The Math probability question had 0.576. The SS governance question had 0.642. This item tests a fundamental algebraic skill and requires careful execution, so it should correlate well with overall math ability. I'd expect it to be in the higher range, similar to the probability question or even slightly higher given its procedural nature. 0.55-0.65 seems appropriate. Let's aim for 0.60.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>7</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<rubric_specificity>8</rubric_specificity>
+<common_error_likelihood>8</common_error_likelihood>
+<question_clarity>9</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<language_demand>2</language_demand>
+<response_precision>9</response_precision>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.62</classical_difficulty>
+<mean_score_proportion>0.38</mean_score_proportion>
+<item_total_correlation>0.60</item_total_correlation>
+</predictions>

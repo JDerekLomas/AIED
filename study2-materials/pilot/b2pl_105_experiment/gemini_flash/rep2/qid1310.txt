@@ -1,0 +1,15 @@
+This question tests a student's understanding of the order of operations (BIDMAS/BODMAS), specifically nested brackets. 
+
+The inner-most bracket $(0.2 + 0.4)$ must be performed first. While the presence of decimals can sometimes intimidate lower-ability students, the conceptual hurdle here is purely structural.
+
+**Analysis of distractions:**
+*   **A ($0.5 \div 0.2$):** This is a classic "left-to-right" error. Students see the division first within the outer bracket and ignore the nested inner bracket.
+*   **C ($0.4 - 0.3$):** This catches students who ignore brackets entirely and simply scan the numbers for a familiar operation, or those who mistake $(0.2 + 0.4) - 0.3$ for a sequence where the decimal alignment ($0.4 - 0.3$) looks "easy."
+*   **D ($0.3 \times 0.6$):** This is for students who work right-to-left or mistakenly think multiplication always comes before subtraction regardless of brackets.
+
+Lower-ability students (Below Basic/Basic) are highly likely to struggle with the "brackets within brackets" rule and often fall for Option A because they try to start at the beginning of the expression. Proficient and Advanced students in the UK curriculum are generally well-drilled in BIDMAS and will recognise the "innermost brackets first" rule quickly, though the decimal notation may cause a split-second hesitation.
+
+below_basic: A=35% B=40% C=15% D=10%
+basic: A=20% B=65% C=10% D=5%
+proficient: A=5% B=92% C=2% D=1%
+advanced: A=1% B=98% C=1% D=0%

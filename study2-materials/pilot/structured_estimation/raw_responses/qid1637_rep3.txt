@@ -1,0 +1,43 @@
+<chain_of_thought>
+The item presents a compound inequality -3 < 2x + 1 < 7 and asks for the solution.
+
+To solve: subtract 1 from all three parts (-4 < 2x < 6), then divide by 2 (-2 < x < 3). This gives answer A.
+
+Let me think about what makes this item challenging from a student perspective. The compound inequality notation itself can be unfamiliar -- many students first encounter inequalities as single comparisons. Seeing a "sandwich" inequality requires understanding that the variable expression is bounded on both sides and that any operation must be applied uniformly to all three parts.
+
+The misconception tested is applying the same operation instead of the inverse. In practice, I find this misconception is very persistent, especially when students are first learning equation solving. However, by the time students encounter compound inequalities (typically Year 10-11), many have overcome this basic misconception for simple cases. The compound format might reintroduce errors though, as students are managing more cognitive load.
+
+Distractor analysis:
+- A: -2 < x < 3 (correct)
+- B: -1 < x < 3 -- error on the left bound only. Could come from adding 1 to -3 (getting -2) then dividing by 2 (getting -1). This fits the tested misconception partially.
+- C: -0.5 < x < 2.5 -- this is puzzling. Maybe from (-3+1)/4 = -0.5 and (7-1)/... hmm, (7+1)/... no. Actually if someone divided first: -3/2 < x + 1/2 < 7/2, giving -1.5 < x + 0.5 < 3.5, then -2 < x < 3. That gives the right answer. Maybe C comes from -3/2 = -1.5 then -1.5+1 = -0.5, and 7/2 = 3.5 then 3.5-1 = 2.5? That's doing operations in wrong order.
+- D: -5 < x < 15 -- likely from multiplying by 2 instead of dividing. -3+1=-2... no. Or (-3-2) = -5, (7+2)*... hmm. Maybe (-3)*2+1 = -5, (7)*2+1 = 15. That's applying the operations forward instead of inverse.
+
+D is actually quite plausible for the stated misconception -- applying the original operations (multiply by 2, add 1) forward to the bounds. That's a strong distractor for weaker students.
+
+Given the calibration set, comparing to item 5 (single inequality, b=0.808, classical=0.569): compound inequalities are typically taught at a similar or slightly later stage. The procedural demands are similar. I think this is comparable in difficulty, perhaps slightly easier because the operations are simpler (no collecting like terms). I'll estimate classical difficulty around 0.48 and b around 0.50.
+
+Discrimination should be moderate -- the item cleanly separates those who can apply inverse operations in compound inequalities from those who cannot. I estimate a around 1.20.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.14</guessing_probability>
+</predictions>

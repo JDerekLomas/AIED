@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing: "A line has equation 4x + 3y = 5. What is its gradient?"
+
+The solution requires converting from general form to slope-intercept form. Steps: subtract 4x from both sides to get 3y = -4x + 5, then divide by 3 to get y = (-4/3)x + 5/3. The gradient is the coefficient of x, which is -4/3.
+
+Key considerations for difficulty estimation:
+
+1. Topic intersection: This sits at the intersection of algebra (equation rearrangement) and coordinate geometry (understanding gradient). Students need to know that gradient = m in y = mx + c AND be able to rearrange correctly. This dual requirement increases difficulty.
+
+2. The fraction in the answer is significant. Many students at KS3/KS4 are uncomfortable with fractional gradients and may second-guess themselves even if they rearrange correctly. This could push some students toward -4 (option A) as a "cleaner" answer.
+
+3. The negative sign is another hurdle. Students must track the sign change when moving 4x across the equals sign. The tested misconception directly targets this.
+
+4. Looking at the calibration set, items testing "uses same operation rather than inverse" range from easy (b=-0.702) to hard (b=0.808). The easier ones involve simpler equations; the harder ones involve more steps or concepts. This item has moderate complexity -- harder than p+10=-5 but perhaps comparable to the inequality.
+
+5. However, the inequality item also required understanding of inequality notation and had more algebraic complexity. This gradient item is conceptually challenging but procedurally moderate.
+
+I'll estimate classical difficulty around 0.52 (slightly more than half get it wrong), b around 0.50. The distractors are systematically constructed to capture specific errors, which should yield decent discrimination. The guessing parameter should be low since students with partial knowledge will systematically choose a specific wrong answer rather than guess.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.52</classical_difficulty>
+<irt_difficulty>0.50</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

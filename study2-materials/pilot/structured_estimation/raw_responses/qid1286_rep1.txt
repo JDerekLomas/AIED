@@ -1,0 +1,41 @@
+<chain_of_thought>
+Analyzing this item: students must isolate r from V = (4/3)pi*r^3.
+
+The solution steps are:
+- Multiply both sides by 3: 3V = 4pi*r^3
+- Divide both sides by 4pi: 3V/(4pi) = r^3
+- Take the cube root: r = cube_root(3V/(4pi))
+
+This is option C. The key challenge here is that students must execute multiple inverse operations in the correct order on a formula they may or may not have memorized. The notation is dense -- all four options involve cube roots with fractions containing V, pi, and numerical constants, making it hard to distinguish correct from incorrect by inspection alone.
+
+Looking at the distractor analysis more carefully:
+- Option A has 4Vpi/3 under the cube root. This could arise from a student who starts with V = (4/3)pi*r^3 and somehow moves (4/3)pi to the other side without inverting, getting Vx(4pi/3) instead of Vx(3/(4pi)).
+- Option B has 4V/(3pi). This swaps the positions of 3 and 4 compared to the correct answer -- a very tempting error if students partially remember the rearrangement.
+- Option D takes the cube root only of V, not the entire fraction. This is a common algebraic error.
+
+For difficulty estimation: The sphere volume formula is higher GCSE content. Rearranging it requires confident algebraic manipulation skills. The symbolic nature (no numbers to substitute) makes it purely abstract. I'd compare this to the factorising item (0.473 difficulty, b=0.404) but judge it substantially harder due to the formula complexity and abstraction.
+
+I think about 65-70% of the target population would get this wrong. The discrimination might be moderate -- students who can do this are strong, but there could be some successful guessing among the options since they all look similar. The guessing parameter should be notable given four similar-looking options where elimination is difficult.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>9</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>8</cognitive_load>
+<age_appropriateness>5</age_appropriateness>
+<transfer_distance>6</transfer_distance>
+<visual_complexity>8</visual_complexity>
+<solution_uniqueness>9</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.68</classical_difficulty>
+<irt_difficulty>1.15</irt_difficulty>
+<irt_discrimination>1.05</irt_discrimination>
+<guessing_probability>0.22</guessing_probability>
+</predictions>

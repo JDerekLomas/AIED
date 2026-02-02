@@ -1,0 +1,17 @@
+In this question, we are testing BIDMAS/BODMAS. The key elements are a subtraction, a division, and an index (power).
+
+**Teacher Analysis:**
+- **The "Left-to-Right" Trap:** This is the most common error in order of operations. Students who read the calculation like a sentence will jump to the subtraction ($8-7$) first. Option C is the primary distractor for lower-ability students.
+- **Indices (Powers):** Many "basic" level students are taught "Brackets, Orders/Indices, Division..." but they often forget that "Orders" come before Division. However, because $6^3$ is written in a distinct superscript format, it visually stands out as a "unit" that needs solving before it can be used in a division, which actually pushes some students toward the correct answer by intuition rather than formal rule-following.
+- **The Calculation Difficulty:** Since students aren't asked for the final value (which would be a messy fraction/decimal), the "fear factor" of the numbers is removed. This makes it a pure test of the rules.
+
+**Predicted Performance:**
+- **Below Basic:** These students almost exclusively follow a left-to-right path. Option C will be very popular. Some may guess D if they are overwhelmed.
+- **Basic:** They have heard of BODMAS but often prioritize "Division" as the first letter they recognize. Many will correctly identify that indices come first, but a significant portion will still fall for the left-to-right subtraction or jump to the division.
+- **Proficient:** These students generally know the hierarchy. They will correctly identify that "I" (Indices) or "O" (Orders) precedes "D" and "S". 
+- **Advanced:** These students will find this trivial and will almost all select A.
+
+below_basic: A=25% B=15% C=50% D=10%
+basic: A=55% B=15% C=25% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

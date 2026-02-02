@@ -1,0 +1,14 @@
+This question tests two distinct areas of potential error: index notation (multiplication vs. repeated addition) and the treatment of negative signs when raising a base to an even power.
+
+For students at the **below_basic** level, the primary trap is multiplying the base by the index ($3 \times 4 = 12$). Many will ignore the negative sign entirely or assume it carries through regardless of the power.
+
+At the **basic** level, students generally understand that $k^4$ means $k \times k \times k \times k$, but the "even power rule" is often misapplied. Many students correctly calculate $|3^4| = 81$, but they firmly believe that if the input is negative, the output must be negative (choosing C).
+
+At the **proficient** level, students are more familiar with the rule that an even number of negatives creates a positive. However, a significant minority will still be tripped up by the way they use their calculators; entering $-3^4$ into a standard scientific calculator yields $-81$ (due to the order of operations applying the index before the negation), which reinforces the misconception in Option C.
+
+**Advanced** students will recognise the substitution as $T = (-3)^4$ and correctly identify that the result must be positive.
+
+below_basic: A=20% B=40% C=15% D=25%
+basic: A=45% B=10% C=35% D=10%
+proficient: A=70% B=5% C=22% D=3%
+advanced: A=96% B=1% C=3% D=0%

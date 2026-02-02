@@ -1,0 +1,20 @@
+One specific reason why students might find this question difficult is a **"variable positional trap"** occurring during the substitution and rearrangement step, specifically leading to **Choice C (3.3)**.
+
+### The Specific Difficulty: "Operational Transference"
+Many students are conditioned to solve linear equations of the form $y = mx + c$, where the variable being solved for is isolated and positive. In this specific equation ($10x - 6y = 30$), substituting $y = 0.5$ creates a subtraction term: $10x - 3 = 30$.
+
+The specific error occurs when students mentally "move" the constant term to the other side but fail to inverse the operation correctly because of the structure of the equation. A student may:
+1.  Substitute correctly: $10x - 6(0.5) = 30 \Rightarrow 10x - 3 = 30$.
+2.  Perform a **subtraction instead of an addition**: They see the "$-3$" but, perhaps influenced by the "$10x$" being positive or a desire to "reduce" the $30$ toward the smaller coefficients, they calculate $30 - 3 = 27$ rather than $30 + 3 = 33$.
+3.  When they divide $27$ by $10$, they arrive at **2.7 (Choice D)**.
+
+### Alternatively: The "Variable Switch" Trap
+Because many table-of-value tasks provide the $x$-value and ask for $y$, students frequently demonstrate **substitution reflex**. They may mistakenly substitute $0.5$ for $x$ instead of $y$:
+*   $10(0.5) - 6y = 30$
+*   $5 - 6y = 30$
+*   $-6y = 25$
+*   $y = -4.166...$
+
+When this doesn't match an answer exactly, a student experiencing cognitive load may "force" the numbers to work by ignoring the negative sign or rounding prematurely. 
+
+However, **Choice C (3.3)** is the most dangerous distractor because it identifies the student who correctly handles the negative coefficient's product ($-3$) and the inverse operation ($+3$), whereas **Choice D** captures the student who completes the substitution but fails the integer arithmetic (the subtraction error).

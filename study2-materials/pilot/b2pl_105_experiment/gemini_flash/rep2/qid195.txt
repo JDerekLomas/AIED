@@ -1,0 +1,13 @@
+To predict the performance on this question, we must consider the multi-step nature of the equation and the common errors in manipulating fractions.
+
+1.  **Option D (Correct):** Multiplying by 2 gives $t - 3 = 1/4$, then adding 3 gives $3 \frac{1}{4}$.
+2.  **Option A (Common Trap):** Students often multiply by the denominator of the *other* side first. If they calculate $2 \times 8 = 16$ or accidentally multiply the LHS by 8 but leave the $t-3$ unmultiplied, they end up with $t = 6.25$. More commonly, students "cross-multiply" incorrectly as $(t-3) = 2 \times 8$, leading to $t - 3 = 16 \rightarrow t = 19$, but here it manifests as an error in scale.
+3.  **Option B (Calculation/Method Error):** Students often subtract the denominator ($3-2=1$) or get confused with reciprocals ($1/8$ becomes 8, then $8 \times 2 - 3$ or similar).
+4.  **Option C (Conceptual Error):** Students multiply both sides by $1/8$ or perform $2 \times 8 = 16$, leading to $t - 3 = 1/16$, then $t = 3 \frac{1}{16}$. This is a very common "low-ability" error where students see numbers and combine them without inverse operation logic.
+
+**Difficulty Analysis:** The inclusion of fractions on both sides makes this significantly harder than integer equations for basic/below-basic students. Proficient students might still slip on Option C by over-complicating the fraction arithmetic.
+
+below_basic: A=20% B=30% C=35% D=15%
+basic: A=20% B=15% C=25% D=40%
+proficient: A=10% B=5% C=10% D=75%
+advanced: A=2% B=1% C=2% D=95%

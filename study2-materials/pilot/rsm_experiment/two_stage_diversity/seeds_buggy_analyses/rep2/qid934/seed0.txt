@@ -1,0 +1,29 @@
+Here is an analysis of a specific mathematical misconception for this question.
+
+### 1. The Misconception: "Variable Confusion" (specifically, $x$ and $y$ Swapping)
+The most common procedural bug for this specific question is the **Substitution Variable Swap**. The student correctly identifies that a number from the table must be plugged into the equation, but they substitute the value given for $x$ into the $y$ variable instead, or they mistakenly look at the next column along (where $x=1$ or $x=2$) rather than $x=0$.
+
+However, in this specific multiple-choice layout, the most prominent bug is **Misinterpretation of the Equation Structure**—specifically, treating the coefficients as part of a single operation or confusing the constant term with the $y$-intercept.
+
+### 2. Step-by-Step Student Logic (The "Constant Term" Error)
+A Year 9 student often struggles with equations where $y$ is not the subject ($y = mx + c$). Here is how they reach **Option C**:
+
+*   **Step 1:** The student looks at the table and identifies that they need the value of $y$ when $x = 0$.
+*   **Step 2:** They remember a "rule" that when $x$ is 0, the answer is just the "number at the end" of the equation (the $y$-intercept rule for $y = mx + c$).
+*   **Step 3:** They look at $4x + 2y = 10$. Without rearranging the equation into gradient-intercept form, they see the constant **$10$** and the coefficient of $y$, which is **$2$**.
+*   **Step 4:** Their brain performs a "halving" operation because they see the $2y$, or they simply assume the $y$ value is half of the total constant when the $x$ term "disappears."
+*   **Step 5:** Calculation: $10 \div 2 = 5$. 
+
+### 3. Answer Choice
+This misconception leads directly to **Option C (5)**.
+
+*(Note: The correct answer is also 5, as $4(0) + 2y = 10 \rightarrow 2y = 10 \rightarrow y = 5$. This makes Option C a "distractor" that can be reached via a lucky shortcut/flawed logic even if the student doesn't understand formal substitution.)*
+
+**Alternatively, if the student applies the "Coefficient Addition" bug:**
+*   They see $4$ and $10$. They assume because $x=0$, they should subtract 0 from the total? No. They look at the 4 and 10 and think $10 \div 4 = 2.5$ (**Option D**), assuming the coefficient of $x$ is the divisor.
+*   If the student **multiplies** all visible numbers: $4 \times 5 = 20$ (**Option A**).
+
+### 4. Attractiveness of the Error
+This error is **highly natural and dangerous** because, in this specific case, the "buggy" shortcut (ignoring the $4x$ and dividing the constant by the $y$-coefficient) actually yields the correct mathematical result.
+
+The student would **not realize they went wrong**. In fact, it would reinforce their misconception. They would believe that "to find the star, I just divide the big number by the number in front of $y$." This would lead to a total failure in the next column ($x=1$), where $4(1) + 2y = 10$ requires subtracting the $x$-component first. The student would likely repeat the error of dividing 10 by 2, getting 5 again, and conclude the line is horizontal ($y=5$ for all values).

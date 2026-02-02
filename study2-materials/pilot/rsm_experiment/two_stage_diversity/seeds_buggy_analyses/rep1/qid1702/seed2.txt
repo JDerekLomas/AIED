@@ -1,0 +1,36 @@
+Here is the analysis of the mathematical misconception for this question.
+
+### 1. The Bug: The "Term-Reversal Displacement" (Variable Confusion)
+The most common procedural bug for a Year 9 student here is **Variable Assignment Swapping**. Instead of substituting the given value for $y$, the student incorrectly substitutes it for $x$ and solves for the empty box. This happens because students are accustomed to "filling in the table" where $x$ is the input (independent variable) and $y$ is the output (dependent variable).
+
+### 2. Step-by-Step Procedure
+A student with this misconception would work through the problem as follows:
+
+1.  **Identify the value:** See $0.5$ in the table. 
+2.  **Incorrect Mapping:** Assume that because $x$ usually "comes first" or is the input, $x = 0.5$.
+3.  **Substitution:** Replace $x$ with $0.5$ in the equation:
+    \[ 10(0.5) - 6y = 30 \]
+4.  **Initial Calculation:** Simplify $10 \times 0.5$ to get $5$.
+    \[ 5 - 6y = 30 \]
+5.  **Isolate the variable term:** Subtract 5 from both sides.
+    \[ -6y = 25 \]
+6.  **Final Division:** Divide 25 by $-6$.
+    \[ y = 25 \div (-6) = -4.166... \] 
+    *(However, a student often ignores the negative sign or struggles with the decimal conversion.)*
+
+**Alternatively (The more common simplified version of this bug):**
+The student maps $y=0.5$ correctly but performs an **Operation Reversal Error** during rearrangement:
+1.  Substitute correctly: $10x - 6(0.5) = 30$.
+2.  Calculate: $10x - 3 = 30$.
+3.  **The Error:** Instead of adding 3 to 30, the student **subtracts 3 from 30** (incorrectly moving the term across the equals sign).
+4.  Solve: $10x = 27$.
+5.  Final step: $x = 27 \div 10 = 2.7$.
+
+### 3. Answer Option
+This misconception (specifically the Operation Reversal Error in Step 2 above) leads directly to **Option D: 2.7**.
+
+### 4. How Natural/Attractive is the error?
+This error is **highly attractive** and one of the most common "slips" in Year 9 algebra for several reasons:
+*   **Cognitive Load:** The equation contains a subtraction sign ($-6y$). When students see a "minus" in the original equation, they often instinctively subtract the resulting constant from the right-hand side rather than performing the inverse operation (addition).
+*   **Procedural Over-reliance:** Students are taught that $10x = 30 - (\dots)$ is the standard way to "move" something to the other side.
+*   **Confidence:** Because $2.7$ is a "clean" decimal and is listed as a distracter, the student feels an immediate sense of validation. Unlike a messy recurring decimal (like $3.33...$), $2.7$ looks "correct" for a Foundation/Higher GCSE-style question. The student would almost certainly not realize they had made an error until the marks were returned.

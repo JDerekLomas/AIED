@@ -1,0 +1,23 @@
+As an expert in mathematical misconceptions, I have identified a primary error that frequently occurs in the transition from Key Stage 3 to GCSE (Year 9).
+
+### 1. The Misconception: "Negative Base Neglect" (BIDMAS/Operator Hierarchy Error)
+The specific bug is a failure to recognize that a negative sign attached to a number must be treated as part of the base being squared or cubed, rather than an instruction to multiply by $-1$ after the exponentiation. 
+
+In UK secondary education, this is often driven by how students interact with their scientific calculators (typing $-3^4$ instead of $(-3)^4$) or a literal interpretation of the BIDMAS/BODMAS rule where **I**ndices are processed before the negative sign (which the student views as **S**ubtraction or a separate multiplication).
+
+### 2. Step-by-Step Student Reasoning
+A student with this misconception would approach the problem as follows:
+*   **Step 1 (Substitution):** The student substitutes $-3$ into the formula, writing it mentally or on paper as $T = -3^4$.
+*   **Step 2 (Priority of Operations):** Following their interpretation of BIDMAS, they decide they must deal with the "Index" before the "negative symbol." They calculate $3 \times 3 \times 3 \times 3 = 81$.
+*   **Step 3 (Applying the Sign):** They now look back at the original expression and see the minus sign sitting in front of the calculation they just performed. They apply it to the result, leading to $-81$.
+*   **Logical justification:** The student might say, "It's $3$ to the power of $4$, then you make it negative."
+
+### 3. Resulting Answer Option
+This misconception leads directly to **Option C) $-81$**.
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and one of the most persistent in school-level mathematics for several reasons:
+
+*   **Calculator Reinforcement:** If a student types $-3^4$ into a standard Casio scientific calculator (widely used in UK schools), the display will show $-81$. The calculator is technically following the order of operations correctly (taking the power of $3$, then applying the unary minus), but it contradicts the mathematical intent of substituting a negative value for a variable.
+*   **Misapplication of "Negative Rules":** Students are often told that "two negatives make a positive." Because they only see *one* negative sign in the expression $k^4$ when $k=-3$ is written as $-3^4$, they do not visualize the four separate negatives multiplying together ($(-3) \times (-3) \times (-3) \times (-3)$).
+*   **Lack of Internal Conflict:** The student will likely **not realise they have gone wrong**. Because $-81$ is a "clean" integer and explicitly listed as an option, it provides "distractor validation"—the presence of the answer on the page convinces them that their logic is sound. Only those with a firm grasp of the rule "an even power always results in a positive" would spot the trap.

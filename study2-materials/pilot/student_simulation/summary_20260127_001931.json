@@ -1,0 +1,26 @@
+{
+  "timestamp": "20260127_001931",
+  "n_students": 12,
+  "n_items": 36,
+  "n_calls": 432,
+  "models_used": {
+    "secure": {
+      "provider": "openai",
+      "model": "gpt-4o-mini"
+    },
+    "struggling": {
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant"
+    },
+    "developing": {
+      "provider": "openai",
+      "model": "gpt-3.5-turbo"
+    },
+    "confident": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514"
+    }
+  },
+  "accuracy": 0.5023148148148148,
+  "target_rate": 0.2337962962962963
+}

@@ -1,0 +1,146 @@
+{
+  "temp": 0.6,
+  "rep": 1,
+  "predictions": [
+    {
+      "item": "INVERSE_OPS",
+      "qid": 332,
+      "b_2pl": -5.1791,
+      "p_incorrect": 0.6,
+      "raw": "As a UK maths teacher, I have evaluated this question based on common misconceptions regarding the order of operations and the balancing method when solving two-step equations. \n\nTom is correct because he adds 5 to both sides ($12 + 5 = 17$). \nKatie is incorrect because she attempts to multiply by 3 but fails to multiply the $-5$ term, a classic error where students only multiply the fraction and the result on the RHS.\n\n**below_basic:** A=30% B=25% C=35% D=10%\n**basic:** A=45% B=15% C=35% D=5%\n**proficient:** A=75% B=5% C=18% D=2%\n**advanced:** A=94% B=1% C=5% D=0%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1702,
+      "b_2pl": -0.4997,
+      "p_incorrect": 0.5,
+      "raw": "To solve this, we substitute $y = 0.5$ into the equation $10x - 6y = 30$:\n$10x - 6(0.5) = 30$\n$10x - 3 = 30$\n$10x = 33$\n$x = 3.3$\n\n**Analysis of errors:**\n*   **A (4.25):** Students might incorrectly rearrange the formula to $10x = 30 + 6 + 6.5$ or make significant arithmetic errors involving the 0.5.\n*   **B (-4.25):** Similar to A, but with sign errors.\n*   **C (3.3):** The correct answer.\n*   **D (2.7):** A common mistake where students subtract 3 from 30 ($10x = 27$) instead of adding it.\n\nbelow_basic: A=20% B=15% C=35% D=30%\nbasic: A=10% B=10% C=55% D=25%\nproficient: A=5% B=2% C=85% D=8%\nadvanced: A=1% B=0% C=98% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 934,
+      "b_2pl": -0.5221,
+      "p_incorrect": 0.44999999999999996,
+      "raw": "below_basic: A=25% B=15% C=45% D=15%\nbasic: A=10% B=15% C=60% D=15%\nproficient: A=2% B=8% C=85% D=5%\nadvanced: A=0% B=2% C=97% D=1%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1599,
+      "b_2pl": -3.3719,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=30% B=20% C=25% D=25%\nbasic: A=60% B=10% C=15% D=15%\nproficient: A=85% B=05% C=05% D=05%\nadvanced: A=98% B=00% C=01% D=01%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 306,
+      "b_2pl": -0.158,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=40% B=15% C=30% D=15%\nbasic: A=25% B=35% C=15% D=25%\nproficient: A=10% B=65% C=5% D=20%\nadvanced: A=2% B=92% C=1% D=5%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 202,
+      "b_2pl": -0.2375,
+      "p_incorrect": 0.65,
+      "raw": "below_basic: A=30% B=15% C=25% D=30%\nbasic: A=65% B=10% C=5% D=20%\nproficient: A=85% B=10% C=0% D=5%\nadvanced: A=98% B=2% C=0% D=0%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 644,
+      "b_2pl": -0.2617,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=35% B=40% C=10% D=15%\nbasic: A=65% B=25% C=5% D=5%\nproficient: A=92% B=6% C=1% D=1%\nadvanced: A=99% B=1% C=0% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1545,
+      "b_2pl": -0.2892,
+      "p_incorrect": 0.44999999999999996,
+      "raw": "To predict these percentages, we must consider the application of BIDMAS (Order of Operations).\n\n**The Calculation:**\nLeft side: $8 + (12 \\div 4) = 8 + 3 = 11$\nRight side: $(8 + 12) \\div 4 = 20 \\div 4 = 5$\nSince $11 > 5$, the correct answer is **A**.\n\n**Common Misconceptions:**\n*   **Left-to-Right Error:** Students who ignore BIDMAS calculate the left side as $(8+12) \\div 4 = 5$. This leads them to choose **C** (5 = 5).\n*   **Visual Similarity:** Students who see the same numbers and operations often assume the result must be the same regardless of brackets, also leading to **C**.\n*   **Confusion of Inequality Symbols:** Basic students often calculate correctly but forget which way the \"crocodile\" points, leading to **B**.\n\nbelow_basic: A=20% B=25% C=50% D=5%\nbasic: A=45% B=15% C=35% D=5%\nproficient: A=80% B=5% C=14% D=1%\nadvanced: A=98% B=1% C=1% D=0%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1286,
+      "b_2pl": 0.0618,
+      "p_incorrect": 0.55,
+      "raw": "As an experienced UK maths teacher, I have evaluated this question based on common misconceptions regarding the rearrangement of the sphere volume formula $V = \\frac{4}{3}\\pi r^3$.\n\n**Below Basic:** Students at this level often struggle with the fractional coefficient. They frequently multiply by the numerator and divide by the denominator (leading to A) or simply guess based on which symbols look familiar.\n**Basic:** Students can usually identify the correct formula but often make errors in the multi-step rearrangement, such as failing to move $\\pi$ to the denominator or confusing the reciprocal of $4/3$.\n**Proficient:** These students generally understand the inverse operations required (multiplying by 3, dividing by $4\\pi$) but a small percentage may still make a clerical error in the placement of $\\pi$.\n**Advanced:** These students should comfortably rearrange the formula to $r = \\sqrt[3]{\\frac{3V}{4\\pi}}$ with very few errors.\n\nbelow_basic: A=35% B=25% C=20% D=20%\nbasic: A=25% B=20% C=40% D=15%\nproficient: A=10% B=10% C=75% D=5%\nadvanced: A=2% B=3% C=94% D=1%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 919,
+      "b_2pl": 0.034,
+      "p_incorrect": 0.65,
+      "raw": "below_basic: A=20% B=35% C=30% D=15%\nbasic: A=15% B=45% C=10% D=30%\nproficient: A=10% B=20% C=5% D=65%\nadvanced: A=2% B=3% C=0% D=95%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 888,
+      "b_2pl": 0.0015,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=25% B=20% C=30% D=25%\nbasic: A=15% B=45% C=15% D=25%\nproficient: A=5% B=85% C=2% D=8%\nadvanced: A=1% B=98% C=0% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 506,
+      "b_2pl": -0.1058,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=45% B=15% C=30% D=10%\nbasic: A=35% B=40% C=15% D=10%\nproficient: A=15% B=75% C=5% D=5%\nadvanced: A=2% B=96% C=1% D=1%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 1607,
+      "b_2pl": 0.5037,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=30% B=15% C=25% D=30%\nbasic: A=45% B=10% C=35% D=10%\nproficient: A=75% B=5% C=15% D=5%\nadvanced: A=92% B=2% C=5% D=1%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 1383,
+      "b_2pl": 0.5622,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=20% B=30% C=25% D=25%\nbasic: A=45% B=10% C=35% D=10%\nproficient: A=75% B=2% C=22% D=1%\nadvanced: A=98% B=0% C=2% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 254,
+      "b_2pl": 0.5976,
+      "p_incorrect": 0.35,
+      "raw": "below_basic: A=30% B=40% C=25% D=5%\nbasic: A=45% B=20% C=30% D=5%\nproficient: A=75% B=5% C=10% D=10%\nadvanced: A=95% B=0% C=0% D=5%"
+    },
+    {
+      "item": "INVERSE_OPS",
+      "qid": 689,
+      "b_2pl": 0.2501,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=20% B=35% C=40% D=5%\nbasic: A=35% B=15% C=45% D=5%\nproficient: A=75% B=5% C=18% D=2%\nadvanced: A=98% B=0% C=2% D=0%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 525,
+      "b_2pl": 0.6233,
+      "p_incorrect": 0.55,
+      "raw": "below_basic: A=15% B=20% C=25% D=40%\nbasic: A=25% B=45% C=10% D=20%\nproficient: A=15% B=80% C=2% D=3%\nadvanced: A=5% B=94% C=1% D=0%"
+    },
+    {
+      "item": "FRAC_ADD",
+      "qid": 38,
+      "b_2pl": 0.692,
+      "p_incorrect": 0.6,
+      "raw": "below_basic: A=20% B=45% C=10% D=25%\nbasic: A=55% B=15% C=5% D=25%\nproficient: A=85% B=5% C=2% D=8%\nadvanced: A=98% B=1% C=0% D=1%"
+    },
+    {
+      "item": "NEG_MULTIPLY",
+      "qid": 466,
+      "b_2pl": 0.7156,
+      "p_incorrect": 0.44999999999999996,
+      "raw": "below_basic: A=25% B=20% C=30% D=25%\nbasic: A=45% B=25% C=15% D=15%\nproficient: A=75% B=15% C=5% D=5%\nadvanced: A=96% B=3% C=1% D=0%"
+    },
+    {
+      "item": "ORDER_OPS",
+      "qid": 1465,
+      "b_2pl": 0.8347,
+      "p_incorrect": 0.5,
+      "raw": "below_basic: A=25% B=30% C=25% D=20%\nbasic: A=45% B=25% C=15% D=15%\nproficient: A=75% B=15% C=5% D=5%\nadvanced: A=98% B=1% C=1% D=0%"
+    }
+  ]
+}

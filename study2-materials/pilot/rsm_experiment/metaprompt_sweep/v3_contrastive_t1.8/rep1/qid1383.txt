@@ -1,0 +1,8 @@
+This question specifically tests two potential pitfalls: the confusion between multiplication and exponentiation (resulting in 12 or -12) and the sign of a negative number raised to an even power. 
+
+Because $k$ is negative, students using scientific calculators who type $-3^4$ without brackets will be given $-81$, a very common "calculator trap" in UK secondary schools. Students at the "below basic" level often default to $3 \times 4$, whereas those at the "proficient" level often know to multiply $3$ by itself four times but forget that an even exponent results in a positive product.
+
+below_basic: A=20% B=40% C=15% D=25%
+basic: A=35% B=15% C=40% D=10%
+proficient: A=60% B=5% C=33% D=2%
+advanced: A=94% B=1% C=5% D=0%

@@ -1,0 +1,24 @@
+In the context of UK Year 9 Algebra (adding algebraic fractions), here is a breakdown of a highly common misconception.
+
+### 1. The Specific Misconception: "Naive Fraction Addition" (Add Numerators, Add Denominators)
+The student treats the fraction addition as a horizontal process where components are combined independently. They apply the same (incorrect) logic used by students who believe $\frac{1}{2} + \frac{1}{2} = \frac{2}{4}$. In this specific case, the bug is failing to find a **Common Denominator** and instead simply treating the algebraic terms in the denominator as "collectable" parts of a sum.
+
+### 2. Step-by-Step Student Logic
+A student with this misconception would approach the problem as follows:
+
+*   **Step 1:** Look at the numerators: $3$ and $4$. Add them together: $3 + 4 = 7$.
+*   **Step 2:** Look at the denominators: $2x$ and $x$. Treat these as terms to be added together as if they were a normal expression.
+*   **Step 3:** Calculate $2x + x$. Since $x$ is the same as $1x$, the student concludes $2x + 1x = 3x$.
+*   **Step 4:** Place the new "numerator sum" over the "denominator sum" to form the fraction $\frac{7}{3x}$.
+
+### 3. Corresponding Answer Option
+This misconception leads directly to **Answer B: $\frac{7}{3x}$.**
+
+### 4. Attractiveness of the Error
+This is an **extremely attractive error** for several reasons:
+
+*   **The "Natural" Path:** Addition is instinctively perceived by students as a "combining" operation. Adding "top plus top" and "bottom plus bottom" feels like the most intuitive and symmetrical way to combine two objects.
+*   **Lack of Conflict:** The student achieves a single, neat fraction. Unlike a student who might struggle to find a common denominator (e.g., trying to turn $x$ into $2x$), this student never encounters a "roadblock" in their calculation. 
+*   **Sense of Correctness:** Because $2x + x$ equals $3x$ in standard linear algebra (collecting like terms), the student feels they have demonstrated mathematical proficiency. They believe they are correctly applying "collecting like terms" rules to the bottom of the fraction, unaware that the rules of denominators are governed by ratios/scaling rather than simple addition. 
+
+Unless the student has been specifically trained to ask, "Does this make sense numerically?" (e.g., testing with $x=1$), they will be highly confident in this answer and unlikely to realize anything is wrong.

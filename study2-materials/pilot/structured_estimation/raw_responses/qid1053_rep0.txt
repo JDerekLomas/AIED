@@ -1,0 +1,36 @@
+<chain_of_thought>
+This item asks students to factorise x^2 - x - 6. The correct answer is (x-3)(x+2) = x^2 + 2x - 3x - 6 = x^2 - x - 6. Check.
+
+The misconception tested is "believes multiplying two negatives gives a negative answer." This maps to distractor B: (x-3)(x-2) = x^2 - 2x - 3x + 6 = x^2 - 5x + 6. A student who thinks (-3)(-2) = -6 instead of +6 would choose B, since they need the constant term to be -6 and think two negatives work.
+
+Distractor C: (x+3)(x+2) = x^2 + 5x + 6 -- wrong signs entirely.
+Distractor D: (x+3)(x-2) = x^2 - 2x + 3x - 6 = x^2 + x - 6 -- gets the middle term sign wrong.
+
+Comparing to the calibration item about Tom and Katie's factorising (classical difficulty 0.473, IRT b = 0.404), that item required evaluating someone else's factorisations and understanding negative multiplication. This item is more direct -- just factorise -- but still requires understanding how signs work in factorisation.
+
+I'd expect this to be moderately difficult, similar to the Tom/Katie item but perhaps slightly easier since it's a more standard presentation. Students need to find two numbers that multiply to -6 and add to -1. The distractors are well-designed around sign errors.
+
+Classical difficulty estimate: around 0.40-0.50. The factorisation concept is GCSE-level, typically age 14-16. Discrimination should be decent as this separates students who understand signs from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.15</guessing_probability>
+</predictions>

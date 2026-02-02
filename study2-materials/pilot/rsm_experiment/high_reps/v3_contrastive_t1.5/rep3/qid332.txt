@@ -1,0 +1,19 @@
+This question targets a common structural misconception in two-step equations: the order of operations when "undoing" an equation. Specifically, it tests whether students understand that the constant term ($-5$) is separate from the fraction term ($\frac{x}{3}$).
+
+Tom's approach is the standard, taught method: add 5 to both sides. Most students find this intuitive. Katie's approach represents the classic "multiply everything by the denominator" error. While it is mathematically possible to multiply the entire equation by 3, a student must multiply **every** term, resulting in $x - 15 = 36$. Katie has only multiplied the $x$ and the $12$, forgetting to multiply the $-5$.
+
+**Why this is difficult:**
+1. **The "Everything must be multiplied" rule:** Students often remember they need to "multiply by the bottom number" but forget the distributive property over the whole side of the equation.
+2. **Visual grouping:** Some students see $\frac{x}{3} - 5$ and mentally group the $-5$ into the fraction, making Katie's suggestion look plausible.
+3. **Confidence in Katie:** In many UK exam questions of this "Who is correct?" type, "Both" is a frequent answer, leading proficient but unsure students to look for a reason why Katie might be right.
+
+**Predicting the spread:**
+- **Below Basic:** These students often struggle with basic inverse operations and will guess or pick C because they think there's always more than one way to do it.
+- **Basic:** This group will likely recognize Tom is right, but a significant number will fall for Katie's trap because "multiplied by 3" sounds like a valid "trick" to get rid of the fraction.
+- **Proficient:** Most will see Tom is right. Many will catch Katie's error ($5$ vs $15$), but some will be swayed by the 36 (since $12 \times 3$ is correct).
+- **Advanced:** These students will instantly identify the distributive error in Katie’s logic and correctly identify only Tom.
+
+below_basic: A=35% B=15% C=40% D=10%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=70% B=5% C=22% D=3%
+advanced: A=92% B=1% C=6% D=1%

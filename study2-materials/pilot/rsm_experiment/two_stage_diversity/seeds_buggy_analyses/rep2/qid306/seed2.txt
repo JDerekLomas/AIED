@@ -1,0 +1,36 @@
+As an expert in mathematical misconceptions, the specific error I have identified for this UK Year 9 student is the **Strict Left-to-Right String Parsing Bug**, heavily reinforced by the **Hierarchy of Operations Priority Error (the "A before S" and "M before A" literalism)**.
+
+Here is the breakdown of the misconception leading to **Option C**:
+
+### 1. The Specific Misconception: "Literal BIDMAS / Left-to-Right Conflict"
+The student is following the **BIDMAS** (Brackets, Indices, Division, Multiplication, Addition, Subtraction) mnemonic as a **strict, linear list of instructions** rather than a tiered hierarchy. 
+
+Specifically:
+*   In Problem P, they believe **Addition must always be performed before Subtraction** because 'A' comes before 'S' in the acronym. They are unaware that Addition and Subtraction have equal priority and should be processed left-to-right.
+*   In Problem Q, they abandon the "M before A" rule of BIDMAS in favour of the **Left-to-Right reading habit**. This occurs when a student perceives the math problem as a sentence to be read from left to right, ignoring operational precedence entirely.
+
+### 2. Step-by-Step Student Process
+**Problem P (\(4 - 5 + 6\)):**
+*   The student looks at the operations: Minus and Plus.
+*   They recall the mnemonic "BIDMAS." Since 'A' (Addition) comes before 'S' (Subtraction), they decide they *must* do the addition part first.
+*   They isolate the addition: \(5 + 6\).
+*   **Step 1:** Add \(5\) and \(6\).
+
+**Problem Q (\(4 + 5 \times 6\)):**
+*   The student reverts to "Natural Reading Order" (Reading direction bias). 
+*   They read from left to right: "Four plus five... times six."
+*   They believe the order of the numbers as written dictates the order of calculation.
+*   **Step 1:** Add \(4\) and \(5\).
+
+### 3. Corresponding Answer
+This set of logic leads the student directly to **Option C**:
+*   **Problem P:** \(5 + 6\)
+*   **Problem Q:** \(4 + 5\)
+
+### 4. Attractiveness of the Error
+This error is **highly attractive and feels intuitively correct** to a Year 9 student for several reasons:
+*   **The "BIDMAS" Trap:** Teachers often teach BIDMAS as a vertical list. Because 'A' is physically above 'S', the student feels they are being "mathematically disciplined" by skipping the subtraction to do the addition first.
+*   **Cognitive Load:** In Problem Q, adding \(4+5\) to get \(9\), then multiplying \(9 \times 6\), feels "smoother" than holding the \(4\) in their head while calculating \(5 \times 6\). 
+*   **Lack of Conflict:** The student likely **would not realize they are wrong**. They have a "reason" for both choices (the mnemonic for P and the reading order for Q). Without the presence of brackets to disrupt their flow, they will feel confident that they are following the "rules" of math as they understand them. 
+
+Interestingly, if a student picks Option C, they are inconsistent: they follow BIDMAS strictly for P (where it’s actually wrong to do so) but ignore it for Q. This "selective use of rules" is a hallmark of students who have memorized an acronym without understanding the underlying logic of operator precedence.

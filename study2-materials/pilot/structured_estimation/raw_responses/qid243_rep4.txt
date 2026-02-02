@@ -1,0 +1,46 @@
+<chain_of_thought>
+Solving 3n + 2 >= 4n - 5. Correct: C (7 >= n).
+
+Let me approach this from a curriculum perspective. In the UK secondary curriculum, solving linear inequalities appears in Key Stage 3/4 (ages 13-16). Students encounter equations first, then inequalities. The additional challenge with inequalities is tracking the direction of the sign, especially when multiplying or dividing by negatives.
+
+This particular item doesn't require dividing by a negative (since 4n - 3n = +n), so the inequality direction is preserved throughout. The main challenge is correctly applying inverse operations to collect terms.
+
+Step-by-step solution:
+3n + 2 >= 4n - 5
+Subtract 3n: 2 >= n - 5
+Add 5: 7 >= n
+
+Only two steps needed. The arithmetic is simple (just adding 2 + 5 = 7).
+
+Now, thinking about the student population: the Eedi platform typically serves a broad range of abilities. For this item type, I'd expect a bimodal-ish distribution — students who have mastered solving inequalities will find this routine, while those still developing the skill will likely fall into one of the distractor traps.
+
+Distractor A (-3 >= n) directly tests the misconception. If a student subtracts 5 from 2 instead of adding (same operation, not inverse), they get -3. This is a very natural error.
+
+Distractor D is interesting because it's mathematically equivalent to the correct answer if you read it as "n is at most 7" but written as n >= 7, which actually means "n is at least 7" — the opposite. Students who focus on the numbers but not the inequality direction will choose D.
+
+Comparing with calibration: the closest match is the 2n+3 <= 3n-7 item. That item yielded classical difficulty 0.569. I think this item might be slightly easier — the numbers are smaller and the arithmetic cleaner. But the C vs D confusion could offset that. I'll estimate 0.54 classical difficulty.
+
+For IRT parameters: b around 0.72 (slightly below the anchor's 0.808), discrimination around 1.10 (slightly above the anchor's 1.050 because the misconception distractor A is very well-targeted), and guessing around 0.16.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.54</classical_difficulty>
+<irt_difficulty>0.72</irt_difficulty>
+<irt_discrimination>1.10</irt_discrimination>
+<guessing_probability>0.16</guessing_probability>
+</predictions>

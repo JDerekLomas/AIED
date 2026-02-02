@@ -1,0 +1,40 @@
+<chain_of_thought>
+Target item: y=(x-8)(x-6), find y-intercept. Correct: C (0,48).
+
+This is a relatively standard GCSE-level question about quadratic graphs in factored form. The key steps are straightforward: set x=0, compute (-8)(-6)=48.
+
+However, I want to think carefully about what proportion of the 11-16 age range would get this wrong. Younger students (11-13) might not have encountered factored quadratics at all, while older students (14-16) should find this manageable if they understand intercepts.
+
+The misconception "multiplying two negatives gives a negative" is well-documented and persistent. Even students who can state the rule correctly sometimes make errors under cognitive load. Here, the cognitive load isn't enormous, but the factored form adds a layer of unfamiliarity.
+
+Distractor analysis:
+- D (0,-48): Target misconception. Very plausible. Students who do everything right except the sign rule land here.
+- B: Confusing x-intercepts with y-intercepts AND getting the coordinates wrong. This catches students with a fundamental misunderstanding of intercepts.
+- A (0,-14): Adding instead of multiplying the constants. This is a weaker distractor but could catch students who are confused about what operation to perform.
+
+Comparing to calibration: The inequality item (solve 2n+3 <= 3n-7) had difficulty 0.569 and b=0.808, and that tests equation-solving skills. The Tom/Katie item testing the same misconception had difficulty 0.473 and b=0.404.
+
+This item combines graphical understanding with arithmetic. I think it's moderately difficult. The question clarity is somewhat reduced by the apparent text duplication. I'd place this around 0.48 classical difficulty and b around 0.40, similar to the Tom/Katie item but perhaps slightly easier because the procedure itself is simpler once you know to substitute x=0.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.40</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

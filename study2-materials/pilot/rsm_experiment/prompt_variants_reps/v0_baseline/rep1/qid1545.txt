@@ -1,0 +1,17 @@
+To predict the performance, we must look at the common misconceptions regarding the order of operations (BIDMAS/BODMAS).
+
+**The Calculation:**
+*   Left side: $8 + 12 \div 4 = 8 + 3 = 11$
+*   Right side: $(8 + 12) \div 4 = 20 \div 4 = 5$
+*   Correct Answer: $11 > 5$ (Option A)
+
+**Student Behaviour Analysis:**
+*   **Below Basic:** Many students will calculate left-to-right on both sides, ignoring BIDMAS rules ($20 \div 4 = 5$ on both sides), leading them to choose C (Equal).
+*   **Basic:** Some students understand brackets but forget that division comes before addition on the left side, often resulting in "5 vs 5" (C). Others might guess based on the "larger look" of the right side.
+*   **Proficient:** These students generally remember BIDMAS but may make a mechanical error in the division or addition under pressure.
+*   **Advanced:** These students consistently apply the order of operations correctly and recognize that the bracket forces a different order on the right side.
+
+below_basic: A=15% B=20% C=60% D=5%
+basic: A=45% B=15% C=35% D=5%
+proficient: A=85% B=5% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

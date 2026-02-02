@@ -1,0 +1,24 @@
+Let's break this down from a Year 9 perspective.
+
+**The Correct Answer: A) 81**
+This requires understanding that \( k^4 \) means \( k \times k \times k \times k \).
+And, critically, understanding that a negative number raised to an even power results in a positive number: \( (-3) \times (-3) \times (-3) \times (-3) = 9 \times 9 = 81 \).
+Brackets around the negative number are implicit from \( T=k^4 \) when substituting \( k=-3 \).
+
+**The Distractors:**
+
+*   **B) 12:** This comes from \( k \times 4 \) or \( -3 \times 4 = -12 \), then somehow forgetting the negative. Or, even worse, perhaps \( -3 \times 4 \) but knowing the answer must be positive because of a (flawed) rule in their head that squares/even powers make things positive. This is a common "index law" confusion error for younger students: power as multiplication.
+*   **C) -81:** This is the most attractive incorrect answer. It arises from correctly calculating \( 3^4 = 81 \) but then incorrectly applying the negative sign, i.e., treating \( k^4 \) as \( -(k)^4 \) or thinking that "negative multiplied by positive" means the answer *must* be negative, ignoring the rules of negative multiplication for even powers. Students often forget that \( (-3) \times (-3) \) is positive.
+*   **D) -12:** This combines the "power as multiplication" error ( \( -3 \times 4 = -12 \) ) with correctly keeping the negative sign. It's an error based on a fundamental misunderstanding of indices and also how negative numbers behave.
+
+**Predicting Student Performance:**
+
+*   **below_basic:** These students struggle with fundamental index notation and negative number rules. Many will see the '4' and '3' and default to multiplication. They'll also be inconsistent with negative rules.
+*   **basic:** These students might correctly do \( 3^4 = 81 \), but many will get caught by the negative sign, especially if they rush or aren't rock-solid on \( (-)\times(-) = (+) \). Some will still make the multiplication error.
+*   **proficient:** Most will get this correct. Those who get it wrong are likely to make the C) error, perhaps momentarily forgetting the even power rule, or making a small slip under exam pressure. They usually self-correct.
+*   **advanced:** These students should reliably get this correct. Any error would be a complete misreading or a highly uncharacteristic lapse in concentration.
+
+below_basic: A=10% B=30% C=40% D=20%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=85% B=0% C=15% D=0%
+advanced: A=98% B=0% C=2% D=0%

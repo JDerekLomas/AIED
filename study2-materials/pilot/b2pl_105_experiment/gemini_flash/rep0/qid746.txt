@@ -1,0 +1,19 @@
+This question tests the Order of Operations (BIDMAS/BODMAS). 
+
+The correct process is: 
+1. Brackets: $(2 + 2) = 4$
+2. Division: $12 \div 4 = 3$
+3. Addition: $4 + 3 = 7$ (Option B)
+
+**Common Errors:**
+*   **Left-to-Right (Ignore BIDMAS):** $4+12=16$, then $16 \div 4 = 4$ (Option D).
+*   **Addition before Division (The most common error):** Students do brackets correctly $(4)$, then add the leading $4$ to the $12$ to get $16$, then divide by $4$.
+*   **Inside Brackets then first Addition:** $(2+2)=4$, then $4+12 = 16$, then $16 \div 4 = 4$.
+*   **Miscalculating the division/brackets:** Choosing 10 or 12 through various combinations of adding everything or multiplying parts.
+
+This specific question is a classic "trap" because the numbers $4+12 \div 4$ are very tempting to calculate as $(4+12) \div 4$. Many lower-ability students will follow a linear left-to-right path or instinctively perform the addition they see first.
+
+below_basic: A=15% B=20% C=15% D=50%
+basic: A=10% B=45% C=5% D=40%
+proficient: A=5% B=80% C=5% D=10%
+advanced: A=1% B=97% C=1% D=1%

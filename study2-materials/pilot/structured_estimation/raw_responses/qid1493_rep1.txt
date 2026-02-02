@@ -1,0 +1,37 @@
+<chain_of_thought>
+The target item presents 8 - 7 / 6^3 and asks which calculation should be done first. This tests BIDMAS/BODMAS awareness — specifically whether students know that indices (exponents) take priority over division and subtraction.
+
+Let me think about the student population. UK secondary students aged 11-16 encounter order of operations early in KS3 (years 7-8). By the time they've had some teaching on this, most should know that brackets and indices come first. The acronym BIDMAS is widely taught.
+
+The key misconception is "carries out operations from left to right regardless of priority order." Option C (8-7) directly reflects this — a student reading left to right would start with subtraction. Option B (7 / 6) could attract students who know subtraction isn't first but miss that exponentiation precedes division. Option D is for students who fundamentally don't understand that order matters.
+
+Comparing to the calibration anchor with the same misconception: 0.4 - 1/5 x 3. That item had classical difficulty 0.134. However, that required students to actually execute the operations and get a numerical answer, which is harder. This item merely asks identification of the first step, which is more straightforward.
+
+But there's a counterargument: the presence of 6^3 might confuse some students who are less familiar with exponents, potentially making them overlook it and pick division instead. This could increase the error rate slightly.
+
+I think this item is relatively easy. The question is very clear and direct. Students who know BIDMAS will immediately pick A. I'll estimate classical difficulty around 0.18 — slightly harder than the computation-based BIDMAS item because students need to specifically recognize exponents as higher priority than division, which is a finer distinction than multiplication before subtraction.
+
+For IRT parameters: moderate-to-high discrimination since this cleanly tests one concept. Low guessing since the question format is straightforward.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>5</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>9</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.35</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.03</guessing_probability>
+</predictions>

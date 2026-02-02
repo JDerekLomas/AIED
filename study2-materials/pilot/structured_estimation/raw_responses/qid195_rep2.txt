@@ -1,0 +1,40 @@
+<chain_of_thought>
+Item: (t-3)/2 = 1/8. Correct: D, t = 3 1/4.
+
+Step-by-step solution:
+1. Multiply both sides by 2: t - 3 = 2/8 = 1/4
+2. Add 3 to both sides: t = 3 + 1/4 = 3 1/4
+
+This is a two-step linear equation involving fractions. The key challenge is that students must correctly identify and apply inverse operations at each step while handling fraction arithmetic.
+
+Distractor analysis:
+- C (3 1/16): This is the misconception target. Student divides 1/8 by 2 = 1/16 (using same operation, division, instead of multiplication), then adds 3. Very plausible for students with this misconception.
+- A (6 1/4): Could arise from multiplying 3 by 2 to get 6 and then adding 1/4. Perhaps the student undoes the subtraction first (incorrectly, by adding 3 to both sides while the fraction is still over 2), getting t/2 = 3 1/8, then multiplies: t = 6 1/4. This is actually a reasonable error - doing operations in wrong order.
+- B (1): Possibly from cross-multiplication: 8(t-3) = 2, so 8t - 24 = 2, 8t = 26... that doesn't give 1. Maybe t-3 = 2/8, then t-3 = 1/4, and student subtracts instead of adds: t = 3 - 1/4 = 2 3/4. That's not 1 either. Perhaps from 1/8 * 8 = 1, ignoring the left side structure. Less clear error path.
+
+Comparing with calibration items, this is harder than the simple p+10 equation (0.167) due to fractions and two steps. It's probably comparable to or slightly easier than the function machine item (0.295) since the algebra is more standard but fractions add difficulty. I'd estimate around 0.35-0.45 proportion incorrect.
+
+The item should discriminate reasonably well. The fraction context means partial knowledge (knowing to use inverses but struggling with fraction arithmetic) could still lead to errors, which may slightly lower discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.38</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

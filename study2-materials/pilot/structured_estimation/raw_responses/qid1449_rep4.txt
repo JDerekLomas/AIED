@@ -1,0 +1,47 @@
+<chain_of_thought>
+Evaluating: -4 + (-5) x 3
+Options: A=27, B=-27, C=-11, D=-19 (correct)
+Misconception: left-to-right processing ignoring BIDMAS
+
+Let me approach this from a different angle -- thinking about what proportion of each year group would get this right.
+
+Year 7 (age 11-12): Many still developing BIDMAS understanding. Negative numbers just being introduced. Perhaps 50-60% correct.
+Year 8 (age 12-13): BIDMAS more established but negative arithmetic still developing. Maybe 70% correct.
+Year 9+ (age 13-16): Should mostly get this right, 80-90% correct.
+
+Across the full 11-16 range, if the sample is roughly uniform, I'd expect overall about 70-75% correct, meaning classical difficulty (proportion incorrect) around 0.25-0.30.
+
+But wait -- the Eedi platform data likely skews toward students actively practicing, which could mean the sample includes more struggling students using it for revision, or more capable students using it for practice. The calibration items suggest a mixed-ability sample.
+
+Distractor B (-27) is very compelling for the target misconception. It's the single most likely wrong answer. Distractors A and C are weaker.
+
+Comparing again to calibration item 2 (classical difficulty 0.134): that item was easier than I might have expected, suggesting the Eedi population handles BIDMAS reasonably well. But that item used 0.4 and 1/5 which sophisticated students might find straightforward (recognizing 1/5 = 0.2). The current item's multiple negatives might actually be harder for the population.
+
+I'll split the difference and estimate classical difficulty around 0.20, IRT b around -0.10.
+
+For discrimination: the item has a clean correct/incorrect split based on a single misconception, suggesting good discrimination. However, option C introduces noise from a secondary error type which could slightly reduce discrimination. Estimate a = 1.35.
+
+Guessing: essentially zero for a computation item where each answer maps to a procedure.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.20</classical_difficulty>
+<irt_difficulty>-0.10</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.01</guessing_probability>
+</predictions>

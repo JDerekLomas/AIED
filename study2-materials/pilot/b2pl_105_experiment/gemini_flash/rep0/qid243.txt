@@ -1,0 +1,18 @@
+To predict the performance on this question, we must look at how students handle inequalities with variables on both sides, specifically when the "larger" coefficient of $n$ is on the right-hand side.
+
+**Analysis of the Distractors:**
+*   **Option C ($7 \geq n$):** This is the correct answer. It is reached by subtracting $3n$ from both sides ($2 \geq n - 5$) and then adding $5$ to both sides ($7 \geq n$).
+*   **Option D ($n \geq 7$):** This is the most common error. It occurs either through a sign error when moving terms (e.g., $4n - 3n = n$ and $2 - 5 = -3$, then forgetting the context) or, more likely, because students solve it to $7 \geq n$ and then "flip" the entire expression to put $n$ first but forget to flip the inequality sign.
+*   **Option B ($1 \geq n$):** This comes from a classic subtraction error on the constants ($5 - 2 = 3$ then $3/3$ or simply $4 - 3 = 1$).
+*   **Option A ($-3 \geq n$):** This results from a sign error ($2 - 5 = -3$) when moving the constant to the left.
+
+**Student Behavior:**
+*   **Below Basic:** Students often guess or perform a single operation. Many will see the numbers 3, 2, 4, 5 and try to combine them randomly, often gravitating towards B or D.
+*   **Basic:** Students will attempt to move terms but will struggle with the negative signs. They frequently lose the inequality sign or treat it as an equals sign until the very end, at which point they often pick D because they prefer the variable on the left.
+*   **Proficient:** These students know the steps but often fall for the "mirroring" trap. They get to $7 \geq n$ and then select $n \geq 7$ because they believe the arrow should point the same way when $n$ is moved to the left.
+*   **Advanced:** These students will either keep $n$ on the right to keep it positive ($7 \geq n$) or handle the negative coefficient division ($ -n \geq -7 \Rightarrow n \leq 7$) correctly.
+
+below_basic: A=15% B=25% C=30% D=30%
+basic: A=10% B=15% C=35% D=40%
+proficient: A=5% B=5% C=55% D=35%
+advanced: A=2% B=3% C=85% D=10%

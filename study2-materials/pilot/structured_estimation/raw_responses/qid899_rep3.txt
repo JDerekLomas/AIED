@@ -1,0 +1,39 @@
+<chain_of_thought>
+Item analysis: 10 - 8 x 7 + 6, asking which operation to do first.
+
+This tests BIDMAS knowledge directly. The correct answer is C (8 x 7) since multiplication has higher precedence than addition or subtraction.
+
+Let me think about this from a student perspective. A Year 7 student who has just learned BIDMAS should get this right easily - the question is very direct. A student who hasn't learned it or has forgotten will likely pick B (10-8, going left to right) or D (doesn't matter).
+
+The calibration example with the same misconception had classical difficulty 0.134. That's quite easy. But that item involved mixed decimals and fractions which adds computational complexity - yet students still found it easy. This suggests order of operations is well-understood by most of the tested population.
+
+For this item, the question is even more transparent - it literally asks "which calculation should you do first?" with no computation required. I think this will be very easy, possibly easier than the calibration item. I'll estimate classical difficulty around 0.12.
+
+However, there's a counterargument: the calibration item required computation where a student might stumble into the right answer. Here, you must explicitly know the rule. This could make it slightly harder for marginal students. But I still think it's fundamentally an easy item.
+
+IRT difficulty should be fairly negative, around -0.60 to -0.80. Discrimination should be solid - this is a clean item that separates those who know BIDMAS from those who don't, with little noise. I'll estimate discrimination around 1.35.
+
+Guessing should be low since there are 4 options and each has a distinct rationale - students won't be randomly choosing.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>2</concept_complexity>
+<procedural_steps>1</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>2</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.12</classical_difficulty>
+<irt_difficulty>-0.70</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.02</guessing_probability>
+</predictions>

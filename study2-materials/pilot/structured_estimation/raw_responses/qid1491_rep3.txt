@@ -1,0 +1,46 @@
+<chain_of_thought>
+Item: (-2)^4 = ?  Correct: C (16). Misconception: believes multiplying two negatives gives a negative.
+
+Let me approach this from the distractor analysis angle. Each distractor maps to a specific error pattern:
+
+Option A (-16): Student computes 2^4 = 16 correctly but believes the result should be negative because the base is negative. This is the primary misconception being tested. This will be the most popular wrong answer.
+
+Option B (-8): Student computes -2 * 4 = -8, confusing exponentiation with multiplication. This is a more fundamental misunderstanding of what exponents mean.
+
+Option D (8): Student computes 2 * 4 = 8, confusing exponentiation with multiplication AND ignoring the negative sign. Or possibly |(-2)| * 4.
+
+The distribution of errors matters for discrimination. If most errors cluster on A, the item discriminates well on the specific misconception. If errors spread across A, B, and D, the item is picking up multiple deficiencies.
+
+For the target population (11-16 year olds), I expect:
+- Strong students (~55-60%): correctly compute 16
+- Misconception about signs (~25-30%): choose -16
+- Exponent/multiplication confusion (~10-15%): choose -8 or 8
+
+This suggests classical difficulty around 0.40-0.45.
+
+For IRT parameters: The calibration item testing the same misconception (Tom/Katie) had b=0.404, a=1.451, c=0.186. That item was more complex (quadratic factorisation). This item is simpler in context but the misconception may be equally or more activated because the negative sign is right there in front of the student. I'll estimate b slightly lower, around 0.20, with similar discrimination.
+
+The guessing parameter: since the most "obvious" wrong answer (A, -16) is actually very attractive, students who don't know the concept are more likely to choose A than to randomly guess C. So guessing probability for C specifically should be low - maybe around 0.05-0.10.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.22</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

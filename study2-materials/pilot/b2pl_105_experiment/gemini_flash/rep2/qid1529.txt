@@ -1,0 +1,16 @@
+This question is a multi-step arithmetic problem that tests three distinct skills: fraction-to-decimal conversion (or vice-versa), order of operations (BIDMAS/BODMAS), and operations with directed numbers (negatives).
+
+The primary trap here is the order of operations. Many students will naturally read from left to right, performing $0.4 - 0.2 = 0.2$ and then multiplying by $3$ to get $0.6$ (Option B). Others may correctly identify that $\frac{1}{5} \times 3 = 0.6$, but then struggle with the subtraction $0.4 - 0.6$, either reversing it to get $0.2$ (Option A) or failing the decimal place value to get $0.06$ (Option D).
+
+The correct path is $0.4 - (0.2 \times 3) = 0.4 - 0.6 = -0.2$.
+
+**Analysis of Ability Levels:**
+*   **Below Basic:** These students will likely ignore BIDMAS and work left-to-right. They may also struggle to convert $\frac{1}{5}$ to $0.2$, potentially treating it as $1.5$ or $0.5$. Option B is a very attractive "distractor" for those working left-to-right.
+*   **Basic:** Most will recognize $\frac{1}{5}$ is $0.2$. However, the "left-to-right" urge is still very strong. Those who do follow BIDMAS often struggle with $0.4 - 0.6$, frequently concluding it is $0.2$ because they believe you "take the smaller from the larger" regardless of order.
+*   **Proficient:** These students usually know BIDMAS but are still prone to the "subtraction sign error." They will get to $0.4 - 0.6$ and a significant minority will still pick $0.2$ (A) because they are uncomfortable with negative results in non-algebra contexts.
+*   **Advanced:** These students will identify the need for BIDMAS immediately and be comfortable with the negative result. The only errors here would be "silly" slips or misreading $\frac{1}{5} \times 3$ as $\frac{1}{15}$.
+
+below_basic: A=20% B=55% C=5% D=20%
+basic: A=35% B=45% C=10% D=10%
+proficient: A=25% B=15% C=55% D=5%
+advanced: A=5% B=2% C=92% D=1%

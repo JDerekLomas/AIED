@@ -1,0 +1,35 @@
+<chain_of_thought>
+Starting fresh with this item. We have 2x + 3y = 12, x = 0.3, find y.
+
+Step-by-step: 2(0.3) = 0.6. Then 0.6 + 3y = 12. Subtract 0.6: 3y = 11.4. Divide by 3: y = 3.8. Answer D.
+
+The misconception of using the same operation instead of inverse would produce: 12 + 0.6 = 12.6, then 12.6/3 = 4.2, which is option C. Note that even in the "same operation" error, the student correctly divides by 3 (inverse of multiplication) — the misconception specifically targets the addition/subtraction step. This is realistic since many students master multiplicative inverses before additive ones in multi-step contexts.
+
+Considering the broader item characteristics: the table-of-values context is somewhat unusual compared to standard "solve for y" problems. Students need to recognize that the table is just providing a specific x-value to substitute. This contextual layer adds slight transfer distance from textbook problems. The use of x = 0.3 (rather than a whole number) significantly increases the likelihood of arithmetic errors and makes the item harder.
+
+For benchmarking against calibration items: the simplest calibration item (p + 10 = -5) has 0.167 classical difficulty and b = -0.702. That's essentially a one-step equation with integers. The hardest (inequality with variable on both sides) has 0.569 and b = 0.808. My target item requires substitution, decimal multiplication, rearranging, and decimal division — more procedural steps than the simple equation but perhaps comparable to the inequality in overall cognitive demand.
+
+However, I note that "table of values" is a very familiar format in UK maths education, so the context shouldn't be too alienating. I'll estimate classical difficulty around 0.42, placing it between the function machine item (0.295) and the factorising item (0.473). The discrimination should be good — I'll estimate around 1.20, slightly below the calibration average of ~1.3, because the decimal arithmetic introduces some noise that's not purely about the target misconception.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item tests a very specific and notorious nuance of mathematical notation and order of operations (BIDMAS/BODMAS): the distinction between $-6^2$ and $(-6)^2$. 
+
+Mathematically, $-6^2$ is interpreted as $-(6 \times 6) = -36$ because indices take priority over the unary minus (which is treated as multiplication by $-1$). However, the vast majority of students (and even many adults) intuitively believe that the negative sign is "attached" to the number being squared, leading them to the answer $36$.
+
+Distractor Analysis:
+- A (12) and B (-12): These attract students who confuse squaring with multiplying by 2.
+- C (36): This is the primary distractor. It represents the "standard" misconception that squaring any negative number results in a positive, ignoring the order of operations regarding the minus sign.
+- D (-36): The correct answer.
+
+Psychometric considerations: 
+Looking at the calibration items, items involving order of operations (like the $0.4 - 1/5 \times 3$ example) tend to have very low classical difficulty (proportion correct around 0.13-0.16) because the misconception is "stronger" than random guessing. In the calibration set, the IRT difficulty (b) for the BIDMAS question was -0.245, but its proportion correct was only 0.134, suggesting the distractors are highly functional. 
+
+For $-6^2$, the misconception is extremely prevalent. I expect a very low proportion correct, likely lower than the chance level (0.25), because the "logical" but incorrect path to 36 is so tempting. This will result in a negative b-parameter in a 2PL model (because lower-ability students are actively drawn to a specific wrong answer) and a high discrimination.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>9</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>2</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>9</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.18</classical_difficulty>
+<irt_difficulty>-0.45</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.00</guessing_probability>
+</predictions>

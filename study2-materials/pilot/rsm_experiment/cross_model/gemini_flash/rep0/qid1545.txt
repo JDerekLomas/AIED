@@ -1,0 +1,26 @@
+This question specifically tests the Order of Operations (BIDMAS/BODMAS). The numbers are small and easy to compute, which means errors are almost exclusively down to whether a student knows to divide before adding on the left-hand side.
+
+The left-hand side is $8 + 3 = 11$. 
+The right-hand side is $20 \div 4 = 5$. 
+Since $11 > 5$, the correct answer is **A**.
+
+The most common misconception is "left-to-right" processing on the first expression ($8+12 = 20$, then $20 \div 4 = 5$), which leads students to conclude that $5 = 5$, making **C** the strongest distractor. Students who guess or have a weak understanding of inequality symbols often gravitate towards **B**. Option **D** is rarely chosen by anyone with basic numeracy as it feels "too complex" for a simple comparison.
+
+**Predicted Performance:**
+
+below_basic: A=30% B=20% C=45% D=5%
+**Reasoning:** Many students in this bracket will perform the calculation $8+12$ first because it appears first. They will see $5$ on both sides and choose $=$.
+
+basic: A=55% B=10% C=33% D=2%
+**Reasoning:** At this level, students are aware of BIDMAS but often forget to apply it under pressure or when the addition looks "easier." The "=" trap is still very high here.
+
+proficient: A=88% B=2% C=9% D=1%
+**Reasoning:** Proficient students usually recognise the bracket/division priority immediately. Errors here are mostly due to silly arithmetic mistakes (e.g., thinking $20 \div 4 = 4$).
+
+advanced: A=98% B=1% C=1% D=0%
+**Reasoning:** This is a trivial problem for advanced students. Only the rarest of "slip of the pen" errors would occur.
+
+below_basic: A=30% B=20% C=45% D=5%
+basic: A=55% B=10% C=33% D=2%
+proficient: A=88% B=2% C=9% D=1%
+advanced: A=98% B=1% C=1% D=0%

@@ -1,0 +1,15 @@
+This question tests Order of Operations (BIDMAS/BODMAS) with a secondary layer of directed number arithmetic. 
+
+**Distractor Analysis:**
+*   **A (The Correct Answer):** $4 \times 2 = 8$, then $3 - 5 + 8$. Many students find $3-5+8$ tricky. If they do $3 - (5 + 8)$, they get $-10$. If they do $3-5 = -2$ then $-2+8 = 6$, they are correct.
+*   **B (Misconception - Order of Operations):** Calculating strictly left-to-right: $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$. This is a very common error for basic/below basic students who ignore priority of multiplication.
+*   **C (Misconception - Addition before Subtraction):** Some students follow "A before S" literally in BIDMAS: $5 + (4 \times 2) = 13$, then $3 - 13 = -10$ (Wait, this leads to D). To get -12, students often do $(3-5+4) \times 2 \rightarrow (2) \times 2$, but C is often a "random" high-value error or linked to $-(5+4) \times 2$.
+*   **D (Misconception - "A before S" + Multiplication):** $4 \times 2 = 8$. Then, taking BIDMAS literally: $5 + 8 = 13$. Then $3 - 13 = -10$. This is the "classic" high-level misconception for students who know BIDMAS but don't realize Addition and Subtraction have equal priority.
+
+**Predictions:**
+Below basic students will almost exclusively work left-to-right (Option B). Basic students will struggle with the negative numbers and the priority of multiplication. Proficient students often fall into the "Addition before Subtraction" trap (Option D). Advanced students will handle the equal priority of addition/subtraction correctly.
+
+below_basic: A=15% B=60% C=10% D=15%
+basic: A=35% B=30% C=5% D=30%
+proficient: A=65% B=5% C=5% D=25%
+advanced: A=92% B=2% C=1% D=5%

@@ -1,0 +1,12 @@
+This question is a classic "variable in the denominator" problem. While mathematically simple, it triggers a very specific set of errors based on how students "read" the numbers.
+
+The most common error for students at the **Below Basic** and **Basic** levels is to assume that because the 10 and 5 are integers, the answer must also be an integer (leading them to $10 \div 5 = 2$). There is also a strong tendency to perform a multiplication (giving 50) because they see a division sign and feel they need to do the inverse operation, but apply it to the wrong number.
+
+**Proficient** students usually recognize that $p$ must be a fraction or decimal because the result (10) is larger than the numerator (5). However, a significant portion still accidentally performs $10 \div 5$ instead of $5 \div 10$ due to cognitive load or habit.
+
+**Advanced** students see this as $10p = 5$ or simply swap the $p$ and the 10, correctly identifying $0.5$.
+
+below_basic: A=15% B=30% C=45% D=10%
+basic: A=35% B=15% C=45% D=5%
+proficient: A=70% B=5% C=23% D=2%
+advanced: A=96% B=1% C=3% D=0%

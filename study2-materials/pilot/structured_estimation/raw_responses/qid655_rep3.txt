@@ -1,0 +1,41 @@
+<chain_of_thought>
+Item: (-6) x star = -8, find star. Correct answer D: 8/6.
+
+The solution path: star = -8 / (-6). The negatives cancel, giving 8/6. Students need to know: inverse operations (division undoes multiplication), sign rules for division of negatives, and how to express the result as a fraction without simplifying (since 8/6 is offered unsimplified, matching 4/3).
+
+Key considerations for difficulty:
+
+1. The equation format with a star symbol rather than a variable letter is somewhat non-standard but common in diagnostic assessments for younger secondary students. This might actually make it slightly more accessible.
+
+2. The result is an improper fraction (8/6 > 1), which some students find counterintuitive — they might expect the answer to have a smaller numerator than denominator, biasing toward options A or B.
+
+3. The negative sign handling is the core discriminating feature. Many students at KS3 level struggle with neg x neg = pos, especially in equation-solving contexts rather than direct computation.
+
+4. Distractor C (-8/6) is very attractive because a student who correctly performs the division but mishandles signs will select it. Distractor A (6/8) catches students who invert the fraction. B catches students making both errors.
+
+Looking at the calibration set, the misconception "believes multiplying two negatives gives a negative answer" appeared in the Tom/Katie item at difficulty 0.473, b=0.404, with notable guessing (c=0.186). This item is more direct — less reading comprehension required, simpler math context — but the fraction component adds its own challenge. I'd estimate similar difficulty, perhaps marginally lower.
+
+I think classical difficulty is around 0.47, IRT difficulty around 0.38. Discrimination should be moderate — the distractors are well-structured but students might guess between C and D if they're unsure about signs. Some guessing is expected given the 2x2 structure of options.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>6</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.47</classical_difficulty>
+<irt_difficulty>0.38</irt_difficulty>
+<irt_discrimination>1.20</irt_discrimination>
+<guessing_probability>0.17</guessing_probability>
+</predictions>

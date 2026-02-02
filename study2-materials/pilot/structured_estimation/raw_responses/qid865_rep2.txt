@@ -1,0 +1,49 @@
+<chain_of_thought>
+Let me work through this item carefully. We have a negative quadratic (downward-opening parabola) crossing at x = -5 and x = 1.
+
+Step 1: Identify the roots from the graph. The x-intercepts are -5 and 1. Any correct equation must have these as roots.
+
+Step 2: Check which options have the right roots.
+- A: (1-x)(x+5) = 0 when x=1 or x=-5. Correct roots.
+- B: (1-x)(5-x) = 0 when x=1 or x=5. Wrong (5 not -5).
+- C: (x-1)(x+5) = 0 when x=1 or x=-5. Correct roots.
+- D: (x-1)(x-5) = 0 when x=1 or x=5. Wrong.
+
+So it's between A and C. Both have the right roots.
+
+Step 3: Determine orientation. The graph opens downward, so the coefficient of x^2 must be negative.
+- A: (1-x)(x+5) = x + 5 - x^2 - 5x = -x^2 - 4x + 5. Leading coefficient -1. Opens downward. Correct.
+- C: (x-1)(x+5) = x^2 + 5x - x - 5 = x^2 + 4x - 5. Leading coefficient +1. Opens upward. Wrong.
+
+So A is correct. The critical discrimination is between A and C - students must understand the relationship between the factored form and the direction the parabola opens. The factor (1-x) vs (x-1) is the key difference, and recognizing that (1-x) = -(x-1) introduces the necessary negative coefficient.
+
+This is a higher-order question within the UK KS3/KS4 curriculum. It sits at the intersection of graphing quadratics and algebraic manipulation. Many students at this level struggle with the connection between algebraic form and graphical features, especially regarding orientation.
+
+The misconception "believes multiplying two negatives gives a negative answer" is relevant because students choosing C might think that since (x-1) has a negative term and they see a negative parabola, those are related - but they're confusing the constant term's sign with the leading coefficient's sign.
+
+For difficulty estimation: Options B and D can be eliminated by students who understand roots, narrowing it to A vs C - essentially a 50/50 for those students if they can't determine orientation. This suggests moderate difficulty. I'd put this around the same level as the inequalities problem (0.569 classical) or slightly below.
+
+Discrimination might be moderate - the item cleanly separates students who understand orientation from those who don't, but the 50/50 between A and C for partially-knowledgeable students could reduce discrimination somewhat.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>7</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.48</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.20</guessing_probability>
+</predictions>

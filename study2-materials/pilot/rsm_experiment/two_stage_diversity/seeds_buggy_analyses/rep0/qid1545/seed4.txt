@@ -1,0 +1,33 @@
+As an expert in mathematical misconceptions, I have identified a primary error common among UK Year 9 students (ages 13–14) who have a fragile understanding of the hierarchy of operations.
+
+### 1. The Misconception: "Linear Processing" (The Left-to-Right Bug)
+The specific misconception is **Linear Processing**, also known as "scanning." The student ignores the precedence rules of **BIDMAS** (Brackets, Indices, Division/Multiplication, Addition/Subtraction) and instead treats the mathematical expression like a sentence in English, performing operations strictly in the order they appear from left to right.
+
+### 2. The Step-by-Step Procedure
+A student with the Linear Processing bug would work through the problem as follows:
+
+**Left-hand side calculation:**
+1.  The student sees $8 + 12 \div 4$.
+2.  Following the linear order, they first perform the addition: $8 + 12 = 20$.
+3.  They then take that result and perform the next operation: $20 \div 4 = 5$.
+4.  The student concludes the left side is **5**.
+
+**Right-hand side calculation:**
+1.  The student sees $(8 + 12) \div 4$.
+2.  Even though there are brackets, the addition $8+12$ is already the first operation on the left.
+3.  They calculate $8 + 12 = 20$.
+4.  They then calculate $20 \div 4 = 5$.
+5.  The student concludes the right side is **5**.
+
+### 3. The Resulting Answer
+Because the student calculated $5$ for the left side and $5$ for the right side, they will choose:
+**C) $=$**
+
+*(The correct mathematical path, using BIDMAS, results in $8 + 3 = 11$ on the left and $20 \div 4 = 5$ on the right, leading to answer A).*
+
+### 4. Attractiveness of the Error
+This error is **highly attractive** and often feels "correct" to the student for three reasons:
+
+*   **Symmetry and Intuition:** Students often possess an intuitive (but false) belief that brackets are "extra" or "decorative" if the numbers inside are already at the start of the expression. Since they naturally want to add 8 and 12 first because they appear first, the presence of brackets on the right feels like it’s just confirming what they were going to do anyway.
+*   **The "Clean Result" Bias:** Both paths yield a whole number (5). If the linear path resulted in a messy fraction or decimal (e.g., if the division wasn't exact), the student might pause. Because $20 \div 4$ "works" so perfectly, it reinforces their confidence that they are on the right track.
+*   **Metacognition:** The student is unlikely to realize they are wrong. To them, the expressions look virtually identical in "ingredients," and since they "processed" them the same way, the equality feels logically sound. They view BIDMAS as a set of rules for "complex" problems, failing to realize it applies to every single calculation.

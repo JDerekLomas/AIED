@@ -1,0 +1,50 @@
+<chain_of_thought>
+This item asks students to substitute k = 8 into 2j - k = -10 and solve for j.
+
+Working through: 2j - 8 = -10, so 2j = -10 + 8 = -2, so j = -1. Answer D.
+
+Let me think about what makes this item distinctive from the calibration examples that test the same misconception ("uses same operation rather than inverse").
+
+Three calibration items test this exact misconception:
+1. -5 = p + 10 → classical difficulty 0.167, b = -0.702 (easy)
+2. Function machine for x^2 + 5 = 14 → classical difficulty 0.295, b = 0.002 (moderate)
+3. Inequality 2n + 3 ≤ 3n - 7 → classical difficulty 0.569, b = 0.808 (hard)
+
+The progression shows that difficulty increases with: number of steps, complexity of the equation structure, and additional cognitive demands (visual interpretation, inequality concepts).
+
+This target item has several difficulty-increasing features:
+- Simultaneous equations context (though only one equation is actually used)
+- Substitution step required before solving
+- Negative numbers throughout (RHS is -10, answer is negative)
+- Two operations to undo (subtract k, then multiply by 2)
+
+But it also has simplifying features:
+- k's value is directly given (no need to solve a system)
+- The equation structure is standard
+
+I think this lands between the function machine item (0.295) and the factoring item (0.473). The simultaneous equations framing could confuse weaker students who don't realize they just need to substitute and solve. Negative numbers add substantial difficulty for this age group.
+
+My estimate: classical difficulty around 0.40, b around 0.20. The item should discriminate well since it cleanly separates students who can handle inverse operations with negatives from those who can't. Discrimination around 1.35. Guessing should be low since the distractors are targeted to specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>3</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.40</classical_difficulty>
+<irt_difficulty>0.20</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

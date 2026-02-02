@@ -1,0 +1,13 @@
+To arrive at these predictions, I have considered the typical Year 9 thought processes regarding BIDMAS/order of operations:
+
+*   **The "Left-to-Right" Trap (D):** Many lower-ability students ignore order of operations entirely and work linearly: $3-5 = -2$, then $-2+4 = 2$, then $2 \times 2 = 4$. This feels "natural" to those who view maths as a reading exercise.
+*   **The "Addition before Subtraction" Trap (B):** This is a specific nuance of the acronym "BODMAS/BIDMAS". Students think 'A' comes before 'S', so they calculate $5+4=9$, then $3-9 = -6$ (which isn't an option) or $4 \times 2 = 8$ then $3 - (5+8) = -10$. This is a very common "mid-tier" error where the student knows the rule but applies it too rigidly.
+*   **The "Addition First" variant (C):** Doing $3 - 5 + 8$ but grouping it as $3 - (5+8)$ leading to $3 - 13 = -10$. Or, doing $3 - 5 = -2$, $4 \times 2 = 8$, then mistakenly subtracting to get $-10$.
+*   **Correct (A):** Performing $4 \times 2 = 8$, then $3 - 5 + 8 \rightarrow -2 + 8 = 6$. Proficient students handle the negative correctly; basic students often stumble on the final integer addition even if they know the order.
+
+Here is the predicted breakdown:
+
+below_basic: A=10% B=25% C=15% D=50%
+basic: A=35% B=30% C=15% D=20%
+proficient: A=80% B=10% C=5% D=5%
+advanced: A=98% B=1% C=1% D=0%

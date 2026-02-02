@@ -1,0 +1,43 @@
+<chain_of_thought>
+Let me work through this item carefully.
+
+The question asks students to compare two expressions:
+- Left side: 8 + 12 ÷ 4
+- Right side: (8 + 12) ÷ 4
+
+Left side (using correct order of operations): 12 ÷ 4 = 3, then 8 + 3 = 11.
+Right side: (8 + 12) = 20, then 20 ÷ 4 = 5.
+So 11 > 5, and the answer is A (>).
+
+The misconception tested is "carries out operations from left to right regardless of priority order." A student with this misconception would compute the left side as (8+12) ÷ 4 = 5, getting the same result on both sides, and choose C (=).
+
+Looking at the calibration examples, the order-of-operations item (0.4 - 1/5 × 3) had classical difficulty 0.134 and IRT difficulty -0.245. That item involved decimals and fractions which adds complexity, but the BODMAS error there was also very common.
+
+This item is conceptually simpler — whole numbers only, no fractions — but the comparison format is somewhat unusual. Students must evaluate both sides and compare. The misconception of left-to-right processing is extremely common among younger secondary students. The distractor C (=) is highly plausible for students who ignore order of operations.
+
+However, option D (≥) is not particularly attractive, and option B (<) requires a specific different error. The main trap is C. I'd estimate this is a relatively easy-to-moderate item — students who know BODMAS will get it right, and those who don't will likely choose C.
+
+I'll estimate classical difficulty around 0.25-0.30 — somewhat harder than the calibration BODMAS item because the comparison format adds cognitive load, but the numbers are simpler. The discrimination should be moderate-to-good since it cleanly separates those who know order of operations from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>6</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

@@ -1,0 +1,25 @@
+As an expert in mathematical misconceptions, I identify the following "bug" frequently encountered in UK Year 9 classrooms.
+
+### 1. The Specific Misconception: "Operation Switching via Commutative Illusion"
+This is a specific procedural bug where students perceive the relationship between numbers as fixed, but fail to account for the position of the variable (the divisor). Specifically, they treat the division $5 \div p$ as if it were $p \div 5$ or simply assume that to "move" a number, they must apply its inverse to the result, regardless of its role in the fraction. 
+
+In this case, the student sees a "5" and a "10" and automatically assumes the solution must be the result of $10 \div 5$ because they are conditioned to divide the "large" number by the "small" number to find a whole-integer result.
+
+### 2. Step-by-Step Procedure
+A student with this misconception would likely follow these steps:
+1.  **Identify the goal:** The student knows they need to "get $p$ on its own."
+2.  **Misidentify the inverse:** Looking at $10 = \frac{5}{p}$, the student identifies that the 5 is "part of a division."
+3.  **The "Commutative Shortcut":** Instead of multiplying both sides by $p$, the student performs a "shorthand" move. They assume that to solve for $p$, they simply need to move the 5 over and perform the operation they are most comfortable with: **$10 \div 5$**.
+4.  **Calculation:** They compute $10 \div 5 = 2$.
+5.  **Final Statement:** They conclude that $p = 2$.
+
+### 3. Answer Option
+This misconception leads directly to **Option C: $p=2$**.
+
+### 4. Attractiveness and Realisation
+**Attractiveness:** This is a highly "attractive" error for several reasons:
+*   **Integer Bias:** Students in Year 9 are often still biased toward integer solutions. $10 \div 5$ gives a "clean" 2, whereas the correct method ($5 \div 10$) results in a decimal ($0.5$).
+*   **Linear Pattern Matching:** In equations like $5p = 10$, the answer is 2. The student fails to distinguish between the coefficient and the divisor, applying the same "divide-the-total-by-the-other-number" heuristic they use for linear equations.
+*   **Physical Manipulation:** To a student, it "looks" like the 5 is just being swapped with the $p$, but their mental shortcut flips the division order without them realizing it.
+
+**Realisation:** The student is **very unlikely** to realize they have gone wrong. If they "check" their work, they might mistakenly substitute the values back in as $10 \div 5 = 2$, reinforcing the error because all three numbers (5, 10, and 2) belong to the same familiar multiplication table. They perceive a logical harmony between the numbers that masks the algebraic error.

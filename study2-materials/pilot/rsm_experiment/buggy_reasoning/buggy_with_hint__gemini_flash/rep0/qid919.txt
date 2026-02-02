@@ -1,0 +1,45 @@
+As a UK maths teacher, I encounter this specific BIDMAS (order of operations) error frequently when dealing with indices and coefficients. Here is the diagnostic breakdown of the student errors for the equation $y=3x^2$ where $x=0.3$.
+
+### 1. Analysis of Wrong Answer Options
+
+**Option A: 0.81 (The target misconception)**
+*   **Buggy Reasoning:** The student carries out operations from left to right: $(3 \times 0.3)^2$. They first multiply the coefficient by the $x$-value ($3 \times 0.3 = 0.9$) and then square the result ($0.9^2 = 0.81$).
+*   **Attractiveness:** **High.** This is a classic "left-to-right" bias. In English-speaking countries, we read left to right, and students often assume priority follows reading order. For a lower-ability student, "Three lots of $x$, then square it" sounds more intuitive than "Square the $x$, then triple it."
+
+**Option C: 1.8**
+*   **Buggy Reasoning:** "Squaring means doubling." The student performs $3 \times (0.3 \times 2)$. They substitute correctly and follow the order of operations but misunderstand the index notation ($x^2$), treating it as $x \times 2$.
+*   **Attractiveness:** **Moderate.** This is a common error for students just being introduced to powers, though less common by the time they reach Year 9 or 10. It is often a "mental fatigue" error where the brain swaps "square" for "double" under pressure.
+
+**Option D: 2.7**
+*   **Buggy Reasoning:** Incorrect place value/decimal movement during multiplication. The student squares $0.3$ correctly ($0.09$) but when multiplying $3 \times 0.09$, they incorrectly handle the decimal point, perhaps thinking "3 times 9 is 27, and there is one decimal place in the original $x$ value," leading to $2.7$. Alternatively, they may have simply multiplied $3^2 \times 0.3 = 9 \times 0.3 = 2.7$.
+*   **Attractiveness:** **Low to Moderate.** This usually appeals to students who have the correct algebraic order but lack confidence in their arithmetic (specifically decimal multiplication).
+
+**The Correct Answer (Option B): 0.27**
+*   **Correct Logic:** Indices first, then multiplication. $0.3^2 = 0.09$. Then $3 \times 0.09 = 0.27$.
+
+---
+
+### 2. Judging Attractiveness
+
+*   **Option A (0.81)** is the most "logical" error. It feels like a complete procedure ($3 \times 0.3 = 0.9 \rightarrow 0.9^2 = 0.81$). Students are often satisfied when they reach a "tidy" number like 0.81. This is a very persistent error even at mid-tier GCSE levels.
+*   **Option C (1.8)** is less attractive once students have mastered basic indices, but is a major "noise" distractor for lower sets.
+*   **Option D (2.7)** is a procedural mix-up or a "wild guess" based on digits they see in their head (3, 9, 27).
+
+---
+
+### 3. Predicted Response Distribution
+
+**Key for Ability Levels:**
+*   **Below Basic:** Struggling with place value and basic BIDMAS.
+*   **Basic:** Familiar with squaring but defaults to left-to-right processing.
+*   **Proficient:** Understands BIDMAS but might slip on decimal arithmetic ($0.3^2 = 0.9$).
+*   **Advanced:** Mastery of indices and decimal operations.
+
+| Ability Level | A (0.81) | B (0.27) - Correct | C (1.8) | D (2.7) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 45% | 10% | 30% | 15% |
+| **Basic** | 50% | 25% | 15% | 10% |
+| **Proficient** | 25% | 65% | 5% | 5% |
+| **Advanced** | 5% | 93% | 1% | 1% |
+
+**Note on "Basic/Proficient":** You often see a spike in **Option A** for "Basic" students. They have learned to square and multiply, so they feel confident enough to perform the steps, but they haven't yet internalised the "priority of indices" over multiplication in algebraic notation. Only at the "Proficient" level does $3x^2$ stop being read as $(3x)^2$.

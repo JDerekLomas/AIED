@@ -1,0 +1,16 @@
+This order of operations (BIDMAS/BODMAS) question is a classic "trap" for students across all ability levels due to the specific arrangement of the operators.
+
+The primary pitfall here is not the multiplication (which most know comes first), but the subtraction and addition that remain ($3 - 5 + 8$). A significant number of students believe that **A**ddition must always come before **S**ubtraction because the 'A' precedes 'S' in the acronym. This leads them to calculate $5 + 8 = 13$ first, followed by $3 - 13 = -10$ (Option D).
+
+**Analysis of Options:**
+*   **A (6):** Correct. $4 \times 2 = 8$, then $3 - 5 + 8 = -2 + 8 = 6$.
+*   **B (4):** A common "left-to-right" error without BIDMAS: $3 - 5 = -2$, then $-2 + 4 = 2$, then $2 \times 2 = 4$.
+*   **C (-12):** Left-to-right calculation with an arithmetic error, or doing $3 - (5+4) \times 2$.
+*   **D (-10):** The most common "high-level" misconception. Students correctly do multiplication first but then incorrectly believe Addition *must* happen before Subtraction ($3 - (5+8)$).
+
+**Predictions:**
+
+below_basic: A=25% B=40% C=10% D=25%
+basic: A=35% B=20% C=5% D=40%
+proficient: A=55% B=5% C=2% D=38%
+advanced: A=92% B=1% C=0% D=7%

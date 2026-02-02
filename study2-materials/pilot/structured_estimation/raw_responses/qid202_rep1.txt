@@ -1,0 +1,42 @@
+<chain_of_thought>
+The target item is 2 1/5 + 1 2/5, with the instruction to leave the answer as a mixed number.
+
+The correct answer is A: 3 3/5. The computation is: whole numbers 2+1=3, fractions 1/5+2/5=3/5, giving 3 3/5.
+
+Analyzing distractors:
+- B (18/5): Correct numerically but not a mixed number. A student who converts to improper fractions (11/5 + 7/5 = 18/5) and stops there would select this. This tests whether students follow instructions about mixed number form.
+- C (18/10): This comes from adding improper fractions incorrectly -- 11/5 + 7/5 where someone adds both top and bottom: (11+7)/(5+5) = 18/10. Classic misconception.
+- D (3 3/10): Whole number part correct (3), but fraction part uses the misconception: (1+2)/(5+5) = 3/10.
+
+The misconception being tested is quite prevalent among KS3 students. However, since both fractions already have the same denominator, many students will recognize they can just add the numerators over 5. This makes the item somewhat easier than if the denominators differed.
+
+Comparing to calibration items: the first item (solving -5=p+10) had classical difficulty 0.167 and was fairly straightforward algebra. This fraction addition item is similarly procedural but in a different domain. I think fraction items tend to be slightly harder for the target age group because of persistent misconceptions.
+
+I'll estimate classical difficulty around 0.25-0.30. The presence of distractor B (correct value, wrong form) might catch some students who don't read instructions carefully, increasing the error rate slightly.
+
+IRT difficulty: around -0.2 to 0.0, putting it near the middle-easy range.
+Discrimination: the distractors are well-designed to catch specific errors, so discrimination should be decent, around 1.2-1.3.
+Guessing: low, maybe 0.05-0.10, since the correct answer is fairly obvious to competent students.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>4</visual_complexity>
+<solution_uniqueness>4</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.28</classical_difficulty>
+<irt_difficulty>-0.20</irt_difficulty>
+<irt_discrimination>1.25</irt_discrimination>
+<guessing_probability>0.08</guessing_probability>
+</predictions>

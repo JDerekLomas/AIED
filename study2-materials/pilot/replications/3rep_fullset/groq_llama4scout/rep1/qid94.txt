@@ -1,0 +1,50 @@
+To approach this question, let's first understand what a quadratic sequence is. A quadratic sequence is a sequence of numbers in which the difference between consecutive terms changes by a constant amount each time. This is also known as a second-order linear sequence or a quadratic progression.
+
+## Step1: Analyze Tom's sequence
+Tom's sequence is \(24, 15, 8, 3, 0, \ldots\). Let's calculate the differences between consecutive terms:
+- \(15 - 24 = -9\)
+- \(8 - 15 = -7\)
+- \(3 - 8 = -5\)
+- \(0 - 3 = -3\)
+
+The differences between consecutive terms are \(-9, -7, -5, -3\). The differences of these differences are:
+- \(-7 - (-9) = 2\)
+- \(-5 - (-7) = 2\)
+- \(-3 - (-5) = 2\)
+
+Since the second differences are constant (all are \(2\)), Tom's sequence is indeed a quadratic sequence.
+
+##2: Analyze Katie's sequence
+Katie's sequence is \(124, 63, 26, 7, 3, 0, \ldots\). Let's calculate the differences between consecutive terms:
+- \(63 - 124 = -61\)
+- \(26 - 63 = -37\)
+- \(7 - 26 = -19\)
+- \(3 - 7 = -4\)
+- \(0 - 3 = -3\)
+
+The differences between consecutive terms are \(-61, -37, -19, -4, -3\). The differences of these differences are:
+- \(-37 - (-61) = 24\)
+- \(-19 - (-37) = 18\)
+- \(-4 - (-19) = 15\)
+- \(-3 - (-4) = 1\)
+
+Since the second differences are not constant, Katie's sequence is not a quadratic sequence.
+
+##3: Determine the Correct Answer
+Given the analysis:
+- Tom is correct because his sequence is a quadratic sequence.
+- Katie is incorrect because her sequence is not a quadratic sequence.
+
+Therefore, the correct answer is A: Only Tom.
+
+##4: Predict Student Responses
+- **Below Basic**: Students at this level might struggle to understand what a quadratic sequence is or how to calculate differences. They might not recognize either sequence as quadratic or might incorrectly identify both. Given the sequences and the question, they might lean towards D: Neither is correct, because they don't fully understand the concept or can't perform the calculations. A=20% B=10% C=10% D=60%
+- **Basic**: Students at this level have a basic understanding of sequences and can calculate differences. They might get Tom's correct but struggle with Katie's or vice versa. However, they are more likely to understand the concept enough to see Tom's sequence as quadratic but might be confused by Katie's. A=40% B=20% C=20% D=20%
+- **Proficient**: Students at this level should easily identify Tom's sequence as quadratic and Katie's not. They understand the definition and can apply it. A=70% B=10% C=10% D=10%
+- **Advanced**: Students at this advanced level will certainly understand the sequences and can quickly verify Tom's sequence as quadratic and Katie's as not. A=90% B=5% C=5% D=0%
+
+The final answer is:
+below_basic: A=20% B=10% C=10% D=60%
+basic: A=40% B=20% C=20% D=20%
+proficient: A=70% B=10% C=10% D=10%
+advanced: A=90% B=5% C=5% D=0%

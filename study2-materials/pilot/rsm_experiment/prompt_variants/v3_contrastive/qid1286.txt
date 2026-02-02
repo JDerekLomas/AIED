@@ -1,0 +1,17 @@
+This question tests a student's ability to rearrange a formula involving a fraction, a power, and the constant $\pi$. While the formula for the volume of a sphere ($V = \frac{4}{3}\pi r^3$) is usually provided in the exam formula sheet or expected to be known, the algebraic manipulation required to isolate $r$ is a significant hurdle.
+
+**Key Challenges & Distractors:**
+1.  **The Fraction Multiplication:** Many students struggle with "undoing" the $\frac{4}{3}$. Some try to divide by 4 and then divide by 3 (leading to something like Option B), while others simply get the reciprocal flip wrong (Option A).
+2.  **Position of $\pi$:** Students often lose track of whether $\pi$ is in the numerator or denominator. In the standard formula, $\pi$ is "on top." To move it, it must go to the "bottom." Option A incorrectly keeps $\pi$ in the numerator.
+3.  **The Cube Root:** While most students recognize the $r^3$ requires a cube root, weaker students often fail to extend the radical symbol over the entire expression (Option D), or they apply the root before finishing the algebraic isolation.
+
+**Performance Prediction:**
+*   **Below Basic:** These students often guess or pick an option that looks "busy" with familiar symbols. They are highly likely to pick A or B because they struggle with the fractional reciprocal.
+*   **Basic:** Students at this level know it involves a cube root but often fail the two-step process of multiplying by 3 and dividing by $4\pi$. They often land on B.
+*   **Proficient:** These students generally know the formula and the steps but might make a transcription error. Most will correctly identify C.
+*   **Advanced:** These students will manipulate $V = \frac{4\pi r^3}{3}$ to $3V = 4\pi r^3$, then $\frac{3V}{4\pi} = r^3$ fluently.
+
+below_basic: A=35% B=30% C=20% D=15%
+basic: A=20% B=35% C=35% D=10%
+proficient: A=10% B=15% C=70% D=5%
+advanced: A=2% B=3% C=94% D=1%

@@ -1,0 +1,13 @@
+To a teacher, this looks trivial, but for Year 9, this is a classic "trapped variable" problem. The most common pitfall here is **"operator priority bias"**—students see the 10 and the 5 and instinctively divide the larger by the smaller (10 ÷ 5 = 2) or multiply them (10 × 5 = 50) because they are uncomfortable with the variable $p$ being the divisor.
+
+**Predicting the "Whys":**
+*   **The "C" Group (The 2s):** This will be the most common error. Students like Leo or Chloe will look at the numbers and perform the most comfortable division available. They think: "$10 \div 5 = 2$," and immediately circle C without plugging it back in to check if $5/2$ actually equals 10.
+*   **The "B" Group (The 50s):** Students like Jack, who have a loose grasp of "doing the inverse," will see the division sign and decide they need to multiply. $10 \times 5 = 50$. They've forgotten that you only multiply when the variable is on top.
+*   **The "A" Group (The 0.5s):** My more confident but rushed students (like Sarah) will correctly rearrange it to $10p = 5$, but then in the final step, they’ll subconsciously "correct" the division to $10 \div 5$ instead of $5 \div 10$ because they prefer whole number answers.
+
+**Predicted Distribution:**
+
+below_basic: A=10% B=40% C=50% D=0%
+basic: A=20% B=10% C=60% D=10%
+proficient: A=70% B=5% C=25% D=0%
+advanced: A=95% B=0% C=5% D=0%

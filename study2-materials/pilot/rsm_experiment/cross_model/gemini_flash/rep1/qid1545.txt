@@ -1,0 +1,12 @@
+This question specifically tests the hierarchy of operations (BIDMAS/BODMAS). The difficulty lies in the fact that the left-hand side requires the student to ignore the "natural" left-to-right reading order (which would lead to $20 \div 4 = 5$) and instead perform division first ($8 + 3 = 11$). The right-hand side uses brackets to force the addition first ($20 \div 4 = 5$).
+
+**Teacher's Insight:**
+*   **Below Basic** students often solve expressions linearly from left to right. For the left side, they will calculate $(8+12) \div 4 = 5$. Seeing that both sides result in 5, they will overwhelmingly choose **C (=)**.
+*   **Basic** students are aware of BIDMAS but often apply it inconsistently or misremember the order. Some will get the correct 11 on the left, but a significant portion will still be lured by the "easy" $8+12=20$ on both sides and select C.
+*   **Proficient** students usually handle BIDMAS reliably. They will calculate $8 + 3 = 11$ and $20 \div 4 = 5$. Since $11 > 5$, they will choose **A**. The main error here is a "glance error" where they assume the brackets don't change anything.
+*   **Advanced** students will solve this mentally and instantly. Option D is a distractor that they will ignore.
+
+below_basic: A=15% B=10% C=70% D=5%
+basic: A=45% B=10% C=40% D=5%
+proficient: A=82% B=5% C=10% D=3%
+advanced: A=97% B=1% C=1% D=1%

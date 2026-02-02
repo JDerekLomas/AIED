@@ -1,0 +1,41 @@
+As a specialist in mathematical diagnostics, I have analyzed the student errors for the problem $\frac{3}{2x} + \frac{4}{x}$.
+
+### 1. Error Analysis
+
+**Option B: $\frac{7}{3x}$**
+*   **Reasoning:** Adds numerators ($3+4=7$) and adds denominators ($2x+x=3x$).
+*   **Misconception:** The student applies "daisy-chain" addition, treating fractions as pairs of whole numbers rather than ratios. This is a carry-over from fundamental fraction misconceptions in primary school.
+
+**Option C: $\frac{11}{x}$**
+*   **Reasoning:** The student correctly identifies that they need a common denominator and multiplies the second fraction by 2 to get $\frac{8}{2x}$. They add the numerators ($3+8=11$). However, they then "simplify" by mistakenly thinking they should divide the denominator by 2 or simply forgetting to write the coefficient 2.
+*   **Misconception:** Partial execution of the algorithm. The student performs the transformation on the numerator but fails to maintain the correct denominator in the final result.
+
+**Option D: $\frac{7}{2x}$**
+*   **Reasoning:** Adds the numerators ($3+4=7$) but recognizes that they need a "common denominator," choosing $2x$ as it appears in the question.
+*   **Misconception:** The student knows they shouldn't add the denominators but fails to realize that the numerators must be adjusted (equivalent fractions) before adding. They "force" a common denominator without mathematical balancing.
+
+---
+
+### 2. Attractiveness of Errors
+
+*   **Option B (High Attractiveness for low-attainers):** This is the most intuitive "shortcut." It feels "fair" to treat top and bottom equally. Students usually won't notice a problem because the arithmetic is easy.
+*   **Option D (Extremely Attractive for mid-range):** This is a very "dangerous" distractor. Students often remember the rule "keep the denominator the same," and since $2x$ looks like the more complex/complete denominator, they simply pick it and add the tops. It mimics the process of adding fractions with the *same* denominator, which is a highly automated skill.
+*   **Option C (Low Attractiveness):** This usually occurs through sheer clerical error or a misunderstanding of how to simplify at the end. It is less common than B or D.
+
+---
+
+### 3. Predicted Response Distribution
+
+Students are categorized by the UK National Curriculum expectations: **Below Basic** (Key Stage 2/low-ability KS3), **Basic** (Foundation GCSE level), **Proficient** (Higher GCSE level), and **Advanced** (A-Level or top-set GCSE).
+
+| Ability Level | A (Correct) | B (Misconception) | C (Error) | D (Error) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Below Basic** | 10% | 60% | 5% | 25% |
+| **Basic** | 35% | 20% | 5% | 40% |
+| **Proficient** | 80% | 5% | 5% | 10% |
+| **Advanced** | 98% | 1% | 0% | 1% |
+
+**Commentary on Distribution:**
+*   **Below Basic:** Most likely to fall for the additive "B" error as they lack an algebraic understanding of denominators.
+*   **Basic:** The shift moves toward "D." These students know they need a common denominator but forget the rule of equivalence (what you do to the bottom, you must do to the top).
+*   **Proficient:** These students have mastered algebraic fractions but might still make a "slippery" mental error, leading to C or D if working too fast.

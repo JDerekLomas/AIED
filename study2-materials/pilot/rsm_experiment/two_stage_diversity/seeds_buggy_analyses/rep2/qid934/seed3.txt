@@ -1,0 +1,26 @@
+Here is an analysis of a common misconception for this specific problem.
+
+### 1. The specific misconception: "The Operator Priority Neglect" (Term Mixing)
+The specific bug is **The Linear Sum Error**. In this error, the student fails to treat $4x$ and $2y$ as separate terms linked by an equals sign. Instead, they see all the numbers on the left-hand side of the equation ($4$, $x$, and $2$) as part of a single operation to be performed on $x$ to get $10$. They effectively simplify the equation $4x + 2y = 10$ into $(4 + 2)y = 10$ or $4x + 2 = 10$ regardless of the variables.
+
+### 2. The step-by-step procedure
+A student with this misconception would likely follow these steps:
+1.  **Identify $x$:** Look at the table and see that when the star appears, $x = 0$.
+2.  **Substitution:** "Plug" $0$ into the equation. Because $4 \times 0 = 0$, the student sees that the first term "disappears."
+3.  **Residual Equation:** The student is left with the numbers $2$, $y$, and $10$.
+4.  **Misinterpretation of Relationship:** Instead of seeing $2y = 10$, the student ignores the multiplicative relationship and assumes that since $x$ is $0$, the equation simply asks "What do I add to $x$ to get the total?" or "What is $10$ divided by $4$?"
+5.  **The specific "Divide the Total" bug:** The student looks at $4x + 2y = 10$ and assumes the $4$ is the most important coefficient. They calculate $10 \div 4 = 2.5$. 
+    *   *Alternatively (and most commonly for option A):* The student thinks they need to multiply all the "visible" numbers together: $4 \times 5$ (from a misunderstanding of the $2y$) or $2 \times 10$.
+    *   *The most likely path to **Option A (20)**:* The student believes that to find $y$ when $x=0$, they should multiply the coefficient of $x$ (which is 4) by the total (which is 5, half of 10) or they simply perform $4 \times 5 = 20$, confusing the "rate of change" with the $y$-intercept.
+
+### 3. Which answer option this leads to
+This specific procedural confusion most often leads to **Option A (20)**.
+
+The student incorrectly thinks that if $x$ increases by $1$, $y$ goes up or down, but for the starting value ($x=0$), they mistakenly multiply the constants ($4 \times 5$ or $2 \times 10$) instead of solving the algebraic equation.
+
+*(Note: Option D (2.5) is also a highly attractive "buggy" answer where the student ignores the $2y$ entirely and solves $4x = 10 \rightarrow 10/4 = 2.5$.)*
+
+### 4. How attractive is this error?
+This error is **highly attractive** because it allows the student to avoid "formal" algebra.
+*   **Intuitive Appeal:** At Year 9, many students still rely on "number sense" rather than algebraic manipulation. If they see a 4, a 2, and a 10, their brain searches for a way to combine them that feels "mathematical."
+*   **Lack of Self-Correction:** The student will likely **not realise they are wrong**. Because $20$ is a "clean" integer and appears as an option, it provides "selection validation." The student assumes that since their result is on the list, their method of multiplying the available numbers must be correct. They fail to "test" their answer by plugging $(0, 20)$ back into the original equation ($4(0) + 2(20) \neq 10$).

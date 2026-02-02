@@ -1,0 +1,47 @@
+This question is an excellent probe for understanding **procedural precedence** and the **balancing method** in multi-step equations. 
+
+To solve $\frac{x}{3}-5=12$:
+*   **Tom’s method:** Adds $5$ to both sides first ($12+5=17$). This is correct and the most common first step.
+*   **Katie’s method:** Multiplies the entire equation by $3$. $(\frac{x}{3} \times 3) - (5 \times 3) = 12 \times 3$. This should result in $x - 15 = 36$. Katie has only multiplied the $12$, failing to distribute the multiplication to the $-5$.
+
+### 1. Analysis of Misconceptions
+
+**Option A (Correct Answer): Only Tom**
+
+**Option B: Only Katie**
+*   **Buggy Reasoning:** The student recognizes that "the opposite of divide is multiply." They see the $/3$ and the $12$ and successfully link them ($12 \times 3 = 36$). However, they suffer from **selective application of operators**. They believe that you only need to "move" the 3 to the other side rather than maintain equality by multiplying the entire left-hand side. Because $x-5=36$ "looks" like a simpler, cleaner equation, they trust it.
+*   **Attractiveness:** Very High for mid-range students. It follows the "Change Side, Change Sign" mnemonic but skips the essential step of multiplying the constant term.
+
+**Option C: Both Tom and Katie**
+*   **Buggy Reasoning:** This student likely calculates Tom's step and sees it is correct. Then, they look at Katie’s work. They see $12 \times 3 = 36$ and $x/3 \times 3 = x$. Because both "maths facts" within her step are true, they assume her algebraic manipulation is valid. They fail to realize that if you multiply one term by 3, you must multiply *every* term. 
+*   **Attractiveness:** High. Students are often eager to reward any working that looks "mathematical." If they aren't rigorous with the "Do the same to both sides" rule, Katie’s work looks plausible.
+
+**Option D: Neither is correct**
+*   **Buggy Reasoning (Known Misconception):** "When solving an equation, uses the same operation rather than the inverse."
+*   **The Chain:** For Tom’s step, the student sees $-5$ and performs $12 - 5$ to get $\frac{x}{3}=7$. Since Tom says $17$, they think he is wrong. For Katie’s step, they see $/3$ and perform $12 \div 3 = 4$. Since Katie says $36$, they think she is wrong.
+*   **Attractiveness:** Moderate for "Below Basic" levels. These students have not yet internalized the "Inverse" nature of solving and treat an equation like a sequence of instructions (a function machine running forwards rather than backwards).
+
+---
+
+### 2. Attractiveness Judging
+
+*   **Option B** is a classic "intertermediate" trap. It appeals to students who have just learned about inverse operations but haven't mastered the distributive property of multiplication over subtraction.
+*   **Option C** is the most dangerous distractor. Many students believe there is "more than one way to do it" (which is true), and since Katie used a multiplication and got $36$, they give her the benefit of the doubt without checking the $-5$.
+*   **Option D** is highly attractive to students with weak foundational arithmetic fluency who still get confused between "adding to cancel" and "subtracting because they see a minus."
+
+---
+
+### 3. Predicted Response Distribution
+
+| Level | A (Tom) | B (Katie) | C (Both) | D (Neither) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Below Basic** | 20% | 20% | 25% | **35%** |
+| **Basic** | 35% | 15% | **40%** | 10% |
+| **Proficient** | **65%** | 10% | 20% | 5% |
+| **Advanced** | **95%** | 2% | 3% | 0% |
+
+**Analysis of the Trends:**
+*   **Below Basic:** Will likely cluster around **D**, as they struggle with the concept of inverses entirely.
+*   **Basic:** The "Both" (**C**) trap is most lethal here. They want to be encouraging to both characters and recognize that both multiplication and addition are involved in the "inverse" process.
+*   **Proficient:** Most catch Katie’s error ($3 \times 5 = 15$) but a significant minority still falls for the "look and feel" of her equation being correct.
+*   **Advanced:** Students at this level should instantly see that Katie didn't multiply the $-5$, a mistake they have likely been warned about repeatedly.

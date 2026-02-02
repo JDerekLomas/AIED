@@ -1,0 +1,16 @@
+To predict student performance on this question, we must look at how students handle fractions, decimals, and negative numbers in the context of BIDMAS (Order of Operations) and squaring.
+
+The question tests the ability to identify a case where $2n^2 - 1 \leq 0$.
+A) $2(9/16) - 1 = 18/16 - 1 = 0.125$ (Positive, not a counter-example)
+B) $2(0.25) - 1 = 0.5 - 1 = -0.5$ (**Correct**, Negative)
+C) $2(4) - 1 = 7$ (Positive, common error for students who think squaring a negative makes a negative)
+D) $2(1) - 1 = 1$ (Positive)
+
+The biggest challenge here is that many students struggle to mentally calculate $0.5^2$. They often think $0.5^2 = 1$, or they expect the negative numbers (C and D) to be the "trick" answers because they have a misconception that squaring a negative stays negative. Many "below basic" students will guess C or D because negative inputs look like more likely candidates for producing negative outputs.
+
+"Proficient" students will successfully navigate the BIDMAS but might struggle with the fraction in A or the decimal in B. "Advanced" students will quickly identify that $|n|$ must be less than $\sqrt{0.5}$ (approx $0.707$) for the expression to be negative.
+
+below_basic: A=15% B=25% C=35% D=25%
+basic: A=15% B=40% C=25% D=20%
+proficient: A=10% B=70% C=10% D=10%
+advanced: A=5% B=92% C=2% D=1%

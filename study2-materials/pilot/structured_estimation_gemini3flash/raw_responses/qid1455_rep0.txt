@@ -1,0 +1,34 @@
+<chain_of_thought>
+The item tests the ability to translate a worded problem into a formal algebraic equation, specifically focusing on the use of brackets to preserve the order of operations. 
+
+- **Concept Complexity:** The core concept is forming equations and understanding BIDMAS/BODMAS. This is a foundational skill for 11-16 year olds (Key Stage 3).
+- **Procedural Steps:** 1. Identify the unknown ($n$). 2. Apply addition ($+5$). 3. Apply multiplication to the *result* ($\times 4$). 4. Set equal to 17.
+- **Distractor Analysis:** 
+    - Option A ($n+5 \times 4=17$) is a very strong distractor for students who read left-to-right without applying order of operations rules. 
+    - Option B ($4n+5=17$) is a common error where students associate the multiplier only with the variable. 
+    - Option C ($n^4+5=17$) targets a confusion between multiplication and powers.
+- **Comparison to Calibrations:** The item is conceptually similar to the "function machine" item (C=0.295) but slightly more abstract as it relies on text rather than a visual flow. However, the misconception (left-to-right processing) is extremely prevalent in this age group, often leading to very low success rates on items where brackets are required.
+- **Psychometric Profile:** Given the strength of Distractor A, the classical difficulty (proportion correct) is likely to be quite low, similar to the first two calibration examples. The IRT difficulty (b) will likely be near 0 or slightly negative because while the math is "simple," the trap is highly effective. Discrimination (a) should be high because it clearly separates those who understand algebraic structure from those who don't.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>9</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

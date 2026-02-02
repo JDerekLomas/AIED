@@ -1,0 +1,26 @@
+Here's my prediction based on marking hundreds of Year 9 papers, specifically looking at how students tackle algebraic fractions.
+
+**Thinking process:**
+
+*   **Correct Method:** Find common denominator (2x). Convert 4/x to 8/2x. Add 3/2x + 8/2x = 11/2x. So **A** is the correct answer.
+*   **Error for B (7/3x):** Students might incorrectly add the denominators (2x + x = 3x) and add the numerators (3 + 4 = 7). This is a common fraction addition error (adding top and bottom).
+*   **Error for C (11/x):** This comes from getting the common denominator wrong or simplifying incorrectly.
+    *   One way: convert 4/x to 8/2x, add to 3/2x to get 11/2x. Then incorrectly simplify by 'cancelling' the '2' somehow.
+    *   Another way: might convert 3/2x to 3/x (thinking 'divide by 2'), then add 3/x + 4/x = 7/x. Nope, that's not C.
+    *   How to get 11/x directly? Let's reconsider. Maybe they correctly identify 2x as common denominator, get 3/2x + 8/2x = 11/2x, and then simply forget the '2' in the denominator? Or think it's 11/(2/2 * x) = 11/x? This feels a bit stretched, but some students are capable of wild simplification.
+    *   More plausible for C: They correctly get to 11/2x, then maybe think 11/2 = 5.5, so 5.5/x which isn't C.
+    *   *Self-correction on C error origin:* Okay, for C, the only logical route (as attractive as an error gets) is if they convert 4/x to 8/2x, add to 3/2x to get 11/2x, and then, because '2x' *feels* more complex than 'x', they incorrectly "simplify" 2x to x. Or perhaps, seeing the other terms are just 'x', they think the '2' in the 2x isn't part of the final, *simplest* common denominator, which is a conceptual error about common denominators and the nature of terms. This is a common error with fractions: a reluctance to leave numbers in denominators that feel like they 'should' simplify. This leads them to 11/x. This would indicate they *almost* got it, but have a poor understanding of algebraic terms in denominators.
+*   **Error for D (7/2x):**
+    *   One common pathway for this is: they find the common denominator (2x). They keep 3/2x as is. They *only* add the numerators from the original fractions (3+4=7) and then put it over the *correct* common denominator (2x). So, they identify the common denominator correctly but fail to adjust the numerator of the second fraction (multiplying 4 by 2). This is a very common procedural error for students who understand *what* a common denominator is but make the mechanical mistake in scaling the numerator. This is "I know what I'm supposed to do, but I messed up one step."
+
+**Ability Level Breakdown:**
+
+*   **Below Basic:** Struggling with fundamental fraction concepts and algebra. Likely to combine indiscriminately.
+*   **Basic:** Might grasp the idea of a common denominator but struggle with correct application, especially scaling the numerator. Attracted to obvious combinations or simplistic additions.
+*   **Proficient:** Understands common denominators for numbers, and often for algebra too. Prone to a specific procedural error like scaling a numerator incorrectly, but otherwise the method is sound. May make an error but might also self-correct.
+*   **Advanced:** Should get this correct. If they make an error, it's a lapse in concentration, not a conceptual flaw.
+
+below_basic: A=10% B=45% C=15% D=30%
+basic: A=35% B=25% C=10% D=30%
+proficient: A=80% B=5% C=5% D=10%
+advanced: A=95% B=0% C=0% D=5%

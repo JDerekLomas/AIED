@@ -1,0 +1,38 @@
+To predict the percentage of students at each ability level who chose each option for the given equation \(10 = \frac{5}{p}\), let's first analyze the equation and the potential errors that lead to each wrong answer.
+
+The correct solution to the equation is:
+\[10 = \frac{5}{p}\]
+Multiplying both sides by \(p\):
+\[10p = 5\]
+Dividing both sides by \(10\):
+\[p = \frac{5}{10} = 0.5\]
+
+So, the correct answer is A) \(p = 0.5\).
+
+## Step 1: Analyzing Option B (\(p = 50\))
+This option could result from a calculation error where a student incorrectly rearranges the equation. For instance, if a student mistakenly thinks \(10p = 5\) leads to \(p = 10 \times 5 = 50\), they would choose B. This error might seem less likely because it involves a miscalculation rather than a conceptual misunderstanding.
+
+## 2: Analyzing Option C (\(p = 2\))
+This could come from a student incorrectly solving the equation, possibly thinking \(10 = \frac{5}{p}\) implies \(10p = 5p\), which does not make sense, or simply inverting the fraction incorrectly: \(p = \frac{5}{10} = 0.5\) seems correct, but if one mistakes the operation or misinterprets the equation as \(10p = 5\), then \(p = \frac{5}{10}\) is correctly \(0.5\), not \(2\). However, some might mistakenly solve it as if it were \(5 = 10p\), leading to \(p = 0.5\), not \(2\). 
+
+## 3: Analyzing Option D (There are no solutions)
+This option does not directly result from a simple algebraic manipulation error but might come from a student realizing that \(p\) cannot be \(0\) (which would make the fraction undefined) but not being able to solve for \(p\). Students might mistakenly think that since \(p\) is in the denominator, there could be no solution if they mistakenly consider \(p=0\), but the equation actually has a solution.
+
+## 4: Predicting Student Responses
+- **Below Basic**: Students at this level might struggle with even basic algebraic manipulations. They might choose B (\(p = 50\)) if they mistakenly multiply 5 by 10, or they might choose D if they are confused about the concept of solving for \(p\) or if they realize \(p=0\) would be a problem but not understand how to proceed. A (\(p = 0.5\)) seems unlikely for most, with C (\(p = 2\)) being a potential guess. 
+- **Basic**: Students here have a grasp of basic algebra but may make careless mistakes. They are likely to choose A (\(p = 0.5\)) but might opt for B if they miscalculate or C if confused. D seems unlikely as they should understand there's a solution.
+- **Proficient**: These students understand algebra well and are less likely to make simple calculation errors. They should mostly choose A (\(p = 0.5\)), with a few potentially misinterpreting the equation to choose B or C, but D seems unlikely.
+- **Advanced**: Students at this level have a strong grasp of algebra and should nearly all choose A (\(p = 0.5\)). Mistakes leading to B, C, or D are minimal.
+
+## 5: Assigning Percentages
+Given these considerations:
+- **Below Basic**: A=20% (some get it right by chance or simple substitution), B=30% (mistaken multiplication), C=20% (incorrect operations), D=30% (confusion about solutions).
+- **Basic**: A=60% (correct solution), B=20% (some calculation errors), C=10% (less likely but still possible), D=10% (unlikely but possible due to confusion).
+- **Proficient**: A=80% (strong understanding), B=10% (occasional mistake), C=5% (unlikely), D=5% (unlikely).
+- **Advanced**: A=95% (excellent understanding), B=3% (rare mistake), C=1% (very rare), D=1% (very rare).
+
+The final answer is:
+below_basic: A=20% B=30% C=20% D=30%
+basic: A=60% B=20% C=10% D=10%
+proficient: A=80% B=10% C=5% D=5%
+advanced: A=95% B=3% C=1% D=1%

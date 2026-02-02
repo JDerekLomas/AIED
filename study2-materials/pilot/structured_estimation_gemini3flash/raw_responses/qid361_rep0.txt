@@ -1,0 +1,37 @@
+<chain_of_thought>
+The item assesses the translation of a multi-step verbal description into an algebraic expression, specifically testing the correct use of brackets and the order of operations (BIDMAS/BODMAS). 
+
+The sequence is: (n - 5) -> / 8 -> + 4 -> * 7.
+Jo's expression correctly nests these operations: the subtract 5 and divide by 8 are grouped, the +4 is added to that result, and the entire sum is multiplied by 7.
+Paul's expression fails at the final step: $7((n-5) \div 8)+4$. According to the order of operations, the multiplication by 7 would apply only to the division part, and the 4 would be added at the end, violating the "finally multiply by 7" instruction.
+
+Comparing this to the calibration items:
+- It is more complex than the simple linear equation (Item 1) or the basic arithmetic (Item 2).
+- It involves multiple layers of brackets, which is a common stumbling block for students aged 11-14 (KS3).
+- The misconception (left-to-right processing) is very strong here. Paul's answer looks "right" to a student who reads the expression left-to-right without respecting the precedence of multiplication over addition, or who fails to see that the "finally" applies to the whole previous result.
+- The structure "Only A, Only B, Both, Neither" usually increases the IRT discrimination as it forces a clear distinction between two similar-looking algebraic forms.
+- The proportion correct is likely to be moderate. While the steps are clear, the nested notation in Jo's answer can be intimidating, leading many to prefer Paul's more "linear" looking expression or to guess.
+- Based on calibration Item 4 (Tom/Katie), which also uses the "Who is correct?" format, we can expect a similar discrimination (~1.4) and a non-zero guessing parameter.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>6</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>4</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.42</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.18</guessing_probability>
+</predictions>

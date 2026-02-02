@@ -1,0 +1,46 @@
+<chain_of_thought>
+Analyzing 2 x 3^2 with correct answer 18 (A).
+
+This is a pure order-of-operations item focused on the precedence of exponentiation over multiplication. Two steps: evaluate the exponent (3^2 = 9), then multiply (2 x 9 = 18).
+
+Distractor C (36) directly tests the misconception: a student computing left to right gets 2 x 3 = 6, then 6^2 = 36. This is highly plausible -- I'd expect it to be chosen by the majority of incorrect respondents.
+
+Distractor B (12): 2 x 3 x 2. This suggests reading the superscript as a coefficient rather than an exponent. Less common but possible for younger students still learning exponent notation.
+
+Distractor D (11): 2 + 3^2 = 11. A careless misread of the operation symbol, or confusion between x and +.
+
+Comparing to calibration items:
+- The BODMAS calibration item (0.4 - 1/5 x 3) had classical difficulty 0.134, IRT b = -0.245, and discrimination a = 1.552.
+- That item tested multiplication before subtraction with fractions/decimals. The current item tests exponents before multiplication with whole numbers.
+
+I think this item may actually be slightly harder than the calibration BODMAS item because:
+1. Exponent precedence is less frequently practiced than multiplication-before-addition
+2. The distractor 36 is a "clean" number that feels correct
+3. Students sometimes remember "multiply and divide before add and subtract" but forget about exponents
+
+But the simplicity of the numbers works in the other direction. On balance, I'd estimate classical difficulty around 0.25, making it somewhat harder than the calibration BODMAS item.
+
+IRT difficulty around -0.15, discrimination around 1.5 (similar to the calibration item since both cleanly test one misconception), and low guessing since the distractors are specific enough to attract misconception-holders rather than random guessers.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>3</abstraction_level>
+<prerequisite_knowledge>4</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>8</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.15</irt_difficulty>
+<irt_discrimination>1.50</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

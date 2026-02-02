@@ -1,0 +1,36 @@
+Here's my analysis based on marking many, many mock papers over the years.
+
+***
+
+### Teacher's Analysis
+
+This question tests substitution and solving a two-step linear equation. It's a foundational algebra skill. The "attractive" wrong answers come from students who are procedurally weak or misunderstand how the two variables relate.
+
+*   **The Correct Answer (C) 5:**
+    *   Substitute `x=0`: `4(0) + 2y = 10`.
+    *   This simplifies to `0 + 2y = 10`.
+    *   Then `2y = 10`.
+    *   Finally, `y = 5`.
+    *   This is a straightforward process for a student comfortable with substitution and basic equation solving.
+
+*   **Wrong Answer (B) 3:**
+    *   **Error:** This is a classic "muddling through" error. The student sees the numbers `10`, `4`, and `2` and just operates on them without understanding the algebra. A common attempt is `10 - 4 - 2 = 4`, or maybe `10 / 4 - 2 = 0.5`. Another, more plausible route to a near number is rearranging `2y=10-4x` and then forgetting the `x` is zero, somehow just doing `y = (10-4)/2 = 6/2 = 3`. This wrong method feels "maths-y" to a struggling student, and arriving at one of the offered integers feels like a success. It's a very attractive answer for students who lack confidence.
+
+*   **Wrong Answer (D) 2.5:**
+    *   **Error:** This is a very common and "attractive" error caused by mixing up `x` and `y`. The student substitutes `y=0` instead of `x=0`.
+    *   `4x + 2(0) = 10`
+    *   `4x = 10`
+    *   `x = 10 / 4 = 2.5`
+    *   They solve for `x` when they should be solving for `y`. This is a trap for students who rush, are careless, or have a shaky understanding of coordinate pairs and tables of values. A basic student would fall for this; a proficient one might, but would hopefully double-check.
+
+*   **Wrong Answer (A) 20:**
+    *   **Error:** This indicates a profound misunderstanding. The student is likely guessing or applying a completely broken method. For instance, they might see `4` and `10` and `2`, and do something like `10 * 2 = 20`. Or perhaps they mis-rearrange `2y=10-4x` as `y=10-2x` (a very common error), and then ignore the minus and just see `10` and `2`, leading to `20`? It's the least likely distractor, a guess for the completely lost.
+
+***
+
+### Predicted Percentages
+
+below_basic: A=10% B=45% C=15% D=30%
+basic: A=5% B=25% C=40% D=30%
+proficient: A=0% B=5% C=85% D=10%
+advanced: A=0% B=0% C=98% D=2%

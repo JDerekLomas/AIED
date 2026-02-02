@@ -1,0 +1,17 @@
+To predict the performance for this question, we must look at the specific misconceptions surrounding decimals, powers, and the order of operations (BIDMAS/BODMAS).
+
+**The Distractors:**
+*   **A ($0.81$):** This is the "BIDMAS failure." Students multiply $3$ by $0.3$ first to get $0.9$, then square $0.9$. This is a very common error for students who process expressions left-to-right rather than following algebraic priority.
+*   **C ($1.8$):** This is the "linear thinking" error. Students confuse $x^2$ with $2x$. They calculate $3 \times (0.3 \times 2)$. 
+*   **D ($2.7$):** This is the "place value/decimal" error. Students correctly identify $3^2 = 9$ or $0.3^2 = 0.09$, but they lose track of the decimal point, often thinking $0.3 \times 0.3 = 0.9$ instead of $0.09$. $3 \times 0.9 = 2.7$.
+
+**The Performance Levels:**
+*   **Below Basic:** Will heavily favour A (doing the multiplication first) or C (mistaking squaring for doubling).
+*   **Basic:** Many will know to square first, but the calculation $0.3 \times 0.3$ is a notorious "banana skin." Many will insist it is $0.9$, leading them straight to D.
+*   **Proficient:** These students generally handle BIDMAS well but 1 in 4 will still fall into the decimal placement trap of option D.
+*   **Advanced:** Will recognize that $0.3^2 = 0.09$ and then multiply by $3$ to get $0.27$.
+
+below_basic: A=45% B=10% C=25% D=20%
+basic: A=25% B=20% C=10% D=45%
+proficient: A=10% B=65% C=5% D=20%
+advanced: A=2% B=95% C=1% D=2%

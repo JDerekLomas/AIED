@@ -1,0 +1,44 @@
+<chain_of_thought>
+Analyzing this "who is correct" item about translating a function machine / verbal operations into algebraic notation.
+
+Operations in order: start with n, subtract 5, divide by 8, add 4, multiply by 7.
+
+Step-by-step construction:
+n → (n-5) → (n-5)/8 → (n-5)/8 + 4 → 7 × ((n-5)/8 + 4)
+
+Jo's expression: 7((n-5)/8 + 4) — matches perfectly. Jo is correct.
+
+Paul's expression: 7((n-5) ÷ 8) + 4 — the +4 is added after the multiplication by 7. So Paul's sequence would be: subtract 5, divide by 8, multiply by 7, then add 4. The last two operations are swapped compared to the original. Paul is incorrect.
+
+Correct answer: A (Only Jo).
+
+The misconception being tested relates to order of operations — students who don't attend to how brackets group operations may think both expressions are equivalent, choosing C. Alternatively, students who read Paul's expression left-to-right (ignoring that +4 is outside the brackets) might think it matches.
+
+For difficulty estimation, I want to compare to the calibration items. This item requires students to understand nested algebraic notation and compare two expressions — a relatively demanding task. The verbal-to-algebra translation combined with bracket parsing is challenging for KS3/KS4 students.
+
+The function machine item in the calibration set (x² + 5 = 14) had difficulty 0.295 and b = 0.002. That required understanding inverse operations with a visual aid. This item is more abstract and involves more steps of reasoning, so I'd expect it to be harder.
+
+I think this falls in the 0.45-0.55 range for classical difficulty. The discrimination should be moderate — students who understand order of operations and bracket notation should get this right, while those who don't will be drawn to C (Both). There's likely some guessing since students can partially reason through it.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>6</concept_complexity>
+<procedural_steps>6</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>6</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>6</question_clarity>
+<cognitive_load>7</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.47</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.12</guessing_probability>
+</predictions>

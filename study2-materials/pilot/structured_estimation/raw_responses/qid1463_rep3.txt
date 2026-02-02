@@ -1,0 +1,37 @@
+<chain_of_thought>
+This item tests whether students can correctly compute b^2 when b is negative, within the context of the quadratic formula. For 5h^2 - 3h - 2 = 0, we have b = -3, so b^2 = 9 (answer C). Students holding the misconception that (-3)^2 = -9 would select D.
+
+Let me think about this from a student perspective. A Year 10/11 student encounters this during their GCSE algebra unit. The quadratic formula is one of the more challenging formulas they learn. The question doesn't ask them to solve the whole thing - just identify one component (b^2). This is actually somewhat helpful as scaffolding.
+
+But the partial formula notation "? +/- sqrt(triangle - ?)" is ambiguous. The question marks represent different values (numerator has -b, and inside the sqrt we have -4ac). Students need to parse this carefully. Some might get confused by the format itself rather than the math.
+
+The answer choices come in pairs: 6/-6 and 9/-9. The 9/-9 pair corresponds to (-3)^2 vs thinking it's -9. The 6/-6 pair might attract students who think b^2 means 2*b = 2*3 = 6 or 2*(-3) = -6, confusing squaring with doubling. This is actually a reasonable alternative misconception.
+
+Looking at the calibration data, the factorising item with the same misconception had b=0.404 and discrimination 1.451. That item required understanding factorisation but the actual misconception test was fairly direct. This item adds the quadratic formula layer. I think it's harder.
+
+The inequality solving item had b=0.808 with discrimination 1.050. I'd place this item similarly - around b=0.70. Classical difficulty maybe 0.55-0.60.
+
+For discrimination, the item tests a specific misconception cleanly but the prerequisite knowledge barrier means some capable students who haven't learned the formula yet will get it wrong, slightly lowering discrimination. I'll estimate a=1.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>7</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>7</abstraction_level>
+<prerequisite_knowledge>8</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>6</misconception_strength>
+<question_clarity>5</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>7</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.57</classical_difficulty>
+<irt_difficulty>0.70</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.19</guessing_probability>
+</predictions>

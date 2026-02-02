@@ -1,0 +1,39 @@
+<chain_of_thought>
+The target item asks students to solve the linear equation \(3 - y = 5\). 
+- **Mathematical Analysis:** This is a one-step or two-step equation depending on the student's method (e.g., adding $y$ to both sides then subtracting 5, or subtracting 3 then dividing by -1).
+- **Misconception Analysis:** 
+    - Choice A ($y=2$): Likely comes from $5 - 3$ or ignoring the negative sign in front of $y$.
+    - Choice C ($y=8$): Comes from adding 3 to 5 (using the same operation instead of inverse, or misinterpreting the 3 as being subtracted).
+    - Choice D ($y=-8$): Likely a sign error combined with the addition error.
+- **Comparison to Calibration Items:** 
+    - The first calibration item $-5 = p + 10$ has a classical difficulty of 0.167. That item is arguably harder because of the negative result and the structure. 
+    - The target item $3 - y = 5$ involves a negative coefficient for the variable, which is a notorious "trip-wire" for UK students in Key Stage 3 and 4. Many students will incorrectly perform $5 - 3 = 2$.
+    - The "misconception tested" note suggests students will use the same operation ($5+3=8$) or fail to handle the subtraction of $y$ correctly.
+- **Psychometric Estimation:** 
+    - Proportion correct: Solving equations with negative variables is generally poorly performed. I expect a low proportion correct, likely between 0.25 and 0.35, as "2" is a very strong distractor.
+    - IRT Difficulty ($b$): Based on the calibration items, where a 0.16 proportion correct mapped to -0.702 and 0.29 mapped to 0.002, this item should sit around the -0.1 to 0.1 range.
+    - Discrimination ($a$): Most of these diagnostic items show high discrimination (above 1.2).
+    - Guessing ($c$): With 4 choices and a common misconception, guessing is usually low, but some students might guess if they get stuck on the negative $y$.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>2</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.32</classical_difficulty>
+<irt_difficulty>0.15</irt_difficulty>
+<irt_discrimination>1.35</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

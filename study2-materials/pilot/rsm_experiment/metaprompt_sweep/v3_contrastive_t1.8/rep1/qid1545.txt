@@ -1,0 +1,13 @@
+This question tests the order of operations (BIDMAS/BODMAS). While it looks like a standard arithmetic comparison, it is particularly effective at identifying students who calculate from left to right regardless of operators.
+
+On the left-hand side ($8 + 12 \div 4$), the common error is $20 \div 4 = 5$, whereas the correct value is $8 + 3 = 11$.
+On the right-hand side ($(8 + 12) \div 4$), the presence of brackets forces the $20 \div 4 = 5$ calculation.
+
+For many **below_basic** students, the "left-to-right" urge is so strong that they see both sides as identical calculations ($8+12$ first), leading them to choose Option C (equality). **Basic** students often realize there is a difference because of the brackets but frequently misapply the priority, sometimes over-compensating or guessing. **Proficient** students usually navigate BIDMAS correctly but may make a "reading error" where they assume the brackets don't change the value. **Advanced** students solve this mentally with almost 100% accuracy.
+
+The numbers are small enough that calculation errors are rare; the primary separator here is purely the conceptual understanding of operation priority.
+
+below_basic: A=20% B=15% C=60% D=5%
+basic: A=45% B=15% C=35% D=5%
+proficient: A=80% B=10% C=8% D=2%
+advanced: A=98% B=1% C=1% D=0%

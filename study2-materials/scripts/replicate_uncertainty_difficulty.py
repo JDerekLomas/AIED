@@ -253,8 +253,9 @@ def load_eedi_items(csv_path: str, limit: int = None) -> list:
         if 'AnswerAText' in row:
             options = f"A) {row['AnswerAText']}\nB) {row['AnswerBText']}\nC) {row['AnswerCText']}\nD) {row['AnswerDText']}"
 
-            correct = row['CorrectAnswer']
-            correct_pct = row[f'pct_{correct}'] / 100
+            correct = row['CorrectAnswer']  # Kaggle letter (for LLM prompt)
+            neurips_correct = row['neurips_correct_pos']  # NeurIPS position (for pct lookup)
+            correct_pct = row[f'pct_{neurips_correct}'] / 100
             difficulty = 1 - correct_pct
 
             item = {

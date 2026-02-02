@@ -1,0 +1,43 @@
+<chain_of_thought>
+This item tests substitution into a quadratic expression with x = -1 in y = x² - 2x + 1.
+
+The correct answer is B (4): (-1)² - 2(-1) + 1 = 1 + 2 + 1 = 4.
+
+Key consideration: this expression is actually a perfect square, (x-1)². So y = (-1-1)² = (-2)² = 4. A student who recognizes this shortcut would avoid the negative arithmetic pitfalls entirely. This provides an alternative solution path that bypasses the misconception.
+
+However, most students at this level will substitute term by term rather than factor first. And the term-by-term approach creates multiple opportunities for negative number errors.
+
+The misconception "believes multiplying two negatives gives a negative" is specifically triggered by (-1)². Students who think (-1)² = -1 will get either A or C depending on how they handle the -2(-1) term.
+
+Distractor analysis:
+- A (-2): Both (-1)² and -2(-1) computed incorrectly → -1 - 2 + 1 = -2
+- B (4): Correct
+- C (2): Only (-1)² wrong → -1 + 2 + 1 = 2
+- D (0): Could arise from (x-1)² with x=1 substituted by mistake, or from computational errors
+
+The availability of an alternative solution path (recognizing the perfect square) might slightly reduce difficulty for stronger students, increasing discrimination. This item should discriminate well.
+
+Looking at the calibration item with the same misconception (factorisation, b=0.404, a=1.451), I think this item is comparable. The substitution task is more procedural but involves more arithmetic steps. I'll estimate similar difficulty.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>5</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>8</misconception_strength>
+<question_clarity>8</question_clarity>
+<cognitive_load>6</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>5</visual_complexity>
+<solution_uniqueness>4</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.44</classical_difficulty>
+<irt_difficulty>0.35</irt_difficulty>
+<irt_discrimination>1.45</irt_discrimination>
+<guessing_probability>0.10</guessing_probability>
+</predictions>

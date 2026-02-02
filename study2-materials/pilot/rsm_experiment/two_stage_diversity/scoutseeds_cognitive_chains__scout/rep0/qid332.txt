@@ -1,0 +1,44 @@
+To predict the percentage of students at each ability level who would choose each option, let's analyze the question and the common mistakes or understanding that students might have.
+
+## Step 1: Understanding the Question
+The question involves solving a linear equation and evaluating the correctness of two suggested next lines of working. The equation given is \(\frac{x}{3} - 5 = 12\), and the suggestions are \(\frac{x}{3} = 17\) by Tom and \(x - 5 = 36\) by Katie.
+
+## 2: Analyzing Tom's Suggestion
+Tom's suggestion, \(\frac{x}{3} = 17\), is correct because adding 5 to both sides of the original equation yields \(\frac{x}{3} = 12 + 5 = 17\).
+
+## 3: Analyzing Katie's Suggestion
+Katie's suggestion, \(x - 5 = 36\), is incorrect. If we multiply the entire original equation by 3 to clear the fraction, we get \(x - 15 = 36\), not \(x - 5 = 36\).
+
+## 4: Predicting Student Responses
+- **Below Basic:** Students at this level might not fully understand algebraic manipulations. They might choose options based on limited understanding or common mistakes. 
+  - A (Only Tom): XX%
+  - B (Only Katie): XX%
+  - C (Both Tom and Katie): XX%
+  - D (Neither is correct): XX%
+
+- **Basic:** Students here have a foundational understanding but might make simple algebraic mistakes.
+  - A (Only Tom): likely high, as they can see Tom's logic but might be confused by Katie's mistake.
+  - B (Only Katie): might be chosen by those who don't fully understand algebraic operations.
+  - C (Both Tom and Katie): unlikely, as it requires understanding both are not simultaneously correct in this context.
+  - D (Neither is correct): might be chosen by those confused about the correct process.
+
+- **Proficient:** Students with a good grasp of algebra will easily see Tom's correctness and Katie's mistake.
+  - A (Only Tom): high, as they understand the algebra.
+  - B (Only Katie), C (Both Tom and Katie), D (Neither is correct): lower, as proficient students should accurately assess both suggestions.
+
+- **Advanced:** These students have a deep understanding and can quickly evaluate the suggestions.
+  - A (Only Tom): very high, as they can clearly see the correctness of Tom's and the incorrectness of Katie's suggestion.
+  - B (Only Katie), C (Both Tom and Katie), D (Neither is correct): very low, as advanced students accurately understand the algebraic manipulations.
+
+## 5: Assigning Percentages
+Given the analysis:
+- **Below Basic:** A=60% (most can see Tom's point but might get confused), B=20% (some might think Katie's way could work), C=10% (few think both could be right), D=10% (some might think neither is correct due to confusion).
+- **Basic:** A=80%, B=10%, C=5%, D=5%.
+- **Proficient:** A=95%, B=3%, C=1%, D=1%.
+- **Advanced:** A=99%, B=0.5%, C=0.25%, D=0.25%.
+
+The final answer is:
+below_basic: A=60% B=20% C=10% D=10%
+basic: A=80% B=10% C=5% D=5%
+proficient: A=95% B=3% C=1% D=1%
+advanced: A=99% B=0.5% C=0.25% D=0.25%

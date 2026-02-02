@@ -1,0 +1,43 @@
+<chain_of_thought>
+This question asks students to complete a table of values for 3x + 2y = 6. Specifically, find y when x = 0.
+
+Substituting: 3(0) + 2y = 6 → 2y = 6 → y = 6/2 = 3. Answer is A.
+
+Let me think about what makes this item potentially tricky:
+
+1. Students need to understand the table-of-values format and realize the star means "find y when x=0."
+2. They need to substitute x=0 into the equation.
+3. They need to solve 2y = 6 using division.
+
+The misconception tested is using the same operation rather than inverse. A student who multiplies instead of divides would get 2 × 6 = 12 (option D). But honestly, for 2y = 6, many students might just "see" that y = 3 without formally thinking about inverse operations — they recognize the multiplication fact. This could make the item easier than expected for the misconception it targets.
+
+Distractor plausibility: D (12) targets the misconception directly. B (2) could attract students who confuse the coefficient with the answer or who compute 6/3. C (1.5 = 3/2) could attract students who somehow get the numbers reversed. I think B might actually be quite attractive — "2y = 6, y = 2" is a plausible error if students just grab the coefficient.
+
+Comparing to calibration: The function machine item (difficulty 0.295) involved more complex reasoning with squaring and the visual complexity of diagrams. The simple equation items had difficulty 0.134-0.167. This item is algebraically simple but has the added table interpretation layer.
+
+I'll place this around 0.25 for classical difficulty. Some students will be confused by the table format, and the distractors (especially B and D) are reasonably attractive.
+
+For IRT parameters: difficulty around -0.05 (slightly easier than average), discrimination around 1.15 (moderate — the item tests substitution + solving but the x=0 case is almost too easy for strong discrimination), and low guessing since the distractors are designed to catch specific errors.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>4</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>4</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>5</misconception_strength>
+<question_clarity>7</question_clarity>
+<cognitive_load>4</cognitive_load>
+<age_appropriateness>9</age_appropriateness>
+<transfer_distance>5</transfer_distance>
+<visual_complexity>6</visual_complexity>
+<solution_uniqueness>5</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.15</irt_discrimination>
+<guessing_probability>0.07</guessing_probability>
+</predictions>

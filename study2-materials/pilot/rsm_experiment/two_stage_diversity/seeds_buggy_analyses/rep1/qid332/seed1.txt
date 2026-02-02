@@ -1,0 +1,26 @@
+As an expert in mathematical misconceptions, I have identified a prevalent procedural error regarding the **order of operations in algebraic manipulation**, specifically related to how constants are handled when clearing a fraction.
+
+### 1. The Misconception: The "Partial Multiplication" Bug
+The specific error here is the **Selective Application of Inverse Operations** (sometimes called the "Multiplying only the fraction" bug).
+
+The student correctly identifies that "multiplying by 3" is the inverse of "dividing by 3," but they believe the 3 is only "attached" to the $x$, rather than being a factor that must be applied to every term on both sides of the equation. They fail to treat the equation as a balanced scales where the **entire side** must be multiplied.
+
+### 2. Step-by-Step Student Thinking
+A student with this misconception would approach Katie’s method as follows:
+*   **Step 1:** Look at the equation $\frac{x}{3} - 5 = 12$ and decide to "get rid of the divide-by-3 first" (perhaps because they read the equation left-to-right).
+*   **Step 2:** They see $\frac{x}{3}$ and multiply it by $3$ to get $x$.
+*   **Step 3:** They see the $= 12$ and multiply it by $3$ to get $36$.
+*   **Step 4:** They see the $-5$ and simply "bring it down" without multiplying it, because "the 5 isn't part of the fraction."
+*   **The Result:** They arrive at $x - 5 = 36$, exactly as Katie suggests. They conclude Katie is correct.
+*   **Step 5:** They look at Tom’s working. They see Tom added 5 to both sides. They recognize this as a valid "move" and conclude Tom is also correct.
+
+### 3. Answer Choice
+This misconception leads the student to choose **Option C: Both Tom and Katie**. 
+
+While Tom is mathematically correct (adding 5 to both sides is a valid first step), Katie is incorrect because her multiplication was not distributed to the $-5$ (the line should have been $x - 15 = 36$). A student with this bug cannot see the error in Katie’s step.
+
+### 4. How Attractive is this Error?
+This is a **highly "sticky" and natural error** for a Year 9 student for several reasons:
+*   **Visual grouping:** In the expression $\frac{x}{3} - 5$, the 3 is physically tucked under the $x$. To a student, the 3 "belongs" to the $x$ and has nothing to do with the 5. 
+*   **Literal interpretation of "Do the same to both sides":** The student thinks they *are* doing the same to both sides—they multiplied the left "thing" ($\frac{x}{3}$) and the right "thing" ($12$). They view the $-5$ as an independent bystander.
+*   **Lack of Checking:** Because $x - 5 = 36$ looks like a "simpler" equation, the student feels a sense of progress. They rarely realize they have erred because the math remains "clean." It is only if they solved both versions to the end and found different values for $x$ ($51$ vs $41$) that they might suspect a conflict, but even then, they often lack the diagnostic tools to know which path was the "illegal" one.

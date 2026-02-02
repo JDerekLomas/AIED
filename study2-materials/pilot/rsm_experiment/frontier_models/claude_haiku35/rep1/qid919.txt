@@ -1,0 +1,21 @@
+Let me walk through my reasoning:
+
+The correct method is: \(y = 3x^{2}\)
+So for \(x = 0.3\), \(y = 3(0.3)^{2} = 3(0.09) = 0.27\)
+
+Likely error patterns:
+- below_basic: Random guessing, total confusion
+- basic: 
+  * Might do \(3x\) instead of \(3x^{2}\)
+  * Might multiply 0.3 × 3 
+- proficient: Close to understanding, might make small calculation errors
+- advanced: Will likely get this correct
+
+Predicted distributions:
+
+below_basic: A=25% B=25% C=25% D=25%
+basic: A=30% B=40% C=20% D=10%
+proficient: A=10% B=60% C=20% D=10%
+advanced: A=5% B=90% C=5% D=0%
+
+The key trap is option B (\(0.27\)), which is the correct calculation but might feel "too small" to some students, leading them to choose other options.

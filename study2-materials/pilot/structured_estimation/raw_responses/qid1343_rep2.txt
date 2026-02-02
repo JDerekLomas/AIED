@@ -1,0 +1,47 @@
+<chain_of_thought>
+Analyzing: 12 / 2 + 1 x 2 = ?
+
+Correct solution applying BODMAS: Perform multiplication and division before addition.
+- 12 / 2 = 6
+- 1 x 2 = 2
+- 6 + 2 = 8
+Answer: D (8)
+
+Misconception pathway (left-to-right):
+- 12 / 2 = 6
+- 6 + 1 = 7
+- 7 x 2 = 14
+Answer: C (14)
+
+This is a standard BODMAS item with integer arithmetic only. The question is extremely clear - just evaluate an expression. No word problem interpretation, no variable manipulation.
+
+For distractor analysis, C is the primary trap. A (9) and B (3) are harder to reach through systematic errors. B=3 could come from 12/(2+1+2-1) or 12/2/1/2 = 3, which is plausible if a student divides everything. A=9 might come from 12/2 + 1 x 2 with some arithmetic slip like 6+1x2 = 6+3 = 9 (miscalculating 1x2 as 3?). These are weak distractors.
+
+The population is UK secondary (11-16). BODMAS is taught explicitly in Year 5-6 and reinforced in KS3. By secondary school, many students have mastered this, but a significant minority still default to left-to-right processing, especially when the expression mixes division and multiplication with addition.
+
+Comparing to the calibration item with the same misconception (classical difficulty 0.134), that one involved decimals and fractions which adds computational complexity but may also cue students to be more careful. This pure-integer item might paradoxically catch more students off guard because it looks "simple" so they rush through it left-to-right. I'll estimate slightly higher difficulty than the calibration item.
+
+Estimated classical difficulty: 0.25. IRT difficulty around -0.05. The item should discriminate well.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>3</concept_complexity>
+<procedural_steps>3</procedural_steps>
+<abstraction_level>2</abstraction_level>
+<prerequisite_knowledge>3</prerequisite_knowledge>
+<distractor_plausibility>7</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>10</question_clarity>
+<cognitive_load>3</cognitive_load>
+<age_appropriateness>10</age_appropriateness>
+<transfer_distance>2</transfer_distance>
+<visual_complexity>1</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.25</classical_difficulty>
+<irt_difficulty>-0.05</irt_difficulty>
+<irt_discrimination>1.40</irt_discrimination>
+<guessing_probability>0.05</guessing_probability>
+</predictions>

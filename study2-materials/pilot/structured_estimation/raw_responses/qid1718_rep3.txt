@@ -1,0 +1,44 @@
+<chain_of_thought>
+This item tests whether students can correctly expand (x-3)^2, with the specific misconception being that multiplying two negatives gives a negative.
+
+Let me consider the student population. This is a diagnostic assessment for ages 11-16. Squaring binomials is typically introduced around Year 9 (age 13-14). For younger students in the sample, this would be beyond their level, so they might guess. For older students, this should be routine if they've mastered the concept.
+
+The correct procedure requires:
+1. Recognizing (x-3)^2 = (x-3)(x-3)
+2. Expanding using FOIL or distribution
+3. Collecting like terms
+4. Knowing that (-3)(-3) = +9
+
+The distractors are cleverly designed. Each captures a distinct error:
+- A captures the target misconception (sign error on constant term)
+- B captures the "square each piece" or difference of squares confusion
+- C is less plausible but captures students who drop the middle term
+
+I note that B is extremely tempting — the difference of squares confusion is one of the most persistent errors in algebra. Students who have learned both (a+b)(a-b) = a^2 - b^2 and (a-b)^2 often confuse them.
+
+Given the strong pull of distractors A and B, I expect this to be moderately difficult. Looking at the calibration: the factorisation item with the same misconception was 0.473 classical difficulty. Expansion is slightly more accessible than factorisation for most students, but this item has an unusually strong set of distractors. I'll put classical difficulty at 0.45.
+
+For guessing: with four choices, pure guessing gives 0.25, but some partial knowledge helps eliminate C, so effective guessing is probably around 0.10-0.15.
+</chain_of_thought>
+
+<ratings>
+<concept_complexity>5</concept_complexity>
+<procedural_steps>4</procedural_steps>
+<abstraction_level>5</abstraction_level>
+<prerequisite_knowledge>5</prerequisite_knowledge>
+<distractor_plausibility>8</distractor_plausibility>
+<misconception_strength>7</misconception_strength>
+<question_clarity>9</question_clarity>
+<cognitive_load>5</cognitive_load>
+<age_appropriateness>8</age_appropriateness>
+<transfer_distance>3</transfer_distance>
+<visual_complexity>2</visual_complexity>
+<solution_uniqueness>7</solution_uniqueness>
+</ratings>
+
+<predictions>
+<classical_difficulty>0.45</classical_difficulty>
+<irt_difficulty>0.30</irt_difficulty>
+<irt_discrimination>1.30</irt_discrimination>
+<guessing_probability>0.13</guessing_probability>
+</predictions>
