@@ -11,7 +11,7 @@ Major update to the replication dashboard:
 - **3-Rep Scaling placeholder section** with PLANNED badge for incoming results
 - RSM exception card updated to show "n=20 items, 3 reps"
 
-### 2. 3-Rep Fullset Experiment Script (`scripts/run_3rep_fullset.py`)
+### 2. 3-Rep Fullset Experiment (`scripts/run_3rep_fullset.py`)
 New script that bridges the gap between:
 - RSM experiments: 20 items, 3 reps → ρ=0.57-0.67 (signal)
 - Single-pass experiments: 1,869 items, 1 rep → ρ≈0 (null)
@@ -23,61 +23,62 @@ Features:
 - Bootstrap 95% CIs, cost tracking, resume support
 - `--reps` flag for parallel execution (e.g., `--reps 1,2`)
 - Saves raw responses to `pilot/replications/3rep_fullset/{model}/rep{N}/qid{id}.txt`
-- Summary JSON to `pilot/replications/3rep_fullset/summary.json`
 
-### 3. Handoff Updates
-- Updated `2026-02-02-replication-rerun.md` with consolidated findings, 15-model ranking, and 3-rep experiment plan
-- Research journey file (`2026-02-02-research-journey.md`) updated with full prompt text for Phase 10 two-stage experiments
+### 3. 3-Rep Fullset Results: NULL
 
-### 4. Bug Fixes in Script
+**Llama-4-Scout on 1,869 items, 3 reps, contrastive prompt, t=1.5:**
+
+| Rep | Spearman ρ vs p_value | p-value |
+|-----|----------------------|---------|
+| 0   | -0.013               | 0.587   |
+| 1   | -0.005               | 0.832   |
+| 2   | 0.029                | 0.211   |
+| **3-rep averaged** | **0.008** | **0.714** |
+
+95% CI: [-0.037, 0.054]
+
+**Interpretation**: The 3-rep averaging that produced ρ=0.624 on 20 probe items produces ρ=0.008 on 1,869 items. The RSM signal was an artifact of small sample size (n=20). Multi-sample averaging does not rescue LLM difficulty estimation at scale.
+
+### 4. Bug Fixes
 - `neurips_correct_pos` contains letters (A/B/C/D), not numbers — fixed `get_p_value()` to use `pct_{letter}`
 - Column name: `QuestionText` not `question_text`
 
-## Currently Running
+### 5. Ground Truth Quality Investigation
 
-**Llama-4-Scout 3-rep fullset** — two parallel processes with two Groq API keys:
-- Process 1 (task `b17bebf`): rep 0 — ~907/1,869
-- Process 2 (task `bbf7342`): reps 1,2 — rep 1 at ~655/1,869, rep 2 not started
+Checked whether the null result could be due to noisy p_values from adaptive testing (few students per item):
 
-Both have resume support. Safe to interrupt and restart:
-```bash
-# Resume rep 0 (uses default GROQ_API_KEY)
-python3 scripts/run_3rep_fullset.py groq_llama4scout --reps 0
+| Min total_responses | n items | Spearman ρ |
+|---------------------|---------|------------|
+| 100                 | 1,436   | 0.007      |
+| 250                 | 977     | 0.020      |
+| 500                 | 691     | 0.020      |
+| 1,000               | 360     | 0.038      |
+| 2,000               | 87      | -0.006     |
 
-# Resume reps 1,2 (uses second key)
-GROQ_API_KEY=[REDACTED] python3 scripts/run_3rep_fullset.py groq_llama4scout --reps 1,2
-```
+No signal at any threshold — even items with 1,000+ student responses show zero correlation.
 
-ETA: ~20-25 min remaining.
+**However**: The Eedi dataset has a deeper problem. With adaptive testing, ~500 students are spread across 1,532 items, meaning most items have very few responses. IRT estimation is unreliable under these conditions — only 14 items survived strict filtering in a separate IRT analysis. The p_value ground truth itself may be too noisy for meaningful correlation, regardless of LLM performance.
 
-## When Results Come In
+**Next step**: Rerunning IRT with more students to get reliable ground truth before drawing conclusions.
 
-Each process will print per-rep rho and averaged-prediction rho at the end. To manually compute after all 3 reps finish:
-```bash
-python3 scripts/run_3rep_fullset.py groq_llama4scout --reps 0,1,2
-```
-(Will skip all cached items and just compute correlations + save summary.json)
+## Key Findings (Consolidated)
 
-### What to look for:
-- **Averaged rho > 0.3**: Averaging scales — strong paper finding
-- **Averaged rho ≈ 0**: 20-item RSM result was overfitting
-- **Averaged rho 0.1-0.3**: Partial signal, weaker at scale
-
-### Next models to run (if Scout shows signal):
-```bash
-python3 scripts/run_3rep_fullset.py deepseek_chat
-python3 scripts/run_3rep_fullset.py gemini_flash
-```
+1. **The Null Wall is real**: All methods produce ρ≈0 on the full 1,869-item dataset, including 3-rep averaging
+2. **Small-sample overfitting**: The ρ=0.57-0.67 results on 20 probe items do not generalize. With n=20, bootstrap CIs were wide but looked promising. At n=1,869, the true signal is indistinguishable from zero.
+3. **Averaging doesn't scale**: The "averaging is magic" finding from 20-item experiments was illusory
+4. **DeepSeek/Gemini runs skipped**: Given the null result for Scout, running additional models on the full set is not justified
+5. **Eedi ground truth is suspect**: Adaptive testing means sparse responses per item. IRT parameters are unreliable for most items. Need to rerun IRT with larger student sample before concluding the null is real vs. an artifact of noisy ground truth.
 
 ## Files Modified/Created
 - `results-site/replication_dashboard.html` — major update
 - `scripts/run_3rep_fullset.py` — new script
 - `.claude/handoffs/2026-02-02-replication-rerun.md` — updated
 - `.claude/handoffs/2026-02-02-dashboard-and-3rep.md` — this file
-- `pilot/replications/3rep_fullset/groq_llama4scout/` — raw responses (accumulating)
+- `pilot/replications/3rep_fullset/groq_llama4scout/` — 5,607 raw responses (3 reps × 1,869 items)
+- `pilot/replications/3rep_fullset/summary.json` — final results
 
 ## Key Context for Next Session
-- The "honest numbers" from 10-rep validation: true per-rep ρ≈0.50, averaged ρ≈0.57 (on 20 items)
-- All prior results are on 20 probe items only. This fullset experiment is the first test at scale.
-- Second Groq API key: `[REDACTED]`
-- Full research journey documented in `2026-02-02-research-journey.md`
+- The full research journey is documented in `2026-02-02-research-journey.md`
+- All "signal" findings were on 20 probe items only. At scale (1,869 items), everything is null.
+- **Critical open question**: Is the null result real, or an artifact of unreliable Eedi ground truth? Adaptive testing with ~500 students across 1,532 items means most items have sparse data. IRT is being rerun with more students.
+- The 3-rep fullset raw responses (5,607 files) are cached and can be re-correlated against improved IRT estimates without re-running the LLM calls.

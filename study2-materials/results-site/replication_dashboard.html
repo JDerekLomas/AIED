@@ -253,10 +253,10 @@ const allResults = [
   { method: "Error A/B", model: "Gemini Flash", prompt: "sim (B)", n: 6, temp: 2.0, nReps: 1, r: -0.131, p: null, rho: -0.314, target: "p_value", ci: "\u2014", status: "pending" },
   // RSM (reference)
   { method: "RSM (3-rep avg)", model: "Gemini Flash", prompt: "error_analysis t=2.0", n: 20, temp: 2.0, nReps: 3, r: null, p: 0.001, rho: 0.666, target: "b_2pl", ci: "[0.35, 0.88]", status: "sig" },
-  // 3-rep fullset planned
-  { method: "3-Rep Fullset", model: "Llama-4-Scout", prompt: "error_analysis", n: 1869, temp: 2.0, nReps: 3, r: null, p: null, rho: null, target: "b_2pl", ci: "\u2014", status: "planned" },
-  { method: "3-Rep Fullset", model: "DeepSeek V3", prompt: "contrastive", n: 1869, temp: 1.5, nReps: 3, r: null, p: null, rho: null, target: "b_2pl", ci: "\u2014", status: "planned" },
-  { method: "3-Rep Fullset", model: "Gemini Flash", prompt: "error_analysis", n: 1869, temp: 2.0, nReps: 3, r: null, p: null, rho: null, target: "b_2pl", ci: "\u2014", status: "planned" },
+  // 3-rep fullset results
+  { method: "3-Rep Fullset", model: "Llama-4-Scout", prompt: "contrastive", n: 1869, temp: 1.5, nReps: 3, r: null, p: 0.714, rho: 0.008, target: "p_value", ci: "[-0.037, 0.054]", status: "null" },
+  { method: "3-Rep Fullset", model: "DeepSeek V3", prompt: "contrastive", n: 1869, temp: 1.5, nReps: 3, r: null, p: null, rho: null, target: "p_value", ci: "\u2014", status: "cancelled" },
+  { method: "3-Rep Fullset", model: "Gemini Flash", prompt: "contrastive", n: 1869, temp: 1.5, nReps: 3, r: null, p: null, rho: null, target: "p_value", ci: "\u2014", status: "cancelled" },
 ];
 
 // === POPULATE TABLE ===
@@ -265,8 +265,8 @@ function renderTable(data) {
   tbody.innerHTML = '';
   data.forEach(r => {
     const tr = document.createElement('tr');
-    const badgeClass = r.status === 'null' ? 'badge-null' : r.status === 'sig' ? 'badge-sig' : r.status === 'planned' ? 'badge-planned' : 'badge-pending';
-    const badgeText = r.status === 'null' ? 'NULL' : r.status === 'sig' ? 'SIG' : r.status === 'planned' ? 'PLANNED' : 'IN PROGRESS';
+    const badgeClass = r.status === 'null' ? 'badge-null' : r.status === 'sig' ? 'badge-sig' : r.status === 'planned' ? 'badge-planned' : r.status === 'cancelled' ? 'badge-null' : 'badge-pending';
+    const badgeText = r.status === 'null' ? 'NULL' : r.status === 'sig' ? 'SIG' : r.status === 'planned' ? 'PLANNED' : r.status === 'cancelled' ? 'CANCELLED' : 'IN PROGRESS';
     tr.innerHTML = `
       <td>${r.method}</td>
       <td>${r.model}</td>

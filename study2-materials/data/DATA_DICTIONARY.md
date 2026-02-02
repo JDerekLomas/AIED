@@ -118,7 +118,28 @@ JSONL format, one result per line.
 
 ## Critical Data Issue: Kaggle vs NeurIPS Answer Ordering
 
-### The Problem
+### ⚠️ EEDI DATA REMOVED FROM ALL ANALYSES (2026-02-02) ⚠️
+
+**Decision**: Eedi data is too broken to use reliably. Removed from all analyses in favor of SmartPaper and DBE-KT22.
+
+**The fundamental problem**: Two independent answer orderings (Kaggle vs NeurIPS) that cannot be fully reconciled. Only the correct-answer mapping is known between orderings; individual distractor mappings are unrecoverable.
+
+- LLM sees options in **Kaggle order** (from `AnswerAText` etc.)
+- Student response data (`pct_A/B/C/D`) is in **NeurIPS order**
+- p_value (proportion correct) can be computed correctly using `neurips_correct_pos`
+- LLM predicted difficulty can be scored correctly using `CorrectAnswer` (Kaggle)
+- But per-distractor analysis is impossible — can't compare which distractor the LLM predicts students will pick vs which one they actually pick
+
+This caused repeated confusion across multiple sessions:
+1. **2026-01-30**: Original discovery — 76% of items had wrong ground truth from mixing orderings
+2. **2026-02-02 (a)**: `run_3rep_fullset.py` — scored correctly, produced ρ=0.008 on 1,869 items (null)
+3. **2026-02-02 (b)**: Attempted "fix" to `neurips_correct_pos` for LLM scoring was actually wrong (scored LLM's prediction for the wrong option since LLM sees Kaggle order). Produced ρ=0.023, also null.
+4. **2026-02-02 (c)**: Filtered-item negative ρ=-0.324 was small-sample noise (n=35), not systematic
+5. **2026-02-02 (d)**: Filtering by total_responses showed no signal at any threshold (100–2000+)
+
+**Bottom line**: All Eedi results are null (ρ≈0) regardless of scoring method, filtering, or averaging. Combined with the two-ordering confusion, adaptive testing sparsity, and selectivity-driven difficulty, Eedi is not a useful dataset for this research.
+
+### The Problem (historical reference)
 
 The Kaggle and NeurIPS Eedi datasets use **completely independent** answer orderings:
 
@@ -215,4 +236,24 @@ The NeurIPS Eedi dataset has two response files:
 
 ---
 
-*Last updated: 2026-01-30*
+---
+
+## DBE-KT22 Data Integrity
+
+### Label Assignment Fix (2026-02-02)
+
+**Issue**: A/B/C/D labels for answer options were assigned based on CSV row iteration order in `groupby().iterrows()`. If `Question_Choices.csv` were re-exported with different sort order, labels would shift for ~6% of questions (13/212 where choice IDs are not in sorted order).
+
+**Fix**: Added `group.sort_values("id")` before label assignment in both:
+- `scripts/build_dbe_kt22_item_statistics.py` (line 37)
+- `scripts/run_dbe_kt22_validation.py` (line 73)
+
+This ensures deterministic A/B/C/D assignment by database ID regardless of CSV row order.
+
+**Impact on existing results**: None — the current CSV happens to have choices in ID order for the items used in validation (ρ=0.342). The fix is preventive.
+
+**Ground truth (p_correct)**: Unaffected — computed from `answer_state` boolean in Transaction.csv, which uses `answer_choice_id` (database foreign key) not positional labels.
+
+---
+
+*Last updated: 2026-02-02*
