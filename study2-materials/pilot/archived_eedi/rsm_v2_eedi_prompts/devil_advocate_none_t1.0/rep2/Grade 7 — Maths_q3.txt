@@ -1,0 +1,41 @@
+Here's my thought process to arrive at the calibrated estimate:
+
+1.  **Initial Instinct (and why it's probably wrong):** My first thought is "This is a basic formula! Almost everyone learns this." If I were teaching, I'd expect 60-70% to get it. *This is exactly the expert bias the prompt warns against.*
+
+2.  **Applying the "Challenge Your Instinct" Prompts:**
+
+    *   **"How limited many students' English actually is":**
+        *   "Find the area of a a triangle" - "area" and "triangle" might be recognized. "Find" is okay.
+        *   "whose base is 8 cm and height is 6 cm" - "base" and "height" are key terms. If they haven't seen these specific English words in math class, they're lost. They might know the *concept* of base and height from diagrams, but not these words. "cm" is common.
+        *   The *entire problem* relies on understanding these specific English terms for the geometric concepts.
+
+    *   **"That 'basic' concepts aren't basic for struggling learners":**
+        *   The formula `Area = 1/2 × base × height` involves a fraction, multiplication, and three variables.
+        *   Even if they know the *concept* of area, recalling the *specific formula* can be hard.
+        *   The multiplication of 1/2 * 8 * 6 might be tricky for some (e.g., 8*6=48, then 48/2=24). Mental math or simple multiplication can be a barrier.
+
+    *   **"That exam anxiety causes blank responses":** If a student sees "area," "base," "height" and doesn't immediately recall the formula, anxiety can quickly lead to a blank. They might *know* it but freeze.
+
+    *   **"That many students have never practiced this exact question type":** While they might have learned the formula, have they seen it in this exact textual format, or mostly with diagrams? If it's usually diagrams, translating the text description into the elements for the formula is an extra step.
+
+    *   **"Could a student who barely reads English?"** Very unlikely. "Base," "height," "area" are all crucial. If they struggle with these words, they can't even start.
+
+    *   **"Could a student who was absent for this topic?"** Absolutely not. If they missed the lesson where this formula was taught, they have no chance. Given the context of "struggling learners," absenteeism is likely higher for this group.
+
+3.  **Considering the "Average pass rate is about 29%":** This is a critical anchor. If the *overall* pass rate for the entire exam is 29%, then a *single, specific question* is unlikely to be wildly higher, especially one that relies on specific recall and English comprehension.
+
+4.  **Recalibrating:**
+    *   The formula itself is often taught. So, some students *will* know it.
+    *   The English is a major barrier for a significant portion.
+    *   The application of the formula (1/2 * 8 * 6) is a simple calculation but still a step.
+    *   The "rubric" focuses *only* on stating or using the correct formula. It doesn't require the correct answer, which makes it slightly easier than getting the numerical answer correct. This means a student who writes `1/2 * 8 * 6` but messes up the multiplication still gets the point.
+
+5.  **Final Estimate Derivation:**
+    *   Let's assume maybe 40-50% *conceptually* know the formula.
+    *   Now, apply the English comprehension filter. If a significant portion struggles with English, perhaps only half of those who conceptually know it can parse the question. So, 40% * 0.5 = 20%. Or 50% * 0.5 = 25%.
+    *   Factor in anxiety, absenteeism, never seeing this exact type, and the overall low pass rate.
+    *   The 29% overall pass rate suggests that many questions are difficult. While this is a foundational math concept, the barriers are significant.
+
+    I think landing slightly below the overall pass rate is reasonable for this specific question, given the *strict rubric* (only formula needed, not calculation) but severe English and foundational knowledge barriers. If the rubric demanded the *correct numerical answer*, the percentage would drop further.
+
+    Considering all these factors, especially the explicit warning against overestimation, and the low general pass rate, I need to

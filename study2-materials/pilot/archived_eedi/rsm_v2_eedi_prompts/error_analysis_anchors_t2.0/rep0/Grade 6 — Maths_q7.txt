@@ -1,0 +1,42 @@
+Errors students might make:
+
+*   **Misinterpreting "4:00 in the evening"**: This is the most significant potential language hurdle. While 4 PM is common in daily speech, students might confuse AM/PM, or calculate for 4 AM.
+*   **Counting hours incorrectly**: Students might:
+    *   Subtract 10 from 4 directly, leading to a negative or incorrect number.
+    *   Count on their fingers and make an arithmetic error.
+    *   Stop at 12 PM or continue counting past midnight if confused by PM.
+    *   Start counting *from* 10 AM (i.e., 10 AM to 11 AM is 1 hour, etc.) and miscount the number of *intervals*. (e.g., 10, 11, 12, 1, 2, 3, 4 -> 7 numbers, so they might think 7 hours instead of 6).
+    *   Exclude the starting or ending hour.
+*   **Mathematical Operations**:
+    *   They might correctly find the time elapsed (6 hours) but then incorrectly multiply by 2 (e.g., add 2, subtract 2, or miscalculate 6x2).
+    *   They might incorrectly add the increase to the initial temperature. (e.g., 30 + 2 = 32 and forget the hours entirely).
+*   **Not attempting or incomplete**: Due to the multi-step nature of the problem, some students might attempt the first step (finding the hours) but not proceed, or simply not understand how to begin.
+*   **Misreading 2^0 C as 20 C**: Unlikely for a clear superscript but possible for a small minority if font is unclear.
+
+**Common Wrong Answers:**
+
+*   **Confusion with AM/PM leading to a very different time:** e.g., calculating for 4 AM next morning, or just 4 hours after 10 AM (10, 11, 12, 1, 2 -> 14:00, or 2 PM. Then adding 4 hours for some reason leading to a higher number.)
+*   **Incorrect hour count:**
+    *   Thinking 5 hours (10 to 3 pm or similar miscount)
+    *   Thinking 7 hours (10,11,12,1,2,3,4 - simple count of numbers instead of intervals)
+*   **Only calculating temperature change or not adding to initial:**
+    *   Reporting `12^0 C` (6 hours * 2 degrees/hour) instead of `42^0 C`.
+    *   Reporting `32^0 C` (just 30 + 2, ignoring hours).
+
+The rubric for this specific question is just to *calculate the time elapsed from 10:00 am to 4:00 pm as 6 hours*. This means that if they make the arithmetic error with 2^C or the final addition, but correctly find "6 hours," they *still* get the point. This significantly simplifies the problem and makes the target narrower.
+
+Given the calibration anchors:
+
+*   **Pass rate 50%:** "What were the three questions the king wanted to answer?" - This involves recalling specific facts from a story and requires comprehension of narrative.
+*   **Pass rate 66%:** "Name any two Fundamental Rights..." - Recalling two specific facts from Civics, a moderately rote task.
+
+This current question requires understanding time notation (AM/PM), counting elapsed hours, and then recognizing it's 6 hours.
+
+*   The *language* of "4:00 in the evening" can be a significant blocker if they don't commonly use "evening" for 4 PM. However, 4:00 is specific enough that it points away from midnight.
+*   The actual calculation of elapsed time between AM and PM hours, crossing noon, is a common difficulty.
+*   The fact that they *only* need to get "6 hours" correct makes it much easier. They don't need to do the multiplication and addition correctly for this specific rubric point.
+
+Compared to recalling facts (50% and 66%), calculating elapsed time (even with the AM/PM nuance) is a fundamental arithmetic/logic skill that most students should at least attempt. The main barrier is the 10 AM to 4 PM mental calculation and the AM/PM conversion. Many will be able to do this by simple counting (10, 11, 12, 1, 2, 3, 4).
+
+If they understand "4 in the evening" as 4 PM, counting:
+10-1
