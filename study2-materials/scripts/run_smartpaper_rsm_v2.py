@@ -10,6 +10,14 @@ Key changes from v1:
 
 Quick test first: 3 configs (one per prompt_style) on 20 probe items.
 Then full Box-Behnken sweep if quick test shows signal.
+
+Phase 4 (--phase eedi_prompts): Eedi cognitive framing experiment.
+Tests whether cognitive prompt framings from Eedi (contrastive, error_analysis,
+devil_advocate, imagine_classroom, comparative_difficulty) improve difficulty
+estimation on SmartPaper items. The KEY use case is zero-calibration estimation:
+predicting difficulty of novel/LLM-generated items where no real student data
+exists (calibration="none"). The "errors" and "anchors" calibration levels are
+controls to measure how much real data helps on top of the framing.
 """
 
 import argparse
@@ -834,7 +842,15 @@ CALIBRATION_LEVELS = ["none", "errors", "anchors"]
 
 
 def run_eedi_prompt_sweep():
-    """Phase 4: Test Eedi cognitive framings on SmartPaper items."""
+    """Phase 4: Test Eedi cognitive framings on SmartPaper items.
+
+    Motivation: Can we estimate difficulty of novel items (e.g. LLM-generated)
+    without any real student data? The "none" calibration level represents this
+    realistic scenario. "errors" and "anchors" levels are controls showing
+    how much real data improves over pure cognitive framing.
+
+    Grid: 5 framings × 3 calibration levels × 2 temps × 5 reps × 20 items = 3000 calls.
+    """
     from google import genai
     client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY"))
 
@@ -880,7 +896,7 @@ def run_eedi_prompt_sweep():
 
                     for rep in range(n_reps):
                         raw_path = config_dir / f"rep{rep}" / f"{ik}.txt"
-                        raw_path.parent.mkdir(exist_ok=True)
+                        raw_path.parent.mkdir(parents=True, exist_ok=True)
 
                         if raw_path.exists():
                             text = raw_path.read_text()

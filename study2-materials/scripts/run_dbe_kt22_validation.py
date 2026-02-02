@@ -336,9 +336,350 @@ def run_contrastive(questions, n_reps=3):
     print(f"\nSaved to {OUTPUT_DIR / 'result_contrastive_g3f.json'}")
 
 
+DECOMPOSED_PROMPT = """You are an experienced university database systems instructor.
+
+For this question, estimate what percentage of students AT EACH LEVEL would answer correctly.
+
+Question: {question}
+
+{options}
+
+Reply in this EXACT format (numbers only, no explanation):
+struggling: XX%
+average: XX%
+good: XX%
+advanced: XX%"""
+
+
+DIRECT_CLEAN_PROMPT = """Estimate the difficulty of this university database systems question.
+
+Question: {question}
+
+Options:
+{options}
+
+What percentage of undergraduate students would answer this correctly?
+Reply with just a number between 0 and 100."""
+
+
+def parse_decomposed_dbe(text):
+    """Parse proficiency-decomposed output and return weighted p_correct."""
+    if not text:
+        return None
+    weights = {"struggling": 0.25, "average": 0.35, "good": 0.25, "advanced": 0.15}
+    scores = []
+    for level, w in weights.items():
+        m = re.search(rf'{level}\s*:\s*(\d+(?:\.\d+)?)\s*%', text, re.IGNORECASE)
+        if m:
+            scores.append((float(m.group(1)) / 100.0, w))
+    if scores:
+        return sum(p * w for p, w in scores) / sum(w for _, w in scores)
+    return None
+
+
+def run_decomposed(questions, n_reps=3):
+    """Decomposed by proficiency level, no per-option breakdown. Gemini 3 Flash."""
+    model = "gemini-3-flash-preview"
+    temperature = 1.5
+    usable = questions[questions["usable"]].copy()
+
+    print(f"\nRunning decomposed pipeline: {model}, T={temperature}, {n_reps} reps")
+    print(f"Total calls needed: {len(usable) * n_reps}")
+
+    per_rep_rhos = []
+
+    for rep in range(n_reps):
+        cache_file = OUTPUT_DIR / f"predictions_decomposed_g3f_rep{rep}.json"
+        cache = {}
+        if cache_file.exists():
+            with open(cache_file) as f:
+                cache = json.load(f)
+
+        n_cached = len(cache)
+        n_called = 0
+
+        for idx, (_, row) in enumerate(usable.iterrows()):
+            qid = str(row["id"])
+            if qid in cache:
+                continue
+
+            prompt = DECOMPOSED_PROMPT.format(
+                question=row["question_text"],
+                options=row["options_text"],
+            )
+            raw = call_llm(prompt, model=model, temperature=temperature, max_tokens=512)
+            if raw:
+                p_correct = parse_decomposed_dbe(raw)
+                cache[qid] = {"raw": raw, "predicted_p_correct": p_correct}
+                n_called += 1
+
+            if n_called % 20 == 0 and n_called > 0:
+                with open(cache_file, 'w') as f:
+                    json.dump(cache, f, indent=2)
+                print(f"  rep{rep}: {n_called} called, {n_cached} cached ({n_cached + n_called}/{len(usable)})")
+
+            time.sleep(0.2)
+
+        with open(cache_file, 'w') as f:
+            json.dump(cache, f, indent=2)
+
+        # Per-rep correlation
+        preds = []
+        for _, row in usable.iterrows():
+            qid = str(row["id"])
+            if qid in cache and cache[qid].get("predicted_p_correct") is not None:
+                preds.append({"qid": qid, "p_correct": row["p_correct"],
+                              "predicted": cache[qid]["predicted_p_correct"]})
+        df_rep = pd.DataFrame(preds).dropna()
+        if len(df_rep) >= 5:
+            rho, p = stats.spearmanr(df_rep["predicted"], df_rep["p_correct"])
+            per_rep_rhos.append(rho)
+            print(f"  rep{rep}: ρ={rho:.3f} (p={p:.2e}), n={len(df_rep)}, cached={n_cached}, called={n_called}")
+
+    # Averaged predictions
+    all_preds = []
+    for rep in range(n_reps):
+        cache_file = OUTPUT_DIR / f"predictions_decomposed_g3f_rep{rep}.json"
+        if not cache_file.exists():
+            continue
+        with open(cache_file) as f:
+            cache = json.load(f)
+        for _, row in usable.iterrows():
+            qid = str(row["id"])
+            if qid in cache and cache[qid].get("predicted_p_correct") is not None:
+                all_preds.append({"qid": qid, "p_correct": row["p_correct"],
+                                  "predicted": cache[qid]["predicted_p_correct"], "rep": rep,
+                                  "difficulty": row["difficulty"],
+                                  "n_responses": row["n_responses"]})
+
+    pdf = pd.DataFrame(all_preds)
+    avg = pdf.groupby("qid").agg(
+        mean_predicted=("predicted", "mean"),
+        p_correct=("p_correct", "first"),
+        difficulty=("difficulty", "first"),
+        n_responses=("n_responses", "first"),
+    ).dropna()
+
+    avg_rho, avg_p = stats.spearmanr(avg["mean_predicted"], avg["p_correct"])
+    ci_lo, ci_hi = bootstrap_ci(avg["mean_predicted"].values, avg["p_correct"].values)
+    rho_author, _ = stats.spearmanr(avg["mean_predicted"], -avg["difficulty"])
+
+    print(f"\n{'=' * 50}")
+    print(f"RESULT (decomposed 3-rep, {model}, T={temperature})")
+    print(f"{'=' * 50}")
+    print(f"Per-rep ρ: {[f'{r:.3f}' for r in per_rep_rhos]}")
+    print(f"Averaged ρ = {avg_rho:.3f} (p = {avg_p:.2e}), 95% CI [{ci_lo:.3f}, {ci_hi:.3f}]")
+    print(f"ρ vs author difficulty = {rho_author:.3f}")
+    print(f"n = {len(avg)} items, {int(avg['n_responses'].sum()):,} student responses")
+
+    result = {
+        "dataset": "DBE-KT22", "model": model, "mode": "decomposed_3rep",
+        "temperature": temperature, "n_reps": n_reps,
+        "n_items": len(avg), "n_student_responses": int(avg["n_responses"].sum()),
+        "per_rep_rhos": [round(r, 3) for r in per_rep_rhos],
+        "averaged_rho": round(avg_rho, 3), "p_value": float(f"{avg_p:.4e}"),
+        "ci_95": [round(ci_lo, 3), round(ci_hi, 3)],
+        "rho_author_difficulty": round(rho_author, 3),
+    }
+    with open(OUTPUT_DIR / "result_decomposed_g3f.json", 'w') as f:
+        json.dump(result, f, indent=2)
+    print(f"\nSaved to {OUTPUT_DIR / 'result_decomposed_g3f.json'}")
+
+
+def run_direct_clean(questions):
+    """Direct estimation WITHOUT correct answer leakage."""
+    model = "gemini-2.5-flash"
+    usable = questions[questions["usable"]].copy()
+
+    cache_file = OUTPUT_DIR / "predictions_direct_clean.json"
+    cache = {}
+    if cache_file.exists():
+        with open(cache_file) as f:
+            cache = json.load(f)
+        print(f"Loaded {len(cache)} cached predictions")
+
+    for idx, (_, row) in enumerate(usable.iterrows()):
+        qid = str(row["id"])
+        if qid in cache:
+            continue
+        prompt = DIRECT_CLEAN_PROMPT.format(
+            question=row["question_text"],
+            options=row["options_text"],
+        )
+        raw = call_llm(prompt, model=model, temperature=0.0, max_tokens=50)
+        cache[qid] = {"raw": raw, "predicted_p": parse_number(raw)}
+        if (idx + 1) % 20 == 0:
+            with open(cache_file, 'w') as f:
+                json.dump(cache, f, indent=2)
+            print(f"  {len(cache)}/{len(usable)} done")
+        time.sleep(0.1)
+
+    with open(cache_file, 'w') as f:
+        json.dump(cache, f, indent=2)
+
+    usable["predicted_p"] = usable["id"].map(lambda x: cache.get(str(x), {}).get("predicted_p"))
+    valid = usable.dropna(subset=["predicted_p", "p_correct"])
+    print(f"\nValid predictions: {len(valid)}/{len(usable)}")
+
+    rho, p = stats.spearmanr(valid["predicted_p"], valid["p_correct"])
+    ci_lo, ci_hi = bootstrap_ci(valid["predicted_p"].values, valid["p_correct"].values)
+
+    print(f"\nRESULT (direct_clean, {model})")
+    print(f"ρ = {rho:.3f} (p = {p:.4f}), 95% CI [{ci_lo:.3f}, {ci_hi:.3f}]")
+
+    result = {
+        "dataset": "DBE-KT22", "model": model, "mode": "direct_clean",
+        "n_items": len(valid), "n_student_responses": int(valid["n_responses"].sum()),
+        "rho": round(rho, 3), "p_value": round(p, 4),
+        "ci_95": [round(ci_lo, 3), round(ci_hi, 3)],
+    }
+    with open(OUTPUT_DIR / "result_direct_clean.json", 'w') as f:
+        json.dump(result, f, indent=2)
+
+
+def run_synthetic_mcq(questions, n_students=10, temp=1.5):
+    """Synthetic student simulation for MCQ items.
+    Stage 1: Generate university student personas with misconceptions
+    Stage 2: Each student picks an option for each question
+    Stage 3: Aggregate % choosing correct = predicted difficulty
+    """
+    model = "gemini-3-flash-preview"
+    usable = questions[questions["usable"]].copy()
+
+    config_dir = OUTPUT_DIR / "synthetic_mcq"
+    config_dir.mkdir(exist_ok=True)
+
+    # Stage 1: Generate personas
+    persona_path = config_dir / "personas.txt"
+    if persona_path.exists():
+        persona_text = persona_path.read_text()
+    else:
+        prompt = f"""Generate {n_students} diverse undergraduate student profiles for a university Database Systems course.
+
+Distribution reflecting a typical class:
+- 3 students: Struggling (rarely attend, cram before exams, confuse basic concepts)
+- 3 students: Average (attend most classes, understand basics, struggle with multi-step reasoning)
+- 2 students: Good (consistent study, solid conceptual understanding, occasional careless errors)
+- 2 students: Advanced (deep understanding, can apply concepts to novel problems)
+
+For each student, include:
+- Name and study habits
+- Proficiency level
+- SPECIFIC DATABASE MISCONCEPTIONS they hold (e.g., "thinks JOIN always requires ON clause", "confuses HAVING with WHERE", "believes NULL = NULL is true", "thinks normalization always improves performance")
+- Test-taking behavior
+
+Format:
+STUDENT 1: [Name] | Level: [Struggling/Average/Good/Advanced] | Misconceptions: [2-3 specific DB misconceptions] | Behavior: [test behavior]
+...
+STUDENT {n_students}: ..."""
+        persona_text = call_llm(prompt, model=model, temperature=1.0, max_tokens=2048)
+        if persona_text:
+            persona_path.write_text(persona_text)
+
+    personas = [l.strip() for l in persona_text.split('\n') if re.match(r'\**STUDENT\s+\d', l.strip())]
+    print(f"  {len(personas)} student personas generated", flush=True)
+
+    if not personas:
+        print("  ERROR: No personas generated")
+        return
+
+    # Stage 2: Each item — batch all students in one call
+    n_api = 0
+    n_parse_fail = 0
+    item_results = {}
+
+    for idx, (_, row) in enumerate(usable.iterrows()):
+        qid = str(row["id"])
+        raw_path = config_dir / f"q{qid}_batch.txt"
+
+        if raw_path.exists():
+            text = raw_path.read_text()
+        else:
+            persona_block = "\n".join(personas)
+            correct = row["correct_label"]
+            labels = row["option_labels"]
+            prompt = f"""STUDENT PROFILES (with known database misconceptions):
+{persona_block}
+
+EXAM QUESTION:
+{row['question_text']}
+
+{row['options_text']}
+
+For each student, consider their specific misconceptions and knowledge gaps. Which option would they choose? Think about:
+- Would their misconceptions lead them to a specific wrong answer?
+- Would they eliminate some options but guess among the rest?
+- Would they recognize the correct answer despite surface-level confusion?
+
+Format:
+STUDENT 1: [reasoning based on their profile] → ANSWER: [A/B/C/D]
+...
+STUDENT {len(personas)}: [reasoning] → ANSWER: [A/B/C/D]"""
+            text = call_llm(prompt, model=model, temperature=temp, max_tokens=2048)
+            if text:
+                raw_path.write_text(text)
+            n_api += 1
+            time.sleep(0.2)
+
+        # Parse answers
+        correct = row["correct_label"]
+        answers = re.findall(r'ANSWER:\s*([A-D])', text or "")
+        if answers:
+            n_correct = sum(1 for a in answers if a == correct)
+            item_results[qid] = {
+                "predicted_p": n_correct / len(answers),
+                "n_students": len(answers),
+                "n_correct": n_correct,
+            }
+        else:
+            n_parse_fail += 1
+
+        if (idx + 1) % 20 == 0:
+            print(f"    {idx+1}/{len(usable)} items, {n_api} api calls, {n_parse_fail} parse fails", flush=True)
+
+    # Evaluate
+    preds, actuals = [], []
+    for _, row in usable.iterrows():
+        qid = str(row["id"])
+        if qid in item_results:
+            preds.append(item_results[qid]["predicted_p"])
+            actuals.append(row["p_correct"])
+
+    if len(preds) >= 10:
+        preds, actuals = np.array(preds), np.array(actuals)
+        rho, p_val = stats.spearmanr(preds, actuals)
+        mae = float(np.mean(np.abs(preds - actuals)))
+        bias = float(np.mean(preds - actuals))
+        ci_lo, ci_hi = bootstrap_ci(preds, actuals)
+
+        print(f"\n{'=' * 50}")
+        print(f"RESULT (synthetic_mcq, {model}, T={temp})")
+        print(f"{'=' * 50}")
+        print(f"ρ = {rho:.3f} (p = {p_val:.2e}), 95% CI [{ci_lo:.3f}, {ci_hi:.3f}]")
+        print(f"MAE = {mae:.3f}, bias = {bias:+.3f}")
+        print(f"n = {len(preds)} items, {n_api} api calls, {n_parse_fail} parse fails")
+
+        result = {
+            "dataset": "DBE-KT22", "model": model, "mode": "synthetic_mcq",
+            "temperature": temp, "n_students": len(personas),
+            "n_items": len(preds), "n_student_responses": int(usable["n_responses"].sum()),
+            "rho": round(rho, 3), "p_value": float(f"{p_val:.4e}"),
+            "ci_95": [round(ci_lo, 3), round(ci_hi, 3)],
+            "mae": round(mae, 3), "bias": round(bias, 3),
+        }
+        with open(OUTPUT_DIR / "result_synthetic_mcq.json", 'w') as f:
+            json.dump(result, f, indent=2)
+
+        # Save per-item predictions
+        with open(config_dir / "predictions.json", 'w') as f:
+            json.dump(item_results, f, indent=2)
+        print(f"Saved to {OUTPUT_DIR / 'result_synthetic_mcq.json'}")
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", default="direct", choices=["direct", "contrastive"])
+    parser.add_argument("--mode", default="direct",
+                        choices=["direct", "contrastive", "decomposed", "direct_clean", "synthetic_mcq"])
     parser.add_argument("--reps", type=int, default=3)
     args = parser.parse_args()
 
@@ -350,8 +691,14 @@ def main():
 
     if args.mode == "direct":
         run_direct(questions)
-    else:
+    elif args.mode == "contrastive":
         run_contrastive(questions, n_reps=args.reps)
+    elif args.mode == "decomposed":
+        run_decomposed(questions, n_reps=args.reps)
+    elif args.mode == "direct_clean":
+        run_direct_clean(questions)
+    elif args.mode == "synthetic_mcq":
+        run_synthetic_mcq(questions, temp=1.5)
 
 
 if __name__ == "__main__":

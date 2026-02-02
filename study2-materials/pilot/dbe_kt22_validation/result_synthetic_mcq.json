@@ -1,0 +1,17 @@
+{
+  "dataset": "DBE-KT22",
+  "model": "gemini-3-flash-preview",
+  "mode": "synthetic_mcq",
+  "temperature": 1.5,
+  "n_students": 10,
+  "n_items": 164,
+  "n_student_responses": 128845,
+  "rho": 0.3,
+  "p_value": 9.4234e-05,
+  "ci_95": [
+    0.155,
+    0.436
+  ],
+  "mae": 0.204,
+  "bias": -0.105
+}

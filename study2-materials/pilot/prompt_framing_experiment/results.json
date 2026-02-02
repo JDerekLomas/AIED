@@ -1,0 +1,98 @@
+{
+  "cognitive_load_t1.0": {
+    "framing": "cognitive_load",
+    "temperature": 1.0,
+    "spearman_rho": 0.617,
+    "spearman_p": 4.67e-16,
+    "ci_95": [
+      0.474,
+      0.727
+    ],
+    "mae": 0.192,
+    "bias": 0.16,
+    "n_items": 140,
+    "n_api_calls": 420,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "cognitive_load_t2.0": {
+    "framing": "cognitive_load",
+    "temperature": 2.0,
+    "spearman_rho": 0.673,
+    "spearman_p": 8.68e-20,
+    "ci_95": [
+      0.55,
+      0.766
+    ],
+    "mae": 0.19,
+    "bias": 0.158,
+    "n_items": 140,
+    "n_api_calls": 420,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "teacher_decomposed_t1.0": {
+    "framing": "teacher_decomposed",
+    "temperature": 1.0,
+    "spearman_rho": 0.487,
+    "spearman_p": 8.44e-09,
+    "ci_95": [
+      0.355,
+      0.609
+    ],
+    "mae": 0.273,
+    "bias": 0.259,
+    "n_items": 125,
+    "n_api_calls": 420,
+    "n_parse_failures": 51,
+    "parse_rate": 0.879
+  },
+  "teacher_decomposed_t2.0": {
+    "framing": "teacher_decomposed",
+    "temperature": 2.0,
+    "spearman_rho": 0.458,
+    "spearman_p": 1.22e-08,
+    "ci_95": [
+      0.306,
+      0.582
+    ],
+    "mae": 0.269,
+    "bias": 0.251,
+    "n_items": 140,
+    "n_api_calls": 420,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "error_affordance_t1.0": {
+    "framing": "error_affordance",
+    "temperature": 1.0,
+    "spearman_rho": 0.493,
+    "spearman_p": 6.25e-10,
+    "ci_95": [
+      0.348,
+      0.607
+    ],
+    "mae": 0.179,
+    "bias": 0.131,
+    "n_items": 140,
+    "n_api_calls": 0,
+    "n_parse_failures": 8,
+    "parse_rate": 0.981
+  },
+  "error_affordance_t2.0": {
+    "framing": "error_affordance",
+    "temperature": 2.0,
+    "spearman_rho": 0.478,
+    "spearman_p": 2.32e-09,
+    "ci_95": [
+      0.327,
+      0.601
+    ],
+    "mae": 0.184,
+    "bias": 0.134,
+    "n_items": 140,
+    "n_api_calls": 240,
+    "n_parse_failures": 10,
+    "parse_rate": 0.976
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "DBE-KT22",
+  "model": "gemini-3-flash-preview",
+  "mode": "decomposed_3rep",
+  "temperature": 1.5,
+  "n_reps": 3,
+  "n_items": 168,
+  "n_student_responses": 128845,
+  "per_rep_rhos": [
+    0.454,
+    0.49,
+    0.472
+  ],
+  "averaged_rho": 0.479,
+  "p_value": 5.2714e-11,
+  "ci_95": [
+    0.35,
+    0.594
+  ],
+  "rho_author_difficulty": 0.386
+}
