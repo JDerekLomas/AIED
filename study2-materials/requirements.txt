@@ -1,0 +1,11 @@
+# Core dependencies for LLM difficulty estimation experiments
+google-generativeai>=0.8.0
+scipy>=1.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: For running model survey with other providers
+# openai>=1.0.0        # For GPT-4o
+# groq>=0.4.0          # For Llama models via Groq

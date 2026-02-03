@@ -1,92 +1,105 @@
-# When Does LLM Difficulty Estimation Work?
+# It's Hard to Know How Hard It Is
 
-**A Systematic Search Across Methods, Models, and Datasets**
+**Mapping the Design Space of LLM Item Difficulty Estimation**
 
 Derek Lomas | AIED 2026 | February 2026
 
 ## Paper
 
-Open `results-site/paper.html` in a browser for the full paper with interactive figures.
+- **LaTeX source:** `paper/main.tex` (compile with `pdflatex main.tex`)
+- **Interactive version:** `results-site/paper.html` (open in browser)
 
 ## Key Results
 
-- **Open-ended items (SmartPaper):** rho=0.55-0.67 depending on prompt framing (n=140, p<0.0001)
-- **MCQ items (Eedi):** rho=0.11, non-significant on 105-item confirmation (95% CI [-0.07, 0.30])
-- **Prompt framing is the primary variable:** prerequisite_chain rho=0.67 vs. simulation rho<0.45
-- **Temperature x framing interaction:** structural framings peak at low temp; cognitive load peaks at high temp
-- **More cognitive scaffolding hurts:** misconception hints rho=0.19 vs. direct prediction rho=0.50
-- **Model size doesn't predict success:** Scout 17B (rho=0.37) > GPT-4o (rho=0.17)
+- **Best performance:** ρ=0.69 with prerequisite_chain prompt (SmartPaper, n=140)
+- **Prompt framing is the primary variable:** Item-analysis prompts (ρ=0.61 mean) outperform population-only prompts (ρ=0.47 mean)
+- **Model matters less than prompt:** ANOVA shows prompt η²=0.31 vs. model η²=0.08
+- **Temperature doesn't matter:** No significant difference between t=0.5, 1.0, 2.0
+- **Simulation-based approaches fail:** synthetic_students ρ=0.19 (worst performer)
+- **Cross-dataset generalization:** Correlations transfer to MCQ datasets (DBE-KT22 ρ=0.35, BEA 2024 ρ=0.45)
 
-Total cost: ~$50 in API calls across ~200 experimental conditions.
+Total cost: ~$100 in API calls across ~120 experimental configurations (5 models × 4 prompts × 3 datasets × 3 reps).
 
 ## Directory Structure
 
 ```
 study2-materials/
-├── results-site/paper.html         # Full paper (open in browser)
-├── paper/sections/                  # Paper-ready section drafts
+├── paper/
+│   ├── main.tex                     # LaTeX source (LNCS format)
+│   ├── main.pdf                     # Compiled paper
+│   └── figures/                     # Generated figures
 │
 ├── data/
-│   ├── smartpaper/                  # 140 open-ended items, 4 subjects (India)
-│   ├── dbe-kt22/                   # South African maths assessment
-│   └── indian_state_assessment/     # Indian state exam data
+│   ├── smartpaper/                  # 140 open-ended items (India, Grades 6-8)
+│   └── dbe-kt22/                    # South African maths MCQs
 │
-├── scripts/                         # Active experiment scripts (~27 files)
-│   ├── run_prompt_screening_g3f.py  # Prompt framing RSM experiment
-│   ├── rsm_analysis.py             # RSM analysis and visualization
-│   ├── run_confirmation.py          # 105-item Eedi confirmation
-│   ├── run_smartpaper_expansion.py  # 140-item SmartPaper expansion
-│   ├── run_model_survey.py          # 15-model cross-model survey
-│   ├── analyze_results.py           # Main analysis pipeline
-│   ├── prompts_mcq.py              # Prompt library
-│   └── ...                          # Phase-specific experiment runners
+├── scripts/
+│   ├── run_prompt_screening_g3f.py  # Phase 1: 15-prompt screening (CONTAINS ALL PROMPTS)
+│   ├── run_model_survey.py          # Phase 2: 5-model comparison
+│   └── run_bea2024_validation.py    # Phase 3: BEA 2024 benchmark
 │
-├── pilot/                           # Active experiment outputs
-│   ├── prompt_framing_experiment/   # 15 framings x temps x 140 items (main result)
-│   ├── replications/                # Literature replication attempts
-│   ├── smartpaper_expansion/        # 140-item SmartPaper results
-│   ├── confirmation_experiment/     # 105-item Eedi confirmation
-│   ├── model_survey/                # 15-model comparison
-│   ├── rsm_experiment/              # Initial RSM screening
-│   └── ...
+├── pilot/
+│   ├── prompt_framing_experiment/   # Phase 1 results: 15 framings × 3 temps × 140 items
+│   │   └── results.json             # Main screening results
+│   ├── model_survey/
+│   │   └── survey_results.json      # 5 models × 4 prompts × 3 reps
+│   └── anova_analysis.py            # Statistical analysis script
 │
-├── archive/                         # Earlier phases (drafts, scripts, pilot dirs)
-│   ├── drafts/                      # Old abstracts, design docs, paper drafts
-│   ├── scripts/                     # Earlier experiment scripts (~57 files)
-│   └── pilot/                       # Old pilot test directories (~40 dirs)
-│
-├── docs/                            # Literature review, prompt design rationale
-└── .claude/handoffs/                # Session-by-session research documentation
+└── .claude/handoffs/                # Session-by-session research notes
 ```
+
+## Prompts
+
+All 16 prompts are defined in `scripts/run_prompt_screening_g3f.py`:
+
+| Prompt | Type | Best ρ | Description |
+|--------|------|--------|-------------|
+| prerequisite_chain | Item | 0.69 | Count knowledge/skill prerequisites |
+| cognitive_load | Item | 0.67 | Estimate working memory demands |
+| buggy_rules | Item+Pop | 0.66 | Identify systematic procedural errors |
+| misconception_holistic | Item+Pop | 0.64 | Predict misconceptions holistically |
+| error_analysis | Item+Pop | 0.60 | Analyze likely student errors |
+| devil_advocate | Pop | 0.60 | Challenge overconfidence bias |
+| cognitive_profile | Item | 0.59 | Analyze cognitive demands |
+| contrastive | Item | 0.58 | Compare to similar content |
+| classroom_sim | Pop | 0.56 | Simulate 20 students |
+| teacher | Baseline | 0.56 | Expert teacher judgment |
+| verbalized_sampling | Pop | <0.55 | Multiple perspective estimates |
+| familiarity_gradient | Item | <0.55 | Distance from textbook drills |
+| imagine_classroom | Pop | <0.55 | Visualize classroom distribution |
+| teacher_decomposed | Pop | <0.55 | Estimate per proficiency level |
+| error_affordance | Item | <0.55 | Count plausible error paths |
+| synthetic_students | Pop | 0.19 | Two-stage persona simulation (worst) |
 
 ## Reproduction
 
 ```bash
-pip install openai google-generativeai groq scipy numpy pandas tqdm
+pip install google-generativeai scipy numpy pandas tqdm python-dotenv
 
-# Set API keys
+# Set API key
 export GOOGLE_API_KEY="your-key"
-export GROQ_API_KEY="your-key"
-export DEEPSEEK_API_KEY="your-key"
 
-# Run the prompt framing experiment (main result)
+# Phase 1: Prompt screening (15 prompts × 3 temps × 140 items)
 python scripts/run_prompt_screening_g3f.py
 
-# Run RSM analysis
-python scripts/rsm_analysis.py
+# Phase 2: Model survey (requires additional API keys)
+python scripts/run_model_survey.py
+
+# Analyze results
+python pilot/anova_analysis.py
 ```
 
 ## Datasets
 
 - **SmartPaper** (India): 140 open-ended items, Grades 6-8, 4 subjects. Difficulty = proportion correct.
-- **Eedi** (UK): 1,869 MCQ maths items with misconception-mapped distractors. Difficulty = IRT b_2PL.
-- **DBE-KT22** (South Africa): Maths assessment for validation.
+- **DBE-KT22** (South Africa): MCQ maths items with known p-correct. Used for cross-dataset validation.
+- **BEA 2024** (USA): USMLE medical exam MCQs from shared task. Used for benchmark comparison.
 
 ## Citation
 
 ```
 @inproceedings{lomas2026difficulty,
-  title={When Does LLM Difficulty Estimation Work? A Systematic Search Across Methods, Models, and Datasets},
+  title={It's Hard to Know How Hard It Is: Mapping the Design Space of LLM Item Difficulty Estimation},
   author={Lomas, Derek},
   booktitle={Proceedings of AIED 2026},
   year={2026}
