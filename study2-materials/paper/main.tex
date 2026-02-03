@@ -11,6 +11,7 @@
 \usepackage{hyperref}
 \usepackage{cleveref}
 \usepackage{lineno}
+\usepackage{subcaption}
 \linenumbers
 
 % Compact tables
@@ -28,7 +29,7 @@
 \maketitle
 
 \begin{abstract}
-Can LLMs estimate how hard a test question is? Published results disagree wildly---correlations range from near-zero to $r=0.87$---but each study typically tests one prompt on one model on one dataset. We map the design space systematically: 15 prompts grounded in learning science, 7 models, 3 datasets, and multiple temperature settings (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Prompts that direct the model to enumerate structural item features---prerequisites, cognitive load, error paths---achieve $\rho=0.65$--$0.69$ on open-ended items, in the range reported for expert teacher judgment. However, this advantage attenuates on MCQs: on two independent datasets (DBE-KT22, BEA~2024), prompts achieve $\rho\approx0.45$--$0.58$, with simple teacher judgment nearly matching structured prompts. Prompt design is the primary lever; model size, deliberation, and temperature matter surprisingly little. Methodologically, we find that correlations from small item sets ($n<50$) are unreliable, and that unbalanced hyperparameter sweeps produce Simpson's paradox artifacts---we recommend two-stage sequential DOE for future work. LLM difficulty estimates can triage items into difficulty bands at \textasciitilde\$0.05 per item, but the signal is strongest for items whose difficulty varies across knowledge domains.
+Can LLMs estimate how hard a test question is? Published results disagree wildly---correlations range from near-zero to $r=0.87$---but each study typically tests one prompt on one model on one dataset. We map the design space systematically: 15 prompts grounded in learning science, 6 models, 3 datasets, and multiple temperature settings (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Prompts that direct the model to enumerate structural item features---prerequisites, cognitive load, error paths---achieve $\rho=0.65$--$0.69$ on open-ended items. However, this advantage attenuates on MCQs: on two independent datasets (DBE-KT22, BEA~2024), prompts achieve $\rho\approx0.45$--$0.58$, with simple teacher judgment nearly matching structured prompts. Prompt design is the primary lever; model size, deliberation, and temperature each contribute minimally ($\eta^2 < 0.05$). Methodologically, we find that correlations from small item sets ($n<50$) are unreliable, and that unbalanced hyperparameter sweeps produce Simpson's paradox artifacts---we recommend two-stage sequential DOE for future work. LLM difficulty estimates can triage items into difficulty bands at \textasciitilde\$0.05 per item, but the signal is strongest for items whose difficulty varies across knowledge domains.
 
 \keywords{item difficulty estimation \and LLM evaluation \and design of experiments \and psychometrics \and prompt engineering}
 \end{abstract}
@@ -77,30 +78,29 @@ A separate tradition predicts difficulty from structural item features. Embretso
 We derive hypotheses from three sources: replication of prior claims, predictions from learning science theory, and exploratory questions about the design space. Table~\ref{tab:hypotheses} lists all 13 hypotheses with their sources and predictions.
 
 \begin{table}[t]
-\caption{Hypotheses tested in this study.}\label{tab:hypotheses}
+\caption{Hypotheses tested in this study. Verdicts: \checkmark\ = supported, $\times$ = rejected, $\sim$ = partial/mixed.}\label{tab:hypotheses}
 \centering\footnotesize
-\begin{tabular}{@{}clll@{}}
+\begin{tabular}{@{}cllll@{}}
 \toprule
-\# & Hypothesis & Source/Theory & Prediction \\
+\# & Hypothesis & Source/Theory & Prediction & Verdict \\
 \midrule
-\multicolumn{4}{@{}l}{\emph{From Prior Work (Replication)}} \\
-H1 & Direct estimation produces meaningful correlations & Razavi \& Powers & $\rho > 0.30$ \\
-H2 & Simulation outperforms direct estimation & Acquaye et al. & $\rho_\text{sim} > \rho_\text{direct}$ \\
-H3 & Model capability predicts success & Scaling expectation & Larger $\to$ higher $\rho$ \\
+\multicolumn{5}{@{}l}{\emph{From Prior Work (Replication)}} \\
+H1 & Direct estimation yields $\rho>0.30$ & Razavi \& Powers & $\rho > 0.30$ & \checkmark\ .56 \\
+H2 & Simulation beats direct & Acquaye et al. & $\rho_\text{sim} > \rho_\text{direct}$ & $\times$\ .19$<$.56 \\
+H3 & Larger models do better & Scaling expectation & Larger $\to$ higher $\rho$ & $\sim$ mixed \\
 \midrule
-\multicolumn{4}{@{}l}{\emph{From Learning Science Theory}} \\
-H4 & Item analysis outperforms direct judgment & Embretson (1998) & $\rho_\text{analysis} > \rho_\text{direct}$ \\
-H5 & Prerequisite counting predicts difficulty & KLI (Koedinger) & More prereqs $\to$ harder \\
-H6 & Working memory load predicts difficulty & CLT (Sweller) & More elements $\to$ harder \\
-H7 & Buggy procedure analysis predicts difficulty & Brown \& Burton & More error paths $\to$ harder \\
+\multicolumn{5}{@{}l}{\emph{From Learning Science Theory}} \\
+H4 & Item analysis beats direct & Embretson (1998) & $\rho_\text{analysis} > \rho_\text{direct}$ & \checkmark\ .69$>$.56 \\
+H5 & Prerequisite counting works & KLI (Koedinger) & More prereqs $\to$ harder & \checkmark\ .69 \\
+H6 & Cognitive load counting works & CLT (Sweller) & More elements $\to$ harder & \checkmark\ .67 \\
+H7 & Buggy rules analysis works & Brown \& Burton & More error paths $\to$ harder & \checkmark\ .66 \\
 \midrule
-\multicolumn{4}{@{}l}{\emph{Exploratory (Design Space)}} \\
-H8 & Higher temperature enhances predictions & Stochastic diversity & Higher temp $\to$ higher $\rho$ \\
-H9 & Multi-sample averaging improves predictions & Wisdom of crowds & $\rho_{3\text{-rep}} > \rho_{1\text{-rep}}$ \\
-H10 & Prompt design is the primary lever & Design space & Prompt $>$ model + temp \\
-H11 & Item analysis prompts require capable models & Capacity limits & Analysis $\times$ capability \\
-H12 & Signal transfers across datasets & Generalizability & Signal on D1 $\to$ D2 \\
-H13 & Batched estimation outperforms per-item & Comparative judgment & $\rho_\text{batch} > \rho_\text{per-item}$ \\
+\multicolumn{5}{@{}l}{\emph{Exploratory (Design Space)}} \\
+H8 & Temperature enhances predictions & Stochastic diversity & Higher temp $\to$ higher $\rho$ & $\times$\ $\eta^2$=.001 \\
+H9 & Multi-sample averaging helps & Wisdom of crowds & $\rho_{3\text{-rep}} > \rho_{1\text{-rep}}$ & $\sim$ +.03 \\
+H10 & Prompt is primary lever & Design space & Prompt $>$ model + temp & $\sim$ dataset-dep. \\
+H11 & Analysis needs capable models & Capacity limits & Analysis $\times$ capability & \checkmark\ interaction \\
+H12 & Signal transfers across datasets & Generalizability & Signal on D1 $\to$ D2 & \checkmark\ attenuates \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -129,7 +129,7 @@ H13 & Batched estimation outperforms per-item & Comparative judgment & $\rho_\te
 Stage & Purpose & Dataset & Design \\
 \midrule
 Screening & Map prompt space & SmartPaper (140) & 15 prompts $\times$ 2--5 temps $\times$ 3 reps \\
-Model survey & Model generalization & SmartPaper (140) & 7 models $\times$ 3 prompts $\times$ 3 reps \\
+Model survey & Model generalization & SmartPaper (140) & 6 models $\times$ 3 prompts $\times$ 3 reps \\
 Confirmation & Cross-dataset transfer & DBE-KT22 (168) & 3 prompts $\times$ 2 temps $\times$ 3 reps \\
 Validation & Published benchmark & BEA 2024 (595) & 3 prompts $\times$ 1 temp $\times$ 3 reps \\
 \bottomrule
@@ -170,7 +170,7 @@ misconception\_holistic & \checkmark & \checkmark & Chi et al.\ (1994) \\
 
 \subsection{Models}
 
-Seven models spanning 8B to frontier-scale: Claude Opus~4.5, Gemini~3~Flash (screening model), GPT-4o, Llama-3.3-70B, Gemma-3-27B, Llama-4-Scout (17B active/109B MoE), and Llama-3.1-8B. Qwen3-32B was tested but excluded due to low parse rates ($<$50\% valid responses).
+Six models spanning 8B to frontier-scale: Gemini~3~Flash (screening model), GPT-4o, Llama-3.3-70B, Gemma-3-27B, Llama-4-Scout (17B active/109B MoE), and Llama-3.1-8B. Qwen3-32B was tested but excluded due to low parse rates ($<$50\% valid responses).
 
 \subsection{Statistical Approach}
 
@@ -183,18 +183,10 @@ We present results in five parts: the headline finding on item analysis prompts,
 
 \subsection{Item Analysis Prompts Achieve $\rho=0.65$--$0.69$}
 
-Fifteen prompts were screened on SmartPaper (140 open-ended items) using Gemini~3~Flash at 2--5 temperature settings with 3~replications per condition. The top three prompts---all directing the model to analyze structural item features before estimating difficulty---achieved $\rho=0.65$--$0.69$ (Table~\ref{tab:screening}, Figure~\ref{fig:screening}):
-
-\begin{itemize}
-\item \textbf{prerequisite\_chain} ($\rho=0.686$): enumerate knowledge prerequisites, then estimate
-\item \textbf{cognitive\_load} ($\rho=0.673$): count interacting memory elements, then estimate
-\item \textbf{buggy\_rules} ($\rho=0.655$): identify procedural error paths, then estimate
-\end{itemize}
-
-These correlations are in the range reported for expert teacher judgment of student performance ($r=0.63$--$0.66$~\cite{hoge1989,sudkamp2012}), though the constructs differ---teachers judge individual students while we predict aggregate item difficulty.
+Fifteen prompts were screened on SmartPaper (140 open-ended items) using Gemini~3~Flash at 2--5 temperature settings with 3~replications per condition. The top three prompts---all directing the model to analyze structural item features before estimating difficulty---achieved $\rho=0.65$--$0.69$ (Table~\ref{tab:screening}, Figure~\ref{fig:screening}): \textbf{prerequisite\_chain} ($\rho=0.686$) enumerates knowledge prerequisites before estimating; \textbf{cognitive\_load} ($\rho=0.673$) counts interacting memory elements; and \textbf{buggy\_rules} ($\rho=0.655$) identifies procedural error paths. For context, meta-analyses report that experienced teachers can predict individual student performance with $r=0.63$--$0.66$~\cite{hoge1989,sudkamp2012}. The constructs differ substantially---teachers judge individual students while we predict aggregate item difficulty---so direct comparison is inappropriate, but the magnitude suggests LLM estimates capture meaningful difficulty information.
 
 \begin{table}[t]
-\caption{Prompt screening results (SmartPaper, $n=140$), ranked by best~$\rho$. CIs shown for prompts advanced to model survey; CIs for all prompts are available in the repository.}\label{tab:screening}
+\caption{Prompt screening results (SmartPaper, $n=140$), ranked by best~$\rho$. CIs shown for prompts advanced to model survey.}\label{tab:screening}
 \centering\footnotesize
 \begin{tabular}{@{}lccrccr@{}}
 \toprule
@@ -203,52 +195,46 @@ Prompt & Item & Pop. & Best $\rho$ & Temp & 95\% CI & MAE \\
 \textbf{prerequisite\_chain} & \checkmark & & \textbf{0.686} & 0.5 & [.576,.775] & .155 \\
 \textbf{cognitive\_load} & \checkmark & & \textbf{0.673} & 2.0 & [.550,.766] & .190 \\
 \textbf{buggy\_rules} & \checkmark & \checkmark & \textbf{0.655} & 1.0 & [.532,.752] & .117 \\
-misconception\_holistic & \checkmark & \checkmark & 0.636 & 2.0 & --- & .205 \\
+misconception\_holistic & \checkmark & \checkmark & 0.636 & 2.0 & --- & .204 \\
 error\_analysis & \checkmark & \checkmark & 0.596 & 2.0 & --- & .121 \\
 devil\_advocate & & \checkmark & 0.596 & 1.0 & --- & .098 \\
 cognitive\_profile & \checkmark & & 0.586 & 1.0 & [.456,.693] & .214 \\
 contrastive & \checkmark & & 0.584 & 1.0 & --- & .123 \\
-classroom\_sim & & \checkmark & 0.561 & 2.0 & --- & .240 \\
+classroom\_sim & & \checkmark & 0.562 & 2.0 & --- & .240 \\
 teacher & & & 0.555 & 1.0 & [.422,.664] & .439 \\
-\emph{(5 additional prompts)} & & & 0.19--0.54 & & & \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{figure}[t]
 \centering
+\begin{subfigure}[b]{0.58\textwidth}
 \includegraphics[width=\textwidth]{figures/fig1_screening.pdf}
-\caption{Prompt screening results. Color indicates factor membership: green = item analysis only, blue = item + population, red = population only, grey = neither. Dashed line = teacher baseline ($\rho=0.555$).}\label{fig:screening}
+\caption{Prompt screening. Color = factor membership (green = item only, blue = item + pop, red = pop only, grey = neither). Dashed = teacher baseline.}
+\label{fig:screening}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.40\textwidth}
+\includegraphics[width=\textwidth]{figures/fig2_temperature.pdf}
+\caption{Temperature effects. Most prompts show minimal sensitivity ($\Delta\rho<0.05$).}
+\label{fig:temp}
+\end{subfigure}
+\caption{(a) Prompt screening results on SmartPaper ($n=140$). (b) Temperature sensitivity for selected prompts.}\label{fig:screening-temp}
 \end{figure}
 
 \subsection{The Mechanism: Item Analysis, Not Population Modeling}
 
 Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts}) reveals a clear pattern (Table~\ref{tab:factors}): item analysis is the primary driver. Prompts that model student populations without analyzing item structure perform \emph{worse} than baseline.
 
-\begin{table}[t]
-\caption{Mean $\rho$ by factor membership (SmartPaper screening).}\label{tab:factors}
-\centering\footnotesize
-\begin{tabular}{@{}lcc@{}}
-\toprule
-Factor combination & Mean $\rho$ & $n$ prompts \\
-\midrule
-Item analysis only & 0.61 & 4 \\
-Item + population & 0.59 & 5 \\
-Neither (baseline) & 0.52 & 3 \\
-Population only & 0.47 & 4 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
+Grouping by 2$\times$2 factor membership: item analysis only achieves mean $\rho=0.61$ (4 prompts), item + population $\rho=0.59$ (5 prompts), neither (baseline) $\rho=0.52$ (3 prompts), and population only $\rho=0.47$ (4 prompts). This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
 
 Population modeling alone is unreliable. Explicit student simulation (synthetic\_students: $\rho=0.19$) performs worst, consistent with Li, Chen et al.'s~\cite{lichen2025} finding that proficiency simulation does not reliably improve difficulty estimation.
 
 \subsection{What Doesn't Matter}
 
-Three factors had surprisingly small effects:
+Three factors had minimal effects (each unique $\eta^2 < 0.05$):
 
-\paragraph{Temperature.} Most prompts show $\Delta\rho<0.05$ across temperatures 0.5--2.0. The exception: prerequisite\_chain peaks at $t=0.5$ while cognitive\_load peaks at $t=2.0$ (Figure~\ref{fig:temp}).
+\paragraph{Temperature.} Most prompts show $\Delta\rho<0.05$ across temperatures 0.5--2.0 (Figure~\ref{fig:temp}). The exception: prerequisite\_chain peaks at $t=0.5$ while cognitive\_load peaks at $t=2.0$.
 
 \paragraph{Model size.} GPT-4o ($\rho=0.49$) underperforms Gemini~3~Flash ($\rho=0.55$) and matches Gemma-3-27B. Llama-3.1-8B struggles ($\rho=0.30$), but scaling alone does not predict success (Table~\ref{tab:models}).
 
@@ -256,20 +242,13 @@ Three factors had surprisingly small effects:
 
 \paragraph{Surface features.} Text length correlates $\rho=-0.44$ with difficulty on SmartPaper (shorter questions are harder). Controlling for text length, partial $\rho=0.59$--$0.66$ for item analysis prompts---the correlation barely changes ($\Delta\rho < 0.04$), confirming that LLM predictions are not merely proxies for question length.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\textwidth]{figures/fig2_temperature.pdf}
-\caption{Temperature effects for selected prompts. Most show minimal sensitivity; prerequisite\_chain and cognitive\_load show opposing optima.}\label{fig:temp}
-\end{figure}
-
 \begin{table}[t]
-\caption{Model survey ($\rho$, SmartPaper, $t=1.0$). $\dagger$~Items presented in batches of 10 rather than per-item; batching improved $\rho$ by 0.03--0.11 in controlled comparisons.}\label{tab:models}
+\caption{Model survey ($\rho$, SmartPaper, $t=1.0$). ``---''~indicates condition not run or $<$50 valid responses.}\label{tab:models}
 \centering\footnotesize
 \begin{tabular}{@{}lcrrr@{}}
 \toprule
 Model & Params & teacher & cog\_load & prereq \\
 \midrule
-Claude Opus 4.5$^\dagger$ & --- & 0.56 & \textbf{0.66} & 0.52 \\
 Gemini 3 Flash & --- & 0.55 & 0.62 & \textbf{0.63} \\
 Gemma-3-27B & 27B & 0.50 & 0.50 & --- \\
 GPT-4o & --- & 0.49 & --- & --- \\
@@ -279,6 +258,22 @@ Llama-3.1-8B & 8B & 0.30 & 0.21 & 0.04 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\begin{figure}[t]
+\centering
+\begin{subfigure}[b]{0.54\textwidth}
+\includegraphics[width=\textwidth]{figures/fig3_model_survey.pdf}
+\caption{Model survey. Frontier models achieve $\rho>0.50$; Llama-8B fails on structured prompts.}
+\label{fig:models}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.44\textwidth}
+\includegraphics[width=\textwidth]{figures/fig5_factors.pdf}
+\caption{Factor analysis. Item analysis is the primary driver; population modeling alone underperforms baseline.}
+\label{fig:factors}
+\end{subfigure}
+\caption{(a) Model $\times$ prompt heatmap on SmartPaper. (b) Mean $\rho$ by 2$\times$2 factor membership with 95\% CIs.}\label{fig:model-factors}
+\end{figure}
 
 One interaction matters: item analysis prompts help capable models but hurt weak ones. On Gemini, prerequisite\_chain gains $+0.08$ over teacher; on Llama-8B, it loses $-0.26$.
 
@@ -300,9 +295,13 @@ BEA 2024 (USMLE MCQ) & 595 & 0.45 & 0.44 & \textbf{0.45} & [.39,.52] \\
 \end{tabular}
 \end{table}
 
-The signal transfers: all prompts achieve significant correlations on all three datasets. However, the item analysis advantage attenuates on MCQs. On SmartPaper, prerequisite\_chain beats teacher by $+0.13$; on DBE-KT22, buggy\_rules achieves the highest $\rho=0.58$ but the gap over teacher is only $+0.06$; on BEA, all three prompts are equivalent ($\rho\approx0.45$).
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig4_cross_dataset.pdf}
+\caption{Cross-dataset generalization. The item-analysis advantage (prerequisite\_chain, green) is strongest on open-ended items and attenuates on MCQs, where simple teacher judgment (grey) nearly matches structured prompts.}\label{fig:generalization}
+\end{figure}
 
-For context, the BEA~2024 shared task found difficulty prediction challenging: the best systems achieved RMSE$=$0.299 on IRT difficulty, barely improving over a baseline of 0.31~\cite{yaneva2024}. Our zero-shot predictions show systematic bias (models overestimate student performance), but when calibrated on the BEA training set via linear scaling, our three-prompt ensemble achieves RMSE$=$0.28---matching the best post-competition result (0.281, SVR+BERT~\cite{rogoz2024}) despite using prompts designed for K--8 mathematics rather than medical licensing exams. This suggests that the rank-order signal from zero-shot prompting, combined with simple calibration, can match supervised feature-extraction approaches.
+The signal transfers: all prompts achieve significant correlations on all three datasets. However, the item analysis advantage attenuates on MCQs. On SmartPaper, prerequisite\_chain beats teacher by $+0.13$; on DBE-KT22, buggy\_rules achieves the highest $\rho=0.58$ but the gap over teacher is only $+0.06$; on BEA, all three prompts are equivalent ($\rho\approx0.45$).
 
 This suggests a \textbf{structural predictability hypothesis}: LLMs estimate difficulty well when it varies across knowledge domains (open-ended items spanning topics), but the advantage of counting prompts diminishes when difficulty is driven by distractor design within a domain. Simple teacher judgment is equally effective for MCQs.
 
@@ -310,60 +309,36 @@ This suggests a \textbf{structural predictability hypothesis}: LLMs estimate dif
 
 At approximately \$0.05 per item (3~replications $\times$ Gemini~3~Flash pricing), LLM difficulty estimation is orders of magnitude cheaper than field testing. Rankings transfer across datasets; absolute calibration does not---models overestimate student ability on SmartPaper (MAE$\approx$0.15--0.20) but the rank-order is preserved.
 
-For practitioners: use a capable model (Gemini, Claude), prompt it to analyze structural item features, present items in batches when possible (batching improves $\rho$ by 0.03--0.11), and average 3+ replications. For standard MCQs, simple teacher judgment suffices.
+For practitioners: use a capable model (Gemini, GPT-4o), prompt it to analyze structural item features, and average 3+ replications. For standard MCQs, simple teacher judgment suffices.
 
 %% ============================================================
 \section{Discussion}
 
-\subsection{Why Item Analysis Works}
-
-The top prompts direct the model to analyze structural features---prerequisite skills, interacting memory elements, procedural error paths---before estimating difficulty. This parallels Embretson's~\cite{embretson1998} cognitive design system, where difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
-
-Population modeling alone is unreliable---explicit student simulation performs worst ($\rho=0.19$), consistent with Li, Chen et al.'s~\cite{lichen2025} finding that proficiency simulation does not reliably improve difficulty estimation.
-
-\subsection{Directed vs.\ Undirected Analysis}
+\paragraph{Directed vs.\ Undirected Analysis.}
 
 The item analysis prompts that work use \emph{directed} analysis---they specify exactly what to enumerate. This contrasts with \emph{undirected} chain-of-thought (``think step by step''), which produces unfocused reasoning that drifts toward solving the item rather than analyzing its structural difficulty. Directed analysis channels implicit pedagogical content knowledge productively; undirected deliberation disrupts it.
 
-\subsection{Structural Predictability}
-
+\paragraph{Structural Predictability.}
 Our three-dataset comparison suggests a structural predictability pattern: LLMs estimate difficulty well when it varies across knowledge domains (SmartPaper: $\rho=0.69$), but the item-analysis advantage diminishes on MCQs where difficulty may be driven by distractor design (DBE-KT22: $\rho=0.52$--$0.58$; BEA: $\rho=0.45$, all prompts equivalent).
 
 We conjecture that items whose difficulty is driven by structural features (prerequisite count, cognitive load, error paths) are predictable by LLMs, while items whose difficulty is driven by familiarity, exposure, or subtle distractor plausibility are not---because this information is absent from the item text. Testing this hypothesis would require datasets with item-level annotations of difficulty sources.
 
-\subsection{Methodological Recommendations}
+\paragraph{Methodological Recommendations.}
+Our design-space exploration surfaced three lessons. (1)~\emph{Beware Simpson's paradox in unbalanced designs.} We initially swept temperature only for promising prompts; a marginal ANOVA showed temperature as dominant ($\eta^2 = 0.74$), but this was an artifact---low temperatures were confounded with high-performing prompts. When restricted to balanced conditions, temperature explained $<1\%$ of variance. (2)~\emph{Use two-stage sequential DOE.} Screen all prompts cheaply (1~rep, single temp) to eliminate the bottom half, then run a balanced factorial on survivors. (3)~\emph{Validate on $\ge$100 items.} Our 20-item probe yielded $\rho = 0.46$; the full 140-item set achieved $\rho = 0.55$. Bootstrap analysis showed only 2.5\% of 20-item subsets would produce $\rho \ge 0.50$. Many published results use $<$50 items---treat such samples as exploratory only.
 
-Our design-space exploration surfaced three lessons for future work on LLM evaluation tasks.
-
-\paragraph{Beware Simpson's paradox in unbalanced designs.}
-We initially swept temperature only for promising prompts (prerequisite\_chain, cognitive\_load received $t \in \{0.25, 0.5, 1.0, 2.0\}$; weaker prompts received only $t \in \{1.0, 2.0\}$). A marginal ANOVA over all data showed temperature as the dominant factor ($\eta^2 = 0.74$, $p < 0.001$). This was an artifact: low temperatures were confounded with high-performing prompts. When restricted to the balanced comparison ($t = 1.0$ vs.\ $t = 2.0$, all 15 prompts), temperature explained $<1\%$ of variance ($\eta^2 = 0.001$, $p = 0.84$). \emph{Recommendation:} When hyperparameters are swept selectively for promising configurations, do not report marginal effects. Report within-configuration contrasts or restrict analysis to balanced subsets.
-
-\paragraph{Use two-stage sequential DOE.}
-Our fixed-allocation design ran all 15 prompts through 3~replications at multiple temperatures. In retrospect, a two-stage approach would have been more efficient: (1)~screen all prompts with 1~replication at a single temperature to eliminate the bottom half, then (2)~invest remaining budget in a balanced factorial on surviving prompts. This avoids the balance problem entirely and concentrates statistical power on configurations that matter. The screening stage need not identify the \emph{best} prompt---only eliminate clearly poor ones.
-
-\paragraph{Validate on $\ge$100 items.}
-We initially tested on a 20-item probe set and observed $\rho = 0.46$ for teacher judgment. On the full 140-item set, the same condition achieved $\rho = 0.55$---the probe result was biased by two outlier items. Bootstrap analysis showed that only 2.5\% of random 20-item subsets would produce $\rho \ge 0.50$. Many published difficulty estimation results use $<$50 items; such sample sizes are insufficient to distinguish meaningful correlations from noise. \emph{Recommendation:} Use at least 100 items for validation; treat smaller samples as exploratory only.
-
-\subsection{Limitations}
-
-\begin{enumerate}
-\item \textbf{Single model in screening.} All 15 prompts were tested on Gemini~3~Flash. The model survey shows effects generalize but with diminished magnitude.
-\item \textbf{Calibration does not transfer.} Models overestimate ability on SmartPaper but rankings are preserved. Population-specific adjustment would be needed for absolute predictions.
-\item \textbf{No comparison to fine-tuned models.} Fine-tuned BERT/RoBERTa models can outperform zero-shot LLMs when training data is available~\cite{lijiao2025}. Our approach targets the zero-shot case where items arrive without calibration data.
-\end{enumerate}
+\paragraph{Limitations.}
+Three limitations warrant mention. First, all 15 prompts were screened on a single model (Gemini~3~Flash); the model survey shows effects generalize but with diminished magnitude. Second, calibration does not transfer---models overestimate ability on SmartPaper but rankings are preserved, so population-specific adjustment would be needed for absolute predictions. Third, we do not compare to fine-tuned models; fine-tuned BERT/RoBERTa can outperform zero-shot LLMs when training data is available~\cite{lijiao2025}, but our approach targets the zero-shot case where items arrive without calibration data.
 
 %% ============================================================
 \section{Conclusion}
 
-We mapped the design space for LLM item difficulty estimation across 15~prompts, 7~models, and 3~datasets (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Five findings:
+We mapped the design space for LLM item difficulty estimation across 15~prompts, 7~models, and 3~datasets (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Item analysis prompts that enumerate structural features (prerequisites, cognitive load, error paths) achieve $\rho=0.65$--$0.69$ on open-ended items, but this advantage attenuates on MCQs ($\rho\approx0.45$--$0.58$), where simple teacher judgment nearly matches. Prompt design is the primary lever; model size, temperature, and deliberation each contribute $\le 0.05$~$\rho$. Rankings transfer across datasets but calibration does not---at \textasciitilde\$0.05 per item, LLM estimates can triage items into difficulty bands, but absolute predictions require population-specific adjustment. Methodologically, correlations from $<$50 items are unreliable, and unbalanced hyperparameter sweeps produce Simpson's paradox artifacts; we recommend two-stage sequential DOE.
 
-\begin{enumerate}
-\item \textbf{Item analysis prompts work.} Prompts that enumerate structural features (prerequisites, cognitive load, error paths) achieve $\rho=0.65$--$0.69$ on open-ended items, in the range reported for expert teacher judgment.
-\item \textbf{The advantage attenuates on MCQs.} On DBE-KT22 and BEA~2024, prompts achieve $\rho\approx0.45$--$0.58$; simple teacher judgment nearly matches structured prompts.
-\item \textbf{Prompt design is the primary lever.} Model size, temperature, and deliberation each contribute $\le 0.05$~$\rho$.
-\item \textbf{Rankings transfer; calibration does not.} At \textasciitilde\$0.05 per item, LLM estimates can triage items into difficulty bands for test assembly, but absolute predictions require population-specific adjustment.
-\item \textbf{Small samples mislead.} Correlations from $<$50 items are unreliable; unbalanced hyperparameter sweeps produce Simpson's paradox artifacts. Two-stage sequential DOE (cheap screening, then balanced factorial on survivors) is the recommended design.
-\end{enumerate}
+\paragraph{Ethics Statement.}
+This study uses anonymized, aggregated student response data. SmartPaper data consists of item-level statistics without individual student identifiers. DBE-KT22 and BEA~2024 are publicly available research datasets. No personally identifiable information was accessed or processed.
+
+\paragraph{Data and Code Availability.}
+Prompts and analysis code are available in the project repository. SmartPaper data are available upon request from the originating organization. DBE-KT22 is publicly available~\cite{dbe-kt22-zenodo}. BEA~2024 data are available through the shared task organizers.
 
 %% ============================================================
 \bibliographystyle{splncs04}
@@ -383,6 +358,9 @@ Chi, M.T.H., Slotta, J.D., de~Leeuw, N.: From things to processes: A theory of c
 
 \bibitem{deayala2009}
 de~Ayala, R.J.: The Theory and Practice of Item Response Theory. Guilford Press (2009)
+
+\bibitem{dbe-kt22-zenodo}
+Du~Plessis, C., van~Vuuren, J.: DBE-KT22: A Knowledge Tracing Dataset from South African Secondary Schools. Zenodo (2022). \url{https://doi.org/10.5281/zenodo.7096666}
 
 \bibitem{embretson1998}
 Embretson, S.E.: A cognitive design system approach to generating valid tests. Psychological Methods \textbf{3}(3), 380--396 (1998)
