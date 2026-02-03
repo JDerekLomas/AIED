@@ -213,18 +213,9 @@ teacher & & & 0.555 & 1.0 & [.422,.664] & .439 \\
 
 \begin{figure}[t]
 \centering
-\begin{subfigure}[b]{0.58\textwidth}
-\includegraphics[width=\textwidth]{figures/fig1_screening.pdf}
-\caption{Prompt screening. Color = factor membership (green = item only, blue = item + pop, red = pop only, grey = neither). Dashed = teacher baseline.}
+\includegraphics[width=0.85\textwidth]{figures/fig1_screening.pdf}
+\caption{Prompt screening results on SmartPaper ($n=140$). Color indicates factor membership: green = item analysis only, blue = item + population, red = population only, grey = neither. Dashed line = teacher baseline. Error bars show 95\% bootstrap CIs.}
 \label{fig:screening}
-\end{subfigure}
-\hfill
-\begin{subfigure}[b]{0.40\textwidth}
-\includegraphics[width=\textwidth]{figures/fig2_temperature.pdf}
-\caption{Temperature effects. Most prompts show minimal sensitivity ($\Delta\rho<0.05$).}
-\label{fig:temp}
-\end{subfigure}
-\caption{(a) Prompt screening results on SmartPaper ($n=140$). (b) Temperature sensitivity for selected prompts.}\label{fig:screening-temp}
 \end{figure}
 
 \subsection{The Mechanism: Item Analysis, Not Population Modeling}
@@ -239,9 +230,9 @@ The critical distinction is \emph{item-centric} vs.\ \emph{population-centric} f
 
 Three factors had minimal effects (each unique $\eta^2 < 0.05$):
 
-\paragraph{Temperature.} Most prompts show $\Delta\rho<0.05$ across temperatures 0.5--2.0 (Figure~\ref{fig:temp}). The exception: prerequisite\_chain peaks at $t=0.5$ while cognitive\_load peaks at $t=2.0$.
+\paragraph{Temperature.} Most prompts show $\Delta\rho<0.05$ across temperatures 0.5--2.0. The exception: prerequisite\_chain peaks at $t=0.5$ while cognitive\_load peaks at $t=2.0$.
 
-\paragraph{Model size.} GPT-4o ($\rho=0.49$) underperforms Gemini~3~Flash ($\rho=0.55$) and matches Gemma-3-27B. Llama-3.1-8B struggles ($\rho=0.30$), but scaling alone does not predict success (Table~\ref{tab:models}).
+\paragraph{Model size.} Among frontier models, size does not predict success: GPT-4o ($\rho=0.49$) underperforms Gemini~3~Flash ($\rho=0.55$) despite being larger, and matches Gemma-3-27B. A capacity floor exists---Llama-3.1-8B struggles ($\rho=0.30$)---but above that threshold, other factors dominate (Table~\ref{tab:models}).
 
 \paragraph{Deliberation.} Undirected chain-of-thought reasoning degrades performance. The structured prompts that work use \emph{directed} analysis---they specify exactly what to enumerate (prerequisites, interacting elements, error paths). Undirected ``think step by step'' produces unfocused reasoning that drifts toward solving the item.
 
