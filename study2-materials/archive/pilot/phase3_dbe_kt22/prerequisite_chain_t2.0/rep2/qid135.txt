@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding the syntax of Functional Dependencies (FDs).
+2. Capability to compute the closure of attribute sets (e.g., $\{A\}^+$, $\{B, C\}^+$).
+3. Identifying Candidate Keys by finding minimal sets of attributes that determine all other attributes (determining that $\{A\}$ and $\{B, C\}$ are keys).
+4. Identifying Prime Attributes (attributes that are part of at least one candidate key: A, B, and C).
+5. Knowing the definition of 3NF (every non-prime attribute is fully functionally dependent on a key, or the "all or nothing" prime attribute rule).
+6. Recognizing that since all attributes $\{A, B, C\}$ are prime, the 3NF condition is vacuously satisfied.
+7. Knowing the definition of BCNF (every determinant must be a superkey).
+8. Applying the BCNF rule to the given FDs: identifying that since $A \to BC$ ($A$ is a key) and $BC \to A$ ($BC$ is a key), all determinants are superkeys.
+9. Distinguishing between "Prime" and "Key" to avoid the common pitfall that $BC$ is a single composite key.
+10. Logical deduction to match findings (Both are met) to the correct multiple-choice option (A).
+
+COUNT: 10
+
+0.55

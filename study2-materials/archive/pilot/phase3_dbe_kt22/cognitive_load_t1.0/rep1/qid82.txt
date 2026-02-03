@@ -1,0 +1,19 @@
+To evaluate this question, we must first note that the student is provided with the query but **not the specific data instances** (the tables) in your prompt. I am assuming the students have the relevant tables (Course and Enrol) in front of them with a specific number of records.
+
+Based on the structure of the question, here is the breakdown:
+
+**ELEMENTS:**
+1.  **SQL Join Logic (Cross Product):** Understanding that `FROM Course, Enrol` initially creates a Cartesian product of all rows.
+2.  **Equijoin Constraint:** Identifying and applying the filter `Course.CourseNo = Enrol.CourseNo` to match specific records.
+3.  **Selection Filter:** Applying the secondary logical condition `Year = 2018`.
+4.  **Relational Mapping:** Tracking which `CourseNo` values exist in the `Course` table and finding their corresponding occurrences in the `Enrol` table.
+5.  **Working Memory (Counting):** Maintaining a running tally of rows that satisfy both conditions simultaneously.
+6.  **Schema Ambiguity:** Determining which table the `Year` column belongs to (though usually inferred from context).
+
+**ELEMENT COUNT: 6**
+
+**Instructor’s Assessment:**
+This is a high-interactivity task because a student cannot arrive at the answer by recall alone. They must execute a multi-step mental algorithm. In a South African undergraduate context, students often struggle with the "Hidden Join" (the comma syntax), sometimes incorrectly adding the number of rows instead of filtering the product. If the tables are small, the success rate is fair; if the tables are large, the likelihood of a counting error increases significantly.
+
+**Your estimate:**
+0.65

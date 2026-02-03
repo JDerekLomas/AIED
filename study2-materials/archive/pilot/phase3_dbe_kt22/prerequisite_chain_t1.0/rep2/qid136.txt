@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Interpretation of relational notation: Understanding that $R=\{A, B, C\}$ defines the set of attributes in the relation.
+2. Interpretation of Functional Dependency (FD) notation: Understanding that $\Sigma=\{A \rightarrow B, B \rightarrow C\}$ represents the constraints on the data.
+3. Transitive Closure/Key Identification: Ability to compute the closure of attributes (e.g., $A^+ = \{A, B, C\}$) to identify that $A$ is the sole candidate key.
+4. Prime vs. Non-prime distinction: Identifying that $\{A\}$ is prime and $\{B, C\}$ are non-prime attributes.
+5. 3NF Definition Application: Checking if for every $X \rightarrow Y$, either $X$ is a superkey, or $Y$ is prime. (Specifically, recognizing that $B \rightarrow C$ violates this because $B$ is not a superkey and $C$ is not prime).
+6. BCNF Definition Application: Checking if for every $X \rightarrow Y$, $X$ is a superkey. (Recognizing both $A \rightarrow B$ and $B \rightarrow C$ must satisfy this; $B \rightarrow C$ fails).
+7. Transitive dependency recognition: Identifying the chain $A \rightarrow B \rightarrow C$ as a classic violation of 3NF.
+8. Logical Elimination: Mapping the findings (not 3NF, not BCNF) to the correct multiple-choice option.
+
+COUNT: 8
+
+0.55

@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **SQL SELECT syntax**: Knowledge of the projection list and aggregate functions (`COUNT`).
+2. **Schema mapping**: Identifying which table (`Enrol` vs `Student`) logically contains enrollment data.
+3. **Filtering logic**: Applying the `WHERE` clause constraint for the specific year (2019).
+4. **Grouping rule (Syntactic)**: Matching the non-aggregated column (`CourseNo`) with the `GROUP BY` clause to avoid syntax errors.
+5. **Grouping logic (Semantic)**: Understanding that to count students per course, one must group by the course identifier, not the student identifier.
+6. **Relational context**: Distinguishing between an entity table (`Student`) and a relationship table (`Enrol`).
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

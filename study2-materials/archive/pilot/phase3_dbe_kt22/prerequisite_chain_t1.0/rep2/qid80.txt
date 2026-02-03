@@ -1,0 +1,14 @@
+To answer this question correctly, a student must navigate several conceptual and technical hurdles. In the South African context, "Natural Join" is often a point of confusion because it is less frequently used in practical industry tutorials compared to explicit `INNER JOIN` syntax.
+
+**PREREQUISITES:**
+1.  **Definition of Natural Join:** Understanding that a `NATURAL JOIN` automatically joins tables based on *all* columns with the same name.
+2.  **Schema Inspection:** Identifying which column(s) are common between the `Course` and `Enrol` tables (typically `CourseID` or `CourseCode`).
+3.  **Relational Algebra Logic:** Knowing that a Join acts as a filter on a Cartesian Product; it only retains rows where the common keys match.
+4.  **Directionality/Cardinality:** Recognizing that the result set size is determined by the "many" side of the relationship (the `Enrol` table).
+5.  **Multi-step Reasoning:** Realizing that every enrollment must correspond to a valid course, therefore the result count equals the number of records in the `Enrol` table.
+6.  **Distinguishing Join Types:** Not confusing a Natural Join with a Cross Join (which would result in $7 \times 4 = 28$ or similar).
+7.  **Data Set Interpretation:** Correcting reading the provided (though here implicit) table instances to count the rows accurately.
+
+**COUNT: 7**
+
+0.55

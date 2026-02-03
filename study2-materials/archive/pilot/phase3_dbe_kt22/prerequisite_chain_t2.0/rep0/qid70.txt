@@ -1,0 +1,14 @@
+To evaluate this question, we must look at the specific table provided in the context of the question (assuming a typical schema provided in a South African CS1/CS2 database module).
+
+PREREQUISITES:
+1. **Schema Literacy**: Identifying the correct column ("Name") in the provided `Study` table.
+2. **Case Sensitivity Mastery**: Understanding that standard SQL string comparisons (like the '=' operator) are case-sensitive (unlike default MySQL configurations), making 'Tom' $\neq$ 'tom'.
+3. **Function Knowledge**: Understanding that the `lower()` function transforms 'Tom' into 'tom' before the comparison takes place.
+4. **Exact Matching**: Recognizing that 'Tommy' or 'Tomas' will not match 'tom' after the transformation because they have different character lengths.
+5. **Literal Syntax**: Distinguishing between a column name and a string literal (single quotes).
+6. **Counting Logic**: Accurately scanning the table and counting all matches without skipping rows or double-counting.
+7. **Operator Mechanics**: Understanding that `SELECT *` returns the full row but the row count is determined solely by the `WHERE` clause evaluation.
+
+COUNT: 7
+
+0.72

@@ -1,0 +1,17 @@
+As an instructor, I would break down the cognitive load for this specific question as follows:
+
+**ELEMENTS:**
+1.  **Requirement to extract the definition of an Entity Type** (Distinguishing it from an attribute, a relationship, or a value).
+2.  **Structural Rule of Inheritance** (Mapping "Trainers, Administrators, Technicians" to the "Employee" supertype).
+3.  **Attribute identification** ("Status type" and "Time slot" must be identified as attributes/constraints rather than entities).
+4.  **Complex Relationship parsing** (Identifying that "maintenance" represents a many-to-many relationship between Technicians and Equipment that requires a separate entity/record for the event).
+5.  **Multi-table cross-referencing** (Connecting members, associates, and administrators to see if the proposed entity list is exhaustive).
+6.  **Distinguishing Entity vs. Instance** (Filtering out "status types" as a domain or lookup value rather than a primary entity).
+7.  **Evaluating many-to-many relationship outcomes** (Deciding if "maintenance event" acts as an associative entity or a relationship).
+
+**ELEMENT COUNT: 7**
+
+While the text is dense, the question only asks to identify a single valid entity type. Many students will quickly identify "Employee" as a central object despite the distractors. However, weaker students often struggle with the distinction between a "status type" (an attribute) and an "entity," or get lost in the "maintenance" logic. Given the diverse student profile in South African undergraduate CS classes, I estimate a solid majority will find the correct answer, but the distractors are effective.
+
+Your estimate:
+0.72

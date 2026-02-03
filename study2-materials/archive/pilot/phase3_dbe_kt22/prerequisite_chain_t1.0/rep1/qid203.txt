@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the definition of an "Exclusive Lock" (X-lock) in the context of concurrency control.
+2. Understanding the "stronger" nature of an exclusive lock compared to a shared lock (the ability to perform all lower-level operations).
+3. Distinguishing between SQL-specific commands (like "Update") and abstract transactional operations (Read/Write).
+4. Recognizing that "Write" operations implicitly or explicitly require the ability to "Read" the data being modified.
+5. Identifying that option C ("Read and write") is a more complete and accurate description of the permitted operations than options A or B individually.
+6. Avoiding the distractor "Update," which is a specific type of write but does not encompass the full scope of an exclusive lock's permissions.
+
+COUNT: 6
+
+0.72

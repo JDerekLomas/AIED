@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a SQL View as a derived/virtual table rather than a physical one.
+2. Knowledge of SQL Data Control Language (DCL) and how "ownership" differs between base tables and views.
+3. Distinguishing between "Select" privileges (often inherent) and "Update" privileges (dependent on updatability rules).
+4. Understanding "Updatability" criteria: Knowing that not all views are updatable (e.g., those with joins, aggregations, or missing NOT NULL columns) even if the user has table-level permissions.
+5. Understanding the Grantor/Grantee logic: A user can only grant or hold privileges on a view that they possess on the underlying schema.
+6. Reading comprehension of logical qualifiers: Distinguishing "always" (A, B) and "all privileges" (D) from "not necessarily" (C).
+7. Identifying a counter-example: Realizing that a view involving a JOIN or a GROUP BY prevents the creator from having "Update" privileges, even if they own the source tables.
+
+COUNT: 7
+
+0.35

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating Entities from Instances**: Understanding that "trainer" is an entity/class while a specific trainer is an instance; similarly, understanding that "Speciality" is the category (attribute) while "weight gain" is a specific data value (instance).
+2. **Text Analysis (Keyword Identification)**: Correctlly mapping the phrasing "Each trainer has one or more specialities, e.g., weight gain..." to the conceptual model where "specialities" describes a property of the trainer.
+3. **SQL/Database Metadata Literacy**: Distinguishing between a Column Name (attribute) and the Data (cell values).
+4. **Relational Constraints Literacy**: Recognizing that "weight gain" and "weight loss" are members of a set of values rather than structural components of the schema.
+5. **Handling Multi-valued Attributes**: Recognizing that even though a trainer can have multiple specialities, the *type* of information being recorded is the speciality itself.
+6. **Reading Comprehension (Information Filtering)**: The ability to ignore significant "noise" in the prompt (e.g., equipment status, technician maintenance, associate members) to focus specifically on the description of trainers.
+
+COUNT: 6
+
+0.75

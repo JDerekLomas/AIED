@@ -1,0 +1,15 @@
+To evaluate this question, we must look at the cognitive load required to process the SQL operations against the likely mental models of undergraduate students.
+
+**ELEMENTS:**
+1.  **SQL Syntax Parsing:** Recognizing the structure of two independent `SELECT` statements joined by an operator.
+2.  **Filter Logic (Predicate 1):** Mentally scanning or filtering for `CourseNo='COMP2400'`.
+3.  **Filter Logic (Predicate 2):** Mentally scanning or filtering for `CourseNo='STAT2001'`.
+4.  **Set Operator Semantic (UNION):** Recalling the specific definition of `UNION` versus `UNION ALL` (the critical distinction of duplicate removal).
+5.  **Data Set Integration:** Comparing the resulting `StudentID` lists from both queries to identify overlapping values.
+6.  **Counting Procedure:** Final tallying of the unique set of IDs to match against the multiple-choice options.
+
+**ELEMENT COUNT: 6**
+
+**Pedagogical Note:** In a South African undergraduate context, many students will intuitively "add" the counts of the two queries (performing a `UNION ALL` operation in their minds). The gap in performance usually lies in whether the student recalls that `UNION` is an implicit `DISTINCT` operation. Without the specific table data provided in your prompt, I am assuming the underlying data contains overlapping students (those enrolled in both courses); if it doesn't, the interactivity drops. If it does, many students will fail to subtract the duplicates.
+
+0.65

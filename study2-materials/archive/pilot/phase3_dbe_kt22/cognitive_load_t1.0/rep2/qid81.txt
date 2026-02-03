@@ -1,0 +1,17 @@
+To accurately answer this question, a student must process the following information:
+
+**ELEMENTS:**
+1.  **SQL Syntax Knowledge:** Recognizing the structure and purpose of a `SELECT *` statement.
+2.  **Join Logic (LEFT JOIN):** Recalling the specific definition of a Left Outer Join (all rows from the left table are preserved).
+3.  **Table Schemas:** Identifying which table is "Left" (`Course`) and which is "Right" (`Enrol`) based on the query order.
+4.  **Relationship Cardinality:** Understanding the one-to-many relationship between `Course` and `Enrol`.
+5.  **Join Condition Evaluation:** Matching the `CourseNo` keys across both tables.
+6.  **Unmatched Row Handling:** Recalling that rows in `Course` with no matching `Enrol` records are still included once (with NULLs).
+7.  **Data Set Analysis (Mental Arithmetic):** Summing the number of matching records in `Enrol` plus any non-matching records in `Course`.
+
+**ELEMENT COUNT:** 7
+
+**ESTIMATION:** 
+At a South African university with a diverse cohort, this is a "discriminator" question. Students with minimal exposure often confuse `LEFT JOIN` with `INNER JOIN` (counting only matches) or `CROSS JOIN` (multiplication). Without the actual data tables provided in your prompt, I am assuming the students are looking at a provided diagram or small dataset where `Enrol` contains 13 records and `Course` contains a few records with no enrollments. 
+
+0.55

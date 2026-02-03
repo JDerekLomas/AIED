@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of Concurrency Control terminology (specifically the "Read Phenomena" defined in the SQL standard).
+2. Distinguishing between row-level changes (updates) and set-level changes (inserts).
+3. Distinguishing "Unrepeatable Read" (reading the same row twice and seeing different data) from "Phantom Read" (reading a range/set twice and seeing different membership).
+4. Distinguishing "Dirty Read" (reading uncommitted data) from phenomena involving committed data.
+5. Understanding the temporal sequence described in the prompt ("since its prior read").
+6. Proficiency in English technical vocabulary (understanding that "new rows" implies a change in the result set size/membership).
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: Set subtraction operator (-) – identifying elements in the first set not present in the second.
+2. Definition recall: Set intersection operator (∩) – identifying elements common to both resultant sets.
+3. Order of operations: Executing operations inside parentheses before the intersection.
+4. Evaluation: A - D (comparing elements of {2,3,4,5} against {8,9,10,11}).
+5. Evaluation: B - C (comparing elements of {4,5,6,7} against {6,7,8,9}).
+6. Logical maintenance: Holding the result of (A - D), which is {2,3,4,5}, in working memory.
+7. Logical maintenance: Holding the result of (B - C), which is {4,5}, in working memory.
+8. Comparison: Finding the intersection of {2,3,4,5} and {4,5}.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.78

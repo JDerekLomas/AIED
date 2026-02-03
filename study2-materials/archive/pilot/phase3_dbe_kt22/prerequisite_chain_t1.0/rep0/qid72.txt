@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the `SELECT` clause: Recognizing that it identifies columns for output but does not filter the number of rows.
+2. Understanding the `FROM` clause: Identifying the source table "Study" (implies the ability to read a schema or table instance if provided, or understanding the scope of the data).
+3. Interpreting the `WHERE` clause: Understanding that this acts as a horizontal filter on the table rows.
+4. Logical operator `OR`: Correctly applying the inclusive logic where a row is included if it matches the first condition, the second condition, or both.
+5. Distinguishing `OR` from `AND`: Avoiding the common novice error of thinking `OR` implies "one or the other but not both" or confusing it with the English "and" (e.g., "I want students 102 and 103").
+6. Understanding row-based processing: Knowing that each matching record in the underlying table results in a separate row in the result set (unless `DISTINCT` is used).
+7. Data Retrieval/Counting: If a table instance is provided, the ability to scan the `StudentID` column and correctly tally the occurrences of 102 and 103.
+8. Multi-step reasoning: Synthesizing the filter conditions with the final count of rows.
+
+COUNT: 8
+
+0.75

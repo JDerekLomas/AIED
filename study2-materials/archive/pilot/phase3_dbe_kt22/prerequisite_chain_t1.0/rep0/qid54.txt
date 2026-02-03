@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Distinguishing between Data Definition Language (DDL) for schema changes and Data Manipulation Language (DML) for tuple operations.
+- Recalling the specific multi-word syntax for the `ALTER TABLE` statement.
+- Recognizing `DROP` as the correct keyword for removing schema elements versus `DELETE` for removing rows.
+- Knowing that `COLUMN` is a required (or standard) keyword in the `DROP` clause in many SQL dialects (PostgreSQL/MySQL/Oracle).
+- Identifying that `DELETE FROM` is used for row-level operations, not attribute removal.
+- Mapping the term "attribute" to "column" and "relation" to "table."
+
+COUNT: 6
+
+0.65

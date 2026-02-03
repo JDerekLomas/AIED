@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Formal Definition of a Superkey**: Understanding that a superkey is any set of attributes that uniquely identifies a tuple, and that any superset of a superkey is also a superkey.
+2. **Formal Definition of a Candidate Key**: Understanding the "minimality" requirement (a candidate key is a superkey with no proper subset that is also a superkey).
+3. **Formal Definition of a Primary Key**: Knowing that a primary key is a specifically chosen candidate key, and thus must satisfy the minimality requirement.
+4. **Relational Schema Interpretation**: Reading the notation $R(a,b,c)$ to identify the set of all available attributes in the relation.
+5. **Set Inclusion Logic**: Recognizing that $\{a,b,c\}$ is a superset of $\{a,b\}$.
+6. **Logical Implication/Negation**: Distinguishing between what *might* be true versus what *must* be true based on the provided premise.
+7. **Elimination of Distractors**: Identifying that A is false (because it MUST be a superkey) and C is false (because it cannot be a primary key if a smaller subset $\{a,b\}$ is already a superkey).
+
+COUNT: 7
+
+0.35

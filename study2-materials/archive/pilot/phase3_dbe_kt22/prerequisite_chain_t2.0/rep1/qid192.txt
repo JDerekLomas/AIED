@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Understanding of the `GRANT OPTION` and its role in creating a delegation chain.
+- Identifying ownership privileges (Linda as the root of authority).
+- Understanding the `REVOKE` syntax, specifically the difference between revoking a privilege versus revoking only the `GRANT OPTION`.
+- Application of the `CASCADE` keyword: knowing that it retracts privileges granted by a user when their own right to grant that privilege is revoked or altered.
+- Distinction between physical access (Amy's privilege to select) and administrative access (Amy's privilege to grant to others).
+- Tracing dependencies: Peter's privilege is dependent on Amy's `GRANT OPTION`.
+- Recognizing that revoking the *option* via `CASCADE` propagates to the *privileges* that were created using that specific option.
+
+COUNT: 7
+
+0.35

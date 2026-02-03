@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Differentiating Entities from Attributes**: Understanding that an entity represents an object or concept with independent existence, whereas an attribute is a property of that entity (applied to eliminate "Equipment ID").
+2. **Identifying Attributes vs. Multivalued Attributes**: Recognizing that a descriptive property, even if it can have multiple values, is typically modeled as an attribute rather than a primary entity in basic ER modeling (applied to "Trainers’ speciality").
+3. **Recognizing the "Universe of Discourse"**: Identifying that the "Fitness centre" is the context (root) of the entire database and typically not an entity within the system unless multiple centers are being tracked.
+4. **Relational Extraction from Text**: Ability to parse a dense paragraph of requirements and identify which noun phrases possess their own properties and relationships (e.g., fitness classes have a name, dates, time slots, and a 1:N relationship with trainers).
+5. **Technical Terminology Comprehension**: Knowing the formal definition of an "Entity Type" versus an instance or a system boundary.
+6. **Constraint Parsing**: Not getting distracted by the "no two fitness classes have the same daily time slot" rule, which defines a constraint rather than the nature of the entity itself.
+
+COUNT: 6
+
+0.65

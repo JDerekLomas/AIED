@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Formal definition of a "Minimal Cover" (canonical cover), specifically the requirement that all functional dependencies (FDs) in $\Sigma_1$ must be logically implied by $\Sigma_2$ (equivalence).
+2. Proficiency in applying Armstrong’s Axioms or the Attribute Closure Algorithm (calculating $X^+$).
+3. Ability to check logical equivalence between two sets of FDs ($\Sigma_1 \equiv \Sigma_2$).
+4. Identification of redundant attributes (left-hand side) in $\Sigma_1$ (recognizing $A \to B$ makes the $B$ in $AB \to C$ redundant, simplifying it to $A \to C$).
+5. Transitivity reasoning: recognizing that in $\Sigma_2$, $\{A \to B, B \to C\} \implies A \to C$.
+6. Identifying "Minimality" constraints: knowing a minimal cover must have no redundant dependencies and no redundant attributes on the left-hand side.
+7. Distinguishing between a set being "equivalent" and a set being a "minimal cover" of another.
+
+COUNT: 7
+
+0.35

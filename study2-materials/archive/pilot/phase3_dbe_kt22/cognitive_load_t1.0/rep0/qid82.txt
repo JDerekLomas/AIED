@@ -1,0 +1,12 @@
+ELEMENTS:
+1. **Cartesian Product (Cross Join) logic**: Recognizing that referencing two tables in the FROM clause without a modern JOIN keyword implies a product that must be filtered.
+2. **Equi-join condition**: Understanding the primary-key/foreign-key relationship (Course.CourseNo = Enrol.CourseNo) used to filter the product.
+3. **Filtering constraint**: Applying the specific attribute filter (Year = 2018).
+4. **Mental Model of Schema**: Inferring the relationship between a 'Course' and its 'Enrolments' (one-to-many).
+5. **Set Cardinality Calculation**: Simultaneously applying the join and the year filter to the (unseen) underlying data set to arrive at a count.
+6. **SQL Syntax Interpretation**: Recalling the order of execution (FROM -> WHERE -> SELECT).
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

@@ -1,0 +1,14 @@
+To accurately answer this question, a student must correctly interpret the relational algebra logic, the syntax of SQL, and the specific mechanics of aggregation. 
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Table Instance:** Identifying that "Study" is the table and understanding the relationship between columns and rows.
+2.  **SQL `SELECT` with `COUNT(*)`:** Knowing that `COUNT(*)` counts the number of rows in a group.
+3.  **`GROUP BY` Clause Logic:** Understanding that rows with identical values in the `CourseNo` column are collapsed into a single bucket.
+4.  **`HAVING` Clause Application:** Distinguishing `HAVING` from `WHERE`; specifically, that it acts as a filter *after* the groups have been formed and counts calculated.
+5.  **Relational Filtering (Inequality):** Correctly applying the strict inequality `> 1` (meaning groups with only 1 entry are excluded).
+6.  **Counting Groups (Output Rows):** Realizing the question asks for the number of *rows in the result set* (the number of groups that passed the filter) rather than the sum of the counts within those groups.
+7.  **Data Processing/Mental Tracing:** Mentally iterating through the provided table data without making an oversight error (e.g., miscounting the occurrences of a specific Course ID).
+
+**COUNT:** 7
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of a Super Key (SK) (a set of attributes that functionally determines all attributes in the relation).
+2. Ability to parse functional dependency (FD) notation (e.g., D → ABC).
+3. Mastery of the Attribute Closure Algorithm (calculating $D^+$).
+4. Correct application of transitivity (if D → B and B → C, then D → C).
+5. Understanding set union for closure (combining the determinant with its dependent attributes).
+6. Precise comparison of the calculated closure set to the full relation schema R={A,B,C,D}.
+7. Logical deduction: Identifying that $D^+$ results in {D, A, B, C}, which matches R.
+8. Distinguishing between a Super Key (SK) and a Candidate Key (CK) (realizing that while D is a CK, it also satisfies the definition of an SK).
+
+COUNT: 8
+
+0.65

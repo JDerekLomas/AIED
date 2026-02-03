@@ -1,0 +1,10 @@
+ELEMENTS: 
+1. Definition of a functional dependency (FD): the relationship where the left-hand side determines the right-hand side.
+2. Definition of a "trivial" FD: the formal rule that $\alpha \to \beta$ is trivial if and only if $\beta \subseteq \alpha$.
+3. Set theory/subset evaluation: checking if the attributes on the right of the arrow are a subset of the attributes on the left.
+4. Distinguishing "trivial" from "augmentation": identifying that A ($XY \to XYZ$) is an augmentation of $XY \to Z$ but not inherently trivial because $Z$ is not in $\{X, Y\}$, whereas C ($XYZ \to Z$) fits the subset rule.
+5. Pattern matching: scanning four options to compare LHS and RHS attribute sets.
+
+ELEMENT_COUNT: 5
+
+0.72

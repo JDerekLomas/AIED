@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the symbol ⊨ (logical implication/entailment) in the context of Functional Dependencies (FDs).
+2. Distinguishing between equivalence (≡) and entailment (⊨).
+3. Applying Armstrong's Axioms (specifically Transitivity) to derive FDs.
+4. Knowing the definition of entailment: Σ1 ⊨ Σ2 is true if and only if all dependencies in Σ2 can be derived from Σ1 using the closure Σ1+.
+5. Calculating the closure of attribute sets (e.g., finding {A}+ under Σ1).
+6. Evaluating each individual FD in the target set Σ2 against the source set Σ1 independently.
+7. Identifying that A → C is implied by {A → B, B → C} via transitivity.
+8. Identifying that B → C is explicitly present in Σ1.
+9. Recognizing that both components of Σ2 are satisfied, leading to a "True" conclusion.
+
+COUNT: 9
+
+0.65

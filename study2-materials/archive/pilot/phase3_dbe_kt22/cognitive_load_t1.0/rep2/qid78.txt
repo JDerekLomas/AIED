@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL syntax recall: Recognition that a `SELECT * FROM TableA, TableB` without a `WHERE` clause represents a Cartesian Product (Cross Join).
+2. Table metadata retrieval: Identifying the cardinality (number of rows) of the 'Course' table.
+3. Table metadata retrieval: Identifying the cardinality (number of rows) of the 'Enrol' table.
+4. Mathematical operation: Applying the rule that the size of a Cartesian Product is the product of the row counts ($R_1 \times R_2$).
+5. Distinguishing concepts: Differentiating between a Cross Join and an Inner Join (which would require matching keys).
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.65

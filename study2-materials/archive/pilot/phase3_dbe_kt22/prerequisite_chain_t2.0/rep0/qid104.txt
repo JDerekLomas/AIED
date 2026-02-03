@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes of members, administrators, technicians, equipment) to focus specifically on the "trainer" and "fitness class" entities.
+2. Conceptual mapping: Identifying the specific sentence "Not all trainers deliver fitness classes" as the business rule governing the participation of the trainer in the instruction relationship.
+3. Defining "Total Participation": Understanding that total participation (mandatory) requires every instance of an entity to be involved in at least one instance of the relationship.
+4. Defining "Partial Participation": Understanding that partial participation (optional) allows for instances of an entity to exist without being involved in that specific relationship.
+5. Logical deduction: Mapping the phrase "Not all trainers..." to the definition of Partial Participation (i.e., there exists at least one trainer who does not instruct a class).
+6. Distinguishing relationship directionality: Ensuring the student evaluates the participation of the "Trainer" in the "Instruct" relationship, rather than the "Fitness Class" in the "Instruct" relationship (which is total/mandatory since every class is instructed by a trainer).
+
+COUNT: 6
+
+0.72

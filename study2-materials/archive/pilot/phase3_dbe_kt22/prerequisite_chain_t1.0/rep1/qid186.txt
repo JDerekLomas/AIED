@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Knowledge of the definition of Discretionary Access Control (DAC) specifically within a database context.
+2. Distinguishing between "Discretionary" (owner-based) and "Mandatory" (rule/label-based) access control models.
+3. Understanding the concept of "Ownership" in SQL/relational databases (the creator is usually the owner).
+4. Identifying the role and limitations of a Database Administrator (DBA) versus an Object Owner in a DAC system.
+5. Recognizing that in DAC, the "discretion" belongs to the owner of the specific object, not necessarily a central authority (debunking C).
+6. Evaluating Option A by understanding that "unowned" objects are generally not a feature of standard DAC implementations (everything created has a creator/owner).
+7. Reading and interpreting technical English phrasing (distinguishing between "an owner" and "the DBA").
+
+COUNT: 7
+
+0.65

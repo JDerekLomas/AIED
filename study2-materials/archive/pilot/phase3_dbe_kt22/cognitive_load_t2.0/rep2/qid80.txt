@@ -1,0 +1,17 @@
+To evaluate this question, we must consider the specific mechanics required to solve a `NATURAL JOIN` operation, which is often a "trick" concept for undergraduate students.
+
+### ELEMENTS:
+1.  **SQL Syntax Recall (SELECT *):** Understanding that all columns from both tables will be included in the logical representation.
+2.  **Definition of NATURAL JOIN:** Recalling that this join performs an implicit equijoin based on columns with identical names in both tables.
+3.  **Table Relationship Discovery:** Scanning the schemas of `Course` and `Enrol` to identify the common attribute (likely `CourseID` or `CID`).
+4.  **Schema Evaluation:** Recognizing which table is the "parent" (Course) and which is the "child" (Enrol) to understand the cardinality.
+5.  **Referential Integrity Constraints:** Assuming or verifying if every row in `Enrol` matches a row in `Course` (standard foreign key behavior).
+6.  **Join Logic/Cardinality Rules:** Evaluating that in a 1:M relationship (one Course, many Enrolments), the result set size is determined by the number of rows in the "Many" side (Enrol), provided every foreign key is valid.
+7.  **Mental Computation:** Comparing the total row counts of both tables against the logic of the join to select the correct integer.
+
+**ELEMENT COUNT: 7**
+
+**Instructor’s Note:** At South African universities, students often struggle with `NATURAL JOIN` because they overcomplicate it. Stronger students will immediately look for the shared column and realize the answer is simply the row count of the `Enrol` table (assuming it's the "transactional" table). Weaker students will either multiply the rows (Cartesian product) or guess the size of the smaller table. If the row counts are provided in the prompt's context (implied by the options), the success rate is moderate.
+
+**Your estimate:**
+0.55

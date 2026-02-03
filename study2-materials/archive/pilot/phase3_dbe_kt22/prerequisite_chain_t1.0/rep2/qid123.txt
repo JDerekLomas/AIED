@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as both a superkey (uniqueness) and a minimal set (irreducibility).
+2. Knowledge of the Attribute Closure algorithm (calculating $A^+$).
+3. Ability to apply Armstrong’s Axioms or the closure procedure correctly (realizing $A \rightarrow B$ implies $A \rightarrow AB$, and $AB \rightarrow C$ then implies $A \rightarrow C$ via transitivity).
+4. Correctly identifying that $A^+ = \{A, B, C\}$, confirming $A$ is a superkey.
+5. Recognizing that since $A$ is a single attribute, it is inherently minimal (cannot be reduced further), thus satisfying the definition of a CK.
+6. Distinguishing between a Primary Key, a Candidate Key, and a Superkey.
+7. Reading and interpreting formal functional dependency (FD) notation ($\Sigma$).
+
+COUNT: 7
+
+0.72

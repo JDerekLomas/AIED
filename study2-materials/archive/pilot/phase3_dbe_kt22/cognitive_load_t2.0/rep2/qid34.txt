@@ -1,0 +1,16 @@
+In evaluating this question for undergraduate students, we must consider the bridge between discrete mathematics (often a prerequisite) and database theory (Cartesian products in Relational Algebra).
+
+**ELEMENTS:**
+1.  **Definition Recall (Cartesian Product):** Recalling that $X \times Y$ results in a set of ordered pairs $(x, y)$.
+2.  **Procedure (Set Construction $A \times A$):** Computing the set $\{(1,1), (1,2), (2,1), (2,2)\}$.
+3.  **Procedure (Set Construction $A \times C$):** Computing the set $\{(1,1), (1,2), (1,3), (2,1), (2,2), (2,3)\}$.
+4.  **Definition Recall (Subset):** Recalling that $S \subseteq T$ is true if every element in $S$ is also in $T$.
+5.  **Logical Evaluation (Membership Testing):** Comparing the four elements of $A \times A$ against the six elements of $A \times C$ to verify the subset condition.
+6.  **Distinction (Redundant Information):** Filtering out sets $B$ and $D$, which are "noise" designed to test focus.
+
+**ELEMENT COUNT: 6**
+
+Given the wide variance in South African undergraduate cohorts, students with strong mathematical backgrounds will process these as a single "chunk" (Property: If $S_1 \subseteq S_2$, then $S_1 \times T \subseteq S_2 \times T$). However, weaker students or those struggling with the transition to formal notation will treat these as separate, laborious steps. The inclusion of distractors ($B$ and $D$) adds a layer of cognitive load that typically catches out about 20% of the middle-performing tier who may rush the logic.
+
+Your estimate:
+0.72

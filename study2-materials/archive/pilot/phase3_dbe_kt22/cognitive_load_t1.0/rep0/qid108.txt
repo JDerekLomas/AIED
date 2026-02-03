@@ -1,0 +1,19 @@
+To evaluate this question, we must look at the "element interactivity" — the cognitive load required to distinguish between what can be represented graphically in a standard Entity-Relationship Diagram (ERD) versus what constitutes a business rule or constraint that requires external logic (like check constraints, triggers, or application code).
+
+**ELEMENTS:**
+1.  **ERD Structural Rules:** Understanding how to represent entities, attributes, and relationships (1:1, 1:N, M:N).
+2.  **ERD Notational Limits:** Knowing that standard ERDs cannot natively represent "intra-row" comparison constraints (e.g., Date A < Date B).
+3.  **Cardinality/Participation Awareness:** Identifying the "one-to-many" relationship between Trainer and Class and the "partial participation" (not all trainers deliver classes).
+4.  **Domain/Value Constraints:** Distinguishing between an attribute's existence and specific value-set restrictions (e.g., "must be one of three types") which are typically defined in the schema/DDL, not the diagram.
+5.  **Temporal/Frequency Constraints:** Recognizing that "at least twice a year" is a business rule/aggregation constraint that cannot be enforced via standard ERD notation.
+6.  **Textual Analysis:** Mapping specific clauses in the problem description to the four specific options provided.
+7.  **Exclusion Logic:** Evaluating four complex statements simultaneously to identify which single one fits the specific "structural" nature of an ER diagram.
+
+**ELEMENT COUNT: 7**
+
+**RATIONALE:** 
+In the South African context, where students often struggle with the transition from "natural language" to "formal modelling," this is a high-interactivity task. Many students mistakenly believe that because a rule is *written* in the requirements, it must be *visible* in the diagram. Options A, B, and D all contain "semantic constraints" (date comparisons, frequency counts, and specific value enumerations) that a standard ERD cannot depict. Option C describes cardinality and participation, which are the bread and butter of ERDs. 
+
+The wide gap in prior exposure means many students will select D (thinking the status types are just attributes) or A (thinking the dates are just attributes) without realizing the *logic* mentioned ("before", "twice a year", "must be one of") is the disqualifying factor.
+
+**Your estimate:**

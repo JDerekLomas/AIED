@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Definition recall**: The formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. **Definition recall**: The formal definition of a "candidate key" (a minimal superkey).
+3. **Logic (Subset/Superset property)**: Understanding that if a set $S$ is a superkey, any superset of $S$ is automatically also a superkey.
+4. **Logical negation (Distinction)**: Recognizing that while every candidate key is a superkey, not every superkey is necessarily a candidate key (the "minimality" constraint).
+5. **Evaluating Choice A**: Testing the property that adding attributes to a superkey maintains the superkey property (contradicts Choice A).
+6. **Evaluating Choice B**: Testing if a superset must be minimal (it cannot be if a proper subset is already a superkey).
+7. **Evaluating Choice C**: Testing if the given superkey is necessarily the minimal version (it may contain redundant attributes not shown in the simplified notation).
+
+ELEMENT COUNT: 7
+
+0.55

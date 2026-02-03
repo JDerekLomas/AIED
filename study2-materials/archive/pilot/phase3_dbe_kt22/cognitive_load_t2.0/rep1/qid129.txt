@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Recall of definition: What constitutes a Candidate Key (CK) (uniqueness and minimality).
+2. Synthesis rule (Attribute Closure): Knowing the procedural steps to find the closure of a set of attributes.
+3. Logical Evaluation (Set 1): Computing $A^+$ using $\Sigma$ to verify if it covers $\{A,B,C,D\}$.
+4. Distinction/Scanning: Identifying other possible determinants in $\Sigma$ (checking $CD$).
+5. Logical Evaluation (Set 2): Computing $CD^+$ using $\Sigma$ to determine if it is also a CK.
+6. Minimality check: Verifying if any subset of $\{C,D\}$ (i.e., $C$ or $D$) is a key.
+7. Comparison: Evaluating the truth value of the word "only" in the statement against the findings.
+
+ELEMENT COUNT: 7
+
+0.65

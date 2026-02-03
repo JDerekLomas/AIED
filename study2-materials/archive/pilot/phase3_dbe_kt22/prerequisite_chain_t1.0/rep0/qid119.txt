@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Understanding the definition of equivalence between two sets of functional dependencies (Σ1 ≡ Σ2 if Σ1+ = Σ2+).
+2. Knowledge of how to compute the closure of an attribute or a set of attributes under a given set of FDs.
+3. Ability to apply Armstrong's Axioms (specifically transitivity) to derive new dependencies.
+4. Recognizing that A → B and B → C (in Σ2) implies A → C via transitivity.
+5. Recognizing that A → B (in Σ1) implies that AB is functionally equivalent to A, meaning AB → C simplifies to A → C.
+6. Comparing the two sets to see if Σ1 covers Σ2 and Σ2 covers Σ1.
+7. Multi-step logical reasoning to verify that while both sets imply {A → B, A → C}, Σ1 cannot derive B → C because B is not a determinant for any other attribute in Σ1.
+8. Avoiding the common pitfall of assuming equivalence just because both sets involve the same attributes and similar-looking dependencies.
+
+COUNT: 8
+
+0.55

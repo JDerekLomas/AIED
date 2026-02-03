@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall of the definition of a "dirty read" (reading uncommitted data).
+2. Recall of the definition of an "unrepeatable read" (row values changing during a transaction).
+3. Recall of the definition of a "phantom read" (new rows appearing during a transaction).
+4. Knowledge of the SQL standard isolation level hierarchy.
+5. Evaluation of "Read committed" against the constraint: inhibits dirty reads.
+6. Evaluation of "Read committed" against the constraint: permits unrepeatable reads.
+7. Evaluation of "Read committed" against the constraint: permits phantom reads.
+8. Distinguishing "Read committed" from "Read uncommitted" (which allows dirty reads) and "Repeatable read" (which prevents unrepeatable reads).
+
+ELEMENT COUNT: 8
+
+0.65

@@ -1,0 +1,10 @@
+ELEMENTS:
+1. Definition recall: The function and scope of the SQL `GRANT` command.
+2. Distinction: Differentiating between schema-level objects (relations/attributes) and data-level instances (tuples).
+3. Logic evaluation: Assessing each option (Attribute vs. Tuple vs. Relation) against the limitations of the SQL Standard Access Control model.
+4. Syntax constraint: Recognizing that SQL privileges apply to database objects, not individual rows (tuples) unless through views or Row-Level Security (RLS), which is distinct from the basic `GRANT` syntax.
+5. Multiple-choice processing: Evaluating "None of the above" as a logical nullification of the previous choices.
+
+ELEMENT COUNT: 5
+
+0.65

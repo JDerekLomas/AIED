@@ -1,0 +1,10 @@
+ELEMENTS:
+1. Definition recall: The function and scope of the SQL Data Control Language (DCL) `GRANT` command.
+2. Conceptual distinction: Differentiating between schema-level objects (relations/tables) and data-level instances (tuples/rows).
+3. Syntax rules: Recalling that while SQL allows column-level (attribute) permissions, it does not natively support row-level (tuple) permissions via the standard `GRANT` syntax.
+4. Logical evaluation: Testing each option (A, B, C) against the recalled constraints of the command.
+5. Distractor analysis: Evaluating "None of the above" to ensure no nuances of specific DBMS implementations (like Row Level Security) are being conflated with the standard `GRANT` command.
+
+ELEMENT COUNT: 5
+
+0.55

@@ -1,0 +1,19 @@
+To answer this question, a student must engage in a high-level comparative analysis of functional dependency (FD) sets, requiring them to hold several abstract logical components in working memory at once.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Recalling the formal definition of equivalence ($\Sigma_1 \equiv \Sigma_2$ iff $\Sigma_1^+ = \Sigma_2^+$).
+2.  **Procedure (Step 1):** Checking if $\Sigma_1$ covers $\Sigma_2$ (specifically, checking if $B \to C$ can be derived from $\{A \to B, AB \to C\}$).
+3.  **Procedure (Step 2):** Checking if $\Sigma_2$ covers $\Sigma_1$ (specifically, checking if $AB \to C$ can be derived from $\{A \to B, B \to C\}$).
+4.  **Attribute Closure Algorithm:** Mentally or physically calculating $B^+$ under $\Sigma_1$ to see if it includes $C$.
+5.  **Attribute Closure Algorithm:** Mentally or physically calculating $(AB)^+$ under $\Sigma_2$ to see if it includes $C$.
+6.  **Transitivity Logic:** Evaluating the chain $A \to B$ and $B \to C$ in $\Sigma_2$ to determine if $A \to C$ is implied.
+7.  **Augmentation Logic:** Understanding that in $\Sigma_1$, $AB \to C$ is a "stronger" requirement than $B \to C$, and determining if the presence of $A$ is necessary to reach $C$.
+8.  **Logical Synthesis:** Maintaining the "True/False" state of both directions of the proof simultaneously to reach a final verdict.
+
+**ELEMENT COUNT: 8**
+
+**Evaluation for South African Undergraduate Context:**
+In a typical diverse SA classroom, high-performing students will quickly see that in $\Sigma_1$, $B$ alone does not determine $C$, whereas in $\Sigma_2$ it does, immediately identifying them as non-equivalent. However, many students struggle with the abstraction of "closure" and often confuse "equivalence" with "having the same keys" or simply "containing the same letters." The "False" answer is often a common guess for equivalence questions, which slightly inflates the success rate regardless of understanding.
+
+Your estimate:
+0.55

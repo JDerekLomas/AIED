@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Identification of `FOREIGN KEY` as the syntax for referential integrity.
+2. Understanding the directional nature of referential integrity (Child table references Parent table).
+3. Mapping the SQL syntax `FOREIGN KEY(StudentID) REFERENCES Student(StudentID)` to the logical rule "The referencing value must exist in the referenced table."
+4. Distinguishing between a primary key constraint (Entity Integrity) and a foreign key constraint (Referential Integrity) to rule out option C.
+5. Understanding that a standard foreign key (without a `NOT NULL` constraint) allows nulls but requires existing values to match the parent, ruling out option D.
+6. Correctly identifying `Student` as the parent and `Enrol` as the child to avoid reversing the relationship in option B.
+7. Interpreting the English phrasing "must exist in" as a requirement for inclusion.
+
+COUNT: 7
+
+0.65

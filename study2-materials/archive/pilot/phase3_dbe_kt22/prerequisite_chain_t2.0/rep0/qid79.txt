@@ -1,0 +1,16 @@
+To evaluate this question, we must first note that it is "undetermined" as a standalone question because the database instance (the actual data/rows in the tables) is missing from your prompt. However, assuming the students are provided with a standard schema diagram and two table instances (Course and Enrol) during the exam, here is the breakdown:
+
+**PREREQUISITES:**
+1.  **Reading Schema/Instance Data:** Ability to look at the provided tables and accurately count the rows in the child table (Enrol).
+2.  **Understanding Join Logic (INNER JOIN):** Knowing that an `INNER JOIN` on a Foreign Key relationship typically returns a result set where each row in the "many" side (Enrol) matches a row in the "one" side (Course).
+3.  **Referential Integrity Awareness:** Understanding that in a standard inner join on a primary key-foreign key relationship, the number of result rows equals the number of rows in the table containing the foreign key (Enrol), provided every enrollment points to a valid course.
+4.  **Distinguishing SELECT * from SELECT COUNT:** Recognizing that while `SELECT *` returns columns, the question asks for the *count* of the resulting rows.
+5.  **Multi-step Calculation/Reasoning:** Mentally or physically simulating the match for each of the rows in the Enrol table against the Course table.
+6.  **Avoiding the "Addition" Trap:** Resisting the common novice error of adding the number of rows in Table A to the number of rows in Table B (e.g., 4 courses + 8 enrolments = 12).
+7.  **Avoiding the "Cartesian Product" Trap:** Distinguishing an INNER JOIN (filtered by a predicate) from a CROSS JOIN.
+
+**COUNT: 7**
+
+For South African undergraduate students, this is a foundational "Type 1" tracing question. High-performers find it trivial, but students with minimal exposure often struggle with the conceptual difference between a join and a union, or they simply guess based on the largest or smallest number.
+
+0.65

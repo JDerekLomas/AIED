@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($A \to BC$).
+2. Ability to find the candidate key(s) of a relation (recognizing that $A$ is the sole candidate key because $A^+ = \{A, B, C\}$).
+3. Defining "Prime Attributes" vs "Non-prime Attributes" ($A$ is prime; $B, C$ are non-prime).
+4. Recall and application of the 3NF formal definition (every dependency $X \to Y$ must satisfy: $X$ is a superkey OR $Y \setminus X$ contains only prime attributes).
+5. Recall and application of the BCNF formal definition (every non-trivial dependency $X \to Y$ must have $X$ as a superkey).
+6. Multi-step reasoning to compare the specific FD ($A \to BC$) against both definitions simultaneously.
+7. Distinguishing between the subtle differences in the "escape clauses" for 3NF and BCNF.
+
+COUNT: 7
+
+0.65

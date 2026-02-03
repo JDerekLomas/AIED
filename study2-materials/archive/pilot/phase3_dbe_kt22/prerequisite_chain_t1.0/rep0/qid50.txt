@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Recalling the formal definition of a **superkey** (a set of attributes that uniquely identifies a tuple).
+2. Recalling the formal definition of a **candidate key** (a minimal superkey).
+3. Understanding the **subset/superset relationship** between these two concepts (all candidate keys are superkeys, but not all superkeys are minimal).
+4. Distinguishing between a **logical property** (candidate key) and a **design choice** (primary key), noting that a primary key is a specific candidate key selected by the DBA.
+5. Ability to evaluate **logical quantifiers** (e.g., "always") and identify counter-examples (e.g., a superkey with redundant attributes cannot be a candidate key).
+6. Parsing the grammatical structure of the four options to map the definitions to the correct direction of the implication.
+
+COUNT: 6
+
+0.65

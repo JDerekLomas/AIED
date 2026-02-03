@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (uniqueness and minimality).
+2. Definition recall: Functional Dependency (FD) and closure ($X^+$).
+3. SQL/Relational Logic: Identifying the set of all attributes in the relation $R=\{A, B, C\}$.
+4. Procedural step: Computing the attribute closure of $\{A, B\}$ using the FD set $\Sigma$.
+5. Logical evaluation: Determining if $\{A, B\}^+$ contains all attributes $\{A, B, C\}$ (validating the superkey property).
+6. Logical evaluation: Testing for minimality (checking if subset $\{A\}$ or $\{B\}$ is also a key).
+7. Constraint satisfaction: Identifying that $A \to B$ implies $A$ is a key for $R$, making $\{A, B\}$ redundant (not minimal).
+8. Distinction: Distinguishing between a "superkey" and a "candidate key."
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.40

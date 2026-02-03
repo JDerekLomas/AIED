@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. **Candidate Key Identification**: Ability to compute attribute closures (e.g., $\{AB\}^+ = \{A, B, C, D\}$ and $\{CB\}^+ = \{C, B, A, D\}$) to find all candidate keys ($AB$ and $BC$).
+2. **Prime vs. Non-prime Distinction**: Correctly identifying that $A, B,$ and $C$ are prime attributes (part of a key) and $D$ is a non-prime attribute.
+3. **3NF Definition Application**: Knowing that for each functional dependency $X \to Y$, either $X$ is a superkey or $Y$ is a prime attribute. 
+    * Checking $AB \to CD$: $AB$ is a superkey (Valid).
+    * Checking $C \to A$: $A$ is a prime attribute (Valid).
+4. **BCNF Definition Application**: Knowing that for each functional dependency $X \to Y$, $X$ must be a superkey.
+    * Checking $C \to A$: $C$ is not a superkey (Violation).
+5. **Synthesis and Selection**: Combining these two evaluations to conclude R is in 3NF but not in BCNF (Option B).
+6. **Handling "Hidden" Keys**: Realizing that because $C \to A$, the attribute $A$ in the key $AB$ can be replaced by $C$, making $BC$ a second candidate key. (Failure to find the second key often leads students to incorrectly think $C \to A$ violates 3NF).
+
+COUNT: 6
+
+0.35

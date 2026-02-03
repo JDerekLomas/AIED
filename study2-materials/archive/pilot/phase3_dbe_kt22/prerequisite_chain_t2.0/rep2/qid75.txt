@@ -1,0 +1,14 @@
+To provide an accurate count, I am assuming a standard (albeit small) schema is provided to the students. Without seeing the specific "Study" table, students must still navigate the following logical hurdles:
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Dataset:** Ability to parse the raw data in the "Study" table and correctly associate values with the `CourseNo` column.
+2.  **The GROUP BY Mechanism:** Understanding that `GROUP BY CourseNo` collapses the dataset into unique sets based on the values in that column.
+3.  **Aggregate Function (COUNT(\*)):** Knowing that `COUNT(*)` counts the number of occurrences (rows) within each of those unique sets, not the total rows in the table.
+4.  **The HAVING Clause Logic:** Distinguishing `HAVING` from `WHERE` and realizing it filters the *aggregated groups* after the grouping is performed.
+5.  **Relational Operator (> 1):** Correct application of the "strictly greater than" logic (excluding groups with only one record).
+6.  **Interpreting the Final Result Set:** Recognizing that the "number of rows in the result" refers to the number of groups that satisfied the `HAVING` condition, rather than a sum of the `COUNT(*)` values or the original table size.
+7.  **Data Processing Accuracy:** Successfully performing a manual trace of the data without making a counting or oversight error (common in timed assessments).
+
+**COUNT: 7**
+
+0.65

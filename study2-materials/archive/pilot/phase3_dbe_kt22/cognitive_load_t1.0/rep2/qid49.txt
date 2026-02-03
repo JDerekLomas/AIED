@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Definition of a **superkey** (a set of attributes that uniquely identifies a tuple).
+2. Definition of a **candidate key** (a minimal superkey).
+3. The **subset/superset relationship** property (if K is a superkey, any superset of K is also a superkey).
+4. Logic of **minimality** (the requirement that no proper subset can be a superkey for it to be a candidate key).
+5. Evaluation of Option A: Testing the superset rule (counter-intuitive to many novices).
+6. Evaluation of Option B: Distinguishing between "possible" and "must" regarding minimality.
+7. Evaluation of Option C: Distinguishing between a superkey and a candidate key (the "must" implies it could not have a smaller subset, which is true here but requires verifying {a} has no smaller non-empty subset).
+
+ELEMENT COUNT: 7
+
+0.55

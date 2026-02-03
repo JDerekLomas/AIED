@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of a "Transaction" in a database context.
+2. Knowledge of the Lock Compatibility Matrix (specifically for Exclusive (X) locks).
+3. Distinguishing between Shared (S) locks (read-only) and Exclusive (X) locks (read/write).
+4. Logical inference that "writing" an object inherently requires "reading" it (or the authority to modify implies the authority to view).
+5. Mapping the SQL operation "Update" to the fundamental operations of "Read and write".
+6. Eliminating distractor B (Write) which is a subset of the permissions, and distractor D (Update) which is a specific command rather than the full scope of operations allowed.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1.  **Ownership Concept**: Understanding that the owner (Linda) possesses all privileges by default and is the root of the privilege propagation chain.
+2.  **GRANT OPTION Mechanic**: Understanding that `WITH GRANT OPTION` allows a recipient (Amy) to further delegate that specific privilege to others.
+3.  **Redundant Privileges**: Recognizing that Peter receives the same privilege from two different sources (Linda in Step 1 and Amy in Step 2).
+4.  **REVOKE CASCADE Logic**: Understanding that revoking a privilege with the `CASCADE` keyword invalidates all privileges that were granted solely via the revoked party.
+5.  **Independence of Authorization Paths**: Recognizing that even if Amy's grant to Peter is revoked via the cascade, Peter still retains the privilege granted directly by Linda in Step 1.
+6.  **State Tracking**: Maintaining a mental "authorization graph" or table of who holds what from whom across three sequential steps.
+7.  **Distinguishing Nullification**: Realizing that Amy loses her privilege entirely while Peter’s direct grant remains unaffected by the revocation of Amy.
+
+COUNT: 7
+
+0.35

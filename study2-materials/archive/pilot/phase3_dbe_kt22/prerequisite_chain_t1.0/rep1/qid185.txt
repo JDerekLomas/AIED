@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a SQL View as a derived/virtual table rather than a physical one.
+2. Knowledge of the SQL Authorization model (Grant/Revoke) and how ownership differs between base tables and views.
+3. Distinguishing between "creation rights" and "functional privileges" (specifically that privileges on a view are bounded by the creator's privileges on the underlying base tables).
+4. Understanding the specific criteria for an "updatable view" (e.g., views involving joins, aggregations, or missing non-null columns are not inherently updatable).
+5. Recognizing that the term "all privileges" (Option D) includes Delete, Insert, and Update, which may be restricted by the view definition itself.
+6. Logical reasoning to identify that "not necessarily" (Option C) is the only statement that accounts for the restrictions imposed by complex view definitions.
+7. Careful reading of the word "always" in Options A and B, which acts as a logical trap.
+
+COUNT: 7
+
+0.35

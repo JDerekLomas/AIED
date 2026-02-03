@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: Definition of a Super Key (SK) vs. Candidate Key (CK).
+2. Definition recall: Understanding functional dependencies (FDs) and the closure algorithm ($X^+$).
+3. Logic evaluation: Computing $D^+$ starting with $D$.
+4. Logic evaluation: Applying the transitivity rule (If $D \to B$ and $B \to C$, then $D \to C$) or the union rule ($D \to A, D \to B, D \to C \implies D \to ABC$).
+5. Constraint satisfaction: Checking if the resulting closure set $\{D, A, B, C\}$ contains all attributes in $R = \{A, B, C, D\}$.
+6. Syntax/Notation: Mapping the sigma ($\Sigma$) notation to the specific FDs provided.
+
+ELEMENT COUNT: 6
+
+At a South African university with a diverse cohort, students with stronger backgrounds will find the closure algorithm procedural and "mechanical," while those struggling with formal logic often fail to include the starting attribute in the closure or misinterpret the implication of "Super Key" versus "Candidate Key" (though in this specific true/false case, the distinction doesn't change the answer).
+
+0.65

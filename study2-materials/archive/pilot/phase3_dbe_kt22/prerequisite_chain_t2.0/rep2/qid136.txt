@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding functional dependency (FD) notation ($X \to Y$) and applying it to a specific relation instance.
+2. Capability to compute the closure of an attribute set ($A^+$) to identify candidate keys.
+3. Correctly identifying that $\{A\}$ is the only candidate key for $R$.
+4. Distinguishing between "prime" and "non-prime" attributes ($A$ is prime; $B, C$ are non-prime).
+5. Knowing the definition of Boyee-Codd Normal Form (BCNF): every determinant must be a superkey.
+6. Identifying that $B \to C$ violates BCNF because $B$ is not a superkey.
+7. Knowing the definition of Third Normal Form (3NF): for $X \to Y$, $X$ must be a superkey OR $Y$ must be a prime attribute.
+8. Identifying that $B \to C$ violates 3NF because $B$ is not a superkey and $C$ is not a prime attribute (transitive dependency).
+9. Logical elimination of multiple-choice options based on these findings.
+10. Recognizing "Chained" dependencies ($A \to B \to C$) as the classic textbook example of a 3NF violation.
+
+COUNT: 10
+
+0.65

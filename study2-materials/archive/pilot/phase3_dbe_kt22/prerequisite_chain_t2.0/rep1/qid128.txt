@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Identifying the "Universe" of attributes (U = {A, B, C, D}).
+2. Understanding the definition of a Candidate Key (CK) as a minimal superkey.
+3. Ability to compute the attribute closure ($X^+$) using Armstrong's Axioms or the closure algorithm.
+4. Recognizing "Isolated Attributes": Identifying that attribute C does not appear on the right-hand side (RHS) of any functional dependency in $\Sigma$.
+5. Applying the Necessity Rule: Understanding that if an attribute never appears on the RHS, it *must* be part of every candidate key because it cannot be derived.
+6. Multi-step reasoning: Checking if {C} alone is a key (it is not), then testing combinations (e.g., {C, ...}) to see if they derive the full set {A, B, C, D}.
+7. Distinguishing between "Prime Attributes" and attributes that are "Part of a CK".
+8. Verification/Completeness: Ensuring no dependencies allow for A, B, or D to derive C.
+
+COUNT: 8
+
+0.65

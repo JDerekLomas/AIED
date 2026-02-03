@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Knowledge of Data Control Language (DCL) syntax for `GRANT` and `REVOKE`.
+- Understanding the concept of "Cascading Revokes" (how permissions propagate through the `WITH GRANT OPTION`).
+- Ability to distinguish between the command used to provide permissions (`GRANT`) and the command used to take them away (`REVOKE`) in the context of the question's goal.
+- Knowledge of the specific SQL standard keywords `RESTRICT` and `CASCADE` used as modifiers in a `REVOKE` statement.
+- Distinguishing between the keyword that causes the action (`CASCADE`) and the keyword that prevents the action if dependencies exist (`RESTRICT`).
+- Identifying that `no cascade` and `no restrict` are syntactically invalid/invented distractors in standard SQL.
+
+COUNT: 6
+
+0.40

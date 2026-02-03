@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Candidate Key Derivation**: The ability to compute attribute closures (e.g., $(AB)^+ = \{A,B,C,D\}$ and $(BC)^+ = \{B,C,A,D\}$) to identify all candidate keys ($AB$ and $BC$).
+2. **Identification of Prime Attributes**: Recognizing that $\{A, B, C\}$ are prime attributes because they are members of at least one candidate key, while $\{D\}$ is non-prime.
+3. **Formal Definition of BCNF**: Knowing that for every functional dependency $X \to Y$, $X$ must be a superkey.
+4. **Application of BCNF**: Identifying that in $BC \to A$, $BC$ is a superkey, but in $AB \to CD$, $AB$ is a superkey (therefore, it satisfies BCNF).
+5. **Formal Definition of 3NF**: Knowing that for $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+6. **Application of 3NF**: Recognizing that if a relation is in BCNF, it is automatically in 3NF (nested logic).
+7. **Schema Analysis**: Correct interpretation of the relational notation $R=\{A,B,C,D\}$ and the dependency set $\Sigma$.
+8. **Logical Synthesis**: Combining the findings to select the specific multiple-choice option (A).
+
+COUNT: 8
+
+0.35

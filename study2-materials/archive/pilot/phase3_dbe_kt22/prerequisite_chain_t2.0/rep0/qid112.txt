@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Understanding of functional dependency (FD) notation**: Recognizing that $X \to Y$ means $X$ determines $Y$.
+2. **Knowledge of Logical Entailment ($\models$)**: Understanding that the question asks if $A \to C$ must hold true given the set of dependencies $\Sigma$.
+3. **Knowledge of Armstrong’s Axiom of Transitivity**: Identifying that if $A \to B$ and $B \to C$ are in $\Sigma$, then $A \to C$ is derived.
+4. **Knowledge of the Closure Algorithm**: Alternatively, knowing how to compute the attribute closure of $A$ ($A^+$) and checking if $C \in A^+$.
+5. **Ability to isolate relevant data**: Identifying that $A \to B$ and $B \to C$ are the only dependencies needed, and that $D \to ABC$ is a distractor.
+6. **Abstract reasoning/Logic application**: Correctly chaining the dependencies without being confused by the symbolic representation or the "True/False" format.
+
+COUNT: 6
+
+0.85

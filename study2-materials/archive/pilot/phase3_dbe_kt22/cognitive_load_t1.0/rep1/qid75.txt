@@ -1,0 +1,17 @@
+To accurately answer this question, a student must process the following elements simultaneously:
+
+**ELEMENTS:**
+1.  **SQL Keyword Sequence:** Recalling the logical order of operations (FROM → GROUP BY → HAVING → SELECT).
+2.  **Table Schema Visualization:** Inferring the structure of the `Study` table (mapping `CourseNo` to student enrollments).
+3.  **Grouping Logic:** Mentally partitioning rows into sets based on unique `CourseNo` values.
+4.  **Aggregate Function (`COUNT(*)`):** Calculating the number of occurrences within each specific group.
+5.  **Filtering Logic (`HAVING`):** Evaluating a logical condition (> 1) against the result of an aggregate function.
+6.  **Mental Data Integration:** Maintaining a tally of which groups satisfy the condition to determine the final row count.
+7.  **Distinction between `WHERE` and `HAVING`:** Recognizing that the filter applies to the group, not the individual rows.
+
+**ELEMENT COUNT: 7**
+
+While the query is fundamental, South African undergraduate cohorts often feature a "bimodal" distribution. Stronger students will find this trivial, but those with minimal prior exposure often struggle with the distinction between the number of rows *processed* versus the number of rows *returned* by a `GROUP BY` with a `HAVING` clause.
+
+Your estimate:
+0.65

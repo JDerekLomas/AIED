@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recalling the formal definition of a **candidate key** (uniqueness and minimality).
+2. Recalling the formal definition of a **superkey** (uniqueness property only).
+3. Understanding the hierarchical relationship between keys (every candidate key is, by definition, a superkey).
+4. Understanding the property of **monotonicity** in superkeys (adding any attribute to a superkey results in another superkey).
+5. Distinguishing between a **primary/candidate key** and a **minimal key** to avoid the misconception that a larger set cannot be a superkey.
+6. Identifying and rejecting a "subset" fallacy (falsely assuming that if a set is a key, its parts must also be keys).
+7. Translating abstract set notation `{a, b}` and `{a, b, c}` into the functional dependencies of the relation.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Filtering Distractors**: Ability to isolate the specific "Administrator" entity requirements from a dense narrative containing multiple other entities (Trainers, Technicians, Members, Equipment).
+2. **Entity-Attribute Mapping**: Understanding that "ID", "Name", and "Address" are inherited properties from the "Employee" supertype, even if not explicitly repeated in the Administrator sentence.
+3. **Definition of a Key Attribute**: Knowing that a key must be unique and non-null for every instance of the entity.
+4. **Identifying Uniqueness**: Recognizing that while landline numbers (Option A) are mentioned specifically for administrators, they are not guaranteed to be unique (multiple admins could share an office/desk phone).
+5. **Differentiating "Unique" vs. "Specific"**: Distinguishing between an attribute that is *unique to an entity type* (landline is only for admins) versus an attribute that *uniquely identifies an instance* (the ID).
+6. **Schema Inheritance Logic**: Realizing that since an Administrator is a category of Employee, and Employees have "unique IDs", that ID serves as the primary key for all subtypes.
+7. **Elimination of Non-Keys**: Recognizing that "Name" and "Address" are generally non-unique and thus unsuitable as keys in a standard database context.
+
+COUNT: 7
+
+0.72

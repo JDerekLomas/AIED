@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Terminology (Superkey)**: Knowing that a superkey is a set of attributes that uniquely identifies a tuple in a relation.
+2. **Understanding Terminology (Candidate Key)**: Knowing that a candidate key is a *minimal* superkey.
+3. **Set Property Recognition (Supersets)**: Recognizing that any superset of a superkey is, by definition, also a superkey.
+4. **Minimal vs. Sufficient Conditions**: Distinguishing between what "must" be true versus what "might" be true.
+5. **Evaluating Choice A (Superset logic)**: Reasoning that if {a} is a superkey, any larger set including {a} (like {a,b}) automatically satisfies the uniqueness property and is therefore a superkey (rendering Choice A false).
+6. **Evaluating Choice B (Minimality logic)**: Understanding that if {a} is already a superkey, {a,c} cannot be a candidate key because it is not minimal (it has a proper subset {a} that is also a superkey).
+7. **Evaluating Choice C (Nuance of Candidate Keys)**: Recognizing that if {a} is a superkey, it is only a candidate key if no subset of {a} is also a superkey. Since the only proper subset of {a} is the empty set (which cannot be a key), {a} is indeed minimal and thus must be a candidate key.
+8. **Relational Schema Literacy**: Correctly reading the notation $R(a, b, c)$ to identify the attribute universe.
+
+COUNT: 8
+
+0.65

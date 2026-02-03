@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a functional dependency (FD) and its notation ($X \to Y$).
+2. Understanding the formal definition of a "trivial" functional dependency (a dependency $X \to Y$ is trivial if and only if $Y \subseteq X$).
+3. Ability to perform set inclusion/subset operations on attributes represented as concatenated letters (e.g., identifying that $\{Z\}$ is a subset of $\{X, Y, Z\}$).
+4. Distinguishing between "trivial" and "non-trivial" (avoiding the common misconception that "trivial" means "simple" or "has few attributes").
+5. Ability to identify "redundant" attributes in a dependency (noticing that $XY \to XYZ$ is equivalent to $XY \to Z$, which is non-trivial, whereas $XYZ \to Z$ is inherently trivial).
+6. Careful reading of the options to ensure the right-hand side is strictly contained within the left-hand side.
+
+COUNT: 6
+
+0.65

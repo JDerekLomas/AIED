@@ -1,0 +1,16 @@
+As an instructor, I would classify this as a moderate-interactivity conceptual question. While it does not require performing a multi-step decomposition or checking functional dependencies, it requires high-precision retrieval of the hierarchy of normalization levels.
+
+**ELEMENTS:**
+1.  **Definition Recall (3NF):** Recalling the specific criteria for Third Normal Form (removal of transitive dependencies).
+2.  **Definition Recall (BCNF):** Recalling the stricter criteria for Boyce-Codd Normal Form (every determinant must be a candidate key).
+3.  **Logical Set Relationship (Nested Hierarchy):** Processing the "is a subset of" relationship (All BCNF $\subset$ 3NF $\subset$ 2NF $\subset$ 1NF).
+4.  **Directional Logic:** Distinguishing between a necessary condition and a sufficient condition (Direction of the implication "If A then B").
+5.  **Distinction between concepts:** Recognizing that BCNF is an extension of 3NF, not a separate or disjoint category.
+
+**ELEMENT COUNT: 5**
+
+**Estimated Performance:**
+In a diverse South African undergraduate cohort, this question serves as a "filter." Students with strong theoretical foundations will find it trivial, but many who rely on rote memorization often flip the hierarchy (thinking 3NF is "higher" because it is often the practical goal) or struggle with the "If... then" logical phrasing. Approximately 60-65% usually get this correct if they have covered the "Normal Form Hierarchy" diagram.
+
+Your estimate:
+0.62

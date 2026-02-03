@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. Recall of the ACID properties (Atomicity, Consistency, Isolation, Durability).
+2. Recall of the specific function of the Transaction Manager component.
+3. Recall of the definition and purpose of Write-Ahead Logging (WAL) or transaction logs.
+4. Logical mapping: Connecting "Logging" to "Atomicity" (via undoing partial transactions/rollback).
+5. Logical mapping: Connecting "Logging" to "Durability" (via redoing transactions after a system crash).
+6. Distinction: Ruling out "Consistency" (enforced by constraints) and "Isolation" (enforced by the Lock Manager/Concurrency Control).
+
+ELEMENT_COUNT: 6
+
+0.65

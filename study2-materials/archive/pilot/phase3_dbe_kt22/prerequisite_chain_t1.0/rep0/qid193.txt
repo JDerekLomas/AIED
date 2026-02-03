@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `GRANT OPTION` and its role in creating a chain of authorization.
+2. Knowing that a user can receive the same privilege from multiple independent sources (multi-path authorization).
+3. Distinguishing between `RESTRICT` and `CASCADE` behaviors in the context of a `REVOKE` statement.
+4. Recognizing that `CASCADE` removes privileges granted by the revoked user, but does not necessarily remove the privilege if it was granted by another valid source.
+5. Ability to track the state of a privilege table/graph across multiple sequential steps.
+6. Identifying that Linda's direct grant to Peter in Step 1 is independent of the grant Peter received from Amy in Step 2.
+7. Applying the rule that a `REVOKE` only affects the specific chain of authority originating from the person performing the revoke.
+
+COUNT: 7
+
+0.35

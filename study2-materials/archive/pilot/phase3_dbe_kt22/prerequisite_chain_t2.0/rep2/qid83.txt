@@ -1,0 +1,16 @@
+To accurately answer this question, a student must navigate several conceptual and technical hurdles.
+
+**PREREQUISITES:**
+1.  **Reading a Schema Diagram:** Understanding that `Enrol` and `Course` are distinct entities linked by `CourseNo`.
+2.  **Referential Integrity Identification:** Recognizing if `CourseNo` in `Enrol` is a Foreign Key and how it relates to the Primary Key in `Course`.
+3.  **Data Set Analysis (Counting):** Physically counting the records in the provided tables (presumably a provided instance) to find the starting cardinality of `Enrol`.
+4.  **Understanding `EXISTS` semantics:** Knowing that the subquery evaluates as a Boolean (True/False) for each row in the outer query rather than performing a traditional join.
+5.  **Correlated Subquery Logic:** Understanding that the inner query `c.CourseNo = e.CourseNo` anchors the check to the specific row being processed by the outer query.
+6.  **Identifying Matches:** Distinguishing between rows in `Enrol` that have a corresponding entry in `Course` versus those that do not (handling potential orphans or nulls if present in the data set).
+7.  **Selectivity of `*` in Subqueries:** Knowing that `SELECT *` inside an `EXISTS` clause does not return columns but only triggers the existence check.
+8.  **Distinguishing INNER JOIN vs. EXISTS:** Understanding that even if a course appears multiple times in `Enrol`, it only matters if it exists once in `Course` for that row to be included.
+9.  **Calculation:** Final summation of the "True" results.
+
+**COUNT: 9**
+
+0.65

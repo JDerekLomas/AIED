@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Knowledge of the specific terminology for "Concurrency Phenomenon" (Dirty Read, Unrepeatable Read, Phantom Read).
+2. Understanding the technical definition of a "Dirty Read" (reading uncommitted data).
+3. Understanding the technical definition of an "Unrepeatable Read" (data changing between two reads in the same transaction).
+4. Understanding the technical definition of a "Phantom Read" (new rows appearing between two reads).
+5. Familiarity with the four standard ANSI SQL Isolation Levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable).
+6. Ability to map the hierarchy of isolation levels (which level permits which phenomena).
+7. Ability to perform a process of elimination (e.g., knowing Serializable allows nothing, and Read Uncommitted allows everything).
+8. Distinguishing between "Read Committed" and "Repeatable Read" (the most common point of confusion for students).
+
+COUNT: 8
+
+0.65

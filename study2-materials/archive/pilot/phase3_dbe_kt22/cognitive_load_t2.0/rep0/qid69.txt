@@ -1,0 +1,16 @@
+In order to provide an accurate element count, it must be noted that while the query is simple, the question is **impossible to answer definitively** without an accompanying table (instance) of data. I will assess the interactivity based on a student recognizing they must evaluate a specific dataset against these criteria.
+
+**ELEMENTS:**
+1. **SQL Keyword Recall:** Understanding that `SELECT *` retrieves all columns but the row count depends on the `WHERE` clause.
+2. **Filtering Logic:** Evaluating the condition `Name = 'Tom'` against an invisible or provided dataset.
+3. **Table Metadata Awareness:** Recognizing 'Study' as the source entity.
+4. **Literal Comparison Rules:** Knowing that string matching is specific (distinguishing 'Tom' from 'Thomas' or 'tom').
+5. **Set Cardinality:** Counting the resulting occurrences that satisfy the Boolean condition.
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+While the syntax is foundational, South African undergraduate cohorts often struggle with the "jump" from theory to execution. If a table were provided, the success rate would be high. However, if this is a "trick" question where no table is provided, students may guess based on common naming conventions or freeze. Assuming a simple 5-row table was provided in the context:
+
+Your estimate:
+0.85

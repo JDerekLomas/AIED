@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) (uniqueness and minimality).
+2. Ability to compute the attribute closure of A ($A^+$) using the given functional dependencies.
+3. Recognizing that $A \to BCD$ implies $A \to ABCD$, confirming A is a superkey.
+4. Checking for other potential candidate keys by identifying attributes not on the right-hand side or attributes part of cycles (e.g., testing CD).
+5. Computing the attribute closure of CD ($(CD)^+$) to see if it also derives all attributes.
+6. Understanding that if any other attribute set (like CD) is also a CK, the statement "A is the **only** CK" is false.
+7. Distinguishing between a Primary Key and a Candidate Key (not assuming only one can exist).
+8. Avoiding the "trap" of seeing a single attribute key and assuming it is sufficient without checking composite sets or alternate keys.
+
+COUNT: 8
+
+0.65

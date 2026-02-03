@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Minimal Cover (Standard form, no redundant FDs, no extraneous attributes).
+2. Concept of Logical Equivalence between sets of Functional Dependencies (FDs).
+3. Ability to compute attribute closures (specifically $A^+$ and $B^+$) under $\Sigma_1$ and $\Sigma_2$.
+4. Identification of redundancy: recognizing that in $\Sigma_1$, $AB \to C$ reduces to $A \to C$ because $A \to B$ exists (extraneous attribute $B$).
+5. Distinguishing between "equivalent to" and "is a minimal cover of" (A set cannot be a minimal cover of a *different* set unless they are logically equivalent).
+6. Multi-step reasoning: checking if $A \to C$ is derived from $\Sigma_1$ and if $B \to C$ is derived from $\Sigma_1$ (it is not), leading to the realization that $\Sigma_1 \not\equiv \Sigma_2$.
+
+COUNT: 6
+
+0.35

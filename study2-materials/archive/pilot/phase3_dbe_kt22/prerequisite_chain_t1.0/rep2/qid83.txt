@@ -1,0 +1,14 @@
+To provide an accurate count of prerequisites, I am assuming a standard small-scale pedagogical schema is provided to the students alongside this question (e.g., an **Enrol** table with 8-11 records and a **Course** table).
+
+PREREQUISITES:
+1. **Schema Interpretation**: Correctly identifying the relationship between the `Enrol` table (likely a linking table) and the `Course` table via the `CourseNo` foreign key.
+2. **SQL Keyword Mastery (EXISTS)**: Understanding that `EXISTS` returns true if the subquery returns one or more rows, regardless of the columns selected.
+3. **Correlated Subquery Logic**: Recognizing that the subquery is evaluated for *each* row in the outer table (`e`).
+4. **Join Logic Simulation**: Understanding that `WHERE EXISTS` with an equality filter on primary/foreign keys functions similarly to an `INNER JOIN` (or a semi-join).
+5. **Referential Integrity Awareness**: Distinguishing whether all `CourseNo` values in `Enrol` actually exist in the `Course` table (identifying "orphaned" records or nulls if present).
+6. **Data Counting Accuracy**: Physically counting the rows in the provided sample data that satisfy the condition without making a clerical error.
+7. **Distinguishing SELECT * Logic**: Realizing that the `*` in the subquery does not affect the row count of the outer query result.
+
+COUNT: 7
+
+0.65

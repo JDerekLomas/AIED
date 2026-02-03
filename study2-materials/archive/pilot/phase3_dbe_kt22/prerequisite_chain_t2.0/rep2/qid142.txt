@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1.  **Defining 3NF vs. BCNF**: Understanding that Boyce-Codd Normal Form is a stricter version of Third Normal Form (all determinants must be superkeys).
+2.  **Decomposition properties**: Distinguishing between the goals of being "Lossless" (reconstructible) and "Dependency Preserving" (all FDs can be checked within single relations).
+3.  **Knowing the trade-offs of BCNF**: Recalling the specific theoretical "price" of BCNF—that while it eliminates more redundancy, it is the only normal form that *cannot* always guarantee dependency preservation.
+4.  **Knowing the 3NF Synthesis/Decomposition theorem**: Recalling that algorithms exist for 3NF (like the Synthesis Algorithm) that *always* guarantee both a lossless join and dependency preservation.
+5.  **Handling "Always" vs. "Cannot"**: Recognizing that C and D are false because these properties *can* happen (and often do), while identifying the universal guarantee provided by 3NF in statement B.
+6.  **Logical negation**: Understanding that just because BCNF is not *always* dependency-preserving, it doesn't mean it is *never* dependency-preserving (eliminating Option C).
+
+COUNT: 6
+
+0.55

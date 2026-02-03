@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Schema Interpretation**: Identifying the correct source table (`Enrol` vs `Student`) based on the requested data (enrollments).
+2. **Column Consistency**: Recalling the requirement for the columns in the `SELECT` list to be present in the source table.
+3. **GROUP BY Semantic Rule**: Understanding the mandatory link between non-aggregated columns in the `SELECT` clause and the columns in the `GROUP BY` clause.
+4. **Logical Aggregation**: Determining the correct "granularity" of the grouping (grouping by course identifier rather than student identifier) to answer "number of students per course."
+5. **Syntax Recognition**: Validating the basic structure of a `SELECT...FROM...WHERE...GROUP BY` statement.
+6. **Condition Filtering**: Verifying the `WHERE` clause filter against the year 2019 requirement.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

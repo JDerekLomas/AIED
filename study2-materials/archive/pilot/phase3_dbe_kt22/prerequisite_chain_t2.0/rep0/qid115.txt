@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Understanding functional dependency (FD) notation (X → Y).
+2. Understanding the logical entailment symbol (Σ ⊨ f) in the context of dependency inference.
+3. Ability to compute the attribute closure ($D^+$) based on a given set of FDs (Σ).
+4. Correct application of the closure algorithm (identifying that $D \to ABC$ implies $A, B, C$ are in $D^+$).
+5. Understanding the decomposition rule or the subset property (if $Y \subseteq X^+$, then $X \to Y$ holds).
+6. Multi-step logical reasoning to verify if both $A$ and $C$ are determined by $D$ through the transitive or augmentation steps.
+7. Distinguishing between a single dependency in $\Sigma$ and the set of all implied dependencies (the closure $\Sigma^+$).
+
+COUNT: 7
+
+0.72

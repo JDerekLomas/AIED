@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Knowing that a CK must uniquely identify all attributes in a relation (superkey) and be minimal (no proper subset is a key).
+2. Understanding Functional Dependency (FD) notation: Interpreting $A \rightarrow B$ as "$A$ determines $B$".
+3. Attribute Closure Algorithm: Ability to compute the closure of an attribute set (e.g., $A^+ = \{A, B, C\}$).
+4. Identifying transitive dependencies: Recognizing that $A \rightarrow B$ and $B \rightarrow C$ implies $A \rightarrow C$.
+5. Identifying cycles in dependencies: Recognizing that the given set forms a logical circle ($A \rightarrow B \rightarrow C \rightarrow A$).
+6. Exhaustive search/Testing alternatives: Checking if $B$ or $C$ also satisfy the requirements of a CK, rather than stopping after verifying $A$.
+7. Definition of "only": Understanding that the statement is false if even one additional CK exists.
+
+COUNT: 7
+
+0.55

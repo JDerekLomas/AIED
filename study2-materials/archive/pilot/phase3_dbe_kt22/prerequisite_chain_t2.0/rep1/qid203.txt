@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of a "Transaction" in a database context.
+2. Knowing the definition of an "Exclusive Lock" (X-lock) versus a "Shared Lock" (S-lock).
+3. Recalling the "Read/Write" capability rule associated specifically with exclusive locks (the power to modify implies the power to read).
+4. Distinguishing between a technical operation (Read/Write) and a SQL command (Update).
+5. Interpreting the phrase "What operation(s) can a transaction perform" as asking for the maximum set of permitted actions.
+6. Eliminating "Update" as a subset of "Write" or a specific command rather than the fundamental operational permission.
+
+COUNT: 6
+
+0.72

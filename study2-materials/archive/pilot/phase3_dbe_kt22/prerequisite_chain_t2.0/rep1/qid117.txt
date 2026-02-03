@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding of notation**: Recognizing that $R$ represents a relation schema, $A, B, C$ are attributes, and $\Sigma$ represents a set of Functional Dependencies (FDs).
+2. **Definition of Logical Entailment ($\models$)**: Knowing that $\Sigma_1 \models \Sigma_2$ means every dependency in $\Sigma_2$ must be logically derivable from $\Sigma_1$ (i.e., $\Sigma_2 \subseteq \Sigma_1^+$).
+3. **Knowledge of Transitivity**: Identifying that in $\Sigma_1$, since $A \to B$ and $B \to C$, then $A \to C$ must hold (Armstrong's Axioms).
+4. **Decomposition/Component Testing**: Understanding that to prove $\Sigma_1 \models \Sigma_2$, one must test each FD in the target set $(\Sigma_2)$ individually against the source set $(\Sigma_1)$.
+5. **Closure Algorithm Execution**: Ability to compute the attribute closure of $A$ and $B$ under $\Sigma_1$ to verify if the right-hand sides of $\Sigma_2$ are contained within them.
+6. **Distinguishing Directionality**: Recognizing that entailment is not necessarily a symmetric equivalence (avoiding the trap of checking if $\Sigma_2 \models \Sigma_1$, which is false).
+
+COUNT: 6
+
+0.65

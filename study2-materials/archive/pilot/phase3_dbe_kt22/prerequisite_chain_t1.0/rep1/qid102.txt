@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Natural Language Processing (Information Filtering):** The ability to parse a long, detail-heavy narrative and extract the specific sentence relevant to the relationship between "Member" and "Fitness Class" while ignoring distractors (e.g., equipment, technicians, administrators).
+2. **Entity-Relationship (ER) Conceptualization:** Identifying that "Member" and "Fitness Class" are the two entities involved in the "Participate" relationship.
+3. **Understanding Participation Constraints (Definition):** Knowing the difference between "Partial" (optional) and "Total" (mandatory) participation.
+4. **Mapping Narrative to Constraint:** Correctly interpreting the phrase "Each fitness class is attended by one or more members" as a requirement that every instance of a "Fitness Class" must be associated with at least one "Member".
+5. **Distinguishing Cardinality from Participation:** Not confusing "one or more" (cardinality) with the existence requirement (participation).
+6. **Logical Mapping to Terminology:** Mapping the "one or more" (at least one) requirement to the term "Total" participation.
+
+COUNT: 6
+
+0.65

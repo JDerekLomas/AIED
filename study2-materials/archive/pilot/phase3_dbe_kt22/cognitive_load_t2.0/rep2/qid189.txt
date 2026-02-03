@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall: Recalling the mechanism of a SQL injection attack (user input concatenated into a query string).
+2. SQL syntax: Understanding how single quotes delineate string literals in a SQL statement.
+3. Code analysis: Distinguishing between a variable sourced from an external request (Request.form) vs. internal hardcoding.
+4. Evaluation of logic: Recognizing that Options B and C use static/hardcoded data which cannot be manipulated by an end-user.
+5. Distinction: Identifying the "sanitization gap" in string concatenation versus parameterized queries.
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.72

@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall of a Candidate Key (CK): Must be a superkey and minimal.
+2. Attribute closure procedure: Knowing how to calculate $\{A\}^+$.
+3. Functional Dependency (FD) evaluation: Applying $A \to BCD$ to determine $\{A\}^+ = \{A, B, C, D\}$.
+4. Identification of "prime" attributes: Recognizing that $A$ is a CK.
+5. Search for alternative keys: Checking other attributes or combinations (e.g., $CD$).
+6. Logical negation: Understanding that "only" requires proving no other set of attributes is a CK.
+7. Attribute closure of $CD$: Applying $CD \to AB$ to find $\{C, D\}^+ = \{C, D, A, B\}$.
+8. Comparison of sets: Determining if $\{C, D\}$ is minimal and satisfies the CK definition, thereby falsifying the "only" claim.
+
+ELEMENT COUNT: 8
+
+0.65

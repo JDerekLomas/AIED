@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Candidate Key Identification**: Ability to compute attribute closures (e.g., determining $\{AB\}^+$ and $\{BC\}^+$) to identify that the candidate keys are $\{AB, BC\}$.
+2. **Prime Attribute Recognition**: Identifying that $\{A, B, C\}$ are prime attributes and $\{D\}$ is a non-prime attribute.
+3. **3NF Definition (Prime/Transitive)**: Knowing that for 3NF, every non-trivial functional dependency $X \to Y$ must have $X$ as a superkey OR $Y$ as a prime attribute.
+4. **3NF Verification**: Applying the definition to $C \to A$ (where $A$ is prime) and $AB \to CD$ (where $AB$ is a superkey) to conclude it is in 3NF.
+5. **BCNF Definition**: Knowing that for BCNF, every non-trivial functional dependency $X \to Y$ must have $X$ as a superkey.
+6. **BCNF Verification**: Identifying that in $C \to A$, the determinant $C$ is not a superkey, thus it violates BCNF.
+7. **Logical Synthesis**: Combining the results (is 3NF, is not BCNF) to select the correct multiple-choice option.
+8. **Schema Parsing**: Correct reading of the relation $R$ and the set of functional dependencies $\Sigma$.
+
+COUNT: 8
+
+0.55

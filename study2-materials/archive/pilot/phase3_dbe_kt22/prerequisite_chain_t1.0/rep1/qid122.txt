@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding functional dependency (FD) notation ($X \to Y$).
+2. Definition of "Minimal Cover" (specifically the requirement that no FD contains redundant attributes on the left-hand side).
+3. Definition of "Equivalent Sets of FDs" (understanding that for one to be a cover of another, their closures must be identical: $\Sigma_1^+ = \Sigma_2^+$).
+4. Ability to compute the closure of an attribute set (specifically $A^+$) under a given set of FDs.
+5. Identifying "Redundant Attributes": Recognizing that in $\Sigma_1$, the $B$ in $AB \to C$ is redundant because $A \to B$ exists (Augmentation/Transitivity logic).
+6. Multi-step reasoning: Reducing $\Sigma_1$ to $\{A \to B, A \to C\}$ and then comparing it to $\Sigma_2$.
+7. Distinguishing between a "Cover" and a "Minimal Cover" (a set can be a cover but fail the minimality test, though in this specific case they are identical).
+
+COUNT: 7
+
+0.65

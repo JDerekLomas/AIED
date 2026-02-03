@@ -1,0 +1,16 @@
+ELEMENTS: 
+1. Recall the definition of a "prime attribute" (an attribute that is part of at least one candidate key).
+2. Understand the notation of functional dependencies (FDs) in the set Σ.
+3. Compute the closure of attribute {A} to determine if it is a candidate key.
+4. Compute the closure of attribute {B} to determine if it is a candidate key.
+5. Compute the closure of attribute {C} to determine if it is a candidate key.
+6. Identify if any other combinations (composite keys) are necessary to check.
+7. Synthesize the findings to check if all three attributes belong to the set of discovered keys.
+8. Evaluate the logical truth value of the statement "A, B, and C are all prime" based on those findings.
+
+ELEMENT COUNT: 8
+
+The correct answer is True (A is a key, B is a key, C is a key, thus all are prime). While the FD set is a simple cycle, students often struggle with the definition of "prime" versus "primary" or stop after finding only one key. In a South African undergraduate context with mixed backgrounds, many will intuitively grasp the cycle, but a significant portion will guess or confuse the definitions.
+
+Your estimate:
+0.65

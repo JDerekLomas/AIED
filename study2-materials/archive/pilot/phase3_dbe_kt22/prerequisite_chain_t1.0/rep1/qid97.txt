@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Reading Comprehension (Domain Logic):** Distilling a complex narrative into structural relationships while ignoring irrelevant details (e.g., equipment status types vs. associate member numbering).
+2. **Definition of a Weak Entity:** Knowing that a weak entity cannot be uniquely identified by its own attributes and relies on a relationship with an identifying owner entity.
+3. **Primary Key Identification:** Recognizing that "Associate Member" uses a partial key ("associate number 1, 2...") and depends on a primary "Member" for unique identification.
+4. **Distinguishing Attributes from Entities:** Recognizing that "Equipment Status" and "Speciality" are multi-valued or simple attributes (or lookup values) rather than independent entities in this specific schema context.
+5. **Evaluating Cardinality & Constraints:** Understanding that "Fitness Class" has its own unique identifier (the daily time slot, as specified by the "no two classes" rule) and therefore does not require a parent entity for identity.
+6. **Multi-step Elimination:** Systematically checking each option against the criteria of existence dependency and identity dependency.
+
+COUNT: 6
+
+0.55

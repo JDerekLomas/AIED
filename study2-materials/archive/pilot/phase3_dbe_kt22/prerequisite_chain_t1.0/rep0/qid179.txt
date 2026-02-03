@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of the syntax and purpose of the SQL GRANT command.
+2. Understanding the concept of "Authorization Granularity" (what levels of a database can be secured).
+3. Distinguishing between schema-level objects (relations/tables) and data-level objects (tuples/rows).
+4. Knowing that column-level (attribute) permissions are supported in standard SQL.
+5. Identifying that SQL standard security models do not typically allow granting privileges to individual tuples via a basic GRANT statement (requiring Views or Row-Level Security instead).
+6. Correctly interpreting "None of the above" in a multiple-choice context.
+7. Reading comprehension of the negative phrasing ("cannot be granted").
+
+COUNT: 7
+
+0.55

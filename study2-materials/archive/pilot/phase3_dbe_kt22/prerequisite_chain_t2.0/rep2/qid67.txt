@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying `StudentID` as the Foreign Key in the `Enrol` table based on the `FOREIGN KEY ... REFERENCES` syntax.
+2. Identifying `Student` as the Parent (referenced) table and `Enrol` as the Child (referencing) table.
+3. Recalling the definition of Referential Integrity (that a value in the child table must exist in the parent table).
+4. Distinguishing between the primary key constraint (which relates to Option C) and the referential integrity constraint (which relates to Option A).
+5. Interpreting the directionality of the relationship (A vs B): recognizing that the "many" side (Enrol) depends on the "one" side (Student), not vice versa.
+6. Reading and parsing SQL DDL syntax across two separate `CREATE TABLE` statements.
+7. Filtering out the "Not Null" property which, while often true for Primary Keys, is not the definition of referential integrity (Option D).
+
+COUNT: 7
+
+0.65

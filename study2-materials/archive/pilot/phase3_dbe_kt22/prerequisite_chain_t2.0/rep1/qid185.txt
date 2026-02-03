@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Understanding the definition of a SQL View as a derived/virtual table rather than a base table.
+- Distinguishing between "ownership" (creating an object) and "privilege inheritance" in a relational database management system.
+- Knowledge of the criteria for an "updatable view" (e.g., no joins, no aggregations, no DISTINCT in many SQL dialects).
+- Identifying that privileges on a view are restricted by the owner's privileges on the underlying base tables (the "derivation" rule).
+- Understanding that even if a user has update privileges on base tables, they cannot update a view if it is structurally non-updatable (overcoming the trap in option B).
+- Interpreting the logical distinction between "all privileges" and "necessary/applicable privileges" (logical reasoning regarding the word "necessarily").
+- Analyzing the scope of the word "always" versus specific constraints in SQL standards.
+
+COUNT: 7
+
+0.35

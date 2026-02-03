@@ -1,0 +1,14 @@
+To accurately answer this question, a student must possess the following technical and conceptual building blocks:
+
+**PREREQUISITES:**
+1.  **Reading Schema/Instance Data:** Ability to interpret the provided database tables (presumably `Course` and `Enrol`) to identify column names and count total rows in each.
+2.  **Correlated Subquery Logic:** Understanding that the subquery `SELECT * FROM Enrol e WHERE c.CourseNo=e.CourseNo` executes conceptually for *each* row in the outer table `Course`.
+3.  **The EXISTS Operator:** Knowing that `EXISTS` returns TRUE if the subquery returns at least one row, and FALSE if the subquery returns an empty set.
+4.  **JOIN-like Filtering Logic:** Realizing that this specific query identifies "Courses that have at least one enrollment."
+5.  **Handling Duplicates in Subqueries:** Understanding that even if a `CourseNo` appears multiple times in the `Enrol` table, it only causes the `EXISTS` to return TRUE once for the corresponding `Course` row (unlike an Inner Join, which would duplicate rows).
+6.  **Set Identification/Manual Tracing:** Methodically checking each `CourseNo` in the `Course` table against the list in the `Enrol` table and counting only those that have a match.
+7.  **Final Count Verification:** Distinguishing between the number of matches found versus the total number of rows in the `Enrol` table or the `Course` table.
+
+**COUNT: 7**
+
+0.55

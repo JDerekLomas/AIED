@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Definition recall**: Distinguishing between an 'Entity' (a real-world object/concept) and an 'Attribute' (a property of an entity).
+2. **Entity Recognition (Associate member)**: Identifying that an associate member has its own attributes (name, number) and relationships, disqualifying it as a simple attribute.
+3. **Entity Recognition (Fitness class)**: Identifying that a class has multiple properties (name, dates, time slots) and participants, marking it as an entity.
+4. **Entity Recognition (Fitness centre)**: Identifying it as the organizational context/root of the schema.
+5. **Attribute Identification (Employee ID)**: Recognizing "unique ID" as a singular, atomic property used to describe the Employee entity.
+6. **Information Filtering**: Parsing a dense narrative to isolate relevant properties from complex business rules (e.g., maintenance frequency, status constraints) that act as distractors.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.85

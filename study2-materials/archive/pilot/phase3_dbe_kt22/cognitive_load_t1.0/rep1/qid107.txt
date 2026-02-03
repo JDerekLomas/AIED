@@ -1,0 +1,16 @@
+As an instructor, I evaluate this question as having **high textual noise** but **low element interactivity** relative to the specific task required. The core challenge is filtering out irrelevant information rather than processing complex logical interdependencies.
+
+### ELEMENTS:
+1.  **Filtering/Scanning:** Sifting through a dense narrative (the "Fitness Centre" scenario) to locate the specific entity "Administrator."
+2.  **Entity-Attribute Mapping:** Identifying which specific properties are associated with the "Administrator" entity in the text (landline, registration capability).
+3.  **Generalization of Inherited Attributes:** Recognizing that "Administrator" is a sub-category of "Employee" and therefore inherits the attributes of the super-type (ID, Name, Address).
+4.  **Definition Recall (Key Attribute):** Recalling the definition of a primary key/unique identifier (uniqueness and non-nullity).
+5.  **Constraint Evaluation:** Comparing the available attributes (Landline vs. ID) against the requirement for a key. The text explicitly states "unique IDs of employees," while the landline is associated with the admin but not defined as unique.
+
+**ELEMENT COUNT: 5**
+
+### Pedagogy Note:
+For South African undergraduate cohorts, students often struggle with "word problems" where the answer is buried in the first sentence but the subject is mentioned in the middle. Many students will instinctively look for an attribute mentioned *only* in the "Administrator" sentence (Landline) and incorrectly select it. However, because "ID" is a universal convention for keys, the success rate remains relatively high.
+
+**Estimated proportion to answer correctly:**
+0.72

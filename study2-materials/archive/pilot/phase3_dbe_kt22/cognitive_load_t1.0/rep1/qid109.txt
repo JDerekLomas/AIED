@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. Definition recall: The formal definition of a "trivial" functional dependency (FD) (i.e., $Y \subseteq X$ for $X \to Y$).
+2. Set theory notation/Logical comparison: Evaluating whether the right-hand side (RHS) attributes are a subset of the left-hand side (LHS) attributes for each option.
+3. Distinguishing "trivial" from "non-trivial" or "completely non-trivial": Avoiding the common pitfall of selecting an option where the LHS is a subset of the RHS (the augmentation/reflexivity rule in reverse).
+4. SQL/Relational Algebra syntax mapping: Recognizing that $XYZ$ represents the union of sets $\{X, Y, Z\}$.
+5. Evaluating constraints across four distinct distractors: Simultaneously checking the subset condition for each of the four options to find the single correct match.
+
+ELEMENT_COUNT: 5
+
+Your estimate:
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the notation of a relation schema $R$ and a set of functional dependencies $\Sigma$.
+2. Understanding the semantic entailment symbol ($\models$) as asking if a dependency logically follows from a set of constraints.
+3. Knowing the definition of the closure of a set of attributes ($A^+$).
+4. Proficiency in the iterative algorithm for calculating attribute closures using Armstrong's Axioms or the closure algorithm.
+5. Ability to correctly identify "transitivity" in this specific case: since $A \to B$ and $B \to C$, then $A \to C$.
+6. Understanding that for $X \to Y$ to hold, $Y$ must be a subset of $X^+$.
+7. Avoiding the distraction of the complex dependency $D \to ABC$, which is irrelevant to solving for $A \to C$.
+8. Distinguishing between the attributes present in the dependency ($A$ and $C$) versus all attributes in $R$ ($A, B, C, D$).
+
+COUNT: 8
+
+0.72

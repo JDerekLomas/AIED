@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining the acronym DAC (Discretionary Access Control).
+2. Understanding the fundamental mechanism of DAC: that access rights are granted based on the identity of the user/subject and the discretion of the owner.
+3. Distinguishing between DAC and RBAC (Role-Based Access Control) to eliminate role-based distractors.
+4. Understanding the "Trojan Horse" vulnerability in the context of DAC: that a program running with a user's identity inherits all their permissions, allowing for unauthorized data copying/leakage.
+5. Identifying that "certificates" are an authentication/PKI mechanism, not the core inherent flaw of the DAC authorization model.
+6. Reading comprehension to differentiate between "relies only on identity" (True) and "does not rely on identity" (False).
+
+COUNT: 6
+
+0.65

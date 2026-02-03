@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL Syntax Knowledge: Understanding that `FROM Course, Enrol` indicates a Cartesian product (Cross Join) before filtering.
+2. Join Condition Processing: Identifying and evaluating the equality constraint `Course.CourseNo = Enrol.CourseNo`.
+3. Filter Condition Processing: Evaluating the additional selection criterion `Year = 2018`.
+4. Schema Mapping: Associating attributes (`CourseNo`, `Year`) with their respective tables without explicit schema diagrams provided in the prompt.
+5. Tuple Counting/Matching: Scanning rows in both tables and mentally tallying the intersection that satisfies both conditions simultaneously.
+6. Concept Distinction: Distinguishing between a Join (intersection) and the raw product size (N x M).
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

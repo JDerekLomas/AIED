@@ -1,0 +1,13 @@
+To provide an accurate estimate, I am assuming a standard small-scale pedagogical dataset is provided alongside this question (e.g., a `Course` table with ~11 rows and an `Enrol` table where 4 unique courses have students enrolled).
+
+PREREQUISITES:
+1. **Schema Interpretation**: Identifying the Relationship between `Course` and `Enrol` via the `CourseNo` foreign key.
+2. **Correlated Subquery Logic**: Understanding that the inner query executes for each candidate row of the outer query.
+3. **EXISTS Operator Semantics**: Knowing that `EXISTS` returns a Boolean (True/False) based on whether the subquery result set is non-empty, rather than returning the data itself.
+4. **Distinct Matching logic**: Realizing that multiple enrollments for the same course (many-to-one) do not increase the row count for a single `Course` record; the outer query only counts the course once if at least one enrollment exists.
+5. **Join vs. Exists Distinction**: Avoiding the common trap of thinking this acts like an `INNER JOIN` (which would produce a row for every enrollment) rather than a semi-join.
+6. **Data Counting Accuracy**: Correctly scanning the provided table instances to count unique `CourseNo` values present in the `Enrol` table that also exist in `Course`.
+
+COUNT: 6
+
+0.55

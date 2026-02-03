@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Recall of definition: Definition of a Candidate Key (CK) (must be both a superkey and minimal).
+2. Functional Dependency (FD) syntax: Interpreting A→B and AB→C.
+3. Logical computation: Computing the attribute closure of A ($A^+$).
+4. Procedural step: Determining if $A^+$ includes all attributes in $R$ ($A \to B$ is given, so $\{A,B\}$ is reached, but $AB \to C$ is also satisfied, so $\{A,B,C\}$ is reached).
+5. Evaluation: Checking the condition "Is A a superkey?" (Yes).
+6. Distinguishing concepts: Confirming minimality (since A is a single attribute, it is inherently minimal if it is a superkey).
+7. Evaluation: Synthesizing the steps to conclude the statement is True.
+
+ELEMENT COUNT: 7
+
+0.72

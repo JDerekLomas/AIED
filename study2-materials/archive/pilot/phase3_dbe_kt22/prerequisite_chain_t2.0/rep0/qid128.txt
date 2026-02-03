@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Definition of a Candidate Key (CK):** Understanding that a CK must be a superkey (uniquely identify all attributes) and must be minimal (no proper subset is a superkey).
+2. **Attribute Closure Algorithm:** Ability to correctly compute $X^+$ for a given set of attributes $X$ using the provided functional dependencies $\Sigma$.
+3. **Identification of "Core" Attributes:** Recognizing that attributes which never appear on the right-hand side (RHS) of any dependency must be part of every candidate key.
+4. **Distinguishing RHS vs LHS:** Correctly identifying that attribute $C$ does not appear on the RHS of any FD in $\Sigma$, implying no other attribute(s) can determine it.
+5. **Logic and Universal Quantification:** Correctly interpreting "must be part of each CK" and verifying if there are any valid CKs that exclude $C$ (in this case, impossible).
+6. **Handling Extraneous Information:** Filtering out the fact that $A, B,$ and $D$ are involved in cycles ($A \to B, B \to A$) and correctly focusing on the "source" attribute $C$.
+
+COUNT: 6
+
+0.75

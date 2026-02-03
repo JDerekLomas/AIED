@@ -1,0 +1,15 @@
+ELEMENTS:
+1. Ownership rules (Implicit permission)
+2. SQL syntax for GRANT...WITH GRANT OPTION
+3. SQL syntax for REVOKE...CASCADE
+4. Hierarchy of permissions (Linda -> Amy -> Peter)
+5. Distinguishing between revoking a specific privilege (SELECT) vs. a meta-privilege (GRANT OPTION)
+6. Propagation logic of the CASCADE keyword in the context of GRANT OPTION vs. standard privilege
+7. Working memory: Tracking the state of Amy's permissions after step 3
+8. Working memory: Tracking the state of Peter's permissions after step 3 (dependency on Amy's state)
+
+ELEMENT COUNT: 8
+
+Many students erroneously assume that because the CASCADE keyword is used, it revokes the underlying SELECT privilege or everything associated with Amy’s grant to Peter. They often fail to distinguish that revoking the *right to grant* (GRANT OPTION) does not necessarily invalidate the *privilege itself* (SELECT) or existing grants already made while the option was valid, depending on specific SQL dialect interpretations taught in class (e.g., standard SQL vs. specific DBMS behavior). This is a high-interactivity problem where one logical error in the sequence leads to an incorrect choice.
+
+0.38

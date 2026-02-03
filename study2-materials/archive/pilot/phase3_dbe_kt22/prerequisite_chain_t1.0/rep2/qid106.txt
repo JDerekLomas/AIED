@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Filtering Noise**: The ability to isolate the specific sentence "Each trainer has one or more specialities" from a dense paragraph containing irrelevant information about technicians, equipment, and classes.
+2. **Cardinality Identification**: Recognizing that "one or more" implies a multi-valued property for a single instance of a trainer.
+3. **Entity vs. Attribute Distinction**: Understanding that "speciality" is described here as a property/descriptor of a trainer rather than an object with its own independent properties (which would favor an Entity Type).
+4. **ER Modeling Notation (Attributes)**: Knowing the definition of a "multi-valued attribute" and how it differs from a simple attribute (which holds only one value).
+5. **Evaluating Design "Best Practice"**: Distinguishing between what is *possible* (modeling it as a weak entity or separate entity) versus the "best" or most direct representation based on the specific prompt's phrasing.
+6. **Technical Terminology**: Understanding the difference between "Entity" (an instance) and "Entity Type" (the set/template), though these are often used interchangeably by students.
+7. **Rule Application**: Applying the rule that multi-valued attributes are the standard way to model "one or more" descriptors in an initial conceptual ER diagram before normalization.
+
+COUNT: 7
+
+0.55

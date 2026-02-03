@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Schema inference**: Recognizing that course enrollment data typically resides in an associative table (Enrol) rather than an entity table (Student).
+2. **Aggregates and Grouping logic**: Understanding that `COUNT(*)` counts rows within groups and requires grouping by the non-aggregated column in the SELECT clause (`CourseNo`).
+3. **Column/Group Dependency**: Distinguishing between grouping by the entity being counted (Student) vs the entity being categorized (Course).
+4. **Filtering Syntax**: Recognizing the correct placement and function of the `WHERE` clause prior to grouping.
+5. **SQL Keywords**: Knowledge of `SELECT`, `FROM`, `WHERE`, and `GROUP BY` execution order.
+6. **Mental Execution/Debugging**: Eliminating B, C, and D by identifying logical or relational errors (e.g., Student table likely lacks a Year or CourseNo column in standard normalization).
+
+COUNT: 6
+
+0.65

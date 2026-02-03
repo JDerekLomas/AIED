@@ -1,0 +1,15 @@
+In order to answer this question correctly, a student must simultaneously process several discrete elements. While the SQL statement appears simple, the lack of provided table data (the "Study" table contents) introduces a critical cognitive burden: the student must realize that the answer depends entirely on specific data that is not present in the prompt.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT` statement and the `WHERE` clause.
+2.  **Function Application:** Understanding that `lower()` converts a string to lowercase.
+3.  **Logical Condition/Comparison:** Evaluating the equivalence between a transformed column value and the string literal `'tom'`.
+4.  **Literal Comparison Logic:** Realizing that the comparison `'tom' = 'tom'` is true, but requires an underlying dataset to yield a row count.
+5.  **Data Constraint (Missing Information):** Recognizing that the number of rows is dependent on the cardinality of the source table and the specific distribution of data (i.e., identifying that "0" is the only logical choice if the table is empty, or that the question is impossible to answer without the data, leading to a "distractor" evaluation).
+6.  **Case Sensitivity Knowledge:** Distinguishing how `lower()` affects strings like 'Tom', 'TOM', or 'tom'.
+
+**ELEMENT COUNT: 6**
+
+Given the context of a diverse South African undergraduate cohort, students with lower prior exposure may guess based on the "uniqueness" of a name (C) or follow a "trick question" intuition (D) if they realize no table data was provided. Without the actual data table provided in your prompt, strong students will be confused, while weaker students will guess randomly.
+
+0.25

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recalling the ACID properties (Atomicity, Consistency, Isolation, Durability) by name.
+2. Understanding the specific function of the Transaction Manager component in a DBMS architecture.
+3. Knowledge of Write-Ahead Logging (WAL) and the recovery subsystem's role.
+4. Distinguishing "Consistency" (often conflated with Integrity) from the state-based properties managed via logging.
+5. Understanding that Isolation is primarily enforced through concurrency control mechanisms (like Locks or Timestamps) rather than logging.
+6. Identifying that logging provides the "undo" information for aborted transactions (Atomicity) and the "redo" information for committed transactions after a crash (Durability).
+7. Avoiding the "Integrity" distractor, which relates to schema constraints rather than transaction logs.
+
+COUNT: 7
+
+0.55

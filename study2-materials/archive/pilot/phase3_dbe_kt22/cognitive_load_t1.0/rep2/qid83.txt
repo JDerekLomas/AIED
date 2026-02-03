@@ -1,0 +1,18 @@
+To evaluate this question, we must consider the schema provided (implied by the query) and the cognitive load required to process a correlated subquery.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT *` and a nested subquery.
+2.  **Table Relationships:** Identifying the join/linkage between `Enrol` (outer) and `Course` (inner) via the `CourseNo` foreign key.
+3.  **Definition Recall (`EXISTS`):** Recalling that `EXISTS` returns true if the subquery returns at least one row, regardless of the columns selected.
+4.  **Logical Evaluation (Correlation):** Understanding that the subquery is executed for *each* row of the outer table (`e.CourseNo`).
+5.  **Relational Integrity/Constraints:** Realizing that the query essentially performs a semi-join, filtering out enrollments for courses that do not exist in the `Course` table (referential integrity check).
+6.  **Data Processing/Counting:** Iterating through the provided data rows in the `Enrol` table and checking for matches in the `Course` table to reach a final count.
+7.  **Distinction (Inner Join vs. EXISTS):** Differentiating how `EXISTS` handles duplicates or nulls compared to a standard Join (though they result in the same count here if integrity holds).
+
+**ELEMENT COUNT: 7**
+
+**RATIONALE:**
+In a South African undergraduate context, students often struggle with correlated subqueries because they require "looping" logic rather than set-based logic. While the query is effectively a simple filter, students often overcomplicate `EXISTS`, thinking it behaves like a `COUNT` or a `JOIN` that might multiply rows. Those with weak backgrounds often fail to map the `e.CourseNo` from the outer loop to the inner loop correctly. However, since the query essentially asks "How many valid enrollments are there?", a fair portion of students will intuit the answer if the data set is small and the referential integrity is clear.
+
+**Your estimate:**
+0.65

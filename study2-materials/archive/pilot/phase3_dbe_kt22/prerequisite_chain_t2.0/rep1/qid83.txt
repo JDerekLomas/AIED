@@ -1,0 +1,16 @@
+To accurately answer this question, a student must navigate several conceptual and procedural hurdles. Notably, since the actual data (the rows in the `Enrol` and `Course` tables) was not provided in your prompt, I am assuming the students have a provided schema and sample data set typical of a standard textbook exercise.
+
+**PREREQUISITES:**
+1.  **Reading a Schema:** Identifying that `Enrol` and `Course` are linked via `CourseNo` (Foreign Key relationship).
+2.  **Correlated Subquery Logic:** Understanding that the `EXISTS` clause executes for every row in the outer table (`Enrol`).
+3.  **Predicate Evaluation:** Recognizing that `EXISTS` returns TRUE if the subquery finds at least one matching row and FALSE otherwise.
+4.  **Referential Integrity Awareness:** Differentiating between the total number of enrollments and the subset of enrollments that have a valid corresponding course (and identifying if any `CourseNo` in `Enrol` is NULL or non-existent in `Course`).
+5.  **SQL vs. English Interpretation:** Avoiding the common mistake of thinking `EXISTS` functions like a `COUNT` or a `JOIN` that might multiply rows (it acts as a filter on the outer table).
+6.  **Manual Trace/Counting:** Correctness in scanning the provided data rows and manually incrementing a counter without clerical error.
+7.  **Distinguishing SELECT * in EXISTS:** Understanding that the `*` inside the `EXISTS` subquery is a convention and does not return columns from `Course` to the final output.
+
+**COUNT: 7**
+
+While this is a fundamental concept, students with minimal prior exposure often struggle with the "looping" logic of correlated subqueries. They frequently confuse `EXISTS` with an `INNER JOIN`, which—though often producing the same row count—requires a different mental model. Given the diversity of the cohort described:
+
+0.65

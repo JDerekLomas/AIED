@@ -1,0 +1,17 @@
+As your instructor, I have evaluated this question based on Cognitive Load Theory, specifically focusing on element interactivity. While the prompt is a dense "word problem" (high transient information load), the actual cognitive task required to answer the specific question asked is narrower.
+
+**ELEMENTS:**
+1.  **Requirement Filtering:** Distinguishing between relevant data (trainers/classes) and a large volume of irrelevant distractors (technicians, equipment, administrators).
+2.  **Definition Recall (Constraint):** Recalling the specific definition of "Total" vs. "Partial" participation in ER modeling.
+3.  **Entity Identification:** Identifying the specific entities involved in the "instruct" relationship (*Trainer* and *Fitness Class*).
+4.  **Logical Mapping (Directionality):** Recognizing that the question asks for the participation of "fitness class" in the relationship, not "trainer".
+5.  **Fact Extraction:** Locating the specific rule in the text: "Each fitness class is... instructed by only one trainer."
+6.  **Cardinality-Participation Translation:** Interpreting "Each [Class] is [instructed]" as a mandatory requirement (minimum cardinality = 1), which maps to "Total" participation.
+
+**ELEMENT COUNT: 6**
+
+**INSTRUCTOR'S NOTES:**
+The difficulty here is not the complexity of the logic, but the **noise-to-signal ratio**. In a South African undergraduate context, where many students are English Second Language (ESL) speakers, the dense paragraph format acts as a barrier. Students with high prior exposure will jump straight to the last sentence and scan for keywords, while novices will attempt to build a mental model of the entire schema (including associate members and equipment), likely overloading their working memory before they even reach the core question.
+
+Your estimate:
+0.65

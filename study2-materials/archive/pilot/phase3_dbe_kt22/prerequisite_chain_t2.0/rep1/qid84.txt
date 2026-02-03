@@ -1,0 +1,14 @@
+To accurately answer this question, a student must navigate several conceptual and technical hurdles.
+
+**PREREQUISITES:**
+1.  **Reading Schema Diagrams/Data Instances:** The student must correctly identify and parse the sample data for the `Course` and `Enrol` tables (implied as provided in the context of this specific problem).
+2.  **Understanding the `SELECT *` scope:** Recognizing that the result count is based on rows from the `Course` table, not the `Enrol` table.
+3.  **Core Subquery Logic:** Understanding that a subquery is evaluated in the context of the outer query.
+4.  **`EXISTS` Semantics:** Knowing that `EXISTS` returns true if the subquery returns *at least one* row, regardless of how many matches exist in the subquery table.
+5.  **Correlated Subquery Mechanism:** Recognizing the link `c.CourseNo = e.CourseNo` and realizing the query iterates through `Course`, checking for presence in `Enrol`.
+6.  **Set vs. Multiset Distinction:** Understanding that even if a `CourseNo` appears 20 times in the `Enrol` table (multiple students enrolled), it only satisfies the `EXISTS` condition once for that specific `Course` row.
+7.  **Data Matching/Counting:** Accurately performing the visual "join" or lookup between the two tables provided in the exam paper without a "skipping" error or misreading an ID.
+
+**COUNT:** 7
+
+0.55

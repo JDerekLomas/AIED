@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **SQL Syntax Recognition**: Identifying the purpose of `SELECT *` and `FROM`.
+2. **Join Logic**: Recalling the definition of an `INNER JOIN` (matching rows only).
+3. **Table Relationships**: Identifying the Primary Key/Foreign Key relationship between `Course` and `Enrol`.
+4. **Join Condition Evaluation**: Processing the equality constraint `Course.CourseNo = Enrol.CourseNo`.
+5. **Data Set Analysis**: Counting the rows in the `Enrol` table (as the "many" side of the relationship).
+6. **Mental Execution**: Simulating the mapping of each `Enrol` record to exactly one `Course` record.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

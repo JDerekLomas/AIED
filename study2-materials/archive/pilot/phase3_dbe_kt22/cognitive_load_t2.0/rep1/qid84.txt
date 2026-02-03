@@ -1,0 +1,16 @@
+To accurately answer this question, a student must integrate multiple cognitive components simultaneously. Given the context of a South African undergraduate classroom with mixed backgrounds, the "EXISTS" clause is frequently a bottleneck as it requires a shift from linear to set-based logical evaluation.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Understanding the structure of subqueries and the specific behavior of the `EXISTS` predicate (returning a boolean, not data).
+2.  **Table Relationships:** Identifying the Foreign Key relationship between `Course` and `Enrol` via `CourseNo`.
+3.  **Correlated Subquery Logic:** The student must hold the outer row (`c.CourseNo`) in memory while evaluating the inner query’s condition.
+4.  **Logical Set Identification:** Determining that `EXISTS` performs a semi-join (finding unique courses that appear *at least once* in the enrollment table).
+5.  **Data Set Inspection (Implicit):** Since the options are specific numbers (11, 7, 4, 3), the student must mentally or physically scan the provided data instances (which are implied to be part of the prompt's context) to count distinct matching keys.
+6.  **Constraint Distinction:** Distinguishing between an `INNER JOIN` (which might produce many rows if a course has multiple students) and `EXISTS` (which preserves the cardinality of the `Course` table).
+
+**ELEMENT COUNT: 6**
+
+In a typical South African CS2 or CS3 cohort, many students struggle with the distinction between "total records in a join" versus "filtered records via a subquery." Without the actual tables visible here, students often guess based on "how many courses have students." If the data set is moderately sized, about half the class typically fails to distinguish between a semi-join and a full join.
+
+**Your estimate:**
+0.55

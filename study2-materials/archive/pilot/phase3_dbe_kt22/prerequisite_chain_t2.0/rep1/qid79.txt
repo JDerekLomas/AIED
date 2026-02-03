@@ -1,0 +1,13 @@
+To evaluate this question, we must assume the students are provided with an associated schema and dataset (presumably showing a `Course` table and an `Enrol` table with specific records). Based on the nature of this standard introductory database problem, the prerequisites are:
+
+PREREQUISITES:
+1.  **Reading Schema Diagrams**: Identifying the Relationship between `Course` and `Enrol` (understanding that `CourseNo` is the joining key).
+2.  **Understanding Join Logic**: Knowing that an `INNER JOIN` only includes rows where the join condition matches in both tables.
+3.  **Data Set Analysis**: Manually counting records in the "many" side of the relationship (`Enrol`) that have a matching value in the "one" side (`Course`).
+4.  **Handling Nulls/Mismatches**: Identifying if any `Enrol` records have `CourseNo` values that do not exist in the `Course` table (and excluding them).
+5.  **Distinguishing Join Types**: Not confusing the `INNER JOIN` result count with a `CROSS JOIN` (Cartesian product) or a `LEFT JOIN` count.
+6.  **Arithmetic/Counting**: Accurately summing the occurrences without a "fencepost" error or skipping a line.
+
+COUNT: 6
+
+0.65

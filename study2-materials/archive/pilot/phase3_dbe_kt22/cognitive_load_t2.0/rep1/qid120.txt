@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Definition recall (FD equivalence: $\Sigma_1$ must imply all of $\Sigma_2$, and vice-versa).
+2. Distinction between similar concepts (equivalence vs. redundancy or logical implication).
+3. Applying Armstrong's Axioms / Transitivity (specifically $A \to B$ and $B$ combined with $A$ to see if $AB \to C$ simplifies).
+4. Logic/inference step 1 (Check if $\Sigma_2 \vDash \Sigma_1$): Recognize $A \to C$ and $A \to B$ together implies $A \to BC$, which implies $AB \to C$.
+5. Logic/inference step 2 (Check if $\Sigma_1 \vDash \Sigma_2$): Recognizing $A \to B$ is in both; determining if $\{A\}^+$ under $\Sigma_1$ reaches $C$.
+6. Property evaluation: $A \to B$ and $AB \to C \implies A \to C$ (Pseudotransitivity rule).
+7. Comparison/Verification: Synthesizing the results of both checks to confirm equality.
+
+ELEMENT COUNT: 7
+
+0.55

@@ -1,0 +1,14 @@
+To accurately answer this question, a student must navigate several conceptual and technical hurdles. In the context of a diverse South African undergraduate cohort, the "EXISTS" clause and the correlation between the outer and inner queries are the most frequent points of failure.
+
+**PREREQUISITES:**
+1.  **Reading Schema/Data Tables:** Ability to correctly parse the provided table instances for `Enrol` and `Course` (assuming the table data was provided in the context of the exam).
+2.  **Understanding SELECT *:** Knowing that the result set size is determined by the number of rows matching the criteria, not the number of columns.
+3.  **Core Understanding of EXISTS:** Recognizing that `EXISTS` returns a Boolean (True/False) based on whether the subquery returns *any* rows.
+4.  **Correlated Subquery Logic:** Understanding that the subquery is evaluated for *each* row in the outer table (`Enrol`) using its specific `CourseNo`.
+5.  **Referential Integrity / Join Logic:** Identifying that this specific query is effectively a filter for rows in `Enrol` that have a matching primary key in `Course` (essentially a semi-join).
+6.  **Handling Duplicate Foreign Keys:** Realizing that if multiple rows in `Enrol` refer to the same `CourseNo`, all those rows will be included in the result (this is where students often confuse `EXISTS` with a unique count).
+7.  **Manual Tracing/Counting:** The discipline to iterate through the `Enrol` table row-by-row and check the existence condition without making a counting error.
+
+**COUNT: 7**
+
+0.55

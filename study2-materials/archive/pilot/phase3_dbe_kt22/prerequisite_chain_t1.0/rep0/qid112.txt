@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the notation for a relational schema $R$ and a set of functional dependencies $\Sigma$.
+2. Understanding the semantic entailment symbol ($\vDash$) as "logically implies."
+3. Knowledge of Armstrong's Axioms, specifically the Transitive Rule (If $X \to Y$ and $Y \to Z$, then $X \to Z$).
+4. Ability to perform an attribute closure algorithm (computing $A^+$) to verify if $C$ is in the closure of $A$.
+5. Ability to ignore "noise" or irrelevant information (the dependency $D \to ABC$ is not needed for this specific inference).
+6. Distinguishing between a direct dependency and an inferred dependency.
+7. Correct logical evaluation (identifying that $A \to B$ and $B \to C$ satisfy the conditions for $A \to C$).
+
+COUNT: 7
+
+0.85

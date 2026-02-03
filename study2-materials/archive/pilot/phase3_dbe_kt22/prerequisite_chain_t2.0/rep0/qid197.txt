@@ -1,0 +1,12 @@
+PREREQUISITES:
+*   Understanding the definition of a "covert channel" specifically within the context of multi-level security and access control (differentiating it from generic "encryption" or "secret communication").
+*   Distinguishing between intended data paths (legitimate communication channels) and unintended data paths (exploiting system mechanisms not meant for data transfer, such as timing or storage side channels).
+*   Eliminating Option B: Recognizing that the "classification" of data (secret/top secret) is irrelevant to the definition of the *channel type* itself.
+*   Eliminating Option C: Understanding that "trusted" usually implies an explicit, authorized path, which is the opposite of a covert one.
+*   Eliminating Option D: Recognizing that "security perimeters" (firewalls/network boundaries) do not define a covert channel, which can exist entirely within a single system's logic.
+*   Interpreting the phrase "not normally used for communication" as the key identifier for an unintended communication path.
+
+COUNT: 6
+
+Your estimate:
+0.65

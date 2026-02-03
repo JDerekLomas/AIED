@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. **Definition recall**: Criteria for what constitutes an "Entity Type" vs. an "Attribute" or "Relationship" in ER modeling.
+2. **Identification of candidates**: Evaluating "Fitness centre" (Singular organizational context/scope, not a set of instances).
+3. **Identification of candidates**: Evaluating "Fitness class" (Multivalued object with attributes: name, start date, end date, time slot).
+4. **Identification of candidates**: Evaluating "Trainers’ speciality" (Multivalued attribute or separate entity dependent on design pattern).
+5. **Identification of candidates**: Evaluating "Equipment ID" (Unique identifier/attribute).
+6. **Constraint processing**: Parsing the relationship rules (one-to-many/many-to-many) to see which noun functions as a primary object.
+7. **Mapping entities to instances**: Filtering out the single instance (Fitness centre) from the collection of instances.
+
+ELEMENT COUNT: 7
+
+Based on the varying ability levels of South African undergraduate students, many will struggle with the distinction between the system's boundary (the Fitness Centre) and an entity within that system, though "Fitness class" is a relatively intuitive answer.
+
+Your estimate:
+0.65

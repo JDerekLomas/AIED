@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Recall of Candidate Key (CK) definition (uniqueness and minimality).
+2. Recall of the Closure algorithm procedure (attribute closure).
+3. Logic of functional dependencies (interpreting A→B and AB→C).
+4. Computing A+ (Closure of A): Must hold A, then add B, then evaluate if {A,B} allows C.
+5. Evaluating if A+ contains all attributes in R {A,B,C}.
+6. Determining if other potential CKs exist (e.g., checking if {A} is minimal or if subsets of A work, though A is a singleton).
+7. Distinction between Superkeys and Candidate Keys to confirm if A is the "only" one.
+
+ELEMENT COUNT: 7
+
+0.65

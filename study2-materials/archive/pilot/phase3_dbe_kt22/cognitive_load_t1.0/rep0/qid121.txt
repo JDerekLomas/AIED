@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: The three criteria for a Minimal Cover (no redundant dependencies, no redundant attributes/canonical form, and equivalence of closures).
+2. SQL/Relational notation: Understanding set notation for functional dependencies ($\Sigma$).
+3. Logical evaluation (Attribute Closure): Calculating $A^+$ under $\Sigma_1$ to see if it derives $C$.
+4. Logical evaluation (Attribute Closure): Calculating $A^+$ and $B^+$ under $\Sigma_2$ to compare covers.
+5. Identifying Redundancy: Evaluating if $AB \to C$ in $\Sigma_1$ contains an extraneous attribute (since $A \to B$, $AB \to C$ simplifies to $A \to C$).
+6. Transitivity Logic: Recognizing that in $\Sigma_2$, $\{A \to B, B \to C\}$ implies $A \to C$ via transitivity.
+7. Equivalence check: Comparing the total functional impact of $\Sigma_1$ ($\{A \to B, A \to C\}$) against $\Sigma_2$ ($\{A \to B, B \to C\}$) to determine if they are equivalent sets.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (CK) definition and the process to find all keys.
+2. Definition recall: 3rd Normal Form (3NF) requirements (non-prime attributes must not be transitively dependent on a key).
+3. Definition recall: Boyce-Codd Normal Form (BCNF) requirements (every determinant must be a superkey).
+4. Procedural step: Computing attribute closures (e.g., finding {AB}+ and {BC}+).
+5. Procedural step: Identifying prime vs. non-prime attributes (A, B, C are prime; D is non-prime).
+6. Logical evaluation: Testing the first dependency (AB → CD) against BCNF/3NF rules.
+7. Logical evaluation: Testing the second dependency (BC → A) against BCNF/3NF rules.
+8. Distinguishing between 3NF and BCNF: Recognizing that if a determinant is not a superkey, the dependency may still satisfy 3NF if the dependent is a prime attribute.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.35

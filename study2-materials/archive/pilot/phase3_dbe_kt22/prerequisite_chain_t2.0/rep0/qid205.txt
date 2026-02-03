@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Vocabulary recognition: Identifying the specific technical definitions of the "Three Read Phenomena" (Dirty, Unrepeatable, and Phantom).
+2. Distinguishing granularity: Understanding the difference between a change to an *existing* row (Unrepeatable) vs. the addition of *new* rows (Phantom).
+3. Mapping scenarios: Connecting the specific phrase "inserted into a table" to the concept of a range or set-based change.
+4. Concept exclusion: Knowing that a "Dirty read" involves uncommitted data and a "Lost update" involves write-write conflicts.
+5. Understanding transaction isolation context: Recognizing that these are concurrency anomalies addressed by isolation levels.
+
+COUNT: 5
+
+Your estimate:
+0.65

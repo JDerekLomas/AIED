@@ -1,0 +1,14 @@
+To assess this question for a South African undergraduate cohort, we must consider that the table instance is missing from the prompt. For a student to answer this correctly, they must not only understand the syntax but also correctly interpret an implicit or previously provided dataset.
+
+**PREREQUISITES:**
+1.  **Reading Schema/Data:** Ability to identify the `Study` table and correctly filter rows by `StudentID` (102 vs 103).
+2.  **Relational Algebra Logic:** Understanding that `EXCEPT` performs a set difference ($A - B$).
+3.  **Distinct Values Requirement:** Knowing that the `EXCEPT` operator (by default in standard SQL) returns *distinct* values, removing duplicates from the result set.
+4.  **Directionality:** Realizing that rows in the second set (103) subtract from the first set (102), but rows unique to the second set do not appear in the result.
+5.  **Handling Nulls/Duplicates:** Correctly processing if a `CourseNo` appears multiple times for one student.
+6.  **Arithmetic/Counting:** Final tally of the remaining unique `CourseNo` entries for Student 102.
+
+**COUNT:** 6
+
+**Your estimate:**
+0.55

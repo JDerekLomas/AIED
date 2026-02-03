@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Reading Comprehension (English as Medium of Instruction):** Ability to parse a dense narrative description and extract structural relationships from a business case.
+2. **Distinguishing Entities from Attributes:** Understanding that an Entity is an object/concept of interest (the "noun") while an Attribute is a property that describes that entity.
+3. **Conceptualizing Schema vs. Instances:** Recognizing that "Employee ID" is a data point belonging to an entity, whereas "Associate member" or "Fitness class" are sets of records (entities) with their own internal properties.
+4. **Identifying Primary Keys:** Recognizing "unique IDs" in the text as the defining characteristic of an attribute used for identification.
+5. **Handling "Red Herrings":** The ability to ignore complex business rules (e.g., date constraints, maintenance frequency, category classifications) that are irrelevant to the specific task of identifying a single attribute.
+6. **Elimination Logic:** Identifying that A, C, and D are described as having their own sub-properties (e.g., Associate member has a name and number; Fitness class has a name and dates), thus qualifying them as Entities rather than simple Attributes.
+
+COUNT: 6
+
+0.75

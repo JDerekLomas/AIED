@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Candidate Key Derivation**: Identifying the closure of attributes (specifically finding that {A, B} and {B, C} are keys) based on functional dependencies.
+2. **Prime vs. Non-prime Distinction**: Categorizing attributes into prime {A, B, C} and non-prime {D} based on discovered keys.
+3. **3NF Definition/Conditions**: Evaluating if every non-trivial FD $X \rightarrow Y$ satisfies: $X$ is a superkey OR $Y$ is a prime attribute.
+4. **BCNF Definition/Conditions**: Evaluating if every non-trivial FD $X \rightarrow Y$ satisfies: $X$ is a superkey.
+5. **Logic Mapping**: Simultaneous evaluation of $AB \rightarrow CD$ and $BC \rightarrow A$ against both 3NF and BCNF definitions to determine which Normal Form is violated or preserved.
+6. **Elimination Logic**: Comparing results against the four multiple-choice combinations.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.35

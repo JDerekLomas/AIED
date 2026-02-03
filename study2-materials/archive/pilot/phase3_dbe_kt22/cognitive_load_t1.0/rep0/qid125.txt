@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (uniqueness and minimality).
+2. Definition recall: Closure of an attribute set.
+3. Functional Dependency (FD) syntax: Interpretation of A→B and AB→C.
+4. Logical evaluation: Computing the closure of {A} using Armstrong’s Axioms/Closure algorithm (A+=ABC).
+5. Constraint satisfaction: Verifying if {A} is a superkey (it contains all attributes).
+6. Constraint satisfaction: Verifying if {A} is minimal (it has no proper subsets that are keys).
+7. Distinction: Distinguishing between a "Key" and the "Only Key" (checking if other combinations like {B} or {C} could be keys).
+8. Logical evaluation: Recognizing that if A is a key, AB cannot be a *minimal* key, but evaluating if other attributes could form a key independently.
+
+ELEMENT_COUNT: 8
+
+Your estimate:
+0.65

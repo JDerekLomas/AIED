@@ -1,0 +1,10 @@
+ELEMENTS:
+1. Definition recall: The specific definition of "dirty read" (reading uncommitted data).
+2. Definition recall: The specific definition of "unrepeatable read" (data changing between two reads in the same transaction).
+3. Definition recall: The specific definition of "phantom read" (new rows appearing between two reads).
+4. Relational mapping: Associating the presence/absence of these three phenomena with the four standard SQL isolation levels.
+5. Constraint satisfaction: Simultaneously filtering the options to find the level that satisfies a "No" for dirty reads AND a "Yes" for the other two.
+
+ELEMENT COUNT: 5
+
+0.65

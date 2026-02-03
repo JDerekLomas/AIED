@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Understanding the notation of a relation $R$ and a set of Functional Dependencies (FDs) $\Sigma$.
+2. Understanding the logical entailment symbol ($\models$) as it applies to FDs.
+3. Knowing the definition of the closure of a set of attributes ($X^+$).
+4. Ability to execute the attribute closure algorithm: starting with $D$, iteratively adding $A$, $B$, and $C$ based on the given FDs.
+5. Multistep reasoning/chaining: recognizing that $D \to ABC$ implies $D \to A$ and $D \to B$, and $B \to C$ confirms the set.
+6. Understanding Decomposition/Projective rules: knowing that $D \to AC$ is true if $\{A, C\} \subseteq D^+$.
+7. Distinguishing between a single step in the algorithm and the final set membership.
+
+COUNT: 7
+
+0.65

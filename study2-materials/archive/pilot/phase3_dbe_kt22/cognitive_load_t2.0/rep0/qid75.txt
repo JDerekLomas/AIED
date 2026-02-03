@@ -1,0 +1,18 @@
+To evaluate this question, we must look at the "hidden" elements. Since the student is asked to determine a specific number of rows, they are not just recalling definitions; they are simulating a query execution engine in their heads. 
+
+Note: This analysis assumes the students are provided with an instance of the `Study` table. Without a specific dataset provided in the prompt, the student cannot reach a numerical answer, but the interactivity remains high because of the logical dependencies.
+
+**ELEMENTS:**
+1.  **Syntax Identification:** Recognising the components of an aggregate query.
+2.  **Grouping Logic:** Mentally partitioning the `Study` table into subsets based on `CourseNo`.
+3.  **Aggregation (COUNT):** Calculating the frequency of occurrences within each specific subset.
+4.  **HAVING Clause Logic:** Distinguishing between a row-level filter (`WHERE`) and a group-level filter (`HAVING`).
+5.  **Conditional Evaluation:** Applying the predicate `> 1` to the results of the count.
+6.  **Projection/Row Count:** Mapping the surviving groups to the final result set to determine the final cardinality.
+
+**ELEMENT COUNT: 6**
+
+In the context of a diverse South African undergraduate cohort, the "HAVING" clause is a notorious stumbling block. Students often confuse it with "WHERE" or struggle to track multiple groups simultaneously if the table contains more than a few rows.
+
+**Your estimate:**
+0.65

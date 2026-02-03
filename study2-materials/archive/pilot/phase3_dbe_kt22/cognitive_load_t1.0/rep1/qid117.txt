@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition of logical entailment ($\Sigma_1 \models \Sigma_2$): Understanding that all dependencies in $\Sigma_2$ must be derivable from $\Sigma_1$.
+2. Recall of Armstrong’s Axioms or the Transitivity Rule: Specifically, if $A \to B$ and $B \to C$, then $A \to C$.
+3. Evaluation of $A \to C$ against $\Sigma_1$: Applying transitivity to $A \to B$ and $B \to C$ in $\Sigma_1$ to see if it produces $A \to C$.
+4. Evaluation of $B \to C$ against $\Sigma_1$: Checking if $B \to C$ exists directly in or is derivable from $\Sigma_1$.
+5. Attribute closure procedure: Mentally computing $A^+$ and $B^+$ under $\Sigma_1$ to verify the dependencies in $\Sigma_2$.
+6. Distinguishing directionality: Ensuring the entailment is checked from $\Sigma_1$ to $\Sigma_2$ and not the reverse (equivalence vs. entailment).
+
+ELEMENT COUNT: 6
+
+0.65

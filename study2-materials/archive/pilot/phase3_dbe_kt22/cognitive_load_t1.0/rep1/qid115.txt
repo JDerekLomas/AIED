@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Definition of logical implication (entailment) in functional dependencies (Σ ⊨ X→Y).
+2. Armstrong’s Axioms or the attribute closure algorithm ($D^+$).
+3. Initialization of the attribute set (start with {D}).
+4. Application of rule $D \rightarrow ABC$ (expanding set to {D, A, B, C}).
+5. Iterative check of remaining dependencies (though closure is already complete here).
+6. Subset evaluation (checking if {A, C} $\subseteq$ {D, A, B, C}).
+7. Mapping the result of the closure set to the True/False boolean choice.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

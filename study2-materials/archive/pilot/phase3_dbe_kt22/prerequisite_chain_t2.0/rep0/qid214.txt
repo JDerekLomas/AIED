@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the syntax and logical sequence of SQL transaction control statements (BEGIN, COMMIT, ROLLBACK).
+2. Knowing the functional definition of a COMMIT (permanently saving changes to the database).
+3. Understanding the "point of no return" principle: that a transaction ends once a COMMIT is issued.
+4. Distinguishing between an active transaction and a completed transaction.
+5. Identifying that a ROLLBACK only affects uncommitted changes.
+6. Multi-step reasoning: processing the chronological order of commands to see that COMMIT precedes ROLLBACK.
+7. Overcoming the semantic distractor: in common English, "rollback" implies undoing an action regardless of state, which differs from formal DBMS logic.
+
+COUNT: 7
+
+0.55

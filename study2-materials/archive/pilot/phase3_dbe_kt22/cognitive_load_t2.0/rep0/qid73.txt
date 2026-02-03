@@ -1,0 +1,16 @@
+To evaluate this question from the perspective of Cognitive Load Theory, we must consider both the specific SQL concepts and the retrieval of data from the (implied) table structure.
+
+**ELEMENTS:**
+1.  **SQL Keyword Recognition**: Recalling the function of `SELECT`, `COUNT`, and `MIN`.
+2.  **Aggregation Logic (NULL handling)**: Understanding that `COUNT(column)` specifically counts non-null entries, whereas `COUNT(*)` counts rows.
+3.  **Schema Mapping**: Identifying the `units` column within the `Study` table.
+4.  **Sequential Data Processing**: Iterating through the rows of the table to maintain a running total for the count.
+5.  **Comparative Logic**: Evaluating each value in the `units` column against the current "minimum" to identify the lowest value.
+6.  **Syntactic Mapping**: Matching the internal results (count, min) to the correct comma-separated order required by the multiple-choice options.
+
+**ELEMENT COUNT: 6**
+
+In a South African undergraduate context, students often struggle with the distinction between counting all rows versus counting values in a specific column if the table contains nulls. However, this is a fundamental "Type 1" tracing problem. Provided the `Study` table was visible to the student (as implied by the question format), most students find aggregation more intuitive than joins or nested queries.
+
+**Your estimate:**
+0.72

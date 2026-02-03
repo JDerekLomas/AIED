@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding the Definition of a Weak Entity:** Knowing that a weak entity cannot be uniquely identified by its own attributes alone and must be identified through a relationship with an owner entity via a partial key (discriminator).
+2. **Entity vs. Attribute Distinction:** Recognizing that "Equipments' status" is a property (an attribute with fixed values) rather than a candidate for an entity type in this scenario (failing option A).
+3. **Identifying Uniqueness Constraints:** Interpreting the phrase "No two fitness classes have the same daily time slot" as a natural unique identifier, disqualifying "Fitness class" as weak (failing option B).
+4. **Multivalued Attribute Identification:** Identifying "speciality" as a multi-valued attribute belonging to "Trainer" rather than an entity dependent on a relationship for identity (failing option D).
+5. **Analyzing Identifying Relationships:** Recognizing the parent-child relationship between a "Member" and "Associate member."
+6. **Spotting Partial Keys (Discriminators):** Understanding that the associate number (1, 2, ...) is not globally unique and only becomes unique when combined with the parent Member's ID.
+7. **Ignoring Red Herrings:** Filtering out irrelevant details (e.g., landline phone numbers, equipment maintenance dates, administrator approval) to focus specifically on the structural identity of the objects.
+
+COUNT: 7
+
+0.55

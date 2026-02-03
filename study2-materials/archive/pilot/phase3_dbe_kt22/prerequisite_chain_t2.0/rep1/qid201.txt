@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Recalling the definitions and characteristics of the three specific concurrency phenomena (dirty reads, unrepeatable reads, and phantom reads).
+2. Knowledge of the four standard SQL transaction isolation levels (Read Uncommitted, Read Committed, Repeatable Read, and Serializable).
+3. Ability to map the hierarchy of isolation levels to the phenomena they prevent (the "matrix" of isolation).
+4. Distinguishing "Read Committed" from "Repeatable Read" (a frequent point of confusion where students mix up which one prevents unrepeatable reads).
+5. Accurate reading of the Boolean logic in the question (identifying a level that *prevents* phenomenon A but *permits* B and C).
+6. Recalling the default isolation behavior of common RDBMS (like PostgreSQL or SQL Server) often taught in labs, which aids in identifying "Read Committed" as the middle-ground standard.
+
+COUNT: 6
+
+0.65

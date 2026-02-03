@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Natural Language Processing (Information Extraction):** Ability to parse a dense narrative and distinguish between entities (objects), attributes (properties), and relationships (actions) within the South African context.
+2. **Entity vs. Attribute Distinction:** Recognizing that unique identifiers (like ID) are attributes of an entity, not the entity itself (eliminating D).
+3. **Multivalued Attribute Knowledge:** Understanding that a "speciality" is a property of a trainer, even if it can have multiple values (eliminating C).
+4. **Contextual Scope/Boundary Recognition:** Identifying that "Fitness centre" is the system boundary or a singleton context in this specific scenario, rather than a class of objects to be tracked within the database (eliminating A).
+5. **Entity Type Definition:** Knowing that an entity type represents a set of objects with shared properties and independent existence; "Fitness class" meets this as it has a name, dates, and slots.
+6. **Constraint vs. Entity Distinction:** Filtering out business rules (like "start date must be before end date") from the definition of the object itself.
+
+COUNT: 6
+
+0.65

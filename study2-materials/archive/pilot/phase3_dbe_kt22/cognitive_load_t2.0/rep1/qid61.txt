@@ -1,0 +1,14 @@
+As an instructor, I would evaluate this as a **low element interactivity** question. It primarily tests rote recognition and simple discrimination between similar-sounding keywords.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Distinguishing between the `DELETE` (DML) and `DROP` (DDL) operations.
+2.  **SQL Syntax Rules:** Recalling the specific keyword sequence required for the `DELETE` statement.
+3.  **Logical Discrimination:** Recognizing that "Delete Table" is an invalid syntactic hybrid.
+4.  **Constraint Identification:** Understanding the specific objective (removing *tuples* versus removing the *schema/relation structure*).
+
+**ELEMENT COUNT: 4**
+
+Given the South African context (where English is often an additional language for many students), the similarity between "Delete" and "Drop" can occasionally cause linguistic interference, but this is a fundamental concept taught in the first week of SQL. Students with prior programming experience will find this trivial; those with minimal exposure may briefly confuse `DROP` and `DELETE`, but the majority will have internalized this distinction through practical labs.
+
+**Your estimate:**
+0.82

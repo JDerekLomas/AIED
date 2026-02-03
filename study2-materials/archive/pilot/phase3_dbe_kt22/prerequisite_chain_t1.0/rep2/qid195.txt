@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recalling the specific security model (Bell-LaPadula) and its context (Confidentiality).
+2. Understanding the technical definition of a "Subject" (user/process) vs. an "Object" (data/file).
+3. Distinguishing between the "Simple Security Property" (Reading) and the "*-Property" (Writing).
+4. Mapping the direction of data flow: "retrieving information" implies a Read operation.
+5. Interpreting the hierarchical constraint: Moving from a Lower Level to a Higher Level.
+6. Eliminating "Read down" and "Write down" by applying the specific "No Read Up" (NRU) axiom.
+7. Overcoming potential confusion with the Biba Integrity Model, which uses the inverse rules.
+
+COUNT: 7
+
+0.65

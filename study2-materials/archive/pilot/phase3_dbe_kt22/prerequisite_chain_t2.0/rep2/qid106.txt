@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1.  **Reading Comprehension (Information Filtering):** Ability to ignore extensive distractor information (administrators, technicians, equipment, maintenance schedules) to isolate the specific relationship between "trainer" and "speciality".
+2.  **Entity Identification:** Identifying that "trainer" is a primary entity type in this scenario.
+3.  **Cardinality and Multiplicity Analysis:** Correctly identifying from the text that "Each trainer has one or more specialities", which signals a non-atomic (multi-valued) relationship.
+4.  **SQL/ER Modeling Mapping (Attribute Types):** Understanding the definition of a "multi-valued attribute" versus a "simple attribute".
+5.  **Weak Entity Differentiation:** Distinguishing between a "weak entity" (which requires its own attributes and a relationship) and a "multi-valued attribute" (which is the more standard, "best way" to model a simple list of descriptive strings like "weight gain").
+6.  **"Best Way" Heuristic:** Applying the principle of parsimony in conceptual modeling (ERDs) where a simple list of values for a single entity is most efficiently represented as a multi-valued attribute rather than creating a separate entity type unless that entity has its own specific attributes.
+
+COUNT: 6
+
+0.55

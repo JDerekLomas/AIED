@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding the definition of a Super Key (SK) (a set of attributes whose closure contains all attributes in R).
+2. Distinguishing between a Super Key and a Candidate Key (knowing that a SK does not have to be minimal).
+3. Ability to compute the transitive closure of an attribute set ($A^+$) using a given set of Functional Dependencies ($\Sigma$).
+4. Correct execution of the closure algorithm for $A$: 
+   - Step 1: $A \to A$ (reflexivity)
+   - Step 2: $A \to B$ (given), so $A \to AB$
+   - Step 3: $B \to C$ (given), so $A \to ABC$
+5. Identifying that the attribute $D$ is missing from the closure $A^+$ (since $D$ does not appear on the right-hand side of any FD, it must be in the key/starting set).
+6. Correctly concluding that because $A^+ = \{A, B, C\}$ and $D \notin A^+$, $A$ cannot be a Super Key.
+7. Logic processing: Mapping the result "False" to the multiple-choice option B.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,14 @@
+To provide an accurate count, I am assuming the students are provided with a standard schema diagram or sample tables (e.g., a `Course` table with 4–7 rows and an `Enrol` table with 12 rows).
+
+**PREREQUISITES:**
+1. **Schema Interpretation:** Ability to identify the Primary Key/Foreign Key relationship between `Course` and `Enrol` from a diagram or table instance.
+2. **Inner Join Mechanics:** Understanding that an `INNER JOIN` returns only the rows where the join condition is met (matching values in both tables).
+3. **Join Logic:** Recognizing that the number of rows in the result is determined by the number of matches in the "child" table (`Enrol`), not the "parent" table (`Course`).
+4. **Cardinality Awareness:** Identifying that this is a One-to-Many relationship; therefore, each enrollment links to exactly one course, meaning the result count equals the number of records in `Enrol`.
+5. **SQL Syntax Fluency:** Knowing that `SELECT *` retrieves all columns but does not filter the row count beyond the `JOIN` logic.
+6. **Distinguishing Join Types:** Not confusing `INNER JOIN` with a `CROSS JOIN` (which would result in $Rows_A \times Rows_B$) or a `LEFT JOIN` (which might include unmatched courses).
+7. **Data Literacy/Counting:** Correctly identifying the cardinality of the `Enrol` table from the provided data set (in this case, 12).
+
+**COUNT: 7**
+
+0.65

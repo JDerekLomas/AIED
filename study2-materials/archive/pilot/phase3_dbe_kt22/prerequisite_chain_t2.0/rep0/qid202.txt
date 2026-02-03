@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the technical definition of "correctness" in the specific context of database transaction management (concurrency control).
+2. Distinguishing between the ACID properties (General properties) and the formal criterion used to evaluate schedule execution (Serializability).
+3. Recognizing "Consistency" as a goal/requirement rather than the operational criterion for concurrency.
+4. Identifying "Atomicity" as a property of individual transactions (all-or-nothing) rather than a multi-transaction scheduling criterion.
+5. Overcoming the "All of the above" trap, which is an attractive distractor when students recognize multiple terms from the same chapter (ACID).
+6. Recalling the specific definition: A concurrent schedule is "correct" if it is equivalent to some serial execution of the same transactions.
+
+COUNT: 6
+
+0.35

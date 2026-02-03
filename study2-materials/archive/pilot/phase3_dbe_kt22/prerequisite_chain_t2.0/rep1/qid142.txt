@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1.  **Defining 3NF vs. BCNF**: Understanding the subtle difference in the formal definitions (specifically the "prime attribute" exception allowed in 3NF but not in BCNF).
+2.  **Understanding "Dependency-Preserving"**: Knowing that this means all original functional dependencies can be checked within the individual schemas of the decomposition without a join.
+3.  **Knowing the BCNF Trade-off**: Remembering the classic database theory result that while BCNF is "stronger" than 3NF, it is the level at which we sometimes must sacrifice dependency preservation to achieve the form.
+4.  **Recalling 3NF Synthesis Properties**: Knowing that the standard algorithm for 3NF (Synthesis Algorithm) is guaranteed to be both lossless and dependency-preserving.
+5.  **Distinguishing "Always" vs. "Cannot"**: Recognizing that BCNF *can* be dependency-preserving in many cases, but is not *guaranteed* to be, thereby eliminating A and C.
+6.  **Syntactic/Logic Processing**: Correctly identifying that Option B is the only universally true theoretical guarantee among the choices.
+
+COUNT: 6
+
+0.35

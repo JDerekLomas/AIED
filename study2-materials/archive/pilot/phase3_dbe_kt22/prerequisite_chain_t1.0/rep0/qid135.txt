@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency (FD) Notation**: Recognizing that $A \to BC$ means $A$ determines both $B$ and $C$.
+2. **Candidate Key Identification**: Calculating closures to determine that both $\{A\}$ and $\{BC\}$ are candidate keys.
+3. **Identifying Prime Attributes**: Recognizing that $A$, $B$, and $C$ are all prime attributes because they each belong to at least one candidate key.
+4. **Knowledge of BCNF Definition**: Understanding that for every non-trivial FD $X \to Y$, $X$ must be a superkey.
+5. **Applying BCNF Rule**: Identifying that in $BC \to A$, the determinant $\{B, C\}$ is a superkey (specifically a candidate key), so the relation satisfies BCNF.
+6. **Knowledge of 3NF Definition**: Understanding the "relaxed" rule where an FD is allowed if the determinant is a superkey OR the consequent consists only of prime attributes.
+7. **Applying 3NF Rule**: Recognizing that since BCNF is a stricter subset of 3NF, if it passes BCNF, it automatically passes 3NF (or verifying via prime attributes).
+8. **Logical Synthesis**: Combining the results to select the correct pair (3NF: Yes, BCNF: Yes).
+
+COUNT: 8
+
+0.55

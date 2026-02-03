@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall definition of a Candidate Key (CK): must be a superkey and minimal.
+2. Recall the property of an attribute closure ($X^+$).
+3. Recognize the "cyclic" nature of the Functional Dependencies (FDs) ($A \rightarrow B \rightarrow C \rightarrow A$).
+4. Procedure: Compute the closure of $A$ ($A^+ = \{A, B, C\}$) to verify it is a superkey.
+5. Procedure: Compute the closure of $B$ ($B^+ = \{B, C, A\}$) to check for alternative keys.
+6. Procedure: Compute the closure of $C$ ($C^+ = \{C, A, B\}$) to check for alternative keys.
+7. Logic: Compare the results of the closures to evaluate the truth of the word "only."
+8. Distinguish between a Primary Key (often unique) and Candidate Keys (multiple can exist).
+
+ELEMENT COUNT: 8
+
+0.65

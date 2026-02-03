@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **SQL syntax rules**: The structural requirement of the `SELECT`, `FROM`, `WHERE`, and `GROUP BY` clauses.
+2. **Table relationship/Schema mapping**: Determining whether course enrollment data resides in the `Enrol` table or the `Student` table.
+3. **Column/Attribute selection**: Identifying that `CourseNo` is the required output column.
+4. **Filtering logic**: Applying the `Year = 2019` constraint.
+5. **Aggregation logic**: Recognizing that `COUNT(*)` counts the rows per group.
+6. **Grouping constraint**: Understanding the functional dependency rule that the non-aggregated column in the `SELECT` list (`CourseNo`) must match the `GROUP BY` clause.
+7. **Distinction between similar concepts**: Differentiating between grouping by the entity being counted (`StudentID`) versus the category being listed (`CourseNo`).
+
+ELEMENT COUNT: 7
+
+0.65

@@ -1,0 +1,15 @@
+To assess this question, we must look at the specific table data provided in the typical context of this problem (usually involving a `Study` table where certain students are enrolled in both courses). Assuming a standard dataset where at least one student overlaps between COMP2400 and STAT2001:
+
+PREREQUISITES:
+1. **SQL SELECT syntax**: Understanding that the query retrieves specific column values based on a filter.
+2. **Set Theory (UNION vs UNION ALL)**: Knowing that the `UNION` operator automatically performs duplicate elimination (distinct results).
+3. **Relational Algebra application**: Mapping the "OR" logic of the UNION to the underlying data rows.
+4. **Data Inspection/Counting**: Accurately identifying which StudentIDs satisfy the first condition, which satisfy the second, and manually removing duplicates before counting.
+5. **Schema Interpretation**: Identifying that `StudentID` is the projected attribute and `CourseNo` is the filtering attribute.
+6. **Distinguishing Set Operations**: Not confusing `UNION` with `INTERSECT` or a simple `JOIN`.
+
+COUNT: 6
+
+At a South African university with a diverse cohort, `UNION` is a common "trick" point where students who haven't practiced enough will simply add the counts of the two individual queries (performing a `UNION ALL` mentally) rather than subtracting the duplicates.
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the formal definition of equivalence between two sets of functional dependencies ($\Sigma_1 \equiv \Sigma_2$ iff $\Sigma_1^+ = \Sigma_2^+$).
+2. Understanding the attribute closure algorithm (calculating $X^+$ under a set of FDs).
+3. Ability to perform multi-step reasoning: recognizing that $\Sigma_2 \implies \Sigma_1$ is trivial ($A \to B$ is in both, and $\{A \to B, A \to C\} \implies AB \to C$ via augmentation/decomposition).
+4. Applying Armstrong’s Axioms (specifically Pseudo-transitivity or Augmentation) to verify if $AB \to C$ can be derived from $\Sigma_2$.
+5. Applying the Union rule to $\Sigma_2$ to see that $\{A \to B, A \to C\}$ is equivalent to $\{A \to BC\}$.
+6. Ability to test if $\Sigma_1 \implies \Sigma_2$ by checking if $A \to C$ can be derived from $\{A \to B, AB \to C\}$.
+7. Recognizing that if $A \to B$ and $AB \to C$, then by substituting $B$ into the second FD (or using the pseudo-transitivity rule), $A \to C$ is logically implied.
+8. Distinguishing between a "minimal cover" and logical equivalence (students often fail if they think sets must look identical to be equivalent).
+
+COUNT: 8
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of equivalence between sets of Functional Dependencies (FDs) (i.e., $\Sigma_1 \equiv \Sigma_2$ if $\Sigma_1^+ = \Sigma_2^+$).
+2. Knowledge of how to determine if one set of FDs implies another ($\Sigma_1 \vDash \Sigma_2$ and vice versa).
+3. Mastery of the attribute closure algorithm (computing $X^+$).
+4. Proficiency in applying Armstrong’s Axioms (specifically Transitivity: if $A \to B$ and $B \to C$, then $A \to C$).
+5. Ability to identify that while $\Sigma_1$ implies $\Sigma_2$ (via transitivity), $\Sigma_2$ does not imply $\Sigma_1$ because $B \to A$ or $A \to B$ cannot be derived from $\Sigma_2$.
+6. Distinguishing between "containing similar dependencies" and being logically "equivalent."
+7. Reading and interpreting mathematical notation for sets ($\Sigma$) and relations ($R$).
+
+COUNT: 7
+
+0.55

@@ -1,0 +1,14 @@
+PREREQUISITES:
+1.  **Reading Functional Dependencies (FDs):** Understanding the notation $X \rightarrow Y$ and identifying the LHS/RHS of the given set $\Sigma$.
+2.  **Schema Decomposition Awareness:** Identifying which FDs from the original set $\Sigma$ map to which sub-schemas ($R1$ and $R2$).
+3.  **Lossless Join Property Knowledge:** Recalling the rule that a decomposition $(R1, R2)$ is lossless if $R1 \cap R2$ is a superkey for either $R1$ or $R2$.
+4.  **Key Identification (Sub-schemas):** Determining that $B$ is a key for $R2$ because $B \rightarrow C$ is in $\Sigma$, thus satisfying the intersection rule ($R1 \cap R2 = \{B\}$).
+5.  **Dependency Preservation Definition:** Understanding that the union of the projections of $\Sigma$ onto $R1$ and $R2$ must be logically equivalent to $\Sigma$.
+6.  **Dependency Mapping/Projection:** Recognizing that $A \rightarrow B$ is preserved in $R1$ and $B \rightarrow C$ is preserved in $R2$.
+7.  **Transitive Reasoning:** Applying the law of transitivity to realize that if $A \rightarrow B$ and $B \rightarrow C$ are preserved, then $A \rightarrow C$ is implied/maintained.
+8.  **Distinguishing Properties:** Correcting the common misconception that a "lost" explicit FD ($A \rightarrow C$) means the decomposition is not dependency preserving.
+9.  **Elimination/Selection:** Mapping the combined findings (Lossless = Yes, Preserving = Yes) to the correct multiple-choice option (A).
+
+COUNT: 9
+
+0.55

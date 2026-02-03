@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Superkey (SK): Understanding that a set of attributes is a superkey if its closure contains all attributes in the relation.
+2. Functional Dependency (FD) Notation: Interpreting the meaning of $A \to B$ and $D \to ABC$.
+3. Closure Algorithm: Knowing how to compute the closure of a set of attributes ($A^+$) by iteratively applying FDs.
+4. Transitive Reasoning: Ability to chain dependencies (e.g., $A \to B$ and $B \to C$ implies $A \to C$).
+5. Exhaustive Verification: Checking if the resulting closure $\{A, B, C\}$ includes the entire set $R = \{A, B, C, D\}$.
+6. Distinguishing Presence/Absence: Noticing that attribute $D$ is not on the right-hand side of any FD and is not in the starting set $\{A\}$, therefore it can never be reached.
+7. Logic Application: Correctly identifying that because $D \notin A^+$, the statement is False.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Filtering Distractors:** The ability to ignore significant amounts of "noise" or irrelevant information (equipment, technicians, administrators, associate members) to focus strictly on the relationship between "Member" and "Fitness Class."
+2. **Text-to-Model Mapping:** Mapping the English sentence "Each fitness class is attended by one or more members" to a conceptual relationship.
+3. **Definition of Participation Constraint:** Understanding that "Total" participation (or mandatory) means every instance of an entity must participate in the relationship, while "Partial" (or optional) means it does not have to.
+4. **Keyword Recognition:** Identifying the phrase "one or more" as a requirement that excludes the possibility of zero (empty) classes, thereby necessitating a "Total" constraint.
+5. **Entity-Relationship Directionality:** Correcting for the direction of the question (it asks for the constraint *on* Fitness Class in its relationship *to* Member), ensuring the student doesn't look at the Member's constraint (one or more classes) by mistake.
+6. **Logical Synthesis:** Synthesizing the specific business rule "Each fitness class is attended by one or more members" into the formal database term "Total."
+
+COUNT: 6
+
+0.65

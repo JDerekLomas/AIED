@@ -1,0 +1,15 @@
+In evaluating this question for undergraduate students, we consider the cognitive load required to distinguish between Data Manipulation Language (DML) and Data Definition Language (DDL), as well as specific syntax variations.
+
+**ELEMENTS:** 
+1. **Definition recall**: Recalling the meaning of "tuple" (row) vs. "relation" (table).
+2. **Keyword distinction**: Distinguishing between `DELETE` (DML, targets rows) and `DROP` (DDL, targets schema).
+3. **Syntax rule (DELETE)**: Recalling the `DELETE FROM [Table]` structure.
+4. **Syntax rule (DROP)**: Recalling the `DROP TABLE [Table]` structure.
+5. **Logical constraint**: Identifying which command removes the *content* but leaves the *structure* intact (implied by "delete all the tuples").
+6. **Distinction between similar concepts**: Differentiating between the syntactically plausible but incorrect options (e.g., "delete table" or "drop from").
+
+**ELEMENT COUNT:** 6
+
+**Estimated Success Rate:** This is a classic "trap" question for novices. Students often confuse `DELETE` and `DROP` during their first semester. Those with minimal prior exposure frequently choose `DROP TABLE` or `DELETE TABLE` because of natural language patterns. However, as it is a fundamental concept, students who have engaged with lab exercises will likely recognize the `DELETE FROM` syntax.
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Distinguishing Conceptual vs. Logical Constraints**: Understanding that standard ER diagrams (Chen or Crow’s Foot) represent structural relationships and cardinalities but cannot inherently represent check constraints or business logic (e.g., "Start date < End date" or "Must be maintained twice a year").
+2. **Cardinality Mapping**: Correctly identifying "one-to-many" vs "many-to-many" relationships from text (e.g., one class instructed by one trainer; one trainer can deliver many classes).
+3. **Optionality (Participation) Knowledge**: Distinguishing between mandatory participation (at least one) and optional participation (not all trainers deliver classes) in an ER relationship.
+4. **Attribute vs. Constraint Identification**: Recognizing that "Unique ID" and "Status Types" are attributes/domains, but the exhaustive list of status types is usually a domain constraint not explicitly modeled in the *diagram* itself without specialized notation.
+5. **Entity-Relationship Syntax**: Knowing that an ER diagram represents entities, attributes, and relationships, but lacks the temporal logic required for frequency-based constraints (e.g., "twice a year").
+6. **Multi-choice Elimination**: Evaluating four distinct scenarios against the limitations of ER modeling to find the one that fits standard notation (Option C).
+
+COUNT: 6
+
+0.42

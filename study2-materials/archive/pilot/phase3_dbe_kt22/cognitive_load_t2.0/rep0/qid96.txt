@@ -1,0 +1,15 @@
+As an instructor, I would evaluate this question as follows:
+
+**ELEMENTS:**
+1.  **Semantic Distinction (Category vs. Instance):** Distinguishing between a generic category (Speciality) and its specific data instances (Weight gain, Weight loss, etc.).
+2.  **Entity-Relationship Logic:** Recognizing that "Trainer" is an entity and that the list of examples provided in the text defines what is being stored *about* that trainer.
+3.  **Syntactic Mapping:** Identifying that in the phrase "Each trainer has one or more specialities," "Speciality" functions as the descriptor (potential attribute/multivalued attribute/weak entity) while the others are values.
+4.  **Information Filtering:** Navigating and ignoring a significant amount of "noise" or irrelevant information (e.g., technicians, maintenance schedules, class slots) to isolate the specific sentence regarding trainers.
+5.  **Domain Mapping:** Recalling the definition of an "attribute" (a property or characteristic of an entity) vs. a data value.
+
+**ELEMENT COUNT: 5**
+
+This question tests a fundamental "threshold concept" in data modelling: the difference between metadata (schema) and data (instances). While the text is long and visually intimidating, the specific logic required to differentiate between options A, B, C, and D is relatively narrow. Students often struggle with this early in the semester, frequently confusing the classification of an item with the item itself.
+
+**Your estimate:**
+0.72

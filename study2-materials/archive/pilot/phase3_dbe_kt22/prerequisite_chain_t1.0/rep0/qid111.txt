@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Terminology**: Knowing that "SK" stands for Superkey (and distinguishing it from a Candidate Key).
+2. **Functional Dependency (FD) Notation**: Interpreting the arrow ($\to$) as "determines" or "uniquely identifies."
+3. **Attribute Closure Algorithm**: Knowing how to compute the set of all attributes functionally determined by a starting set (in this case, $\{A\}^+$).
+4. **Applying Closure Rules**: Correctly following the transitivity rule ($A \to B$ and $B \to C$ implies $A \to C$).
+5. **Definition of a Superkey**: Knowing that a set of attributes is a superkey if and only if its closure contains all attributes in the relation ($R$).
+6. **Schema Inspection**: Identifying that attribute $D$ is part of the relation schema $R$ but is not on the right-hand side of any FD, nor reachable from $A$.
+7. **Negative Logic Reasoning**: Realizing that because $D$ cannot be derived from $A$, $\{A\}^+ = \{A, B, C\} \neq \{A, B, C, D\}$, therefore $A$ is not a superkey.
+
+COUNT: 7
+
+0.65

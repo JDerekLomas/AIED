@@ -1,0 +1,15 @@
+To determine the correct answer, a student must navigate several specific technical hurdles. Based on the provided question and common schema patterns (where "Course" usually contains unique offerings and "Enrol" contains many students per course), the student must correctly interpret the semantic and structural relationship between the tables.
+
+**PREREQUISITES:**
+1. **Definition of NATURAL JOIN**: Knowing that it implicitly joins tables on *all* columns with matching names.
+2. **Schema Inference (Common Attribute)**: Identifying that both tables likely share a "CourseID" (or similar) attribute to facilitate the join.
+3. **Cardinality Logic (One-to-Many)**: Understanding that in an inner join between a "Dimension" table (Course) and a "Fact" table (Enrol), the number of rows in the result equals the number of rows in the child table (Enrol), provided every enrollment has a valid course.
+4. **SQL Result Set Calculation**: Distinguishing between a Cartesian Product (Cross Join) and a Natural Join (Equality Join) so they don't simply multiply the table sizes (e.g., $7 \times 4$).
+5. **Schema Literacy**: Understanding that "Select *" in a Natural Join removes duplicate join columns, though this affects column count rather than row count, it is a point of potential confusion.
+6. **Data Volume Intuition**: Recognizing which table size (Enrol) represents the "many" side of the relationship.
+
+**COUNT: 6**
+
+Many South African undergraduates struggle with the "implicit" nature of the Natural Join, often confusing it with a Cross Join (leading them to multiply) or a Left Join. Because the actual data values are not provided in your prompt, the student is also being tested on their ability to infer schema relationships, which is a significant "failure point" for novices.
+
+0.55

@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a **superkey** (a set of attributes that uniquely identifies a tuple).
+2. Understanding the **closure property** of superkeys (if $K$ is a superkey, any superset of $K$ is also a superkey).
+3. Distinguishing between a **superkey** and a **candidate key** (specifically that candidate keys must be minimal, while superkeys do not have to be).
+4. Understanding the definition of a **primary key** as a specifically chosen candidate key.
+5. Identifying that {a,b,c} is a superset of {a,b}.
+6. Ability to eliminate Option A by applying the superset rule (if {a,b} is a superkey, {a,b,c} *must* be one).
+7. Ability to eliminate Option B by recognizing that while {a,b,c} is a superkey, it *cannot* be a candidate key because a proper subset {a,b} is already a superkey (minimality violation).
+8. Ability to eliminate Option C by recognizing that a primary key must first be a candidate key (which {a,b,c} is not).
+9. Recognizing that none of the provided statements (A, B, or C) are actually true, which requires the student to be confident enough to realize the question might be testing a "none of the above" logic or identifying the specific false premise in the options.
+
+COUNT: 9
+
+0.35

@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: Understanding what a SQL injection attack is (the manipulation of a query via user input).
+2. SQL syntax rules: Recognizing string concatenation and how single quotes define boundaries in a query.
+3. Logical condition evaluation: Distinguishing between static hard-coded strings (Option B and C) and external input sources (Option A).
+4. Data flow analysis: Identifying that `Request.form` represents untrusted user-supplied data.
+5. Code tracing: Distinguishing between the variable assignment in Option C (internal) versus the dynamic input in Option A (external).
+6. Distinguishing similar concepts: Differentiating between a dynamically built string that is "safe" (because the source is controlled) and one that is "unsafe."
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.72

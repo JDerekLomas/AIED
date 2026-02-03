@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Relational Schema Literacy**: Identifying the attributes in $R$ and the functional dependencies (FDs) in $\Sigma$.
+2. **Superkey/Candidate Key Derivation**: Using the closure algorithm (e.g., $(AB)^+$ and $(BC)^+$) to determine if $AB$ and $BC$ are candidate keys.
+3. **Determining Prime vs. Non-prime Attributes**: Identifying $\{A, B, C\}$ as prime attributes and $\{D\}$ as a non-prime attribute.
+4. **BCNF Definition Mastery**: Checking if every determinant (LHS) of given FDs is a superkey ($AB$ is a superkey, but is $BC$? If not, it fails BCNF).
+5. **3NF Definition Mastery**: Understanding the "escape clause" for 3NF (every FD $X \to Y$ must have $X$ as a superkey OR $Y$ as a prime attribute).
+6. **Multi-step Logical Evaluation**: Correcting the "BCNF implies 3NF" logic and applying it to both FDs.
+7. **Complex Identification**: Identifying that $BC \to A$ satisfies 3NF because $A$ is prime, even though $BC$ is not a superkey ($BC$ only determines $\{A, B, C\}$).
+8. **Negative Logic Application**: Realizing that $BC \to A$ violates BCNF, disqualifying the whole relation from BCNF even if it passes 3NF.
+
+COUNT: 8
+
+0.35

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Superkey: Understanding that a set of attributes must functionally determine all attributes in the relation (calculating the closure $\{AB\}^+ = \{A, B, C\}$).
+2. Definition of a Candidate Key (CK): Understanding that a CK must be a *minimal* superkey (no proper subset can be a superkey).
+3. Subset Testing: Identifying the subsets of $AB$ (which are $\{A\}$ and $\{B\}$).
+4. Functional Dependency (FD) Application: Ability to calculate the closure of a subset using the provided set $\Sigma$ (specifically, seeing that $A \to B$ implies $A \to AB$, and since $AB \to C$, then $A \to ABC$).
+5. Logical Inference: Concluding that because $A$ is a superkey and $A \subset AB$, $AB$ is a superkey but *not* a Candidate Key.
+6. Distinction between Superkey and CK: Many students stop once they verify $AB$ determines everything, failing to check for minimality.
+
+COUNT: 6
+
+0.35

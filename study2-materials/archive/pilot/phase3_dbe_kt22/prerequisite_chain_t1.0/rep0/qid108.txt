@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding ERD Expressiveness**: Knowing that standard ER diagrams are designed to model structural relationships and cardinalities, but cannot enforce specific attribute-level constraints or complex business logic.
+2. **Distinguishing Constraints**: Identifying that temporal logic (A: start date before end date) and frequency-based business rules (B: maintained twice a year) are typically handled by application logic or database triggers, not graphical ER notation.
+3. **Knowledge of Domains/Check Constraints**: Understanding that restricting an attribute to a specific set of values (D: "new, working, or broken") is a domain or CHECK constraint, which is generally not depicted in a standard Chen or Crow's Foot ER diagram.
+4. **Interpreting Cardinality and Participation**: Recognizing that "instructed by only one trainer" (1:N relationship) and "not all trainers deliver fitness classes" (optional participation) are the primary structural components that ER diagrams are specifically designed to represent.
+5. **Multi-step Text Analysis**: Correctly mapping the natural language descriptions of the entities (Trainer, Class) and their relationship (Instructs) to the specific ERD components of cardinality (1) and participation (optional).
+6. **Elimination of "Noise"**: The ability to ignore the large amount of irrelevant context (associates, landlines, technicians) to focus specifically on the four options provided.
+
+COUNT: 6
+
+0.45

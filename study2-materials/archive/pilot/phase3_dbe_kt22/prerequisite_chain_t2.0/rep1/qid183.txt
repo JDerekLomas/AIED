@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying a negative framing: Realizing the question asks for the statement that is **not** correct.
+2. Understanding SQL injection mechanics: Knowing that the vulnerability arises from improper handling of user input in query strings (Statement A).
+3. Understanding privilege escalation: Knowing that the attacker operates with the permissions of the database account used by the application (Statement B).
+4. Distinguishing Mitigation from Prevention: Understanding the "Principle of Least Privilege." Removing privileges can *limit* the blast radius (damage control), but it does not *prevent* the injection attack itself if the input is still unsanitized (Statement C).
+5. Distinguishing "No Privileges" from "Minimal Privileges": Recognizing that a database user must have *some* privileges to function (e.g., SELECT), so "removing the privileges" is an impossible or non-functional solution for an active application.
+6. Logic/Doubt Handling: Evaluating Statement D (None of the above) as a potential distractor if the student incorrectly believes A, B, and C are all true.
+
+COUNT: 6
+
+Your estimate:
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. Knowledge of the property of monotonicity/closure in relational algebra: if a set $S$ is a superkey, any superset of $S$ is also a superkey.
+3. Reading and interpreting schema notation $R(a,b,c)$ to identify the universal set of attributes.
+4. Distinguishing between a "candidate key" (which must be minimal) and a "superkey" (which does not have to be minimal).
+5. Applying set theory logic to realize that $\{a,b,c\}$ is a superset of $\{a,b\}$.
+6. Logical deduction: recognizing that "must be" implies a functional necessity derived from the definition.
+
+COUNT: 6
+
+0.72

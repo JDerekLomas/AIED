@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation (A → BC means A determines B and C).
+2. Ability to compute the closure of an attribute set (e.g., determining if A+ or {B,C}+ covers all attributes).
+3. Identifying all Candidate Keys (CKs) of the relation (recognizing that both {A} and {B,C} are keys).
+4. Distinguishing between Prime and Non-prime attributes (recognizing that A, B, and C are all prime).
+5. Formal definition of Third Normal Form (3NF) (understanding the "or" condition: LHS is a superkey OR RHS is prime).
+6. Formal definition of Boyce-Codd Normal Form (BCNF) (strict requirement: LHS must be a superkey).
+7. Applying definitions to a specific case (checking if BC → A violates BCNF despite meeting 3NF criteria).
+8. Multi-step logical reasoning to compare results against multiple-choice options.
+
+COUNT: 8
+
+0.55

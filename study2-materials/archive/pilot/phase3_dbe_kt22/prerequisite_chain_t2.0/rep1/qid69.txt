@@ -1,0 +1,16 @@
+To provide an accurate estimate, I am assuming the students have been provided with a standard **Relational Schema** or a **Table Instance** (a diagram showing the actual data inside the `Study` table). Without the data instance, the question is unsolvable; therefore, the ability to interpret that data is the primary hurdle.
+
+**PREREQUISITES:**
+1.  **Reading a Table Instance:** Ability to locate the table labeled 'Study' and scan the column labeled 'Name'.
+2.  **SQL `SELECT *` Syntax:** Understanding that this command retrieves entire rows (tuples), not just specific cells.
+3.  **The `WHERE` Clause Logic:** Understanding that the result set is filtered based on a specific boolean condition.
+4.  **Case Sensitivity/Exact Matching:** Recognizing that 'Tom' must match exactly (e.g., distinguishing from 'Thomas' or 'tom' depending on the DB collation taught).
+5.  **Distinguishing "Rows" from "Columns":** A common novice error is confused terminology between the vertical and horizontal axes of a table.
+6.  **Cardinality Counting:** The ability to count the specific occurrences that satisfy the condition (a "manual scan" of the provided data).
+7.  **Ignoring Extraneous Data:** Disregarding rows in the table that do not meet the criteria.
+
+**COUNT: 7**
+
+While this is a fundamental "Level 1" question, at South African universities, we often see a "long tail" of students who struggle with the transition from abstract set theory to physical table representation, or who rush and miscount. However, since this is a foundational competency:
+
+0.82

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as a minimal superkey.
+2. Knowing how to compute the closure of an attribute set ($X^+$) using Armstrong's Axioms or the closure algorithm.
+3. Identifying "essential" attributes: recognizing that if an attribute (C) does not appear on the right-hand side of any functional dependency in $\Sigma$, it *must* be part of every candidate key.
+4. Analyzing the given set $\Sigma$ to check for the presence/absence of C on the RHS of all dependencies.
+5. Understanding the logical requirement of "must": distinguishing between an attribute being *sufficient* vs. *necessary*.
+6. Correctly applying the closure algorithm to verify that $\{C\}^+$ does not contain $\{A, B, D\}$ without additional attributes.
+
+COUNT: 6
+
+0.65

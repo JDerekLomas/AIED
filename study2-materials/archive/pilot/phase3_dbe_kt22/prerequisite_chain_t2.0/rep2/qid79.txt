@@ -1,0 +1,14 @@
+To evaluate this question, we must assume the students are provided with a specific schema diagram or instance (e.g., a "Course" table and an "Enrol" table with sample data) as the question implies a specific numerical answer based on an unseen data state.
+
+**PREREQUISITES:**
+1. **Understanding of INNER JOIN semantics:** Knowing that only matching rows from both tables are included.
+2. **Schema Reading:** Correctly identifying Primary Key (CourseNo) and Foreign Key relationships between the two tables.
+3. **Cardinality Identification:** Distinguishing between the "One" side (Course) and the "Many" side (Enrol).
+4. **Knowledge of Multiplicity:** Understanding that the result count is determined by the number of matches in the joining column (usually resulting in a count equal to the number of records in the `Enrol` table that have a valid `CourseNo`).
+5. **Set Reasoning:** Understanding that orphaned rows in either table (e.g., a Course with no students) are excluded from the result.
+6. **Data Counting:** Manually iterating through the provided table instances and matching values without skipping or double-counting.
+7. **SQL Keyword Knowledge:** Recognizing that `SELECT *` does not affect the row count, only the column count.
+
+**COUNT:** 7
+
+0.65

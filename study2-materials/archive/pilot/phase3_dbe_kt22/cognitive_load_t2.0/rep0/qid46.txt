@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Definition recall of a **superkey** (a set of attributes that uniquely identifies a tuple).
+2. Definition recall of a **candidate key** (a minimal superkey).
+3. Logic of **set inclusion/supersets**: Understanding that any superset of a superkey is also a superkey.
+4. Distinguishing between **"must" and "may"**: Evaluating the necessity of the conditions in the options.
+5. Evaluating Option A: Applying the superset property to determine if {a,b,c} is a superkey (it is, making the "must not" statement false).
+6. Evaluating Option B: Recalling that if a proper subset {a,b} is already a superkey, the larger set {a,b,c} cannot be a *candidate* key due to the minimality constraint.
+7. Evaluating Option C: Recognizing the distinction between a superkey and the specific designation of a **primary key** (which is a choice made by a designer).
+
+ELEMENT_COUNT: 7
+
+0.65

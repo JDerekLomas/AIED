@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Understanding Cartesian Product (Cross Join):** Realizing that listing two tables in the FROM clause initially pairs every row of Course with every row of Enrol.
+2. **Knowledge of Inner Join logic:** Recognizing that the WHERE clause (`Course.CourseNo = Enrol.CourseNo`) filters these pairs to only those that match on the join key.
+3. **Filtering via Selection:** Applying the additional constant filter (`Year = 2018`) to the joined result set.
+4. **Distinguishing Rows from Columns:** Understanding that the question asks for the count of tuples (rows) meeting the criteria, not the number of attributes.
+5. **Schema Interpretation:** Correctly identifying which table contains the 'Year' attribute (assuming it exists in Enrol or Course) and mapping the relationship.
+6. **Counting Logic:** Correcting for the fact that the result is based on the number of matching records in the many-side (Enrol) that satisfy the year condition, provided they have a corresponding entry in the one-side (Course).
+7. **Basic SQL Syntax:** Knowing that `SELECT *` does not change the row count compared to selecting specific columns.
+
+COUNT: 7
+
+0.65

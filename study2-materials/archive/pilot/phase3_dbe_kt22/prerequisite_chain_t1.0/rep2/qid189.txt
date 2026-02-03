@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding the core concept of SQL Injection**: Knowing that the vulnerability arises when untrusted user input is concatenated directly into a query string as executable code.
+2. **Distinguishing between User Input and Hardcoded Variables**: Recognizing that `Request.form` represents external (untrusted) input, whereas fixed strings are internal (trusted).
+3. **Syntax Interpretation (String Concatenation)**: Ability to read JavaScript/VBScript-style string concatenation (`+`) and identify how it builds a final SQL statement.
+4. **Code Analysis (Trace execution)**: Identifying that while Options A and C look syntactically similar, Option C uses a hardcoded value that a user cannot manipulate via the browser.
+5. **Schema/Context Neutrality**: Understanding that the table name or column name is irrelevant to the existence of the vulnerability.
+6. **Eliminating Distractors**: Recognizing that Option B is a static query and cannot be modified by an attacker.
+
+COUNT: 6
+
+0.65

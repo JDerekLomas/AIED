@@ -1,0 +1,11 @@
+PREREQUISITES:
+1.  **Understanding the Definition of a View**: Recognizing that a view is a virtual table derived from base tables or other views.
+2.  **Distinguishing Ownership from Privileges**: Understanding that in SQL, creating an object does not automatically grant "All Privileges" if the underlying dependencies have restricted permissions.
+3.  **Knowledge of View Updatability**: Knowing that many views (e.g., those with joins, aggregations, or distinct clauses) are inherently non-updatable, regardless of user permissions.
+4.  **Understanding Privilege Inheritance/Delegation**: Realizing that a user's privileges on a view are constrained by the privileges they hold on the underlying schema objects.
+5.  **Handling "Always" vs. "Necessarily" Logic**: Identifying that "always" (in Options A and B) is a high bar that is easily invalidated by specific edge cases (like non-updatable views or lack of GRANT OPTION).
+6.  **Distinguishing between Options C and D**: Overcoming the common student misconception that "the creator of an object owns it and thus has all rights to it" (which is true for base tables but not views).
+
+COUNT: 6
+
+0.35

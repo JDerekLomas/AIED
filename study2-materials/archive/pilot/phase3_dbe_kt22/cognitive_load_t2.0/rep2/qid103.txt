@@ -1,0 +1,17 @@
+As an instructor, I would evaluate this question as having high element interactivity despite the simple final answer, because it requires the student to filter out a large amount of irrelevant "noise" and complex business logic to isolate a specific structural constraint.
+
+**ELEMENTS:**
+1.  **Textual Parsing (Distraction filtering):** Identifying which specific sentences out of the 200+ word paragraph apply to the relationship between "Trainer" and "Fitness Class" while ignoring "Technician," "Equipment," and "Administrator."
+2.  **Definition Recall (Cardinality):** Remembering the distinction between 1:1, 1:N, and N:N relationships in an ER context.
+3.  **Role/Entity Association:** Identifying that a "Trainer" acts as an instructor for a "Fitness Class."
+4.  **Constraint Analysis (Minimums/Maximums):** Processing the rule "Each fitness class is ... instructed by **only one** trainer" (Maximum 1 for Class side).
+5.  **Directional Analysis:** Processing the rule "Not all trainers deliver fitness classes" vs. the implicit rule that a trainer could instruct multiple classes (Minimum 0, Maximum N for Trainer side).
+6.  **Syntactic Logic Mapping:** Translating "One trainer instructs many classes" into the specific notation of a **1:N** ratio (mapping the 1 to the Trainer and the N to the Class).
+
+**ELEMENT COUNT: 6**
+
+**Estimating Performance:**
+While the specific answer is contained in a single sentence ("Each fitness class is ... instructed by only one trainer"), many South African undergraduate students—particularly those with lower English proficiency or limited experience in systems analysis—struggle with "word problem" schemas. They often get tripped up by the "many-to-many" relationship between *members* and classes, or mistakenly believe "1:1" applies because each class has only one trainer. However, since it is a multiple-choice question with only three options, the probability of a correct guess is high.
+
+**Your estimate:**
+0.68

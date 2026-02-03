@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Definition of Candidate Key**: Understanding that a candidate key is a minimal set of attributes that uniquely identifies a tuple.
+2. **Definition of Superkey**: Understanding that a superkey is any set of attributes that contains a candidate key (the "superset" property).
+3. **Property of Closure**: Recognizing that if $\{a,b\}$ determines all attributes in $R$, then any superset of $\{a,b\}$ (like $\{a,b,c\}$) must also uniquely identify all attributes.
+4. **Distinguishing Minimality**: Recognizing that while $\{a,b,c\}$ satisfies the uniqueness property of a superkey, it violates the minimality requirement of a candidate key (falsifying option A).
+5. **Understanding Atomicity/Subsets**: Knowing that a proper subset of a candidate key (like $\{a\}$) does not necessarily possess the uniqueness property (falsifying option C).
+6. **Logical Reasoning**: Mapping the relationship "Candidate Key $\subset$ Superkey" to the specific attribute sets provided.
+
+COUNT: 6
+
+0.65

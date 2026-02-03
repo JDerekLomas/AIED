@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the specific Two-Phase Locking (2PL) protocol definition (Growth vs. Shrinkage phase).
+2. Understanding that the "Shrinkage phase" prohibits acquiring new locks once the first lock is released (Statement A).
+3. Distinguishing between Basic 2PL and Strict/Rigorous 2PL (knowing that Statement B is characteristic of 2PL variations but Statement A is the core invariant of all 2PL).
+4. Understanding concurrency control timing (knowing that Statement C describes "Pre-declaration" or "Static Locking," which is not a requirement of 2PL).
+5. Reasoning about "All of the above" logic: identifying if one statement is false to eliminate Option D, or if multiple are true.
+6. Reading comprehension: identifying that "Statement A" is the fundamental defining rule that gives the protocol its "Two-Phase" name.
+
+COUNT: 6
+
+0.55

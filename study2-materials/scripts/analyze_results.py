@@ -542,9 +542,9 @@ Format each answer as:
 
 def main():
     # Paths
-    responses_path = "pilot/full_collection/batch_responses.jsonl"
+    responses_path = "archive/pilot/full_collection/batch_responses.jsonl"
     items_path = "data/probe_items.json"
-    output_dir = Path("pilot/full_collection/figures")
+    output_dir = Path("archive/pilot/full_collection/figures")
     output_dir.mkdir(exist_ok=True)
 
     print("Loading data...")

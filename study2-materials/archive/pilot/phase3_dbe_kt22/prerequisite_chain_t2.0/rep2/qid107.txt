@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Reading Comprehension & Information Filtering:** Ability to isolate the specific "administrator" requirements from a dense paragraph containing details about trainers, technicians, members, and equipment.
+2. **Identification of Inheritance/Specialization:** Recognizing that an "administrator" is a sub-category of "employee" (an "is-a" relationship).
+3. **Attribute Mapping:** Understanding that properties attributed to the super-type "employee" (names, addresses, and unique IDs) are inherited by the sub-type "administrator."
+4. **Knowledge of Key Attribute Definition:** Understanding that a key attribute must be unique and non-null for every instance of the entity.
+5. **Distinguishing Key vs. Descriptive Attributes:** Identifying that while "landline number" is unique to administrators in the text, it is not explicitly stated as unique/identifying, whereas the "unique ID" from the employee definition is a guaranteed primary key.
+6. **Schema Logic:** Recognizing that names and addresses are typically not unique identifiers in database design.
+
+COUNT: 6
+
+0.72

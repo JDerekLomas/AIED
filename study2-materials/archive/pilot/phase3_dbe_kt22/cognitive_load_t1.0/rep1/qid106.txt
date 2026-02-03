@@ -1,0 +1,18 @@
+As an instructor, I evaluate this question as having **high element interactivity**. While the final question focuses on a specific relationship, the student must parse a dense "word problem" narrative and filter out significant "noise" (extraneous information about technicians, equipment, and classes) to isolate the relevant business rules.
+
+**ELEMENTS:**
+1.  **Entity Identification:** Identifying "Trainer" as a core entity within the text.
+2.  **Attribute Classification:** Recognizing "Speciality" as a property of the Trainer.
+3.  **Cardinality Logic:** Identifying the "one or more" constraint mentioned in the text for specialities.
+4.  **Concept Distinction (Attribute vs. Multi-valued):** Distinguishing between a simple attribute (atomic) and a multi-valued attribute based on the "one or more" rule.
+5.  **Concept Distinction (Entity vs. Attribute):** Evaluating if "Speciality" possesses its own attributes to warrant being a separate or weak entity (it does not in this context).
+6.  **Information Filtering:** Actively inhibiting irrelevant data (Administrators, Technicians, Maintenance dates, Equipment status) while searching for the specific "Trainer" requirements.
+7.  **Mapping Rules:** Recalling the standard ERD notation/modeling rule that a single property with multiple values is best represented as a multi-valued attribute (Option C).
+
+**ELEMENT COUNT: 7**
+
+**Estimation of Success:**
+South African undergraduate cohorts often struggle with "word problem" scenarios where the primary challenge is English reading comprehension combined with technical abstraction. High-performing students will find this easy, but the "middle" and "lower" tiers often get lost in the extraneous details about landlines and equipment IDs. Option D is a common "distractor" for students who over-engineer solutions.
+
+Your estimate:
+0.65

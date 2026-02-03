@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding the definition of a Primary Key (PK):** Recognizing that a PK is a unique identifier for a tuple in a relation.
+2. **Knowledge of the Entity Integrity Constraint:** Recalling the specific rule that no attribute participating in a primary key can accept null values.
+3. **Application to Composite Keys:** Understanding that the rule applies to *each and every* attribute within a composite key (not just the set as a whole).
+4. **Distinguishing between Entity and Referential Integrity:** Not confusing this rule with Foreign Key constraints (which allow nulls).
+5. **Logic/Quantifier comprehension:** Distinguishing between "at least one" (existential) and "none/all" (universal) within the context of the options.
+6. **Reading Schema Notation:** Recognizing that the set {StudentID, CourseNo, Semester} represents a single composite primary key.
+
+COUNT: 6
+
+0.72

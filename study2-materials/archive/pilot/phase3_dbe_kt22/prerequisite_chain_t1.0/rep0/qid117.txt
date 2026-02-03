@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the notation for a Relational Schema $R$ and sets of Functional Dependencies (FDs) $\Sigma$.
+2. Understanding the semantic definition of the logical implication symbol ($\vDash$) in the context of FDs (i.e., $\Sigma_1 \vDash \Sigma_2$ means all dependencies in $\Sigma_2$ are logically implied by $\Sigma_1$).
+3. Ability to compute the attribute closure ($X^+$) under a specific set of FDs ($\Sigma_1$).
+4. Knowledge of the rule that $X \to Y$ is implied by $\Sigma$ if and only if $Y \subseteq X^+_{\Sigma}$.
+5. Multi-step reasoning: Decomposing $\Sigma_2$ into individual dependencies ($A \to C$ and $B \to C$) and testing each against $\Sigma_1$.
+6. Executing the closure algorithm for $A$ under $\Sigma_1$: $A^+ = \{A, B, C\}$.
+7. Executing the closure algorithm for $B$ under $\Sigma_1$: $B^+ = \{B, C\}$.
+8. Correctly concluding that since both $C \subseteq A^+$ and $C \subseteq B^+$, the implication holds.
+9. Distinguishing between "equivalent sets" ($\equiv$) and "logical implication" ($\vDash$), as the reverse ($ \Sigma_2 \vDash \Sigma_1$) is false.
+
+COUNT: 9
+
+0.65

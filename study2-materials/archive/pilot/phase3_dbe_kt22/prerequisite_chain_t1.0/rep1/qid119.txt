@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of Equivalence: Understanding that two sets of functional dependencies (FDs) are equivalent if and only if $\Sigma_1^+ = \Sigma_2^+$ (each set must imply all FDs in the other).
+2. Closure Algorithm: Knowing how to compute the closure of a set of attributes under a given set of FDs ($X^+$).
+3. Decomposition/Augmentation Rules: Recognizing that $AB \rightarrow C$ can be simplified or tested against $A \rightarrow B$ and $B \rightarrow C$ using Armstrong's Axioms (specifically transitivity).
+4. Testing $\Sigma_1 \models \Sigma_2$: Checking if $A \rightarrow B$ and $B \rightarrow C$ follow from $\{A \rightarrow B, AB \rightarrow C\}$. This requires realizing $B \rightarrow C$ is not implied because $B^+$ under $\Sigma_1$ is just $\{B\}$.
+5. Testing $\Sigma_2 \models \Sigma_1$: Checking if $A \rightarrow B$ and $AB \rightarrow C$ follow from $\{A \rightarrow B, B \rightarrow C\}$. This requires realizing $A \rightarrow C$ (via transitivity) implies $AB \rightarrow C$.
+6. Logical Conjunction: Understanding that if even one FD from one set is not implied by the other set, the equivalence is False.
+7. Distinguishing "Looks Similar" from "Logically Equivalent": Avoiding the trap of seeing the same attributes and assuming they cover the same constraints.
+
+COUNT: 7
+
+0.55

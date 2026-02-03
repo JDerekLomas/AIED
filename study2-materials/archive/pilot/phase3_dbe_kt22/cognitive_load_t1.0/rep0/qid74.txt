@@ -1,0 +1,16 @@
+To evaluate this question, we must consider that even though the query is simple, a student cannot arrive at the answer by looking at a single piece of information; they must integrate several rules and data observations simultaneously.
+
+**ELEMENTS:**
+1.  **SQL Syntax Recognition:** Identifying the purpose of `SELECT`, `FROM`, and `GROUP BY`.
+2.  **GROUP BY Logic:** Understanding that the result set size is determined by the number of *unique* values in the grouping column (`StudentID`), not the total number of rows in the table.
+3.  **Aggregation Context:** Recognizing that `COUNT(*)` applies per group, but does not change the row count of the output (which is defined by the groups).
+4.  **Data Scan/Mapping:** Scanning the `Study` table to identify unique `StudentID` entries.
+5.  **Working Memory Integration:** Holding the count of unique IDs while filtering out duplicates mentally to arrive at the final integer.
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:**
+While this is a "Level 1" SQL question, undergraduate students in the South African context often struggle with the distinction between the number of rows in the *source* table versus the *result* table. Many students will instinctively count all rows (6) or look for a specific condition. However, because `GROUP BY` is a foundational concept taught early, about 70% of a mixed-ability cohort usually grasps this after the first few practicals.
+
+Your estimate:
+0.70

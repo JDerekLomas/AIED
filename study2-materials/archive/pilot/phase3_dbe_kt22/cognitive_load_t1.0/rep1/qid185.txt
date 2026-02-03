@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition of a view as a virtual table derived from underlying base tables.
+2. Recall of the SQL privilege model (GRANT/REVOKE mechanism).
+3. Logical distinction between ownership of a view and inherent rights (ownership vs. granted privileges).
+4. Evaluation of the "Updatability" constraint (understanding that not all views are inherently updatable, even if the user has permissions on base tables).
+5. Distinction between universal statements ("always," "all") and conditional constraints in database security.
+6. Comparison of four similar-sounding logical propositions to identify the most restrictive/accurate case (C).
+
+ELEMENT_COUNT: 6
+
+0.55

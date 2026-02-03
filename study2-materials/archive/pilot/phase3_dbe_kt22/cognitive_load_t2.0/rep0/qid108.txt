@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Definition recall**: Understanding what a standard Entity-Relationship (ER) diagram can and cannot represent (e.g., structural constraints vs. business logic/temporal constraints).
+2. **Concept distinction**: Distinguishing between structural cardinality (e.g., 1:N relationships) and check constraints/domain triggers.
+3. **Logic evaluation (Option A)**: Recognizing that a "start date before end date" comparison is a row-level constraint, not a structural ER element.
+4. **Logic evaluation (Option B)**: Recognizing that a frequency constraint ("twice a year") is a business rule/assertion rather than a relationship attribute.
+5. **Logic evaluation (Option C)**: Evaluating the relationship between Fitness Class and Trainer (Many-to-One) and the participation constraint (Optional/Partial for trainers).
+6. **Logic evaluation (Option D)**: Assessing that attribute domain constraints (Status must be X, Y, or Z) are typically handled in DDL/Check constraints, whereas ER focus is on Entity/Relationship existence.
+7. **Mapping**: Coordinating the narrative description of the Class-Trainer relationship with the corresponding ER symbols (cardinality and modality).
+
+ELEMENT COUNT: 7
+
+0.45

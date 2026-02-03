@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating Conceptual vs. Logical/Physical constraints**: Understanding that "Business Rules" (e.g., date comparisons or frequency counts) are often enforced via application logic or check constraints, not standard ER notation.
+2. **Knowledge of ER Cardinality/Optionality**: Recognising that "instructed by only one trainer" (1:N) and "not all trainers deliver fitness classes" (optional participation) are standard features of an ER diagram.
+3. **Identifying Attribute Constraints**: Knowing that while an ER diagram shows attributes and types, it does not typically show a specific "set" of allowed string values (status types) or range checks unless using specific extended notation not usually taught at the intro level.
+4. **Distinguishing Multi-step Reasoning**: Realising that "twice a year" is a temporal business rule/constraint that cannot be captured by simple relationship lines.
+5. **Reading Comprehension/Mapping**: The ability to map the narrative "one or more" and "only one" to the visual symbols of an ER diagram (Crow's foot or Chen notation).
+6. **Elimination Strategy**: Systematically checking each option against the limitations of the ER model (the "what can't be modeled" vs "what can").
+
+COUNT: 6
+
+0.55

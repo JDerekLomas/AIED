@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Determining Candidate Keys:** The ability to find the closures of attribute sets ($AB^+$ and $BC^+$) to identify all keys ($AB$, $BC$, and $BCD$ is not one, but $ABC$ or $BD$ are not—the student must correctly identify $\{AB, BC\}$ as the candidate keys).
+2. **Identifying Prime Attributes:** Knowing that $A, B, \text{ and } C$ are prime attributes because they are members of at least one candidate key.
+3. **Formal Definition of BCNF:** Knowing that for every functional dependency $X \to Y$, $X$ must be a superkey. 
+4. **Testing BCNF:** Evaluating $BC \to A$ and recognizing that $BC$ is a candidate key, and evaluating $AB \to CD$ and recognizing $AB$ is a candidate key (therefore, it is in BCNF).
+5. **Formal Definition of 3NF:** Understanding the relaxation where $Y$ being a prime attribute satisfies the condition.
+6. **Hierarchy Knowledge:** Knowing that BCNF is a stricter form of 3NF; if a relation is in BCNF, it is automatically in 3NF (shortcut reasoning).
+7. **Attribute Closure Algorithm:** Accuracy in calculating $\{AB\}^+ = \{A, B, C, D\}$ and $\{BC\}^+ = \{B, C, A, D\}$ without skipping attributes.
+8. **Handling Non-Prime Attributes:** Identifying $D$ as the only non-prime attribute and ensuring no partial or transitive dependencies exist.
+
+COUNT: 8
+
+0.55

@@ -1,0 +1,10 @@
+ELEMENTS: 
+1. **Definition of a Superkey**: Recalling that a superkey is any set of attributes that uniquely identifies a tuple.
+2. **Definition of a Candidate Key**: Recalling that a candidate key is a *minimal* superkey.
+3. **Subset/Superset Logic (Monotonicity)**: Understanding that if a set is a superkey, any superset of that set (like {a,b}) must also be a superkey.
+4. **Minimality Constraint**: Recognizing that while {a} is a superkey, it is only a candidate key if no proper subset of it is also a superkey (in this case, only the empty set, which is impossible here).
+5. **Evaluating Logical Dependencies**: Distinguishing between "must" (necessary truth) and "possible" (contingent truth) across the three options.
+
+ELEMENT COUNT: 5
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Identifying the "Negative Logic" (The question asks which is NOT correct).
+2. Knowledge of the mechanism of SQL injection (String concatenation/lack of sanitization).
+3. Understanding of the impact/scope of SQL injection (Privilege escalation/command execution).
+4. Distinguishing between risk mitigation and prevention (Privilege reduction follows the principle of least privilege, which limits damage but does not prevent the injection vulnerability itself).
+5. Evaluation of "None of the above" as a potential distractor vs. valid choice.
+6. Multi-step reasoning: recognizing that Statement C describes a good security practice (Least Privilege) but identifying it as a false statement regarding *prevention*.
+
+COUNT: 6
+
+0.65

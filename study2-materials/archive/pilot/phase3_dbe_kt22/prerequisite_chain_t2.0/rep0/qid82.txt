@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding Cartesian Product logic**: Knowing that referencing two tables in the `FROM` clause (`Course, Enrol`) implies a join.
+2. **Identifying Join Conditions**: Recognizing `Course.CourseNo = Enrol.CourseNo` as the filter that matches primary keys to foreign keys.
+3. **Filtering via WHERE clause**: Applying the additional filter `Year = 2018` to the dataset.
+4. **Interpreting Schema/Data (Implicit)**: Although the table data isn't provided in the prompt, the student must successfully count specific records in the provided context (assuming a standard lecture example or diagram accompanies this question).
+5. **Knowledge of Set Cardinality**: Understanding that the result set size depends on the number of matching rows in the `Enrol` table for that specific year (assuming 1-to-many relationship).
+6. **SQL Execution Order**: Processing the filters (`WHERE`) correctly before "selecting" the rows to count.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the syntax of the FROM clause when multiple tables are listed without a JOIN keyword (implicit Cross Join).
+2. Knowing the definition of a Cartesian Product (Cross Join) in relational algebra/SQL.
+3. Ability to read a schema diagram or metadata to identify the cardinality (row count) of individual tables (assuming "Course" has 7 rows and "Enrol" has 4 rows, or vice versa, to reach the provided options).
+4. Knowing the mathematical rule for the size of a Cartesian Product (Rows in A × Rows in B).
+5. Performing the mental arithmetic correctly (7 * 4 = 28).
+6. Distinguishing between a Cross Join and an Inner Join (where a student might mistakenly look for matching keys and arrive at a smaller number).
+
+COUNT: 6
+
+0.65

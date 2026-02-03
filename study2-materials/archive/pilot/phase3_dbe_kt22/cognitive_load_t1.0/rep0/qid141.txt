@@ -1,0 +1,18 @@
+As a university instructor, I evaluate this question as having **moderate element interactivity**. While the question is multiple-choice, it requires more than simple rote recall; the student must map the hierarchical relationship between normal forms and navigate logical implications (If P, then Q).
+
+For many South African undergraduate students, the challenge lies in the transition from memorizing definitions to understanding the "nested" nature of database normalization theory.
+
+**ELEMENTS:**
+1.  **Definition Recall (3NF):** Recalling the criteria for Third Normal Form (transitive dependencies).
+2.  **Definition Recall (BCNF):** Recalling the criteria for Boyce-Codd Normal Form (determinants must be superkeys).
+3.  **Hierarchy Logic:** Understanding the subset/superset relationship (BCNF is a stricter version of 3NF).
+4.  **Logical Implication (If/Then):** Evaluating the direction of the conditional statement (sufficiency vs. necessity).
+5.  **Distinction/Elimination:** Distinguishing between "must be" (necessity) and "cannot be" (exclusivity) to rule out distractors C and D.
+
+**ELEMENT COUNT:** 5
+
+**Estimated proportion of correct answers:**
+The question is a "classic" check for understanding. Stronger students will immediately recognize BCNF as the more restrictive set. However, a significant portion of the cohort often reverses the logic (thinking 3NF implies BCNF because 3NF is more commonly discussed) or gets tripped up by the abstract phrasing. In a typical diverse South African CS classroom, roughly 60-65% usually grasp this foundational theory correctly under exam conditions.
+
+Your estimate:
+0.62

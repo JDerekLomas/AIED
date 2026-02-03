@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as both a superkey and a minimal set.
+2. Ability to compute the attribute closure ($X^+$) using a given set of Functional Dependencies ($\Sigma$).
+3. Recognizing that $A^+ = \{A, B, C, D\}$, confirming A is a superkey.
+4. Recognizing that A is a singleton set, making it automatically minimal and thus a CK.
+5. Identifying the need to check for other potential candidate keys to verify the "only" part of the statement.
+6. Understanding the rules for finding candidate keys, specifically that if a set of attributes is not on the RHS of any FD, it must be in every CK, and if it is on both, it might be.
+7. Calculating $\{C, D\}^+ = \{C, D, A, B\}$, identifying $\{C, D\}$ as a second Candidate Key.
+8. Applying multi-step reasoning to conclude that because $\{C, D\}$ is a CK, the statement "A is the only CK" is False.
+9. Distinguishing between a Superkey and a Candidate Key to ensure $\{C, D\}$ is indeed minimal (as neither $C^+$ nor $D^+$ alone can derive the full schema).
+
+COUNT: 9
+
+0.65

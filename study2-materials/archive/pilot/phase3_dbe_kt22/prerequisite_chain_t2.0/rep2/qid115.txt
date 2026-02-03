@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. Understanding functional dependency (FD) notation ($X \to Y$).
+2. Understanding the semantic entailment symbol ($\Sigma \models f$) in the context of relational theory.
+3. Knowledge of Armstrong’s Axioms or the attribute closure algorithm.
+4. Ability to calculate the closure of a set of attributes ($D^+$) based on a given set of dependencies $\Sigma$.
+5. Ability to correctly identify and apply the transitivity rule ($D \to B$ and $B \to C$ derived from $D \to ABC$).
+6. Understanding the decomposition rule (recognizing that $D \to ABC$ implies $D \to A$ and $D \to C$ individually).
+7. Identifying that $D \to A$ and $D \to C$ combined via the union rule satisfies the target dependency $D \to AC$.
+8. Careful reading of the set $\Sigma$ to avoid confusing the "given" dependencies with the "test" dependency.
+9. Distinguishing between logical entailment and equality (i.e., not requiring $AC$ to be the *entire* closure).
+
+COUNT: 9
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Super Key (SK) (a set of attributes that functionally determines all other attributes in the relation).
+2. Ability to read and interpret functional dependency (FD) notation (A → B).
+3. Ability to compute the attribute closure of a set (specifically $D^+$).
+4. Multi-step reasoning: Starting with $D$, applying $D \to ABC$ to get $\{A, B, C, D\}$.
+5. Identifying that because $\{A, B, C, D\}$ contains all attributes of $R$, $D$ satisfies the definition of a Super Key.
+6. Distinguishing between a Super Key (any set that determines all attributes) and a Candidate Key (a minimal super key). *Note: Students often confuse these; if they think SK means "minimal," they might hesitate, though in this specific case D is both.*
+7. Understanding the schema context: recognizing that $R$ contains exactly $\{A, B, C, D\}$.
+
+COUNT: 7
+
+0.72

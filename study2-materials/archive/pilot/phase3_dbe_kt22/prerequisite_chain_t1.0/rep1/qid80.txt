@@ -1,0 +1,13 @@
+To answer this question correctly, a student must navigate several specific technical and conceptual hurdles.
+
+**PREREQUISITES:**
+1.  **Reading a Schema Diagram:** The student must correctly identify the primary key (PK) and foreign key (FK) relationship between the `Course` and `Enrol` tables (usually linked by a common column like `Course_ID`).
+2.  **Definition of NATURAL JOIN:** Understanding that a `NATURAL JOIN` automatically joins tables based on columns with the same name.
+3.  **Join Cardinality Logic:** Recognizing that if the join column is a PK in `Course` and an FK in `Enrol`, the result set size is determined by the number of matching rows in the "child" table (`Enrol`), provided every FK value exists in the PK table.
+4.  **Distinguishing Join Types:** Differentiating a `NATURAL JOIN` from a `CROSS JOIN` (Cartesian product), which would result in $7 \times 4 = 28$ (Option A).
+5.  **Data Set Analysis:** Correctly counting the rows in the relevant table (likely 4 in `Enrol`) while ignoring the row count of the "parent" table (7 in `Course`, Option C).
+6.  **Syntactic Knowledge:** Knowing that a `NATURAL JOIN` does not require an `ON` clause and behaves as an inner join by default.
+
+**COUNT:** 6
+
+0.65

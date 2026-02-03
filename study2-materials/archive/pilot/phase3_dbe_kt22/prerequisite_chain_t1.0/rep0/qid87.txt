@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Schema Interpretation:** Understanding that enrollment data (linking students to courses) is typically stored in an 'Enrol' table rather than a 'Student' table.
+2. **GROUP BY Logic:** Recognizing that to count students *per course*, the grouping attribute must be 'CourseNo', not 'StudentID'.
+3. **Filtering vs. Grouping:** Distinguishing between the 'WHERE' clause (filtering for the year 2019) and the 'GROUP BY' clause (defining the buckets for the aggregate function).
+4. **Aggregate Function Application:** Understanding that 'COUNT(*)' calculates the number of rows within each formed group.
+5. **SQL Syntax Structure:** Identifying the correct sequence of SELECT, FROM, WHERE, and GROUP BY.
+6. **Distinguishing Similar Options:** Carefully reading through options A and B (table correct, grouping different) and A and C (grouping correct, table different).
+
+COUNT: 6
+
+0.65

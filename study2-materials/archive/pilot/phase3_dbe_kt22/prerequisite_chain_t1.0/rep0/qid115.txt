@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Understanding functional dependency (FD) notation (X → Y).
+2. Knowing the definition of logical entailment (Σ ⊨ f) in the context of relational databases.
+3. Ability to compute the attribute closure ($D^+$) using a given set of FDs.
+4. Multi-step reasoning: Applying the transitive property (D → B and B → C implies D → C).
+5. Understanding the decomposition rule: knowing that if D → ABC, then D → A and D → C are individually implied.
+6. Applying the union rule: confirming that D → A and D → C can be combined into D → AC.
+7. Distinguishing between a direct derivation and a logical consequence.
+8. Accurate symbolic processing: correctly mapping the letters in the FDs to the conclusion without clerical error.
+
+COUNT: 8
+
+0.65

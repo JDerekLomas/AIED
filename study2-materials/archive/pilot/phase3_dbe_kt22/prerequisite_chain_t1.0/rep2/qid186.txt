@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining DAC: Understanding that Discretionary Access Control is based on the concept of object ownership rather than centralized mandatory labels.
+2. Understanding "Discretionary": Recognizing that the "discretion" belongs to the owner of the object, not necessarily a central authority (the DBA).
+3. Distinguishing Roles: Differentiating between the privileges of a Database Administrator (DBA) and a private Object Owner.
+4. Identifying Ownership Rules: Knowing that in a standard DAC model (like the one implemented in SQL), every object must have an owner (usually the creator).
+5. Eliminating Distractors: Recognizing that Option C describes a centralized or mandatory-like control if applied to all objects, which contradicts the "discretionary" nature of individual ownership.
+6. Terminology nuances: Understanding that "full control" in Option D includes the right to grant/revoke access to others (GRANT OPTION).
+
+COUNT: 6
+
+0.65

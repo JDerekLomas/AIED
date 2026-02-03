@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of Functional Dependency (FD) equivalence (Σ1 ≡ Σ2 if and only if Σ1+ = Σ2+).
+2. Knowledge of Armstrong’s Axioms (specifically the Transitivity rule) or the attribute closure algorithm.
+3. Ability to compute the closure of attribute {A} under Σ1 ($A^+ = \{A, B, C\}$).
+4. Ability to identify that "AB → C" in Σ1 can be simplified to "A → C" because A determines B (Augmentation/Transitivity).
+5. Comparing two sets of FDs to check if each dependency in one can be derived from the other.
+6. Recognizing that Σ1 and Σ2 both imply the same set of dependencies (A → B and A → C).
+7. Distinguishing between a "minimal cover" and equivalent sets of dependencies.
+
+COUNT: 7
+
+0.65

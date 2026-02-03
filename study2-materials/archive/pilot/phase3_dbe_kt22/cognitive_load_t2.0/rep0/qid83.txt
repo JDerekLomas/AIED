@@ -1,0 +1,17 @@
+To evaluate this question, we must look at the cognitive load required to parse the query and map it to a mental model of relational data.
+
+**ELEMENTS:**
+1.  **Syntax recognition:** Understanding the `EXISTS` keyword and its purpose (boolean test).
+2.  **Correlated Subquery logic:** Recognizing that the inner query refers back to the outer table (`e.CourseNo`), requiring row-by-row evaluation.
+3.  **Relational mapping:** Understanding the relationship (Join) between `Enrol` and `Course`.
+4.  **Logical equivalence:** Realizing that `EXISTS` with a key match functions similarly to an Inner Join (filtering rows that don't have a match).
+5.  **Working memory retrieval:** Holding the counts/data of both tables in mind (though table data isn't provided here, I assume it's part of a provided schema in a typical exam context).
+6.  **Counting procedure:** Summing only the rows in `Enrol` that satisfy the foreign key constraint.
+7.  **Distinction recall:** Differentiating `EXISTS` from `IN` or a `LEFT JOIN` which might produce a different row count if there were duplicates or nulls.
+
+**ELEMENT COUNT: 7**
+
+Regarding student performance: In a typical South African undergraduate CS class (such as those at UCT, Wits, or UP), "Set Membership" and "Correlated Subqueries" are notoriously difficult for the bottom quartile. While high-performing students will instantly recognize this as a filtered count of `Enrol`, weaker students often get lost in the subquery syntax or confuse the result with a Cartesian product.
+
+Your estimate:
+0.65

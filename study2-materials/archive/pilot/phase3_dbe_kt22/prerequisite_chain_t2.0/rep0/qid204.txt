@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of the Two-Phase Locking (2PL) protocol (Growing phase vs. Shrinking phase).
+2. Recognizing the "Locking Rule" of 2PL: No new locks can be acquired once a lock has been released (the transition from Growing to Shrinking).
+3. Distinguishing between Basic 2PL and Strict/Rigorous 2PL (Knowing that releasing locks at commit is a *sufficient* but not *exclusive* condition of the general 2PL protocol).
+4. Understanding that 2PL does not require pre-declaration of locks (Static Locking), which is a separate optimization.
+5. Identifying that statement A is the fundamental definition of the "Shrinking Phase."
+6. Evaluating "All of the above" as a potential distractor by verifying the truth/falsity of B and C individually.
+7. Reading comprehension of technical constraints (can not vs. can).
+
+COUNT: 7
+
+0.55

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1.  **Reading Comprehension & Noise Filtering**: Ability to parse a dense paragraph and ignore irrelevant entities (Technicians, Equipment, Administrators) to isolate "Member" and "Fitness Class".
+2.  **Schema Interpretation (Many-to-Many logic)**: Understanding that a relationship has two directions, both of which must be evaluated to determine cardinality.
+3.  **Entity Identification (Members to Classes)**: Identifying the specific sentence "A member may choose to participate in one or more fitness classes" to determine the mapping from member to class.
+4.  **Entity Identification (Classes to Members)**: Identifying the specific sentence "Each fitness class is attended by one or more members" to determine the mapping from class to member.
+5.  **Understanding SQL/ER Cardinality Notation**: Knowing that "one or more" on both sides of a relationship results in an N:N (Many-to-Many) classification.
+6.  **Distinguishing Roles**: Distinguishing between the "Instructed by" relationship (which involves Trainers) and the "Participate/Attended by" relationship (which involves Members).
+7.  **Differentiating Relationship Instances**: Realizing that "participation" is the link between the two specific entities mentioned in the prompt, despite the complexity of "Personal Trainer" or "Associate Member" links appearing nearby.
+
+COUNT: 7
+
+0.65

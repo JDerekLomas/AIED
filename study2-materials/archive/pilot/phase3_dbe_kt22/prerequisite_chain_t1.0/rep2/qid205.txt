@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Vocabulary knowledge: Defining the "Dirty read" phenomenon (reading uncommitted data).
+2. Vocabulary knowledge: Defining the "Unrepeatable read" phenomenon (updates/deletes to existing rows).
+3. Vocabulary knowledge: Defining the "Phantom read" phenomenon (insertions affecting range queries).
+4. Conceptual distinction: Distinguishing between a change to an *existing* row (Unrepeatable) versus the appearance of a *new* row (Phantom).
+5. Technical literacy: Understanding the context of "Transaction Isolation Levels" and concurrency control.
+6. Reading comprehension: Identifying the specific trigger in the prompt ("new rows... inserted").
+7. Eliminating distractors: Recognizing "Lost update" as a write-write conflict rather than a read phenomenon.
+
+COUNT: 7
+
+0.65

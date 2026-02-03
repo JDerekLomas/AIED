@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Differentiating Entities and Attributes**: Understanding that "Technician" and "Employee" are entities, while the options provided are specific attributes within the context of those entities.
+2. **Definition of a Key Attribute**: Knowing that a key must uniquely identify every instance (row) of an entity set across the entire database.
+3. **Cardinality and Participation Interpretation**: Correctly parsing the text to identify relationship types (e.g., "An administrator... can be reached through a landline phone number" implies it is not necessarily unique to one person).
+4. **Eliminating Option A (Technician Phone)**: Recognising that while a mobile number is often unique in reality, the schema does not explicitly define it as a unique identifier for the technician entity.
+5. **Eliminating Option B (Maintenance Date)**: Reasoning that multiple maintenance events (on different equipment or by different technicians) can occur on the same day, disqualifying it as a unique key.
+6. **Eliminating Option C (Employee Name)**: Understanding the database rule that names are rarely unique identifiers (especially in a large centre) and that the text explicitly mentions "unique IDs" for employees, implying the name is not the key.
+7. **Identifying Option D (Time Slot)**: Mapping the specific business rule "No two fitness classes have the same daily time slot" to the definition of a unique constraint, which allows that attribute to serve as a key for the "Class" entity.
+8. **Synthesizing Constraints**: Realizing that the time slot's uniqueness is a hard constraint mentioned in the text, whereas other attributes lack such explicit uniqueness.
+
+COUNT: 8
+
+0.55

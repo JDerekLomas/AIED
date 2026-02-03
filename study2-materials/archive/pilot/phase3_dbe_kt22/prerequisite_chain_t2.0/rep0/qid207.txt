@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the ACID acronym and the specific meaning of each property (Atomicity, Consistency, Isolation, Durability).
+2. Knowledge of the functional roles within a Database Management System (DBMS), specifically distinguishing the Transaction Manager/Recovery Manager from the Query Processor or Concurrency Controller.
+3. Understanding the mechanism of "Logging" (Write-Ahead Logging) and its specific purpose in system recovery.
+4. Distinguishing between failures that require recovery (system crashes/aborts) vs. interference that requires locking/serialization.
+5. Identifying that "Consistency" (often conflated with Integrity in Option A) is typically a property of the schema/programmer, not just the transaction manager's log.
+6. Multi-step reasoning: Mapping the "Log" to "Recovery" and mapping "Recovery" to the restoration of partially completed transactions (Atomicity) and committed data after a crash (Durability).
+7. Avoiding the common student pitfall of associating "transactions" exclusively with "Isolation" (locking).
+
+COUNT: 7
+
+0.55

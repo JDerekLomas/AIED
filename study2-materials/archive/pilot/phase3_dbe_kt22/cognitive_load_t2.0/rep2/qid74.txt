@@ -1,0 +1,16 @@
+To evaluate this question, we must consider that the student is not given the underlying data (the `Study` table), which implies they must either have a mental model of a specific example provided in your lecture notes or understand the *logical result* based on a provided schema. Assuming a standard example table was provided in the context of this assessment:
+
+**ELEMENTS:**
+1. **SQL Syntax Recognition**: Identifying the purpose of `SELECT`, `FROM`, and `GROUP BY`.
+2. **`GROUP BY` Logic**: Understanding that the number of rows is determined by the number of unique values in the `StudentID` column, not the total row count.
+3. **Aggregate Function Behavior**: Distinguishing that `COUNT(*)` here describes the size of each group, not the number of rows in the final output.
+4. **Data Retrieval/Mapping**: Mapping the unique entities in the source table to the final result set.
+5. **Constraint Checklist**: Ensuring no `HAVING` or `WHERE` clauses are filtering the groups or source data.
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+At South African universities, many students struggle with the abstraction of "grouping." Novices often confuse `COUNT(*)` with the number of rows returned, leading them to choose a value representing the total records in the table. However, since this is a fundamental "Intro to SQL" pattern, students with even minimal programming exposure tend to recognize the "unique values" rule for `GROUP BY`.
+
+**Your estimate:**
+0.72

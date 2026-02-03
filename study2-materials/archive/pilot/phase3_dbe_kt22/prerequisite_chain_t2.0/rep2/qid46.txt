@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Formal Definition of a Superkey**: Knowing that a superkey is any set of attributes that uniquely identifies a tuple, and that any superset of a superkey is also a superkey.
+2. **Formal Definition of a Candidate Key**: Understanding that a candidate key is a *minimal* superkey (one with no proper subsets that are superkeys).
+3. **Primary Key Constraints**: Knowing that while every primary key is a candidate key, a relation can have multiple candidate keys but only one primary key, and the schema does not automatically designate any specific superset as the primary key.
+4. **Distinguishing "Must" vs. "May"**: Logical reasoning to identify that while {a,b,c} is guaranteed to be a superkey, it *cannot* be a candidate key because it is not minimal (it has a proper subset {a,b} which is already a superkey).
+5. **Schema Interpretation**: Correctly reading the notation R(a,b,c) to understand the full attribute set of the relation.
+6. **Negation Logic**: Understanding the impact of the word "not" in the multiple-choice options (Option B vs. a hypothetical positive statement).
+
+COUNT: 6
+
+0.55

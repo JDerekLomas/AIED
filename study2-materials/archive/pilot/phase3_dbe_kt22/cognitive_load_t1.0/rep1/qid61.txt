@@ -1,0 +1,17 @@
+As an instructor, I would evaluate this question as having relatively low element interactivity, as it primarily tests **recognition** and **syntax discrimination** rather than complex multi-step logic or relational algebra.
+
+However, for a diverse undergraduate cohort, the "interference" between similar-sounding keywords (DELETE vs. DROP) and the specific syntax requirements of SQL increases the load slightly for those without strong mental models of the DDL (Data Definition Language) vs. DML (Data Manipulation Language) distinction.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Distinguishing between removing the *data* (tuples) and removing the *structure* (the table itself).
+2.  **SQL Syntax Rules (DML):** Recalling the correct structure for the `DELETE` command (requires the `FROM` keyword).
+3.  **SQL Syntax Rules (DDL):** Recalling the correct structure for the `DROP` command (requires the `TABLE` keyword).
+4.  **Logical Discrimination:** Evaluating each distractor against the requirement of "deleting all tuples" while keeping the relation (R) intact.
+5.  **Distinction between similar concepts:** Differentiating `DELETE FROM` (DML) from `DROP TABLE` (DDL).
+
+**ELEMENT COUNT: 5**
+
+In a South African university context, students with strong backgrounds will find this trivial. However, students struggling with the English-like syntax of SQL often confuse `DELETE` and `DROP`, or assume `DELETE TABLE` is valid syntax because it sounds logically consistent. Given the range of abilities described, I estimate a high, but not perfect, success rate.
+
+Your estimate:
+0.72

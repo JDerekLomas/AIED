@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($A \rightarrow BC$).
+2. Identifying the candidate key(s) of a relation from a set of FDs (recognizing that $A$ is the sole candidate key because its closure includes all attributes).
+3. Distinguishing between "prime" and "non-prime" attributes ($A$ is prime; $B, C$ are non-prime).
+4. Recalling the formal definition of Third Normal Form (3NF): for every non-trivial FD $X \rightarrow Y$, $X$ must be a superkey OR $Y$ must be prime.
+5. Recalling the formal definition of Boyce-Codd Normal Form (BCNF): for every non-trivial FD $X \rightarrow Y$, $X$ must be a superkey.
+6. Evaluating the given FD against the 3NF definition (A is a superkey, so it passes).
+7. Evaluating the given FD against the BCNF definition (A is a superkey, so it passes).
+8. Logic integration: Recognizing that BCNF is stricter than 3NF, so if it satisfies BCNF, it must satisfy 3NF.
+9. Distinguishing between the options to map the result to the correct letter.
+
+COUNT: 9
+
+0.65

@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding the definition of a "prime attribute" (an attribute that is a member of at least one candidate key).
+2. Knowledge of how to calculate the closure of an attribute set ($X^+$) under a given set of functional dependencies ($\Sigma$).
+3. Understanding the definition of a "candidate key" (a minimal superkey).
+4. Ability to identify all candidate keys for a relation, not just the first one found.
+5. Multi-step reasoning: 
+   - Testing $\{A\}^+$ to find it determines $\{A, B, C\}$, making $A$ a candidate key.
+   - Testing $\{B\}^+$ to find it determines $\{A, B, C\}$, making $B$ a candidate key.
+   - Testing $\{C\}^+$ to find it determines $\{A, B, C\}$, making $C$ a candidate key.
+6. Synthesizing the results: Since $A$, $B$, and $C$ are each members of at least one candidate key, they are all prime.
+7. Distinguishing between "prime attributes" and "primary key" (students often mistakenly think only the attributes in the *chosen* primary key are prime).
+
+COUNT: 7
+
+0.65

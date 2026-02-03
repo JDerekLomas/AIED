@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Reading Comprehension (English as a First/Second Language):** Correctly parsing the dense narrative to isolate relevant facts from "noise" (e.g., equipment status or technician phone numbers).
+2. **Identification of Entity Types:** Recognizing "Member" and "Fitness Class" as the specific entities involved in the relationship.
+3. **Definition of "Participation Constraint":** Understanding that this refers to whether every instance of an entity must participate in at least one instance of the relationship (Total vs. Partial).
+4. **Relational Analysis:** Locating the specific sentence: "A member **may** choose to participate in one or more fitness classes..."
+5. **Differentiating "May" vs. "Must":** Recognizing that "may" implies optionality (0 or more), whereas "must" or "at least one" implies mandatory participation.
+6. **Mapping to Terminology:** Mapping the concept of "optional participation" to the term "Partial" and "mandatory participation" to "Total".
+7. **Avoiding "Red Herrings":** Not being confused by the participation of the *other* side of the relationship ("Each fitness class is attended by one or more members," which is Total).
+8. **Logical Focus:** Ignoring the "Personal Trainer" or "Associate Member" relationships which also involve the Member entity.
+
+COUNT: 8
+
+0.65

@@ -1,0 +1,18 @@
+As a university instructor, I would classify this question as a relatively low interactivity task, primarily focusing on **recall** and **differentiation** rather than procedural application.
+
+In the South African undergraduate context, where many students rely on rote learning from textbooks (like Silberschatz or Elmasri & Navathi), this question tests their ability to distinguish MAC from Discretionary Access Control (DAC) and Role-Based Access Control (RBAC).
+
+**ELEMENTS:**
+1.  **Recall of Definition (MAC):** Remembering that MAC is based on system-wide policies and sensitivity labels.
+2.  **Recall of Definition (DAC):** Identifying that owner-determined access (Option B) and GRANT/REVOKE (Option C) define DAC, allowing for the elimination of those choices.
+3.  **Recall of Definition (RBAC):** Identifying that "assigning roles" (Option D) relates specifically to RBAC.
+4.  **Categorization:** Linking "levels of security" (Classification) to the "Mandatory" nature of the model.
+5.  **Technical Distinction:** Distinguishing between an "Object Owner" (decentralized) and a "System Administrator/Policy" (centralized/MAC).
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+While the interactivity is low (students don't need to perform a procedure), the common hurdle for South African CS undergraduates in this specific module is often English proficiency versus technical jargon. Stronger students will immediately identify "classify" as a MAC keyword. Weaker students often confuse MAC and DAC because they perceive "GRANT" commands (Option C) as "mandatory" steps for security. However, since this is a standard multiple-choice definition question, the success rate is usually high after a lecture on security.
+
+**Your estimate:**
+0.72

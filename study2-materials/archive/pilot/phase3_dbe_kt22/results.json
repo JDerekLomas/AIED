@@ -1,0 +1,66 @@
+{
+  "prerequisite_chain_t1.0": {
+    "framing": "prerequisite_chain",
+    "temperature": 1.0,
+    "spearman_rho": 0.519,
+    "spearman_p": 6.02e-13,
+    "ci_95": [
+      0.399,
+      0.628
+    ],
+    "mae": 0.164,
+    "bias": -0.109,
+    "n_items": 168,
+    "n_api_calls": 504,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "prerequisite_chain_t2.0": {
+    "framing": "prerequisite_chain",
+    "temperature": 2.0,
+    "spearman_rho": 0.531,
+    "spearman_p": 1.25e-13,
+    "ci_95": [
+      0.411,
+      0.64
+    ],
+    "mae": 0.159,
+    "bias": -0.103,
+    "n_items": 168,
+    "n_api_calls": 504,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "cognitive_load_t1.0": {
+    "framing": "cognitive_load",
+    "temperature": 1.0,
+    "spearman_rho": 0.445,
+    "spearman_p": 1.55e-09,
+    "ci_95": [
+      0.315,
+      0.564
+    ],
+    "mae": 0.153,
+    "bias": -0.077,
+    "n_items": 168,
+    "n_api_calls": 489,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  },
+  "cognitive_load_t2.0": {
+    "framing": "cognitive_load",
+    "temperature": 2.0,
+    "spearman_rho": 0.475,
+    "spearman_p": 7.44e-11,
+    "ci_95": [
+      0.353,
+      0.591
+    ],
+    "mae": 0.152,
+    "bias": -0.078,
+    "n_items": 168,
+    "n_api_calls": 487,
+    "n_parse_failures": 0,
+    "parse_rate": 1.0
+  }
+}

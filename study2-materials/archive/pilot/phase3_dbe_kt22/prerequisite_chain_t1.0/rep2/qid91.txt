@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition and purpose of an Entity-Relationship (ER) diagram as a conceptual modeling tool rather than a physical implementation tool.
+2. Recognizing specific ER notations (e.g., underlining an attribute) and knowing they represent a Primary Key.
+3. Distinguishing between conceptual constraints (ER level) and implementation-level constraints (Relational level), specifically knowing that Foreign Keys are an implementation detail of the relational model used to represent relationships, but are not explicitly drawn as "FK" attributes in standard ER diagrams.
+4. Understanding the definition of a Domain Constraint (data types/ranges) and recognizing that standard ER diagrams do not typically visualize these.
+5. Multi-step reasoning: Evaluating each option against the visual limitations of the ER model.
+6. Avoiding the common "relational bias" where students assume everything in a table (like a Foreign Key) is also explicitly named in an ER diagram.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recalling the definition of logical entailment ($\Sigma \models X \to Y$) in the context of Functional Dependencies.
+2. Understanding the Syntax of Armstrong's Axioms (specifically the Transitive Rule).
+3. Applying the attribute closure algorithm ($A^+$) to the given set $\Sigma$.
+4. Evaluating the first dependency ($A \to B$).
+5. Evaluating the second dependency ($B \to C$).
+6. Maintaining the logical chain ($A \to B$ and $B \to C$ implies $A \to C$) in working memory while ignoring the distractor ($D \to ABC$).
+
+ELEMENT COUNT: 6
+
+At a South African university, this is a foundational "easy" question in normalization theory. Students with weak backgrounds may struggle with the notation ($\Sigma \models$), but most will recognize the Transitive Rule intuitively. The correct answer rate is typically high because even without formal closure steps, the logic is linear.
+
+0.78

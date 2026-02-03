@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of SQL injection (manipulating a query via untrusted user input).
+2. Distinguishing between dynamic SQL built from user-controlled variables (Request.form) versus hard-coded local variables.
+3. Reading and tracing basic JavaScript/pseudo-code logic (variable assignment).
+4. Recognizing the role of string concatenation (`+`) in constructing SQL statements.
+5. Identifying that Choice B is a static string with no variables.
+6. Identifying that Choice C, while using concatenation, uses a hard-coded literal rather than external input.
+7. Understanding that the `Request.form` object in Choice A represents external, unvalidated user input.
+8. Evaluating "None of the above" as a potential distractor and rejecting it.
+
+COUNT: 8
+
+0.65

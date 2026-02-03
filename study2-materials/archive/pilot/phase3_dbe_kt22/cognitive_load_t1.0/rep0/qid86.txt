@@ -1,0 +1,18 @@
+In order to evaluate this question, we must first note that the student cannot answer it without the schema and data for the `Course` and `Enrol` tables (which are implied but missing from your prompt). Assuming the standard textbook context for this problem, here is the analysis:
+
+**ELEMENTS:**
+1.  **SQL Keyword Syntax:** Recalling the function of `SELECT *`, `FROM`, and `WHERE`.
+2.  **Table Relationships:** Identifying the Primary Key/Foreign Key link between `Course` and `Enrol` via `CourseNo`.
+3.  **Subquery Execution:** Understanding that the inner query executes in the context of the outer query (correlated subquery).
+4.  **Logical Operator (`NOT EXISTS`):** Understanding the inverse logic—the query returns rows from `Course` that have *no* corresponding entries in `Enrol`.
+5.  **Schema Interpretation:** Counting the number of columns in the `Course` table (since `SELECT *` is used on the outer table).
+6.  **Set Comparison/Filtering:** Mentally cross-referencing the `CourseNo` values in both tables to identify "orphaned" rows.
+7.  **Output Formatting:** Distinguishing between the count of rows (the result set size) versus the count of columns (the degree of the relation).
+
+**ELEMENT COUNT: 7**
+
+**RATIONALE:**
+This is a high-interactivity task. Students often struggle with `NOT EXISTS` because it requires "negative logic" and a conceptual understanding of correlated subqueries, which is more cognitively demanding than a simple `JOIN`. In a South African undergraduate context, many students will correctly identify the number of columns but will fail to correctly filter the rows, often confusing `NOT EXISTS` with an `INNER JOIN` or failing to track the state of the data across both tables.
+
+Your estimate:
+0.55

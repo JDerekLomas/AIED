@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Identifying the join type: Understanding that "FROM Course, Enrol" combined with a WHERE equality clause constitutes an Inner Join.
+2. Cross-product visualization: Knowing the query conceptually filters the Cartesian product of the two tables.
+3. Schema reading: Identifying which table contains the "Year" attribute and correctly mapping "CourseNo" as the linking key.
+4. Filtering logic: Correct application of the "Year = 2018" condition to the Enrol table.
+5. Join condition application: Matching rows where the CourseNo exists in both the filtered Enrol set and the Course table (referential integrity check).
+6. Distinguishing result sets: Understanding that the question asks for the number of rows in the result, not the number of columns or a specific sum of values.
+7. Counting accuracy: Performing the final tally of rows that satisfy both the join condition and the filter.
+8. Handling ambiguity: Recognizing that without seeing the actual data in the tables (which are implied but not provided in your prompt), the student must rely on a provided diagram or dataset they were given in class/exam context.
+
+COUNT: 8
+
+0.65

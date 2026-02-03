@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying that the comma syntax in the FROM clause represents a Cross Join (Cartesian Product).
+2. Recalling the specific mathematical rule for a Cartesian Product: multiplying the number of rows in the first table by the number of rows in the second table.
+3. Correctly counting the number of rows in the "Course" table from the provided schema/diagram (implicitly 7 or 4 based on typical problem structures like this).
+4. Correctly counting the number of rows in the "Enrol" table from the provided schema/diagram (implicitly 4 or 7).
+5. Avoiding the common misconception that the query performs a Natural Join or Inner Join (which would require matching keys and likely yield fewer rows).
+6. Basic multiplication of the two totals.
+7. Reading the schema/data accurately without skipping rows or confusing columns for rows.
+
+COUNT: 7
+
+0.55

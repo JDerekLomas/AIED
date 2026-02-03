@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the hierarchical relationship between normal forms (knowing that BCNF is "stronger" or "stricter" than 3NF).
+2. Distinguishing between "eliminating" and "minimizing" redundancy (recognizing that 3NF allows certain functional dependencies, like $X \rightarrow A$ where $A$ is prime, which can still result in redundancy).
+3. Recalling the specific definition of 3NF (specifically the third condition regarding prime attributes).
+4. Recalling the definition of BCNF (every determinant must be a superkey).
+5. Interpreting technical distractors (identifying that "more restrictive" in option A is the inverse of the actual relationship).
+6. Evaluating absolute vs. relative claims (recognizing that 3NF is a compromise form compared to the stricter BCNF).
+
+COUNT: 6
+
+0.55

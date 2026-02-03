@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Recall the definition of a Super Key (SK) (attribute set whose closure contains all attributes in R).
+2. Recall the procedure for computing an attribute closure (Armstrong’s Axioms/Closure Algorithm).
+3. Identify the initial set for the closure: {A}.
+4. Evaluate FD 1: A → B (A contains A, so add B; current set {A, B}).
+5. Evaluate FD 2: B → C (Current set contains B, so add C; current set {A, B, C}).
+6. Evaluate FD 3: D → ABC (Current set does not contain D; cannot add attributes).
+7. Compare final closure {A, B, C} against the full relation schema R {A, B, C, D}.
+8. Identify the missing attribute (D) to determine the truth value.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.65

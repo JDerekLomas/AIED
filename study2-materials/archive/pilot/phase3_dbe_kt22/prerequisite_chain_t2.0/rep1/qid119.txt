@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Knowledge of the definition of equivalence for sets of Functional Dependencies (FDs) (Σ1 ≡ Σ2 iff Σ1 covers Σ2 AND Σ2 covers Σ1).
+2. Understanding the "Closure of a Set of Attributes" algorithm ($X^+$).
+3. Proficiency in applying Armstrong’s Axioms or the attribute closure algorithm to test if a specific FD ($X \to Y$) is implied by a set $\Sigma$.
+4. Specific skill: Realizing that in Σ1, $\{A\}^+ = \{A, B, C\}$ because $A \to B$ and $\{A, B\} \to C$.
+5. Specific skill: Realizing that in Σ2, $\{A\}^+ = \{A, B, C\}$ because $A \to B$ and $B \to C$ (transitivity).
+6. Multi-step reasoning: Systematically checking all FDs in Σ1 against Σ2, and then checking all FDs in Σ2 against Σ1.
+7. Distinguishing between "implies" and "equivalent": Recognizing that even if $A \to C$ is true in both, every single FD in one set must be derivable from the other.
+8. Accurate execution: Avoiding a manual error when computing $A \to C$ or $AB \to C$ under the different sets.
+
+COUNT: 8
+
+0.65

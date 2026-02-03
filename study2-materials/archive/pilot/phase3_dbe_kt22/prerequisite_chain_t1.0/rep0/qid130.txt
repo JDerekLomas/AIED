@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependencies (FDs):** Interpreting the notation $A \to B$ and $B \to C$ as constraints where the value of one attribute determines another.
+2. **Knowledge of Lossless Join Condition (Heath’s Theorem / Intersection Rule):** Recognizing that for a decomposition $(R_1, R_2)$ to be lossless, the intersection $R_1 \cap R_2$ must be a superkey for at least one of the schemas ($R_1$ or $R_2$).
+3. **Set Intersection Skills:** Correct identifying that $R_1 \cap R_2 = \{B\}$.
+4. **Key Identification within Projections:** Determining that $B$ is a key for $R_2$ (because $B \to C$ is a given FD) or that $A$ is the key for $R_1$, and checking if the intersection matches.
+5. **Knowledge of Dependency Preservation:** Understanding that a decomposition is dependency-preserving if the union of the closures of the FDs in the projected relations covers the original set of FDs ($\Sigma$).
+6. **FD Projection:** Identifying that $A \to B$ is preserved in $R_1$ and $B \to C$ is preserved in $R_2$.
+7. **Logical Synthesis:** Concluding that since all original FDs ($A \to B$ and $B \to C$) are directly contained within the individual schemas, the decomposition is dependency-preserving.
+8. **Distinguishing Properties:** Ability to evaluate two distinct criteria (Lossless vs. Preserving) independently and match the combination to the correct multiple-choice option.
+
+COUNT: 8
+
+0.65

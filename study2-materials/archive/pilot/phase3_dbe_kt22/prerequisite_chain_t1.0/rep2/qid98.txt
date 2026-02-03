@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Definition of a Key Attribute**: Understanding that a key must uniquely identify every instance of an entity set without exception or duplication.
+2. **Entity-Attribute Mapping**: Identifying which entities (Technician, Maintenance, Employee, Class) the proposed attributes belong to based on the narrative.
+3. **Disambiguation of "Phone Number"**: Recognizing that while a mobile number (Technician) might be unique in practice, it is not defined as a unique identifier in the text, unlike the "unique ID" mentioned for employees.
+4. **Temporal Logic (Maintenance Date)**: Realizing a date cannot be a key for a maintenance event because a technician could maintain multiple pieces of equipment on one day, or one piece could be maintained on different dates.
+5. **Schema Constraints (Time Slot)**: Identifying the specific constraint in the text stating "No two fitness classes have the same daily time slot," which elevates "Time Slot" to a unique identifier for the "Fitness Class" entity.
+6. **Distinguishing "Name"**: Recognizing that "Name" is rarely a key in database contexts because multiple employees can share a name, and the text explicitly provides a "unique ID" for employees.
+7. **Textual Analysis/Reading Comprehension**: Filtering through a dense narrative to find specific business rules that override general real-world assumptions.
+
+COUNT: 7
+
+0.55

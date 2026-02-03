@@ -1,0 +1,18 @@
+To evaluate this question, we must first assume the students have been provided with a specific schema and instance (table data), as "How many rows/columns" cannot be answered without seeing the underlying data for `Course` and `Enrol`. Assuming a standard textbook scenario where `Course` has 3 columns and there is 1 course with no matching enrollments:
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Identifying that `SELECT *` refers to the columns of the table in the `FROM` clause of the outer query (`Course`).
+2.  **Column Counting:** Correctlly identifying the degree (number of columns) of the `Course` table from the provided schema.
+3.  **Understanding `SELECT *` in Subqueries:** Realizing that the `*` inside an `EXISTS` subquery does not affect the output columns of the main query.
+4.  **Correlated Subquery Logic:** Understanding that the subquery executes for each row of the outer table `c`.
+5.  **`NOT EXISTS` Semantics:** Understanding that the predicate evaluates to true only if the subquery returns an empty set.
+6.  **Join/Relationship Mapping:** Correcting identifying which rows in `Course` do not have a corresponding foreign key match in `Enrol`.
+7.  **Differentiating Rows vs. Columns:** Not reversing the coordinates (standard (R, C) format).
+8.  **Aliasing awareness:** Recognizing `c` and `e` as table aliases to follow the join condition.
+
+**COUNT: 8**
+
+**Educational Context (South Africa):** 
+In a typical diverse South African undergraduate cohort (e.g., UCT, Wits, or UP), the "NOT EXISTS" operator is often a significant hurdle. Students frequently confuse `NOT EXISTS` with `NOT IN` or incorrectly assume that a `SELECT *` in a subquery somehow joins those columns to the result set. While the top tier will find this trivial, the broad middle-to-lower tail of the class often struggles with nested predicate logic and schema reading simultaneously.
+
+0.55

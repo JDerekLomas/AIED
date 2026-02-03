@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: Characteristics of a weak entity type (existence dependency and lack of a primary key/partial key requirement).
+2. Distinction: Distinguishing between a weak entity and a multi-valued attribute (Speciality).
+3. Distinction: Distinguishing between a weak entity and a lookup table/attribute domain (Equipment status).
+4. Table relationship: Identifying the "owner" entity for Associate members (Member).
+5. Table relationship: Identifying the "owner" entity for Fitness classes (Centre/Schedule) and evaluating its identifier (Time slot).
+6. Constraint evaluation: Processing the "associate number (1, 2, ...)" as a discriminator (partial key) rather than a global unique ID.
+7. Logical condition: Analyzing the 1:N relationship between Member and Associate Member to confirm existence dependency.
+8. Distinguishing between strong entities with unique identifiers (Fitness Class has a unique time slot) vs. weak entities.
+
+ELEMENT COUNT: 8
+
+0.65

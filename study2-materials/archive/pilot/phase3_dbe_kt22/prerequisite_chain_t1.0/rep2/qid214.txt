@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Knowledge of SQL transaction control language (TCL) syntax and the specific function of the `COMMIT` command.
+2. Understanding the concept of "atomicity" and transaction boundaries (when a transaction formally ends).
+3. Distinguishing between an active transaction and a terminated transaction.
+4. Recognizing that a `ROLLBACK` command following a `COMMIT` has no state to revert because the transaction has already been persisted to the database.
+5. Identifying the sequential execution of SQL statements (multi-step reasoning).
+6. Resisting the intuitive/linguistic trap that "Rollback" always "undoes" something, regardless of its placement.
+
+COUNT: 6
+
+0.55

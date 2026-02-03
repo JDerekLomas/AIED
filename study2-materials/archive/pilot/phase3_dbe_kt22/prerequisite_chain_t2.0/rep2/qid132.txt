@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. **Parsing Formal Notation**: Understanding that R represents the universal relation and Σ represents the set of Functional Dependencies (FDs).
+2. **Identifying Primary Keys/Candidate Keys**: Recognizing that in R, A is the key (as A determines B and B determines C).
+3. **Lossless Join Rule (Binary Decomposition)**: Knowing that for a decomposition $(R_1, R_2)$ to be lossless, $R_1 \cap R_2$ must be a superkey for at least one of the relations ($R_1$ or $R_2$).
+4. **Applying Intersection**: Identifying that $R_1 \cap R_2 = \{B\}$.
+5. **Functional Dependency Lookup**: Verifying if $B \to (R_1 - R_2)$ or $B \to (R_2 - R_1)$ holds using the given $\Sigma$. In this case, checking if $B \to A$ or $B \to C$.
+6. **Determining Lossless Join**: Correctly identifying that $B \to C$ is in $\Sigma$, thus the intersection $\{B\}$ is a key for $R_2$, making the join lossless.
+7. **Dependency Preservation Definition**: Knowing that all original FDs ($A \to B, B \to C, A \to C$) must be "covered" by the projection of $\Sigma$ onto $R_1$ and $R_2$.
+8. **Mapping FDs to Sub-schemas**: Assigning $A \to B$ to $R_1$ and $B \to C$ to $R_2$.
+9. **Transitive Reasoning**: Realizing that $A \to C$ is preserved via transitivity $(A \to B, B \to C)$ through the local dependencies, or knowing the closure $(F_1 \cup F_2)^+ = \Sigma^+$.
+10. **Final Synthesis**: Correlating both true outcomes (lossless AND preserving) to Option A.
+
+COUNT: 10
+
+0.55

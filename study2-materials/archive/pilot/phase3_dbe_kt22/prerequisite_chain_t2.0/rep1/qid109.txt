@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Recall of the formal definition of a Functional Dependency (FD) ($X \to Y$).
+- Understanding the definition of a **Trivial FD** (the right-hand side is a subset of the left-hand side, $Y \subseteq X$).
+- Proficiency in reading FD notation (attribute sets and the arrow symbol).
+- Set inclusion reasoning (identifying that $\{Z\}$ is a subset of $\{X, Y, Z\}$).
+- Distinguishing between "Trivial" and "Non-trivial" (specifically avoiding the misconception that $X \to YZ$ is trivial if it contains one shared attribute).
+- Identifying that $XY \to XYZ$ is equivalent to $XY \to Z$ in context, and recognizing $XY \subset XYZ$ makes it non-trivial/augmented.
+- Systematic elimination of distractors based on subset rules.
+
+COUNT: 7
+
+0.65

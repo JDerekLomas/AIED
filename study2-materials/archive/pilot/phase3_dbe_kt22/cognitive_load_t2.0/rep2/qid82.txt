@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Knowledge: Understanding that `FROM TableA, TableB` without an explicit JOIN keyword results in a Cartesian Product before filtering.
+2. Relational Mapping: Identifying the foreign key relationship between the `Course` and `Enrol` tables via the `CourseNo` attribute.
+3. Schema Data Extraction: Recalling or looking up the number of rows in the `Course` table and the `Enrol` table.
+4. Logical Filter 1: Evaluating the Equi-join condition (`Course.CourseNo = Enrol.CourseNo`).
+5. Logical Filter 2: Evaluating the filter condition (`Year = 2018`).
+6. Composite Reasoning: Holding the intermediate result of the join in memory while applying the secondary year constraint.
+7. Quantitative Tracking: Counting or calculating the final row total after both filters are applied to the combined set.
+
+ELEMENT_COUNT: 7
+
+Your estimate:
+0.65

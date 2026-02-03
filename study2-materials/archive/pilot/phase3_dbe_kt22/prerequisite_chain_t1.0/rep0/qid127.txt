@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a "prime attribute" (an attribute that is part of at least one candidate key).
+2. Understanding the definition of a "candidate key" (a minimal superkey).
+3. Ability to compute the closure of an attribute or set of attributes under a given set of functional dependencies (e.g., $A^+ = \{A, B, C\}$).
+4. Identifying multiple candidate keys within a single relation (recognizing that $A \to B \to C \to A$ creates a cycle).
+5. Determining that $A$, $B$, and $C$ are each individually candidate keys for $R$.
+6. Logical synthesis: If $A, B, C$ are all candidate keys, then every attribute in the relation is part of a candidate key.
+7. Distinguishing between a "primary key" (often singular in student minds) and "prime attributes" (which relate to all potential candidate keys).
+
+COUNT: 7
+
+0.65

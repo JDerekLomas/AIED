@@ -1,0 +1,17 @@
+In the context of a typical South African undergraduate CS cohort, this question presents a high level of element interactivity because it requires mental execution of a correlated subquery, which is often a threshold concept for students.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of the `SELECT *` and the subquery nesting.
+2.  **Table Relationships:** Identifying the Primary Key/Foreign Key link between `Course` and `Enrol` via `CourseNo`.
+3.  **Definition Recall:** Knowing what `NOT EXISTS` specifically checks for (the absence of a returned set).
+4.  **Logical Evaluation (Correlation):** Understanding that for *each* row in `Course`, the subquery is re-evaluated.
+5.  **Schema State (Working Memory):** Holding the specific row counts and column counts of the source tables (which are implied to be provided in an accompanying diagram or snippet) in mind.
+6.  **Set Difference Logic:** Mentally mapping "Courses with no enrollments" to the final count.
+7.  **Result Set Dimensions:** Distinguishing between the row count (filtered) and the column count (inherited from the `Course` table schema).
+
+**ELEMENT COUNT: 7**
+
+While many students grasp `SELECT *`, the `NOT EXISTS` operator combined with a correlated subquery usually causes significant cognitive load. Students often confuse it with a `JOIN` or fail to track the column count of the outer table correctly.
+
+**Your estimate:**
+0.55

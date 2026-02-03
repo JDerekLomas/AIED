@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Differentiating ERDs from Relational Constraints**: Understanding that standard ER diagrams excel at representing structural relationships and cardinalities, but lack built-in notation for "Check Constraints" (range checks like date comparisons) or "Business Rules" (periodic frequencies).
+2. **Cardinality Interpretation (The "Only One" rule)**: Knowing that "instructed by only one trainer" is a 1:N relationship representable via crow’s foot or Chen notation.
+3. **Participation Constraints (The "Not All" rule)**: Knowing that "not all trainers deliver fitness classes" represents partial participation (optionality), typically shown by a circle or a 0 on the relationship line.
+4. **Identification of Domain/Check Constraints**: Identifying that "start date before end date" is a data validation rule, not a structural entity/relationship component.
+5. **Identification of Temporal/Frequency Rules**: Recognizing that "at least twice a year" is a complex temporal constraint that cannot be captured by static ER diagram notation.
+6. **Distinguishing Attribute Types vs. Value Constraints**: Understanding that while an ERD can show an attribute (e.g., status), it typically does not visualize the specific restricted list of allowed string values (new, working, broken) as a structural component.
+7. **Mapping Natural Language to Notation**: Ability to translate the phrase "instructed by only one trainer" and "not all trainers" into the specific combination of cardinality and participation that ERDs are designed to hold.
+
+COUNT: 7
+
+0.55

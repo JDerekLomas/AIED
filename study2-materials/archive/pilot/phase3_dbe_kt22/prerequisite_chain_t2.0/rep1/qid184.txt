@@ -1,0 +1,10 @@
+PREREQUISITES:
+1. **Differentiating DDL/DML vs. DCL**: Identifying that `GRANT` and `REVOKE` are the keywords for privilege management (discarding A and C as valid syntax for the *act* of avoiding cascading during a removal).
+2. **Knowledge of SQL Syntax for REVOKE**: Knowing the standard clauses available in a `REVOKE` statement (specifically `RESTRICT` and `CASCADE`).
+3. **Understanding Cascade Semantics**: Knowing that `CASCADE` (Option D) performs the exact opposite of what the question asks—it propagates the revocation.
+4. **Understanding Restrict Semantics**: Recognizing that the `RESTRICT` keyword is the specific mechanism used to prevent/abort a revoke operation if it would lead to a cascading effect.
+5. **Instructional Literacy**: Discerning that the "GRANT" options provided are distractor syntaxes not found in standard SQL (no cascade/no restrict clauses).
+
+COUNT: 5
+
+0.65

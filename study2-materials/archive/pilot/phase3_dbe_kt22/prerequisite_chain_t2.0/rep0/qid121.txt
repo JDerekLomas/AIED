@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding functional dependency (FD) notation ($X \to Y$).
+2. Defining a "Minimal Cover" (standard definition: singleton right-hand sides, no redundant dependencies, no redundant attributes in left-hand sides).
+3. Applying the concept of "Equivalence of FD sets" (testing if $\Sigma_1^+ = \Sigma_2^+$).
+4. Knowing that for $\Sigma_2$ to be a cover of $\Sigma_1$, every dependency in $\Sigma_1$ must be derivable from $\Sigma_2$ using Armstrong's Axioms.
+5. Computing attribute closures (specifically $A^+$ under $\Sigma_2$) to check if $A \to C$ holds in $\Sigma_2$ (Transitivity).
+6. Distinguishing between a "Cover" and a "Minimal Cover" (the definition of a minimal cover requires the set to be equivalent to the *original* set).
+7. Identifying redundancy in the source set (recognizing that in $\Sigma_1$, the $B$ in $AB \to C$ is extraneous because $A \to B$ is present).
+8. Performing multi-step logical inference: Check if $\Sigma_2$ covers $\Sigma_1$, then check if $\Sigma_1$ covers $\Sigma_2$, then check minimality criteria.
+9. Recognizing that while $\Sigma_1$ and $\Sigma_2$ are equivalent, the question asks if $\Sigma_2$ is a minimal cover *of* $\Sigma_1$, which is a specific relationship test.
+
+COUNT: 9
+
+0.55

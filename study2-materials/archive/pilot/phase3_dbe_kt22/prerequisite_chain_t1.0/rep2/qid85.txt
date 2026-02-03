@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. Ability to read and interpret a relational schema (identifying table names and column relationships).
+2. Understanding the `SELECT *` syntax (knowing it retrieves all columns from the target table).
+3. Understanding the `WHERE ... IN` clause (set membership logic).
+4. Understanding subqueries (executing the inner query first to provide a list of values to the outer query).
+5. Understanding table aliasing (`e` for Enrol, `c` for Course) and dot notation.
+6. Ability to perform an implicit join or "lookup" logic between the `CourseNo` in the Course table and the `CourseNo` in the Enrol table.
+7. Accurate counting of matching records from the provided data instance (data scanning).
+8. Distinguishing between the number of columns and the number of rows (cardinality).
+9. Recognizing that string literals in SQL are case-sensitive or exact matches (matching ‘Relational Databases’ exactly).
+
+COUNT: 9
+
+0.65

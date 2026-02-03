@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding the definition of a Candidate Key (CK):** Knowing that a CK must satisfy both uniqueness (its closure contains all attributes) and minimality (no proper subset is a superkey).
+2. **Computing Attribute Closures ($X^+$):** Ability to apply Armstrong’s Axioms or the closure algorithm to determine $A^+$ and $AB^+$.
+3. **Recognizing Redundancy in Dependencies:** Realizing that while $AB \rightarrow C$ is given, if $A \rightarrow B$, then $A \rightarrow AB$, and thus $A \rightarrow C$ (transitivity).
+4. **Testing for Minimality:** Determining if $A$ is a key, then evaluating if $AB$ can be a "Candidate" key or if it is merely a Superkey (since $A \subset AB$).
+5. **Logic/Quantifier Precision:** Correctly interpreting "the only" in the statement; identifying that even if $A$ is a CK, one must verify no other individual attributes ($B$ or $C$) or combinations ($BC$) are also CKs.
+6. **Handling Extraneous Attributes:** Identifying that $B$ in $\{A, B\}$ is redundant for functional determination because $A$ already determines $B$.
+
+COUNT: 6
+
+0.65

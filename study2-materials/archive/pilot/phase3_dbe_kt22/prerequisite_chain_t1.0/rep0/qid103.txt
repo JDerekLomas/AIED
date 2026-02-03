@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading comprehension: Filtering out a large volume of "noise" (attributes for members, administrators, technicians, equipment, and associate members) to locate the specific sentence regarding trainers and classes.
+2. Domain modeling: Identifying the specific sentence "Each fitness class is ... instructed by only one trainer" to determine the participation of the "fitness class" side of the relationship.
+3. Domain modeling: Identifying the sentence "Each trainer has one or more specialities" and "Not all trainers deliver fitness classes" while inferring that a trainer *can* instruct multiple classes (even if not explicitly stated, it is the standard database modeling assumption when not restricted to 'only one').
+4. Technical terminology: Understanding the specific meaning of "cardinality ratio" (1:1, 1:N, N:N).
+5. Mapping rules: Knowing that if one trainer can lead many classes, but each class has only one trainer, the ratio is 1:N.
+6. Distinguishing entities: Not confusing the "personal trainer" relationship (Member to Trainer) with the "instructed by" relationship (Fitness Class to Trainer).
+7. Directionality: Correcting for the order of terms ("trainer" to "fitness class") to ensure the 1 is on the trainer side and the N is on the class side.
+
+COUNT: 7
+
+0.65

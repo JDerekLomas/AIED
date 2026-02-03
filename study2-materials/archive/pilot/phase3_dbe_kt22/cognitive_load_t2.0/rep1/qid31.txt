@@ -1,0 +1,16 @@
+In the context of a database systems course, this question evaluates the formal foundation of relational algebra and set theory. While the syntax is basic, the "category error" buried in the logic makes the interactivity higher than a simple recall task.
+
+**ELEMENTS:**
+1.  **Set Definition Recall:** Identifying the contents of sets $A, B, C, D$.
+2.  **Cartesian Product Definition:** Recalling that $A \times B$ results in a set of **ordered pairs** $(x, y)$, not individual atoms.
+3.  **Subset Operator Rule:** Recalling that $X \subseteq Y$ requires every member of $X$ to be a member of $Y$.
+4.  **Type-Checking/Constraint Validation:** Recognizing the structural mismatch (Element $1$ vs. Tuple $(1, a)$).
+5.  **Evaluation of logical condition:** Applying the membership test across these different structural types.
+6.  **Distinction between "Value" and "Structure":** Understanding that while the number $1$ is in $A$, it cannot be an element of $A \times B$.
+
+**ELEMENT COUNT:** 6
+
+**Pedagogical Note:** This is a "trap" question. Students with a superficial understanding will see the numbers 1 and 2 in $A$ and assume they must be in any product involving $A$. Students with strong discrete math backgrounds will immediately spot the type mismatch. In a mixed-ability cohort at a South African university, many students struggle with the abstraction of Relational Algebra notations compared to SQL syntax.
+
+Your estimate:
+0.35

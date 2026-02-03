@@ -1,0 +1,14 @@
+To answer this question correctly, a student must possess the following prerequisites:
+
+PREREQUISITES:
+1.  **Reading a Schema Diagram:** Understanding the relationship between the `Course` and `Enrol` tables, specifically identifying the primary keys and foreign keys (e.g., `CourseID`).
+2.  **Definition of NATURAL JOIN:** Knowing that a natural join automatically joins tables based on columns with the same name.
+3.  **Equi-join logic:** Understanding that rows only appear in the result if there is a matching value in both tables for the join columns.
+4.  **Identifying the Common Column:** Determining which specific column is shared between the two schemas (likely `CourseID`).
+5.  **Multi-step reasoning (Cardinality):** Recognizing that in a join between a parent table (Course) and a child/transaction table (Enrol), the number of result rows is determined by the number of valid matches in the child table.
+6.  **Distinguishing Join Types:** Not confusing a `NATURAL JOIN` with a `CROSS JOIN` (which would result in $7 \times 4 = 28$).
+7.  **Data Inspection:** Accurately counting the records in the provided sample data that satisfy the join condition (realizing that if every enrollment points to a valid course, the count equals the number of rows in the `Enrol` table).
+
+COUNT: 7
+
+0.65

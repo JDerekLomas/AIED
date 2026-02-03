@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($X \to Y$).
+2. Understanding the logical entailment symbol ($\Sigma_2 \models \Sigma_1$) as "does $\Sigma_2$ imply all dependencies in $\Sigma_1$?".
+3. Distinguishing between "equivalent" ($\equiv$) and "entails" ($\models$).
+4. Knowledge of how to compute the closure of an attribute set under a given set of FDs ($X^+$).
+5. Specific application: Checking if $A \to B$ holds in $\Sigma_2$ by calculating $A^+$ using $\{A \to C, B \to C\}$.
+6. Reasoning that since $B$ is not in $\{A, C\}$, $A \to B$ is not satisfied by $\Sigma_2$.
+7. Identifying that for $\Sigma_2 \models \Sigma_1$ to be true, *every* dependency in $\Sigma_1$ must be derivable from $\Sigma_2$.
+8. Correctly selecting "False" based on the failure of $A \to B$.
+
+COUNT: 8
+
+0.55

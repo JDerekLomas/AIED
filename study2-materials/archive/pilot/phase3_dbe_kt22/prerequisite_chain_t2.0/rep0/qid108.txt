@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Understanding of ER Model Scope**: Knowledge that ER diagrams are used for modeling structural relationships, entities, and attributes, but generally cannot enforce complex business rules or temporal logic.
+2. **Distinguishing Domain Logic from Structural Logic**: Ability to identify that certain constraints (like date comparisons or frequency of maintenance) are typically handled by the application layer or database triggers, not standard Chen or Crow's Foot ERD notation.
+3. **Cardinality and Optionality Reading**: Knowing that "Each fitness class is instructed by only one trainer" represents a many-to-one relationship, and "not all trainers deliver fitness classes" represents optional participation (optionality), both of which are standard features of an ER diagram.
+4. **Attribute Constraint Limitation**: Recognizing that while "unique IDs" and "attribute types" can be modeled, specific value-based constraints (e.g., restricted sets like "new, working, or broken") are often treated as domain constraints or data validation rather than primary ER structural components.
+5. **Evaluating Negative Constraints**: Understanding that statements involving logical comparisons (A: start < end) and mandatory intervals (B: twice a year) are not standard ER diagram features.
+6. **Information Synthesis**: Carefully matching the text in the prompt to specific graphical representations (entity, relationship, participation constraint) to see which fits a standard ER model without needing "extras."
+
+COUNT: 6
+
+0.55

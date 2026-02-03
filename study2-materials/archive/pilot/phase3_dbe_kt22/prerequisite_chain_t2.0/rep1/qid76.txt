@@ -1,0 +1,17 @@
+To evaluate this question, we must look at the specific table data provided in typical South African university assessments (where students are usually given a visual table with overlapping entries). Based on the nature of this common exam question, here is the breakdown:
+
+**PREREQUISITES:**
+1.  **Parsing SQL Syntax**: Recognizing the structure of two independent SELECT statements joined by a set operator.
+2.  **Schema Interpretation**: Identifying the relevant columns (`StudentID`, `CourseNo`) within a table (`Study`).
+3.  **Filtering Logic (WHERE clause)**: Correcting identifying which rows satisfy `CourseNo='COMP2400'` and which satisfy `CourseNo='STAT2001'`.
+4.  **The Set Operator Property (UNION vs. UNION ALL)**: Understanding that `UNION` automatically performs duplicate elimination.
+5.  **Data Set Inspection**: Carefully identifying specific student IDs that appear in *both* courses to realize they are only counted once.
+6.  **Arithmetic/Counting**: Accurately summing the unique elements identified.
+7.  **Distinguishing Similar Concepts**: Not confusing `UNION` with an `INTERSECT` or a `JOIN`.
+
+**COUNT: 7**
+
+**Estimate:**
+In many South African CS cohorts, the "trap" of the duplicate student is the most common failure point. Students often simply add the number of COMP2400 students to the number of STAT2001 students without checking for overlap.
+
+0.65

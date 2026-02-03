@@ -1,0 +1,16 @@
+In a typical South African undergraduate context (e.g., UCT, Wits, or UP), this question functions at the lowest level of Bloom's Taxonomy. It assesses the basic mechanics of how a `SELECT` statement interacts with table cardinality.
+
+The difficulty here is not conceptual, but rather structural. If the student is not provided with a visual representation of the `Study` table containing exactly $X$ number of rows, they cannot answer the question definitively. Assuming a table schema was provided in the lecture/tutorial context or a sample diagram preceded the question:
+
+**ELEMENTS:**
+1.  **SQL Keyword Recall:** Identifying that `SELECT` and `FROM` define the scope of the query.
+2.  **Projection Logic:** Recognizing that selecting specific columns (`StudentID`, `Name`) does not filter rows, but only columns.
+3.  **Cardinality Concept:** Understanding that the number of rows in a result set (without a `WHERE` or `GROUP BY` clause) equals the total row count of the source table.
+4.  **Information Mapping:** Linking the identifier "Study" to the correct visual data structure provided in the exam paper.
+
+**ELEMENT COUNT: 4**
+
+Given the simplicity of this "identity" operation, most students—including those with minimal programming backgrounds—typically master the "all-rows-unless-filtered" rule very early in the semester.
+
+**Your estimate:**
+0.88

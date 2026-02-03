@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding of SQL Discretionary Access Control (DAC) syntax and the role of the object owner.
+2. Understanding the specific functionality of the `GRANT OPTION` (the ability to pass privileges to others).
+3. Understanding the mechanism of the `REVOKE` command and its targets.
+4. Distinguishing between revoking a *privilege* versus revoking only the *grant option*.
+5. Understanding the `CASCADE` keyword and its recursive effect on the chain of grants.
+6. Recognizing that if a prerequisite for a subsequent grant (the grant option) is removed, the dependent grants in the chain are invalidated under the cascade rule.
+7. Multi-step logic: Tracking the state of permissions for two different users across three sequential time steps.
+8. Correctly identifying that Amy retains the `SELECT` privilege itself because only the `GRANT OPTION` was specified in the `REVOKE` statement.
+
+COUNT: 8
+
+0.35

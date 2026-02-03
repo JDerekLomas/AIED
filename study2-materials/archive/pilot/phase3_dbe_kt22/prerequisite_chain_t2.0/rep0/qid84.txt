@@ -1,0 +1,14 @@
+To accurately answer this question, a student must navigate several conceptual and technical hurdles. In a South African context where student backgrounds are diverse, the transition from basic "flat" SQL to nested logic is a known barrier.
+
+**PREREQUISITES:**
+1.  **Reading a Schema Diagram:** Identifying the relationship between the `Course` and `Enrol` tables, specifically recognizing the foreign key link on `CourseNo`.
+2.  **Correlated Subquery Logic:** Understanding that the inner query executes for *each* row of the outer query (row-by-row evaluation).
+3.  **The EXISTS Operator:** Knowing that `EXISTS` returns true as long as there is *at least one* match, regardless of how many matches exist in the inner table.
+4.  **Deduplication Reasoning:** Recognizing that multiple enrollments for the same course do not result in duplicate rows in the output (since the `SELECT` is on `Course`, not a `JOIN`).
+5.  **Data Tracing:** Accurately counting the number of *unique* courses present in the `Enrol` table based on the provided data instances.
+6.  **Syntactic Distinguishability:** Distinguishing this query from an `INNER JOIN`, which might produce a different count if there are multiple enrollments per course.
+7.  **Logical Set Theory:** Understanding that the result set represents a subset of the `Course` table (the courses that have "life" or activity).
+
+**COUNT:** 7
+
+0.55

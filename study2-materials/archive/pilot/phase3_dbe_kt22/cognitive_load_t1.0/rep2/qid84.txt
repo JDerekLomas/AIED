@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding the `SELECT *` and `WHERE EXISTS` structure.
+2. Subquery Processing: Recognizing that the inner query executes for each row of the outer query.
+3. Logical Condition Evaluation: Understanding the join predicate `c.CourseNo = e.CourseNo`.
+4. Correlated Subquery Concept: Holding the current row of `Course` in memory while scanning the `Enrol` table.
+5. Boolean Logic: Understanding that `EXISTS` returns true if the subquery result set is non-empty, regardless of the number of matches.
+6. Set Comparison/Counting: Distinguishing between a join (which might duplicate rows) and an `EXISTS` filter (which returns unique rows from the source table).
+7. Data Integration: Mentally mapping the specific foreign key relationships between the `Course` and `Enrol` data instances provided (assuming a schema/data snippet was provided in context).
+
+ELEMENT COUNT: 7
+
+0.55

@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. **SQL Keyword Recall**: Understanding the `SELECT` and `FROM` clauses to identify which table is being queried and what data is being retrieved.
+2. **Boolean Logic Evaluation**: Understanding the `OR` operator, specifically that it includes rows meeting either condition (not an exclusive OR or a combination requiring both).
+3. **Table Data Retrieval**: Accessing the "Study" table mentally or via provided schema (students must hold the content of the rows in memory or visual focus).
+4. **Conditional Filtering**: Testing each row in the dataset against the specific IDs (102 and 103).
+5. **Row Counting (Cardinality)**: Tracking the tally of matching rows to reach a final sum.
+6. **SQL Semantic Nuance**: Recognizing that `SELECT CourseNo` does not imply `SELECT DISTINCT`; therefore, duplicate course entries for the different students must be counted as individual rows.
+
+ELEMENT COUNT: 6
+
+0.85

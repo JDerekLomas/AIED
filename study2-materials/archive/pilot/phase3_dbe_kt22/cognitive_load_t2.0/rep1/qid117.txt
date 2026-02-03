@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall of the entailment operator (Σ1 ⊨ Σ2 means Σ2 is a subset of Σ1+).
+2. SQL syntax/logic vs. Relational Theory notation (distinguishing Σ and → symbols).
+3. The Transitivity rule of Functional Dependencies (FDs).
+4. Procedural step: Testing if A → C is in Σ1+ (Applying A → B and B → C).
+5. Procedural step: Testing if B → C is in Σ1+ (Direct look-up).
+6. Evaluating logical equivalence (since all FDs in Σ2 are derivable from Σ1, the entailment holds).
+
+ELEMENT_COUNT: 6
+
+Your estimate:
+0.65

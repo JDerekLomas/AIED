@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Knowledge: Recognising that `SELECT *` combined with `INNER JOIN` identifies a relational join operation.
+2. Semantic Recall: Defining the "Inner Join" logical operation (matching rows present in both tables based on a key).
+3. Schema Analysis: Understanding the relationship between `Course` (likely the parent/lookup table) and `Enrol` (likely the child/transaction table).
+4. Table Scanning: Identifying the cardinality/row count of the `Enrol` table (as the "many" side of a one-to-many relationship usually dictates the result size in an inner join on a primary-foreign key pair).
+5. Cardinality Mapping: Evaluating which rows from `Enrol` have a matching `CourseNo` in the `Course` table (handling potential orphaned records or unmatched keys).
+6. Quantitative Comparison: Summing or counting the resultant matches to compare against the multiple-choice options.
+
+ELEMENT COUNT: 6
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Reading a schema/table: Ability to map the `Study` table attributes to the query.
+2. Understanding the SELECT clause: Recognizing that `CourseNo` is the output but does not affect the row count in this basic query (no DISTINCT).
+3. Logical OR operator: Understanding that a row is included if *either* condition is met (not both).
+4. Data filtering (Mental Execution): Correctly identifying all records in the table where StudentID is 102 or 103.
+5. Counting result sets: Avoiding the "Duplicate StudentID" trap (recognizing that one student appearing multiple times in the source table results in multiple rows in the output).
+6. Handling duplicates: Knowing that SQL SELECT does not eliminate duplicate rows (CourseNo) by default unless DISTINCT is specified.
+
+COUNT: 6
+
+0.75

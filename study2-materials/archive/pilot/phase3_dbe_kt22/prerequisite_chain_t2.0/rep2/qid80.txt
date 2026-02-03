@@ -1,0 +1,14 @@
+To answer this question correctly, a student must navigate several specific technical hurdles and avoid common misconceptions.
+
+**PREREQUISITES:**
+1.  **Reading a Schema Diagram/Instance:** Ability to correctly identify the cardinality (number of rows) in each source table (Table A has 7 rows, Table B has 4 rows).
+2.  **Definition of NATURAL JOIN:** Understanding that this specific join type automatically joins tables based on columns with identical names.
+3.  **Schema Comparison:** Identifying the common attribute(s) between the two tables (e.g., `CourseID`) to determine the join condition.
+4.  **Join Logic (Multi-step reasoning):** Recognizing that a row in `Enrol` only contributes to the result if a matching `CourseID` exists in the `Course` table (and vice-versa).
+5.  **Differentiating Join Types:** Distinguishing a `NATURAL JOIN` (which filters based on matching keys) from a `CROSS JOIN` (Cartesian product, 7 * 4 = 28). This is the most common failure point.
+6.  **Referential Integrity Awareness:** Understanding that if every enrollment points to a valid course, the number of result rows will likely match the number of rows in the "child" table (the enrollment table).
+7.  **Data Inspection:** Checking the specific values in the table instances provided to ensure all 4 rows in `Enrol` have a corresponding match in `Course`.
+
+**COUNT: 7**
+
+0.55

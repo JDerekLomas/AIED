@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying the "negative" logic in the question (selecting what is *not* correct).
+2. Understanding the mechanism of SQL injection (string concatenation vs. sanitized input).
+3. Understanding the principle of "least privilege" and its limitations (removing privileges versus restricting them).
+4. Distinguishing between a *mitigation* strategy and a *prevention* strategy (privilege reduction limits damage but does not stop the injection itself).
+5. Evaluating the technical feasibility of Option C (a user with *no* privileges cannot perform the legitimate functions of the application).
+6. Multi-step reasoning to evaluate Option D as a distractor if any prior statement is false.
+
+COUNT: 6
+
+Your estimate:
+0.65

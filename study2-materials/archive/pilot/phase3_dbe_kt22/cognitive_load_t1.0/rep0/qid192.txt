@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding the `GRANT`, `WITH GRANT OPTION`, and `REVOKE` commands.
+2. Privilege Hierarchy: Recognizing Linda as the owner/source of authority.
+3. Step-by-Step State Tracking: Maintaining the state of Amy’s privileges after Step 1.
+4. Dependency Mapping: Linking Peter's privilege to Amy's `GRANT OPTION` in Step 2.
+5. `REVOKE ... CASCADE` Logic: Understanding how revoking a specific privilege attribute (GRANT OPTION) affects downstream grants.
+6. Distinction between Privilege vs. Grant Option: Differentiating between the right to *read* data and the right to *delegate* that access.
+7. Logical Evaluation: Determining if Peter's privilege is dependent on Amy's *possession* of the SELECT privilege or her *ability to grant* it.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

@@ -1,0 +1,15 @@
+To evaluate this question, we must consider the cognitive load required to process the SQL logic against the (implied) underlying data structure and the specific logical operator used.
+
+**ELEMENTS:**
+1.  **SQL Syntax Recognition:** Identifying that `SELECT CourseNo` defines the output column and `FROM Study` defines the source.
+2.  **Logical Operator Evaluation (OR):** Understanding that the `OR` condition includes rows matching *either* criteria, not just their intersection.
+3.  **Data Retrieval/Filtering:** Mentally (or physically) scanning the `Study` table to identify rows where `StudentID` is 102 and rows where `StudentID` is 103.
+4.  **Distinct vs. Non-Distinct counting:** Recognizing that the query does *not* use `DISTINCT`, meaning duplicate `CourseNo` values (if any exist for those IDs) must still be counted as individual rows.
+5.  **Relational Mapping:** Understanding the relationship between a `Student` and a `Course` in a junction/associative table (Study).
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE FOR ESTIMATE:**
+In a South African undergraduate context, this is a foundational assessment. The primary "trap" for lower-performing students is confusing `OR` with `AND` (expecting 0 rows because one student cannot have two IDs) or intuitively applying a `DISTINCT` filter if they assume the question asks for the number of unique courses. However, because it is a multiple-choice question on a basic selection, the success rate is generally high.
+
+0.78

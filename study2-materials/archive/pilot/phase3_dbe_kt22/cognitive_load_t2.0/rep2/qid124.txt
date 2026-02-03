@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. Recall the definition of a Candidate Key (CK): must be a superkey and must be minimal.
+2. Recall the definition of Functional Dependencies (FDs) and how to calculate a closure.
+3. Determine the closure of the attribute set {A, B} based on Σ: $A \to B$ is redundant here, but $(AB)^+ = \{A, B, C\}$.
+4. Verify if {A, B} is a superkey: Yes, because it contains all attributes of R.
+5. Apply the minimality constraint: Check if any proper subset of {A, B} (i.e., {A} or {B}) is also a superkey.
+6. Calculate the closure of {A}: $A \to B$ implies $A^+ = \{A, B, C\}$ because $A \to B$ and $\{A, B\} \to C$.
+7. Compare findings to the definition: Since {A} is a superkey, {A, B} is not minimal.
+8. Distinguish between a Superkey and a Candidate Key to arrive at the final Boolean value.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.40

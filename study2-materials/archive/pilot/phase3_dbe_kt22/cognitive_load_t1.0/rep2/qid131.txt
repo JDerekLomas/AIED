@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: Lossless Join property (Chase algorithm or heuristic for two-relation decompositions).
+2. Definition recall: Dependency Preservation property (projection of functional dependencies).
+3. Set theory/Intersection: Identifying common attributes between R1 and R2 ($R1 \cap R2 = \{A\}$).
+4. Logic evaluation (Lossless Join): Checking if the intersection $\{A\}$ is a superkey for R1 ($A \to B$) or R2 ($A \to C$).
+5. Logic evaluation (Dependency Preservation): Checking if $B \to C$ can be inferred from the union of dependencies in R1 ($A \to B$) and R2 ($A \to C, A \to B$ is redundant).
+6. Transitive reasoning: Recognizing that while $B \to C$ is in the original set $\Sigma$, it is not contained within the schema of R1 or R2, nor is it implied by the dependencies local to each fragment ($A \to B$ and $A \to C$ cannot derive $B \to C$ without $A$).
+7. Comparison: Mapping the results of both evaluations to the multiple-choice options.
+
+ELEMENT COUNT: 7
+
+0.35

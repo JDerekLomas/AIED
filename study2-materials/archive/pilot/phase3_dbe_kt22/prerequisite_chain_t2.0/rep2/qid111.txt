@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Super Key (SK): Understanding that a set of attributes is a super key if its closure includes all attributes in the relation.
+2. Functional Dependency (FD) notation: Reading and interpreting the meaning of A→B, B→C, etc.
+3. Attribute Closure algorithm: Knowing the iterative process to find $A^+$ ($A \to A$, $A \to B$, $B \to C$, resulting in $\{A, B, C\}$).
+4. Identifying missing attributes: Noticing that $D$ is not reachable from $A$ via the given FDs.
+5. Distinction between Key and Super Key: Realizing that while $A$ doesn't have to be minimal to be an SK, it still must determine everything (some students confuse "Super" with "Part of a key").
+6. Logic/Boolean evaluation: Correcting mapping the "False" result of the closure test to option B.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,17 @@
+To evaluate this question, we must consider the cognitive load required to process two separate subqueries and the set operation connecting them. Given the context of South African undergraduate students, the "element interactivity" is moderate: it requires more than simple recall but doesn't reach the complexity of a multi-table join.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT` statement and the `EXCEPT` operator.
+2.  **Definition Recall:** Knowing that `EXCEPT` performs a set difference (returning rows from the first query not present in the second).
+3.  **Data Retrieval (Query 1):** Filtering the `Study` table for `StudentID=102` and identifying the specific `CourseNo` values.
+4.  **Data Retrieval (Query 2):** Filtering the `Study` table for `StudentID=103` and identifying the specific `CourseNo` values.
+5.  **Set Comparison Logic:** Holding the first set of values in working memory and mentally subtracting any values that appear in the second set.
+6.  **Distinct Processing:** Recalling that SQL set operations (like `EXCEPT` and `UNION`) implicitly perform a `DISTINCT` operation on the results.
+7.  **Counting:** Determining the cardinality of the final resulting set.
+
+**ELEMENT COUNT: 7**
+
+**ESTIMATE:**
+While the logic is straightforward, students often struggle with "Mental Execution" without seeing the raw data (the table is implied but not provided in your prompt, though students would see it in an exam). Common errors include treating `EXCEPT` as a `UNION` or forgetting that duplicates are removed. In a diverse South African cohort, roughly 65% of students typically grasp set operations correctly by the mid-semester assessment.
+
+0.65

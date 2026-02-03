@@ -1,0 +1,18 @@
+To answer this question, a student must process the following:
+
+**ELEMENTS:**
+1.  **Syntax Identification**: Recognizing `SELECT`, `COUNT()`, and `MIN()` as aggregate functions.
+2.  **Concept of Aggregation**: Understanding that these functions compress multiple rows into a single result row.
+3.  **Column Identification**: Locating the specific column `units` within the provided table.
+4.  **COUNT logic (Null Handling)**: Knowing whether `COUNT(column)` includes or excludes NULL values (crucial distinction from `COUNT(*)`).
+5.  **Procedural Execution (Counting)**: Incrementing a mental counter while scanning the rows.
+6.  **MIN logic**: Identifying the smallest numerical value in the set.
+7.  **Output Mapping**: Matching the computed results (the "what") to the correct ordinal position in the SELECT list (the "where") to select the right pair from the options.
+
+**ELEMENT COUNT: 7**
+
+**ESTIMATION:**
+South African undergraduate cohorts often show a "bimodal" distribution. Stronger students will find this trivial, but weaker students often confuse `COUNT` with the number of rows in the table or the sum of values, and frequently swap the order of results (choosing C instead of B). Given that "Study" is likely a small table in this context, the primary hurdle is basic aggregate theory.
+
+Your estimate:
+0.65

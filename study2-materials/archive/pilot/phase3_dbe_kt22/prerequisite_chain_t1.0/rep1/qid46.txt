@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Definition of a Superkey**: Understanding that a superkey is any set of attributes that uniquely identifies a tuple, and that adding attributes to a superkey always results in another superkey (the "superset property").
+2. **Definition of a Candidate Key**: Understanding that a candidate key is a *minimal* superkey (no proper subset is a superkey).
+3. **Definition of a Primary Key**: Knowing that a primary key is a candidate key chosen by the designer, and that it must satisfy the minimality requirement of a candidate key.
+4. **Logical Deduction (Superset Property)**: Recognizing that if {a, b} uniquely identifies rows, then {a, b, c} automatically uniquely identifies rows, making {a, b, c} a superkey.
+5. **Evaluating Negative Constraints**: Understanding that "must not be" in options A and B contradicts the formal definitions (A is false because it *must* be a superkey; B is true because {a, b, c} cannot be a *candidate* key since it has a proper subset {a, b} that is a superkey).
+6. **Distinguishing "Must" from "May"**: Recognizing that while {a, b, c} is a superkey, it can never be a primary key (Option C) because it fails the minimality test required for candidate/primary keys.
+7. **Schema Interpretation**: Correct reading of the relation notation R(a,b,c).
+
+COUNT: 7
+
+0.40

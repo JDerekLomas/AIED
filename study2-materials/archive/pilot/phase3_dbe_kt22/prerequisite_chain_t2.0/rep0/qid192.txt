@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `GRANT OPTION`: Recognizing that `WITH GRANT OPTION` allows a non-owner to delegate privileges to others.
+2. Chain of Authority: Recognizing that Peter’s privilege is dependent on the privilege (and specifically the grant option) held by Amy at the time of the grant.
+3. Syntax of `REVOKE ... FOR`: Distinguishing between revoking a specific permission vs. revoking the *ability* to grant that permission (`REVOKE GRANT OPTION`).
+4. Understanding the `CASCADE` keyword in the context of `GRANT OPTION`: Knowing that if a user’s grant option is revoked with cascade, it traditionally affects the permissions they delegated.
+5. Tracking state over time: Correctly processing the sequential nature of the three steps.
+6. Distinguishing "Privilege" from "Grant Option": Realizing that revoking the *power to give* a privilege does not necessarily revoke the *privilege itself* for the initial recipient (Amy), but must evaluate the impact on the sub-grantee (Peter).
+7. Application of SQL Standards vs. specific Vendor behavior: Understanding that in standard SQL (which most South African curricula follow), revoking the grant option via `CASCADE` should strip Peter of his access because his access was rooted in Amy's now-removed grant option.
+
+COUNT: 7
+
+0.35

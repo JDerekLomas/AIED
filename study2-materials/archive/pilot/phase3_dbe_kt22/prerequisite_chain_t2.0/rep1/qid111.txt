@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Super Key (SK): Understanding that a set of attributes is a super key if its closure includes all attributes in the relation.
+2. Closure Algorithm Knowledge: Knowing the procedural steps to calculate the transitive closure of an attribute set ($A^+$) using a given set of functional dependencies ($\Sigma$).
+3. Functional Dependency Application: Ability to correctly apply $A \to B$ and then use the resulting $B$ to trigger $B \to C$.
+4. Logical Evaluation: Comparing the result of the closure ($\{A, B, C\}$) against the full set of attributes in the relation $R=\{A, B, C, D\}$.
+5. Identifying "Missing" Attributes: Recognizing that because $D$ is on the right-hand side of no dependency and is not the starting attribute, it cannot be reached from $A$.
+6. Distinguishing SK from CK: Not getting confused by the fact that $A$ is a "key" for some attributes, but must satisfy the "all attributes" requirement for the specific relation $R$.
+7. Reading Schema/FD Notation: Correct interpretation of the set $R$ and the notation used for the FDs.
+
+COUNT: 7
+
+0.65

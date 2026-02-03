@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1.  **Defining 3NF vs. BCNF**: Understanding the subtle difference in the formal definitions (specifically the "prime attribute" exception allowed in 3NF but not in BCNF).
+2.  **Definition of Dependency Preservation**: Knowing that a decomposition is dependency-preserving if the union of the functional dependencies (FDs) enforced on the individual relations logically implies all FDs of the original relation.
+3.  **Existence Properties of Normal Forms**: Knowing the fundamental existence theorem that any relation can be decomposed into 3NF in a way that is *both* lossless-join and dependency-preserving.
+4.  **Trade-offs in BCNF**: Understanding that while a lossless-join BCNF decomposition is always possible, it is *not guaranteed* to be dependency-preserving (the "classic" example being $R(A, B, C)$ with $AB \to C$ and $C \to B$).
+5.  **Logical Quantifiers**: Distinguishing between "always," "sometimes," and "cannot" (never). 
+6.  **Eliminating Distractors**: Recognizing that "cannot" is too strong for BCNF (it sometimes is dependency-preserving) and that 3NF *guarantees* the property.
+
+COUNT: 6
+
+0.55

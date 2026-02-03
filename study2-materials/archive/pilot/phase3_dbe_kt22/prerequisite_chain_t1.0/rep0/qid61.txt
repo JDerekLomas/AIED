@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Vocabulary knowledge: Knowing that "tuple" is a formal database term for a "row" and "relation" is the formal term for a "table."
+2. Keyword distinction (DELETE vs. DROP): Understanding that DELETE is a DML (Data Manipulation Language) operation that affects data/rows, while DROP is a DDL (Data Definition Language) operation that removes the schema/structure entirely.
+3. Syntax recognition (DELETE FROM): Identifying the correct SQL syntax for the delete command, specifically that it requires the FROM keyword (unlike the incorrect "DELETE TABLE" or "DROP FROM").
+4. Precision in outcomes: Recognizing that "delete all tuples" implies the table structure must remain intact (precluding the DROP command).
+5. Eliminating distractors: Distinguishing between the valid SQL command `DELETE FROM R` and the common student misconception `DELETE R` or `DELETE TABLE R`.
+
+COUNT: 5
+
+0.65

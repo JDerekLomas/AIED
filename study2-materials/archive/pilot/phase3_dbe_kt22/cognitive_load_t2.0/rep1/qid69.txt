@@ -1,0 +1,16 @@
+In order to determine the element interactivity for this question, we must look at what a student needs to process simultaneously, especially given that the actual data of the "Study" table was not provided in the prompt (assuming the student is looking at a provided schema/dataset during an exam).
+
+**ELEMENTS:**
+1.  **SQL Syntax Recall:** Understanding the structure of a `SELECT *` statement.
+2.  **Filtering Logic:** Processing the `WHERE` clause and the equality operator (`=`).
+3.  **Literal Comparison:** Understanding that `'Tom'` is a string literal and must be an exact match (case sensitivity depends on the DB engine, which adds a layer of memory load).
+4.  **Scanning/Counting:** Identifying and maintaining a mental tally of matching rows from a source table.
+5.  **Schema/Relationship Context:** Distinguishing the "Study" table from other possible tables in a provided diagram.
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+While the syntax is foundational, South African undergraduate cohorts often struggle with the "scanning" task if the table is large or contains "distractor" names (e.g., 'Tommy', 'Tomas'). However, since this is a basic retrieval question, students with even minimal exposure usually perform well. The lack of a JOIN reduces interactivity significantly.
+
+**Your estimate:**
+0.85

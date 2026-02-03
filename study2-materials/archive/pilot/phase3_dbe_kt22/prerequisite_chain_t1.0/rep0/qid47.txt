@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. Knowledge of the "Superkey Closure" property (if $K$ is a superkey, any superset of $K$ is also a superkey).
+3. Ability to interpret relational schema notation $R(a,b,c)$ as the set of all available attributes in the relation.
+4. Logical reasoning to identify that $\{a,b,c\}$ is a superset of $\{a,b\}$.
+5. Distinguishing between a "candidate key" (which must be minimal) and a "superkey" (which does not have to be minimal). This is the most common failure point, as students often conflate the two and assume adding attributes "breaks" the key property.
+
+COUNT: 5
+
+0.65

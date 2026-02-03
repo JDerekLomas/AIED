@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a "prime attribute" (an attribute that is part of at least one candidate key).
+2. Knowing how to find all candidate keys for a relation given a set of functional dependencies.
+3. Ability to compute the closure of an attribute or attribute set (e.g., $A^+$, $B^+$, $C^+$).
+4. Identifying that the given dependencies form a cycle ($A \to B \to C \to A$), implying that each attribute individually can derive all others.
+5. Recognizing that there are three distinct candidate keys in this specific case: $\{A\}$, $\{B\}$, and $\{C\}$.
+6. Concluding that since every attribute belongs to at least one candidate key, they are all prime.
+7. Distinguishing between a "candidate key" and a "primary key" (avoiding the mistake of thinking only attributes in the chosen primary key are prime).
+
+COUNT: 7
+
+0.65

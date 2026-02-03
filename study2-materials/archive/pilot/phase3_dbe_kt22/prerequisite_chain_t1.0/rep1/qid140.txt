@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of 3NF (Third Normal Form).
+2. Understanding the definition of BCNF (Boyce-Codd Normal Form).
+3. Ability to compare the strictness/hierarchy of normal forms (knowing BCNF is "stronger" or "more restrictive" than 3NF).
+4. Distinguishing between "minimizing" and "eliminating" redundancy (understanding that functional dependencies and transitive dependencies are handled, but some redundancy may remain).
+5. Recognizing that BCNF was specifically designed to address anomalies that 3NF allows to persist.
+6. Reading comprehension to identify that "more restrictive" in Option A is mathematically inverted (BCNF $\subset$ 3NF).
+
+COUNT: 6
+
+0.55

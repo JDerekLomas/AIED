@@ -1,0 +1,17 @@
+PREREQUISITES:
+1. Distinguishing between the definitions of 3rd Normal Form (3NF) and Boyce-Codd Normal Form (BCNF).
+2. Understanding the formal definition of a functional dependency (FD) $X \to A$.
+3. Knowing the definition of a "non-trivial" FD.
+4. Knowing the definition of a "prime attribute" (an attribute that is part of some candidate key).
+5. Knowing the definition of a "superkey".
+6. Recognizing that BCNF has a stricter requirement ($X$ must be a superkey) than 3NF.
+7. Recognizing that 3NF allows for a "disjunctive" condition (Either $X$ is a superkey OR $A$ is prime), and identifying that the options provided are partial definitions or swapped definitions.
+8. Evaluating Option A: Identifying it as a false statement (describing neither BCNF nor 3NF accurately).
+9. Evaluating Option B: Identifying it as the definition for BCNF, not 3NF.
+10. Evaluating Option C: Identifying it as the correct formal definition for BCNF.
+11. Evaluating Option D: Identifying it as a common partial definition of 3NF (it is a sufficient but not necessary condition on its own in this phrasing).
+12. Avoiding the "memorization trap" where students often swap the requirements for 3NF and BCNF under exam pressure.
+
+COUNT: 12
+
+0.55

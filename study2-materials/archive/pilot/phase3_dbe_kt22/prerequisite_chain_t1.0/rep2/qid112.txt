@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the notation of a relation schema $R$ and a set of Functional Dependencies (FDs) $\Sigma$.
+2. Understanding the semantic entailment symbol ($\models$) as "logically implies."
+3. Knowing the definition of the closure of a set of attributes ($A^+$) under $\Sigma$.
+4. Ability to execute the attribute closure algorithm: starting with $\{A\}$, adding $B$ (via $A \rightarrow B$), then adding $C$ (via $B \rightarrow C$).
+5. Understanding that $X \rightarrow Y$ is implied by $\Sigma$ if and only if $Y \subseteq X^+$.
+6. Identifying that the FD $D \rightarrow ABC$ is irrelevant noise for this specific derivation (avoiding distraction).
+7. Applying Transitivity (Armstrong's Axioms) correctly: if $A \rightarrow B$ and $B \rightarrow C$, then $A \rightarrow C$.
+8. Distinguishing between a dependency being "given" in $\Sigma$ versus being "implied" by $\Sigma$.
+
+COUNT: 8
+
+0.72

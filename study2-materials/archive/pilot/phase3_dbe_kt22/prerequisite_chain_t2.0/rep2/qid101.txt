@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes and unrelated entities like administrators, equipment, and technicians) to focus specifically on the relationship between "member" and "fitness class".
+2. Defining Entity Types: Identifying "member" and "fitness class" as the two entities involved in the "participate" relationship.
+3. Interpreting "Optional" vs "Mandatory": Identifying the specific sentence "A member may choose to participate in one or more fitness classes" and understanding that "may choose" implies participation is not compulsory.
+4. Mapping Terminology: Connecting the conceptual logic (optional participation) to the specific database formal term "Partial Participation".
+5. Distinguishing Constraints: Distinguishing between "Participation Constraint" (total vs partial) and "Cardinality Ratio" (one-to-many vs many-to-many), as the text also mentions "one or more," which could lead to confusion if the student does not understand what the question is specifically asking for.
+6. Schema Mental Modeling: Maintaining a mental model of the Member-Participate-Class relationship while reading a dense paragraph of requirements.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,17 @@
+To evaluate this question, we must consider the specific mechanics required to solve a `NATURAL JOIN` without seeing the underlying table data, which implies students must rely on conceptual logic or mental models of standard entity-relationship patterns (e.g., a Course having multiple Enrolments).
+
+**ELEMENTS:**
+1. **Definition recall**: Understanding that a `NATURAL JOIN` joins tables based on columns with the same name.
+2. **Table relationship analysis**: Identifying the likely common column (e.g., `CourseID`) between `Course` and `Enrol`.
+3. **Cardinality logic**: Recognizing that the `Enrol` table is the "many" side of a one-to-many relationship; therefore, the number of rows in the result is determined by the number of matches in the `Enrol` table.
+4. **Logical deduction (Foreign Key constraints)**: Realizing that an enrolment record typically must correspond to exactly one course, so the result set size equals the row count of the `Enrol` table.
+5. **SQL syntax rules**: Distinguishing `NATURAL JOIN` from a `CROSS JOIN` (which would be Course rows × Enrol rows).
+6. **Constraint satisfaction**: Evaluating whether rows without matches (orphans) are excluded (inner join behavior).
+
+**ELEMENT COUNT: 6**
+
+**Estimate of correct answers:** 
+In a South African undergraduate context, the `NATURAL JOIN` is often a "trick" concept because it is rarely used in production but frequently tested. Students with weak backgrounds often confuse it with a Cartesian product (A) or assume it returns the count of the unique entities (C). The high element interactivity stems from needing to map the abstract join type to the relational logic of the specific table names provided.
+
+Your estimate:
+0.55

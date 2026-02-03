@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall of a View (a virtual table derived from a query).
+2. Knowledge of Authorization/Privilege hierarchies (creator vs. owner rights).
+3. Distinguishing between SELECT vs. UPDATE privileges in the context of views (e.g., read-only views).
+4. Logic evaluation: Distinguishing "Always" vs. "Necessarily" (conditional logic).
+5. Constraint recall: A creator only receives privileges that they themselves hold on the underlying base tables.
+6. SQL standard rules regarding the "updatability" of complex views (JOINs, aggregations).
+
+ELEMENT_COUNT: 6
+
+Your estimate:
+0.42

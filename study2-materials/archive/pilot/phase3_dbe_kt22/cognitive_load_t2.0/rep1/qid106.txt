@@ -1,0 +1,16 @@
+As an instructor, I find this question deceptive. While it presents a long narrative (increasing cognitive load), the actual problem focuses on a specific data modeling rule regarding a multi-valued property.
+
+**ELEMENTS:**
+1.  **Requirement Filtering:** Identifying the specific sentence "Each trainer has one or more specialities" from the dense paragraph.
+2.  **Entity Identification:** Identifying "Trainer" as a core object (entity).
+3.  **Cardinality/Multiplicity Rule:** Recalling the definition of a "multi-valued attribute" (an attribute that can have more than one value for a single entity instance).
+4.  **Modeling Constraints (Relational/ER Conversion):** Distinguishing between a standard attribute (Single-valued) vs. a Multi-valued attribute.
+5.  **Weak Entity Distinction:** Distinguishing between a multi-valued attribute and a weak entity (checking if "Speciality" has its own descriptors or just a name).
+6.  **Information Processing (Noise Handling):** Discounting irrelevant details about Administrators, Technicians, and Equipment while maintaining focus on the "Speciality" of "Trainer."
+
+**ELEMENT COUNT: 6**
+
+**Pedagogical Note:** Many South African students—particularly those from backgrounds with less exposure to formal logic—struggle with "long-form" word problems. They often get lost in the "noise" (Element 6). However, because "Multi-valued attribute" is a very specific, frequently drilled term in introductory ERD lectures, students who recognize the keyword "one or more" will gravitate toward Option C. Those overthinking the relational implementation (NF1) might incorrectly lean toward A or D.
+
+**Your estimate:**
+0.65

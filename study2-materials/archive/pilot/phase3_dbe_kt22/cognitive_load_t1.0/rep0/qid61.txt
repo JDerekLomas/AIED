@@ -1,0 +1,16 @@
+As an instructor, I would classify this as a **low element interactivity** question. It primarily tests recognition and the ability to distinguish between DDL (Data Definition Language) and DML (Data Manipulation Language) syntax.
+
+For a South African undergraduate cohort, the "distinction between similar concepts" (DROP vs. DELETE) is usually the primary hurdle, as many novice students use these terms interchangeably in natural language.
+
+**ELEMENTS:**
+1.  **Recall of DDL vs. DML semantics:** Understanding that `DROP` removes the schema/structure while `DELETE` removes tuples.
+2.  **SQL Syntax Rules:** Recognizing the specific keyword requirement (e.g., that `DELETE` requires the `FROM` clause in standard SQL).
+3.  **Distinction between similar keywords:** Differentiating between the "Delete Table" (incorrect syntax), "Drop Table" (removes structure), and "Delete From" (removes content) options.
+4.  **Definition Recall:** Identifying that "tuples" refers to rows/records and "relation" refers to a table.
+
+**ELEMENT COUNT:** 4
+
+**ESTIMATED PROPORTION CORRECT:**
+While high-performers will find this trivial, the wide variance in South African undergraduate backgrounds means many students struggle with the precise syntax of SQL early on. However, since this is a foundational concept, a majority should identify the correct answer if they have engaged with the lab material.
+
+0.72

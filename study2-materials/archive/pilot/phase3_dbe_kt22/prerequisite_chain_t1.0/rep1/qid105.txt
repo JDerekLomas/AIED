@@ -1,0 +1,13 @@
+PREREQUISITES:
+1.  **Reading Comprehension & Narrative Filtering**: Ability to extract relevant information from a dense word problem while ignoring "noise" (e.g., equipment status, administrator duties, landline numbers).
+2.  **Entity Identification**: Identifying "trainer" and "fitness class" as the specific entities involved in the target relationship.
+3.  **Relationship Mapping**: Correctly identifying the specific sentence describing the link: "Each fitness class is... instructed by only one trainer."
+4.  **Definition of Total Participation**: Understanding that total participation means every instance of an entity must be involved in the relationship.
+5.  **Definition of Partial Participation**: Understanding that partial participation means some instances of an entity can exist without being involved in the relationship.
+6.  **Logic Mapping (Mandatory vs. Optional)**: Translating the phrase "Each fitness class is... instructed by" into the logical requirement that a class cannot exist in the database without an assigned trainer.
+7.  **Directional Reasoning**: Distinguishing the constraint on "fitness class" from the constraint on "trainer" (the text says "not all trainers deliver classes," which is a distractor for the opposite side of the relationship).
+8.  **Technical Terminology**: Correctly mapping the "mandatory" nature of the class-trainer link to the technical term "Total."
+
+COUNT: 8
+
+0.65

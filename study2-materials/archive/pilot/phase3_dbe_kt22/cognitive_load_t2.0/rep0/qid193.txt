@@ -1,0 +1,14 @@
+ELEMENTS:
+1. SQL Privilege Syntax: Understanding the structure and meaning of GRANT/REVOKE statements.
+2. Owner Privileges: Recognising that Linda, as the owner, holds all original permissions.
+3. WITH GRANT OPTION: Tracking that this modifier allows Amy to delegate privileges further.
+4. Redundancy (Dual-source privileges): Managing the fact that Peter receives the same privilege from two different actors (Linda and Amy).
+5. The CASCADE Semantic: Understanding that revoking from a grantor automatically triggers the revocation of privileges they delegated.
+6. Privilege Independent Chains: Evaluating whether Peter's privilege from Linda remains intact regardless of the revocation from Amy.
+7. Step-by-step state tracking: Maintaining the mental state of the "privilege graph" through three sequential transformations.
+
+ELEMENT COUNT: 7
+
+Estimated Proportion: 0.55
+
+0.55

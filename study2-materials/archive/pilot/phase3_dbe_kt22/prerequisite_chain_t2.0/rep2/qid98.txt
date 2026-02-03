@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Definition of a Key Attribute**: Understanding that a key must uniquely identify every instance of an entity (Uniqueness and Minimality).
+2. **Schema Comprehension (Entity-Attribute Mapping)**: Ability to parse the narrative to distinguish between Entities (Technician, Equipment, Employee, Fitness Class) and their associated Attributes.
+3. **Cardinality & Participation Constraints Analysis**: Identifying that multiple Technicians could share a landline or phone type, and more crucially, that a Maintenance event (Date) is associated with many pieces of equipment/technicians.
+4. **Disambiguating "Time Slot"**: Identifying the specific business rule: "No two fitness classes have the same daily time slot."
+5. **Evaluating Functional Dependency**: Recognizing that if no two classes share a time slot, the Time Slot functionally determines the Class, making it a candidate key for that specific entity.
+6. **Elimination of Non-Unique Attributes**: Recognizing that Names are not unique (C), and Phone Numbers (A) or Dates (B) are not guaranteed to be unique across all records or time in a real-world database context unless explicitly stated.
+7. **Processing Complex Narratives**: Maintaining focus through a "wall of text" containing distractor information (e.g., associate members, equipment status) that is irrelevant to the specific four options provided.
+
+COUNT: 7
+
+0.55

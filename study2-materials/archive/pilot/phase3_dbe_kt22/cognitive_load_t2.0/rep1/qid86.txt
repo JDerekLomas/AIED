@@ -1,0 +1,17 @@
+To provide an accurate assessment, I have assumed a standard schema context common in tutorials: a **Course** table (e.g., 3 columns: CourseNo, Name, Credits) and an **Enrol** table. For the student to reach a specific coordinate (like "3,3"), they must process the following:
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Understanding `SELECT *` (column count) and the structure of correlated subqueries.
+2.  **Definition Recall:** Remembering how `NOT EXISTS` handles truth values (specifically for rows with no matches).
+3.  **Logical Evaluation:** Processing the negation logic—identifying that the query returns courses with *zero* enrollments.
+4.  **Data Schema Recall/Integration:** Holding the specific row counts and column counts for both `Course` and `Enrol` in memory.
+5.  **Relational Mapping:** Linking `c.CourseNo` to `e.CourseNo` to perform the mental "join-and-filter" operation.
+6.  **Mental Tracking of State:** Keeping track of which specific rows in the `Course` table satisfy the "absence of record" condition in `Enrol`.
+7.  **Result Set Dimensionality:** Differentiating between the number of rows returned versus the number of columns in the source table.
+
+**ELEMENT COUNT: 7**
+
+This question is deceptively difficult for undergraduates. While the syntax is simple, the "NOT EXISTS" operator is notoriously counter-intuitive for novices compared to "IN." In a diverse South African cohort, students often confuse the subquery’s `SELECT *` with the outer query's `SELECT *` or mistake the logical condition for an Inner Join.
+
+**Your estimate:**
+0.40

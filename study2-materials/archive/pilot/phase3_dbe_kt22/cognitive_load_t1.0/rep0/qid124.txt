@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Definition recall: Candidate Key (uniqueness and minimality).
+2. Definition recall: Functional Dependency (FD).
+3. Logical procedure: Computing the attribute closure of {A, B}.
+4. Logical evaluation: Applying A → B to the closure set.
+5. Logical evaluation: Applying AB → C to the closure set.
+6. Constraint satisfaction: Checking if {A, B}+ contains all attributes in R {A, B, C}.
+7. Distinction: Evaluating minimality (Checking if A+ or B+ are also superkeys to disqualify AB as a Candidate Key).
+8. SQL/Relation mapping: Recognizing R as the set of all attributes.
+
+ELEMENT COUNT: 8
+
+Estimated proportion correct: 0.65
+
+0.65

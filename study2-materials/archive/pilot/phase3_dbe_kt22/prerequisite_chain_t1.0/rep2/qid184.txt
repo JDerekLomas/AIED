@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the SQL Data Control Language (DCL) syntax for the REVOKE statement.
+2. Understanding the concept of "cascading" in the context of privilege propagation (the `WITH GRANT OPTION`).
+3. Distinguishing between the `RESTRICT` and `CASCADE` keywords and their specific functions during a revoke operation.
+4. Recognizing that "no cascade" and "no restrict" are not standard SQL keywords for these operations.
+5. Identifying that the goal (avoiding cascading) is an action performed during the removal of rights, not the granting of rights, thereby eliminating `GRANT` options.
+6. Multi-step reasoning: Connecting the intent ("avoid cascading") to the specific keyword that prevents the action if dependencies exist (`RESTRICT`).
+
+COUNT: 6
+
+0.55

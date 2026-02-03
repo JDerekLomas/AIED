@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Superkey: Understanding that it refers to attributes used for unique identification of tuples.
+2. Terminology distinction (Attribute vs. Tuple): Distinguishing that keys are composed of attributes (columns) to identify rows, not the other way around (eliminates B).
+3. Relationship between Key types: Understanding the hierarchy that a candidate key is a minimal superkey, but not all superkeys are minimal (eliminates C).
+4. Functional purpose of Keys: Knowing that keys identify instances (tuples) within a specific relation, rather than acting as metadata identifiers for the table/schema itself (eliminates D).
+5. Formal Vocabulary: Understanding terms like "relation" (table), "tuple" (row), and "attribute" (column).
+6. Careful Reading/Parsing: Avoiding the common student pitfall of seeing the words "uniquely identify" in Option B and selecting it without verifying the subject-object relationship.
+
+COUNT: 6
+
+0.65

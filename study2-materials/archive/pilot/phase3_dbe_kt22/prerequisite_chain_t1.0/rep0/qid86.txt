@@ -1,0 +1,19 @@
+To evaluate this question, we must first note that the question is **impossible to answer correctly** without a provided schema and dataset. However, in a typical exam context, students would be looking at two tables: `Course` (likely the parent) and `Enrol` (the child). 
+
+Assuming a standard small sample dataset (e.g., `Course` has 3 columns and 4 rows; `Enrol` has various rows), the student must navigate the following:
+
+**PREREQUISITES:**
+1. **Schema Interpretation:** Identifying that `SELECT * FROM Course` determines the number of columns in the result (inherited from the `Course` table's definition).
+2. **Understanding `SELECT *`:** Knowing that the asterisk returns all columns of the source table, not the subquery's columns.
+3. **Correlated Subquery Logic:** Understanding that the `WHERE` clause filters rows from the outer table (`Course`) based on the result of the inner query.
+4. **`NOT EXISTS` Semantics:** Realizing this acts as an "Exclusion" join (Difference), returning only rows in `Course` that have no matching entry in `Enrol`.
+5. **Join Condition Recognition:** Identifying `c.CourseNo = e.CourseNo` as the linking attribute.
+6. **Mental Execution/Data Mapping:** Correcting counting the specific rows in the (unseen) `Course` table that do not appear in the `Enrol` table.
+7. **Distinguishing Rows vs. Columns:** Not confusing the two dimensions in the (Rows, Columns) notation of the options.
+8. **Subquery Scope:** Understanding that columns from the `Enrol` table are not appended to the result set.
+
+**COUNT: 8**
+
+In a South African undergraduate context, many students struggle with the "Anti-Join" logic of `NOT EXISTS`. Without the specific tables provided in the prompt, even strong students would be guessing. If the tables were provided, the "bottleneck" would be the `NOT EXISTS` logic and the column count.
+
+0.35

@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall of the Two-Phase Locking (2PL) protocol (Growing and Shrinking phases).
+2. Logical evaluation of the "Shrinking Phase" constraint: the rule that no new locks can be acquired after any lock is released (Statement A).
+3. Logical evaluation of the "Commit" condition: understanding that releasing locks at the end of a transaction is a valid (and often required) subset of 2PL, specifically Strict 2PL (Statement B).
+4. Logical evaluation of "Pre-declaration": understanding that 2PL allows, but does not forbid, acquiring all locks at the start, as seen in Conservative 2PL (Statement C).
+5. Distinguishing between Basic 2PL and its variants (Strict, Rigorous, Conservative) to determine if "All of the above" is logically sound across the protocol family.
+6. SQL/Concurrency syntax and conceptual rules regarding lock modes (Shared vs. Exclusive).
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

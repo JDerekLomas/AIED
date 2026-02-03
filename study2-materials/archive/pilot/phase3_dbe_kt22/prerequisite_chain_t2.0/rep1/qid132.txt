@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Reading a Relational Schema (R) and a set of Functional Dependencies (Σ).
+2. Understanding the "Lossless Join" condition (CHASE algorithm or the heuristic for two-relation decompositions: $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$).
+3. Identifying the intersection of $R_1$ and $R_2$ as the attribute $\{B\}$.
+4. Testing if $B \to A$ or $B \to C$ holds in $\Sigma^+$ (only $B \to C$ holds, confirming Lossless Join).
+5. Understanding "Dependency Preservation": the union of projected dependencies must imply all original dependencies.
+6. Calculating projected FDs for $R_1$ ($A \to B$) and $R_2$ ($B \to C$).
+7. Verifying if $\{A \to B, B \to C\}^+$ implies the original dependency $A \to C$ using Transitivity (it does, confirming Dependency Preservation).
+8. Distinguishing between the four combinations of True/False in the multiple-choice options.
+
+COUNT: 8
+
+0.65

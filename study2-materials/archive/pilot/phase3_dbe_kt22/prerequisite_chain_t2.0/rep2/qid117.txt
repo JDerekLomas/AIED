@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding of notation**: Recognizing that $R$ represents the relation schema and $\Sigma$ represents a set of Functional Dependencies (FDs).
+2. **Definition of Logical Entailment ($\models$)**: Knowing that $\Sigma_1 \models \Sigma_2$ means every dependency in $\Sigma_2$ must be logically derivable from the dependencies in $\Sigma_1$.
+3. **Application of Armstrong's Axioms/Transitivity**: Specifically, recognizing that if $A \to B$ and $B \to C$ are in $\Sigma_1$, then $A \to C$ is implied by transitivity.
+4. **Member-by-Member Verification**: Realizing that for $\Sigma_1 \models \Sigma_2$ to be true, *all* elements in $\Sigma_2$ ($A \to C$ AND $B \to C$) must be derivable from $\Sigma_1$.
+5. **Pattern Matching/Comparison**: Identifying that $B \to C$ exists in both sets, while $A \to C$ must be derived for the second set to be satisfied.
+6. **Distinguishing Directionality**: Avoiding the "Equivalence trap"—ensuring the student checks if $\Sigma_1$ implies $\Sigma_2$, rather than the inverse ($\Sigma_2 \models \Sigma_1$), which is false in this case ($A$ cannot be derived from $\Sigma_2$ using $B$).
+7. **Precise Boolean Logic**: Mapping the derivation result back to the "True/False" options correctly.
+
+COUNT: 7
+
+0.65

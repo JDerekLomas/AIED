@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Recognizing that a comma in the FROM clause (Course, Enrol) signifies a Cross Join (Cartesian Product).
+2. Understanding the mathematical rule of a Cartesian Product: that the total number of rows is the product of the row counts of the individual tables (Rows in Course × Rows in Enrol).
+3. Ability to retrieve the cardinality (row count) of the 'Course' table from a provided schema or instance diagram (implied in the question context, typically 3 or 4).
+4. Ability to retrieve the cardinality (row count) of the 'Enrol' table from a provided schema or instance diagram (typically 4 or 7).
+5. Avoiding the common misconception that the result is a Sum of the rows (Addition instead of Multiplication).
+6. Avoiding the misconception that the result depends on matching keys (Natural Join/Inner Join logic), which would filter the result set.
+7. Performing the basic arithmetic multiplication correctly.
+
+COUNT: 7
+
+0.65

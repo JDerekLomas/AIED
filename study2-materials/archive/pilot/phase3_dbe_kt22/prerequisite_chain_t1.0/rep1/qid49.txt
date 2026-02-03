@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Defining "Superkey"**: Understanding that a superkey is any set of attributes that uniquely identifies a tuple, regardless of minimality.
+2. **Defining "Candidate Key"**: Understanding that a candidate key is a *minimal* superkey.
+3. **Superset Logic**: Recognizing that if a set of attributes $X$ is a superkey, any superset of $X$ (e.g., $\{a, b\}$) is automatically a superkey.
+4. **Directionality of Implication**: Realizing that while $\{a\}$ is a superkey, it is only a candidate key *if* no subset of $\{a\}$ (the empty set) is a superkey; however, the definition of superkey does not inherently guarantee minimality without further information.
+5. **Logical Negation/Falsehood Identification**: Evaluating Option A and recognizing it contradicts the fundamental property of superkeys (monotonicity).
+6. **Distinguishing "Must" from "May"**: Identifying that while $\{a\}$ *could* be a candidate key, the prompt asks what *must* be true. $\{a\}$ might not be minimal if the empty set could theoretically determine all attributes (though rare) or, more likely, students often confuse the two terms.
+7. **Elimination of Distractors**: Recognizing that $\{a, c\}$ cannot be a candidate key because it is a proper superset of a known superkey $\{a\}$, thus violating the minimality requirement.
+
+COUNT: 7
+
+0.35

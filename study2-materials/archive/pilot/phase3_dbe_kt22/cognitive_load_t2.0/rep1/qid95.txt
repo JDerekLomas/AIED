@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. **Definition recall**: Distinguishing between 'entities' (objects/concepts) and 'attributes' (properties of those objects).
+2. **Text analysis (Filtering)**: Parsing a long narrative description to identify specific data points mentioned.
+3. **Conceptual mapping (Entity identification)**: Identifying "Associate member" as a weak entity/entity based on its relationship and internal numbering.
+4. **Conceptual mapping (Entity identification)**: Identifying "Fitness class" as an entity with multiple specific properties (start date, end date, time slot).
+5. **Contextual evaluation**: Recognising "Fitness centre" as the scope/system boundary rather than a property of an object within the system.
+6. **SQL/Data Modeling Constraints**: Evaluating "Employee ID" as a simple, atomic property belonging to the "Employee" entity.
+7. **Constraint integration**: Mentally cross-referencing the requirement of a "Unique ID" for employees as a primary characteristic of an attribute.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.78

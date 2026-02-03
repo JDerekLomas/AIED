@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Recall: Identifying the start and end markers of a transaction block.
+2. Definition Recall (ACID Properties): Understanding the durability and atomicity of a transaction.
+3. Logical Sequencing: Recognizing the chronological order of the `Commit` and `Rollback` commands.
+4. Transaction State Rules: Knowing that a `Commit` finalizes changes and ends the current transaction, making subsequent rollbacks ineffective for those specific changes.
+5. Distinction between commands: Differentiating between "undoing" an active transaction vs. the persistence of a committed one.
+
+ELEMENT_COUNT: 5
+
+Your estimate:
+0.65

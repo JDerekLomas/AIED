@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Definition of 3rd Normal Form (3NF): Knowledge that it allows either $X$ to be a superkey OR $A$ to be a prime attribute.
+2. Definition of Boyce-Codd Normal Form (BCNF): Knowledge of the stricter requirement that $X$ must be a superkey.
+3. Terminology: Understanding "non-trivial functional dependency" ($X \to A$).
+4. Terminology: Understanding "prime attribute" (part of a candidate key).
+5. Terminology: Understanding "superkey."
+6. Distinction/Mapping: Correctly matching the strict definition (C) to BCNF and recognizing that A and B are swapped versions of standard rules.
+7. Logic: Recognizing that D is only one half of the 3NF condition (it's the sufficient part of the OR condition, but A and B provide "if" structures that test the definition itself).
+8. Elimination/Precision: Not confusing the BCNF superkey requirement with the 3NF "prime attribute" loophole.
+
+COUNT: 8
+
+0.65

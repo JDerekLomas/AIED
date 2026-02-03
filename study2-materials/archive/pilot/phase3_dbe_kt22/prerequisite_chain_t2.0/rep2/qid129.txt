@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs)**: Correctly reading the notation $\Sigma=\{A\to BCD, CD\to AB\}$.
+2. **Definition of a Closure**: Knowing how to compute the transitive closure of an attribute or attribute set (e.g., $A^+$ and $\{CD\}^+$).
+3. **Definition of a Candidate Key (CK)**: Understanding the two-part definition—a CK must be a superkey (uniquely identify all attributes) AND be minimal (no subset is a superkey).
+4. **Logical Evaluation of "Only"**: Recognizing that the statement "A is the **only** CK" is False if even one other CK exists, or if A is not a CK at all.
+5. **Systematic Search for Multiple Keys**: Ability to test combinations beyond the single attributes (checking $A$ is a key, then finding that $CD$ is also a key because $\{CD\}^+ = \{A, B, C, D\}$).
+6. **Handling Composite Keys**: Understanding that a key can consist of multiple attributes (like $CD$) and is treated as a single unit in the definition of a CK.
+7. **Attribute Roles**: Identifying that since $A$ and $CD$ both appear on the RHS and LHS of FDs, there are likely multiple cycles/keys in this relation.
+
+COUNT: 7
+
+0.65

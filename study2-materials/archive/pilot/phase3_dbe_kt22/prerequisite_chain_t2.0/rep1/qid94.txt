@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Differentiating between Entities and Attributes**: Understanding that an entity represents an "object" or "thing" in the real world that is independent, whereas an attribute is a property or status of an entity.
+2. **Identification of Strong Entities**: Recognizing that 'Employee' is a primary object of interest with multiple identifying attributes (ID, Name) and is the parent of subclasses (Trainers, Admins, Techs).
+3. **Recognizing Relationship/Audit Data**: Understanding that "Maintenance event" or its "Report" (Option A) is often modelled as a relationship or a transaction log rather than a core entity type in basic ER modeling.
+4. **Distinguishing Constraints/Domains from Entities**: Realizing that a "status type" (Option B) is a domain/category constraint (new, working, broken) for an attribute, not an entity itself.
+5. **Differentiating between Attributes and Entities**: Recognizing that "time slot" (Option D) is a simple attribute used to define the schedule of a Class, not an independent entity in this specific narrative.
+6. **Information Extraction**: The ability to parse a dense narrative and map natural language descriptions (e.g., "unique ID and must have one of... three status types") to formal ER structures.
+7. **Mapping Classes/Subclasses**: Recognizing that even though specific roles are mentioned, the overarching "Employee" functions as a generalized entity type.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the symbol "⊨" (logical implication/entailment) in the context of functional dependencies (FDs).
+2. Knowing the definition of entailment between sets of FDs (Σ2 ⊨ Σ1 means Σ2 must be able to derive every FD in Σ1).
+3. Recognizing that the question requires testing two separate conditions: whether Σ2 can derive A → B AND whether Σ2 can derive B → C.
+4. Ability to apply Armstrong’s Axioms or the Attribute Closure Algorithm (computing {A}+ and {B}+ under the constraints of Σ2).
+5. Distinguishing between Σ1 ⊨ Σ2 (which is true) and Σ2 ⊨ Σ1 (which is false).
+6. Executing the closure of A under Σ2: {A}+ = {A, C}. Since B is not in the set, A → B is not implied.
+7. Correct logical deduction: if any one FD in Σ1 is not implied by Σ2, the statement Σ2 ⊨ Σ1 is False.
+
+COUNT: 7
+
+0.55

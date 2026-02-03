@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Understanding the definition of Entity Integrity**: Recalling that the rule specifically governs nullability in relation to primary keys.
+2. **Applying the rule to Composite Keys**: Recognizing that if a primary key consists of multiple attributes (StudentID, CourseNo, Semester), the constraint applies to *each* individual component, not just the set as a whole.
+3. **Distinguishing between partial and total nullability**: Differentiating between Option A (partial restriction) and Option B (total restriction), which is a common point of confusion for students who misinterpret "the primary key" as a single unit rather than a collection of attributes.
+4. **Relational Schema Literacy**: Identifying that {StudentID, CourseNo, Semester} denotes a composite primary key.
+5. **Eliminating distractors**: Rejecting Option C, which contradicts the fundamental purpose of a primary key for tuple identification.
+
+COUNT: 5
+
+0.72

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Knowledge of Normal Forms (3NF and BCNF definitions).
+2. Understanding the concept of "Dependency Preservation" in the context of decomposition.
+3. Distinguishing between existence and necessity (understanding that while BCNF *can* be dependency-preserving, it is not *guaranteed* to be).
+4. Familiarity with the 3NF synthesis algorithm (which explicitly guarantees dependency preservation).
+5. Ability to interpret logical quantifiers in technical statements ("always" vs. "cannot").
+6. Identifying a "false" statement by recalling a counter-example (e.g., the standard case where a dependency $C \to A$ is lost when decomposing a relation $R(A, B, C)$ with $AB \to C$ and $C \to A$ into BCNF).
+7. Avoiding the "normalization trap" (the common student misconception that higher normal forms automatically preserve all properties of lower ones).
+
+COUNT: 7
+
+0.55

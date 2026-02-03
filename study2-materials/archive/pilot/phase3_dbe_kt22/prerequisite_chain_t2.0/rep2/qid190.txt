@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Understanding the Core Principle of RBAC**: Knowing that roles in RBAC represent job functions or responsibilities within an organization, not the technical objects (resources) themselves.
+2. **Distinguishing Subjects from Objects**: Differentiating between the "entities" performing the actions (users/departments) and the "targets" of those actions (files/printers/mailboxes).
+3. **Translating Business Hierarchy to Database Roles**: Mapping the provided department names (Sales, Marketing, etc.) to the logical structure of a role-based schema.
+4. **Discarding Irrelevant Information (Distractors)**: Identifying that "workstations" and specific "resource types" (A and C) are targets or environment attributes, not the roles assigned to users to grant permissions.
+5. **Logic Application**: Recognizing that permissions are granted *to* roles, and since permissions vary by department function, the roles must mirror the departments.
+
+COUNT: 5
+
+0.65

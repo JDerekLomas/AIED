@@ -1,0 +1,19 @@
+As an instructor, I evaluate this question as having **high element interactivity**. While the final task is a simple identification, the student must process a dense "wall of text" containing overlapping constraints and business rules to filter out attributes and relationships from actual entities.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Distinguishing between an *Entity Type* (a thing) and an *Attribute* (a property of a thing).
+2.  **Definition Recall:** Distinguishing between an *Entity* and the *Environment/System Boundary* (the Fitness Centre itself).
+3.  **Logical Evaluation (Entity vs. Attribute):** Determining that "Speciality" is a multi-valued attribute of a Trainer, not a standalone entity in this specific narrative.
+4.  **Logical Evaluation (Entity vs. Attribute):** Recognizing that "Equipment ID" is a primary key (attribute), not the entity itself.
+5.  **Relationship Mapping:** Processing the many-to-many relationship between Members and Fitness Classes to confirm the "Class" has its own independent properties (dates, times).
+6.  **Constraint Filtering:** Ignoring irrelevant constraints (e.g., "start date before end date", "status types") that act as "noise" when simply identifying entities.
+7.  **Subtyping Logic:** Managing the hierarchy (Specialization) of Employees into Trainers, Administrators, and Technicians.
+8.  **Weak Entity Evaluation:** Recognizing the Associate Member as a potential entity vs. the Member as a parent entity.
+
+**ELEMENT COUNT: 8**
+
+**Instructor’s Assessment:**
+In a South African undergraduate context, students often struggle with "word problems" where they must extract a schema from narrative text. Stronger students will immediately identify "Fitness Class" as the only viable option. However, weaker students often confuse the *system* (Fitness Centre) with an *entity* within that system, or mistake a primary key (Equipment ID) for the entity it represents. The distractors are well-placed to catch those with a superficial understanding of ER modeling.
+
+**Your estimate:**
+0.62

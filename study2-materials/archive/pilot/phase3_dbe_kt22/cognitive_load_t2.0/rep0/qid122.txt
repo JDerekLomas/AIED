@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: The three criteria for a Minimal Cover (no redundant dependencies, no redundant attributes, canonical form).
+2. Distinction: Recognizing that the question asks if $\Sigma_2$ is a minimal cover *of* $\Sigma_1$ (equivalence check).
+3. Logic (Set Membership): Testing if $\Sigma_1$ can derive $A \to C$ (using Armstrong's Axioms/Transitivity: $A \to B$ and $AB \to C$).
+4. Logic (Set Membership): Testing if $\Sigma_2$ can derive $AB \to C$ (using Augmentation: $A \to C$ implies $AB \to C$).
+5. Procedural Step (Extraneous Attributes): Checking if the 'B' in $AB \to C$ is redundant given $A \to B$ in $\Sigma_1$.
+6. Logical Equivalence: Synthesizing the bidirectional proof that $\Sigma_1^+ = \Sigma_2^+$.
+7. SQL/Relational Mapping: Keeping track of the schema R={A,B,C} as the domain for these rules.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

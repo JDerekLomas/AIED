@@ -1,0 +1,15 @@
+ELEMENTS:
+1. Definition of "Dirty Read" (reading uncommitted data).
+2. Definition of "Unrepeatable Read" (reading changed data within the same transaction).
+3. Definition of "Phantom Read" (reading new rows added by another transaction).
+4. SQL Syntax/Keyword recall for the four standard isolation levels.
+5. Mapping the "Read Committed" level to its specific exclusion (no dirty reads).
+6. Mapping the "Read Committed" level to its specific permissions (allows unrepeatable/phantom reads).
+7. Comparison and elimination of "Read Uncommitted" (allows dirty reads).
+8. Comparison and elimination of "Repeatable Read" (disallows unrepeatable reads).
+9. Comparison and elimination of "Serializable" (disallows all three).
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.65

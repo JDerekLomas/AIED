@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition of a Candidate Key (CK): Must be a superkey and minimal.
+2. Definition of a Functional Dependency (FD): Understanding the $X \rightarrow Y$ relationship.
+3. Attribute Closure Procedure: The iterative process of finding all attributes reachable from a starting set.
+4. Evaluation of $\{A\}^+$: Calculating $\{A, B, C\}$ to verify A is a superkey.
+5. Evaluation of $\{B\}^+$: Calculating $\{B, C, A\}$ to check for additional keys.
+6. Evaluation of $\{C\}^+$: Calculating $\{C, A, B\}$ to check for additional keys.
+7. Logical Comparison: Comparing the results of all closures to the specific claim ("only CK").
+8. Minimality Check: Ensuring no subset of the key is also a key (trivial here as attributes are singletons).
+
+ELEMENT COUNT: 8
+
+0.65

@@ -1,0 +1,16 @@
+To accurately answer this question, a student must correctly interpret both the underlying data structure and the specific execution logic of the SQL query.
+
+**PREREQUISITES:**
+1. **Schema Interpretation:** Understanding that `Study` is a table/relation and mapping the rows to the query.
+2. **GROUP BY Logic:** Understanding that the result set rows represent *unique* groups of `CourseNo`, not the original table rows.
+3. **COUNT(*) with Aggregation:** Knowing that `COUNT(*)` counts occurrences within each specific group (the frequency of each `CourseNo`).
+4. **HAVING Clause Filtering:** Distinguishing between `WHERE` and `HAVING`, specifically that the condition `> 1` filters the *summarized* groups, not the individual records.
+5. **Set Identification:** Manually identifying which specific `CourseNo` values appear more than once in the dataset provided (requires visual scanning and counting).
+6. **Result Counting:** Realizing the question asks for the number of *rows in the result set*, not the total sum of counts or a specific attribute value.
+7. **Attention to Detail:** Not confusing "the count within a group" (e.g., 2) with "the number of groups that meet the criteria."
+
+**COUNT: 7**
+
+While this is a fundamental query, South African undergraduate cohorts often feature a "bimodal" distribution. Stronger students will find this trivial, but those struggling with the transition from flat files to relational grouping often mistake `HAVING` for a row-level filter or struggle to conceptualize the "virtual table" created by a `GROUP BY`.
+
+0.65

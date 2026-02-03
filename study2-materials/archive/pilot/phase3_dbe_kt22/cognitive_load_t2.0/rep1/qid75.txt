@@ -1,0 +1,16 @@
+To accurately answer this question, a student must integrate several distinct components of SQL logic and apply them to an (implied) underlying dataset.
+
+**ELEMENTS:**
+1. **Recall of the `GROUP BY` clause mechanism:** Understanding that rows are collapsed into sets based on unique values in `CourseNo`.
+2. **Recall/Definition of the `COUNT(*)` aggregate function:** Understanding that it counts the number of occurrences within each specific group.
+3. **Application of the `HAVING` clause logic:** Understanding that this is a post-grouping filter (unlike a `WHERE` clause).
+4. **Logical Evaluation of the Inequality:** Applying the specific condition `> 1` to the counts of each group.
+5. **Relationship between clauses (Sequence of Execution):** Mental processing of the order: From Table -> Group rows -> Aggregate -> Filter groups -> Final Result Count.
+6. **Data Set Analysis (Inherent element):** While the data isn't provided in the prompt, to arrive at an answer (A, B, C, or D), the student must map these operations onto a mental or provided table instance.
+
+**ELEMENT COUNT:** 6
+
+**Estimated proportion correct:**
+This is a high-interactivity task for undergraduates. While the syntax is simple, "middle-of-the-pack" students often confuse `WHERE` and `HAVING` or fail to realize the final "row count" refers to the number of *groups* that survive the filter, rather than the total rows in the original table. At a South African university with diverse backgrounds, this conceptual "bottleneck" typically separates the top 40% from those still struggling with declarative logic.
+
+0.45

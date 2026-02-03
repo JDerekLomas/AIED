@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of equivalence between two sets of functional dependencies (that $\Sigma_1$ must imply all dependencies in $\Sigma_2$, and vice versa).
+2. Knowledge of the reflexivity and augmentation rules (Armstrong's Axioms) or the attribute closure algorithm to test implications.
+3. Ability to identify that $A \to B$ is common to both sets and thus does not need testing.
+4. Ability to determine if $A \to C$ can be derived from $\{A \to B, AB \to C\}$ (multi-step reasoning: $A \to AB$ via augmentation, then $AB \to C$ via transitivity).
+5. Ability to determine if $AB \to C$ can be derived from $\{A \to B, A \to C\}$ (multi-step reasoning: $A \to C$ implies $AB \to C$ via decomposition/augmentation or closure $AB^+ = \{A, B, C\}$).
+6. Distinguishing between a "minimal cover" and "equivalence" (some students incorrectly assume sets must look identical to be equivalent).
+7. Reading and interpreting formal notation for sets of dependencies ($\Sigma$) and schemas ($R$).
+
+COUNT: 7
+
+0.65

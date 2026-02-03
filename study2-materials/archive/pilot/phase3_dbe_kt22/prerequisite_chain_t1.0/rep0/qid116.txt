@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of equivalence between sets of Functional Dependencies (Σ1 ≡ Σ2 if and only if Σ1⁺ = Σ2⁺).
+2. Understanding the concept of a transitive dependency (A → B and B → C implies A → C).
+3. Ability to compute the closure of an attribute set under a given set of FDs (specifically, computing A⁺ under Σ2).
+4. Distinguishing between "covers" (Σ1 ⊨ Σ2 vs Σ2 ⊨ Σ1); recognizing that for equivalence, both directions must hold.
+5. Identifying that while Σ1 implies Σ2 (since A→C is derived via transitivity), Σ2 does not imply Σ1 (A→B cannot be derived from Σ2).
+6. Careful reading of the sets to notice the direction of the missing dependency (A→B vs A→C).
+
+COUNT: 6
+
+0.55

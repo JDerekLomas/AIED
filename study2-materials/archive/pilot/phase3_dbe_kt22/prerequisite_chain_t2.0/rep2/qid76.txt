@@ -1,0 +1,16 @@
+To provide an accurate estimate, I first need to clarify that this question requires a specific **dataset (schema and data)** to be solvable. Since the data was not provided in the prompt, I am assuming a standard textbook scenario where some students are enrolled in both courses (to test the distinct property of `UNION`).
+
+### PREREQUISITES:
+1.  **Reading Schema/Data:** Ability to correctly parse a relational table (e.g., a "Study" table) and map attributes (`StudentID`, `CourseNo`) to their values.
+2.  **Filter Logic (WHERE):** Correctly identifying rows where `CourseNo` is exactly 'COMP2400' or 'STAT2001' without missing records or adding extras.
+3.  **The `UNION` Rule (Distinctness):** Knowledge that `UNION` (unlike `UNION ALL`) performs implicit duplicate removal of the final results.
+4.  **Attribute Matching:** Understanding that only the `StudentID` column is being projected, meaning duplicates are identified based on ID, not the whole record.
+5.  **Distinguishing Set Operations:** Correctly distinguishing between the logic of `OR` (within a query) and `UNION` (between queries) versus `INTERSECT` or `JOIN`.
+6.  **Set Cardinality Calculation:** Multi-step reasoning to count the unique occurrences of IDs across two filtered sets.
+
+### COUNT: 6
+
+### Your estimate:
+In a diverse South African undergraduate cohort (like at UCT, Wits, or UP), many students struggle with the distinction between `UNION` and `UNION ALL` during their first assessment. If the data contains overlapping students, approximately 30-40% typically fail to apply the duplicate removal rule, selecting the sum instead of the set union.
+
+0.65

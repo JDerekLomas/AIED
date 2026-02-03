@@ -1,0 +1,18 @@
+To accurately answer this question, a student must process the following information:
+
+**ELEMENTS:**
+1.  **Syntax Identification:** Recognizing the `LEFT JOIN` operator and the `ON` condition.
+2.  **Schema Interpretation:** Understanding the relationship between `Course` (Primary Key table) and `Enrol` (Foreign Key table).
+3.  **Join Logic (Primary Rule):** Recalling that a `LEFT JOIN` preserves all rows from the left table (`Course`), regardless of matches in the right table.
+4.  **Join Logic (Matching Rule):** Understanding that rows in the left table that match multiple rows in the right table will result in multiple rows in the output.
+5.  **Data Processing:** Mentally or physically counting the records in `Course` and determining how many corresponding records (or null-extended records) result from the `Enrol` mapping.
+6.  **Cardinality Evaluation:** Distinguishing between a count of the *left table* and the *final result set* (which depends on the specific data provided in the missing schema/data context). 
+
+*Note: Since the specific table data was not provided in your prompt but is implied by the multiple-choice options, students must also map their calculated count to the given options.*
+
+**ELEMENT COUNT: 6**
+
+**ESTIMATE:**
+In a diverse South African undergraduate cohort, many students struggle with the distinction between `INNER` and `LEFT` joins, often defaulting to a simple count of the left table or assuming a 1:1 relationship. Without seeing the actual table data, they are prone to "guess-calculating" based on row counts.
+
+0.55

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of the definition of Discretionary Access Control (DAC) and its primary mechanism (identity-based ownership).
+2. Understanding the "discretionary" nature of DAC: that an owner can pass permissions to others.
+3. Recognizing the specific security vulnerability of DAC regarding information flow (the Trojan Horse problem where a malicious program acts with the user's permissions).
+4. Distinguishing between DAC and Role-Based Access Control (RBAC) to eliminate Option D.
+5. Identifying that DAC is based on identity, not primarily on certificates (which relates more to PKI or specific authentication protocols), to eliminate Option B.
+6. Reading comprehension to distinguish between "relies on" and "does not rely on" in Options A and C.
+7. Connecting the concept of "inherent flaw" specifically to the Trojan Horse attack in the context of academic database security theory.
+
+COUNT: 7
+
+0.55

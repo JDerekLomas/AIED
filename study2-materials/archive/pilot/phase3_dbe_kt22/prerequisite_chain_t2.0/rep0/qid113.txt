@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding the notation of a relation schema $R$ (identifying the set of all available attributes).
+2. Understanding functional dependency (FD) notation ($X \to Y$).
+3. Knowing the formal definition of "Attribute Closure" ($X^+$).
+4. Proficiency in Armstrong’s Axioms, specifically the Reflexivity rule (recognizing that $D$ is always in $D^+$).
+5. Proficiency in the Transitivity rule (if $D \to A$ and $A \to B$, then $D \to B$).
+6. Understanding the Union/Additivity rule (combining determined attributes into a single set).
+7. Ability to perform an iterative search algorithm (applying $\Sigma$ repeatedly until no more attributes can be added).
+8. Ability to parse the multi-attribute RHS ($D \to ABC$ means $D \to A, D \to B, D \to C$).
+9. Meticulousness to check for the attribute $D$ in the final set (avoiding the "distractor" trap of option C).
+
+COUNT: 9
+
+Your estimate:
+0.72

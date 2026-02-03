@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Knowing how to interpret the notation $X \rightarrow Y$.
+2. **Definition of a Candidate Key (CK):** Distinguishing between a Superkey and a CK (specifically, the property of minimality).
+3. **Closure Algorithm:** Ability to compute the attribute closure ($X^+$) for a given set of attributes under $\Sigma$.
+4. **Recognizing Cycle Implication:** Identifying that the set of FDs forms a cycle ($A \rightarrow B \rightarrow C \rightarrow A$), which implies all attributes are functionally equivalent.
+5. **Systematic Search:** Testing all possible attribute subsets ($A, B, C$) rather than stopping after verifying that $A$ is a key.
+6. **Logical Negation of "Only":** Realizing that for the statement to be False, they need to find at least one other CK (like $B$ or $C$).
+7. **Avoiding "Prime Attribute" Confusion:** Overcoming the common misconception that if $A$ determines everything, other attributes cannot be keys.
+
+COUNT: 7
+
+0.55

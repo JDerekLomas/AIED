@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Definition of a Candidate Key (CK) (uniqueness and minimality).
+2. Closure algorithm process ($X^+$).
+3. Starting condition: Compute closure for A ($A \to B \to C$).
+4. Logical evaluation: $A$ is a CK because $\{A\}^+ = \{A, B, C\}$.
+5. Search/Inter-dependency: Check if other attributes (B or C) also form keys due to the circular functional dependencies.
+6. Evaluation of "Only": Computing $\{B\}^+$ and $\{C\}^+$ to see if the "only" constraint is violated.
+7. Logic gate: If any other CK exists, the statement is False.
+
+ELEMENT COUNT: 7
+
+Estimating for a South African undergraduate cohort: While the circular dependency is a "textbook" case, many students struggle with the exhaustive nature of the word "only," often stopping after verifying that A is a key without checking B or C.
+
+Your estimate:
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Interpreting the notation $A \to B$ and $B \to C$ as constraints on data.
+2. **Schema Reading:** Correcting mapping the attributes $\{A, B, C\}$ to the sub-relations $R_1$ and $R_2$.
+3. **Lossless Join Criterion (Intersections):** Knowing the rule that for a decomposition $\{R_1, R_2\}$ to be lossless, $R_1 \cap R_2$ must be a superkey for either $R_1$ or $R_2$ in the context of $\Sigma$.
+4. **Key Identification:** Determining that in $R_1$, $B$ is a key (since $A \to B$), or in $R_2$, $B$ is a key (since $B \to C$). Identifying that $B$ is the intersection ($R_1 \cap R_2$) and assessing its status as a key for $R_2$.
+5. **Dependency Preservation Definition:** Understanding that the union of the dependencies enforced in the projections ($F_{R1} \cup F_{R2}$) must be equivalent to the original set $\Sigma$.
+6. **FD Mapping:** Identifying that $A \to B$ is fully contained in $R_1$ and $B \to C$ is fully contained in $R_2$.
+7. **Multi-step Reasoning (Integration):** Correcting aggregating the status of both properties to choose the correct multiple-choice option without mixing up the terms (e.g., confusing "lossless" with "dependency preserving").
+
+COUNT: 7
+
+0.65

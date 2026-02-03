@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the technical definition of "correctness" in the context of database concurrency (as opposed to general system reliability).
+2. Distinguishing between the ACID properties (A, C, I, D) and the specific execution schedules that maintain them.
+3. Recognizing that "Consistency" (A) is a goal/property of a single transaction, whereas "Serializability" is the formal criterion for concurrent execution.
+4. Knowing the definition of Serializability (a schedule is correct if it is equivalent to some serial execution).
+5. Overcoming the "All of the above" distractor, which is common in students who associate all three terms with general database "correctness" or the ACID acronym.
+6. Identifying that Atomicity (C) refers to the all-or-nothing nature of a transaction, not the interleaving of multiple transactions.
+
+COUNT: 6
+
+0.35

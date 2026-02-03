@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining DAC: Understanding that Discretionary Access Control is based on the concept of "ownership" rather than fixed system-wide classifications (MAC) or roles (RBAC).
+2. Distinguishing "Discretionary": Recognizing that the "discretion" belongs to the object owner, not necessarily a central authority.
+3. Defining "Owner": Knowing that in a SQL/Relational context, the creator of an object is its owner and holds all initial privileges.
+4. Evaluating Option B/C (DBA vs. Owner): Understanding the distinction between a Superuser (DBA) and an Owner; while a DBA has power, DAC specifically defines the *owner's* right to delegate.
+5. Identifying the "Grant" mechanism: Knowing that the owner manages the access matrix for their specific objects.
+6. Eliminating Distractors: Recognizing that "unowned" objects are generally not a feature of standard DAC models (refuting A).
+
+COUNT: 6
+
+0.65

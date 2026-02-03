@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Interpreting $A \to B$ as a constraint where $A$ uniquely determines $B$.
+2. **Schema Reading**: Identifying the attributes in the original relation $R$ and the sub-relations $R_1, R_2$.
+3. **Lossless Join Condition (Intersection Rule)**: Knowing that for a decomposition into two relations to be lossless, the intersection of their attributes $(R_1 \cap R_2)$ must be a superkey for at least one of the relations ($R_1$ or $R_2$).
+4. **Candidate Key Identification**: Determining that $A$ is a key for $R_1$ (given $A \to B$) and $A$ is a key for $R_2$ (given $A \to C$).
+5. **Dependency Preservation Definition**: Knowing that the union of dependencies enforceable on the projections $(F_1 \cup F_2)^+$ must be equivalent to the original set $\Sigma^+$.
+6. **Projecting Dependencies**: Identifying which FDs "live" in which sub-relation ($A \to B$ in $R_1$; $A \to C$ and $B \to C$ context).
+7. **Transitivity and Redundancy Logic**: Recognizing that while $B \to C$ is not directly in $R_1$ or $R_2$, the "missing" dependency $B \to C$ is actually the crux. A student must check if $B \to C$ is in $(F_1 \cup F_2)^+$.
+8. **Multi-step Comparison**: Evaluating both properties simultaneously to select the correct multiple-choice combination.
+
+COUNT: 8
+
+0.55

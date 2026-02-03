@@ -1,0 +1,12 @@
+PREREQUISITES:
+1.  **Distinguishing Definitions**: Ability to recall the specific, formal definitions of 3NF vs. BCNF without swapping them (a common "interference" error).
+2.  **Terminology (Prime Attribute)**: Knowing that a prime attribute is an attribute that is part of at least one candidate key.
+3.  **Terminology (Superkey)**: Knowing that a superkey is a set of attributes that uniquely identifies a tuple.
+4.  **Logical Structure of 3NF**: Understanding that 3NF allows a "loophole" for prime attributes (X is a superkey OR A is prime), whereas BCNF does not.
+5.  **Understanding "Non-trivial"**: Recognizing that these definitions apply specifically to functional dependencies where the RHS is not a subset of the LHS.
+6.  **Negation/Exclusion Reasoning**: Identifying that Option A is a partial/incorrect hybrid, Option B is actually the definition of BCNF, and Option D is only one half of the 3NF condition.
+7.  **Precision in Boolean Logic**: Recognizing that for a definition to be "correct" in a multiple-choice context, it must be the complete and sufficient condition (Option C).
+
+COUNT: 7
+
+0.55

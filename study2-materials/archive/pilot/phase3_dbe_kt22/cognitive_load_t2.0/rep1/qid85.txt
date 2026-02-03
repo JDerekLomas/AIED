@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **SQL Keyword Recall**: Understanding the functionality of SELECT, FROM, WHERE, and the IN operator.
+2. **Schema Comprehension**: Mapping the relationship between 'Enrol' and 'Course' via the 'CourseNo' foreign key.
+3. **Subquery Execution Logic**: Mentally evaluating the inner query (Course table filtering) before processing the outer query.
+4. **Logical Filtering**: Applying the specific literal string constraint ('Relational Databases') to identify relevant CourseIDs.
+5. **Join/Linking Logic**: Connecting the filtered IDs from the subquery back to the instances in the Enrol table.
+6. **Quantitative Aggregation**: Tracking and counting the resultant set size (since the question asks for a row count rather than just the content).
+7. **Constraint Checking**: Confirming whether the IN clause allows for multiple matches or behaves like a single-value equality.
+
+ELEMENT COUNT: 7
+
+0.65

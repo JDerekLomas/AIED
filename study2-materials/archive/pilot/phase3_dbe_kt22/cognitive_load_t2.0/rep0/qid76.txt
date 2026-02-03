@@ -1,0 +1,17 @@
+To evaluate this question, we must look at the cognitive load required to process a `UNION` operation, which inherently includes duplicate elimination—the primary pitfall for undergraduate students.
+
+**ELEMENTS:**
+1. **SQL Syntax Recognition:** Identifying the `SELECT`, `FROM`, and `WHERE` clauses as individual queries.
+2. **Relational Algebra/Operator Logic:** Recalling the specific definition of `UNION` (Set theory) versus `UNION ALL` (Multiset).
+3. **Data Retrieval (Table A):** Identifying which `StudentID` values satisfy `CourseNo='COMP2400'` (Requires scanning the `Study` table mentally or physically).
+4. **Data Retrieval (Table B):** Identifying which `StudentID` values satisfy `CourseNo='STAT2001'`.
+5. **Comparison/De-duplication:** Comparing the results of both sets to identify overlapping members (the "intersecting" students).
+6. **Counting Logic:** Calculating the cardinality of the resulting distinct set after merging.
+7. **Constraint Satisfaction:** Recalling that `UNION` automatically performs a `DISTINCT` operation, unlike basic selection.
+
+**ELEMENT COUNT: 7**
+
+In a South African context, many students—particularly those from under-resourced schools—rely on rote memorization. They often equate "UNION" with "addition." Without the provided table data in your prompt, I assume a standard exercise where at least one student is enrolled in both courses. Many students will simply add the counts of both queries (obtaining 6) rather than identifying the overlap to find the distinct count (usually 4 or 5 in these textbook examples).
+
+Your estimate:
+0.55

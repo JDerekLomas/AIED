@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a SQL injection attack (malicious code injected via user input).
+2. Distinguishing between static hard-coded strings (Option B) and dynamically constructed strings.
+3. Distinguishing between developer-defined internal variables (Option C) and untrusted external input (Option A).
+4. Identifying the source of external data (recognizing `Request.form` as user-controllable input).
+5. Understanding string concatenation in programming (the `+` operator) and how it builds a query string.
+6. Recognizing that single quotes (`'`) in a concatenated SQL string provide the necessary syntax boundary for an attacker to break out of the data literal.
+7. Identifying the "None of the above" trap (ruling out B and C successfully).
+
+COUNT: 7
+
+0.65

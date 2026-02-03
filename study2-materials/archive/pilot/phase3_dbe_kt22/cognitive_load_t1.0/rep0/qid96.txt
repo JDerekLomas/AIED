@@ -1,0 +1,17 @@
+As an instructor, I evaluate this question as having moderate-to-high element interactivity relative to the simplicity of the final answer. While the question asks for a single definition (Attribute), the student must filter a significant amount of "noise" and complex business logic to reach the conclusion.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Distinguishing between an "Entity," an "Attribute," and an "Instance/Value."
+2.  **Schema Mapping:** Mapping the term "Speciality" to the Trainer entity based on the phrase "Each trainer has one or more specialities."
+3.  **Instance Recognition:** Identifying that "Weight gain," "Weight loss," and "Strength building" are examples (values) of a speciality, not the category itself.
+4.  **Relationship Parsing:** Distinguishing between the primary entities (Trainer, Member, Equipment) and their properties.
+5.  **Noise Filtering:** Disregarding irrelevant constraints (e.g., maintenance frequency, date logic, landline vs. mobile) that occupy working memory but do not impact the classification of the four options.
+6.  **Cardinality Analysis:** Recognizing that a "one-to-many" or "multi-valued" property (specialities) still functions as an attribute (or a separate attribute table) in relational modeling.
+
+**ELEMENT COUNT: 6**
+
+**Proportion Estimate:**
+The question is a "distractor" trap. Weak students often confuse the *data* (the specific specialities) with the *metadata* (the attribute name). However, because "Speciality" is the categorical heading for the other three options, even students with limited database knowledge can often use logic to select the "odd one out." In a South African undergraduate context, where students are taught to be highly analytical of text, most will identify "Speciality" as the container.
+
+Your estimate:
+0.78

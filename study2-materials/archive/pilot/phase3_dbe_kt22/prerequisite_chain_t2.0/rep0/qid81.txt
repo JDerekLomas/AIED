@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Schema Interpretation**: Identifying the Relationship between `Course` and `Enrol` (understanding which table represents the "one" side and which represents the "many" side in a typical university schema).
+2. **Knowledge of JOIN semantics**: Distinguishing a LEFT JOIN from an INNER JOIN (specifically that it includes all rows from the left table regardless of a match).
+3. **Identification of the "Left" table**: Correctly identifying `Course` as the source of all rows.
+4. **Handling of Duplicates**: Understanding that if one course has multiple enrollments, the query returns a row for every match (resulting in more rows than exist in the `Course` table).
+5. **Handling of Non-matches**: Understanding that courses with zero enrollments still produce one row in the output (with NULLs).
+6. **Data Volume Awareness**: Correctly interpreting the provided data instances/tables (implied in the question context) to count rows correctly rather than guessing based on schema alone.
+7. **Arithmetic Accuracy**: Correctly summing the total rows based on the logic above.
+
+COUNT: 7
+
+0.55

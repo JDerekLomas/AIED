@@ -1,0 +1,17 @@
+As an instructor, I would evaluate this question as having high element interactivity. Although the final answer is a straightforward classification of a concept, the student must parse a dense narrative and filter out significant "noise" (irrelevant constraints and relationships) to isolate the specific entity-attribute relationship requested.
+
+**ELEMENTS:**
+1.  **Semantic distinction:** Differentiating between a **category** (Speciality) and the **instances/values** of that category (Weight gain, etc.).
+2.  **Constraint filtering:** Ignoring the complex business rules regarding trainers and classes (e.g., "Not all trainers deliver classes") which act as cognitive load.
+3.  **Entity-Attribute mapping:** Identifying that "Speciality" describes a property of the "Trainer" entity.
+4.  **Relationship logic:** Understanding that "each trainer has one or more specialities" implies a multi-valued attribute or a weak entity, but "Speciality" remains the structural descriptor.
+5.  **Multivalued attribute syntax:** Recognizing that even if a property has multiple values, the property name itself is the attribute, not the data values.
+6.  **Definition recall:** Recalling the formal definition of an "Attribute" vs. an "Entity" or "Value" in the context of ER modeling.
+
+**ELEMENT COUNT: 6**
+
+**Estimated Performance:**
+South African undergraduate cohorts often struggle with dense English word problems if they have not yet mastered the mapping of natural language to formal schemas. Many students will be distracted by the "weight gain/loss" examples because they appear prominently in the text. However, those with even a basic grasp of abstraction will identify "Speciality" as the general descriptor.
+
+Your estimate:
+0.65

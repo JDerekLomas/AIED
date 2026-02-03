@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Definition of a Candidate Key (CK): Understanding that a CK must be both a superkey (determines all attributes) and minimal (no subset is a superkey).
+2. Attribute Closure Algorithm: Knowing how to compute $A^+$ based on the given functional dependencies $\Sigma$.
+3. Transitive Reasoning: Applying $A \rightarrow B$ to realize that $A$ effectively becomes $AB$, which then satisfies $AB \rightarrow C$.
+4. Distinguishing CK from Superkey: Recognizing that while $AB$ is a superkey, the question asks if $A$ (the subset) is sufficient on its own.
+5. Identifying Minimality: Realizing that if $A$ is a superkey, then $AB$ (the other potential candidate) cannot be a CK because it is not minimal.
+6. Handling Redundancy in FDs: Recognizing that the $B$ in $AB \rightarrow C$ is redundant given $A \rightarrow B$ (augmentation/transitivity).
+7. Logical Evaluation: Correctly concluding that $A \rightarrow \{A, B, C\}$, therefore $A$ is a CK.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. **Candidate Key Identification**: Calculating closures (e.g., $\{AB\}^+$) to determine that $\{AB\}$ is the unique candidate key.
+2. **Prime vs. Non-prime Distinction**: Identifying that attributes $\{A, B\}$ are prime and $\{C, D\}$ are non-prime.
+3. **3NF Definition Recall**: Recalling the rule (for $X \to Y$, $X$ is a superkey OR $Y$ is prime).
+4. **3NF Evaluation (FD1)**: Checking $AB \to CD$ (Satisfies 3NF because $AB$ is a superkey).
+5. **3NF Evaluation (FD2)**: Checking $C \to A$ (Satisfies 3NF because $A$ is prime).
+6. **BCNF Definition Recall**: Recalling the stricter rule (for $X \to Y$, $X$ must be a superkey).
+7. **BCNF Evaluation (FD2)**: Checking $C \to A$ ($C$ is not a superkey, thus violating BCNF).
+8. **Logical Synthesis**: Combining the status of both forms to select the correct multiple-choice option.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.55

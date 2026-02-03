@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Determining Candidate Keys (finding the closure of AB and BC).
+2. Recalling the definition of Prime Attributes ({A, B, C}).
+3. Recalling the 3NF definition (for each $X \rightarrow Y$, $X$ is a superkey OR $Y$ is prime).
+4. Recalling the BCNF definition (for each $X \rightarrow Y$, $X$ must be a superkey).
+5. Evaluating AB → CD against the 3NF condition.
+6. Evaluating BC → A against the 3NF condition.
+7. Evaluating AB → CD against the BCNF condition.
+8. Evaluating BC → A against the BCNF condition (noting BC is not a superkey because it doesn't derive D).
+9. Comparing combined 3NF/BCNF status to the multiple-choice options.
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.55

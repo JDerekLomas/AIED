@@ -1,0 +1,16 @@
+To evaluate this question, we must first assume the student has been provided with a specific schema and instance (table data), as "How many rows/columns" cannot be answered without seeing the data for the `Course` and `Enrol` tables. Assuming a standard textbook-style exercise with small sample tables:
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Reading a schema diagram or table headers to identify how many columns are in the `Course` table (since the query uses `SELECT *`).
+2.  **SELECT \* Mechanics:** Understanding that `*` in the outer query refers to all columns from the `Course` table specifically.
+3.  **Correlated Subquery Logic:** Recognizing that the subquery executes for each row of the outer query (the relationship between `c.CourseNo` and `e.CourseNo`).
+4.  **NOT EXISTS Semantics:** Understanding that the outer row is only included if the subquery returns an empty set (i.e., finding courses with zero enrolments).
+5.  **JOIN vs. FILTERING Logic:** Distinguishing that `NOT EXISTS` acts as a filter on the existing table rows rather than a Cartesian product or an Inner Join.
+6.  **Set Subtraction Concept:** Mapping the logic to the conceptual operation "Courses minus Courses-with-Students."
+7.  **Data Counting/Matching:** Accurately performing the manual scan of the provided data to count matches and identifies the remaining rows.
+
+**COUNT: 7**
+
+In a South African context, where students have varying levels of prior exposure, subqueries (especially correlated ones) are a common stumbling block. Students often confuse `NOT EXISTS` with a `LEFT JOIN` where the count might increase, or they fail to identify which table determines the column count.
+
+0.55

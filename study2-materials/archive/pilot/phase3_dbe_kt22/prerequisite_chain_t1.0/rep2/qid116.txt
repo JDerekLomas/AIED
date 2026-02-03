@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of equivalence: Understanding that two sets of Functional Dependencies (FDs) are equivalent if and only if their closures are identical ($\Sigma_1^+ = \Sigma_2^+$).
+2. Understanding the "Covers" concept: Knowing that $\Sigma_1$ is equivalent to $\Sigma_2$ if $\Sigma_1$ implies all FDs in $\Sigma_2$ AND $\Sigma_2$ implies all FDs in $\Sigma_1$.
+3. Applying the Transitivity Rule: Recognizing that in $\Sigma_1$, $\{A \to B, B \to C\}$ implies $A \to C$.
+4. Testing for membership/entailment: Checking if $A \to B$ can be derived from $\Sigma_2$.
+5. Computing Attribute Closure: Specifically, calculating $A^+$ under $\Sigma_2$ (which is $\{A, C\}$) and noticing it does not contain $B$.
+6. Logical "AND" reasoning: Realizing that even if $\Sigma_1$ covers $\Sigma_2$, both directions must hold for the statement to be True.
+7. Distinguishing "subset" from "equivalence": Many students assume that because $\Sigma_2$ looks "simpler" or shares dependencies, they are the same.
+
+COUNT: 7
+
+0.55

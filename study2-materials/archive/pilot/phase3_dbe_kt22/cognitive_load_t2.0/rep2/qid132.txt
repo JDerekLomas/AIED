@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Schema structure awareness**: Recognizing the attributes in R and their distribution into R1 and R2.
+2. **Functional Dependency (FD) Recall**: Understanding the notation $X \rightarrow Y$ and the concept of a closure or minimal cover.
+3. **Lossless Join Theorem Application**: Recalling and applying the rule that $R_1 \cap R_2$ must functionally determine either $R_1$ or $R_2$ (i.e., checking if $B \rightarrow A$ or $B \rightarrow C$ is in $\Sigma^+$).
+4. **Dependency Preservation Definition**: Recalling that the union of dependencies restricted to each sub-schema must be logically equivalent to the original set $\Sigma$.
+5. **FD Projection Logic**: Determining which FDs "live" in R1 ($A \rightarrow B$) and R2 ($B \rightarrow C$).
+6. **Logical Synthesis/Inference**: Mentally calculating if the lost dependency ($A \rightarrow C$) can be inferred from the preserved ones ($A \rightarrow B$ and $B \rightarrow C$) using transitivity.
+7. **Multi-option evaluation**: Simultaneously comparing the results of two distinct boolean tests (lossless? yes; preserving? yes) against the four multiple-choice combinations.
+
+ELEMENT COUNT: 7
+
+0.55

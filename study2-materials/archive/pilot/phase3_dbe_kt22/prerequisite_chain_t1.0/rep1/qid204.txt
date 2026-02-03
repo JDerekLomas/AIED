@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of the Two-Phase Locking (2PL) protocol (Growing Phase vs. Shrinking Phase).
+2. Understanding the "Lock Point" rule: the fundamental constraint that no new locks can be acquired once any lock has been released.
+3. Distinguishing between Basic 2PL and Strict/Rigorous 2PL (to recognize that while locks *can* be held until commit, releasing them earlier is the defining boundary of the shrinking phase in the general protocol).
+4. Recognizing that 2PL does not require pre-declaration of all locks (distinguishing it from Conservative 2PL).
+5. Interpreting the logical structure of a "Multiple Choice - All of the above" question.
+6. Reading and parsing the specific terminology "can not acquire any more locks" as the definition of the shrinking phase.
+
+COUNT: 6
+
+0.65

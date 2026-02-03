@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Understanding the term "correctness criterion" as a formal technical standard in database theory rather than a general adjective.
+- Knowledge of the ACID properties (Atomicity, Consistency, Isolation, Durability) and what each specific property ensures.
+- Distinguishing between "correctness of a single transaction" (Consistency/Atomicity) vs "correctness of concurrent execution" (Isolation).
+- Recognizing "Serializability" as the formal definition of correctness for interleaved execution (the highest level of Isolation).
+- Resisting the "distractor trap" of option D, which appeals to students who recall ACID as a general "correctness" suite but do not understand the specific requirements for concurrency.
+- Ability to differentiate between the state of the database (Consistency) and the scheduling of operations (Serializability).
+
+COUNT: 6
+
+0.35

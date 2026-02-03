@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading Comprehension (English as a Second Language context):** The ability to parse a dense narrative description and extract structural relationships while ignoring irrelevant attributes (like landline numbers or "new, working, or broken" status).
+2. **Definition of a Weak Entity:** Knowing that a weak entity cannot be uniquely identified by its own attributes alone and must depend on an identifying relationship with an owner entity.
+3. **Distinguishing Attributes from Entities:** Recognizing that multi-valued attributes (Specialities) or simple status flags (Equipment Status) are typically modeled as attributes or lookup tables, not necessarily weak entities in a standard ER model context.
+4. **Identifying Key Constraints:** Recognizing that "Fitness Class" has a unique time slot and name/dates, implying it has its own key, whereas "Associate Member" uses a partial key (associate number 1, 2...) that repeats across different primary members.
+5. **Understanding Partial Keys (Discriminators):** Identifying that the "associate number (1, 2...)" specifically signals a discriminator that requires the "Member" ID to achieve global uniqueness.
+6. **Multi-step Reasoning (Exclusion):** Systematically evaluating each option against the requirements of existence dependency and identifier dependency.
+7. **Schema Mapping:** Mentally mapping the text "an associate number (i.e., 1, 2, . . .) and the name... are recorded" to a dependent relationship with "Member".
+
+COUNT: 7
+
+0.55

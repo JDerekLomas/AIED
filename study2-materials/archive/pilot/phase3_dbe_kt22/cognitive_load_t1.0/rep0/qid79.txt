@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. **SQL Syntax Recognition**: Identifying that `SELECT *` retrieves all columns but the row count depends on the join logic.
+2. **Join Logic (INNER JOIN)**: Recalling that an inner join only returns matching rows between two tables.
+3. **Table Relationship Identification**: Identifying the Primary Key (PK) to Foreign Key (FK) relationship via `CourseNo`.
+4. **Data Cardinality (Course Table)**: Counting/holding the number of unique courses available.
+5. **Data Cardinality (Enrol Table)**: Counting/holding the number of enrollment records.
+6. **Relational Mapping**: Evaluating which specific rows in `Enrol` have a corresponding match in `Course`.
+7. **Constraint Satisfaction**: Recognizing that if a `CourseNo` exists in `Enrol` but not in `Course` (or vice versa), it is excluded.
+8. **Mental Calculation**: Summing the total number of successful matches to reach the final count.
+
+ELEMENT COUNT: 8
+
+0.65

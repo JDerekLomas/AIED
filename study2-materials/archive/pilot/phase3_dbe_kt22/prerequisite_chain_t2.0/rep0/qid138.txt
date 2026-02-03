@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Identifying Candidate Keys**: Ability to compute attribute closures (specifically identifying that {A,B} and {B,C} are the minimal superkeys).
+2. **Distinguishing Attribute Types**: Correct categorization of attributes as "Prime" (A, B, C) or "Non-prime" (D) based on all identified candidate keys.
+3. **Applying the 3NF Definition**: Knowledge that 3NF is satisfied if, for every functional dependency $X \to Y$, $X$ is a superkey OR $Y$ is a prime attribute.
+4. **Applying the BCNF Definition**: Knowledge that BCNF is satisfied only if, for every functional dependency $X \to Y$, $X$ is a superkey.
+5. **Evaluating FD $C \to A$ for BCNF**: Recognizing that while $A$ is prime (satisfying 3NF), $C$ is not a superkey (violating BCNF).
+6. **Evaluating FD $AB \to CD$ for 3NF**: Recognizing that while $D$ is non-prime, $AB$ is a superkey, thus satisfying the condition.
+7. **Synthesizing Multi-step Logic**: Combining the outcomes of two different normalization checks to select a single multiple-choice option.
+
+COUNT: 7
+
+0.35

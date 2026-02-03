@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the formal definition of 3NF (every non-prime attribute is non-transitively dependent on the key).
+2. Understanding the formal definition of BCNF (every determinant must be a candidate key).
+3. Recognizing the subset relationship between normal forms (specifically that BCNF is "stronger" or "more restrictive" than 3NF).
+4. Distinguishing between "minimizing" and "eliminating" redundancy (and knowing that functional-dependency-based redundancy is fully addressed by BCNF, while other forms like multi-valued dependencies are not).
+5. Interpreting technical phrasing such as "less restrictive" in a logical/mathematical context.
+6. Identifying that while BCNF targets redundancy from FDs, it doesn't "eliminate" all theoretical redundancy (as 4NF or 5NF exist), making the comparison between options B and C a subtle nuance.
+
+COUNT: 6
+
+0.55

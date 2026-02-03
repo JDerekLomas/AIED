@@ -1,0 +1,14 @@
+To provide an accurate estimate, I have assumed a standard practice schema for this problem: a **Course** table (e.g., `CourseNo`, `CourseName`, `Credits`) and an **Enrol** table. Based on the options provided, the intended schema likely features a **Course** table with **3 columns** and a specific subset of data where only **1 row** satisfies the `NOT EXISTS` condition.
+
+PREREQUISITES:
+1. **Schema Interpretation:** Understanding that `SELECT *` refers to all columns in the source table (`Course`) and identifying the column count of that table from a provided (though implicit here) schema.
+2. **SQL Keyword `NOT EXISTS`:** Knowing that this operator filters the outer query based on the absence of matching records in the subquery.
+3. **Correlated Subquery Logic:** Recognizing that the subquery `c.CourseNo = e.CourseNo` links the two tables row-by-row.
+4. **Set Difference Concept:** Understanding that the query is effectively performing an `EXCEPT` or "Courses with no students" operation.
+5. **Relational Dimensions:** Distinguishing between the count of rows (horizontal) and columns (vertical) and mapping them correctly to the (Row, Column) format in the options.
+6. **Mental Data Processing:** Correcting tracing the provided sample data (not visible here, but required for the student) to identify which specific rows fail the join condition.
+7. **Distinguishing `*` in Outer vs. Inner:** Knowing that `SELECT *` in the outer query determines the result shape, while `SELECT *` in the `EXISTS` clause is a convention that doesn't affect the output columns.
+
+COUNT: 7
+
+0.55

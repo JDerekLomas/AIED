@@ -1,0 +1,17 @@
+As an instructor, I would evaluate this question as having high element interactivity despite the simple final choice. The student must navigate a "wall of text" filled with "noise" (irrelevant entities and constraints) to isolate specific business rules and map them to formal ER modeling notation.
+
+**ELEMENTS:**
+1.  **Semantic Mapping (Member):** Identifying that a member "may choose" to participate in classes (implies partial for members).
+2.  **Semantic Mapping (Class):** Identifying the specific rule: "Each fitness class is attended by one or more members."
+3.  **Concept Recall (Total Participation):** Recalling that "one or more" (mandatory minimum of 1) equates to Total participation.
+4.  **Concept Recall (Partial Participation):** Recalling that "zero or more" (optional) equates to Partial participation.
+5.  **Filtering/Distinction:** Systematically ignoring the 10+ unrelated constraints (trainers, equipment, technicians, administrators, associate members) that clutter working memory.
+6.  **Directionality:** Distinguishing between the participation constraint of the "Member" entity vs the "Fitness Class" entity within the same "Participate" relationship.
+
+**ELEMENT COUNT: 6**
+
+**ESTIMATION:**
+South African CS cohorts often struggle with dense English-language problem statements, especially when English is a second or third language. While the logical jump from "one or more" to "Total" is a fundamental "Level 1" Bloom's taxonomy task, the cognitive load required to extract that specific needle from the haystack of the paragraph leads to frequent errors. Students often default to "Partial" because, in reality, classes can exist before enrollment, but they must stick strictly to the provided text.
+
+Your estimate:
+0.65

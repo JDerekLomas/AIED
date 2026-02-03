@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Reading Comprehension (Filtering):** Ability to ignore extensive "noise" (attributes like unique IDs, equipment status, administrator roles) to focus specifically on the relationship between "member" and "fitness class."
+2. **Identifying Relationship Participation (Member to Class):** Extracting the specific rule: "A member may choose to participate in one or more fitness classes."
+3. **Identifying Relationship Participation (Class to Member):** Extracting the specific rule: "Each fitness class is attended by one or more members."
+4. **Knowledge of Cardinality Definitions:** Understanding that if one entity relates to many of the other, and vice versa, the resulting ratio is Many-to-Many.
+5. **Mapping Business Logic to Notation:** Correctly translating "one or more" on both sides into the "N:N" (or M:N) representation.
+6. **Distinguishing between Relationship types:** Ensuring the student does not confuse the "Member-Fitness Class" relationship with the "Member-Trainer" or "Class-Trainer" relationships mentioned in the same paragraph.
+
+COUNT: 6
+
+0.65

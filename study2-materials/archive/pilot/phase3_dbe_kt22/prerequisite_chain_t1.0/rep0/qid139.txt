@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Knowledge of the 3NF vs. BCNF Hierarchy**: Understanding that BCNF is "stricter" than 3NF (every BCNF relation is in 3NF, but not vice versa), which is necessary to invalidate Option A.
+2. **Definition of Redundancy in Normalization**: Knowing that functional dependency-based normalization (up to BCNF) targets redundancy caused by FDs, but cannot address redundancy caused by multi-valued dependencies (MVDs) or join dependencies.
+3. **Distinguishing "Eliminate" vs. "Minimize"**: Recognizing the nuance that BCNF eliminates redundancy *arising from functional dependencies* but does not eliminate *all* possible database redundancy (e.g., the "all-key" relation with MVDs), making Option B the technically accurate choice over Option C.
+4. **Relational Schema Vocabulary**: Understanding terms like "restrictive" and "normal form" in a formal database context.
+5. **Logical Reasoning**: Identifying that if BCNF is a subset of 3NF, it must be more restrictive, not less.
+
+COUNT: 5
+
+0.55

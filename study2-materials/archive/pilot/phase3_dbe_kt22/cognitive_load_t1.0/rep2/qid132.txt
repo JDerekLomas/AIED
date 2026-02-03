@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Recall and application of the **Lossless Join Theorem** (checking if $R_1 \cap R_2 \to R_1$ or $R_1 \cap R_2 \to R_2$).
+2. Identification of the **intersection** of the schemas ($R_1 \cap R_2 = \{B\}$).
+3. Retrieval of the **Functional Dependencies** ($\Sigma$) from long-term memory to evaluate the intersection.
+4. Logical evaluation of whether $B \to A$ or $B \to C$ holds based on the provided set $\Sigma$.
+5. Recall of the **Dependency Preservation** definition (checking if the closure of the union of projected dependencies equals $\Sigma^+$).
+6. Execution of **projection of FDs** onto $R_1$ (determining $A \to B$ is preserved).
+7. Execution of **projection of FDs** onto $R_2$ (determining $B \to C$ is preserved).
+8. Logic evaluation of the **transitive dependency** ($A \to C$): checking if $(A \to B \cup B \to C)^+$ covers $A \to C$.
+9. **Simultaneous comparison** of both property results against the four multiple-choice combinations.
+
+ELEMENT COUNT: 9
+
+0.55

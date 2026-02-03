@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding notation: Recognizing $R$ as a relation schema and $\Sigma$ as a set of Functional Dependencies (FDs).
+2. Normal Form definitions: Distinguishing between the constraints of 3rd Normal Form (3NF) and Boyce-Codd Normal Form (BCNF).
+3. Non-uniqueness of decomposition: Knowing that because multiple candidate keys can exist and the order of FD processing matters, decomposition into 3NF or BCNF is not inherently unique (falsifying A and B).
+4. Properties of Decompositions: Defining "Lossless-Join" and "Dependency-Preserving."
+5. Existence of 3NF Synthesis Algorithm: Recalling the "3NF Synthesis" or "Minimal Cover" algorithm which guarantees both losslessness and dependency preservation.
+6. Theoretical limits of BCNF: Knowing the specific "trade-off" where BCNF guarantees losslessness but cannot always preserve all functional dependencies (falsifying D).
+7. Distinction between "Algorithm Existence" vs "Universal Property": Realizing that the question asks about the capabilities of an algorithm for *any* schema, not just a specific instance.
+
+COUNT: 7
+
+0.35

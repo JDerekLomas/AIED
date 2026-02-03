@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the `WITH GRANT OPTION` clause and its implication that a recipient becomes a "sub-grantor."
+2. Recognizing that a relation owner (Linda) possesses all privileges inherently.
+3. Tracking the internal "Grant Diagram" or lineage: recognizing that Peter received the privilege from two distinct sources (Linda directly and Amy).
+4. Understanding the `CASCADE` keyword: specifically that it invalidates all privileges that exist *solely* because they were granted by the revoked user (Amy).
+5. Distinguishing between dependent and independent privileges: realizing that because Peter has an independent grant from Linda (Step 1), the revocation of Amy’s grant (Step 3) only destroys the path through Amy, not the path through Linda.
+6. Applying the rule that a privilege persists as long as at least one valid grant path exists in the authorization graph.
+
+COUNT: 6
+
+0.35

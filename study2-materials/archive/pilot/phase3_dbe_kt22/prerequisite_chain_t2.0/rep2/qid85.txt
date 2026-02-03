@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading a database schema: Understanding how to link foreign keys between the `Enrol` and `Course` tables.
+2. Understanding the `SELECT *` clause: Realizing that the query returns records from the `Enrol` table, not the `Course` table.
+3. Subquery execution logic: Understanding that the inner query executes first to return a list of values (`CourseNo`).
+4. Set membership (`IN` operator): Knowing that the outer query filters rows based on whether their attribute exists in the set returned by the subquery.
+5. Counting result sets: Mapping the logic to the provided data (the number of students enrolled in that specific course) rather than just identifying the existence of the course.
+6. Identifying table instances: Recognizing that aliases `e` and `c` refer to the respective tables.
+7. Data scanning: Accurately locating the 'Relational Databases' row in the `Course` table, then finding all matching rows in the `Enrol` table without skipping any.
+
+COUNT: 7
+
+0.65

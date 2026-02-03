@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of Boyce-Codd Normal Form (BCNF) requirements regarding functional dependencies.
+2. Definition of Third Normal Form (3NF) requirements regarding functional dependencies.
+3. The concept of "Dependency Preservation" (the ability to recover all FDs from the decomposed relations).
+4. Recall of the specific theorem/property: 3NF decomposition guarantees both lossless join and dependency preservation.
+5. Recall of the specific property: BCNF decomposition guarantees lossless join but *cannot* always guarantee dependency preservation.
+6. Logical evaluation of universal quantifiers ("always") vs. existential possibilities ("cannot").
+7. Distinguishing between the trade-offs of 3NF (preserves dependencies, may have redundancy) vs. BCNF (no redundancy, may lose dependencies).
+
+ELEMENT_COUNT: 7
+
+0.55

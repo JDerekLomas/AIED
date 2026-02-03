@@ -1,0 +1,15 @@
+To provide an accurate estimate, I am assuming a standard small-scale pedagogical dataset is provided alongside this question (as the specific row counts in the options imply a concrete schema and data state).
+
+**PREREQUISITES:**
+1.  **Reading Schema Diagrams:** Correctly identifying the Foreign Key relationship between `Enrol` (child) and `Course` (parent).
+2.  **Understanding `SELECT *`:** Knowing that the query returns rows from the outer table (`Enrol`), not the inner table or a join-product.
+3.  **Correlated Subquery Logic:** Understanding that the `WHERE EXISTS` clause executes for each row of the outer query.
+4.  **`EXISTS` Semantics:** Knowing that `EXISTS` returns true if the subquery returns *at least one* row, regardless of the subquery's actual column selection.
+5.  **Referential Integrity Awareness:** Recognizing that the condition `c.CourseNo = e.CourseNo` effectively filters for `Enrol` records that have a matching entry in the `Course` table.
+6.  **Handling Nulls/Orphans:** Identifying if there are any rows in `Enrol` with a `NULL` `CourseNo` or a value that does not exist in the `Course` table (orphaned rows), as these would be excluded.
+7.  **Data Counting:** Accurately counting the filtered rows from the provided `Enrol` table instance.
+8.  **Distinguishing Join Types:** Not confusing this semi-join logic with a Full Outer Join or a Cartesian product (which would change the row count).
+
+**COUNT: 8**
+
+0.65

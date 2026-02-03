@@ -1,0 +1,18 @@
+To evaluate this question, we must consider the cognitive load required to process a correlated subquery, which is significantly higher than a standard join or a simple filter.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of the `EXISTS` clause and the subquery.
+2.  **Table Aliasing:** Mapping `e` to `Enrol` and `c` to `Course` to track data flow.
+3.  **Correlated Subquery Logic:** Understanding that the inner query executes (conceptually) for every row in the outer query.
+4.  **Logical Evaluation (The Semi-Join):** Realizing that `EXISTS` returns a Boolean; it doesn't return data from `Course`, it only validates the existence of a match.
+5.  **Relational Mapping:** Identifying the `CourseNo` as the foreign key/primary key link between the two tables.
+6.  **Cardinality Assessment:** Determining that the result count is equal to the number of rows in `Enrol` that have a valid reference in `Course` (essentially a semi-join).
+7.  **Data Set Inspection (Implicit):** Students must mentally or physically scan the provided table data (implied by the specific numerical options) to count the matching rows.
+8.  **Distinction of Concepts:** Differentiating `EXISTS` from `IN` or an `INNER JOIN`, specifically ensuring they don't multiply rows if multiple matches exist (though in a FK relationship, this is less likely to trip them up than the logic itself).
+
+**ELEMENT COUNT: 8**
+
+**ESTIMATE:**
+In a South African undergraduate context, students often struggle with the "looping" logic of correlated subqueries. While the top tier will find this trivial, the "middle" and "lower" cohorts often confuse `EXISTS` with a join that appends columns, or they fail to correctly map the correlation between `e.CourseNo` and `c.CourseNo`. Without the actual table data provided in your prompt, I am assuming the data follows a standard pedagogical pattern (some rows in Enrol might not have a match, or there are multiple Enrols per Course). Given the wide variance in ability, many will guess based on the total row count of the `Enrol` table.
+
+0.55

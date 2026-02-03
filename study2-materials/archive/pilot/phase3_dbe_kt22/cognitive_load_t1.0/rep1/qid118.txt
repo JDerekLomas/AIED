@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of logical implication ($\models$) in functional dependencies (FDs).
+2. Definition of FD closure ($\Sigma^+$) or Armstrong's Axioms (specifically transitivity).
+3. Syntax and interpretation of the notation $\Sigma_2 \models \Sigma_1$ (checking if all FDs in $\Sigma_1$ follow from $\Sigma_2$).
+4. Evaluation of $A \to B$ given $\Sigma_2 = \{A \to C, B \to C\}$.
+5. Evaluation of $B \to C$ given $\Sigma_2 = \{A \to C, B \to C\}$.
+6. Computing the attribute closure $A^+$ under $\Sigma_2$ to verify the presence or absence of $B$.
+7. Distinction between the directions of implication (not confusing $\Sigma_1 \models \Sigma_2$ with $\Sigma_2 \models \Sigma_1$).
+
+ELEMENT COUNT: 7
+
+0.35

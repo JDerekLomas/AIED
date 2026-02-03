@@ -1,0 +1,16 @@
+As an instructor, I would evaluate this question as a low-interactivity task. It focuses on a singular, foundational concept of relational algebra and SQL.
+
+**ELEMENTS:**
+1.  **Keyword Recall:** Understanding that `SELECT` identifies columns and `FROM` identifies the source table.
+2.  **Concept Distinction (DISTINCT):** Understanding that `DISTINCT` eliminates duplicate values from the output.
+3.  **Logical Operation:** Identifying the set of unique values within the specific "CourseNo" column (filtering duplicates mentally or on paper).
+4.  **Data Processing (Counting):** Performing the final count of the remaining unique elements to match the multiple-choice options.
+
+*Note: Without the specific content of the "Study" table provided in your prompt, I am assuming the student is looking at a small sample table (as is typical for such a question).*
+
+**ELEMENT COUNT: 4**
+
+Given the simplicity of this syntax—it is often the second or third query students learn—most will find it accessible. However, students with minimal exposure might confuse "rows in the result" with "rows in the original table" if they overlook the `DISTINCT` keyword. At a South African university with diverse entry levels, some students may still be mastering the "language" of SQL even if the logic is clear.
+
+Your estimate:
+0.85

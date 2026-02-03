@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Interpreting $A \to B$ as a constraint where $A$ determines $B$.
+2. **Knowledge of Lossless Join Theorem (Binary Decomposition)**: Knowing that a decomposition $(R1, R2)$ is lossless if and only if $R1 \cap R2 \to (R1 - R2)$ or $R1 \cap R2 \to (R2 - R1)$.
+3. **Application of Lossless Join Test**: Identifying the intersection $R1 \cap R2 = \{A\}$, and checking if $A \to \{B\}$ or $A \to \{C\}$ exists in the closure of $\Sigma$ (it does).
+4. **Understanding Dependency Preservation Definition**: Knowing that the decomposition is dependency-preserving if the union of the projections of $\Sigma$ onto $R1$ and $R2$ is logically equivalent to $\Sigma$.
+5. **Computing Projections of FDs**: Correcting identifying that $A \to B$ is in $\pi_{R1}(\Sigma)$ and $A \to C$ is in $\pi_{R2}(\Sigma)$.
+6. **Logical Reasoning (Transitivity/Closure)**: Recognizing that $B \to C$ is missing from the projections and determining if it can be inferred from $\{A \to B, A \to C\}$. 
+7. **Identifying a Lost Dependency**: Realizing that while $A \to C$ is preserved, the specific functional relationship $B \to C$ cannot be verified within $R1$ or $R2$ individually, nor from their combined local dependencies (since $B$ and $C$ never appear in the same schema and $B$ is not a key for $A$).
+8. **Distinguishing "Lossless" vs "Dependency Preserving"**: Keeping the two definitions separate without conflating them during the final selection.
+
+COUNT: 8
+
+Your estimate:
+0.35

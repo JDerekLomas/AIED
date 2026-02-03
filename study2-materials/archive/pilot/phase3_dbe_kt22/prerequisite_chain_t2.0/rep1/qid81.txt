@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Ability to interpret a physical schema or data instance (mapping table names to the provided data sets).
+2. Understanding the specific mechanics of a LEFT JOIN (retaining all rows from the "left" table regardless of matches).
+3. Distinguishing between an INNER JOIN and a LEFT JOIN (avoiding the mistake of only counting matches).
+4. Correctly identifying the "left" table in the SQL syntax (Course vs. Enrol).
+5. Accurate row counting of the source table (knowing that the base count starts with the number of entries in 'Course').
+6. Handling "orphaned" records (recognizing that courses with no enrollments still contribute exactly one row to the result).
+7. Managing many-to-one or many-to-many matches (recognizing that one course with multiple enrollments creates multiple result rows).
+8. Basic arithmetic/summation of the resulting joined rows.
+
+COUNT: 8
+
+0.65

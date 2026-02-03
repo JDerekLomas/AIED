@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of the definition of "concurrency" in a database context (multiple transactions executing at the same time).
+2. Understanding the metric of "throughput" (number of transactions completed per unit of time) and why parallel execution increases it.
+3. Understanding the metric of "average response time" and how interleaving prevents short transactions from waiting behind long-running ones (Convoy Effect).
+4. Understanding "resource utilisation" (CPU/IO) and how overlapping transactions keeps hardware busy during idle wait times.
+5. Ability to distinguish between "concurrency" and "parallelism" (or at least understand their shared benefits in this context).
+6. Test-taking strategy for "All of the above" questions (verifying more than one option is correct to select D).
+7. Comprehension of technical English terminology as applied in a South African higher education context.
+
+COUNT: 7
+
+0.82

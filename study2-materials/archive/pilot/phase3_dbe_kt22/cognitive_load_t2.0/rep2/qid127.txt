@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall the definition of a "prime attribute" (an attribute that is part of at least one candidate key).
+2. Recall the definition of a "candidate key" (a minimal superkey).
+3. Evaluate the closure of {A} using the given FDs (A+ = {A, B, C}) to identify it as a key.
+4. Evaluate the closure of {B} using the given FDs (B+ = {B, C, A}) to identify it as a key.
+5. Evaluate the closure of {C} using the given FDs (C+ = {C, A, B}) to identify it as a key.
+6. Compare the set of attributes in all identified candidate keys ({A}, {B}, {C}) against the set {A, B, C}.
+7. Map the resulting logical conclusion to the True/False selection.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

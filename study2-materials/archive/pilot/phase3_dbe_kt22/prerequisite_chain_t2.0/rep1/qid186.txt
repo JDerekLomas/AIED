@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining "Discretionary Access Control" (DAC) and distinguishing it from Mandatory Access Control (MAC) or Role-Based Access Control (RBAC).
+2. Understanding the technical definition of "Ownership" in a SQL/Database context (creator rights).
+3. Distinguishing between the specific power of the DBA (Administrative/Superuser rights) versus the inherent rights of an object owner.
+4. Recognizing the "discretionary" aspect: that the ability to pass privileges rests with the owner, not necessarily a central authority (debunking Option C).
+5. Interpreting logical negatives in technical statements (ruling out Option A as a non-standard rule).
+6. Multi-step reasoning to determine that "full control" in the context of DAC includes the recursive right to manage (GRANT/REVOKE) privileges.
+
+COUNT: 6
+
+0.65

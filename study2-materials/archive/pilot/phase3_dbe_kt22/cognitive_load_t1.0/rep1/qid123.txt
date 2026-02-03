@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: The formal definition of a Candidate Key (CK) (must be a superkey and minimal).
+2. Definition recall: The concept of a "closure" of an attribute set.
+3. Logical procedure: Computing the closure of {A} using the provided functional dependencies (Σ).
+4. SQL/Relational logic: Evaluating the first dependency (A → B) to expand the set {A} to {A, B}.
+5. SQL/Relational logic: Evaluating the second dependency (AB → C) using the newly derived set {A, B} to include {C}.
+6. Constraint satisfaction: Checking if the resulting closure {A, B, C} contains all attributes of R (Superkey check).
+7. Constraint satisfaction: Checking for minimality (though trivial here, students must recall this step to confirm it is a CK and not just a superkey).
+8. Evaluation: Comparing the result to the True/False statement.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.72

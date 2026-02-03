@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. **Candidate Key Identification**: Calculating the closures for combinations of {A, B, C} to identify all keys (Step 1: A+={A,B,C}, Step 2: (BC)+={A,B,C}, Step 3: Check B or C individually).
+2. **Prime vs. Non-prime Distinction**: Categorizing attributes into prime {A, B, C} vs. non-prime {none}.
+3. **3NF Definition Evaluation**: Checking if every functional dependency $X \to Y$ satisfies: $X$ is a superkey OR $Y$ is a prime attribute.
+4. **BCNF Definition Evaluation**: Checking if for every $X \to Y$, $X$ is a superkey.
+5. **Simultaneous Comparison**: Holding the status of both constraints (3NF true, BCNF true) in memory to match against the multiple-choice combinations.
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.65

@@ -1,0 +1,17 @@
+To evaluate this question, we must look beyond the surface level of the SQL syntax. For a student, this is not a single retrieval task but a multi-step logical process involving set theory and data filtering.
+
+**ELEMENTS:**
+1.  **SQL Syntax Knowledge:** Recognizing the structure of a `SELECT` statement and the specific behavior of the `EXCEPT` operator (set difference).
+2.  **Logical Filtering (Query 1):** Mentally isolating rows where `StudentID=102` from the `Study` table.
+3.  **Logical Filtering (Query 2):** Mentally isolating rows where `StudentID=103` from the `Study` table.
+4.  **Attribute Isolation:** Focusing specifically on the `CourseNo` column for both subsets.
+5.  **Set Distinctions (Distinctness):** Recalling that standard SQL `EXCEPT` (unlike `EXCEPT ALL`) implicitly performs a `DISTINCT` operation on the results, removing duplicates.
+6.  **Set Subtraction Logic:** Executing the "Left minus Right" logic (Elements in A that are NOT in B).
+7.  **Data Set Tracking:** Since the data for the `Study` table is not provided in your prompt, I assume it is provided in the student's exam paper. They must hold the specific values of `CourseNo` for both students in their working memory (or via notation) to compare them.
+
+**ELEMENT COUNT: 7**
+
+Regarding the estimate: In the South African context (e.g., UCT, Wits, or UP), "Element Interactivity" is high here because a student who understands `SELECT` and `WHERE` may still fail if they confuse `EXCEPT` with `UNION` or if they forget that `EXCEPT` handles duplicates differently than a simple `JOIN`. Without the provided table data to check for "trick" rows (like student 102 having the same course twice), students often default to a simple subtraction of counts rather than a subtraction of sets.
+
+Your estimate:
+0.65

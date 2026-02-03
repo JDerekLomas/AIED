@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition of a Superkey/Candidate Key: Recalling that a key must functionally determine all other attributes.
+2. Closure Calculation (Algorithmic Step): Determining that $\{A\}^+ = \{A, B, C\}$, identifying $A$ as the primary key.
+3. Candidate Key Identification (Constraint): Determining if other attributes ($B, C$) are keys or part of a key.
+4. Definition of 3NF: Recalling that for each $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+5. Definition of BCNF: Recalling that for each $X \to Y$, $X$ must be a superkey (a stricter constraint).
+6. Logical Evaluation of $A \to B$: Checking against 3NF and BCNF definitions.
+7. Logical Evaluation of $B \to C$: Checking against 3NF and BCNF definitions (noting $B$ is not a superkey and $C$ is not prime).
+8. Distinction/Relationship: Understanding the hierarchy (BCNF implies 3NF) to eliminate options logically.
+
+ELEMENT_COUNT: 8
+
+Your estimate:
+0.55

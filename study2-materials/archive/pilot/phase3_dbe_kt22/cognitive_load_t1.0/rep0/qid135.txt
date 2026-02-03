@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition of a Candidate Key (finding all attributes that functionally determine R).
+2. Closure calculation (computing $\{A\}^+$ and $\{BC\}^+$ to verify keys).
+3. Identification of Prime Attributes (attributes that are part of any candidate key).
+4. Definition of 3NF (checking if every FD $X \to Y$ is such that $X$ is a superkey or $Y$ is prime).
+5. Definition of BCNF (checking if every FD $X \to Y$ is such that $X$ is a superkey).
+6. Evaluating $A \to BC$ against BCNF/3NF criteria.
+7. Evaluating $BC \to A$ against BCNF/3NF criteria.
+8. Logical synthesis (combining evaluations of both FDs to select the correct intersection of normal forms).
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.55

@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Recall: Identifying the correct keyword for removing privileges (`REVOKE` vs `GRANT`).
+2. Concept Recall: Definition of "cascading" in the context of security/privileges (the propagation of privilege withdrawal).
+3. Keyword Distinction: Differentiating between the behavioral modifiers `RESTRICT` and `CASCADE`.
+4. Logical Mapping: Connecting the goal ("avoid cascading") to the specific keyword that prevents the action if dependencies exist (`RESTRICT`).
+5. Syntax Validation: Evaluating the provided options to see which follows standard SQL structure (Action + Privilege + Object + Subject + Modifier).
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.65

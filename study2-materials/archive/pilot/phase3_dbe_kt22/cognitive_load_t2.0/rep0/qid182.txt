@@ -1,0 +1,16 @@
+As a university instructor, I would evaluate this question as follows:
+
+**ELEMENTS:**
+1.  **Definition recall:** Retrieving the specific theoretical definition of Mandatory Access Control (MAC).
+2.  **Concept Distinction (MAC vs. DAC):** Distinguishing the system-enforced nature of MAC from Discretionary Access Control (DAC), where owners control access (Option B).
+3.  **Concept Distinction (MAC vs. RBAC):** Distinguishing MAC from Role-Based Access Control (Option D).
+4.  **SQL Syntax/Feature Mapping:** Identifying that the `GRANT`/`REVOKE` mechanism belongs to DAC (Option C).
+5.  **Classification Logic:** Linking "security levels" and "classifications" (clearances/labels) to the MAC framework (Option A).
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+While the question is a "simple" multiple-choice recall item, it requires students to perform a 1-to-1 mapping while simultaneously filtering out highly attractive distractors (especially B and D, which represent more "common" real-world experiences for novices). For a South African undergraduate cohort with wide variance, those who have only interacted with MySQL or Postgres will intuitively lean toward B or C unless they have solidified the theoretical "levels/labels" concept.
+
+**Your estimate:**
+0.65

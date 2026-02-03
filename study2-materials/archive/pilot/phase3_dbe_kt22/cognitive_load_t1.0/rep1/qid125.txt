@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (uniqueness and minimality).
+2. Definition recall: Functional Dependency (FD) and Attribute Closure.
+3. Logical evaluation: The closure of {A} using the Armstrong’s Axioms/Closure algorithm ($A^+ = \{A, B\}$).
+4. Logical evaluation: The closure of {AB} or {AC} to check for other potential keys.
+5. Constraint satisfaction: Identifying that $A$ does not derive $C$ alone, so $A$ is not a superkey.
+6. Logical evaluation: Testing the combination $\{A, C\}$ or $\{A, B\}$ to find a valid key.
+7. Determining the actual CK: $\{A, B\}$ is a key, but since $A \to B$, the closure of $A$ is only $AB$. To get $C$, we need $AB$. Therefore, $\{A, B\}$ is a CK.
+8. Comparison: Comparing the calculated CK ({A, B}) against the statement's claim ({A}).
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.65

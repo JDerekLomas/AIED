@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Differentiating Entities**: Identifying the difference between a weak entity (Associate Member) and a strong entity (Class) within a narrative.
+2. **Definition of a Key Attribute**: Knowing that a key must uniquely identify every instance of an entity set across the entire database.
+3. **Domain Constraints**: Recognizing that "Phone number" (Option A) is not necessarily unique (shared households) and "Name" (Option C) is frequently non-unique.
+4. **Relational Constraints**: Understanding that "Date of maintenance" (Option B) can have multiple entries for the same piece of equipment or multiple pieces maintained on one day, disqualifying it as a key.
+5. **Contextual Logic Interpretation**: Analyzing the specific constraint in the text: "No two fitness classes have the same daily time slot." 
+6. **Abstracting the Key**: Realizing that if no two classes share a time slot, the `Time slot` fulfills the uniqueness requirement for the `Class` entity, even if it feels counter-intuitive compared to an "ID".
+7. **Mapping Description to Options**: Successfully matching the provided text constraints to the four specific distractors.
+8. **Negative Filtering**: Systematically eliminating options that are attributes of entities where "one-to-many" or "many-to-many" relationships exist without explicit uniqueness.
+
+COUNT: 8
+
+0.65

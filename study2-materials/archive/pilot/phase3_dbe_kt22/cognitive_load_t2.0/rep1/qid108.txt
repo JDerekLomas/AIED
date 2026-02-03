@@ -1,0 +1,19 @@
+To evaluate this question, we must look at it from the perspective of an undergraduate student determining what standard E-R (Entity-Relationship) diagrams can and cannot represent versus what is simply a textual constraint.
+
+**ELEMENTS:**
+1.  **Constraint Distinction (E-R Capacity):** Distinguishing between structural constraints (multiplicity, optionality) and check constraints/business rules (dates, frequencies, value sets).
+2.  **Entity Mapping:** Identifying the 'Fitness Class' and 'Trainer' as entities.
+3.  **Relationship Evaluation (Instructed by):** Assessing the "Many-to-One" relationship (Many classes, one trainer).
+4.  **Participation Constraint (Not all trainers):** Assessing "Optionality" on the Trainer side (Minimum cardinality of 0).
+5.  **Domain/Check Constraint Logic (Temporal):** Evaluating if date comparisons (Start < End) belong in a diagram (Option A).
+6.  **Temporal Frequency Logic:** Evaluating if maintenance frequency (twice a year) belongs in a diagram (Option B).
+7.  **Attribute Domain Logic:** Evaluating if specific value lists (New, Working, Broken) are E-R features vs. logical schema features (Option D).
+
+**ELEMENT COUNT: 7**
+
+The question is a "distractor" heavy problem. Options A, B, and D all describe data integrity constraints that are common in SQL (CHECK constraints or triggers) but are notoriously difficult or impossible to represent in a standard Chen or Crow's Foot E-R diagram. A student must simultaneously hold the definition of an E-R relationship in memory while filtering out "distractor" constraints that feel like they belong in a database but not in this specific diagramming notation.
+
+In a South African context with high variance in prior exposure, students often struggle with the distinction between the *Conceptual Schema* (E-R) and the *Logical Schema* (SQL tables). Many students will pick D because "Unique ID" is familiar, failing to realize the status list is a check constraint. Option C is the correct structural answer.
+
+Your estimate:
+0.40

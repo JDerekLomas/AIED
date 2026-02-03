@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL Syntax Recognition: Identifying the `PRIMARY KEY` and `FOREIGN KEY...REFERENCES` clauses within the DDL statements.
+2. Definition Recall: Retrieving the specific definition of "referential integrity" (as opposed to entity integrity).
+3. Table Relationship Mapping: Identifying "Student" as the parent/referenced table and "Enrol" as the child/referencing table.
+4. Logical Evaluation of Constraint Direction: Determining that the foreign key ensures the child's value exists in the parent, not vice versa.
+5. Distinction between Concepts: Distinguishing between a Referential Integrity constraint (Option A) and a Not Null/Entity Integrity constraint (Options C and D).
+6. Distinguishing Directionality: Evaluating Option A against Option B (the inverse relationship).
+
+ELEMENT_COUNT: 6
+
+Your estimate:
+0.65

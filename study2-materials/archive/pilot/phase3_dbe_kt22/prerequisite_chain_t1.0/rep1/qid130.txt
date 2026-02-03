@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($A \rightarrow B$).
+2. Identifying the Candidate Key of the original relation $R$ (recognizing $A$ is the key).
+3. Recalling the Lossless Join Decomposition theorem (the intersection of the schemas must be a superkey of at least one of the schemas).
+4. Applying the Lossless Join theorem: Identifying $R_1 \cap R_2 = \{B\}$, and checking if $B \rightarrow B, C$ or $B \rightarrow A, B$ in the context of the respective sub-schemas.
+5. Understanding the Dependency Preservation property (the union of the FDs applicable to each projection must logically imply all original FDs).
+6. Testing for Dependency Preservation: Checking if $A \rightarrow B$ is contained in $R_1$ and $B \rightarrow C$ is contained in $R_2$.
+7. Synthesizing both results to select the matching multiple-choice option.
+
+COUNT: 7
+
+0.55

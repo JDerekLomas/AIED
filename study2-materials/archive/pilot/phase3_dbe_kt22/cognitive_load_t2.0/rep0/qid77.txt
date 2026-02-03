@@ -1,0 +1,17 @@
+To evaluate this question, we must look at the cognitive load required to process the relational algebra logic within the SQL syntax. Given that no specific data table was provided in your prompt, I am assuming the students are looking at a provided **dataset/instance** of the `Study` table to derive the answer.
+
+### ELEMENTS:
+1.  **Syntax Recognition**: Identifying the structure of two independent SELECT statements joined by a set operator.
+2.  **Filter Application (Set A)**: Scanning the table and isolating rows/CourseNos where `StudentID=102`.
+3.  **Filter Application (Set B)**: Scanning the table and isolating rows/CourseNos where `StudentID=103`.
+4.  **Set Operator Semantics (`EXCEPT`)**: Recalling that `EXCEPT` returns distinct values from the first result set that do not appear in the second.
+5.  **Distinction (EXCEPT vs. UNION/INTERSECT)**: Maintaining the directionality of the subtraction (A - B is not B - A).
+6.  **Duplicate Handling**: Remembering that SQL set operators (unlike `UNION ALL`) perform an implicit `DISTINCT` on the results.
+7.  **Final Enumeration**: Counting the remaining unique elements to match the multiple-choice options.
+
+**ELEMENT COUNT: 7**
+
+### Your estimate:
+At a South African university, this is a "discriminator" question. Stronger students (familiar with Python sets or logical Venn diagrams) will find it trivial. However, the "middle-to-low" cohort often confuses `EXCEPT` with a `JOIN` or forgets to remove duplicates before counting. If the dataset is small and clear, the success rate is decent, but set theory remains a common stumbling block for those with minimal prior exposure.
+
+0.65

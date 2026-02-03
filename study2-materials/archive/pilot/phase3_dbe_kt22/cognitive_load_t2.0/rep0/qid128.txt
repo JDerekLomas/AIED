@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. **Definition of Candidate Key (CK)**: Recalling that a CK must uniquely identify all attributes in $R$ and must be minimal.
+2. **Attribute Closure Algorithm**: Knowing the procedural steps to calculate $\{X\}^+$ using functional dependencies (FDs).
+3. **Synthesis of Right-Hand Side (RHS)**: Observing that attribute $C$ never appears on the right side of any FD in $\Sigma$, implying it *must* be part of every key.
+4. **Logical Evaluation of FDs**: Processing three distinct FDs ($A\to B, B\to AD, CD\to AB$) to determine if other attributes are required alongside $C$.
+5. **Set Minimality**: Checking if $C$ alone is a key, or if a combination (like $CD$) is needed, while ensuring no subset is a key.
+6. **Constraint Satisfaction**: Mapping the specific goal ("$C$ must be part of each CK") to the logical properties of the given set $R$ and $\Sigma$.
+
+ELEMENT COUNT: 6
+
+At a South African university, this is a standard "normalization" topic. High-performing students will instantly recognize that $C$ is "missing" from the RHS of all FDs, making the answer trivial (True). However, weaker students often struggle with the formal closure procedure or confuse "Primary Key" with "Candidate Key," leading to hesitation. Given the wide range of abilities, a significant portion will correctly identify the "missing attribute" rule.
+
+Your estimate:
+0.72

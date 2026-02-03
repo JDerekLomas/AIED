@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Schema identification**: Discerning which table (`Enrol` vs. `Student`) logically contains the relationship between courses and students.
+2. **Attribute projection**: Verifying `CourseNo` is the correct column required by the prompt.
+3. **Filtering logic**: Applying the `Year = 2019` predicate.
+4. **Aggregate syntax**: Recalling that `COUNT(*)` counts the rows within a group.
+5. **Grouping rule**: Identifying the functional dependency required for grouping (the non-aggregated column `CourseNo` must match the `GROUP BY` clause).
+6. **Constraint satisfaction**: Simultaneously ensuring the grouping attribute (`CourseNo`) matches the select list while ensuring the source table (`Enrol`) actually contains that data.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

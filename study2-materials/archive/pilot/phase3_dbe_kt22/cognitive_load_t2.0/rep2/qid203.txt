@@ -1,0 +1,9 @@
+ELEMENTS:
+1. Definition recall: The conceptual definition of an "Exclusive (X) Lock".
+2. Distinction: Differentiating the permissions of an Exclusive lock from a Shared (S) lock.
+3. Mapping: Connecting the conceptual "Write" permission to its constituent actions (an update implies a read-then-write cycle).
+4. Constraint satisfaction: Identifying that the lock level must encompass both operations to be considered correct in the context of standard RDBMS protocols.
+
+ELEMENT_COUNT: 4
+
+0.82

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes of technicians, equipment, and administrators) to focus only on the "Trainer" and "Fitness Class" entities.
+2. Conceptual mapping: Identifying the specific sentence in the text that defines the business rule for the "instruct" relationship ("Each fitness class is... instructed by only one trainer").
+3. Understanding the definition of "Participation Constraint": Knowing that it refers to whether every instance of an entity must participate in a relationship.
+4. Distinguishing "Total" vs "Partial": Understanding that "Total" implies a mandatory requirement (must) and "Partial" implies an optional requirement (may/can).
+5. Mapping business rules to constraints: Identifying that "each fitness class is... instructed by" implies every class instance in the database must be linked to a trainer, satisfying the definition of Total participation.
+6. Avoiding the "inverse" trap: Not getting confused by the rule "Not all trainers deliver fitness classes," which describes the participation of the Trainer entity, not the Fitness Class entity.
+7. Logic/Term translation: Correctly identifying that "is [always] instructed by" functions as a mandatory existence dependency.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Recall: Recalling the correct keyword for the `REVOKE` command versus the `GRANT` command.
+2. Concept Mapping: Connecting the "avoid cascading" goal with the logical distinction between the `RESTRICT` and `CASCADE` keywords.
+3. Logical Exclusion: Recognizing that `GRANT` options (A and C) are irrelevant to the process of removing privileges.
+4. Syntactic Validation: Evaluating whether `no cascade` or `no restrict` are valid SQL keywords (they are typically invalid or non-standard).
+5. Procedural Distinction: Understanding the directional flow of privilege revocation in a hierarchy (the grant dependency tree).
+
+ELEMENT_COUNT: 5
+
+Your estimate:
+0.65

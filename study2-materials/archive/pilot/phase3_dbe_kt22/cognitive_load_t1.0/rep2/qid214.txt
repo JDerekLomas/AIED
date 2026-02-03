@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding `UPDATE`, `SET`, and `WHERE` clauses.
+2. Transaction Control Logic: Understanding the sequential nature of `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK`.
+3. State Change Tracking: Mentally tracking the values of 'Tom' through two specific updates.
+4. Definition of Atomicity/Durability: Recalling that a `COMMIT` statement finalizes changes and makes them permanent in the database.
+5. Distinction between Transaction States: Recognizing that a `ROLLBACK` issued *after* a `COMMIT` refers to a completed transaction boundary and cannot undo committed data.
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.55

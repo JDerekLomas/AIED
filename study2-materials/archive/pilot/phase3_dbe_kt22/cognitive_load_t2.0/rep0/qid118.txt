@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall: Understanding the symbol $\vDash$ (logical implication/entailment) between sets of functional dependencies.
+2. Conceptual distinction: Recognizing that $\Sigma_2 \vDash \Sigma_1$ means all dependencies in $\Sigma_1$ must be derivable from $\Sigma_2$ using Armstrong's Axioms.
+3. Rule application (Transitivity): Evaluating if $A \rightarrow B$ can be derived from $\{A \rightarrow C, B \rightarrow C\}$.
+4. Rule application (Attribute Closure): Calculating $A^+$ under $\Sigma_2$ to check if $B$ is included.
+5. Counter-example identification: Identifying that while $A \rightarrow C$ is in both, $A \rightarrow B$ cannot be inferred from $A \rightarrow C$ and $B \rightarrow C$ (reversing the transitive chain).
+6. Evaluation of logical conditions: Checking both dependencies in $\Sigma_1$ against the closure of their left-hand sides under $\Sigma_2$.
+
+ELEMENT COUNT: 6
+
+0.45

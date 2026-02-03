@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Understanding that a CK must be a superkey (determines all attributes) and must be minimal (no proper subset is a superkey).
+2. Attribute Closure Algorithm: Knowing how to compute $X^+$ given a set of Functional Dependencies (FDs).
+3. Transitive Reasoning: Ability to see that if $A \to B$ and $A, B \to C$, then $A$ determines $C$ (even if they don't formally use Armstrong's Axioms).
+4. Identifying "Hidden" Keys: Checking if other combinations (like $\{B\}$ or $\{C\}$ or $\{B, C\}$) could potentially be keys.
+5. Distinction between Superkey and Candidate Key: Ensuring the student doesn't stop at just finding that $A$ is a superkey, but verifies minimality.
+6. Logic Verification: Correctly concluding that since $\{A\}^+ = \{A, B, C\}$, and $A$ is a single attribute, it is necessarily minimal and therefore a CK.
+7. Exhaustive Search/Exclusion: Realizing that because $B$ and $C$ never appear on the left side of any FD (or $B$ only appears with $A$), they cannot be keys on their own, thus $A$ is indeed the *only* CK.
+
+COUNT: 7
+
+0.65

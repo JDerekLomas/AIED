@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency (FD) notation**: Recognizing that $X \to Y$ means $X$ determines $Y$.
+2. **Definition of a Closure**: Knowing how to compute the set of all attributes functionally determined by a specific set (e.g., finding $A^+$).
+3. **Definition of a Superkey**: Understanding that a set of attributes is a superkey if its closure contains all attributes in $R$.
+4. **Definition of a Candidate Key (CK)**: Distinguishing a candidate key as a *minimal* superkey (no proper subset is a superkey).
+5. **Multi-step reasoning (exhaustive search)**: Realizing that to disprove "A is the only CK," one must test other attribute sets for key properties.
+6. **Specific attribute analysis**: Identifying that because $CD \to AB$ and $AB$ includes the rest of the attributes, the closure of $\{C, D\}$ also equals $\{A, B, C, D\}$.
+7. **Syntactic precision**: Recognizing that $\{C, D\}$ is a distinct set of attributes from $\{A\}$, making the statement "A is the only CK" false.
+8. **Identifying minimality for the second key**: Checking that neither $C$ nor $D$ alone is a key (they are not, as neither appears on the LHS of another FD to bridge to other attributes).
+
+COUNT: 8
+
+0.65

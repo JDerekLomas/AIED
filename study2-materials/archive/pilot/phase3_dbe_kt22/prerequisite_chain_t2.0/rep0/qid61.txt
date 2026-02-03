@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Vocabulary distinction: Distinguishing between Data Manipulation Language (DML) used for data/tuples (`DELETE`) and Data Definition Language (DDL) used for schema/structure (`DROP`).
+2. Syntactic recall of the `DELETE` statement: Knowing that the correct SQL syntax is `DELETE FROM [table]` rather than `DELETE TABLE`.
+3. Syntactic recall of the `DROP` statement: Knowing that `DROP` operates on objects (tables) and uses the syntax `DROP TABLE [table]` without a `FROM` clause.
+4. Functional differentiation: Understanding that "deleting all tuples" leaves the table structure intact, whereas "dropping a table" removes both data and the table definition.
+5. Avoiding "Logical Drift": Identifying that `DELETE FROM R` (without a `WHERE` clause) is the specific command used to clear a table of all rows.
+
+COUNT: 5
+
+0.70

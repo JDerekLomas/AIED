@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Structure of a SELECT statement with a GROUP BY clause.
+2. Table Identification: Differentiating between the `Enrol` and `Student` tables based on where enrolment data and `CourseNo` would logically reside.
+3. Column Selection: Identifying the correct attributes (`CourseNo` vs `StudentID`) to return.
+4. Filtering Logic: Applying the `WHERE` clause condition for the specific year (2019).
+5. Aggregation Logic: Understanding that `COUNT(*)` counts rows per group.
+6. Grouping Constraint: The crucial rule that non-aggregated columns in the SELECT list must match the columns in the GROUP BY clause.
+7. Distractor Discrimination: Simultaneously evaluating the mismatch between `CourseNo` in the SELECT and `StudentID` in the GROUP BY (Option B).
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

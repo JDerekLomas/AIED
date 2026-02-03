@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the definition of equivalence of sets of Functional Dependencies (FDs) (Σ1 ≡ Σ2 iff Σ1+ = Σ2+).
+2. Knowledge of Armstrong’s Axioms, specifically the property of Transitivity (If A → B and B → C, then A → C).
+3. Ability to apply the property of Augmentation (If A → B, then AA → AB, simplified to A → AB) or understand the "super-set" implication.
+4. Capability to perform Attribute Closure calculations (calculating A+ under both sets).
+5. Multi-step reasoning: Recognizing that in Σ1, since A → B and AB → C, the 'B' in the antecedent is redundant or can be reached via A.
+6. Identifying that in Σ1, A → B combined with AB → C implies A → C.
+7. Identifying that in Σ2, A → B and A → C directly imply AB → C (via decomposition/composition rules).
+8. Distinguishing between a set containing a compound antecedent (AB → C) and a simple one (A → C) when the components are already determined.
+9. Formal logic: Knowing that equivalence requires both Σ1 ⊨ Σ2 and Σ2 ⊨ Σ1.
+
+COUNT: 9
+
+0.65

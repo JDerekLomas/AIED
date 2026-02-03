@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Definition of a minimal cover (specifically that it must be in canonical form with no redundant functional dependencies).
+- Knowledge of logical equivalence (the ability to check if $\Sigma_1^+ = \Sigma_2^+$).
+- Ability to calculate attribute closures (specifically $A^+$ under $\Sigma_1$).
+- Applying the Armstrong Axiom of Transitivity (recognizing $A \rightarrow B$ and $AB \rightarrow C$ implies $A \rightarrow C$ via decomposition/composition).
+- Distinguishing between "equivalent sets of dependencies" and "minimal cover" (identifying that "minimal" implies no redundant dependencies in the result and single attributes on the right-hand side).
+- Identifying a redundant attribute on the left-hand side (realizing $AB \rightarrow C$ is redundant if $A \rightarrow C$, as $A$ is smaller than $AB$).
+- Recognizing that the statement asks for a comparison of sets, not just if $\Sigma_2$ is minimal in isolation.
+
+COUNT: 7
+
+0.55

@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Interpretation of notation: Understanding $R$ as a relation schema and $\Sigma$ as a set of Functional Dependencies (FDs).
+2. Closure Calculation / Key Identification: Ability to determine that $A$ is the only candidate key because $A^+ = \{A, B, C\}$.
+3. Prime vs. Non-prime distinction: Identifying that $A$ is a prime attribute and $\{B, C\}$ are non-prime attributes.
+4. BCNF Definition: Knowing that for every non-trivial FD $X \to Y$, $X$ must be a superkey.
+5. 3NF Definition: Knowing that for every non-trivial FD $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+6. Transitivity Recognition: Identifying that $A \to B \to C$ represents a transitive dependency (specifically $A \to C$ via $B$), which violates 3NF when $C$ is non-prime.
+7. Systematic Verification: Checking $B \to C$ against both definitions (where $B$ is not a superkey and $C$ is not prime).
+8. Eliminating Distractors: Matching the result (Not 3NF, Not BCNF) to Option C.
+
+COUNT: 8
+
+0.45

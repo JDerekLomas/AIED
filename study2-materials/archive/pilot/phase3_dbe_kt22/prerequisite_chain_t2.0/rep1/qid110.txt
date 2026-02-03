@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Identification of functional dependency notation ($\Sigma$).
+- Understanding the definition of "Attribute Closure" (finding all attributes functionally determined by a starting set).
+- Ability to apply the Reflexivity rule (knowing $A$ is always in $A^+$).
+- Execution of Armstrong's Transitivity rule (if $A \to B$ and $B \to C$, then $A \to C$).
+- Proficiency in the "Union" or "Augmentation" logic to accumulate attributes.
+- Recognizing the termination condition (no more attributes can be added because the LHS of $D \to ABC$ is not in the current set $\{A, B, C\}$).
+- Distinguishing between a partial closure ($AB$ or $ABC$) and the full closure within the context of the provided options.
+
+COUNT: 7
+
+0.72

@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a "Minimal Cover" (standard 3-step criteria).
+2. Knowledge of Functional Dependency (FD) equivalence (knowing that $\Sigma_2$ must be equivalent to $\Sigma_1$ to be a cover).
+3. Ability to calculate the closure of an attribute set ($A^+$) under a given set of FDs.
+4. Identifying redundant dependencies (Step 2 of minimal cover algorithm).
+5. Identifying and removing extraneous attributes (Step 1 of minimal cover algorithm, specifically testing if $B$ is extraneous in $AB \to C$).
+6. Reasoning that while $\Sigma_2$ is equivalent to $\Sigma_1$ and has no extraneous attributes, it may or may not satisfy the "minimal" criteria depending on its own internal redundancies.
+7. Distinguishing between a "canonical cover" and just any set of equivalent dependencies.
+8. Logical evaluation: Recognizing that in $\Sigma_1$, $A \to B$ and $AB \to C$ implies $A \to C$ (via augmentation/transitivity), making $B$ extraneous in $AB \to C$.
+9. Validating that $\Sigma_2$ is indeed the simplified, irreducible version of $\Sigma_1$.
+
+COUNT: 9
+
+0.65

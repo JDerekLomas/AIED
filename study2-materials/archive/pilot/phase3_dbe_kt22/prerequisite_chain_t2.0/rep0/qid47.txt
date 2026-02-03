@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Knowledge of Superkey Definition**: Understanding that a superkey is any set of attributes that contains a candidate key or, more broadly, uniquely identifies a tuple.
+2. **Knowledge of the Superset Property**: Recognizing that if a set of attributes $S$ is a superkey, then any superset of $S$ (up to the set of all attributes in the relation) is also a superkey.
+3. **Notation Familiarity**: Reading the relation schema $R(a,b,c)$ and the set notation $\{a,b\}$.
+4. **Logical Deduction**: Recognizing that $\{a,b,c\}$ is a superset of $\{a,b\}$.
+5. **Distinguishing Candidate Key vs. Superkey**: Students often confuse "minimal" (candidate key) with "uniqueness" (superkey). They might incorrectly apply the rule that adding an attribute "breaks" a key if they think only in terms of minimalism.
+6. **Eliminating the Negative Distractor**: Resisting the common misconception that a superkey must be "small" or that adding columns makes it "not a key."
+
+COUNT: 6
+
+0.72

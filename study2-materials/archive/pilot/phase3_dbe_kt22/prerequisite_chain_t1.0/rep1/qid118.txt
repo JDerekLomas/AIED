@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of logical entailment ($\Sigma \models \sigma$) in the context of functional dependencies (i.e., every relation that satisfies $\Sigma$ must also satisfy $\sigma$).
+2. Understanding the definition of equivalence and entailment between sets of dependencies ($\Sigma_2 \models \Sigma_1$ means $\Sigma_2$ implies every dependency in $\Sigma_1$).
+3. Ability to compute the closure of an attribute set under a given set of functional dependencies ($X^+$ with respect to $\Sigma$).
+4. Recognizing that to check if $\Sigma_2 \models A \to B$, one must check if $B \in A^+$ under $\Sigma_2$.
+5. Executing the closure algorithm correctly for $A^+$ using $\Sigma_2$: starting with $\{A\}$, seeing that only $A \to C$ applies, resulting in $\{A, C\}$.
+6. Identifying that $B \notin \{A, C\}$, therefore $A \to B$ is not entailed by $\Sigma_2$.
+7. Differentiating between "equivalence" and "entailment" (avoiding the trap of seeing that they share $B \to C$ and assuming partial entailment is sufficient for a 'True' value).
+8. Distinguishing between $\Sigma_1 \models \Sigma_2$ (which is True) and $\Sigma_2 \models \Sigma_1$ (which is False).
+
+COUNT: 8
+
+0.55

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Understanding the definition of a SQL View as a derived/virtual table rather than a physical one.
+- Knowledge of the SQL Authorization model (GRANT/REVOKE) and how ownership normally functions for base tables.
+- Distinguishing between "Ownership" and "Effective Privileges" (knowing that creating an object doesn't automatically grant every possible permission if the underlying rights are missing).
+- Understanding "Updatability" constraints of views (e.g., views involving joins, aggregations, or missing NOT NULL columns cannot be updated even if the creator has update rights on base tables).
+- Reading comprehension of the quantifier "always" in options A and B, which implies a universal truth that can be disproven by a single counter-example.
+- Distinguishing between Option C and D, which requires knowing that a view's privileges are a subset of the privileges held on the underlying schema.
+
+COUNT: 6
+
+0.35

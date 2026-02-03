@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the mechanism of SQL injection (string concatenation vs. parameterized queries).
+2. Knowing the definition of "sanitization" and "constraints" in the context of web security.
+3. Distinguishing between the application’s database user (the service account) and the end-user of the software.
+4. Understanding the Principle of Least Privilege (it mitigates damage but does not "prevent" the injection vulnerability itself).
+5. Recognizing that removing all privileges from a database user would render the application non-functional, making it an invalid "prevention" strategy.
+6. Identifying the negative phrasing in the prompt ("not correct").
+7. Evaluating multiple-choice logic, specifically the role of "None of the above" when searching for an incorrect statement.
+8. Distinguishing between "mitigation" (reducing impact) and "prevention" (stopping the occurrence).
+
+COUNT: 8
+
+0.65

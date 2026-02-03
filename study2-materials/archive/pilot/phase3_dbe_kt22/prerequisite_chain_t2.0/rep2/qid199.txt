@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the ACID acronym (Atomicity, Consistency, Isolation, Durability).
+2. Definition of "Isolation" in the context of concurrent transaction execution (preventing interference).
+3. Distinguishing between the specific roles of database engine components (Buffer/Storage Manager vs. Transaction/Recovery Manager).
+4. Mapping the "Isolation" property specifically to "Concurrency Control" mechanisms (locks, timestamps) rather than general "Recovery."
+5. Reading comprehension: identifying that "Recover manager" (sic) and "Concurrency control" refer to distinct sub-modules of the Transaction Manager.
+6. Eliminating "Storage manager" and "File manager" as low-level physical management layers unrelated to logical transaction properties.
+
+COUNT: 6
+
+0.72

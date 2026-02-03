@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1.  **Information Extraction (Noise Filtering):** Ability to ignore significant amounts of "distractor" information (technicians, equipment, administrators, etc.) and isolate the specific relationship between "trainer" and "speciality".
+2.  **Cardinality Recognition:** Identifying the phrase "one or more specialities" as a 1:N relationship (one trainer, multiple values for the same attribute).
+3.  **Knowledge of Entity-Relationship Modeling (Attributes):** Understanding that a simple attribute (Option B) can only store a single atomic value.
+4.  **Understanding of Multi-valued Attributes:** Recognizing that "speciality" fits the textbook definition of a multi-valued attribute when an entity has a set of values for the same property.
+5.  **Distinguishing Entity vs. Attribute:** Determining if "speciality" needs its own attributes (making it an entity) or if it is just a descriptive label (making it an attribute).
+6.  **Understanding of Weak Entities:** Knowing that a weak entity (Option D) requires its own primary key or a specific existential dependency that usually involves more complexity than a simple list of strings.
+7.  **Evaluating "Best Way":** Realizing that while several options could technically store the data, the most concise and standard representation in basic ER modeling for a list of simple descriptors is a multi-valued attribute.
+
+COUNT: 7
+
+0.55

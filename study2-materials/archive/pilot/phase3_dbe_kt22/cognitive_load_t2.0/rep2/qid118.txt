@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. Definition of logical entailment ($\Sigma_2 \models \Sigma_1$): understanding that every functional dependency in $\Sigma_1$ must be logically derivable from $\Sigma_2$.
+2. Recall of Armstrong’s Axioms or the Transitivity rule ($A \to B, B \to C \implies A \to C$).
+3. Evaluation of $\Sigma_1$ dependencies against $\Sigma_2$: Specifically testing if $A \to B$ can be inferred from $\{A \to C, B \to C\}$.
+4. Computation of Attribute Closure ($A^+$) under $\Sigma_2$ to verify if $B$ is included.
+5. Identifying the direction of implication: Distinguishing between $\Sigma_2 \models \Sigma_1$ (is $\Sigma_1$ a subset of the closure of $\Sigma_2$?) and $\Sigma_1 \models \Sigma_2$.
+6. Logical counter-example generation: Recognizing that knowing $A$ and $B$ both point to $C$ does not imply a relationship between $A$ and $B$ itself.
+
+ELEMENT COUNT: 6
+
+0.45

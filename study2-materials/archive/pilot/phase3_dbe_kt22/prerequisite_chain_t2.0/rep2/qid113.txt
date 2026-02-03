@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency (FD) notation**: Recognizing that $X \to Y$ means $X$ determines $Y$.
+2. **Knowledge of the Closure Definition**: Knowing that $D^+$ is the set of all attributes functionally determined by $D$.
+3. **Application of Armstrong's Axioms (Reflexivity)**: Realizing the starting set must include $D$ itself ($D \subseteq D^+$).
+4. **Iterative Procedural Execution**: Knowing to look for FDs where the LHS is a subset of the currently found attributes.
+5. **Handling Composite Attributes (RHS)**: Understanding that $D \to ABC$ provides three distinct attributes simultaneously ($A$, $B$, and $C$).
+6. **Ability to scan the FD set $\Sigma$ systematically**: Ensuring no dependencies are missed (even if $A \to B$ and $B \to C$ are redundant in this specific case, the student must evaluate them).
+7. **Mapping the final result to multiple-choice options**: Identifying that $\{D, A, B, C\}$ matches the string $ABCD$.
+
+COUNT: 7
+
+0.85

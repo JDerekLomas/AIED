@@ -1,0 +1,18 @@
+As a university instructor, I have evaluated this question based on the Cognitive Load Theory framework, specifically focusing on element interactivity. To answer this specific question, a student must filter through a dense narrative (the "Red Herring" effect) to isolate the specific entities and their participation rules.
+
+**ELEMENTS:**
+1.  **Entity Identification:** Distinguishing "Trainer" and "Fitness Class" from the list of other entities (Administrator, Technician, Equipment, Member, etc.).
+2.  **Constraint Isolation:** Locating the specific sentence: "Each fitness class is... instructed by only one trainer."
+3.  **Constraint Isolation (Reverse):** Locating the specific sentence: "Not all trainers deliver fitness classes" (implying a trainer can deliver zero, one, or multiple classes).
+4.  **Logical Mapping (Class → Trainer):** Determining that for any one class instance, there is exactly one trainer (The "1" side of the relationship from the class perspective).
+5.  **Logical Mapping (Trainer → Class):** Determining that one trainer can lead multiple classes (The "N" side from the trainer perspective).
+6.  **Definition Recall:** Understanding that "Cardinality Ratio" refers to the maximum number of relationship instances an entity can participate in (1:N vs N:N).
+7.  **Directional Synthesis:** Correctly ordering the ratio (Trainer:Class) based on the mapped constraints.
+
+**ELEMENT COUNT: 7**
+
+**ESTIMATION:**
+South African undergraduate cohorts often struggle with "word problems" where the primary challenge is linguistic parsing rather than technical knowledge. While the SQL/normalization aspects of the course are harder, many students get "lost in the noise" of a long paragraph. However, since this specific question only asks for one ratio rather than a full ERD, the success rate is usually higher than a modeling task.
+
+Your estimate:
+0.65

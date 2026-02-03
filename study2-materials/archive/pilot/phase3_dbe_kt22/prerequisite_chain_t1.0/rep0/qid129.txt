@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as both a superkey and a minimal set.
+2. Ability to compute the attribute closure ($A^+$) using the inference rules (Armstrong's Axioms).
+3. Recognizing that if $A \rightarrow BCD$, then $A$ is a superkey for $R=\{A,B,C,D\}$.
+4. Understanding the concept of multiple candidate keys (uniqueness vs. existence).
+5. Ability to identify other potential keys by looking at the right-hand side of dependencies (identifying that $CD$ is also a superkey).
+6. Ability to check for minimality for the second potential key ($CD$): checking if $C^+$ or $D^+$ cover the schema.
+7. Multi-step reasoning: If a second, distinct minimal superkey exists ($CD$), the statement "A is the only CK" must be false.
+8. Distinguishing between a Primary Key (which is singular) and Candidate Keys (which can be multiple).
+
+COUNT: 8
+
+0.65

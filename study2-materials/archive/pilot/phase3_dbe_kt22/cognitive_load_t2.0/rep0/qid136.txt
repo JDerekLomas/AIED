@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Definition of Candidate Key**: Students must first determine the closure of attributes to identify the key ($A^+ = \{A, B, C\}$, thus $A$ is the candidate key).
+2. **Definition of 3NF**: Recall the rule (for every $X \to Y$, $X$ is a superkey OR $Y$ is a prime attribute).
+3. **Definition of BCNF**: Recall the stricter rule (for every $X \to Y$, $X$ must be a superkey).
+4. **Functional Dependency Evaluation (A $\to$ B)**: Testing this specific dependency against the 3NF and BCNF definitions.
+5. **Functional Dependency Evaluation (B $\to$ C)**: Testing this specific dependency against the definitions (crucial here, as $B$ is not a superkey and $C$ is not prime).
+6. **Transitive Dependency Identification**: Recognizing that $A \to B \to C$ creates a transitive dependency, which violates 3NF.
+7. **Logical Elimination/Comparison**: Comparing the findings (fails 3NF, therefore must fail BCNF) against the four multiple-choice combinations.
+
+ELEMENT COUNT: 7
+
+0.55

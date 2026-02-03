@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL Syntax Recall: Identifying the structure of a `SELECT` statement and the specific behavior of the `UNION` operator (distinct vs. all).
+2. Table Data Retrieval: Locating and filtering rows where `CourseNo` is 'COMP2400'.
+3. Table Data Retrieval: Locating and filtering rows where `CourseNo` is 'STAT2001'.
+4. Relational Logic (Set Theory): Understanding that `UNION` performs a set union, requiring the identification and removal of duplicate `StudentID` values across the two result sets.
+5. Counting/Aggregation: Maintaining the running total of unique entries after comparison.
+6. Schema Mapping: Identifying the `StudentID` column as the projection target for both queries.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

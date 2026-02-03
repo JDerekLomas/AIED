@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: Distinction between "Entity" (a thing/object) and "Attribute" (a property of that thing).
+2. Domain mapping: Identifying "Employee ID" as a property of the "Employee" entity.
+3. Logical elimination: Identifying "Associate member" as an entity (has its own properties like name/number).
+4. Logical elimination: Identifying "Fitness class" as an entity (has name, dates, slots).
+5. Logical elimination: Identifying "Fitness centre" as the system boundary or a high-level entity, not a property.
+6. Processing constraints: Parsing the requirement that an associate member has an "associate number," which might distract students into thinking the member itself is the attribute.
+7. Constraint evaluation: Filtering out the complex business rules (maintenance frequency, status types, specialization) which serve as "noise" relative to the specific question asked.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.82

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of the definition of equivalence for sets of Functional Dependencies (FDs) (i.e., $\Sigma_1 \equiv \Sigma_2$ if $\Sigma_1^+ = \Sigma_2^+$).
+2. Understanding the procedural check for equivalence: proving $\Sigma_1$ covers $\Sigma_2$ and $\Sigma_2$ covers $\Sigma_1$.
+3. Ability to compute the attribute closure of a set of attributes under a given set of FDs (the closure algorithm).
+4. Recognition that $AB \to C$ in $\Sigma_1$ can be simplified using $A \to B$ (via the pseudo-transitivity rule or decomposition/augmentation), or checking if $C \in \{A, B\}_{\Sigma_2}^+$.
+5. Ability to test if $B \to C$ (from $\Sigma_2$) is implied by $\Sigma_1$ by computing $\{B\}_{\Sigma_1}^+$.
+6. Multi-step logical reasoning: discovering that $\{B\}_{\Sigma_1}^+ = \{B\}$, which does not contain $C$, therefore $\Sigma_1$ does not cover $\Sigma_2$.
+7. Careful reading of the schema $R$ and the specific FD sets $\Sigma_1$ and $\Sigma_2$ without mixing up the variables.
+
+COUNT: 7
+
+0.65

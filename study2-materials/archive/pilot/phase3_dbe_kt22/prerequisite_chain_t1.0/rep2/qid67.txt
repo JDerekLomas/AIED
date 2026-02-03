@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the syntax of a `FOREIGN KEY` clause in a `CREATE TABLE` statement.
+2. Identifying which table is the 'parent' (referenced) and which is the 'child' (referencing) based on the `REFERENCES` keyword.
+3. Defining the concept of "referential integrity" (as opposed to entity integrity or nullability).
+4. Mapping the direction of the constraint: knowing that the child table must point to an existing record in the parent table, not vice versa.
+5. Distinguishing between a primary key constraint (which implies uniqueness and non-nullability) and a referential integrity constraint.
+6. Reading and interpreting a basic relational schema across two separate SQL statements.
+7. Eliminating distractors that describe "NOT NULL" constraints (C and D) which are not explicitly defined in the `Enrol` statement for the foreign key column.
+
+COUNT: 7
+
+0.65

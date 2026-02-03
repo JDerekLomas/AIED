@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Identifying the DDL keyword `ALTER TABLE` as the correct command for structural changes vs. `DELETE` for data rows.
+- Recognizing the specific sub-clause `DROP COLUMN` required by standard SQL (and common implementations like PostgreSQL or MySQL) for removing attributes.
+- Distinguishing between valid SQL syntax and "plausible-sounding" distractors that use logical but incorrect keywords (like `DELETE A` or `DROP A`).
+- Mapping the formal relational model term "attribute" to the SQL implementation term "column".
+- Mapping the formal term "relation" to the SQL implementation term "table".
+- Precise memory of keyword order and syntax structure for structural modifications.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Knowledge of Normal Forms (3NF and BCNF definitions).
+2. Understanding the concept of "Decomposition" (splitting a relation into smaller schemas).
+3. Understanding "Dependency Preservation" (whether all original functional dependencies can be checked within the resulting schemas).
+4. Recalling the fundamental trade-off/existence theorem: 3NF decomposition always guarantees both lossless join and dependency preservation, whereas BCNF decomposition guarantees lossless join but *not* necessarily dependency preservation.
+5. Distinguishing between "always" and "cannot" (recognizing that BCNF *can* be dependency-preserving in specific cases, but it is not guaranteed).
+6. Ability to eliminate distractors based on the hierarchical relationship between 3NF and BCNF.
+
+COUNT: 6
+
+0.55

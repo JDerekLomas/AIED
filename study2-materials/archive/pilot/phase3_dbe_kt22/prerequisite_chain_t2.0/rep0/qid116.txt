@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of equivalence of sets of Functional Dependencies (FDs): knowing that Σ1 and Σ2 are equivalent if and only if Σ1+ = Σ2+.
+2. Knowing the algorithmic check for equivalence: checking if Σ1 covers Σ2 and if Σ2 covers Σ1.
+3. Performing attribute closure: specifically, the ability to calculate A+ under Σ1 and Σ1 under Σ2.
+4. Identification of the specific failure point: Recognizing that under Σ1, A → B is present, but under Σ2, A does not determine B (A+ = {A, C}).
+5. Distinguishing between logical implication and "looking similar": A student might mistakenly think they are equivalent because they both result in A → C via transitivity.
+6. Applying the transitive rule: Understanding that in Σ1, A → B and B → C implies A → C.
+7. Identifying a counter-example: Recognizing that while Σ1 implies all dependencies in Σ2, Σ2 does not imply A → B.
+
+COUNT: 7
+
+0.65

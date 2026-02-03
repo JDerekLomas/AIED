@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Differentiating between Entities and Attributes**: Understanding that an entity represents a "thing" or "object" with independent existence, whereas an attribute describes a property of an entity.
+2. **Identification of Supertype/Subtype Relationships**: Recognising that "Employee" is a valid entity type that generalizes "Trainers, Administrators and Technicians."
+3. **Filtering Entity vs. Relationship Data**: Recognizing that "Maintenance Event" describes a relationship/action between a Technician and Equipment, but the question asks for a specific "Report" or "Date" (which could be an attribute or an associative entity depending on design, requiring careful reading).
+4. **Recognition of Domain Constraints vs. Entities**: Distinguishing between a business rule/constraint (e.g., "Time Slot" or "Status") and an entity. "Time Slot" is described as a property of a Class with a uniqueness constraint, not an object with its own attributes.
+5. **Handling Multi-Valued and Enumerated Attributes**: Recognizing that "Status Type" is a predefined category (an attribute or lookup table) rather than a primary entity of interest.
+6. **Information Synthesis (Schema Mapping)**: Mapping a narrative text description to a conceptual ER model mentally.
+7. **English Language Comprehension**: Identifying subtle phrasing such as "recorded in the database" versus what actually constitutes a primary "Entity Type."
+
+COUNT: 7
+
+0.65

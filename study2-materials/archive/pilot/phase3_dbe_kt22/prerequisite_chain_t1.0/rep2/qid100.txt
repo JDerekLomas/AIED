@@ -1,0 +1,15 @@
+To determine the correct answer, a student must successfully navigate the following requirements:
+
+**PREREQUISITES:**
+1.  **Entity Identification:** Identifying "Member" and "Fitness Class" as the relevant entities within a dense narrative containing multiple distractors (Technicians, Equipment, Administrators).
+2.  **Relationship Extraction (Member to Class):** Locating the specific sentence: "A member may choose to participate in one or more fitness classes."
+3.  **Relationship Extraction (Class to Member):** Locating the specific sentence: "Each fitness class is attended by one or more members."
+4.  **Cardinality Mapping (One-to-Many):** Recognizing that "one member to many classes" establishes a "Many" side for classes.
+5.  **Cardinality Mapping (Many-to-One):** Recognizing that "one class to many members" establishes a "Many" side for members.
+6.  **Synthesis (N:M):** Synthesizing these two "many" observations into the "N:N" (Many-to-Many) relationship type.
+7.  **Keyword Discrimination:** Distinguishing between "instructed by" (which involves Trainers) and "attended by" (which involves Members) to avoid the 1:N trap associated with instructors.
+8.  **Term Definition:** Understanding that "cardinality ratio" refers specifically to the maximum number of entity instances that can participate in a relationship.
+
+**COUNT:** 8
+
+0.65

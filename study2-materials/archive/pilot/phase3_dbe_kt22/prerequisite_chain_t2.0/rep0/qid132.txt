@@ -1,0 +1,17 @@
+PREREQUISITES: 
+1. Reading and interpreting Functional Dependency (FD) notation ($A \to B$).
+2. Understanding the concept of a schema decomposition into sub-relations.
+3. Knowledge of the Lossless Join property definition.
+4. Knowledge of the Dependency Preservation property definition.
+5. Identifying the candidate key(s) for the original relation $R$ (recognizing $A$ as the primary key).
+6. Applying the Lossless Join test for two relations (verifying if $R1 \cap R2 \to R1$ or $R1 \cap R2 \to R2$).
+7. Identifying the intersection of $R1$ and $R2$ is $\{B\}$.
+8. Checking if $B \to A$ or $B \to C$ holds in the original set $\Sigma$.
+9. Determining the projections of $\Sigma$ onto $R1$ ($\{A \to B\}$) and $R2$ ($\{B \to C\}$).
+10. Evaluating if the closure of the union of projected dependencies $(\{A \to B\} \cup \{B \to C\})^+$ includes the original dependency $A \to C$ (transitivity reasoning).
+11. Synthesizing these two separate boolean results into a single multiple-choice selection.
+
+COUNT: 11
+
+Your estimate:
+0.55

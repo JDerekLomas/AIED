@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes like unique IDs, address, landline) and unrelated entities (equipment, administrators, members) to isolate the relevant entities.
+2. Domain knowledge: Understanding the "Class" vs "Trainer" relationship in an ER context.
+3. Distinguishing between Member-Class and Trainer-Class relationships: Identifying that the question asks about the instructor, not the participant.
+4. Parsing business rules: Correcting identifying the constraint "Each fitness class is... instructed by only one trainer."
+5. Mapping constraints to cardinality (Direction A): Realizing one Class has exactly one Trainer (Mandatory 1).
+6. Parsing business rules: Identifying the phrase "Each trainer has one or more specialities" (irrelevant) vs "Not all trainers deliver fitness classes" (meaning a trainer can instruct 0, 1, or many classes).
+7. Mapping constraints to cardinality (Direction B): Realizing one Trainer can instruct many (N) Classes.
+8. Consolidating the ratio: Synthesizing "1 trainer per class" and "Many classes per trainer" into the standard notation "1:N".
+9. Distinguishing 1:N from N:1 or N:N: Understanding the convention of how 1:N is represented in multiple-choice formats relative to the entity order (Trainer to Class).
+
+COUNT: 9
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the `WITH GRANT OPTION` clause (allowing users to pass on privileges).
+2. Knowledge of the ownership model (the owner, Linda, holds all rights initially).
+3. Tracking the state of the authorization graph after sequential operations.
+4. Distinguishing between direct grants (Linda to Peter) and indirect grants (Amy to Peter).
+5. Understanding the `CASCADE` keyword and its recursive effect on the authorization graph.
+6. Identifying "independent paths" of privilege: recognizing that Peter holds the privilege from two distinct sources (Linda and Amy).
+7. Applying the rule that a privilege remains valid if at least one valid granting path exists back to the owner.
+8. Reasoning that revoking Amy's privilege only breaks the path Linda -> Amy -> Peter, but does not affect the direct path Linda -> Peter.
+
+COUNT: 8
+
+0.35

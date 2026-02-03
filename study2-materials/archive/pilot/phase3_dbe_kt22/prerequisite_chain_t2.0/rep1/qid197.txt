@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Recall of the formal definition of "covert channel" as per the Orange Book or standard database security literature.
+- Distinguishing between "covert" (hidden/unintended) and "encrypted" or "secret" (intentional but protected communication).
+- Recognizing the specific characteristic of using a mechanism "not normally used for communication" (e.g., resource timing, storage side-effects).
+- Discarding "B" by understanding that even public data can be sent via a covert channel.
+- Discarding "C" by identifying that "trusted channels" are explicit system features.
+- Discarding "D" by understanding that not all cross-perimeter channels are covert (many are overt and authorized).
+- Precise reading of technical terminology to avoid confusing a security "goal" (transmitting secrets) with the "mechanism" (the channel type).
+
+COUNT: 7
+
+0.55

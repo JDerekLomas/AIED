@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes of technicians, equipment, and administrators) to focus only on the relevant entities ("trainer" and "fitness class").
+2. Identifying the relationship: Mapping the narrative description "Each fitness class is ... instructed by only one trainer" and "Not all trainers deliver fitness classes" to the "instruct" relationship mentioned in the prompt.
+3. Defining Participation Constraints: Knowing the technical difference between "Total" (every instance must participate) and "Partial" (not every instance must participate).
+4. Logical inference: Connecting the phrase "Not all trainers deliver fitness classes" to the conclusion that a trainer entity can exist in the database without being related to a fitness class entity.
+5. Distinction: Distinguishing between the cardinality (1:N) and the participation constraint (Partial/Total).
+6. Application of Rule: Applying the "optional" nature of the relationship for the trainer to select the "Partial" constraint.
+
+COUNT: 6
+
+0.65

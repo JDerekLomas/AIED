@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Knowing how to interpret the notation $X \rightarrow Y$.
+2. **Definition of a Candidate Key (CK):** Distinguishing between a Superkey (attributes that determine all others) and a Candidate Key (a *minimal* superkey).
+3. **Closure Algorithm knowledge:** Ability to calculate the attribute closure $(A)^+$, $(B)^+$, and $(C)^+$ manually.
+4. **Symmetry/Transitivity reasoning:** Recognizing that because the FDs form a cycle ($A \rightarrow B \rightarrow C \rightarrow A$), any single attribute can reach all others.
+5. **Set Exhaustion:** Realizing that just because $A$ is a CK does not mean it is the *only* one; testing other attributes for the "minimal" property.
+6. **Understanding the word "only":** Interpreting the logical quantifier in the statement correctly (existence vs. uniqueness).
+
+COUNT: 6
+
+0.65

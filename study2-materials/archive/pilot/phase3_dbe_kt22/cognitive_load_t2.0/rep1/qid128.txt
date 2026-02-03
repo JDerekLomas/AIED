@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. **Definition recall**: Understanding what a Candidate Key (CK) is (minimal superkey).
+2. **Definition recall**: Understanding the attribute closure algorithm ($X^+$).
+3. **Identification of attribute roles**: Recognizing which attributes appear only on the Left-Hand Side (LHS), only on the Right-Hand Side (RHS), or both across the set of Functional Dependencies (Σ).
+4. **Logical Inference**: Realizing that attribute C does not appear on any RHS of Σ and therefore cannot be "reached" or derived from any other attributes.
+5. **Set Evaluation**: Applying the "Necessary Attribute" rule (attributes missing from the RHS of all FDs must be part of every key).
+6. **Constraint Satisfaction**: Mentally testing if C alone is sufficient or if it must be combined with other attributes (A, B, or D) to achieve the closure $\{A, B, C, D\}$.
+
+ELEMENT COUNT: 6
+
+At a South African university, this specific problem types benefits from a "shortcut" rule often taught in tutorials (check attributes missing from RHS). Students with strong logic will find it easy; those struggling with abstract normalization often get lost in the steps of closure.
+
+0.72

@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall: The three criteria for a Minimal Cover (no redundant FDs, no redundant attributes/canonical form, and equivalence of closures).
+2. Distinction between concepts: Recognizing the difference between a "cover" ($\Sigma_1 \equiv \Sigma_2$) and a "minimal cover" (the specific irreducible form).
+3. Logical evaluation (FD Implication): Checking if $A \to C$ can be derived from $\Sigma_1$ using Armstrong's Axioms (specifically $A \to B$ and $AB \to C \implies A \to C$).
+4. Logical evaluation (FD Implication): Checking if $AB \to C$ can be derived from $\Sigma_2$.
+5. Constraint satisfaction (Redundancy): Evaluating if $A \to B$ or $A \to C$ in $\Sigma_2$ are redundant.
+6. Constraint satisfaction (Extraneous attributes): Evaluating if the $B$ in $AB \to C$ in $\Sigma_1$ is extraneous given $A \to B$.
+7. Set equivalence: Comparing the closures of $\Sigma_1$ and $\Sigma_2$ to ensure they represent the same set of dependencies.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

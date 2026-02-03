@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Definition of a Superkey: Understanding that a set of attributes must functionally determine all attributes in the relation (calculating the closure $\{A,B\}^+$).
+2. Functional Dependency (FD) Logic: Ability to apply the transitivity rule or the closure algorithm (if $A \to B$ and $AB \to C$, then $\{A, B\}$ covers $\{A, B, C\}$).
+3. Definition of a Candidate Key (CK): Understanding the two-part requirement: (a) it is a superkey and (b) it is **minimal** (no proper subset is a superkey).
+4. Subset Identification: Recognizing that $\{A\}$ is a subset of $\{A, B\}$.
+5. Minimal Testing: Testing if $A^+$ or $B^+$ alone cover the relation.
+6. Execution: Realizing $A \to B$ implies $\{A\}^+ = \{A, B, C\}$, meaning $A$ is a superkey.
+7. Conclusion: Recognizing that because $A$ is a superkey, $AB$ fails the minimality test for a Candidate Key.
+8. Distinguishing CK from Superkey: Not confusing "is a key" with "is a Candidate Key" (a common pitfall).
+
+COUNT: 8
+
+0.55

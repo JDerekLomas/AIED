@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a "prime attribute" (an attribute that is a member of at least one candidate key).
+2. Knowledge of the definition of a "candidate key" (a minimal superkey).
+3. Ability to compute the transitive closure of an attribute set under a given set of functional dependencies (e.g., finding $A^+$).
+4. Ability to identify all candidate keys in a relation, not just the first one found.
+5. Identifying the cyclic nature of the dependencies ($A \to B \to C \to A$) to conclude that $\{A\}$, $\{B\}$, and $\{C\}$ are each individual candidate keys.
+6. Multi-step reasoning to map each attribute to its membership in the set of candidate keys.
+7. Distinguishing between "prime attributes" and "primary key attributes" (students often think there is only one key).
+
+COUNT: 7
+
+0.65

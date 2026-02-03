@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Natural Language Processing (Information Filtering):** The ability to parse a long "word problem" and isolate the specific sentence describing the relationship between "trainer" and "fitness class" while ignoring irrelevant details (e.g., technicians, equipment, associate members).
+2. **Knowledge of Participation Constraints:** Understanding the formal definition of "Total" (every instance of Entity A must be related to Entity B) vs. "Partial" (some instances of Entity A may exist without being related to Entity B) participation.
+3. **Cardinality Directionality:** Understanding that the participation constraint of "fitness class" in the "instruct" relationship depends on whether every fitness class *must* have an instructor (not whether every trainer must teach a class).
+4. **Sentence Interpretation (Logic):** Correctly interpreting the specific constraint "Each fitness class is... instructed by only one trainer" as a mandatory requirement for the existence of a fitness class entity.
+5. **Mapping Logic to SQL/ER Terms:** Mapping the word "each" or "must" in the narrative to the concept of "Total" participation (or a minimum cardinality of 1).
+6. **Distinguishing Entities:** Not confusing the "trainer" participation (which is Partial, as stated: "Not all trainers deliver fitness classes") with the "fitness class" participation (which is Total).
+
+COUNT: 6
+
+0.65

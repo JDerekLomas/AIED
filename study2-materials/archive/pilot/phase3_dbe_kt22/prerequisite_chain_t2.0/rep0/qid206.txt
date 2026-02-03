@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Definition of "Concurrency" in a database context (multiple transactions running simultaneously).
+- Understanding "Throughput" (number of transactions completed per unit of time) and why parallel execution increases it.
+- Understanding "Average Response Time" and how short transactions avoid waiting for long-running ones to finish (head-of-line blocking).
+- Understanding "Resource Utilisation" (keeping CPU and I/O busy while one transaction is waiting).
+- Reasoning that benefits are non-exclusive (logical "AND" across A, B, and C).
+- Knowledge of multiple-choice test patterns (identifying "All of the above" as a likely candidate when more than one option seems plausible).
+
+COUNT: 6
+
+0.85

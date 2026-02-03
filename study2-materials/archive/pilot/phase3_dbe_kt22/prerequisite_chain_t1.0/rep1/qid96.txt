@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Differentiating Entities, Attributes, and Values**: Understanding that an attribute is a category of data (a column header), whereas values are the specific data entries within that category.
+2. **Identifying Subclasses/Specialization**: Recognizing that "trainers" are a subset of employees and that their specific properties (like specialities) are associated with that role.
+3. **Parsing Narrative for Multi-valued Attributes**: Identifying that the phrase "one or more specialities" defines the property (Speciality) rather than the specific examples provided.
+4. **Distinguishing Example Instances from Schema Elements**: Realizing that "weight gain," "weight loss," and "strength building" are provided in the text explicitly as examples (instances) of a speciality, not as distinct fields themselves.
+5. **Ignoring Distractors**: Not being led astray by the extensive domain information regarding administrators, technicians, equipment, and classes, which are irrelevant to the specific question about trainers' specialities.
+6. **Relational Mapping Logic**: Understanding that in a database schema, one stores the type of information (Speciality) to allow for various inputs, rather than creating separate attributes for every possible value.
+
+COUNT: 6
+
+0.72

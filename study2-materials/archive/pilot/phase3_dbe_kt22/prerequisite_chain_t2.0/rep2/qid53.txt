@@ -1,0 +1,10 @@
+PREREQUISITES:
+1.  **Terminology Mapping**: Recognizing that "relation" in the formal relational model maps to the SQL keyword `TABLE`.
+2.  **DDL vs. DML Distinction**: Distinguishing between Data Definition Language (removing a structure/schema) and Data Manipulation Language (removing rows/data).
+3.  **Keyword Syntax Knowledge**: Knowing that `DROP` is the specific SQL verb used for removing database objects (schemas, tables, indexes) rather than `DELETE`.
+4.  **Syntax Verification**: Identifying that `DELETE FROM` is valid syntax for row removal, which acts as a "distractor" for those who confuse deleting data with deleting a schema.
+5.  **Schema Diagram/Logical understanding**: Understanding that "removing a schema" implies the destruction of the table's definition, not just emptying it.
+
+COUNT: 5
+
+0.78

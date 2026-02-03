@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Reading Comprehension & Information Extraction**: Ability to parse a dense narrative description to identify nouns and relationships (e.g., distinguishing "maintenance event" from a "status type").
+2. **Definition of an Entity Type**: Understanding that an entity type represents a "thing" (physical or conceptual) with independent existence that can have attributes.
+3. **Distinguishing Entities vs. Attributes**: Knowing that "Status type" (Option B) is a property/characteristic of an entity (Equipment), not an entity itself.
+4. **Distinguishing Entities vs. Value Sets/Constraints**: Recognizing that a "Time slot" (Option D) is a descriptive attribute or a constraint within the scenario provided, rather than a standalone entity with its own properties in this specific scope.
+5. **Understanding Generalization/Specialization (Superclasses)**: Recognizing that "Employee" (Option C) is a superclass that encompasses Trainers, Administrators, and Technicians, making it a valid entity type.
+6. **Identifying Associative/Relationship Entities**: Recognizing that a "Report of each maintenance event" (Option A) or the event itself represents an interaction between a Technician and Equipment that stores data (date), thus qualifying as an entity type (often an associative entity).
+7. **Mapping Narrative to Model**: Evaluating which of the four options represents a discrete object about which the database *must* store data according to the requirements.
+8. **Handling Multi-correct Potential/Selecting the 'Best' fit**: Evaluating Option A vs Option C. While Option C is a class, Option A (Maintenance event) is specifically described as something the database "records the date of," making it a classic example of an entity in ER modeling.
+
+COUNT: 8
+
+0.65

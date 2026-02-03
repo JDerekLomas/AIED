@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the formal definition of 3NF (specifically the allowance for prime attributes on the right-hand side of a functional dependency).
+2. Understanding the formal definition of BCNF (every determinant must be a candidate key).
+3. Ability to compare "restrictiveness" (subset/superset relationship) between normal forms (knowing that all BCNF relations are in 3NF, but not vice versa).
+4. Distinguishing between "minimizing" and "eliminating" redundancy (recognizing that 3NF allows certain types of transitive dependencies involving prime attributes that can still harbor redundancy).
+5. Knowing the trade-off involved in 3NF (guaranteeing dependency preservation at the cost of potential redundancy).
+6. Evaluating multiple-choice options to identify the "most correct" or "only correct" statement (eliminating the false claim that 3NF is more restrictive than BCNF).
+
+COUNT: 6
+
+0.55

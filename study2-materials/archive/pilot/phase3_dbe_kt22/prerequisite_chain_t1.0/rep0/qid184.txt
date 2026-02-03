@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the syntax and purpose of the SQL `GRANT` command.
+2. Understanding the syntax and purpose of the SQL `REVOKE` command.
+3. Distinguishing between the action of giving a privilege and removing a privilege (recognizing that "avoiding cascading" is a sub-clause of an removal operation).
+4. Knowing the definition of "cascading revokes" (how privileges propagate via the `WITH GRANT OPTION`).
+5. Identifying the specific keyword `RESTRICT` as the modifier that prevents a command from executing if it would result in dependent deletions.
+6. Eliminating distractor syntax (like "no cascade" or "no restrict") which are not standard SQL keywords for this operation.
+7. Reasoning that "avoiding cascading" is the logical opposite of the `CASCADE` keyword, which is used to force the removal of dependent privileges.
+
+COUNT: 7
+
+0.55

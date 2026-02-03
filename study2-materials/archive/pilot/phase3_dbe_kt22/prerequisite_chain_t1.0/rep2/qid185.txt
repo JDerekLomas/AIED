@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Understanding the definition of a **view** as a virtual table derived from a query.
+2. Knowledge of **SQL Authorization/DCL**: distinguishing between "ownership" of a base table and privileges on a view.
+3. Understanding **updatability rules**: knowing that not all views are updatable (e.g., those with joins, aggregations, or DISTINCT), which invalidates blanket "update" privilege claims.
+4. Distinguishing between **creation rights and privilege inheritance**: recognizing that a view creator's privileges are limited by their privileges on the underlying base tables.
+5. Logical reasoning: identifying that "always" and "all" (in A, B, and D) are high bars that are often false in database security contexts.
+6. Reading comprehension: identifying that "does not necessarily receive" (C) is the logically safe statement regarding restricted base table access.
+
+COUNT: 6
+
+0.35

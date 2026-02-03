@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding the definition of a Candidate Key (CK):** Knowing it must satisfy both uniqueness (attribute closure includes all attributes) and minimality (no proper subset is a superkey).
+2. **Attribute Closure Algorithm:** Ability to compute $\{A\}^+$ using the provided functional dependencies $\Sigma$.
+3. **Application of Transitivity/Augmentation:** Correctly deriving $\{A\}^+ = \{A, B, C\}$ from $A \rightarrow B$ and $AB \rightarrow C$ (realizing that if $A$ implies $B$, then $A$ implies $AB$, which implies $C$).
+4. **Testing for Minimality:** Recognizing that while $AB$ is a superkey, it cannot be a Candidate Key because a proper subset ($A$) is already a key.
+5. **Exhaustive Search/Logical Reasoning:** Verifying if any other sets (like $\{B\}$ or $\{C\}$) could be keys to confirm if $A$ is indeed the *only* one.
+6. **Distinguishing between Superkey and Candidate Key:** Not being misled by the presence of $AB$ in the dependency set.
+7. **Interpreting Formal Notation:** Correctly reading the set $R$ and the functional dependencies $\Sigma$.
+
+COUNT: 7
+
+0.65

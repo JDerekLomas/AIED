@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Filtering relevant from irrelevant information**: Identifying that the vast majority of the paragraph describes other entities (trainers, classes, equipment) and is "noise" relative to the specific question about the administrator.
+2. **Entity-Attribute mapping**: Recognizing that "ID", "Name", and "Address" are inherited attributes from the "Employee" supertype, even though they are listed at the start of the description.
+3. **Definition of a Key Attribute**: Understanding that a key must be unique and non-null for every instance of the entity.
+4. **Distinguishing unique vs. non-unique attributes**: Recognizing that names and addresses are not guaranteed to be unique in a database schema context.
+5. **Evaluating domain-specific constraints**: Realizing that while a landline is mentioned specifically for administrators, the text explicitly states employees (of which administrators are a category) have "unique IDs," whereas it does not state landlines are unique or required for all administrators.
+6. **Understanding ISA relationships (Specialization/Generalization)**: Recognizing that an Administrator *is an* Employee, and therefore possesses the "unique ID" attribute defined for all employees.
+
+COUNT: 6
+
+0.85

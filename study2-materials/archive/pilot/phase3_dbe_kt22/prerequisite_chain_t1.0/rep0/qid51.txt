@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of standard SQL character types (CHAR vs VARCHAR).
+2. Distinguishing between generic programming language terminology (e.g., Python or Java "String") and specific SQL implementation keywords.
+3. Awareness of PostgreSQL-specific documentation or common data type aliases (knowing that `text` and `varchar` are the standards, but `string` is not a keyword).
+4. Recognition of the `bit(n)` type, which is less common in introductory tutorials but exists in PostgreSQL.
+5. Ability to identify the "negative" question (selecting the one that is NOT supported).
+6. Multi-step reasoning to eliminate valid SQL types to find the one that belongs to a different syntax family (e.g., SQLAlchemy or other dialects).
+
+COUNT: 6
+
+0.65

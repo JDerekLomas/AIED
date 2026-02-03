@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating between "Employee" and sub-types**: Identifying that an Administrator is a specialized type of Employee in the hierarchy described.
+2. **Knowledge of Key Attribute definitions**: Understanding that a "key attribute" must be unique for every instance of that entity type.
+3. **Information filtering**: Filtering out distracting details about administrators (landline number, registering members, approving associates) to identify their core attributes.
+4. **Contextual inference of "Unique ID"**: Realizing that the "unique IDs of employees" mentioned at the start of the description applies to administrators because they are explicitly classified as a category of employee.
+5. **Evaluating uniqueness vs. stability**: Recognizing that Names, Addresses, and Landline numbers are not inherently unique in a database schema unless specified, whereas "unique IDs" are explicitly defined as such.
+6. **Understanding inheritance**: Grasping that attributes assigned to the general entity ("Employee") are inherited by the specific entity ("Administrator").
+
+COUNT: 6
+
+0.78

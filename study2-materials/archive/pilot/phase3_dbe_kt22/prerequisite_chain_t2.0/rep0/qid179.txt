@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the syntax and scope of the SQL DCL (Data Control Language) `GRANT` command.
+2. Understanding the concept of "Authorization Granularity" in Relational Databases (Database vs. Relation vs. Column vs. Row).
+3. Distinguishing between a "specified attribute" (column-level security) and a "specified tuple" (row-level security).
+4. Awareness that standard SQL `GRANT` applies to schema objects and columns, while row-level security (tuples) is typically handled via Policies or Views rather than the `GRANT` statement directly.
+5. Ability to interpret the phrase "None of the above" in a multiple-choice context (checking if all other options are actually grantable).
+6. Vocabulary recognition: connecting "Attribute" to Column and "Relation" to Table.
+
+COUNT: 6
+
+0.55

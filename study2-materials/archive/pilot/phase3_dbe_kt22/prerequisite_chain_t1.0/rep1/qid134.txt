@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Identifying the candidate key(s): Recognizing that since A determines all other attributes (BC), A is the unique candidate key.
+2. Understanding "Prime Attributes": Knowing that A is prime, while B and C are non-prime.
+3. Defining BCNF: Recalling that for every functional dependency X → Y, X must be a superkey.
+4. Defining 3NF: Recalling that for X → Y, either X is a superkey OR Y is a prime attribute.
+5. Evaluating the dependency A → BC against BCNF: Since A is a superkey, the rule holds.
+6. Evaluating the dependency A → BC against 3NF: Since A is a superkey, the rule holds.
+7. Understanding the Hierarchy: Knowing that BCNF is stricter than 3NF (if it's BCNF, it's automatically 3NF).
+8. Multiple Choice Elimination: Mapping the findings (BCNF = Yes, 3NF = Yes) to the correct option (A).
+
+COUNT: 8
+
+0.65

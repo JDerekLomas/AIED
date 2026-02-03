@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Differentiating between Entities and Attributes**: Understanding that an entity represents an "object" or "thing" in the real world (usually a noun with its own properties), while an attribute is a specific property or descriptor of an entity.
+2. **Identifying Candidates in Narrative Text**: Extracting relevant nouns from a dense problem description and evaluating their role in the data model.
+3. **Filtering "The Universe" (The Context)**: Recognizing that the "fitness centre" itself is the context of the entire database and not typically an entity *within* the system (unless there are multiple centres).
+4. **Recognizing Multi-valued Attributes**: Understanding that "speciality" is a property of a trainer; although it has multiple values, it is often modeled as an attribute or a lookup table rather than a primary entity in basic ER modeling.
+5. **Recognizing Key Attributes**: Identifying "Equipment ID" specifically as a unique identifier (Primary Key) for the "Equipment" entity, rather than an entity itself.
+6. **Understanding Relationships and Participants**: Realizing "Fitness class" is a distinct "thing" that exists in the system with its own attributes (name, start date, end date, time slot) and participates in relationships with members and trainers.
+7. **Reading and Comprehension**: Navigating a lengthy, complex scenario without getting distracted by irrelevant constraints (like the maintenance schedule or associate member numbering).
+
+COUNT: 7
+
+0.65

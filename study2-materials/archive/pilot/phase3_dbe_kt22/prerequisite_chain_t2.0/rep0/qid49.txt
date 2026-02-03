@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding the formal definition of a Superkey**: Recognizing that a superkey is any set of attributes that uniquely identifies a tuple.
+2. **Understanding the formal definition of a Candidate Key**: Distinguishing that a candidate key is specifically a *minimal* superkey.
+3. **Set Theory/Subset Property Knowledge**: Understanding that any superset of a superkey is also, by definition, a superkey.
+4. **Distinguishing "Must" vs. "Could"**: Evaluating logical necessity (what is always true) versus potential scenarios (what could be true).
+5. **Evaluating Option A (Property of Superkeys)**: Knowing that adding attributes to a superkey ({a} -> {a,b}) maintains the superkey property, making the "must not" statement false.
+6. **Evaluating Option B (Minimality for Candidate Keys)**: Recognizing that if {a} is a superkey, then any superset like {a,c} cannot be a candidate key because it is not minimal.
+7. **Evaluating Option C (The "Trap" of Minimality)**: Determining if {a} *must* be minimal. If {a} is the smallest possible unit (a single attribute) and is a superkey, it is inherently minimal (since the empty set cannot be a key), thus making it a candidate key.
+
+COUNT: 7
+
+0.65

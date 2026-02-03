@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall of the `GRANT` command functionality and scope.
+2. Understanding of the SQL access control hierarchy (system vs. schema vs. object vs. column level).
+3. Distinguishing between "A specified attribute" (Column-level privileges, which are supported).
+4. Distinguishing between "An entire relation" (Table-level privileges, which are supported).
+5. Evaluation of "A specified tuple" against SQL standard constraints (SQL does not support row-level/tuple-level security via the `GRANT` command; this requires VPC/RLS or Views).
+6. Logical negation: Identifying which element is *not* compatible with the command.
+
+ELEMENT COUNT: 6
+
+0.55

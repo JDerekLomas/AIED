@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of "concurrency" in a database context (multiple transactions executing at once).
+2. Understanding "throughput" as the number of transactions completed per unit of time.
+3. Understanding "average response time" and how interleaving tasks prevents long transactions from blocking short ones (the "convoy effect").
+4. Understanding "resource utilisation" (keeping the CPU and Disk busy while one process waits for I/O).
+5. Recognizing that these three metrics are positively correlated in a multi-programming/multi-transaction environment.
+6. Identifying the "All of the above" structure as a requirement to validate every preceding option rather than just picking the first plausible one.
+
+COUNT: 6
+
+0.85

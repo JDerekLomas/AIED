@@ -1,0 +1,18 @@
+As an instructor, I would evaluate this question as having high element interactivity. Although the final question is simple, the student must process a dense "wall of text" containing overlapping rules to distinguish between entities, attributes, and relationships.
+
+**ELEMENTS:**
+1.  **Categorization of Sub-types:** Evaluating whether "Trainers, Administrators, Technicians" are distinct entities or subtypes of "Employee."
+2.  **Attribute vs. Entity Distinction (Status):** Recognizing that "Status" is a property of Equipment, not an entity (distinguishing fixed lists from objects).
+3.  **Attribute vs. Entity Distinction (Time Slot):** Evaluating "Time slot" as a property/constraint of a Class rather than a standalone object.
+4.  **Identifying Hidden Entities (Maintenance Event):** Recognizing that "Maintenance Event" acts as a many-to-many link between Technicians and Equipment, containing its own data (date).
+5.  **Multi-valued Attributes:** Processing "specialities" and "phone numbers" to ensure they don't confuse the entity identification.
+6.  **Cardinality Constraints:** Mentally mapping the 1:M and M:N relationships to determine the "strength" of each object.
+7.  **Definition Recall:** Applying the formal definition of an "Entity Type" (an object with independent existence) versus an attribute.
+8.  **Filter/Inclusion Logic:** Simultaneously holding the four options (A–D) against the narrative constraints to find the most robust fit.
+
+**ELEMENT COUNT: 8**
+
+Regarding the student performance: While the scenario is complex, many South African undergraduates rely on "heuristic" matching. Option C is often avoided because the text mentions specific categories, leading students to overthink the generalization. Option A is the correct architectural answer (as it tracks unique occurrences with specific data), but students often confuse "Event" with a "Relationship." Many will likely guess "Employee" (C) because it feels familiar, despite it being part of an ISA hierarchy in the text.
+
+Your estimate:
+0.62

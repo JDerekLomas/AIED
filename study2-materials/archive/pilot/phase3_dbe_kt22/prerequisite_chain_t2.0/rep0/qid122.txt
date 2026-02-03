@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Minimal Cover (requires three specific criteria: singleton right-hand sides, no extraneous left-hand attributes, and no redundant functional dependencies).
+2. Logical Equivalence of sets of functional dependencies (understanding that a minimal cover must be equivalent to the original set $\Sigma_1$).
+3. Armstrong's Axioms (specifically the Transitivity Rule: if $A \to B$ and $B$ is part of $AB \to C$, recognizing the interaction between the two dependencies).
+4. Extraneous Attribute testing (identifying that in $\Sigma_1$, since $A \to B$ exists, the $B$ in $AB \to C$ is redundant, simplifying it to $A \to C$).
+5. Semantic matching (verifying if $\Sigma_2$ represents the simplified, non-redundant version of $\Sigma_1$).
+6. Distinguishing between "equivalent" and "minimal cover" (a student might know they are equivalent but fail to check if $\Sigma_2$ itself satisfies the internal minimality rules).
+7. Identifying the Canonical Form (right-hand sides are singletons).
+
+COUNT: 7
+
+0.65

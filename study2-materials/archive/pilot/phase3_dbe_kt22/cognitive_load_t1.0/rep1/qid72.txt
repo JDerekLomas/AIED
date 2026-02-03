@@ -1,0 +1,14 @@
+To evaluate this question, we must consider the cognitive load required for a student to map the query to the provided (though here implicit) data and the logical evaluation of the `OR` operator.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT` statement and the scope of the `WHERE` clause.
+2.  **Logical Operator Evaluation (`OR`):** Understanding that the condition is met if *either* criterion is true, and how this applies to individual rows.
+3.  **Data Retrieval/Scanning:** Mentally or visually scanning the `Study` table to identify matches for `StudentID` 102 and 103.
+4.  **Distinctness vs. Duplicates:** Deciding whether the result set counts unique `CourseNo` values or every row that meets the criteria (understanding that SQL `SELECT` without `DISTINCT` preserves duplicates).
+5.  **Set Accumulation:** Holding the running count of matching rows in working memory while iterating through the table.
+
+**ELEMENT COUNT: 5**
+
+In a South African undergraduate context, this is a fundamental "tracing" question. Students with weak backgrounds often struggle with element #4 (confusing relational algebra sets with SQL bags) or element #2 (misinterpreting "OR" as "AND" or "one or the other but not both"). However, because this is a basic retrieval task, the majority of students who have attended labs should navigate it successfully.
+
+0.72

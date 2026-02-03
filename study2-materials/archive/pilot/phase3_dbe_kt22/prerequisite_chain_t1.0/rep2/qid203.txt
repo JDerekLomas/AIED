@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a "Transaction" in a database context.
+2. Knowledge of the Lock Compatibility Matrix (understanding that an Exclusive (X) lock is the most restrictive).
+3. Distinguishing between Shared (S) locks and Exclusive (X) locks.
+4. Knowing that "Write" operations (Update/Insert/Delete) implicitly require an Exclusive lock.
+5. Understanding that holding an Exclusive lock is a "superset" privilege that inherently permits the holder to Read the data (as you cannot modify what you cannot access).
+6. Distinguishing between the specific action "Write" and the broader capability "Read and write" in a multiple-choice context.
+7. Recognizing that "Update" (Option D) is a subset of "Write" and therefore not the most complete description of allowed operations.
+
+COUNT: 7
+
+0.65

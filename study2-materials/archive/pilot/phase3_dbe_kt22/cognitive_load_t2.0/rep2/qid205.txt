@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. Recall of Transaction Isolation Level definitions (specifically the distinction between Read Committed and Serializable effects).
+2. Distinguishing between "Unrepeatable read" (existing row modified) vs "Phantom read" (new rows appearing).
+3. Logical mapping of the specific scenario (insertion of new rows) to the formal term.
+4. Dismissing "Dirty read" (reading uncommitted data) as a separate concurrency anomaly.
+5. Dismissing "Lost update" (a write-write conflict) as an unrelated concept.
+
+ELEMENT_COUNT: 5
+
+Your estimate:
+0.65

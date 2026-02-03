@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Defining "Superkey"**: Understanding that a superkey is any set of attributes that uniquely identifies a tuple, regardless of minimality.
+2. **Defining "Candidate Key"**: Understanding that a candidate key is a *minimal* superkey.
+3. **Set Supersets Property**: Knowing that any superset of a superkey is automatically a superkey.
+4. **Minimality Constraint Logic**: Understanding that while {a} is a superkey, it only becomes a candidate key if no subset of {a} is a superkey (which is true here only if the empty set isn't, but more importantly, understanding the definition of minimality).
+5. **Eliminating Misconceptions (Option A)**: Recognizing that adding attributes to a superkey ({a} -> {a,b}) preserves the superkey property, making "must not be" false.
+6. **Eliminating Misconceptions (Option B)**: Distinguishing between being a "superkey" and a "candidate key" ( {a,c} is a superkey but fails the minimality test because {a} exists).
+7. **Logical Sufficiency (Option C)**: Realizing that if a single attribute is a superkey, it is irreducible (has no non-empty proper subsets that could be keys), thus satisfying the definition of a candidate key.
+
+COUNT: 7
+
+0.55

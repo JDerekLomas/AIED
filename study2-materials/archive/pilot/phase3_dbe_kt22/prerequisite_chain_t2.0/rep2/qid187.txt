@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining DAC (Discretionary Access Control): Knowing that access is based on the identity of the user/subject and that users can pass permissions to others.
+2. Understanding the Trojan Horse mechanism in DAC: Knowing that a malicious program can inherit a legitimate user's identity and copy sensitive data to a location where the attacker has access.
+3. Distinguishing DAC from Role-Based Access Control (RBAC): Identifying that DAC is identity-based, not role-based (ruling out D).
+4. Distinguishing DAC from Mandatory Access Control (MAC): Knowing that MAC (not DAC) uses labels/classifications to prevent Trojan Horse information leaks.
+5. Critical reading of logical qualifiers: Recognizing that Option A accurately describes the mechanism (identity-based) while Option C inaccurately negates it.
+6. Eliminating irrelevant security concepts: Recognizing that certificates (Option B) are typically part of authentication or PKI, not the inherent architectural flaw of the DAC model itself.
+
+COUNT: 6
+
+0.65

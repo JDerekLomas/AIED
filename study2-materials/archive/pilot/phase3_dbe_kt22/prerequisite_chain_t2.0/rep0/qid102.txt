@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Filtering Distractors**: The ability to ignore irrelevant information about administrators, technicians, equipment maintenance, and equipment status to focus solely on the "participate" relationship.
+2. **Identifying Entities**: Identifying the two entity types involved in the specific relationship: "Member" and "Fitness Class".
+3. **Relationship Context Extraction**: Locating the specific sentence in the text that describes the attendance of classes: "Each fitness class is attended by one or more members..."
+4. **Knowledge of Participation Definitions**: Understanding the distinction between "Partial" participation (minimum cardinality of 0) and "Total" participation (minimum cardinality of 1 or more).
+5. **Mapping Business Rules to Constraints**: Recognizing that "one or more" implies a mandatory (total) participation for the "Fitness Class" entity in that relationship, as a class cannot exist in the context of the system without at least one member.
+6. **Discerning Mapping Direction**: Understanding that the question asks for the participation of "Fitness Class" specifically, not the "Member" entity (which has its own constraint described elsewhere).
+7. **Reading Comprehension/Logic**: Understanding that if the business rule states a class *is* attended by one or more members, it is impossible for a class to be in the database and have zero participants.
+
+COUNT: 7
+
+0.65

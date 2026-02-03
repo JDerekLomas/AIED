@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the ACID acronym (Atomicity, Consistency, Isolation, Durability) in the context of database transactions.
+2. Knowing the definition of "Isolation" (preventing concurrent transactions from interfering with one another).
+3. Mapping logical properties (ACID) to specific DBMS components (e.g., Recovery Manager handles Atomicity/Durability; Concurrency Control handles Isolation).
+4. Distinguishing between "Concurrency Control" and "Recovery Manager," as these are often taught together and frequently confused by novices.
+5. Vocabulary comprehension of the "manager" terms within a DBMS architecture.
+6. Eliminating irrelevant components like the Storage or File Manager, which handle physical data layout rather than transactional logic.
+
+COUNT: 6
+
+0.72

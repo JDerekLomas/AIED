@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: The conceptual definition of a "view" in SQL (virtual table vs. base table).
+2. Authorization logic: Knowledge of the view owner’s privilege inheritance from underlying base tables.
+3. Distinction: The subtle difference between "select" and "update" privileges (updatable vs. read-only views).
+4. Constraint evaluation: Understanding the specific SQL rule that the owner of a view can only grant or hold privileges that they already possess on the underlying data.
+5. Quantifier logic: Distinguishing between absolute ("always," "all") and conditional ("not necessarily") statements in the context of access control.
+6. Concept synthesis: Evaluating why creating an object doesn't automatically confer full rights if the underlying sources are restricted or if the view contains aggregate/join operations.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.40

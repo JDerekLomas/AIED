@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of equivalence between sets of functional dependencies (Σ1 ≡ Σ2 if Σ1+ = Σ2+).
+2. Knowledge of Armstrong's Axioms or the Attribute Closure algorithm to test membership.
+3. Recognizing that for equivalence, one must prove Σ1 ⊨ Σ2 AND Σ2 ⊨ Σ1.
+4. Ability to identify redundant attributes (knowing that if A → B is given, then AB → C simplifies to A → C via the augmentation and transitivity rules, or simply checking the closure of {A} under Σ1).
+5. Executing the closure of {A} under Σ1: {A}+ = {A, B, C}.
+6. Executing the closure of {A} under Σ2: {A}+ = {A, B, C}.
+7. Distinguishing between a "trick" question and a standard simplification (realizing that while the sets look different, they represent the same constraints).
+8. Multi-step reasoning: checking A → C in Σ1 and AB → C in Σ2.
+
+COUNT: 8
+
+0.65

@@ -1,0 +1,13 @@
+As a university instructor, I evaluate this question as a low-interactivity retrieval task. It primarily tests recognition of specific DDL (Data Definition Language) vs. DML (Data Manipulation Language) syntax rather than complex logical reasoning or multi-step procedures.
+
+**ELEMENTS:**
+1. **Definition Recall:** Distinguishing the function of `DELETE` (removes rows/tuples) versus `DROP` (removes the entire table structure).
+2. **SQL Syntax Rules:** Recalling the specific keyword sequence required for the `DELETE` statement (the mandatory use of `FROM`).
+3. **Keyword Discrimination:** Identifying that "delete table" is invalid syntax in standard SQL.
+4. **Logical Constraint:** Understanding the specific state change requested ("delete all tuples" implies the relation/schema itself must remain).
+
+**ELEMENT COUNT:** 4
+
+While the question is relatively simple, South African undergraduate cohorts often struggle with the "DELETE FROM" vs. "DELETE" distinction early in the semester, frequently confusing SQL syntax with natural language or other programming languages (like Python or Java).
+
+0.72

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the SQL Data Control Language (DCL) and the specific syntax/purpose of the `GRANT` command.
+2. Understanding the "Granularity of Access Control" in relational databases (what level of objects can be secured).
+3. Distinguishing between schema-level/metadata objects (Relations, Attributes) and instance-level data (Tuples).
+4. Recognizing that standard SQL `GRANT` applies to named persistent objects (tables, views, columns) rather than specific rows/tuples (which are typically handled via row-level security policies or views, not `GRANT` statements).
+5. Interpreting the negative phrasing of the question ("which... cannot").
+6. Understanding "None of the above" in the context of a "cannot" question (logical negation).
+
+COUNT: 6
+
+0.55

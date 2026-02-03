@@ -1,0 +1,16 @@
+To assess the difficulty of this question for South African undergraduate CS students, we must first note that the provided prompt is missing the actual data/schema (the "Study" table content). I will assume a standard representative scenario where there is at least one student enrolled in both courses, as this is the primary "trap" for this type of question.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Understanding that the `Study` table maps students to courses.
+2.  **SELECT Syntax:** Recognizing that the query retrieves only the `StudentID` column.
+3.  **WHERE Clause Filtering:** Correctly identifying which rows satisfy `CourseNo='COMP2400'` and `CourseNo='STAT2001'` independently.
+4.  **The UNION "Set" Rule:** Knowing that `UNION` (unlike `UNION ALL`) performs a distinct operation and automatically removes duplicate rows.
+5.  **Relational Logic vs. Natural Language:** Resisting the urge to "add" the counts together if a student appears in both sets.
+6.  **Data Processing (Manual Trace):** Keeping track of unique StudentIDs across two sets without making a counting error.
+
+**COUNT: 6**
+
+**Rationale:**
+In the South African context, many students struggle with the distinction between `UNION` and `UNION ALL` because "Union" in natural language often implies simple combination/addition. In a mixed-ability class, students with weaker programming logic often simply add the number of rows from the first query to the number of rows from the second. If the question contains overlapping StudentIDs, roughly 40% of the class will likely fall for the "Addition" trap and choose a higher number than the correct one.
+
+0.55

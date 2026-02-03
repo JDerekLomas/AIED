@@ -1,0 +1,16 @@
+To determine the correct cardinality ratio between "member" and "fitness class", a student must navigate several "distractor" details and technical hurdles.
+
+**PREREQUISITES:**
+1.  **Linguistic Parsing/Information Filtering:** The ability to isolate the specific sentences relevant to "member" and "fitness class" from a long paragraph containing irrelevant entities (technicians, equipment, administrators).
+2.  **Mapping "Many" to "N":** Understanding that the phrase "one or more" in a requirements specification translates to the "N" or "M" side of a cardinality ratio.
+3.  **Identifying the First Direction:** Finding the rule "A member may choose to participate in one or more fitness classes" and correctly identifying this as a 1:N mapping from Member to Class.
+4.  **Identifying the Reverse Direction:** Finding the rule "Each fitness class is attended by one or more members" and correctly identifying this as a 1:N mapping from Class to Member.
+5.  **Relationship Synthesis:** Understanding that two 1:N requirements in opposite directions result in a single N:N (Many-to-Many) relationship.
+6.  **Distinguishing Cardinality from Participation:** Avoiding the distraction of the "one or more" (total participation) versus "zero or more" (optional participation) and focusing strictly on the maximum cardinality.
+7.  **Avoiding False Links:** Not confusing the relationship "member participates in class" with "trainer instructs class" or "administrator registers member," which appear nearby in the text.
+
+**COUNT: 7**
+
+While the logic is straightforward for a top student, the density of the text often causes "cognitive overload" for students at this level, leading them to miss the second half of the relationship or guess based on "common sense" rather than the provided text.
+
+0.62

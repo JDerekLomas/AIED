@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of the 2PL definition (the two distinct phases: growing and shrinking).
+2. Understanding the specific constraint of the "Shrinking Phase" (no new locks can be acquired once one is released).
+3. Ability to distinguish Basic 2PL from Conservative (Static) 2PL (to evaluate Statement C).
+4. Ability to distinguish Basic 2PL from Strict/Rigorous 2PL (to evaluate Statement B regarding the release point).
+5. Understanding the logic of "All of the above" questions in a multiple-choice context.
+6. Technical reading comprehension to identify that Statement A is the fundamental rule of the 2PL protocol, whereas B and C describe specific *variants* (Strict and Conservative) but are not universal requirements of the base protocol.
+
+COUNT: 6
+
+Your estimate:
+0.55

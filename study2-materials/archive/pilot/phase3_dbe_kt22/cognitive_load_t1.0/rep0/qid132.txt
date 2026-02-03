@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Recall the definition/test for a Lossless Join (intersection must be a superkey for at least one table).
+2. Identify the intersection of $R_1$ and $R_2$ ($B$).
+3. Evaluate whether $B$ is a key for $R_1$ ($A \to B$) or $R_2$ ($B \to C$) using the provided FDs.
+4. Recall the definition of Dependency Preservation (the union of projected FDs must imply the original set).
+5. Identify which FD is "lost" or needs checking ($A \to C$).
+6. Evaluate if the lost FD ($A \to C$) can be recovered via the transitive property ($A \to B$ and $B \to C$) across the decomposed schemas.
+7. Synthesize these two boolean results to select the correct combination among the four multiple-choice options.
+
+ELEMENT COUNT: 7
+
+0.55

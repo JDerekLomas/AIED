@@ -1,0 +1,10 @@
+PREREQUISITES: 
+- Distinguishing between the `GRANT` and `REVOKE` DDL statements (knowing that avoiding "cascading of revoking" happens during the revocation phase, not the granting phase).
+- Understanding the default behavior of the `REVOKE` command in standard SQL (which is often `CASCADE` depending on the DBMS).
+- Knowledge of the `RESTRICT` keyword specifically as the mechanism to prevent a revocation if it would cause orphaned privileges.
+- Knowledge of standard SQL syntax (identifying that `no cascade` and `no restrict` are syntactically invalid or non-standard).
+- Ability to distinguish between the two types of revocation dependencies: manual cascading (dropping downstream permissions) vs. restricting the action entirely.
+
+COUNT: 5
+
+0.65

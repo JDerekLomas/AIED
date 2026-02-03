@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: The formal definition of a Super Key (SK) (a set of attributes whose closure contains all attributes in the relation).
+2. SQL/Relational Schema mapping: Understanding the notation of relation R and functional dependency set Σ.
+3. Attribute Closure Procedure: Knowing the steps to compute $D^+$.
+4. Logic/Step 1 (Direct Dependency): Identifying that $D \to ABC$ is a given dependency.
+5. Logic/Step 2 (Set Union): Combining the determinant $D$ with its dependent attributes $\{A, B, C\}$ to form the set $\{A, B, C, D\}$.
+6. Evaluation: Comparing the resulting closure $\{A, B, C, D\}$ against the full attribute set of $R$ to check for equality.
+7. Distinguishing concepts: Differentiating between a Super Key and a Candidate Key (though not strictly required to answer True/False here, students often pause to consider if "minimal" is required).
+
+ELEMENT COUNT: 7
+
+0.72

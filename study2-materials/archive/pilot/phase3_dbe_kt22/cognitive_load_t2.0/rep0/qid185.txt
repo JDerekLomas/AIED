@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of a database "view" as a virtual table.
+2. Recall of the SQL GRANT/REVOKE security model and authorization hierarchy.
+3. Distinction between base table privileges and derived view privileges.
+4. Evaluation of the logical constraint "always" (A and B) vs the concept of conditional privilege.
+5. Recognition of the "updatable view" criteria (views defined on joins or aggregates cannot be updated, regardless of underlying table permissions).
+6. Interpretation of the relationship between the view owner and the Database Administrator (DBA) or the Grantor.
+
+ELEMENT_COUNT: 6
+
+Your estimate:
+0.35

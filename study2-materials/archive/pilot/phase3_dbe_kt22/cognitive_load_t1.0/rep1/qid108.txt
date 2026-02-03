@@ -1,0 +1,17 @@
+To evaluate this question, we must look at the "element interactivity" — the cognitive load required to distinguish which business rules are representable via standard Entity-Relationship (ER) notation versus those that require external constraints (like SQL CHECK constraints or triggers).
+
+**ELEMENTS:**
+1.  **Definition Recall (ER notation limits):** Knowing that standard ER diagrams represent entities, attributes, and cardinalities, but struggle with temporal logic or complex business rules.
+2.  **Constraint Distinction (A):** Evaluating "Start date < End date" as a row-level check constraint/logic, not a structural ER relationship.
+3.  **Constraint Distinction (B):** Evaluating "Twice a year" as a periodic temporal constraint (aggregation/counting over time), which cannot be natively modeled in a static ER diagram.
+4.  **Structural Mapping (C):** Evaluating "one-to-many" (1 trainer to N classes) and "optionality/participation" (not all trainers deliver classes) as fundamental ER components.
+5.  **Constraint Distinction (D):** Evaluating "Status types" (Domain constraints/Enums) and "Unique IDs" (Primary Keys). While PKs are ER elements, specific domain value lists (new, working, broken) are typically implementation-level constraints.
+6.  **Logical Filtering:** Holding the lengthy narrative in working memory to map specific sentences to the four options provided.
+
+**ELEMENT COUNT: 6**
+
+**Instructor’s Assessment:**
+In a South African undergraduate context, students often struggle with the distinction between "what can be stored in a database" and "what can be expressed in an ER diagram." Many students intuitively select A, B, or D because they are explicitly stated in the text and "feel" like rules. Only students who have internalized that ER diagrams are primarily for *structure* (entities and relationships) rather than *algorithmic logic* or *complex constraints* will correctly identify C. The presence of the "None of the above" type reasoning required to disqualify the others increases the difficulty for those with minimal prior exposure.
+
+Your estimate:
+0.42

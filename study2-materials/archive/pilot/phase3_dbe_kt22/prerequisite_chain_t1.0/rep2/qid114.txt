@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Terminology recognition**: Knowing that "SK" stands for Super Key.
+2. **Attribute Closure Algorithm**: Knowing how to compute the closure of an attribute set ($D^+$) using a given set of Functional Dependencies ($\Sigma$).
+3. **Axiom Application (Transitivity)**: Correctly following the functional chain (D → B via D → ABC and B → C) to include all reachable attributes.
+4. **Definition of a Super Key**: Understanding that a set of attributes is a super key if its closure contains all attributes in the relation schema $R$.
+5. **Set Comparison**: Correctly comparing the calculated closure $\{A, B, C, D\}$ against the relation schema $\{A, B, C, D\}$ to verify completeness.
+6. **Logical Verification**: Avoiding the common pitfall of confusing "Super Key" with "Candidate Key" (though in this specific case, D is both, a student might hesitate if they overthink the minimality requirement).
+
+COUNT: 6
+
+0.72

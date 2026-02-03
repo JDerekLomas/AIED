@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Filtering relevant information:** Ability to parse a large block of text and isolate the specific sentence describing the "participate" relationship between "member" and "fitness class" while ignoring noise about administrators, technicians, and equipment.
+2. **Identifying Participation Constraints (Definition):** Knowing that "Total Participation" means every instance of an entity must participate in the relationship, whereas "Partial" means some instances may not.
+3. **Keyword mapping (Logic to SQL/ERD terminology):** Recognizing that the phrase "Each fitness class is attended by one or more members" implies that no class can exist without at least one member.
+4. **Distinguishing "Member" from "Fitness Class" roles:** Correctly identifying that the question asks for the constraint on the "fitness class" side, not the "member" side (since a member *may* choose to participate, but a class *must* have members).
+5. **Multi-step reasoning:** Translating "attended by one or more" (English) → "at least one" (Logic) → "Minimum cardinality = 1" (Formalism) → "Total Participation" (ER Terminology).
+
+COUNT: 5
+
+0.65

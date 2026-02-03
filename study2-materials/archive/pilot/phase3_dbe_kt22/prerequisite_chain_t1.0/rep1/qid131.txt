@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Recognizing that $A \to B$ means $A$ determines $B$.
+2. **Identifying a Candidate Key for $R$**: Determining that $A$ is the key for the original relation $R$ because its closure $\{A\}^+ = \{A, B, C\}$.
+3. **Lossless Join Property Condition**: Knowing the rule that $R_1 \cap R_2$ must be a superkey for either $R_1$ or $R_2$ in the context of the given FDs.
+4. **Applying the Lossless Join Rule**: Identifying that $R_1 \cap R_2 = \{A\}$, and since $A \to B$ and $A \to C$, $A$ is a key for both $R_1$ and $R_2$.
+5. **Dependency Preservation Definition**: Knowing that all original FDs must be inferable from the union of FDs that hold on the individual projections.
+6. **Projecting FDs onto Subschemas**: Determining that $A \to B$ holds on $R_1$, $A \to C$ holds on $R_2$, but $B \to C$ is lost because $B$ and $C$ are never in the same subschema.
+7. **Testing for Dependency Preservation**: Checking if $\{A \to B, A \to C\}^+$ contains $B \to C$. (It does not, as the closure of $B$ under the projected FDs is just $\{B\}$).
+8. **Multi-step Reasoning/Integration**: Combining the two independent evaluations (Lossless = True, Preserving = False) to select the correct multiple-choice option.
+
+COUNT: 8
+
+0.55

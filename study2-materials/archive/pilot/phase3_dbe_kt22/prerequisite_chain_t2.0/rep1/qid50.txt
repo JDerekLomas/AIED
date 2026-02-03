@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Superkey (a set of attributes that uniquely identifies a tuple).
+2. Definition of a Candidate Key (a minimal superkey; a superkey with no proper subset being a superkey).
+3. Logical relationship between the two (recognizing that "Candidate Key" is a subset/specialization of "Superkey").
+4. Definition of a Primary Key (one candidate key chosen by the DBA).
+5. Distinguishing between "Necessary" vs "Sufficient" conditions (e.g., while a primary key is always a candidate key, a candidate key is not necessarily the primary key).
+6. Interpreting the universal quantifier "always" in a logical context (falsifying statements C and D because a table can have multiple candidate keys but only one primary key).
+
+COUNT: 6
+
+0.65

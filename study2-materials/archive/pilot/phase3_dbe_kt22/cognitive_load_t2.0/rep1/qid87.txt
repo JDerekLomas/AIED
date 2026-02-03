@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. **Schema Awareness**: Distinguishing between the `Enrol` table (relationship) and `Student` table (entity).
+2. **Filtering Condition**: Evaluating the `WHERE` clause logic (filtering for 2019).
+3. **Aggregation Logic**: Recognizing that `COUNT(*)` counts rows per group.
+4. **Grouping Constraint**: Applying the rule that non-aggregated columns in the `SELECT` list must match the `GROUP BY` clause.
+5. **Context Mapping**: Connecting the phrase "number of students per course" to a grouping by `CourseNo` rather than `StudentID`.
+6. **SQL Syntax Recognition**: Verifying the structure and keywords of the `SELECT` statement.
+
+ELEMENT_COUNT: 6
+
+0.65

@@ -1,0 +1,16 @@
+PREREQUISITES: 
+1. Reading and interpreting relational notation (Relation R and set of Functional Dependencies Σ).
+2. Understanding the definition of a decomposition (splitting attributes into R1 and R2).
+3. Recalling the Lossless Join property criterion for a decomposition of two relations: $(R1 \cap R2) \to (R1 - R2)$ or $(R1 \cap R2) \to (R2 - R1)$.
+4. Correctly identifying the intersection: $\{A, B\} \cap \{B, C\} = \{B\}$.
+5. Evaluating if $B \to A$ or $B \to C$ holds based on $\Sigma$.
+6. Logical deduction that $B \to C$ is explicitly in $\Sigma$, confirming the Lossless Join property.
+7. Recalling the Dependency Preservation property definition (the union of dependencies local to each projection must imply all original dependencies).
+8. Identifying dependencies for R1: $\{A \to B\}$ is preserved.
+9. Identifying dependencies for R2: $\{B \to C\}$ is preserved.
+10. Confirming the union $\{A \to B, B \to C\}$ equals the original set $\Sigma$.
+11. Multi-step reasoning to combine the outcomes of both properties to select the correct multiple-choice option.
+
+COUNT: 11
+
+0.65

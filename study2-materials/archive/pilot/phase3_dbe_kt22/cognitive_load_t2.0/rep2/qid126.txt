@@ -1,0 +1,15 @@
+ELEMENTS:
+1. Definition recall: The formal definition of a Candidate Key (uniqueness and minimality).
+2. Closure Algorithm: Knowledge of the procedure to compute $(A)^+$.
+3. Logic evaluation (Step 1): Computing $(A)^+ = \{A, B, C\}$ to verify A is a superkey.
+4. Minimality check: Recognizing that A is a single attribute and thus minimal.
+5. Distinction/Search: Evaluating other attributes ($B, C$) to determine if they are also keys.
+6. Logic evaluation (Step 2): Computing $(B)^+ = \{B, C, A\}$ to identify B as another CK.
+7. Logic evaluation (Step 3): Computing $(C)^+ = \{C, A, B\}$ to identify C as another CK.
+8. Synthesis: Comparing the results of steps 6-7 against the word "only" in the prompt to determine the Truth value.
+
+ELEMENT COUNT: 8
+
+The high element interactivity arises because the student must not only find a key but exhaustively test or recognize the cyclic nature of the functional dependencies to falsify the "only" claim. Weak students often stop after finding that A is indeed a key, failing to hold the necessity of checking B and C in working memory.
+
+0.65

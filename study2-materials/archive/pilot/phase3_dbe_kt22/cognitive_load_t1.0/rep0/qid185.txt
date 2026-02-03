@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of a view as a virtual table derived from a query.
+2. Recall of the SQL GRANT/REVOKE security model for derived objects.
+3. Distinction between base table privileges and view-specific privileges.
+4. Evaluation of the "Updatability" constraint (rules governing when a view can be modified, e.g., no joins, no aggregations).
+5. Logical evaluation of universal quantifiers ("always") vs. conditional scenarios.
+6. Distinction between "Select" and "Update" privilege inheritance.
+7. Understanding that privilege assignment on views is limited by the creator's own permissions on underlying schemas.
+
+ELEMENT COUNT: 7
+
+0.35

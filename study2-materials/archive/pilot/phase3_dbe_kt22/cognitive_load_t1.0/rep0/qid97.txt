@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: Characteristics of a weak entity (lack of primary key, dependency on an identifying owner via an identifying relationship).
+2. Distinction: Multivalued attributes vs. Weak entities (Trainers’ speciality).
+3. Distinction: Lookup tables/Enumerated types vs. Weak entities (Equipment status).
+4. Table relationship: Identifying the parent-child relationship between Member and Associate Member.
+5. Constraint evaluation: Recognizing that "Associate Number" (1, 2...) is a partial key and requires the Member's unique email for full identification.
+6. Logical elimination: Evaluating "Fitness Class" against uniqueness constraints (time slot) to determine if it can stand alone as a regular entity.
+7. Entity-Relationship mapping: Tracking the hierarchy of Employees -> Admins -> Members -> Associate Members.
+
+ELEMENT COUNT: 7
+
+0.55

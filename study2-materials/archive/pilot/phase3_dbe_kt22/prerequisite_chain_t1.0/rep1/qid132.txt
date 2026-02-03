@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) notation**: Correct interpretation of $A \rightarrow B$ as a constraint where $A$ determines $B$.
+2. **Identifying Primary Keys/Candidate Keys**: Recognizing that $A$ is the key for $R$, and $A$ and $B$ are keys for their respective sub-relations.
+3. **Applying the Lossless Join Theorem**: Knowing that for a decomposition into $\{R_1, R_2\}$ to be lossless, $R_1 \cap R_2$ must be a superkey for either $R_1$ or $R_2$.
+4. **Testing Lossless Join**: Identifying $R_1 \cap R_2 = \{B\}$ and verifying that $B \rightarrow C$ exists in $\Sigma$, making $B$ a key for $R_2$.
+5. **Understanding Dependency Preservation**: Knowing that a decomposition is dependency-preserving if the union of the projections of the FDs onto the sub-relations is equivalent to the original set $\Sigma$.
+6. **Projecting FDs**: Mapping $A \rightarrow B$ to $R_1$ and $B \rightarrow C$ to $R_2$.
+7. **Testing for "Lost" Dependencies**: Identifying that $A \rightarrow C$ is the only dependency not explicitly in the sub-relations, and using transitivity ($A \rightarrow B$ and $B \rightarrow C \implies A \rightarrow C$) to determine it is still implied (not lost).
+8. **Distinguishing between Properties**: Managing two simultaneous boolean evaluations (Lossless: Yes, Preserving: Yes) to select the correct multiple-choice option.
+
+COUNT: 8
+
+0.55

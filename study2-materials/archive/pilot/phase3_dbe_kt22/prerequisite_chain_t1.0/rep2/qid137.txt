@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Candidate Key Identification**: The ability to compute attribute closures (e.g., $(AB)^+$, $(BC)^+$) to identify that $\{AB, BC\}$ are candidate keys.
+2. **Prime vs. Non-prime Distinction**: Identifying that $A, B, C$ are prime attributes and $D$ is a non-prime attribute.
+3. **Definition of BCNF**: Knowing that for every functional dependency $X \to Y$, $X$ must be a superkey. 
+4. **Definition of 3NF**: Knowing that for every functional dependency $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+5. **Evaluating the $BC \to A$ dependency**: Recognizing that while $BC$ is a key (satisfying BCNF/3NF), $A$ being prime satisfies 3NF but doesn't help with BCNF if $BC$ weren't a key (not applicable here, but part of the logic chain).
+6. **Evaluating the $AB \to CD$ dependency**: Recognizing that $AB$ is a key, satisfying both 3NF and BCNF for this specific dependency.
+7. **Identifying the violation**: Recognizing that $D$ is non-prime and $BC \to A$ is fine, but checking if there are hidden dependencies or if the schema as a whole fails. Specifically, students must realize that since $AB$ and $BC$ are keys, any dependency starting with them is fine, but they must check if any other keys exist (like $BD$ or $AC$—which are not keys here).
+8. **Logical Synthesis**: Combining the findings (both dependencies satisfy 3NF; both satisfy BCNF because the LHS of both are keys) to select option A.
+
+COUNT: 8
+
+0.55

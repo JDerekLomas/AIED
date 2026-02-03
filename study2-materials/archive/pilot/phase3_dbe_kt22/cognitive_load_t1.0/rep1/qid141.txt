@@ -1,0 +1,17 @@
+As an instructor, I would classify this as a **high-interactivity conceptual mapping task**. While the question looks simple, it requires the student to navigate the nested hierarchy of normalization rules, which often creates cognitive interference for novices.
+
+**ELEMENTS:**
+1.  **Definition Recall (3NF):** Recalling the specific criteria for Third Normal Form (removal of transitive dependencies).
+2.  **Definition Recall (BCNF):** Recalling the specific criteria for Boyce-Codd Normal Form (every determinant must be a candidate key).
+3.  **Conceptual Hierarchy (Inclusion):** Understanding that normalization levels are nested (1NF $\supset$ 2NF $\supset$ 3NF $\supset$ BCNF).
+4.  **Logical Implication (Directionality):** Evaluating "If P, then Q" versus "If Q, then P" within that hierarchy.
+5.  **Distinction between Strict and Non-Strict Subsets:** Recognizing that BCNF is a *stricter* version of 3NF, meaning anything satisfying BCNF automatically satisfies 3NF.
+6.  **Elimination Logic:** Simultaneously holding all four propositions in working memory to compare the validity of their logical directions.
+
+**ELEMENT COUNT: 6**
+
+**Estimated Proportion of Correct Answers:**
+In a diverse South African undergraduate cohort, many students rely on rote memorization. The common pitfall here is confusing the direction of the subset—many students remember that BCNF and 3NF are "related" but struggle to recall which one is the "stronger" constraint under exam pressure. Roughly 65% of the top-performing students will find this trivial, but the bottom 30% will guess or reverse the relationship.
+
+Your estimate:
+0.62

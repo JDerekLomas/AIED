@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Knowledge of the definition of a Candidate Key (CK): It must be both a superkey (uniquely identifies all attributes) and minimal (no subset is a superkey).
+2. Ability to compute an attribute closure: Understanding how to apply Armstrong's Axioms or the closure algorithm to find $\{AB\}^+$.
+3. Executing the closure calculation correctly: Finding that $\{AB\}^+ = \{A, B, C\}$.
+4. Understanding the concept of "minimality": Testing if subsets of $AB$ (i.e., $\{A\}$ and $\{B\}$) are also superkeys.
+5. Computing the closure of $\{A\}$: Finding $\{A\}^+ = \{A, B\}$.
+6. Identifying a "hidden" transitivity/augmentation: Recognizing that if $A \to B$, then $A \to AB$, and since $AB \to C$, then $A \to C$.
+7. Concluding that $\{A\}$ is a superkey: Realizing $\{A\}^+ = \{A, B, C\}$.
+8. Applying the minimality rule: Since a proper subset ($A$) of $AB$ is a superkey, $AB$ cannot be a Candidate Key.
+9. Distinguishing between a Superkey and a Candidate Key: Avoiding the common pitfall of stopping once $AB$ is proven to be a superkey.
+
+COUNT: 9
+
+0.35

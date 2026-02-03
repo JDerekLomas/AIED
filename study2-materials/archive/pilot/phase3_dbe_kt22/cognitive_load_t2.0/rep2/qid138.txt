@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Finding Candidate Keys: Identifying the closure of {A, B} to determine the primary key/candidate keys.
+2. Superkey Definition: Evaluating if the Left-Hand Side (LHS) of each functional dependency (FD) is a superkey (BCNF rule).
+3. Prime vs. Non-prime Attribute Distinction: Identifying that A, B, and C are prime attributes (members of candidate keys) while D is non-prime.
+4. 3NF Definition: Evaluating if each FD satisfies the "LHS is a superkey" OR "RHS is a prime attribute" condition.
+5. Transitive Dependency Analysis: Identifying that AB → CD creates a dependency where D (non-prime) depends on AB (the key), and checking for transitive or partial violations.
+6. Multi-FD Integration: Maintaining the status of both FDs (AB→CD and C→A) simultaneously to choose the final classification.
+
+ELEMENT_COUNT: 6
+
+Your estimate:
+0.40

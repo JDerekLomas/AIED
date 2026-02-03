@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) (uniqueness and minimality).
+2. Knowing the procedure to compute the attribute closure ($A^+$).
+3. Applying the Reflexivity and Augmentation rules (Armstrong's Axioms) to determine if $A \to ABC$.
+4. Distinguishing between a Super Key and a Candidate Key (identifying if $A$ is "minimal" or if a subset could also be a key).
+5. Correctly interpreting the provided functional dependencies ($\Sigma$) to see that $A \to B$ and $A \to B$ implies $A \to AB$, which implies $A \to C$.
+6. Logical reasoning: Since $A^+ = \{A, B, C\}$, $A$ is a key; since $A$ is a single attribute, it has no non-empty proper subsets, thus it must be minimal.
+7. Overcoming the "distractor" of $AB \to C$: many students wrongly assume that because $B$ is needed on the left side of the second dependency, $A$ cannot be a key alone.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the syntax of Functional Dependencies (FDs) and identifying the determinant (left-hand side) versus the dependent (right-hand side).
+2. Understanding the definition of the "closure of an attribute set" (knowing what $A^+$ signifies).
+3. Knowledge of Armstrong’s Axiom of Reflexivity (recognizing that an attribute always determines itself, so A must be in the set).
+4. Ability to perform a multi-step iterative algorithm (the closure algorithm):
+   - Step 1: Use $A \to B$ to add $B$ to the set $\{A\}$.
+   - Step 2: Use $B \to C$ to add $C$ to the set $\{A, B\}$.
+5. Distinguishing between applicable and non-applicable FDs (recognizing that $D \to ABC$ cannot be used because $D$ is not in the current closure set $\{A, B, C\}$).
+6. Knowing the "stop condition" for the algorithm (no more FDs can be applied).
+7. Correctly mapping the final calculated set $\{A, B, C\}$ to the multiple-choice options.
+
+COUNT: 7
+
+0.72

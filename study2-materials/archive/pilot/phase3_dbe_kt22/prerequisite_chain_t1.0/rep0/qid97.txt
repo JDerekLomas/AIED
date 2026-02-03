@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Reading Comprehension (English as a Second Language context):** The ability to parse a dense narrative description and extract structural relationships while ignoring irrelevant attributes (like landline numbers or start dates).
+2. **Definition of a Weak Entity:** Knowing that a weak entity cannot be uniquely identified by its own attributes alone and must depend on a relationship with an identifying (owner) entity.
+3. **Distinguishing Attributes from Entities:** Recognizing that "Status" is a property (attribute) of an equipment entity, not a standalone entity type, even if it has specific allowed values.
+4. **Identifying Primary Keys/Uniqueness:** Identifying that "Fitness class" is explicitly stated to have a unique daily time slot, disqualifying it from being weak.
+5. **Understanding Multi-valued Attributes:** Recognizing that "Speciality" is a multi-valued attribute of a trainer, and while it could be modeled as a separate table in normalization, it does not fit the classical E-R definition of a weak entity compared to other candidates.
+6. **Identifying Partial Keys and Discriminators:** Recognizing that "Associate member" uses an "associate number (1, 2...)" which is not globally unique but unique only relative to the primary member.
+7. **Identifying Existential Dependency:** Understanding that an associate member cannot exist in the system without being linked to a primary member (the owner entity).
+8. **Multi-step Elimination:** Systematically evaluating four distinct candidates against the definition of "weak entity" and finding the one that requires a parent's key for identification.
+
+COUNT: 8
+
+0.55

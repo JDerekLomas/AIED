@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. **Definition recall**: Criteria for a "key attribute" (uniqueness, non-nullability, and stability).
+2. **Schema context - Employee Entities**: Recalling that trainers, admins, and technicians are sub-types of "employee" sharing a unique ID.
+3. **Logic Evaluation (A - Phone Number)**: Assessing if a technician's mobile number is unique or mandatory (not explicitly stated as unique, unlike the Employee ID).
+4. **Logic Evaluation (B - Date of Maintenance)**: Assessing the cardinality of maintenance events (multiple pieces of equipment maintained on the same date, making it non-unique).
+5. **Logic Evaluation (C - Name of Employee)**: Distinguishing between a descriptor (name) and a unique identifier (ID).
+6. **Logic Evaluation (D - Time Slot)**: Analyzing the specific constraint "No two fitness classes have the same daily time slot," which satisfies the uniqueness requirement for a key in the 'Class' entity.
+7. **Constraint Integration**: Simultaneously holding the specific business rules (e.g., "no two classes share a slot") against the definitions of candidates A, B, and C.
+
+ELEMENT_COUNT: 7
+
+Your estimate:
+0.65

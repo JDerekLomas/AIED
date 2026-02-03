@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying the "Universe" of attributes (U = {A, B, C, D}).
+2. Understanding the definition of a Candidate Key (CK) as a minimal superkey.
+3. Ability to compute the closure of an attribute set ($X^+$) using Armstrong's Axioms/Closure algorithm.
+4. Recognizing the "Heuristic Rule" for attributes: Identifying that if an attribute (C) appears only on the left-hand side of dependencies (or not at all on the right-hand side), it **must** be part of every candidate key.
+5. Identifying that 'C' does not appear on the RHS of any functional dependency in $\Sigma$.
+6. Distinguishing between a primary key and a candidate key.
+7. Multi-step reasoning: Realizing that if C is not in a set, its closure can never include C, and thus can never be a key.
+
+COUNT: 7
+
+0.65

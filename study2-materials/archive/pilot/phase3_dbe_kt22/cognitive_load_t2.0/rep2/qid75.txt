@@ -1,0 +1,15 @@
+To answer this question accurately, a student must process several distinct components of the SQL query and the underlying database logic simultaneously.
+
+**ELEMENTS:**
+1.  **GROUP BY Logic:** Understanding that the result set rows are formed by unique values in the `CourseNo` column, not the total row count of the table.
+2.  **HAVING Clause Filter:** Recognizing that the filter `COUNT(*) > 1` is applied *after* grouping, requiring the student to mentally aggregate the data.
+3.  **Aggregate Function (COUNT):** Recalling that `COUNT(*)` counts the number of occurrences within each group.
+4.  **Implicit Table Data Representation:** In the absence of a provided table, the student must realize this is a theoretical "tracing" task where they must infer or be given data; assuming a standard practice dataset is implied, they must hold the structure in mind.
+5.  **SQL Execution Order:** Distinguishing that `GROUP BY` happens before `HAVING` but after `FROM`.
+6.  **Distinction between SELECT and Result Rows:** Understanding that even if many columns are involved, the number of rows is determined by the groups that satisfy the condition.
+
+**ELEMENT COUNT:** 6
+
+**Estimated proportion of correct answers:** 0.65
+
+0.65

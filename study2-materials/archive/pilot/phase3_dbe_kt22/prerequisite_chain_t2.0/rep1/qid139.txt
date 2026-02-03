@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of 3rd Normal Form (3NF).
+2. Understanding the formal definition of Boyce-Codd Normal Form (BCNF), specifically the requirement that every determinant must be a candidate key.
+3. Identifying the hierarchy of normal forms (the fact that BCNF is "stronger" or "stricter" than 3NF, meaning BCNF $\subset$ 3NF).
+4. Distinguishing between "less restrictive" (easier to satisfy) and "stricter" (harder to satisfy) terminology.
+5. Understanding that normalization addresses redundancy caused by functional dependencies, but cannot mathematically eliminate all possible forms of redundancy (e.g., temporal or multi-valued redundancies not covered by FDs).
+6. Evaluating Option A by comparing the definitions of 3NF and BCNF.
+7. Evaluating Option B vs C by distinguishing between "theoretical perfection" (eliminating redundancy) and the reality that BCNF specifically targets anomalies caused by FDs while some redundancy might persist.
+
+COUNT: 7
+
+0.40

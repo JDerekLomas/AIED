@@ -1,0 +1,18 @@
+To evaluate this question, we must look beyond the surface level of the SQL syntax and consider the cognitive load required to process a correlated subquery versus a simple join or filter.
+
+### ELEMENTS:
+1.  **Syntax/Keywords:** Recognizing `EXISTS` as a semi-join operation rather than a standard filter.
+2.  **Scope/Correlation:** Mapping the outer table alias (`e`) to the inner query's join condition (`e.CourseNo`).
+3.  **Logical Condition:** Understanding that `EXISTS` returns a boolean (TRUE) if the subquery returns *at least one* row, regardless of the columns selected.
+4.  **Schema Interpretation:** Identifying the relationship between `Enrol` (many) and `Course` (one) based on the `CourseNo` key.
+5.  **Data Tracing/Evaluation:** Iterating through each row in the `Enrol` table (mental "loops") to check for a match in the `Course` table.
+6.  **Set Distinction:** Recognizing that the query will return all enrollments that have a valid corresponding course, effectively performing a filtered count of the `Enrol` table.
+7.  **Mental Arithmetic:** Holding the current tally of "matched" rows in working memory while scanning the provided (though not displayed here) sample data.
+
+**ELEMENT COUNT: 7**
+
+### PEDAGOGICAL ASSESSMENT:
+South African undergraduate cohorts often struggle with the "Set-based" logic of SQL, frequently reverting to procedural (row-by-row) thinking. For many students, `EXISTS` is the least intuitive way to express a join. While the syntax looks simple, the "context switching" between the outer and inner queries creates significant cognitive friction. High-ability students will recognize this as an Inner Join equivalent; lower-ability students will likely get lost in the subquery logic or guess based on the total number of rows in either table.
+
+**Your estimate:** 
+0.55

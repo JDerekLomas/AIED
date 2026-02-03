@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `GRANT OPTION` and its role in delegating administrative rights.
+2. Recognizing "Owner" status (Implicitly, the owner retains all privileges regardless of revoking their own grants).
+3. Knowing the mechanics of `REVOKE ... CASCADE` specifically regarding how it handles dependent privileges.
+4. Distinguishing between revoking a specific *privilege* (SELECT) versus revoking only the *right to grant* that privilege (GRANT OPTION).
+5. Multi-step reasoning: Tracking the state of the authorization graph through three chronological changes.
+6. Identifying that `REVOKE GRANT OPTION ... CASCADE` does not necessarily revoke the underlying privilege from the grantee if it wasn't explicitly targeted.
+7. Distinguishing between standard SQL behavior and common misconceptions (many students assume `CASCADE` on a grant option always kills the child privileges, but SQL standard behavior for `REVOKE GRANT OPTION FOR ... FROM X CASCADE` targets X's ability to grant, which in turn invalidates grants X made because X no longer has the authority to sustain them).
+
+COUNT: 7
+
+0.35

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Information Filtering**: Ability to ignore "noise" (attributes like unique IDs, landline numbers, or equipment status) and focus specifically on the relationship between "member" and "fitness class".
+2. **Entity Identification**: Correctly identifying the two entity types involved in the "participate" relationship as defined in the prompt.
+3. **Cardinality vs. Participation**: Distinguishing between how many times an entity *can* participate versus whether it *must* participate.
+4. **Keyword Association (Total)**: Understanding that the phrase "Each fitness class is attended by one or more members" implies that every instance of the "fitness class" entity must be linked to at least one "member" entity.
+5. **Keyword Association (Partial)**: Understanding that if there were a class with zero members, it would be partial (and recognizing this is not the case here).
+6. **SQL/Relational Mapping**: Translating the business rule "is attended by one or more" into the formal ER modeling concept of "Total Participation" (or mandatory existence).
+7. **Directional Reasoning**: Identifying that the question asks for the constraint on the "fitness class" side specifically, rather than the "member" side (which is often partial in such scenarios).
+
+COUNT: 7
+
+0.55

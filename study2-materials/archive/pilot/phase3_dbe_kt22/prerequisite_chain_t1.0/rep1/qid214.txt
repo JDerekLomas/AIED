@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the sequential nature of SQL execution within a transaction block.
+2. Identifying the `COMMIT` command as the point of permanent data persistence (the "point of no return").
+3. Understanding the definition of a `ROLLBACK` as a command that reverts changes only to the last savepoint or commit.
+4. Distinguishing between "active" transactions and "terminated" transactions.
+5. Recognizing that commands following a `COMMIT` (in the same script or block) do not affect the data already finalized by that commit unless a new transaction is started.
+6. Not being misled by the "logical" desire to undo an error, but instead applying the rigid structural rules of ACID properties (Durability).
+
+COUNT: 6
+
+0.55

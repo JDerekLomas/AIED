@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Ownership rules: Recognizing Linda as the root source of privileges.
+2. Syntax/Command recall: Understanding `GRANT`, `WITH GRANT OPTION`, and `REVOKE`.
+3. Grant Dependency Graphs: Mapping the flow of privileges from Linda -> Amy -> Peter.
+4. Redundant Privileges: Identifying that Peter received the privilege from two different sources (Linda and Amy).
+5. `CASCADE` semantics: Understanding that revoking from Amy nullifies privileges she granted to others.
+6. Independent Path evaluation: Realizing that Peter's privilege from Linda remains unaffected by the revocation of the path through Amy.
+7. Logical elimination: Comparing the final state of the dependency graph against the four multiple-choice options.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.40

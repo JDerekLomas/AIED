@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. **Definition recall**: Criteria for what constitutes an "Entity Type" (as opposed to an attribute, a value, or a relationship).
+2. **Specialisation/Generalisation hierarchy**: Mapping the "Employee" supertype and its three subtypes (Trainer, Administrator, Technician).
+3. **Cardinality & Relationships**: Processing the "one-to-many" relationship between Administrator and Member, or Member and Associate.
+4. **Weak Entity identification**: Evaluating the relationship between Members and "Associate members" (partial access/local ID).
+5. **Attribute vs Entity distinction (Status)**: Evaluating if "status types" are metadata/constraints or standalone entities.
+6. **Attribute vs Entity distinction (Time slot)**: Evaluating if the "daily time slot" is a unique identifier/entity or a simple property of a Class.
+7. **Recursive/Multi-step evaluation of 'A'**: Recognizing that a maintenance event involves an intersection of Date, Equipment, and Technician (potential associative entity).
+8. **Syntactic filtering of the text**: Ignoring noise (weight loss examples, landline numbers, etc.) while scanning for the core question.
+
+ELEMENT_COUNT: 8
+
+0.65

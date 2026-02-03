@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. Recall of the formal definition of a "Minimal Cover" (equivalence, no redundant functional dependencies, no extraneous attributes).
+2. Understanding the definition of Logical Equivalence between two sets of functional dependencies (Σ1 ≡ Σ2).
+3. The procedure to check if Σ1 ⊨ Σ2 (computing attribute closures under Σ1 for A→B and B→C).
+4. The procedure to check if Σ2 ⊨ Σ1 (computing attribute closures under Σ2 for A→B and AB→C).
+5. Evaluation of the transitivity rule (A→B, B→C ⊨ A→C) to determine if AB→C is redundant or implied.
+6. Identifying the specific constraint of "minimality" (checking if Σ1 is already minimal or if Σ2 contains redundancies).
+7. Distinguishing between "Equivalent sets" and the directional requirement of one being a "cover" for another.
+
+ELEMENT_COUNT: 7
+
+0.35

@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Definition recall of a Candidate Key (CK): Must be both a superkey and minimal.
+2. Definition recall of Functional Dependencies (FDs) and the closure algorithm ($X^+$).
+3. Logic of attribute closure: Computing $A^+$ using $\Sigma$.
+4. Evaluation of first FD: $\{A\} \rightarrow B$ (yields $\{A, B\}$).
+5. Evaluation of second FD: $\{AB\} \rightarrow C$ (requires $A$ and $B$ to be present to derive $C$).
+6. Logical synthesis: $\{A, B, C\}$ contains all attributes of $R$, confirming $A$ is a superkey.
+7. Minimality check: Since $A$ is a single attribute, it has no proper subsets to check (trivial minimality).
+8. Validation of the final truth value against the statement.
+
+ELEMENT COUNT: 8
+
+0.65

@@ -1,0 +1,14 @@
+In the context of a South African undergraduate database course, this question targets the conceptual understanding of Normal Forms (specifically the hierarchical relationship between 3NF and BCNF).
+
+**ELEMENTS:**
+1.  **Recall of Definition (3NF):** Requirements regarding non-prime attributes and transitive dependencies.
+2.  **Recall of Definition (BCNF):** Requirements regarding the nature of determinants (must be superkeys).
+3.  **Hierarchy Logic:** Understanding the nested relationship between normal forms (the subset/superset concept).
+4.  **Directional Logic (A vs. B):** Identifying that "Smarter" constraints (BCNF) satisfy "Lesser" ones (3NF), but the inverse is false due to specific exceptions (overlapping candidate keys).
+5.  **Exclusionary Logic (C vs. D):** Processing the "cannot be" phrasing as a contradiction of the subset rule.
+
+**ELEMENT COUNT:** 5
+
+While this is a "textbook" relationship, students with weaker backgrounds often struggle with the direction of the implication. They frequently confuse whether 3NF is the higher standard or if BCNF is, especially if they focus on rote memorization of the numbers rather than the logic of dependencies.
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of equivalence between sets of functional dependencies (Σ1 ≡ Σ2 if and only if Σ1⁺ = Σ2⁺).
+2. Knowledge of how to compute the closure of an attribute set under a given set of dependencies.
+3. Recognizing that for two sets to be equivalent, every dependency in Σ1 must be derivable from Σ2, and vice versa.
+4. Specific application: Testing if A → B can be derived from Σ2={A → C, B → C}.
+5. Ability to compute the closure of {A} under Σ2 (A⁺_Σ2 = {A, C}) and identifying that B is not in that closure.
+6. Distinguishing between logical implication (A → B, B → C implies A → C) and its converse, which is not necessarily true.
+7. Identifying the "transitivity" rule and recognizing where it is missing in one of the sets.
+
+COUNT: 7
+
+0.65

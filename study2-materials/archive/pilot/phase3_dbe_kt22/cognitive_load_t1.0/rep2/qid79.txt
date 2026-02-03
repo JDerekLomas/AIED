@@ -1,0 +1,11 @@
+ELEMENTS: 
+1. SQL Syntax Knowledge: Understanding the structure and function of the `SELECT *` and `FROM` clauses.
+2. Join Mechanism: Understanding the logic of an `INNER JOIN` (only matching rows are returned).
+3. Primary Key/Foreign Key Relationship: Identifying `CourseNo` as the linking attribute between the two tables.
+4. Data Set Inspection (Mental or Visual): Accessing the provided tables to count rows in `Course` and `Enrol`.
+5. Matching Logic: Iterating through each row in the `Enrol` table and verifying if a corresponding `CourseNo` exists in the `Course` table.
+6. Mathematical Cardinality: Recognizing that in a standard Join on a Foreign Key, the result set size is determined by the number of matching entries in the "many" side (Enrol), provided the "one" side (Course) contains all referenced keys.
+
+ELEMENT COUNT: 6
+
+0.72

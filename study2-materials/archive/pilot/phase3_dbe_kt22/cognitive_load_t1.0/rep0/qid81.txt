@@ -1,0 +1,18 @@
+To provide an accurate assessment, I am assuming the students are provided with the underlying data (tables) for `Course` and `Enrol`. Without seeing the specific tables, I will evaluate the cognitive load based on the structural requirements of a standard "JOIN result set size" problem.
+
+**ELEMENTS:**
+1.  **Syntax Recognition:** Identifying the `LEFT JOIN` operator and the `ON` clause.
+2.  **Table Schema Retrieval:** Understanding the primary key/foreign key relationship between `Course` and `Enrol`.
+3.  **Join Logic (The "Left" Rule):** Recalling that all rows from the left table (`Course`) must be preserved, even if there is no match in the right table.
+4.  **Cardinality Evaluation (Course):** Identifying how many rows exist in the `Course` table.
+5.  **Cardinality Evaluation (Enrol):** Identifying how many matches exist in the `Enrol` table for each course.
+6.  **Handling Multiplicity:** Understanding that if a course has multiple enrollments, it will produce multiple rows in the result.
+7.  **Handling Nulls:** Recognizing that a course with zero enrollments still produces one row (with NULLs).
+8.  **Summation:** Aggregating the matches (or non-matches) to arrive at the final count.
+
+**ELEMENT COUNT: 8**
+
+**Instructor’s Assessment:**
+This is a high-interactivity question because it requires more than simple definition recall. A student cannot simply count the rows in the `Enrol` table (which many beginners do, assuming it's an Inner Join) nor simply count the `Course` table. They must hold the "Left" preservation rule in their mind while simultaneously scanning the `Enrol` table for duplicates and gaps. In a South African context with diverse backgrounds, the "Left Join" is a notorious stumbling block where students frequently revert to Inner Join logic.
+
+0.55

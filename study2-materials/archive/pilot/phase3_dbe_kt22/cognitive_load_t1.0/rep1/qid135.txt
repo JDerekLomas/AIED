@@ -1,0 +1,12 @@
+ELEMENTS:
+1. **Candidate Key Identification**: Determining all keys ($A$ and $BC$) by calculating closures of attribute sets.
+2. **Prime vs. Non-prime Distinction**: Identifying that all attributes $\{A, B, C\}$ are prime (part of at least one candidate key).
+3. **3NF Definition Recall**: Evaluating if every functional dependency $X \to Y$ satisfies: $X$ is a superkey, OR $Y$ is a subset of $X$, OR $Y$ consists of prime attributes.
+4. **BCNF Definition Recall**: Evaluating if every functional dependency $X \to Y$ satisfies: $X$ is a superkey.
+5. **Logic Evaluation (BCNF)**: Checking $BC \to A$. Since $BC$ is a candidate key (superkey), it satisfies BCNF.
+6. **Logic Evaluation (3NF)**: Applying the prime attribute rule to $A \to BC$ and $BC \to A$.
+7. **Multiple Choice Comparison**: Matching the results (3NF=True, BCNF=True) to the specific options provided.
+
+ELEMENT COUNT: 7
+
+0.55

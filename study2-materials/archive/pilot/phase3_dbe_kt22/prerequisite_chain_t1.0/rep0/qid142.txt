@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of 3NF (Third Normal Form) and its design goals.
+2. Understanding the definition of BCNF (Boyce-Codd Normal Form) and its stricter requirements compared to 3NF.
+3. Understanding the concept of "Dependency Preservation" in the context of relational decomposition.
+4. Knowing the fundamental trade-off theorem: 3NF guarantees both lossless join and dependency preservation, whereas BCNF guarantees lossless join but *not* necessarily dependency preservation.
+5. Distinguishing between "always" (universal property) and "can be" (existential property) to eliminate option C.
+6. Identifying that BCNF's inability to *guarantee* dependency preservation makes option A false.
+7. Recognizing that 3NF decomposition algorithms (like the Synthesis Algorithm) are specifically designed to ensure dependency preservation.
+
+COUNT: 7
+
+0.55

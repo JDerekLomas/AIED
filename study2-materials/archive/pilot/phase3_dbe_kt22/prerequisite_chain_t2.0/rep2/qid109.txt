@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the formal definition of a functional dependency (FD), specifically the $A \to B$ notation.
+2. Understanding the specific definition of a "trivial" functional dependency (that the RHS must be a subset of the LHS, i.e., $Y \subseteq X$).
+3. Ability to perform set operations on attribute sets (recognizing if one group of letters is contained within another).
+4. Distinguishing between a "trivial" FD and a "complete" or "transitive" dependency (avoiding terminology confusion).
+5. Accurate pattern matching/reading of the options to identify which RHS is a subset of the LHS (noting that in A, Z is not in the LHS; in B, YZ is not in X; in D, X is not in YZ; while in C, Z is indeed in XYZ).
+6. Resistance to the "distractor" in option A, which looks like it might be trivial because it adds an attribute to the LHS, but actually fails the subset rule in the direction of the arrow.
+
+COUNT: 6
+
+0.65

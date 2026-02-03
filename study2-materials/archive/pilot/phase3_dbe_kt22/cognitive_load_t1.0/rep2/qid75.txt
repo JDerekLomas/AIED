@@ -1,0 +1,19 @@
+To evaluate this question, we must consider the specific cognitive load imposed on the student. Note that since no actual data (table content) was provided in your prompt, the student must first recognize that the question is **impossible to answer** without the source table, or they must infer the elements required to process such a table if it were present.
+
+Assuming a standard sample table was intended to accompany this question, the elements are:
+
+**ELEMENTS:**
+1.  **SQL Syntax Recognition:** Identifying the role of `SELECT`, `FROM`, `GROUP BY`, and `HAVING`.
+2.  **Aggregation Logic:** Understanding that `COUNT(*)` counts rows within a group, not the total table.
+3.  **Grouping Mechanism:** Mentally partitioning the `Study` table into subsets based on unique `CourseNo` values.
+4.  **Filter Logic (HAVING vs WHERE):** Applying the condition `> 1` specifically to the aggregated results after grouping.
+5.  **Output Mapping:** Distinguishing between the values in the rows and the *count of rows* that satisfy the final condition.
+6.  **Table Schema/Relationship:** Identifying which column to use for grouping (CourseNo).
+
+**ELEMENT COUNT: 6**
+
+**ESTIMATE:**
+In a South African undergraduate context, students with strong programming backgrounds will find this trivial, but those struggling with logical abstraction often confuse `GROUP BY` with a simple `WHERE` clause or fail to realize that the `HAVING` clause reduces the final row count of the result set. If the table is missing (as in this prompt), the "correct" answer is technically "none of the above," but assuming the table was provided in their test paper:
+
+Your estimate:
+0.65

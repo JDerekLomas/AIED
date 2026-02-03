@@ -1,0 +1,16 @@
+To evaluate this question, we must look at the cognitive load required to process a **correlated subquery** without being provided the specific data values (though the presence of multiple-choice options suggests an underlying dataset the students are expected to reference).
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a subquery and the `EXISTS` operator.
+2.  **Table Relationships:** Identifying the Primary Key-Foreign Key link between `Course` (c) and `Enrol` (e).
+3.  **Logical Evaluation of EXISTS:** Understanding that `EXISTS` returns true if the subquery returns *at least one* row, regardless of the column count.
+4.  **Correlation Logic:** Holding the value of `c.CourseNo` constant while iterating through the `Enrol` table to find a match.
+5.  **Set Distinction (Distinct vs. All):** Realizing that the `EXISTS` check on the `Course` table will return a course only once, even if there are 100 enrollments for that course (preventing "double counting").
+6.  **Data Retrieval/Counting:** If the dataset is provided (implied), students must manually scan the `Enrol` table, find the unique `CourseNo` values, and map them back to the `Course` table.
+
+**ELEMENT COUNT: 6**
+
+**Estimate of Correct Answers:**
+At South African universities, many students struggle with the jump from simple "Flat SQL" (Select-From-Where) to nested/correlated logic. The `EXISTS` clause is notoriously counter-intuitive for novices because it doesn't return data from the subquery itself, but rather a Boolean value that filters the outer query. Students often confuse this with an `INNER JOIN` (which produces duplicates if there are multiple enrollments) or an `IN` clause. Given the wide range of abilities, a significant portion of the "lower-exposure" cohort will guess based on the total number of rows in one of the tables.
+
+0.55

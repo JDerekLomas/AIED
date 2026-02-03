@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Knowledge of standard SQL character types (CHAR vs. VARCHAR).
+2. Awareness of PostgreSQL-specific aliases vs. standard SQL terminology.
+3. Distinguishing between programming language type names (e.g., C++, Java, or Python "String") and SQL type names.
+4. Identifying `BIT(n)` as a valid, albeit less common, PostgreSQL type used for bit strings.
+5. Eliminating `STRING(n)` as a non-standard keyword in the PostgreSQL dialect (which uses `TEXT` or `VARCHAR`).
+
+COUNT: 5
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Defining DAC (Discretionary Access Control) specifically as an identity-based access control mechanism.
+2. Recalling that "Discretionary" implies the owner of an object has total control over its permissions.
+3. Distinguishing between identity-based access (DAC) and role-based (RBAC) or attribute-based (ABAC) systems.
+4. Understanding the specific mechanism of a Trojan Horse in a database context: a program running with a legitimate user's identity can access anything that user is permitted to see.
+5. Identifying the fundamental limitation of DAC: it cannot distinguish between an intentional action by a user and an automated action taken by a malicious script running under that user's identity.
+6. Eliminating Distractor B: Recognizing that "certificates" is not the core structural definition of DAC.
+7. Eliminating Distractor C: Identifying the factual inaccuracy that DAC "does not" rely on identity.
+8. Eliminating Distractor D: Recognizing that while DAC does not regulate roles, that is not the primary reason why it is susceptible to Trojan Horses (Role-based systems are often equally vulnerable to identity-spoofing/impersonation logic).
+
+COUNT: 8
+
+0.65

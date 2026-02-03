@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall of "Minimal Cover" (functional dependencies must have a singleton right-hand side, no redundant dependencies, and no extraneous attributes on the left-hand side).
+2. Logical evaluation of logical equivalence: Checking if $\Sigma_2 \implies \Sigma_1$ (can $A \to B$ and $A \to C$ derive $AB \to C$?).
+3. Logical evaluation of logical equivalence: Checking if $\Sigma_1 \implies \Sigma_2$ (can $A \to B$ and $AB \to C$ derive $A \to C$?).
+4. Application of Armstrong's Axioms (specifically Augmentation and Transitivity) to test the above derivations.
+5. Distinction between a "canonical cover" and a "minimal cover" in the context of extraneous attributes ($AB \to C$ contains an extraneous $B$ if $A \to C$ is implied).
+6. Synthesis of steps: To confirm the statement "$\Sigma_2$ is a minimal cover of $\Sigma_1$," the student must hold the result of the equivalence check while simultaneously checking the "minimal" criteria for $\Sigma_2$ (singleton RHS and no redundancy).
+
+ELEMENT COUNT: 6
+
+0.55

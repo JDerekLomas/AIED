@@ -1,0 +1,11 @@
+PREREQUISITES:
+1.  **Extracting Specific Information from Narrative**: The ability to filter out a large volume of "noise" (administrators, equipment, technicians, etc.) to focus specifically on the relationship between "Member" and "Fitness Class".
+2.  **Identifying Relationship Direction**: Understanding that the question asks for the participation constraint of the "Fitness Class" entity in the "Participate" relationship, not the "Member" entity.
+3.  **Definition of Total vs. Partial Participation**: Knowing that "Total" participation implies every instance of an entity must participate in the relationship, while "Partial" implies some instances may not.
+4.  **Applying Business Rules to ER Theory**: Identifying the specific sentence "Each fitness class is attended by one or more members" and translating "one or more" into a minimum cardinality of 1 (Total participation).
+5.  **Distinguishing Relationship Types**: Differentiating between the "Participate" relationship (Members in Classes) and the "Instruct" relationship (Trainers in Classes) within the text to ensure the correct constraint is applied.
+6.  **Reading Comprehension (English Proficiency)**: At a South African university, many students are non-native English speakers; they must correctly interpret "Each fitness class is attended by..." as a mandatory requirement.
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency (FD) notation**: Recognizing that $X \rightarrow Y$ means $X$ determines $Y$.
+2. **Definition of Attribute Closure**: Knowing that $A^+$ is the set of all attributes functionally determined by $A$.
+3. **Application of the Closure Algorithm**: Ability to iteratively scan the set $\Sigma$ to expand the result set.
+4. **Reflexivity Rule**: Knowing that $A$ is always in its own closure ($A \in A^+$), preventing the selection of an empty set or just the RHS.
+5. **Transitive Reasoning**: Identifying that $A \rightarrow B$ and $B \rightarrow C$ implies $C$ is in the closure.
+6. **Distinguishing "Set" vs "Subset" logic**: Recognizing that for $D \rightarrow ABC$ to fire, $D$ must be in the current result set (which it is not).
+7. **Identifying the Stopping Condition**: Realizing that once no more dependencies can be applied, the process is complete.
+8. **Schema Literacy**: Mapping the result $\{A, B, C\}$ to the multiple-choice option "ABC".
+
+COUNT: 8
+
+0.75

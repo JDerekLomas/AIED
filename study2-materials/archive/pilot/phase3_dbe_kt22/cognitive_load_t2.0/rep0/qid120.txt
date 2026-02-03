@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Definition recall (equivalence of functional dependency sets: $\Sigma1 \equiv \Sigma2$ if $\Sigma1^+ = \Sigma2^+$).
+2. Logical inference rule: Identifying if $A \rightarrow B$ in $\Sigma1$ is covered by $\Sigma2$ (reflexivity/transitivity).
+3. Logical inference rule: Identifying if $AB \rightarrow C$ in $\Sigma1$ is covered by $\Sigma2$.
+4. Logic/Augmentation: Recognizing that if $A \rightarrow C$ is given, then $AB \rightarrow C$ is implied via augmentation.
+5. Logical inference rule: Identifying if $A \rightarrow B$ in $\Sigma2$ is covered by $\Sigma1$.
+6. Logical inference rule: Identifying if $A \rightarrow C$ in $\Sigma2$ is covered by $\Sigma1$ (Specifically: computing the attribute closure of $\{A\}$ under $\Sigma1$ to see if it includes $C$).
+7. Multi-step procedure: The systematic comparison of both directions of implication (logical entailment).
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

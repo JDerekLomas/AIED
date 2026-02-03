@@ -1,0 +1,13 @@
+ELEMENTS:
+1. **SQL Syntax Rules**: Recognizing that a comma-separated list in the `FROM` clause indicates a Cross Join (Cartesian Product) before filtering.
+2. **Table Relationships**: Identifying the primary key-foreign key relationship between `Course` and `Enrol` via `CourseNo`.
+3. **Implicit Schemas**: Recalling or inferring the structure of the `Course` and `Enrol` tables to identify which table contains the `Year` attribute.
+4. **Logical Condition (Join)**: Evaluating the equality constraint `Course.CourseNo = Enrol.CourseNo` to filter the Cartesian product.
+5. **Logical Condition (Filter)**: Evaluating the selection constraint `Year = 2018`.
+6. **Data Processing/Counting**: Holding the intermediate result of filtered rows in memory to produce a final count.
+7. **Procedural Execution**: Executing the conceptual order of operations (From -> Where -> Select).
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

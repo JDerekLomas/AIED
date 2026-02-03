@@ -1,0 +1,16 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (CK) definition.
+2. Definition recall: Third Normal Form (3NF) conditions.
+3. Definition recall: Boyce-Codd Normal Form (BCNF) conditions.
+4. Definition recall: Prime vs. Non-prime attribute distinction.
+5. Procedure: Attribute closure algorithm to find all CKs.
+6. Logical evaluation: Determining CKs for relation R (Calculating {AB}+ and {BC}+ to find {AB, BC}).
+7. Logical evaluation: Testing FD "AB → CD" against BCNF/3NF rules (LHS is superkey).
+8. Logical evaluation: Testing FD "C → A" against BCNF rules (LHS is not a superkey).
+9. Logical evaluation: Testing FD "C → A" against 3NF rules (RHS "A" is a prime attribute).
+10. Constraint satisfaction: Synthesizing evaluations to select the correct combination (3NF=Yes, BCNF=No).
+
+ELEMENT COUNT: 10
+
+Your estimate:
+0.55

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the scope of the SQL `GRANT` command (DCL).
+2. Distinguishing between schema-level objects (relations/tables) and data-level objects (tuples/rows).
+3. Understanding that column-level (attribute) privileges are supported in standard SQL, even if less commonly used in introductory labs.
+4. Recognizing that standard SQL does not provide a mechanism to grant privileges on individual tuples via the `GRANT` statement (requiring Views or RLS instead).
+5. Interpreting "None of the above" in the context of a "cannot be" question (negative logic).
+6. Reading and interpreting a schema-based terminology (attribute vs. tuple vs. relation).
+
+COUNT: 6
+
+0.55

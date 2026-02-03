@@ -1,0 +1,14 @@
+As a university instructor, I have evaluated this question based on its cognitive load for an undergraduate cohort with mixed prior exposure.
+
+**ELEMENTS:**
+1.  **Syntax recognition:** Identifying the `SELECT`, `DISTINCT`, and `FROM` keywords and their specific roles in a query.
+2.  **Concept Recall (`DISTINCT`):** Remembering that `DISTINCT` eliminates duplicate values and treats nulls as a single category.
+3.  **Logical Deduction (Set Theory):** The cognitive act of scanning a column mentally (or visually), identifying unique values, and keeping a running tally of those already seen versus new ones.
+4.  **Database Mapping:** Mapping the conceptual query to the physical representation of the "Study" table to locate the specific "CourseNo" column.
+
+**ELEMENT COUNT:** 4
+
+This is a low-interactivity "retrieval and application" task. Most students, even those struggling with complex joins, usually grasp the concept of unique selection early in the semester. The main pitfall for South African undergrads in this context is often overthinking whether "CourseNo" refers to a Primary Key (which would be unique by default) or a Foreign Key.
+
+**Your estimate:**
+0.85

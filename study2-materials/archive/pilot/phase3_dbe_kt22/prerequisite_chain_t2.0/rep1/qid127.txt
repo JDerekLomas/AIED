@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Knowing how to interpret $X \to Y$ as $X$ determining $Y$.
+2. **Definition of a Candidate Key:** Knowing that a candidate key is a minimal set of attributes that functionally determines all attributes in the relation.
+3. **Knowledge of Transitivity:** Being able to chain $A \to B$ and $B \to C$ to conclude $A \to C$.
+4. **Candidate Key Identification (Computing Closures):** Systematically finding all keys $( \{A\}^+ = \{A,B,C\}, \{B\}^+ = \{A,B,C\}, \{C\}^+ = \{A,B,C\} )$.
+5. **Definition of a Prime Attribute:** Knowing that an attribute is prime if and only if it is part of *at least one* candidate key.
+6. **Logical Synthesis:** Concluding that since $A, B,$ and $C$ are each individual candidate keys, they are all prime.
+7. **Vocabulary/Translation:** Not confusing "prime attribute" with "Primary Key" (where there is usually only one chosen key).
+
+COUNT: 7
+
+0.65

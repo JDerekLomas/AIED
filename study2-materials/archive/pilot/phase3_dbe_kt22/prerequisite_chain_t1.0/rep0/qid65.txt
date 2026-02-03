@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Knowledge of SQL `CREATE TABLE` syntax, specifically the requirement for commas to separate column definitions.
+2. Ability to distinguish between the semicolon as a statement terminator (end of command) and its incorrect use as a column delimiter (Option A).
+3. Recognition of the mapping between abstract data types (STRING) and SQL-specific data types (`VARCHAR`).
+4. Visual attention to detail to distinguish between the comma and semicolon at the end of the entire statement (Option B vs. Option C).
+5. Understanding that in standard SQL execution environments, a trailing semicolon is the formal terminator for a complete statement.
+6. Ability to identify that Option B ends in a comma, which is a syntax error in all SQL dialects.
+
+COUNT: 6
+
+0.65

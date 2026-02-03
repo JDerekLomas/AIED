@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Knowledge of the formal definition of a functional dependency (FD), specifically the $A \to B$ notation.
+2. Understanding the specific definition of a "trivial" FD (where the right-hand side is a subset of the left-hand side, $Y \subseteq X$).
+3. Ability to perform set membership/subset evaluation on strings of attributes (recognizing that $Z$ is contained within $\{X, Y, Z\}$).
+4. Distinguishing between a "trivial" FD and a "complete" or "transitive" dependency (avoiding the common misconception that "trivial" means "simple" or "one-to-one").
+5. Ability to eliminate distractors where the right-hand side contains new information (like $X \to YZ$) or where the LHS is a subset of the RHS (the inverse of the rule).
+
+COUNT: 5
+
+0.72

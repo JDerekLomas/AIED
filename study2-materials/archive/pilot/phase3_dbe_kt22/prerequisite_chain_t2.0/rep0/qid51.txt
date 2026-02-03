@@ -1,0 +1,10 @@
+PREREQUISITES: 
+- Recall of standard SQL character data types (CHAR, VARCHAR).
+- Familiarity with PostgreSQL-specific data types (noting that PostgreSQL uses TEXT or VARCHAR, but doesn't use 'String' as a keyword).
+- Ability to distinguish between programming language primitives (where 'String' is common, e.g., Java, Python, C#) and SQL implementation keywords.
+- Awareness of specialized SQL types (BIT) to avoid incorrectly selecting option D as the "unusual" one.
+- Eliminating common synonyms: understanding that while a column stores a string, the keyword is not necessarily "String".
+
+COUNT: 5
+
+0.65

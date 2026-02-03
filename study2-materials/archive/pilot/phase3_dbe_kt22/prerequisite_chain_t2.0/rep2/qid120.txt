@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the formal definition of equivalence between two sets of functional dependencies (each set must cover the other).
+2. Understanding the concept of a "closure" of a set of functional dependencies ($Σ^+$).
+3. Ability to apply Armstrong’s Axioms or the attribute closure algorithm ($X^+$).
+4. Recognizing that to prove equivalence, one must check if $\Sigma_2$ satisfies all dependencies in $\Sigma_1$ AND vice versa.
+5. Ability to compute the closure of $\{A\}$ under $\Sigma_1$ to see if it implies $A \to C$.
+6. Multi-step reasoning: Recognizing that $A \to B$ is in both sets, so the focus is solely on $AB \to C$ vs $A \to C$.
+7. Applying the Augmentation rule: Realizing that if $A \to C$ exists, then $AB \to C$ must also exist (making $\Sigma_2 \implies \Sigma_1$).
+8. Applying Transitivity: Realizing that if $A \to B$ and $AB \to C$, then $A \to C$ (making $\Sigma_1 \implies \Sigma_2$).
+9. Distinguishing between a "minimal cover" and equivalent sets (not getting distracted by the fact that $\Sigma_2$ looks "simpler").
+
+COUNT: 9
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Filtering out noise/distractors**: The student must ignore approximately 90% of the prompt (about classes, equipment, technicians, and associate members) and isolate only the specific details related to the "trainer" and "speciality" relationship.
+2. **Cardinality Identification**: Identifying the specific phrase "Each trainer has one or more specialities" as the defining constraint for the data structure.
+3. **Knowledge of Multi-valued Attributes**: Understanding the formal definition of a multi-valued attribute in ER modeling (an attribute that can have more than one value for a specific entity instance).
+4. **Distinguishing Attribute from Entity**: Recognizing that "speciality" is described only as a label/name with no internal attributes of its own, suggesting it is a property of a trainer rather than an independent object (Entity).
+5. **Evaluating Weak Entity vs. Multi-valued Attribute**: Understanding the nuances of ER design patterns where a simple list of strings is typically represented as a multi-valued attribute rather than a weak entity unless it has its own unique attributes or relationship participation.
+6. **Eliminating the "Attribute" Trap**: Differentiating between a standard (single-valued) attribute and a multi-valued one; a student who identifies "speciality" as an attribute but fails to account for the "one or more" constraint will incorrectly favor a general attribute model.
+7. **Mapping Conceptual Logic to MCQs**: Correlating the mental ER model to the specific terminology used in the options (distinguishing "entity" vs "entity type").
+
+COUNT: 7
+
+0.55

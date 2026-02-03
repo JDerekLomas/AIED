@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Recalling the ACID properties (Atomicity, Consistency, Isolation, Durability) by name.
+2. Understanding the specific function of a "Transaction Manager" vs. other components (like the Lock Manager or Integrity Manager).
+3. Understanding the mechanism of "Logging" (Write-Ahead Logging) and its role in recovery.
+4. Distinguishing between properties maintained via concurrency control (Isolation) and those maintained via recovery/logs (Atomicity and Durability).
+5. Identifying "Integrity" (or Consistency) as a property typically maintained by the programmer or constraints, not primarily through the transaction log.
+6. Eliminating distractors that combine a logging-related property with a locking-related property.
+
+COUNT: 6
+
+0.55

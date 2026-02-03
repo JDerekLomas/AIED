@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowing the definition of a functional dependency (FD) and how to compute the closure of an attribute set.
+2. Understanding the definition of a "Superkey" (a set of attributes that functionally determines all attributes in the relation).
+3. Understanding the definition of a "Candidate Key" (a minimal superkey).
+4. Ability to identify all candidate keys in a relation given a set of FDs (recognizing the cycle $A \to B \to C \to A$ implies $\{A\}^+ = \{A, B, C\}$, $\{B\}^+ = \{A, B, C\}$, and $\{C\}^+ = \{A, B, C\}$).
+5. Knowing the definition of a "Prime Attribute" (an attribute that is part of *at least one* candidate key).
+6. Multi-step reasoning: Synthesizing the discovered candidate keys ($K_1=\{A\}, K_2=\{B\}, K_3=\{C\}$) to conclude that every attribute in the schema belongs to at least one candidate key.
+7. Distinguishing between a "Primary Key" (usually singular) and "Candidate Keys" (multiple possible keys), as students often think only the designated primary key counts toward primality.
+
+COUNT: 7
+
+0.65

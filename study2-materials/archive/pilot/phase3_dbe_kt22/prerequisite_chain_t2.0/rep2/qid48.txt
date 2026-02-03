@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Candidate Key: Understanding that $\{a, b\}$ is a minimal set of attributes that uniquely identifies a tuple.
+2. Definition of a Superkey: Understanding that a superkey is any set of attributes that includes a candidate key (the "superset" property).
+3. Functional Dependency Inference: Recognizing that if $\{a, b\} \to R$, then any superset (e.g., $\{a, b, c\}$) also functionally determines $R$.
+4. Distinguishing Minimality: Knowing that while $\{a, b, c\}$ is a superkey, it cannot be a candidate key because a proper subset $\{a, b\}$ is already a candidate key (ruling out A).
+5. Understanding Key Components: Realizing that a proper subset of a candidate key (e.g., $\{a\}$) does not necessarily have the uniqueness property (ruling out C).
+6. Notation Literacy: Reading and interpreting the set notation $\{a, b\}$ and relation schema $R(a, b, c)$ correctly.
+
+COUNT: 6
+
+0.70

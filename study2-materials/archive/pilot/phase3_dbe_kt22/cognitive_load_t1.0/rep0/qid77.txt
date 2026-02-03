@@ -1,0 +1,18 @@
+To evaluate this question, we must consider the cognitive load required to process the relational algebra logic, the specific SQL operator, and the mental execution of the set difference.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT` statement and the specific behavior of the `EXCEPT` operator (set difference).
+2.  **Table Schema/Structure:** Identifying that both subqueries reference the same table (`Study`) and the same attribute (`CourseNo`).
+3.  **Logical Filtering (Subquery 1):** Mentally isolating or identifying the set of `CourseNo` values associated with `StudentID=102`.
+4.  **Logical Filtering (Subquery 2):** Mentally isolating or identifying the set of `CourseNo` values associated with `StudentID=103`.
+5.  **Set Difference Logic:** Applying the rule that `EXCEPT` returns distinct values from the first set that do not appear in the second set.
+6.  **Distinct Constraint:** Recalling that `EXCEPT` (unlike `EXCEPT ALL`) implicitly performs a `DISTINCT` operation on the result set.
+7.  **Cardinality Calculation:** Final count of the remaining unique elements to match against the multiple-choice options.
+
+**ELEMENT COUNT: 7**
+
+**RATIONALE:** 
+While the syntax is simple, the "Element Interactivity" is high because a student cannot solve the problem by looking at elements in isolation. They must hold the results of the first query in memory while evaluating the second, then perform the subtraction. In a South African undergraduate context, students often struggle with the distinction between `EXCEPT` and `JOIN`, or forget that `EXCEPT` removes duplicates. Given the wide range of abilities, those with minimal prior exposure often confuse the operation with a simple `WHERE` clause exclusion.
+
+**Your estimate:**
+0.62

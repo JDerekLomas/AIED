@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Vocabulary Literacy**: Understanding the term "not correct" (identifying the false statement rather than the true one).
+2. **Security Concept (Injection Mechanism)**: Knowing that SQL injection relies on unsanitized user input being concatenated into query strings.
+3. **Security Concept (Privilege Escalation)**: Understanding that an injection attack executes with the permissions of the application’s database user/service account.
+4. **Security Concept (Mitigation Strategies)**: Recognizing that while the "Principle of Least Privilege" limits damage, it does not *prevent* the injection vulnerability itself (which requires parameterized queries/prepared statements).
+5. **Distinguishing Mitigation vs. Prevention**: Realizing that removing *all* privileges (as implied in C) would render the application non-functional, and removing *some* privileges is a risk-reduction measure, not a preventive one for the vulnerability.
+6. **Logical Evaluation of "None of the above"**: Evaluating if any of the preceding statements are false before selecting or discarding the catch-all option.
+
+COUNT: 6
+
+0.65

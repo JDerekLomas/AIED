@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading and interpreting relational schema notation (R={A,B,C}) and functional dependencies (Σ).
+2. Understanding the definition of a decomposition into sub-relations (R1, R2).
+3. Recalling and applying the Lossless Join test for a decomposition into two relations: checking if $R1 \cap R2$ is a superkey for either $R1$ or $R2$.
+4. Computing a attribute closure (B+) relative to Σ to determine if B is a key for R2 {B, C}.
+5. Recalling and applying the Dependency Preservation test: checking if all original dependencies ($A \to B$ and $B \to C$) are contained within the union of the functional dependencies applicable to the individual projections ($F_1 \cup F_2$).
+6. Identifying that $A \to B$ is local to R1 and $B \to C$ is local to R2.
+7. Evaluating multiple logical conditions simultaneously to select the correct combination from a multiple-choice list.
+
+COUNT: 7
+
+0.65

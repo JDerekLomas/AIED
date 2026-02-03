@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Identifying the schema: Reading and interpreting the two tables (Course and Enrol) and their data content.
+2. Understanding the JOIN condition: Recognizing that the tables are linked via the CourseNo column.
+3. Distinguishing Outer Joins: Knowing the specific behavior of a LEFT JOIN versus an INNER JOIN.
+4. Identifying "Preserved" rows: Recognizing that all rows from the Course table (the left table) must appear in the result, regardless of matches in Enrol.
+5. Identifying "Matched" rows: Counting the number of matching entries in the Enrol table for each Course record.
+6. Handling non-matches: Understanding that courses with no enrollments will still generate one row in the result (with NULLs for the Enrol columns).
+7. Cardinality reasoning: Accounting for the "one-to-many" relationship where one Course record may be duplicated in the result if it matches multiple Enrol records.
+8. Accurate summation: Performing the final count of the resulting rows without making a calculation error.
+
+COUNT: 8
+
+0.55

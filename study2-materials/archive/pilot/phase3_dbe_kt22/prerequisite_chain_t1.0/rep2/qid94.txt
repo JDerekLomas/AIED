@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Definition of an Entity Type**: Understanding that an entity type represents a "thing" or "object" in the real world that is distinguishable from other objects and has independent existence in the context of the system.
+2. **Distinguishing Entities from Attributes**: Recognizing that properties like "Status type" (which has only three fixed values: new, working, broken) are better modeled as attributes or domain constraints rather than independent entities.
+3. **Distinguishing Entities from Constraints**: Identifying that "Time slot" in this specific narrative is described as a unique property used to identify/constrain classes (a candidate key or attribute) rather than an object with its own properties.
+4. **Generalization/Specialization (Supertypes)**: Recognizing that "Employee" is a valid entity type (a supertype) even though the text focuses on its subtypes (trainers, administrators, technicians), as it possesses common attributes (Name, Address, Unique ID).
+5. **Relationship vs. Entity**: Evaluating whether a "Report of each maintenance event" is an entity or a relationship; while it could be an associative entity, "Employee" (Option C) is a more fundamental and clear-cut entity type within standard ER modeling pedagogy.
+6. **Reading Comprehension (Schema Mapping)**: Extracting relevant nouns from a dense narrative and mapping them to formal database constructs.
+7. **Negative Filtering**: Systematically ruling out distractors that represent attributes or metadata rather than the core subjects of the database.
+
+COUNT: 7
+
+0.65

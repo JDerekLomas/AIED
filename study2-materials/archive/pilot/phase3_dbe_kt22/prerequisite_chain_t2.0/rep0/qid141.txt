@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recalling the formal definition of Third Normal Form (3NF).
+2. Recalling the formal definition of Boyce-Codd Normal Form (BCNF).
+3. Understanding the hierarchical relationship between normal forms (nesting/superset-subset structure).
+4. Distinguishing between the direction of implication (logical "if-then") versus historical/numerical order.
+5. Interpreting logical notation (e.g., recognizing that "Must be in" implies a subset relationship).
+6. Recognizing that BCNF is a stricter refinement of 3NF (every BCNF violation is a 3NF violation, but not vice versa).
+7. Rejecting the common misconception that higher normal forms are mutually exclusive with lower ones (i.e., understanding that if a table is in 4NF, it is also in 1, 2, 3, and BCNF).
+
+COUNT: 7
+
+0.65

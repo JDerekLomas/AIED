@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the `SELECT *` syntax (result returns all columns).
+2. Understanding Table Aliasing (`Enrol e`, `Course c`) and dot notation (`e.CourseNo`).
+3. Reading and interpreting a relational schema diagram or sample data (implied).
+4. Understanding the `IN` operator logic (set membership).
+5. Understanding the mechanics of a Subquery (inner query executes first).
+6. Filtering logic: applying a `WHERE` clause condition to find specific records in the `Course` table.
+7. Identifying the Join Key: mapping `CourseNo` from the `Course` result set to the `Enrol` table.
+8. Distinguishing between rows in the 'filtering' table vs. rows in the 'source' table (avoiding the common mistake of choosing the count of courses instead of the count of enrolments).
+9. Counting accuracy: scanning the `Enrol` table data correctly based on the matches found.
+
+COUNT: 9
+
+0.65

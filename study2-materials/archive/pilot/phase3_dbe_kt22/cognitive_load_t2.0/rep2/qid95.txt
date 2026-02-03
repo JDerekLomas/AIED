@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. **Definition recall**: Distinguishing between an 'Entity' (a thing/object) and an 'Attribute' (a property of that thing).
+2. **Text parsing/Filtering**: Navigating a dense paragraph of requirements to isolate specific data points.
+3. **Cardinality & Relationships**: Evaluating if a concept has its own properties (e.g., Associate members having names and numbers) which indicates it is an Entity, not an Attribute.
+4. **Contextual Evaluation (Option A)**: Determining that 'Associate member' is a weak entity related to 'Member' because it has its own attributes (name, number).
+5. **Contextual Evaluation (Option B)**: Identifying 'Employee ID' as a specific property used to identify the 'Employee' entity.
+6. **Contextual Evaluation (Option C)**: Recognizing 'Fitness class' as an entity with multiple attributes (name, start date, end date).
+7. **Contextual Evaluation (Option D)**: Identifying 'Fitness centre' as the system boundary or root entity rather than a property of another record.
+8. **Synthesizing Constraint Information**: Processing the "multiple associate members" and "one or more" rules to distinguish between multi-valued attributes and separate entities.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.65

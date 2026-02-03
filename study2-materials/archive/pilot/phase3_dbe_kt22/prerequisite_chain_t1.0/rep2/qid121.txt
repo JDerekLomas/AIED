@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Definition of a Minimal Cover: Knowing that a minimal cover must be equivalent to the original set (Σ1 ≡ Σ2).
+2. Logical Entailment (Σ1 ⊨ Σ2): Checking if A → B and B → C can be derived from {A → B, AB → C}.
+3. Transitivity reasoning: Recognizing that AB → C is weaker than A → C, making it impossible to derive B → C from Σ1.
+4. Logical Entailment (Σ2 ⊨ Σ1): Checking if A → B and AB → C can be derived from {A → B, B → C}.
+5. Attribute Closure Algorithm: Correctly computing A+ and B+ under different sets of functional dependencies.
+6. Definition of Minimality (Irredundancy): Knowing that a minimal cover must have no redundant FDs and no extraneous attributes.
+7. Distinguishing Equivalence from Minimality: Realizing that even if Σ2 were equivalent, it must satisfy all three conditions (canonical form, no extraneous attributes, no redundant dependencies) to be a "minimal cover."
+8. Handling Composite Keys: Understanding that in Σ1, AB → C contains an extraneous attribute (A) because A → B is present, which affects the comparison.
+
+COUNT: 8
+
+0.35

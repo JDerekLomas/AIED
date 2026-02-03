@@ -1,0 +1,10 @@
+ELEMENTS:
+1. Definition recall of transaction isolation phenomena (Anomalies).
+2. Distinction between "Unrepeatable read" (modifying existing rows) and "Phantom read" (inserting new rows).
+3. Logical mapping of the specific scenario (inserting new rows) to the correct technical term.
+4. Filtering out "Dirty read" (uncommitted data) and "Lost update" (write-write conflict) as irrelevant to the read-only scenario described.
+
+ELEMENT COUNT: 4
+
+Your estimate:
+0.65

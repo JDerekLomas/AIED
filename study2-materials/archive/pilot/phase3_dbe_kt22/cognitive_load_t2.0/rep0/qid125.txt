@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall definition of a Candidate Key (CK): Uniqueness and minimality.
+2. Definition of an attribute closure ($X^+$).
+3. Logical procedure to compute closure of A ($A \to B \implies \{A,B\}$; then $AB \to C \implies \{A,B,C\}$).
+4. Evaluate closure result against schema R: Since $\{A,B,C\} = R$, A is a superkey.
+5. Apply minimality constraint: Since A is a single attribute, it is automatically minimal.
+6. Search for other potential keys: Testing B (fails) and C (fails).
+7. Synthesis of findings: Compare identified CKs against the statement "A is the *only* CK".
+
+ELEMENT_COUNT: 7
+
+Your estimate:
+0.65

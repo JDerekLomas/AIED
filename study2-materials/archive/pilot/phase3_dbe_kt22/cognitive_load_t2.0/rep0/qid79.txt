@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **SQL Syntax Recall**: Understanding that `SELECT *` retrieves all columns but the row count depends on the join logic.
+2. **Join Logic (INNER JOIN)**: Understanding that an inner join only includes rows where the join condition matches in both tables.
+3. **Primary/Foreign Key Relationship**: Recognizing `CourseNo` as the linking attribute between the `Course` and `Enrol` tables.
+4. **Information Retrieval (Table Data)**: Mentally accessing or visually scanning the (implied) provided table instances for `Course` and `Enrol`.
+5. **Set Cardinality Evaluation**: Identifying which records in the `Enrol` table have valid matches in the `Course` table (typically the number of rows in the junction/transaction table, provided referential integrity is maintained).
+6. **Constraint Satisfaction**: Filtering out any rows in either table that do not have a corresponding match.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.72

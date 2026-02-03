@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Filtering Noise**: Ability to identify that most of the provided paragraph (equipment, technicians, classes, administrators) is irrelevant to the specific question about "speciality" and "trainer".
+2. **Entity vs. Attribute Distinction**: Understanding the fundamental difference between an object (Entity) and a property of that object (Attribute) in ER modeling.
+3. **Cardinality of Attributes**: Recognizing the keyword "one or more" in the phrase "Each trainer has one or more specialities" as a requirement for a multi-valued property.
+4. **Knowledge of Multi-valued Attributes**: Knowing that standard ER notation (and specifically the options provided) allows for attributes to hold multiple values for a single entity instance.
+5. **Weak Entity Definition**: Understanding that a weak entity requires a relationship and a partial key; being able to distinguish why a simple list of strings ("weight gain", "strength") is better modeled as a multi-valued attribute rather than a full weak entity (which would require its own attributes or a specific identifying relationship not implied here).
+6. **Comparison of Options**: Evaluating which model is "best" (most parsimonious) for a simple list of descriptors vs. a complex object.
+7. **SQL/Implementation Bias Control**: Overcoming the tendency (for those with prior coding/SQL experience) to think in terms of "normalization" or "link tables," which might lead them to wrongly choose an Entity-based approach (A or D) instead of the conceptual ER approach (C).
+
+COUNT: 7
+
+0.55

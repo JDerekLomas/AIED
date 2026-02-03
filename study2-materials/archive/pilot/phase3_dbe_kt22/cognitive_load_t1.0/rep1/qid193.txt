@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Ownership rules (Implicitly, Linda has all privileges and the right to grant/revoke).
+2. `GRANT` syntax and semantics (Effect of granting privileges to Amy and Peter).
+3. `WITH GRANT OPTION` (Understanding that Amy now has the power to grant privileges to others).
+4. Privilege Dependency Graph (Tracking that Peter received the privilege from two distinct sources: Linda and Amy).
+5. `REVOKE ... CASCADE` semantics (Understanding that revoking from Amy also removes any privileges Amy granted).
+6. Privilege Independence (Recognizing that Peter’s privilege from Linda remains valid even if his privilege from Amy is revoked).
+7. Working memory of the state after each of the 3 discrete steps.
+8. Distinguishing between the specific privileges of the two different actors (Amy vs. Peter) in the final state.
+
+ELEMENT_COUNT: 8
+
+Your estimate:
+0.55

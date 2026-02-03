@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Candidate Key Identification**: Identifying that $\{A, B\}$ and $\{B, C\}$ are the candidate keys of $R$ by calculating attribute closures ($AB^+ = \{A, B, C, D\}$ and $BC^+ = \{B, C, A, D\}$).
+2. **Prime Attribute Recognition**: Identifying that $\{A, B, C\}$ are prime attributes (members of at least one candidate key) and $\{D\}$ is non-prime.
+3. **Definition of BCNF**: Knowing that for every functional dependency $X \to Y$, $X$ must be a superkey. 
+4. **Application of BCNF**: Testing $BC \to A$ (where $BC$ is a key) vs. $AB \to CD$ (where $AB$ is a key). Wait—specifically recognizing if any dependency violates this (e.g., if a determinant is not a superkey).
+5. **Definition of 3NF**: Knowing that for $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+6. **Application of 3NF**: Testing the specific dependency $AB \to CD$. Since $AB$ is a superkey, it satisfies 3NF. Testing $BC \to A$. Since $BC$ is a superkey, it satisfies 3NF.
+7. **Schema Analysis (Attributes vs. Dependencies)**: Correcty mapping the set $\Sigma$ to the relation $R$ without misreading the letters.
+8. **Logical Synthesis**: Combining the results of the 3NF and BCNF tests to choose the correct categorical option (A).
+
+COUNT: 8
+
+0.55

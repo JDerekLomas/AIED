@@ -1,0 +1,10 @@
+ELEMENTS:
+1. Definition recall: The specific permissions associated with an "Exclusive (X) lock" in the context of concurrency control.
+2. Conceptual distinction: Differentiating between "Shared (S) locks" (read-only) and "Exclusive (X) locks" (read and write).
+3. Logical mapping: Understanding that a "write" operation in database theory implicitly requires and encompasses the ability to "read" the data being modified.
+4. Distinction between similar concepts: Recognizing that "Update" (Option D) is a specific type of write operation, whereas "Read and write" (Option C) describes the full scope of the lock's capability.
+
+ELEMENT COUNT: 4
+
+Your estimate:
+0.72

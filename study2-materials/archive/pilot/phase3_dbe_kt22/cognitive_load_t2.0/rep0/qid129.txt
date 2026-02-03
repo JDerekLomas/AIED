@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. Recall definition of a Candidate Key (CK): must be a superkey and minimal.
+2. Recall definition of an attribute closure ($X^+$).
+3. Compute the closure of $\{A\}$ using functional dependencies (FDs) $\Sigma$: $\{A\} \to \{A, B, C, D\}$.
+4. Identify $\{A\}$ as a valid Candidate Key.
+5. Identify potential alternative keys by looking at the RHS of FDs (specifically the role of $CD$ and $B$).
+6. Evaluate the second FD: $\{CD\} \to \{A, B\}$.
+7. Compute the closure of $\{CD\}$: $\{CD\} \to \{C, D, A, B\}$.
+8. Compare $\{CD\}$ and $\{A\}$ to the definition of "only" in the prompt.
+9. Distinguish between a Primary Key (often singular) and Candidate Keys (multiple possible).
+
+ELEMENT COUNT: 9
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying the join type (LEFT JOIN) and distinguishing it from an INNER JOIN.
+2. Understanding the "Direction" of the join: knowing that `Course` is the left table and `Enrol` is the right table.
+3. Reading and interpreting the schema/instance data (assuming a provided table image or description) to count rows in the `Course` table.
+4. Applying the rule for Left Outer Joins: recognizing that every row in the left table appears at least once in the result.
+5. Handling cardinality: identifying if a single course has multiple enrollments (one-to-many) which would increase the row count beyond the number of courses.
+6. Handling nulls: identifying if a course has zero enrollments, which still results in a row (with NULLs) rather than being filtered out.
+7. Basic arithmetic: summing the matches and non-matches correctly.
+
+COUNT: 7
+
+0.55

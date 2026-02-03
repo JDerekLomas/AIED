@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Schema inference**: Recognizing that course-student relationship data (enrolments) would be stored in an `Enrol` table rather than a `Student` table.
+2. **Filtering logic**: Identifying that the `WHERE` clause is the correct mechanism for temporal filtering (Year = 2019) before aggregation.
+3. **Aggregation syntax**: Understanding the required dependency between the `SELECT` list and the `GROUP BY` clause (matching non-aggregated columns).
+4. **Relational logic**: Distinguishing between the entity being counted (students) and the grouping bucket (CourseNo) to produce a "per course" count.
+5. **SQL keyword sequence**: Recognizing the correct structural order of clauses (SELECT -> FROM -> WHERE -> GROUP BY).
+
+COUNT: 5
+
+0.65

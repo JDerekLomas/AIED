@@ -1,0 +1,16 @@
+To provide an accurate estimate, I must assume a standard context where a **schema and data (a table instance)** are provided alongside this question. Without seeing the specific table provided to the students, a student cannot derive a numerical answer. Assuming a typical textbook table for "Study" is visible to the student:
+
+**PREREQUISITES:**
+1. **Schema Interpretation**: Identifying the table named `Study` and the column named `Name` within the provided diagram or text.
+2. **Keyword Semantics (SELECT/FROM)**: Understanding that these keywords instruct the engine to look at rows within the specified table.
+3. **Filtering Logic (WHERE)**: Understanding that only rows satisfying the condition are included in the result set.
+4. **String Equality**: Knowing that `'Tom'` is a literal value and must be matched exactly against the data in the `Name` column.
+5. **Set Counting**: Ability to manually count the number of matching instances (0, 1, 2, or 3) from the provided dataset without making a "fatigue" or "skipping" error.
+6. **Understanding Query Output**: Recognizing that the question asks for the number of *rows* (cardinality), not the content of the rows.
+7. **Distinguishing "All" vs "Matches"**: Understanding that `SELECT *` retrieves all columns but does not affect the count of rows determined by the `WHERE` clause.
+
+**COUNT: 7**
+
+In a South African undergraduate context, this is a foundational "Level 1" (Bloom’s Taxonomy: Remember/Understand) question. Failure points usually occur due to language barriers (misreading the prompt) or simple counting oversight rather than conceptual complexity.
+
+0.85

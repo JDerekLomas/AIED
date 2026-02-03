@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Vocabulary knowledge: Understanding the technical definition of "transaction" in a database context.
+2. Conceptual distinction: Distinguishing between a change to *existing* data (Unrepeatable Read) vs. the addition of *new* data (Phantom Read).
+3. Keyword association: Connecting the "insertion of new rows" specifically to the term "Phantom".
+4. Negative exclusion: Knowing that "Dirty Read" refers to uncommitted data and "Lost Update" refers to concurrent writes, not subsequent reads.
+5. Reading comprehension: Correctly identifying that the scenario involves a second read within the same transaction scope.
+
+COUNT: 5
+
+Your estimate:
+0.65

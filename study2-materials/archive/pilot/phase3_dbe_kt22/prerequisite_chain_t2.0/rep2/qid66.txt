@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding Schema Notation**: Identifying that `{StudentID, CourseNo, Semester}` represents a composite primary key consisting of three distinct attributes.
+2. **Definition of Entity Integrity**: Knowing the formal rule that no component of a primary key may accept a null value.
+3. **Applying Constraints to Composite Keys**: Recognizing that the constraint applies to *every individual member* of the set, not just the set as a whole or a majority of the members.
+4. **Distinguishing Constraints**: Differentiating between "Entity Integrity" (Primary Keys) and "Referential Integrity" (Foreign Keys).
+5. **Technical Vocabulary/Logic**: Correcting the logical distinction between "at least one" (partial nulls allowed) and "none" (no nulls allowed) in the context of SQL and relational theory.
+6. **English Proficiency**: Parsing the phrasing of the options, particularly the double negative in "None... can be null."
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a functional dependency (FD) as a relationship between sets of attributes.
+2. Knowing the specific definition of a "trivial" functional dependency (a dependency $A \to B$ is trivial if and only if $B \subseteq A$).
+3. Applying set theory notation to attributes (understanding that $XYZ$ represents the union of sets $\{X, Y, Z\}$).
+4. Evaluating Option A: Identifying that $\{X, Y, Z\}$ is not a subset of $\{X, Y\}$ (distinguishing between the "superset" being on the right vs. the left).
+5. Evaluating Option C: Identifying that $\{Z\}$ is a subset of $\{X, Y, Z\}$.
+6. Distinguishing "trivial" from "multi-valued" or "partial" dependencies (avoiding terminological confusion common in intro courses).
+
+COUNT: 6
+
+0.65

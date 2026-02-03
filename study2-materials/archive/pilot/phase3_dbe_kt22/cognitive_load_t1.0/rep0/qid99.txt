@@ -1,0 +1,17 @@
+As a university instructor, I have evaluated the element interactivity of this problem based on the cognitive load required to parse the narrative and map it to the correct structural concept.
+
+**ELEMENTS:**
+1.  **Distinction between Superclass and Subclass:** Recognizing the hierarchical "is-a" relationship (Generalization/Specialization) within the context of ER modeling.
+2.  **Definition of Entity vs. Attribute:** Distinguishing between an object/concept and its properties (e.g., ID, Name).
+3.  **Entity-Relationship Mapping:** Distinguishing between a category of being (Technician) and a link between objects (Maintenance).
+4.  **Schema Filtering (Information Sifting):** The ability to ignore significant "noise" or irrelevant constraints (time slots, equipment status, maintenance dates) to focus specifically on the employee classification.
+5.  **Classification Logic:** Identifying the 1:1 mutually exclusive or overlapping nature of the categories "trainers," "administrators," and "technicians" relative to the "employee" base.
+6.  **Definition of Domain:** Recalling that a domain refers to a set of valid values for an attribute, not a structural relationship.
+
+**ELEMENT COUNT:** 6
+
+**ESTIMATE:**
+The element interactivity is actually relatively low compared to the length of the text. Because the question asks for the "best model" for a specific, clearly defined subset of the prompt ("employee" vs "sub-types"), students who can scan for keywords will find this easier than those who try to map the entire schema first. However, South African undergraduate cohorts often struggle with "word problem" comprehension in English if it is their second or third language, leading to a higher cognitive load during the filtering phase.
+
+Your estimate:
+0.72

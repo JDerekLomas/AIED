@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall of Candidate Key (CK) and Superkey.
+2. Procedure: Computing closures for attribute sets (e.g., $A^+$, $(BC)^+$, $B^+$, $C^+$).
+3. Identification of Prime vs. Non-prime attributes ($A, B, C$ are all prime).
+4. Definition recall of 3NF (Checking if LHS is a superkey OR RHS is a prime attribute).
+5. Definition recall of BCNF (Checking if LHS is a superkey for every dependency).
+6. Logical evaluation: Testing $A \rightarrow BC$ against BCNF/3NF criteria.
+7. Logical evaluation: Testing $BC \rightarrow A$ against BCNF/3NF criteria.
+8. Distinction between overlapping candidate keys (the "hidden" keys/dependencies logic).
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.55

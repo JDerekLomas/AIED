@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Filtering Distractors**: The ability to isolate the specific sentence regarding members and fitness classes ("A member may choose to participate in one or more fitness classes") while ignoring irrelevant details about administrators, equipment, and technicians.
+2. **Identifying Participation (Member side)**: Recognizing that "a member may choose to participate in one or more fitness classes" implies a "Many" (N) connectivity for the member entity.
+3. **Identifying Participation (Class side)**: Recognizing that "each fitness class is attended by one or more members" implies a "Many" (N) connectivity for the fitness class entity.
+4. **Knowledge of Cardinality Definitions**: Understanding that when both sides have a "one or more" (or "many") relationship, the resulting ratio is N:N (Many-to-Many).
+5. **Understanding Logical Connectives**: Correctly interpreting the "and" in the sentence describing participation to ensure it applies to the specific relationship in question.
+6. **Schema Abstraction**: Translating the natural language narrative into a conceptual ER model relationship without being distracted by the "Personal Trainer" relationship (a different link for members) or "Instructed by" (trainer/class link).
+
+COUNT: 6
+
+0.65

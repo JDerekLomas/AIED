@@ -1,0 +1,13 @@
+To accurately answer this question, a student must correctly navigate the following dependencies:
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Instance:** The student must correctly identify the "Study" table and locate the "CourseNo" column within it.
+2.  **SQL Keyword Semantics (SELECT):** Understanding that the query targets data within a specific column.
+3.  **SQL Keyword Semantics (DISTINCT):** Understanding that duplicate values in the result set must be collapsed into a single instance.
+4.  **Data Processing (Scanning):** Accurately counting the unique entries in the "CourseNo" column without making a clerical error (e.g., overlooking a row or miscounting).
+5.  **Distinguishing Value from Type:** Understanding that the question asks for the number of *rows in the result*, not the number of columns or the number of rows in the source table.
+6.  **Eliminating "Noise" (Logical Filtering):** Ignoring other columns in the table that might contain different counts of unique values.
+
+**COUNT: 6**
+
+0.82

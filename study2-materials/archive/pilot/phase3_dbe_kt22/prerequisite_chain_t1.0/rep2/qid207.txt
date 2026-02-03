@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of the ACID properties (Atomicity, Consistency, Isolation, Durability).
+2. Distinguishing between the roles of different database components (Transaction Manager/Recovery Manager vs. Concurrency Control Manager).
+3. Knowing the specific mechanism of "Logging" (Write-Ahead Logging) and its purpose in system recovery.
+4. Identifying that "Atomicity" requires logging to perform undos (rollbacks) of incomplete transactions.
+5. Identifying that "Durability" requires logging to perform redos of committed transactions after a crash.
+6. Recognizing that "Isolation" is primarily handled by locking/multiversioning (Concurrency Control), not primarily by the log.
+7. Recognizing that "Integrity" (Consistency) is a result of the other properties and application logic, not a direct mechanical output of the transaction log.
+8. Eliminating distractors that pair a logging-dependent property with a non-logging-dependent property.
+
+COUNT: 8
+
+0.65

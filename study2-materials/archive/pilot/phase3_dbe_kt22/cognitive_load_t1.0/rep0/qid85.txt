@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding `SELECT *`, `WHERE`, and the `IN` operator.
+2. Subquery Processing: Evaluating the inner query (`Course`) before the outer query (`Enrol`).
+3. Relational Mapping: Identifying the foreign key relationship between `Enrol.CourseNo` and `Course.CourseNo`.
+4. Logical Filtering: Matching the specific string constant 'Relational Databases' to the `CourseName` attribute.
+5. Join/Link Logic: Mentally connecting a single row in the `Course` table to multiple potential rows in the `Enrol` table (1:M relationship).
+6. Quantitative Reasoning: Holding the count of matching rows in memory while evaluating the provided multiple-choice options.
+7. Data Context (Implicit): Understanding that while the schema is provided, the actual result depends on the underlying dataset (which, for this type of question, is typically provided in a diagram or table snippet not shown in the prompt but implied for a "number of rows" question).
+
+ELEMENT_COUNT: 7
+
+0.65

@@ -1,0 +1,16 @@
+As an instructor, I evaluate this question as having relatively low element interactivity because it primarily tests **definitional recognition** rather than the application of rules to a complex scenario (like writing a join query or normalization).
+
+**ELEMENTS:**
+1.  **Definition Recall (DAC):** Remembering that Discretionary Access Control is centered on "ownership" rather than centralized policy (MAC) or roles (RBAC).
+2.  **Concept Distinction:** Distinguishing between the role of a Database Administrator (DBA) versus a private Object Owner in the context of DAC.
+3.  **Logical Evaluation (Statement A):** Assessing the validity of the "no owner" constraint (which contradicts the DAC principle that everything is created/owned by someone).
+4.  **Logical Evaluation (Statement B/C):** Evaluating the power of the DBA versus the discretionary power of the individual owner.
+5.  **Logical Evaluation (Statement D):** Identifying the core mechanism of DAC—that ownership grants the right to manage privileges.
+
+**ELEMENT COUNT:** 5
+
+**Estimated proportion answering correctly:**
+The difficulty here for South African undergraduates often lies in the nuanced difference between Option C and D. Students often assume the DBA has "god-mode" over all privileges (a common misconception in practical settings like MySQL), whereas formal DAC theory emphasizes the owner's discretion. Stronger students will identify the keyword "owner" in Option D.
+
+Your estimate:
+0.72

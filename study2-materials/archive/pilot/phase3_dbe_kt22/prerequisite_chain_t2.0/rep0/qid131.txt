@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency (FD) Notation**: Knowing that A→B means A determines B.
+2. **Lossless Join Condition (Heath's Theorem)**: Knowing that for a decomposition (R1, R2) to be lossless, the intersection (R1 ∩ R2) must be a superkey for either R1 or R2.
+3. **Superkey Identification**: Ability to determine that A is a key for R1 {A, B} based on the FD A→B.
+4. **Dependency Preservation Definition**: Knowing that the union of the FDs that hold on the individual projections (Σ1 ∪ Σ2) must be equivalent to the original set Σ.
+5. **FD Projection**: Correcting identifying which FDs from Σ apply to R1 (A→B) and R2 (A→C).
+6. **Closing a set of FDs**: Recognizing that while B→C is lost in the projection, the combination of A→B and A→C still allows A to reach C, but verifying if B→C can be derived specifically from the projected sets (A→B and A→C).
+7. **Testing Membership**: Reasoning that B→C cannot be derived from {A→B, A→C} because B's closure under the projected sets is just {B}.
+8. **Synthesizing conclusions**: Correcting identifying that one property holds while the other does not.
+
+COUNT: 8
+
+0.45

@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Reading Comprehension & Information Filtering**: The ability to isolate the specific sentence "A member may choose to participate in one or more fitness classes" from a dense paragraph containing irrelevant details about technicians, equipment, and administrators.
+2. **Knowledge of ER Terminology (Participation Constraints)**: Understanding the formal definition of "Partial" (an entity instance can exist without being in the relationship) versus "Total" (every instance must be in the relationship).
+3. **Keyword Mapping**: Mapping the natural language phrase "may choose to" or "optional" to the concept of a Partial constraint (as opposed to "must," which indicates Total).
+4. **Distinguishing Cardinality from Participation**: Ensuring the student does not confuse "one or more" (cardinality) with the requirement to participate (participation).
+5. **Schema Interpretation (Mental Modeling)**: Correcting for the bias that in a real gym, members usually attend classes; the student must strictly follow the provided business rules rather than real-world assumptions.
+6. **Focus under Load**: Maintaining focus on the "Member" entity's role in the "Participate" relationship specifically, rather than the "Fitness Class" role (which is Total).
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Knowing that a CK must be both a superkey (derive all attributes) and minimal (no subset is a superkey).
+2. Closure Algorithm: Ability to compute the attribute closure $\{AB\}^+$ using the given functional dependencies.
+3. Functional Dependency Application: Correctly applying $A \to B$ and $AB \to C$ to determine that $\{AB\}^+ = \{A, B, C\}$.
+4. Superkey Verification: Recognizing that because $\{AB\}^+$ contains all attributes $\{A, B, C\}$, $AB$ is a superkey.
+5. Minimality Check: Testing subsets of $AB$ (specifically $\{A\}$ and $\{B\}$) to see if they are also superkeys.
+6. Identifying a "Smaller" Superkey: Computing $\{A\}^+$. Since $A \to B$, then $\{A\}^+ = \{A, B\}$. This does not contain $C$, so $A$ is not a superkey.
+7. Distinguishing CK from Superkey: Not stopping at the "superkey" step; students often forget to check if a single attribute already determines the rest.
+8. Handling Redundancy in FDs: Recognizing that while $AB \to C$ is given, $A \to B$ makes the $B$ in $AB \to C$ potentially "partially" dependent, or more simply, checking if $A$ alone covers the relation.
+
+COUNT: 8
+
+0.65

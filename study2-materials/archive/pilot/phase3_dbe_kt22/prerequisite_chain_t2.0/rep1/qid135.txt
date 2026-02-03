@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Candidate Key Identification**: Correct calculation of closures (A+ and {B,C}+) to determine that {A} and {BC} are both candidate keys.
+2. **Prime Attribute Classification**: Distinguishing between prime (A, B, C) and non-prime attributes.
+3. **Formal Definition of 3NF**: Knowing that 3NF allows $X \rightarrow Y$ if $X$ is a superkey OR $Y$ is prime.
+4. **Formal Definition of BCNF**: Knowing that BCNF strictly requires $X$ to be a superkey for every non-trivial functional dependency.
+5. **Logic Application (BCNF)**: Checking if {B,C} is a superkey for the dependency $BC \rightarrow A$ (it is).
+6. **Logic Application (3NF)**: Understanding that because all attributes in the relation {A, B, C} are part of at least one candidate key (A or {B,C}), there are no non-prime attributes, automatically satisfying 3NF.
+7. **Distinguishing Subsets**: Avoiding the common error of assuming B and C are separate keys; they must act together as a composite key.
+8. **Relational Comparison**: Recalling the hierarchy that all BCNF relations are in 3NF, but not vice-versa, to validate the chosen answer.
+
+COUNT: 8
+
+0.55

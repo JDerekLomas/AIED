@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Terminology Knowledge**: Understanding the acronym "SK" stands for Super Key.
+2. **Concept Distinction**: Distinguishing between a Super Key (any set that determines all attributes) and a Candidate Key (a minimal super key), and knowing that a Candidate Key is also a Super Key.
+3. **Closure Algorithm Proficiency**: Knowing how to compute the attribute closure of a set (specifically $D^+$).
+4. **Step-by-step Execution**: Correct application of the transitivity rule ($D \rightarrow ABC$, $A \rightarrow B$, $B \rightarrow C$) to determine if all attributes $\{A, B, C, D\}$ are in the closure.
+5. **Logic Mapping**: Identifying that if the closure $D^+$ includes all attributes in $R$, the statement "D is a SK" is True.
+6. **Schema Comprehension**: Correctly identifying the universal set $R$ to verify if the closure is complete.
+
+COUNT: 6
+
+0.65

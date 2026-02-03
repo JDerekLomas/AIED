@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of a database view as a virtual table.
+2. Recall of the specific rule regarding authorization and privilege propagation (granting/revoking).
+3. Distinguishing between ownership of a base table versus ownership of a view.
+4. Evaluating the "always" constraint in Option A (negated by views that are read-only or lack base table permissions).
+5. Evaluating the "always" constraint in Option B (negated by the requirement that a view must be updatable by its definition, such as lacking joins or aggregations).
+6. Logical distinction between "all privileges" and "subset of privileges" based on the underlying schema permissions.
+7. Identifying the nuance of "not necessarily" as the correct legal state in SQL standards.
+
+ELEMENT COUNT: 7
+
+0.40

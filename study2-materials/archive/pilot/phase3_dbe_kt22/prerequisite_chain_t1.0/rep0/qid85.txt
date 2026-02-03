@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Ability to read and interpret a relational schema (identifying primary and foreign keys between Enrol and Course).
+2. Understanding the concept of a subquery (nested SELECT).
+3. Understanding the evaluation order of a subquery (inner query executes first).
+4. Correct interpretation of the SQL IN operator (set membership).
+5. Understanding the SELECT * wildcard (though not critical for the count, it must not confuse the student into counting columns instead of rows).
+6. Ability to perform a manual join/lookup by matching values across two different tables.
+7. Identifying the specific filtering criteria (CourseName = ‘Relational Databases’) and correctly mapping it to a CourseNo.
+8. Accurately counting the occurrences of that specific CourseNo in the Enrol table without skipping rows.
+9. Distinguishing between the number of courses (which might be 1) and the number of enrollments (the actual answer).
+
+COUNT: 9
+
+0.65

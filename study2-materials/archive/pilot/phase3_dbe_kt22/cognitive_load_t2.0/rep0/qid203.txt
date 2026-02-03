@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall: The conceptual definition of an "Exclusive (X) Lock".
+2. Logic evaluation: Distinguishing the compatibility of "exclusive" access vs. "shared" access.
+3. Functional mapping: Mapping the "exclusive" property to the permission of performing data modification (Write/Update).
+4. Procedural prerequisite: Recalling that any data modification (Write) logically necessitates the ability to Read the data being modified.
+5. Distinction of terminology: Differentiating between "Write" (a general operation) and "Update" (a specific subset) to identify the most comprehensive answer (C).
+
+ELEMENT_COUNT: 5
+
+Your estimate:
+0.82

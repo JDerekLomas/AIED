@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the syntax of Functional Dependencies (FDs) and identifying the left-hand side (LHS) vs. right-hand side (RHS).
+2. Knowing the definition of "Attribute Closure" (the set of all attributes functionally determined by a specific set).
+3. Applying Reflexivity (Armstrong's Axiom): recognizing that an attribute always determines itself (A $\in$ A⁺).
+4. Applying Transitivity: correctly chaining A $\to$ B and B $\to$ C to include C in the closure.
+5. Evaluating multi-attribute dependencies: determining if the LHS of D $\to$ ABC is satisfied by the current set {A, B, C}.
+6. Distinguishing between a partial closure and the total closure (avoiding stopping at "AB").
+7. Reading a schema set R to ensure no attributes outside the set are included.
+
+COUNT: 7
+
+Your estimate:
+0.72

@@ -1,0 +1,16 @@
+To provide an accurate list of prerequisites, I have assumed the presence of an accompanying **schema diagram or table instance** (which is implied by a multiple-choice question with specific numerical answers).
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Identifying that the table is named `Study` and the column is named `Name`.
+2.  **SELECT * Understanding:** Knowing that this retrieves full rows and does not collapse or aggregate the data.
+3.  **WHERE Clause Mechanics:** Understanding that the clause acts as a filter, excluding rows that do not meet the criteria.
+4.  **Literal String Matching:** Understanding that `'Tom'` is a string literal and must match the data values exactly (case sensitivity/spelling).
+5.  **Relational Counting:** Mapping the set of matching records to a scalar count of rows.
+6.  **Null Awareness:** Realizing that a row where the Name is NULL or a similar but different string (e.g., 'Thomas' or 'tom') would result in a logical FALSE.
+7.  **Data Scanning:** The mechanical ability to scan a provided table instance and count occurrences without oversight.
+
+**COUNT: 7**
+
+In a diverse South African undergraduate context, many students struggle initially with the distinction between the data in the table and the query syntax itself, or may miscount if the table instance is medium-sized.
+
+0.78

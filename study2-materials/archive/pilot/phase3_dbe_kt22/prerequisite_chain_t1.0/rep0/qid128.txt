@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as a minimal superkey.
+2. Ability to compute the closure of an attribute set ($X^+$) using Armstrong's Axioms or the closure algorithm.
+3. Identifying "essential" attributes: recognizing that if an attribute (C) does not appear on the right-hand side of any functional dependency in $\Sigma$, it *must* be part of every candidate key.
+4. Distinguishing between a Primary Key and a Candidate Key.
+5. Multi-step logical reasoning: testing if $C$ alone is a key, or if $C$ combined with other attributes forms the key.
+6. Reading and interpreting formal functional dependency notation ($\Sigma=\{...\}$).
+7. Identifying "extraneous" attributes within a closure (e.g., realizing $B \to D$ is redundant because $B \to AD$ implies $B \to D$, though not strictly necessary for this specific question, it's a potential point of confusion).
+
+COUNT: 7
+
+0.65

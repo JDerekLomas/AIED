@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Natural Language Processing**: Ability to parse a dense paragraph and extract specific details while ignoring "distractor" information (e.g., equipment status, landline numbers, associate members).
+2. **Entity-Relationship Modeling Definitions**: Knowing the technical definition of "participation constraint" (Total vs. Partial).
+3. **Total Participation Semantics**: Understanding that "Total Participation" means every instance of an entity set *must* be involved in at least one instance of the relationship.
+4. **Keyword Extraction**: Identifying the specific sentence "Each fitness class is ... instructed by only one trainer" as the definitive rule for this constraint.
+5. **Mapping Business Rules to Constraints**: Correctly concluding that if *every* class is instructed by a trainer, no class exists without a trainer, thus making the participation "Total."
+6. **Logical Independence**: Distinguishing the participation of the "Class" entity from the "Trainer" entity (since the prompt mentions some trainers do not deliver classes, which is a common point of confusion for students who might mistakenly pick "Partial" based on the trainers).
+
+COUNT: 6
+
+0.65

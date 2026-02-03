@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Entity-Attribute-Relationship Distinction**: Understanding the conceptual difference between a "thing" (entity) and a "property" of a thing (attribute).
+2. **Reading and Parsing Textual Requirements**: Ability to filter through a dense narrative to identify specific data elements.
+3. **Identifying Primary Keys**: Recognizing that a "unique ID" is a classic descriptor for an attribute used as an identifier for an entity (Employee).
+4. **Distinguishing Entities from Attributes**: Identifying that "Associate member" (has a name and number), "Fitness class" (has dates and times), and "Fitness centre" (the context/system itself) are complex objects/entities rather than simple properties.
+5. **Multivalued Attribute Knowledge**: Recognizing that "Specialities" or "Landline" are attributes, helping calibrate what qualifies as an attribute in this specific schema context.
+6. **Constraint Recognition**: Distinguishing between business rules (e.g., "start date must be before end date") and the structural components of the model.
+
+COUNT: 6
+
+0.72

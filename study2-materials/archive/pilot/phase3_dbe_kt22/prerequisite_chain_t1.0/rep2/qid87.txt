@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Schema Interpretation**: Identifying that the `Enrol` table (rather than `Student`) is the correct source for mapping courses to student enrollments.
+2. **Filtering Logic**: Understanding the `WHERE` clause function to restrict data to the year 2019.
+3. **Grouping Logic**: Understanding that `GROUP BY` must match the non-aggregated column in the `SELECT` list (`CourseNo`) to produce a count per course.
+4. **Aggregate Function Application**: Knowing that `COUNT(*)` counts rows within the defined groups.
+5. **Syntax Validation**: Recognizing the standard structure of a SQL aggregate query (SELECT-FROM-WHERE-GROUP BY).
+6. **Distinguishing Primary/Foreign Keys**: Recognizing that grouping by `StudentID` would count enrollments per student rather than students per course.
+
+COUNT: 6
+
+0.65

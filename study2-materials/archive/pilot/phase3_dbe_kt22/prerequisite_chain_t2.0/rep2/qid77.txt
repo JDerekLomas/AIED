@@ -1,0 +1,14 @@
+To provide an accurate estimate for this question, we must first assume the presence of a sample table (e.g., a "Study" table) that was likely provided in the context of the exam paper, as the calculation of a specific row count (4, 3, 2, or 1) is impossible without data. Assuming a standard relational algebra practice schema is provided:
+
+**PREREQUISITES:**
+1.  **Reading Schema/Instance Data:** Ability to correctly scan a table and filter rows manually based on specific values (e.g., identifying which rows have `StudentID` 102 vs 103).
+2.  **SQL Projection (`SELECT`):** Understanding that the result set will consist specifically of `CourseNo` values, not entire rows.
+3.  **Set Difference Semantics (`EXCEPT`):** Knowing that `EXCEPT` returns records from the first query that are not present in the second query.
+4.  **Set De-duplication (Implicit `DISTINCT`):** Understanding that `EXCEPT` (like `UNION` and `INTERSECT` in standard SQL) performs an implicit duplicate removal. If `StudentID` 102 is enrolled in the same course twice (e.g., different semesters) and it's not in 103's list, it counts as only one row in the result.
+5.  **Relational Comparison:** Comparing two lists of values and accurately identifying the "difference" without making a simple arithmetic error (e.g., subtracting counts instead of performing a set operation).
+6.  **Syntactic Mapping:** Mapping the conceptual "Set Difference" to the specific keyword `EXCEPT`.
+
+**COUNT:** 6
+
+**Your estimate:**
+0.65

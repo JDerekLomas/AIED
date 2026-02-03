@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Reading Comprehension (Filtering Noise):** The ability to parse a long narrative description and ignore irrelevant business rules (e.g., "maintenance twice a year") to focus on structural components.
+2. **Concept Distinguishing (Entity vs. Attribute):** Understanding that an *Entity* is a "thing" (often a noun with its own properties) while an *Attribute* is a characteristic or property of that thing.
+3. **Cardinality & Complexity Analysis:** Recognising that "Associate member" and "Fitness class" represent complex objects with multiple properties (names, numbers, dates) and relationships, disqualifying them as simple attributes.
+4. **Keyword Association:** Identifying that "unique ID" in the text directly corresponds to the definition of a primary key attribute.
+5. **Contextual Scope:** Recognizing that "Fitness centre" represents the system boundary or the database itself in this context, rather than a field within a table.
+6. **SQL/Schema Logic:** Knowing that in a relational model, an ID is the atomic data stored within a column.
+
+COUNT: 6
+
+0.72

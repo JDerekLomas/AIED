@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Reading Comprehension (English)**: Accurately parsing a dense text description to map out relationships between entities.
+2. **Concept of an Entity vs. Attribute**: Distinguishing between a standalone object (like a Piece of Equipment) and its properties (like "Status").
+3. **Weak Entity Definition**: Knowing that a weak entity cannot be uniquely identified by its own attributes and requires a relationship with a "strong" owner entity via a partial key (discriminator).
+4. **Distinguishing Multi-valued Attributes**: Recognizing that a trainer having "one or more specialities" typically suggests a multi-valued attribute rather than an entity with its own independent identity, depending on design choices.
+5. **Analyzing Class Identity**: Identifying that the "Fitness class" has a unique time slot (and likely a name/date), implying it could function as a strong entity despite being dependent on participants.
+6. **Analyzing "Associate Member"**: Identifying the parent-child relationship where an associate is identified by a sequence (1, 2, ...) dependent on the primary member (the owner), fitting the textbook definition of a weak entity.
+7. **Disqualification of Equipment Status**: Recognizing that a status type is a constraint/domain value or attribute, not an entity type in this context.
+8. **Negative Selection/Exclusion**: Evaluating four options against the constraints and identifying why B and D are less suitable "textbook" examples of weak entities compared to C.
+
+COUNT: 8
+
+0.62

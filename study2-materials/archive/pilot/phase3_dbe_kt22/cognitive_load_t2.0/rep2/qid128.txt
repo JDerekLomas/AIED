@@ -1,0 +1,12 @@
+ELEMENTS: 
+1. **Definition recall**: The formal definition of a Candidate Key (CK) (uniqueness and minimality).
+2. **Definition recall**: The definition of a "Prime Attribute" vs. an attribute that must be part of every key (those not appearing on any RHS of a Functional Dependency).
+3. **Set Union/Analysis**: Examining all attributes in the schema $R \{A, B, C, D\}$.
+4. **Structural Analysis (LHS/RHS scan)**: Checking if attribute $C$ appears on the Right-Hand Side (RHS) of any dependency in $\Sigma$.
+5. **Logic/Inference**: Recognizing that if an attribute is in $R$ but never on the RHS of any FD, it must be part of every CK.
+6. **SQL/Theory Mapping**: Distinguishing between general attributes and functionally determined attributes within the closure algorithm.
+7. **Attribute Closure Procedure (Implicit or Explicit)**: Calculating $\{C\}^+$ to verify if it is sufficient or what else is needed to form a key.
+
+ELEMENT COUNT: 7
+
+0.65

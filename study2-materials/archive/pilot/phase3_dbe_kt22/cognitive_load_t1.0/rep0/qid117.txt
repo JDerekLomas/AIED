@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of logical entailment ($\Sigma_1 \models \Sigma_2$): Understanding that every dependency in $\Sigma_2$ must be derivable from $\Sigma_1$.
+2. Attribute Closure procedure: Knowing how to calculate $X^+$ under a set of functional dependencies.
+3. Transitivity rule: Recalling that if $A \to B$ and $B \to C$, then $A \to C$.
+4. Evaluation of $A \to C$ in $\Sigma_1$: Checking if $C \in A^+$ using $\Sigma_1$.
+5. Evaluation of $B \to C$ in $\Sigma_1$: Checking if $C \in B^+$ using $\Sigma_1$.
+6. Logical conjunction: Recognizing that both dependencies in $\Sigma_2$ must hold for the statement to be true.
+7. Set differentiation: Maintaining the distinction between the "source" set ($\Sigma_1$) and the "target" set ($\Sigma_2$) without swapping them.
+
+ELEMENT COUNT: 7
+
+0.65

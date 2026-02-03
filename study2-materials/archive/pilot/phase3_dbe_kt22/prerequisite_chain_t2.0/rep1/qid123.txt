@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) (must be both a superkey and minimal).
+2. Understanding the "Closure of an Attribute" algorithm (A+).
+3. Applying functional dependencies (FDs) to find a closure: computing {A}+ = {A, B, C}.
+4. Recognizing that A is a superkey because its closure contains all attributes in R.
+5. Testing for minimality (a trivial step for a single attribute, but still a conceptual check).
+6. Distinguishing between a Prime Attribute and a Candidate Key.
+7. Identifying the role of the FD {AB → C} and determining if B is redundant given A → B (logical reasoning/transitivity).
+8. Reading the formal notation of the schema R and the set of functional dependencies Σ.
+
+COUNT: 8
+
+0.65

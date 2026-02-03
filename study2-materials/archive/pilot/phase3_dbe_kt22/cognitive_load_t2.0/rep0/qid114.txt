@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Recall of the definition of a Super Key (SK) versus a Candidate Key.
+2. Understanding of functional dependency (FD) notation ($X \to Y$).
+3. Concept of the transitive property in functional dependencies (Closure algorithm).
+4. Procedural step: Computing the attribute closure of $\{D\}$ ($D^+$).
+5. Evaluation of condition: Checking if $\{D\}$ derives $\{A, B, C\}$ (logic check against $\Sigma$).
+6. Evaluation of condition: Checking if $\{D\}$ derives all attributes in $R$ (completeness check).
+7. Recognition of the Distinction: Differentiating between a prime attribute and a key.
+
+ELEMENT COUNT: 7
+
+Based on the variability of the student cohort, many will struggle with the procedural rigor required (forgetting to include $D$ itself in the closure or failing to follow the transitive chain $D \to A \to B \to C$).
+
+Your estimate:
+0.65

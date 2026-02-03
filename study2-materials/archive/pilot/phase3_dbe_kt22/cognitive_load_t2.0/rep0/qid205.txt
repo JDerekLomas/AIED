@@ -1,0 +1,10 @@
+ELEMENTS: 
+1. Recall of Transaction Isolation Levels (definitions).
+2. Distinguishing between the concept of "row data modification" (Unrepeatable read) vs. "new row insertion" (Phantom read).
+3. Analyzing the specific condition provided: "new rows" + "inserted" + "since prior read."
+4. Recognizing the exclusion of "Dirty read" (reading uncommitted data) and "Lost Update" (concurrent write conflict).
+5. Mapping the logical scenario to the specific technical terminology.
+
+ELEMENT_COUNT: 5
+
+0.65

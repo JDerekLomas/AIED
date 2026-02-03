@@ -1,0 +1,17 @@
+To provide an accurate assessment, I am assuming a standard (albeit small) sample table `Study` where the `units` column contains values such as `{6, 4, NULL, 12}` or similar, common in South African introductory CS textbooks like those by Connolly & Begg. 
+
+Based on the options provided, the table likely contains 4 rows, but one entry in the `units` column is `NULL`, or there are multiple values where 3 is the minimum but 4 rows exist.
+
+**PREREQUISITES:**
+1. **Understanding the `COUNT(column)` function:** Specifically, knowing that `COUNT(column_name)` ignores `NULL` values, whereas `COUNT(*)` counts all rows.
+2. **Understanding the `MIN()` function:** Identifying the smallest numerical value in a set.
+3. **Reading and mapping Schema/State:** Ability to look at a provided table instance and correctly tally/compare values without skip-counting errors.
+4. **SQL Syntax execution order:** Recognizing that both aggregate functions are applied to the entire result set since there is no `GROUP BY`.
+5. **Differentiating similar options:** Not swapping the order of results (maintaining the `COUNT, MIN` sequence as defined in the `SELECT` clause).
+6. **Handling Nulls in Aggregates:** Recognizing that `MIN` ignores `NULL` but `COUNT(units)` depends on whether that specific column has nulls.
+
+**COUNT: 6**
+
+Given the typical profile of undergraduate CS students in South Africa—where many are transitioning from procedural programming to declarative logic—the most common failure point is the nuanced difference between `COUNT(*)` and `COUNT(column)` regarding `NULL` values.
+
+0.65

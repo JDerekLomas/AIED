@@ -1,0 +1,13 @@
+To provide an accurate estimate, I am assuming the students are provided with a standard schema diagram or sample tables (e.g., a **Course** table with 4 rows and an **Enrol** table with 8 rows, where one course has no enrollments). Without the data, the question is unsolvable; with typical textbook data for this specific problem, the prerequisites are as follows:
+
+PREREQUISITES:
+1. **Reading a Schema/Table State:** Ability to count the total number of records in the "Left" table (Course) and the "Right" table (Enrol).
+2. **Understanding Join Logic (LEFT JOIN):** Distinguishing a Left Outer Join from an Inner Join (recognizing that all rows from the left table must appear at least once).
+3. **Cardinality Mapping (1:N):** Understanding that for every matching row in the right table, a new row is generated in the result set (8 rows for the matches).
+4. **Handling Non-Matches (NULLs):** Recognizing that a row in the left table with *no* match in the right table still contributes exactly 1 row to the result (the "orphaned" course).
+5. **Basic Arithmetic/Summation:** Adding the matching rows (8) to the non-matching rows (1) to reach the total (9) — or in the case of this specific multiple-choice set, identifying the logic that leads to a value higher than the right table's count.
+6. **SQL Syntax Fluency:** Correcting identifying which table is "Left" based on its position relative to the keyword.
+
+COUNT: 6
+
+0.55

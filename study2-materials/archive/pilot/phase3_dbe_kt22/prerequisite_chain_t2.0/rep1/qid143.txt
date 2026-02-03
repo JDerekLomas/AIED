@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Term Recognition**: Understanding the notation $R$ (Relation) and $\Sigma$ (Set of Functional Dependencies).
+2. **Normal Form Definitions**: Distinguishing between the specific requirements and guarantees of 3NF versus BCNF.
+3. **Losslessness Concept**: Understanding the requirement that a decomposition must allow the original relation to be reconstructed via joins.
+4. **Dependency Preservation**: Knowing the definition of dependency preservation (the union of dependencies in sub-schemas must imply all original dependencies).
+5. **BCNF Limitations**: Recalling the "Trade-off Theorem" or specific counter-examples where BCNF can be lossless but NOT dependency-preserving.
+6. **3NF Synthesis Algorithm**: Recalling that the standard algorithm (using a Minimal Cover) guarantees both losslessness and dependency preservation.
+7. **Uniqueness Counter-intuition**: Recognizing that because multiple Minimal Covers can exist and decomposition steps can be taken in different orders, decompositions (for both 3NF and BCNF) are generally NOT unique.
+8. **Distinguishing "Always" vs. "There exists"**: Identifying that Options A and B fail due to the word "unique," while C and D focus on the existence of a specific property-guaranteeing algorithm.
+
+COUNT: 8
+
+0.55

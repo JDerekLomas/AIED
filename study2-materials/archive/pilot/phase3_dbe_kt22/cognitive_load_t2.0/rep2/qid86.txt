@@ -1,0 +1,17 @@
+To evaluate this question for undergraduate students, we must consider the specific cognitive load imposed by nested logical structures.
+
+**ELEMENTS:**
+1.  **SQL Keyword Recall:** Understanding `SELECT *` (retrieving all columns).
+2.  **Schema Identification:** Determining the column count of the `Course` table (from the provided schema, not visible in the snippet but required to answer).
+3.  **Table Aliasing:** Mapping `c` to `Course` and `e` to `Enrol`.
+4.  **Join Logic (Correlation):** Identifying that the inner query links to the outer query via `CourseNo`.
+5.  **Predicate Logic (`NOT EXISTS`):** Understanding the "anti-semi-join" (the query looks for rows in `Course` with *no* matching record in `Enrol`).
+6.  **Data Filtering:** Iterating through specific data rows to evaluate which records satisfy the `NOT EXISTS` condition.
+7.  **Shape Calculus:** Tracking both a count of rows and a count of columns simultaneously to select the final coordinate pair.
+
+**ELEMENT COUNT: 7**
+
+This question has high element interactivity. Students must hold the schema structure, the logic of the nested query, and the specific row values in their head at the same time. Many students will struggle with the "Anti-Join" concept of `NOT EXISTS`, often confusing it with a standard `INNER JOIN`. In the South African context, where student backgrounds vary, those who struggle with abstraction often fail to properly track the row count, even if they understand the SQL syntax.
+
+Your estimate:
+0.55

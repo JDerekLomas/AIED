@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the ACID properties (specifically distinguishing Atomicity, Consistency, and Isolation).
+2. Understanding the technical definition of "correctness" in the context of database concurrency control (as opposed to general data integrity).
+3. Distinguishing between a property of a single transaction (Atomicity/Consistency) and a property of an execution schedule (Serializability).
+4. Recognizing "Serializability" as the formal criterion that ensures a concurrent schedule is equivalent to a serial one.
+5. Overcoming the "All of the above" distractor, which is tempting because all options are "good" database properties.
+6. Identifying that Consistency is a prerequisite for correctness but not the *criterion* for evaluating concurrent interleaving.
+
+COUNT: 6
+
+0.35

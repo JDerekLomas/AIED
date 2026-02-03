@@ -1,0 +1,11 @@
+PREREQUISITES: 
+- Knowledge of SQL transaction control language (TCL) keywords: BEGIN, COMMIT, and ROLLBACK.
+- Understanding the sequential nature of transaction execution: identifying that commands are processed in the order written.
+- Mastery of the "Atomicity" and "Durability" properties: specifically, that a COMMIT makes changes permanent in the database.
+- Recognizing the scope of ROLLBACK: understanding it only undoes uncommitted changes.
+- Identifying a "trap" in code logic: noticing that the ROLLBACK follows a COMMIT, which renders the ROLLBACK ineffective for the preceding operations.
+- Distinguishing between the dictionary definition of "Rollback" (to undo) and its functional behavior in an RDBMS context after a successful commit.
+
+COUNT: 6
+
+0.35

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of Data Control Language (DCL) syntax (distinguishing between GRANT and REVOKE).
+2. Understanding the "Cascading Revoke" concept (how revoking a privilege from one user affects those they granted it to).
+3. Distinguishing between the `RESTRICT` and `CASCADE` keywords in a SQL context.
+4. Logical reasoning to eliminate GRANT statements (A and C) as the question asks how to *avoid* a consequence of *revoking*.
+5. Recognizing that `RESTRICT` is the specific keyword used to prevent a command from executing if dependencies (like downstream privileges) exist.
+6. Identifying that "no cascade" and "no restrict" are syntactically invalid or non-standard in this context.
+
+COUNT: 6
+
+0.55

@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Reading comprehension: Ability to filter out "noise" (attributes like address, phone numbers, and irrelevant entities like equipment or technicians).
+2. Knowledge of Entity-Relationship (ER) terminology: Understanding the specific meaning of "cardinality ratio."
+3. Distinguishing Entity Types: Correctly identifying "Trainer" and "Fitness Class" as the relevant entities for this specific question.
+4. Information extraction (Direction 1): Locating the specific rule: "Each fitness class is... instructed by only one trainer."
+5. Mapping constraints to ratios (Direction 1): Translating "only one trainer" into a "1" on the trainer side of the relationship (from the perspective of the class).
+6. Information extraction (Direction 2): Locating the specific rule: "Not all trainers deliver fitness classes" and the implication that those who do can instruct multiple classes (contextual inference from a fitness center environment where instructors usually teach more than one session).
+7. Mapping constraints to ratios (Direction 2): Differentiating between "total/partial participation" and "cardinality," and identifying that one trainer can lead multiple classes (N).
+8. Syntax of Ratios: Correctly interpreting the 1:N notation (where 1 trainer maps to many classes).
+9. Avoiding "Common Sense" Bias: Not confusing "Personal Trainer" (which is a different relationship mentioned in the text) with the "Instructs Class" relationship.
+
+COUNT: 9
+
+0.65

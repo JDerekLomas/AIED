@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating Entities from Attributes:** Recognizing that a "unique ID" (D) is a property of an object (an attribute), not a primary entity in itself.
+2. **Differentiating Entities from Environment/Context:** Recognizing that the "fitness centre" (A) is the scope or the entire database system context, not a specific record-type stored within the system.
+3. **Multi-valued Attribute Identification:** Identifying that "Trainers' speciality" (C) is a descriptive property (attribute) of the Trainer entity, even if it can hold multiple values.
+4. **Relational Recognition:** Identifying that a "fitness class" (B) has its own independent attributes (name, start date, end date, time slot) and enters into relationships with other entities (Trainer, Member).
+5. **Entity Type Definition:** Applying the rule that an entity type is a "thing" or "object" about which the organization maintains data, having a distinct existence.
+6. **Filtering "Distractor" Information:** Ability to parse a dense narrative description (technical reading) to separate domain constraints (dates, phone numbers) from structural entity candidates.
+
+COUNT: 6
+
+0.65

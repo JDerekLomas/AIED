@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Syntax Recognition: Identifying the `FOREIGN KEY ... REFERENCES` clause within a `CREATE TABLE` statement.
+2. Concept Mapping: Knowing that a Foreign Key is the mechanism used to implement "referential integrity" (as asked in the prompt).
+3. Directionality of Reference: Understanding that the "child" table (Enrol) points to the "parent" table (Student), not vice versa.
+4. Constraint Logic: Understanding that a foreign key requires the value in the referencing table to exist in the referenced table (The "subset" rule).
+5. Distinguishing Constraints: Differentiating between a Primary Key/NOT NULL constraint (which handles nulls and uniqueness, options C and D) and a Referential Integrity constraint (which handles relationships, option A).
+6. Logical Exclusion: Recognizing that Option B describes a "completeness" or mandatory participation constraint (where every parent must have a child), which is not enforced by a standard FK declaration alone.
+
+COUNT: 6
+
+0.72

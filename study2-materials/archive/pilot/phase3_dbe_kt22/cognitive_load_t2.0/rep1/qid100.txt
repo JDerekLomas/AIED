@@ -1,0 +1,21 @@
+To evaluate this question from the perspective of Cognitive Load Theory, we must distinguish between "noise" (redundant information) and "interactivity" (elements that must be processed together to find the specific answer).
+
+The question presents a high volume of information, but the "Element Interactivity" for the specific task (finding the cardinality of member to fitness class) is moderate because a student must selectively filter the text to isolate two specific entities and their connective verbs.
+
+### ELEMENTS:
+1. **Concept Recall (Cardinality):** Definition of 1:1, 1:N, and N:N relationships.
+2. **Entity Identification (Member):** Locating "Member" in the text and its associated rules.
+3. **Entity Identification (Fitness Class):** Locating "Fitness Class" in the text and its rules.
+4. **Relationship Direction A (Member -> Class):** Evaluating the rule "A member may choose to participate in one or more fitness classes."
+5. **Relationship Direction B (Class -> Member):** Evaluating the rule "Each fitness class is attended by one or more members."
+6. **Integration/Synthesis:** Holding both Direction A (1..N) and Direction B (1..N) simultaneously to conclude N:N.
+7. **Inhibitory Control (Noise Filtering):** Distinguishing the member-class relationship from distracting relationships (Personal Trainer, Administrator, Associate Members) mentioned in the same paragraph.
+
+**ELEMENT COUNT: 7**
+
+### PEDAGOGICAL ASSESSMENT:
+At a South African university with a diverse student profile, this question tests "selective attention" as much as database knowledge. The specific sentences required to answer the question are clearly stated ("A member may... one or more", "Each fitness class... one or more"), which lowers the logical difficulty compared to questions where cardinality must be inferred from business constraints. However, the linguistic density often trips up students for whom English is an additional language or those with lower reading stamina.
+
+**Expected Success Rate:** Approximately 70%. The distractor "Associate Members" and "Personal Trainer" might pull some students away, but "one or more" on both sides is a strong, recognizable cue for N:N.
+
+0.70

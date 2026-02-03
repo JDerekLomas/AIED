@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of SQL syntax: Identifying the FROM clause with two tables separated by a comma.
+2. Understanding the Cartesian Product (Cross Join): Knowing that a comma in the FROM clause without a WHERE join condition results in every row of Table A being paired with every row of Table B.
+3. Reading a Schema/Instance: Ability to look at provided table data and correctly count the number of rows in the 'Course' table.
+4. Reading a Schema/Instance: Ability to look at provided table data and correctly count the number of rows in the 'Enrol' table.
+5. Mathematical operation: Knowing to multiply the row counts (RowsA × RowsB) rather than adding them (RowsA + RowsB) or taking the count of the larger table.
+6. Avoiding the "Natural Join" trap: Not assuming the database automatically joins on common columns (like CourseID) when no JOIN or WHERE clause is specified.
+
+COUNT: 6
+
+0.65

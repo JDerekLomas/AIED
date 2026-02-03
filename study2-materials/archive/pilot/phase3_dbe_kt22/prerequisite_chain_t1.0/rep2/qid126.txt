@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Knowing that a CK must be a superkey (determines all attributes) and must be minimal (no proper subset is a superkey).
+2. Understanding Functional Dependency (FD) notation: Interpreting $A \to B$ correctly.
+3. Transitive property reasoning: Computing the closure of an attribute (e.g., $A^+ = \{A, B, C\}$).
+4. Identifying multiple keys: Recognizing that in a "cycle" ($A \to B \to C \to A$), any element of the cycle can function as a key.
+5. Evaluating the word "only": Distinguishing between "A is a CK" (True) and "A is the *only* CK" (False).
+6. Exhaustive search: Checking attributes $B$ and $C$ to see if they also satisfy the CK criteria.
+
+COUNT: 6
+
+0.65

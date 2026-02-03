@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Super Key (SK) (a set of attributes that can functionally determine all attributes in the relation).
+2. Knowledge of Functional Dependency (FD) notation ($X \to Y$).
+3. Ability to compute the closure of an attribute set ($D^+$) based on a given set of dependencies ($\Sigma$).
+4. Applying Transitive Rules (If $D \to A$ and $A \to B$, then $D \to B$).
+5. Reading and interpreting a formal Relation schema $R$ to identify the full set of attributes needed for a key.
+6. Correct multi-step reasoning: checking if $D \to A, B, C$ combined with $D$ itself covers the set $\{A, B, C, D\}$.
+7. Distinguishing between a Super Key (any set that determines all) and a Candidate Key (a minimal super key). (While $D$ happens to be both, students often confuse the definitions).
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recalling the ACID properties acronym and what each letter represents (Atomicity, Consistency, Isolation, Durability).
+2. Distinguishing between the roles of different DBMS components (e.g., the Transaction Manager vs. the Lock Manager vs. the Recovery Manager).
+3. Understanding the functional purpose of a "log" (Write-Ahead Logging) as a persistent record of changes.
+4. Reasoning that because logs are stored on stable storage, they are primarily used to recover data after a crash (ensuring Durability).
+5. Reasoning that logs allow for "undoing" partial transactions during recovery (ensuring Atomicity).
+6. Distinguishing "Integrity/Consistency" as a property often enforced by constraints or application logic rather than the logging mechanism itself.
+7. Distinguishing "Isolation" as a property primarily managed by the Concurrency Control/Lock Manager rather than the log.
+
+COUNT: 7
+
+0.65

@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding the `GRANT`, `WITH GRANT OPTION`, and `REVOKE` command structure.
+2. Privilege Ownership: Identifying Linda as the source of authority (the owner).
+3. Authorization Graphs (Transitivity): Tracking the chain of privileges from Linda -> Amy -> Peter.
+4. The `CASCADE` Keyword: Knowing that revoking a privilege (or an option) "cascades" through the chain created by that specific grantor.
+5. Distinction between Privilege and Grant Option: Understanding that revoking the *option* to grant does not automatically revoke the *underlying privilege* itself unless specified or required by the dependency graph logic of the specific SQL dialect.
+6. State Tracking (Temporal logic): Maintaining the status of both users (Amy and Peter) across three distinct chronological steps.
+7. Evaluating Logical Outcomes: Mapping the final state of the database to the provided multiple-choice options.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.40

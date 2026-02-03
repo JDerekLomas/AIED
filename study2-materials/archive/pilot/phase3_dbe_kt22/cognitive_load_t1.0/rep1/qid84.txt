@@ -1,0 +1,13 @@
+ELEMENTS:
+1. **SQL Syntax Rules**: Recognizing the structure of a correlated subquery and the `EXISTS` predicate.
+2. **Table Relationships**: Understanding the Primary Key/Foreign Key link between `Course` and `Enrol` (CourseNo).
+3. **Definition Recall**: Remembering that `EXISTS` returns true if the subquery returns *at least* one row, regardless of how many matches exist.
+4. **Logical Evaluation**: Processing the correlation `c.CourseNo = e.CourseNo` for each candidate row in `Course`.
+5. **Set Distinction**: Distinguishing between the number of rows in the `Enrol` table versus the number of *distinct* courses that appear in the `Enrol` table.
+6. **Data Processing**: Mentally (or physically) cross-referencing the two tables to count unique occurrences of courses that have enrollments.
+
+ELEMENT_COUNT: 6
+
+ESTIMATE: Many students will mistakenly count the total number of rows in the `Enrol` table (thinking of a `JOIN`) or fail to account for duplicate CourseNos in the `Enrol` table. Given the varying background of South African undergraduate cohorts, the distinction between `JOIN` and `EXISTS` is a common stumbling block.
+
+0.55

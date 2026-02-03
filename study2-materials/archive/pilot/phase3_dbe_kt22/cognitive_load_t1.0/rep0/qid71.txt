@@ -1,0 +1,16 @@
+As an instructor, I would classify this question as having **low element interactivity**. It primarily tests the recognition of a specific keyword's functional impact on a single column.
+
+**ELEMENTS:**
+1.  **SQL Syntax Recognition**: Identifying `SELECT` and `FROM` as the structure for data retrieval.
+2.  **Keyword Definition (DISTINCT)**: Recalling that `DISTINCT` triggers a duplicate-elimination algorithm.
+3.  **Column Identification**: Locating the specific column (`CourseNo`) within the provided table.
+4.  **Logical Evaluation (Comparison)**: Scanning the data in the `CourseNo` column and comparing values to identify unique entries.
+5.  **Counting Procedure**: Incrementing a mental counter for each unique value found.
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+While there are five elements, they are processed mostly serially rather than simultaneously. For South African undergraduate students, the "difficulty" here often lies not in the logic, but in whether they have been introduced to the `DISTINCT` keyword yet. If they have seen it once, the cognitive load is very low. The estimate accounts for students who might confuse `DISTINCT` with `COUNT` or simply count all rows due to a lack of preparation.
+
+**Your estimate:**
+0.82

@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation (A→BC).
+2. Ability to determine the Candidate Key(s) of a relation from a set of FDs (recognizing A is the key).
+3. Defining "Prime Attribute" (A) vs. "Non-prime Attribute" (B, C).
+4. Recalling the 3NF definition (for every X→Y, X is a superkey OR Y is prime).
+5. Recalling the BCNF definition (for every X→Y, X is a superkey).
+6. Distinguishing the hierarchical relationship between 3NF and BCNF (BCNF is stricter).
+7. Identifying that A is a superkey, which satisfies both BCNF and 3NF conditions simultaneously.
+8. Eliminating distractors that suggest a relation could be BCNF but not 3NF (which is logically impossible).
+
+COUNT: 8
+
+0.65

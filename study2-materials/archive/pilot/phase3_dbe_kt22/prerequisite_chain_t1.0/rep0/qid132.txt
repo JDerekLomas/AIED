@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Recognizing that $A \to B$ means $A$ uniquely determines $B$.
+2. **Lossless Join Property Knowledge**: Knowing the rule that for a decomposition $(R1, R2)$ to be lossless, $R1 \cap R2$ must be a superkey for either $R1$ or $R2$.
+3. **Dependency Preservation Property Knowledge**: Knowing that the union of the projections of the FDs onto the decomposed schemas must be equivalent to the original set $\Sigma$.
+4. **Candidate Key Identification**: Correctlly identifying that in $R1=\{A, B\}$, $A$ is the key (because $A \to B$), and in $R2=\{B, C\}$, $B$ is the key (because $B \to C$).
+5. **Applying the Lossless Join Rule**: Identifying $R1 \cap R2 = \{B\}$, and checking if $B \to C$ or $B \to A$ holds. Since $B \to C$ is in $\Sigma$, it is lossless.
+6. **Projecting FDs for Dependency Preservation**: Identifying that $A \to B$ is preserved in $R1$ and $B \to C$ is preserved in $R2$. 
+7. **Testing the Indirect Dependency**: Applying Transitivity or the Closure algorithm to see if the missing FD ($A \to C$) can be derived from the preserved FDs ($A \to B$ and $B \to C$).
+8. **Logical Synthesis**: Combining the results of both tests to select the correct multiple-choice option.
+
+COUNT: 8
+
+0.55

@@ -1,0 +1,9 @@
+ELEMENTS:
+1. Definition recall: The ACID properties (Atomicity, Consistency, Isolation, Durability).
+2. Distinction between concepts: Distinguishing which specific ACID properties are managed by the recovery/transaction manager versus the concurrency controller.
+3. Logical association: Linking "logging" (Write-Ahead Logging/Recovery) specifically to its function in undoing incomplete work and persisting committed work.
+4. Definition recall: Identifying the role of the Integrity/Consistency manager (schema constraints) versus the transaction manager.
+
+ELEMENT COUNT: 4
+
+0.65

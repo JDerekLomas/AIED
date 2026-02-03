@@ -1,0 +1,20 @@
+To evaluate the difficulty of this question for South African undergraduate CS students, we must identify the specific schema context (which is implied to be known or provided) and the cognitive steps required to solve it. 
+
+I am assuming a standard schema for this classic example: 
+- `Course` table: (`CourseNo`, `Title`, `Credits`) - 3 columns.
+- `Enrol` table: (`StudentID`, `CourseNo`) - 2 columns.
+- Data context: A scenario where 3 courses exist but only 2 have enrolments.
+
+PREREQUISITES:
+1.  **Schema Interpretation (Columns):** Understanding that `SELECT * FROM Course` returns the number of columns defined in the `Course` table, not the `Enrol` table.
+2.  **SELECT \* Mechanics:** Knowing that `*` expands to all attributes of the relation(s) in the `FROM` clause.
+3.  **Correlated Subquery Logic:** Understanding how the inner query (`SELECT * FROM Enrol...`) links to the outer query via the `WHERE` clause (`c.CourseNo=e.CourseNo`).
+4.  **NOT EXISTS Operator:** Realizing that `NOT EXISTS` returns TRUE only when the subquery returns an empty set (i.e., identifying courses with *zero* enrollments).
+5.  **Data Set Analysis (Rows):** The ability to mentally (or via provided table instances) count how many rows in `Course` do not have a matching `CourseNo` in the `Enrol` table.
+6.  **Alias Recognition:** Understanding that `c` and `e` are aliases used to disambiguate the join condition.
+7.  **Subquery Scope:** Understanding that the columns selected in a `SELECT *` within an `EXISTS` clause do not affect the output columns of the main query.
+8.  **Eliminating Distractors:** Distinguishing between a Join (which might combine columns) and a `NOT EXISTS` filter (which maintains the original table structure).
+
+COUNT: 8
+
+0.55

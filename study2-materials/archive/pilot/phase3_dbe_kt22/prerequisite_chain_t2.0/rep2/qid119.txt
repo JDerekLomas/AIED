@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of equivalence of sets of Functional Dependencies (FDs) (Σ1 ≡ Σ2 iff Σ1⁺ = Σ2⁺ or Σ1 ⊨ Σ2 and Σ2 ⊨ Σ1).
+2. Understanding and applying Armstrong’s Axioms (specifically Transitivity).
+3. Ability to compute the closure of an attribute set ($A^+$) under a specific set of FDs.
+4. Identifying redundancy within Σ1 (recognizing that in the presence of $A \to B$, $AB \to C$ simplifies to $A \to C$ via the augmentation/decomposition or substitution rule).
+5. Executing multi-step logical reasoning to check if Σ1 can derive $B \to C$ and if Σ2 can derive $AB \to C$.
+6. Avoiding the common misconception that sets of FDs must have the same number of dependencies or look identical to be equivalent.
+7. Distinguishing between the implication $A \to C$ (which is in Σ2's closure) and the requirement for $B \to C$ to be in Σ1's closure (which it is not).
+
+COUNT: 7
+
+0.55

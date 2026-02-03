@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Ability to read and interpret a relational schema/table instance (mapping the query to the correct columns).
+2. Understanding the `SELECT` clause: recognizing that it specifies the output columns but does not filter rows.
+3. Understanding the `WHERE` clause: knowing it acts as a filter on the dataset.
+4. Logical operator proficiency: correctly interpreting `OR` as inclusive (selecting rows that satisfy either condition or both).
+5. Distinguishing between `OR` and `AND` in a database context (common student error: assuming `OR` means "one or the other but not both" or confusing it with set intersection).
+6. Counting skills: accurately tallying the filtered rows without double-counting or skipping.
+7. Identifying duplicates: understanding that a standard `SELECT` (without `DISTINCT`) includes all rows that meet the criteria, even if the `CourseNo` values are identical.
+
+COUNT: 7
+
+0.75

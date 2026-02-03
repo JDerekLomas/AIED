@@ -1,0 +1,14 @@
+To answer this question correctly, a student must navigate several conceptual and technical layers of SQL.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Ability to map the `Course` and `Enrol` tables (implied context) and understand the relationship between them via the `CourseNo` foreign key.
+2.  **Correlated Subquery Logic:** Understanding that the inner query executes in the context of each candidate row from the outer query (`c.CourseNo=e.CourseNo`).
+3.  **EXISTS Operator Semantics:** Knowing that `EXISTS` returns a boolean (True/False) based on whether the subquery returns *at least one* row, not the actual data.
+4.  **Distinct Counting Logic:** Realizing that even if a course has 50 enrollments, the `EXISTS` clause only checks for presence, meaning that specific course results in exactly *one* row in the output.
+5.  **Set Intersection Concept:** Identifying that the result set represents the count of *unique* courses that appear in the enrollment table (the "Intersection" of Course and Enrol IDs).
+6.  **Data Processing:** Manually tracing the provided table data (not shown here, but implied by the specific options) to count unique matches without double-counting or missing entries.
+7.  **Select * Neutrality:** Understanding that `SELECT *` in the subquery does not affect the truth value of `EXISTS`.
+
+**COUNT: 7**
+
+0.65

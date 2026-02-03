@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding set notation**: Recognizing that `{...}` denotes a set and commas separate distinct elements.
+2. **Definition of Set Difference (-)**: Knowing that `A - B` means elements in A that are NOT in B.
+3. **Applying Set Difference (Step 1)**: Correct calculation of `{1, 2, 3} - {1, 2, 5} = {3}`.
+4. **Applying Set Difference (Step 2)**: Correct calculation of `{1, 2, 5} - {1, 2, 3} = {5}`.
+5. **Definition of Set Union (∪)**: Knowing that union combines elements from both resulting sets.
+6. **Applying Set Union**: Correct calculation of `{3} ∪ {5} = {3, 5}`.
+7. **Operator Precedence/Order of Operations**: Correctly processing the parentheses before the union.
+8. **Distinguishing concepts**: Avoiding the common mistake of confusing union with intersection (which would result in `{1, 2}`) or simple symmetric difference with total union (which would result in `{1, 2, 3, 5}`).
+
+COUNT: 8
+
+0.85

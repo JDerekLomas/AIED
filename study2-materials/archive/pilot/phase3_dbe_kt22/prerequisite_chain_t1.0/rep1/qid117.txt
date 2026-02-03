@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the notation of Functional Dependencies (FDs).
+2. Knowledge of the definition of Logical Entailment ($\Sigma_1 \models \Sigma_2$): specifically that $\Sigma_1$ must imply every dependency in $\Sigma_2$.
+3. Ability to compute the closure of an attribute set ($X^+$) under a given set of FDs.
+4. Applying the membership test: checking if $A \to C$ is in $\Sigma_1^+$ by calculating $A^+$ under $\Sigma_1$ (multi-step reasoning: $A \to B, B \to C \implies A \to C$).
+5. Applying the membership test: checking if $B \to C$ is in $\Sigma_1^+$ (direct observation or calculation).
+6. Distinguishing between "Equivalent" ($\equiv$) and "Entails" ($\models$): recognizing that $\Sigma_2$ does not need to entail $\Sigma_1$ for the statement to be true.
+7. Identifying a potential distractor: avoiding the mistake of thinking $\Sigma_2$ is "missing" $A \to B$ and therefore concluding False.
+
+COUNT: 7
+
+0.65

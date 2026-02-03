@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the Cartesian Product: Realizing that listing two tables in the FROM clause (Course, Enrol) initially implies a cross-join of all possible combinations.
+2. Understanding the Equi-join condition: Identifying that `Course.CourseNo = Enrol.CourseNo` acts as a filter that narrows the result to actual student enrollments rather than the cross-product.
+3. Filtering via the WHERE clause: Recognizing that `Year = 2018` further restricts the set to a specific subset of the joined data.
+4. Schema Interpretation: Identifying which table contains the "Year" attribute and which table acts as the "many" side of the relationship (Enrol).
+5. Data Extraction/Counting: Manually scanning the provided (though here implicit) data tables to count matches accurately without skipping rows.
+6. Distinguishing Join types: Understanding that this is an Inner Join, meaning courses with no enrollments or enrollments with invalid course numbers (if applicable) would be excluded.
+7. Identifying "SELECT *": Confirming that the result set rows correspond to the joined records, not a distinct list or a specific column count.
+
+COUNT: 7
+
+0.65

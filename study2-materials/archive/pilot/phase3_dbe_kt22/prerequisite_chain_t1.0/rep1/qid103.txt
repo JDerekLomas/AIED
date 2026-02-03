@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading Comprehension (Filtering Noise):** Ability to ignore irrelevant entities (equipment, technicians, administrators) and focus specifically on the relationship between "trainer" and "fitness class".
+2. **Identifying Participation Constraints:** Recognizing the phrase "instructed by only one trainer" as the constraint governing the "fitness class" side of the relationship.
+3. **Identifying Connectivity:** Recognizing the phrase "Not all trainers deliver fitness classes" and "Each fitness class is... instructed by... one trainer" to determine how many classes a single trainer can lead.
+4. **Distinguishing "One" vs "Many":** Understanding that if one trainer can lead multiple classes, but a class has only one trainer, the ratio is 1:N.
+5. **Entity-Relationship Mapping:** Mapping the textual description of business rules to the formal notation of cardinality ratios (knowing which side is "1" and which is "N").
+6. **Disambiguation of Direction:** Correctly identifying that the question asks for the ratio from "trainer" to "fitness class" (1:N) rather than "fitness class" to "trainer" (N:1, though not an option here).
+7. **Ignoring Instance-Level Thinking:** Not getting distracted by the "specialities" or "personal trainer" attributes/relationships which also involve trainers.
+
+COUNT: 7
+
+0.65

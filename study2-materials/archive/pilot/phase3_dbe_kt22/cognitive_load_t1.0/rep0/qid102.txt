@@ -1,0 +1,16 @@
+As a university instructor, I have evaluated the cognitive load of this specific problem. While the narrative is long (high "noise" ratio), the specific question asked is highly targeted, which significantly reduces the working memory load for a student who knows how to filter for relevance.
+
+**ELEMENTS:**
+1.  **Definition Recall:** Distinguishing between "Total" and "Partial" participation constraints in ER modeling.
+2.  **Filtering/Scanning:** Identifying the specific sentence describing the relationship between "Member" and "Fitness Class" amidst a paragraph of irrelevant data (e.g., equipment status, technician phone numbers).
+3.  **Entity Identification:** Identifying "Fitness Class" as the subject of the constraint.
+4.  **Logical Mapping:** Evaluating the specific rule "Each fitness class is attended by one or more members" (Mapping 'one or more' to 'Total').
+5.  **Distinction:** Differentiating between the constraint on "Member" (who *may* choose to participate) vs the constraint on "Fitness Class" (which *is attended* by members).
+
+**ELEMENT COUNT: 5**
+
+**RATIONALE:** 
+South African CS cohorts often struggle with "word problems" where English is a second or third language. The primary hurdle here is not the SQL or complex logic, but the **extraneous load**—the ability to ignore the "Administrator," "Technician," and "Equipment" entities to isolate the "Member/Class" relationship. However, because the text explicitly states "Each fitness class is attended by one or more members," the answer is directly mirrored in the text. Students with strong test-taking skills will find this easy; those who read linearly and get bogged down in the details of the technician's phone number will struggle.
+
+**Your estimate:**
+0.72

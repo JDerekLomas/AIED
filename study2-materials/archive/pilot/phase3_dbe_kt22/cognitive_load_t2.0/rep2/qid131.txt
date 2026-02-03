@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Recalling the Lossless Join Theorem for two-set decompositions (intersection of schemas must be a key for at least one of the schemas).
+2. Identifying the intersection of $R1 \cap R2$ (attribute A).
+3. Testing if A is a superkey for $R1$ (evaluating $A^+$ with respect to $\Sigma$).
+4. Testing if A is a superkey for $R2$.
+5. Recalling the Dependency Preservation definition (sum of projections of functional dependencies must cover the original closure).
+6. Evaluating the projection of $\Sigma$ onto $R1$ (A $\to$ B is preserved).
+7. Evaluating the projection of $\Sigma$ onto $R2$ (A $\to$ C is preserved).
+8. Determining if the "lost" dependency (B $\to$ C) can be derived from the preserved dependencies using transitive rules.
+9. Synthesizing these two separate conclusions to choose between four combinatorial distractors.
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.40

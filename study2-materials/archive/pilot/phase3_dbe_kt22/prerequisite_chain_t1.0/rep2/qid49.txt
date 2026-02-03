@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. Formal definition of a "candidate key" (a minimal superkey).
+3. The "Superset Rule" for superkeys: understanding that any superset of a superkey is also a superkey.
+4. Distinguishing between "must be" (logical necessity) and "could be" (logical possibility).
+5. Understanding that being a superkey is a necessary but not sufficient condition for being a candidate key (the minimality requirement).
+6. Multi-step reasoning to evaluate Option A: If {a} is a superkey, adding {b} cannot "break" its uniqueness property.
+7. Multi-step reasoning to evaluate Option B: {a,c} is a superkey, but it cannot be a candidate key because it is not minimal (since {a} is already a superkey).
+8. Multi-step reasoning to evaluate Option C: {a} is a candidate key only if no subset of {a} is a superkey. Since the only subset is the empty set (which cannot be a superkey), {a} is indeed minimal.
+
+COUNT: 8
+
+0.35

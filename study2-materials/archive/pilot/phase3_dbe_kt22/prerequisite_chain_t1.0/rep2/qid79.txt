@@ -1,0 +1,16 @@
+To answer this question correctly, a student must navigate several conceptual and procedural hurdles. In the South African context, where many students may be first-generation university attendees or have had limited exposure to data structures prior to first year, the "JOIN" concept is often a significant stumbling block.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Ability to identify the relationship between the `Course` and `Enrol` tables via the `CourseNo` foreign key.
+2.  **JOIN Logic:** Understanding that an `INNER JOIN` only returns rows where there is a match in both tables.
+3.  **Cardinality Logic:** Recognizing that if multiple students are enrolled in one course, the `Course` row will be repeated for every matching `Enrol` row (1:N relationship).
+4.  **Identifying the "Many" Side:** Realizing the result set size is determined by the number of matches in the `Enrol` table, not the number of courses available.
+5.  **Distinguishing INNER vs. OUTER:** Knowing that courses with zero enrollments are excluded.
+6.  **Visual Processing/Counting:** Correcting mapping the provided data (assuming a table image was provided) to the logic without a transcription error.
+7.  **SQL Syntax Literacy:** Understanding that `SELECT *` retrieves the combined width but the question asks for the row count (height).
+
+**COUNT: 7**
+
+While the question seems simple, students often default to counting the number of unique courses (7) or simply guessing based on the largest/smallest number if they don't understand how joins duplicate rows.
+
+0.55

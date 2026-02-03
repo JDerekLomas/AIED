@@ -1,0 +1,14 @@
+PREREQUISITES: 
+- Definition of Functional Dependency (FD) and notation (A → B).
+- Definition of a Canonical/Minimal Cover (specifically the property that it must be equivalent to the original set of FDs).
+- Ability to compute the closure of a set of attributes under a set of FDs (e.g., computing $A^+$ under $\Sigma_1$).
+- Identifying and removing transitive dependencies.
+- Identifying and removing extraneous attributes within a functional dependency (realizing $AB \to C$ reduces to $A \to C$ if $A \to B$ exists).
+- Logical equivalence of sets of dependencies ($\Sigma_1 \equiv \Sigma_2$).
+- Understanding the three criteria for a Minimal Cover: (1) RHS is a single attribute, (2) No extraneous attributes on LHS, (3) No redundant FDs.
+- Recognizing that while $\Sigma_2$ is a simplified equivalent set, the definition of "minimal cover" often refers to the *process* or the *result* of reducing $\Sigma_1$; here $\Sigma_2$ fulfills all three conditions.
+- Distinguishing between "equivalent" and "minimal cover."
+
+COUNT: 9
+
+0.65

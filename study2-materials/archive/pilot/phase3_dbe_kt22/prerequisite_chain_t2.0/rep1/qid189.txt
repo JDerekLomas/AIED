@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Understanding the core definition of SQL Injection (the insertion of malicious SQL code via user input).
+- Distinguishing between "hard-coded" string literals and "external input" (user-controllable data).
+- Identifying the `Request.form` object as a source of untrusted user input (as opposed to static variables).
+- Parsing concatenated string syntax (distinguishing between a variable name and its literal value within quotes).
+- Recognizing the role of single quotes (`'`) in SQL syntax and how they can be manipulated to terminate a command early.
+- Eliminating distractors that look like concatenation but use safe, static values (Option C).
+- Knowing that valid syntax does not guarantee safety from injection.
+
+COUNT: 7
+
+0.65

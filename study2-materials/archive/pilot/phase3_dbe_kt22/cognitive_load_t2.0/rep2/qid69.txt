@@ -1,0 +1,16 @@
+In order to determine the element interactivity, we must consider what the student is required to process. Without the content of the `Study` table provided in the prompt, a student cannot determine the correct answer; however, the cognitive load required to *process* the question is measured as follows:
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Understanding that `SELECT *` retrieves all columns and `FROM Study` specifies the source table.
+2.  **Filter Logic (WHERE clause):** Evaluating the conditional match between the attribute `Name` and the string literal `'Tom'`.
+3.  **Data Scanning/Counting:** Iterating through the rows of the (implicit) table to identify matches.
+4.  **Schema Identification:** Mapping the attribute `Name` to the correct column in the dataset.
+5.  **Relational Understanding:** Differentiating between the "value" in a cell and a "row" as a whole unit.
+
+**ELEMENT COUNT:** 5
+
+**ESTIMATION:** 
+For South African undergraduate cohorts, this is a foundational "Level 1" (Knowledge/Comprehension) Bloom’s Taxonomy question. In a mixed-ability class, the vast majority of students grasp the `SELECT-FROM-WHERE` structure within the first two weeks. The primary errors would stem from students failing to read the table data carefully or misunderstanding null values (if present in the hidden data).
+
+Your estimate:
+0.85

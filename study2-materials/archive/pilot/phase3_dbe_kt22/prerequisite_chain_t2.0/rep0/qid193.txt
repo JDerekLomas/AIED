@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `WITH GRANT OPTION` clause (allowing a user to pass privileges to others).
+2. Recognizing that a user can receive the same privilege from multiple different grantors independently (redundant granting).
+3. Understanding the mechanism of the `REVOKE... CASCADE` command (revoking from a user and all others who received it through them).
+4. Tracking the ownership and delegation chain (lineage) of privileges in a dependency graph.
+5. Identifying that Linda granted to Peter directly, creating a "backup" path for Peter's privilege that is independent of Amy's chain.
+6. Realizing that a REVOKE from Amy only severs the path through Amy, but does not affect the path originating directly from Linda to Peter.
+7. Distinguishing between the person performing the action (the Grantor) and the privilege being revoked.
+
+COUNT: 7
+
+0.35

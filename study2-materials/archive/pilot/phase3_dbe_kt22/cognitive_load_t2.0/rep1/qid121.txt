@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall of definition: Minimal Cover (equivalence of closure and no redundant dependencies).
+2. SQL-adjacent Logic: Logical equivalence/entailment of functional dependency sets.
+3. Transitive property application (A -> B, B -> C implies A -> C).
+4. Reflexive property application (logic of A -> B and B -> C vs AB -> C).
+5. Evaluation of Σ1 |= Σ2: Checking if A->B and B->C can be derived from {A->B, AB->C}.
+6. Evaluation of Σ2 |= Σ1: Checking if A->B and AB->C can be derived from {A->B, B->C}.
+7. Syntactic constraint: Identification of the extraneous attribute 'B' in the LHS of AB -> C given A -> B.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

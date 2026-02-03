@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Knowledge of Concurrency Control terminology (specifically the "Standard Phenomena" defined in SQL-92).
+2. Distinguishing between a "row-level" change (Unrepeatable Read) and a "set-level" change (Phantom Read).
+3. Understanding the specific mechanism of the "Phantom Read" (newly inserted rows appearing in a subsequent range scan).
+4. Eliminating "Dirty Read," which refers to reading uncommitted data rather than new insertions.
+5. Eliminating "Lost Update," which refers to data loss during concurrent writes rather than a read anomaly.
+6. Reading comprehension: identifying that "new rows" and "inserted" are the operational keywords in the prompt.
+
+COUNT: 6
+
+Your estimate:
+0.65

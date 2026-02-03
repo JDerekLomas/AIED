@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Schema Interpretation:** Understanding that enrollment data (linking students to courses) is logically stored in an associative table (Enrol) rather than a master table (Student).
+2. **Filtering Logic (WHERE):** Identifying that the "2019" requirement must be applied as a row-level filter before aggregation.
+3. **Aggregation Logic (GROUP BY):** Understanding that to count per course, the grouping attribute must match the non-aggregated column in the SELECT list.
+4. **Functional Dependency Rule:** Recognizing the syntax error/logical fallacy in Option B (grouping by StudentID while selecting CourseNo).
+5. **Syntax Recognition:** Identifying standard SQL structure (SELECT-FROM-WHERE-GROUP BY order).
+6. **Distinguishing Count Targets:** Realizing that COUNT(*) in the context of a group yields the size of that group.
+
+COUNT: 6
+
+0.65

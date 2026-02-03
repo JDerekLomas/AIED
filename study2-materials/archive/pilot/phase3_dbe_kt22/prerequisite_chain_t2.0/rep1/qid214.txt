@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the syntax and logical sequence of SQL transaction control commands (BEGIN, COMMIT, ROLLBACK).
+2. Knowing the "Permanence" property of ACID: once a COMMIT is executed, changes are persisted to the database.
+3. Distinguishing between an active transaction and a completed (terminated) transaction.
+4. Identifying that a ROLLBACK command executed *after* a COMMIT has no transaction left to undo.
+5. Avoiding the common misconception that ROLLBACK is an "Undo" button for history rather than a control for current transaction state.
+6. Multi-step reasoning: tracing the state of the database through a linear script.
+
+COUNT: 6
+
+0.65

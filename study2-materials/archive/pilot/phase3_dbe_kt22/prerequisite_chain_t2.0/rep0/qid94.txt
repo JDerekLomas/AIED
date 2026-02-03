@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Differentiating between Entities and Attributes**: Understanding that an entity represents a "thing" (object or concept) in the mini-world, while an attribute is a property describing that thing.
+2. **Identification of Strong vs. Weak Entities**: Recognizing that some concepts (like "maintenance event" or "associate member") might be entities despite not having an obvious natural key in common language.
+3. **Filtering Procedural Constraints from Structural Entities**: Ability to distinguish a data-modelling requirement (storing a record) from a business rule/integrity constraint (e.g., "start date must be before end date" or the status "types").
+4. **Recognition of Inheritance/Generalization Hierarchies**: Identifying that "Employee" acts as a supertype for the specialized roles (trainers, admins, technicians) mentioned in the text.
+5. **Dismissing Multivalued or Descriptive Properties**: Recognizing that "Status Type" is an attribute (a restricted set of values) and "Time slot" is a property of the "Class" entity, not an entity in its own right in this specific scenario.
+6. **Parsing Complex Text for Entity Candidates**: The ability to extract "nouns" that require persistent storage and multiple instances from a dense paragraph of requirements.
+7. **Mapping Option A to the Scenario**: Realizing that the phrase "records the date of each maintenance event" implies a many-to-many relationship (or an associative entity) between Equipment and Technicians that needs to be tracked.
+8. **Handling Synonyms/Labeling**: Mapping the term "Employee" (the correct general entity type) to the specific sub-groups listed in the text.
+
+COUNT: 8
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Filtering Noise**: Ability to ignore irrelevant narrative details (equipment, technicians, administrators, associate members) to focus specifically on the "trainer" and "fitness class" relationship.
+2. **Identifying Participation Context**: Understanding that participation constraints describe whether *every* instance of an entity set must participate in a relationship.
+3. **Specific Textual Mapping**: Locating the specific rule in the text: "Not all trainers deliver fitness classes."
+4. **Keyword Mapping (Negative Logic)**: Correctly mapping the phrase "Not all" or "may" to the concept of "Partial" participation.
+5. **Technical Vocabulary**: Knowing the formal definition of "Partial" (at least one instance does not participate) versus "Total" (every instance must participate).
+6. **Distinguishing Cardinality from Participation**: Not getting confused by the "one or more" phrasing used for other relationships in the text.
+7. **Entity Role Recognition**: Recognizing that while every class has a trainer, not every trainer has a class, and correctly applying the constraint to the "trainer" side as requested.
+
+COUNT: 7
+
+0.72

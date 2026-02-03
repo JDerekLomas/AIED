@@ -1,0 +1,15 @@
+As a university instructor, I evaluate this question as follows:
+
+**ELEMENTS:** 
+1. **Keyword Syntax Recall:** Recognizing that `SELECT` and `FROM` define the data retrieval structure.
+2. **DISTINCT Operator Logic:** Understanding that duplicate values in the result set must be collapsed into single unique entries.
+3. **Table Retrieval (Study):** Locating the specific dataset in memory or on the provided schema.
+4. **Attribute Filtering (CourseNo):** Focusing on one specific column while ignoring others (e.g., StudentNo or Grade).
+5. **Set Counting:** Manually iterating through the rows of the `Study` table, tracking unique values found so far, and incrementing a counter.
+6. **Constraint Satisfaction:** Checking each row against the "uniqueness" constraint to decide if it contributes to the final count.
+
+**ELEMENT COUNT:** 6
+
+**Estimated proportion of correct answers:** Given the wide range of backgrounds in South African undergraduate CS cohorts, most students find the `DISTINCT` keyword intuitive even if they have limited programming experience. However, errors typically occur if they rush and simply count total rows without applying the filter.
+
+0.82

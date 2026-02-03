@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding the notation of a relation schema $R$ and a set of Functional Dependencies (FDs) $\Sigma$.
+2. Understanding the logical entailment symbol ($\vDash$) in the context of FDs (i.e., "Does $\Sigma$ imply $D \to AC$?").
+3. Knowledge of Armstrong’s Axioms or the attribute closure algorithm.
+4. Correct execution of the closure algorithm for the specific attribute set $\{D\}^+$.
+5. Ability to perform multi-step reasoning:
+    - Step 1: Start with $D$.
+    - Step 2: Use $D \to ABC$ to get $\{A, B, C, D\}$.
+    - Step 3: Observe that $\{A, C\} \subseteq \{A, B, C, D\}$.
+6. Distinguishing between the given dependencies in $\Sigma$ and the target dependency being tested.
+7. Understanding that a FD $X \to YZ$ is equivalent to $X \to Y$ and $X \to Z$ (decomposition rule).
+
+COUNT: 7
+
+0.72

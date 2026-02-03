@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading Comprehension & Information Filtering**: Ability to parse a dense paragraph of requirements and distinguish between entity types, attributes, and constraints.
+2. **Knowledge of Entity-Relationship Modeling**: Understanding the formal definition of an "Entity Type" versus an "Attribute."
+3. **Definition of a Weak Entity**: Knowing that a weak entity cannot be uniquely identified by its own attributes alone and relies on a relationship with an identifying owner entity.
+4. **Distinguishing Multivalued Attributes from Entities**: Recognising that "Speciality" or "Status" (Options A and D) are more likely modelled as attributes or lookup constraints rather than entities.
+5. **Analyzing Identity Dependence**: Identifying that an "Associate Member" (Option C) is identified by a discriminator (1, 2, ...) relative to a primary "Member," making it the textbook example of a weak entity in this scenario.
+6. **Eliminating Strong Entities**: Recognizing that a "Fitness Class" (Option B) has a unique "daily time slot" constraint or can exist as a standalone entity in the system’s logic, thus distinguishing it from the associate member.
+7. **Mapping Constraints to Schema**: Connecting the phrase "associate number (i.e., 1, 2, . . .)" to the concept of a partial key or discriminator.
+
+COUNT: 7
+
+0.55

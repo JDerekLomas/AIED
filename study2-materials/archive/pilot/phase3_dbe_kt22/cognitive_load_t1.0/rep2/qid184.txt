@@ -1,0 +1,11 @@
+ELEMENTS:
+1. SQL Syntax Recall: Recalling the correct keyword order for the `REVOKE` command versus the `GRANT` command.
+2. Conceptual Distinction: Differentiating between the "intent" of the question (avoiding a cascade) and the specific SQL keyword used to implement that behavior (`RESTRICT` vs `CASCADE`).
+3. Logical Evaluation of Options: Processing the "Negative" logic (to *avoid* a cascade, one must *restrict* it).
+4. Command Association: Recognizing that `CASCADE` and `RESTRICT` are valid modifiers for `REVOKE`, whereas "no cascade" or "no restrict" are syntactically invalid or non-standard.
+5. Functional Knowledge of Privileges: Understanding the mechanism of how privileges propagate from one user to another.
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.65

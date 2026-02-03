@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Identifying the candidate key(s) from a set of functional dependencies (recognizing that A determines all other attributes, so A is the unique candidate key).
+2. Distinguishing between prime attributes (A) and non-prime attributes (B, C).
+3. Understanding the definition of Boyce-Codd Normal Form (BCNF): every determinant must be a superkey.
+4. Applying the BCNF definition to the FD A→BC (identifying that A is a superkey, so it satisfies BCNF).
+5. Understanding the definition of Third Normal Form (3NF) and the "relaxation" rule (an FD is valid if the determinant is a superkey OR the RHS consists of prime attributes).
+6. Knowing the hierarchy of normal forms (specifically that BCNF implies 3NF).
+7. Correctly interpreting the logical conjunctions in the multiple-choice options (e.g., "R is in X and R is in Y").
+
+COUNT: 7
+
+0.65

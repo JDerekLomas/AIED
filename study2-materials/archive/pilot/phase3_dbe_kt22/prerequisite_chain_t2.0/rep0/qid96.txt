@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Reading Comprehension & Narrative Filtering**: Ability to process a dense paragraph of requirements and identify that the first three options (Weight gain, Weight loss, Strength building) are specific examples provided in the text rather than structural components.
+2. **Distinguishing Instance vs. Schema**: Understanding the difference between a data value (an instance) and an attribute (the container/category for those values).
+3. **Identification of Multi-valued Attributes**: Recognizing that "specialities" describes a property of the Trainer entity, even if it might eventually be decomposed in normalization.
+4. **Keyword Recognition**: Specifically linking the word "specialities" in the text ("Each trainer has one or more specialities...") to the conceptual definition of an attribute.
+5. **Elimination of "Noise" Options**: Identifying that A, B, and C are mutually exclusive "Speciality" types and therefore cannot be the attribute themselves.
+6. **Understanding Database Terminology**: Knowing the formal definition of an "attribute" as used in Entity-Relationship modeling versus a class or a value.
+
+COUNT: 6
+
+0.78

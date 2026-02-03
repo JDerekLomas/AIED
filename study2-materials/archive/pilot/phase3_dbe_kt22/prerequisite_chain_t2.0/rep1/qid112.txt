@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding functional dependency (FD) notation ($X \to Y$).
+2. Understanding the semantic implication symbol ($\Sigma \models f$) as "Does the dependency follow logically from the given set?".
+3. Knowledge of Transitivity (Armstrong's Axioms): If $A \to B$ and $B \to C$, then $A \to C$.
+4. Ability to compute the closure of an attribute set ($A^+$) based on a given set of FDs.
+5. Ability to ignore "noise" data: recognizing that the FD $D \to ABC$ is irrelevant to solving whether $A \to C$ given the other dependencies.
+6. Distinguishing between "given" dependencies (the set $\Sigma$) and "derived" dependencies.
+
+COUNT: 6
+
+0.85

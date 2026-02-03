@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Determining the Candidate Key(s):** Understanding that they must find all attributes that functionally determine all other attributes.
+2. **Closure Algorithm Application:** Knowing how to compute $(AB)^+$ to find it covers $\{A, B, C, D\}$ and checking for other potential keys like $(BC)^+$.
+3. **Identifying Prime vs. Non-prime Attributes:** Correcting labeling $A, B, C$ as prime and $D$ as non-prime.
+4. **Definition of Third Normal Form (3NF):** Knowing that for every functional dependency $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+5. **Testing 3NF for $C \to A$:** Applying the definition to see that while $C$ is not a superkey, $A$ is a prime attribute, making the FD valid in 3NF.
+6. **Definition of Boyce-Codd Normal Form (BCNF):** Knowing that for every functional dependency $X \to Y$, $X$ MUST be a superkey.
+7. **Testing BCNF for $C \to A$:** Identifying that since $C$ is not a superkey, the relation violates BCNF.
+8. **Synthesizing Conclusions:** Correcting selecting option B (3NF but not BCNF) based on the combined analysis.
+
+COUNT: 8
+
+0.55

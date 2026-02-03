@@ -1,0 +1,14 @@
+To assess this question for a South African undergraduate cohort, we must consider that while the syntax appears simple, `EXCEPT` is a set operator that involves implicit logic beyond simple row filtering.
+
+PREREQUISITES:
+1. **Schema Interpretation**: Understanding that the `Study` table represents a many-to-many relationship (likely between Students and Courses).
+2. **Filtering Logic (WHERE)**: Correctly identifying the subset of rows associated with StudentID 102 and StudentID 103 respectively.
+3. **Set Operator Syntax**: Identifying that `EXCEPT` (or `MINUS` in some dialects) performs a set difference operation.
+4. **Duplicate Elimination (Set Theory)**: Recognizing that SQL set operators (`UNION`, `INTERSECT`, `EXCEPT`) perform automatic `DISTINCT` operations on the input sets unless `ALL` is specified.
+5. **Directionality**: Understanding that `A EXCEPT B` is not the same as `B EXCEPT A` (it returns elements in the first set not present in the second).
+6. **Data Analysis**: Correctly counting the specific IDs in the provided (though here implicit) dataset to reach the final integer.
+7. **Relational Comparison**: Matching specific `CourseNo` values between the two subsets to find the "leftovers."
+
+COUNT: 7
+
+0.65

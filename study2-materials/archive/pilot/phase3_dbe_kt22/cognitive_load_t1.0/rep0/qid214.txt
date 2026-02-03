@@ -1,0 +1,10 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding `UPDATE`, `SET`, and `WHERE` clauses.
+2. Transaction Control Logic: Understanding the sequential nature of `BEGIN`, `COMMIT`, and `ROLLBACK`.
+3. ACID Properties (Atomicity/Durability): Recognizing that a `COMMIT` permanently persists changes to the database.
+4. Logical State Evaluation: Identifying that once a transaction is committed, the "active" transaction context ends or is finalized.
+5. Concept Distinction: Distinguishing between a `ROLLBACK` that occurs *before* a commit (which reverts changes) versus a `ROLLBACK` called *after* a commit (which has no target transaction to undo).
+
+ELEMENT COUNT: 5
+
+0.65

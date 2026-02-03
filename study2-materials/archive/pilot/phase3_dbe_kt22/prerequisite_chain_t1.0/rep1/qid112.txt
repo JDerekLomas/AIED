@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the notation of a relation schema $R$ and a set of functional dependencies $\Sigma$.
+2. Understanding the logical entailment symbol ($\vDash$) in the context of functional dependencies (i.e., does the dependency follow from the given set using Armstrong's Axioms or closure?).
+3. Knowledge of the Transitivity Rule: if $A \to B$ and $B \to C$, then $A \to C$.
+4. Ability to compute the attribute closure of $A$ (denoted $A^+$) based on $\Sigma$.
+5. Recognizing that $D \to ABC$ is a distractor that is not necessary to prove $A \to C$.
+6. Correctly identifying that $C$ is a member of $A^+$ or follows via transitivity, leading to a "True" conclusion.
+
+COUNT: 6
+
+0.72

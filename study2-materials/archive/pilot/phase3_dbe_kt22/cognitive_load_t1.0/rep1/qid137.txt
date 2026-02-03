@@ -1,0 +1,15 @@
+ELEMENTS:
+1. Definition recall of 3rd Normal Form (3NF) requirements.
+2. Definition recall of Boyce-Codd Normal Form (BCNF) requirements.
+3. Computation of attribute closures (e.g., $(AB)^+$, $(BC)^+$) to identify Candidate Keys.
+4. Logical identification of all Candidate Keys (recognizing both $AB$ and $BC$ as keys).
+5. Classification of attributes as Prime vs. Non-prime ($A, B, C$ are prime; $D$ is non-prime).
+6. Evaluating $AB \rightarrow CD$ against the BCNF rule (Is $AB$ a superkey?).
+7. Evaluating $BC \rightarrow A$ against the BCNF rule (Is $BC$ a superkey?).
+8. Evaluating $AB \rightarrow CD$ against the 3NF rule (Is $D$ a prime attribute?).
+9. Comparison of findings against the multiple-choice combinations.
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.55

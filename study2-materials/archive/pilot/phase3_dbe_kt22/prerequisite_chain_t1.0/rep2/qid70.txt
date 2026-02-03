@@ -1,0 +1,16 @@
+To answer this question correctly, a student must navigate several specific technical and logical hurdles. In the South African context, where students may be transitioning from different secondary school coding backgrounds (e.g., Delphi/IT vs. no prior coding), the distinction between case-sensitivity and data values is a common stumbling block.
+
+**PREREQUISITES:**
+1.  **SQL Syntax Literacy**: Understanding that `SELECT *` retrieves all columns but the question asks for the count of *rows*.
+2.  **Function Application (`lower`)**: Knowing that the `lower()` function transforms the data in the `Name` column to lowercase temporarily for the comparison.
+3.  **Case-Sensitivity Logic**: Realizing that the string literal `'tom'` is in all lowercase.
+4.  **Schema Interpretation**: Correcting identifying the `Study` table and the `Name` column (assumed to be provided in an accompanying diagram/table snippet not shown here, but essential for the count).
+5.  **Data Matching**: Successfully scanning the table rows to find instances where the name is "Tom", "TOM", "tom", or "toM".
+6.  **Literal vs. Identifier Distinction**: Distinguishing between the column name and the string constant in single quotes.
+7.  **Boolean Evaluation**: Correcting identifying which rows satisfy the equality condition after the transformation.
+
+**COUNT: 7**
+
+While this seems like a simple "trace" question, students often fail because they either ignore the `lower()` function (and look for an exact case match) or they confuse the function's effect on the output versus its effect on the filter.
+
+0.65

@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (CK) definition (must be a superkey and minimal).
+2. Closure algorithm: Computing $\{A\}^+$ using functional dependencies.
+3. Closure algorithm: Computing other possible closures (e.g., $\{CD\}^+$, $\{B\}^+$, $\{C\}^+$) to test for alternative keys.
+4. Logical condition: Attribute "C" and "D" are on the right-hand side of $A \rightarrow BCD$ but also on the left-hand side of $CD \rightarrow AB$.
+5. Syntax/Logic: Evaluating the quantifier "only" (requires proving no other CK exists or finding a counterexample).
+6. Table Schema mapping: Keeping track of all attributes $\{A, B, C, D\}$ to ensure the closure covers the full set $R$.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

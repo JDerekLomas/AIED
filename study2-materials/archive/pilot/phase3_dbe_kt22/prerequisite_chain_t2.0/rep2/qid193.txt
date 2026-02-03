@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Understanding Ownership:** Knowing that the owner (Linda) inherently possesses all privileges and the authority to grant/revoke them.
+2. **Knowledge of GRANT OPTION:** Understanding that `WITH GRANT OPTION` allows a grantee (Amy) to further delegate that privilege to others.
+3. **Privilege Dependency Graph (Chain of Authority):** Recognizing that the privilege Peter holds from Amy is dependent on Amy’s privilege, whereas the privilege Peter holds from Linda is independent.
+4. **Processing CASCADE Semantics:** Knowing that a `REVOKE CASCADE` recursively removes all privileges that were derived solely from the person being revoked.
+5. **Multiple Paths/Redundancy Check:** Identifying that Peter received the privilege twice (from Linda and from Amy) and recognizing that revoking one "path" does not invalidate the other "independent" path.
+6. **Syntax Comprehension:** Correct mapping of actors (Linda, Amy, Peter) and actions to the state of the system at each step.
+
+COUNT: 6
+
+0.55

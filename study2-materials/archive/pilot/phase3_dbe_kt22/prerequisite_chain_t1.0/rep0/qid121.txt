@@ -1,0 +1,15 @@
+PREREQUISITES:
+1. Definition of a Minimal Cover: Knowing that a minimal cover must be equivalent to the original set (Σ1 ≡ Σ2).
+2. Logical Entailment (Σ1 ⊨ Σ2): Checking if A → B and B → C can be derived from {A → B, AB → C}.
+3. Logical Entailment (Σ2 ⊨ Σ1): Checking if A → B and AB → C can be derived from {A → B, B → C}.
+4. Attribute Closure Algorithm: Ability to compute A+ under both sets to verify equivalence.
+5. Identifying Redundancy (Extraneous Attributes): Recognizing that in Σ1, the 'B' in AB → C is extraneous because A → B exists, making the set equivalent to {A → B, A → C}.
+6. Transitivity Rule: Recognizing that in Σ2, {A → B, B → C} implies A → C.
+7. Verification of "Minimal" criteria: Ensuring Σ2 has no redundant FDs and no extraneous attributes (which it satisfies).
+8. Distinction between Equivalence and Coverage: Realizing that just because Σ2 looks "simpler" doesn't mean it is a cover unless it preserves all dependencies.
+9. Distinguishing Σ1's simplified form: Correctly identifying that Σ1 reduces to {A → B, A → C}, while Σ2 is {A → B, B → C}.
+10. Final Comparison: Realizing that A → C (from Σ1) and B → C (from Σ2) are not equivalent (Σ1 does not imply B → C), therefore the statement is False.
+
+COUNT: 10
+
+0.35

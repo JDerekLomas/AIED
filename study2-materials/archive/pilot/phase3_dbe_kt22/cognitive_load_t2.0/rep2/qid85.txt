@@ -1,0 +1,12 @@
+ELEMENTS:
+1. SQL syntax knowledge (specifically the `IN` predicate and subquery structure).
+2. Schema comprehension (identifying the Foreign Key relationship between `Enrol.CourseNo` and `Course.CourseNo`).
+3. Set-based logic (evaluating the inner query result first, then mapping it to the outer query).
+4. Data lookup/Cardinality assessment (finding the specific Course ID for ‘Relational Databases’ in a mental or provided dataset).
+5. Join/Filtering logic (mapping how many rows in the `Enrol` table correspond to that specific `CourseNo`).
+6. Definition recall (distinguishing between the number of rows returned versus the number of columns or specific values).
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

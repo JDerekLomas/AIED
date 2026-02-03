@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating between Entity and Attribute**: Recognising that an entity is an object/concept that exists independently, whereas an attribute (like Equipment ID) is a property of an entity.
+2. **Differentiating between Entity and Relationship**: Understanding that an entity represents a "thing," whereas a "Fitness centre" in this context is the boundary of the system/universe of discourse, not an entity within it.
+3. **Handling Multi-valued Attributes**: Identifying that a "Trainer's speciality" is a property of the Trainer entity (even if multi-valued) rather than a standalone entity type in this specific requirements description.
+4. **Parsing the "Noise"**: Navigating a dense paragraph of business rules (maintenance dates, phone numbers, status types) to isolate the core objects being described.
+5. **Identifying Entity Candidates**: Recognizing that "Fitness class" has its own independent attributes (name, start date, end date, time slot) and participates in multiple relationships (with members and trainers), which is the classic definition of an entity type.
+6. **Constraint Awareness**: Understanding that business rules (like start date being before end date) describe logic applied to an entity, not the entity itself.
+
+COUNT: 6
+
+0.65

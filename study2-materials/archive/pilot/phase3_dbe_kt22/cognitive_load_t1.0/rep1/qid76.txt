@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Identifying the structure of a SELECT statement and the behavior of the UNION operator.
+2. Distinct Data Retrieval: Understanding that SELECT StudentID retrieves specific attributes from the Study table.
+3. Logical Filtering (Condition 1): Evaluating the subset of students where CourseNo = 'COMP2400'.
+4. Logical Filtering (Condition 2): Evaluating the subset of students where CourseNo = 'STAT2001'.
+5. Set Operation Logic (Union): Recalling that UNION (unlike UNION ALL) automatically performs duplicate elimination.
+6. Table Relationship Mapping: Correlating the two result sets and identifying overlapping StudentIDs across the two conditions.
+7. Calculation/Counting: Summing the unique instances to reach the final result.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.65

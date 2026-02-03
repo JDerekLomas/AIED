@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `GRANT OPTION`: Recognizing that `WITH GRANT OPTION` allows a non-owner to delegate privileges.
+2. Understanding the Chain of Authorization: Recognizing that Peter’s privilege is dependent on the permission granted by Amy, which was derived from Linda.
+3. Distinguishing `REVOKE` targets: Identifying that Linda is revoking the *granting right* specifically, not the *access right* (Select) itself.
+4. Understanding `CASCADE` mechanics: Knowing how the `CASCADE` keyword propagates through the authorization graph.
+5. Analyzing the impact on descendants: Determining whether losing a "grant option" automatically invalidates existing grants made while the option was valid (Crucial step: In standard SQL, revoking the `GRANT OPTION` with `CASCADE` drops the dependent privileges granted by that user).
+6. Multi-step logical reasoning: Processing three sequential states and tracking the "privilege status" of two different entities simultaneously.
+7. Discerning between Option B and Option D: Navigating the nuance of whether Amy keeps her own select access (she does) while Peter loses his (he does, because his source lost the right to grant it).
+
+COUNT: 7
+
+0.35

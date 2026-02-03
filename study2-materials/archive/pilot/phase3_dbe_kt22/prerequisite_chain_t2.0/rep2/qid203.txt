@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of a "Transaction" in a database context.
+2. Knowing the definition of an "Exclusive Lock" (X-lock).
+3. Distinguishing between "Shared" (S) and "Exclusive" (X) lock privileges.
+4. Recognizing that an Exclusive lock is the highest level of lock and encompasses all lower-level operations.
+5. Identifying that "Read and Write" (Option C) represents the full functional capacity allowed under an X-lock, whereas A and B are incomplete and D is a subset of B.
+6. Mapping theoretical "Write" permissions to the physical ability to both view and modify the data.
+
+COUNT: 6
+
+0.75

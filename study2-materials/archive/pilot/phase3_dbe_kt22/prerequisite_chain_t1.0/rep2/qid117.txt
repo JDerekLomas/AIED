@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Understanding of Entailment ($\models$):** Knowing that $\Sigma_1 \models \Sigma_2$ means that all functional dependencies in $\Sigma_2$ must be logically derivable from $\Sigma_1$ using Armstrong's Axioms or closure properties.
+2. **Knowledge of Transitivity:** Recognizing that in $\Sigma_1$, if $A \to B$ and $B \to C$, then $A \to C$ is implied.
+3. **Attribute Closure Algorithm:** Ability to compute the closure of the left-hand side of each dependency in $\Sigma_2$ relative to the dependencies in $\Sigma_1$ (i.e., checking if $C \in A^+$ and $C \in B^+$ under $\Sigma_1$).
+4. **Distinguishing Set Equivalence from Entailment:** Understanding that $\Sigma_1$ and $\Sigma_2$ do not have to be identical; one merely needs to "cover" the other in this specific direction.
+5. **Handling Logical Directionality:** Correcting for the potential confusion that $\Sigma_2$ might not entail $\Sigma_1$ (since $A \to B$ is not in $\Sigma_2^+$), and focusing strictly on whether $\Sigma_1$ covers $\Sigma_2$.
+6. **Notation Interpretation:** Correctly reading the set notation for functional dependencies and the relational schema $R$.
+
+COUNT: 6
+
+0.65

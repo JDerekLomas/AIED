@@ -1,0 +1,16 @@
+To evaluate this question, we must consider the specific mechanics required to resolve a `NATURAL JOIN` in the absence of the schema data (the students must infer the relationship from typical database naming conventions and cardinality).
+
+**ELEMENTS:**
+1.  **Syntax Definition (NATURAL JOIN):** Recalling that this join type automatically matches columns with the same name.
+2.  **Schema Inference (Common Columns):** Identifying that `Course` and `Enrol` likely share a `CourseID` (or similar primary/foreign key).
+3.  **Logical Mapping (Cardinality):** Recognizing the relationship (likely 1-to-many: one course has many enrolments).
+4.  **Join Mechanism (Result Size):** Understanding that the number of rows in a join against a foreign key corresponds to the number of matches in the "many" side table (Enrol).
+5.  **Relational Constraints:** Assessing whether an Inner Join (the default for Natural Join) would filter out courses with no enrolments or enrolments with no valid courses (referential integrity).
+6.  **Arithmetic/Counting Logic:** Processing the provided numeric options against the logical size of the `Enrol` table (which is logically the maximum bound in a valid FK relationship).
+
+**ELEMENT COUNT: 6**
+
+Given that South African undergraduate classes often have a "missing middle" in terms of background, students frequently struggle with the specific behavior of `NATURAL JOIN` (often confusing it with a Cartesian Product/Cross Join if they haven't practiced) and may not realize that the number of rows is dictated by the child table. Without seeing the actual row counts of the tables provided in a prompt, the student must also hold the assumption of "typical" table sizes if this were part of a larger exam paper.
+
+Your estimate:
+0.55

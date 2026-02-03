@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Understanding the Hierarchy of Normal Forms:** Knowing that BCNF is "stronger" or "more restrictive" than 3NF (every BCNF relation is in 3NF, but not vice versa), which is necessary to invalidate Option A.
+2. **Definition of BCNF's Goal:** Understanding that Normalization (and BCNF specifically) targets redundancies arising from Functional Dependencies (FDs).
+3. **Nuance of Redundancy Elimination:** Recognizing that while BCNF eliminates redundancies caused by *functional dependencies*, it does not (and cannot) eliminate all forms of redundancy (such as those caused by Multi-valued Dependencies, which require 4NF).
+4. **Distinguishing "Eliminate" vs. "Minimise":** Careful reading of the terminology to understand that "eliminating redundancy" in a database context is usually a hyperbolic or context-specific claim, whereas "minimising" or "eliminating redundancy due to FDs" is the precise technical reality.
+5. **Logic of Option Selection:** Realizing that if the definition of BCNF is "to remove FDs where the determinant is not a superkey," the outcome is the reduction/minimization of data duplication, not the total eradication of all possible redundant data types.
+
+COUNT: 5
+
+0.45

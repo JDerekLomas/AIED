@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. Understanding the formal definition of a "candidate key" (a minimal superkey).
+3. Applying the closure property of superkeys (if $K$ is a superkey, any superset of $K$ is also a superkey).
+4. Distinguishing between "must be", "can be", and "must not be" in logical propositions.
+5. Recognizing that the primary key is a subset of possible candidate keys and is subject to additional constraints/selection criteria, but isn't automatically determined by the superkey status of its subsets.
+6. Eliminating distractors by checking if a counter-example exists (e.g., if {a,b} is a superkey, then {a,b,c} is guaranteed to be a superkey, which invalidates option A).
+7. Knowing that a candidate key cannot have a proper subset that is also a superkey (the minimality requirement), which makes B the correct inference.
+
+COUNT: 7
+
+0.55

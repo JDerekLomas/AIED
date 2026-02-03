@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Identifying the candidate key(s) from a set of functional dependencies (recognizing that A determines all attributes).
+2. Distinguishing between prime (A) and non-prime (B, C) attributes.
+3. Knowledge of the BCNF definition (the determinant of every non-trivial FD must be a superkey).
+4. Knowledge of the 3NF definition (the determinant is a superkey OR the dependent is a prime attribute).
+5. Understanding the hierarchy of Normal Forms (knowing that BCNF is stricter than 3NF; if it is BCNF, it must be 3NF).
+6. Multi-step reasoning: Correctly applying these definitions to the specific FD $A \to BC$.
+
+COUNT: 6
+
+0.72

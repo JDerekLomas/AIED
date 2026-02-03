@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading comprehension: Filtering out significant "noise" (attributes and relationships for technicians, equipment, administrators, and maintenance) to isolate the specific "member" and "fitness class" entities.
+2. Definition of "Participation Constraint": Knowing that it refers to whether every instance of an entity set must participate in at least one instance of a relationship set.
+3. Distinction between Total and Partial: Knowing "Total" means "must participate" and "Partial" means "optional participation".
+4. Analyzing business rules/cardinality in text: Identifying the specific phrase "A member may choose to participate in one or more fitness classes."
+5. Mapping "may choose" to optionality: Realizing that "may" implies a member can exist in the system without being enrolled in any class.
+6. Identifying the relationship direction: Correcting for the fact that while a class *must* be attended by members, a member *does not* have to attend a class (directional reasoning).
+7. Identifying the relationship name: Matching the text "participate" to the specific entity "member" as requested in the prompt.
+
+COUNT: 7
+
+0.65

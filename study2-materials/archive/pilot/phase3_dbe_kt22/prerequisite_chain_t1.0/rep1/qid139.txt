@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of 3NF (every non-prime attribute is non-transitively dependent on the primary key).
+2. Understanding the formal definition of BCNF (for every functional dependency X -> Y, X must be a superkey).
+3. Distinguishing between "less restrictive" and "more restrictive" (recognizing that BCNF has a stricter requirement for determinants than 3NF).
+4. Identifying the subset relationship between normal forms (knowing that all BCNF relations are in 3NF, but not all 3NF relations are in BCNF).
+5. Understanding the specific limitation of BCNF regarding redundancy (recognizing that while it eliminates redundancy caused by functional dependencies, it does not account for multi-valued dependencies/4NF).
+6. Multi-step reasoning to evaluate "eliminate" vs "minimize" in the context of data anomalies.
+7. Technical vocabulary comprehension (specifically the nuance of "restrictive" in a formal logic context).
+
+COUNT: 7
+
+0.55

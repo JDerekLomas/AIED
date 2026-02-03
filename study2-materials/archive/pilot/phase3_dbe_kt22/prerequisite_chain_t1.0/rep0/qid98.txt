@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Reading Comprehension (Filtering Noise):** Ability to parse a dense narrative and distinguish between descriptive text (business rules) and structural metadata.
+2. **Entity-Attribute Mapping:** Identifying which nouns in the text represent entities (Technician, Equipment, Class) versus their properties (Phone Number, Date, Time Slot).
+3. **Understanding Key Uniqueness:** Knowing that a key attribute must uniquely identify every instance of an entity across the entire database, not just within a subset.
+4. **Distinguishing Candidate Keys from Unique Constraints:** Recognizing that while a "Time Slot" is unique for fitness classes (as stated in the text), other options like "Phone Number" or "Name" are not guaranteed to be unique across all records or time.
+5. **Handling Attribute Domains (Technician vs. Employee):** Understanding that a property of a subclass (Technician's phone) may not suffice as a key for the superclass or even uniquely identify the technician if shared.
+6. **Multi-valued Attribute Identification:** Recognizing that "Specialities" or "Associate Members" imply one-to-many relationships, making associated attributes poor candidates for keys.
+7. **Temporal Logic:** Realizing that a "Date of maintenance" cannot be a key because multiple pieces of equipment could be maintained on the same day, or one piece multiple times.
+8. **Schema Inference:** Inferring the underlying ERD (Entity-Relationship Diagram) structure from the text to determine which attribute serves as the primary identifier.
+
+COUNT: 8
+
+0.65

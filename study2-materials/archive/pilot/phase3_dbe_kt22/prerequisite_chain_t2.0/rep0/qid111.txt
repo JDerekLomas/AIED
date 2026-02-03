@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of a Superkey (SK) (as a set of attributes whose closure contains all attributes in R).
+2. Distinguishing between a Superkey (SK) and a Candidate Key (CK) (realizing that an SK does not have to be minimal).
+3. Knowing how to compute the transitive closure of an attribute set under a given set of functional dependencies ($\Sigma$).
+4. Correctly applying the augmentation/transitivity rules: Identifying that $A \to B$ and $B \to C$ implies $A \to ABC$ but lacks attribute $D$.
+5. Recognizing that the attribute $D$ does not appear on the right-hand side of any dependency in $\Sigma$ and therefore must be part of any key.
+6. Multi-step reasoning: Concluding that because $D \notin A^+$, the set $\{A\}$ cannot functionally determine $D$, thus $\{A\}$ cannot be a superkey.
+7. Reading the schema and set notation correctly.
+
+COUNT: 7
+
+0.65

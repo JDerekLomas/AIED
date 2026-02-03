@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Knowledge of the definition of a Candidate Key (CK):** Understanding that a CK must satisfy both uniqueness (it determines all attributes) and minimality (no subset determines all attributes).
+2. **Knowledge of Functional Dependency (FD) notation:** Understanding that $X \to Y$ means $X$ determines $Y$.
+3. **Attribute Closure Algorithm:** Ability to compute the closure of a set of attributes ($X^+$) based on the given set $\Sigma$.
+4. **Identification of "Transitive" Key relationships:** Recognizing that in a cycle ($A \to B, B \to C, C \to A$), any element of the cycle can determine the others.
+5. **Evaluating the "Only" constraint:** Distinguishing between "$A$ is a CK" (which is true) and "$A$ is the *only* CK" (which is false).
+6. **Systematic search for multiple keys:** Checking if $B$ or $C$ also function as keys by repeating the closure process for each.
+7. **Attention to detail / Logical negation:** Not stopping at the first valid key found; students often identify one key and immediately select "True."
+
+COUNT: 7
+
+0.55

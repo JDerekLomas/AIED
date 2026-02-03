@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Definition of a Superkey: Understanding that a superkey is any set of attributes that uniquely identifies a tuple.
+2. Definition of a Candidate Key: Understanding that a candidate key is a *minimal* superkey.
+3. Set Inclusion Logic: Recognizing the hierarchical relationship between these sets (all candidate keys are superkeys, but not all superkeys are candidate keys).
+4. Definition of a Primary Key: Understanding that a primary key is a single candidate key chosen by the DBA.
+5. Distinguishing "Always" vs. "Sometimes": Evaluating the logical quantifiers in each statement (e.g., while a primary key is a candidate key, the reverse is not "always" true because there can be multiple candidate keys).
+6. Technical Vocabulary Nuance: Distinguishing between the similar-sounding terms "superkey" and "candidate key," which are often conflated by beginners.
+
+COUNT: 6
+
+0.65

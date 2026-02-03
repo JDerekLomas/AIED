@@ -1,0 +1,14 @@
+To accurately answer this question, a student must navigate several specific technical and conceptual hurdles.
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Table Instance:** The ability to look at a provided table (implied) and correctly identify the specific column labeled `CourseNo`.
+2.  **Understanding `SELECT` Scope:** Knowing that the query retrieves data only from the specified column and ignore others.
+3.  **Knowledge of `DISTINCT`:** Understanding that this keyword acts as a filter to remove duplicate values from the result set.
+4.  **Value Comparison:** Correcting identifying which values in the `CourseNo` column are identical (e.g., recognizing that 'CS101' and 'CS101' are the same entity).
+5.  **Counting Cardinality:** Physically counting the unique instances remaining after mental de-duplication.
+6.  **Avoidance of Null Pitfalls:** If the table contains NULLs, knowing how `DISTINCT` treats them (though usually handled intuitively, it is a formal rule).
+7.  **Mapping Result to Multiple Choice:** Successfully matching the derived count to the corresponding letter option without a transcription error.
+
+**COUNT: 7**
+
+0.85

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Definition of a Candidate Key**: Understanding that a candidate key is a minimal superkey that uniquely identifies a tuple.
+2. **Definition of a Superkey**: Understanding that a superkey is any set of attributes that uniquely identifies a tuple (a superset of a candidate key).
+3. **Property of Inclusion**: Reasoning that if a subset of attributes {a, b} ensures uniqueness, any set containing that subset (like {a, b, c}) must also ensure uniqueness.
+4. **Distinguishing Minimality**: Recognizing that while {a, b, c} is a superkey, it cannot be a "candidate key" because it is not minimal (violating Option A).
+5. **Understanding "Minimal" in Candidate Keys**: Knowing that if {a, b} is a candidate key, no proper subset (like {a}) can be a superkey (violating Option C).
+6. **Logical Elimination**: Mapping the definitions correctly to the provided multiple-choice options under exam pressure.
+
+COUNT: 6
+
+0.65

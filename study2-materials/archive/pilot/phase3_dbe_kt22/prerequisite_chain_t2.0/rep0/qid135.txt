@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Candidate Key Identification**: Correctly computing closures to find that both {A} and {BC} (specifically {B, C}) are candidate keys.
+2. **Prime Attribute Recognition**: Identifying that {A, B, C} are all prime attributes (part of at least one candidate key).
+3. **Definition of BCNF**: Understanding that for BCNF, every determinant must be a superkey.
+4. **Evaluation of BCNF**: Applying the BCNF rule to $BC \rightarrow A$ and recognizing that $BC$ is a superkey (making the relation BCNF compliant).
+5. **Definition of 3NF**: Understanding the two conditions for 3NF (either the determinant is a superkey OR the dependent is a prime attribute).
+6. **Evaluation of 3NF**: Recognizing that if a relation is in BCNF, it must necessarily be in 3NF (hierarchical relationship of normal forms), or evaluating it independently via the prime attribute rule.
+7. **Attribute Grouping Logic**: Correctly treating $\{B, C\}$ as a composite set in the dependency $BC \rightarrow A$ rather than treating B or C in isolation.
+8. **Logical Synthesis**: Combining the findings for 3NF and BCNF to select the correct multiple-choice pair.
+
+COUNT: 8
+
+0.55

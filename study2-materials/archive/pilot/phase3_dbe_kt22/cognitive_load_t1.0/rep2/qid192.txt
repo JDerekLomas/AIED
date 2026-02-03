@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding `GRANT`, `REVOKE`, `WITH GRANT OPTION`, and `CASCADE`.
+2. Ownership Hierarchy: Recognizing Linda as the root authority of the relation.
+3. Propagation Rule: Mapping the transfer of privileges from Linda to Amy, and Amy to Peter.
+4. Revocation Logic: Understanding that `REVOKE GRANT OPTION` targets the ability to delegate, not the base privilege itself.
+5. Keyword Specificity: Distinguishing between revoking a *privilege* versus revoking a *grant option*.
+6. Cascade Effect Evaluation: Determining if `CASCADE` triggers a recursive revocation of the base privilege for downstream users (Peter) when only the grant option is being revoked from the intermediate user (Amy).
+7. Logical State Tracking: Maintaining the "privilege map" across three sequential steps.
+
+ELEMENT COUNT: 7
+
+Your estimate:
+0.35

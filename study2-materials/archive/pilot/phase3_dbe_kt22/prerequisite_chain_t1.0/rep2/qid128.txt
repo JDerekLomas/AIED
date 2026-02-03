@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as a minimal superkey.
+2. Ability to compute the closure of a set of attributes ($X^+$) using Armstrong's Axioms or the closure algorithm.
+3. Identifying "essential" attributes: recognizing that if an attribute does not appear on the right-hand side (RHS) of any functional dependency in $\Sigma$, it *must* be part of every candidate key.
+4. Parsing a schema $R$ and a set of functional dependencies $\Sigma$ correctly.
+5. Understanding that a "True/False" question requires checking if the condition is necessary (universal) across all possible CKs for that specific relation.
+6. Multi-step reasoning: Scanning the RHS of all FDs ($B, AD, AB$) and noticing $C$ is absent, then concluding $C$ cannot be derived from any other attribute.
+
+COUNT: 6
+
+0.65

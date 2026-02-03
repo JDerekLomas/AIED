@@ -1,0 +1,13 @@
+To assess this question, we must look beyond the SQL syntax and consider the logical operations and data interpretation required.
+
+**PREREQUISITES:**
+1.  **Reading Schema/Data:** Ability to correctly parse the `Study` table and filter rows specifically for `StudentID` 102 and 103 without skipping lines.
+2.  **Understanding SELECT:** Knowing that the query retrieves only the `CourseNo` column values for the specified rows.
+3.  **The EXCEPT Operator:** Understanding that `EXCEPT` (or `MINUS` in some dialects) performs a set difference operation (Rows in A that are not in B).
+4.  **Set Semantics (Distinctness):** Recognizing that SQL `EXCEPT` implicitly performs a `DISTINCT` operation on the results, removing duplicates from the final count.
+5.  **Multi-step Set Logic:** Correcting identifying the set for 102 (e.g., {CS1, CS2, CS3}), the set for 103 (e.g., {CS2}), and performing the subtraction ({CS1, CS3}).
+6.  **Cardinality Estimation:** Final step of counting the remaining unique elements to match the multiple-choice options.
+
+**COUNT: 6**
+
+0.65

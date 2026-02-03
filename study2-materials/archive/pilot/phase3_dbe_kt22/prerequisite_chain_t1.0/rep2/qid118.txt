@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($X \to Y$).
+2. Understanding the semantic implication symbol ($\models$) in the context of sets of FDs (that $\Sigma_2 \models \Sigma_1$ means $\Sigma_2$ must logically imply every dependency in $\Sigma_1$).
+3. Ability to compute the closure of an attribute set ($X^+$) under a given set of FDs.
+4. Applying the membership algorithm: checking if $A \to B$ is in $\Sigma_2^+$ by calculating $A^+$ using only the rules in $\Sigma_2$.
+5. Recognizing that while $A \to C$ and $B \to C$ are given in $\Sigma_2$, there is no path to derive $B$ from $A$ in $\Sigma_2$.
+6. Distinguishing between equivalence ($\Sigma_1 \equiv \Sigma_2$) and one-way implication ($\Sigma_2 \models \Sigma_1$).
+7. Avoiding the "transitivity trap": $\Sigma_1$ implies $A \to C$ via transitivity, but $\Sigma_2$ does not imply $A \to B$.
+
+COUNT: 7
+
+0.55

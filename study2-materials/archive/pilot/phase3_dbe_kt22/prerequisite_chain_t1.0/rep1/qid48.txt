@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Definition of Candidate Key**: Understanding that {a,b} functionally determines all attributes in the relation (i.e., {a,b} → {a,b,c}).
+2. **Definition of Superkey**: Understanding that a superkey is any set of attributes that contains a candidate key as a subset.
+3. **Property of Supersets**: Recognizing that if a set X is a key, any set Y where X ⊆ Y is automatically a superkey.
+4. **Minimality Constraint**: Knowing that a candidate key must be minimal; therefore, a larger set like {a,b,c} can be a superkey but cannot be a *candidate* key if a proper subset {a,b} already functions as one (eliminating Option A).
+5. **Irreducibility of Keys**: Understanding that if {a,b} is a candidate key, its proper subsets (like {a}) do not necessarily determine the other attributes (eliminating Option C).
+6. **Logical Implication**: Distinguishing between "must be" (logical necessity) and "could be" in the context of relational theory.
+
+COUNT: 6
+
+0.65

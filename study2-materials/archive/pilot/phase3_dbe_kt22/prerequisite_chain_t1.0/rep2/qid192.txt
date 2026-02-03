@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the `GRANT OPTION` and its role in delegating administrative rights.
+2. Recognizing "Owner" status (Linda) as the root of the privilege chain.
+3. Understanding the syntax and effect of the `GRANT` statement between users.
+4. Distinguishing between revoking a specific privilege versus revoking only the `GRANT OPTION`.
+5. Understanding the `CASCADE` keyword and how it propagates through a dependency graph.
+6. Multi-step reasoning: Realizing that if the *root* privilege (Select) remains but only the *option* to grant it is removed, the dependent grants made while the option was valid typically persist (unless the privilege itself was revoked).
+7. Recognizing the specific behavior of SQL standards regarding `REVOKE GRANT OPTION... CASCADE`: specifically, that revoking the option from Amy forces the revocation of privileges from those who received it from her (Peter), because his privilege is dependent on her having the grant option.
+8. Distinguishing between Option A and Option B based on the specific mechanics of the "Grant Pipe" being cut.
+
+COUNT: 8
+
+0.35

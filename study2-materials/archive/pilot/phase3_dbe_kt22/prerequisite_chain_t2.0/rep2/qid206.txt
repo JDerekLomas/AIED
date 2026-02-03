@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of "Concurrency": Understanding that it refers to multiple transactions executing at the same time/interleaved rather than serially.
+2. Definition of "Throughput": Knowing this measures the amount of work (transactions) completed in a given time period.
+3. Definition of "Response Time": Understanding this is the duration from submission to completion for an individual user/task.
+4. Definition of "Utilization": Recognizing this relates to keeping system resources (CPU, Disk I/O) busy.
+5. Understanding Resource Overlap: Realizing that while one transaction waits for I/O, another can use the CPU (the mechanism behind the advantages).
+6. Multi-select logic: Recognizing that if two or more options seem correct, "All of the above" is the necessary choice.
+7. Distinguishing Performance from Correctness: Disregarding potential disadvantages (like race conditions/locking overhead) to focus specifically on the benefits.
+
+COUNT: 7
+
+0.85

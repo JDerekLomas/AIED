@@ -1,0 +1,17 @@
+To evaluate this question, we must consider the schema context (typically a "Student-Course-Enrolment" database common in South African curricula like those using the Coronel or Elmasri texts) and the cognitive load required to process a correlated subquery.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a `SELECT` statement with a subquery.
+2.  **The `EXISTS` Operator Definition:** Recalling that `EXISTS` returns true if the subquery returns *any* rows, regardless of the actual data selected.
+3.  **Correlated Subquery Logic:** Understanding that the inner query executes for every row of the outer table (`e`).
+4.  **Join Condition / Relationship:** Evaluating the predicate `c.CourseNo = e.CourseNo` to identify matching records between `Enrol` and `Course`.
+5.  **Referential Integrity Constraints:** Recalling (or inferring from provided data/schema) whether `Enrol.CourseNo` is a mandatory foreign key. If every enrollment must have a valid course, `EXISTS` is always true.
+6.  **Cardinality Evaluation:** Counting the total rows in the `Enrol` table (since the filter is effectively a semi-join that likely includes all enrollments).
+7.  **Distinction between `IN` and `EXISTS`:** Differentiating how the engine processes these similar-looking logical filters.
+
+**ELEMENT COUNT: 7**
+
+**ESTIMATE:**
+The question is a "trick" for novices. Students with weak backgrounds often try to "join" the tables and count unique courses (getting 4 or 7), or they misunderstand `EXISTS` as a count of matches. Only students who understand that `EXISTS` acts as a boolean filter on the *outer* table rows (and know the row count of the `Enrol` table) will succeed. Given the wide range of abilities, many will stumble on the subquery logic.
+
+0.45

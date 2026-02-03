@@ -1,0 +1,17 @@
+To accurately answer this question, a student must process the following information:
+
+**ELEMENTS:**
+1.  **SQL Syntax Knowledge:** Understanding the structure of a `SELECT *` statement.
+2.  **Join Type Definition:** Recalling the specific logic of a `LEFT JOIN` (retaining all rows from the left table even if no match exists in the right).
+3.  **Schema Interpretation:** Identifying which table is "Left" (`Course`) and which is "Right" (`Enrol`).
+4.  **Relationship Cardinality:** Analyzing the relationship between `Course` and `Enrol` (one-to-many) to determine how many times a single course row might repeat in the output.
+5.  **Matching Logic:** Evaluating the join condition (`Course.CourseNo = Enrol.CourseNo`) across the implicit datasets.
+6.  **Unmatched Row Handling:** Accounting for "orphan" courses (courses with zero enrollments) that must still appear in the result set with NULL values.
+7.  **Mental Arithmetic/Aggregation:** Summing the resulting rows based on the cardinality and unmatched rows.
+
+**ELEMENT COUNT: 7**
+
+This question is a classic "trap" for novices who confuse a `LEFT JOIN` with an `INNER JOIN` or a simple count of the right-hand table. At a South African university, where the demographic often includes students learning English as a second language alongside new technical syntax, the distinction between "Left" and "Inner" is a frequent point of failure in early assessments.
+
+**Your estimate:**
+0.55

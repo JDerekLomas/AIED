@@ -1,0 +1,11 @@
+PREREQUISITES:
+1.  **Transactional Control Flow:** Understanding that SQL commands are executed sequentially and that a `COMMIT` permanently persists all changes made during the transaction to the database.
+2.  **Transaction Boundary Recognition:** Knowing that a `COMMIT` statement terminates the current transaction.
+3.  **The "Nothing to Undo" Rule:** Understanding that a `ROLLBACK` only affects the *active* transaction; once a `COMMIT` has been issued, there is no active transaction to roll back.
+4.  **Durability (ACID):** Knowledge of the Durability property, which dictates that once a transaction is committed, it remains so, even in the event of subsequent commands or system failures.
+5.  **Distinguishing Logical vs. Syntax Error:** Recognizing that while placing a `ROLLBACK` immediately after a `COMMIT` is logically redundant or ineffective in many SQL dialects, it does not inherently "undo" the committed data.
+6.  **Schema and DML Reading:** Correctly parsing the `UPDATE` statements to understand what changes were attempted before the `COMMIT`.
+
+COUNT: 6
+
+0.35

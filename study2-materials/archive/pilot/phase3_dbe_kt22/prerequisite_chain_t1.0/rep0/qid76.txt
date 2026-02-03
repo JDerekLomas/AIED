@@ -1,0 +1,17 @@
+To provide an accurate count of prerequisites, we must look at the specific mental steps and knowledge points required to solve this problem, especially considering the common pitfalls associated with the `UNION` operator in SQL.
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Table:** Understanding how to map a `SELECT` statement to a data source (knowing that rows in `Study` represent the relationship).
+2.  **Filtering Logic (WHERE clause):** Correctly identifying which rows satisfy `CourseNo='COMP2400'` (identifying 3 rows).
+3.  **Filtering Logic (WHERE clause):** Correctly identifying which rows satisfy `CourseNo='STAT2001'` (identifying 2 rows).
+4.  **Keyword Knowledge (UNION vs. UNION ALL):** Knowing the fundamental rule that `UNION` removes duplicate rows by default, whereas `UNION ALL` does not.
+5.  **Data Inspection (Duplicate Detection):** Comparing the results of the two subsets to identify if any `StudentID` appears in both (Student 1001 appears in both results).
+6.  **Arithmetic/Set Operation:** Performing the final calculation ($3 + 2 - 1$ duplicate) to arrive at the result of 4.
+7.  **Distinguishing Projection:** Understanding that because only `StudentID` is selected, the uniqueness is checked only on that column, not the whole original row.
+
+**COUNT: 7**
+
+**RATIONALE FOR ESTIMATE:**
+In a South African undergraduate context, many students (especially those struggling with the jump from procedural programming to set-based logic) tend to treat `UNION` as a simple addition. A significant portion of the class will see 3 rows for COMP2400 and 2 rows for STAT2001 and immediately select "5" (Option B) without checking for duplicates or remembering the distinct nature of `UNION`. The "strong" students will catch the duplicate `1001`, while the "minimal exposure" students will likely miss it.
+
+0.55

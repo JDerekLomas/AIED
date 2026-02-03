@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition recall: Definition of a Candidate Key (CK) (uniqueness and minimality).
+2. Definition recall: Definition of an attribute closure ($X^+$).
+3. SQL/Relational Logic: Identifying "Prime" vs. "Non-prime" attributes.
+4. Logical heuristic: Recognizing that attributes not appearing on the RHS of any functional dependency must be part of every CK.
+5. Systematic Procedure: Scanning the RHS of $\Sigma$ (B, AD, AB) to identify that 'C' is missing.
+6. Constraint satisfaction: Verifying if 'C' alone is a key (it is not) or if it must be combined with other attributes.
+7. Distinguishing concepts: Differentiating between a Superkey and a Candidate Key.
+
+ELEMENT_COUNT: 7
+
+0.65

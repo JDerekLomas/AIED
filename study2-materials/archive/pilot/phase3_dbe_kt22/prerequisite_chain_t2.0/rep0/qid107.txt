@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Differentiating Entities from Attributes:** Ability to distinguish between the object (Administrator) and its properties (Landline, Name, etc.) within a dense narrative.
+2. **Identifying Shared Identity (Inheritance/Generalization):** Recognizing that "Administrator" is a category (subtype) of "Employee" and therefore inherits the unique ID mentioned at the start of the text.
+3. **Definition of a Key Attribute:** Understanding that a key must be unique and non-null for every instance of the entity.
+4. **Knowledge of Non-Key Attributes:** Identifying that attributes like "Address" or "Name" are typically non-unique (shared by multiple people).
+5. **Evaluating Narrative-Specific Constraints:** Filtering out the "Landline phone number" as a unique identifier because the text does not explicitly state it is unique, whereas it explicitly states IDs are unique for all employees.
+6. **Eliminating Irrelevant Details:** Processing a large paragraph of text to find the specific sentence regarding employee "unique IDs" located at the very beginning, separate from the description of administrators.
+
+COUNT: 6
+
+0.72

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of functional dependency (FD) equivalence (knowing that Σ1 ≡ Σ2 if and only if Σ1⁺ = Σ2⁺).
+2. Knowledge of the reflexivity and transitivity rules (Armstrong's Axioms) to compute the closure of a set of dependencies.
+3. Ability to perform attribute closure: specifically, calculating A⁺ under Σ1 to see if it yields {A, B, C}.
+4. Ability to perform attribute closure: specifically, calculating A⁺ under Σ2 to see if it yields {A, B, C}.
+5. Recognizing that Σ1 logically implies A → C (via transitivity: A→B, B→C), but Σ2 does not imply A → B.
+6. Identifying a counter-example (e.g., A → B is in Σ1 but cannot be derived from Σ2).
+7. Avoiding the "subset trap" (realizing that just because Σ2's dependencies are a subset of Σ1's logical implications, it doesn't mean they are equivalent in both directions).
+
+COUNT: 7
+
+0.65

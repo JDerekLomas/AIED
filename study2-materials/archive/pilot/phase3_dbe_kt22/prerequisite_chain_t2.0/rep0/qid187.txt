@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Recall the definition of Discretionary Access Control (DAC) and its primary mechanism (identity-based access).
+2. Distinguish DAC from Role-Based Access Control (RBAC) (relevant for rejecting D).
+3. Distinguish DAC from Mandatory Access Control (MAC) or certificate-based authentication (relevant for rejecting B).
+4. Understand the concept of "identity-based" permissions vs. "attribute-based" or "role-based" permissions.
+5. Identify the "Trojan Horse" vulnerability specific to DAC (the ability of a malicious program to inherit the user's permissions and leak data).
+6. Ability to evaluate the logical consistency of the options (e.g., recognizing that C contradicts the fundamental definition of DAC).
+7. Identifying that DAC's reliance on identity (rather than information flow or data labels) is precisely what enables the Trojan Horse exploit.
+
+COUNT: 7
+
+0.55

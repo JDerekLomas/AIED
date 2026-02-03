@@ -1,0 +1,12 @@
+ELEMENTS:
+1. Definition of a `NATURAL JOIN` (implicit join condition based on matching column names).
+2. Identification of common attributes between the `Course` and `Enrol` tables (schema analysis).
+3. Recall of the Join cardinality rule (matching primary key values to foreign key values).
+4. Evaluation of the specific data relationships (how many `Enrol` records exist for each `Course`).
+5. Distinction between `NATURAL JOIN`, `CROSS JOIN`, and `OUTER JOIN`.
+6. Understanding that the row count of a many-to-one join is determined by the "many" side (Enrol) provided every record has a match.
+
+ELEMENT COUNT: 6
+
+Your estimate:
+0.65

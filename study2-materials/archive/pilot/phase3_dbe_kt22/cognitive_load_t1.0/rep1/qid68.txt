@@ -1,0 +1,17 @@
+To evaluate this question from the perspective of Cognitive Load Theory, we must identify the specific schemas and data points a student must integrate to reach a solution.
+
+**ELEMENTS:**
+1.  **SQL Keyword Recognition:** Identifying that `SELECT` and `FROM` define the structure of the query.
+2.  **Projection Logic:** Understanding that specifying column names (`StudentID`, `Name`) does not filter the number of rows, only the width of the table.
+3.  **Table Identification:** Locating the `Study` table within the provided schema or database context.
+4.  **Cardinality Assessment:** Counting the number of records/rows present in the `Study` table.
+5.  **Distinction between Rows and Columns:** Ensuring the student does not confuse the number of attributes (2) with the number of records (N).
+6.  **Absence of WHERE clause:** Recognizing that without a filter, the result set equals the table's total row count.
+
+**ELEMENT COUNT: 6**
+
+**RATIONALE:**
+This is a low-interactivity "Recall and Apply" task. While there are 6 distinct elements, they are highly automated for students with any prior coding exposure. However, in a South African undergraduate context with high variance in prior exposure, "under-prepared" students often struggle with the distinction between horizontal (rows) and vertical (columns) dimensions of a table. If the `Study` table contains 4 rows, the common error is selecting "2" (the number of columns). Assuming the table provided in the prompt's context has 4 rows:
+
+**ESTIMATED CORRECT PROPORTION:**
+0.85

@@ -1,0 +1,14 @@
+To answer this question correctly, a student must navigate several conceptual and technical hurdles. In a South African undergraduate context, where many students are still bridging the gap between theoretical definitions and practical application, each of these represents a potential failure point.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Correcty identifying the relationship between the `Course` and `Enrol` tables (Primary Key to Foreign Key) despite the absence of the actual table data in the prompt.
+2.  **Relational Logic:** Understanding that an `INNER JOIN` filters the result set to only include matching rows from both tables.
+3.  **Cardinality Awareness:** Recognizing that the number of rows in a join result is determined by the number of matches in the child table (`Enrol`), not the parent table (`Course`).
+4.  **SQL Keyword Proficiency:** Distinguishing an `INNER JOIN` from a `CROSS JOIN` (which would result in a Cartesian product) or an `OUTER JOIN`.
+5.  **Data Set Inference:** The student must have access to or have correctly memorized the specific row counts for the standard "University" sample database used in the course (where typically `Enrol` has 12 rows and `Course` has 4 or 7). 
+6.  **Distinguishing Rows vs. Columns:** Ensuring they are counting the horizontal records rather than the vertical attributes.
+7.  **Mental Model of Join Execution:** Processing the logic that if every enrollment belongs to exactly one course, the total row count must equal the number of records in the `Enrol` table.
+
+**COUNT: 7**
+
+0.55

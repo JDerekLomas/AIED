@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding the definition of a Superkey (that a set of attributes must functionally determine all attributes in the relation).
+2. Understanding the definition of a Candidate Key (CK) specifically as a *minimal* superkey.
+3. Ability to compute the attribute closure of a set: (AB)+ = {A, B, C}.
+4. Understanding Functional Dependency (FD) notation (e.g., A → B means A determines B).
+5. Recognizing the property of minimality: testing if any proper subset of {A, B} (i.e., {A} or {B}) is also a superkey.
+6. Computing the closure of {A}: A+ = {A, B}. Since Σ includes A → B, and B is already known, {A} determines {A, B, C} (transitive via A→B and AB→C).
+7. Identifying that because {A} is a superkey, {A, B} is a superkey but *not* a Candidate Key because it is not minimal.
+8. Distinguishing between a "Superkey" and a "Candidate Key" (a common point of confusion).
+9. Applying logic to a Boolean (True/False) choice without being misled by the fact that AB *is* a superkey.
+
+COUNT: 9
+
+0.40

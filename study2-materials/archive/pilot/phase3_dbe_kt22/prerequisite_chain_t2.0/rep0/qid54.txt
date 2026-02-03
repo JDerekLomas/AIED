@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Distinguishing between Data Definition Language (DDL) and Data Manipulation Language (DML): Recognizing that modifying a table structure (schema) requires ALTER, whereas modifying rows requires DELETE.
+2. Recall of the specific `ALTER TABLE` syntax: Knowing the required keyword sequence (ALTER TABLE [Table] DROP COLUMN [Column]).
+3. Identification of the correct keyword for removal in DDL: Distinguishing between `DROP` (schema-level) and `DELETE` (tuple-level).
+4. Distinguishing between "Drop" (SQL standard) and "Delete" (incorrect in this context) as verbs within the Alter statement.
+5. Avoiding "Logical Drift": The tendency to select Option D because it "sounds" like it would remove data, a common mistake for novices.
+
+COUNT: 5
+
+0.65

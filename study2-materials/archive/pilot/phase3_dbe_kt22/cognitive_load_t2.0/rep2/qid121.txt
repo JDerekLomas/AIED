@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. Recall of the formal definition of a "Minimal Cover" (equivalence, no redundant FDs, no extraneous attributes).
+2. Knowledge of Functional Dependency (FD) logical implication/closure rules (Armstrong's Axioms).
+3. Recalling the procedure for testing equivalence: checking if Σ1 satisfies Σ2 and Σ2 satisfies Σ1.
+4. Evaluation of Σ2 ⊨ Σ1: Testing if A→B (in Σ2, so trivial) and AB→C (needs A+ under Σ2).
+5. Evaluation of Σ1 ⊨ Σ2: Testing if A→B (in Σ1, so trivial) and B→C (needs B+ under Σ1).
+6. Computation of attribute closures: Specifically $B^+_{\Sigma1}$ (which is $\{B\}$) to verify if B→C can be derived from Σ1.
+7. Evaluating the truth value of the subset/equivalence relationship based on step 6.
+8. Holding the original schemas (Σ1 vs Σ2) in memory to avoid swapping the direction of the "cover" relationship.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.35

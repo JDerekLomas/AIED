@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Recall of the formal definition of a trivial Functional Dependency (FD) (i.e., α → β is trivial if and only if β ⊆ α).
+2. Knowledge of standard FD notation where "XY" represents a set of attributes {X, Y}.
+3. Understanding set inclusion (subset) versus string length or general "simplicity."
+4. Ability to perform set membership checks on four distinct options.
+5. Identifying the correct subset relationship in C ( {Z} ⊆ {X, Y, Z} ) while rejecting the "superset" relationship in A (where the RHS contains attributes not in the LHS).
+6. Distinguishing "trivial" from "non-trivial" or "completely non-trivial" FDs.
+
+COUNT: 6
+
+0.65

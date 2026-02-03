@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Understanding the syntax and scope of the SQL `GRANT` command (DCL).
+2. Distinguishing between schema-level objects (relations/tables) and data-level components (tuples/rows).
+3. Knowing that Column-Level Security exists in SQL (the ability to grant privileges on specific attributes).
+4. Recognizing that standard SQL does not support granting privileges to individual rows (tuples) via the `GRANT` statement; this usually requires Row-Level Security (RLS) policies or views, not the `GRANT` command itself.
+5. Interpreting the phrase "cannot be granted privileges," which requires identifying the exception among the options.
+6. Handling the "None of the above" distractor, which requires confidence that at least one of the other options is indeed restricted.
+
+COUNT: 6
+
+0.55

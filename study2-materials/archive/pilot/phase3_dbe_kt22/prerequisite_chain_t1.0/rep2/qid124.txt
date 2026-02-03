@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Superkey: Understanding that a set of attributes must functionally determine all attributes in the relation ($AB^+ = \{A, B, C\}$).
+2. Definition of a Candidate Key (CK): Understanding the "minimality" or "irreducibility" requirement (no proper subset of the key can also be a superkey).
+3. Functional Dependency (FD) Closure: Ability to compute the closure of a set of attributes using Armstrong's Axioms or the closure algorithm.
+4. Distinguishing CK from Superkey: Recognizing that while $AB$ is a superkey, it might not be a "Candidate" key if a smaller subset works.
+5. Testing Subsets: Checking if $A \to ABC$ or $B \to ABC$ is true based on the given FDs.
+6. Identifying the specific dependency: Seeing that $A \to B$ exists, therefore $A$ is a superkey ($A \to B$, and $A, B \to C$, so $A \to ABC$).
+7. Logical Conclusion: Since $A \subset AB$ and $A$ is a superkey, $AB$ fails the minimality test for a Candidate Key.
+
+COUNT: 7
+
+0.55

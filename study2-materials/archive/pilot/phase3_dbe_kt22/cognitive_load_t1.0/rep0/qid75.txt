@@ -1,0 +1,16 @@
+To accurately answer this question, a student must process several interacting components. Notably, this question is a "trick" or higher-level conceptual check because it asks for the **number of rows in the result set**, not the result of the `COUNT(*)` itself.
+
+ELEMENTS:
+1. **Schema/Data Visualization**: Since the table data is not provided in your prompt, the student must mentally simulate or recall a specific dataset (Study table) to apply the logic.
+2. **GROUP BY Logic**: Understanding that rows are collapsed into unique buckets based on `CourseNo`.
+3. **COUNT(*) Function**: Understanding that this counts rows within each formed group.
+4. **HAVING Clause Filtering**: Applying a conditional filter to the aggregated results (excluding groups with only one entry).
+5. **Output Cardinality**: Distinguishing between the *value* returned by the count and the *number of rows* that satisfy the criteria.
+6. **SQL Execution Order**: Knowing that `GROUP BY` happens before `HAVING`, which happens before the final result set is formed.
+
+ELEMENT COUNT: 6
+
+**Estimated Proportion of Correct Answers:**
+In a diverse South African undergraduate cohort, many students will fall into the "distractor trap." They often confuse the result of the aggregate (the count) with the number of rows returned. If the data has two courses that meet the criteria, a significant portion will select "2" correctly, but many will mistakenly select a value corresponding to one of the counts (e.g., if one course has 4 students, they might pick A).
+
+0.55

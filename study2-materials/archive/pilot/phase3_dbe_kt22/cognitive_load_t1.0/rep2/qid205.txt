@@ -1,0 +1,11 @@
+ELEMENTS:
+1. Definition recall: Recalling the specific definition of "Phantom read."
+2. Concept distinction: Distinguishing between "Phantom read" and "Unrepeatable read" (row modification vs. row insertion).
+3. Logic evaluation: Mapping the scenario (re-reading a table + finding new rows) to the ACID/Isolation level violation categories.
+4. Definition recall: Recalling the definition of "Dirty read" (reading uncommitted data) to rule it out.
+5. Definition recall: Recalling the definition of "Lost update" (concurrency write conflict) to rule it out.
+
+ELEMENT COUNT: 5
+
+Your estimate:
+0.65

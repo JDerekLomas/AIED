@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Definition of a Minimal Cover: Understanding that a minimal cover must be equivalent to the original set (Σ1 ≡ Σ2).
+2. Logical Entailment (Forward): Checking if Σ2 can derive all dependencies in Σ1 (e.g., can Σ2 derive A → B and AB → C?).
+3. Logical Entailment (Reverse): Checking if Σ1 can derive all dependencies in Σ2 (e.g., can Σ1 derive B → C?).
+4. Attribute Closure Algorithm: Ability to compute A+ or B+ under a specific set of functional dependencies.
+5. Transitivity Rule: Recognizing that in Σ2, {A→B, B→C} implies A→C, which is needed to satisfy Σ1's requirement.
+6. Identifying Non-Equivalence: Recognizing that Σ1 cannot derive B→C (since B+ under Σ1 is just {B}), meaning the sets are not equivalent.
+7. Identifying Redundancy/Canonical Form: Knowing that a minimal cover must have no extraneous attributes (Σ1 has an extraneous 'B' in AB→C, but Σ2 is not necessarily its cover just because it is "simpler").
+8. Distinguishing "Equivalent" from "Cover": Realizing that even if Σ2 looks like a simplified version, it must cover the exact same set of constraints.
+
+COUNT: 8
+
+0.35

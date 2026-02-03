@@ -1,0 +1,17 @@
+In evaluating this question for undergraduate students, we consider the cognitive load required to distinguish between Data Manipulation Language (DML) and Data Definition Language (DDL), as well as specific SQL syntax patterns.
+
+**ELEMENTS:**
+1.  **Recall of Definition (Delete):** Understanding the specific requirement to remove *tuples* (data) while retaining the relation structure.
+2.  **Recall of Definition (Drop):** Understanding that "drop" typically refers to the removal of the schema/metadata.
+3.  **SQL Syntax Rules (DML):** Knowing the mandatory `FROM` keyword requirement for the `DELETE` statement.
+4.  **SQL Syntax Rules (DDL):** Knowing that `DROP TABLE` does not use a `FROM` clause.
+5.  **Distinction between Concept Pairs:** Evaluating the logical difference between the `DELETE` operation and the `DROP` operation to see which satisfies the constraint of leaving the table skeleton intact.
+6.  **Syntactic Logical Evaluation:** Filtering out the non-existent syntax `DROP FROM` (D) and the common novice error `DELETE TABLE` (A).
+
+**ELEMENT COUNT:** 6
+
+**Estimated Proportion Correct:**
+This is a classic "trap" question for novices. Stronger students will immediately identify "DELETE FROM," but many students with minimal exposure will confuse `DELETE TABLE` with `DROP TABLE` or intuitively choose Option A because it matches natural language. In a diverse South African CS cohort, the distinction between "dropping a schema" and "deleting rows" is a fundamental hurdle in the first few weeks of SQL.
+
+Your estimate:
+0.65

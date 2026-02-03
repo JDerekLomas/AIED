@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Natural Language Processing (Text Filtering):** Ability to ignore significant amounts of "distractor" information (technicians, equipment, administrators, associate members) to focus specifically on the relationship between members and fitness classes.
+2. **Entity-Relationship (ER) Terminology:** Understanding the specific meaning of "participation constraint" in the context of ER modeling.
+3. **Conceptualizing "Partial" vs. "Total":** Knowing that "Total" means every instance of an entity must participate, while "Partial" means some instances might not.
+4. **Interpreting Business Rules:** Identifying the specific sentence "A member **may** choose to participate in one or more fitness classes" and recognizing "may" as an indicator of optionality.
+5. **Relationship Cardinality vs. Participation:** Distinguishing between how many classes a member *can* join (one or more) versus whether they *must* join any at all.
+6. **Logical Mapping:** Correctly mapping the "optional" nature of the member's choice to the "Partial" participation constraint label.
+
+COUNT: 6
+
+0.72

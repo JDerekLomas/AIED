@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Interpreting $A \to B$ and $B \to C$ as constraints where the left-hand side determines the right-hand side.
+2. **Identifying the Candidate Key**: Applying the attribute closure algorithm to determine that $A^+ = \{A, B, C\}$, thus $A$ is the only candidate key.
+3. **Recognizing Prime vs. Non-prime Attributes**: Identifying $A$ as prime and $\{B, C\}$ as non-prime attributes.
+4. **Definition of BCNF**: Knowing that for every non-trivial FD $X \to Y$, $X$ must be a superkey.
+5. **Evaluating BCNF**: Recognizing that $B \to C$ violates BCNF because $B$ is not a superkey.
+6. **Definition of 3NF**: Knowing that for every non-trivial FD $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute.
+7. **Evaluating 3NF**: Recognizing that $B \to C$ violates 3NF because $B$ is not a superkey and $C$ is not a prime attribute (it is a transitive dependency).
+8. **Distinguishing Normal Forms**: Understanding the hierarchy (BCNF is stricter than 3NF) to select the correct combination.
+9. **Logical Elimination**: Mapping the findings (not 3NF, not BCNF) to the correct multiple-choice option (Option C).
+
+COUNT: 9
+
+0.55

@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1.  **Reading Formal Notation**: Understanding that $R$ represents the relation schema (attributes) and $\Sigma$ represents the set of Functional Dependencies (FDs).
+2.  **Computing Candidate Keys**: The ability to determine that $A^+ = \{A, B, C\}$, identifying $A$ as the sole candidate key (and recognizing $B$ and $C$ as non-prime attributes).
+3.  **Transitive Dependency Recognition**: Identifying that $A \to B \to C$ constitutes a transitive dependency for a non-prime attribute ($C$).
+4.  **Definition of 3NF**: Knowing that for each FD $X \to Y$, either $X$ is a superkey OR $Y$ is a prime attribute (and correctly checking $B \to C$ against these criteria).
+5.  **Definition of BCNF**: Knowing that for every FD $X \to Y$, $X$ must be a superkey (identifying that $B \to C$ violates this because $B$ is not a superkey).
+6.  **Comparison and Elimination**: Synthesizing the results (it fails BCNF because of $B \to C$; it fails 3NF because $C$ is not prime and $B$ is not a superkey) to select the correct multiple-choice option.
+7.  **Logical Consistency**: Distinguishing between the "nested" nature of Normal Forms (knowing that if a relation is in BCNF, it must be in 3NF, which helps eliminate Option D).
+
+COUNT: 7
+
+0.55

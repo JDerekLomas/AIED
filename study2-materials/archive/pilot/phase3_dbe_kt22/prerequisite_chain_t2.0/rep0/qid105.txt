@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Reading Comprehension (English as a Second Language context)**: Identifying the relevant sentence from a long, detail-heavy narrative text while ignoring numerous distractors (equipment, maintenance, associate members).
+2. **Identification of Entity Relationships**: Recognizing that the relationship "instruct" links "trainer" and "fitness class."
+3. **Knowledge of Participation Constraints (Total vs. Partial)**: Defining "Total" participation as requiring every instance of an entity to participate in the relationship, and "Partial" as allowing some instances to exist without it.
+4. **Keyword Extraction and Logic**: Identifying the specific phrase "Each fitness class is ... instructed by only one trainer" and understanding that "Each" (or "every") implies a mandatory involvement for the entity "fitness class."
+5. **Mapping Business Rules to Diagrammatic Concepts**: Translating the requirement that a class cannot exist without an instructor into the technical term "Total" participation.
+6. **Distinguishing Cardinality from Participation**: Not getting confused between the "only one trainer" (cardinality 1:1 or N:1) and the existence requirement (participation).
+
+COUNT: 6
+
+0.65

@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Differentiating ER Models from Relational/Physical Models:** Understanding that Chen-style or Crow's Foot ER diagrams primarily model entities, attributes, and relationships, rather than business logic or check constraints.
+2. **Identification of Domain Constraints:** Recognizing that "Start date must be before end date" is a domain or check constraint (semantic integrity) which cannot be visually represented in a standard ER diagram.
+3. **Identification of Cardinality and Participation:** Ability to map the phrase "instructed by only one trainer" to a 1:N relationship and "not all trainers deliver" to partial participation (optionality), both of which are standard ER components.
+4. **Distinguishing Cardinality from Frequency/Business Rules:** Realizing that "maintained at least twice a year" is a temporal business rule/constraint that exceeds the expressive power of basic structural cardinality (which usually deals with current associations, not counts over time).
+5. **Knowledge of Attribute Constraints (Enumeration):** Understanding that while an ER diagram can show a 'status' attribute, it generally does not explicitly model the specific allowed values (new, working, broken) as part of the diagrammatic notation itself (this is a metadata/domain definition).
+6. **Information Extraction:** Accurately parsing the lengthy text description to isolate specific rules associated with the options.
+7. **Negative Reasoning/Exclusion:** Systematically ruling out options A, B, and D because they involve constraints (check constraints, temporal business rules, or value-set restrictions) that standard ER syntax does not provide.
+
+COUNT: 7
+
+0.35

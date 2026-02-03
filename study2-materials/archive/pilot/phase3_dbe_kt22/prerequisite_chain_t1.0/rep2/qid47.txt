@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2. Understanding the "monotonicity" or "superset property" of superkeys (if $K$ is a superkey, any superset of $K$ is also a superkey).
+3. Ability to interpret relational schema notation $R(a,b,c)$ as the set of all available attributes in the relation.
+4. Distinguishing between a "candidate key" (which must be minimal) and a "superkey" (which does not have to be minimal).
+5. Logical reasoning to conclude that if $\{a, b\}$ provides uniqueness, adding attribute $c$ cannot destroy that uniqueness.
+
+COUNT: 5
+
+0.65

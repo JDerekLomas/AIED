@@ -1,0 +1,15 @@
+As an instructor, I evaluate this question as one that tests the fundamental understanding of the **Cartesian Product (Cross Join)**. While the SQL syntax is simple, students must correctly identify the underlying relational algebra operation being performed in the absence of a `WHERE` clause.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing that a comma-separated list in the `FROM` clause without a join condition results in a Cartesian product.
+2.  **Table Metadata Retrieval:** Identifying the number of rows in the `Course` table (from provided context/schema, assumed here to be 4).
+3.  **Table Metadata Retrieval:** Identifying the number of rows in the `Enrol` table (assumed here to be 7).
+4.  **Mathematical Operation:** Recalling and applying the rule that the size of a Cartesian product is $|A| \times |B|$.
+5.  **Distinction between Concepts:** Differentiating between a Cross Join and an Inner Join (where students might mistakenly look for matching keys).
+
+**ELEMENT COUNT: 5**
+
+**ESTIMATE:**
+At a South African university with a diverse cohort, this is a "discriminator" question early in the term. High-performing students will calculate $4 \times 7$ instantly. Weaker students or those with minimal exposure often guess the sum ($4+7=11$) or the count of the larger table ($7$), assuming a join occurred on matching records only.
+
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Knowing how to interpret the notation $X \rightarrow Y$.
+2. **Definition of a Candidate Key (CK):** Knowing that a CK must satisfy both uniqueness (its closure contains all attributes) and minimality (no proper subset is a superkey).
+3. **Attribute Closure Algorithm:** Ability to compute $\{A\}^+$, $\{B\}^+$, and $\{C\}^+$ correctly using the given set $\Sigma$.
+4. **Recognizing Transitivity/Cycles:** Identifying that the circular nature of the dependencies ($A \rightarrow B \rightarrow C \rightarrow A$) means each single attribute can determine every other attribute.
+5. **Testing for "Only":** Realizing that finding one CK ($A$) is insufficient to answer "True"; the student must actively check if $B$ or $C$ (or sets) are also CKs.
+6. **Logical Negation:** Understanding that if even one other CK exists (e.g., $B$), the statement "A is the **only** CK" is False.
+
+COUNT: 6
+
+0.55

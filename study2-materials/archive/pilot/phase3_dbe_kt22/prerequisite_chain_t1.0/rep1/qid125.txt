@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Knowing that a CK must uniquely identify all attributes in a relation (superkey property) and must be minimal (no proper subset is a superkey).
+2. Understanding Functional Dependency (FD) notation: Correctly interpreting $A \to B$ and $AB \to C$.
+3. Attribute Closure Algorithm: Knowing how to calculate $A^+$ (the set of attributes determined by $A$).
+4. Logical Reasoning (Transitivity): Recognizing that if $A \to B$, then $A$ also determines $AB$, and since $AB \to C$, then $A \to C$ via the augmentation/transitivity rules.
+5. Verification of Minimality: Confirming that no subset of $\{A\}$ (i.e., the empty set) is a key.
+6. Exhaustive Search/Exclusion: Realizing that while $A$ is a CK, one must check if other combinations (like $B$ or $C$ or $\{B,C\}$) could also be keys to satisfy the "only" part of the statement.
+7. Distinguishing Key types: Not confusing a Candidate Key with a Primary Key or a Superkey.
+
+COUNT: 7
+
+0.65

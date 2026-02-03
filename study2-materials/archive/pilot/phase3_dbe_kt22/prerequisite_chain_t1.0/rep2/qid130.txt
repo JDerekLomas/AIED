@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Knowledge of Functional Dependency (FD) notation ($A \to B$) and the concept of a closure set.
+2. Understanding the Lossless Join property: knowing that for a decomposition into $R1, R2$ to be lossless, $R1 \cap R2$ must be a superkey for either $R1$ or $R2$ in the context of the original FDs.
+3. Identifying the intersection: $R1 \cap R2 = \{B\}$.
+4. Applying the Lossless Join rule: Recognizing that because $B \to C$ is a given FD, $B$ is a key for $R2$, thus the decomposition is lossless.
+5. Understanding the Dependency Preservation property: knowing that the union of FDs enforceable on the individual projections ($R1$ and $R2$) must be able to derive all original FDs in $\Sigma$.
+6. Projecting FDs: Determining that $A \to B$ is preserved in $R1$ and $B \to C$ is preserved in $R2$.
+7. Synthesizing the check: Confirming that since both original FDs are directly present in the decomposed schemas, the decomposition is dependency preserving.
+8. Distinguishing between "Lossless Join" and "Dependency Preserving" to select the correct combination (Option A).
+
+COUNT: 8
+
+0.65

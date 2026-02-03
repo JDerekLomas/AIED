@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading a schema/table instance**: The student must correctly locate the "Study" table and the relevant columns ("CourseNo" and "StudentID").
+2. **Understanding the SELECT clause**: Knowing that `SELECT CourseNo` indicates the output is a set of values from that column, even if the question asks for a count of rows.
+3. **Understanding the WHERE clause filter**: Applying the conditional logic to each row in the table instance.
+4. **Logical OR semantics**: Correcting identifying that rows matching *either* StudentID 102 *or* 103 should be included in the result set (inclusion of both sets).
+5. **Set vs. Bag semantics in SQL**: Realizing that `SELECT` without `DISTINCT` preserves duplicates. If Student 102 appears twice, both rows are counted separately.
+6. **Counting accuracy**: Scanning the data and incrementing a mental or physical counter correctly without skipping or double-counting.
+7. **Mapping result set to row count**: Understanding that "how many rows" corresponds to the cardinality of the resulting projection.
+
+COUNT: 7
+
+0.85

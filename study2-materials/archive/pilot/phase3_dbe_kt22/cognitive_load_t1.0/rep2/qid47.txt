@@ -1,0 +1,14 @@
+As an instructor, I would classify this as a **low element interactivity** question because it tests a fundamental definition rather than a multi-step procedure or complex logic. However, for a novice, it requires connecting several abstract dots simultaneously.
+
+**ELEMENTS:**
+1.  **Definition Recall:** The definition of a "superkey" (a set of attributes that uniquely identifies a tuple).
+2.  **Superset Logic:** Understanding that adding attributes to a set that already uniquely identifies a row does not break the uniqueness property (monotonicity of superkeys).
+3.  **Relational Notation:** Interpreting the schema $R(a, b, c)$ and the set notation $\{a, b\}$.
+4.  **Logical Implication:** Evaluating the "must" condition in the context of set containment.
+
+**ELEMENT COUNT:** 4
+
+This question serves as a "trap" for students who confuse **Superkeys** with **Candidate Keys** (which must be minimal). At a South African university with a wide range of backgrounds, students with strong logical foundations will find this trivial, while those struggling with the formal mathematical definitions of relational algebra will likely overthink the "minimality" aspect and choose incorrectly.
+
+**Your estimate:**
+0.65

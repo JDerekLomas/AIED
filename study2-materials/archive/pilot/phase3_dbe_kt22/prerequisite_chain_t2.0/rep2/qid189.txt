@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the definition of SQL Injection (SQLi) as a vulnerability occurring when user-supplied data is concatenated into a query string without sanitization.
+2. Identifying `Request.form ("City")` as a source of untrusted user input (as opposed to hard-coded strings).
+3. Distinguishing between string concatenation with a variable containing user input (A) vs. string concatenation with a static, hard-coded variable (C).
+4. Reading and tracing a multi-step sequence of assignments in pseudo-code/JavaScript-like syntax.
+5. Understanding that fixed, constant queries (B) are inherently immune to injection attacks because there is no input vector.
+6. Recognizing the syntactical "trick" of single quotes used in the concatenation logic to terminate a string literal.
+7. Correctly evaluating the "None of the above" option against three distinct code samples.
+
+COUNT: 7
+
+0.62

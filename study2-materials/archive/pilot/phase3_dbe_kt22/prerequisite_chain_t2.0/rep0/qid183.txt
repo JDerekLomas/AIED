@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding of SQL Injection (SQLi) Mechanism**: Knowing that it involves injecting malicious SQL code into input fields to manipulate query logic (A is true).
+2. **Knowledge of Principle of Least Privilege**: Understanding that the attacker inherits the database user's permissions, which enables specific types of unauthorized actions (B is true).
+3. **Defense Strategies**: Distinguishing between *mitigation* (privilege reduction) and *prevention* (parameterized queries). Knowing that as long as a user has *any* permissions (e.g., SELECT), an injection can still occur, meaning removing privileges is not a complete prevention method (C is false).
+4. **Logical Negative Filtering**: Correctly interpreting the "Which of the following are **not** correct" phrasing, which is a common stumbling block for students who tend to identify correct statements instead.
+5. **Evaluating "None of the above"**: Recognizing that if one statement (C) is objectively false, option D is automatically incorrect.
+6. **Technical Vocabulary**: Distinguishing between "adequately constrained/sanitized" and "removing privileges" in the context of security.
+
+COUNT: 6
+
+0.65

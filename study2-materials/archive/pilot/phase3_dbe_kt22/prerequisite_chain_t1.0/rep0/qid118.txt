@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Understanding the notation of Functional Dependencies (FDs) and schema sets ($R, \Sigma$).
+2. Understanding the logical entailment/equivalence symbol ($\models$) in the context of FDs (i.e., $\Sigma_2 \models \Sigma_1$ means all dependencies in $\Sigma_1$ must be derivable from $\Sigma_2$ using Armstrong's Axioms).
+3. Ability to compute the closure of an attribute set under a given set of FDs ($X^+$).
+4. Distinguishing between the direction of entailment (checking if $\Sigma_2$ implies $\Sigma_1$ versus $\Sigma_1$ implies $\Sigma_2$).
+5. Identifying that for $\Sigma_2 \models \{A \to B, B \to C\}$, both $A \to B$ and $B \to C$ must be derivable from $\Sigma_2$.
+6. Executing the closure algorithm for $A$ under $\Sigma_2$: $A^+ = \{A, C\}$. 
+7. Recognizing that since $B \notin \{A, C\}$, the dependency $A \to B$ does not hold in $\Sigma_2$.
+8. Connecting the failure of one dependency ($A \to B$) to the "False" result for the entire entailment statement.
+
+COUNT: 8
+
+0.65

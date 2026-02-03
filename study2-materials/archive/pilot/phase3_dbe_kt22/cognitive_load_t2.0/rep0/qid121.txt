@@ -1,0 +1,13 @@
+ELEMENTS: 
+1. Recall of definition: Functional Dependency (FD) equivalence and "Minimal Cover" criteria.
+2. Recall of the closure algorithm (calculating $X^+$).
+3. Computing $A^+$ under $\Sigma_2$ to check if it derives $A \rightarrow B$.
+4. Computing $AB^+$ under $\Sigma_2$ (or observing transitivity $A \rightarrow B \rightarrow C$) to check if it derives $AB \rightarrow C$.
+5. Reversing the logic: computing $B^+$ under $\Sigma_1$ to check if $\Sigma_2$ is actually equivalent (logical equivalence is a prerequisite for a cover).
+6. Evaluating "Minimal Cover" constraints: checking for redundant FDs in $\Sigma_2$ (e.g., Is $B \rightarrow C$ necessary? Is $A \rightarrow B$ necessary?).
+7. Evaluating "Minimal Cover" constraints: checking for extraneous attributes in the LHS (e.g., $A \rightarrow B, B \rightarrow C$ already has singleton LHS, so no extraneous attributes to remove there).
+8. Comparative logic: Comparing the closure results of $\Sigma_1$ vs $\Sigma_2$ to conclude statement validity.
+
+ELEMENT COUNT: 8
+
+0.35

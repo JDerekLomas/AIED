@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Defining "Discretionary": Understanding that "discretionary" implies the owner of the resource (not just a central authority) has the power to pass on permissions.
+2. Distinguishing DAC from RBAC and MAC: Recalling that in Mandatory Access Control (MAC) or certain administrative models, the system or a DBA defines all policies, whereas in DAC, the owner holds the primary rights.
+3. Defining "Object Ownership": Understanding that in the context of DAC, the user who creates an object (table, view, etc.) is its "owner" by default.
+4. Recognizing the role of the DBA vs. Owner: Identifying that while a DBA has global power (Superuser), DAC specifically delegates management authority for a particular object to its specific creator.
+5. Evaluating Statement C vs. D: Recognizing that "discretionary" refers to the owner's discretion, not strictly the DBA's discretion (which would be a more centralized approach).
+6. Multi-step reasoning: Connecting "Owner" -> "Creator" -> "Full Control over object" -> "Power to Grant/Revoke."
+
+COUNT: 6
+
+0.65

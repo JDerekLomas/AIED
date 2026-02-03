@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Interpreting formal notation for a relation schema $R$ and a set of Functional Dependencies $\Sigma$.
+2. Computing the attribute closure to identify the Candidate Key (recognizing that $A^+ = \{A, B, C\}$, so $A$ is the sole candidate key).
+3. Distinguishing between prime attributes ($A$) and non-prime attributes ($B, C$).
+4. Recalling the definition of Third Normal Form (3NF): for every $X \to Y$, $X$ is a superkey OR $Y$ is prime.
+5. Identifying the 3NF violation: In $B \to C$, $B$ is not a superkey and $C$ is not prime (transitive dependency), thus it is not in 3NF.
+6. Recalling the definition of Boyce-Codd Normal Form (BCNF): for every $X \to Y$, $X$ must be a superkey.
+7. Identifying the BCNF violation: In $A \to B$, $A$ is a superkey, but in $B \to C$, $B$ is not a superkey.
+8. Reasoning that if a relation fails 3NF, it automatically fails BCNF (since BCNF is stricter).
+9. Mapping the logical conclusion (Not 3NF, Not BCNF) to the correct multiple-choice option (C).
+
+COUNT: 9
+
+0.55

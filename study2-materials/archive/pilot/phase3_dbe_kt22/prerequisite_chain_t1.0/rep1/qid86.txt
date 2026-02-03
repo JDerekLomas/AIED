@@ -1,0 +1,15 @@
+To provide an accurate estimate, I have assumed a standard sample schema (e.g., `Course` table with columns `CourseNo`, `Name`, `Credits` and `Enrol` table with `StudentID`, `CourseNo`) where the data shows 3 courses total, but only 2 have enrollments.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Ability to infer the number of columns in the `Course` table from a schema diagram or description (identifying that `SELECT *` refers to `Course`).
+2.  **SQL Syntax - Asterisk:** Understanding that `SELECT *` returns all columns of the source table.
+3.  **Correlated Subquery Logic:** Understanding how the `WHERE` clause iterates through each row of the outer table (`Course`).
+4.  **Predicate Logic (EXISTS):** Knowing that `EXISTS` returns true if the subquery returns one or more rows.
+5.  **Negation Logic (NOT):** Correcting applying the `NOT` operator to the `EXISTS` result (finding records in `Course` with *no* matching record in `Enrol`).
+6.  **Join Condition (c.CourseNo = e.CourseNo):** Identifying that the subquery is performing a lookup based on a specific key.
+7.  **Data Set Analysis:** Correcting counting the specific rows in the provided (but here implicit) dataset that satisfy the "no enrollment" condition.
+8.  **Result Set Dimensionality:** Distinguishing between the count of rows (vertical) and the count of columns (horizontal) to match the (Row, Column) format.
+
+**COUNT: 8**
+
+0.55

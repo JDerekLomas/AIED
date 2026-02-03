@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the notation of a Relation schema $R$ and a set of Functional Dependencies (FDs) $\Sigma$.
+2. Understanding the logical entailment symbol ($\vDash$) in the context of FDs (i.e., does the dependency follow from Armstrong's Axioms/closure).
+3. Knowing the definition of attribute closure ($X^+$).
+4. Ability to execute the attribute closure algorithm: starting with $D$, iteratively adding attributes from the right-hand side of FDs where the left-hand side is a subset of the current set.
+5. Applying the first step of closure: recognizing that $D \to ABC$ implies $\{D\}^+ = \{D, A, B, C\}$.
+6. Understanding the Decomposition Rule: knowing that if $D \to AC$ is to be true, $A$ and $C$ must both be in $D^+$.
+7. Multi-step reasoning: connecting the result of the closure $\{A, B, C, D\}$ to the target dependency $D \to AC$.
+8. Distinguishing between a "minimal cover" or "key" and a simple entailment (ensuring the student doesn't overthink the "minimality" of the dependency).
+
+COUNT: 8
+
+0.65

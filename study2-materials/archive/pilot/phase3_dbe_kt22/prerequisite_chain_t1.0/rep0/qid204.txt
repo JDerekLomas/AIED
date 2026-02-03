@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of the "Two-Phase" rule (Expanding vs. Shrinking phase).
+2. Knowledge that the shrinking phase is triggered by the first `UNLOCK` operation.
+3. Distinguishing between Basic 2PL (which allows releasing locks before commit) and Strict 2PL.
+4. Distinguishing between 2PL and Conservative (Static) 2PL (which requires acquiring all locks at the start).
+5. Understanding that "All of the above" is a distractor that requires verifying every individual statement's compatibility with the general protocol definition.
+6. Reading comprehension: Identifying that the question asks for the statement that is *always* true for the general protocol.
+
+COUNT: 6
+
+0.65

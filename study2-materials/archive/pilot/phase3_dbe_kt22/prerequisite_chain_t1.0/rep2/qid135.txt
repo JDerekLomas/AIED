@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependency notation**: Recognizing that $A \to BC$ means $A$ determines both $B$ and $C$.
+2. **Finding Candidate Keys**: Correcting identifying that both $\{A\}$ and $\{BC\}$ are candidate keys because their closures cover $\{A, B, C\}$.
+3. **Identifying Prime Attributes**: Recognizing that $A, B,$ and $C$ are all members of candidate keys and thus "prime."
+4. **Knowledge of 3NF Definition**: Applying the rule that a relation is in 3NF if, for every $X \to Y$, $X$ is a superkey OR $Y$ is prime. (Since all attributes are prime, 3NF is satisfied).
+5. **Knowledge of BCNF Definition**: Applying the rule that for every $X \to Y$, $X$ must be a superkey.
+6. **Detecting BCNF Violation**: Identifying that in $BC \to A$, the determinant $BC$ is a candidate key/superkey, and in $A \to BC$, $A$ is a candidate key/superkey.
+7. **Multi-step Logical Synthesis**: Evaluating both 3NF and BCNF conditions simultaneously to select the correct combined option.
+8. **Avoiding the "Subset" Trap**: Ensuring the student doesn't mistakenly think only single attributes can be keys, or that $B$ and $C$ individually are keys.
+
+COUNT: 8
+
+0.55

@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($X \to Y$) and the concept of a closure ($A^+$).
+2. Knowledge of the Lossless Join property definition (the intersection of the schemas must be a superkey for at least one of the schemas).
+3. Ability to identify the intersection of $R_1$ and $R_2$ (finding $\{A\}$).
+4. Testing if the intersection $\{A\}$ is a key for $\{A, B\}$ or $\{A, C\}$ by computing closures from the given $\Sigma$.
+5. Knowledge of the Dependency Preservation property definition (the union of the FDs enforced in the projections must be equivalent to the original set $\Sigma$).
+6. Ability to project the set $\Sigma$ onto the sub-relations (identifying that $A \to B$ is in $R_1$ and $A \to C$ is in $R_2$).
+7. Multi-step reasoning to determine if the "missing" FD ($B \to C$) can still be inferred from the FDs preserved in $R_1$ and $R_2$ (testing if $B \to C$ is in $(F_1 \cup F_2)^+$).
+8. Distinguishing between a property being "lost" versus being "implied" (recognizing that $B \to C$ cannot be checked locally in either $R_1$ or $R_2$ because $B$ and $C$ are in different schemas).
+9. Applying Boolean logic to match the two findings (Lossless: Yes; Preserving: No) to the correct multiple-choice option.
+
+COUNT: 9
+
+0.35

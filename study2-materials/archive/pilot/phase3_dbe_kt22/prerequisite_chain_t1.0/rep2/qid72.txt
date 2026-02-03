@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the `SELECT` clause: Recognizing that it identifies columns to return but does not inherently filter rows (unlike `DISTINCT`).
+2. Understanding the `FROM` clause: Identifying the source table `Study`.
+3. Reading a schema/table instance: Correcting mapping the provided data (assumed to be a table with specific rows for StudentID 102 and 103) to the query.
+4. Logical operator `OR`: Understanding that the result set includes rows where *either* condition is true (inclusive).
+5. Set membership/Row counting: Correcting identifying every individual row that satisfies the criteria, rather than counting unique values or unique students.
+6. Avoiding the "natural language" trap: In English, "102 or 103" can sometimes imply a choice of one; in SQL, it must be understood as a logical disjunction applied to each row.
+7. Distinguishing between Column values and Row counts: Knowing that if Student 102 has 2 courses and Student 103 has 1 course, the answer is the sum (3), not the number of unique IDs (2).
+
+COUNT: 7
+
+0.75

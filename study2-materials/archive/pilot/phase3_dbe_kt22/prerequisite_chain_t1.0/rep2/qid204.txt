@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding the definition of the "Two-Phase Locking" (2PL) protocol, specifically the "shrinking phase" rule (once a lock is released, no new locks can be acquired).
+2. Distinguishing between Basic 2PL and Strict/Rigorous 2PL (to recognize that A is the fundamental requirement of the general protocol).
+3. Evaluating Statement B: Understanding that while transactions *can* release locks at commit (Strict 2PL), the protocol allows for earlier release during the shrinking phase.
+4. Evaluating Statement C: Distinguishing between 2PL and Conservative/Static 2PL (pre-declaration of locks).
+5. Reasoning that if A is a core rule of the protocol and B/C are specific variations or different protocols entirely, D must be evaluated carefully.
+6. Identifying that "All of the above" is often a "distractor trap" in database exams when multiple statements sound "logical" but only one is a defining rule.
+
+COUNT: 6
+
+0.55

@@ -1,0 +1,17 @@
+To provide an accurate assessment, I am assuming standard pedagogical context where the student is provided with small sample data tables (e.g., a **Course** table with 4-5 rows and an **Enrol** table with 8-10 rows).
+
+**ELEMENTS:**
+1.  **Syntax Recognition:** Parsing the `SELECT *` and `FROM...JOIN` structure.
+2.  **Schema Mapping:** Identifying the Primary Key/Foreign Key relationship via `CourseNo`.
+3.  **Join Logic (LEFT JOIN):** Recalling that all rows from the left table must be preserved, even without matches.
+4.  **Matching Procedure:** Iterating through rows in `Enrol` that match each row in `Course`.
+5.  **Null Handling/Orphans:** Identifying rows in `Course` with no entries in `Enrol` and counting them as one row in the output.
+6.  **Cardinality Evaluation:** Calculating the sum of matches (1-to-many) plus the unmatched rows.
+7.  **Data Set Retrieval:** Holding the specific row counts of both source tables in memory to perform the calculation.
+
+**ELEMENT COUNT:** 7
+
+**ESTIMATE:**
+At a South African university with a diverse cohort, "Outer Joins" often act as a filter between students who understand the relational model and those who guess based on simple "intersection" logic. Many students will mistakenly perform an `INNER JOIN` (Resulting in 8) or simply add the table counts together (Resulting in 13) if they do not grasp that a `LEFT JOIN` preserves the "left" side's totality while expanding for multiple matches.
+
+0.55

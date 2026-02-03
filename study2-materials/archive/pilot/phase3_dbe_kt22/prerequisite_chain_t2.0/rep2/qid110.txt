@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency notation**: Recognizing that $X \to Y$ means $X$ determines $Y$.
+2. **Definition of Attribute Closure**: Knowing that $A^+$ is the set of all attributes functionally determined by $A$ under the set $\Sigma$.
+3. **Knowledge of Reflexivity**: Knowing that $A$ is always in its own closure ($A \to A$).
+4. **Knowledge of Transitivity**: Understanding that if $A \to B$ and $B \to C$, then $A \to C$.
+5. **Set Membership/Growth**: Understanding the iterative process (the closure algorithm) where new attributes are added to the set until no more can be found.
+6. **Distinguishing "A determines ABC" from "ABC determines A"**: Correctly identifying that the dependency $D \to ABC$ cannot be triggered because $D$ is not in the set being built $\{A, B, C\}$.
+7. **Schema literacy**: Correctly identifying the members of set $R$ to ensure all potential attributes are considered and not accidentally inventing $D$.
+8. **Avoiding "Reverse Transitivity" errors**: Preventing the common misconception that if $B \to C$ and $A \to B$, $C$ must also somehow lead back to $D$.
+
+COUNT: 8
+
+0.65

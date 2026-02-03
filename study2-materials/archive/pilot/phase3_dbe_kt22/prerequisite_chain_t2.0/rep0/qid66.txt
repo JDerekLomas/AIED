@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Understanding the "Primary Key" definition**: Knowing that a primary key uniquely identifies a tuple and consists of one or more attributes.
+2. **Identifying a "Composite Key"**: Recognizing that in the given schema `Enrol`, the primary key is made up of three specific attributes ({StudentID, CourseNo, Semester}) rather than just one.
+3. **Definition of "Entity Integrity"**: Recalling the specific rule that no component of a primary key may accept null values.
+4. **Logical Quantification/Distinction**: Distinguishing between "none" (universal negation of nulls) and "at least one" (partial negation), and understanding how the rule applies to the set of attributes as a whole.
+5. **Differentiating Constraint Types**: Avoiding confusion between Entity Integrity (nulls in PKs) and Referential Integrity (foreign keys) or General Null Constraints (individual attributes).
+
+COUNT: 5
+
+0.72

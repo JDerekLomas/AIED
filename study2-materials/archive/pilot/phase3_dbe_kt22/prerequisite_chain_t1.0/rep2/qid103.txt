@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading Comprehension (Filtering Noise):** The ability to ignore irrelevant entities (equipment, administrators, associate members) to focus specifically on "trainer" and "fitness class".
+2. **Identifying Entity-Relationship Mapping:** Recognising that "instructed by only one trainer" describes the participation of the trainer in the class.
+3. **Understanding Relationship Directionality:** Distinguishing between the trainer's perspective (one trainer can deliver multiple classes) and the class's perspective (one class has exactly one trainer).
+4. **Interpreting "Not all trainers deliver fitness classes":** Understanding that this refers to participation constraints (optionality) rather than the cardinality ratio.
+5. **Knowledge of Cardinality Definitions:** Knowing that "1:N" means one instance of entity A is associated with many instances of entity B, but one instance of entity B is associated with only one instance of entity A.
+6. **Multi-step Reasoning:** Synthesizing two separate sentences ("Each fitness class is... instructed by only one trainer" and the implication that a trainer can instruct more than one) to determine the ratio.
+7. **Mapping Natural Language to SQL/ER Notation:** Translating the phrase "only one" to "1" and the possibility of multiple classes to "N".
+
+COUNT: 7
+
+0.65

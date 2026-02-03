@@ -1,0 +1,13 @@
+To answer this question correctly, a student must navigate several specific conceptual and procedural hurdles.
+
+**PREREQUISITES:**
+1.  **Reading a Schema/Table:** Ability to identify the column `CourseNo` within a provided table and isolate that specific data vertical.
+2.  **Understanding `SELECT`:** Knowing that the command retrieves data from the specified column rather than the entire row or table.
+3.  **Keyword Knowledge (`DISTINCT`):** Understanding that `DISTINCT` eliminates duplicate values in the result set. This is the primary "trap" or failure point.
+4.  **Mathematical Counting (Set Cardinality):** Identifying the unique elements in a list (e.g., if the list is {CS1, CS2, CS1, CS3}, the student must count only unique instances).
+5.  **Excluding Metadata:** Distinguishing between the header/attribute name and the actual data rows (not counting the title "CourseNo" as a row).
+6.  **Syntactic Mapping:** Mapping the visual representation of the `Study` table provided in the exam paper to the query logic.
+
+**COUNT: 6**
+
+0.75

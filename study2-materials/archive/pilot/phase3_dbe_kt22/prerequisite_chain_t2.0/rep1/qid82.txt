@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the Cartesian Product (Cross Join): Knowing that "FROM Course, Enrol" conceptually pairs every row of one table with every row of the other before filtering.
+2. Join Condition logic: Recognizing "Course.CourseNo = Enrol.CourseNo" as an Equi-join that filters the Cartesian product to only matching records.
+3. Filtering logic (WHERE clause): Understanding that the "AND Year = 2018" acts as an additional constraint on the resulting joined set.
+4. Schema Reading: Identifying which table contains the 'Year' column and which contains 'CourseNo' from an implied or provided schema diagram/data instance (even if not visible here, the student must assume the existence of these links).
+5. Cardinality reasoning: Realizing that the number of rows is determined by the number of enrollments that satisfy the year condition (assuming a Course exists for every Enrol record).
+6. Basic counting/arithmetic: Correcting identifying the count from a provided table instance (not shown in the prompt, but essential for the specific numerical options A-D).
+7. Distinguishing result sets from table sizes: Avoiding the common error of simply adding the row counts of the two tables together.
+
+COUNT: 7
+
+0.65

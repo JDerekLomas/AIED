@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Distinguishing between DDL (Data Definition Language) and DML (Data Manipulation Language).
+2. Knowledge of the specific keyword `DROP` for removing schemas/structures.
+3. Knowledge of the specific keyword `DELETE` for removing rows/tuples.
+4. Distinguishing between "relation" (the relational model term) and "table" (the SQL implementation term).
+5. Recognizing that `DROP TABLE` is the standard SQL syntax, whereas `DROP RELATION` is syntactically incorrect in most RDBMS environments.
+6. Understanding that `DELETE FROM` requires a predicate or removes data but leaves the schema intact.
+
+COUNT: 6
+
+0.85

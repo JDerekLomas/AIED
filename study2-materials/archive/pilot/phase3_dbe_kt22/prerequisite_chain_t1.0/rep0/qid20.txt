@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Understanding set subtraction notation ($T - S$): Knowing to remove elements of $S$ from $T$.
+2. Executing set subtraction correctly: Identifying that $\{1, 2, 3\} - \{1, 2\} = \{3\}$.
+3. Understanding the Cartesian product symbol ($\times$): Knowing it results in a set of ordered pairs, not a union or scalar multiplication.
+4. Constructing ordered pairs: Correctly mapping elements from $S$ to the result of $(T - S)$.
+5. Distinguishing between a set of atoms and a set of tuples: Recognizing that the answer must be in the form $\{(a,b), ...\}$ and not $\{a, b, ...\}$.
+6. Handling small-set edge cases: Not being tripped up by the simplicity of the single-element result in the second operand.
+
+COUNT: 6
+
+0.65

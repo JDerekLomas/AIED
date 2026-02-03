@@ -1,0 +1,19 @@
+To rate the element interactivity of this question for undergraduate students, we must consider that the student is performing a mental set operation rather than just a simple query retrieval. 
+
+The student must process two sub-queries, compare their result sets, and apply the logic of subtraction while keeping track of counts.
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Understanding the structure of a `SELECT...FROM...WHERE` statement.
+2.  **Definition Recall:** Identifying the specific function of the `EXCEPT` (Difference) set operator.
+3.  **Logical Condition Evaluation (A):** Mentally filtering rows for `StudentID=102` (Set A).
+4.  **Logical Condition Evaluation (B):** Mentally filtering rows for `StudentID=103` (Set B).
+5.  **Relational Logic (Subtraction):** Understanding that elements in Set A that also appear in Set B must be removed.
+6.  **Cardinality/Counting:** Maintaining an active count of the remaining elements in the head (distinguishing between the *values* and the *count of rows*).
+7.  **Data Processing (External Table lookup):** (Implicit) The student must hold the specific mappings of CourseNo to StudentID from a provided table image or text block.
+
+**ELEMENT COUNT: 7**
+
+While the query is "simple," it requires holding the result of the first query in temporary storage while processing the second query to find the intersection. In my experience with South African undergraduate cohorts, students frequently struggle with `EXCEPT` because they mistake it for an `OR` or `NOT EQUAL` filter rather than a set difference. The heterogeneous nature of the class means the "weakest link" students will likely fail to map the logic to the count.
+
+**Your estimate:**
+0.68

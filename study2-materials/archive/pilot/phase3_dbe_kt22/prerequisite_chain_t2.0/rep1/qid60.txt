@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. Recognition of the keyword 'INSERT' as the standard DML command for adding data (distinguishing it from synonyms like 'enter').
+2. Knowledge of the mandatory 'VALUES' clause in a standard SQL INSERT statement.
+3. Correct sequencing of clauses (command, target relation, then data values).
+4. Distinguishing between the 'INSERT INTO table (columns)' syntax and the 'VALUES (data)' syntax (knowing that B is valid while C is missing the keyword).
+5. Understanding that relational algebra terms (tuple, relation) map to SQL terms (row, table).
+
+COUNT: 5
+
+0.85

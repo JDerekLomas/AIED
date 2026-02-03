@@ -1,0 +1,14 @@
+ELEMENTS:
+1. Definition recall: 3NF formal definition (non-prime attributes must not be transitively dependent on a key).
+2. Definition recall: BCNF formal definition (every determinant must be a superkey).
+3. Candidate Key derivation: Computing attribute closures (e.g., $\{AB\}^+ = \{A,B,C,D\}$ and $\{BC\}^+ = \{A,B,C,D\}$) to identify keys.
+4. Prime Attribute identification: Recognizing that $\{A, B, C\}$ are all prime attributes because they belong to at least one candidate key.
+5. Evaluation of $AB \to CD$: Checking if $AB$ is a superkey for BCNF/3NF.
+6. Evaluation of $BC \to A$: Checking if $BC$ is a superkey for BCNF/3NF.
+7. Evaluation of Prime Status: Recognizing that in $BC \to A$, even if $BC$ were not a key, $A$ being prime satisfies the 3NF condition but violates BCNF.
+8. Logical synthesis: Comparing the results of both dependencies against both normal form criteria simultaneously to select the correct combination (A, B, C, or D).
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.35

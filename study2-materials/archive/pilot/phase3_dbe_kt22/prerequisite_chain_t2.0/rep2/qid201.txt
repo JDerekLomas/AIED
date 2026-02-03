@@ -1,0 +1,12 @@
+PREREQUISITES: 
+- Recall of the four standard SQL transaction isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable).
+- Understanding the definition of a "dirty read" (reading uncommitted data).
+- Understanding the definition of an "unrepeatable read" (data changing between two reads in the same transaction).
+- Understanding the definition of a "phantom read" (new rows appearing between two reads).
+- Knowledge of the isolation hierarchy/matrix (knowing which levels prohibit which phenomena).
+- Ability to distinguish between "Read Committed" and "Repeatable Read," which are the two most frequently confused levels.
+- Ability to perform a process of elimination based on the specific constraints (NOT dirty, BUT allows others).
+
+COUNT: 7
+
+0.65

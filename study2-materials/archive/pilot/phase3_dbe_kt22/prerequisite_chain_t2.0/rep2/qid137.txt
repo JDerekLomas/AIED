@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Understanding functional dependency (FD) notation ($X \to Y$).
+2. Capability to compute the closure of an attribute set ($X^+$) to identify candidate keys.
+3. Correctly identifying ALL candidate keys for $R$ ($ABC$ and $ABD$ are not keys; $AB$ and $BC$ are not enough; finding $\{AB, BC\}$).
+4. Identifying prime vs. non-prime attributes ($A, B, C$ are prime; $D$ is non-prime).
+5. Recalling the formal definition of 3NF (For every $X \to A$, $X$ is a superkey OR $A$ is prime).
+6. Recalling the formal definition of BCNF (For every $X \to A$, $X$ is a superkey).
+7. Applying 3NF definition: Checking $BC \to A$ (where $A$ is prime) allows 3NF even if $BC$ isn't a key.
+8. Applying BCNF definition: Recognizing $BC \to A$ violates BCNF because $BC$ is not a superkey ($BC^+ = \{A, B, C\}$, missing $D$).
+9. Multi-step logical synthesis to choose between the four combinatorial options.
+
+COUNT: 9
+
+0.35

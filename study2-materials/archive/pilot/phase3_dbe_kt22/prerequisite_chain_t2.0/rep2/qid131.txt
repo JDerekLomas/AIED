@@ -1,0 +1,14 @@
+PREREQUISITES:
+1. **Understanding Functional Dependency (FD) Notation**: Knowing that $A \to B$ means $A$ uniquely determines $B$.
+2. **Lossless Join Property Knowledge**: Knowing the formal condition for a decomposition $(R_1, R_2)$ to be lossless (the intersection $R_1 \cap R_2$ must be a superkey for at least one of the schemas).
+3. **Superkey Derivation**: Calculating the closure of a set of attributes ($A^+$) within a schema to determine if it acts as a key for that sub-relation.
+4. **Dependency Preservation Definition**: Understanding that the union of FDs enforceable on the sub-relations ($(F_{R1} \cup F_{R2})^+$) must be equivalent to the original set $\Sigma^+$.
+5. **Projection of FDs**: Identifying which original FDs apply to $R_1 = \{A, B\}$ and $R_2 = \{A, C\}$.
+6. **Transitivity Identification**: Recognizing that $B \to C$ is a functional dependency in the original set but $B$ and $C$ never appear in the same sub-schema.
+7. **Inference (Closing the Gap)**: Checking if the missing dependency ($B \to C$) can be inferred from the preserved dependencies ($A \to B$ and $A \to C$).
+8. **Schema Interpretation**: Correct identification of attributes within $R, R_1,$ and $R_2$ and their intersections.
+
+COUNT: 8
+
+Your estimate:
+0.55

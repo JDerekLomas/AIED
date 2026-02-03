@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. Definition of a **Candidate Key** (uniqueness and minimality).
+2. Definition of a **Superkey** (uniqueness, but not necessarily minimal).
+3. The logical relationship between keys: identifying that every candidate key is, by definition, also a superkey.
+4. Property of **Set Inclusion/Superset property**: understanding that adding any attribute (in this case 'c') to an existing superkey results in another superkey.
+5. Ability to distinguish between **"must be"** and **"could be"**: rejecting option C (which *might* be true in specific instances but is not a logical necessity) and option A (which violates the minimality requirement of candidate keys).
+6. Basic notation of relational schemas: understanding that R(a,b,c) defines the set of all available attributes.
+
+COUNT: 6
+
+0.65

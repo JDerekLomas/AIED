@@ -1,0 +1,15 @@
+To evaluate this question, we must look beyond the surface level of SQL syntax. For a student at a South African university where prior exposure varies, this question tests the conceptual distinction between a bag semantics operation (like `OR` or `UNION ALL`) and the set semantics of `UNION`.
+
+**ELEMENTS:**
+1.  **Syntax Recognition:** Identifying the `SELECT`, `FROM`, `WHERE` structure across two distinct queries.
+2.  **Relational Selection/Projection:** Mentally filtering rows for 'COMP2400' and 'STAT2001' based on the provided (implied) table data.
+3.  **Concept Recall (Set Operators):** Distinguishing the specific behavior of `UNION` vs. `UNION ALL`.
+4.  **Logical Evaluation (Duplicate Elimination):** Identifying which `StudentIDs` appear in *both* results and performing the mental subtraction required by set theory.
+5.  **Working Memory Integration:** Holding the result set of Query A and Query B simultaneously to perform the comparison.
+
+**ELEMENT COUNT:** 5
+
+**Estimated proportion correct:**
+While the SQL itself is basic, "trap" questions involving `UNION` typically see a 20-30% error rate due to students failing to account for duplicate elimination, especially if they are more accustomed to programming logic where `OR` conditions are the primary focus. Given the diverse background of South African undergraduate cohorts, many will jump to a simple addition of the two sets.
+
+0.65

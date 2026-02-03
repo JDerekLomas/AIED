@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Understanding the formal definition of a **superkey** (a set of attributes that uniquely identifies a tuple).
+2. Understanding the formal definition of a **candidate key** (a minimal superkey).
+3. Recognizing the subset/superset relationship between keys (the "closure property" of superkeys).
+4. Logic: Identifying that adding attributes to a superkey always results in another superkey (invalidating A).
+5. Logic: Distinguishing between "must be" and "could be" (invalidating B and C, as {a} is only a candidate key if no subset of {a}, i.e., the empty set, is a superkey, or more simply, if we don't know if a smaller subset exists—though in this specific schema, {a} is the smallest non-empty set).
+6. Critical Thinking: Recognizing that the question is a "trick" or "none of the above" type scenario, as none of the provided options are logically necessary truths.
+7. Reasoning under pressure: Not assuming that because {a} is a superkey, it is automatically "minimal" (the definition of a candidate key).
+
+COUNT: 7
+
+0.35

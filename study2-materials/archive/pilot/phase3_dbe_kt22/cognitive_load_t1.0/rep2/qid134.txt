@@ -1,0 +1,13 @@
+ELEMENTS:
+1. Identify the Candidate Key: Student must determine that {A} is the only key since it functionally determines all attributes.
+2. Recall 3NF definition: Attributes must be part of a key or non-transitively dependent (Prime vs. Non-prime distinction).
+3. Recall BCNF definition: Every determinant must be a superkey.
+4. Evaluate A→BC against 3NF: Check if A is a superkey or if BC are prime attributes.
+5. Evaluate A→BC against BCNF: Check if A is a superkey.
+6. Compare evaluation results to combine logic for the final selection (A and B, or not A and B).
+7. Distinction between "Prime" and "Non-prime" attributes in the context of the specific relation R.
+
+ELEMENT_COUNT: 7
+
+Your estimate:
+0.65

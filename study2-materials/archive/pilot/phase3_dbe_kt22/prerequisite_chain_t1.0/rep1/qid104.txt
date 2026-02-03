@@ -1,0 +1,11 @@
+PREREQUISITES:
+1. **Natural Language Processing (Text Filtering):** Ability to ignore extensive "distractor" information (administrators, technicians, equipment, maintenance, associate members) to focus specifically on the relationship between trainers and fitness classes.
+2. **Schema Mapping:** Identifying the relevant entities ("Trainer" and "Fitness Class") and the specific relationship ("Instruct") within the narrative.
+3. **Definition of Participation Constraint:** Understanding that "participation" refers to whether *every* instance of an entity must participate in a relationship (Total) or if *some* instances can exist without it (Partial).
+4. **Logical Inference (Existence Check):** Identifying the specific sentence "Not all trainers deliver fitness classes."
+5. **Mapping Narrative to Constraint:** Mapping the phrase "Not all [Entity A] do [Relationship R]" to the formal concept of **Partial Participation**.
+6. **Distinguishing Cardinality from Participation:** Avoiding the trap of looking at the "one or more members" or "only one trainer" which describes cardinality/multiplicity rather than participation.
+
+COUNT: 6
+
+0.72

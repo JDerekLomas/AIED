@@ -1,0 +1,14 @@
+As a university instructor, I would classify this as a **low-interactivity** question. It primarily tests a single concept (duplicate elimination) rather than complex relational logic or multi-step procedures.
+
+**ELEMENTS:**
+1.  **SQL Syntax Recall:** Recognizing that `SELECT` identifies columns and `FROM` identifies the source table.
+2.  **Operator Definition:** Understanding the specific function of the `DISTINCT` keyword (filtering out non-unique values).
+3.  **Data Scanning:** Iterating through the `CourseNo` column in the provided `Study` table (implied context) to identify unique entries.
+4.  **Quantitative Comparison:** Comparing the set of unique values found against the provided integer options.
+
+**ELEMENT COUNT: 4**
+
+Regarding the student cohort: While South African undergraduate classes have diverse backgrounds, this is a foundational "drilling" question. Students with weak programming backgrounds often find SQL's declarative nature more intuitive than procedural code. However, some may miss the `DISTINCT` keyword and simply count all rows in the table.
+
+**Your estimate:**
+0.85

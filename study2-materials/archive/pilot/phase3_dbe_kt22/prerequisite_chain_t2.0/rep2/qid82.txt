@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Cartesian Product Recognition**: Understanding that listing multiple tables in the `FROM` clause (`Course, Enrol`) implicitly creates a join.
+2. **Inner Join Mechanics**: Knowing that the `WHERE` clause `Course.CourseNo = Enrol.CourseNo` acts as a join condition to filter the Cartesian product down to matching pairs.
+3. **Filtering/Selection**: Applying the second predicate (`Year = 2018`) to further restrict the rows.
+4. **Relational Data Mapping**: Ability to correctly count instances of matches between the primary key in the `Course` table and the foreign key in the `Enrol` table based on the provided (but implied) data state.
+5. **Set Logic**: Understanding that the final count represents the intersection of the two conditions (equijoin AND year filter).
+6. **Schema Literacy**: Correcting identifying which attributes belong to which tables (even if not explicitly qualified, like `Year`).
+
+COUNT: 6
+
+0.65

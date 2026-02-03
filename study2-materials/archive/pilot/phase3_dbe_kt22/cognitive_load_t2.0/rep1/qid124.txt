@@ -1,0 +1,15 @@
+ELEMENTS: 
+1. Recall the definition of a Candidate Key (CK) (must be a superkey and minimal).
+2. Understand Functional Dependency (FD) notation ($X \to Y$).
+3. Apply the Attribute Closure algorithm ($AB^+$).
+4. Evaluate FD1: $A \to B$ (B is already in the set {A,B}).
+5. Evaluate FD2: $AB \to C$ (Adds C to the set).
+6. Verify Superkey property: Does $\{A, B\}^+$ include all attributes in $R \{A, B, C\}$? (Yes).
+7. Apply the Minimality/Irreducibility constraint: Test if any proper subset of $AB$ (i.e., $\{A\}$ or $\{B\}$) is also a superkey.
+8. Evaluate subset $\{A\}$: Since $A \to B$ and $AB \to C$, $A^+ = \{A, B, C\}$.
+9. Logical Deduction: Since a proper subset ($A$) is a superkey, $AB$ fails the minimality test for a Candidate Key.
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.40

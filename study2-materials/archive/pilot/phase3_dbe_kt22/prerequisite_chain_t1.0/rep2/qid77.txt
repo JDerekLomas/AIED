@@ -1,0 +1,18 @@
+To assess this question for a diverse South African undergraduate cohort, we must identify every cognitive hurdle. In our context, many students struggle with the distinction between set-based logic and row-based filtering, often treating SQL like procedural code.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Understanding that `Study` is a table and `CourseNo` and `StudentID` are attributes, even without a visual diagram.
+2.  **SELECT/WHERE Filtering:** Correcting identifies the two subsets of data (rows where ID is 102 and rows where ID is 103).
+3.  **EXCEPT Keyword Semantics:** Knowing that `EXCEPT` performs a set difference (A - B).
+4.  **Implicit Deduplication:** Understanding that `EXCEPT` (like `UNION`) performs an implicit `DISTINCT`. If student 102 took the same course twice (e.g., a retake), it only counts once in the result set.
+5.  **Set Directionality:** Recognizing that `A EXCEPT B` is not the same as `B EXCEPT A` or a Symmetric Difference.
+6.  **Cardinality Calculation:** Correcting counting the remaining unique elements after the subtraction.
+7.  **Data Inference:** Since the actual data values aren't provided in the prompt's text (though implied to be in an accompanying exhibit), the student must be able to map the provided options to the invisible or referenced dataset accurately.
+8.  **Distinguishing EXCEPT from JOIN/AND:** Avoiding the common novice mistake of thinking this returns rows where a student is *both* 102 and 103 (which would be zero).
+
+**COUNT: 8**
+
+Given the wide range of abilities, "EXCEPT" is often a "leaky" concept where students confuse it with `NOT IN` or a `LEFT JOIN` where the right side is NULL. The implicit distinctness of set operations is the most frequent point of failure for South African CS students who are more comfortable with Java/Python lists than mathematical sets.
+
+Your estimate:
+0.65

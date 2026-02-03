@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Vocabulary knowledge: Knowing the specific definitions of the "three phenomena" of the SQL standard (Dirty, Non-repeatable, and Phantom reads).
+2. Distinguishing row-level vs. set-level changes: Differentiating between an "Unrepeatable read" (where an existing row is modified or deleted) and a "Phantom read" (where new rows are added to a range).
+3. Technical reading comprehension: Correctly mapping the phrase "finds new rows" to the concept of range-based queries and phantom phenomena.
+4. Keyword familiarity: Identifying "Lost update" as a concurrency problem related to overwriting data rather than a read-based phenomenon.
+5. Exclusionary reasoning: Eliminating "Dirty read" by identifying that the prompt does not specify whether the other transaction's insert was uncommitted.
+
+COUNT: 5
+
+Your estimate:
+0.65

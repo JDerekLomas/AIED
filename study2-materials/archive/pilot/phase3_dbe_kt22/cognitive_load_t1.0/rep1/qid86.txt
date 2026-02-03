@@ -1,0 +1,17 @@
+In the context of a typical South African undergraduate CS cohort, this question presents a high level of element interactivity because it requires mental "nested loop" processing rather than simple pattern matching.
+
+**ELEMENTS:**
+1.  **SQL Projection Syntax:** Understanding that `SELECT *` refers to the total number of columns in the source table (`Course`).
+2.  **Schema Identification:** Identifying the column count of the `Course` table from provided (though implicit in this prompt) metadata.
+3.  **Subquery Execution Logic:** Understanding that a correlated subquery executes for each row of the outer table.
+4.  **Logical Negation (`NOT EXISTS`):** Mentally reversing the truth value of the existence check.
+5.  **Relational Join Condition:** Evaluating the join `c.CourseNo = e.CourseNo` to identify which records have matches.
+6.  **Set Difference Concept:** Recognizing that the query is mathematically equivalent to $Course - Enrol$ (finding courses with zero enrollments).
+7.  **Data Tracking/Working Memory:** Holding the state of the `Course` rows while checking against the `Enrol` rows to maintain a running count of the result set size.
+8.  **Distinction between Rows and Columns:** Correcting for the requested order (Rows, then Columns) to select the right multiple-choice option.
+
+**ELEMENT COUNT:** 8
+
+**ESTIMATE:** While stronger students will quickly recognize the "Anti-Join" pattern, the wide variance in South African cohorts means many students will struggle with the correlated subquery logic and the requirement to provide two distinct dimensions (rows and columns) simultaneously.
+
+0.55

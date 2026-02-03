@@ -1,0 +1,14 @@
+As an instructor, I would classify this as a **low element interactivity** question. It primarily tests the recognition of a single keyword (`DISTINCT`) and the application of a simple counting procedure on a small data set.
+
+**ELEMENTS:**
+1.  **SQL Syntax Recall:** Understanding that `SELECT [Column] FROM [Table]` retrieves data from a specific column.
+2.  **Keyword Definition (`DISTINCT`):** Recalling that this operator filters out duplicate values, leaving only unique occurrences.
+3.  **Data Scanning/Set Evaluation:** Mentally processing the list of values in the `CourseNo` column to identify unique entries.
+4.  **Logical Counting:** Tracking the number of unique elements found while ignoring repeats.
+
+**ELEMENT COUNT: 4**
+
+Given the diverse background of South African undergraduate students, most will find this manageable if they have attended the introductory lectures. The primary "trap" for weaker students is ignoring the `DISTINCT` keyword and simply counting all rows in the table.
+
+**Your estimate:**
+0.85

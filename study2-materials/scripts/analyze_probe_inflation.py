@@ -29,7 +29,7 @@ os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 def load_data():
-    pred = pd.read_csv("pilot/b2pl_105_experiment/averaged_predictions.csv")
+    pred = pd.read_csv("archive/pilot/b2pl_105_experiment/averaged_predictions.csv")
     probe = pd.read_csv("pilot/rsm_experiment/probe_items.csv")
     with open("results/irt_proper_statistics.json") as f:
         irt = json.load(f)["items"]

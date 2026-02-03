@@ -1,0 +1,13 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding `UPDATE`, `SET`, and `WHERE` clauses.
+2. Transaction Control Logic: Understanding the sequential nature of `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK`.
+3. Permanent vs. Temporary Storage: Distinguishing between a "pending" change in a buffer and a "permanent" change on disk.
+4. Atomicity/Durability Constraints: Knowing that once a `COMMIT` is executed, the transaction is finalized and the log for that specific transaction is essentially closed for undos.
+5. Command Precedence: Evaluating the specific sequence of events where `ROLLBACK` follows a `COMMIT` (the "logical trap" of the question).
+
+ELEMENT COUNT: 5
+
+Estimated proportion of South African undergraduate students answering correctly:
+In my experience, many students (especially those with minimal exposure) treat `ROLLBACK` as a "global undo" button or assume it applies to the code block regardless of the `COMMIT` placement. The distractors A and B are highly attractive to those who memorize definitions without understanding the state-change of the database.
+
+0.55

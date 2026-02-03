@@ -1,0 +1,15 @@
+PREREQUISITES: 
+1. Understanding Functional Dependency (FD) notation ($X \to Y$).
+2. Capability to compute the closure of an attribute set (e.g., $(AB)^+$) to find candidate keys.
+3. Identifying all Candidate Keys (CKs) of the relation (recognizing that $AB$ is a key, but because $C \to A$, $BC$ is also a key).
+4. Distinguishing between prime attributes ($A, B, C$) and non-prime attributes ($D$).
+5. Recalling the formal definition of Third Normal Form (3NF): for every non-trivial $X \to Y$, $X$ is a superkey OR $Y$ is a prime attribute.
+6. Recalling the formal definition of Boyce-Codd Normal Form (BCNF): for every non-trivial $X \to Y$, $X$ must be a superkey.
+7. Testing $AB \to CD$ against BCNF/3NF (satisfied because $AB$ is a superkey).
+8. Testing $C \to A$ against BCNF/3NF (fails BCNF because $C$ is not a superkey; passes 3NF because $A$ is a prime attribute).
+9. Applying logical "AND" to combine the status of both FDs for the entire relation.
+10. Eliminating distractors to select the specific combination (3NF and NOT BCNF).
+
+COUNT: 10
+
+0.45

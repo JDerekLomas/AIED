@@ -1,0 +1,14 @@
+To provide an accurate estimate, I am assuming the `Study` table contains some data (likely "Tom", "TOM", or "tom") which would be provided in an accompanying diagram or snippet common in South African undergraduate assessments.
+
+**PREREQUISITES:**
+1. **Understanding `SELECT *`**: Knowing this retrieves rows based on the filter, not a single cell.
+2. **Schema Reading**: Ability to correctly identify the 'Name' column and count distinct entries within the provided table snippet.
+3. **Knowledge of the `lower()` function**: Understanding that this transforms string data to lowercase for the duration of the comparison.
+4. **Case Sensitivity in SQL**: Realizing that string comparisons (especially in standard SQL or PostgreSQL, common in SA universities) are case-sensitive, necessitating the `lower()` function.
+5. **Literal Matching**: Recognizing that the string 'tom' (all lowercase) is the target and will only match rows where the result of `lower(Name)` is exactly 'tom'.
+6. **Relational Algebra/Selection Logic**: Understanding that every row in the table must be evaluated against the predicate.
+7. **Basic Counting/Observation**: Not missing a row in the provided table that satisfies the condition (avoiding a "careless" error).
+
+**COUNT: 7**
+
+0.65

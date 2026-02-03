@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. Reading comprehension: Filtering out irrelevant "noise" entities (Administrators, Technicians, Equipment, Associate members).
+2. Knowledge of Entity-Relationship Modeling: Identifying "Trainer" and "Fitness Class" as the relevant entities.
+3. Syntax mapping: Recognizing that "instructed by only one trainer" defines the constraint for one side of the relationship.
+4. Syntax mapping: Recognizing that "Not all trainers deliver fitness classes" (or the implication of multiple classes per trainer) defines the participation/mapping for the other side.
+5. Understanding Cardinality Ratios: Distinguishing between 1:1, 1:N, and N:N notation.
+6. Multi-step reasoning: Synthesizing the phrases "Each class is instructed by only one trainer" AND "Not all trainers deliver classes" (implying a trainer can lead zero, one, or many classes, but a class has exactly one trainer).
+7. Identifying the "One" side: Correctly assigning '1' to the Trainer and 'N' to the Fitness Class based on the business rules provided.
+
+COUNT: 7
+
+0.65

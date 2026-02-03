@@ -1,0 +1,16 @@
+To evaluate this question for undergraduate students, we must consider that while the final question is specific, the student must parse a dense "word problem" narrative to isolate the relevant entities and their associations.
+
+**ELEMENTS:**
+1.  **Entity Identification:** Distinguishing "Member" and "Fitness Class" from the noise of other entities (Trainers, Administrators, Technicians, Equipment).
+2.  **Narrative Parsing (Direction A):** Locating and processing the specific phrase: "A member may choose to participate in one or more fitness classes."
+3.  **Narrative Parsing (Direction B):** Locating and processing the specific phrase: "Each fitness class is attended by one or more members."
+4.  **Cardinality Logic (Mapping):** Synthesizing the two phrases (Member: 1 to M; Class: 1 to M) to determine the composite relationship.
+5.  **Notation/Definition Recall:** Mapping the concept of "many-to-many" to the standard "N:N" representation.
+6.  **Distinction:** Differentiating between the relationship with the Class and the relationship with the Personal Trainer (which is mentioned in the same paragraph).
+
+**ELEMENT COUNT: 6**
+
+**PROPORTION ESTIMATE:**
+The question has high element interactivity due to the "wall of text" format. However, the specific relationship requested is explicitly stated in the text using standard phrasing. Stronger students will scan for keywords quickly; weaker students may get lost in the extraneous details about equipment maintenance or associate members. Because it is a multiple-choice question with a very common relationship type (N:N), the success rate is usually higher than a schema design task.
+
+0.72

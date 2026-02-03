@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Reading a database schema/table: Identifying that the "Study" table is the target and locating the relevant columns (CourseNo and StudentID).
+2. Understanding the SELECT clause: Knowing that "SELECT CourseNo" refers to the values being retrieved but does not imply the elimination of duplicates (since DISTINCT is not present).
+3. Logical OR operator evaluation: Understanding that the OR condition returns a row if either (StudentID = 102) OR (StudentID = 103) is true (or both).
+4. Scanning/Filtering: Correctly iterating through the rows of the Study table and identifying matches based on the filter.
+5. Counting row-based results: Recognizing that the query asks for the number of rows in the resulting set, rather than a count of unique course numbers or a specific data value.
+6. Set vs. Multiset logic: Realizing that if a student is registered for multiple courses (or if multiple students fulfill the criteria), each matching row counts toward the total.
+
+COUNT: 6
+
+0.85

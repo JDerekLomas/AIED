@@ -1,0 +1,16 @@
+To answer this question correctly, a student must navigate several specific technical hurdles and conceptual traps. In the context of a diverse South African undergraduate cohort, the "NATURAL JOIN" is a notorious stumbling block because it behaves differently from the more commonly practiced "INNER JOIN" or "JOIN ON" syntax.
+
+**PREREQUISITES:**
+1.  **Reading Schema Diagrams:** Ability to identify the schema of the `Course` and `Enrol` tables (presumably provided in the context of the exam paper) and correctly identify the column names.
+2.  **Definition of NATURAL JOIN:** Knowing that a natural join automatically joins on *all* columns with the same name across both tables.
+3.  **Identifying Common Attributes:** Correcting identifying which specific columns are shared (e.g., `CourseID`).
+4.  **Data Set Inspection:** Accurately counting the records in the source tables (e.g., if there are 7 courses and 4 enrollments, or vice versa).
+5.  **Understanding Relationship Cardinality:** Recognizing that a Join result size depends on the matches found (a 1:M relationship), not just a sum or a Cartesian product.
+6.  **Distinguishing Join Types:** Avoiding the "Cartesian Product" trap (7 * 4 = 28), which occurs if they confuse it with a Cross Join.
+7.  **Logical Filtering:** Realizing that the number of rows in the result cannot exceed the number of rows in the `Enrol` table (the "many" side of the relationship) if every enrollment refers to a valid course.
+
+**COUNT: 7**
+
+While the math is simple, the failure points are high. Students often guess "28" (multiplication) if they are unprepared, or struggle if they don't realize `NATURAL JOIN` performs an implicit matching.
+
+0.55

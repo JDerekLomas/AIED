@@ -1,0 +1,10 @@
+PREREQUISITES: 
+1. **Schema inference**: Recognizing that enrollment data (connecting students to courses) would typically be stored in an 'Enrol' table rather than a 'Student' table.
+2. **Aggregation Logic (Group By vs. Count)**: Understanding that to count students *per course*, you must group by the `CourseNo` attribute, not the `StudentID`.
+3. **Filtering sequence**: Understanding that the `WHERE` clause (Year = 2019) is applied before the aggregation to isolate the correct period.
+4. **SQL Syntax Recognition**: Identifying the correct structure of a basic aggregate query (Select list matching the Group By column).
+5. **Distinguishing Table Roles**: Distinguishing between an entity table (Student) and a relationship/transaction table (Enrol).
+
+COUNT: 5
+
+0.65

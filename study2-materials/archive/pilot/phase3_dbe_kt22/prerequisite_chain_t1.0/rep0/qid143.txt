@@ -1,0 +1,14 @@
+PREREQUISITES: 
+1. Knowledge of Functional Dependency (FD) notation (Σ and R).
+2. Understanding the definition of 3NF (Third Normal Form).
+3. Understanding the definition of BCNF (Boyce-Codd Normal Form).
+4. Distinguishing between "lossless-join" and "dependency-preserving" properties.
+5. Knowing the 3NF Synthesis Algorithm (and its guarantee of both lossless-join and dependency preservation).
+6. Knowing that BCNF guarantees lossless-join but cannot always guarantee dependency preservation (the classic counter-example).
+7. Identifying that decomposition algorithms (like 3NF synthesis or BCNF decomposition) depend on the order of FD processing, meaning the resulting schemas are not unique.
+8. Ability to eliminate distractors A and B based on the "non-uniqueness" of decomposition results.
+9. Distinguishing between "existence of an algorithm" (procedural certainty) and "property of the normal form" (structural state).
+
+COUNT: 9
+
+0.35

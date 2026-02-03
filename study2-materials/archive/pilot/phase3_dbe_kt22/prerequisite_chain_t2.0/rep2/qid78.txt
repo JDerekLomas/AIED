@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the syntax of a multi-table FROM clause (the comma notation).
+2. Recognizing that a JOIN without an explicit ON or WHERE clause results in a Cartesian Product (Cross Join).
+3. Ability to retrieve or count the number of rows in the 'Course' table from a provided schema/data set (mental or visual).
+4. Ability to retrieve or count the number of rows in the 'Enrol' table from a provided schema/data set (mental or visual).
+5. Knowing the mathematical rule for the cardinality of a Cartesian Product (Rows in A × Rows in B).
+6. Basic arithmetic (multiplication of the two row counts).
+7. Distinguishing the query result count from the sum of the rows (a common mistake for beginners).
+8. Distinguishing the query result count from the count of the larger table (another common misconception).
+
+COUNT: 8
+
+0.65

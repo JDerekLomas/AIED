@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Definition of a Cartesian product (Set Theory): Understanding that an element in $A \times B$ is an ordered pair $(a, b)$.
+2. Concept of Ordered Pairs: Recognizing that the order of elements within the pair matters (i.e., $(a, b) \neq (b, a)$ unless $a = b$).
+3. Definition of Set Equality: Understanding that for two sets to be equal, they must contain exactly the same elements.
+4. Logical Quantifiers: Understanding the implication of the word "always" (the statement must hold for all sets $A$ and $B$, including those where $A \neq B$).
+5. Distinguishing between Relational Algebra and Set Theory: In some SQL contexts, column order is neutralized by the query engine, but in formal database theory/discrete math, the mathematical definition holds strictly.
+6. Handling Non-Empty Sets: Recognizing that while the statement might be true if $A = B$ or if one set is empty, it fails in the general case.
+
+COUNT: 6
+
+0.85

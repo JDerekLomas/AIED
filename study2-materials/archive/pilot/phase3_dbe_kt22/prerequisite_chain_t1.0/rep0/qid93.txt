@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Reading Comprehension (English)**: Ability to parse a dense, multi-paragraph narrative and distinguish between core entities, attributes, and relationships.
+2. **Distinguishing Entity vs. Attribute**: Recognising that "Equipment ID" is a property used to identify an entity, not an entity itself (eliminating D).
+3. **Distinguishing Entity vs. Multivalued Attribute**: Understanding that "speciality" is described as a property of a trainer ("Each trainer has..."), even if it can be multivalued, rather than a standalone object of interest in this specific narrative (eliminating C).
+4. **Identifying Model Boundaries**: Recognizing that "Fitness centre" is the context/system boundary in this scenario, not a set of instances within the database (eliminating A).
+5. **Recognising Entity Characteristics**: Identifying that "Fitness class" has its own unique properties (name, dates, time slot), participates in relationships (with members and trainers), and has multiple instances, fitting the formal definition of an entity type.
+6. **Filtering Irrelevant Constraints**: Ignoring the business rules (start date < end date, time slot uniqueness) to focus purely on the structural classification of the object.
+7. **Mapping Definitions to Novel Cases**: Applying the abstract definition of an entity type to a specific, previously unseen domain (fitness centre).
+
+COUNT: 7
+
+0.65

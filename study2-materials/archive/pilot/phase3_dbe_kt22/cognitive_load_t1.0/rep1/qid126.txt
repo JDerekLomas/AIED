@@ -1,0 +1,15 @@
+ELEMENTS:
+1. Definition recall: Candidate Key (CK) (must be a superkey and minimal).
+2. Definition recall: Attribute Closure (the "+" algorithm).
+3. Functional Dependency (FD) interpretation: {A→B, B→C, C→A}.
+4. Procedure: Computing the closure of A (A+ = {A, B, C}).
+5. Procedure: Computing the closure of B (B+ = {B, C, A}).
+6. Procedure: Computing the closure of C (C+ = {C, A, B}).
+7. Logical evaluation: Comparing closures to the full relation R.
+8. Constraint satisfaction: Identifying if more than one attribute satisfies the "uniqueness and minimality" criteria (finding all CKs).
+9. Distinction: Recognizing the difference between "a" candidate key and the "only" candidate key.
+
+ELEMENT COUNT: 9
+
+Your estimate:
+0.65

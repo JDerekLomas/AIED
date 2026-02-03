@@ -1,0 +1,13 @@
+PREREQUISITES:
+1. Definition of Equivalence: Understanding that two sets of functional dependencies (FDs) are equivalent if and only if $\Sigma_1^+ = \Sigma_2^+$ (or $\Sigma_1 \vDash \Sigma_2$ and $\Sigma_2 \vDash \Sigma_1$).
+2. Understanding Attribute Closure: Knowing how to calculate the closure of a set of attributes under a given set of FDs.
+3. Logical Implication (Σ1 ⊨ Σ2): Ability to check if $A \to B$ and $B \to C$ can be derived from $\{A \to B, AB \to C\}$.
+4. Transitivity application: Specifically, recognizing that in $\Sigma_2$, $A \to B$ and $B \to C$ imply $A \to C$.
+5. Augmentation/Simplification rule: Recognizing that in $\Sigma_1$, $A \to B$ implies $A \to AB$, which combined with $AB \to C$ yields $A \to C$.
+6. Multi-step reasoning: Systematically checking both directions of the implication (verifying if $\Sigma_2$ can derive $AB \to C$).
+7. Schema context: Correct interpretation of the relational schema $R=\{A,B,C\}$ as the universe of attributes.
+8. Distinguishing subsets: Recognizing that while $A \to C$ is common to both via different paths, one must still verify the specific dependency $AB \to C$.
+
+COUNT: 8
+
+0.65

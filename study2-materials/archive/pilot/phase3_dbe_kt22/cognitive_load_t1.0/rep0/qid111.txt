@@ -1,0 +1,14 @@
+ELEMENTS: 
+1. Definition recall: Definition of a Super Key (SK) versus a Candidate Key.
+2. Definition recall: The concept of an "Attribute Closure."
+3. Logical procedure: Computing the closure of A ($A^+$) using Armstrong's Axioms/Closure Algorithm.
+4. Information processing: Identifying relevant Functional Dependencies (FDs) from the set $\Sigma$ (mapping A to B, then B to C).
+5. Constraint satisfaction: Checking if the resulting set $\{A, B, C\}$ contains all attributes $\{A, B, C, D\}$ of relation R.
+6. Distinction: Recognizing that attribute D is not reachable from A (D is a "source" attribute not present on any RHS).
+
+ELEMENT COUNT: 6
+
+While the steps are foundational, many students struggle with the distinction between a partial key and a super key, or they forget to check for "orphan" attributes like D that aren't on the right-hand side of any FD. Given the diverse backgrounds, about 65% of students typically identify that A cannot determine D.
+
+Your estimate:
+0.65

@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Knowledge of the ACID properties (specifically Isolation) and why locks are necessary for concurrency control.
+2. Understanding the specific definition of an "Exclusive Lock" (X-lock) as opposed to a "Shared Lock" (S-lock).
+3. Recognizing that "exclusive" implies the highest level of privilege, including the right to modify data.
+4. Logical reasoning that the ability to write/update data inherently requires the ability to read the data first.
+5. Distinguishing between the specific action of a "Write" (B) or "Update" (D) and the comprehensive capability "Read and write" (C).
+6. Overcoming a common misconception that exclusive locks are "write-only" locks.
+
+COUNT: 6
+
+0.72

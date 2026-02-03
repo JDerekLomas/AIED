@@ -1,0 +1,17 @@
+To evaluate this question, we must consider the schema provided in standard university textbooks (where `Course` and `Enrol` typically have a many-to-one relationship). 
+
+**ELEMENTS:**
+1.  **SQL Syntax Rules:** Recognizing the structure of a correlated subquery and the `EXISTS` keyword.
+2.  **Schema/Relationship Logic:** Identifying the join condition (`c.CourseNo=e.CourseNo`) and understanding that `Enrol` links to `Course`.
+3.  **Concept Distinction (EXISTS vs JOIN):** Understanding that `EXISTS` returns rows from the outer table once, regardless of how many matches exist in the inner table (deduplication logic).
+4.  **Logical Evaluation (Semi-join):** Realizing the query effectively asks "How many courses have *at least one* enrollment?"
+5.  **Data Processing:** Mentally or physically scanning the `Enrol` table, extracting unique `CourseNo` values, and matching/counting them against the `Course` table.
+6.  **Working Memory Constraint:** Holding the intermediate set of "enrolled course IDs" while counting the rows in the parent `Course` table.
+
+**ELEMENT COUNT: 6**
+
+**RATIONALE:** 
+South African undergraduate cohorts often struggle with correlated subqueries because they require "procedural" thinking (for each row in A, do X in B) rather than "set-based" thinking. Students frequently mistake `EXISTS` for an `INNER JOIN`, which would result in a higher row count if a course has multiple students enrolled. Without the specific data values provided in the prompt (as is common in exam contexts where they refer to a standard textbook schema like "DreamHome" or "University"), students must also recall or map the sample data provided in their course materials.
+
+**Your estimate:**
+0.55

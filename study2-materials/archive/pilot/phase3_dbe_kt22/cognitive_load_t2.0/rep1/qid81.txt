@@ -1,0 +1,23 @@
+To evaluate this question accurately, we must first note that while the SQL statement is provided, the actual data (the tables `Course` and `Enrol`) is missing from your prompt. In a university assessment context, students would be looking at two tables. 
+
+The complexity of this question lies in the mechanics of a **LEFT JOIN**, which is significantly higher than a standard inner join or a single-table query.
+
+### ELEMENTS:
+1.  **SQL Syntax Recall**: Recognizing the structure of a `SELECT *` with a `JOIN` and `ON` clause.
+2.  **Schema Mapping**: Identifying the primary key/foreign key relationship between `Course.CourseNo` and `Enrol.CourseNo`.
+3.  **Concept Distinction (Join Types)**: Differentiating the logic of a `LEFT JOIN` from an `INNER JOIN` (crucially, that non-matching rows from the left table are preserved).
+4.  **Logical Evaluation (Matching)**: Iterating through each row in the `Course` table to find matches in `Enrol`.
+5.  **Multiplicity Logic**: Accounting for "one-to-many" matches (one course having multiple enrollments), which increases the row count beyond the number of courses.
+6.  **Preservation Logic**: Identifying courses with *zero* enrollments and ensuring they are counted exactly once (with NULLs), which is the signature of the `LEFT JOIN`.
+7.  **State Tracking/Counting**: Maintaining a running total of the resulting rows while processing the two datasets mentally or with a pen.
+
+**ELEMENT COUNT: 7**
+
+### PEDAGOGICAL ASSESSMENT:
+In the South African context, many students struggle with the transition from set theory to practical SQL application. While high-performers find this trivial, students with minimal exposure often default to "Inner Join" logic or simply count the total number of rows in the largest table (an "educated" guess). If the tables are relatively small (under 10 rows each), success increases; if they are large, cognitive load increases exponentially.
+
+Assuming the tables are provided and follow a standard instructional example (e.g., 4 courses, 8 enrollments, where 1 course has no students):
+
+**Estimated proportion of correct answers: 0.55**
+
+0.55

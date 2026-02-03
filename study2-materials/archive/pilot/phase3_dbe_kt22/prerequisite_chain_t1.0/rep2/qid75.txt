@@ -1,0 +1,16 @@
+To provide an accurate estimate, I am assuming the students are provided with a specific instance of the **Study** table (a dataset) alongside the question. Without a visible table, the question is impossible to answer, so I will assume a standard practice scenario where a table with approximately 5–10 rows is provided.
+
+**PREREQUISITES:**
+1.  **Schema Interpretation:** Correcting identifying that `CourseNo` is the grouping attribute and understanding what one "row" in the `Study` table represents.
+2.  **GROUP BY Logic:** Understanding that the result set will contain one row for every *unique* value of `CourseNo` present in the table.
+3.  **Aggregation (COUNT):** Understanding that `COUNT(*)` counts the number of occurrences (rows) associated with each unique `CourseNo`.
+4.  **HAVING Clause Filtering:** Distinguishing `HAVING` from `WHERE`; specifically, knowing that the filter is applied *after* the groups are formed.
+5.  **Predicate Evaluation:** Correctly applying the mathematical operator `> 1` (strict inequality), meaning groups with exactly 1 row must be excluded.
+6.  **Mental Tracking/Data Processing:** Accurately scanning the provided table instance to tally occurrences for each `CourseNo` without making a clerical error.
+7.  **Final Tally:** Realizing the question asks for the **count of rows in the result set**, not the value of the `COUNT(*)` column itself.
+
+**COUNT: 7**
+
+For South African undergrads, the "HAVING" clause and the distinction between "greater than 1" versus "greater than or equal to 1" are the most common failure points.
+
+0.65

@@ -1,0 +1,20 @@
+To evaluate this question, we must first note that a student cannot answer this without the specific data (the rows) from the `Enrol` and `Course` tables. Assuming the student is provided with the physical table instances to count from, here is the breakdown of the element interactivity:
+
+**ELEMENTS:**
+1.  **Syntax/Clause Recall:** Identifying the function of the `EXISTS` operator (checking for the presence of rows rather than returning data).
+2.  **Correlated Subquery Logic:** Understanding that for *each* row in the outer table (`Enrol`), the subquery must be evaluated.
+3.  **Join/Relational Mapping:** Linking the `CourseNo` in the outer row (`e`) to the `CourseNo` in the inner table (`c`).
+4.  **Logical Condition Evaluation:** Determining if the join condition `c.CourseNo = e.CourseNo` returns true or false for a specific row.
+5.  **Schema Interpretation:** Distinguishing between the table roles (parent vs. child) and the primary key/foreign key relationship.
+6.  **Working Memory Processing (Counting):** Tracking the running total of rows that satisfy the `EXISTS` condition while iterating through the `Enrol` table.
+7.  **Concept Distinction:** Differentiating between an `EXISTS` check (where one match is sufficient) and a `JOIN` (which could result in row duplication if not careful, though not applicable here, students often confuse the two).
+
+**ELEMENT COUNT: 7**
+
+**RATIONALE:** 
+South African CS undergraduates often struggle with correlated subqueries as they require "loop-within-a-loop" mental modeling. If the data is straightforward, students with strong programming backgrounds will find the logic intuitive, but those with minimal prior exposure often confuse `EXISTS` with an `IN` clause or a simple `JOIN`. Without the provided tables, I assume the "Correct" answer depends on identifying rows in `Enrol` that have a valid foreign key in `Course`.
+
+**Estimated Proportion Correct:**
+0.55
+
+0.55

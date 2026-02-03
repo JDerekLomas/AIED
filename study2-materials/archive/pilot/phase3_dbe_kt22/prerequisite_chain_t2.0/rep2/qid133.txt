@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. **Recall of BCNF definition**: Knowing that for every non-trivial functional dependency (FD) $X \to A$, $X$ must be a superkey.
+2. **Recall of 3NF definition**: Knowing that for every non-trivial FD $X \to A$, either $X$ must be a superkey OR $A$ must be a prime attribute.
+3. **Distinguishing BCNF vs. 3NF requirements**: Recognising that 3NF provides an "escape clause" ($A$ is a prime attribute) that BCNF does not allow.
+4. **Technical terminology - "Non-trivial"**: Understanding that the definitions specifically exclude dependencies where the right-hand side is a subset of the left-hand side.
+5. **Technical terminology - "Prime Attribute"**: Knowing that a prime attribute is any attribute that is part of any candidate key.
+6. **Elimination of "False Friends"**: Identifying that option A is incorrect (it describes part of 3NF incorrectly as BCNF), and option B is incorrect (it describes BCNF as 3NF).
+7. **Precise logical mapping**: Matching the exact phrasing of the formal definition to option C.
+
+COUNT: 7
+
+0.55

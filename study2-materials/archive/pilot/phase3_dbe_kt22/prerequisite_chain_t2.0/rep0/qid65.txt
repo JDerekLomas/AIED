@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Recognition of basic SQL DDL (Data Definition Language) syntax for table creation (`CREATE TABLE`).
+2. Knowledge that commas (`,`) are used to separate column definitions within the parentheses, not semicolons (`;`).
+3. Understanding the difference between a list separator (comma) and the command terminator (semicolon).
+4. Distinguishing between the logical data type name provided in the schema definition (STRING) and its concrete SQL implementation (VARCHAR).
+5. Attention to detail regarding statement termination: recognizing that Option B lacks the semicolon required to end the SQL command in most DBMS environments/standard conventions, whereas Option C includes it.
+6. Reading a schema diagram/definition: correctly mapping the logical fields (StudentID, CourseNo, Semester) to the provided options.
+
+COUNT: 6
+
+0.65

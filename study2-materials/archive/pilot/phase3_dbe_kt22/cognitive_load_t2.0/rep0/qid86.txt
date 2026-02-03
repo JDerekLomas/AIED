@@ -1,0 +1,17 @@
+To provide an accurate assessment, I have based this on a standard schema where **Course** typically has 3 columns (CourseNo, Title, Credits) and **Enrol** serves as a link table. Without seeing the specific instance data, a student must infer or recall the schema context provided in your typical lecture examples.
+
+**ELEMENTS:**
+1.  **SQL Keyword Recognition:** Identifying `SELECT *`, `FROM`, `WHERE`, and `NOT EXISTS`.
+2.  **Correlated Subquery Logic:** Understanding that the inner query executes for each row of the outer query.
+3.  **Logical Inversion:** Evaluating the `NOT EXISTS` operator (result is true only if the subquery returns an empty set).
+4.  **Schema Retrieval (Rows/Columns):** Recalling or calculating the total number of columns in the `Course` table (determined by the `*` in the outer SELECT).
+5.  **Relational Set Difference:** Realizing the query is identifies courses with zero enrollments.
+6.  **Data Set Analysis:** Mentally comparing the `CourseNo` values in both tables to find orphans.
+7.  **Format Constraints:** Mapping the final count of rows and columns to the specific coordinate-style options (X, Y).
+
+**ELEMENT COUNT: 7**
+
+Students at this level often struggle with "Exential" vs "Universal" quantification. The "NOT EXISTS" pattern is one of the most cognitively taxing parts of an introductory SQL syllabus. Strong students will solve it as a set difference; weaker students will attempt to trace it row-by-row and likely lose track of the `NOT` or the column count.
+
+**Your estimate:**
+0.55

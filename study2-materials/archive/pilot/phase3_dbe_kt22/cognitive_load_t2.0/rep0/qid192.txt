@@ -1,0 +1,14 @@
+ELEMENTS:
+1. SQL Syntax Recall: Understanding GRANT and REVOKE syntax, specifically the "GRANT OPTION" and "REVOKE GRANT OPTION FOR" structures.
+2. User/Role Identification: Tracking three distinct entities (Linda, Amy, Peter) and their specific relationship to the table (Owner vs. Grantee).
+3. Chain of Dependency: Understanding that Peter’s privilege is dependent on Amy’s privilege due to the sequence of actions.
+4. Definition of GRANT OPTION: Recalling that this allows a user to pass privileges to others.
+5. Distinction of Privilege vs. Right-to-Grant: Distinguishing between the privilege to SELECT and the right to delegate that privilege.
+6. Cascade Semantics: Understanding the behavior of the CASCADE keyword, specifically how it propagates through the dependency tree.
+7. Impact of REVOKE GRANT OPTION: Recognizing that revoking only the GRANT OPTION does not inherently revoke the base privilege (SELECT) itself, but evaluating if CASCADE affects sub-grantees in this specific context (SQL-92/standard behavior).
+8. Logical State Tracking: Mentally updating a "privilege matrix" after each of the three steps.
+
+ELEMENT COUNT: 8
+
+Your estimate:
+0.40

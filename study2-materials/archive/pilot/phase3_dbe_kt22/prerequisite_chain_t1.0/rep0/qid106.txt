@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Filtering Distractors**: Ability to ignore irrelevant narrative (technicians, equipment, administrators, classes) to focus specifically on the relationship between "Trainer" and "Speciality".
+2. **Identifying Cardinality/Multiplicity**: Recognizing the phrase "one or more specialities" as indicating a multi-valued property rather than a single-valued one.
+3. **ER Modeling Definitions (Attribute vs. Entity)**: Distinguishing between an "Attribute" (a property of an entity) and an "Entity" (an object with its own independent existence or properties).
+4. **Knowledge of Multi-valued Attributes**: Understanding that standard ER notation uses a specific construct (multi-valued attribute) for properties that can have multiple values for a single instance.
+5. **Knowledge of Weak Entities**: Understanding that a weak entity requires a partial key and a relationship to an identifying owner; recognizing that "Speciality" as described (a simple string like "weight loss") lacks the complexity or independent identity typically requiring a weak entity.
+6. **Technical Mapping/Normalization Awareness**: Knowing that while a multi-valued attribute (C) is the most direct conceptual model, a weak entity (D) or separate entity (A) are also "possible" in implementation, requiring the student to select the "best" (most concise/standard) conceptual representation.
+7. **Reading Comprehension**: Identifying that "Speciality" is a property of the Trainer, not an independent object in this specific business context.
+
+COUNT: 7
+
+0.55

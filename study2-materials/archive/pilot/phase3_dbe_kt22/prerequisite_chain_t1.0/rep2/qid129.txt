@@ -1,0 +1,13 @@
+PREREQUISITES: 
+1. Understanding the definition of a Candidate Key (CK) as a minimal superkey (must satisfy both uniqueness and irreducibility).
+2. Proficiency in the Attribute Closure algorithm (calculating $\{A\}^+$ to see if it derives $\{A, B, C, D\}$).
+3. Ability to identify all possible candidate keys, not just validating the one provided in the statement.
+4. Recognizing the "overlap" rule or checking attributes on the right-hand side vs. left-hand side of functional dependencies to identify other potential keys.
+5. Performing the closure for $\{C, D\}^+$ and recognizing that it also derives all attributes, making $\{C, D\}$ a second candidate key.
+6. Distinguishing between a "Superkey" and a "Candidate Key" to ensure no subset of $\{C, D\}$ is a key.
+7. Logical precision in evaluating the word "only" in the statement (if a second key exists, the statement is False).
+8. Ability to read and interpret functional dependency notation correctly.
+
+COUNT: 8
+
+0.55

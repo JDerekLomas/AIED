@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. **Understanding String Concatenation in SQL Construction**: Recognizing that Option A and C use the `+` operator to build a query string dynamically.
+2. **Distinguishing User Input vs. Hardcoded Constants**: Identifying that `Request.form` (Option A) represents external, untrusted data, whereas `‘Canberra’` (Option C) is a developer-defined literal.
+3. **Knowledge of SQL Injection Mechanics**: Understanding that the attack requires the ability to "break out" of a data literal using characters like single quotes, which is only possible when variables are sourced from user input.
+4. **Analyzing Code Syntax (Variable Scope)**: Recognizing that even though C uses concatenation, the variable is assigned a static value in the code, neutralizing the injection risk in that specific context.
+5. **Code Reading/Tracing**: Correcting identifying that Option B is a static string with no variable interpolation at all.
+6. **Elimination Logic**: Ruling out B and C to conclude that only A provides the necessary "entry point" (the form request) for a malicious payload.
+
+COUNT: 6
+
+0.65

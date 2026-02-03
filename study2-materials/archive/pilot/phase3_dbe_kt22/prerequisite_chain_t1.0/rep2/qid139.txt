@@ -1,0 +1,12 @@
+PREREQUISITES: 
+1. **Understanding Functional Dependencies (FDs):** Knowing how to identify the "left-hand side" (determinant) and "right-hand side" (dependent) of a dependency.
+2. **Knowledge of the 3NF definition:** Understanding that 3NF allows dependencies where the determinant is a superkey OR the dependent is a prime attribute.
+3. **Knowledge of the BCNF definition:** Understanding that BCNF strictly requires every determinant to be a superkey.
+4. **Comparative Logic (Restrictiveness):** Ability to reason that because BCNF has stricter requirements than 3NF, it is *more* restrictive (eliminating Option A).
+5. **Nuanced understanding of Redundancy:** Recognizing that while BCNF eliminates redundancies arising from *functional dependencies*, it does not address redundancies caused by multi-valued dependencies (MVDs) or join dependencies (addressed in 4NF/5NF).
+6. **Distinguishing "Eliminate" vs. "Minimize":** Applying the theoretical nuance that normalization to BCNF *minimizes* redundancy but cannot guarantee total *elimination* in the context of the entire relational model (validating Option B and rejecting the absolute claim in Option C).
+7. **Reading comprehension:** Navigating the "only" and "not necessarily" qualifiers in the distractors.
+
+COUNT: 7
+
+0.35

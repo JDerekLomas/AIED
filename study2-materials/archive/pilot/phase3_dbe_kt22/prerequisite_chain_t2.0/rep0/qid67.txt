@@ -1,0 +1,11 @@
+PREREQUISITES: 
+1. Syntax Recognition: Identifying `FOREIGN KEY` and `REFERENCES` as the specific keywords defining referential integrity (as opposed to `PRIMARY KEY`).
+2. Directionality Mapping: Understanding that the "child" table (Enrol) points to the "parent" table (Student), meaning Enrol depends on Student, not vice-versa.
+3. Logical Inference of Referential Integrity: Knowing the definition of a foreign key constraint—that every value in the referencing column must match a value in the referenced column.
+4. Distinguishing Constraints: Differentiating between a primary key/nullability constraint (Distractor C and D) and a referential integrity constraint.
+5. Vocabulary Mapping: Translating the technical SQL constraint into the natural language "Must exist in" logic.
+6. Schema Interpretation: Identifying that `StudentID` is the shared attribute linking the two entities.
+
+COUNT: 6
+
+0.72

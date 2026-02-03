@@ -1,0 +1,11 @@
+PREREQUISITES:
+1.  **Extracting relevant information from a dense text narrative:** The ability to filter out "noise" (e.g., equipment status, technician phone numbers, associate members) to focus specifically on the relationship between "trainer" and "fitness class".
+2.  **Identifying Entity-Relationship (ER) components:** Recognizing that "fitness class" and "trainer" are the relevant entity types and "instruct" is the relationship type.
+3.  **Understanding the definition of Participation Constraints:** Distinguishing between Total participation (every instance of Entity A must be related to an instance of Entity B) and Partial participation (some instances of Entity A may exist without being related to Entity B).
+4.  **Logical inference from business rules:** Identifying the specific sentence "Each fitness class is... instructed by only one trainer" and interpreting the "each" as a mandatory requirement.
+5.  **Mapping "Mandatory" to "Total":** Connecting the natural language requirement ("Each class... instructed by one trainer") to the formal database term "Total participation".
+6.  **Distinguishing between directionalities:** Understanding that the question asks for the participation of "fitness class" in the relationship, not the participation of "trainer" (the text states "Not all trainers deliver fitness classes," which would imply partial participation for trainers).
+
+COUNT: 6
+
+0.65

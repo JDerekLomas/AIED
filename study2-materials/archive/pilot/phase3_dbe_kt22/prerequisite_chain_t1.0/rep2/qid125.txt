@@ -1,0 +1,12 @@
+PREREQUISITES:
+1. Definition of a Candidate Key (CK): Knowing a CK must be a superkey (derive all attributes) and minimal (no subset is a superkey).
+2. Closure Algorithm: Knowing how to compute the transitive closure of an attribute set ($A^+$) using the given FDs.
+3. Functional Dependency (FD) logic: Understanding that $A \to B$ means $B$ is included in $A^+$.
+4. Augmentation/Transitivity: Recognizing that if $A \to B$, then $A$ effectively becomes $AB$, allowing $A$ to reach $C$ via $AB \to C$.
+5. Minimality check: Identifying that while $AB$ is a superkey, it is not a "Candidate Key" because its subset $A$ is also a superkey.
+6. Exhaustive search: Verifying that no other attributes (like $B$ or $C$) or the empty set can derive the schema to ensure $A$ is indeed the *only* one.
+7. Logic evaluation: Correctly mapping the result of the analysis to the True/False statement.
+
+COUNT: 7
+
+0.65
