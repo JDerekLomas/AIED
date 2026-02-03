@@ -417,7 +417,7 @@ Zotos, L., van~Rijn, H., Nissim, M.: Are you doubtful? Exploring model uncertain
 \appendix
 \section{Example Prompts}\label{app:prompts}
 
-We show the baseline and best-performing prompts. Both share common elements: grade level, subject, question text, rubric, and maximum score. They differ in what analysis they request before the final estimate. Full prompts for all 16 conditions are available in the project repository.
+We show four prompts: baseline, best performer, best hybrid (item + population), and worst performer. All share common elements: grade level, subject, question text, rubric, and maximum score. They differ in what analysis they request before the final estimate. Full prompts for all 16 conditions are available in the project repository.
 
 \paragraph{Teacher (baseline).}
 \begin{quote}\small
@@ -454,6 +454,53 @@ We show the baseline and best-performing prompts. Both share common elements: gr
 \texttt{COUNT: [N]}
 
 \texttt{Respond with ONLY a number between 0 and 1 on the last line.}
+\end{quote}
+
+\paragraph{Buggy Rules (best hybrid, $\rho=0.66$).}
+\begin{quote}\small
+\texttt{You are an expert in mathematical cognition and systematic student errors (Brown \& Burton, 1978).}
+
+\texttt{[Population context]}
+
+\texttt{For the following test item, analyze the cognitive demands:}
+
+\texttt{[Grade, subject, question, rubric, max score]}
+
+\texttt{Step 1: List the specific procedural steps a student must execute correctly.}\\
+\texttt{Step 2: For each step, identify any known ``buggy rules'' --- systematic procedural errors students commonly make (e.g., subtracting smaller from larger regardless of position, forgetting to carry).}\\
+\texttt{Step 3: Consider the target student population.}\\
+\texttt{Step 4: Taking into account ALL of the above analysis holistically, estimate what proportion of students would produce the fully correct answer.}
+
+\texttt{Respond with ONLY a number between 0 and 1 on the last line.}
+\end{quote}
+
+\paragraph{Synthetic Students (worst performer, $\rho=0.19$).}
+This two-stage approach first generates 10 student personas, then simulates each attempting each item.
+
+\emph{Stage 1 --- Persona generation:}
+\begin{quote}\small
+\texttt{Generate 10 diverse student profiles for a Class [N] government school in India. [Population context]}
+
+\texttt{The class distribution should reflect a typical government school:}\\
+\texttt{- 4 students: Below Basic (barely literate, struggle with basic concepts)}\\
+\texttt{- 3 students: Basic (can read Hindi well, weak English)}\\
+\texttt{- 2 students: Competent (understand most concepts, some errors)}\\
+\texttt{- 1 student: Advanced (strong understanding, rarely makes mistakes)}
+
+\texttt{STUDENT 1: [Name] | Level: [level] | [2-3 specific traits]}\\
+\texttt{...}
+\end{quote}
+
+\emph{Stage 2 --- Student simulation (per item, per persona):}
+\begin{quote}\small
+\texttt{You are role-playing as this student: [persona]}
+
+\texttt{[Grade, question, rubric, max score]}
+
+\texttt{Role-play this specific student attempting this question. Consider their reading ability, knowledge level, attention, and typical behaviors. Write their actual response as they would write it, then score it.}
+
+\texttt{RESPONSE: [what this student would actually write]}\\
+\texttt{SCORE: [0 to max\_score]}
 \end{quote}
 
 \end{document}
