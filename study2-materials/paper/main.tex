@@ -49,6 +49,11 @@ A key limitation is that each study typically tests one model with one prompt on
 
 Our optimization target is \textbf{rank-order agreement} between LLM-predicted difficulty and empirical $p$-correct, measured by Spearman's~$\rho$. We choose rank correlation because practical applications---item sequencing, adaptive test assembly, item bank stratification---depend on difficulty \emph{ordering} rather than exact calibration. Each experimental condition prompts an LLM to estimate the proportion of students who would answer each item correctly; we then correlate these estimates against observed $p$-correct from real student responses.
 
+\paragraph{Contributions.}
+(1)~The first systematic comparison of 15 theory-grounded prompts for LLM difficulty estimation, tested across 6~models and 3~datasets (\textasciitilde250 conditions).
+(2)~An \emph{item-centric vs.\ population-centric} distinction explaining why some student-focused prompts (buggy\_rules) succeed while others (synthetic\_students) fail.
+(3)~Methodological guidance: Simpson's paradox artifacts in unbalanced hyperparameter sweeps, $\ge$100 items required for reliable validation, and two-stage sequential DOE as the recommended design.
+
 %% ============================================================
 \section{Related Work}
 
@@ -224,7 +229,7 @@ teacher & & & 0.555 & 1.0 & [.422,.664] & .439 \\
 
 \subsection{The Mechanism: Item Analysis, Not Population Modeling}
 
-Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts}) reveals a clear pattern (Table~\ref{tab:factors}): item analysis is the primary driver. Prompts that model student populations without analyzing item structure perform \emph{worse} than baseline.
+Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts}) reveals a clear pattern: item analysis is the primary driver. Prompts that model student populations without analyzing item structure perform \emph{worse} than baseline.
 
 Grouping by 2$\times$2 factor membership: item analysis only achieves mean $\rho=0.61$ (4 prompts), item + population $\rho=0.59$ (5 prompts), neither (baseline) $\rho=0.52$ (3 prompts), and population only $\rho=0.47$ (4 prompts). This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
 
@@ -305,6 +310,9 @@ The signal transfers: all prompts achieve significant correlations on all three 
 
 This suggests a \textbf{structural predictability hypothesis}: LLMs estimate difficulty well when it varies across knowledge domains (open-ended items spanning topics), but the advantage of counting prompts diminishes when difficulty is driven by distractor design within a domain. Simple teacher judgment is equally effective for MCQs.
 
+\paragraph{BEA 2024 Benchmark Comparison.}
+The BEA~2024 shared task~\cite{yaneva2024} evaluated difficulty prediction on 667 USMLE items using RMSE on IRT difficulty as the primary metric. The winning system (EduTec) achieved RMSE$=$0.299, barely improving over a mean-prediction baseline of 0.311; the best post-competition result (UnibucLLM, SVR+BERT features~\cite{rogoz2024}) achieved RMSE$=$0.281 with Kendall~$\tau=0.28$. Our zero-shot predictions show systematic bias (models overestimate student ability), but when calibrated on the BEA training set via linear scaling, our three-prompt ensemble achieves RMSE$=$0.280 and $\tau=0.31$---matching or slightly exceeding the best published result despite using prompts designed for K--8 education rather than medical licensing exams. This suggests that zero-shot rank-order signal, combined with simple calibration, can match supervised feature-extraction approaches.
+
 \subsection{Practical Implications}
 
 At approximately \$0.05 per item (3~replications $\times$ Gemini~3~Flash pricing), LLM difficulty estimation is orders of magnitude cheaper than field testing. Rankings transfer across datasets; absolute calibration does not---models overestimate student ability on SmartPaper (MAE$\approx$0.15--0.20) but the rank-order is preserved.
@@ -314,14 +322,11 @@ For practitioners: use a capable model (Gemini, GPT-4o), prompt it to analyze st
 %% ============================================================
 \section{Discussion}
 
-\paragraph{Directed vs.\ Undirected Analysis.}
+\paragraph{Why Directed Analysis Works.}
+The success of item analysis prompts suggests LLMs possess implicit pedagogical content knowledge---understanding of what makes content difficult---but this knowledge must be \emph{elicited} through directed enumeration. Undirected chain-of-thought drifts toward solving the item; directed analysis (``list prerequisites, then estimate'') channels implicit knowledge productively. This parallels findings in expertise research: experts often cannot articulate knowledge until prompted with specific frameworks~\cite{chi1994}.
 
-The item analysis prompts that work use \emph{directed} analysis---they specify exactly what to enumerate. This contrasts with \emph{undirected} chain-of-thought (``think step by step''), which produces unfocused reasoning that drifts toward solving the item rather than analyzing its structural difficulty. Directed analysis channels implicit pedagogical content knowledge productively; undirected deliberation disrupts it.
-
-\paragraph{Structural Predictability.}
-Our three-dataset comparison suggests a structural predictability pattern: LLMs estimate difficulty well when it varies across knowledge domains (SmartPaper: $\rho=0.69$), but the item-analysis advantage diminishes on MCQs where difficulty may be driven by distractor design (DBE-KT22: $\rho=0.52$--$0.58$; BEA: $\rho=0.45$, all prompts equivalent).
-
-We conjecture that items whose difficulty is driven by structural features (prerequisite count, cognitive load, error paths) are predictable by LLMs, while items whose difficulty is driven by familiarity, exposure, or subtle distractor plausibility are not---because this information is absent from the item text. Testing this hypothesis would require datasets with item-level annotations of difficulty sources.
+\paragraph{Boundary Conditions.}
+The attenuation on MCQs reveals when LLM estimation fails: difficulty driven by \emph{structural} features visible in the item text (prerequisites, cognitive load, error paths) is predictable; difficulty driven by \emph{population} features absent from the text (prior exposure, distractor plausibility for specific misconceptions) is not. Practical heuristic: use structured prompts for open-ended items spanning knowledge domains; use simple teacher judgment for MCQs within a domain.
 
 \paragraph{Methodological Recommendations.}
 Our design-space exploration surfaced three lessons. (1)~\emph{Beware Simpson's paradox in unbalanced designs.} We initially swept temperature only for promising prompts; a marginal ANOVA showed temperature as dominant ($\eta^2 = 0.74$), but this was an artifact---low temperatures were confounded with high-performing prompts. When restricted to balanced conditions, temperature explained $<1\%$ of variance. (2)~\emph{Use two-stage sequential DOE.} Screen all prompts cheaply (1~rep, single temp) to eliminate the bottom half, then run a balanced factorial on survivors. (3)~\emph{Validate on $\ge$100 items.} Our 20-item probe yielded $\rho = 0.46$; the full 140-item set achieved $\rho = 0.55$. Bootstrap analysis showed only 2.5\% of 20-item subsets would produce $\rho \ge 0.50$. Many published results use $<$50 items---treat such samples as exploratory only.
@@ -395,8 +400,8 @@ Peters, S., et al.: Text-based approaches to item difficulty modeling: A systema
 \bibitem{razavi2025}
 Razavi, P., Powers, S.J.: Estimating item difficulty using large language models and tree-based ML. arXiv:2504.08804 (2025)
 
-\bibitem{scarlatos2025}
-Scarlatos, A., et al.: SMART: Simulated students aligned with IRT for question difficulty prediction. In: EMNLP 2025, pp.\ 25071--25094 (2025)
+\bibitem{rogoz2024}
+Rogoz, A., Ionescu, R.T.: UnibucLLM: Harnessing LLMs for automated prediction of item difficulty and response time. In: BEA 2024, pp.\ 502--508 (2024)
 
 \bibitem{sudkamp2012}
 S\"udkamp, A., Kaiser, J., M\"oller, J.: Accuracy of teachers' judgments: A meta-analysis. J.\ Educational Psychology \textbf{104}(3), 743--763 (2012)
