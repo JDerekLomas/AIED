@@ -192,7 +192,7 @@ We present results in five parts: the headline finding on item analysis prompts,
 Fifteen prompts were screened on SmartPaper (140 open-ended items) using Gemini~3~Flash at 2--5 temperature settings with 3~replications per condition. The top three prompts---all directing the model to analyze structural item features before estimating difficulty---achieved $\rho=0.65$--$0.69$ (Table~\ref{tab:screening}, Figure~\ref{fig:screening}): \textbf{prerequisite\_chain} ($\rho=0.686$) enumerates knowledge prerequisites before estimating; \textbf{cognitive\_load} ($\rho=0.673$) counts interacting memory elements; and \textbf{buggy\_rules} ($\rho=0.655$) identifies procedural error paths. For context, meta-analyses report that experienced teachers can predict individual student performance with $r=0.63$--$0.66$~\cite{hoge1989,sudkamp2012}. The constructs differ: teachers judge individual students while we predict aggregate item difficulty. Direct comparison is inappropriate, but the magnitude suggests LLM estimates capture meaningful difficulty information.
 
 \begin{table}[t]
-\caption{Prompt screening results (SmartPaper, $n=140$): top 10 of 15 screened prompts, ranked by best~$\rho$. Five additional prompts (verbalized\_sampling, familiarity\_gradient, imagine\_classroom, irt\_sim, kc\_mastery) achieved $\rho<0.55$. CIs shown for prompts advanced to model survey.}\label{tab:screening}
+\caption{Prompt screening results (SmartPaper, $n=140$): top 10 of 15 screened prompts, ranked by best~$\rho$. Five additional prompts (verbalized\_sampling, familiarity\_gradient, imagine\_classroom, teacher\_decomposed, error\_affordance) achieved $\rho<0.55$. CIs shown for prompts advanced to model survey.}\label{tab:screening}
 \centering\footnotesize
 \begin{tabular}{@{}lccrccr@{}}
 \toprule
@@ -221,7 +221,7 @@ teacher & & & 0.555 & 1.0 & [.422,.664] & .439 \\
 
 \subsection{The Mechanism: Item Analysis, Not Population Modeling}
 
-Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts}) reveals a clear pattern: item analysis is the primary driver. Prompts that model student populations without analyzing item structure perform \emph{worse} than baseline. Mean $\rho$ by group: item analysis only = 0.61 (4~prompts); item + population = 0.59 (5~prompts); neither factor = 0.52 (3~prompts); population only = 0.47 (4~prompts). This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
+Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts}) reveals a clear pattern: item analysis is the primary driver. Prompts that model student populations without analyzing item structure perform \emph{worse} than baseline. Mean $\rho$ by group: item analysis only = 0.61 (5~prompts); item + population = 0.59 (4~prompts); neither factor = 0.52 (2~prompts); population only = 0.47 (4~prompts). This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
 
 The critical distinction is \emph{item-centric} vs.\ \emph{population-centric} framing. Hybrid prompts like buggy\_rules ($\rho=0.66$) succeed because ``identify procedural errors students might make'' is fundamentally item analysis---it asks what error paths the item affords, not how a simulated population would respond. Population modeling \emph{alone} is unreliable: explicit student simulation (synthetic\_students: $\rho=0.19$) performs worst, consistent with Li, Chen et al.'s~\cite{lichen2025} finding that proficiency simulation does not reliably improve difficulty estimation. Framing analysis through student behavior works; simulating student populations does not.
 
@@ -401,9 +401,6 @@ S\"udkamp, A., Kaiser, J., M\"oller, J.: Accuracy of teachers' judgments: A meta
 
 \bibitem{sweller1988}
 Sweller, J.: Cognitive load during problem solving. Cognitive Science \textbf{12}(2), 257--285 (1988)
-
-\bibitem{thurstone1927}
-Thurstone, L.L.: A law of comparative judgment. Psychological Review \textbf{34}(4), 273--286 (1927)
 
 \bibitem{yaneva2024}
 Yaneva, V., et al.: Findings from the first shared task on automated prediction of difficulty. In: BEA 2024, pp.\ 470--482 (2024)
