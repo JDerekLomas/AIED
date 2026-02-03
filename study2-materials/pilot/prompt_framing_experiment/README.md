@@ -1,7 +1,7 @@
 # Prompt Framing Experiment
 
 **Dataset:** SmartPaper (140 open-ended items, Grades 6-8, India)
-**Model:** Gemini 2.5 Flash
+**Model:** Gemini 3 Flash
 **Reps:** 3 per configuration
 **Metric:** Spearman rho vs. classical proportion-correct difficulty
 
@@ -62,7 +62,7 @@ Open any HTML file in a browser; they use Plotly.js (loaded from CDN).
 ## Reproduction
 
 ```bash
-# Requires GOOGLE_API_KEY for Gemini 2.5 Flash
+# Requires GOOGLE_API_KEY for Gemini 3 Flash
 export GOOGLE_API_KEY="your-key"
 python scripts/run_prompt_screening_g3f.py
 ```
