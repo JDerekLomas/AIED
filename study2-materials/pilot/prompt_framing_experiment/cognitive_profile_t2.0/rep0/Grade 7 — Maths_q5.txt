@@ -1,0 +1,27 @@
+### Cognitive Difficulty Profile Analysis
+
+**Concept familiarity: Familiar**
+The Indian currency system (Rupees and Paise) is introduced early (Grade 3-4). Students from economically weaker sections are often frequent participants in small-scale transactions, making them practically familiar with coins. However, the use of low-denomination coins (10p, 20p) is now historically remote, which may slightly hinder instant recognition compared to 50p or ₹1 coins.
+
+**Computational complexity: 4+**
+The item requires several sequential steps:
+1. Multi-step multiplication (10 × 10; 5 × 20; 16 × 50).
+2. Conversion from Paise to Rupees (division by 100).
+3. Summation of intermediate totals.
+4. A final division or scaling step (Total ÷ 5) to find the number of ₹5 coins.
+
+**Common error traps: Major**
+*   **Decimal Placement:** Mismanaging the 100-paise conversion (e.g., thinking 16 coins of 50p equals ₹80 instead of ₹8).
+*   **The "Unit Shift" Trap:** Forgetting the final step of dividing by 5. Students often stop once they reach the sum of ₹10, identifying the total value rather than the quantity of specific coins requested.
+*   **Language Barrier:** For Hindi-medium students, the phrase "made from" might be misinterpreted if the translation isn't clear, leading them to simply sum the *number* of coins (10+5+16) rather than their *value*.
+
+**Format demand: Open-ended**
+The rubric specifies a max score of 0.5, implying a binary correct/incorrect judgment or very minimal partial credit. Without options to choose from, students must navigate the entire procedural chain without a "safety net" to catch calculation errors.
+
+**Number friendliness: Moderate**
+While the multipliers (10, 5, 16) and denominations (10, 20, 50) result in "clean" multiples of 100, the multi-step nature of the calculation increases the likelihood of a stray arithmetic error.
+
+**Holistic Estimation:**
+The transition from identifying "Total Value" to "Number of specific denomination coins" is a common bottleneck for Grade 7 students. In the context of the specific demographic described, the language-to-logic conversion remains the steepest hurdle.
+
+0.35

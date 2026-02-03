@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Decode the English text to understand the request ("Which condition," "most favourable").
+2. Scan the rows/columns of the data table (Condition vs. Height/Growth).
+3. Compare numerical values or descriptions across the three conditions to find the maximum growth value.
+4. Map the maximum value back to the label (e.g., "Full Sunlight").
+5. Encode the answer in written English or a recognizable label.
+
+Step 2: Buggy Rules / Systematic Errors
+1. "Last Entry Bias": Picking the final data point in the table regardless of value.
+2. "Label-Value Mismatch": Correctly identifying the highest number but writing down the numeric value instead of the condition name.
+3. "Common Sense Override": Selecting "Water" or "Soil" based on prior general knowledge even if the data shows "Full Sunlight" as the variable.
+4. "Comparison Failure": Comparing only the first and second items, failing to scan the entire data set.
+5. "Linguistic Misinterpretation": Interpreting "favourable" as "least" or confusing the word with "favorite."
+
+Step 3: Population Considerations
+1. English proficiency: In a Hindi-medium/EWS context, the word "favourable" is a high-threshold vocabulary word.
+2. Tabular Literacy: Grade 6 students from disadvantaged backgrounds often lack systematic exposure to row-column correspondence.
+3. Expressive vs. Receptive: While students might understand the concept of light helping plants, translating that to a specific data-mining task in a second language adds a high cognitive load.
+
+Step 4: Holistic Estimate
+Given that the rubric only asks for (a), the task is simpler than the full three-part question. However, the linguistic barrier and the transition from intuitive to data-based reasoning in Grade 6 are significant hurdles for this specific demographic.
+
+0.55

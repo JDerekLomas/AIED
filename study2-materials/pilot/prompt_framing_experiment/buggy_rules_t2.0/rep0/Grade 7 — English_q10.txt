@@ -1,0 +1,21 @@
+To analyze this item, we must consider the high density of procedural "switching" required to reach the rubric's definition of correctness.
+
+**Step 1: Procedural Steps**
+1.  **Sentence Categorization:** Identify the sentence as assertive (to use the connector 'that').
+2.  **Punctuation Stripping:** Remove quotation marks and the comma.
+3.  **Conjunction Insertion:** Insert "that" (optional in colloquial English but usually mandated in these rubrics).
+4.  **Deictic Shift (Pronoun):** Map the first-person "I" to the third-person "she" based on the reporting subject.
+5.  **Tense Backshifting:** Change the present continuous "am reading" to the past continuous "was reading."
+6.  **Subject-Verb Agreement (Internal):** Ensure "was" matches the new subject "she" (rather than "were").
+
+**Step 2: Buggy Rules**
+*   **The "Copy-Paste" Bug:** Students retain the original pronoun or tense because they treat the quoted text as an immutable "block" (e.g., *She said that I am reading...*).
+*   **The "Incomplete Shift" Bug:** Student changes the pronoun but forgets the tense, or vice versa (e.g., *She said that she am reading...* or *She said that I was reading...*).
+*   **The "Present-Past Mixing" Bug:** Changing the auxiliary verb but keeping a present-tense indicator (e.g., *She said that she was read...*).
+*   **The "Overgeneralization" Bug:** Applying shifts where not needed, such as changing the verb in the reporting clause (*She says that...*).
+*   **The "Translation Interference" Bug:** In Hindi (the L1 of this population), the "backshift" in indirect speech is not structurally identical to English. Indirect speech in Hindi often retains the original tense used in direct speech (*Usne kaha ki woh novel padh rahi hai*). This creates a powerful L1-interference "bug" where the student feels the present tense is logically correct.
+
+**Step 3 & 4: Contextual Synthesis**
+In an open-ended format for Grade 7 students from the specified demographic, the cumulative probability of success is low. Unlike multiple-choice questions (which allow for recognition), this requires simultaneous execution of three distinct shifts (punctuation, pronoun, and tense). In Indian government schools, "backshifting" tense remains one of the most significant hurdles in ESL (English as a Second Language) acquisition. While the grammar is "covered" in the syllabus, the gap between rote memorization of rules and functional execution in an open-ended task is wide.
+
+0.22

@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Decode the semantic relationship: "thrice" means multiplication by 3.
+2. Calculate father’s current age: $12 \times 3 = 36$.
+3. Identify the age difference: $36 - 12 = 24$.
+4. Apply the temporal shift: Add 5 years to both ages ($12+5=17$; $36+5=41$) OR recognize the "Invariance of Difference" property (difference remains constant).
+5. Calculate final difference: $41 - 17 = 24$.
+
+Step 2: Buggy Rules / Cognitive Errors
+1. Linguistic/Translation Bug: Misinterpreting "thrice" as "plus three" (additive instead of multiplicative reasoning) or "twice" due to phonetic confusion/limited English.
+2. Temporal Additive Bug: Calculating both future ages (17 and 41) but adding them together ($17 + 41 = 58$) or adding 5 to the current difference ($24 + 5 = 29$).
+3. Misinterpreting the Goal: Providing the father's future age (41) as the final answer instead of the difference.
+4. "Age Gap Growth" Misconception: The intuitive but incorrect belief that as people get older, the gap between their ages changes (failing the invariance principle).
+
+Step 3: Population Context
+Grade 8 students in this demographic often struggle with word problems in English. "Thrice" is a low-frequency vocabulary word in ESL/Hindi-medium contexts (where "teen guna" is clearer). While the arithmetic is simple, the multi-step nature of the problem increases the "search space" for errors. The rubric only rewards the final answer, meaning a single "bug" in a three-step process results in zero credit.
+
+Step 4: Holistic Analysis
+Many students will correctly find 36. However, a significant portion will either stop there, add 5 to 36 and provide 41, or add 5 to the difference and provide 29. The linguistic barrier of the word "thrice" and the conceptual trap of the temporal shift significantly lower the success rate.
+
+0.35

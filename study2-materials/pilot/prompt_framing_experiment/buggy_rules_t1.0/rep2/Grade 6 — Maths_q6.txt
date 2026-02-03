@@ -1,0 +1,25 @@
+Step 1: Procedural Steps
+1. Identify and extract numerical data (Length=5, Width=4 for rectangle; Side=5 for square).
+2. Recall the formula for the area of a rectangle ($A = L \times W$).
+3. Recall the formula for the area of a square ($A = s^2$ or $s \times s$).
+4. Execute multiplication for the rectangle ($5 \times 4 = 20$).
+5. Execute multiplication for the square ($5 \times 5 = 25$).
+6. Compare the two values (25 > 20) to identify which is "greater."
+7. Execute subtraction to find the difference ($25 - 20 = 5$).
+8. Communicate the final answer in English or mathematically (Greater: Square, by 5).
+
+Step 2: Buggy Rules
+- Area/Perimeter Confusion: Calculating perimeter instead of area (adding sides instead of multiplying).
+- "Additive Area" Bug: Adding the two dimensions given (5+4=9) rather than multiplying.
+- Formula Misapplication: Using $2 \times s$ for the square's area instead of $s \times s$.
+- Unit Neglect: Failing to recognize "sq.cm" or confusing linear and square units (though less impactful on the final number).
+- Comparison Error: Calculating both correctly but failing to perform the final step of subtraction ("by how much").
+- Linguistic Misinterpretation: In Hindi-medium contexts, "greater" might be confused with "perimeter" or "longer" due to limited English vocabulary.
+
+Step 3: Target Population Analysis
+Grade 6 students from economically weaker sections often face high "instructional debt." Many students may still be mastering basic multiplication tables (5x5, 5x4). In an open-ended format without multiple-choice cues, the cognitive load of translating the English word "width" and "greater" while simultaneously recalling two distinct geometric formulas is significant. The requirement for a two-part answer (which one AND by how much) increases the likelihood of an incomplete response.
+
+Step 4: Holistic Estimate
+Taking into account the multi-step nature of the task and the high probability of area-perimeter confusion in early secondary grades:
+
+0.35

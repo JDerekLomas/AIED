@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Linguistic decoding: Translate the English prompt into Hindi/native conceptual framework ("Mountain ranges" -> "Parvat Shrinkhala").
+2. Retrieve category: Search long-term memory for the specific geographic category "Mountain Ranges."
+3. Spatial filtering: Narrow the list of retrieved ranges to those located specifically within "India" (filtering out international ranges like the Alps or Andes).
+4. Dual recall: Select exactly two distinct items from the filtered set.
+5. Transcription/Orthography: Write the names (likely in English) ensuring phonetic or spelling accuracy recognizable by the grader.
+
+Step 2: Systematic Buggy Rules
+1. Over-generalization (The "Himalaya-only" bug): Correctly identifies the most famous range but treats "mountain" and "range" as synonymous, leading to naming specific peaks (Everest, K2) instead of a second range.
+2. Political-Geographic Disconnect (The "Externalization" bug): Including neighboring ranges (Hindu Kush, Karakoram) without realizing they are often categorized outside of "India" in strict school-text contexts.
+3. Language interference: Writing the phonetic Hindi equivalent with non-standard English spelling that fails a strict rubric check.
+4. Set-Size error: Providing only one answer despite the prompt "any two" because the prompt is perceived as a simple identification task rather than a quantitative requirement.
+5. Semantic Confusion: Confusing "Plateau" (Deccan) or "Peak" (Kanchenjunga) with "Range."
+
+Step 3: Population Considerations
+For Grade 6 students from Hindi-medium/economically weaker backgrounds, "mountain ranges" is a specific academic term that often competes with the vernacular "pahadi" (hill). The open-ended recall format is significantly harder than multiple-choice recognition. The linguistic barrier often leads to "blank paper" syndrome or naming a single prominent feature (Himalayas) but failing to retrieve a second less-culturally-dominant range like the Vindhyas or Aravallis.
+
+Step 4: Holistic Analysis
+While the Himalayas are almost universally known, retrieving a *second* correct range from the academic list (Satpura, Western Ghats, etc.) requires a level of textbook retention that often lapses in lower-resource settings. The English prompt further bottlenecks the performance of students who might know the answer in Hindi but struggle with the "Major Mountain Ranges" terminology.
+
+0.35

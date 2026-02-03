@@ -1,0 +1,24 @@
+Step 1: Procedural Steps
+1. Decode the term "palindrome" and apply it to a numerical context.
+2. Recall/identify the constraints of a "5-digit" number (no leading zeros).
+3. Deduce the specific "smallest" 5-digit palindrome (10001).
+4. Deduce the specific "largest" 5-digit palindrome (99999).
+5. Align and add the two numbers (requiring multiple "carries" across 5 columns).
+6. Read the second instruction ("Write their difference also") and subtract the smallest from the largest.
+
+Step 2: Buggy Rules and Systematic Errors
+- Vocabulary Confusion: Mistaking "palindrome" for "prime," "odd/even," or "composite."
+- Constraint Error: Using 10000 or 11111 as the smallest; using 98789 (unique digits) or just any 5-digit number.
+- Carrying Bug: Failing to increment the next column when a sum exceeds 9 (very high risk here as 1+9 occurs repeatedly, leading to 100000 instead of 110000).
+- Reading Comprehension: Neglecting the second command (the difference) due to cognitive load from the first task.
+- Language Barrier: Misinterpreting "sum" vs. "difference" due to English-as-second-language (ESL) interference.
+
+Step 3: Population Considerations
+- Grade 6 students in EWS/Hindi-medium contexts often struggle with English-medium math terminology.
+- The rubric only awards points for the sum, but the question asks for both, creating a potential instructional/grading misalignment.
+- Open-ended recall of number properties (like palindromes) is significantly harder than multiple-choice recognition.
+
+Step 4: Holistic Assessment
+The multi-step nature of the problem (defining two specific bounds + two arithmetic operations) combined with the "carrying" complexity in 10,001 + 99,999 makes this high-difficulty for the target demographic. Many students will get the largest number (99,999) but fail on the smallest (often choosing 11,111 or 10,001 but making an addition error).
+
+0.25

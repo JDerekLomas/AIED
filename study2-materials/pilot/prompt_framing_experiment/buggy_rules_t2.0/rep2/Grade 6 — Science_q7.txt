@@ -1,0 +1,20 @@
+Step 1: Specific procedural steps
+1.  Read and decode the English text (requires differentiating between what is present and what is missing).
+2.  Retrieve categorical knowledge of food groups (categorizing milk separately from fruits/vegetables).
+3.  Identify the specific nutrient or food group associated with "milk" (Calcium/Protein) vs. "fruits" (Vitamins/Minerals).
+4.  Execute a dual-task response: isolate the specific missing component (identification) AND synthesize a broader diet chart (generation).
+5.  Translate internal thought (likely in Hindi/L1) into a written English response.
+
+Step 2: Buggy rules
+1.  **Over-inclusion bug:** Listing what Kartik *did* eat instead of what he *didn't* eat (reversal of logical operator).
+2.  **Semantic Blur bug:** Treating "food" as a holistic concept where "more is better," leading to an answer like "junk food" or "energy."
+3.  **Prompt Neglect bug:** Answering only the first part ("Milk") and ignoring the "Prepare a diet chart" instruction, or vice versa.
+4.  **Keyword Matching bug:** If "milk" is in the prompt, students may assume the answer must be a different food item not mentioned at all (e.g., "dal" or "roti") because "milk" feels like part of the question's premise, not its conclusion.
+
+Step 3: Target population considerations
+Grade 6 students from Hindi-medium/EWS backgrounds face high linguistic interference. The "Prepare diet chart" instruction is open-ended and highly demanding for limited English proficiency. While "milk" is easy to identify, the rubric asks for identification, but the prompt's complexity increases the cognitive load and likelihood of "giving up" or provide a partial, non-scoring response.
+
+Step 4: Holistic estimate
+The task requires not just recall, but managing a two-part instruction where the second part is significantly more complex than the first. In this specific socio-economic and linguistic context, many students will struggle with the synthesis of a "chart" in English, even if they recognize the "milk" deficiency.
+
+0.35

@@ -1,0 +1,22 @@
+Step 1: Procedural steps required:
+1. Translate verbal phrases ("10 coins of 10 paise") into multiplication operations.
+2. Execute multiplication for three different sets: (10 × 10), (5 × 20), and (16 × 50).
+3. Sum the products to find the total value in paise (100 + 100 + 800 = 1000).
+4. Perform unit conversion from paise to Rupees (Divide by 100).
+5. Execute the final division/comparison step: Divide the total Rupees (₹10) by the target denomination (₹5) to find the "number of coins."
+
+Step 2: Potential Buggy Rules/Systematic Errors:
+- **Unit Conflation:** Adding 10, 5, and 16 (quantities) to the denominations (10, 20, 50) directly.
+- **Decimal Placement Bug:** Incorrectly converting paise to Rupees (e.g., thinking 50 paise is ₹5 or 0.05).
+- **Keyword Over-reliance:** Students seeing "How many" and "5 coins" may mistake "5" for a quantity rather than the target denomination.
+- **Language/Syntactic interference:** Difficulty parsing the multi-clause English sentence into sequential operations.
+
+Step 3: Population Considerations:
+- Grade 7 students are developmentally ready for these operations, but English Language Learners (ELL) in a "test" environment often struggle with word-problem syntax.
+- The open-ended format removes the "cueing" effect of multiple-choice options.
+- The high cognitive load of multi-step arithmetic increases the probability of a "slippage" (computational error) even if the conceptual "bug" is absent.
+
+Step 4: Holistic Estimate:
+While the math is basic (multiples of 10), the number of discrete steps (5+ steps) combined with the linguistic complexity for Hindi-medium students significantly lowers the success rate. Many will find the total sum (₹10) but fail the final division by 5, or struggle with the 16 × 50 calculation.
+
+0.35

@@ -1551,6 +1551,8 @@ if __name__ == "__main__":
                         help="Run synthetic student simulation variant")
     parser.add_argument("--temp", type=float, default=2.0,
                         help="Temperature for synthetic students (default: 2.0)")
+    parser.add_argument("--temps", type=float, nargs="+", default=None,
+                        help="Override TEMPERATURES for experiment (e.g. --temps 0.5 1.0 2.0)")
     parser.add_argument("--model", type=str, default=None,
                         help="Override model (e.g. meta-llama/llama-4-maverick-17b-128e-instruct for Groq)")
     args = parser.parse_args()
@@ -1560,6 +1562,10 @@ if __name__ == "__main__":
         _m.MODEL = args.model
         model_short = args.model.split("/")[-1].split("-instruct")[0]
         _m.OUTPUT_DIR = Path(f"pilot/prompt_framing_experiment/{model_short}")
+
+    if args.temps:
+        _m = sys.modules[__name__]
+        _m.TEMPERATURES = args.temps
 
     os.chdir(Path(__file__).parent.parent)
 

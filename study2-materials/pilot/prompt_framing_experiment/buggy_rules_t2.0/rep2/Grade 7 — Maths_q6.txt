@@ -1,0 +1,18 @@
+Step 1: Procedural Steps
+1. Convert the first mixed fraction ($1 \frac{1}{2}$) to an improper fraction: $(1 \times 2) + 1 = \frac{3}{2}$.
+2. Convert the second mixed fraction ($3 \frac{1}{4}$) to an improper fraction: $(3 \times 4) + 1 = \frac{13}{4}$.
+3. Apply the algorithm for multiplication of fractions: multiply numerators ($3 \times 13 = 39$) and multiply denominators ($2 \times 4 = 8$).
+4. Convert the resulting improper fraction ($\frac{39}{8}$) back into a mixed fraction: divide 39 by 8 to find the quotient (4) and remainder (7), resulting in $4 \frac{7}{8}$.
+
+Step 2: Buggy Rules
+- **Mixed Number Multiplication Bug**: Multiplying whole numbers and fractions separately ($1 \times 3$ and $1/2 \times 1/4 = 3 \frac{1}{8}$).
+- **Conversion Bug (Add instead of Multiply)**: Adding the whole number to the numerator instead of multiplying ($1+1=2 \rightarrow \frac{2}{2}$ or $3+1=4 \rightarrow \frac{4}{4}$).
+- **Common Denominator Bug**: Attempting to find a common denominator (8) before multiplying, leading to excessive computation or confusion with the addition algorithm.
+- **Whole Number "Discard"**: Successfully converting but forgetting to multiply the numerators, focusing only on the "easier" denominators.
+- **Incomplete Procedure**: Stopping at the improper fraction ($\frac{39}{8}$) and failing to convert back to a mixed fraction as the prompt explicitly demands.
+
+Step 3: Population Considerations
+In Grade 7 Indian government schools, English-language prompts ("Express the answer as...") pose a linguistic barrier. Students often rely on visual cues; seeing two mixed fractions triggers "Addition" heuristics by habit. Furthermore, the multi-step nature of the rubric (recall-heavy) means a single error in any of the four steps results in zero points. Mixed fraction multiplication is a known "bottleneck" topic in this demographic.
+
+Step 4: Final Estimate
+0.35

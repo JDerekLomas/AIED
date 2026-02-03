@@ -1,0 +1,28 @@
+Step 1: Procedural Steps
+1. Decode the term "palindrome" and apply it to a numerical context.
+2. Recall/identify the constraints of a "5-digit" number (no leading zero).
+3. Identify the smallest 5-digit palindrome (10,001).
+4. Identify the largest 5-digit palindrome (99,999).
+5. Align numbers vertically for addition.
+6. Execute addition with multiple carry-overs ($1+9=10$).
+7. Decode the second command ("Write their difference also").
+8. Execute subtraction ($99,999 - 10,001$) with alignment.
+
+Step 2: Buggy Rules & Cognitive Obstacles
+- Terminology Gap: Students may confuse "palindrome" with "prime," "even/odd," or simply not know the word if instruction was in Hindi (where it is often called *vilompada* or *ulte-pulte*).
+- Boundary Errors: Smallest 5-digit number identified as 11,111 (over-generalizing the repeating digit) or 10,010 (incorrect symmetry).
+- Largest Error: Identifying 99,899 or similar due to a failure to recognize that all-identical digits are palindromes.
+- Addition Bugs: "Vanishing Carry" (forgetting the 1 carried to the next column) or "Column Sum" (writing 10 in a single column: $9+1=10$ resulting in $101010...$).
+- Task Omission: Ignoring the second sentence ("Write their difference") due to cognitive load or low reading stamina.
+- Rubric Constraint: Since the rubric only awards a point for the sum, any error in the identification of the numbers (even if the addition is correct) results in 0.
+
+Step 3: Population Considerations
+For Grade 6 students in economically weaker sections with limited English proficiency:
+- The word "palindrome" is a high-level vocabulary hurdle not frequently used in standard computational practice.
+- The "Sum" and "Difference" are two separate operations; multi-step word problems in a second language significantly increase the probability of skipping the second part or misinterpreting the first.
+- Open-ended recall of number properties (smallest/largest) is significantly harder than selecting them from a list.
+
+Step 4: Holistic Estimate
+Given the requirement for two distinct operations and the high linguistic/conceptual barrier of "palindrome," many students will either provide only one part of the answer, fail to identify 10,001 correctly, or make a carry-over error.
+
+0.25

@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1.  **Linguistic/Conceptual Decoding**: Interpret the word "thrice" as a multiplication factor of 3 and "now" as the reference time point.
+2.  **Current Age Calculation**: Calculate the father's current age (12 × 3 = 36).
+3.  **Future State Projection (A)**: Calculate Rahul's age in 5 years (12 + 5 = 17).
+4.  **Future State Projection (B)**: Calculate the father's age in 5 years (36 + 5 = 41).
+5.  **Difference Calculation**: Subtract Rahul's future age from the father's future age (41 - 17 = 24).
+6.  **Invariant Property Recognition (Alternative to 3-5)**: Recognize that the difference in age remains constant over time (36 - 12 = 24).
+
+Step 2: Systematic Buggy Rules
+*   **Vocabulary Trap**: Students may not recognize "thrice," leading to an "operator guess" (e.g., adding 3 or using the only other number, 5).
+*   **Additive Scaling Bug**: Treating "thrice" as "3 years older" rather than 3 times older.
+*   **The "Plus Five" Bug**: Calculating the father's age now (36) and then adding 5 to get 41, assuming the question asks for his future age rather than the *difference*.
+*   **Single-Variable Aging Bug**: Adding 5 years to only one person's age (usually the father's) and then calculating the difference.
+*   **Additive Interference**: Many students assume age ratios stay constant (e.g., "The father will always be 3 times older"), leading them to multiply 17 by 3 to find the future age/difference.
+
+Step 3: Population Considerations
+The term "thrice" is significantly more common in high-level ESL textbooks than in rural/lower-economic urban Indian settings, where "three times" or Hindi-medium translations (तीन गुना) are the norm. The open-ended format eliminates the possibility of "back-solving" from options. For an Grade 8 student in this context, the primary hurdle is linguistic, followed by the distraction of the "after 5 years" clause, which invites the Single-Variable Aging Bug.
+
+Step 4: Holistic Estimate
+While the arithmetic is simple, the combination of the vocabulary hurdle ("thrice"), the multi-step nature of the word problem, and the classic "age difference" misconception (failing to recognize age difference is invariant) suggests a high error rate.
+
+0.35

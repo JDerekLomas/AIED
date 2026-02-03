@@ -1,0 +1,19 @@
+Step 1: Procedural steps:
+1. Identify that the divisor contains a decimal.
+2. Apply the rule of compensation (multiplying both by 10) or converting to a fraction ($8 / \frac{72}{10} = \frac{80}{72}$) to handle the decimal.
+3. Perform long division of $80 \div 72$ or simplify the fraction $\frac{80}{72}$ to $\frac{10}{9}$.
+4. Execute recursive division to find the decimal value ($1.11...$).
+5. Recognize and denote the repeating decimal pattern.
+
+Step 2: Buggy rules:
+- **"Ignore Decimal" bug:** Dividing $72 \div 8$ because "larger must be divided by smaller," resulting in 9.
+- **"Decimal Placement" bug:** Dividing $8 \div 72$ as if it were $72 \div 8$ and placing the decimal arbitrarily (e.g., 0.9 or 1.1).
+- **"Divisor-Dividend Swap":** Reversing the operation to make it "easier" ($7.2 \div 8 = 0.9$).
+- **"Truncation error":** Stopping division at the first decimal place without recognizing the period.
+- **"Decimal Shift" bug:** Moving the decimal in the divisor but not the dividend (resulting in $8 \div 72$ instead of $80 \div 72$).
+
+Step 3: Population factors:
+Grade 7 students in this demographic often struggle with "division that results in a smaller number" and "division where the divisor is larger than the dividend." English medium instruction for Hindi-speaking students often leads to rote memorization of algorithms without conceptual understanding of place value, increasing the likelihood of "buggy" executions when decimals are introduced. The open-ended nature removes the "safety net" of multiple-choice estimation.
+
+Step 4: Holistic Estimate:
+0.25

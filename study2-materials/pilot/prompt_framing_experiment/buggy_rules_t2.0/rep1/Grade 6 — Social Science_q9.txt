@@ -1,0 +1,24 @@
+Step 1: Procedural Steps
+1. Decode the English text and isolate the three specific constraints: Identify two monuments, select one for elaboration, and identify its specific city/location.
+2. Search long-term memory for "Rajasthan" + "History" category (e.g., Amer Fort, Hawa Mahal, City Palace, Chittorgarh).
+3. Verify that both chosen monuments are indeed within Rajasthan (avoiding confusion with neighboring Delhi or Agra).
+4. For one monument, retrieve the specific city (e.g., identifying that Hawa Mahal is in Jaipur, not Udaipur).
+5. Retrieve the specific attribute of significance (architectural features, who built it, or a specific event).
+6. Encode the answer in English or mixed code within the provided space.
+
+Step 2: Buggy Rules (Systematic Errors)
+1. **The "List Only" Bug**: Providing only the two names and omitting the location and reason for fame (cognitive overload causing the student to ignore the second sentence).
+2. **The "Vicinity Confusion" Bug**: Mapping a famous monument like the Taj Mahal or Qutub Minar to Rajasthan because they are taught in the same unit of "Historical Monuments."
+3. **The "Categorical Shift" Bug**: Naming a city (Jaipur) or a person (Maharana Pratap) instead of a specific monument.
+4. **The "One-for-All" Bug**: Applying the location or reason to both monuments collectively or mixing the city of one with the name of the other (misaligned retrieval).
+5. **The "Generic Attribution" Bug**: Providing a circular or generic reason for fame (e.g., "It is famous because it is old") which may not meet the implicit criteria of "why it is famous."
+
+Step 3: Population Considerations
+1. **Language Barrier**: English-language prompts often lead students with low proficiency to pick out "keywords" (e.g., "Rajasthan," "historical monuments") and ignore functional modifiers (e.g., "For one of them...").
+2. **Recall vs. Recognition**: Unlike multiple-choice questions (MCQs), the open-ended format requires generative retrieval, which is significantly harder for students whose academic exposure is intermittent.
+3. **Instructional Mismatch**: In many under-resourced schools, rote memorization focuses on one-to-one pairings. The compound nature of this question (naming two but describing one) exceeds the typical task-schema students are practiced in.
+4. **Scoring Rigidity**: Since the maximum score is 1, any partial error (e.g., naming two monuments correctly but missing the "why") results in a score of 0, making the threshold for success very high.
+
+Step 4: Holistic Estimate
+
+0.35

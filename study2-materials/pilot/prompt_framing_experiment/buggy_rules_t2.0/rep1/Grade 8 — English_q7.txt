@@ -1,0 +1,25 @@
+Step 1: Specific procedural steps
+1.  Decoding/Reading: Read and phonetically process the four lines of the stanza.
+2.  Identifying Target Feature: Understand the technical definition of "rhyming words" (phonetic ending similarity).
+3.  Scan/Comparison: Systematically compare the terminal words of each line (rain, grain, borrow, tomorrow) against each other.
+4.  Validation: Determine that /reɪn/ and /ɡreɪn/ constitute a match.
+5.  Selection/Extraction: Physically isolate the pair from the context of the sentence.
+6.  Transcription: Write both words correctly on the answer sheet to form a pair.
+
+Step 2: Buggy rules
+- Phonetic vs. Orthographic Match: Looking for words that *look* the same at the end rather than sound the same (a success here, but often leads to bugs in other sets).
+- Sequence Bug: Assuming only adjacent lines can rhyme (AA) or only alternating lines (ABAB).
+- Definition Bug: Identifying words with the same starting sound (alliteration) instead of ending sound.
+- Copying Bug: Writing the whole line instead of the specific word (failing to extract).
+- Grammar/Meaning Bug: Selecting words based on semantic relationship (e.g., borrow/repay) rather than sound.
+- Language Transfer Bug: Mispronouncing English vowels based on Hindi phonetics, potentially missing the /eɪ/ sound.
+
+Step 3: Population considerations
+- The grammar in the text is slightly "broken" (e.g., "He had repay it"), which can distract a student struggling with English proficiency.
+- In EWS/Hindi-medium contexts, "Rhyming words" is often taught as a rote-recognition task. The words "rain" and "grain" are high-frequency and have high orthographic overlap (-ain), which minimizes the cognitive load for students with limited vocabulary.
+- The term "tomorrow" / "borrow" provides a second rhyming pair (visual and auditory), increasing the probability of finding *at least* one correct pair, even if they miss "rain/grain." However, the rubric strictly specifies "rain" and "grain."
+
+Step 4: Holistic Estimate
+While "rain/grain" is a very accessible pair due to the identical spelling pattern (-ain), the requirement to extract and pair them without a prompt or multiple-choice options in a second-language context remains a hurdle for many students.
+
+0.65

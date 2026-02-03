@@ -76,42 +76,44 @@
 
 <div class="abstract">
   <strong>Abstract</strong>
-  Published correlations between LLM-predicted and empirical item difficulty range from &rho;&asymp;0 to r=0.83, but each study tests a single configuration on a single dataset, leaving open which factors drive these differences. We apply sequential design of experiments (DOE)&mdash;standard in industrial process optimization but, to our knowledge, novel in LLM evaluation&mdash;to systematically map the parameter landscape across three datasets, six models, and seven theory-grounded prompt framings.
+  Published correlations between LLM-predicted and empirical item difficulty range from near-zero to r=0.87, but each study tests a single configuration on a single dataset, leaving open which factors drive success or failure. We apply sequential design of experiments (DOE)&mdash;standard in industrial process optimization but novel in LLM evaluation&mdash;to systematically map the parameter landscape across three educational datasets, seven models, and seven theory-grounded prompt framings.
 
-  <p style="margin-top:0.5rem">In a three-phase pipeline&mdash;prompt screening (7 framings), model survey (6 models), cross-dataset confirmation&mdash;we find that prompt framing grounded in Knowledge Component theory (counting prerequisite failure points) achieves <span class="sig">&rho;=0.686</span> on 140 open-ended items (95% CI [0.577, 0.771]), outperforming direct teacher prediction (&rho;=0.555). On a held-out MCQ dataset (168 university CS items), the same framing achieves <span class="sig">&rho;=0.531</span> (95% CI [0.411, 0.640]), confirming cross-dataset transfer. Across 6 models, teacher-prediction framing consistently outperforms simulation and contrastive prompts, with performance uncorrelated with model size. On misconception-targeted MCQs, all methods produce only <span class="null">&rho;=0.114</span> (n=105, non-significant).</p>
+  <p style="margin-top:0.5rem">In a three-phase pipeline&mdash;prompt screening, model survey, cross-dataset confirmation&mdash;we find that prompt framing is the dominant factor. Prompts that operationalize learning science theories as counting tasks (e.g., count prerequisite failure points) achieve <span class="sig">&rho;=0.686</span> on 140 open-ended items (95% CI [0.577, 0.771]), exceeding the meta-analytic average for expert teacher judgment (r=0.63&ndash;0.66). The top prompt transfers to a held-out MCQ dataset (<span class="sig">&rho;=0.531</span>, 168 CS items), but all methods produce only <span class="null">&rho;=0.114</span> (n=105, non-significant) on misconception-targeted MCQs.</p>
 
-  <p style="margin-top:0.5rem">Every form of cognitive scaffolding&mdash;student simulation, deliberative reasoning, misconception hints&mdash;matched or degraded performance relative to direct prediction. The practical recommendation: use theory-grounded counting prompts, not simulation; characterize the difficulty source before investing in LLM-based estimation; and always validate beyond curated probe sets.</p>
+  <p style="margin-top:0.5rem">The counting-prompt advantage is model-dependent: it holds on capable models but reverses on smaller ones. The practical recommendation: prompt capable LLMs to count theory-grounded structural features rather than to make holistic judgments, and always validate on a full item set&mdash;our probe-set results inflated the true signal by 4&times;.</p>
 </div>
 
 <!-- ============================================================ -->
 <h2>1. Introduction</h2>
 
-<p>Can LLMs estimate how difficult a test item is for students? Published results vary widely: from &rho;&asymp;0 (Kr&ouml;ger et al., 2025, direct estimation) to r=0.83 (Razavi &amp; Powers, 2025). Each study evaluates one model with one prompt on one dataset, so it remains unclear which factors account for this variation.</p>
+<p>Predicting how difficult a test item will be for students is a longstanding problem in educational measurement. Classical approaches use cognitive item models to identify structural features that drive difficulty (Embretson, 1998; Irvine &amp; Kyllonen, 2002), while expert teacher judgment achieves median correlations of r=0.66 (Hoge &amp; Coladarci, 1989) to mean r=0.63 (S&uuml;dkamp, Kaiser &amp; M&ouml;ller, 2012) with actual student performance. Both approaches are resource-intensive: cognitive models require domain-specific feature engineering, and teacher panels require access to experienced practitioners.</p>
 
-<p>Difficulty estimation depends on multiple interacting factors: the model, the prompt framing, the sampling temperature, the item type, and the student population. Single-configuration studies confound these factors. A systematic method is needed to vary them independently and identify which ones matter.</p>
+<p>Large language models offer a potential shortcut. Recent work reports correlations between LLM predictions and empirical difficulty ranging widely, from weak direct estimation to r=0.87 when LLM-extracted features are combined with gradient boosting (Razavi &amp; Powers, 2025). A systematic review identified 37 papers on text-based difficulty prediction through 2025, with rapid growth but no consensus on methods (Peters, Zhang, Jiao et al., 2025). The first shared task on automated difficulty prediction (BEA 2024; Yaneva et al., 2024) found that best results only marginally beat baselines on 667 medical items, confirming the problem remains open.</p>
 
-<p>We apply sequential design of experiments (DOE), standard in industrial process optimization (Box &amp; Draper, 2007) but novel in LLM evaluation. The pipeline has three phases: (1) screen 7 theory-grounded prompt framings to identify the best approach, (2) survey 6 models to test generalization across architectures, and (3) confirm the top configurations on a held-out dataset. Each phase&rsquo;s results determine the next phase&rsquo;s design.</p>
+<p>A key limitation across this literature is that each study evaluates one model with one prompt on one dataset. When results disagree, it is unclear whether the discrepancy reflects model choice, prompt design, item properties, or student population. What is needed is a method for varying these factors independently.</p>
+
+<p>We apply sequential design of experiments (DOE), standard in industrial process optimization (Box &amp; Draper, 2007) but, to our knowledge, novel in LLM evaluation. Sequential experimental frameworks have been applied to educational interventions at internet scale (Stamper, Lomas, Ching et al., 2012); we extend this approach to LLM configuration optimization. The pipeline has three phases: (1) screen 7 theory-grounded prompt framings, (2) survey 7 models to test generalization, and (3) confirm top configurations on a held-out dataset with pre-specified hypotheses.</p>
 
 <p>The core findings:</p>
 <ol>
-  <li><strong>Prompt framing is the primary lever.</strong> On 140 open-ended items, the best framing (&rho;=0.686) outperforms the worst (&rho;=0.483) by 0.20&mdash;a larger effect than model choice or temperature.</li>
-  <li><strong>Theory-driven counting beats intuitive judgment.</strong> Prompts that operationalize learning science theories as counting tasks (count prerequisite failure points, count working memory elements) outperform direct &ldquo;estimate difficulty&rdquo; prompts.</li>
-  <li><strong>Simulation and scaffolding do not help.</strong> Across all models, student simulation produces near-zero signal. Deliberative reasoning and misconception hints do not improve performance.</li>
-  <li><strong>The method does not transfer to misconception-targeted MCQs.</strong> On Eedi items, &rho;=0.114 (n=105, non-significant). The dissociation depends on the source of difficulty, not the estimation method.</li>
+  <li><strong>Prompt framing is the primary lever.</strong> The best framing (&rho;=0.686) outperforms the worst (&rho;=0.483) by 0.20&mdash;a larger effect than model choice or temperature.</li>
+  <li><strong>Counting beats judgment.</strong> Prompts that operationalize learning science theories as counting tasks outperform direct &ldquo;estimate difficulty&rdquo; prompts, consistent with findings that LLMs are most effective as structured feature extractors (Razavi &amp; Powers, 2025).</li>
+  <li><strong>Counting prompts require capable models.</strong> The counting-prompt advantage holds on Gemini 3 Flash but attenuates or reverses on weaker models, where plain teacher prediction is more robust.</li>
+  <li><strong>The method has boundary conditions.</strong> On misconception-targeted MCQs, all methods produce &rho;=0.114 (n=105, non-significant). On a different MCQ set varying in cognitive demand, &rho;=0.531. Item properties moderate estimation accuracy in ways that require further investigation.</li>
 </ol>
 
-<h3>1.1 Theoretical Grounding</h3>
+<h3>1.1 Prompt Design Grounded in Learning Science</h3>
 
 <p>Rather than testing prompts ad hoc, we operationalize four learning science traditions as prompt framings, each offering a different account of what makes items difficult:</p>
 
 <ol>
-  <li><strong>Knowledge Component theory</strong> (Koedinger, Corbett &amp; Perfetti, 2012): Difficulty scales with the number of prerequisite knowledge components an item requires. Operationalized as <em>prerequisite_chain</em>: count distinct prerequisite skills and failure points.</li>
-  <li><strong>Cognitive Load Theory</strong> (Sweller, 1988): Difficulty scales with intrinsic cognitive load&mdash;the number of interacting elements held in working memory. Operationalized as <em>cognitive_load</em>: count elements students must hold simultaneously.</li>
+  <li><strong>Knowledge Component theory</strong> (Koedinger, Corbett &amp; Perfetti, 2012): Difficulty scales with the number of prerequisite knowledge components. Operationalized as <em>prerequisite_chain</em>: count distinct prerequisite skills and failure points.</li>
+  <li><strong>Cognitive Load Theory</strong> (Sweller, 1988): Difficulty scales with intrinsic cognitive load. Operationalized as <em>cognitive_load</em>: count elements students must hold in working memory simultaneously.</li>
   <li><strong>Buggy Procedures</strong> (Brown &amp; Burton, 1978): Students apply systematic but flawed algorithms. Operationalized as <em>error_affordance</em>: count distinct plausible error paths.</li>
-  <li><strong>Pedagogical Content Knowledge</strong> (Shulman, 1986): Expert teachers predict difficulty through pattern matching on absorbed knowledge about common student errors. Operationalized as <em>teacher</em>: direct difficulty prediction in a teacher role.</li>
+  <li><strong>Pedagogical Content Knowledge</strong> (Shulman, 1986): Expert teachers predict difficulty through pattern matching. Operationalized as <em>teacher</em>: direct difficulty prediction in a teacher role.</li>
 </ol>
 
-<p>All four traditions predict that structured scaffolding (specifying what to count, what to reason about) should improve estimation over unstructured judgment. Our experiments test this prediction.</p>
+<p>The first three share a common structure: they convert difficulty estimation from a holistic judgment into an explicit counting task. This design choice is motivated by Embretson&rsquo;s (1998) cognitive design system approach, which showed that enumerating structural features of items (processing steps, working memory demands) predicts difficulty better than holistic ratings. We test whether this principle extends to LLM prompting.</p>
 
 <!-- ============================================================ -->
 <h2>2. Method</h2>
@@ -127,7 +129,6 @@
   <li><strong>Students:</strong> Indian government schools, Grades 6&ndash;8 (728K+ responses)</li>
   <li><strong>Difficulty metric:</strong> Classical p-correct (proportion scoring full marks)</li>
   <li><strong>Range:</strong> 0.04&ndash;0.83 (mean 0.29)</li>
-  <li><strong>Population:</strong> Economically weaker sections, many Hindi-medium backgrounds</li>
 </ul>
 </div>
 <div>
@@ -155,7 +156,7 @@
 <table>
 <tr><th>Phase</th><th>Purpose</th><th>Dataset</th><th>Design</th><th>Calls</th></tr>
 <tr><td>1. Screening</td><td>Identify best prompt framing</td><td>SmartPaper (140 items)</td><td>7 framings &times; 2 temps &times; 3 reps</td><td>5,880</td></tr>
-<tr><td>2. Model survey</td><td>Test generalization across models</td><td>SmartPaper (140 items)</td><td>6 models &times; 3 prompts &times; 3 reps</td><td>7,560</td></tr>
+<tr><td>2. Model survey</td><td>Test generalization across models</td><td>SmartPaper (140 items)</td><td>7 models &times; 3 prompts &times; 3 reps</td><td>8,820</td></tr>
 <tr><td>3. Confirmation</td><td>Pre-specified test on held-out data</td><td>DBE-KT22 (168 items)</td><td>5 prompts &times; 2 temps &times; 3 reps</td><td>5,040</td></tr>
 </table>
 
@@ -163,7 +164,7 @@
 
 <h3>2.3 Prompt Framings (Phase 1)</h3>
 
-<p>All 7 framings share a common structure: the LLM is placed in a teacher role, given the item text and population context, and asked to predict what proportion of students would answer correctly. They differ in what intermediate reasoning the prompt requests:</p>
+<p>All 7 framings share a common structure: the LLM receives the item text and population context, and predicts what proportion of students would answer correctly. They differ in what intermediate reasoning the prompt requests:</p>
 
 <table>
 <tr><th>Framing</th><th>Theory</th><th>What the prompt asks</th></tr>
@@ -185,6 +186,7 @@
 <tr><td>Llama-3.3-70B</td><td>70B</td><td>Groq</td></tr>
 <tr><td>Gemma-3-27B</td><td>27B</td><td>Google</td></tr>
 <tr><td>Llama-4-Scout</td><td>17B active (109B MoE)</td><td>Groq</td></tr>
+<tr><td>Qwen3-32B</td><td>32B</td><td>Groq</td></tr>
 <tr><td>Llama-3.1-8B</td><td>8B</td><td>Groq</td></tr>
 </table>
 
@@ -211,54 +213,53 @@
 </table>
 
 <div id="phase1Bar" class="plot-container" style="min-height:380px"></div>
-<div class="figure-caption">Figure 1. Phase 1 prompt screening results (SmartPaper, 140 items, Gemini 3 Flash). Theory-driven counting prompts (prerequisite_chain, cognitive_load) outperform both direct prediction and heuristic framings. Best temperature shown for each.</div>
+<div class="figure-caption">Figure 1. Phase 1 prompt screening results (SmartPaper, 140 items, Gemini 3 Flash). The two counting prompts (prerequisite_chain, cognitive_load) outperform direct prediction and heuristic framings.</div>
 
 <div class="finding">
-<strong>Finding 1: Theory-driven counting beats intuitive judgment.</strong> The two prompts that operationalize learning science theories as explicit counting tasks&mdash;prerequisite_chain (&rho;=0.686) and cognitive_load (&rho;=0.673)&mdash;outperform direct teacher prediction (&rho;=0.555) by 0.12&ndash;0.13. Counting gives the model a concrete intermediate representation.
+<strong>Finding 1: Counting prompts outperform direct judgment.</strong> The two prompts that operationalize learning science as explicit counting tasks&mdash;prerequisite_chain (&rho;=0.686) and cognitive_load (&rho;=0.673)&mdash;outperform direct teacher prediction (&rho;=0.555) by 0.12&ndash;0.13. Both exceed the meta-analytic average for expert teacher judgment (r=0.63; S&uuml;dkamp et al., 2012). Counting gives the model a concrete intermediate representation that correlates with difficulty.
 </div>
 
 <div class="finding">
-<strong>Finding 2: Calibration quality varies independently of ranking accuracy.</strong> devil_advocate achieves the best calibration (bias &minus;0.048, MAE 0.098) despite only middling ranking (&rho;=0.596). teacher has the worst calibration (bias +0.433) despite decent ranking (&rho;=0.555). The &ldquo;challenge your assumptions&rdquo; framing corrects the systematic overestimation of student ability.
+<strong>Finding 2: Ranking accuracy and calibration are dissociable.</strong> devil_advocate achieves the best calibration (bias &minus;0.048, MAE 0.098) despite only middling ranking (&rho;=0.596). teacher has the worst calibration (bias +0.433) despite decent ranking (&rho;=0.555). The &ldquo;challenge your assumptions&rdquo; framing corrects systematic overestimation of student ability without improving rank order.
 </div>
 
 <div class="note">
-<strong>Temperature is a minor factor.</strong> For most framings, &Delta;&rho; between t=1.0 and t=2.0 is &lt;0.05. The exceptions are prerequisite_chain (+0.033) and cognitive_load (+0.056), both benefiting slightly from higher temperature. Temperature is not the dominant factor.
+<strong>Temperature is a minor factor.</strong> For most framings, &Delta;&rho; between t=1.0 and t=2.0 is &lt;0.05. The exceptions are prerequisite_chain (+0.033) and cognitive_load (+0.056), both benefiting slightly from higher temperature.
 </div>
 
-<h3>3.2 Phase 2: Model Survey (SmartPaper, 6 models, n=140)</h3>
+<h3>3.2 Phase 2: Model Survey (SmartPaper, 7 models, n=140)</h3>
 
-<p>Three prompt types (teacher, contrastive, simulation) tested across 6 models at t=2.0.</p>
+<p>Three prompt types (teacher, cognitive_load, prerequisite_chain) tested across 7 models, 3 replications each. This tests whether the Phase 1 counting-prompt advantage generalizes across models.</p>
 
 <table>
-<tr><th>Model</th><th>Params</th><th>&rho; (teacher)</th><th>&rho; (contrastive)</th><th>&rho; (simulation)</th></tr>
-<tr class="highlight"><td><strong>Gemini 3 Flash</strong></td><td>?</td><td class="sig"><strong>0.550</strong></td><td>0.077</td><td>0.271</td></tr>
-<tr><td>Gemma-3-27B</td><td>27B</td><td class="sig">0.501</td><td class="null">&minus;0.058</td><td>0.239</td></tr>
-<tr><td>Llama-3.3-70B</td><td>70B</td><td>0.452</td><td>0.100</td><td class="null">&minus;0.026</td></tr>
-<tr><td>Llama-4-Scout</td><td>17B/109B</td><td>0.410</td><td>0.058</td><td>0.041</td></tr>
-<tr><td>GPT-4o</td><td>? (large)</td><td>0.360</td><td>0.159</td><td>0.030</td></tr>
-<tr><td>Llama-3.1-8B</td><td>8B</td><td>0.244</td><td class="null">&minus;0.155</td><td>0.025</td></tr>
+<tr><th>Model</th><th>Params</th><th>&rho; (teacher)</th><th>&rho; (cognitive_load)</th><th>&rho; (prerequisite_chain)</th></tr>
+<tr class="highlight"><td><strong>Gemini 3 Flash</strong></td><td>?</td><td class="sig">0.550</td><td class="sig">0.619</td><td class="sig"><strong>0.633</strong></td></tr>
+<tr><td>Gemma-3-27B</td><td>27B</td><td class="sig">0.501</td><td class="sig">0.500</td><td>0.464</td></tr>
+<tr><td>GPT-4o</td><td>? (large)</td><td class="sig">0.494</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>Llama-3.3-70B</td><td>70B</td><td class="sig">0.480</td><td>0.403</td><td>0.396</td></tr>
+<tr><td>Llama-4-Scout</td><td>17B/109B</td><td class="sig">0.474</td><td>0.400</td><td>0.345</td></tr>
+<tr><td>Qwen3-32B</td><td>32B</td><td>0.304</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>Llama-3.1-8B</td><td>8B</td><td>0.300</td><td>0.214</td><td>0.044</td></tr>
 </table>
 
 <div id="phase2Heatmap" class="plot-container" style="min-height:350px"></div>
-<div class="figure-caption">Figure 2. Phase 2 model &times; prompt results. Teacher prediction dominates across all models. Contrastive and simulation prompts produce near-zero or negative signal for most models.</div>
+<div class="figure-caption">Figure 2. Phase 2 model &times; prompt results. The counting-prompt advantage (cognitive_load and prerequisite_chain &gt; teacher) holds for Gemini but attenuates or reverses on other models. Smaller models cannot reliably enumerate prerequisites.</div>
 
 <div class="finding">
-<strong>Finding 3: Teacher prediction dominates; simulation fails.</strong> Across all 6 models, teacher prediction outperforms both contrastive (mean &Delta;=+0.36) and simulation (mean &Delta;=+0.34) prompts. Contrastive prompting&mdash;which worked on Eedi&rsquo;s 20-item probe set (&rho;=0.50)&mdash;produces near-zero signal on SmartPaper&rsquo;s 140 items. Simulation produces near-zero signal everywhere.
+<strong>Finding 3: Counting-prompt advantage is model-dependent.</strong> On Gemini 3 Flash, prerequisite_chain (&rho;=0.633) outperforms teacher (&rho;=0.550) by +0.083. This advantage holds weakly on Gemma-3-27B but reverses on Llama-3.3-70B, Scout, and Llama-3.1-8B. The structured counting prompts require sufficient model capability to enumerate item features reliably; on weaker models, prerequisite_chain actually <em>hurts</em> (&rho;=0.044 for Llama-8B).
 </div>
 
 <div class="finding">
-<strong>Finding 4: Model size does not predict success.</strong> GPT-4o (&rho;=0.360, teacher) is outperformed by Gemma-3-27B (&rho;=0.501) and comparable to Scout 17B (&rho;=0.410). The 8B Llama (&rho;=0.244) is the only model where size clearly limits performance.
+<strong>Finding 4: Model capability matters more than model size.</strong> GPT-4o (&rho;=0.494) outperforms the larger Llama-3.3-70B (&rho;=0.480) and matches Scout 17B/109B MoE (&rho;=0.474). Qwen3-32B (&rho;=0.304) and Llama-3.1-8B (&rho;=0.300) define a lower capability tier. The gap between best and worst model (&Delta;&rho;=0.250 on teacher) is comparable to the prompt framing effect.
 </div>
 
-<h3>3.3 Prior Results: Eedi (UK MCQs)</h3>
+<h3>3.3 Eedi Results: A Null Finding and a Methodological Cautionary Tale</h3>
 
-<p>Before the SmartPaper phases, we conducted extensive experiments on 1,869 Eedi maths MCQs using the same DOE approach. The results are summarized here for comparison.</p>
+<p>Before the SmartPaper phases, we conducted extensive experiments on 1,869 Eedi maths MCQs. These results are reported separately because they produced a null finding that is both substantively and methodologically informative.</p>
 
-<h4>3.3.1 Eedi Screening (n=20 probe items)</h4>
+<h4>3.3.1 Probe-Set Results (n=20)</h4>
 
-<p>A Box-Behnken response surface design (46 configurations) varying prompt style, temperature, batch size, misconception hints, and model. Only teacher-prediction framing at high temperature produced signal (&rho;&asymp;0.50 per-rep after 10-rep validation).</p>
-
-<h4>3.3.2 Eedi Prompt Optimization (n=20 probe items)</h4>
+<p>A Box-Behnken response surface design (46 configurations) varying prompt style, temperature, batch size, misconception hints, and model initially suggested moderate signal. After optimization, two prompts reached &rho;&asymp;0.50 on the 20-item probe set:</p>
 
 <table>
 <tr><th>Prompt</th><th>&rho; (10-rep mean)</th><th>SD</th></tr>
@@ -266,19 +267,9 @@
 <tr><td>Contrastive (t=1.5)</td><td class="sig">0.513</td><td>0.097</td></tr>
 </table>
 
-<h4>3.3.3 Eedi Cross-Model Survey (n=20 probe items, contrastive prompt)</h4>
+<h4>3.3.2 Confirmation Failure (n=105)</h4>
 
-<table>
-<tr><th>Model</th><th>Per-rep &rho;</th><th>SD</th></tr>
-<tr><td>Gemini 3 Flash</td><td class="sig">0.470</td><td>0.076</td></tr>
-<tr><td>Llama-4-Scout 17B</td><td>0.355</td><td>0.167</td></tr>
-<tr><td>DeepSeek V3</td><td>0.338</td><td>0.140</td></tr>
-<tr><td>GPT-4o</td><td class="null">0.172</td><td>0.126</td></tr>
-<tr><td>Qwen3-32B</td><td class="null">0.005</td><td>0.110</td></tr>
-<tr><td>Gemini 2.0 Flash</td><td class="null">&minus;0.200</td><td>0.132</td></tr>
-</table>
-
-<h4>3.3.4 Eedi Confirmation: Low Signal on Misconception-Targeted Items</h4>
+<p>When tested on the full 105-item IRT-calibrated set, the signal collapsed:</p>
 
 <table>
 <tr><th>Item set</th><th>n</th><th>&rho;</th><th>p</th><th>95% CI</th></tr>
@@ -288,12 +279,12 @@
 </table>
 
 <div class="note">
-<strong>The 20-item probe inflated the signal.</strong> The probe set was stratified by difficulty quintile and contained two extreme-difficulty outliers (IRT b=&minus;5.18, &minus;3.37) that gave it 2.3&times; the difficulty SD of the non-probe items. Bootstrap resampling (10,000 random 20-item subsets from 105) yields mean &rho;=0.110; only 2.5% reach &rho;&ge;0.50. The probe result was a tail event, not a representative estimate.
+<strong>The probe set inflated the signal.</strong> The probe was stratified by difficulty quintile and contained two extreme-difficulty outliers (IRT b=&minus;5.18, &minus;3.37) that gave it 2.3&times; the difficulty SD of the non-probe items. Bootstrap resampling (10,000 random 20-item subsets from 105) yields mean &rho;=0.110; only 2.5% of subsets reach &rho;&ge;0.50. The probe result was a tail event, not a representative estimate. This is a cautionary finding for the broader field: small, stratified probe sets can dramatically overstate estimation accuracy.
 </div>
 
-<h4>3.3.5 Structured Elicitation on Eedi</h4>
+<h4>3.3.3 Structured Elicitation on Eedi (n=20 probe)</h4>
 
-<p>We tested predictions from four learning science traditions. Each predicts richer specification of student cognition should improve estimation.</p>
+<p>We also tested whether more elaborate cognitive scaffolding could improve estimation on the Eedi probe set:</p>
 
 <table>
 <tr><th>Strategy</th><th>Theory</th><th>&rho;</th><th>vs. baseline</th></tr>
@@ -305,20 +296,19 @@
 </table>
 
 <div class="finding">
-<strong>Finding 5: Deliberation hurts.</strong> On Eedi, every form of structured elicitation matched or degraded direct prediction. Providing misconception hints <em>actively hurt</em> (&rho;=0.19 vs. 0.50). Reasoning models (Gemini 2.5 Pro, DeepSeek Reasoner) performed worse than non-reasoning models. The task requires fast pattern matching, not step-by-step analysis.
+<strong>Finding 5: Deliberation hurts.</strong> Every form of structured elicitation matched or degraded direct prediction on Eedi. Providing misconception hints <em>actively hurt</em> (&rho;=0.19 vs. 0.50). Reasoning models (Gemini 2.5 Pro, DeepSeek Reasoner) performed worse than non-reasoning models. More information and more reasoning did not help.
 </div>
 
-<h3>3.4 The Dissociation</h3>
+<h3>3.4 Three-Dataset Comparison</h3>
 
 <div id="dissociationPlot" class="plot-container" style="min-height:370px"></div>
-<div class="figure-caption">Figure 3. The central finding: generalisation contrast. SmartPaper signal holds from probe to full set and improves with theory-driven prompts. Eedi signal does not hold at scale.</div>
+<div class="figure-caption">Figure 3. Probe-to-full-set comparison across datasets. SmartPaper signal holds from probe to full set. Eedi signal does not survive confirmation.</div>
 
 <table>
 <tr><th></th><th>Eedi (MCQ, misconception-targeted)</th><th>SmartPaper (open-ended, multi-subject)</th></tr>
 <tr><td>Best probe result</td><td>&rho;=0.50 (n=20)</td><td>&rho;=0.77 (n=20)</td></tr>
 <tr><td>Full-set confirmation</td><td class="null">&rho;=0.114 (n=105, ns)</td><td class="sig">&rho;=0.686 (n=140)</td></tr>
 <tr><td>Generalises?</td><td class="null"><strong>No</strong></td><td class="sig"><strong>Yes</strong></td></tr>
-<tr><td>Best method</td><td>Teacher prediction (&rho;&asymp;0.50 on probe only)</td><td>prerequisite_chain (&rho;=0.686)</td></tr>
 </table>
 
 <h4>SmartPaper by Subject</h4>
@@ -332,11 +322,11 @@
 </table>
 
 <div id="subjectPlot" class="plot-container" style="min-height:320px"></div>
-<div class="figure-caption">Figure 4. SmartPaper results by subject (teacher prompt). Signal is strongest where content complexity varies most (Science, Social Science) and weakest for English.</div>
+<div class="figure-caption">Figure 4. SmartPaper results by subject (teacher prompt). Signal is strongest for Science and Social Science, weakest for English.</div>
 
 <h3>3.5 Phase 3: Cross-Dataset Confirmation (DBE-KT22, n=168)</h3>
 
-<p>Phase 3 tests whether Phase 1 findings transfer to a held-out dataset: 168 undergraduate computer science MCQs from a South African university (DBE-KT22; 1,300+ students). Prompts were adapted for the new population and format while preserving framing type. Notably, the correct answer is <strong>not</strong> shown to the LLM, matching the information available in Phase 1 (where items are open-ended).</p>
+<p>Phase 3 tests whether Phase 1 findings transfer to a held-out dataset: 168 undergraduate computer science MCQs from a South African university (DBE-KT22; 1,300+ students). Prompts were adapted for the new population and format. The correct answer was <strong>not</strong> shown to the LLM.</p>
 
 <p>Four hypotheses were pre-specified before seeing Phase 3 results:</p>
 
@@ -353,11 +343,11 @@
 <tr><td>teacher</td><td class="sig"><strong>0.521</strong></td><td class="sig">0.518</td><td>[0.394, 0.631]</td><td>0.188</td><td>&minus;0.151</td></tr>
 <tr><td>error_analysis</td><td class="sig"><strong>0.516</strong></td><td class="sig">0.506</td><td>[0.391, 0.623]</td><td>0.188</td><td>&minus;0.151</td></tr>
 <tr><td>devil_advocate</td><td class="sig">0.403</td><td class="sig"><strong>0.420</strong></td><td>[0.278, 0.543]</td><td>0.268</td><td>&minus;0.251</td></tr>
-<tr><td>cognitive_load</td><td class="sig">0.455</td><td class="sig"><strong>0.469</strong></td><td>[0.341, 0.586]</td><td>0.152</td><td>&minus;0.074</td></tr>
+<tr><td>cognitive_load</td><td class="sig">0.445</td><td class="sig"><strong>0.475</strong></td><td>[0.353, 0.591]</td><td>0.152</td><td>&minus;0.078</td></tr>
 </table>
 
 <div id="phase3Bar" class="plot-container" style="min-height:380px"></div>
-<div class="figure-caption">Figure 5. Phase 3 cross-dataset confirmation: SmartPaper (Phase 1) vs. DBE-KT22 (Phase 3). All five framings transfer with reduced but significant signal (&rho; &gt; 0.30). The top-3 ranking is preserved across datasets, but the spread compresses markedly.</div>
+<div class="figure-caption">Figure 5. Phase 3 cross-dataset confirmation: SmartPaper (Phase 1) vs. DBE-KT22 (Phase 3). All five framings transfer with significant signal. The top-3 ranking is preserved.</div>
 
 <h4>Hypothesis Tests</h4>
 
@@ -365,87 +355,96 @@
 <tr><th>Hypothesis</th><th>Result</th><th>Status</th></tr>
 <tr><td><strong>H1:</strong> prerequisite_chain &rho; &gt; 0.30</td><td>&rho;=0.531 [0.411, 0.640]</td><td class="sig"><strong>PASS</strong></td></tr>
 <tr><td><strong>H2:</strong> SmartPaper &rho; &gt; DBE-KT22 &rho;</td><td>All 5 framings: SP &gt; DBE</td><td class="sig"><strong>PASS</strong> (5/5)</td></tr>
-<tr><td><strong>H3:</strong> Prompt ranking preserved</td><td>Top-3 ranking preserved (prerequisite_chain, teacher, error_analysis); cognitive_load and devil_advocate swap positions</td><td class="sig"><strong>PASS</strong> (largely preserved)</td></tr>
+<tr><td><strong>H3:</strong> Prompt ranking preserved</td><td>Top-3 preserved (prerequisite_chain, teacher, error_analysis); cognitive_load and devil_advocate swap</td><td class="sig"><strong>PASS</strong> (largely preserved)</td></tr>
 <tr><td><strong>H4:</strong> prerequisite_chain &gt; teacher</td><td>0.531 vs. 0.521 (&Delta;=+0.010)</td><td><strong>PASS</strong> (but advantage reduced from 0.131 to 0.010)</td></tr>
 </table>
 
 <div class="finding">
-<strong>Finding 6: Cross-dataset transfer confirmed, but theory-driven advantage attenuates.</strong> All five framings produce significant signal on DBE-KT22: prerequisite_chain (&rho;=0.531), teacher (&rho;=0.521), error_analysis (&rho;=0.516), cognitive_load (&rho;=0.469), and devil_advocate (&rho;=0.420). The top-3 ranking is preserved across datasets, but the spread compresses: the 0.131 advantage on SmartPaper reduces to 0.015 on DBE-KT22. Notably, cognitive_load achieves the best calibration (MAE=0.152, bias=&minus;0.074) despite mid-range ranking accuracy, suggesting that ranking and calibration may be partially dissociable. The method transfers; the relative advantage of structured prompting does not.
+<strong>Finding 6: Cross-dataset transfer confirmed, but counting advantage attenuates.</strong> All five framings produce significant signal on DBE-KT22. The top-3 ranking is preserved. However, the 0.131 advantage of prerequisite_chain over teacher on SmartPaper compresses to 0.010 on DBE-KT22. The method transfers; the relative benefit of structured counting over direct judgment does not consistently transfer. Notably, DBE-KT22 also confirms that the Eedi null is not an artifact of MCQ format&mdash;these are also MCQs, but with difficulty varying across 27 knowledge components rather than within a single concept.
 </div>
 
 <div class="note">
-<strong>Calibration direction reversed.</strong> On SmartPaper, models overestimate student ability (bias +0.11 to +0.43). On DBE-KT22, they underestimate it (bias &minus;0.10 to &minus;0.15). This is consistent with the datasets: SmartPaper students (Indian government schools) score lower than models expect; DBE-KT22 students (university CS) score higher (mean p=0.79).
+<strong>Calibration direction reversed.</strong> On SmartPaper, models overestimate student ability (bias +0.11 to +0.43). On DBE-KT22, they underestimate it (bias &minus;0.10 to &minus;0.15). This is consistent with the populations: SmartPaper students (Indian government schools) score lower than models expect; DBE-KT22 students (university CS) score higher (mean p=0.79). Ranking accuracy (Spearman &rho;) is unaffected, but absolute predictions require population-specific calibration.
 </div>
 
 <!-- ============================================================ -->
 <h2>4. Discussion</h2>
 
-<h3>4.1 Why Theory-Driven Counting Works</h3>
+<h3>4.1 Why Counting Prompts Work</h3>
 
-<p>The top two prompts (prerequisite_chain, cognitive_load) share a structure: they ask the model to perform an explicit counting operation grounded in a learning science construct. prerequisite_chain asks &ldquo;list the prerequisite skills and count failure points.&rdquo; cognitive_load asks &ldquo;count the elements a student must hold in working memory simultaneously.&rdquo; Both convert difficulty estimation from a holistic judgment into a structured enumeration.</p>
+<p>The top prompts (prerequisite_chain, cognitive_load) share a structure: they ask the model to enumerate structural features of the item before estimating difficulty. This design parallels the cognitive design system tradition in psychometrics, where item difficulty is predicted from counts of processing steps, working memory demands, or required knowledge components (Embretson, 1998; Gorin, 2005). The counting prompt externalizes this analysis: instead of the psychometrician coding item features, the LLM does it.</p>
 
-<p>This works for a specific reason: the counting task creates an intermediate representation that correlates with difficulty. Items requiring more prerequisites or more working memory elements are genuinely harder. The model already &ldquo;knows&rdquo; this implicitly, but the counting prompt forces it to surface the knowledge as a structured feature rather than a vague impression.</p>
+<p>This framing also aligns with Razavi &amp; Powers&rsquo; (2025) finding that LLMs work best as feature extractors rather than direct estimators. In their study, using LLM-extracted cognitive features as inputs to a gradient boosting model reached r=0.87, far exceeding direct LLM prediction. Our counting prompts achieve a similar effect without a separate ML pipeline: the count itself becomes the mediating feature, and the LLM maps it to a difficulty estimate in a single pass.</p>
 
-<p>This is distinct from cognitive scaffolding or student simulation. The model is not simulating student cognition&mdash;it is analyzing item structure. The signal comes from item properties visible in the text, not from modeling student-item interactions.</p>
+<p>Importantly, the model is not simulating student cognition. It is analyzing item structure. The signal comes from properties visible in the item text&mdash;the number of steps, the number of concepts, the number of ways to go wrong&mdash;not from modeling how students interact with those properties.</p>
 
-<h3>4.2 Why Simulation Fails</h3>
+<h3>4.2 Why Structured Prompts Require Capable Models</h3>
 
-<p>Across all 6 models in Phase 2, simulation produced near-zero signal (mean &rho;=0.097 across models). Contrastive prompting, which asks the model to compare items, also produced negligible signal (mean &rho;=0.030). Only direct teacher prediction yielded consistent results.</p>
+<p>The Phase 2 model survey reveals an interaction: counting prompts help capable models but hurt weaker ones. Prerequisite_chain improves Gemini 3 Flash (+0.083 over teacher) but degrades Llama-3.1-8B (&rho;=0.044 vs. 0.300 for teacher). The structured enumeration step requires the model to reliably identify and list item features; when the model cannot do this accurately, the enumeration introduces noise rather than signal.</p>
 
-<p>The failure of simulation confirms the finding from Eedi: LLMs cannot model the population-level prevalence of errors. They can identify <em>what</em> errors are possible but not <em>how many students</em> would make each error. This requires empirical calibration data that is not in the training set.</p>
+<p>This finding has practical implications: counting prompts should only be used with models that have demonstrated competence on the task domain. The plain teacher prompt is a more robust default across the capability spectrum.</p>
 
-<h3>4.3 Complexity-Driven vs. Selectivity-Driven Difficulty</h3>
+<h3>4.3 Boundary Conditions</h3>
 
-<p>The dissociation between SmartPaper and Eedi maps onto a distinction in what makes items difficult:</p>
+<p>The Eedi null result (&rho;=0.114 on 105 misconception-targeted MCQs) establishes that LLM difficulty estimation does not work for all item types. Eedi items are diagnostic MCQs designed so that each distractor targets a specific misconception; difficulty depends on the interaction between distractor design and the prevalence of particular misconceptions in the student population. DBE-KT22 items are also MCQs but span 27 knowledge components with difficulty varying in cognitive demand across topics. The method achieves &rho;=0.531 on DBE-KT22, confirming that item format (MCQ vs. open-ended) is not the confound.</p>
 
-<p><strong>Complexity-driven difficulty</strong> (SmartPaper): The item requires more cognitive steps, more prerequisites, less familiar content. This is visible in the item text. An LLM can detect that &ldquo;explain the water cycle&rdquo; is harder than &ldquo;name the capital of India&rdquo; because it requires more cognitive operations.</p>
+<p>What item properties moderate LLM estimation accuracy remains an open question. Candidate moderators include: the breadth of knowledge components sampled, the degree to which difficulty depends on distractor-specific interactions, and the variance of difficulty within vs. between topics. Characterizing these moderators is an important direction for future work.</p>
 
-<p><strong>Selectivity-driven difficulty</strong> (Eedi): The item&rsquo;s difficulty depends on whether specific distractors trigger specific misconceptions in specific student populations. Two items testing the same concept (&minus;1&times;&minus;4 vs. 3&times;&minus;2) can have very different error rates depending on how numbers interact with common bugs. This is an empirical property of student-item interactions, not visible in the text.</p>
+<h3>4.4 Probe-Set Inflation: A Methodological Warning</h3>
 
-<p>Phase 3 provides a partial test: DBE-KT22 items are MCQs (like Eedi) but their difficulty varies in cognitive complexity across 27 knowledge components (unlike Eedi&rsquo;s misconception-targeted design). The method achieves &rho;=0.53 on these MCQs, confirming that format is not the confound&mdash;the source of difficulty variance is.</p>
+<p>Our Eedi experience is a cautionary tale for the field. A 20-item probe set, stratified by difficulty quintile, yielded &rho;=0.50. The full 105-item set yielded &rho;=0.114. Bootstrap analysis showed the probe was a 2.5th-percentile tail event driven by two extreme outliers. Any study reporting difficulty estimation results on fewer than ~50 items should be interpreted with caution. Stratified sampling, while useful for ensuring range, can amplify apparent signal by overweighting extremes. We recommend that future studies always report confirmation on a full, unstratified item set.</p>
 
-<h3>4.4 Practical Recommendations</h3>
+<h3>4.5 DOE as a Methodology for LLM Evaluation</h3>
 
-<ol>
-  <li><strong>Use theory-grounded counting prompts.</strong> prerequisite_chain or cognitive_load, not generic &ldquo;estimate difficulty.&rdquo;</li>
-  <li><strong>Do not use simulation.</strong> Student roleplay and classroom simulation produce near-zero signal across all models tested.</li>
-  <li><strong>Characterize your difficulty source.</strong> If items vary in cognitive complexity (multi-step reasoning, prerequisite chains), LLM estimation is viable (&rho;&asymp;0.6&ndash;0.7). If difficulty depends on distractor-misconception interactions, it is not.</li>
-  <li><strong>Model choice matters less than prompt choice.</strong> Gemini 3 Flash leads, but the prompt framing effect (&Delta;&rho;&asymp;0.20) exceeds the model effect (&Delta;&rho;&asymp;0.15 across viable models).</li>
-  <li><strong>Validate beyond small probe sets.</strong> Our Eedi experience (&rho;=0.50 on 20 items &rarr; &rho;=0.11 on 105) is a cautionary tale for the field.</li>
-</ol>
+<p>The sequential DOE approach offered three practical benefits. First, Phase 1 screening across 7 framings identified the best approach before committing to expensive cross-model evaluation. Second, Phase 2 model survey on the same dataset isolated model effects from prompt effects. Third, Phase 3 pre-specified hypotheses protected against post-hoc rationalization of the confirmation results. This pipeline is not specific to difficulty estimation; it could be applied to any LLM task where prompt, model, and domain interact.</p>
 
-<h3>4.5 Limitations</h3>
+<p>The approach follows the logic of sequential experimentation in education technology (Stamper et al., 2012), where findings at one scale inform design at the next. Here, the &ldquo;scales&rdquo; are experimental phases rather than deployment contexts, but the principle is the same: use early results to focus later investment.</p>
+
+<h3>4.6 Limitations</h3>
 
 <ol>
   <li><strong>Three datasets, one model in Phase 3.</strong> Cross-dataset confirmation uses only Gemini 3 Flash. Phase 2 shows model choice matters less than prompt choice, but single-model confirmation is a limitation.</li>
-  <li><strong>Not pre-registered.</strong> Phases 1&ndash;2 are exploratory by DOE design. Phase 3 hypotheses were pre-specified before seeing results but not formally registered.</li>
-  <li><strong>Calibration direction varies.</strong> Models overestimate student ability on SmartPaper (bias +0.11 to +0.43) but underestimate on DBE-KT22 (bias &minus;0.10 to &minus;0.15). Ranking accuracy (Spearman &rho;) is unaffected, but absolute predictions require dataset-specific calibration.</li>
-  <li><strong>Information asymmetry across datasets.</strong> SmartPaper items are open-ended (no answer options shown). DBE-KT22 items are MCQ (answer options shown, but correct answer withheld). Eedi items are MCQ with correct answer shown in some experiments. These differences limit direct comparison of absolute &rho; values.</li>
-  <li><strong>Surface feature confound.</strong> On SmartPaper, text length correlates &rho;=&minus;0.44 with difficulty. The LLM&rsquo;s &rho;=0.686 exceeds this, but surface features contribute partially.</li>
-  <li><strong>Theory-driven advantage did not transfer.</strong> The 0.131 advantage of prerequisite_chain over teacher on SmartPaper reduced to 0.010 on DBE-KT22. This may reflect dataset-specific properties (DBE-KT22&rsquo;s restricted domain of database systems) rather than a general limitation of structured prompting.</li>
+  <li><strong>Not pre-registered.</strong> Phases 1&ndash;2 are exploratory by design. Phase 3 hypotheses were pre-specified before seeing results but not formally registered.</li>
+  <li><strong>Calibration requires population-specific adjustment.</strong> Models overestimate ability on SmartPaper (bias +0.11 to +0.43) but underestimate on DBE-KT22 (bias &minus;0.07 to &minus;0.25). Ranking accuracy transfers; absolute predictions do not.</li>
+  <li><strong>Information asymmetry.</strong> SmartPaper items are open-ended (no answer options). DBE-KT22 and Eedi items are MCQs (options shown, correct answer withheld in DBE-KT22). These differences limit direct comparison of absolute &rho; values across datasets.</li>
+  <li><strong>Surface feature confound.</strong> On SmartPaper, text length correlates &rho;=&minus;0.44 with difficulty. The LLM&rsquo;s &rho;=0.686 exceeds this, but surface features contribute partially to the signal.</li>
+  <li><strong>Counting advantage did not transfer.</strong> The 0.131 advantage of prerequisite_chain over teacher on SmartPaper reduced to 0.010 on DBE-KT22. This may reflect dataset-specific properties rather than a general limitation.</li>
 </ol>
 
 <!-- ============================================================ -->
 <h2>5. Conclusion</h2>
 
-<p>We applied sequential design of experiments to map the parameter landscape for LLM item difficulty estimation. Three findings stand out. First, prompt framing grounded in learning science theory (counting prerequisite failure points, counting working memory elements) outperforms both intuitive judgment and cognitive simulation by &rho;&asymp;0.13&ndash;0.20. Second, this signal generalizes across the full 140-item SmartPaper set (&rho;=0.686) but not to misconception-targeted MCQs (&rho;=0.114 on 105 Eedi items). Third, every form of deliberation and scaffolding either matched or hurt performance&mdash;including student simulation, reasoning models, and misconception hints.</p>
+<p>We applied sequential design of experiments to map the parameter landscape for LLM item difficulty estimation across three datasets, seven models, and seven prompt framings. Three findings stand out:</p>
 
-<p>The practical upshot: LLMs can estimate difficulty when it comes from cognitive complexity visible in item text, but not when it comes from empirical student-error patterns. Use counting prompts, not simulation. And always validate on a full item set&mdash;probe-set correlations are unreliable.</p>
+<ol>
+  <li><strong>Prompt framing matters most.</strong> Counting prompts grounded in learning science (&rho;=0.633) outperform direct teacher-judgment prompts (&rho;=0.550) on the best model. This approaches or exceeds the meta-analytic average for expert teacher judgment (r=0.63&ndash;0.66; S&uuml;dkamp et al., 2012; Hoge &amp; Coladarci, 1989) in a zero-shot setting.</li>
+  <li><strong>The method transfers across datasets but not to all item types.</strong> Counting prompts achieve &rho;=0.531 on a held-out MCQ dataset (168 CS items), but &rho;=0.114 on misconception-targeted MCQs (105 items). What item properties moderate estimation accuracy is an open question.</li>
+  <li><strong>Small probe sets are unreliable.</strong> Our Eedi probe (&rho;=0.50, n=20) overstated the true signal (&rho;=0.114, n=105) by 4&times;. Studies in this area should always validate on full item sets.</li>
+</ol>
+
+<p>The practical recommendation is simple: prompt capable LLMs to count structural features of items (prerequisite skills, working memory elements, error paths) rather than to make holistic judgments. The counting advantage is model-dependent&mdash;only capable models benefit&mdash;and does not transfer equally across item types. The DOE methodology itself generalizes beyond difficulty estimation to any LLM evaluation task where multiple factors interact.</p>
 
 <!-- ============================================================ -->
 <h2>References</h2>
 
-<div class="ref">Attali, Y. (2024). Can language models estimate item difficulty? <em>Educational Measurement: Issues and Practice</em>.</div>
-<div class="ref">Benedetto, L., et al. (2023). On the application of large language models for language teaching. <em>AAAI Workshop on AI for Education</em>.</div>
+<div class="ref">Benedetto, L., Cremonesi, P., Caines, A., Buttery, P., Cappelli, A., Giussani, A., &amp; Turrin, R. (2023). A survey on recent approaches to question difficulty estimation from text. <em>ACM Computing Surveys</em>, 56(5), 1&ndash;37.</div>
 <div class="ref">Box, G. E. P., &amp; Behnken, D. W. (1960). Some new three level designs for the study of quantitative variables. <em>Technometrics</em>, 2(4), 455&ndash;475.</div>
 <div class="ref">Box, G. E. P., &amp; Draper, N. R. (2007). <em>Response Surfaces, Mixtures, and Ridge Analyses</em> (2nd ed.). Wiley.</div>
 <div class="ref">Brown, J. S., &amp; Burton, R. R. (1978). Diagnostic models for procedural bugs in basic mathematical skills. <em>Cognitive Science</em>, 2(2), 155&ndash;192.</div>
+<div class="ref">Embretson, S. E. (1998). A cognitive design system approach to generating valid tests: Application to abstract reasoning. <em>Psychological Methods</em>, 3(3), 380&ndash;396.</div>
+<div class="ref">Gorin, J. S. (2005). Manipulating processing difficulty of reading comprehension questions: The feasibility of verbal item generation. <em>Journal of Educational Measurement</em>, 42(4), 351&ndash;373.</div>
+<div class="ref">Hoge, R. D., &amp; Coladarci, T. (1989). Teacher-based judgments of academic achievement: A review of literature. <em>Review of Educational Research</em>, 59(3), 297&ndash;313.</div>
+<div class="ref">Irvine, S. H., &amp; Kyllonen, P. C. (Eds.). (2002). <em>Item Generation for Test Development</em>. Lawrence Erlbaum Associates.</div>
 <div class="ref">Koedinger, K. R., Corbett, A. T., &amp; Perfetti, C. (2012). The Knowledge-Learning-Instruction framework. <em>Cognitive Science</em>, 36(5), 757&ndash;798.</div>
 <div class="ref">Kr&ouml;ger, B., et al. (2025). Take out your calculators: LLM-simulated classrooms for item difficulty estimation. arXiv:2601.09953.</div>
-<div class="ref">Razavi, R., &amp; Powers, D. (2025). Estimating item difficulty using large language models. arXiv:2504.08804.</div>
+<div class="ref">Peters, S., Zhang, N., Jiao, H., Li, M., Zhou, T., &amp; Lissitz, R. (2025). Text-based approaches to item difficulty modeling in large-scale assessments: A systematic review. arXiv:2509.23486.</div>
+<div class="ref">Razavi, R., &amp; Powers, D. (2025). Estimating item difficulty using large language models and tree-based machine learning algorithms. arXiv:2504.08804.</div>
 <div class="ref">Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. <em>Educational Researcher</em>, 15(2), 4&ndash;14.</div>
+<div class="ref">Stamper, J. C., Lomas, D., Ching, D., Ritter, S., Koedinger, K. R., &amp; Steinhart, J. (2012). The rise of the super experiment. <em>Proceedings of the 5th International Conference on Educational Data Mining (EDM)</em>, 196&ndash;200.</div>
+<div class="ref">S&uuml;dkamp, A., Kaiser, J., &amp; M&ouml;ller, J. (2012). Accuracy of teachers&rsquo; judgments of students&rsquo; academic achievement: A meta-analysis. <em>Journal of Educational Psychology</em>, 104(3), 743&ndash;763.</div>
 <div class="ref">Sweller, J. (1988). Cognitive load during problem solving. <em>Cognitive Science</em>, 12(2), 257&ndash;285.</div>
-<div class="ref">Tack, A., &amp; Piech, C. (2024). Harnessing LLMs for automated prediction of item difficulty. <em>BEA Workshop, ACL 2024</em>.</div>
+<div class="ref">Rogoz, A., &amp; Ionescu, R. T. (2024). UnibucLLM: Harnessing LLMs for automated prediction of item difficulty and response time for multiple-choice questions. <em>BEA Workshop, ACL 2024</em>, 472&ndash;480.</div>
+<div class="ref">Yaneva, V., et al. (2024). Findings from the first shared task on automated prediction of difficulty and response time for multiple-choice questions. <em>Proceedings of the 19th Workshop on Innovative Use of NLP for Building Educational Applications (BEA)</em>, 449&ndash;466.</div>
 
 <hr style="margin:2rem 0">
 <p style="font-size:0.8rem; color:var(--muted)">
@@ -495,15 +494,16 @@ const gridColor = '#eee';
 // Figure 2: Phase 2 Model × Prompt Heatmap
 // ============================================================
 {
-  const models = ['Gemini 3 Flash', 'Gemma-3-27B', 'Llama-3.3-70B', 'Llama-4-Scout', 'GPT-4o', 'Llama-3.1-8B'];
-  const prompts = ['Teacher', 'Simulation', 'Contrastive'];
+  const models = ['Gemini 3 Flash', 'Gemma-3-27B', 'GPT-4o', 'Llama-3.3-70B', 'Llama-4-Scout', 'Qwen3-32B', 'Llama-3.1-8B'];
+  const prompts = ['Teacher', 'Cognitive Load', 'Prerequisite Chain'];
   const z = [
-    [0.550, 0.271, 0.077],
-    [0.501, 0.239, -0.058],
-    [0.452, -0.026, 0.100],
-    [0.410, 0.041, 0.058],
-    [0.360, 0.030, 0.159],
-    [0.244, 0.025, -0.155],
+    [0.550, 0.619, 0.633],
+    [0.501, 0.500, 0.464],
+    [0.494, null, null],
+    [0.480, 0.403, 0.396],
+    [0.474, 0.400, 0.345],
+    [0.304, null, null],
+    [0.300, 0.214, 0.044],
   ];
   Plotly.newPlot('phase2Heatmap', [{
     z: z, x: prompts, y: models, type: 'heatmap',
@@ -514,13 +514,13 @@ const gridColor = '#eee';
     hoverinfo: 'z',
     colorbar: {title: '&rho;', titleside: 'right'},
   }], {
-    height: 350, margin: {l: 150, r: 80, t: 20, b: 50},
+    height: 400, margin: {l: 150, r: 80, t: 20, b: 80},
     font: plotFont,
   });
 }
 
 // ============================================================
-// Figure 3: Dissociation (SmartPaper vs Eedi)
+// Figure 3: Three-Dataset Comparison
 // ============================================================
 {
   Plotly.newPlot('dissociationPlot', [

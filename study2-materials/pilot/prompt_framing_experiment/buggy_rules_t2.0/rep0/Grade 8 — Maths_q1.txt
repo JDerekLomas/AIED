@@ -1,0 +1,21 @@
+To analyze the cognitive demands of the equation `y + 9 = 4`:
+
+**Step 1: Procedural Steps**
+1.  **Recognition of Isolation:** Identifying that $9$ must be moved to the other side of the equation.
+2.  **Inverse Operation Application:** Changing the sign of $+9$ to $-9$ when transposing (additive inverse).
+3.  **Subtraction with Negative Result:** Computing $4 - 9$.
+4.  **Integer Arithmetic Execution:** Correctly determining that $4 - 9 = -5$ rather than $5$ or some other variant.
+
+**Step 2: Buggy Rules**
+1.  **"Absolute Difference" Bug:** When subtracting, students subtract the smaller magnitude from the larger ($9 - 4 = 5$), ignoring the sign or the position of the integers.
+2.  **"Sign Ignoring" Bug:** Correctly identifying $5$ as the numerical difference but lacking the schema for negative numbers, thus providing $5$.
+3.  **"Operation Inversion Error":** Students see the "$+$" and simply add the two numbers together ($y = 13$), thinking they must combine all given digits.
+4.  **"Magic Sign Change":** Moving the 9 but failing to change its sign, resulting in $y = 13$ or $y = -13$.
+
+**Step 3: Student Population Analysis**
+Grade 8 students in this demographic often face "The Integer Barrier." In many Hindi-medium and EWS contexts, rote memorization of algorithms (e.g., "plus-minus equals minus") often collapses when the smaller number appears first. Language barriers in English-instruction materials can also lead to a reliance on visual pattern matching (adding visible numbers) rather than conceptual balancing of equations. Open-ended recall is significantly harder than multiple choice, as there is no visual cue (like a negative sign in options) to trigger the correct rule.
+
+**Step 4: Holistic Assessment**
+While this is a "one-step" equation, the "smaller minus larger" trap is a notorious pivot point where proficiency drops sharply. In large-scale assessments of Indian government schools (such as NAS or ASER-aligned data), basic integer operations consistently show high error rates.
+
+0.35

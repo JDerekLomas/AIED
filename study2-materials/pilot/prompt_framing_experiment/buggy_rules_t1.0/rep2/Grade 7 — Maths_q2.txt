@@ -1,0 +1,24 @@
+Step 1: Procedural steps:
+1. Identify the constant term on the LHS (+2) and its inverse operation (-2).
+2. Apply the subtraction property of equality: $4x = 10 - 2$.
+3. Compute the arithmetic result: $10 - 2 = 8$.
+4. Identify the coefficient of $x$ (4) and its inverse operation (division).
+5. Apply the division property of equality: $x = 8 / 4$.
+6. Compute the final division: $x = 2$.
+
+Step 2: Buggy rules:
+- **Operator Flip Bug:** Adding 2 to 10 instead of subtracting ($4x = 12$) due to a misunderstanding of "transposition."
+- **Detached Coefficient Bug:** Moving the 4 along with the 2 (e.g., $x = 10 - 2 - 4$).
+- **Term-Coefficient Confusion:** Subtracting the 4 instead of dividing (e.g., $x = 8 - 4$).
+- **LHS/RHS Confusion:** Subtracting 2 from 4x instead of from 10.
+- **Incomplete Processing:** Leaving the answer as $4x = 8$.
+
+Step 3: Population factors:
+- Grade 7 is the introductory phase for formal symbolic manipulation in many Indian state curricula.
+- Limited English proficiency may lead to a reliance on rote memorization of "rules" (e.g., "side change, sign change") without conceptual understanding of equality.
+- Open-ended format removes the "plug-in" verification strategy used in multiple-choice questions.
+
+Step 4: Holistic Estimate:
+While the equation is a "standard" two-step form, the cumulative probability of error across two distinct operations (subtraction and division) and the risk of "buggy" transposition rules significantly lower the success rate in a low-resource, multi-lingual context where procedural fluency is often prioritized over conceptual balancing.
+
+0.42

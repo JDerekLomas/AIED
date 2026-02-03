@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Convert the first mixed fraction ($1 \frac{1}{2}$) to an improper fraction: $(1 \times 2) + 1 = \frac{3}{2}$.
+2. Convert the second mixed fraction ($3 \frac{1}{4}$) to an improper fraction: $(3 \times 4) + 1 = \frac{13}{4}$.
+3. Apply the multiplication algorithm for fractions: Multiply numerators ($3 \times 13$) and denominators ($2 \times 4$).
+4. Calculate the product: $\frac{39}{8}$.
+5. Convert the resulting improper fraction back into a mixed fraction: $39 \div 8 = 4$ with a remainder of $7$, resulting in $4 \frac{7}{8}$.
+
+Step 2: Buggy Rules
+- Additive Bug: Adding the whole numbers and multiplying the fractions ($1 \times 3$ and $1/2 \times 1/4$).
+- Conversion Bug: Multiplying the whole number by the numerator instead of the denominator, or adding the denominator instead of the numerator.
+- Common Denominator Bug: Attempting to find a common denominator (e.g., changing $\frac{3}{2}$ to $\frac{6}{4}$) before multiplying, which often leads to computational errors in the numerator.
+- Remainder/Quotient Swap: During the final conversion, placing the remainder as the whole number and the quotient as the numerator.
+- Improper Termination: Stopping at $\frac{39}{8}$ and failing to convert back to a mixed fraction as requested.
+
+Step 3: Population Considerations
+In Indian government school contexts (Grade 7), while the algorithm is taught, the transition from Hindi-medium or vernacular instruction to English terminology can create a "hidden" cognitive load. The multi-step nature of the task (Recall $\rightarrow$ Convert $\rightarrow$ Multiply $\rightarrow$ Divide $\rightarrow$ Format) is a "leaky pipeline"; an error in any one step results in a zero under a binary rubric (0 or 1).
+
+Step 4: Holistic Analysis
+Given that the rubric requires a specific final format and two successful conversions, and that 7th-grade students in EWS contexts often struggle with the division required for the final step, the probability of executing all five steps without a single "bug" is low.
+
+0.35

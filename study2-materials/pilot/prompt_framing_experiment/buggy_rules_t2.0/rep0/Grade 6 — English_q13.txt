@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Decode the written English question ("The opposite of...") to understand the semantic goal (antonym generation).
+2. Map the target word "slow" to its conceptual meaning (speed/duration).
+3. Retrieve the correct lexical equivalent (antonym) in the internal mental lexicon (Fast/Quick).
+4. Translate the internal concept into the specific target English orthography.
+5. Manually encode (write) the English word "fast" with correct spelling to meet rubric requirements.
+
+Step 2: Buggy Rules / Systematic Errors
+1. Synonym-Antonym Swap: Systematically providing a word with the same meaning (e.g., "gradual," "dhire") due to confusion over the term "opposite."
+2. L1 Interference (Translation Bug): Translating "opposite" into the Hindi concept "Ulta" but retrieving the Hindi word "Tez" and failing to translate it back to English, or writing "not slow."
+3. Phonetic Spelling Bug: Writing "fast" as "pfast" or "fest" due to Hindi-English phonetic mapping differences.
+4. Overgeneralization of Suffixes: Applying common patterns like "unslow" or "slowly."
+5. Letter-Case/Script Mix: Mixing Hindi and English characters or cursive scripts that may lead to illegibility in an open-ended format.
+
+Step 3: Target Population Constraints
+Grade 6 students from economically weaker sections often experience "low-stakes" English exposure. The open-ended (recall) format is significantly harder than a multiple-choice (recognition) format. While "fast" is a high-frequency Tier 1 vocabulary word, the requirement to spell it correctly without a word bank poses a hurdle for students with limited English literacy backgrounds.
+
+Step 4: Holistic Analysis
+Given that "slow/fast" is one of the most basic antonym pairs taught in early primary years, a significant number of students will grasp the concept. However, the systematic errors in spelling and the cognitive load of navigating a second language (English) in an open-ended format will result in a notable percentage of "near-miss" errors (e.g., "fastly," "tezz," or synonyms).
+
+0.62

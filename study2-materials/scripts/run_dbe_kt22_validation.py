@@ -676,10 +676,157 @@ STUDENT {len(personas)}: [reasoning] → ANSWER: [A/B/C/D]"""
         print(f"Saved to {OUTPUT_DIR / 'result_synthetic_mcq.json'}")
 
 
+BUGGY_RULES_PROMPT = """You are an expert in computer science education and systematic student errors (Brown & Burton, 1978).
+
+For the following university-level database systems question, analyze the cognitive demands:
+
+Question: {question}
+
+Options:
+{options}
+
+Step 1: List the specific knowledge and reasoning steps a student must execute correctly to identify the right answer.
+Step 2: For each step, identify any known "buggy rules" — systematic conceptual errors students commonly make (e.g., confusing WHERE with HAVING, thinking NULL = NULL is true, misunderstanding JOIN semantics, confusing normalization forms).
+Step 3: Consider the target student population (undergraduate database systems course, multiple-choice format).
+Step 4: Taking into account ALL of the above analysis holistically — the number of steps, the severity and commonality of bugs, and the MCQ format where guessing is possible — estimate what proportion of students would select the correct answer.
+
+Respond with ONLY a number between 0 and 1 on the last line.
+For example: 0.45
+
+Your estimate:"""
+
+
+def parse_proportion_last(text):
+    """Parse last decimal 0.XX from text (matching SmartPaper parser)."""
+    if not text:
+        return None
+    decs = re.findall(r'(?<!\d)0\.\d+|1\.0(?:0*)?(?!\d)', text)
+    if decs:
+        v = float(decs[-1])
+        if 0 <= v <= 1:
+            return v
+    return None
+
+
+def run_buggy_rules(questions, n_reps=3):
+    """Buggy rules holistic estimation, 3-rep, Gemini 3 Flash."""
+    model = "gemini-3-flash-preview"
+    temperature = 1.0
+    usable = questions[questions["usable"]].copy()
+
+    print(f"\nRunning buggy_rules pipeline: {model}, T={temperature}, {n_reps} reps")
+    print(f"Total calls needed: {len(usable) * n_reps}")
+
+    per_rep_rhos = []
+
+    for rep in range(n_reps):
+        cache_file = OUTPUT_DIR / f"predictions_buggy_rules_rep{rep}.json"
+        cache = {}
+        if cache_file.exists():
+            with open(cache_file) as f:
+                cache = json.load(f)
+
+        n_cached = len(cache)
+        n_called = 0
+
+        for idx, (_, row) in enumerate(usable.iterrows()):
+            qid = str(row["id"])
+            if qid in cache:
+                continue
+
+            prompt = BUGGY_RULES_PROMPT.format(
+                question=row["question_text"],
+                options=row["options_text"],
+            )
+            raw = call_llm(prompt, model=model, temperature=temperature, max_tokens=1024)
+            if raw:
+                p = parse_proportion_last(raw)
+                cache[qid] = {"raw": raw, "predicted_p": p}
+                n_called += 1
+            else:
+                continue
+
+            if n_called % 20 == 0:
+                with open(cache_file, 'w') as f:
+                    json.dump(cache, f, indent=2)
+                print(f"  rep{rep}: {n_called} called, {n_cached} cached ({n_cached + n_called}/{len(usable)})")
+
+            time.sleep(0.1)
+
+        with open(cache_file, 'w') as f:
+            json.dump(cache, f, indent=2)
+
+        # Per-rep correlation
+        preds = []
+        for _, row in usable.iterrows():
+            qid = str(row["id"])
+            if qid in cache and cache[qid].get("predicted_p") is not None:
+                preds.append({"qid": qid, "p_correct": row["p_correct"],
+                              "predicted": cache[qid]["predicted_p"]})
+        df_rep = pd.DataFrame(preds).dropna()
+        if len(df_rep) >= 5:
+            rho, p = stats.spearmanr(df_rep["predicted"], df_rep["p_correct"])
+            per_rep_rhos.append(rho)
+            print(f"  rep{rep}: ρ={rho:.3f} (p={p:.2e}), n={len(df_rep)}, cached={n_cached}, called={n_called}")
+
+    # Averaged predictions
+    all_preds = []
+    for rep in range(n_reps):
+        cache_file = OUTPUT_DIR / f"predictions_buggy_rules_rep{rep}.json"
+        if not cache_file.exists():
+            continue
+        with open(cache_file) as f:
+            cache = json.load(f)
+        for _, row in usable.iterrows():
+            qid = str(row["id"])
+            if qid in cache and cache[qid].get("predicted_p") is not None:
+                all_preds.append({"qid": qid, "p_correct": row["p_correct"],
+                                  "predicted": cache[qid]["predicted_p"], "rep": rep,
+                                  "difficulty": row["difficulty"],
+                                  "n_responses": row["n_responses"]})
+
+    pdf = pd.DataFrame(all_preds)
+    avg = pdf.groupby("qid").agg(
+        mean_predicted=("predicted", "mean"),
+        p_correct=("p_correct", "first"),
+        difficulty=("difficulty", "first"),
+        n_responses=("n_responses", "first"),
+    ).dropna()
+
+    avg_rho, avg_p = stats.spearmanr(avg["mean_predicted"], avg["p_correct"])
+    ci_lo, ci_hi = bootstrap_ci(avg["mean_predicted"].values, avg["p_correct"].values)
+    rho_author, _ = stats.spearmanr(avg["mean_predicted"], -avg["difficulty"])
+    mae = float(np.mean(np.abs(avg["mean_predicted"].values - avg["p_correct"].values)))
+    bias = float(np.mean(avg["mean_predicted"].values - avg["p_correct"].values))
+
+    print(f"\n{'=' * 50}")
+    print(f"RESULT (buggy_rules 3-rep, {model}, T={temperature})")
+    print(f"{'=' * 50}")
+    print(f"Per-rep ρ: {[f'{r:.3f}' for r in per_rep_rhos]}")
+    print(f"Averaged ρ = {avg_rho:.3f} (p = {avg_p:.2e}), 95% CI [{ci_lo:.3f}, {ci_hi:.3f}]")
+    print(f"ρ vs author difficulty = {rho_author:.3f}")
+    print(f"MAE = {mae:.3f}, bias = {bias:+.3f}")
+    print(f"n = {len(avg)} items, {int(avg['n_responses'].sum()):,} student responses")
+
+    result = {
+        "dataset": "DBE-KT22", "model": model, "mode": "buggy_rules_3rep",
+        "temperature": temperature, "n_reps": n_reps,
+        "n_items": len(avg), "n_student_responses": int(avg["n_responses"].sum()),
+        "per_rep_rhos": [round(r, 3) for r in per_rep_rhos],
+        "averaged_rho": round(avg_rho, 3), "p_value": float(f"{avg_p:.4e}"),
+        "ci_95": [round(ci_lo, 3), round(ci_hi, 3)],
+        "rho_author_difficulty": round(rho_author, 3),
+        "mae": round(mae, 3), "bias": round(bias, 3),
+    }
+    with open(OUTPUT_DIR / "result_buggy_rules.json", 'w') as f:
+        json.dump(result, f, indent=2)
+    print(f"\nSaved to {OUTPUT_DIR / 'result_buggy_rules.json'}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", default="direct",
-                        choices=["direct", "contrastive", "decomposed", "direct_clean", "synthetic_mcq"])
+                        choices=["direct", "contrastive", "decomposed", "direct_clean", "synthetic_mcq", "buggy_rules"])
     parser.add_argument("--reps", type=int, default=3)
     args = parser.parse_args()
 
@@ -699,6 +846,8 @@ def main():
         run_direct_clean(questions)
     elif args.mode == "synthetic_mcq":
         run_synthetic_mcq(questions, temp=1.5)
+    elif args.mode == "buggy_rules":
+        run_buggy_rules(questions, n_reps=args.reps)
 
 
 if __name__ == "__main__":

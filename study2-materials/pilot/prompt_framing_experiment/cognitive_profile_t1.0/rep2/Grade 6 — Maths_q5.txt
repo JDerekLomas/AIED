@@ -1,0 +1,7 @@
+- **Concept familiarity**: Less familiar. While "5-digit numbers" are standard, the term "palindrome" is often introduced as a recreational math concept rather than a core arithmetic drill in many state syllabi. Students from Hindi-medium backgrounds may also struggle with the English terminology if not explicitly taught the transliterated or Hindi equivalent (*vilompad*).
+- **Computational complexity**: 2-3 steps. 1) Identify the two specific numbers, 2) Calculate the sum, 3) Calculate the difference (though the rubric only awards points for the sum, the prompt asks for both, increasing cognitive load).
+- **Common error traps**: Major. Students often mistake the smallest 5-digit palindrome as 11,111 or 10,001 (correct) vs 10,101. The transition from "largest 5-digit number" (99,999) to verifying it is a palindrome is easy, but the "smallest" requires careful constraint handling. Carrying over multiple zeros in addition (10,001 + 99,999) is also a frequent procedural bug for this demographic.
+- **Format demand**: Open-ended. Requires pure recall and generation. No scaffolding or options provided. The rubric is binary (0 or 1), making it "all or nothing" despite multiple sub-tasks.
+- **Number friendliness**: Moderate. 99,999 and 10,001 are "neat" but require precise place-value alignment to avoid errors in the sum (110,000).
+
+0.25

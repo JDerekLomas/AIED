@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1. Recall the definition/algorithm for L.C.M. (Least Common Multiple).
+2. Set up the division ladder or prime factorization trees for 12, 15, and 20.
+3. Perform sequential divisions using prime numbers (2, 3, 5).
+4. Maintain alignment and correctly bring down numbers not divisible by the current divisor (a specific hurdle in the division method).
+5. Identify the termination point (when all quotients are 1).
+6. Multiply the resulting prime factors (2 × 2 × 3 × 5) correctly.
+
+Step 2: Buggy Rules / Systematic Errors
+- "Greatest Common Divisor Confusion": Executing the H.C.F. algorithm instead of L.C.M.
+- "Stop-at-Primes": Stopping division once the bottom row contains prime numbers but not 1s, then failing to multiply them.
+- "Multiplication over Addition": Summing the factors instead of multiplying them.
+- "Division Oversight": If a number is not divisible (e.g., 15 by 2), the student might divide it anyway and write a remainder or a rounded quotient rather than "carrying it down."
+- "Fact Retrieval Error": Basic multiplication/division table errors (e.g., 12 ÷ 2 = 4).
+
+Step 3: Population Context
+Grade 6 is the transition year for these formal algorithms in India. For EWS students in government schools, English terminology (L.C.M.) is often a barrier compared to the Hindi term (ल.स.प. - Laghutam Samapavartya). The open-ended format removes the "guess and check" possibility found in MCQs. While the numbers (12, 15, 20) are "friendly," the multi-step nature of the division method provides multiple points of failure for students with low fluency in basic multiplication tables.
+
+Step 4: Holistic Estimate
+Given the high probability of "interference" errors (HCF vs LCM) and the cumulative risk of calculation errors across 5–7 procedural steps, the success rate is typically below half for this specific demographic at the start of middle school.
+
+0.42

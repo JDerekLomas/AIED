@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1.  **Temporal Conversion & Duration Calculation**: Calculate the elapsed time between 10:00 AM and 4:00 PM (conversion to 24-hour clock or counting across the 12:00 meridian).
+2.  **Rate Multiplication**: Multiply the rate of increase (2°C) by the number of hours elapsed.
+3.  **Additive Synthesis**: Add the total temperature increase to the initial starting temperature (30°C).
+4.  **Linguistic/Unit Processing**: Correct interpretation of "per hour" and matching units in English for students with limited proficiency.
+
+Step 2: Buggy Rules / Systematic Errors
+1.  **"Subtraction without Modulo" Bug**: Subtracting 4 from 10 (10 - 4 = 6) coincidentally gives the correct duration in this specific case, but students often subtract the smaller numeral from the larger one without considering the AM/PM boundary, which fails if the numbers change (e.g., 10 AM to 2 PM becoming 8 hours).
+2.  **"Static Addition" Bug**: Adding only the rate (30 + 2 = 32) and ignoring the temporal duration entirely.
+3.  **"Boundary Skipping" Bug**: Miscounting the hour at the 12:00 crossover (e.g., counting 10 to 4 as 4 hours or 5 hours).
+4.  **"Base-10 Time" Bug**: Treating time as a base-10 system (e.g., 10 to 4 being 14 - 10 = 4 or other decimal logic).
+
+Step 3: Population Considerations
+1.  **English Proficiency**: The phrase "in the evening" and "per hour" are key linguistic markers. Students from Hindi-medium backgrounds may struggle with "per" or the AM/PM distinction in English text.
+2.  **Economic Context**: Potential lack of access to analog clocks or formal "time math" drills in under-resourced environments.
+3.  **Item Format**: Being open-ended increases the "guess factor" to zero; there are no distractors to prompt the correct operation.
+
+Step 4: Holistic Estimate
+While the arithmetic (30 + 2*6) is simple, the coordination of time duration across the meridian and the translation of the word problem into a multi-step equation are high-order tasks for a Grade 6 student in this specific demographic. The "10 - 4 = 6" fluke actually helps some students arrive at the correct duration accidentally, but the linguistic barrier remains a significant filter.
+
+0.35

@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1.  **Decoding "thrice":** Map the English term to the mathematical operation of multiplication by 3.
+2.  **Calculate Father’s Current Age:** Execute 12 × 3 = 36.
+3.  **Project Ages to Future (Step A):** Calculate Rahul’s future age (12 + 5 = 17) AND the Father's future age (36 + 5 = 41).
+4.  **Calculate Difference:** Subtract the two future values (41 - 17).
+5.  **Alternative (Invariant Logic):** Recognize that age difference remains constant and subtract current ages (36 - 12).
+
+Step 2: Buggy Rules / Systematic Errors
+1.  **Semantic Mapping Bug:** Treating "thrice" as "+3" or "1/3" due to language barriers (L2 learner interference).
+2.  **Operation Attachment Bug:** Calculating (12 + 5) × 3. The student applies the "thrice" condition to the future state rather than the current state.
+3.  **Linear Progression Bug (Additive Thinking):** Calculating the difference now (24) and then adding 5 years to that difference (24 + 5 = 29), failing to realize the +5 applies to both subtrahend and minuend.
+4.  **Step-Skipping Bug:** Calculating the father's current age (36) and providing that as the final answer because the prompt feels "finished" after a calculation.
+
+Step 3: Population Considerations
+1.  **Language Barrier:** In Hindi-medium contexts, "thrice" is rarely used; "three times" (तीन गुना) is clearer. This introduces a significant lexical barrier.
+2.  **Grade 8 Expectation:** Students are expected to handle word problems, but research in Indian govt schools (e.g., ASER reports) indicates high rates of procedural mastery with low conceptual transfer.
+3.  **No Partial Credit:** The binary rubric (Maximum score: 1) penalizes students who correctly find the father's age but fail the age-invariance logic.
+
+Step 4: Holistic Estimate
+While the arithmetic is simple, the "Additive Thinking" bug (adding 5 to the difference) and the lexical barrier of the word "thrice" are high-frequency distractors for this specific demographic.
+
+0.35

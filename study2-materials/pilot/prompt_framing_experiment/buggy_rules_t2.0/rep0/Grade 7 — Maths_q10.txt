@@ -1,0 +1,23 @@
+Step 1: Procedural steps:
+1. Recall the formula for the perimeter of a rectangle: $P = 2(l + w)$.
+2. Substitute known values ($P=32, l=10$) into the equation: $32 = 2(10 + w)$.
+3. Execute algebraic operations: Divide by $2$ or distribute $2$ into the parentheses.
+4. Solve for the unknown variable ($w = 6$).
+5. Recall the formula for area: $A = l \times w$.
+6. Calculate area: $10 \times 6 = 60$.
+7. Assign correct units ($\text{cm}$ and $\text{cm}^2$).
+
+Step 2: Buggy rules/Systematic errors:
+*   **Formula confusion:** Using $A = l + w$ or $P = l \times w$.
+*   **Operational errors (Pre-algebra):** $32 = 2(10 + w) \rightarrow 32 = 20 + w$ (failing to distribute to the second term).
+*   **Inverse operation bug:** $32 - 20 = 12$; then adding $2$ instead of dividing, or "magic" movement of numbers.
+*   **The "Halfway" bug:** Solving for width (6) but forgetting the second prompt (Area), which is common in multi-step word problems.
+*   **Unit confusion:** Confusing linear cm with square $\text{cm}^2$.
+
+Step 3: Population context:
+For Grade 7 students in economically weaker sections (EWS) with language barriers, the transition from arithmetic to formal algebraic manipulation ($2(x+y)=z$) is a high-attrition zone. Language proficiency affects the translation of "Perimeter" and "Width" if they are more accustomed to Hindi terms (parimap/chaudai). The open-ended format removes the "clue" of multiple-choice options, which usually helps students self-correct calculation errors.
+
+Step 4: Holistic Estimate:
+The requirement for two distinct outputs (width AND area) creates a high probability of "omission error," where a student provides one but not the other. Combined with algebraic manipulation errors common at this grade level, the success rate is statistically low.
+
+0.35

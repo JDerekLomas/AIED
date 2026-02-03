@@ -1,0 +1,23 @@
+{
+  "dataset": "DBE-KT22",
+  "model": "gemini-3-flash-preview",
+  "mode": "buggy_rules_3rep",
+  "temperature": 1.0,
+  "n_reps": 3,
+  "n_items": 168,
+  "n_student_responses": 128845,
+  "per_rep_rhos": [
+    0.558,
+    0.57,
+    0.56
+  ],
+  "averaged_rho": 0.579,
+  "p_value": 2.1052e-16,
+  "ci_95": [
+    0.462,
+    0.676
+  ],
+  "rho_author_difficulty": 0.333,
+  "mae": 0.144,
+  "bias": -0.087
+}

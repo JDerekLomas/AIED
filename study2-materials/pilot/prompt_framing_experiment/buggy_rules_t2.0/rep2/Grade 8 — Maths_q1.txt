@@ -1,0 +1,20 @@
+Step 1: Procedural steps:
+1. Identify the need to isolate variable `y` by moving `+9` across the equals sign.
+2. Apply the inverse operation rule (changing addition to subtraction).
+3. Set up the arithmetic expression: `y = 4 - 9`.
+4. Perform integer subtraction where the subtrahend is larger than the minuend.
+5. Correct apply the sign rule to the result ($4 - 9 = -5$).
+
+Step 2: Potential Buggy Rules:
+- "Always Subtract Small from Large": The student calculates $9 - 4 = 5$, ignoring the negative sign entirely.
+- "Addition Bias": Student sees the plus sign and adds the two constants regardless of position ($y = 13$).
+- "Sign Change Failure": Student moves 9 across the equal sign but fails to change the sign ($y = 4 + 9 = 13$).
+- "Integer Confusion": Recognizing a negative is required but placing it incorrectly or assuming the larger number's sign remains positive.
+
+Step 3: Population Factors:
+Grade 8 is the transitional year for pre-algebra. However, for students from low-SES backgrounds in the Indian public system, transition from rote arithmetic to abstract algebra is a known "bottleneck." Limited English proficiency often leads to heavy reliance on procedural memorization rather than conceptual understanding of "equality," making them more susceptible to "buggy rules" when a problem produces a negative result.
+
+Step 4: Holistic Estimate:
+While the equation is a one-step linear equation, the requirement to subtract a larger number from a smaller one is a major "trap" for students struggling with basic integer fluency. Many students will provide the answer "5" or "13."
+
+0.42

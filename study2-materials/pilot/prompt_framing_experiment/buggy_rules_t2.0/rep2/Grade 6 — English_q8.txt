@@ -1,0 +1,26 @@
+Step 1: Specific procedural steps
+1. Scan all five tokens and retrieve their semantic meanings.
+2. Identify the agent (Subject) of the sentence using grammatical cues or logical deduction.
+3. Identify the auxiliary verb ("is") and its role in forming the present continuous tense.
+4. Correctively sequence the "be + verb-ing" (Aspect) construction.
+5. Identify the patient (Object) and its associated article ("a").
+6. Map these onto the English SVO (Subject-Verb-Object) syntactic template.
+7. Orthographically execute the sentence with proper capitalization and punctuation (though often ignored in basic scoring).
+
+Step 2: Buggy rules / Systematic errors
+1. **L1-Syntactic Interference (Hindi SOV Bug):** Placing the object before the verb (e.g., "He a book reading is").
+2. **Local Clustering Bug:** Grouping "is reading" correctly but placing "a book" incorrectly (e.g., "A book is reading he").
+3. **Random Permutation Bug:** Listing words in the order they were processed without syntactic structure.
+4. **The "Topic-Fronting" Bug:** Placing the most important noun first regardless of grammatical role (e.g., "Book he reading is").
+5. **Article-Misplacement Bug:** Treating the article "a" as an independent entity or attaching it to the verb instead of the noun.
+
+Step 3: Target student population considerations
+1. **Language Transfer:** Students from Hindi backgrounds face significant interference because Hindi is a Verb-Final (SOV) language, whereas English is SVO.
+2. **The "Empty Slots" problem:** In open-ended rearrangement, there are 120 (5!) possible permutations. Without a strong grasp of "is -ing" as a unit, the probability of error is high.
+3. **Low-Exposure Environment:** Economically weaker sections often lack out-of-school English exposure, making "natural" syntax feel foreign.
+4. **Subjective Saliency:** For many, the verb "reading" and the object "book" are high-frequency, but the function words ("is", "a") act as "noise" in the procedural execution.
+
+Step 4: Holistic Estimate
+While the sentence is semantically simple, the requirement to transition from Hindi SOV to English SVO, combined with the presence of an auxiliary and an article, introduces significant "bug" potential for learners at this level.
+
+0.55

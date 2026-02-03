@@ -1,0 +1,25 @@
+Step 1: Procedural Steps
+1. Recall the conceptual meaning of LCM or a specific algorithm (Common Division or Prime Factorization).
+2. For Common Division: Correctly set up the division ladder with all three numbers (12, 15, 20).
+3. Identify the smallest prime factor (2) and divide correctly, maintaining numbers not divisible (bringing 15 down).
+4. Iterate division until all quotients are 1, ensuring only primes are used or handled correctly.
+5. Multiply all external factors correctly ($2 \times 2 \times 3 \times 5$).
+6. Reach the final product (60).
+
+Step 2: Buggy Rules / Systematic Errors
+- "Division ignoring": Dividing 12 and 20 by 2 but leaving 15 out or accidentally dividing 15 by 2 and getting a remainder/decimal.
+- "The Stop Rule Bug": Stopping division as soon as one number reaches 1, or stopping when no single prime divides all three numbers (confusing LCM procedure with HCF).
+- "Prime confusion": Using composite numbers as divisors (e.g., dividing by 4 or 6) and missing factors.
+- "Addition bug": Adding the prime factors instead of multiplying them.
+- "Multiplication error": Execution errors in basic facts (e.g., $12 \times 5 = 50$).
+
+Step 3: Population Considerations
+- Grade 6 is the introductory year for formal LCM algorithms in the NCERT/State curriculum.
+- Students from Hindi-medium backgrounds may struggle if the term "Least Common Multiple" is not bridged with "लघुत्तम समापवर्त्य (ल.स.)".
+- Economically weaker sections (EWS) often correlate with higher "math anxiety" and gaps in basic multiplication table fluency, which are "primitive" dependencies for this task.
+- The open-ended format prevents guessing, which is possible in MCQs.
+
+Step 4: Holistic Analysis
+While the method is standard, the requirement for multi-step precision (multiple divisions followed by multi-digit multiplication) without the "safety net" of recognition makes it high-risk for the target demographic. Many students will confuse the LCM process with the HCF process or make a single arithmetic slip in the ladder.
+
+0.38

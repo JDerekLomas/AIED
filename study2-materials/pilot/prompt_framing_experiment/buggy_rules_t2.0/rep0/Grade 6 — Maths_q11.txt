@@ -1,0 +1,20 @@
+Step 1: Procedural steps:
+1. Lexical and semantic decoding: Correctly interpreting the phrase "maximum value... exact number of times" as a request for the Highest Common Factor (HCF).
+2. Prime Factorization: Breaking down 75 into $3 \times 5 \times 5$ and 69 into $3 \times 23$.
+3. Commonality Identification: Identifying common factors from the two sets.
+4. Calculation: Multiplying common factors to find the HCF.
+5. Unit Attachment: Expressing the final answer in 'kg'.
+
+Step 2: Buggy rules/Systematic errors:
+- Keywords trap: Seeing "maximum" and "total" and defaulting to Addition or Least Common Multiple (LCM) due to confusion between "Greatest" and "Least".
+- Division bugs: Difficulty factoring 69 because 23 is a prime number that many students do not recognize quickly; they may assume 69 is prime or try to divide by small primes (2, 5) and fail.
+- Factor Isolation: Failing to realize that the "weight" being sought is the common divisor, not the sum or difference.
+- HCF vs. LCM Confusion: Executing the procedure for LCM ($3 \times 5 \times 5 \times 23$) instead of HCF.
+
+Step 3: Population context:
+Grade 6 students from economically weaker sections often face language barriers with English word problems. In Hindi-medium contexts, the technical vocabulary for HCF (*Mahattam Samapavartak*) is distinct; translating "maximum weight that can measure" into the HCF procedure requires a high level of conceptual abstraction. The open-ended nature of the problem offers no cues or distractors to narrow down the operation. The specific number 69 (containing the prime 23) is a significant procedural "speed bump" for students accustomed to numbers 1–20.
+
+Step 4: Holistic Estimate:
+While the procedure is foundational, the combination of linguistic decoding (English proficiency), prime number recognition (23), and the abstraction of "measuring exact times" represents a significant barrier.
+
+0.22

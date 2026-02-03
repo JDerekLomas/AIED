@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Count the number of digits in each number to distinguish between 3-digit and 4-digit values.
+2. Identify the smallest value based on digit count (736) and place it first.
+3. Compare the thousands place (MSD) of the remaining three 4-digit numbers (3, 5, 4).
+4. Order the 4-digit numbers based on the magnitude of the thousands digit ($3 < 4 < 5$).
+5. Sequence the entire string correctly from left to right: 736, 3367, 4799, 5492.
+
+Step 2: Buggy Rules
+- **"Size-Proportional-to-Length" failure:** A student might overlook that 736 is 3-digit and compare the leading digits instead (7, 3, 5, 4), leading to placing 736 last because 7 is the largest "first" digit.
+- **Lexicographic/Left-to-Right Bug:** Ignoring the decimal place value system and treating numbers like strings of text, comparing only the first character.
+- **Vocabulary Confusion:** Misinterpreting "Ascending" (low to high) for "Descending" (high to low). This is particularly high in Hindi-medium transitions (Aarohi vs. Avrohi).
+- **Incomplete Sequencing:** Getting the first one right (satisfying the rubric for 0.5) but scrambling the remaining three.
+
+Step 3: Population Considerations
+In Grade 6 classrooms within this demographic, "Ascending/Descending" are often high-hurdle English vocabulary terms. While 736 stands out visually, many students still struggle with place value consistency when 3-digit and 4-digit numbers are mixed. The open-ended format removes the "safety net" of multiple-choice elimination.
+
+Step 4: Holistic Estimate
+While the rubric only asks for the first number (which is easier than a full sort), the specific confusion between the leading "7" in 736 and the leading "3, 4, 5" in the others is a classic cognitive trap for students still refining their mental model of base-10 place value.
+
+0.65

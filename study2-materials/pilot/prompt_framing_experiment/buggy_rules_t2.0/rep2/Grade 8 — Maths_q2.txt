@@ -1,0 +1,25 @@
+To analyze this item, we follow the prescribed steps:
+
+**Step 1: Procedural Steps**
+1. **Set-up/Horizontal Distribution:** Applying the distributive law to multiply each term of the first binomial by each term of the second: $3a(2a + 3b) - 2b(2a + 3b)$.
+2. **Four Term Expansion:** Performing four discrete multiplications:
+    *   $(3a \cdot 2a) = 6a^2$
+    *   $(3a \cdot 3b) = 9ab$
+    *   $(-2b \cdot 2a) = -4ab$
+    *   $(-2b \cdot 3b) = -6b^2$
+3. **Integer Sign Management:** Correcting applying signs, particularly the negative coefficient in the second term.
+4. **Combining Like Terms:** Recognizing that $+9ab$ and $-4ab$ are like terms and simplifying them to $+5ab$.
+
+**Step 2: Known Buggy Rules**
+*   **The "Freshman’s Dream" Bug:** Multiplying the first terms and last terms only (e.g., $6a^2 - 6b^2$), omitting middle terms entirely.
+*   **Sign-Carry Bug:** Distributing the negative sign of the $-2b$ to the first term ($2a$) but failing to distribute it to the second term ($3b$), resulting in $+6b^2$.
+*   **Variable/Exponent Confusion:** Writing $5a$ instead of $6a^2$ (adding coefficients and dropping power) or $6a$ (ignoring the $a \cdot a$ rule).
+*   **Literal Coefficient Error:** Forgetting to combine $9ab - 4ab$ due to the visual complexity of the variable string "ab".
+
+**Step 3: Population Considerations**
+In Grade 8 Indian government schools, especially those with Hindi-medium transitions to English math terminology, procedural fluency is often prioritized, but symbolic manipulation remains a high-threshold barrier. Since the question is open-ended (recall) rather than multiple-choice (recognition), there are no "scaffolds" to prompt the middle terms or the specific signs. In low-SES contexts, where instructional time often focuses on arithmetic, the jump to polynomial multiplication represents a significant abstraction jump.
+
+**Step 4: Holistic Assessment**
+While many students will attempt the expansion, the likelihood of avoiding *all* bugs (distribution, sign rules, $a \cdot a$ rules, and like-term combination) is moderate to low. The requirement for a "fully correct answer" (maximum score of 1) means even a small error in the constant coefficient or a single sign results in 0 marks.
+
+0.35

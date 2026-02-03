@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1.  **Extract Information/Semantic Translation:** Identify given quantities ($55$ km, $5$ L) and target quantity ($12$ L).
+2.  **Calculate Unit Rate (Mileage):** Perform division $55 \div 5 = 11$.
+3.  **Apply Scaling:** Multiply the unit rate by the target quantity ($11 \times 12$).
+4.  **Language Synthesis:** Interpret "mileage" as the intermediate unit rate derived in Step 2.
+5.  **Multi-step execution:** Synthesize the two discrete answers (distance and mileage) into a final response.
+
+Step 2: Buggy Rules/Cognitive Barriers
+*   **Keyword Operator Error:** Seeing "How much" and "total" (implied) and performing addition ($55 + 5 + 12$ or $55 + 12$).
+*   **Inversion Bug:** Dividing the smaller number by the larger ($5 \div 55$) leading to decimal confusion or an "impossible" answer.
+*   **Linear Scaling Error:** Some students may try to find the relationship between $5$ and $12$ (e.g., $5 + 7 = 12$, therefore $55 + 7 = 62$).
+*   **The "Mileage" Linguistic Barrier:** In Indian contexts, "mileage" is a high-frequency loanword, but its technical definition as a rate (km/L) vs. "average" speed or total distance is often conflated in low-literacy environments.
+*   **Partial Completion:** Solving for $132$ km but failing to explicitly state the "mileage" separately, or vice versa.
+
+Step 3: Population Considerations
+*   **Linguistic Dissonance:** The phrasing "How much mileage (average) the car is giving" is awkward in English. Hindi-medium students often process "average" (औसत) as "middle value," potentially leading them to attempt $(55 + 12) / 2$.
+*   **Format:** Being open-ended increases the probability of calculation errors in long multiplication ($11 \times 12$).
+*   **Socio-Economic Factors:** High mastery of unitary method is usually expected by Grade 7, but systemic gaps often mean many students operate at a Grade 3-4 arithmetic level.
+
+Step 4: Holistic Assessment
+The item is double-barreled (Distance AND Mileage). Even if a student finds $132$ km, the specific request for "mileage" as a separate figure can trigger "noise" in their process. Given the linguistic complexities and the two-step requirement, many students will fail one of the two parts.
+
+0.38

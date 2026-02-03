@@ -1,0 +1,19 @@
+Step 1: Procedural Steps
+1. Parse the multi-clause English sentence to associate quantities (e.g., 10) with denominations (e.g., 10 paise).
+2. Calculate partial values for three distinct sets: $10 \times 10$, $5 \times 20$, and $16 \times 50$.
+3. Sum the partial values to find the total in paise ($100 + 100 + 800 = 1000$ paise).
+4. Convert the total paise into Rupees by dividing by 100 ($1000 \div 100 = 10$ Rupees).
+5. Perform a final division or comparison to determine how many ₹5 coins fit into the total sum ($10 \div 5 = 2$).
+
+Step 2: Systematic Buggy Rules
+- Semantic Misalignment: Treating the denomination as the quantity (e.g., calculating $5 + 10 + 5 + 16$).
+- Unit Neglect: Summing values without conversion (e.g., $100 + 100 + 800 = 1000$ and providing 1000 as the answer, ignoring the Rupee conversion).
+- Decimal Slip: Error in converting paise to Rupees (e.g., $1000 \text{ paise} = 100 \text{ Rupees}$ or $1 \text{ Rupee}$).
+- Final Goal Neglect: Stopping after finding the total value (₹10) rather than answering "how many ₹5 coins."
+- Language Interference: Misinterpreting "Rupee 5 coins can be made from..." as a request to simply add all numbers mentioned in the text.
+
+Step 3: Population Considerations
+For Grade 7 students from Hindi-medium/EWS backgrounds, the linguistic complexity of the English phrasing ("How many... can be made from...") acts as a significant barrier. While the multiplication ($16 \times 50$) is within their capability, the multi-step nature of the word problem (Recall vs. Recognition) increases the "cognitive load" exponentially. In these settings, decimal/currency conversion is often a high-error zone.
+
+Step 4: Holistic Estimate
+The question requires five successful procedural transitions. A single "bug" in any step results in an

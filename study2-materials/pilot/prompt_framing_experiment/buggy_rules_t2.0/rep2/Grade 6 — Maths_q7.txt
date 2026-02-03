@@ -1,0 +1,21 @@
+Step 1: Procedural steps:
+1. Determine the time elapsed between 10:00 AM and 4:00 PM.
+2. Convert "evening" (12-hour format) into a duration or 24-hour equivalent (4:00 PM = 16:00).
+3. Calculate the total temperature increase by multiplying the rate (2°C/hr) by the number of hours (6 hours).
+4. Add the total increase (12°C) to the initial temperature (30°C).
+
+Step 2: Common "Buggy Rules":
+- **Temporal Calculation Error**: Calculating the difference between 10 and 4 as 6 (correct) vs. 10 - 4 = 6, but misinterpreting the directionality or failing to cross the 12:00 PM threshold (counting 10 to 4 as 4 hours).
+- **Static Thinking Bug**: Identifying the numbers (10, 30, 2, 4) and performing a random operation, such as $30 + 2 = 32$ or $30 + 4 = 34$ (ignoring the rate/time relationship).
+- **The "Evening" Language Barrier**: Failing to recognize that 4:00 in the evening implies a 6-hour duration due to English proficiency issues or unfamiliarity with the AM/PM notation system versus 24-hour logic.
+- **Off-by-one Error**: Counting hours as 11, 12, 1, 2, 3, 4 and coming up with 5 or 7 depending on inclusive/exclusive boundary counting.
+
+Step 3: Population Considerations:
+- Grade 6 students in EWS/Hindi-medium contexts often struggle with multi-step word problems in English.
+- Proportional reasoning (rate × time) is a transitioning skill in Grade 6.
+- The mental model for a "clock" often breaks when crossing 12:00 for students not yet fluent in temporal arithmetic.
+
+Step 4: Holistic Assessment:
+While the individual arithmetic ($2 \times 6$ and $30 + 12$) is simple, the integration of temporal conversion, rate application, and language decoding presents significant hurdles. Historical data on such National Achievement Survey (NAS) style items in Indian government schools shows a steep drop-off when three or more logical steps are combined.
+
+0.32

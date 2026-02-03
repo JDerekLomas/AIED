@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Recognize the divisor is a decimal and identify the need to shift the decimal point to make it a whole number.
+2. Apply the "compensation rule" (multiplying both dividend and divisor by 10), transforming $8 \div 7.2$ into $80 \div 72$.
+3. Set up the long division or fraction reduction ($\frac{80}{72}$).
+4. Execute the division algorithm: Determine that 72 goes into 80 once, calculate the remainder (8).
+5. Recognize the need for a decimal in the quotient to continue dividing.
+6. Identify the recurring nature of the division ($80 \div 72$ repeatedly yielding 8) and correctly represent the result (e.g., $1.11...$ or $1.1$ recurring).
+
+Step 2: Buggy Rules
+- **Decimal Displacement Bug:** Student moves the decimal in the divisor but forgets to add a zero to the dividend (calculating $8 \div 72$ instead of $80 \div 72$).
+- **Smaller-from-Larger Bug:** Inverting the operation to $7.2 \div 8$ because the divisor "should" be smaller than the dividend (yielding $0.9$).
+- **Decimal Ignorance:** Ignoring the decimal point entirely and calculating $8 \div 72$ or $72 \div 8$ as whole numbers.
+- **Remainder as Decimal:** Performing $80 \div 72 = 1$ remainder $8$, and writing the answer as $1.8$.
+- **Termination Error:** Stopping at the first decimal place without indicating recurrence or rounding, or failing to initiate the decimal division after the first step.
+
+Step 3: Student Population Analysis
+Grade 7 students in this demographic often face "language-to-math" barriers. While the numbers are small, the operation involves a "greater divisor than dividend" logic once the decimal is removed from the original divisor's magnitude ($7.2$ is close to $8$). The open-ended format removes the "clue" provided by multiple-choice options. For many students in these contexts, the procedural "trick" of moving decimals is often memorized without conceptual backing, leading to high "bug" interference.
+
+Step 4: Estimate
+0.25

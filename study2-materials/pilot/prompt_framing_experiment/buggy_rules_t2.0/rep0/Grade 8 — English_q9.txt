@@ -1,0 +1,22 @@
+Step 1: Procedural steps:
+1. Decode the English instructions ("Give the", "synonym", "antonym") and the target word "quiet".
+2. Access the semantic meaning of "quiet" (mental representation of silence or calmness).
+3. Retrieve a synonym: Recall a word with a similar meaning (e.g., silent).
+4. Retrieve an antonym: Recall a word with the opposite meaning (e.g., noisy).
+5. Correctly assign each word to the numbered lines (Synonym vs. Antonym labels).
+6. Encode the retrieved words into written English (spelling).
+
+Step 2: Buggy rules/Systematic errors:
+- Label Confusion (The "Reverse Swap" bug): Swapping the meanings of the terms "synonym" and "antonym," placing the opposite in the synonym slot and vice versa.
+- The "Similar Sound" bug: Confounding "quiet" with "quite," leading to synonyms like "very" or "completely."
+- The "Functional Association" bug: Providing a related concept that isn't the correct part of speech or category (e.g., writing "shhh" or "library").
+- Retrieval Failure: Possessing the concept in Hindi (शान्त/shant) but failing to recall the specific English productive vocabulary for the opposite (e.g., knowing it's "shor," but not knowing "noisy" or "loud").
+- Spelling Failure: Writing "noice" for noisy or "silence" for silent (which may be penalized depending on strictness of "synonym" as an adjective).
+
+Step 3: Population/Item context:
+- This is a productive/recall task (no options provided), which is significantly harder than a multiple-choice recognition task.
+- For Grade 8 Hindi-medium students, the technical terms "synonym" and "antonym" are often sources of linguistic anxiety and confusion compared to the Hindi terms "Paryayvachi" and "Vilom".
+- While "quiet" is a common word, the requirement to produce two distinct types of vocabulary relationships simultaneously increases the cognitive load and the chance of a "swap" error.
+
+Step 4: Holistic Estimate:
+0.35

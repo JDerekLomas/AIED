@@ -1,0 +1,21 @@
+Step 1: Specific procedural steps
+1. **Linguistic Translation:** Interpret "minimum number of pencils *required*" in the context of the prompt (recognizing this implies reaching the next multiple of 10 or completing the current division).
+2. **Division Operation:** Divide 112 by 10 to find the quotient and remainder.
+3. **Multiplication/Addition:** Calculate the difference needed to reach the next multiple ($10 \times 12 = 120$; $120 - 112 = 8$) OR recognize the current remainder ($2$) and subtract from the divisor ($10 - 2 = 8$).
+4. **Differentiation:** Identify that the question asks for two distinct values (number of pencils to be added and the new quotient per box).
+
+Step 2: Buggy rules
+1. **The "Difference" Bug:** Student identifies the remainder (2) but provides that as the answer to "required," failing to distinguish between "leftover" and "needed to complete."
+2. **Keyword Mapping Bug:** Student sees "equal number" and simply performs $112 \div 10 = 11.2$ or "11 remainder 2" but stops there, failing to map the result to the two specific questions asked.
+3. **Subtraction/Place Value Bug:** If performing long division, "10 into 112" might result in "12" because the student misses a placeholder zero or misaligns the 2.
+4. **Rounding Error:** Calculating $112 \div 10 = 11$, and then assuming they need 11 per box (the current state) rather than 12 (the state requiring *added* pencils).
+
+Step 3: Target population considerations
+- **Language Barrier:** "Minimum number... required" is linguistically complex for English Language Learners. The word "required" is often misinterpreted as the total needed ($120$) or the current remainder ($2$).
+- **Conceptual Shift:** Grade 6 students often struggle with "equal grouping" when it isn't a perfect division; they are used to finding the quotient, not "padding" the dividend.
+- **Economic/Instructional Context:** Students in this demographic often rely on rote algorithmic execution. The multi-part nature of this "word problem" increases the likelihood of cognitive overload or answering only one part of the question.
+
+Step 4: Holistic Estimate
+While 10 is an easy divisor, the phrasing "pencils required" to achieve equality is a significant distractor. Most students will likely give the current quotient (11) or the remainder (2), but fail to provide "8" (the requirement).
+
+0.22

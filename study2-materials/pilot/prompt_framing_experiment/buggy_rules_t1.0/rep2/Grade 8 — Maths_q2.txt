@@ -1,0 +1,22 @@
+**Step 1: Procedural Steps**
+1.  **Horizontal/Vertical Setup:** Correctly setting up the distribution, either via the FOIL method or the distributive law: $3a(2a + 3b) - 2b(2a + 3b)$.
+2.  **Term-by-Term Multiplication (Coefficient):** Multiplying coefficients for four distinct operations ($3 \times 2, 3 \times 3, -2 \times 2, -2 \times 3$).
+3.  **Term-by-Term Multiplication (Variables/Exponents):** Applying the product rule for exponents (e.g., $a \times a = a^2$).
+4.  **Sign Management:** Correctly handling the negative sign of the second term in the first binomial across both distributions (specifically $-2b \times 3b = -6b^2$).
+5.  **Identifying Like Terms:** Recognizing that $9ab$ and $-4ab$ are like terms and can be combined.
+6.  **Integer Addition/Subtraction:** Computing $9 - 4$ correctly to reach the final simplified expression.
+
+**Step 2: Buggy Rules**
+*   **Partial Distribution:** Distributing only to the first term of the second binomial, e.g., $3a(2a) - 2b(3b)$.
+*   **Exponent Overgeneralization:** Writing $3a \times 2a = 6a$ (forgetting the square) or $3a \times 3b = 9ab^2$.
+*   **Sign Slippage:** Treating the negative in $(-2b)$ as belonging only to the first multiplication, resulting in $+6b^2$ at the end.
+*   **The "Concatenation" Bug:** Instead of multiplying coefficients, adding them (e.g., $3a \times 2a = 5a^2$).
+*   **Variable Mismatch:** Combining unlike terms, such as $6a^2 + 5ab - 6b^2$ becoming $5a^2b^2$.
+
+**Step 3: Student Population Analysis**
+For Grade 8 students in this demographic, the transition from arithmetic to symbolic algebra is a known "bottleneck." In Indian government school contexts, procedural drill is common, but the jump from monomial multiplication to binomial expansion (FOIL) introduces a high cognitive load. Limited English proficiency often results in students memorizing the "shape" of the procedure without understanding the underlying distributive property, making them highly susceptible to "buggy rules" when signs or multiple variables are involved. The open-ended format removes the "cueing" advantage of multiple-choice questions.
+
+**Step 4: Holistic Estimate**
+While the steps are standard, the probability of a student navigating all six steps without a single sign error or exponent error is statistically low in this specific demographic. The combination of the negative sign in the first binomial and the requirement to simplify like terms creates multiple "failure points."
+
+0.35

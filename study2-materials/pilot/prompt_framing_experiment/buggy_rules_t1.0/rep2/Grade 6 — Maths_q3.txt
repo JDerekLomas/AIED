@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Count the number of digits in each numeral to identify the magnitude (recognizing 736 has three digits while others have four).
+2. Compare the leftmost digit (thousands place) of the remaining four-digit numbers (3, 5, and 4).
+3. Order the numerals based on the value of the leading digits ($3 < 4 < 5$).
+4. Arrange the sequence horizontally from left to right using commas or inequality symbols.
+5. Translate the linguistic instruction "ascending" into the mathematical action of "smallest to largest."
+
+Step 2: Buggy Rules
+1. **Magnitude Neglect (The "Line-up" Bug):** Treating all numbers as having equal length by aligning them to the left (viewing 736 as "7xx" and placing it as the largest because 7 is greater than 3, 4, and 5).
+2. **Lexicographical Ordering:** Comparing only the first digit regardless of place value (common in students who treat numbers like strings of text).
+3. **Instruction Inversion:** Confusing "ascending" with "descending," resulting in a perfectly reversed list.
+4. **Vocabulary Barrier:** Not knowing the meaning of the English word "ascending," leading to random ordering or no response.
+
+Step 3: Student Population Analysis
+Grade 6 students from Hindi-medium backgrounds often struggle with the English terms "ascending/descending." While the numerical task is developmentally appropriate for Grade 3 or 4, the linguistic shift and the specific trap of the three-digit number (736) among four-digit numbers create high interference. In EWS contexts, rote memorization of "ascending = bante kram" (increasing order) is common, but application in a second language increases cognitive load.
+
+Step 4: Holistic Estimate
+While the math is "easy," the combination of the 3-vs-4 digit trap and the English vocabulary requirement significantly reduces the success rate in this specific demographic.
+
+0.55

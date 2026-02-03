@@ -1,0 +1,21 @@
+To analyze the item `4x + 2 = 10` for Grade 7 students in this context:
+
+**Step 1: Procedural Steps**
+1. **Additive Inverse/Transposition:** Subtract 2 from both sides (or move +2 to the RHS as -2) to get `4x = 8`.
+2. **Multiplicative Inverse/Transposition:** Divide both sides by 4 (or move the multiplier 4 to the RHS as a divisor) to isolate `x`.
+3. **Arithmetic Execution:** Correct subtraction (`10 - 2`) and correct division (`8 / 4`).
+
+**Step 2: Systematic Buggy Rules**
+*   **Operator Misinterpretation (The "Change-Sign" Bug):** Moving +2 to the RHS but keeping it as addition (`4x = 10 + 2`), resulting in `x = 3`.
+*   **Term Dependency Confusion:** Performing the division before the subtraction (dividing 10 by 4 first) because the coefficient 4 is seen as "closer" to $x$ or out of order.
+*   **Cohesion Error:** Combining unlike terms on the LHS (`4x + 2 = 6x`), leading to `6x = 10`.
+*   **Operation Detachment:** Interpreting `4x` as `4 + x`, leading to `x + 4 + 2 = 10`.
+*   **Reverse Division:** Dividing the coefficient by the constant (`4 / 8`) rather than the constant by the coefficient, resulting in `x = 0.5`.
+
+**Step 3: Population Factors**
+Grade 7 is the introductory phase for formal symbolic algebra in the NCERT/State syllabus. For students from economically weaker sections and Hindi-medium backgrounds, the transition to abstract English-symbolic notation often involves high cognitive load. In an open-ended format (no options to plug back in), the lack of self-correction mechanisms increases the likelihood of "buggy" outcomes.
+
+**Step 4: Holistic Estimate**
+While the equation is "Level 1" in complexity, the cumulative probability of avoiding the "unlike terms" bug and the "sign-change" bug—coupled with potential arithmetic slips under testing pressure in this specific demographic—suggests a significant portion of the cohort will falter at one of the two transition points.
+
+0.42

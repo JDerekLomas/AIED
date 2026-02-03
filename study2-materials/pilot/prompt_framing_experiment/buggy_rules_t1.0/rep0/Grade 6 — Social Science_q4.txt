@@ -1,0 +1,19 @@
+Step 1: Procedural steps:
+1. Decode the sentence structure, specifically the grammatical conflict between "the one" and "landforms" (plural).
+2. Retrieve geographical data for the state of Rajasthan from long-term memory.
+3. Select one specific landform (Thar Desert or Aravalli Range) from the retrieved set.
+4. Recall descriptive attributes of the chosen landform (e.g., sandy, dry, old, hilly).
+5. Translate internal knowledge from Hindi/regional concepts (e.g., *Registan*) into English.
+6. Synthesize the name and description into a written English sentence.
+
+Step 2: Buggy rules:
+- **Number Agreement Bug:** Students see "landforms" (plural) and list multiple features (e.g., "desert and mountains") without the required description, failing the specific "describe it" prompt.
+- **Region-State Misalignment:** Associating Rajasthan only with "heat" or "sand" as a climate rather than a specific landform (naming "Hot weather" instead of "Thar Desert").
+- **Language "Translation-Transliteration" Bug:** Using phonetic Hindi terms in English script (e.g., writing "Retila ilaka") which may not be recognized by strict rubrics.
+- **The "Name-Only" Bug:** Providing the name but omitting the description due to the low point value (0.5), assuming the name is sufficient for the mark.
+
+Step 3: Population considerations:
+Grade 6 students in this demographic often face a "literacy gap" where their conceptual understanding of geography exceeds their ability to express it in written English. The open-ended format is significantly harder than a multiple-choice question for this group. The 0.5-point allocation also creates a psychological deterrent, where students may not exert the effort required for a multi-part procedural task for a negligible grade increase.
+
+Step 4: Holistic Estimate:
+0.35

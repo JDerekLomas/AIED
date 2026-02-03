@@ -1,0 +1,22 @@
+Step 1: Specific procedural steps
+1. Semantic Recall: Retrieve specific attributes or names associated with a "best friend."
+2. L2 Translation: Convert concepts from Hindi (mother tongue) into English vocabulary (e.g., "Mera dost" to "My friend").
+3. Syntactic Mapping: Apply S-V-O word order (contrasting with Hindi’s S-O-V structure).
+4. Morphological Application: Apply subject-verb agreement (e.g., "He plays" vs. "He play") and correct use of the copula "is."
+5. Orthographic Encoding: Apply spelling and capitalization rules.
+6. Execution of Constraint: Ensure two distinct propositions are generated to meet the rubric's quantity requirement.
+
+Step 2: Buggy rules
+1. L1 Interference (Syntax): Using Hindi word order (e.g., "My friend Ram is" instead of "My friend is Ram").
+2. Null Copula Bug: Omitting the verb "to be" (e.g., "My friend very good").
+3. Generalization of Base Form: Failing to add the "-s" for third-person singular (e.g., "He like me").
+4. Semantic Substitution: Using "Best friend" as a proper noun/title without an article or pronoun.
+5. Segmentation Bug: Writing a single long sentence with a comma/run-on and failing to produce "two sentences" as required by the rubric.
+
+Step 3: Target population considerations
+Grade 6 students in this context are often in a transitional phase from decoding to composition. The "open-ended recall" nature of this task is significantly harder than a multiple-choice "recognition" task. In low-resource settings, writing production often lags behind grade-level expectations. While "My best friend is [Name]" is a high-frequency rote phrase, the second sentence often introduces a "bug" in agreement or spelling that disqualifies the response under a strict "grammatically correct" rubric.
+
+Step 4: Holistic Estimate
+Taking into account the strictness of the rubric (1 point for total correctness across two sentences), the high probability of at least one agreement error or L1 interference error, and the "all or nothing" scoring:
+
+0.35

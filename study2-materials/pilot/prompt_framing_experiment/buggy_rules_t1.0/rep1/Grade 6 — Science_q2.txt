@@ -1,0 +1,20 @@
+Step 1: Procedural steps:
+1. Decode the English sentence to identify two distinct prompts (Process name and Kitchen metaphor).
+2. Recall the technical term "Photosynthesis" from long-term memory.
+3. Recall the plant organ associated with food production (Leaf).
+4. Transcribe the term "Photosynthesis" with phonetic accuracy (English spelling).
+5. Map the two-part answer to a single question structure.
+
+Step 2: Buggy rules/Systematic errors:
+1. "Single-Output Heuristic": Providing only one answer (usually the process) because the rubric value (0.5) or question structure suggests a singular response.
+2. "Phonetic Spelling Bug": Writing "Photosynthesis" as "Fotosynthesis" or "Photosynthisis," which may be marked wrong depending on teacher strictness.
+3. "The Translation Gap": Recognizing the concept in Hindi (प्रकाश संश्लेषण) but failing to retrieve the English technical label.
+4. "Category Confusion": Confusing the "process" with the "input" (e.g., naming Sunlight or Chlorophyll instead of Photosynthesis).
+
+Step 3: Population considerations:
+Grade 6 is a transitional year where English-medium instruction often becomes more rigorous. For students from economically weaker sections, lack of reinforcement at home and limited English fluency make the "recall" of a long Greek-rooted word like "Photosynthesis" significantly harder than "recognition" (multiple choice). The 0.5 point weight is unusually low for a two-part question, which can lead to students prioritizing brevity over completeness.
+
+Step 4: Holistic Estimate:
+While the concept is foundational, the combination of a two-part demand, the spelling difficulty of the target word, and the linguistic barrier for Hindi-medium students suggests a high error rate in providing a "fully correct" response (both parts correct).
+
+0.35

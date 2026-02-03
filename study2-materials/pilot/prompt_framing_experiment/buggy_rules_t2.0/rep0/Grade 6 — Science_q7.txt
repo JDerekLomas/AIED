@@ -1,0 +1,18 @@
+Step 1: Specific procedural steps
+1. Decode the English text: Understand the narrative context (Kartik’s chart) and the core query (identifying what is missing).
+2. Domain Mapping: Categorize fruits/vegetables as sources of vitamins/minerals/fiber and identify that milk belongs to a separate essential category (Protein/Calcium/Dairy).
+3. Retrieval/Deduction: Recall that milk is a "complete food" or provides specific nutrients (calcium/protein) not present in the same concentrations in fruits/veg.
+4. Output Generation (Selective): Filter the multi-part prompt (Question + Task) to identify that the rubric only scores the first sentence, while the second sentence requires a complex constructive task (the chart).
+5. Linguistic encoding: Formulate the response in English (or acceptable Hinglish).
+
+Step 2: Buggy rules
+1. The "Task Overload" Bug: Student focuses on the "Prepare diet chart" instruction (which is more complex) and ignores the introductory "What is missing" question entirely.
+2. The "Category Conflation" Bug: Grouping all "healthy things" together; assuming if someone eats fruits and vegetables, they are not missing anything (Response: "Nothing is missing").
+3. The "Subjective Preference" Bug: Answering based on personal taste or habitual meals (Response: "Roti/Dal") rather than analyzing the specific omission in the text.
+4. The "Translation/Comprehension" Bug: Misinterpreting "no milk" due to limited English proficiency or misreading the chart context.
+
+Step 3: Student population considerations
+Grade 6 students from EWS backgrounds often experience "the fourth-grade slump" in reading comprehension. Since the prompt is open-ended and linguistically dense (containing a "hidden" requirement in a two-part instruction), cognitive load is high. While "milk" is a culturally familiar concept, the instruction "Prepare diet chart" is a high-demand distractor that may lead students to skip the single-word answer required by the rubric.
+
+Step 4: Holistic estimate
+0.35

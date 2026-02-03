@@ -1,0 +1,21 @@
+Step 1: Specific procedural steps
+1. Compare digit counts: Recognize that 736 has three digits while the others have four.
+2. Place value identification: Align numbers by their highest place value (thousands vs. hundreds).
+3. Primary sort: Identify 736 as the smallest and place it first.
+4. Left-to-right comparison: For the remaining four-digit numbers, compare the thousands place (3, 5, 4).
+5. Secondary sort: Identify 3367 as next, then 4799, then 5492.
+6. Order verification: Write the sequence in a non-decreasing string.
+
+Step 2: Buggy rules
+1. "Length equals Magnitude" bug (in reverse): Forgetting to check digit count and treating 736 as "7xx" and comparing it directly to "3xxx", potentially placing it last because 7 > 5, 4, 3.
+2. "Lexicographic comparison" bug: Comparing only the leading digit regardless of place value (7, 3, 5, 4), resulting in the order 3367, 4799, 5492, 736.
+3. "Reverse Order" bug: Confusing "ascending" with "descending" due to language barriers (common in Hindi-to-English transitions).
+4. "Internal Digit Sum" bug: Estimating size based on the density of high digits (e.g., seeing 4799 as "larger" than 5492 because of the nines).
+
+Step 3: Student population considerations
+Grade 6 students from Hindi-medium backgrounds often struggle with the English term "ascending" (Aarohi kram). In low-stakes Indian government school testing environments, digit-count errors (Step 1, Item 1) are a leading cause of error for bottom-quartile students, though by Grade 6, most have mastered four-digit place value. The lack of scaffolding (open-ended) increases the likelihood of accidental omission.
+
+Step 4: Holistic Estimate
+While the math is "simple" (Grade 3/4 level content), the combination of linguistic confusion ("ascending") and the classic "736 is three digits" trap usually results in a significant minority of students failing to achieve a perfect score.
+
+0.65

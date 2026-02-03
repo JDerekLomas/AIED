@@ -1,0 +1,23 @@
+Step 1: Procedural steps:
+1. Recall the formula for the perimeter of a rectangle: $P = 2(l + w)$.
+2. Substitute given values correctly: $32 = 2(10 + w)$.
+3. Execute algebraic manipulation (inverse operations): Divide by 2 ($16 = 10 + w$) or distribute ($32 = 20 + 2w$).
+4. Isolate the variable $w$ to find the width ($16 - 10 = 6$).
+5. Recall the formula for area: $A = l \times w$.
+6. Calculate the area: $10 \times 6 = 60$.
+7. Provide both answers (width and area) as requested.
+
+Step 2: Buggy rules and cognitive traps:
+- **Formula Confusion:** Using $A = l + w$ or $P = l \times w$.
+- **Additive Error:** Calculating $32 - 10 = 22$ (treating perimeter as the sum of only two sides).
+- **Distributive Property Bug:** If distributing, writing $20 + w = 32$ (forgetting to multiply $w$ by 2).
+- **Operation Inversion:** Subtracting $2$ instead of dividing, or adding $10$ to $32$ instead of subtracting.
+- **Incomplete Processing:** Finding the width ($6$) but forgetting to perform the second half of the prompt (finding the area).
+
+Step 3: Contextual factors:
+- **Language Barrier:** In Hindi-medium backgrounds, "Perimeter" (परिमाप) and "Area" (क्षेत्रफल) are distinct terms; if the exam is in English, students often swap the two concepts.
+- **Multi-step Demand:** This is a "linked" problem where an error in the first calculation (width) guarantees an error in the second (area), even if the procedure for area is correct.
+- **Scoring Constraint:** The rubric is binary (Score 1). There is no partial credit for finding the width but failing the area, or vice-versa.
+
+Step 4: Holistic Estimate:
+0.35

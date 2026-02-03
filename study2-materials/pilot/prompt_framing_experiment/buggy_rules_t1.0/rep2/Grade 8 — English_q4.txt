@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Decode the prompt and understand the semantic constraint (identifying a synonym for "a light wind").
+2. Scan the provided text passage (search-to-sample) specifically looking for meteorological or atmospheric descriptors.
+3. Match the target definition "light wind" to the specific lexical item "breeze" within the text.
+4. Extract the word without altering its morphology (copying correctly).
+5. Verify that the selected word exists in the passage (checking against the constraint "from the passage").
+
+Step 2: Buggy Rules (Systematic Errors)
+1. **The "Definition-to-Knowledge" Bug:** The student provides a synonym they know (e.g., "air," "cool," or "gust") instead of searching the passage, violating the "from the passage" constraint.
+2. **The "Surface Feature" Bug:** Selecting any word related to weather found in the text (e.g., "clouds," "rain," "sky") regardless of the specific "light wind" meaning.
+3. **The "Translation Gap" Bug:** Students from Hindi-medium backgrounds may translate "light wind" to "hawa" (air/wind) and then back-translate to the most common English word they know ("wind"), failing to identify the specific nuance of "breeze."
+4. **The "Copying" Bug:** Misspelling the word "breeze" (e.g., "breze," "breez") which, depending on rubric strictness, may lead to a zero score.
+
+Step 3: Target Population Analysis
+Grade 8 students in this context often struggle with vocabulary acquisition beyond basic sight words. While "breeze" is a common word, the shift from recognition (multiple choice) to recall/extraction (open-ended) significantly increases cognitive load. The linguistic distance between "light wind" and "breeze" requires a level of English synonymy that is often not solidified in ESL learners from economically weaker sections.
+
+Step 4: Holistic Estimate
+Taking into account the requirement to find a specific word in a second language, the common tendency to provide a general related word rather than the exact synonym, and the "search-to-sample" difficulty for students with limited reading fluency:
+
+0.35

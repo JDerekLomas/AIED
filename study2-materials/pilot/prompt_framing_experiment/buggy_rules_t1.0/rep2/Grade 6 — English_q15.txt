@@ -1,0 +1,22 @@
+Step 1: Specific procedural steps
+1. Semantic Retrieval: Identify a specific person and retrieve descriptive attributes (name, traits, or actions).
+2. Lexical Mapping (L1 to L2): Translate these concepts from Hindi (L1) to English (L2) vocabulary.
+3. Syntactic Construction (Subject-Verb-Object): Arrange words into a standard English sentence structure (e.g., "My friend is [Name]").
+4. Morphological Application: Apply correct subject-verb agreement (e.g., "He play" vs. "He plays").
+5. Orthographic Execution: Apply capitalization and punctuation (full stops) to demarcate two distinct sentences.
+6. Quantitative Compliance: Ensure exactly two (or more) sentences are produced to satisfy the prompt.
+
+Step 2: Buggy rules
+1. Subject-Drop Bug: Omitting the subject pronoun because Hindi allows for null-subjects in context (e.g., "Is very good boy").
+2. COP-Deletion Bug: Omitting the auxiliary/copula "is" (e.g., "He my best friend").
+3. L1 Word Order Bug: Following Hindi syntax (Subject-Object-Verb) instead of English (e.g., "He Rahul is").
+4. Spelling Phonetics Bug: Spelling English words based on Hindi phonetic rules or local pronunciation.
+5. Run-on/Fragment Bug: Writing a single long string of words without a full stop, failing the "two sentences" requirement.
+
+Step 3: Student population considerations
+Grade 6 students from EWS/Hindi-medium backgrounds often face a "threshold effect." While they have the mental concept, the cognitive load of simultaneous translation and grammatical monitoring is high. In an open-ended format (recall), students cannot rely on context clues found in multiple-choice questions. The rubric is "all or nothing" (1 mark), meaning a single grammatical bug (common at this level) results in a score of 0.
+
+Step 4: Holistic Estimate
+Given that the rubric requires *both* sentences to be "grammatically correct," the likelihood of a student avoiding all common "bugs" (especially subject-verb agreement and the copula) is low in this specific demographic.
+
+0.35

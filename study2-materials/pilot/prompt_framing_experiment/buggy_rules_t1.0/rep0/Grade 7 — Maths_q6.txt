@@ -1,0 +1,21 @@
+Step 1: Procedural steps:
+1. Convert $1 \frac{1}{2}$ to an improper fraction ($\frac{3}{2}$).
+2. Convert $3 \frac{1}{4}$ to an improper fraction ($\frac{13}{4}$).
+3. Perform fraction multiplication (numerator $\times$ numerator, denominator $\times$ denominator) to get $\frac{39}{8}$.
+4. Divide 39 by 8 to convert back to a mixed fraction ($4 \frac{7}{8}$).
+
+Step 2: Potential "Buggy Rules":
+- **Conversion Bug:** Multiplying the whole number by the numerator and adding the denominator (inverted rule).
+- **Addition Bug:** Treating mixed numbers as addition and attempting a common denominator before multiplying ($1 \frac{2}{4} \times 3 \frac{1}{4}$).
+- **The "Whole $\times$ Whole, Fraction $\times$ Fraction" Bug:** Multiplying $1 \times 3$ and $\frac{1}{2} \times \frac{1}{4}$ to get $3 \frac{1}{8}$ (extremely common systematic error).
+- **Incomplete Processing:** Leaving the answer as an improper fraction ($\frac{39}{8}$), which fails the specific instruction to "express as a mixed fraction."
+
+Step 3: Contextual factors:
+- Grade 7 students often struggle with the multi-step nature of rational number operations.
+- For Hindi-medium students, the linguistic phrasing "mixed fraction" vs "improper fraction" in English can lead to retrieval errors. 
+- Open-ended formats significantly lower success rates compared to multiple-choice, as there are no "cues" to trigger self-correction of a buggy rule.
+
+Step 4: Holistic analysis:
+This item requires the perfect execution of four distinct sub-procedures. In economically weaker section (EWS) contexts where foundational numeracy (long division and basic multiplication tables) may be inconsistent, the probability of a "bug-free" execution across all four steps—especially avoiding the intuitive but incorrect $3 \frac{1}{8}$—is low.
+
+0.35

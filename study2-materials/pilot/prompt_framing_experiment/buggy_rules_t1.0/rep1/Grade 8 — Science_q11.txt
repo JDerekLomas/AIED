@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Decode the semantic meaning of the question in English (challenging for Hindi-medium learners).
+2. Scan the provided table to locate the column/row for "expansion."
+3. Compare numerical values or bar lengths (depending on table format) to identify the maximum value.
+4. Map the maximum value back to the corresponding material name (Aluminium).
+5. Ignore irrelevant sub-questions (b) and (c) to ensure the answer matches the specific rubric requirement for the 1-mark score.
+
+Step 2: Buggy Rules
+- "Max-Value Blindness": Looking for the most common material rather than the highest expansion value.
+- "Language Interference": Misinterpreting "expands the most" as "hardest" or "strongest" due to limited English vocabulary.
+- "Column/Row Misalignment": Selecting the material adjacent to the maximum value due to a tracking error.
+- "Schema Interference": Answering (b) or (c) instead of (a) because those questions rely on prior real-world knowledge (railway tracks, wires) which is more familiar than data interpretation.
+- "Unit Confusion": If values are in scientific notation or decimals, treating longer strings of digits as larger numbers (e.g., 0.00025 < 0.001).
+
+Step 3: Population Considerations
+- Grade 8 students in this demographic often struggle with "Data Interpretation" tasks if they haven't been explicitly taught to read tables as a functional literacy skill.
+- The open-ended format requires writing the word "Aluminium," which may lead to phonetic spelling errors (though usually ignored by lenient graders).
+- High probability of students answering part (b) or (c) because they are "general knowledge" science questions, potentially neglecting the data-specific task in part (a).
+
+Step 4: Holistic Estimate
+The task is a low-level "locate" task, but the linguistic barrier and the distraction of three sub-questions for only one rubric point significantly lower the success rate for this specific demographic.
+
+0.38

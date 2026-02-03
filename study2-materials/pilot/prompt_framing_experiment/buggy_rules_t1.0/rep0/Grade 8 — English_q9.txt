@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Decode the academic vocabulary in the prompt ("Synonym" and "Antonym").
+2. Access the semantic representation of the target word "quiet."
+3. Retrieve a word with a similar meaning (Synonym) from long-term memory.
+4. Retrieve a word with the opposite meaning (Antonym) from long-term memory.
+5. Encode the retrieved words into written English, ensuring the orthography is recognizable to the grader.
+6. Map the correct category (same vs. opposite) to the correct numbered slot in the response.
+
+Step 2: Buggy Rules / Systematic Errors
+1. Category Swapping: Systematically providing the antonym for the synonym and vice versa due to a failure to distinguish the Greek roots/labels.
+2. Associative Priming: Providing a word related to the context of "quiet" (e.g., "library" or "shhh") rather than a word of the same grammatical class (synonym).
+3. Translation-Retrieval Gap: Students may know the Hindi concept (शान्त - Shanti) and its opposite (शोर - Shor), but fail to retrieve the specific English lexical labels "Silent" or "Noisy."
+4. "Same-Meaning" Over-generalization: Treating "Antonym" as another word for "another name," providing two synonyms instead of one of each.
+5. Phonetic Spelling Bugs: Producing "silant" or "noiesy," which, depending on grader severity, may result in a zero score under a strict rubric.
+
+Step 3: Population Considerations
+For Grade 8 students in this demographic, "Synonym" and "Antonym" are often "learned-and-forgotten" academic labels rather than part of active vocabulary. While "quiet" is a high-frequency word, the open-ended recall format is significantly harder than a multiple-choice format. Limited English proficiency increases the likelihood of "Category Swapping" or the inability to retrieve the specific orthographic form of "noisy" or "silent."
+
+Step 4: Holistic Estimate
+
+0.35

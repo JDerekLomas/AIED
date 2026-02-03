@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Parse the multi-clause English sentence to identify three distinct sets of currency.
+2. Multiply quantity by denomination for set one (10 × 10 paise).
+3. Multiply quantity by denomination for set two (5 × 20 paise).
+4. Multiply quantity by denomination for set three (16 × 50 paise).
+5. Sum the products (100 + 100 + 800) to find the total value in paise (1000 paise).
+6. Convert the total paise to Rupees (1000 ÷ 100 = ₹10).
+7. Perform a final division by the target unit (₹10 ÷ ₹5) to find the number of coins.
+
+Step 2: Buggy Rules / Systematic Errors
+- Unit Neglect: Treating "10 paise" and "Rupee 5" as equivalent units, leading to a simple sum of quantities (10+5+16=31).
+- Multiplication Bug: Errors in multi-digit multiplication, particularly with the "16 × 50" step.
+- Conversion Bug: Misrecalling the conversion rate (e.g., thinking 10 paise = 1 Rupee, or 1000 paise = 1 Rupee).
+- Dividend/Divisor Swap: Dividing 5 by 10 instead of 10 by 5 in the final step.
+- Linguistic "Distractor" Bug: Interpreting "5 coins of 20 paise" and "5 Rupee coins" as referring to the same value due to the repetition of the numeral 5.
+
+Step 3: Population Considerations
+For Grade 7 students from Hindi-medium, economically weaker backgrounds, the English phrasing "How many... can be made from..." is syntactically complex. The currency denominations (10p, 20p) are no longer in active circulation in India, meaning students cannot rely on "street math" or physical intuition; they must rely entirely on abstract school-taught algorithms. The maximum score of 0.5 suggests this might be a sub-question or a low-stakes drill, potentially leading to lower student engagement/effort.
+
+Step 4: Holistic Estimate
+This item is a "high-floor" problem. While the individual operations are mid-primary level, the multi-step nature (7 steps) creates a "multiplicative effect" on the probability of error. Even a student with an 80% success rate on each individual step has only a ~21% chance of chaining all seven correctly.
+
+0.18

@@ -1,0 +1,22 @@
+**Step 1: Procedural Steps**
+1.  **Decoding Vocabulary:** Understanding "palindrome" in a mathematical context (numbers that read the same forward and backward).
+2.  **Constraint Satisfaction (Smallest):** Identifying the smallest 5-digit number that is a palindrome (10,001).
+3.  **Constraint Satisfaction (Largest):** Identifying the largest 5-digit number that is a palindrome (99,999).
+4.  **Arithmetic Execution (Addition):** Calculating $10,001 + 99,999$ correctly, handling multiple carry-over operations.
+5.  **Multi-Step Task Management:** Recognizing there is a second command ("Write their difference also") even though the rubric only rewards the sum.
+6.  **Arithmetic Execution (Subtraction):** Calculating $99,999 - 10,001$.
+
+**Step 2: Known Buggy Rules/Cognitive Barriers**
+1.  **"First and Last" Bug:** Students often think palindromes only require the first and last digits to match (e.g., 10,001 is correct, but they might think 12,321 or 10,001 is the only pattern, or conversely, confuse it with "repunits").
+2.  **"Smallest" Boundary Error:** A common bug is identifying 11,111 or 10,001 vs 10,000. Students often struggle with the "zero in the middle" constraint.
+3.  **The "Nines" Carry Bug:** In addition ($99,999 + 10,001$), students frequently fail to propagate the carry across multiple zeros, resulting in $109,990$ or $100,000$.
+4.  **Language Interference:** For Hindi-medium students, the term "palindrome" is not a standard cognate (like "plus" or "minus"). Without the Hindi equivalent (प्रतिलोमपद/विलोमपद), the word itself acts as a barrier to entry.
+5.  **Instructional Neglect:** Students often stop after the first operation in a multi-part question.
+
+**Step 3: Population Considerations**
+Grade 6 students in this demographic often face "Math-English" double-burden. The rubric is oddly binary (all or nothing for a 1-point question) despite requiring multiple high-level retrievals. Since it is open-ended (recall), students cannot use "guess and check" against multiple-choice options.
+
+**Step 4: Holistic Estimate**
+The combination of specific vocabulary ("palindrome"), the complexity of the "smallest" constraint, and the high probability of carry-over errors in the "nines" addition creates a significant filter.
+
+0.15

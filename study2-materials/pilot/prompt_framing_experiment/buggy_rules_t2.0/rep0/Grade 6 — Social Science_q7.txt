@@ -1,0 +1,23 @@
+Step 1: Procedural steps:
+1. Retrieval of the specific geographical location "Rajasthan" and its associated characteristic attributes.
+2. Recognition/Recall of the category "natural resources" (distinguishing from man-made or agricultural products).
+3. Retrieval of two distinct items within that category (e.g., specific minerals, solar energy, or scarce water).
+4. Identification of a causal relationship between one resource and human activity (economy, housing, or lifestyle).
+5. Linguistic encoding: Translating the retrieved concept from a Hindi/Regional conceptual framework into an English written sentence.
+
+Step 2: Buggy rules/Systematic errors:
+1. Category Displacement: Listing crops (wheat/mustard) or landmarks (Thar desert) instead of "natural resources."
+2. Labeling Bug: Identifying a resource but failing to provide the "two" required (halting after one correct item).
+3. Semantic Blurring: Providing an overly generic resource not specific to or prominent in Rajasthan (e.g., "Air," "Soil").
+4. Causal Loop Bug: Stating the resource influence as a tautology (e.g., "Marble is there so people sell marble") without explaining the influence on life.
+5. Language Interference Bug: Conceptualizing a correct answer in Hindi (e.g., *Khanij* for minerals) but failing to retrieve the English terminology, leading to an omitted or "nonsense" answer.
+
+Step 3: Contextual factors:
+1. Recall vs. Recognition: This is an open-ended "Mention" and "Explain" task, which has a significantly higher cognitive load than multiple choice.
+2. English Proficiency: For 6th graders in government schools, writing a multi-clause English sentence ("...influences the lives of the people because...") is a significant barrier.
+3. Scoring Rigor: The rubric allows only 1 mark, meaning an "all or nothing" success criteria despite a multi-part question (2 resources + 1 explanation).
+
+Step 4: Holistic Estimate:
+The combination of high retrieval demands, linguistic translation barriers, and the multi-step nature of the rubric makes this a high-difficulty item for this specific population.
+
+0.35

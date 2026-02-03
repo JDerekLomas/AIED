@@ -1,0 +1,24 @@
+Step 1: Procedural Steps
+1. Linguistic Translation: Interpret the word "of" as the multiplication operator ($\times$).
+2. Fraction Multiplication (Part A): Multiply numerators ($1 \times 3$) and denominators ($2 \times 4$) to get $3/8$.
+3. Fraction Multiplication (Part B): Multiply numerators ($2 \times 2$) and denominators ($5 \times 3$) to get $4/15$.
+4. Finding a Common Denominator: Identify a least common multiple for $8$ and $15$ (LCM = $120$) or use the cross-multiplication method ($3 \times 15$ vs $4 \times 8$).
+5. Equivalent Fraction Conversion: Transform $3/8$ into $45/120$ and $4/15$ into $32/120$.
+6. Comparison and Conclusion: Compare $45$ and $32$ to determine that $45/120$ (and thus $1/2$ of $3/4$) is greater.
+
+Step 2: Systematic Buggy Rules
+- "Of" as Addition: Interpreting "of" as $+$ instead of $\times$, leading to common denominator errors early on.
+- Cross-multiplication Bug: Attempting to cross-multiply to solve the multiplication (e.g., $1 \times 4$ and $2 \times 3$) instead of multiplying across.
+- Gap-based Comparison: Choosing the fraction with the smaller "gap" between numerator and denominator as the larger one (e.g., $3/8$ has a gap of $5$, $4/15$ has a gap of $11$, leading to a correct answer via incorrect logic).
+- Denominator-only Comparison: Comparing only denominators ($8 < 15$) and assuming the fraction with the smaller denominator is always larger regardless of the numerator.
+- Whole Number Bias: Treating $4/15$ as larger because both digits are larger than those in $3/8$.
+
+Step 3: Student Population Factors
+- Language Barrier: Students from Hindi-medium backgrounds often struggle with "of" (which translates to "ka" in Hindi math contexts) when the instruction is in English.
+- Low-Stakes Proficiency: For students in economically weaker sections, procedural fluency in multi-step fraction operations (requiring both multiplication and comparison) often lags behind single-step operations. 
+- Open-ended Format: Without multiple-choice cues, the probability of a "repaired" procedure (Brown & VanLehn) leading to the correct final value decreases significantly.
+
+Step 4: Holistic Estimate
+While many students may correctly perform the multiplication ($3/8$ and $4/15$), the subsequent requirement to compare fractions with unlike denominators is a significant "bottleneck" step where the majority of errors occur.
+
+0.28

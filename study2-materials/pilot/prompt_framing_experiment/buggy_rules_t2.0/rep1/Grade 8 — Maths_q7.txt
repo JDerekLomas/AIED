@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Understand the semantic phrasing "minimum number of chocolates required" in the context of rounding up to the next multiple (constrained by the "equal quantity" rule).
+2. Execute division: 300 ÷ 80 to find the quotient and remainder.
+3. Identify the shortfall (80 - 60 = 20) and add to the total (300 + 20 = 320).
+4. Identify the student count per class: 80 ÷ 8 = 10 students.
+5. Calculate chocolates per class: (320 ÷ 80) * 10 or 320 ÷ 8 = 40 chocolates.
+
+Step 2: Buggy Rules
+1. **Division bug (Remainder Dropout):** Student calculates 300 ÷ 80 = 3 and ignores the remainder, concluding 240 is the answer (rounding down instead of up).
+2. **"Find the Remainder" bug:** Student interprets "minimum number required" as a request for the remainder itself (60).
+3. **Lexical/English Barrier:** Students may confuse "equal quantity" with simply sharing what is available (dividing 300 by 80 and stopping at 3).
+4. **Step Omission:** Completing the first part (320) but failing to execute the second part of the prompt (chocolates per class) due to cognitive load or reading fatigue.
+5. **Constant Partitioning:** Dividing 300 (original) by 8 instead of 320 (calculated) for the second part.
+
+Step 3: Population Considerations
+1. **Language:** "Minimum number... required" is linguistically complex for English-as-a-second-language learners; they often interpret this as finding a remainder or subtracting.
+2. **Context:** Economically weaker section (EWS) students often have high proficiency in "street math" (sharing) but struggle with the formalizing of remainders into "next multiple" logic without scaffolding.
+3. **Open-ended:** The 2-part question increases the chance of a "partial success" that yields 0 marks under a binary (1-point maximum) rubric.
+
+Step 4: Holistic Analysis
+The item requires navigating a "non-standard" division word problem (finding the ceiling instead of the floor), followed by a multi-step logic chain. For a Grade 8 student in this specific demographic, the leap from the remainder (60) to the requirement (320) is a high-level inference. Most will provide "3" or "240" or "60".
+
+0.18

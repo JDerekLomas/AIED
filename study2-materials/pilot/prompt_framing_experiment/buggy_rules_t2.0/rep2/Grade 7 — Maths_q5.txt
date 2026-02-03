@@ -1,0 +1,22 @@
+To analyze this item, we must consider the misalignment between the question's arithmetic complexity and the cognitive/linguistic barriers present for this specific demographic.
+
+**Step 1: Procedural Steps**
+1. **Linguistic Decoding:** Translating English sentence structures ("How many X can be made from Y") into a mathematical goal.
+2. **Multiplication (x3):** Calculating sub-totals for each denomination (10 × 10; 5 × 20; 16 × 50).
+3. **Unit Conversion:** Converting "paise" to "rupees" (knowing 100 paise = 1 rupee).
+4. **Addition:** Summing the converted rupee values.
+5. **Final Division:** Dividing the total amount by the target coin value (Total / 5).
+
+**Step 2: Buggy Rules and Cognitive Load**
+*   **The "0.10" Bug:** Students at this level often treat decimals/place value inconsistently. They may calculate 10 × 10 as 100, but fail to convert to 1 rupee, or erroneously equate 50 paise to 0.50 rupees without mastery of the decimal point.
+*   **The Nominal Value Error:** Treating all units as integers without conversion (e.g., $100 + 100 + 800 = 1000$, then answer $1000/5 = 200$).
+*   **The Keyword Strategy:** Students often latch onto numbers and "add all" or "multiply all" without building a mental model of the currency exchange.
+*   **The Semantic Barrier:** For Hindi-medium students, the phrase "made from" is a passive construction that is often confused with simple addition.
+
+**Step 3: Population Considerations**
+In Grade 7 for this demographic, arithmetic involving multi-step word problems often shows a high "off-track" rate. While "paise" is culturally relevant, its use has diminished in daily transactions, making the 100-conversion less intuitive for modern students than it was for previous generations. The low rubric weight (0.5 marks) compared to high procedural demand (5+ steps) suggests an "easy" categorization by examiners that does not match the actual cognitive load.
+
+**Step 4: Holistic Estimate**
+The requirement to navigate three separate multiplications, a unit conversion, a summation, and a final division in a second language makes this a high-difficulty item. The probability of a "buggy" execution at the decimal/conversion stage is very high.
+
+0.22

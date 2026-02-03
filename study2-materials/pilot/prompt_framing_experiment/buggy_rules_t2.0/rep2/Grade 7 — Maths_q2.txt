@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1.  **Transposition of the additive constant**: Subtract 2 from both sides of the equation ($4x = 10 - 2$).
+2.  **Arithmetic evaluation**: Correctly perform the subtraction ($10 - 2 = 8$).
+3.  **Transposition of the coefficient**: Divide both sides by 4 ($x = 8 / 4$).
+4.  **Arithmetic evaluation/Simplification**: Correctly perform the division to isolate $x$ ($x = 2$).
+
+Step 2: Buggy Rules
+-   **Operation Sign Error (The "Move it" bug)**: Moving the $+2$ to the other side but keeping the sign positive ($4x = 10 + 2$).
+-   **Inverse Operator Mismatch**: Subtracting $4$ from $10$ because $4$ is "the next number seen" or dividing $10$ by $2$.
+-   **Co-efficient Detachment (Additive bug)**: Treating $4x$ as $4+x$, leading to $x = 10 - 2 - 4$.
+-   **Misinterpretation of concatenation**: Viewing $4x$ as "forty-something" (common in early learners transitioning from arithmetic).
+-   **Computation slips**: Basic subtraction or division errors (e.g., $10 - 2 = 7$).
+
+Step 3: Target Population Constraints
+Grade 7 students in this demographic often face "The Transition Gap." While the algebra is introductory, limited English proficiency means they rely heavily on rote memorization of algorithms. In Hindi-medium backgrounds, the term "paxantaran" (transposition) is often taught, but without deep conceptual mapping, students often conflate the rules for addition and multiplication during transposition. Being an open-ended item, there is no scaffolding to "guess" the result.
+
+Step 4: Holistic Assessment
+While the equation is a "one-step-at-a-time" standard problem, the cumulative probability of error across two transpositions and two arithmetic operations is significant. Historical data from large-scale assessments in similar Indian demographics (such as ASSET or NAS) show that while many students can handle one-step equations, the success rate drops when a coefficient $>1$ is introduced alongside a constant.
+
+0.42

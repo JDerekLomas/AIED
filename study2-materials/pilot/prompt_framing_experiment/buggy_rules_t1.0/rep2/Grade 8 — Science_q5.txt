@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Decode the English terms "Wheat" and "Paddy" and map them to their Hindi equivalents (*Gehun* and *Dhan/Chawal*).
+2. Retrieve the categorical classification (Kharif vs. Rabi) from long-term memory for the specific crop "Wheat."
+3. Retrieve the associated seasonal timeframe (Winter vs. Rainy/Monsoon) for that specific category.
+4. Execute the written output in English, correctly pairing the crop with its classification as required by the rubric.
+
+Step 2: Systematic Buggy Rules
+1. **The "Everything is Kharif" Bias:** Generalizing the current/most visible agricultural cycle to all crops; students often default to the monsoon cycle (Kharif) as it is the primary subsistence season.
+2. **Category Swapping:** Correctly remembering that there are two categories but systematically mis-pairing them (mapping Rabi to Rainy and Kharif to Winter).
+3. **Language Interference Bug:** Recognizing the crop in Hindi but failing to map the English word "Paddy" to the familiar concept of rice, leading to a "null" response or a guess.
+4. **The "Season-Cues-Crop" Inversion:** Associating "Winter" with the time they *eat* certain foods rather than the time they are *grown*.
+
+Step 3: Population Considerations
+1. **Language Barrier:** "Paddy" is a low-frequency word in Indian ESL contexts compared to "Rice," often causing confusion.
+2. **Recall vs. Recognition:** The open-ended format is significantly harder than a match-the-following or multiple-choice question, as it provides no "anchors" to trigger memory.
+3. **Rubric Specificity:** The rubric only awards 0.5 for one part of the question, but the prompt asks for classification *and* season, increasing the surface area for error even if the student knows the crop.
+
+Step 4: Holistic Estimate
+While Wheat and Rabi are fundamental concepts in the Grade 8 NCERT curriculum, the combination of English-medium testing for Hindi-medium learners and the lack of scaffolding in an open-ended recall task typically results in a high error rate.
+
+0.42

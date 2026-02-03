@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Time Interval Calculation: Determine the duration between 10:00 AM and 4:00 PM (12-hour cycle crossing).
+2. Rate Multiplication: Multiply the elapsed time (6 hours) by the rate of increase ($2^\circ C$/hour).
+3. Addition to Initial State: Add the total increase ($12^\circ C$) to the initial temperature ($30^\circ C$).
+
+Step 2: Buggy Rules / Systematic Errors
+1. "Difference Error": Subtracting 4 from 10 (10 - 4 = 6) coincidentally yields the correct number of hours but is a flawed heuristic that fails if the times were, for example, 10 AM and 2 PM.
+2. "Modulo 12 Failure": Treating the clock as a linear number line without resetting at 12 (e.g., $4 - 10 = -6$ or ignoring the PM transition).
+3. "Off-by-one Error": Counting the starting hour ($10, 11, 12, 1, 2, 3, 4 = 7$ hours).
+4. "Operation Confusion": Adding the rate to the time ($6 + 2 = 8$) or adding the rate directly to the temperature once ($30 + 2 = 32$).
+
+Step 3: Student Population Analysis
+- Grade 6 students in this demographic often struggle with English word problems where the mathematical operators aren't explicitly stated (e.g., "per hour" implies multiplication).
+- The transition from AM to PM is a high-error zone for students used to 24-hour formats or those with weak conceptual grasp of "clock arithmetic."
+- Since it is an open-ended item, there is no "guess and check" strategy available; students must synthesize three distinct operations.
+
+Step 4: Holistic Assessment
+While the arithmetic is simple ($6 \times 2 + 30$), the multi-step nature and the linguistic barrier for Hindi-medium students significantly increase the likelihood of a "bug" occurring at the time-calculation or rate-application stage.
+
+0.35

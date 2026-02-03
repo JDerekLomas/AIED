@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1.  Identify the constant term (+2) and inverse it by subtracting 2 from both sides (10 - 2).
+2.  Perform the arithmetic subtraction correctly to reach the intermediate state (4x = 8).
+3.  Identify the coefficient (4) and inverse it by dividing both sides by 4 (8 / 4).
+4.  Perform the division correctly to isolate x and find the value (x = 2).
+
+Step 2: Buggy Rules
+-   "Operator Misinterpretation": Adding 2 to 10 instead of subtracting (treating all numbers as additive).
+-   "Wrong Side, Wrong Sign": Moving 2 to the other side but keeping it positive (4x = 10 + 2).
+-   "Detachment Error": Subtracting 4 from 8 because it is "easier" than dividing, or treating 4x as 4 + x.
+-   "Left-to-Right Execution": Subtracting 2 from 4x first (impossible) or dividing the whole side 4x + 2 by 4 incorrectly.
+-   "Division Flip": Dividing 4 by 8 instead of 8 by 4, leading to x = 0.5.
+
+Step 3: Population Context
+Grade 7 is the introductory phase for formal algebraic manipulation in the NCERT/State curriculum. For students from economically weaker sections (EWS) in Hindi-medium settings, the transition to abstract variable notation (x) often presents a language-encoding barrier. The open-ended format removes the "plug-and-test" strategy available in multiple-choice questions, requiring high-fidelity retrieval of the transposition algorithm.
+
+Step 4: Holistic Estimate
+While the arithmetic is simple (10-2 and 8/4), the combination of transposition rules and the specific cognitive load of "undoing" operations leads to significant attrition at each step for students with inconsistent foundational mastery.
+
+0.40

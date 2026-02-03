@@ -1,0 +1,24 @@
+Step 1: Procedural Steps
+1. Decode the technical vocabulary in the prompt ("Synonym" and "Antonym").
+2. Access the semantic representation of the target word "quiet."
+3. Retrieve a word with a similar meaning from the internal lexicon (e.g., silent).
+4. Retrieve a word with the opposite meaning from the internal lexicon (e.g., noisy).
+5. Map the retrieved words to the correct numbered labels (ensure Synonym isn't swapped with Antonym).
+6. Encode/spell the retrieved words correctly in English.
+
+Step 2: Buggy Rules / Systematic Errors
+1. **The Swap Bug:** Correctly identifies a pair of words but assigns the synonym to the antonym field and vice versa.
+2. **The "Definition as Synonym" Bug:** Providing a phrase or definition (e.g., "no sound") instead of a single-word synonym.
+3. **The Mirror Bug (Antonym-only):** Treating the antonym field as another synonym field due to a lack of understanding of the prefix "ant-".
+4. **Phonetic Encoding Bug:** Spelling words based on Indian English phonetics (e.g., "silent" as "sailent" or "peaceful" as "piceful"), which may fail strict rubrics.
+5. **The "Common Word" Interference:** Using a word that is related but not a synonym (e.g., "slow" for quiet).
+
+Step 3: Population Considerations
+1. **Language Barrier:** For Hindi-medium students, the instructions themselves ("Synonym/Antonym") are high-level academic English. They may know the concept in Hindi (पर्यायवाची/विलोम) but not the English terms.
+2. **Recall vs. Recognition:** This is a constructive response task. There are no options to choose from, which significantly increases the cognitive load compared to a multiple-choice question.
+3. **Contextual Vocabulary:** "Quiet" is a common word, but Grade 8 expectations often require more formal vocabulary than "shh" or "no noise."
+
+Step 4: Holistic Estimation
+While "quiet" is a basic word, the combination of technical linguistic terms (Synonym/Antonym), the requirement for dual-retrieval without cues, and the English-medium testing format for Hindi-medium learners creates significant hurdles for students from economically weaker sections.
+
+0.35

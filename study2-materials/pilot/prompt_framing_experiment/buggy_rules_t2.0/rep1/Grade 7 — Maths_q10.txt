@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Recall and translate the semantic phrase "Perimeter of a rectangle" into the algebraic formula $2(l + w) = P$.
+2. Substitute the given values into the formula: $2(10 + w) = 32$.
+3. Distribute the constant or divide by 2: $20 + 2w = 32$ or $10 + w = 16$.
+4. Isolate the variable $w$ using inverse operations (subtraction): $w = 16 - 10$ or $2w = 12$.
+5. Recall the formula for area: $Area = l \times w$.
+6. Execute multiplication using the given length and the calculated width: $10 \times 6$.
+7. Provide the final answers with correct units (cm and sq cm/$\text{cm}^2$).
+
+Step 2: Buggy Rules / Systematic Errors
+- **Formula Confusion:** Swapping perimeter and area formulas ($l \times w = 32$ or $2l + 2w = Area$).
+- **The "Add and Done" Bug:** Simply adding 32 and 10 or subtracting 10 from 32 without accounting for the $2 \times$ multiplier.
+- **Operator Misapplication:** When solving $20 + 2w = 32$, a student might add 20 to 32 instead of subtracting ($2w = 52$).
+- **Partial Execution:** Finding the width ($w=6$) but stopping there, failing to perform the second half of the multi-step prompt (Area).
+- **Distributive Failure:** In $2(10 + w) = 32$, solving as $20 + w = 32$, resulting in $w = 12$.
+
+Step 3: Student Context
+The open-ended format is significantly more demanding than multiple-choice for this population. Language barriers may make "Perimeter" a "lexical hurdle"—if the student recognizes "rectangle" but misidentifies "Perimeter" for "Area" due to limited English academic vocabulary, the entire procedural chain breaks. The rubric is "All or Nothing" (Max score 1), meaning even a small calculation error in a multi-step process results in a zero.
+
+Step 4: Holistic Analysis
+This is a high-threshold item for Grade 7. It requires linking two distinct geometric concepts (Perimeter and Area) through an algebraic process. Given the "All or Nothing" scoring and the linguistic/contextual challenges, many students who understand the concept will still fail due to a single "bug" in the multi-step chain.
+
+0.25

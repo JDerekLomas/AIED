@@ -1,0 +1,24 @@
+Step 1: Procedural steps:
+1. Decode the sentence structure (Subject/Predicate) in English.
+2. Lexical retrieval of domain-specific vocabulary: "Medieval period" and "Rajasthan."
+3. Access long-term memory to retrieve the historical category of Rajasthani rulers.
+4. Filter retrieved names by the temporal constraint "Medieval" (distinguishing from Ancient/Modern).
+5. Verify the quantity requirement (n=2).
+6. Execute the orthographic output of names (correct spelling of specific Indian historical figures).
+
+Step 2: Buggy rules/Systematic errors:
+1. **Scope Generalization:** Classifying all "historical" figures as "medieval" (e.g., naming Ashoka or Shivaji).
+2. **Geographic Oversampling:** Identifying any famous North Indian king as being from Rajasthan (e.g., Akbar).
+3. **Keyword Matching Bug:** Associating the word "Rajasthan" with current politicians or local folk heroes rather than historical monarchs.
+4. **Transcription Interference:** High proficiency in Hindi oral recall but failure to map phonemes to English spelling, leading to illegible output.
+5. **Quantity Attrition:** Recalling one highly salient figure (Maharana Pratap) but failing to retrieve a distinct second.
+
+Step 3: Population/Format constraints:
+- Open-ended recall is significantly harder than multiple-choice recognition for students with limited English.
+- The low mark value (0.5) often correlates with low student effort/time investment during a test.
+- "Medieval" is an abstract temporal marker often conflated with "Ancient" in early Grade 6 cognitive mapping.
+
+Step 4: Holistic Estimate:
+While these names are culturally salient (high "home-fund" of knowledge), the requirement to name *two* specifically *medieval* kings in an *English-medium* assessment for students from a Hindi-medium background introduces significant friction. Many will provide one name or confuse the era.
+
+0.55

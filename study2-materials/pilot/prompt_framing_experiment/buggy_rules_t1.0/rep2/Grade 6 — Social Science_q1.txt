@@ -1,0 +1,19 @@
+Step 1: Procedural Steps
+1. Linguistic Decoding: Understand the prompt "Name any two" and "mountain ranges" (translating "mountain ranges" to *parvat shrinkhla* in a Hindi-medium context).
+2. Domain-Specific Retrieval: Access long-term memory to retrieve specific geographic names associated with the mental category of "India" and "Mountains."
+3. Filtering/Constraint Satisfaction: Verify that the retrieved names are "ranges" (not just peaks like Kanchenjunga) and are "in India" (ensuring the range isn't exclusively in another country).
+4. Bilingual Encoding/Transcription: Convert the internal Hindi/conceptual name (e.g., *Himalay*) into the English written form ("Himalayas").
+5. Quantity Check: Ensure exactly two distinct items are listed to satisfy the prompt.
+
+Step 2: Buggy Rules
+1. Category Displacement (Peak for Range): Providing names of individual peaks (e.g., "Everest," "K2") instead of ranges.
+2. Semantic Narrowing (The "Only" Bug): Believing only the Himalayas count as a mountain range, leading to a failure to provide a second distinct range.
+3. Toponymic Confusion: Providing names of rivers (Ganges) or states (Rajasthan) that are geographically associated with mountains but are not mountains themselves.
+4. Phonetic Spelling Errors: Attempting to write the name but failing so significantly that the rubric-marker cannot identify the intent (e.g., "Himlya").
+5. Boundary Error: Naming a range they know of but which is not in India (e.g., Alps, Andes) due to general geography interference.
+
+Step 3: Population Considerations
+Grade 6 students from EWS backgrounds often face a "language gap" where they know the concept in Hindi but struggle to produce the English label in an open-ended format. While "Himalayas" is a high-frequency word, identifying a second range (like Aravalli or Vindhya) requires higher-order retrieval. The low point value (0.5) may also lead to low effort or " satisficing" (writing just one).
+
+Step 4: Holistic Estimate
+0.40

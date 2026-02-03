@@ -1,0 +1,21 @@
+Step 1: Specific procedural steps
+1. **Linguistic Decoding**: Translate the English terms "Wheat" and "Paddy" into known Hindi concepts (*Gehun* and *Dhan/Chawal*).
+2. **Category Retrieval**: Access long-term memory to retrieve the categorization of the specific crop (e.g., Wheat $\rightarrow$ Rabi).
+3. **Association Retrieval**: Access the seasonal link (e.g., Rabi $\rightarrow$ Winter).
+4. **Relational Mapping**: Map the correct crop to the correct category AND the correct category to the correct season without swapping pairs.
+5. **Output Production**: Write the English terms correctly as per the prompt instructions.
+
+Step 2: Buggy Rules (Systematic errors)
+1. **Semantic Inversion**: Consistently swapping Kharif/Rabi (assigning winter to Kharif and rainy to Rabi).
+2. **"Most Recent" Bias**: Assigning the crop to the current season regardless of biological reality.
+3. **Phonetic/Orthographic Slip**: Mistaking "Paddy" for a different English word due to low exposure (e.g., "Pad" or "Paddy" as a winter-sounding word).
+4. **Attribute-Matching Error**: Misattributing the season directly to the crop without using the middle "Kharif/Rabi" classification correctly (e.g., knowing Wheat is winter, but labeling it Kharif).
+5. **Instructional Overload Bug**: Correctly classifying the crop but omitting the season (or vice versa), failing the two-part demand of the prompt.
+
+Step 3: Target Population considerations
+The dual demand (classification + season) increases cognitive load. In Hindi-medium backgrounds, the English word "Paddy" is a significantly higher hurdle than "Rice." The open-ended format removes the 50/50 guessing advantage found in Multiple Choice Questions (MCQs).
+
+Step 4: Holistic Estimate
+While Wheat/Rabi is a fundamental concept taught early, the multi-step requirement in a second language significantly increases the probability of a "bug" in one of the sub-routines.
+
+0.55

@@ -1,0 +1,20 @@
+Step 1: Procedural Steps
+1. Comprehend the text: Identify that "minimum number of chocolates required" implies finding the next multiple of 80 greater than or equal to 300.
+2. Division/Division with Remainder: Calculate $300 \div 80$ to find the quotient (3) and remainder (60).
+3. Logical Inference: Determine that 3 chocolates each is insufficient for the "total" requirement if using all 300, or that 4 chocolates each is the "minimum" needed for a higher equal distribution ($80 \times 4 = 320$).
+4. Secondary Division: Calculate the total chocolates for one class ($320 \div 8 = 40$) or students per class ($80 \div 8 = 10$) and then chocolates per class ($10 \times 4 = 40$).
+
+Step 2: Buggy Rules
+1. "Remainder Ignored": Student calculates $300 \div 80 = 3.75$ and rounds down to 3 or simply states 300 is the answer because they already have them.
+2. "Operation Confusion": Subtracting 80 from 300 instead of dividing.
+3. "Division by Smaller": If numbers were different, dividing 80 by 300; here, potentially dividing 300 by 8.
+4. "Literal Interpretation": Thinking "minimum" means the smallest possible amount (1 chocolate per student), ignoring the "300 chocolates" context.
+5. "Language Barrier Bug": Misinterpreting "minimum number... required" as asking for the remainder (60) or the current deficit (20).
+
+Step 3: Target Population
+Grade 8 students in this demographic often struggle with multi-step word problems in English. The phrase "minimum number of chocolates required" is linguistically dense. Many students will stop after the first division or provide the remainder as the answer. The requirement to "round up" to 320 is a high-level cognitive leap not explicitly taught as a standard algorithm in many remedial settings.
+
+Step 4: Holistic Estimate
+The combination of complex English phrasing, the non-standard "round up to next multiple" logic, and the two-part nature of the question for only 1 mark makes this highly difficult for the target demographic.
+
+0.15

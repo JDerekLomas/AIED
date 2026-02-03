@@ -1,0 +1,18 @@
+Step 1: Specific procedural steps
+1. Decode the prompt and understand the semantic constraint (identifying a synonym for "a light wind").
+2. Scan the provided English passage to locate candidates based on phonetic or semantic familiarity.
+3. Apply morphological constraints to ensure the identified word fits the definition (recognizing "breeze" as a noun, not a verb or adjective).
+4. Extract the exact string "breeze" from the text without introducing spelling errors or using external synonyms not found in the text.
+
+Step 2: Buggy rules/Systematic errors
+1. **Keyword-over-Meaning Bug:** Searching for keywords like "light" or "wind" in the text and selecting the word immediately adjacent to them, regardless of its meaning.
+2. **Contextual Association Bug:** Selecting a word related to the setting of the passage (e.g., "cool," "night," "sea") rather than the specific definition provided.
+3. **L1 Translation Bug:** Mentally translating "light wind" to a Hindi concept (like "hawa"), then looking for any English word they know for "hawa," leading them to write "air" or "wind" instead of scanning for the specific passage word "breeze."
+4. **Copying Error:** Locating the word but misspelling it (e.g., "breze," "braeze") or including surrounding punctuation.
+
+Step 3: Target population considerations
+Grade 8 students from Hindi-medium/economically weaker backgrounds often have a restricted English vocabulary. "Breeze" is a tier-2 vocabulary word. In an open-ended format without a word bank, the student cannot rely on recognition (multiple choice) and must perform a precise search-and-match. Limited English proficiency significantly increases the likelihood of the "L1 Translation Bug" or the "Keyword-over-Meaning Bug."
+
+Step 4: Holistic Estimate
+
+0.35

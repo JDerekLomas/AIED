@@ -1,0 +1,19 @@
+Step 1: Procedural Steps
+1.  **Extract Information:** Identify the given ratio (55 km / 5 liters) and the target variable (12 liters).
+2.  **Unit Rate Calculation (Division):** Divide 55 by 5 to find the distance per 1 liter (mileage).
+3.  **Proportional Scaling (Multiplication):** Multiply the unit rate (11) by the target quantity (12).
+4.  **Linguistic Processing:** Interpret the second question ("Find how much mileage...") as a component of the first or a separate requirement.
+
+Step 2: Systematic Buggy Rules
+1.  **Inverse Operation Bug:** Multiplying the initial pair ($55 \times 5$) instead of dividing, often triggered by "more liters = more distance" intuition without a structured ratio.
+2.  **Partial Completion Bug:** Solving for the 12-liter distance but failing to explicitly state the "mileage" as requested, or vice versa.
+3.  **Additive Strategy Bug:** Thinking $12$ liters is $7$ more than $5$, so the distance must be $55 + 7 = 62$ km (common in transition from additive to multiplicative reasoning).
+4.  **Misalignment Bug:** Inverting the ratio ($5/55$) and attempting to divide $12$ by the resulting decimal.
+
+Step 3: Student Population Analysis
+Grade 7 students in this demographic often struggle with word problems in English. The term "mileage" is frequently used in Indian English but may be confused with "total distance" in a testing context. The rubric is binary (0 or 1), meaning a student who calculates the mileage (11 km/l) but makes a calculation error in the multiplication ($11 \times 12$) receives zero, despite correct conceptual mapping. The open-ended format removes the "cueing" effect of multiple-choice options.
+
+Step 4: Holistic Estimate
+While the arithmetic is simple ($11 \times 12$), the requirement to perform two distinct operations correctly under the rubric's "all or nothing" constraint, combined with potential language barriers regarding the word "mileage," significantly lowers the probability of a "fully correct" response according to the specific rubric provided.
+
+0.38

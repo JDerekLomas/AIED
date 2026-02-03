@@ -1,0 +1,22 @@
+Step 1: Procedural steps:
+1. Translate the linguistic operator "of" into the multiplication operation.
+2. Execute fraction multiplication (numerator $\times$ numerator; denominator $\times$ denominator) for the first pair ($1/2 \times 3/4 = 3/8$).
+3. Execute fraction multiplication for the second pair ($2/5 \times 2/3 = 4/15$).
+4. Find a common denominator to compare $3/8$ and $4/15$ (e.g., $120$).
+5. Convert both fractions to the common denominator ($45/120$ vs. $32/120$).
+6. Compare the resulting numerators and state the final answer.
+
+Step 2: Common buggy rules:
+*   "Of" as Addition: Interpreting "of" as "+" instead of "$\times$".
+*   Cross-Multiplication Confusion: Attempting to cross-multiply instead of multiplying straight across during the calculation phase.
+*   The "Bigger Numbers = Greater Value" Heuristic: Assuming $4/15$ is larger because 15 and 4 (in the expression) seem larger or more complex than 3 and 8.
+*   Comparison Error: Attempting to compare fractions by comparing numerators or denominators in isolation (e.g., "3/8 is smaller because 8 is smaller than 15").
+*   Common Denominator Failure: Error in finding LCM or incorrect equivalent fraction conversion (e.g., $3 \times 15$ incorrectly calculated).
+
+Step 3: Population factors:
+The English term "of" is a significant linguistic barrier for Hindi-medium students (who are used to "ka/ki"). Additionally, in Indian government school contexts, the jump from procedural arithmetic to multi-step comparative logic in Grade 7 is a frequent "drop-off" point. The rubric is "all or nothing" (1 mark for full correctness), which punishes minor computational slips even if the conceptual understanding is present.
+
+Step 4: Holistic Estimate:
+While the operations are standard, the requirement to correctly execute two multiplications, perform a complex comparison, and navigate the linguistic "of" under a 0/1 rubric makes the success rate low.
+
+0.22

@@ -1,0 +1,23 @@
+Step 1: Procedural Steps
+1. Comprehend the phrase "minimum number of chocolates required to distribute... in equal quantity" (Inferring that the current 300 is insufficient and requires rounding up to the next multiple of 80).
+2. Execute division/multiplication: 300 ÷ 80 or 80 × x > 300.
+3. Determine the "ceiling" (4 chocolates per student) and calculate 80 × 4 = 320.
+4. Interpret the second question: "How many chocolates did each class get?" based on the new total.
+5. Division of the total (320) by the number of classes (8) or finding students per class (10) and multiplying by chocolates per student (4).
+
+Step 2: Buggy Rules / Systematic Errors
+- **The "Remainder as Answer" Bug:** Dividing 300 by 80 and providing either the quotient (3) or the remainder (60) as the answer for the first part.
+- **Round Down Bias:** Logic that you can only distribute what you currently have (giving 3 each and ignoring the requirement for a "minimum required" total higher than the current stock).
+- **Instructional Overload Bug:** Answering only the first or second question, as multistep word problems often trigger "stopping rules" once one calculation is done.
+- **Syntactic Misinterpretation:** Mistaking "80 students" and "8 classes" as values to be operated on directly without relating them (e.g., 300 ÷ 8).
+- **Language Barrier Bug:** Misunderstanding "minimum... required" in an English-medium assessment for a Hindi-medium student, leading to "300 - 80" or other non-division operations.
+
+Step 3: Target Population Constraints
+- Grade 8 students in this demographic often struggle with "open-start" problems where the algorithm isn't explicitly named (e.g., "Find the LCM" vs. a scenario requiring a multiple).
+- Proficiency in division remains a significant hurdle in EWS government school contexts (as per ASER reports), especially when the divisor is two digits.
+- The rubric requires a complex inference: identifying that 300 is the starting point but 320 is the target. This "rounding up" logic is cognitively more demanding than standard computation.
+
+Step 4: Holistic Estimate
+The combination of a high language load, a two-step "nested" word problem, the counter-intuitive requirement to find a number *larger* than the one provided (320 vs 300), and the requirement to get both parts correct for a single point makes this a high-difficulty item for this demographic.
+
+0.18

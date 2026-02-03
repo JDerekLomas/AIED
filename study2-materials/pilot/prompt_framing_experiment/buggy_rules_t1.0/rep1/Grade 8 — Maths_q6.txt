@@ -1,0 +1,21 @@
+Step 1: Procedural steps:
+1. Decode the linguistic phrase "thrice his age" and map it to the operation of multiplication ($3 \times 12$).
+2. Execute the multiplication to find the father's current age ($36$).
+3. Determine the father's age after 5 years ($36 + 5 = 41$).
+4. Determine Rahul's age after 5 years ($12 + 5 = 17$).
+5. Calculate the difference between the two future ages ($41 - 17 = 24$).
+*Alternative shortcut:* Recognize that the age difference remains constant ($36 - 12 = 24$).
+
+Step 2: Buggy rules/Systematic errors:
+1. **The "Additive Age" Bug:** Adding 5 years to only one person (usually the father) or failing to advance time for either, leading to $36 - 12 = 24$ (correct by accident) or $41 - 12 = 29$ (incorrect).
+2. **The "Operation Confusion" Bug:** Interpreting "thrice" as "plus three" ($12 + 3 = 15$) or "thirteen."
+3. **The "Difference is 5" Bug:** Assuming the question asks for the time elapsed rather than the age gap.
+4. **The "Literal Summation" Bug:** Adding all numbers mentioned in the text ($12 + 3 + 5 = 20$).
+
+Step 3: Population considerations:
+The linguistic demand of "thrice" and "age difference" in English is high for Hindi-medium students. While the constant nature of age differences is a common "trick" question, Grade 8 students in this demographic often struggle with multi-step word problems, frequently defaulting to "number grabbing" (performing a single operation on the numbers seen).
+
+Step 4: Holistic estimation:
+Despite the complexity, the fact that the "shortcut" method (calculating current difference) and the "long" method yield the same result provides two paths to success. However, the language barrier and the tendency to perform only the first step ($3 \times 12 = 36$) and stop there significantly lower the success rate.
+
+0.35

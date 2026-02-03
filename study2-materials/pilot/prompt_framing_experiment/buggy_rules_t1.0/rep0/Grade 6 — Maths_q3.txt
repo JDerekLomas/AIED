@@ -1,0 +1,19 @@
+Step 1: Procedural Steps
+1. Count the number of digits in each numeral to identify the magnitude (recognizing 736 as 3-digit and others as 4-digit).
+2. Compare the leftmost digit (thousands place) of the remaining 4-digit numbers.
+3. Order the 4-digit numbers based on the value of the thousands digit (3 < 4 < 5).
+4. Sequence the numbers from smallest to largest using a comma-separated list or inequality signs.
+
+Step 2: Buggy Rules / Systematic Errors
+1. **The "Length is Value" Negation:** A student may treat all numbers as having equal length if they scan quickly, treating "736" as "7360" or simply comparing the first digit (7) against the others (3, 5, 4), incorrectly placing 736 as the largest.
+2. **Left-to-Right Blindness:** Comparing digits from right-to-left (units place) instead of left-to-right.
+3. **Internal Sorting Bug:** Correctly identifying the smallest and largest but swapping the middle two (e.g., 736, 3367, 5492, 4799).
+4. **Vocabulary/Translation Error:** Confusing "ascending" (growing) with "descending" (falling), a common issue for ESL/Hindi-medium students (Aarohi vs Avrohi kram).
+
+Step 3: Population Considerations
+In Grade 6, while multi-digit comparison is a primary school skill, the English term "ascending" often acts as a linguistic barrier for students from Hindi-medium backgrounds. The open-ended format prevents guessing. However, the numbers provided have distinct lead digits (3, 4, 5, 7), which reduces the cognitive load compared to numbers with identical lead digits (e.g., 3367 vs 3376).
+
+Step 4: Holistic Estimate
+While the numerical comparison is relatively simple, the linguistic hurdle of the term "ascending" combined with the common "bug" of misclassifying the 3-digit number based on its leading "7" significantly impacts the success rate in this specific demographic.
+
+0.65

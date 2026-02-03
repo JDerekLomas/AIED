@@ -1,0 +1,20 @@
+Step 1: Specific Procedural Steps
+1. Recall the definition of a "5-digit palindrome" (a number that reads the same forwards and backwards).
+2. Identify the smallest 5-digit number that fits the criteria (10,001).
+3. Identify the largest 5-digit number that fits the criteria (99,999).
+4. Perform the operation of addition (sum) correctly using place value carrying (10,001 + 99,999).
+5. Perform the operation of subtraction (difference) correctly (99,999 - 10,001).
+
+Step 2: Identified Buggy Rules
+- Semantic confusion: Students may confuse "palindrome" with "prime," "composite," or "odd/even" due to linguistic barriers.
+- Positional Bugs: In the sum (10,001 + 99,999), a common "0-carry" bug occurs where students forget to carry over across the zeroes, or incorrectly handle the 9+1=10 at both ends (e.g., writing 100,000 instead of 110,000).
+- Largest/Smallest identification: Identifying 11,111 or 10,001 as the smallest; many students miss 10,001 and select 11,111.
+- Instructions skipped: Students may provide only the sum and forget the second half of the prompt ("Write their difference also").
+
+Step 3: Student Population Analysis
+The term "palindrome" is a high-threshold vocabulary word. In a Grade 6 Indian government school context (Hindi medium background), if the word has not been explicitly translated or frequently drilled (and it is often not a central part of the standard curriculum), many students will leave it blank. Furthermore, the question requires two distinct operations for a single mark, which is a high cognitive load for "partial credit" logic which is not present in this 0/1 rubric.
+
+Step 4: Holistic Assessment
+The combination of specific vocabulary knowledge (palindrome), dual-operation execution, and potential carrying/regrouping errors makes this a very high-difficulty item for this demographic.
+
+0.15

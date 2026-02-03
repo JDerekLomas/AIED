@@ -1,0 +1,19 @@
+Step 1: Specific procedural steps
+1. Decode the target phrase "shining brightly" (understanding the semantic components of luminosity and intensity).
+2. Scan the English text systematically to locate candidates for a synonym.
+3. Apply a matching rule: comparing the candidate word against the semantic components of the prompt.
+4. Verify constraint satisfaction: ensuring the word exists within the text (passage constraint).
+5. Transcribe the word accurately from the text to the answer sheet.
+
+Step 2: Identified "buggy rules" (Systematic procedural errors)
+1. **The Translation Gap (L1 Interference):** Attempting to translate "shining brightly" into a Hindi concept (e.g., चमकना) and then looking for a phonetic match rather than a semantic English match.
+2. **Contextual Association Bug:** Selecting a word from the passage that is *thematic* but not synonymous (e.g., "Sun," "Light," or "Star" because they *are* things that shine, rather than the word for the act of shining).
+3. **Keyword Proximity Bug:** Selecting the word immediately preceding or following a familiar word in the passage, regardless of meaning.
+4. **The "Passage Constraint" Failure:** Providing a general synonym known from prior knowledge (e.g., "bright," "sparkle") that is not actually present in the provided text.
+5. **Morphological Mismatch:** Identifying "glow" but failing to recognize "glowing" as the same unit of meaning, or vice versa.
+
+Step 3: Student population considerations
+Grade 6 students from low-resource backgrounds often face a "vocabulary floor" issue. Because this is an open-ended retrieval task (supply) rather than a multiple-choice task (select), the cognitive load is significantly higher. Students often struggle with the meta-linguistic task of finding synonyms when their primary focus is still on basic decoding of the L2 text. Limited English proficiency suggests a high reliance on literal translation and a high rate of skipping "difficult" vocabulary-seeking questions.
+
+Step 4: Holistic Estimate
+0.35

@@ -1,0 +1,17 @@
+**Cognitive Difficulty Profile**
+
+*   **Concept Familiarity:** **Familiar.** Mixed fraction multiplication is a core component of the Grade 7 NCERT curriculum. However, for students in resource-constrained environments, while the algorithm is taught, the conceptual transition from addition to multiplication of fractions often remains shaky.
+*   **Computational Complexity:** **4+ steps.** This is high for a 1-mark item: 
+    1. Convert $1 \frac{1}{2}$ to $\frac{3}{2}$.
+    2. Convert $3 \frac{1}{4}$ to $\frac{13}{4}$.
+    3. Multiply numerators ($3 \times 13 = 39$).
+    4. Multiply denominators ($2 \times 4 = 8$).
+    5. Convert the improper fraction $\frac{39}{8}$ back into the mixed fraction $4 \frac{7}{8}$.
+*   **Common Error Traps:** **Major.** Students from these backgrounds frequently fall into the "whole-by-whole, fraction-by-fraction" trap (i.e., $1 \times 3$ and $1/2 \times 1/4 = 3 \frac{1}{8}$). Additionally, procedural "bugs" in the division required for the final conversion are common.
+*   **Format Demand:** **High.** As an open-ended question with a binary rubric (Max score 1, no partial credit mentioned for the final answer), there is no "recognition" advantage as found in multiple-choice questions. The requirement to express the answer specifically as a mixed fraction adds a terminal hurdle.
+*   **Number Friendliness:** **Moderate.** While the initial numbers are small, the resulting numerator (39) requires a comfortable grasp of the 13-times table or multi-digit multiplication, and the final conversion involves a remainder calculation that is a frequent site of arithmetic slips.
+
+**Holistic Estimate:**
+The multi-step nature of the procedure significantly increases the "Probability of Error" (Pe) at each stage. For students with limited English proficiency, the instruction "express as a mixed fraction" may be ignored if they rely purely on the visual cue of the "$\times$" sign, leading to an incomplete (improper fraction) answer which fails the rubric.
+
+0.35

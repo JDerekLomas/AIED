@@ -1,0 +1,18 @@
+Step 1: Procedural steps:
+1. Decode the English sentence to identify the constraints (Region: Rajasthan, Setting: Rural, Quantity: at least two for the first part).
+2. Retrieve specific geographic and economic facts from long-term memory related to Rajasthan.
+3. Select two distinct occupations that fit both the "rural" and "Rajasthan" categories (filtering out urban industries).
+4. Translate these concepts from Hindi (e.g., *kheti*, *pashu-palan*) to English or recognize their English equivalents.
+5. Execute the second part of the prompt: Select one occupation and synthesize a brief description in English.
+6. Manage the "Question vs. Rubric" mismatch (The question asks "What are...", but the rubric implies a list plus a description for 1 mark, which is a high cognitive load for low point value).
+
+Step 2: Buggy Rules/Systematic Errors:
+1. **The "Single-Item Stop" Bug**: Students provide one answer (Agriculture) and skip the rest of the prompt because they associate one blank/mark with one word.
+2. **Context-Swapping Bug**: Providing general rural occupations (e.g., fishing) that do not apply to the specific geography of Rajasthan.
+3. **Language Interference Bug**: Using Hindi terms (e.g., *Kheti*) when the exam is in English, or failing to write the description due to limited English syntax.
+4. **Description Omission Bug**: Answering the "What" but forgetting the "Describe" because the first task is more cognitively accessible.
+
+Step 3: Population considerations:
+In Grade 7, rural students from EWS backgrounds often have "low-floor" knowledge of agriculture but struggle with "high-ceiling" English descriptive tasks. In an open-ended format without options (no recognition cues), the requirement to name two *and* describe one for just 1 point is a high barrier. Many will fail to complete the second half of the instruction.
+
+0.35

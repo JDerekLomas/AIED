@@ -1,0 +1,19 @@
+Step 1: Procedural Steps
+1. Decode the English terminology ("Wheat," "Rabi," "Kharif," "Season").
+2. Retrieve the semantic link between the crop name and its agricultural cycle from long-term memory.
+3. Categorize the crop into the binary classification system (Rabi vs. Kharif).
+4. Associate the classification with the specific climatic season (Winter for Rabi).
+5. Output the classification and season in the requested written format.
+
+Step 2: Buggy Rules / Systematic Errors
+1. **The Language Barrier Bug:** Translating "Wheat" to "Gehu" but failing to map the scientific English labels (Rabi/Kharif) back to the vernacular understanding.
+2. **The "Main Crop" Overgeneralization:** Assuming all major staples (Rice and Wheat) belong to the same category because they are both "primary" foods.
+3. **The Sowing vs. Harvesting Confusion:** Confusing the season of harvest with the season of growth (e.g., thinking Wheat is a "Summer" crop because it is harvested when it is hot).
+4. **The Label Swap:** Correctly identifying the season (Winter) but swapping the arbitrary labels Rabi and Kharif.
+5. **The Partial Retrieval Bug:** Providing the classification but omitting the season (or vice versa), failing the rubric's requirement for a "fully correct" response.
+
+Step 3: Population Considerations
+Eighth-grade students in this demographic often have high exposure to agriculture but low academic fluency in English. While they possess "funds of knowledge" regarding crops, the formal academic requirement to map these to specific English terms in an open-ended format (no multiple choice) increases cognitive load. The 0.5-point weighting suggests a low-stakes item where students might rush or provide incomplete answers.
+
+Step 4: Holistic Estimate
+0.40

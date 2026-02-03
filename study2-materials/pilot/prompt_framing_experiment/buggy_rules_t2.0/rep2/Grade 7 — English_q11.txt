@@ -1,0 +1,22 @@
+Step 1: Specific procedural steps
+1. Decode the sentence "A tiny bird built its nest in our balcony" (requires English vocabulary and syntax recognition).
+2. Retrieve the linguistic definition of an "adjective phrase" (a group of words acting as an adjective) versus a single "adjective."
+3. Parse the sentence to identify noun phrases ("A tiny bird", "its nest", "our balcony").
+4. Isolate descriptors within those phrases.
+5. Differentiate between a single modifier ("tiny") and a prepositional phrase acting adjectivally (none present here, though "in our balcony" is an adverbial/prepositional phrase).
+6. Match the identified segment to the rubric’s requirement (note: the rubric incorrectly labels the single word "tiny" as the target, despite the question asking for a "phrase").
+
+Step 2: Systematic buggy rules
+1. "Single-Word Bug": Students define "phrase" and "word" synonymously, leading them to pick the first descriptive word they see.
+2. "First-Noun-Modifier Bug": Assuming the adjective always precedes the first noun (often works for simple sentences, fails for complex ones).
+3. "Position-Based Selection": Selecting any word that isn't a noun or verb based on its position in the sentence.
+4. "Label Confusion": If the student actually knows what a phrase is, they will fail because the correct answer to the question (an actual phrase) isn't "tiny," but the rubric expects "tiny."
+5. "The Rubric Mismatch": Stronger students may search for a phrase (e.g., "very tiny" or "in our balcony") and be confused when they only see a single adjective, while weaker students will simply look for a "describing word."
+
+Step 3: Student population considerations
+1. For Hindi-medium students, the distinction between *visheshan* (adjective) and *visheshan padbandh* (adjective phrase) is a high-order grammatical concept often not mastered in the L2 (English) by Grade 7.
+2. "Tiny" is a low-frequency word compared to "small" or "little" for ESL learners from economically weaker sections.
+3. The conflict between the question (Phrase) and the rubric (Word) creates a trap for the most proficient students, while the vocabulary barrier creates a trap for the least proficient.
+
+Step 4: Holistic Estimate
+0.35

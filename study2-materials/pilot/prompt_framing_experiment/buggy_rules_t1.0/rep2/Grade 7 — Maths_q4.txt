@@ -1,0 +1,21 @@
+Step 1: Procedural Steps
+1. Recognize the divisor is a decimal and identify the need to shift the decimal point (multiply by 10).
+2. Apply the same transformation to the dividend (changing 8 to 80) to maintain equality.
+3. Set up the long division of 80 by 72.
+4. Correct accurately: $72 \times 1 = 72$, subtract to get 8, and recognize the need for a decimal in the quotient to continue.
+5. Identify the recurring nature of the division ($80 \div 72$ repeatedly) or correctly round/represent the fraction.
+
+Step 2: Buggy Rules
+- **Dividend/Divisor Swap:** Dividing the larger number by the smaller one regardless of position ($7.2 \div 8$).
+- **Decimal Ignoring:** Simply dividing 72 by 8 to get 9, ignoring the decimal point's place value entirely.
+- **Misalignment of Place Value:** Adding a zero to the divisor instead of the dividend ($8 \div 72$).
+- **Subtraction Error:** Mistakenly calculating $80 - 72 = 12$ or other basic arithmetic slips under pressure.
+- **Terminating the Infinite:** Stopping at 1 or 1.1 without recognizing the repeating pattern or the decimal requirement.
+
+Step 3: Student Population Analysis
+Grade 7 students in this context often face "language-switching" overhead when interpreting numerical prompts in English. While they may have the algorithmic intuition for division, the specific case of a whole number divided by a larger decimal ($8 < 7.2 \times 2$ but $8 > 7.2$) creates cognitive dissonance. The open-ended format prevents "back-solving" from options. In many Indian government schools, the rote mastery of the "shift decimal" rule is often fragile when the dividend is a whole number.
+
+Step 4: Holistic Estimate
+The combination of a non-terminating result ($1.11...$), the necessity of converting a whole number to a decimal ($8.0$), and the high likelihood of the "smaller-into-larger" bug suggests a high error rate.
+
+0.25

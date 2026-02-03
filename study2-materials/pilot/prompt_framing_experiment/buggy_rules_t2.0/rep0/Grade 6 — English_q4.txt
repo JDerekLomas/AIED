@@ -1,0 +1,22 @@
+Step 1: Specific procedural steps
+1. Decode the semantic meaning of the phrase "shining brightly."
+2. Scan the provided text passage to locate candidates for synonyms.
+3. Apply a matching rule: Evaluate each candidate word against the target phrase for semantic equivalence.
+4. Apply a constraint rule: Verify the selected word is actually present in the text (vs. a synonym from general knowledge).
+5. Morphological mapping: Ensure the word form matches (e.g., recognizing "glowing" as the synonym even if they look for "glow").
+6. Transcribe the word accurately onto the answer sheet.
+
+Step 2: Buggy rules
+1. Semantic Over-generalization: Choosing any word associated with light (e.g., "sun," "star," "day") rather than a precise synonym.
+2. The "Knowledge Retrieval" Bug: Providing a synonym from their own vocabulary (e.g., "bright," "sparkle") that is not in the text.
+3. Contextual Proximity Bug: Selecting a word that appears near the words "shining" or "brightly" in the text, regardless of its meaning.
+4. Part-of-Speech Mismatch: Selecting a noun when an adjective/participle is required.
+5. Hindi-English Interference: Translating "shining brightly" into a Hindi concept (e.g., chamakna) and then picking an English word that sounds like a related Hindi word.
+
+Step 3: Population-specific considerations
+The "open-ended" nature of the task (finding the word) is significantly harder than a multiple-choice format. For students from low-SES backgrounds with limited English exposure, "shining" and "brightly" are often recognized as high-frequency words, but "glowing" is a mid-tier vocabulary word that may not be in their active or passive lexicon. The requirement to extract from a passage adds a heavy load on reading comprehension and scanning speed.
+
+Step 4: Holistic Estimate
+While the concept of light is universal, the procedural bridge between "shining" and "glowing" in a second language, coupled with the "from the passage" constraint, presents significant failure points for Grade 6 learners in this demographic.
+
+0.35

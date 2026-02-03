@@ -1,0 +1,22 @@
+To analyze the cognitive demands of this item:
+
+**Step 1: Procedural Steps**
+1. **Language/Logic Decoding:** Parsing the "reverse" nature of the question (it asks for a quantity of target units based on a sum of smaller units).
+2. **Currency Unit Conversion:** Recognizing that 100 paise = 1 Rupee.
+3. **Sub-total Multiplication:** Calculating 10 × 10p, 5 × 20p, and 16 × 50p.
+4. **Summation:** Adding 100p + 100p + 800p = 1000p (or calculating in Rupees: ₹1 + ₹1 + ₹8 = ₹10).
+5. **Division/Final Allocation:** Dividing the total amount (₹10) by the value of the target coin (₹5) to find the final count (2 coins).
+
+**Step 2: Buggy Rules & Systematic Errors**
+*   **Decimal Placement Bug:** Students often treat paise as whole numbers but fail to convert them back to Rupees at the end (concluding they have "1000" Rupees).
+*   **Scalar Attribute Bug:** Summing the *quantity* of coins (10+5+16=31) or the *denominations* (10+20+50=80) rather than their product values.
+*   **The "Same Unit" Assumption:** Treating the "5" in "Rupee 5" as another "5 paise" or "50 paise" due to rapid pattern matching.
+*   **English Language Interference:** Misinterpreting "made from" in a mathematical context, a common issue for Hindi-medium learners where the prepositional logic in word problems differs from native syntax.
+
+**Step 3: Student Population Analysis**
+For Grade 7 students in this demographic, the jump from "recognition" (multiple choice) to "recall" (open-ended) is significant. While decimal multiplication is in the curriculum, currency conversion is often taught as a rote skill and falls apart in multi-step word problems. The high number of steps (multiplication, addition, and final division) creates a high probability of a "stray carry" or a conversion error.
+
+**Step 4: Holistic Assessment**
+This is a high-demand item because it requires maintaining a "running total" while performing a final division step that is often overlooked. Most students will successfully reach the sum of 1000p/₹10, but a significant portion will stop there or provide "31" (the total number of input coins) as the answer.
+
+0.35

@@ -1,0 +1,21 @@
+Step 1: Procedural steps:
+1. Lexical Retrieval: Recall the specific definition of "weeds" (unwanted/undesirable plants).
+2. Contextual Association: Identify the ecological relationship (growing with/competing with the main crop).
+3. Functional Reasoning: Identify the causal link between weed presence and crop yield (competition for nutrients/water/light).
+4. Linguistic Encoding (English): Translate the conceptual understanding into a coherent English sentence structure.
+5. Integration: Combine the definition and the "why" into a single response that satisfies both parts of the prompt.
+
+Step 2: Buggy rules:
+1. "Incomplete Attribute" bug: Defining weeds simply as "small plants" or "grass" rather than "unwanted plants."
+2. "Category Error" bug: Confusing "weeds" with "pests" or "insects."
+3. "The Tautology" bug: Answering "Why is weeding important?" with "To remove weeds," failing to explain the agricultural necessity (competition).
+4. "Linguistic Substitution" bug: Using Hindi terms (like *kharpatwar*) because the English term or its definition is not retrieved, leading to a zero score under strict English-medium rubrics.
+5. "One-Part Focus" bug: Answering only the definition and neglecting the "why" component (or vice versa).
+
+Step 3: Population considerations:
+Grade 8 students from EWS/Hindi-medium backgrounds often face a "double burden." While they may understand the agricultural concept (often better than urban peers due to proximity to rural roots), expressing it in English is a significant barrier. The open-ended nature requires high-stakes recall rather than recognition. The rubric requires two distinct components for a single mark, meaning an error in either part results in a zero.
+
+Step 4: Estimation:
+Given the multi-part requirement, the linguistic barrier, and common conceptual conflation between weeds and pests:
+
+0.35

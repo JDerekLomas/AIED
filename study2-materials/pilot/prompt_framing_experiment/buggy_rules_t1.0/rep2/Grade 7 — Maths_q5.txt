@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1. Parse the English phrasing to identify quantity vs. denomination (e.g., "10 coins of 10 paise").
+2. Perform three separate multi-digit multiplications or repeated additions for each denomination ($10 \times 10$, $5 \times 20$, $16 \times 50$).
+3. Sum the products to find the total value in paise ($100 + 100 + 800 = 1000$ paise).
+4. Convert the total paise into Rupees (divide by $100$).
+5. Divide the total Rupees by the target denomination (divide by $5$) to find the number of coins.
+
+Step 2: Buggy Rules / Systematic Errors
+- **The "Unit Confusion" Bug:** Treating "paise" and "Rupees" as equivalent (e.g., $10 + 5 + 16 = 31$ coins, or $100 + 100 + 800 = 1000$ coins).
+- **The "Label Swap" Bug:** Multiplying the wrong numbers (e.g., $5$ coins $\times$ $5$ Rupees) due to linguistic interference in a second language.
+- **The "Decimal Alignment" Bug:** If converting to decimals early ($0.10, 0.20, 0.50$), misaligning decimal points during addition.
+- **The "Goal State" Bug:** Stopping after calculating the total sum (₹10) and failing to perform the final division by $5$.
+
+Step 3: Population Considerations
+- **Language Barrier:** "How many... can be made from..." is a complex English construction for ESL students; many may default to simply summing all numbers present in the prompt.
+- **Multi-step cognitive load:** This is a non-routine, multi-step word problem. Grade 7 students in this demographic often struggle with "translation" from text to operation.
+- **Rubric/Value:** A maximum score of 0.5 for a 5-step problem suggests low incentivization for showing complete work, increasing the likelihood of mental math slips.
+
+Step 4: Holistic Estimate
+Given the high number of conversion steps, the linguistic complexity for Hindi-medium learners, and the specific "distractor" of the final division by 5, the success rate is likely low.
+
+0.18

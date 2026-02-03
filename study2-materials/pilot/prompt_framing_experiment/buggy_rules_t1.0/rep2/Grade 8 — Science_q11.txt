@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1. Decode the semantic meaning of the question in English (a language of instruction often different from the home language).
+2. Scan the provided table to identify the "Expansion" column.
+3. Perform a numerical comparison across the rows to find the maximum value.
+4. Map that value back to the corresponding "Material" name in the first column.
+5. Ignore the irrelevant distractors (parts b and c) which are not part of the scoring rubric but may cause cognitive load or confusion.
+6. Write the specific name "Aluminium" correctly.
+
+Step 2: Buggy Rules
+- "First-Row Bias": Selecting the first material in the table regardless of the value.
+- "Last-Row Bias": Assuming the final entry is the "answer" or total.
+- "Column Misalignment": Reading the value from one column (e.g., density or melting point if present) but attributing it to expansion.
+- "Language Interference": Misinterpreting "most" as "least" or "best" due to limited English vocabulary.
+- "Contextual Over-incorporation": Attempting to answer (b) or (c) within the space for (a) because they seem more "scientific" than simple table reading.
+
+Step 3: Population Considerations
+For Grade 8 students from low-SES, Hindi-medium backgrounds, the primary barriers are English literacy and "test-wiseness." While the mathematical task (comparing 3-4 numbers) is Grade 3 level, the linguistic packaging in an English-medium science assessment often acts as a gatekeeper. Furthermore, the presence of three sub-questions (a, b, and c) with a rubric that only awards 1 mark for (a) suggests a high risk of "fragmented completion," where a student might answer (b) correctly (a common rote-learned fact in Indian schools) but fail to extract the specific data for (a).
+
+Step 4: Holistic Estimate
+While the data extraction is simple, the linguistic barrier and the misalignment between the multi-part question and the binary rubric will likely lead to many students providing incomplete or misdirected responses.
+
+0.55

@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1. Decode the English text to understand the prompt and the headers in the (implied) table.
+2. Scan the numerical data in the table to identify the maximum value (growth in cm/mm).
+3. Map the row/column of the maximum value back to the corresponding "Condition" label.
+4. Synthesize the scientific reasoning for plant growth (Photosynthesis) to answer (b).
+5. Recall the specific technical term "Photosynthesis" for (c).
+6. Encode the answers in English or functional Hinglish.
+
+Step 2: Buggy Rules/Systematic Errors
+- "Data Isolation Bug": Looking only at the first or last day's measurement rather than the total growth or the trend.
+- "Keyword Matching Bug": Searching for familiar words like "Water" or "Soil" instead of analyzing the "Sunlight" variable provided in the table.
+- "Language Threshold Bug": Misinterpreting "favourable" as "fast" or "big," or failing to understand "hindered."
+- "The 'Sun' Association Bug": Answering "Sunlight" based on general knowledge (prior schema) rather than extracting it from the data table (procedural mapping error).
+- "Spelling/Recall Block": Knowing the process involves light but failing to retrieve the specific term "Photosynthesis" under testing pressure.
+
+Step 3: Population Considerations
+Grade 6 students in this demographic are often transitioning from rote memorization to application. While (a) is a low-level retrieval task, (b) and (c) require English sentence construction and specific vocabulary recall. For students from Hindi-medium backgrounds, the "linguistic distance" between their conceptual understanding and the required English output is high. In many EWS schools, while students might identify "Sun" for (a), the requirement for the technical term in (c) acts as a significant barrier.
+
+Step 4: Holistic Estimate
+While part (a) might have high success, the rubric implies a "fully correct answer" (likely encompassing all parts or requiring the precise term in c). Given the open-ended nature and English proficiency barriers:
+
+0.35

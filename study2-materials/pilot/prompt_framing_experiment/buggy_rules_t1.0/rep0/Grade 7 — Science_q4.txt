@@ -1,0 +1,20 @@
+Step 1: Specific procedural steps
+1.  **Linguistic Decoding**: Translate the English sentence structure "Explain this preference by stating two scientific reasons" into the core task of identifying causality (Why light colors? Why cotton?).
+2.  **Concept Retrieval (Heat/Light)**: Access the mental model of radiation and absorption (Light colors reflect/don't absorb heat).
+3.  **Concept Retrieval (Moisture/Phase Change)**: Access the mental model of evaporative cooling (Cotton absorbs sweat and facilitates evaporation).
+4.  **Constraint Satisfaction**: Filter the response to ensure *two* distinct reasons are provided as requested.
+5.  **Technical Encoding**: Formulate the scientific explanation in English, transitioning from intuitive "feel" to formal "properties."
+
+Step 2: Buggy rules/Systematic errors
+1.  **Attribute Confusion (The "White=Cool" Heuristic)**: Students may state "white is cold" (intrinsic property) rather than "white reflects heat" (interactional property), failing the "scientific reason" requirement.
+2.  **The "One-Reason" Bug**: In open-ended prompts, students often stop after the first successful retrieval (availability heuristic), neglecting the "two reasons" constraint.
+3.  **Linguistic "Gaps"**: Students may know the concept but lack the English vocabulary (e.g., "absorb," "reflect," "evaporation"), leading to vague or tautological answers ("Because it is comfortable").
+4.  **Property Misattribution**: Attributing the "cooling" to the lightness of the weight of the fabric rather than the color or the absorption of sweat.
+
+Step 3: Population considerations
+Grade 7 students from Hindi-medium backgrounds in EWS contexts often face a "threshold effect" where their conceptual understanding (often robust in their mother tongue) is masked by English language anxiety. The rubric is generous ("bounce off" is accepted), but the requirement for *two* reasons and the "properties of fabric" framing increases cognitive load significantly compared to a multiple-choice item.
+
+Step 4: Holistic Estimate
+While the concept is intuitive, the combination of a dual-reason requirement, English-language production, and the transition from 6th to 7th-grade scientific rigor suggests a high error rate.
+
+0.35

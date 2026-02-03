@@ -1,0 +1,22 @@
+Step 1: Procedural Steps
+1. Decode the English text to identify the specific geographic constraint (Rajasthan) and the subject (rural occupations).
+2. Retrieve relevant geographical/sociological facts from long-term memory (Agriculture, Animal Husbandry).
+3. Select two distinct items to satisfy the "main occupations" plural requirement.
+4. Select one of the retrieved items and retrieve descriptive details (e.g., crops grown or animals reared).
+5. Encode the response back into English, maintaining semantic clarity.
+6. Map the multi-part instruction ("Name" + "Describe any one") to the final written output.
+
+Step 2: Buggy Rules
+1. "The Overgeneralization Bug": Assuming all rural India is identical; mentioning "fishing" or "jute cultivation" (common in textbooks but incorrect for Rajasthan).
+2. "The Keyword Matching Bug": Seeing "Rajasthan" and "Rural" and writing about "water scarcity" or "camel rides" (associating symbols rather than answering the "occupation" prompt).
+3. "The Single-Task Bug": Naming the occupations but forgetting the "describe any one" component (common in multi-part questions).
+4. "The Language Interference Bug": Thinking of the correct Hindi term (Pashu Palan) but failing to retrieve or spell the English equivalent (Animal Husbandry), leading to an empty or partial response.
+5. "The Rubric Mismatch": Providing only one occupation when the rubric requires two for the full mark.
+
+Step 3: Population Considerations
+7th-grade students from economically weaker backgrounds often face a "scissor effect": they possess high practical knowledge of rural life (funds of knowledge) but low academic English proficiency to express it. The open-ended nature of the question (recall vs. recognition) significantly increases the cognitive load compared to a multiple-choice question.
+
+Step 4: Holistic Estimate
+While the content is culturally relevant, the combination of a two-part instruction (List + Describe) and the English-medium requirement for Hindi-medium learners typically leads to high rates of "partial" answers that do not meet the full rubric criteria.
+
+0.35

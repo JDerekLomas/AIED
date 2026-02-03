@@ -1,0 +1,25 @@
+To analyze this item through the lens of systematic procedural errors (bugs):
+
+**Step 1: Procedural Steps**
+1. Identify the Object ("a delicious meal") and promote it to Subject.
+2. Identify the Tense (Simple Past).
+3. Recall and select the correct auxiliary "to be" based on the new subject’s number/tense (*was*).
+4. Transform the main verb to its Past Participle form (*prepared*).
+5. Insert the agent marker (*by*).
+6. Demote the original Subject to the Object position (*the chef*).
+
+**Step 2: Buggy Rules (Systematic Errors)**
+*   **Tense-Shift Bug:** Instead of using the passive auxiliary, students shift the tense as if performing Reported Speech (e.g., *had prepared*).
+*   **The "is/are" Default:** Using the present tense "is" for all passive constructions regardless of the original tense (*A delicious meal is prepared*).
+*   **Perfective Overgeneralization:** Since part B of the prompt uses "has found," students may "leak" the perfective aspect into part A (*A delicious meal has been prepared*).
+*   **Agreement Mismatch:** Using "were" for singular objects or "was" for plural.
+*   **Omission of 'by':** Treating the transformation as a word-order shift only.
+*   **L1 Interference (Hindi-to-English):** Hindi speakers may mirror the *Karma-vachya* structure incorrectly or drop the "to be" auxiliary entirely, as auxiliary verbs function differently in Hindi passive syntax.
+
+**Step 3: Student Population Analysis**
+The open-ended format is significantly more difficult than multiple-choice for this population. Students with limited English proficiency often rely on rote-learned "template" matching. Grade 8 students in EWS/Hindi-medium contexts often struggle with the distinction between the "Active-to-Passive" rules and "Direct-to-Indirect" rules, leading to high "procedural interference." Even if they understand the concept, a single error in spelling or auxiliary selection results in 0 marks based on the rubric.
+
+**Step 4: Holistic Estimate**
+Given that this is an open-ended recall task requiring five successful sub-procedures, and considering the frequent "crossover" bugs between tenses and grammar topics common in government school contexts:
+
+0.22

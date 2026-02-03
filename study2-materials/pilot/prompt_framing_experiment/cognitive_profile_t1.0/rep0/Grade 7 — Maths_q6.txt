@@ -1,0 +1,15 @@
+**Cognitive Difficulty Profile**
+
+*   **Concept Familiarity:** **Familiar.** Conversion of mixed fractions to improper fractions and their multiplication is a core component of the Grade 6 and 7 NCERT curriculum. However, for students from Hindi-medium backgrounds, the English phrasing "express the answer as a mixed fraction" may require a moment of translation to "संयुक्त भिन्न" (Sanyukt Bhinn).
+*   **Computational Complexity:** **4+ steps.** 1) Convert $1 \frac{1}{2}$ to $3/2$; 2) Convert $3 \frac{1}{4}$ to $13/4$; 3) Multiply numerators ($3 \times 13$) and denominators ($2 \times 4$); 4) Perform long division to convert $39/8$ back into a mixed fraction ($4 \frac{7}{8}$).
+*   **Common Error Traps:** **Major.** This item is highly prone to procedural bugs: 
+    1.  *Additive Error:* Students may multiply the whole numbers ($1 \times 3$) and the fractions ($1/2 \times 1/4$) separately, resulting in $3 \frac{1}{8}$.
+    2.  *Conversion Error:* Incorrectly converting mixed to improper (e.g., $1 \frac{1}{2} = 2/2$).
+    3.  *Incomplete Answer:* Leaving the answer as an improper fraction ($39/8$) despite the prompt.
+*   **Format Demand:** **Open-ended.** The binary rubric (Max 1, no partial credit) increases difficulty. In a resource-constrained environment where "show your work" is emphasized but often inconsistent, the lack of partial credit for correct intermediate steps (improper fractions) penalizes students with minor division errors at the final step.
+*   **Number Friendliness:** **Moderate.** While the initial numbers are small, the product 39 and the subsequent division by 8 require solid multiplication table fluency, which can be a bottleneck for students with learning gaps.
+
+**Estimated Success Rate:**
+Given the multi-step nature of the task and the high probability of the "Additive Error" (multiplying whole numbers separately), which is a persistent misconception in Indian classrooms, many students will fail to reach the final mixed fraction accurately.
+
+0.38

@@ -1,0 +1,25 @@
+Step 1: Procedural steps:
+1. Recall the definition of a "factor" (divisibility vs. multiple).
+2. Systematic search for pairs: Start with $1 \times 68$.
+3. Check divisibility of 68 by 2 (even number logic) $\rightarrow$ $2 \times 34$.
+4. Check divisibility by 3 (sum of digits $6+8=14$) and skip.
+5. Check divisibility by 4 (long division or halving 34) $\rightarrow$ $4 \times 17$.
+6. Check subsequent integers (5 through 8) to ensure the search is exhaustive.
+7. Compile the final list without omitting any pairs found.
+
+Step 2: Common "buggy rules":
+1. **Factor-Multiple Confusion**: Listing multiples ($68, 136, \dots$) instead of factors.
+2. **Incomplete Search**: Listing only the obvious factors ($1, 2, 68$) and stopping.
+3. **Division Errors**: Incorrectly calculating $68 \div 4$ or assuming $68 \div 3$ works because 6 and 8 are even/composite.
+4. **Prime Number Oversight**: Missing the $4 \times 17$ pair because 17 is a less familiar prime number not found in basic $10 \times 10$ multiplication tables.
+5. **Parity Bias**: Assuming only even numbers can be factors of an even number.
+
+Step 3: Student population considerations:
+1. **Language Barrier**: The word "factor" (गुणनखंड) may be misunderstood if the student is transitioning from Hindi to English medium.
+2. **Format**: As an open-ended recall task, there are no cues to suggest how many factors to look for.
+3. **Socio-economic factors**: Limited access to remedial practice or math manipulatives often leads to reliance on rote multiplication table recall, which usually ends at $10 \times 10$ or $12 \times 12$. 17 is outside this range.
+
+Step 4: Holistic Estimate:
+While many students will find 1, 2, 34, and 68, the factor pair 4 and 17 is a significant bottleneck for Grade 6 students. Given the "all or nothing" rubric (1 mark for all correct), the omission of 17 and 4 is likely to be the primary cause of failure.
+
+0.35

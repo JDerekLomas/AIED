@@ -1,0 +1,20 @@
+Step 1: Specific procedural steps
+1. **Linguistic Decoding**: Translate the question (interrogative "Where" and the action "find") into their primary language (Hindi) to establish the goal of the search.
+2. **Key Term Retrieval**: Scan the remembered or provided text for the lexical markers "old book" and the past tense action of finding.
+3. **Spatial Discrimination**: Differentiate between the multiple locations mentioned in the narrative (school, room, attic) to isolate the correct prepositional phrase.
+4. **Information Mapping**: Align the target information ("attic") with the question's spatial requirement.
+5. **Output Generation**: Transcribe the answer in English, ensuring the noun is correct despite spelling or syntax hurdles.
+
+Step 2: Buggy rules
+1. **Literal Association Bug**: Associating "book" with the most common physical location (e.g., "in school" or "on the table") based on real-world schema rather than the specific text.
+2. **Wh-Confusion Bug**: Misinterpreting "Where" as "When" or "What," leading to an answer like "a hundred years ago" or "it was yellow."
+3. **Keyword-Only Copying Bug**: Finding the word "book" in the text and copying the entire sentence preceding or following it, regardless of whether it answers the location.
+4. **Phonetic Encoding Bug**: Spelling "attic" as it sounds in a Hindi-accented English (e.g., "atik" or "atic"), which may be marked wrong depending on the strictness of the evaluator.
+
+Step 3: Student population considerations
+Grade 6 students from low-resource backgrounds often struggle with the transition from rote memorization to extracting information from unseen or semi-familiar texts. In an open-ended format without multiple-choice cues, the "recall" burden is high. For Hindi-medium students, the preposition "in the" and the specific vocabulary "attic" (a concept/word not common in Indian architectural vernacular) present significant cognitive load hurdles.
+
+Step 4: Holistic estimate
+The reliance on a specific vocabulary word ("attic") that is often culturally unfamiliar, combined with the English-language requirement for a population that predominantly thinks in Hindi, creates a high probability of failure at both the decoding and encoding stages.
+
+0.38

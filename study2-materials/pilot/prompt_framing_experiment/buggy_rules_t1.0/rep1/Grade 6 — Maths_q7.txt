@@ -1,0 +1,18 @@
+Step 1: Procedural steps:
+1. Determine the time elapsed between 10:00 am and 4:00 pm (6 hours).
+2. Calculate the total temperature increase by multiplying the hourly rate by the number of hours (2°C/hr × 6 hrs = 12°C).
+3. Add the total increase to the initial temperature (30°C + 12°C = 42°C).
+
+Step 2: Potential "buggy rules" and cognitive obstacles:
+- **Elapsed Time Error (12-hour wrap-around):** Students may calculate $10 - 4 = 6$ by accident or struggle with the transition from AM to PM, potentially resulting in 2 hours (counting 10 to 12) or 14 hours (misinterpreting the clock cycle).
+- **Linearity/Operation Bug:** Misinterpreting "increases by 2 per hour" as a constant addition of only 2 (result 32) or multiplying the time *by* the initial temperature.
+- **Unit/Language Confusion:** For Hindi-medium students, the phrase "4:00 in the evening" might be mentally translated but requires bridging the gap between colloquial time and the arithmetic 24-hour logic needed for subtraction.
+- **The "Off-by-one" Bug:** Counting 10, 11, 12, 1, 2, 3, 4 as 7 hours instead of 6 intervals.
+
+Step 3: Population context:
+Grade 6 students from economically weaker sections often have high proficiency in "street mathematics" (oral calculation) but struggle with formal school arithmetic when presented in English. The open-ended format removes the possibility of "back-solving" from options. The reliance on the "Elapsed Time" step is a notorious bottleneck in Indian primary math pedagogy.
+
+Step 4: Holistic Analysis:
+While the multiplication and addition are relatively simple (single/double digit), the multi-step nature of the problem acts as a filter. The primary "killer" sub-step is correctly identifying the 6-hour duration across the AM/PM meridian.
+
+0.35
