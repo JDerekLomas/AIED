@@ -228,7 +228,7 @@ Grouping prompts by their 2$\times$2 factor membership (Table~\ref{tab:prompts})
 
 Grouping by 2$\times$2 factor membership: item analysis only achieves mean $\rho=0.61$ (4 prompts), item + population $\rho=0.59$ (5 prompts), neither (baseline) $\rho=0.52$ (3 prompts), and population only $\rho=0.47$ (4 prompts). This parallels Embretson's~\cite{embretson1998} cognitive design system, where item difficulty is predicted from counts of processing steps and working memory demands. The LLM operationalizes similar constructs when directed to enumerate prerequisites or interacting elements.
 
-Population modeling alone is unreliable. Explicit student simulation (synthetic\_students: $\rho=0.19$) performs worst, consistent with Li, Chen et al.'s~\cite{lichen2025} finding that proficiency simulation does not reliably improve difficulty estimation.
+The critical distinction is \emph{item-centric} vs.\ \emph{population-centric} framing. Hybrid prompts like buggy\_rules ($\rho=0.66$) succeed because ``identify procedural errors students might make'' is fundamentally item analysis---it asks what error paths the item affords, not how a simulated population would respond. Population modeling \emph{alone} is unreliable: explicit student simulation (synthetic\_students: $\rho=0.19$) performs worst, consistent with Li, Chen et al.'s~\cite{lichen2025} finding that proficiency simulation does not reliably improve difficulty estimation. Framing analysis through student behavior works; simulating student populations does not.
 
 \subsection{What Doesn't Matter}
 
@@ -332,7 +332,7 @@ Three limitations warrant mention. First, all 15 prompts were screened on a sing
 %% ============================================================
 \section{Conclusion}
 
-We mapped the design space for LLM item difficulty estimation across 15~prompts, 7~models, and 3~datasets (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Item analysis prompts that enumerate structural features (prerequisites, cognitive load, error paths) achieve $\rho=0.65$--$0.69$ on open-ended items, but this advantage attenuates on MCQs ($\rho\approx0.45$--$0.58$), where simple teacher judgment nearly matches. Prompt design is the primary lever; model size, temperature, and deliberation each contribute $\le 0.05$~$\rho$. Rankings transfer across datasets but calibration does not---at \textasciitilde\$0.05 per item, LLM estimates can triage items into difficulty bands, but absolute predictions require population-specific adjustment. Methodologically, correlations from $<$50 items are unreliable, and unbalanced hyperparameter sweeps produce Simpson's paradox artifacts; we recommend two-stage sequential DOE.
+We mapped the design space for LLM item difficulty estimation across 15~prompts, 6~models, and 3~datasets (\textasciitilde250 conditions, \textasciitilde\$80 in API calls). Item analysis prompts that enumerate structural features (prerequisites, cognitive load, error paths) achieve $\rho=0.65$--$0.69$ on open-ended items, but this advantage attenuates on MCQs ($\rho\approx0.45$--$0.58$), where simple teacher judgment nearly matches. Prompt design is the primary lever; model size, temperature, and deliberation each contribute $\le 0.05$~$\rho$. Rankings transfer across datasets but calibration does not---at \textasciitilde\$0.05 per item, LLM estimates can triage items into difficulty bands, but absolute predictions require population-specific adjustment. Methodologically, correlations from $<$50 items are unreliable, and unbalanced hyperparameter sweeps produce Simpson's paradox artifacts; we recommend two-stage sequential DOE.
 
 \paragraph{Ethics Statement.}
 This study uses anonymized, aggregated student response data. SmartPaper data consists of item-level statistics without individual student identifiers. DBE-KT22 and BEA~2024 are publicly available research datasets. No personally identifiable information was accessed or processed.
@@ -395,9 +395,6 @@ Peters, S., et al.: Text-based approaches to item difficulty modeling: A systema
 \bibitem{razavi2025}
 Razavi, P., Powers, S.J.: Estimating item difficulty using large language models and tree-based ML. arXiv:2504.08804 (2025)
 
-\bibitem{rogoz2024}
-Rogoz, A., Ionescu, R.T.: UnibucLLM: Harnessing LLMs for automated prediction of item difficulty. In: BEA Workshop, ACL 2024, pp.\ 493--502 (2024)
-
 \bibitem{scarlatos2025}
 Scarlatos, A., et al.: SMART: Simulated students aligned with IRT for question difficulty prediction. In: EMNLP 2025, pp.\ 25071--25094 (2025)
 
@@ -417,5 +414,82 @@ Yaneva, V., et al.: Findings from the first shared task on automated prediction 
 Zotos, L., van~Rijn, H., Nissim, M.: Are you doubtful? Exploring model uncertainty for difficulty estimation. In: EDM 2025, pp.\ 77--89 (2025)
 
 \end{thebibliography}
+
+%% ============================================================
+\appendix
+\section{Example Prompts}\label{app:prompts}
+
+We show the four prompts discussed in the main text. All prompts share common elements: grade level, subject, question text, rubric, and maximum score. They differ in what analysis they request before the final estimate. Full prompts for all 15 conditions are available in the project repository.
+
+\paragraph{Teacher (baseline).}
+\begin{quote}\small
+\texttt{You are an experienced teacher in [subject] for Grade [N] students in India.}
+
+\texttt{For this open-ended question, estimate what proportion of students would score full marks.}
+
+\texttt{Question: [question\_text]}\\
+\texttt{Rubric: [rubric]}\\
+\texttt{Maximum score: [max\_score]}
+
+\texttt{Think about:}\\
+\texttt{- What specific errors or misunderstandings would cause students to lose marks?}\\
+\texttt{- How clearly does the question communicate what's expected?}\\
+\texttt{- What prerequisite knowledge is needed?}\\
+\texttt{- How likely are students at this grade level to have that knowledge?}
+
+\texttt{Respond with ONLY a number between 0 and 1 representing the proportion of students who would get full marks. For example: 0.45}
+\end{quote}
+
+\paragraph{Prerequisite Chain (KC theory).}
+\begin{quote}\small
+\texttt{[Population context: economically weaker sections, Hindi-medium backgrounds]}
+
+\texttt{For this question, identify the prerequisite knowledge and skills a student needs. Count how many independent things must ALL go right for a correct answer. Each prerequisite is a potential failure point.}
+
+\texttt{Examples of prerequisites: reading comprehension, specific vocabulary, a math operation, a concept definition, multi-step reasoning, writing ability.}
+
+\texttt{[Question, rubric, max score]}
+
+\texttt{List the prerequisites, then estimate what proportion would get full marks.}
+
+\texttt{PREREQUISITES: [list them]}\\
+\texttt{COUNT: [N]}
+
+\texttt{Respond with ONLY a number between 0 and 1 on the last line.}
+\end{quote}
+
+\paragraph{Cognitive Load (CLT).}
+\begin{quote}\small
+\texttt{[Population context]}
+
+\texttt{Rate the element interactivity of this question: how many pieces of information must a student hold in working memory simultaneously to solve it?}
+
+\texttt{Elements include: numbers to manipulate, rules to apply, vocabulary to recall, sentence structures to parse, steps in a procedure, constraints to satisfy.}
+
+\texttt{[Question, rubric, max score]}
+
+\texttt{List the elements, then estimate what proportion would get full marks.}
+
+\texttt{ELEMENTS: [list them]}\\
+\texttt{ELEMENT COUNT: [N]}
+
+\texttt{Respond with ONLY a number between 0 and 1 on the last line.}
+\end{quote}
+
+\paragraph{Buggy Rules (Brown \& Burton).}
+\begin{quote}\small
+\texttt{You are an expert in mathematical cognition and systematic student errors (Brown \& Burton, 1978).}
+
+\texttt{[Population context]}
+
+\texttt{[Question, rubric, max score]}
+
+\texttt{Step 1: List the specific procedural steps a student must execute correctly.}\\
+\texttt{Step 2: For each step, identify any known ``buggy rules''---systematic procedural errors students commonly make (e.g., subtracting smaller from larger regardless of position, forgetting to carry).}\\
+\texttt{Step 3: Consider the target student population (grade level, open-ended format).}\\
+\texttt{Step 4: Taking into account ALL of the above analysis holistically, estimate what proportion of students would produce the fully correct answer.}
+
+\texttt{Respond with ONLY a number between 0 and 1 on the last line.}
+\end{quote}
 
 \end{document}
