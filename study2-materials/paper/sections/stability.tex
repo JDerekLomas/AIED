@@ -1,0 +1,30 @@
+% Replication stability analysis — responds to Reviewer 4
+% "How stable is the rank order of items across three replications?"
+
+\paragraph{Replication Stability.}
+To assess the consistency of LLM-generated difficulty estimates across independent runs,
+we computed Spearman rank-order correlations between all pairs of the three replications
+for each prompt--model--temperature condition.
+Across seven conditions with extractable predictions,
+the mean pairwise inter-replication correlation was $\bar{\rho} = 0.84$
+(range $0.72$--$0.98$).
+The \textsc{teacher} prompt exhibited the highest stability
+($\rho_{\mathrm{inter}} = 0.98$ for screening; $0.97$ for Gemini),
+while more elaborate reasoning prompts such as \textsc{cognitive\_load}
+showed moderate replication noise ($\rho_{\mathrm{inter}} = 0.78$ screening;
+$0.72$ Gemini).
+On average, $30.3\%$ of items shifted rank by more than 20~positions
+(out of 140) between any two replications,
+with the teacher baseline showing the least rank displacement
+(median maximum displacement of 2.0~positions).
+
+Crucially, averaging predictions across three replications consistently
+improved ground-truth correlations relative to any single run:
+the best screening prompt (\textsc{prerequisite\_chain} at $t{=}0.5$)
+rose from single-rep $\rho = 0.63$--$0.67$ to an averaged
+$\rho = 0.69$.
+This confirms that the three-replication design adopted throughout
+our experiments provides a meaningful noise-reduction benefit,
+and that inter-replication variance is a predictable property
+of the prompting strategy rather than a threat to the validity
+of the rank ordering.
