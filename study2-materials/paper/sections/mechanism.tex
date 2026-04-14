@@ -12,7 +12,7 @@ The screening results show \emph{that} directed enumeration prompts outperform b
 Each prerequisite\_chain output contains an explicit \texttt{COUNT: N} field. We extracted counts across all 140~SmartPaper items (averaged over 3~replications) and correlated them with observed $p$-correct (Table~\ref{tab:mechanism}).
 
 \begin{table}[t]
-\caption{Correlations between enumerated counts, model predictions, and ground truth $p$-correct (SmartPaper, $n=140$, Gemini~3~Flash). All values are Spearman's~$\rho$ with 95\% bootstrap CIs.}\label{tab:mechanism}
+\caption{Correlations between enumerated counts, model predictions, and ground truth $p$-correct (SmartPaper, $n=140$, Gemini~3~Flash, screening conditions at best temperature per prompt). All values are Spearman's~$\rho$ with 95\% bootstrap CIs.}\label{tab:mechanism}
 \centering\footnotesize
 \begin{tabular}{@{}lrrr@{}}
 \toprule
@@ -96,11 +96,11 @@ Llama-3.1-8B    & 4.3 & 1.9 & +0.03  & $-$0.04 \\
 
 Capable models produce 6--7 prerequisites per item with low variance and counts that correlate $\rho = -0.39$ to $-0.46$ with difficulty. Llama-3.1-8B produces fewer, noisier counts (mean 4.3, SD 1.9) with zero count--difficulty correlation, and its final predictions also fail entirely ($\rho = -0.04$). This explains the model$\times$prompt interaction from Section~\ref{sec:results}: structured enumeration requires a model capable of generating pedagogically meaningful decompositions. Below that capability threshold, the decomposition produces noise rather than signal, and the scaffold collapses.
 
-An asymmetry in Table~\ref{tab:count-models} deserves comment: Llama-70B and Scout produce counts with \emph{stronger} difficulty correlations than Gemini ($\rho = -0.46$ vs.\ $-0.39$) yet achieve \emph{weaker} final predictions ($\rho = 0.40$ and $0.35$ vs.\ $0.66$). Generating a good decomposition is necessary but not sufficient---the model must also integrate the decomposition into an accurate estimate, and this integration step is where Gemini excels.
+A notable asymmetry in Table~\ref{tab:count-models} is that Llama-70B and Scout produce counts with \emph{stronger} difficulty correlations than Gemini ($\rho = -0.46$ vs.\ $-0.39$) yet achieve \emph{weaker} final predictions ($\rho = 0.40$ and $0.35$ vs.\ $0.66$). Generating a good decomposition is necessary but not sufficient---the model must also integrate the decomposition into an accurate estimate, and this integration step is where Gemini excels.
 
 \subsection{Qualitative Examination}\label{sec:qualitative}
 
-We examined Gemini's prerequisite lists for a stratified sample of items. These examples are illustrative, not a systematic validity study---that would require domain expert ratings, which we leave to future work. Three cases:
+We examined Gemini's prerequisite lists for items stratified by $p$-correct (easy, hard, and discrepant). These examples are illustrative, not a systematic validity study---that would require domain expert ratings, which we leave to future work. Three cases:
 
 \paragraph{Easy item ($p = 0.59$, 6 prerequisites).} For a Grade~7 English comprehension question (``Why did the king announce a reward?''), the model identifies: reading comprehension, understanding ``why'' questions, vocabulary (``announce,'' ``reward''), text scanning, information retrieval, basic sentence construction. The list is concrete and appropriate for the target population.
 
