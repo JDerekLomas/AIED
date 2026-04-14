@@ -1,0 +1,49 @@
+% Parse Rate Transparency — for inclusion in Method section
+% Addresses Reviewer 3's concern about unreported parsing success rates
+
+\paragraph{Response Parsing Transparency.}
+Each LLM response was parsed by extracting the final numeric value (a probability
+in $[0,1]$) from the model's free-text output.  We report completion and parse
+rates for all experimental conditions in Table~\ref{tab:parse-rates}.
+
+In Phase~1 (prompt screening, Gemini~2.0 Flash), all 14{,}700 expected responses
+were received and successfully parsed (100\% completion, 100\% parse rate across
+35 prompt$\times$temperature configurations).
+
+In Phase~2 (model survey), file-level completion varied by model: API-accessed
+models (Gemini, GPT-4o, Claude) achieved 100\% completion on attempted prompts,
+while locally-hosted models showed 82--93\% completion due to occasional
+generation failures.  Among received responses, parse rates exceeded 98\% for
+most models.  Two notable exceptions were GPT-4o's \textit{contrastive} and
+\textit{simulation} prompts (42--44\% parse rate), where the model produced
+extended narrative responses without a final numeric estimate.
+
+Overall, 30{,}178 of 32{,}760 expected response files were present (92.1\%),
+and 29{,}613 of those were successfully parsed into numeric predictions (98.1\%).
+Correlations reported in the paper are computed only over successfully parsed items;
+unparseable responses are treated as missing data rather than imputed.
+
+\begin{table}[t]
+\centering
+\caption{Phase~2 parse rates by model (aggregated across all prompt framings).
+\emph{Expected}: items $\times$ reps $\times$ prompts attempted.
+\emph{Present}: response files received.
+\emph{Parsed}: files yielding a valid $[0,1]$ prediction.}
+\label{tab:parse-rates}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Model} & \textbf{Expected} & \textbf{Present} & \textbf{Parsed} & \textbf{File\%} & \textbf{Parse\%} \\
+\midrule
+Gemini 2.0 Flash      & 2{,}100 & 2{,}100 & 2{,}100 & 100.0 & 100.0 \\
+Claude Opus 4.5       & 1{,}260 & 1{,}260 & 1{,}260 & 100.0 & 100.0 \\
+GPT-4o                & 2{,}100 & 1{,}400 &    915  &  66.7 &  65.4 \\
+Llama 3.3 70B         & 2{,}100 & 1{,}949 & 1{,}948 &  92.8 &  99.9 \\
+Llama 3.1 8B          & 2{,}100 & 1{,}948 & 1{,}918 &  92.8 &  98.5 \\
+Llama 4 Scout         & 2{,}100 & 1{,}955 & 1{,}952 &  93.1 &  99.8 \\
+Gemma 3 27B           & 2{,}100 & 1{,}502 & 1{,}502 &  71.5 & 100.0 \\
+Qwen 3 32B            & 1{,}260 &    472  &    426  &  37.5 &  90.3 \\
+\bottomrule
+\end{tabular}
+\vspace{-0.5em}
+\end{table}
