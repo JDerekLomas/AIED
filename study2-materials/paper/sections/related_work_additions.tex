@@ -1,0 +1,24 @@
+%% Additional Related Work paragraphs — to integrate into Section 2
+%% Addresses Reviewer 1's list of 5 missing papers
+
+%% Add to "Simulated Classrooms" paragraph or create new "LLM-as-Respondent" paragraph:
+
+\paragraph{LLM-as-Respondent Approaches.}
+A growing body of work uses LLMs to simulate student responses rather than directly estimate difficulty. Liu et al.~\cite{liu2024} find that GPT-3.5 achieves $\rho = 0.87$ calibrating IRT difficulty parameters from 150 simulated responses per model on 20~college algebra items---though with only 20~items, such estimates are highly unstable (cf.\ our finding that $<$50 items yields unreliable correlations). Scarlatos et al.~\cite{scarlatos2025} fine-tune Llama-3.2 with DPO to create ability-aligned simulated students (SMART), achieving $r = 0.67$ on reading comprehension---comparable to our best zero-shot results but requiring training data. Benedetto et al.~\cite{benedetto2024} find that simulation prompts engineered for one model do not transfer to others, consistent with the model$\times$prompt interaction we observe. Srivatsa et al.~\cite{srivatsa2025} place 11~LLMs on an IRT ability scale using NAEP items and find that no model-prompt pair reliably simulates target grade levels across subjects, supporting our finding that population simulation underperforms item analysis. Sauberli et al.~\cite{sauberli2025} evaluate 18~LLMs on NAEP and English proficiency items, reporting weak and inconsistent CTT correlations ($r = 0.32$--$0.56$ in the best case) and conclude that LLMs ``should not be used for piloting educational assessments in a zero-shot setting''---a conclusion our work qualifies by showing that prompt design substantially affects outcomes.
+
+%% New bibliography entries to add:
+
+% \bibitem{liu2024}
+% Liu, Y., Bhandari, S., Pardos, Z.A.: Leveraging LLM-respondents for item evaluation: A psychometric analysis. arXiv:2407.10899 (2024)
+%
+% \bibitem{scarlatos2025}
+% Scarlatos, A., Fernandez, N., Ormerod, C., Lottridge, S., Lan, A.: SMART: Simulated students aligned with item response theory for question difficulty prediction. In: EMNLP 2025, pp.\ 25071--25094 (2025)
+%
+% \bibitem{benedetto2024}
+% Benedetto, L., Aradelli, G., Donvito, A., Lucchetti, A., Cappelli, A., Buttery, P.: Using LLMs to simulate students' responses to exam questions. In: Findings of EMNLP 2024, pp.\ 11351--11368 (2024)
+%
+% \bibitem{srivatsa2025}
+% Srivatsa, K.V.A., Maurya, K.K., Kochmar, E.: Can LLMs reliably simulate real students' abilities in mathematics and reading comprehension? In: BEA Workshop 2025, co-located with ACL (2025)
+%
+% \bibitem{sauberli2025}
+% Sauberli, A., Frassinelli, D., Plank, B.: Do LLMs give psychometrically plausible responses in educational assessments? In: BEA Workshop 2025, co-located with ACL (2025)

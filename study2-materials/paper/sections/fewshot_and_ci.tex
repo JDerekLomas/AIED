@@ -1,0 +1,13 @@
+%% Two paragraphs to integrate into the paper.
+%% 1. Few-shot justification — goes in Method or Discussion
+%% 2. CI honesty — goes in Results, after Table 5
+
+%% ---- FEW-SHOT JUSTIFICATION (Method > Design Space or Discussion > Limitations) ----
+
+\paragraph{Why Few-Shot Prompting Is Excluded.}
+A reviewer notes the omission of few-shot prompting from the design space. We excluded it deliberately for three reasons. First, few-shot difficulty estimation requires exemplar items with known difficulty values---contradicting the zero-shot use case we target, where newly generated items arrive without calibration data. Second, exemplar selection introduces an additional confound (which items, how many, in what order) that would expand the design space beyond our budget to systematically explore. Third, with long item texts and rubrics, few-shot prompts approach context limits on smaller models and substantially increase per-item cost. Few-shot prompting is a natural next step for settings where some calibrated items are available, and we expect it would improve absolute calibration even if rank-order gains are modest.
+
+%% ---- CONFIDENCE INTERVAL HONESTY (Results, Section 5.1) ----
+
+\paragraph{Interpreting the Rankings.}
+With 140 items, the 95\% confidence interval for $\rho = 0.69$ spans [.58, .78]---a width of 0.20. As a result, adjacent prompts in Table~\ref{tab:screening} are \emph{not} reliably distinguishable: the top-ranked prerequisite\_chain ($\rho = 0.69$, CI [.58, .78]) overlaps substantially with the tenth-ranked teacher ($\rho = 0.56$, CI [.42, .66]). Our primary claims are therefore at the \textbf{group level}: item-analysis prompts as a class ($\bar{\rho} = 0.61$, 5~prompts) outperform population-only prompts as a class ($\bar{\rho} = 0.47$, 4~prompts). The ANOVA effect size for this grouping ($\eta^2 = 0.31$) is robust; the ranking of individual prompts within a group should be treated as suggestive, not definitive. Distinguishing individual prompts at $p < .05$ would require approximately 400+ items per prompt---a scale we achieved only on the BEA dataset, where all three tested prompts converged to $\rho \approx 0.45$.

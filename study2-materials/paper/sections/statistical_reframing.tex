@@ -1,0 +1,77 @@
+%% ============================================================
+%% Statistical Reframing Notes
+%% These are revision notes for rewriting Results sections, not a standalone section.
+%% The key changes to make throughout the paper:
+%% ============================================================
+
+%% PROBLEM (from R3):
+%% prerequisite_chain rho=0.686 [.576,.775] overlaps with teacher rho=0.555 [.422,.664]
+%% We cannot claim individual prompt X beats individual prompt Y.
+%%
+%% HONEST FRAMING:
+%% The finding is GROUP-level: item-analysis prompts as a class outperform
+%% population-only prompts as a class. Within groups, individual prompts
+%% are not reliably distinguishable.
+%%
+%% CHANGES NEEDED:
+%%
+%% 1. Abstract: Change "Prompts directing the model to enumerate structural
+%%    features achieve rho=0.65--0.69" to frame as group-level finding.
+%%    Keep the range but add "as a class" or similar qualifier.
+%%
+%% 2. Section 5.1 title: "Item Analysis Prompts Achieve rho=0.65--0.69"
+%%    is fine as a group-level claim (it's about the class of prompts).
+%%    But the text should note that individual prompts within this group
+%%    are not reliably distinguishable from each other.
+%%
+%% 3. Table 5 (screening): Add a note that CIs overlap substantially
+%%    between adjacent ranks. The ranking is a point estimate ordering,
+%%    not a statistically significant ordering.
+%%
+%% 4. Contributions paragraph: Reframe (2) from individual prompt claims
+%%    to the group-level distinction (item-centric vs population-centric).
+%%
+%% 5. Table 6 (generalization): R2's concern about "best temperature per
+%%    dataset" is valid. Add a column showing fixed t=1.0 results alongside.
+%%    The main claims should use fixed temperature; best-temperature results
+%%    are supplementary showing the ceiling.
+%%
+%% 6. Add explicit paragraph in Results or Method:
+%%    "With 140 items, the 95% CI for rho=0.69 spans [.58, .78]---a width
+%%    of 0.20. Individual prompt rankings should be interpreted as point
+%%    estimates, not as evidence of reliable differences between similarly-
+%%    performing prompts. Our primary claims are at the group level:
+%%    item-analysis prompts as a class vs. population-only prompts as a class."
+%%
+%% 7. Discussion "Methodological Recommendations": Add sample size guidance
+%%    for distinguishing individual prompts. With 140 items, two prompts
+%%    must differ by ~0.15 rho to be distinguishable at p<.05.
+
+%% TEMPERATURE REFRAMING:
+%%
+%% Current Table 6 uses "best temperature per dataset" which R2 rightly
+%% flags as overfitting. For a real application, you don't have ground truth
+%% to select the best temperature.
+%%
+%% Fix: Primary results at fixed t=1.0 (the default). Show best-temperature
+%% results in a supplementary column labeled "oracle temperature" to make
+%% clear this is an upper bound, not a practical recommendation.
+%%
+%% For the BEA comparison specifically: our calibrated results used the
+%% training set for calibration, which is legitimate. But temperature
+%% selection on the test set is not. Report the t=1.0 BEA result as primary.
+
+%% FEW-SHOT PROMPTING (R2):
+%%
+%% R2 asks why few-shot is omitted from the design space. Honest answer:
+%% (1) Few-shot requires exemplar items with known difficulty, which
+%%     contradicts the zero-shot use case we target (new items without
+%%     calibration data).
+%% (2) Exemplar selection introduces a confound: which items you show
+%%     as examples affects the estimate, creating a new design dimension
+%%     we could not systematically explore within budget.
+%% (3) Practical note: with long item texts + rubrics, few-shot prompts
+%%     approach context limits and significantly increase per-item cost.
+%%
+%% Add a paragraph in Method or Discussion acknowledging this gap and
+%% the reasons for the design choice.

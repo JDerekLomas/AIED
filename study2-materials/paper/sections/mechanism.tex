@@ -1,0 +1,109 @@
+%% ============================================================
+%% Section: Mechanism Analysis
+%% Insert between Results and Discussion
+%% ============================================================
+
+\section{What Explains the Enumeration Advantage?}\label{sec:mechanism}
+
+The screening results show \emph{that} directed enumeration prompts outperform baselines. This section asks \emph{why}, analyzing the raw text outputs from prerequisite\_chain, cognitive\_load, and buggy\_rules to determine what role the enumerated features play in the model's estimates.
+
+\subsection{Do Enumerated Counts Carry Difficulty Signal?}\label{sec:count-signal}
+
+Each prerequisite\_chain output contains an explicit \texttt{COUNT: N} field. We extracted counts across all 140~SmartPaper items (averaged over 3~replications) and correlated them with observed $p$-correct (Table~\ref{tab:mechanism}).
+
+\begin{table}[t]
+\caption{Correlations between enumerated counts, model predictions, and ground truth $p$-correct (SmartPaper, $n=140$, Gemini~3~Flash). All values are Spearman's~$\rho$ with 95\% bootstrap CIs.}\label{tab:mechanism}
+\centering\footnotesize
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+& Count $\to$ GT & Prediction $\to$ GT & Count $\to$ Prediction \\
+\midrule
+prerequisite\_chain & $-$0.36 [$-$.50, $-$.20] & +0.69 [+.59, +.77] & $-$0.48 [$-$.61, $-$.32] \\
+cognitive\_load     & $-$0.25 [$-$.40, $-$.09] & +0.67 [+.56, +.78] & $-$0.33 [$-$.48, $-$.16] \\
+buggy\_rules (total)& $-$0.01 [$-$.17, +.16] & +0.66 [+.54, +.75] & $-$0.01 [$-$.18, +.16] \\
+\addlinespace
+teacher (baseline)  & \multicolumn{1}{c}{---} & +0.55 [+.40, +.67] & \multicolumn{1}{c}{---} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Prerequisite counts weakly predict difficulty ($\rho = -0.36$): items with more identified prerequisites are harder. Cognitive load counts show a weaker signal ($\rho = -0.25$). But buggy rule counts show \emph{no} relationship with difficulty ($\rho = -0.01$)---despite buggy\_rules achieving $\rho = 0.66$ overall.
+
+This dissociation complicates a simple ``counting features predicts difficulty'' story. For prerequisite\_chain, the enumeration produces a byproduct (a count) that correlates with difficulty. For buggy\_rules, the enumeration improves the estimate while the count itself carries no signal. The common factor across all three prompts is the \emph{process} of structured decomposition, not the \emph{product}.
+
+\subsection{The Count Is a Byproduct, Not the Mechanism}\label{sec:mediation}
+
+If models were mapping counts to estimates, controlling for the count should eliminate the prediction--ground-truth correlation. We tested this with partial correlations (Table~\ref{tab:mediation}).
+
+\begin{table}[t]
+\caption{Partial correlations: does the model add information beyond the count?}\label{tab:mediation}
+\centering\footnotesize
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Prompt & $r$(pred, GT $|$ count) & $r$(count, GT $|$ pred) \\
+\midrule
+prerequisite\_chain & +0.63 & $-$0.05 \\
+cognitive\_load     & +0.65 & $-$0.04 \\
+buggy\_rules        & +0.66 & +0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Controlling for count, the prediction retains nearly all its power ($r = 0.63$--$0.66$). Controlling for the prediction, the count adds nothing ($r \approx 0$). Whatever information the count captures is entirely subsumed by the model's holistic estimate.
+
+Two interpretations are consistent with this evidence. First, the model may integrate the \emph{content} of the enumerated features---not just how many prerequisites, but which ones, and how they interact. Second, the decomposition may simply shift the model into an analytical processing mode that produces better estimates regardless of what specifically gets enumerated. We cannot distinguish these from the current data. What we can say is that the active ingredient is the structured decomposition process---instructing the model to break items into components before estimating---rather than any particular count or feature.
+
+\subsection{The Count--Difficulty Relationship Is Monotonic}\label{sec:calibration}
+
+Despite the count not being the mechanism, it tracks difficulty in the expected direction. Binning items by prerequisite count (Table~\ref{tab:bins}):
+
+\begin{table}[t]
+\caption{Mean $p$-correct by prerequisite count bin (SmartPaper, Gemini~3~Flash).}\label{tab:bins}
+\centering\footnotesize
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Count bin & $n$ items & Mean $p$-correct & SD \\
+\midrule
+4--5 prerequisites & 9 & 0.53 & 0.10 \\
+6--7 prerequisites & 107 & 0.28 & 0.16 \\
+8+ prerequisites   & 24 & 0.26 & 0.12 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Items with 4--5 prerequisites are roughly twice as easy as items with 6+. But the relationship compresses above 7 prerequisites: additional complexity does not linearly increase difficulty. The same pattern holds for cognitive load elements (4--5: $p = 0.37$; 6--7: $p = 0.29$; 8+: $p = 0.26$). This compression is consistent with floor effects in item difficulty---once an item demands enough independent competencies, most students in the population fail regardless.
+
+Note that 107 of 140 items (76\%) fall in the 6--7 prerequisite bin, suggesting the model has limited count resolution. The prediction's superiority over the count likely reflects finer-grained distinctions within this large bin---distinctions captured by the content of the decomposition rather than the count.
+
+\subsection{Enumeration Quality Depends on Model Capability}\label{sec:cross-model}
+
+The cross-model comparison reveals that not all models produce useful decompositions (Table~\ref{tab:count-models}).
+
+\begin{table}[t]
+\caption{Prerequisite count characteristics by model. Models that produce meaningful counts (negative count$\to$GT correlation) also produce better final predictions.}\label{tab:count-models}
+\centering\footnotesize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Model & Mean count & SD & Count $\to$ GT $\rho$ & Pred $\to$ GT $\rho$ \\
+\midrule
+Gemini 3 Flash  & 6.8 & 0.8 & $-$0.39 & +0.66 \\
+Llama-3.3-70B   & 6.9 & 1.2 & $-$0.46 & +0.40 \\
+Llama-4-Scout   & 7.1 & 1.3 & $-$0.39 & +0.35 \\
+Llama-3.1-8B    & 4.3 & 1.9 & +0.03  & $-$0.04 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Capable models produce 6--7 prerequisites per item with low variance and counts that correlate $\rho = -0.39$ to $-0.46$ with difficulty. Llama-3.1-8B produces fewer, noisier counts (mean 4.3, SD 1.9) with zero count--difficulty correlation, and its final predictions also fail entirely ($\rho = -0.04$). This explains the model$\times$prompt interaction from Section~\ref{sec:results}: structured enumeration requires a model capable of generating pedagogically meaningful decompositions. Below that capability threshold, the decomposition produces noise rather than signal, and the scaffold collapses.
+
+An asymmetry in Table~\ref{tab:count-models} deserves comment: Llama-70B and Scout produce counts with \emph{stronger} difficulty correlations than Gemini ($\rho = -0.46$ vs.\ $-0.39$) yet achieve \emph{weaker} final predictions ($\rho = 0.40$ and $0.35$ vs.\ $0.66$). Generating a good decomposition is necessary but not sufficient---the model must also integrate the decomposition into an accurate estimate, and this integration step is where Gemini excels.
+
+\subsection{Qualitative Examination}\label{sec:qualitative}
+
+We examined Gemini's prerequisite lists for a stratified sample of items. These examples are illustrative, not a systematic validity study---that would require domain expert ratings, which we leave to future work. Three cases:
+
+\paragraph{Easy item ($p = 0.59$, 6 prerequisites).} For a Grade~7 English comprehension question (``Why did the king announce a reward?''), the model identifies: reading comprehension, understanding ``why'' questions, vocabulary (``announce,'' ``reward''), text scanning, information retrieval, basic sentence construction. The list is concrete and appropriate for the target population.
+
+\paragraph{Hard item ($p = 0.05$, 7 prerequisites).} For a Grade~8 English question asking students to identify the theme of a poem, the model adds prerequisites absent from the easy item: \emph{abstract reasoning} from literal narrative to symbolic meaning, the concept of ``theme'' as distinct from summary, \emph{synthesis} across four stanzas, and cultural bridging between philosophical concepts and lived experience. Whether these specific prerequisites are the \emph{right} ones is debatable, but the model correctly identifies that this item demands qualitatively different cognitive operations.
+
+\paragraph{Instructive failure ($p = 0.40$, 9 prerequisites).} For ``Solve $4x + 2 = 10$'' (Grade~7), the model lists 9 prerequisites: reading comprehension, variable concept, inverse operations (subtraction and division), integer arithmetic, and multi-step reasoning. The count overestimates difficulty because the model decomposes the item into atomic cognitive steps appropriate for a na\"{i}ve learner, ignoring that students at this curricular stage have typically practiced linear equations to automaticity. This reveals the method's fundamental limitation: \textbf{it estimates difficulty from structural complexity visible in the item text, not from the population's preparedness}. These diverge whenever students have practiced a procedure to fluency, or conversely, when an item's difficulty stems from factors invisible in the text (prior exposure, test anxiety, language barriers beyond what the model can infer).
